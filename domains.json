@@ -1,65 +1,302 @@
 [
   {
-    "slug": "automobile",
-    "title": "automobile",
-    "sources": 204,
-    "subgenres": 11,
-    "entities": 0,
-    "claims": 0,
-    "updated_at": "2026-03-13T07:02:47.131409Z"
+    "slug": "antenna",
+    "title": "antenna",
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 1058,
+    "claims": 77,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:36:05.556083Z"
   },
   {
     "slug": "battery",
     "title": "battery",
-    "sources": 1003,
-    "subgenres": 14,
-    "entities": 8,
-    "claims": 40,
-    "updated_at": "2026-03-13T07:33:22.677233Z"
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 860,
+    "claims": 88,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T04:43:17.561875Z"
   },
   {
     "slug": "catalyst",
     "title": "catalyst",
-    "sources": 200,
-    "subgenres": 11,
-    "entities": 0,
-    "claims": 0,
-    "updated_at": "2026-03-13T06:52:20.673212Z"
+    "sources": 1001,
+    "subgenres": 12,
+    "entities": 1028,
+    "claims": 50,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:22:14.312867Z"
   },
   {
-    "slug": "energy",
-    "title": "energy",
-    "sources": 261,
-    "subgenres": 12,
-    "entities": 0,
+    "slug": "collagen",
+    "title": "collagen",
+    "sources": 1012,
+    "subgenres": 2,
+    "entities": 190,
     "claims": 0,
-    "updated_at": "2026-03-13T06:42:18.848567Z"
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:24:35.234994Z"
+  },
+  {
+    "slug": "drug-delivery",
+    "title": "drug delivery",
+    "sources": 1016,
+    "subgenres": 3,
+    "entities": 191,
+    "claims": 2,
+    "abstraction_label": "0.144",
+    "updated_at": "2026-03-15T06:31:39.884790Z"
+  },
+  {
+    "slug": "ecology",
+    "title": "ecology",
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 1400,
+    "claims": 2,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:57:52.094864Z"
+  },
+  {
+    "slug": "economics",
+    "title": "economics",
+    "sources": 1001,
+    "subgenres": 12,
+    "entities": 1465,
+    "claims": 6,
+    "abstraction_label": "0.27",
+    "updated_at": "2026-03-15T05:53:46.959143Z"
+  },
+  {
+    "slug": "electrolyte",
+    "title": "electrolyte",
+    "sources": 1003,
+    "subgenres": 12,
+    "entities": 1008,
+    "claims": 57,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:22:50.850094Z"
+  },
+  {
+    "slug": "energy-storage",
+    "title": "energy storage",
+    "sources": 1014,
+    "subgenres": 10,
+    "entities": 194,
+    "claims": 0,
+    "abstraction_label": "0.144",
+    "updated_at": "2026-03-15T06:29:17.350035Z"
+  },
+  {
+    "slug": "fuel-cell",
+    "title": "fuel cell",
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 916,
+    "claims": 66,
+    "abstraction_label": "0.144",
+    "updated_at": "2026-03-15T05:08:10.142028Z"
+  },
+  {
+    "slug": "graphene",
+    "title": "graphene",
+    "sources": 1000,
+    "subgenres": 11,
+    "entities": 981,
+    "claims": 42,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:13:55.727729Z"
+  },
+  {
+    "slug": "immunology",
+    "title": "immunology",
+    "sources": 1001,
+    "subgenres": 6,
+    "entities": 1286,
+    "claims": 0,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:05:54.376191Z"
+  },
+  {
+    "slug": "materials-science",
+    "title": "materials science",
+    "sources": 1000,
+    "subgenres": 7,
+    "entities": 1545,
+    "claims": 0,
+    "abstraction_label": "0.27",
+    "updated_at": "2026-03-15T06:09:41.798191Z"
   },
   {
     "slug": "mechanics",
     "title": "mechanics",
-    "sources": 235,
-    "subgenres": 10,
-    "entities": 0,
+    "sources": 1001,
+    "subgenres": 12,
+    "entities": 1589,
     "claims": 0,
-    "updated_at": "2026-03-13T06:44:13.174698Z"
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T04:55:57.330452Z"
+  },
+  {
+    "slug": "membrane",
+    "title": "membrane",
+    "sources": 1005,
+    "subgenres": 12,
+    "entities": 1588,
+    "claims": 0,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:45:17.387670Z"
+  },
+  {
+    "slug": "nanoparticle",
+    "title": "nanoparticle",
+    "sources": 1009,
+    "subgenres": 4,
+    "entities": 192,
+    "claims": 3,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:26:04.419715Z"
+  },
+  {
+    "slug": "neuroscience",
+    "title": "neuroscience",
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 1277,
+    "claims": 5,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:49:21.331856Z"
+  },
+  {
+    "slug": "perovskite",
+    "title": "perovskite",
+    "sources": 1001,
+    "subgenres": 11,
+    "entities": 755,
+    "claims": 426,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:18:25.715400Z"
+  },
+  {
+    "slug": "pharmacology",
+    "title": "pharmacology",
+    "sources": 1001,
+    "subgenres": 6,
+    "entities": 1654,
+    "claims": 10,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T06:02:25.989068Z"
   },
   {
     "slug": "psychology",
     "title": "psychology",
-    "sources": 1034,
-    "subgenres": 8,
-    "entities": 0,
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 1144,
     "claims": 0,
-    "updated_at": "2026-03-13T07:34:45.933522Z"
+    "abstraction_label": "0.27",
+    "updated_at": "2026-03-15T04:59:56.614974Z"
+  },
+  {
+    "slug": "quantum-dot",
+    "title": "quantum dot",
+    "sources": 1007,
+    "subgenres": 9,
+    "entities": 185,
+    "claims": 0,
+    "abstraction_label": "0.144",
+    "updated_at": "2026-03-15T06:27:43.161844Z"
+  },
+  {
+    "slug": "renewable-energy",
+    "title": "renewable energy",
+    "sources": 1016,
+    "subgenres": 2,
+    "entities": 192,
+    "claims": 3,
+    "abstraction_label": "0.144",
+    "updated_at": "2026-03-15T06:30:22.153126Z"
+  },
+  {
+    "slug": "robot",
+    "title": "robot",
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 1135,
+    "claims": 2,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:26:39.370440Z"
   },
   {
     "slug": "semiconductor",
     "title": "semiconductor",
-    "sources": 226,
+    "sources": 1000,
+    "subgenres": 11,
+    "entities": 1291,
+    "claims": 12,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T04:51:59.471919Z"
+  },
+  {
+    "slug": "sensor",
+    "title": "sensor",
+    "sources": 1004,
     "subgenres": 10,
-    "entities": 0,
-    "claims": 0,
-    "updated_at": "2026-03-13T06:45:57.040434Z"
+    "entities": 1753,
+    "claims": 13,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T04:47:52.305442Z"
+  },
+  {
+    "slug": "solar-cell",
+    "title": "solar cell",
+    "sources": 1000,
+    "subgenres": 11,
+    "entities": 763,
+    "claims": 1278,
+    "abstraction_label": "0.144",
+    "updated_at": "2026-03-15T05:13:01.376862Z"
+  },
+  {
+    "slug": "supercapacitor",
+    "title": "supercapacitor",
+    "sources": 1000,
+    "subgenres": 12,
+    "entities": 628,
+    "claims": 445,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:17:29.085555Z"
+  },
+  {
+    "slug": "transistor",
+    "title": "transistor",
+    "sources": 1002,
+    "subgenres": 12,
+    "entities": 933,
+    "claims": 187,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:40:58.772030Z"
+  },
+  {
+    "slug": "turbine",
+    "title": "turbine",
+    "sources": 1004,
+    "subgenres": 12,
+    "entities": 1169,
+    "claims": 13,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:31:05.208816Z"
+  },
+  {
+    "slug": "vaccine",
+    "title": "vaccine",
+    "sources": 1003,
+    "subgenres": 12,
+    "entities": 937,
+    "claims": 47,
+    "abstraction_label": "0.18",
+    "updated_at": "2026-03-15T05:04:03.382435Z"
   }
 ]
