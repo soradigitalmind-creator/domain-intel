@@ -40,14 +40,9 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <main className="page-shell">
       <section className={styles.hero}>
-        <Link href="/" className={styles.back}>
-          ← All categories
-        </Link>
+        <p className={styles.crumb}>Home › {category.label}</p>
         <h1 className={styles.title}>{category.label}</h1>
         <p className={styles.copy}>{category.description}</p>
-        <p className={styles.meta}>
-          {category.count.toLocaleString()} domain{category.count === 1 ? "" : "s"}
-        </p>
       </section>
 
       <section className={styles.section}>
@@ -56,20 +51,12 @@ export default async function CategoryPage({ params }: Props) {
             {category.domains.map((d) => (
               <Link key={d.slug} href={`/domains/${d.slug}`} className={styles.card}>
                 <strong className={styles.cardTitle}>{d.title}</strong>
-                <span className={styles.cardMeta}>Research domain</span>
-                <span className={styles.cardCta}>Open domain →</span>
               </Link>
             ))}
           </div>
         ) : (
           <p className={styles.empty}>No domains are listed in this category yet.</p>
         )}
-
-        <p style={{ marginTop: "24px" }}>
-          <Link href="/domains" className={styles.back}>
-            View complete domain index →
-          </Link>
-        </p>
       </section>
     </main>
   );

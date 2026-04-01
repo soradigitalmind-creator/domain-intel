@@ -10,67 +10,33 @@ export const metadata: Metadata = {
 
 export default async function DomainsIndexPage() {
   const domains = await listDomains();
-  const featured = domains.slice(0, 6);
 
   return (
     <main className="page-shell">
       <section className={styles.hero}>
-        <p className={styles.eyebrow}>Domain index</p>
         <h1 className={styles.title}>All domains</h1>
-        <p className={styles.copy}>
-          Explore every domain in the catalog. Each entry links to topic maps, paper shelves, and
-          structured summaries built from the published site data.
-        </p>
-        <div className={styles.linkRow}>
-          <Link href="/" className={`${styles.pill} ${styles.pillPrimary}`}>
-            Back to categories
+        <p className={styles.copy}>A complete index of research domains.</p>
+      </section>
+
+      <section className={styles.section}>
+        <div className={styles.sectionTop}>
+          <h2 className={styles.sectionTitle}>Index</h2>
+          <Link href="/" className={styles.subtleLink}>
+            Categories
           </Link>
         </div>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Featured</h2>
-        <p className={styles.sectionCopy}>A sample of domains from the index.</p>
-        <div className={styles.grid}>
-          {featured.map((domain) => (
-            <Link
-              key={domain.slug}
-              href={`/domains/${domain.slug}`}
-              className={styles.card}
-            >
-              <strong className={styles.cardTitle}>{domain.title}</strong>
-              <span className={styles.cardMeta}>
-                {domain.sources.toLocaleString()} papers
-              </span>
-              <span className={styles.cardMeta}>
-                {domain.topicCount.toLocaleString()} topics
-              </span>
-              <span className={styles.cardMeta}>
-                Top concepts: {domain.topConcepts.map((item) => item.label).join(", ") || "—"}
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Complete list</h2>
-        <p className={styles.sectionCopy}>
-          Sorted by paper count. Open a domain to browse topics and papers.
-        </p>
         <div className={styles.table}>
           {domains.map((domain) => (
             <div key={domain.slug} className={styles.tableRow}>
               <div>
                 <p className={styles.tableTitle}>{domain.title}</p>
                 <p className={styles.tableMeta}>
-                  {domain.sources.toLocaleString()} papers / {domain.entities.toLocaleString()}{" "}
-                  entities / {domain.claims.toLocaleString()} claims
+                  {domain.sources.toLocaleString()} papers / {domain.topicCount.toLocaleString()} topics
                 </p>
               </div>
               {domain.hasDetail ? (
                 <Link href={`/domains/${domain.slug}`} className={styles.inlineLink}>
-                  Open
+                  View
                 </Link>
               ) : (
                 <span className={styles.pending}>Coming soon</span>
