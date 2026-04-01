@@ -1,209 +1,82 @@
-.backRow {
-  padding-top: 20px;
-}
-
-.backLink {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 14px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.78);
-  color: var(--muted);
-  font-size: 0.84rem;
-  font-weight: 800;
-}
-
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.9fr);
-  gap: 18px;
-  align-items: end;
-  padding: 24px 0 12px;
-}
-
-.heroText {
-  display: grid;
-  gap: 14px;
-}
-
-.eyebrow {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  gap: 10px;
+  padding: 18px 0 14px;
+  border-bottom: 1px solid var(--border);
 }
 
 .title {
   margin: 0;
-  font-size: clamp(2.8rem, 6vw, 5.4rem);
-  line-height: 0.94;
+  font-size: clamp(3.2rem, 7vw, 5.6rem);
+  line-height: 0.9;
   letter-spacing: -0.065em;
 }
 
 .copy {
   margin: 0;
-  max-width: 70ch;
+  max-width: 700px;
   color: var(--muted);
-  line-height: 1.75;
-}
-
-.metricGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.metricCard {
-  display: grid;
-  gap: 8px;
-  padding: 18px;
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 22px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(251, 248, 240, 0.96)),
-    var(--surface);
-  box-shadow: 0 16px 38px rgba(17, 17, 17, 0.06);
-}
-
-.metricLabel,
-.partitionLabel {
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.metricValue,
-.partitionValue {
-  font-size: 1.8rem;
+  line-height: 1.5;
+  font-size: 0.98rem;
   letter-spacing: -0.05em;
 }
 
 .section {
-  margin-top: 26px;
-}
-
-.jumpRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.jumpLink {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: #111111;
-  color: #ffffff;
-  font-size: 0.82rem;
-  font-weight: 800;
-}
-
-.sectionHeader {
-  display: grid;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.sectionTitle {
-  margin: 0;
-  font-size: 1.05rem;
-  letter-spacing: -0.03em;
-}
-
-.sectionCopy {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.65;
-}
-
-.partitionGrid,
-.topicGrid,
-.roleGrid {
-  display: grid;
-  gap: 12px;
-}
-
-.partitionGrid {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-top: 14px;
 }
 
 .topicGrid {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-}
-
-.roleGrid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.partitionCard,
-.topicCard,
-.roleCard {
-  padding: 18px;
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 12px 32px rgba(17, 17, 17, 0.05);
+  gap: 10px;
 }
 
 .topicCard {
   display: grid;
-  gap: 12px;
-}
-
-.topicHeader,
-.roleTop {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
+  align-content: start;
+  gap: 8px;
+  min-height: 192px;
+  padding: 14px 12px 16px;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.035);
 }
 
 .topicTitle {
   margin: 0;
-  font-size: 1rem;
-  letter-spacing: -0.03em;
-}
-
-.topicCount,
-.roleConfidence {
-  color: var(--muted);
-  font-size: 0.8rem;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-.topicSummary,
-.topicMeta,
-.roleMeta {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.65;
   font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
 }
 
-.roleLabel {
-  font-size: 0.96rem;
-  letter-spacing: -0.02em;
+.topicList {
+  display: grid;
+  gap: 6px;
 }
 
-@media (max-width: 920px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
+.topicItem {
+  color: #5f7ee5;
+  font-size: 0.9rem;
+  line-height: 1.28;
+}
 
-  .metricGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.footerLinks {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.footerLink {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 700;
 }
 
 @media (max-width: 640px) {
-  .metricGrid {
-    grid-template-columns: 1fr;
+  .topicCard {
+    min-height: 0;
   }
 }
