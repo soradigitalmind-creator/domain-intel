@@ -1,132 +1,69 @@
-.backRow {
-  padding-top: 20px;
-}
-
-.backLink {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 14px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.78);
-  color: var(--muted);
-  font-size: 0.84rem;
-  font-weight: 800;
-}
-
 .hero {
   display: grid;
-  gap: 16px;
-  padding: 24px 0 12px;
-}
-
-.eyebrow,
-.metricLabel,
-.signalLabel {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  gap: 10px;
+  padding: 18px 0 14px;
+  border-bottom: 1px solid var(--border);
 }
 
 .title {
   margin: 0;
-  font-size: clamp(2.6rem, 5vw, 4.8rem);
-  line-height: 0.95;
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 0.92;
   letter-spacing: -0.06em;
 }
 
-.copy,
-.sectionCopy,
-.signalValue,
-.paperMeta,
-.paperSummary,
-.paperConcepts {
+.copy {
   margin: 0;
   color: var(--muted);
-  line-height: 1.7;
+  line-height: 1.55;
 }
 
-.metricRow,
-.signalGrid,
-.childGrid,
-.paperGrid {
+.childGrid {
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
-.metricRow {
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-}
-
-.metricCard,
-.signalCard,
-.childCard,
-.paperCard {
-  padding: 18px;
+.childCard {
+  padding: 16px 14px 18px;
   border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 12px 32px rgba(17, 17, 17, 0.05);
-}
-
-.metricValue {
-  font-size: 1.8rem;
-  letter-spacing: -0.05em;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.035);
 }
 
 .section {
-  margin-top: 26px;
+  margin-top: 14px;
 }
 
 .sectionTitle {
   margin: 0 0 10px;
-  font-size: 1.05rem;
+  font-size: 0.96rem;
   letter-spacing: -0.03em;
 }
 
-.signalGrid,
 .childGrid {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.paperGrid {
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .childCard {
   display: grid;
   gap: 8px;
+  min-height: 192px;
 }
 
-.childTitle,
-.paperTitle {
+.childTitle {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.94rem;
   letter-spacing: -0.03em;
 }
 
-.childMeta,
-.paperConfidence {
-  color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 800;
-}
-
-.paperCard {
+.childList {
   display: grid;
-  gap: 12px;
+  gap: 6px;
 }
 
-.paperTop {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  align-items: flex-start;
-}
-
-.paperTitle a {
-  color: inherit;
+.childItem {
+  color: #5f7ee5;
+  font-size: 0.9rem;
+  line-height: 1.28;
 }
