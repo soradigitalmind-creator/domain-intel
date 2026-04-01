@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${detail.domain.title} Topics | Domain Intel`,
+    title: `${detail.domain.title} Topics`,
     description: `${detail.hierarchy.rootTopics.toLocaleString()} root topics and ${detail.hierarchy.descendantTopics.toLocaleString()} descendant topics.`,
   };
 }

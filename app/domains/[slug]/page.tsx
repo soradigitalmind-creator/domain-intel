@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${domain.title} | Domain Intel`,
-    description: `${domain.sources.toLocaleString()} papers and ${domain.topicCount.toLocaleString()} topics rendered from workplace JSON.`,
+    title: domain.title,
+    description: `${domain.sources.toLocaleString()} papers and ${domain.topicCount.toLocaleString()} topics — topic map and paper index.`,
   };
 }
 

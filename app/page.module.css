@@ -1,7 +1,7 @@
 .hero {
   display: grid;
   gap: 18px;
-  padding: 32px 0 24px;
+  padding: 28px 0 32px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -16,14 +16,14 @@
 
 .title {
   margin: 0;
-  font-size: clamp(2.8rem, 6vw, 5rem);
-  line-height: 0.95;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
 }
 
 .copy {
   margin: 0;
-  max-width: 760px;
+  max-width: 720px;
   color: var(--muted);
   line-height: 1.7;
   font-size: 0.98rem;
@@ -33,6 +33,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 4px;
 }
 
 .pill {
@@ -54,95 +55,101 @@
 }
 
 .section {
-  margin-top: 22px;
-  padding: 20px 0 0;
+  margin-top: 28px;
+  padding: 8px 0 0;
 }
 
 .sectionTitle {
-  margin: 0 0 8px;
-  font-size: 1rem;
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  font-weight: 800;
   letter-spacing: -0.02em;
 }
 
 .sectionCopy {
-  margin: 0 0 16px;
+  margin: 0 0 18px;
   color: var(--muted);
   line-height: 1.6;
+  font-size: 0.92rem;
 }
 
-.grid {
+.categoryGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.categoryCard {
+  display: flex;
+  flex-direction: column;
   gap: 12px;
-}
-
-.card {
-  display: grid;
-  gap: 10px;
-  padding: 18px;
+  min-height: 160px;
+  padding: 22px 22px 20px;
   border: 1px solid var(--border);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.cardTitle {
+.categoryCard:hover {
+  border-color: rgba(17, 17, 17, 0.22);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.07);
+}
+
+.categoryLabel {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.35rem;
   font-weight: 800;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
 }
 
-.cardMeta {
+.categoryDesc {
+  margin: 0;
+  flex: 1;
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   line-height: 1.55;
 }
 
-.table {
-  display: grid;
-  gap: 10px;
-}
-
-.tableRow {
+.categoryFooter {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
-  padding: 16px 18px;
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.76);
+  gap: 12px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
 }
 
-.tableTitle {
-  margin: 0 0 4px;
-  font-size: 0.98rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.tableMeta {
-  margin: 0;
+.categoryCount {
+  font-size: 0.8rem;
+  font-weight: 700;
   color: var(--muted);
-  font-size: 0.84rem;
-  line-height: 1.55;
 }
 
-.inlineLink,
-.pending {
-  flex: none;
+.categoryCta {
   font-size: 0.82rem;
   font-weight: 800;
+  color: #111111;
 }
 
-.inlineLink {
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: #111111;
-  color: #ffffff;
+.emptyBox {
+  padding: 28px 22px;
+  border: 1px dashed var(--border);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.5);
 }
 
-.pending {
+.emptyTitle {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.emptyCopy {
+  margin: 0 0 16px;
   color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  max-width: 520px;
 }

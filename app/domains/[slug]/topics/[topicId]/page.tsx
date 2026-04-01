@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${detail.topic.label} | ${detail.domain.title} | Domain Intel`,
+    title: `${detail.topic.label} · ${detail.domain.title}`,
     description: `${detail.topic.paper_ids.length.toLocaleString()} papers in ${detail.topic.label}.`,
   };
 }

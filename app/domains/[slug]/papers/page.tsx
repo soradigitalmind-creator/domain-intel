@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${detail.domain.title} Papers | Domain Intel`,
-    description: `${detail.archive.length.toLocaleString()} papers in the React archive view.`,
+    title: `${detail.domain.title} Papers`,
+    description: `${detail.archive.length.toLocaleString()} papers in the archive view.`,
   };
 }
 

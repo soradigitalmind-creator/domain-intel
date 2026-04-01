@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Domain Intel",
-  description: "Research domains rendered as browseable topic maps and paper shelves."
+  title: {
+    default: "Domain Intel",
+    template: "%s | Domain Intel",
+  },
+  description:
+    "Browse research fields by category and explore topic maps, paper collections, and structured summaries for each domain.",
 };
 
 export default function RootLayout({
@@ -13,7 +18,19 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header className="site-header">
+          <div className="site-header-inner page-shell">
+            <Link href="/" className="site-logo">
+              Domain Intel
+            </Link>
+            <nav className="site-nav" aria-label="Main">
+              <Link href="/domains">All domains</Link>
+            </nav>
+          </div>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }

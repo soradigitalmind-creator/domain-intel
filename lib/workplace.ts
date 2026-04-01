@@ -192,15 +192,18 @@ type SiteDomainData = {
   topic_year_counts?: Record<string, Record<string, number>>;
 };
 
-type PortalData = {
+export type PortalCategory = {
+  label: string;
+  slug: string;
+  description: string;
+  count: number;
+  domains: Array<{ slug: string; title: string }>;
+};
+
+export type PortalData = {
+  updated_at?: string;
   total_domains?: number;
-  categories?: Array<{
-    label: string;
-    slug: string;
-    description: string;
-    count: number;
-    domains: Array<{ slug: string; title: string }>;
-  }>;
+  categories?: PortalCategory[];
   domains?: Array<{
     slug: string;
     title: string;
@@ -309,6 +312,26 @@ async function readPortalData(): Promise<PortalData | null> {
     }
   }
   return null;
+}
+
+/** Portal index (`portal-data.json`) for category navigation and counts. */
+export async function getPortalData(): Promise<PortalData | null> {
+  return readPortalData();
+}
+
+export async function listPortalCategories(): Promise<PortalCategory[]> {
+  const portal = await readPortalData();
+  return portal?.categories ?? [];
+}
+
+export async function getCategoryBySlug(categorySlug: string): Promise<PortalCategory | null> {
+  const cats = await listPortalCategories();
+  return cats.find((c) => c.slug === categorySlug) ?? null;
+}
+
+export async function listCategorySlugs(): Promise<string[]> {
+  const cats = await listPortalCategories();
+  return cats.map((c) => c.slug).filter(Boolean).sort((a, b) => a.localeCompare(b));
 }
 
 function titleizeSlug(slug: string): string {

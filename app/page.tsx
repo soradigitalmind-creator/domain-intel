@@ -1,84 +1,75 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { listDomains } from "../lib/workplace";
+import { getPortalData, listPortalCategories } from "../lib/workplace";
 import styles from "./page.module.css";
 
+export const metadata: Metadata = {
+  title: {
+    absolute: "Domain Intel",
+  },
+  description:
+    "Browse research fields by theme: health, earth sciences, engineering, society, and more. Each domain offers topic maps and paper collections.",
+};
+
 export default async function HomePage() {
-  const domains = await listDomains();
-  const featured = domains.slice(0, 6);
+  const categories = await listPortalCategories();
+  const portal = await getPortalData();
+  const totalDomains =
+    typeof portal?.total_domains === "number" && portal.total_domains > 0
+      ? portal.total_domains
+      : portal?.domains?.length ?? 0;
 
   return (
     <main className="page-shell">
       <section className={styles.hero}>
-        <p className={styles.eyebrow}>Next.js Migration</p>
-        <h1 className={styles.title}>Workplace JSON rendered in React</h1>
+        <p className={styles.eyebrow}>Research map catalog</p>
+        <h1 className={styles.title}>Domain Intel</h1>
         <p className={styles.copy}>
-          The pipeline now emits structured site JSON as well as `workplace/*` artifacts.
-          This app prefers the Python-generated `site-data.json` contract and falls back
-          to raw workplace artifacts only when needed.
+          Explore scientific and technical fields through curated domains. Start from a category to
+          see related domains, or open the full index to browse every entry.
         </p>
         <div className={styles.linkRow}>
-          <Link href="/domains/psychiatry" className={`${styles.pill} ${styles.pillPrimary}`}>
-            Open psychiatry in React
-          </Link>
-          <Link href="/domains/climate-change" className={styles.pill}>
-            Open climate change
+          <Link href="/domains" className={`${styles.pill} ${styles.pillPrimary}`}>
+            View all domains
           </Link>
         </div>
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Featured domains</h2>
+        <h2 className={styles.sectionTitle}>Browse by category</h2>
         <p className={styles.sectionCopy}>
-          These cards are rendered from `topic_summary.json`, `subgenres.json`, and
-          `overview_partition_summary.json`.
+          Categories group domains by theme ({totalDomains.toLocaleString()} domain
+          {totalDomains === 1 ? "" : "s"} in the index). Select a card to see domains in that area.
         </p>
-        <div className={styles.grid}>
-          {featured.map((domain) => (
-            <Link
-              key={domain.slug}
-              href={`/domains/${domain.slug}`}
-              className={styles.card}
-            >
-              <strong className={styles.cardTitle}>{domain.title}</strong>
-              <span className={styles.cardMeta}>
-                {domain.sources.toLocaleString()} papers
-              </span>
-              <span className={styles.cardMeta}>
-                {domain.topicCount.toLocaleString()} topics
-              </span>
-              <span className={styles.cardMeta}>
-                Top concepts: {domain.topConcepts.map((item) => item.label).join(", ") || "n/a"}
-              </span>
+
+        {categories.length > 0 ? (
+          <div className={styles.categoryGrid}>
+            {categories.map((cat) => (
+              <Link key={cat.slug} href={`/categories/${cat.slug}`} className={styles.categoryCard}>
+                <h3 className={styles.categoryLabel}>{cat.label}</h3>
+                <p className={styles.categoryDesc}>{cat.description}</p>
+                <div className={styles.categoryFooter}>
+                  <span className={styles.categoryCount}>
+                    {cat.count.toLocaleString()} domain{cat.count === 1 ? "" : "s"}
+                  </span>
+                  <span className={styles.categoryCta}>View →</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div className={styles.emptyBox}>
+            <p className={styles.emptyTitle}>No categories yet</p>
+            <p className={styles.emptyCopy}>
+              The portal index does not list categories yet. You can still browse every domain from
+              the full index, or rebuild the portal data so categories are populated from your domain
+              set.
+            </p>
+            <Link href="/domains" className={`${styles.pill} ${styles.pillPrimary}`}>
+              Open all domains
             </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>All domains</h2>
-        <p className={styles.sectionCopy}>
-          The goal is for this list to be driven entirely by Python-emitted JSON contracts,
-          not HTML pages.
-        </p>
-        <div className={styles.table}>
-          {domains.map((domain) => (
-            <div key={domain.slug} className={styles.tableRow}>
-              <div>
-                <p className={styles.tableTitle}>{domain.title}</p>
-                <p className={styles.tableMeta}>
-                  {domain.sources.toLocaleString()} papers / {domain.entities.toLocaleString()} entities / {domain.claims.toLocaleString()} claims
-                </p>
-              </div>
-              {domain.hasDetail ? (
-                <Link href={`/domains/${domain.slug}`} className={styles.inlineLink}>
-                  Open
-                </Link>
-              ) : (
-                <span className={styles.pending}>Pending detail</span>
-              )}
-            </div>
-          ))}
-        </div>
+          </div>
+        )}
       </section>
     </main>
   );
