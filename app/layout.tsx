@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { HeaderMenu } from "./components/header-menu";
 import "./globals.css";
 
 export const dynamic = "force-static";
@@ -24,9 +25,7 @@ export default function RootLayout({
             <Link href="/" className="site-logo">
               Domain Intel
             </Link>
-            <nav className="site-nav" aria-label="Main">
-              <Link href="/domains">All domains</Link>
-            </nav>
+            <HeaderMenu />
           </div>
         </header>
         {children}

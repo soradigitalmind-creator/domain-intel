@@ -27,13 +27,6 @@ export default async function HomePage() {
       </section>
 
       <section className={styles.section}>
-        <div className={styles.sectionTop}>
-          <h2 className={styles.sectionTitle}>Categories</h2>
-          <Link href="/domains" className={styles.subtleLink}>
-            {totalDomains.toLocaleString()} domains
-          </Link>
-        </div>
-
         {categories.length > 0 ? (
           <div className={styles.categoryGrid}>
             {categories.map((cat) => (

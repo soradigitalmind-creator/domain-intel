@@ -45,12 +45,6 @@ export default async function DomainPage({ params }: Props) {
 
   return (
     <main className="page-shell">
-      <div className={styles.backRow}>
-        <Link href="/" className={styles.backLink}>
-          Back to domains
-        </Link>
-      </div>
-
       <section className={styles.hero}>
         <div className={styles.heroText}>
           <p className={styles.eyebrow}>Site Data Contract</p>

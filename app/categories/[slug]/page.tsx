@@ -40,7 +40,6 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <main className="page-shell">
       <section className={styles.hero}>
-        <p className={styles.crumb}>Home › {category.label}</p>
         <h1 className={styles.title}>{category.label}</h1>
         <p className={styles.copy}>{category.description}</p>
       </section>

@@ -39,12 +39,6 @@ export default async function DomainTopicsPage({ params }: Props) {
 
   return (
     <main className="page-shell">
-      <div className={styles.backRow}>
-        <Link href={`/domains/${slug}`} className={styles.backLink}>
-          Back to {detail.domain.title}
-        </Link>
-      </div>
-
       <section className={styles.hero}>
         <p className={styles.eyebrow}>Topic Atlas</p>
         <h1 className={styles.title}>{detail.domain.title} topics</h1>

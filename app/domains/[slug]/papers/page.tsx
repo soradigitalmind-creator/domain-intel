@@ -39,12 +39,6 @@ export default async function DomainPapersPage({ params }: Props) {
 
   return (
     <main className="page-shell">
-      <div className={styles.backRow}>
-        <Link href={`/domains/${slug}`} className={styles.backLink}>
-          Back to {detail.domain.title}
-        </Link>
-      </div>
-
       <section className={styles.hero}>
         <p className={styles.eyebrow}>Paper Shelves</p>
         <h1 className={styles.title}>{detail.domain.title} papers</h1>

@@ -38,12 +38,6 @@ export default async function TopicPage({ params }: Props) {
 
   return (
     <main className="page-shell">
-      <div className={styles.backRow}>
-        <Link href={`/domains/${slug}`} className={styles.backLink}>
-          Back to {detail.domain.title}
-        </Link>
-      </div>
-
       <section className={styles.hero}>
         <p className={styles.eyebrow}>Topic Detail</p>
         <h1 className={styles.title}>{detail.topic.label}</h1>

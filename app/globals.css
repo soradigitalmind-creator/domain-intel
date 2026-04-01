@@ -47,17 +47,67 @@ body {
   letter-spacing: -0.03em;
 }
 
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 20px;
-  align-items: center;
-  font-size: 0.88rem;
+.site-menu {
+  position: relative;
+}
+
+.site-menu[open] .site-menu-button {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.site-menu-button {
+  display: inline-grid;
+  gap: 4px;
+  width: 42px;
+  padding: 10px 9px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+  list-style: none;
+}
+
+.site-menu-button::-webkit-details-marker {
+  display: none;
+}
+
+.site-menu-button span {
+  display: block;
+  height: 1px;
+  background: var(--text);
+}
+
+.site-menu-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  min-width: 180px;
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.08);
+  z-index: 20;
+}
+
+.site-menu-section {
+  display: grid;
+  gap: 10px;
+}
+
+.site-menu-section + .site-menu-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.site-menu-panel a {
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--muted);
 }
 
-.site-nav a:hover {
+.site-menu-panel a:hover {
   color: var(--text);
 }
 

@@ -38,20 +38,6 @@ export default async function PaperPage({ params }: Props) {
 
   return (
     <main className="page-shell">
-      <div className={styles.backRow}>
-        <Link href={`/domains/${slug}`} className={styles.backLink}>
-          Back to {detail.domain.title}
-        </Link>
-        {detail.paper.primaryTopicId ? (
-          <Link
-            href={`/domains/${slug}/topics/${detail.paper.primaryTopicId}`}
-            className={styles.backLink}
-          >
-            Open primary topic
-          </Link>
-        ) : null}
-      </div>
-
       <section className={styles.hero}>
         <p className={styles.eyebrow}>Paper Detail</p>
         <h1 className={styles.title}>{detail.paper.title}</h1>
