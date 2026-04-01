@@ -1,19 +1,5 @@
-import { existsSync, promises as fs } from "node:fs";
+import { promises as fs } from "node:fs";
 import path from "node:path";
-
-function resolveWorkplaceRoot(): string {
-  const candidates = [
-    process.env.NEXT_WORKPLACE_ROOT,
-    path.join(process.cwd(), "workplace"),
-    path.join(process.cwd(), "..", "workplace"),
-  ].filter((value): value is string => Boolean(value));
-  for (const dir of candidates) {
-    if (existsSync(dir)) {
-      return dir;
-    }
-  }
-  return path.join(process.cwd(), "..", "workplace");
-}
 
 type TopicSummaryRecord = {
   topic_label?: string;
@@ -164,7 +150,6 @@ export type DomainPapersIndex = {
   archive: Array<TopicPaper & { primaryTopicId: string | null; primaryTopicLabel: string | null }>;
 };
 
-const WORKPLACE_ROOT = resolveWorkplaceRoot();
 const SITE_ROOT_CANDIDATES = [
   process.env.NEXT_SITE_DATA_ROOT,
   path.join(process.cwd(), "site-data"),
@@ -204,6 +189,7 @@ type SiteDomainData = {
     year_total?: number;
   }>;
   role_profiles?: DomainDetail["roleProfiles"];
+  topic_year_counts?: Record<string, Record<string, number>>;
 };
 
 type PortalData = {
@@ -231,6 +217,61 @@ type PortalData = {
   }>;
 };
 
+/** All workplace-shaped JSON merged for public deploy (see di_site_index._write_web_bundle). */
+type WebBundle = {
+  version?: number;
+  subgenres: DomainDetail["subgenres"];
+  sources: Array<{
+    source_id: string;
+    title: string;
+    year?: number;
+    url?: string;
+    doi?: string;
+    short_summary?: string;
+    cited_by_count?: number;
+    adjusted_cited_by_count?: number;
+    concepts?: string[];
+    authors?: string[];
+  }>;
+  paper_assignments: Array<{
+    source_id: string;
+    primary_subgenre_id: string;
+    secondary_subgenre_ids: string[];
+    confidence: number;
+    score: number;
+    matched_terms: string[];
+  }>;
+  claims: Array<{
+    source_id: string;
+    property_name: string;
+    value_text: string;
+    unit?: string;
+    evidence_text?: string;
+    confidence?: number;
+    polarity?: string;
+    qualifiers?: string[];
+  }>;
+  entities: Array<{
+    canonical_id: string;
+    canonical_name: string;
+    entity_type: string;
+    source_ids: string[];
+    evidence_count: number;
+  }>;
+  topic_summary: Record<string, TopicSummaryRecord>;
+  overview_partition_summary: {
+    overview_papers?: number;
+    topical_papers?: number;
+    facet_counts?: Record<string, number>;
+  };
+  subgenre_hierarchy_summary: {
+    max_depth?: number;
+    root_topics?: number;
+    descendant_topics?: number;
+    leaf_topics?: number;
+  };
+};
+
 async function readJson<T>(filePath: string): Promise<T | null> {
   try {
     const raw = await fs.readFile(filePath, "utf8");
@@ -250,6 +291,16 @@ async function readSiteDomainData(slug: string): Promise<SiteDomainData | null> 
   return null;
 }
 
+async function readWebBundle(slug: string): Promise<WebBundle | null> {
+  for (const root of SITE_ROOT_CANDIDATES) {
+    const payload = await readJson<WebBundle>(path.join(root, slug, "web-bundle.json"));
+    if (payload?.subgenres?.length) {
+      return payload;
+    }
+  }
+  return null;
+}
+
 async function readPortalData(): Promise<PortalData | null> {
   for (const root of SITE_ROOT_CANDIDATES) {
     const payload = await readJson<PortalData>(path.join(root, "portal-data.json"));
@@ -258,19 +309,6 @@ async function readPortalData(): Promise<PortalData | null> {
     }
   }
   return null;
-}
-
-async function readJsonLines<T>(filePath: string): Promise<T[]> {
-  try {
-    const raw = await fs.readFile(filePath, "utf8");
-    return raw
-      .split("\n")
-      .map((line) => line.trim())
-      .filter(Boolean)
-      .map((line) => JSON.parse(line) as T);
-  } catch {
-    return [];
-  }
 }
 
 function titleizeSlug(slug: string): string {
@@ -297,18 +335,15 @@ function extractTopicSummary(
 }
 
 async function buildDomainSummary(slug: string): Promise<DomainSummary> {
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
-  const [topicSummaryPayload, overviewPayload, subgenresPayload, siteDomainData, portalData] = await Promise.all([
-    readJson<Record<string, TopicSummaryRecord>>(path.join(domainDir, "topic_summary.json")),
-    readJson<{
-      overview_papers?: number;
-      topical_papers?: number;
-      facet_counts?: Record<string, number>;
-    }>(path.join(domainDir, "overview_partition_summary.json")),
-    readJson<Array<{ parent_id: string | null }>>(path.join(domainDir, "subgenres.json")),
+  const [bundle, siteDomainData, portalData] = await Promise.all([
+    readWebBundle(slug),
     readSiteDomainData(slug),
     readPortalData(),
   ]);
+
+  const topicSummaryPayload = bundle?.topic_summary ?? null;
+  const overviewPayload = bundle?.overview_partition_summary ?? null;
+  const subgenresPayload = bundle?.subgenres ?? null;
 
   const topicSummary = extractTopicSummary(slug, topicSummaryPayload);
   const topicCount = subgenresPayload?.length ?? 0;
@@ -328,7 +363,7 @@ async function buildDomainSummary(slug: string): Promise<DomainSummary> {
     overviewPapers: portalOverview?.overview_papers ?? siteOverview?.overview_papers ?? overviewPayload?.overview_papers ?? 0,
     topicalPapers: portalOverview?.topical_papers ?? siteOverview?.topical_papers ?? overviewPayload?.topical_papers ?? topicSummary?.counts?.sources ?? 0,
     facetCounts: portalOverview?.facet_counts ?? siteOverview?.facet_counts ?? overviewPayload?.facet_counts ?? {},
-    hasDetail: Boolean(topicSummaryPayload && subgenresPayload),
+    hasDetail: Boolean(topicSummaryPayload && subgenresPayload?.length),
     abstractionLabel: portalDomain?.abstraction_label ?? siteDomainData?.abstraction?.label,
   };
 }
@@ -341,11 +376,33 @@ export async function listDomainSlugs(): Promise<string[]> {
       .filter(Boolean)
       .sort((a, b) => a.localeCompare(b));
   }
-  const entries = await fs.readdir(WORKPLACE_ROOT, { withFileTypes: true });
-  return entries
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .sort((a, b) => a.localeCompare(b));
+  const slugs: string[] = [];
+  for (const root of SITE_ROOT_CANDIDATES) {
+    try {
+      const entries = await fs.readdir(root, { withFileTypes: true });
+      for (const entry of entries) {
+        if (!entry.isDirectory()) {
+          continue;
+        }
+        if (entry.name === "domains" || entry.name.startsWith(".")) {
+          continue;
+        }
+        const bundlePath = path.join(root, entry.name, "web-bundle.json");
+        try {
+          await fs.access(bundlePath);
+          slugs.push(entry.name);
+        } catch {
+          /* skip */
+        }
+      }
+      if (slugs.length > 0) {
+        return slugs.sort((a, b) => a.localeCompare(b));
+      }
+    } catch {
+      /* try next root */
+    }
+  }
+  return [];
 }
 
 export async function listDomains(): Promise<DomainSummary[]> {
@@ -358,41 +415,70 @@ export async function listDomains(): Promise<DomainSummary[]> {
 }
 
 export async function listPaperIdsForDomain(slug: string): Promise<string[]> {
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
-  const sources = await readJsonLines<{ source_id: string }>(path.join(domainDir, "sources.jsonl"));
-  return sources.map((item) => encodeSourceId(item.source_id));
+  const bundle = await readWebBundle(slug);
+  if (!bundle?.sources?.length) {
+    return [];
+  }
+  return bundle.sources.map((item) => encodeSourceId(item.source_id));
 }
 
 export async function getDomainDetail(slug: string): Promise<DomainDetail | null> {
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
-  const [summary, subgenres, roleProfiles, siteDomainData] = await Promise.all([
+  const [summary, bundle, siteDomainData] = await Promise.all([
     buildDomainSummary(slug),
-    readJson<DomainDetail["subgenres"]>(path.join(domainDir, "subgenres.json")),
-    readJson<DomainDetail["roleProfiles"]>(path.join(domainDir, "role_profiles.json")),
+    readWebBundle(slug),
     readSiteDomainData(slug),
   ]);
 
-  if (!subgenres) {
+  if (!bundle?.subgenres?.length) {
     return null;
   }
 
   return {
     ...summary,
-    subgenres,
-    roleProfiles: siteDomainData?.role_profiles ?? roleProfiles ?? [],
+    subgenres: bundle.subgenres,
+    roleProfiles: siteDomainData?.role_profiles ?? [],
     risingTopics: siteDomainData?.rising_topics ?? [],
-    hierarchy: siteDomainData?.hierarchy ?? {},
+    hierarchy: siteDomainData?.hierarchy ?? bundle.subgenre_hierarchy_summary ?? {},
   };
+}
+
+/** Pre-render paths for `output: "export"` (topic detail pages). */
+export async function listTopicStaticParams(): Promise<Array<{ slug: string; topicId: string }>> {
+  const slugs = await listDomainSlugs();
+  const out: Array<{ slug: string; topicId: string }> = [];
+  for (const slug of slugs) {
+    const detail = await getDomainDetail(slug);
+    if (!detail) {
+      continue;
+    }
+    for (const sg of detail.subgenres) {
+      out.push({ slug, topicId: sg.subgenre_id });
+    }
+  }
+  return out;
+}
+
+/** Pre-render paths for `output: "export"` (paper detail pages). */
+export async function listPaperStaticParams(): Promise<Array<{ slug: string; paperId: string }>> {
+  const slugs = await listDomainSlugs();
+  const out: Array<{ slug: string; paperId: string }> = [];
+  for (const slug of slugs) {
+    const ids = await listPaperIdsForDomain(slug);
+    for (const paperId of ids) {
+      out.push({ slug, paperId });
+    }
+  }
+  return out;
 }
 
 export async function getTopicDetail(
   slug: string,
   topicId: string
 ): Promise<TopicDetail | null> {
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
+  const bundle = await readWebBundle(slug);
   const domain = await getDomainDetail(slug);
 
-  if (!domain) {
+  if (!domain || !bundle) {
     return null;
   }
 
@@ -402,34 +488,10 @@ export async function getTopicDetail(
     return null;
   }
 
-  const [assignments, sources] = await Promise.all([
-    readJson<
-      Array<{
-        source_id: string;
-        primary_subgenre_id: string;
-        secondary_subgenre_ids: string[];
-        confidence: number;
-        score: number;
-        matched_terms: string[];
-      }>
-    >(path.join(domainDir, "paper_assignments.json")),
-    readJsonLines<{
-      source_id: string;
-      title: string;
-      year?: number;
-      url?: string;
-      doi?: string;
-      short_summary?: string;
-      cited_by_count?: number;
-      adjusted_cited_by_count?: number;
-      concepts?: string[];
-    }>(path.join(domainDir, "sources.jsonl")),
-  ]);
-
   const assignmentsBySource = new Map(
-    (assignments ?? []).map((item) => [item.source_id, item] as const)
+    (bundle.paper_assignments ?? []).map((item) => [item.source_id, item] as const)
   );
-  const sourceById = new Map(sources.map((item) => [item.source_id, item] as const));
+  const sourceById = new Map(bundle.sources.map((item) => [item.source_id, item] as const));
   const topicPaperIds = new Set(topic.paper_ids);
   const papers = Array.from(topicPaperIds)
     .map((paperId) => {
@@ -477,49 +539,17 @@ export async function getPaperDetail(
   slug: string,
   paperId: string
 ): Promise<PaperDetail | null> {
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
+  const bundle = await readWebBundle(slug);
   const domain = await buildDomainSummary(slug);
-  const [sources, assignments, claims, entities] = await Promise.all([
-    readJsonLines<{
-      source_id: string;
-      title: string;
-      year?: number;
-      url?: string;
-      doi?: string;
-      short_summary?: string;
-      cited_by_count?: number;
-      adjusted_cited_by_count?: number;
-      concepts?: string[];
-      authors?: string[];
-    }>(path.join(domainDir, "sources.jsonl")),
-    readJson<
-      Array<{
-        source_id: string;
-        primary_subgenre_id: string;
-        secondary_subgenre_ids: string[];
-        confidence: number;
-        score: number;
-        matched_terms: string[];
-      }>
-    >(path.join(domainDir, "paper_assignments.json")),
-    readJsonLines<{
-      source_id: string;
-      property_name: string;
-      value_text: string;
-      unit?: string;
-      evidence_text?: string;
-      confidence?: number;
-      polarity?: string;
-      qualifiers?: string[];
-    }>(path.join(domainDir, "claims.jsonl")),
-    readJsonLines<{
-      canonical_id: string;
-      canonical_name: string;
-      entity_type: string;
-      source_ids: string[];
-      evidence_count: number;
-    }>(path.join(domainDir, "entities.jsonl")),
-  ]);
+
+  if (!bundle) {
+    return null;
+  }
+
+  const sources = bundle.sources;
+  const assignments = bundle.paper_assignments ?? [];
+  const claims = bundle.claims ?? [];
+  const entities = bundle.entities ?? [];
 
   const source = sources.find((item) => encodeSourceId(item.source_id) === paperId);
 
@@ -527,7 +557,7 @@ export async function getPaperDetail(
     return null;
   }
 
-  const assignment = (assignments ?? []).find((item) => item.source_id === source.source_id) ?? null;
+  const assignment = assignments.find((item) => item.source_id === source.source_id) ?? null;
   const paperClaims = claims
     .filter((item) => item.source_id === source.source_id)
     .map((item) => ({
@@ -595,33 +625,14 @@ function computeTrendScore(years: Record<string, number> | undefined): number {
 }
 
 async function loadDomainSourceMaps(slug: string) {
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
-  const [sources, assignments] = await Promise.all([
-    readJsonLines<{
-      source_id: string;
-      title: string;
-      year?: number;
-      url?: string;
-      doi?: string;
-      short_summary?: string;
-      cited_by_count?: number;
-      adjusted_cited_by_count?: number;
-      concepts?: string[];
-    }>(path.join(domainDir, "sources.jsonl")),
-    readJson<
-      Array<{
-        source_id: string;
-        primary_subgenre_id: string;
-        secondary_subgenre_ids: string[];
-        confidence: number;
-        score: number;
-        matched_terms: string[];
-      }>
-    >(path.join(domainDir, "paper_assignments.json")),
-  ]);
-
+  const bundle = await readWebBundle(slug);
+  if (!bundle) {
+    return { sourceById: new Map(), assignmentById: new Map() };
+  }
+  const sources = bundle.sources;
+  const assignments = bundle.paper_assignments ?? [];
   const sourceById = new Map(sources.map((item) => [item.source_id, item] as const));
-  const assignmentById = new Map((assignments ?? []).map((item) => [item.source_id, item] as const));
+  const assignmentById = new Map(assignments.map((item) => [item.source_id, item] as const));
 
   return { sourceById, assignmentById };
 }
@@ -678,23 +689,18 @@ function mapTopicPaper(
 }
 
 export async function getDomainTopicsIndex(slug: string): Promise<DomainTopicsIndex | null> {
-  const domain = await getDomainDetail(slug);
+  const [domain, siteDomainData, maps] = await Promise.all([
+    getDomainDetail(slug),
+    readSiteDomainData(slug),
+    loadDomainSourceMaps(slug),
+  ]);
 
   if (!domain) {
     return null;
   }
 
-  const domainDir = path.join(WORKPLACE_ROOT, slug);
-  const [hierarchySummary, topicYearCounts, maps] = await Promise.all([
-    readJson<{
-      max_depth?: number;
-      root_topics?: number;
-      descendant_topics?: number;
-      leaf_topics?: number;
-    }>(path.join(domainDir, "subgenre_hierarchy_summary.json")),
-    readJson<Record<string, Record<string, number>>>(path.join(domainDir, "topic_year_counts.json")),
-    loadDomainSourceMaps(slug),
-  ]);
+  const topicYearCounts = siteDomainData?.topic_year_counts;
+  const hierarchySummary = siteDomainData?.hierarchy ?? (await readWebBundle(slug))?.subgenre_hierarchy_summary;
 
   const rootTopics = domain.subgenres.filter((item) => item.parent_id === null);
   const topics = rootTopics

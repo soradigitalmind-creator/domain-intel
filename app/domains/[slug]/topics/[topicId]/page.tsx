@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getTopicDetail } from "../../../../../lib/workplace";
+import { getTopicDetail, listTopicStaticParams } from "../../../../../lib/workplace";
 import styles from "./page.module.css";
 
 type Props = {
   params: Promise<{ slug: string; topicId: string }>;
 };
+
+export async function generateStaticParams() {
+  return listTopicStaticParams();
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, topicId } = await params;

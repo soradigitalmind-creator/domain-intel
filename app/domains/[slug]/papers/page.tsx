@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getDomainPapersIndex } from "../../../../lib/workplace";
+import { getDomainPapersIndex, listDomainSlugs } from "../../../../lib/workplace";
 import styles from "./page.module.css";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
+
+export async function generateStaticParams() {
+  const slugs = await listDomainSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
