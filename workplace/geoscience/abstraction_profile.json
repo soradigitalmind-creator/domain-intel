@@ -1,0 +1,41 @@
+{
+  "query": "Geoscience",
+  "normalized_query": "geoscience",
+  "query_tokens": [
+    "geoscience"
+  ],
+  "abstraction_score": 0.279,
+  "ambiguity_score": 0.36,
+  "broadness_score": 0.18,
+  "sibling_shape_score": 0.0,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8941,
+  "discipline_prior": 0.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.1641,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [],
+  "dominant_senses": [
+    [
+      "environmental science",
+      "computer science",
+      "geology",
+      "climate change",
+      "climatology"
+    ],
+    [
+      "physics"
+    ]
+  ],
+  "raw_input": "Geoscience",
+  "canonical_anchor": "geoscience",
+  "input_aliases": [
+    "geoscience"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

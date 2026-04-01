@@ -1,0 +1,182 @@
+{
+  "parents": [
+    {
+      "subgenre_id": "sg-advancements-in-battery-material",
+      "label": "battery material",
+      "paper_count": 21,
+      "child_count": 3,
+      "label_naturalness": 0.0344,
+      "base_label_naturalness": 0.1144,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.0,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.0344
+    },
+    {
+      "subgenre_id": "sg-energy-storage",
+      "label": "energy storage",
+      "paper_count": 33,
+      "child_count": 6,
+      "label_naturalness": 0.2205,
+      "base_label_naturalness": 0.2205,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0898,
+        "term_support": 1.0,
+        "term_centrality": 0.0815,
+        "dispersion_complement": 0.0828
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2807,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2205
+    },
+    {
+      "subgenre_id": "sg-waste-management",
+      "label": "waste management",
+      "paper_count": 30,
+      "child_count": 6,
+      "label_naturalness": 0.2213,
+      "base_label_naturalness": 0.2213,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.1072,
+        "term_support": 1.0,
+        "term_centrality": 0.0802,
+        "dispersion_complement": 0.0652
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2811,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2213
+    },
+    {
+      "subgenre_id": "sg-drug-delivery",
+      "label": "drug delivery",
+      "paper_count": 44,
+      "child_count": 7,
+      "label_naturalness": 0.2324,
+      "base_label_naturalness": 0.2324,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.113,
+        "term_support": 1.0,
+        "term_centrality": 0.1174,
+        "dispersion_complement": 0.1071
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2971,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2324
+    },
+    {
+      "subgenre_id": "sg-biochemical-engineering",
+      "label": "biochemical engineering",
+      "paper_count": 38,
+      "child_count": 3,
+      "label_naturalness": 0.3072,
+      "base_label_naturalness": 0.3072,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.42,
+        "term_purity": 0.1043,
+        "term_support": 1.0,
+        "term_centrality": 0.0995,
+        "dispersion_complement": 0.0819
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3308,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.2755
+    },
+    {
+      "subgenre_id": "sg-tissue-engineering",
+      "label": "tissue engineering",
+      "paper_count": 54,
+      "child_count": 6,
+      "label_naturalness": 0.361,
+      "base_label_naturalness": 0.361,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.0,
+        "domain_specificity": 0.72,
+        "term_purity": 0.1033,
+        "term_support": 1.0,
+        "term_centrality": 0.0887,
+        "dispersion_complement": 0.0865
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3287,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.3293
+    }
+  ],
+  "pairs": [
+    {
+      "a_id": "sg-tissue-engineering",
+      "a_label": "tissue engineering",
+      "b_id": "sg-biochemical-engineering",
+      "b_label": "biochemical engineering",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    }
+  ],
+  "summary": {
+    "median_label_naturalness": 0.2268,
+    "bottom10_label_naturalness": 0.1275,
+    "mean_parent_overlap_risk": 0.0391,
+    "assignment_naturalness": 0.9947,
+    "assignment_ambiguity_rate": 0.0,
+    "median_assignment_gap": 1.0176,
+    "weak_assignment_rate": 0.0,
+    "parent_with_children_ratio": 1.0,
+    "parent_size_cv": 0.2859,
+    "structure_score": 0.909,
+    "human_naturalness_score": 0.4586
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "query": "Toxicology",
+  "normalized_query": "toxicology",
+  "query_tokens": [
+    "toxicology"
+  ],
+  "abstraction_score": 0.18,
+  "ambiguity_score": 0.18,
+  "broadness_score": 0.18,
+  "sibling_shape_score": 0.0,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8,
+  "discipline_prior": 0.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.1652,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "toxicology",
+    "nanotoxicology",
+    "environmental toxicology and ecotoxicology",
+    "clinical toxicology",
+    "ecotoxicology",
+    "environmental toxicology",
+    "forensic toxicology"
+  ],
+  "dominant_senses": [
+    [
+      "toxicology",
+      "nanotoxicology",
+      "medicine",
+      "biology",
+      "chemistry"
+    ]
+  ],
+  "raw_input": "Toxicology",
+  "canonical_anchor": "toxicology",
+  "input_aliases": [
+    "toxicology"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

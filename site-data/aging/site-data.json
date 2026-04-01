@@ -1,0 +1,2581 @@
+{
+  "slug": "aging",
+  "title": "Aging",
+  "updated_at": "2026-04-01T04:34:33.015345Z",
+  "snapshot": {
+    "papers": 409,
+    "topics": 11,
+    "subtopics": 198,
+    "entities": 1135,
+    "claims": 21
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 438,
+      "total_papers": 438,
+      "facet_counts": {
+        "none": 438
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 11,
+    "descendant_topics": 198,
+    "max_depth": 4,
+    "leaf_topics": 144
+  },
+  "rising_topics": [
+    {
+      "id": "sg-physical-therapy",
+      "label": "Physical therapy",
+      "url": "/domains/aging/topics/sg-physical-therapy",
+      "trend": "rising",
+      "year_total": 2046362
+    },
+    {
+      "id": "sg-environmental-health",
+      "label": "Environmental health",
+      "url": "/domains/aging/topics/sg-environmental-health",
+      "trend": "rising",
+      "year_total": 4230719
+    },
+    {
+      "id": "sg-intensive-care-medicine",
+      "label": "Intensive care medicine",
+      "url": "/domains/aging/topics/sg-intensive-care-medicine",
+      "trend": "rising",
+      "year_total": 779058
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-physical-therapy",
+      "label": "Physical therapy",
+      "url": "/domains/aging/topics/sg-physical-therapy",
+      "paper_count": 73,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: of the, of a, age",
+      "tags": [
+        "activity public health",
+        "chronic pain",
+        "nutrition and health in aging",
+        "physical activity public"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-physical-therapy-physical-medicine-and-rehabilitation",
+          "label": "Physical medicine and rehabilitation",
+          "url": "/domains/aging/topics/sg-physical-therapy-physical-medicine-and-rehabilitation",
+          "paper_count": 51
+        },
+        {
+          "id": "sg-physical-therapy-quality-of-life",
+          "label": "Quality of life",
+          "url": "/domains/aging/topics/sg-physical-therapy-quality-of-life",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-physical-therapy-chronic-pain",
+          "label": "Chronic pain",
+          "url": "/domains/aging/topics/sg-physical-therapy-chronic-pain",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-physical-therapy-rheumatoid-arthritis",
+          "label": "Rheumatoid arthritis",
+          "url": "/domains/aging/topics/sg-physical-therapy-rheumatoid-arthritis",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-physical-therapy-rating-scale",
+          "label": "Rating scale",
+          "url": "/domains/aging/topics/sg-physical-therapy-rating-scale",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1964184380",
+          "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+          "year": "1997",
+          "cited_by_count": 66549,
+          "url": "/domains/aging/papers/W1964184380"
+        },
+        {
+          "source_id": "https://openalex.org/W2115017507",
+          "title": "The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease",
+          "year": "2011",
+          "cited_by_count": 18551,
+          "url": "/domains/aging/papers/W2115017507"
+        },
+        {
+          "source_id": "https://openalex.org/W2897513125",
+          "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+          "year": "2018",
+          "cited_by_count": 13386,
+          "url": "/domains/aging/papers/W2897513125"
+        }
+      ]
+    },
+    {
+      "id": "sg-environmental-health",
+      "label": "Environmental health",
+      "url": "/domains/aging/topics/sg-environmental-health",
+      "paper_count": 63,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: environmental health, internal medicine, demography",
+      "tags": [
+        "burden of disease",
+        "environmental health",
+        "environmental public health",
+        "global burden of disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-environmental-health-cancer-incidence",
+          "label": "Cancer incidence",
+          "url": "/domains/aging/topics/sg-environmental-health-cancer-incidence",
+          "paper_count": 34
+        },
+        {
+          "id": "sg-environmental-health-disease-burden",
+          "label": "Disease burden",
+          "url": "/domains/aging/topics/sg-environmental-health-disease-burden",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-environmental-health-human-health",
+          "label": "Human health",
+          "url": "/domains/aging/topics/sg-environmental-health-human-health",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-environmental-health-socioeconomic-status",
+          "label": "Socioeconomic status",
+          "url": "/domains/aging/topics/sg-environmental-health-socioeconomic-status",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-environmental-health-trauma-emergency-care-studies",
+          "label": "Trauma emergency care studies",
+          "url": "/domains/aging/topics/sg-environmental-health-trauma-emergency-care-studies",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2112778345",
+          "title": "The CES-D Scale",
+          "year": "1977",
+          "cited_by_count": 52905,
+          "url": "/domains/aging/papers/W2112778345"
+        },
+        {
+          "source_id": "https://openalex.org/W2167311298",
+          "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+          "year": "2015",
+          "cited_by_count": 19720,
+          "url": "/domains/aging/papers/W2167311298"
+        },
+        {
+          "source_id": "https://openalex.org/W2912654919",
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13809,
+          "url": "/domains/aging/papers/W2912654919"
+        }
+      ]
+    },
+    {
+      "id": "sg-intensive-care-medicine",
+      "label": "Intensive care medicine",
+      "url": "/domains/aging/topics/sg-intensive-care-medicine",
+      "paper_count": 60,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: internal medicine, intensive care medicine, age",
+      "tags": [
+        "emergency medicine",
+        "intensive care medicine",
+        "management of sepsis",
+        "management of sepsis septic"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-intensive-care-medicine-emergency-medicine",
+          "label": "Emergency medicine",
+          "url": "/domains/aging/topics/sg-intensive-care-medicine-emergency-medicine",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-intensive-care-medicine-disease-management",
+          "label": "Disease management",
+          "url": "/domains/aging/topics/sg-intensive-care-medicine-disease-management",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-intensive-care-medicine-intensive-care",
+          "label": "Intensive care",
+          "url": "/domains/aging/topics/sg-intensive-care-medicine-intensive-care",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-intensive-care-medicine-nonalcoholic-fatty-liver-disease",
+          "label": "Nonalcoholic fatty liver disease",
+          "url": "/domains/aging/topics/sg-intensive-care-medicine-nonalcoholic-fatty-liver-disease",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-intensive-care-medicine-sepsis-diagnosis-and-treatment",
+          "label": "Sepsis diagnosis and treatment",
+          "url": "/domains/aging/topics/sg-intensive-care-medicine-sepsis-diagnosis-and-treatment",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-intensive-care-medicine-severe-sepsis-and-septic-shock",
+          "label": "Severe sepsis and septic shock",
+          "url": "/domains/aging/topics/sg-intensive-care-medicine-severe-sepsis-and-septic-shock",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2280404143",
+          "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+          "year": "2016",
+          "cited_by_count": 27012,
+          "url": "/domains/aging/papers/W2280404143"
+        },
+        {
+          "source_id": "https://openalex.org/W2000445173",
+          "title": "A new method of classifying prognostic comorbidity in longitudinal studies: Development and validation",
+          "year": "1987",
+          "cited_by_count": 49214,
+          "url": "/domains/aging/papers/W2000445173"
+        },
+        {
+          "source_id": "https://openalex.org/W1528905581",
+          "title": "Generalized Linear Models",
+          "year": "2005",
+          "cited_by_count": 20419,
+          "url": "/domains/aging/papers/W1528905581"
+        }
+      ]
+    },
+    {
+      "id": "sg-type-2-diabete",
+      "label": "Type 2 diabete",
+      "url": "/domains/aging/topics/sg-type-2-diabete",
+      "paper_count": 43,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: internal medicine, diabete mellitus, endocrinology",
+      "tags": [
+        "2 diabete",
+        "2 diabete mellitus",
+        "diabete mellitus",
+        "diabete treatment and management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-type-2-diabete-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/aging/topics/sg-type-2-diabete-internal-medicine",
+          "paper_count": 40
+        },
+        {
+          "id": "sg-type-2-diabete-type-2-diabetes-mellitus",
+          "label": "Type 2 diabetes mellitus",
+          "url": "/domains/aging/topics/sg-type-2-diabete-type-2-diabetes-mellitus",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-type-2-diabete-type-2-diabetes-and-metabolic-syndrome",
+          "label": "Type 2 diabetes and metabolic syndrome",
+          "url": "/domains/aging/topics/sg-type-2-diabete-type-2-diabetes-and-metabolic-syndrome",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-type-2-diabete-confidence-interval",
+          "label": "Confidence interval",
+          "url": "/domains/aging/topics/sg-type-2-diabete-confidence-interval",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-type-2-diabete-type-2-diabetes-treatment-and-management",
+          "label": "Type 2 diabetes treatment and management",
+          "url": "/domains/aging/topics/sg-type-2-diabete-type-2-diabetes-treatment-and-management",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3009885589",
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 28985,
+          "url": "/domains/aging/papers/W3009885589"
+        },
+        {
+          "source_id": "https://openalex.org/W2337454357",
+          "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+          "year": "1998",
+          "cited_by_count": 19988,
+          "url": "/domains/aging/papers/W2337454357"
+        },
+        {
+          "source_id": "https://openalex.org/W2146264128",
+          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+          "year": "2015",
+          "cited_by_count": 11757,
+          "url": "/domains/aging/papers/W2146264128"
+        }
+      ]
+    },
+    {
+      "id": "sg-coronavirus-disease-2019",
+      "label": "Coronavirus disease 2019",
+      "url": "/domains/aging/topics/sg-coronavirus-disease-2019",
+      "paper_count": 41,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: disease, covid-19, internal medicine",
+      "tags": [
+        "2019-20 coronavirus outbreak",
+        "acute respiratory syndrome",
+        "coronavirus disease",
+        "coronavirus disease 2019"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-coronavirus-disease-2019-coronavirus-disease",
+          "label": "Coronavirus disease",
+          "url": "/domains/aging/topics/sg-coronavirus-disease-2019-coronavirus-disease",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-coronavirus-disease-2019-severe-acute-respiratory-syndrome",
+          "label": "Severe acute respiratory syndrome",
+          "url": "/domains/aging/topics/sg-coronavirus-disease-2019-severe-acute-respiratory-syndrome",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-coronavirus-disease-2019-acute-respiratory",
+          "label": "Acute respiratory",
+          "url": "/domains/aging/topics/sg-coronavirus-disease-2019-acute-respiratory",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-coronavirus-disease-2019-basic-reproduction-number",
+          "label": "Basic reproduction number",
+          "url": "/domains/aging/topics/sg-coronavirus-disease-2019-basic-reproduction-number",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-coronavirus-disease-2019-coronavirus-infections",
+          "label": "Coronavirus infections",
+          "url": "/domains/aging/topics/sg-coronavirus-disease-2019-coronavirus-infections",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-coronavirus-disease-2019-covid-19-healthcare-impacts",
+          "label": "Covid-19 healthcare impacts",
+          "url": "/domains/aging/topics/sg-coronavirus-disease-2019-covid-19-healthcare-impacts",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3008827533",
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31049,
+          "url": "/domains/aging/papers/W3008827533"
+        },
+        {
+          "source_id": "https://openalex.org/W3001897055",
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30192,
+          "url": "/domains/aging/papers/W3001897055"
+        },
+        {
+          "source_id": "https://openalex.org/W3004280078",
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23191,
+          "url": "/domains/aging/papers/W3004280078"
+        }
+      ]
+    },
+    {
+      "id": "sg-cardiovascular-disease",
+      "label": "Cardiovascular disease",
+      "url": "/domains/aging/topics/sg-cardiovascular-disease",
+      "paper_count": 36,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: disease, internal medicine, cardiovascular",
+      "tags": [
+        "atherosclerotic cardiovascular disease",
+        "cardiovascular disease",
+        "cardiovascular disease mortality",
+        "cardiovascular disease prevention"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cardiovascular-disease-cardiovascular-health-disease-prevention",
+          "label": "Cardiovascular health disease prevention",
+          "url": "/domains/aging/topics/sg-cardiovascular-disease-cardiovascular-health-disease-prevention",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-cardiovascular-disease-kidney-disease",
+          "label": "Kidney disease",
+          "url": "/domains/aging/topics/sg-cardiovascular-disease-kidney-disease",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cardiovascular-disease-atherosclerotic-cardiovascular-disease",
+          "label": "Atherosclerotic cardiovascular disease",
+          "url": "/domains/aging/topics/sg-cardiovascular-disease-atherosclerotic-cardiovascular-disease",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cardiovascular-disease-food-science",
+          "label": "Food science",
+          "url": "/domains/aging/topics/sg-cardiovascular-disease-food-science",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cardiovascular-disease-primary-prevention",
+          "label": "Primary prevention",
+          "url": "/domains/aging/topics/sg-cardiovascular-disease-primary-prevention",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2034269086",
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28387,
+          "url": "/domains/aging/papers/W2034269086"
+        },
+        {
+          "source_id": "https://openalex.org/W2156121263",
+          "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure&lt;SUBTITLE&gt;The JNC 7 Report&lt;/SUBTITLE&gt;",
+          "year": "2003",
+          "cited_by_count": 25504,
+          "url": "/domains/aging/papers/W2156121263"
+        },
+        {
+          "source_id": "https://openalex.org/W2339658711",
+          "title": "The 2016 revision to the World Health Organization classification of myeloid neoplasms and acute leukemia",
+          "year": "2016",
+          "cited_by_count": 10093,
+          "url": "/domains/aging/papers/W2339658711"
+        }
+      ]
+    },
+    {
+      "id": "sg-myocardial-infarction",
+      "label": "Myocardial infarction",
+      "url": "/domains/aging/topics/sg-myocardial-infarction",
+      "paper_count": 30,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cardiology, myocardial infarction",
+      "tags": [
+        "associated myocardial infarction",
+        "cardiovascular disease prevention",
+        "management of acute",
+        "management of acute coronary"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-myocardial-infarction-acute-myocardial-infarction",
+          "label": "Acute myocardial infarction",
+          "url": "/domains/aging/topics/sg-myocardial-infarction-acute-myocardial-infarction",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-myocardial-infarction-coronary-artery-disease",
+          "label": "Coronary artery disease",
+          "url": "/domains/aging/topics/sg-myocardial-infarction-coronary-artery-disease",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-myocardial-infarction-unstable-angina",
+          "label": "Unstable angina",
+          "url": "/domains/aging/topics/sg-myocardial-infarction-unstable-angina",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-myocardial-infarction-heart-failure",
+          "label": "Heart failure",
+          "url": "/domains/aging/topics/sg-myocardial-infarction-heart-failure",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-myocardial-infarction-acute-coronary-syndrome",
+          "label": "Acute coronary syndrome",
+          "url": "/domains/aging/topics/sg-myocardial-infarction-acute-coronary-syndrome",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2397911846",
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11388,
+          "url": "/domains/aging/papers/W2397911846"
+        },
+        {
+          "source_id": "https://openalex.org/W2155121555",
+          "title": "Effect of potentially modifiable risk factors associated with myocardial infarction in 52 countries (the INTERHEART study): case-control study",
+          "year": "2004",
+          "cited_by_count": 11853,
+          "url": "/domains/aging/papers/W2155121555"
+        },
+        {
+          "source_id": "https://openalex.org/W2105397247",
+          "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+          "year": "2015",
+          "cited_by_count": 8282,
+          "url": "/domains/aging/papers/W2105397247"
+        }
+      ]
+    },
+    {
+      "id": "sg-randomized-controlled-trial",
+      "label": "Randomized controlled trial",
+      "url": "/domains/aging/topics/sg-randomized-controlled-trial",
+      "paper_count": 28,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: internal medicine, randomized controlled trial, confidence interval",
+      "tags": [
+        "clinical endpoint",
+        "controlled clinical trial",
+        "epidermal growth factor receptor",
+        "hazard ratio"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-randomized-controlled-trial-clinical-endpoint",
+          "label": "Clinical endpoint",
+          "url": "/domains/aging/topics/sg-randomized-controlled-trial-clinical-endpoint",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-randomized-controlled-trial-randomized-controlled-trial",
+          "label": "Randomized controlled trial",
+          "url": "/domains/aging/topics/sg-randomized-controlled-trial-randomized-controlled-trial",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-randomized-controlled-trial-epidermal-growth-factor-receptor",
+          "label": "Epidermal growth factor receptor",
+          "url": "/domains/aging/topics/sg-randomized-controlled-trial-epidermal-growth-factor-receptor",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-randomized-controlled-trial-hazard-ratio",
+          "label": "Hazard ratio",
+          "url": "/domains/aging/topics/sg-randomized-controlled-trial-hazard-ratio",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-randomized-controlled-trial-hormone-replacement-therapy",
+          "label": "Hormone replacement therapy",
+          "url": "/domains/aging/topics/sg-randomized-controlled-trial-hormone-replacement-therapy",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-randomized-controlled-trial-randomized-trial",
+          "label": "Randomized trial",
+          "url": "/domains/aging/topics/sg-randomized-controlled-trial-randomized-trial",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3042270788",
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "year": "2020",
+          "cited_by_count": 9986,
+          "url": "/domains/aging/papers/W3042270788"
+        },
+        {
+          "source_id": "https://openalex.org/W1593442063",
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "year": "2002",
+          "cited_by_count": 15739,
+          "url": "/domains/aging/papers/W1593442063"
+        },
+        {
+          "source_id": "https://openalex.org/W2136489990",
+          "title": "Dabigatran versus Warfarin in Patients with Atrial Fibrillation",
+          "year": "2009",
+          "cited_by_count": 11132,
+          "url": "/domains/aging/papers/W2136489990"
+        }
+      ]
+    },
+    {
+      "id": "sg-family-medicine",
+      "label": "Family medicine",
+      "url": "/domains/aging/topics/sg-family-medicine",
+      "paper_count": 13,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: family medicine, age, of the",
+      "tags": [
+        "activity public health",
+        "family medicine",
+        "family member",
+        "management of arterial"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-family-medicine-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/aging/topics/sg-family-medicine-internal-medicine",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-family-medicine-alternative-medicine",
+          "label": "Alternative medicine",
+          "url": "/domains/aging/topics/sg-family-medicine-alternative-medicine",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3046275966",
+          "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+          "year": "2020",
+          "cited_by_count": 9835,
+          "url": "/domains/aging/papers/W3046275966"
+        },
+        {
+          "source_id": "https://openalex.org/W3002539152",
+          "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+          "year": "2020",
+          "cited_by_count": 9576,
+          "url": "/domains/aging/papers/W3002539152"
+        },
+        {
+          "source_id": "https://openalex.org/W2133416234",
+          "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+          "year": "2013",
+          "cited_by_count": 13652,
+          "url": "/domains/aging/papers/W2133416234"
+        }
+      ]
+    },
+    {
+      "id": "sg-public-health",
+      "label": "Public health",
+      "url": "/domains/aging/topics/sg-public-health",
+      "paper_count": 13,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: age, in the, of the",
+      "tags": [
+        "activity public health",
+        "environmental public health",
+        "global health",
+        "management of atrial fibrillation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-public-health-health-care",
+          "label": "Health care",
+          "url": "/domains/aging/topics/sg-public-health-health-care",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-public-health-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/aging/topics/sg-public-health-internal-medicine",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-public-health-atrial-fibrillation",
+          "label": "Atrial fibrillation",
+          "url": "/domains/aging/topics/sg-public-health-atrial-fibrillation",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-public-health-global-health",
+          "label": "Global health",
+          "url": "/domains/aging/topics/sg-public-health-global-health",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2145150141",
+          "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "year": "2015",
+          "cited_by_count": 16129,
+          "url": "/domains/aging/papers/W2145150141"
+        },
+        {
+          "source_id": "https://openalex.org/W3082188176",
+          "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2020",
+          "cited_by_count": 9718,
+          "url": "/domains/aging/papers/W3082188176"
+        },
+        {
+          "source_id": "https://openalex.org/W3183857127",
+          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: <i>lipid modification to reduce cardiovascular risk</i>",
+          "year": "2019",
+          "cited_by_count": 8584,
+          "url": "/domains/aging/papers/W3183857127"
+        }
+      ]
+    },
+    {
+      "id": "sg-risk-factor",
+      "label": "Risk factor",
+      "url": "/domains/aging/topics/sg-risk-factor",
+      "paper_count": 9,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: disease, internal medicine, factor",
+      "tags": [
+        "abdominal obesity",
+        "coronary heart",
+        "independent risk factor",
+        "risk factor"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-factor-abdominal-obesity",
+          "label": "Abdominal obesity",
+          "url": "/domains/aging/topics/sg-risk-factor-abdominal-obesity",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-risk-factor-coronary-heart-disease",
+          "label": "Coronary heart disease",
+          "url": "/domains/aging/topics/sg-risk-factor-coronary-heart-disease",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-risk-factor-heart-disease",
+          "label": "Heart disease",
+          "url": "/domains/aging/topics/sg-risk-factor-heart-disease",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2165884492",
+          "title": "Prediction of Coronary Heart Disease Using Risk Factor Categories",
+          "year": "1998",
+          "cited_by_count": 9571,
+          "url": "/domains/aging/papers/W2165884492"
+        },
+        {
+          "source_id": "https://openalex.org/W2036362108",
+          "title": "Gene Dose of Apolipoprotein E Type 4 Allele and the Risk of Alzheimer's Disease in Late Onset Families",
+          "year": "1993",
+          "cited_by_count": 9376,
+          "url": "/domains/aging/papers/W2036362108"
+        },
+        {
+          "source_id": "https://openalex.org/W2067670322",
+          "title": "Chemistry and Biological Activities of Flavonoids: An Overview",
+          "year": "2013",
+          "cited_by_count": 4737,
+          "url": "/domains/aging/papers/W2067670322"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Environmental health",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "The CES-D Scale",
+          "year": "1977",
+          "cited_by_count": 52905,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2112778345.html"
+        },
+        {
+          "title": "Older Adults&#x27; Reasons for Using Technology while Aging in Place",
+          "year": "2015",
+          "cited_by_count": 19720,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2167311298.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13809,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        },
+        {
+          "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+          "year": "2005",
+          "cited_by_count": 21280,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2096287682.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13428,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        },
+        {
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+          "year": "2020",
+          "cited_by_count": 10520,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w3113178943.html"
+        }
+      ]
+    },
+    {
+      "label": "Physical therapy",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+          "year": "1997",
+          "cited_by_count": 66549,
+          "topic": "Physical therapy",
+          "url": "papers/https-openalex-org-w1964184380.html"
+        },
+        {
+          "title": "The diagnosis of dementia due to Alzheimer&#x27;s disease: Recommendations from the National Institute on Aging‐Alzheimer&#x27;s Association workgroups on diagnostic guidelines for Alzheimer&#x27;s disease",
+          "year": "2011",
+          "cited_by_count": 18551,
+          "topic": "Physical therapy",
+          "url": "papers/https-openalex-org-w2115017507.html"
+        },
+        {
+          "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+          "year": "2018",
+          "cited_by_count": 13386,
+          "topic": "Physical therapy",
+          "url": "papers/https-openalex-org-w2897513125.html"
+        },
+        {
+          "title": "Clinical diagnosis of Alzheimer&#x27;s disease",
+          "year": "1984",
+          "cited_by_count": 27913,
+          "topic": "Physical therapy",
+          "url": "papers/https-openalex-org-w2156220037.html"
+        },
+        {
+          "title": "Ultrastructural Characterization of the Lower Motor System in a Mouse Model of Krabbe Disease",
+          "year": "2016",
+          "cited_by_count": 13254,
+          "topic": "Physical therapy",
+          "url": "papers/https-openalex-org-w2549976854.html"
+        },
+        {
+          "title": "The Hallmarks of Aging",
+          "year": "2013",
+          "cited_by_count": 14520,
+          "topic": "Physical therapy",
+          "url": "papers/https-openalex-org-w2126525177.html"
+        }
+      ]
+    },
+    {
+      "label": "Coronavirus disease 2019",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31049,
+          "topic": "Coronavirus disease 2019",
+          "url": "papers/https-openalex-org-w3008827533.html"
+        },
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30192,
+          "topic": "Coronavirus disease 2019",
+          "url": "papers/https-openalex-org-w3001897055.html"
+        },
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23191,
+          "topic": "Coronavirus disease 2019",
+          "url": "papers/https-openalex-org-w3004280078.html"
+        },
+        {
+          "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+          "year": "2020",
+          "cited_by_count": 21113,
+          "topic": "Coronavirus disease 2019",
+          "url": "papers/https-openalex-org-w3005079553.html"
+        },
+        {
+          "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+          "year": "2020",
+          "cited_by_count": 15287,
+          "topic": "Coronavirus disease 2019",
+          "url": "papers/https-openalex-org-w3111255098.html"
+        },
+        {
+          "title": "Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China",
+          "year": "2020",
+          "cited_by_count": 8712,
+          "topic": "Coronavirus disease 2019",
+          "url": "papers/https-openalex-org-w3011610993.html"
+        }
+      ]
+    },
+    {
+      "label": "Intensive care medicine",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+          "year": "2016",
+          "cited_by_count": 27012,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2280404143.html"
+        },
+        {
+          "title": "A new method of classifying prognostic comorbidity in longitudinal studies: Development and validation",
+          "year": "1987",
+          "cited_by_count": 49214,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2000445173.html"
+        },
+        {
+          "title": "Generalized Linear Models",
+          "year": "2005",
+          "cited_by_count": 20419,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w1528905581.html"
+        },
+        {
+          "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+          "year": "2020",
+          "cited_by_count": 10670,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w3008090866.html"
+        },
+        {
+          "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+          "year": "2012",
+          "cited_by_count": 16065,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2127951128.html"
+        }
+      ]
+    },
+    {
+      "label": "Family medicine",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+          "year": "2020",
+          "cited_by_count": 9835,
+          "topic": "Family medicine",
+          "url": "papers/https-openalex-org-w3046275966.html"
+        },
+        {
+          "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+          "year": "2020",
+          "cited_by_count": 9576,
+          "topic": "Family medicine",
+          "url": "papers/https-openalex-org-w3002539152.html"
+        },
+        {
+          "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+          "year": "2013",
+          "cited_by_count": 13652,
+          "topic": "Family medicine",
+          "url": "papers/https-openalex-org-w2133416234.html"
+        },
+        {
+          "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+          "year": "2018",
+          "cited_by_count": 10259,
+          "topic": "Family medicine",
+          "url": "papers/https-openalex-org-w2888589263.html"
+        }
+      ]
+    },
+    {
+      "label": "Type 2 diabete",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 28985,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w3009885589.html"
+        },
+        {
+          "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+          "year": "1998",
+          "cited_by_count": 19988,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2337454357.html"
+        },
+        {
+          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+          "year": "2015",
+          "cited_by_count": 11757,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2146264128.html"
+        },
+        {
+          "title": "Harmonizing the Metabolic Syndrome",
+          "year": "2009",
+          "cited_by_count": 14443,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2143104968.html"
+        }
+      ]
+    },
+    {
+      "label": "Cardiovascular disease",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28387,
+          "topic": "Cardiovascular disease",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        },
+        {
+          "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure&amp;lt;SUBTITLE&amp;gt;The JNC 7 Report&amp;lt;/SUBTITLE&amp;gt;",
+          "year": "2003",
+          "cited_by_count": 25504,
+          "topic": "Cardiovascular disease",
+          "url": "papers/https-openalex-org-w2156121263.html"
+        }
+      ]
+    },
+    {
+      "label": "Public health",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "year": "2015",
+          "cited_by_count": 16129,
+          "topic": "Public health",
+          "url": "papers/https-openalex-org-w2145150141.html"
+        },
+        {
+          "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2020",
+          "cited_by_count": 9718,
+          "topic": "Public health",
+          "url": "papers/https-openalex-org-w3082188176.html"
+        }
+      ]
+    },
+    {
+      "label": "Myocardial infarction",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11388,
+          "topic": "Myocardial infarction",
+          "url": "papers/https-openalex-org-w2397911846.html"
+        }
+      ]
+    },
+    {
+      "label": "Randomized controlled trial",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "year": "2020",
+          "cited_by_count": 9986,
+          "topic": "Randomized controlled trial",
+          "url": "papers/https-openalex-org-w3042270788.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31049,
+      "adjusted_cited_by_count": 12675.7,
+      "primary_topic_id": "sg-coronavirus-disease-2019",
+      "primary_topic_label": "Coronavirus disease 2019",
+      "url": "/domains/aging/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66549,
+      "adjusted_cited_by_count": 12357.84,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30192,
+      "adjusted_cited_by_count": 12325.83,
+      "primary_topic_id": "sg-coronavirus-disease-2019",
+      "primary_topic_label": "Coronavirus disease 2019",
+      "url": "/domains/aging/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 28985,
+      "adjusted_cited_by_count": 11833.08,
+      "primary_topic_id": "sg-type-2-diabete",
+      "primary_topic_label": "Type 2 diabete",
+      "url": "/domains/aging/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23191,
+      "adjusted_cited_by_count": 9467.69,
+      "primary_topic_id": "sg-coronavirus-disease-2019",
+      "primary_topic_label": "Coronavirus disease 2019",
+      "url": "/domains/aging/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21113,
+      "adjusted_cited_by_count": 8619.35,
+      "primary_topic_id": "sg-coronavirus-disease-2019",
+      "primary_topic_label": "Coronavirus disease 2019",
+      "url": "/domains/aging/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27012,
+      "adjusted_cited_by_count": 8541.94,
+      "primary_topic_id": "sg-intensive-care-medicine",
+      "primary_topic_label": "Intensive care medicine",
+      "url": "/domains/aging/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W2000445173",
+      "title": "A new method of classifying prognostic comorbidity in longitudinal studies: Development and validation",
+      "year": 1987,
+      "cited_by_count": 49214,
+      "adjusted_cited_by_count": 7880.55,
+      "primary_topic_id": "sg-intensive-care-medicine",
+      "primary_topic_label": "Intensive care medicine",
+      "url": "/domains/aging/papers/W2000445173"
+    },
+    {
+      "source_id": "https://openalex.org/W2112778345",
+      "title": "The CES-D Scale",
+      "year": 1977,
+      "cited_by_count": 52905,
+      "adjusted_cited_by_count": 7557.86,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W2112778345"
+    },
+    {
+      "source_id": "https://openalex.org/W3111255098",
+      "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+      "year": 2020,
+      "cited_by_count": 15287,
+      "adjusted_cited_by_count": 6240.89,
+      "primary_topic_id": "sg-coronavirus-disease-2019",
+      "primary_topic_label": "Coronavirus disease 2019",
+      "url": "/domains/aging/papers/W3111255098"
+    },
+    {
+      "source_id": "https://openalex.org/W2167311298",
+      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+      "year": 2015,
+      "cited_by_count": 19720,
+      "adjusted_cited_by_count": 5945.8,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W2167311298"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28387,
+      "adjusted_cited_by_count": 5567.15,
+      "primary_topic_id": "sg-cardiovascular-disease",
+      "primary_topic_label": "Cardiovascular disease",
+      "url": "/domains/aging/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2156121263",
+      "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure&lt;SUBTITLE&gt;The JNC 7 Report&lt;/SUBTITLE&gt;",
+      "year": 2003,
+      "cited_by_count": 25504,
+      "adjusted_cited_by_count": 5317.95,
+      "primary_topic_id": "sg-cardiovascular-disease",
+      "primary_topic_label": "Cardiovascular disease",
+      "url": "/domains/aging/papers/W2156121263"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13809,
+      "adjusted_cited_by_count": 4882.22,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16129,
+      "adjusted_cited_by_count": 4863.08,
+      "primary_topic_id": "sg-public-health",
+      "primary_topic_label": "Public health",
+      "url": "/domains/aging/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2115017507",
+      "title": "The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease",
+      "year": 2011,
+      "cited_by_count": 18551,
+      "adjusted_cited_by_count": 4789.85,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W2115017507"
+    },
+    {
+      "source_id": "https://openalex.org/W2897513125",
+      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+      "year": 2018,
+      "cited_by_count": 13386,
+      "adjusted_cited_by_count": 4732.67,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W2897513125"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21280,
+      "adjusted_cited_by_count": 4643.68,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13428,
+      "adjusted_cited_by_count": 4476.0,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W1528905581",
+      "title": "Generalized Linear Models",
+      "year": 2005,
+      "cited_by_count": 20419,
+      "adjusted_cited_by_count": 4455.79,
+      "primary_topic_id": "sg-intensive-care-medicine",
+      "primary_topic_label": "Intensive care medicine",
+      "url": "/domains/aging/papers/W1528905581"
+    },
+    {
+      "source_id": "https://openalex.org/W3008090866",
+      "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+      "year": 2020,
+      "cited_by_count": 10670,
+      "adjusted_cited_by_count": 4356.01,
+      "primary_topic_id": "sg-intensive-care-medicine",
+      "primary_topic_label": "Intensive care medicine",
+      "url": "/domains/aging/papers/W3008090866"
+    },
+    {
+      "source_id": "https://openalex.org/W2156220037",
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by_count": 27913,
+      "adjusted_cited_by_count": 4307.07,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W2156220037"
+    },
+    {
+      "source_id": "https://openalex.org/W3113178943",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+      "year": 2020,
+      "cited_by_count": 10520,
+      "adjusted_cited_by_count": 4294.77,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W3113178943"
+    },
+    {
+      "source_id": "https://openalex.org/W2127951128",
+      "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+      "year": 2012,
+      "cited_by_count": 16065,
+      "adjusted_cited_by_count": 4293.55,
+      "primary_topic_id": "sg-intensive-care-medicine",
+      "primary_topic_label": "Intensive care medicine",
+      "url": "/domains/aging/papers/W2127951128"
+    },
+    {
+      "source_id": "https://openalex.org/W3108106255",
+      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+      "year": 2020,
+      "cited_by_count": 10346,
+      "adjusted_cited_by_count": 4223.74,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W3108106255"
+    },
+    {
+      "source_id": "https://openalex.org/W2549976854",
+      "title": "Ultrastructural Characterization of the Lower Motor System in a Mouse Model of Krabbe Disease",
+      "year": 2016,
+      "cited_by_count": 13254,
+      "adjusted_cited_by_count": 4191.28,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W2549976854"
+    },
+    {
+      "source_id": "https://openalex.org/W3042270788",
+      "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+      "year": 2020,
+      "cited_by_count": 9986,
+      "adjusted_cited_by_count": 4076.77,
+      "primary_topic_id": "sg-randomized-controlled-trial",
+      "primary_topic_label": "Randomized controlled trial",
+      "url": "/domains/aging/papers/W3042270788"
+    },
+    {
+      "source_id": "https://openalex.org/W2126525177",
+      "title": "The Hallmarks of Aging",
+      "year": 2013,
+      "cited_by_count": 14520,
+      "adjusted_cited_by_count": 4027.12,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W2126525177"
+    },
+    {
+      "source_id": "https://openalex.org/W3046275966",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by_count": 9835,
+      "adjusted_cited_by_count": 4015.12,
+      "primary_topic_id": "sg-family-medicine",
+      "primary_topic_label": "Family medicine",
+      "url": "/domains/aging/papers/W3046275966"
+    },
+    {
+      "source_id": "https://openalex.org/W3082188176",
+      "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+      "year": 2020,
+      "cited_by_count": 9718,
+      "adjusted_cited_by_count": 3967.36,
+      "primary_topic_id": "sg-public-health",
+      "primary_topic_label": "Public health",
+      "url": "/domains/aging/papers/W3082188176"
+    },
+    {
+      "source_id": "https://openalex.org/W3002539152",
+      "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+      "year": 2020,
+      "cited_by_count": 9576,
+      "adjusted_cited_by_count": 3909.39,
+      "primary_topic_id": "sg-family-medicine",
+      "primary_topic_label": "Family medicine",
+      "url": "/domains/aging/papers/W3002539152"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14168,
+      "adjusted_cited_by_count": 3786.56,
+      "primary_topic_id": "sg-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/aging/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2133416234",
+      "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+      "year": 2013,
+      "cited_by_count": 13652,
+      "adjusted_cited_by_count": 3786.38,
+      "primary_topic_id": "sg-family-medicine",
+      "primary_topic_label": "Family medicine",
+      "url": "/domains/aging/papers/W2133416234"
+    },
+    {
+      "source_id": "https://openalex.org/W2337454357",
+      "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+      "year": 1998,
+      "cited_by_count": 19988,
+      "adjusted_cited_by_count": 3777.38,
+      "primary_topic_id": "sg-type-2-diabete",
+      "primary_topic_label": "Type 2 diabete",
+      "url": "/domains/aging/papers/W2337454357"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10259,
+      "adjusted_cited_by_count": 3627.1,
+      "primary_topic_id": "sg-family-medicine",
+      "primary_topic_label": "Family medicine",
+      "url": "/domains/aging/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2397911846",
+      "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2016,
+      "cited_by_count": 11388,
+      "adjusted_cited_by_count": 3601.2,
+      "primary_topic_id": "sg-myocardial-infarction",
+      "primary_topic_label": "Myocardial infarction",
+      "url": "/domains/aging/papers/W2397911846"
+    },
+    {
+      "source_id": "https://openalex.org/W3011610993",
+      "title": "Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 8712,
+      "adjusted_cited_by_count": 3556.66,
+      "primary_topic_id": "sg-coronavirus-disease-2019",
+      "primary_topic_label": "Coronavirus disease 2019",
+      "url": "/domains/aging/papers/W3011610993"
+    },
+    {
+      "source_id": "https://openalex.org/W2146264128",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "year": 2015,
+      "cited_by_count": 11757,
+      "adjusted_cited_by_count": 3544.87,
+      "primary_topic_id": "sg-type-2-diabete",
+      "primary_topic_label": "Type 2 diabete",
+      "url": "/domains/aging/papers/W2146264128"
+    },
+    {
+      "source_id": "https://openalex.org/W2798054687",
+      "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by_count": 9928,
+      "adjusted_cited_by_count": 3510.08,
+      "primary_topic_id": "sg-physical-therapy",
+      "primary_topic_label": "Physical therapy",
+      "url": "/domains/aging/papers/W2798054687"
+    },
+    {
+      "source_id": "https://openalex.org/W2143104968",
+      "title": "Harmonizing the Metabolic Syndrome",
+      "year": 2009,
+      "cited_by_count": 14443,
+      "adjusted_cited_by_count": 3502.94,
+      "primary_topic_id": "sg-type-2-diabete",
+      "primary_topic_label": "Type 2 diabete",
+      "url": "/domains/aging/papers/W2143104968"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31049,
+      "adjusted_cited_by_count": 12675.7,
+      "url": "/domains/aging/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66549,
+      "adjusted_cited_by_count": 12357.84,
+      "url": "/domains/aging/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30192,
+      "adjusted_cited_by_count": 12325.83,
+      "url": "/domains/aging/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 28985,
+      "adjusted_cited_by_count": 11833.08,
+      "url": "/domains/aging/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23191,
+      "adjusted_cited_by_count": 9467.69,
+      "url": "/domains/aging/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21113,
+      "adjusted_cited_by_count": 8619.35,
+      "url": "/domains/aging/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27012,
+      "adjusted_cited_by_count": 8541.94,
+      "url": "/domains/aging/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W2000445173",
+      "title": "A new method of classifying prognostic comorbidity in longitudinal studies: Development and validation",
+      "year": 1987,
+      "cited_by_count": 49214,
+      "adjusted_cited_by_count": 7880.55,
+      "url": "/domains/aging/papers/W2000445173"
+    },
+    {
+      "source_id": "https://openalex.org/W2112778345",
+      "title": "The CES-D Scale",
+      "year": 1977,
+      "cited_by_count": 52905,
+      "adjusted_cited_by_count": 7557.86,
+      "url": "/domains/aging/papers/W2112778345"
+    },
+    {
+      "source_id": "https://openalex.org/W3111255098",
+      "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+      "year": 2020,
+      "cited_by_count": 15287,
+      "adjusted_cited_by_count": 6240.89,
+      "url": "/domains/aging/papers/W3111255098"
+    },
+    {
+      "source_id": "https://openalex.org/W2167311298",
+      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+      "year": 2015,
+      "cited_by_count": 19720,
+      "adjusted_cited_by_count": 5945.8,
+      "url": "/domains/aging/papers/W2167311298"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28387,
+      "adjusted_cited_by_count": 5567.15,
+      "url": "/domains/aging/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2156121263",
+      "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure&lt;SUBTITLE&gt;The JNC 7 Report&lt;/SUBTITLE&gt;",
+      "year": 2003,
+      "cited_by_count": 25504,
+      "adjusted_cited_by_count": 5317.95,
+      "url": "/domains/aging/papers/W2156121263"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13809,
+      "adjusted_cited_by_count": 4882.22,
+      "url": "/domains/aging/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16129,
+      "adjusted_cited_by_count": 4863.08,
+      "url": "/domains/aging/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2115017507",
+      "title": "The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease",
+      "year": 2011,
+      "cited_by_count": 18551,
+      "adjusted_cited_by_count": 4789.85,
+      "url": "/domains/aging/papers/W2115017507"
+    },
+    {
+      "source_id": "https://openalex.org/W2897513125",
+      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+      "year": 2018,
+      "cited_by_count": 13386,
+      "adjusted_cited_by_count": 4732.67,
+      "url": "/domains/aging/papers/W2897513125"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21280,
+      "adjusted_cited_by_count": 4643.68,
+      "url": "/domains/aging/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13428,
+      "adjusted_cited_by_count": 4476.0,
+      "url": "/domains/aging/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W1528905581",
+      "title": "Generalized Linear Models",
+      "year": 2005,
+      "cited_by_count": 20419,
+      "adjusted_cited_by_count": 4455.79,
+      "url": "/domains/aging/papers/W1528905581"
+    },
+    {
+      "source_id": "https://openalex.org/W3008090866",
+      "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+      "year": 2020,
+      "cited_by_count": 10670,
+      "adjusted_cited_by_count": 4356.01,
+      "url": "/domains/aging/papers/W3008090866"
+    },
+    {
+      "source_id": "https://openalex.org/W2156220037",
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by_count": 27913,
+      "adjusted_cited_by_count": 4307.07,
+      "url": "/domains/aging/papers/W2156220037"
+    },
+    {
+      "source_id": "https://openalex.org/W3113178943",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+      "year": 2020,
+      "cited_by_count": 10520,
+      "adjusted_cited_by_count": 4294.77,
+      "url": "/domains/aging/papers/W3113178943"
+    },
+    {
+      "source_id": "https://openalex.org/W2127951128",
+      "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+      "year": 2012,
+      "cited_by_count": 16065,
+      "adjusted_cited_by_count": 4293.55,
+      "url": "/domains/aging/papers/W2127951128"
+    },
+    {
+      "source_id": "https://openalex.org/W3108106255",
+      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+      "year": 2020,
+      "cited_by_count": 10346,
+      "adjusted_cited_by_count": 4223.74,
+      "url": "/domains/aging/papers/W3108106255"
+    },
+    {
+      "source_id": "https://openalex.org/W2549976854",
+      "title": "Ultrastructural Characterization of the Lower Motor System in a Mouse Model of Krabbe Disease",
+      "year": 2016,
+      "cited_by_count": 13254,
+      "adjusted_cited_by_count": 4191.28,
+      "url": "/domains/aging/papers/W2549976854"
+    },
+    {
+      "source_id": "https://openalex.org/W3042270788",
+      "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+      "year": 2020,
+      "cited_by_count": 9986,
+      "adjusted_cited_by_count": 4076.77,
+      "url": "/domains/aging/papers/W3042270788"
+    },
+    {
+      "source_id": "https://openalex.org/W2126525177",
+      "title": "The Hallmarks of Aging",
+      "year": 2013,
+      "cited_by_count": 14520,
+      "adjusted_cited_by_count": 4027.12,
+      "url": "/domains/aging/papers/W2126525177"
+    },
+    {
+      "source_id": "https://openalex.org/W3046275966",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by_count": 9835,
+      "adjusted_cited_by_count": 4015.12,
+      "url": "/domains/aging/papers/W3046275966"
+    },
+    {
+      "source_id": "https://openalex.org/W3082188176",
+      "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+      "year": 2020,
+      "cited_by_count": 9718,
+      "adjusted_cited_by_count": 3967.36,
+      "url": "/domains/aging/papers/W3082188176"
+    },
+    {
+      "source_id": "https://openalex.org/W3002539152",
+      "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+      "year": 2020,
+      "cited_by_count": 9576,
+      "adjusted_cited_by_count": 3909.39,
+      "url": "/domains/aging/papers/W3002539152"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14168,
+      "adjusted_cited_by_count": 3786.56,
+      "url": "/domains/aging/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2133416234",
+      "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+      "year": 2013,
+      "cited_by_count": 13652,
+      "adjusted_cited_by_count": 3786.38,
+      "url": "/domains/aging/papers/W2133416234"
+    },
+    {
+      "source_id": "https://openalex.org/W2337454357",
+      "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+      "year": 1998,
+      "cited_by_count": 19988,
+      "adjusted_cited_by_count": 3777.38,
+      "url": "/domains/aging/papers/W2337454357"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10259,
+      "adjusted_cited_by_count": 3627.1,
+      "url": "/domains/aging/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2397911846",
+      "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2016,
+      "cited_by_count": 11388,
+      "adjusted_cited_by_count": 3601.2,
+      "url": "/domains/aging/papers/W2397911846"
+    },
+    {
+      "source_id": "https://openalex.org/W3011610993",
+      "title": "Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 8712,
+      "adjusted_cited_by_count": 3556.66,
+      "url": "/domains/aging/papers/W3011610993"
+    },
+    {
+      "source_id": "https://openalex.org/W2146264128",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "year": 2015,
+      "cited_by_count": 11757,
+      "adjusted_cited_by_count": 3544.87,
+      "url": "/domains/aging/papers/W2146264128"
+    },
+    {
+      "source_id": "https://openalex.org/W2798054687",
+      "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by_count": 9928,
+      "adjusted_cited_by_count": 3510.08,
+      "url": "/domains/aging/papers/W2798054687"
+    },
+    {
+      "source_id": "https://openalex.org/W2143104968",
+      "title": "Harmonizing the Metabolic Syndrome",
+      "year": 2009,
+      "cited_by_count": 14443,
+      "adjusted_cited_by_count": 3502.94,
+      "url": "/domains/aging/papers/W2143104968"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 402
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 275
+    },
+    {
+      "label": "age",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 188
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 185
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 160
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "patients",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 110
+    },
+    {
+      "label": "patients with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 96
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 83
+    },
+    {
+      "label": "s disease",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "clinical characteristics",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 2
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 78
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 77
+    },
+    {
+      "label": "cardiology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 69
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 67
+    },
+    {
+      "label": "associated",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 65
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 65
+    },
+    {
+      "label": "cause",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 64
+    },
+    {
+      "label": "intensive care medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 64
+    },
+    {
+      "label": "treatment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 64
+    },
+    {
+      "label": "national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 63
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 60
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 59
+    },
+    {
+      "label": "group",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 59
+    },
+    {
+      "label": "years",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 58
+    },
+    {
+      "label": "guideline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 57
+    },
+    {
+      "label": "who",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 56
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 57
+    },
+    {
+      "label": "cardiovascular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 55
+    },
+    {
+      "label": "death",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 54
+    },
+    {
+      "label": "care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 94
+    },
+    {
+      "label": "associated with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 53
+    },
+    {
+      "label": "in patients",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 52
+    },
+    {
+      "label": "diabete mellitus",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 51
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 51
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 48
+    },
+    {
+      "label": "surgery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 48
+    },
+    {
+      "label": "recommendations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 47
+    },
+    {
+      "label": "after",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 46
+    },
+    {
+      "label": "therapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 64
+    },
+    {
+      "label": "diagnosis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 45
+    },
+    {
+      "label": "factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 45
+    },
+    {
+      "label": "trial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 45
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 44
+    }
+  ],
+  "topic_year_counts": {
+    "physical therapy": {
+      "2023": 244432,
+      "2024": 244423,
+      "2025": 230041,
+      "2022": 169951,
+      "2021": 150964,
+      "2020": 133968,
+      "2019": 105588,
+      "2018": 93574,
+      "2017": 84803,
+      "2016": 75239,
+      "2015": 69076,
+      "2014": 61475,
+      "2013": 54903,
+      "2026": 48439,
+      "2012": 47630,
+      "2011": 39344,
+      "2010": 32571,
+      "2009": 27321,
+      "2008": 23411,
+      "2007": 19920,
+      "2006": 17294,
+      "2005": 16081,
+      "2004": 14616,
+      "2003": 12031,
+      "2002": 10351,
+      "2000": 9761,
+      "2001": 9155
+    },
+    "environmental health": {
+      "2025": 587238,
+      "2024": 533561,
+      "2023": 514705,
+      "2022": 352026,
+      "2021": 305153,
+      "2020": 267646,
+      "2019": 208584,
+      "2018": 179750,
+      "2017": 156819,
+      "2016": 140075,
+      "2015": 125376,
+      "2026": 125156,
+      "2014": 114690,
+      "2013": 101070,
+      "2012": 87144,
+      "2011": 73031,
+      "2010": 61152,
+      "2009": 51759,
+      "2008": 43946,
+      "2007": 37328,
+      "2006": 33936,
+      "2005": 29416,
+      "2004": 25852,
+      "2003": 21903,
+      "2002": 19035,
+      "2000": 17497,
+      "2001": 16871
+    },
+    "intensive care medicine": {
+      "2023": 92099,
+      "2024": 91255,
+      "2025": 85655,
+      "2022": 67310,
+      "2021": 64541,
+      "2020": 60503,
+      "2019": 39665,
+      "2018": 33861,
+      "2017": 29707,
+      "2016": 26419,
+      "2015": 24429,
+      "2014": 21767,
+      "2026": 19437,
+      "2013": 19119,
+      "2012": 16881,
+      "2011": 14149,
+      "2010": 11725,
+      "2009": 9779,
+      "2008": 8373,
+      "2007": 7241,
+      "2006": 6560,
+      "2005": 6345,
+      "2004": 5667,
+      "2003": 4982,
+      "2002": 4207,
+      "2000": 3698,
+      "2001": 3684
+    },
+    "type 2 diabete": {
+      "2023": 841,
+      "2024": 797,
+      "2022": 658,
+      "2025": 632,
+      "2020": 613,
+      "2021": 602,
+      "2018": 563,
+      "2019": 561,
+      "2017": 551,
+      "2013": 506,
+      "2016": 506,
+      "2015": 494,
+      "2014": 438,
+      "2009": 416,
+      "2010": 412,
+      "2012": 403,
+      "2011": 371,
+      "2007": 299,
+      "2008": 277,
+      "2006": 235,
+      "2002": 174,
+      "2005": 164,
+      "2004": 158,
+      "2003": 150,
+      "2001": 139,
+      "2000": 122,
+      "2026": 108
+    },
+    "coronavirus disease 2019": {
+      "2021": 135696,
+      "2022": 122185,
+      "2023": 119949,
+      "2020": 106368,
+      "2024": 77455,
+      "2025": 45787,
+      "2026": 7489,
+      "2019": 1762,
+      "2013": 331,
+      "2009": 330,
+      "2012": 330,
+      "2010": 313,
+      "2011": 311,
+      "2008": 288,
+      "2014": 281,
+      "2005": 253,
+      "2018": 231,
+      "2006": 218,
+      "2007": 212,
+      "2004": 211,
+      "2003": 185,
+      "2000": 181,
+      "2002": 169,
+      "2001": 148,
+      "2017": 103,
+      "2015": 82,
+      "2016": 76
+    },
+    "cardiovascular disease": {
+      "2023": 275353,
+      "2024": 273621,
+      "2025": 264662,
+      "2022": 204597,
+      "2021": 187778,
+      "2020": 173232,
+      "2019": 131521,
+      "2018": 116365,
+      "2017": 105703,
+      "2016": 94676,
+      "2015": 87640,
+      "2014": 80579,
+      "2013": 73922,
+      "2012": 64092,
+      "2026": 56195,
+      "2011": 53780,
+      "2010": 46125,
+      "2009": 39614,
+      "2008": 33856,
+      "2007": 29609,
+      "2006": 26610,
+      "2005": 24540,
+      "2004": 20769,
+      "2003": 19061,
+      "2002": 15080,
+      "2001": 13164,
+      "2000": 12415
+    },
+    "myocardial infarction": {
+      "2023": 75191,
+      "2024": 72161,
+      "2025": 65536,
+      "2022": 57699,
+      "2021": 55608,
+      "2020": 52729,
+      "2019": 42175,
+      "2018": 38842,
+      "2017": 36597,
+      "2016": 34185,
+      "2015": 33205,
+      "2014": 31827,
+      "2013": 30843,
+      "2012": 27777,
+      "2011": 24994,
+      "2010": 22353,
+      "2009": 19767,
+      "2008": 17330,
+      "2007": 16529,
+      "2006": 15577,
+      "2005": 14570,
+      "2026": 14030,
+      "2004": 13528,
+      "2003": 12734,
+      "2002": 10580,
+      "2001": 9372,
+      "2000": 8695
+    },
+    "randomized controlled trial": {
+      "2023": 403749,
+      "2024": 396477,
+      "2025": 387912,
+      "2022": 284439,
+      "2021": 264615,
+      "2020": 244410,
+      "2019": 191941,
+      "2018": 167252,
+      "2017": 152415,
+      "2016": 136238,
+      "2015": 124103,
+      "2014": 111557,
+      "2013": 100588,
+      "2026": 90809,
+      "2012": 86998,
+      "2011": 73039,
+      "2010": 61064,
+      "2009": 51964,
+      "2008": 44606,
+      "2007": 38535,
+      "2006": 34772,
+      "2005": 31172,
+      "2004": 27137,
+      "2003": 22437,
+      "2002": 17986,
+      "2001": 15874,
+      "2000": 15641
+    },
+    "family medicine": {
+      "2023": 295753,
+      "2024": 280971,
+      "2025": 257076,
+      "2022": 214572,
+      "2021": 194362,
+      "2020": 179517,
+      "2019": 135377,
+      "2018": 118187,
+      "2017": 106688,
+      "2016": 94421,
+      "2015": 84722,
+      "2014": 76604,
+      "2013": 67951,
+      "2012": 58736,
+      "2026": 52782,
+      "2011": 48783,
+      "2010": 39996,
+      "2009": 32797,
+      "2008": 28357,
+      "2007": 24073,
+      "2006": 21423,
+      "2005": 19541,
+      "2004": 16860,
+      "2003": 14829,
+      "2002": 12390,
+      "2000": 11677,
+      "2001": 11218
+    },
+    "public health": {
+      "2025": 840893,
+      "2023": 812809,
+      "2024": 799954,
+      "2022": 588593,
+      "2021": 535009,
+      "2020": 477106,
+      "2019": 338206,
+      "2018": 291954,
+      "2017": 257898,
+      "2016": 232436,
+      "2015": 210968,
+      "2014": 191649,
+      "2026": 183325,
+      "2013": 168585,
+      "2012": 144724,
+      "2011": 123983,
+      "2010": 106731,
+      "2009": 92642,
+      "2008": 79421,
+      "2007": 69277,
+      "2006": 61777,
+      "2005": 55367,
+      "2004": 48618,
+      "2003": 41265,
+      "2002": 35220,
+      "2001": 31414,
+      "2000": 31363
+    },
+    "risk factor": {
+      "2025": 1218616,
+      "2023": 1162638,
+      "2024": 1161173,
+      "2022": 827217,
+      "2021": 766854,
+      "2020": 698754,
+      "2019": 549098,
+      "2018": 485843,
+      "2017": 434950,
+      "2016": 395575,
+      "2015": 361982,
+      "2014": 332468,
+      "2013": 298838,
+      "2026": 271402,
+      "2012": 263645,
+      "2011": 225062,
+      "2010": 192273,
+      "2009": 164824,
+      "2008": 142796,
+      "2007": 123146,
+      "2006": 111739,
+      "2005": 99334,
+      "2004": 87829,
+      "2003": 75538,
+      "2002": 63017,
+      "2001": 55873,
+      "2000": 54344
+    }
+  }
+}

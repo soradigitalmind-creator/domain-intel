@@ -1,0 +1,56 @@
+{
+  "query": "Chemical Engineering",
+  "normalized_query": "chemical engineering",
+  "query_tokens": [
+    "chemical",
+    "engineering"
+  ],
+  "abstraction_score": 0.432,
+  "ambiguity_score": 0.54,
+  "broadness_score": 0.3,
+  "sibling_shape_score": 0.0533,
+  "cluster_symmetry_score": 0.3333,
+  "partition_quality_score": 0.988,
+  "discipline_prior": 1.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.4135,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning biochemical engineering, chemical engineering.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "biochemical engineering",
+    "process engineering",
+    "advanced chemical physics studies",
+    "chemical industry",
+    "crystal engineering",
+    "phytochemicals and antioxidant activity",
+    "surface engineering",
+    "tissue engineering"
+  ],
+  "dominant_senses": [
+    [
+      "engineering",
+      "biochemical engineering",
+      "engineering physics",
+      "chemical engineering",
+      "process engineering"
+    ],
+    [
+      "business",
+      "industrial organization"
+    ],
+    [
+      "drug discovery"
+    ]
+  ],
+  "raw_input": "Chemical Engineering",
+  "canonical_anchor": "tissue engineering",
+  "input_aliases": [
+    "chemical engineering",
+    "tissue engineering"
+  ],
+  "anchor_confidence": 0.8,
+  "forced_concept_type": null
+}

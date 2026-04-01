@@ -1,0 +1,52 @@
+{
+  "query": "Water Resources",
+  "normalized_query": "water resource",
+  "query_tokens": [
+    "water",
+    "resource"
+  ],
+  "abstraction_score": 0.243,
+  "ambiguity_score": 0.36,
+  "broadness_score": 0.1,
+  "sibling_shape_score": 0.0533,
+  "cluster_symmetry_score": 0.3333,
+  "partition_quality_score": 0.889,
+  "discipline_prior": 0.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.2457,
+    "family_system": 0.0531
+  },
+  "abstraction_label": "A taxonomy-style research map spanning water resource, water resource management and optimization.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "natural resource economics",
+    "environmental resource management",
+    "resource",
+    "natural resource",
+    "soil water",
+    "water resource",
+    "wastewater",
+    "water cycle"
+  ],
+  "dominant_senses": [
+    [
+      "natural resource economics",
+      "environmental resource management",
+      "resource",
+      "natural resource",
+      "plant water relations and carbon dynamics"
+    ],
+    [
+      "context",
+      "corporate governance"
+    ]
+  ],
+  "raw_input": "Water Resources",
+  "canonical_anchor": "water resource",
+  "input_aliases": [
+    "water resource"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

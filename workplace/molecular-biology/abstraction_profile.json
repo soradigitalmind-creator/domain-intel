@@ -1,0 +1,48 @@
+{
+  "query": "Molecular Biology",
+  "normalized_query": "molecular biology",
+  "query_tokens": [
+    "molecular",
+    "biology"
+  ],
+  "abstraction_score": 0.234,
+  "ambiguity_score": 0.18,
+  "broadness_score": 0.3,
+  "sibling_shape_score": 0.0,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8,
+  "discipline_prior": 1.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.338,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "computational biology",
+    "evolutionary biology",
+    "cell biology",
+    "genome biology",
+    "cancer-related molecular mechanisms research",
+    "systems biology",
+    "molecular biology",
+    "molecular evolution"
+  ],
+  "dominant_senses": [
+    [
+      "biology",
+      "computational biology",
+      "evolutionary biology",
+      "cell biology",
+      "genome biology"
+    ]
+  ],
+  "raw_input": "Molecular Biology",
+  "canonical_anchor": "molecular biology",
+  "input_aliases": [
+    "molecular biology"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

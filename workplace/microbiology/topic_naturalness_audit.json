@@ -1,0 +1,285 @@
+{
+  "parents": [
+    {
+      "subgenre_id": "sg-escherichia-coli",
+      "label": "escherichia coli research",
+      "paper_count": 32,
+      "child_count": 6,
+      "label_naturalness": 0.068,
+      "base_label_naturalness": 0.148,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.12,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0693,
+      "overlap_penalty": 0.0187,
+      "final_naturalness": 0.0493
+    },
+    {
+      "subgenre_id": "sg-staphylococcus-aureus",
+      "label": "staphylococcus aureus research",
+      "paper_count": 27,
+      "child_count": 5,
+      "label_naturalness": 0.068,
+      "base_label_naturalness": 0.148,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.12,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0693,
+      "overlap_penalty": 0.0187,
+      "final_naturalness": 0.0493
+    },
+    {
+      "subgenre_id": "sg-16s-ribosomal-rna",
+      "label": "16s ribosomal rna sequencing",
+      "paper_count": 105,
+      "child_count": 5,
+      "label_naturalness": 0.068,
+      "base_label_naturalness": 0.148,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.12,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.068
+    },
+    {
+      "subgenre_id": "sg-microbial-community",
+      "label": "microbial community analysis",
+      "paper_count": 14,
+      "child_count": 4,
+      "label_naturalness": 0.068,
+      "base_label_naturalness": 0.148,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.12,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.068
+    },
+    {
+      "subgenre_id": "sg-cell-biology",
+      "label": "cell biology",
+      "paper_count": 85,
+      "child_count": 8,
+      "label_naturalness": 0.2311,
+      "base_label_naturalness": 0.2311,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0996,
+        "term_support": 1.0,
+        "term_centrality": 0.1296,
+        "dispersion_complement": 0.0966
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2627,
+      "overlap_risk": 0.16,
+      "overlap_penalty": 0.0432,
+      "final_naturalness": 0.1879
+    },
+    {
+      "subgenre_id": "sg-global-burden-of-disease",
+      "label": "global burden of disease",
+      "paper_count": 41,
+      "child_count": 6,
+      "label_naturalness": 0.2294,
+      "base_label_naturalness": 0.2294,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.1154,
+        "term_support": 1.0,
+        "term_centrality": 0.0847,
+        "dispersion_complement": 0.1256
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2595,
+      "overlap_risk": 0.0693,
+      "overlap_penalty": 0.0187,
+      "final_naturalness": 0.2107
+    },
+    {
+      "subgenre_id": "sg-immune-system",
+      "label": "immune system",
+      "paper_count": 33,
+      "child_count": 5,
+      "label_naturalness": 0.2249,
+      "base_label_naturalness": 0.2249,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0897,
+        "term_support": 1.0,
+        "term_centrality": 0.1023,
+        "dispersion_complement": 0.094
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2874,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2249
+    },
+    {
+      "subgenre_id": "sg-infectious-disease",
+      "label": "infectious disease",
+      "paper_count": 139,
+      "child_count": 14,
+      "label_naturalness": 0.2511,
+      "base_label_naturalness": 0.2511,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0854,
+        "term_support": 1.0,
+        "term_centrality": 0.2422,
+        "dispersion_complement": 0.1388
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3269,
+      "overlap_risk": 0.0693,
+      "overlap_penalty": 0.0187,
+      "final_naturalness": 0.2324
+    },
+    {
+      "subgenre_id": "sg-clinical-microbiology",
+      "label": "clinical microbiology",
+      "paper_count": 162,
+      "child_count": 5,
+      "label_naturalness": 0.3905,
+      "base_label_naturalness": 0.3905,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.1118,
+        "term_support": 1.0,
+        "term_centrality": 0.0778,
+        "dispersion_complement": 0.0975
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3711,
+      "overlap_risk": 0.16,
+      "overlap_penalty": 0.0432,
+      "final_naturalness": 0.3473
+    }
+  ],
+  "pairs": [
+    {
+      "a_id": "sg-clinical-microbiology",
+      "a_label": "clinical microbiology",
+      "b_id": "sg-cell-biology",
+      "b_label": "cell biology",
+      "risk": 0.16,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.0,
+      "containment": 0.0,
+      "sequence_similarity": 0.0
+    },
+    {
+      "a_id": "sg-escherichia-coli",
+      "a_label": "escherichia coli research",
+      "b_id": "sg-staphylococcus-aureus",
+      "b_label": "staphylococcus aureus research",
+      "risk": 0.0693,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.2,
+      "containment": 0.0,
+      "sequence_similarity": 0.1111
+    },
+    {
+      "a_id": "sg-infectious-disease",
+      "a_label": "infectious disease",
+      "b_id": "sg-global-burden-of-disease",
+      "b_label": "global burden of disease",
+      "risk": 0.0693,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.2,
+      "containment": 0.0,
+      "sequence_similarity": 0.1111
+    }
+  ],
+  "summary": {
+    "median_label_naturalness": 0.1879,
+    "bottom10_label_naturalness": 0.0493,
+    "mean_parent_overlap_risk": 0.0664,
+    "assignment_naturalness": 0.9985,
+    "assignment_ambiguity_rate": 0.0031,
+    "median_assignment_gap": 1.0244,
+    "weak_assignment_rate": 0.0,
+    "parent_with_children_ratio": 1.0,
+    "parent_size_cv": 0.7179,
+    "structure_score": 0.7874,
+    "human_naturalness_score": 0.4017
+  }
+}

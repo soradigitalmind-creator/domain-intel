@@ -1,0 +1,49 @@
+{
+  "reviewed": 72,
+  "invalidated": [
+    "sg-central-nervous-glial-fibrillary-acidic-protein",
+    "sg-prefrontal-cortex-cortex-in-cognitive",
+    "sg-prefrontal-cortex-frontal-cortex"
+  ],
+  "relabelled": {
+    "sg-cognitive-neuroscience-neuroscience-education-and-cognitive-function": "neuroscience of education and cognitive function",
+    "sg-social-neuroscience-action-observation-and-synchronization": "action observation and synchronization",
+    "sg-social-neuroscience-motor-cognition": "motor cognition",
+    "sg-affective-neuroscience-affective-neuroscience-cognitive": "affective neuroscience and cognition",
+    "sg-magnetic-resonance-imaging-blood-oxygen-level-dependent": "blood-oxygen-level dependent (BOLD)",
+    "sg-magnetic-resonance-imaging-magnetic-resonance": "magnetic resonance imaging (MRI)",
+    "sg-cell-biology-neurogenesis-and-neuroplasticity-mechanisms": "neurogenesis and neuroplasticity mechanisms",
+    "sg-functional-connectivity-resting-state-fmri": "resting-state fMRI",
+    "sg-functional-connectivity-human-connectome-project": "Human Connectome Project",
+    "sg-functional-connectivity-resting-state": "resting-state functional connectivity"
+  },
+  "merged": {
+    "sg-central-nervous-barrier-structure-and-function-studies": "sg-central-nervous-blood-brain-barrier",
+    "sg-human-brain-brain-activity": "sg-human-brain-brain-function",
+    "sg-cell-biology-stem-cell": "sg-cell-biology-neural-stem-cell",
+    "sg-cell-biology-progenitor-cell": "sg-cell-biology-embryonic-stem-cell",
+    "sg-cell-biology-subventricular-zone": "sg-cell-biology-neural-stem-cell",
+    "sg-cell-biology-subgranular-zone": "sg-cell-biology-granule-cell"
+  },
+  "notes": {
+    "sg-cognitive-neuroscience-neuroscience-education-and-cognitive-function": "Improved phrasing for clarity.",
+    "sg-social-neuroscience-action-observation-and-synchronization": "The label is missing the word 'and'.",
+    "sg-social-neuroscience-motor-cognition": "The label is missing the word 'co'.",
+    "sg-affective-neuroscience-affective-neuroscience-cognitive": "Relabeled to be more natural phrasing.",
+    "sg-computational-neuroscience-spiking-neural-network": "This is a type of artificial neural network, which is a subfield of machine learning and computer science, not directly a subtopic of computational neuroscience. While related, it's not specific enough to be a child topic here.",
+    "sg-central-nervous-glial-fibrillary-acidic-protein": "This is a protein, not a central nervous system structure or function.",
+    "sg-central-nervous-barrier-structure-and-function-studies": "This is a descriptive phrase that is better captured by the more specific 'blood-brain barrier'.",
+    "sg-magnetic-resonance-imaging-blood-oxygen-level-dependent": "Add acronym for clarity.",
+    "sg-magnetic-resonance-imaging-magnetic-resonance": "Add acronym for clarity and to distinguish from the parent topic.",
+    "sg-human-brain-brain-activity": "This is a near-duplicate of 'brain function'. Merging into 'brain function'.",
+    "sg-cell-biology-stem-cell": "This is a more general term than neural stem cell, which is more relevant to neuroscience.",
+    "sg-cell-biology-progenitor-cell": "Embryonic stem cells are a type of progenitor cell, and this is more specific.",
+    "sg-cell-biology-subventricular-zone": "This is a specific location where neurogenesis occurs, and neural stem cells are found there. Merging to neural stem cell for better specificity.",
+    "sg-cell-biology-subgranular-zone": "This is a specific location where neurogenesis occurs, and granule cells are found there. Merging to granule cell for better specificity.",
+    "sg-prefrontal-cortex-frontal-cortex": "This is too general as 'prefrontal cortex' is already a specific part of the frontal cortex.",
+    "sg-prefrontal-cortex-cortex-in-cognitive": "This phrasing is unnatural and too generic.",
+    "sg-functional-connectivity-resting-state-fmri": "Capitalize and hyphenate fMRI.",
+    "sg-functional-connectivity-human-connectome-project": "Capitalize proper noun.",
+    "sg-functional-connectivity-resting-state": "This is too general. 'resting state' alone could refer to many things. Given the parent topic is 'functional connectivity', this should be more specific."
+  }
+}

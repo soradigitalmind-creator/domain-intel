@@ -1,0 +1,56 @@
+{
+  "query": "Decision Sciences",
+  "normalized_query": "decision science",
+  "query_tokens": [
+    "decision",
+    "science"
+  ],
+  "abstraction_score": 0.432,
+  "ambiguity_score": 0.54,
+  "broadness_score": 0.3,
+  "sibling_shape_score": 0.0,
+  "cluster_symmetry_score": 0.3333,
+  "partition_quality_score": 0.9759,
+  "discipline_prior": 1.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.3837,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "management science",
+    "health policy implementation science",
+    "environmental science",
+    "decision tree",
+    "cognitive science",
+    "actuarial science",
+    "library science",
+    "computational science"
+  ],
+  "dominant_senses": [
+    [
+      "computer science",
+      "data science",
+      "management science",
+      "health policy implementation science",
+      "decision tree"
+    ],
+    [
+      "environmental science",
+      "climate change",
+      "environmental resource management"
+    ],
+    [
+      "physics"
+    ]
+  ],
+  "raw_input": "Decision Sciences",
+  "canonical_anchor": "decision science",
+  "input_aliases": [
+    "decision science"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

@@ -1,0 +1,132 @@
+.backRow {
+  padding-top: 20px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.hero {
+  display: grid;
+  gap: 16px;
+  padding: 24px 0 12px;
+}
+
+.eyebrow,
+.metricLabel,
+.signalLabel {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.copy,
+.sectionCopy,
+.signalValue,
+.paperMeta,
+.paperSummary,
+.paperConcepts {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.metricRow,
+.signalGrid,
+.childGrid,
+.paperGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.metricRow {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.metricCard,
+.signalCard,
+.childCard,
+.paperCard {
+  padding: 18px;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 32px rgba(17, 17, 17, 0.05);
+}
+
+.metricValue {
+  font-size: 1.8rem;
+  letter-spacing: -0.05em;
+}
+
+.section {
+  margin-top: 26px;
+}
+
+.sectionTitle {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  letter-spacing: -0.03em;
+}
+
+.signalGrid,
+.childGrid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.paperGrid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.childCard {
+  display: grid;
+  gap: 8px;
+}
+
+.childTitle,
+.paperTitle {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: -0.03em;
+}
+
+.childMeta,
+.paperConfidence {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.paperCard {
+  display: grid;
+  gap: 12px;
+}
+
+.paperTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.paperTitle a {
+  color: inherit;
+}

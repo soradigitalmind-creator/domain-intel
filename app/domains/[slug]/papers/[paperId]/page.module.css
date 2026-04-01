@@ -1,0 +1,117 @@
+.backRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.backLink,
+.primaryLink,
+.secondaryLink {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.backLink,
+.secondaryLink {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--muted);
+}
+
+.primaryLink {
+  background: #111111;
+  color: #ffffff;
+}
+
+.hero,
+.section {
+  margin-top: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  line-height: 0.96;
+  letter-spacing: -0.06em;
+}
+
+.meta,
+.summary,
+.infoLine,
+.entityMeta,
+.claimMeta,
+.claimText,
+.emptyState {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.linkRow,
+.tagGrid,
+.entityGrid,
+.claimGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.linkRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.sectionTitle {
+  margin: 0 0 12px;
+  font-size: 1.04rem;
+  letter-spacing: -0.03em;
+}
+
+.infoCard,
+.entityCard,
+.claimCard {
+  padding: 18px;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 32px rgba(17, 17, 17, 0.05);
+}
+
+.tagGrid,
+.entityGrid,
+.claimGrid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 0.84rem;
+}
+
+.entityName,
+.claimName {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.96rem;
+  letter-spacing: -0.02em;
+}

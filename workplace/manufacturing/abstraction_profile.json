@@ -1,0 +1,46 @@
+{
+  "query": "Manufacturing",
+  "normalized_query": "manufacturing",
+  "query_tokens": [
+    "manufacturing"
+  ],
+  "abstraction_score": 0.18,
+  "ambiguity_score": 0.18,
+  "broadness_score": 0.18,
+  "sibling_shape_score": 0.08,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8,
+  "discipline_prior": 0.0,
+  "concept_type": "family_system",
+  "concept_type_scores": {
+    "taxonomy": 0.2068,
+    "family_system": 0.293
+  },
+  "abstraction_label": "A family of related Manufacturing technologies, including manufacturing engineering, additive manufacturing and 3d printing technology, additive manufacturing material and processes.",
+  "abstraction_mode": "family_refining",
+  "suggested_anchors": [
+    "manufacturing process and optimization",
+    "advanced manufacturing",
+    "lean manufacturing",
+    "manufacturing",
+    "digital manufacturing",
+    "discrete manufacturing",
+    "integrated computer-aided manufacturing"
+  ],
+  "dominant_senses": [
+    [
+      "manufacturing engineering",
+      "additive manufacturing and 3d printing technology",
+      "additive manufacturing material and processes",
+      "computer science",
+      "material science"
+    ]
+  ],
+  "raw_input": "Manufacturing",
+  "canonical_anchor": "manufacturing",
+  "input_aliases": [
+    "manufacturing"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

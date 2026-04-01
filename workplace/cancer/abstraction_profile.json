@@ -1,0 +1,47 @@
+{
+  "query": "Cancer",
+  "normalized_query": "cancer",
+  "query_tokens": [
+    "cancer"
+  ],
+  "abstraction_score": 0.18,
+  "ambiguity_score": 0.18,
+  "broadness_score": 0.18,
+  "sibling_shape_score": 0.745,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8,
+  "discipline_prior": 0.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.5526,
+    "family_system": 0.4955
+  },
+  "abstraction_label": "A taxonomy-style research map spanning lung cancer, breast cancer, colorectal cancer.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "cancer",
+    "cancer research",
+    "lung cancer",
+    "breast cancer",
+    "colorectal cancer",
+    "prostate cancer",
+    "cancer immunotherapy and biomarkers",
+    "cancer cells and metastasis"
+  ],
+  "dominant_senses": [
+    [
+      "cancer",
+      "cancer research",
+      "lung cancer",
+      "global cancer incidence and screening",
+      "breast cancer"
+    ]
+  ],
+  "raw_input": "Cancer",
+  "canonical_anchor": "cancer",
+  "input_aliases": [
+    "cancer"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

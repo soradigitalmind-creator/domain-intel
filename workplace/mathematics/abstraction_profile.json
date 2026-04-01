@@ -1,0 +1,47 @@
+{
+  "query": "Mathematics",
+  "normalized_query": "mathematics",
+  "query_tokens": [
+    "mathematics"
+  ],
+  "abstraction_score": 0.369,
+  "ambiguity_score": 0.36,
+  "broadness_score": 0.38,
+  "sibling_shape_score": 0.1383,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8951,
+  "discipline_prior": 1.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.4042,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning applied mathematics, mathematics education.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "applied mathematics",
+    "mathematics education",
+    "discrete mathematics",
+    "pure mathematics"
+  ],
+  "dominant_senses": [
+    [
+      "mathematics",
+      "applied mathematics",
+      "mathematics education",
+      "computer science",
+      "artificial intelligence"
+    ],
+    [
+      "material science"
+    ]
+  ],
+  "raw_input": "Mathematics",
+  "canonical_anchor": "pure mathematics",
+  "input_aliases": [
+    "mathematics",
+    "pure mathematics"
+  ],
+  "anchor_confidence": 0.8,
+  "forced_concept_type": null
+}

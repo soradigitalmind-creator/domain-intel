@@ -1,0 +1,262 @@
+{
+  "parents": [
+    {
+      "subgenre_id": "sg-consumer-behaviour",
+      "label": "consumer behavior",
+      "paper_count": 36,
+      "child_count": 5,
+      "label_naturalness": 0.1639,
+      "base_label_naturalness": 0.2439,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.0,
+        "term_purity": 0.1071,
+        "term_support": 1.0,
+        "term_centrality": 0.5551,
+        "dispersion_complement": 0.0355
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.1071,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.1639
+    },
+    {
+      "subgenre_id": "sg-structural-equation-modeling",
+      "label": "structural equation modeling",
+      "paper_count": 28,
+      "child_count": 6,
+      "label_naturalness": 0.2253,
+      "base_label_naturalness": 0.2253,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0801,
+        "term_support": 1.0,
+        "term_centrality": 0.1167,
+        "dispersion_complement": 0.0901
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2885,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2253
+    },
+    {
+      "subgenre_id": "sg-customer-retention",
+      "label": "customer retention",
+      "paper_count": 41,
+      "child_count": 6,
+      "label_naturalness": 0.2286,
+      "base_label_naturalness": 0.2286,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0945,
+        "term_support": 1.0,
+        "term_centrality": 0.1175,
+        "dispersion_complement": 0.0987
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2925,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2286
+    },
+    {
+      "subgenre_id": "sg-relationship-marketing",
+      "label": "relationship marketing",
+      "paper_count": 41,
+      "child_count": 5,
+      "label_naturalness": 0.4062,
+      "base_label_naturalness": 0.4062,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.0965,
+        "term_support": 1.0,
+        "term_centrality": 0.1841,
+        "dispersion_complement": 0.1091
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3958,
+      "overlap_risk": 0.2773,
+      "overlap_penalty": 0.0669,
+      "final_naturalness": 0.3393
+    },
+    {
+      "subgenre_id": "sg-marketing-management",
+      "label": "marketing management",
+      "paper_count": 44,
+      "child_count": 5,
+      "label_naturalness": 0.4135,
+      "base_label_naturalness": 0.4135,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.0978,
+        "term_support": 1.0,
+        "term_centrality": 0.223,
+        "dispersion_complement": 0.1181
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.4068,
+      "overlap_risk": 0.2773,
+      "overlap_penalty": 0.0669,
+      "final_naturalness": 0.3466
+    },
+    {
+      "subgenre_id": "sg-service-marketing",
+      "label": "service marketing",
+      "paper_count": 21,
+      "child_count": 4,
+      "label_naturalness": 0.3927,
+      "base_label_naturalness": 0.3927,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.1177,
+        "term_support": 1.0,
+        "term_centrality": 0.0962,
+        "dispersion_complement": 0.0805
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3742,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.361
+    },
+    {
+      "subgenre_id": "sg-media-marketing",
+      "label": "media marketing",
+      "paper_count": 40,
+      "child_count": 6,
+      "label_naturalness": 0.4044,
+      "base_label_naturalness": 0.4044,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.0837,
+        "term_support": 1.0,
+        "term_centrality": 0.1888,
+        "dispersion_complement": 0.1038
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3938,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.3727
+    }
+  ],
+  "pairs": [
+    {
+      "a_id": "sg-marketing-management",
+      "a_label": "marketing management",
+      "b_id": "sg-relationship-marketing",
+      "b_label": "relationship marketing",
+      "risk": 0.2773,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-marketing-management",
+      "a_label": "marketing management",
+      "b_id": "sg-media-marketing",
+      "b_label": "media marketing",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-marketing-management",
+      "a_label": "marketing management",
+      "b_id": "sg-service-marketing",
+      "b_label": "service marketing",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-media-marketing",
+      "a_label": "media marketing",
+      "b_id": "sg-service-marketing",
+      "b_label": "service marketing",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-relationship-marketing",
+      "a_label": "relationship marketing",
+      "b_id": "sg-media-marketing",
+      "b_label": "media marketing",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-relationship-marketing",
+      "a_label": "relationship marketing",
+      "b_id": "sg-service-marketing",
+      "b_label": "service marketing",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    }
+  ],
+  "summary": {
+    "median_label_naturalness": 0.3393,
+    "bottom10_label_naturalness": 0.2007,
+    "mean_parent_overlap_risk": 0.1127,
+    "assignment_naturalness": 0.9335,
+    "assignment_ambiguity_rate": 0.1057,
+    "median_assignment_gap": 0.2491,
+    "weak_assignment_rate": 0.1314,
+    "parent_with_children_ratio": 1.0,
+    "parent_size_cv": 0.2157,
+    "structure_score": 0.8897,
+    "human_naturalness_score": 0.5108
+  }
+}

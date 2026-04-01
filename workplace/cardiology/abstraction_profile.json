@@ -1,0 +1,41 @@
+{
+  "query": "Cardiology",
+  "normalized_query": "cardiology",
+  "query_tokens": [
+    "cardiology"
+  ],
+  "abstraction_score": 0.18,
+  "ambiguity_score": 0.18,
+  "broadness_score": 0.18,
+  "sibling_shape_score": 0.0,
+  "cluster_symmetry_score": 0.1667,
+  "partition_quality_score": 0.8,
+  "discipline_prior": 0.0,
+  "concept_type": "taxonomy",
+  "concept_type_scores": {
+    "taxonomy": 0.1652,
+    "family_system": 0.0
+  },
+  "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+  "abstraction_mode": "taxonomy_mapping",
+  "suggested_anchors": [
+    "cardiology",
+    "clinical cardiology"
+  ],
+  "dominant_senses": [
+    [
+      "cardiology",
+      "medicine",
+      "internal medicine",
+      "intensive care medicine",
+      "disease"
+    ]
+  ],
+  "raw_input": "Cardiology",
+  "canonical_anchor": "cardiology",
+  "input_aliases": [
+    "cardiology"
+  ],
+  "anchor_confidence": 0.65,
+  "forced_concept_type": null
+}

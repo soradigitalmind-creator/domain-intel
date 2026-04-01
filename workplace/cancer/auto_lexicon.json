@@ -1,0 +1,4898 @@
+{
+  "entities": [
+    {
+      "name": "gene expression",
+      "score": 5.7,
+      "doc_freq": 86,
+      "title_freq": 12,
+      "keyword_freq": 102,
+      "variants": [
+        "gene expression"
+      ],
+      "contexts": [
+        "expression",
+        "gene",
+        "data",
+        "analysis of",
+        "expression data",
+        "class",
+        "edger",
+        "bioconductor"
+      ],
+      "canonical_name": "gene expression",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "breast cancer",
+      "score": 5.7,
+      "doc_freq": 59,
+      "title_freq": 38,
+      "keyword_freq": 66,
+      "variants": [
+        "breast cancer",
+        "breast cancer."
+      ],
+      "contexts": [
+        "breast",
+        "cancer",
+        "immune",
+        "checkpoint",
+        "immune checkpoint",
+        "pd-1",
+        "pd-l1",
+        "blockade"
+      ],
+      "canonical_name": "breast cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "lung cancer",
+      "score": 5.7,
+      "doc_freq": 50,
+      "title_freq": 32,
+      "keyword_freq": 52,
+      "variants": [
+        "lung cancer.",
+        "lung cancer"
+      ],
+      "contexts": [
+        "lung",
+        "cancer",
+        "subgroup",
+        "patients",
+        "non-small-cell",
+        "specific",
+        "mutations",
+        "egfr"
+      ],
+      "canonical_name": "lung cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cancer cell",
+      "score": 5.7,
+      "doc_freq": 49,
+      "title_freq": 8,
+      "keyword_freq": 44,
+      "variants": [
+        "cancer cell"
+      ],
+      "contexts": [
+        "cancer",
+        "cell",
+        "line",
+        "cell line",
+        "gene",
+        "shown",
+        "amplified",
+        "human"
+      ],
+      "canonical_name": "cancer cell",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "colorectal cancer",
+      "score": 5.7,
+      "doc_freq": 38,
+      "title_freq": 10,
+      "keyword_freq": 38,
+      "variants": [
+        "colorectal cancer",
+        "colorectal cancer."
+      ],
+      "contexts": [
+        "colorectal",
+        "cancer",
+        "plus",
+        "irinotecan",
+        "metastatic",
+        "plus irinotecan",
+        "metastatic colorectal",
+        "cetuximab"
+      ],
+      "canonical_name": "colorectal cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "human genome",
+      "score": 5.7,
+      "doc_freq": 28,
+      "title_freq": 9,
+      "keyword_freq": 26,
+      "variants": [
+        "human genome",
+        "human genome."
+      ],
+      "contexts": [
+        "human",
+        "genome",
+        "the human",
+        "the human genome",
+        "initial",
+        "sequencing",
+        "initial sequencing",
+        "sequencing and"
+      ],
+      "canonical_name": "human genome",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "regulation of",
+      "score": 5.7,
+      "doc_freq": 27,
+      "title_freq": 10,
+      "keyword_freq": 11,
+      "variants": [
+        "regulation of"
+      ],
+      "contexts": [
+        "regulation",
+        "microenvironmental",
+        "tumor",
+        "progression",
+        "metastasis",
+        "microenvironmental regulation",
+        "of tumor",
+        "tumor progression"
+      ],
+      "canonical_name": "regulation of",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cell death",
+      "score": 5.7,
+      "doc_freq": 24,
+      "title_freq": 8,
+      "keyword_freq": 18,
+      "variants": [
+        "cell death",
+        "cell death."
+      ],
+      "contexts": [
+        "cell",
+        "death",
+        "apoptosis",
+        "programmed",
+        "of programmed",
+        "programmed cell",
+        "ferroptosis",
+        "iron-dependent"
+      ],
+      "canonical_name": "cell death",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "of disease",
+      "score": 5.575,
+      "doc_freq": 19,
+      "title_freq": 14,
+      "keyword_freq": 8,
+      "variants": [
+        "of disease"
+      ],
+      "contexts": [
+        "disease",
+        "burden",
+        "burden of",
+        "global",
+        "pathogenesis",
+        "in the",
+        "the pathogenesis",
+        "in the pathogenesis"
+      ],
+      "canonical_name": "of disease",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "growth factor",
+      "score": 5.45,
+      "doc_freq": 30,
+      "title_freq": 5,
+      "keyword_freq": 37,
+      "variants": [
+        "growth factor"
+      ],
+      "contexts": [
+        "mutations",
+        "growth",
+        "factor",
+        "epidermal",
+        "receptor",
+        "the epidermal",
+        "epidermal growth",
+        "factor receptor"
+      ],
+      "canonical_name": "growth factor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "dna methylation",
+      "score": 5.45,
+      "doc_freq": 23,
+      "title_freq": 5,
+      "keyword_freq": 25,
+      "variants": [
+        "dna methylation"
+      ],
+      "contexts": [
+        "dna",
+        "methylation",
+        "epigenetic",
+        "age",
+        "methylation age",
+        "patterns",
+        "memory",
+        "methylation patterns"
+      ],
+      "canonical_name": "dna methylation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cancer",
+      "score": 5.3,
+      "doc_freq": 418,
+      "title_freq": 258,
+      "keyword_freq": 850,
+      "variants": [
+        "cancer",
+        "cancer."
+      ],
+      "contexts": [
+        "hallmarks",
+        "hallmarks of",
+        "of cancer",
+        "next",
+        "generation",
+        "cancer the",
+        "the next",
+        "next generation"
+      ],
+      "canonical_name": "cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "gene",
+      "score": 5.3,
+      "doc_freq": 266,
+      "title_freq": 45,
+      "keyword_freq": 409,
+      "variants": [
+        "gene",
+        "genes"
+      ],
+      "contexts": [
+        "set",
+        "enrichment",
+        "interpreting",
+        "expression",
+        "gene set",
+        "set enrichment",
+        "enrichment analysis",
+        "here"
+      ],
+      "canonical_name": "gene",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cell",
+      "score": 5.3,
+      "doc_freq": 228,
+      "title_freq": 40,
+      "keyword_freq": 400,
+      "variants": [
+        "cell"
+      ],
+      "contexts": [
+        "death",
+        "they",
+        "include",
+        "sustaining",
+        "proliferative",
+        "signaling",
+        "evading",
+        "growth"
+      ],
+      "canonical_name": "cell",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "oncology",
+      "score": 5.3,
+      "doc_freq": 148,
+      "title_freq": 7,
+      "keyword_freq": 150,
+      "variants": [
+        "oncology"
+      ],
+      "contexts": [
+        "cancer",
+        "molecular",
+        "of cancer",
+        "section",
+        "in oncology",
+        "oncology section",
+        "section 1",
+        "european"
+      ],
+      "canonical_name": "oncology",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "disease",
+      "score": 5.3,
+      "doc_freq": 145,
+      "title_freq": 57,
+      "keyword_freq": 145,
+      "variants": [
+        "disease.",
+        "disease"
+      ],
+      "contexts": [
+        "hallmarks",
+        "constitute",
+        "organizing",
+        "principle",
+        "rationalizing",
+        "complexity",
+        "neoplastic",
+        "the hallmarks"
+      ],
+      "canonical_name": "disease",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "human",
+      "score": 5.3,
+      "doc_freq": 128,
+      "title_freq": 71,
+      "keyword_freq": 61,
+      "variants": [
+        "human"
+      ],
+      "contexts": [
+        "genome",
+        "development",
+        "the human",
+        "human genome",
+        "holds",
+        "extraordinary",
+        "trove",
+        "information"
+      ],
+      "canonical_name": "human",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "expression",
+      "score": 5.3,
+      "doc_freq": 113,
+      "title_freq": 26,
+      "keyword_freq": 111,
+      "variants": [
+        "expression"
+      ],
+      "contexts": [
+        "gene",
+        "set",
+        "enrichment",
+        "interpreting",
+        "gene set",
+        "set enrichment",
+        "enrichment analysis",
+        "knowledge-based"
+      ],
+      "canonical_name": "expression",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "clinical",
+      "score": 5.3,
+      "doc_freq": 110,
+      "title_freq": 30,
+      "keyword_freq": 59,
+      "variants": [
+        "clinical"
+      ],
+      "contexts": [
+        "cancer",
+        "summarize",
+        "efficacy",
+        "perspectives",
+        "pd-1",
+        "pd-l1-directed",
+        "anti",
+        "review summarize"
+      ],
+      "canonical_name": "clinical",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "data",
+      "score": 5.3,
+      "doc_freq": 110,
+      "title_freq": 28,
+      "keyword_freq": 82,
+      "variants": [
+        "data",
+        "data."
+      ],
+      "contexts": [
+        "gene",
+        "expression",
+        "gsea",
+        "here",
+        "describe",
+        "powerful",
+        "analytical",
+        "called"
+      ],
+      "canonical_name": "data",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "health",
+      "score": 5.3,
+      "doc_freq": 100,
+      "title_freq": 20,
+      "keyword_freq": 86,
+      "variants": [
+        "health"
+      ],
+      "contexts": [
+        "women",
+        "chronic",
+        "obstructive",
+        "disease",
+        "copd",
+        "global",
+        "initiative",
+        "risks"
+      ],
+      "canonical_name": "health",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "tumor",
+      "score": 5.3,
+      "doc_freq": 98,
+      "title_freq": 20,
+      "keyword_freq": 53,
+      "variants": [
+        "tumor"
+      ],
+      "contexts": [
+        "cancer",
+        "genomics",
+        "data",
+        "cbio",
+        "portal",
+        "http",
+        "cbioportal.org",
+        "open-access"
+      ],
+      "canonical_name": "tumor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "genome",
+      "score": 5.3,
+      "doc_freq": 92,
+      "title_freq": 14,
+      "keyword_freq": 127,
+      "variants": [
+        "genome",
+        "genome.",
+        "genomes"
+      ],
+      "contexts": [
+        "human",
+        "which",
+        "the human",
+        "human genome",
+        "underlying",
+        "hallmarks",
+        "instability",
+        "generate"
+      ],
+      "canonical_name": "genome",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "therapy",
+      "score": 5.3,
+      "doc_freq": 86,
+      "title_freq": 27,
+      "keyword_freq": 71,
+      "variants": [
+        "therapy"
+      ],
+      "contexts": [
+        "patients",
+        "intensive",
+        "early",
+        "goal-directed",
+        "severe",
+        "sepsis",
+        "septic",
+        "shock"
+      ],
+      "canonical_name": "therapy",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "dna",
+      "score": 5.3,
+      "doc_freq": 82,
+      "title_freq": 14,
+      "keyword_freq": 103,
+      "variants": [
+        "dna"
+      ],
+      "contexts": [
+        "haplotype",
+        "human",
+        "variance",
+        "among",
+        "analysis of",
+        "dna haplotype",
+        "molecular",
+        "inferred"
+      ],
+      "canonical_name": "dna",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cells",
+      "score": 5.3,
+      "doc_freq": 79,
+      "title_freq": 39,
+      "keyword_freq": 7,
+      "variants": [
+        "cells"
+      ],
+      "contexts": [
+        "cancer",
+        "rely",
+        "of cancer",
+        "cancer cells",
+        "cells and",
+        "contrast",
+        "normal",
+        "differentiated"
+      ],
+      "canonical_name": "cells",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "molecular",
+      "score": 5.3,
+      "doc_freq": 77,
+      "title_freq": 23,
+      "keyword_freq": 28,
+      "variants": [
+        "molecular"
+      ],
+      "contexts": [
+        "cancer",
+        "genomics",
+        "portal",
+        "data",
+        "standards",
+        "guideline",
+        "interpretation",
+        "sequence"
+      ],
+      "canonical_name": "molecular",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "treatment",
+      "score": 5.3,
+      "doc_freq": 71,
+      "title_freq": 29,
+      "keyword_freq": 4,
+      "variants": [
+        "treatment",
+        "treatment."
+      ],
+      "contexts": [
+        "cancer",
+        "treatment of",
+        "immune",
+        "checkpoint",
+        "inhibition",
+        "represents",
+        "breakthrough",
+        "malignant"
+      ],
+      "canonical_name": "treatment",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "receptor",
+      "score": 5.3,
+      "doc_freq": 70,
+      "title_freq": 11,
+      "keyword_freq": 84,
+      "variants": [
+        "receptor",
+        "receptor."
+      ],
+      "contexts": [
+        "oncogene",
+        "epidermal",
+        "growth",
+        "factor",
+        "lung",
+        "cancer",
+        "her-2",
+        "neu"
+      ],
+      "canonical_name": "receptor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "factor",
+      "score": 5.3,
+      "doc_freq": 68,
+      "title_freq": 8,
+      "keyword_freq": 70,
+      "variants": [
+        "factor"
+      ],
+      "contexts": [
+        "too",
+        "many",
+        "cancer",
+        "oncogene",
+        "epidermal",
+        "growth",
+        "receptor",
+        "inappropriate"
+      ],
+      "canonical_name": "factor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "survival",
+      "score": 5.3,
+      "doc_freq": 66,
+      "title_freq": 21,
+      "keyword_freq": 15,
+      "variants": [
+        "survival",
+        "survival."
+      ],
+      "contexts": [
+        "patients",
+        "addition",
+        "temozolomide",
+        "radiotherapy",
+        "newly",
+        "diagnosed",
+        "glioblastoma",
+        "resulted"
+      ],
+      "canonical_name": "survival",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "breast",
+      "score": 5.3,
+      "doc_freq": 63,
+      "title_freq": 47,
+      "keyword_freq": 68,
+      "variants": [
+        "breast"
+      ],
+      "contexts": [
+        "cancer",
+        "pd-1",
+        "pd-l1",
+        "immune",
+        "checkpoint",
+        "immune checkpoint",
+        "breast cancer",
+        "blockade"
+      ],
+      "canonical_name": "breast",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "lung",
+      "score": 5.3,
+      "doc_freq": 60,
+      "title_freq": 40,
+      "keyword_freq": 65,
+      "variants": [
+        "lung"
+      ],
+      "contexts": [
+        "million",
+        "most",
+        "commonly",
+        "diagnosed",
+        "cancers",
+        "the most",
+        "most commonly",
+        "commonly diagnosed"
+      ],
+      "canonical_name": "lung",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "immune",
+      "score": 5.3,
+      "doc_freq": 59,
+      "title_freq": 25,
+      "keyword_freq": 75,
+      "variants": [
+        "immune"
+      ],
+      "contexts": [
+        "checkpoint",
+        "immune checkpoint",
+        "blockade",
+        "breast",
+        "cancer",
+        "checkpoint blockade",
+        "breast cancer",
+        "pd-1"
+      ],
+      "canonical_name": "immune",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "care",
+      "score": 5.3,
+      "doc_freq": 58,
+      "title_freq": 6,
+      "keyword_freq": 58,
+      "variants": [
+        "care"
+      ],
+      "contexts": [
+        "patients",
+        "intensive",
+        "nccn",
+        "forming",
+        "partnerships",
+        "managed",
+        "company",
+        "guideline"
+      ],
+      "canonical_name": "care",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "immunotherapy",
+      "score": 5.3,
+      "doc_freq": 58,
+      "title_freq": 11,
+      "keyword_freq": 65,
+      "variants": [
+        "immunotherapy"
+      ],
+      "contexts": [
+        "immune",
+        "cancer",
+        "cancer immunotherapy",
+        "blockade",
+        "cells",
+        "tumor",
+        "checkpoints",
+        "the blockade"
+      ],
+      "canonical_name": "immunotherapy",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "growth",
+      "score": 5.3,
+      "doc_freq": 57,
+      "title_freq": 15,
+      "keyword_freq": 48,
+      "variants": [
+        "growth"
+      ],
+      "contexts": [
+        "activating",
+        "oncogene",
+        "epidermal",
+        "factor",
+        "receptor",
+        "they",
+        "include",
+        "sustaining"
+      ],
+      "canonical_name": "growth",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "trial",
+      "score": 5.3,
+      "doc_freq": 56,
+      "title_freq": 10,
+      "keyword_freq": 49,
+      "variants": [
+        "trial",
+        "trial."
+      ],
+      "contexts": [
+        "not",
+        "women",
+        "primary",
+        "prevention",
+        "risks",
+        "benefits",
+        "estrogen",
+        "plus"
+      ],
+      "canonical_name": "trial",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "risk",
+      "score": 5.3,
+      "doc_freq": 53,
+      "title_freq": 6,
+      "keyword_freq": 18,
+      "variants": [
+        "risk.",
+        "risk"
+      ],
+      "contexts": [
+        "ewgsop2",
+        "recommendations",
+        "sarcopenia",
+        "updated",
+        "aim",
+        "increase",
+        "awareness",
+        "ewgsop2 s"
+      ],
+      "canonical_name": "risk",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "protein",
+      "score": 5.3,
+      "doc_freq": 52,
+      "title_freq": 13,
+      "keyword_freq": 28,
+      "variants": [
+        "protein"
+      ],
+      "contexts": [
+        "arrays",
+        "string",
+        "v11",
+        "association",
+        "networks",
+        "increased",
+        "coverage",
+        "supporting"
+      ],
+      "canonical_name": "protein",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "chemotherapy",
+      "score": 5.3,
+      "doc_freq": 50,
+      "title_freq": 18,
+      "keyword_freq": 48,
+      "variants": [
+        "chemotherapy",
+        "chemotherapy."
+      ],
+      "contexts": [
+        "her2",
+        "metastatic",
+        "cancer",
+        "breast",
+        "overexpresses",
+        "metastatic breast",
+        "breast cancer",
+        "cancer that"
+      ],
+      "canonical_name": "chemotherapy",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "genetic",
+      "score": 5.3,
+      "doc_freq": 50,
+      "title_freq": 9,
+      "keyword_freq": 33,
+      "variants": [
+        "genetic"
+      ],
+      "contexts": [
+        "variation",
+        "million",
+        "genome",
+        "which",
+        "multiple",
+        "human",
+        "genetic variation",
+        "set"
+      ],
+      "canonical_name": "genetic",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "death",
+      "score": 5.3,
+      "doc_freq": 49,
+      "title_freq": 15,
+      "keyword_freq": 30,
+      "variants": [
+        "death",
+        "death."
+      ],
+      "contexts": [
+        "cell",
+        "they",
+        "include",
+        "sustaining",
+        "proliferative",
+        "signaling",
+        "evading",
+        "growth"
+      ],
+      "canonical_name": "death",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "function",
+      "score": 5.3,
+      "doc_freq": 47,
+      "title_freq": 7,
+      "keyword_freq": 27,
+      "variants": [
+        "function"
+      ],
+      "contexts": [
+        "gene",
+        "variants",
+        "derives",
+        "power",
+        "focusing",
+        "sets",
+        "groups",
+        "share"
+      ],
+      "canonical_name": "function",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "information",
+      "score": 5.3,
+      "doc_freq": 46,
+      "title_freq": 7,
+      "keyword_freq": 11,
+      "variants": [
+        "information"
+      ],
+      "contexts": [
+        "human",
+        "although",
+        "genomewide",
+        "rna",
+        "expression",
+        "become",
+        "routine",
+        "tool"
+      ],
+      "canonical_name": "information",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "medical",
+      "score": 5.3,
+      "doc_freq": 46,
+      "title_freq": 7,
+      "keyword_freq": 41,
+      "variants": [
+        "medical"
+      ],
+      "contexts": [
+        "guideline",
+        "esc",
+        "esh",
+        "standards",
+        "interpretation",
+        "sequence",
+        "variants",
+        "joint"
+      ],
+      "canonical_name": "medical",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "pathway",
+      "score": 5.3,
+      "doc_freq": 45,
+      "title_freq": 8,
+      "keyword_freq": 29,
+      "variants": [
+        "pathway"
+      ],
+      "contexts": [
+        "provide",
+        "kegg",
+        "reference",
+        "gsva",
+        "increased",
+        "power",
+        "detect",
+        "subtle"
+      ],
+      "canonical_name": "pathway",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "mutation",
+      "score": 5.3,
+      "doc_freq": 43,
+      "title_freq": 6,
+      "keyword_freq": 59,
+      "variants": [
+        "mutation"
+      ],
+      "contexts": [
+        "of a",
+        "survival",
+        "presence",
+        "tumor",
+        "egfr",
+        "gene",
+        "strong",
+        "predictor"
+      ],
+      "canonical_name": "mutation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "family",
+      "score": 5.3,
+      "doc_freq": 42,
+      "title_freq": 6,
+      "keyword_freq": 31,
+      "variants": [
+        "family",
+        "family."
+      ],
+      "contexts": [
+        "oncogene",
+        "cluster",
+        "her-2",
+        "neu",
+        "member",
+        "erbb-like",
+        "related",
+        "distinct"
+      ],
+      "canonical_name": "family",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "genomic",
+      "score": 5.3,
+      "doc_freq": 42,
+      "title_freq": 16,
+      "keyword_freq": 4,
+      "variants": [
+        "genomic"
+      ],
+      "contexts": [
+        "cancer",
+        "reads",
+        "featurecounts",
+        "efficient",
+        "general",
+        "purpose",
+        "program",
+        "assigning"
+      ],
+      "canonical_name": "genomic",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "signaling",
+      "score": 5.3,
+      "doc_freq": 42,
+      "title_freq": 18,
+      "keyword_freq": 21,
+      "variants": [
+        "signaling"
+      ],
+      "contexts": [
+        "growth",
+        "lead",
+        "lead to",
+        "they",
+        "include",
+        "sustaining",
+        "proliferative",
+        "evading"
+      ],
+      "canonical_name": "signaling",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "guideline",
+      "score": 5.3,
+      "doc_freq": 41,
+      "title_freq": 32,
+      "keyword_freq": 11,
+      "variants": [
+        "guidelines",
+        "guideline"
+      ],
+      "contexts": [
+        "cancer",
+        "standards",
+        "interpretation",
+        "sequence",
+        "variants",
+        "joint",
+        "consensus",
+        "recommendation"
+      ],
+      "canonical_name": "guideline",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "incidence",
+      "score": 5.3,
+      "doc_freq": 41,
+      "title_freq": 17,
+      "keyword_freq": 42,
+      "variants": [
+        "incidence"
+      ],
+      "contexts": [
+        "cancer",
+        "mortality",
+        "incidence and",
+        "and mortality",
+        "worldwide",
+        "globocan",
+        "estimate",
+        "cancers"
+      ],
+      "canonical_name": "incidence",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "response",
+      "score": 5.3,
+      "doc_freq": 41,
+      "title_freq": 13,
+      "keyword_freq": 6,
+      "variants": [
+        "response",
+        "response."
+      ],
+      "contexts": [
+        "tumor",
+        "guideline",
+        "evaluate",
+        "treatment",
+        "tumors",
+        "new guideline",
+        "guideline to",
+        "to evaluate"
+      ],
+      "canonical_name": "response",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "colorectal",
+      "score": 5.3,
+      "doc_freq": 39,
+      "title_freq": 11,
+      "keyword_freq": 39,
+      "variants": [
+        "colorectal"
+      ],
+      "contexts": [
+        "million",
+        "bevacizumab",
+        "metastatic",
+        "cancer",
+        "most",
+        "commonly",
+        "diagnosed",
+        "cancers"
+      ],
+      "canonical_name": "colorectal",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "management",
+      "score": 5.3,
+      "doc_freq": 39,
+      "title_freq": 29,
+      "keyword_freq": 6,
+      "variants": [
+        "management"
+      ],
+      "contexts": [
+        "thyroid",
+        "nodule",
+        "differentiated",
+        "cancer",
+        "global",
+        "chronic",
+        "obstructive",
+        "disease"
+      ],
+      "canonical_name": "management",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "rna",
+      "score": 5.3,
+      "doc_freq": 39,
+      "title_freq": 6,
+      "keyword_freq": 64,
+      "variants": [
+        "rna"
+      ],
+      "contexts": [
+        "arrays",
+        "dna",
+        "sequencing",
+        "although",
+        "genomewide",
+        "expression",
+        "become",
+        "routine"
+      ],
+      "canonical_name": "rna",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "association",
+      "score": 5.3,
+      "doc_freq": 38,
+      "title_freq": 18,
+      "keyword_freq": 19,
+      "variants": [
+        "association"
+      ],
+      "contexts": [
+        "thyroid",
+        "guideline",
+        "american",
+        "nodule",
+        "differentiated",
+        "cancer",
+        "protein",
+        "2015"
+      ],
+      "canonical_name": "association",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "international",
+      "score": 5.3,
+      "doc_freq": 37,
+      "title_freq": 19,
+      "keyword_freq": 14,
+      "variants": [
+        "international"
+      ],
+      "contexts": [
+        "cancers",
+        "cancer",
+        "estimate",
+        "worldwide",
+        "incidence",
+        "mortality",
+        "available",
+        "globocan"
+      ],
+      "canonical_name": "international",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "mortality",
+      "score": 5.3,
+      "doc_freq": 37,
+      "title_freq": 20,
+      "keyword_freq": 14,
+      "variants": [
+        "mortality"
+      ],
+      "contexts": [
+        "cancer",
+        "incidence",
+        "incidence and",
+        "and mortality",
+        "worldwide",
+        "globocan",
+        "estimate",
+        "cancers"
+      ],
+      "canonical_name": "mortality",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "activity",
+      "score": 5.3,
+      "doc_freq": 35,
+      "title_freq": 15,
+      "keyword_freq": 4,
+      "variants": [
+        "activities",
+        "activity"
+      ],
+      "contexts": [
+        "short-term",
+        "nose-only",
+        "cigarette",
+        "smoke",
+        "exposure",
+        "glutathione",
+        "redox",
+        "homeostasis"
+      ],
+      "canonical_name": "activity",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "sequencing",
+      "score": 5.3,
+      "doc_freq": 34,
+      "title_freq": 6,
+      "keyword_freq": 21,
+      "variants": [
+        "sequencing"
+      ],
+      "contexts": [
+        "genome",
+        "of the",
+        "project",
+        "whole-genome",
+        "individuals",
+        "populations",
+        "human",
+        "set"
+      ],
+      "canonical_name": "sequencing",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "carcinoma",
+      "score": 5.3,
+      "doc_freq": 33,
+      "title_freq": 22,
+      "keyword_freq": 35,
+      "variants": [
+        "carcinoma"
+      ],
+      "contexts": [
+        "hepatocellular",
+        "hepatocellular carcinoma",
+        "sorafenib",
+        "advanced hepatocellular",
+        "patients",
+        "sorafenib in",
+        "in advanced",
+        "sorafenib in advanced"
+      ],
+      "canonical_name": "carcinoma",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "national",
+      "score": 5.3,
+      "doc_freq": 33,
+      "title_freq": 19,
+      "keyword_freq": 4,
+      "variants": [
+        "national"
+      ],
+      "contexts": [
+        "cancer",
+        "the national",
+        "incidence",
+        "comprehensive",
+        "network",
+        "national comprehensive",
+        "comprehensive cancer",
+        "cancer network"
+      ],
+      "canonical_name": "national",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "regulation",
+      "score": 5.3,
+      "doc_freq": 32,
+      "title_freq": 14,
+      "keyword_freq": 12,
+      "variants": [
+        "regulation.",
+        "regulation"
+      ],
+      "contexts": [
+        "gene",
+        "derives",
+        "power",
+        "focusing",
+        "sets",
+        "groups",
+        "share",
+        "common"
+      ],
+      "canonical_name": "regulation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cellular",
+      "score": 5.3,
+      "doc_freq": 31,
+      "title_freq": 9,
+      "keyword_freq": 8,
+      "variants": [
+        "cellular"
+      ],
+      "contexts": [
+        "cells",
+        "rely",
+        "promoters",
+        "proteins",
+        "functional",
+        "interactions",
+        "form",
+        "backbone"
+      ],
+      "canonical_name": "cellular",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "chronic",
+      "score": 5.3,
+      "doc_freq": 30,
+      "title_freq": 10,
+      "keyword_freq": 8,
+      "variants": [
+        "chronic"
+      ],
+      "contexts": [
+        "global",
+        "obstructive",
+        "disease",
+        "copd",
+        "strategy",
+        "diagnosis",
+        "management",
+        "prevention"
+      ],
+      "canonical_name": "chronic",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "metastasis",
+      "score": 5.3,
+      "doc_freq": 30,
+      "title_freq": 9,
+      "keyword_freq": 31,
+      "variants": [
+        "metastasis.",
+        "metastasis"
+      ],
+      "contexts": [
+        "tissue",
+        "tumor",
+        "they",
+        "include",
+        "sustaining",
+        "proliferative",
+        "signaling",
+        "evading"
+      ],
+      "canonical_name": "metastasis",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "stem",
+      "score": 5.3,
+      "doc_freq": 30,
+      "title_freq": 8,
+      "keyword_freq": 55,
+      "variants": [
+        "stem"
+      ],
+      "contexts": [
+        "cells",
+        "stem cells",
+        "cancer",
+        "cells cancer",
+        "cancer and",
+        "and cancer",
+        "cancer stem",
+        "stem cells cancer"
+      ],
+      "canonical_name": "stem",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "biological",
+      "score": 5.3,
+      "doc_freq": 29,
+      "title_freq": 6,
+      "keyword_freq": 5,
+      "variants": [
+        "biological"
+      ],
+      "contexts": [
+        "gene",
+        "hallmarks",
+        "cancer",
+        "comprise",
+        "six",
+        "capability",
+        "acquired",
+        "during"
+      ],
+      "canonical_name": "biological",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "diabete",
+      "score": 5.3,
+      "doc_freq": 29,
+      "title_freq": 17,
+      "keyword_freq": 32,
+      "variants": [
+        "diabetes",
+        "diabetes."
+      ],
+      "contexts": [
+        "of diabete",
+        "mellitus",
+        "diabete mellitus",
+        "diseases",
+        "hyperglycemia",
+        "insulin",
+        "chronic",
+        "diagnosis"
+      ],
+      "canonical_name": "diabete",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "physical",
+      "score": 5.3,
+      "doc_freq": 29,
+      "title_freq": 8,
+      "keyword_freq": 27,
+      "variants": [
+        "physical"
+      ],
+      "contexts": [
+        "activity",
+        "physical activity",
+        "health",
+        "sedentary",
+        "they",
+        "reaffirm",
+        "message",
+        "some"
+      ],
+      "canonical_name": "physical",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "tissue",
+      "score": 5.3,
+      "doc_freq": 29,
+      "title_freq": 7,
+      "keyword_freq": 7,
+      "variants": [
+        "tissue",
+        "tissue."
+      ],
+      "contexts": [
+        "cells",
+        "tumour",
+        "connective",
+        "xxiii",
+        "connective tissue",
+        "tissue xxiii",
+        "connective tissue xxiii",
+        "developed"
+      ],
+      "canonical_name": "tissue",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "genomics",
+      "score": 5.3,
+      "doc_freq": 28,
+      "title_freq": 11,
+      "keyword_freq": 30,
+      "variants": [
+        "genomics"
+      ],
+      "contexts": [
+        "cancer",
+        "data",
+        "cancer genomics",
+        "cbio",
+        "portal",
+        "multidimensional",
+        "open",
+        "platform"
+      ],
+      "canonical_name": "genomics",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "project",
+      "score": 5.3,
+      "doc_freq": 28,
+      "title_freq": 7,
+      "keyword_freq": 14,
+      "variants": [
+        "project",
+        "project."
+      ],
+      "contexts": [
+        "sequencing",
+        "genome",
+        "set",
+        "whole-genome",
+        "individuals",
+        "populations",
+        "of the",
+        "1000"
+      ],
+      "canonical_name": "project",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "acute",
+      "score": 5.3,
+      "doc_freq": 27,
+      "title_freq": 12,
+      "keyword_freq": 11,
+      "variants": [
+        "acute"
+      ],
+      "contexts": [
+        "leukemia",
+        "class",
+        "discovery",
+        "procedure",
+        "automatically",
+        "discovered",
+        "distinction",
+        "between"
+      ],
+      "canonical_name": "acute",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "inflammation",
+      "score": 5.3,
+      "doc_freq": 27,
+      "title_freq": 14,
+      "keyword_freq": 24,
+      "variants": [
+        "inflammation"
+      ],
+      "contexts": [
+        "cancer",
+        "inflammation and",
+        "and cancer",
+        "inflammation and cancer",
+        "which",
+        "underlying",
+        "hallmarks",
+        "genome"
+      ],
+      "canonical_name": "inflammation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "microrna",
+      "score": 5.3,
+      "doc_freq": 25,
+      "title_freq": 11,
+      "keyword_freq": 23,
+      "variants": [
+        "microrna"
+      ],
+      "contexts": [
+        "dna",
+        "expression",
+        "copy",
+        "number",
+        "arrays",
+        "methylation",
+        "messenger",
+        "rna"
+      ],
+      "canonical_name": "microrna",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "profiling",
+      "score": 5.3,
+      "doc_freq": 25,
+      "title_freq": 9,
+      "keyword_freq": 22,
+      "variants": [
+        "profiling"
+      ],
+      "contexts": [
+        "gene",
+        "expression",
+        "data",
+        "cancer",
+        "gepia",
+        "interactive",
+        "gene expression",
+        "expression profiling"
+      ],
+      "canonical_name": "profiling",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "metastatic",
+      "score": 5.3,
+      "doc_freq": 24,
+      "title_freq": 11,
+      "keyword_freq": 7,
+      "variants": [
+        "metastatic"
+      ],
+      "contexts": [
+        "her2",
+        "cancer",
+        "chemotherapy",
+        "plus",
+        "breast",
+        "overexpresses",
+        "for metastatic",
+        "metastatic breast"
+      ],
+      "canonical_name": "metastatic",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "methylation",
+      "score": 5.3,
+      "doc_freq": 24,
+      "title_freq": 7,
+      "keyword_freq": 37,
+      "variants": [
+        "methylation"
+      ],
+      "contexts": [
+        "dna",
+        "copy",
+        "number",
+        "expression",
+        "arrays",
+        "messenger",
+        "rna",
+        "microrna"
+      ],
+      "canonical_name": "methylation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "liver",
+      "score": 5.3,
+      "doc_freq": 23,
+      "title_freq": 7,
+      "keyword_freq": 32,
+      "variants": [
+        "liver",
+        "liver."
+      ],
+      "contexts": [
+        "cancers",
+        "colon",
+        "lung",
+        "brain",
+        "tissues",
+        "of the",
+        "guideline",
+        "p53"
+      ],
+      "canonical_name": "liver",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "variation",
+      "score": 5.3,
+      "doc_freq": 23,
+      "title_freq": 7,
+      "keyword_freq": 20,
+      "variants": [
+        "variation"
+      ],
+      "contexts": [
+        "genetic",
+        "set",
+        "million",
+        "human",
+        "genetic variation",
+        "global",
+        "reference",
+        "a global"
+      ],
+      "canonical_name": "variation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "practice",
+      "score": 5.3,
+      "doc_freq": 22,
+      "title_freq": 12,
+      "keyword_freq": 10,
+      "variants": [
+        "practice"
+      ],
+      "contexts": [
+        "guideline",
+        "cancer",
+        "nccn",
+        "development",
+        "data",
+        "will",
+        "national",
+        "comprehensive"
+      ],
+      "canonical_name": "practice",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "prevention",
+      "score": 5.3,
+      "doc_freq": 22,
+      "title_freq": 16,
+      "keyword_freq": 4,
+      "variants": [
+        "prevention"
+      ],
+      "contexts": [
+        "not",
+        "primary",
+        "chronic",
+        "intervention",
+        "risk-benefit",
+        "profile",
+        "found",
+        "trial"
+      ],
+      "canonical_name": "prevention",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "identification",
+      "score": 5.3,
+      "doc_freq": 21,
+      "title_freq": 9,
+      "keyword_freq": 6,
+      "variants": [
+        "identification"
+      ],
+      "contexts": [
+        "created",
+        "visualization",
+        "tool",
+        "called",
+        "circos",
+        "facilitate",
+        "similarity",
+        "difference"
+      ],
+      "canonical_name": "identification",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "metabolism",
+      "score": 5.3,
+      "doc_freq": 21,
+      "title_freq": 7,
+      "keyword_freq": 19,
+      "variants": [
+        "metabolism"
+      ],
+      "contexts": [
+        "cells",
+        "european",
+        "society",
+        "nutrition",
+        "international",
+        "association",
+        "the european",
+        "disease"
+      ],
+      "canonical_name": "metabolism",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "controlled trial",
+      "score": 5.2,
+      "doc_freq": 25,
+      "title_freq": 4,
+      "keyword_freq": 22,
+      "variants": [
+        "controlled trial"
+      ],
+      "contexts": [],
+      "canonical_name": "controlled trial",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "factor receptor",
+      "score": 5.2,
+      "doc_freq": 22,
+      "title_freq": 4,
+      "keyword_freq": 21,
+      "variants": [
+        "factor receptor.",
+        "factor receptor"
+      ],
+      "contexts": [
+        "egfr",
+        "mutations",
+        "epidermal",
+        "growth",
+        "factor",
+        "receptor",
+        "the epidermal",
+        "epidermal growth"
+      ],
+      "canonical_name": "factor receptor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "growth factor receptor",
+      "score": 5.2,
+      "doc_freq": 22,
+      "title_freq": 4,
+      "keyword_freq": 21,
+      "variants": [
+        "growth factor receptor.",
+        "growth factor receptor"
+      ],
+      "contexts": [],
+      "canonical_name": "growth factor receptor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "expression profiling",
+      "score": 5.2,
+      "doc_freq": 21,
+      "title_freq": 4,
+      "keyword_freq": 19,
+      "variants": [
+        "expression profiling"
+      ],
+      "contexts": [
+        "gene",
+        "expression",
+        "profiling",
+        "gene expression",
+        "gepia",
+        "interactive",
+        "web",
+        "server"
+      ],
+      "canonical_name": "expression profiling",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "epidermal growth",
+      "score": 5.2,
+      "doc_freq": 20,
+      "title_freq": 4,
+      "keyword_freq": 20,
+      "variants": [
+        "epidermal growth"
+      ],
+      "contexts": [
+        "epidermal",
+        "growth",
+        "factor",
+        "receptor",
+        "growth factor",
+        "mutations",
+        "the epidermal",
+        "factor receptor"
+      ],
+      "canonical_name": "epidermal growth",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "epidermal growth factor",
+      "score": 5.2,
+      "doc_freq": 20,
+      "title_freq": 4,
+      "keyword_freq": 20,
+      "variants": [
+        "epidermal growth factor"
+      ],
+      "contexts": [],
+      "canonical_name": "epidermal growth factor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "burden of",
+      "score": 5.2,
+      "doc_freq": 16,
+      "title_freq": 14,
+      "keyword_freq": 8,
+      "variants": [
+        "burden of"
+      ],
+      "contexts": [
+        "burden",
+        "worldwide",
+        "2008",
+        "disease",
+        "of disease",
+        "global",
+        "estimate",
+        "cancer"
+      ],
+      "canonical_name": "burden of",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "checkpoint",
+      "score": 5.175,
+      "doc_freq": 19,
+      "title_freq": 6,
+      "keyword_freq": 15,
+      "variants": [
+        "checkpoint"
+      ],
+      "contexts": [
+        "immune",
+        "immune checkpoint",
+        "blockade",
+        "breast",
+        "cancer",
+        "checkpoint blockade",
+        "breast cancer",
+        "pd-1"
+      ],
+      "canonical_name": "checkpoint",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "discovery",
+      "score": 5.175,
+      "doc_freq": 19,
+      "title_freq": 6,
+      "keyword_freq": 6,
+      "variants": [
+        "discovery",
+        "discoveries"
+      ],
+      "contexts": [
+        "gene",
+        "expression",
+        "protein",
+        "class",
+        "over",
+        "past",
+        "decade",
+        "limma"
+      ],
+      "canonical_name": "discovery",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "epidemiology",
+      "score": 5.175,
+      "doc_freq": 19,
+      "title_freq": 7,
+      "keyword_freq": 18,
+      "variants": [
+        "epidemiology"
+      ],
+      "contexts": [
+        "century",
+        "risk",
+        "cardiovascular",
+        "breastfeeding",
+        "21st",
+        "mechanisms",
+        "lifelong",
+        "breastfeeding in"
+      ],
+      "canonical_name": "epidemiology",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "microarray",
+      "score": 5.175,
+      "doc_freq": 19,
+      "title_freq": 6,
+      "keyword_freq": 28,
+      "variants": [
+        "microarray"
+      ],
+      "contexts": [
+        "limma",
+        "differential",
+        "expression",
+        "analyses",
+        "sequencing",
+        "powers",
+        "rna-sequencing",
+        "studies"
+      ],
+      "canonical_name": "microarray",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "network",
+      "score": 5.175,
+      "doc_freq": 19,
+      "title_freq": 6,
+      "keyword_freq": 17,
+      "variants": [
+        "network"
+      ],
+      "contexts": [
+        "network analysis",
+        "wgcna",
+        "package",
+        "weighted",
+        "correlation",
+        "for weighted",
+        "weighted correlation",
+        "correlation network"
+      ],
+      "canonical_name": "network",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "progression",
+      "score": 5.175,
+      "doc_freq": 19,
+      "title_freq": 6,
+      "keyword_freq": 5,
+      "variants": [
+        "progression",
+        "progression."
+      ],
+      "contexts": [
+        "patients",
+        "tumor",
+        "colorectal",
+        "hepatocellular",
+        "carcinoma",
+        "median",
+        "survival",
+        "time"
+      ],
+      "canonical_name": "progression",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "analysis of",
+      "score": 5.1667,
+      "doc_freq": 43,
+      "title_freq": 22,
+      "keyword_freq": 2,
+      "variants": [
+        "analysis of"
+      ],
+      "contexts": [
+        "expression",
+        "data",
+        "of the",
+        "gene",
+        "gene expression",
+        "expression data",
+        "initial",
+        "edger"
+      ],
+      "canonical_name": "analysis of",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "of cancer",
+      "score": 5.1667,
+      "doc_freq": 41,
+      "title_freq": 27,
+      "keyword_freq": 2,
+      "variants": [
+        "of cancer",
+        "of cancer."
+      ],
+      "contexts": [
+        "cancer",
+        "hallmarks",
+        "hallmarks of",
+        "hallmarks of cancer",
+        "the hallmarks",
+        "2008",
+        "cells",
+        "next"
+      ],
+      "canonical_name": "of cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "in cancer",
+      "score": 5.1667,
+      "doc_freq": 37,
+      "title_freq": 25,
+      "keyword_freq": 2,
+      "variants": [
+        "in cancer"
+      ],
+      "contexts": [
+        "cancer",
+        "immune",
+        "angiogenesis",
+        "angiogenesis in",
+        "angiogenesis in cancer",
+        "blockade",
+        "checkpoints",
+        "immunotherapy"
+      ],
+      "canonical_name": "in cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "tumors",
+      "score": 5.1,
+      "doc_freq": 48,
+      "title_freq": 12,
+      "keyword_freq": 3,
+      "variants": [
+        "tumors.",
+        "tumors"
+      ],
+      "contexts": [
+        "hallmarks",
+        "cancer",
+        "comprise",
+        "six",
+        "biological",
+        "capability",
+        "acquired",
+        "during"
+      ],
+      "canonical_name": "tumors",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "global",
+      "score": 5.1,
+      "doc_freq": 37,
+      "title_freq": 35,
+      "keyword_freq": 3,
+      "variants": [
+        "global"
+      ],
+      "contexts": [
+        "article",
+        "world",
+        "regions",
+        "summarizing",
+        "patterns",
+        "eight",
+        "most",
+        "common"
+      ],
+      "canonical_name": "global",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "source",
+      "score": 5.1,
+      "doc_freq": 29,
+      "title_freq": 10,
+      "keyword_freq": 3,
+      "variants": [
+        "sources",
+        "source"
+      ],
+      "contexts": [
+        "cancer",
+        "incidence",
+        "mortality",
+        "cancer incidence",
+        "incidence and",
+        "and mortality",
+        "worldwide",
+        "patterns"
+      ],
+      "canonical_name": "source",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "resource",
+      "score": 5.1,
+      "doc_freq": 20,
+      "title_freq": 6,
+      "keyword_freq": 3,
+      "variants": [
+        "resource",
+        "resources",
+        "resource."
+      ],
+      "contexts": [
+        "cancer",
+        "genomics",
+        "data",
+        "http",
+        "cbioportal.org",
+        "multidimensional",
+        "access",
+        "cbio"
+      ],
+      "canonical_name": "resource",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "hepatocellular carcinoma",
+      "score": 5.075,
+      "doc_freq": 15,
+      "title_freq": 14,
+      "keyword_freq": 15,
+      "variants": [
+        "hepatocellular carcinoma"
+      ],
+      "contexts": [
+        "hepatocellular",
+        "carcinoma",
+        "sorafenib",
+        "advanced hepatocellular",
+        "patients",
+        "management",
+        "management of",
+        "of hepatocellular"
+      ],
+      "canonical_name": "hepatocellular carcinoma",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "prostate cancer",
+      "score": 5.075,
+      "doc_freq": 15,
+      "title_freq": 7,
+      "keyword_freq": 15,
+      "variants": [
+        "prostate cancer",
+        "prostate cancer."
+      ],
+      "contexts": [
+        "prostate",
+        "cancer",
+        "goseq",
+        "plus",
+        "prednisone",
+        "plus prednisone",
+        "mirnas",
+        "originating"
+      ],
+      "canonical_name": "prostate cancer",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "surgery",
+      "score": 5.05,
+      "doc_freq": 50,
+      "title_freq": 5,
+      "keyword_freq": 52,
+      "variants": [
+        "surgery"
+      ],
+      "contexts": [
+        "cancer",
+        "2020",
+        "esc",
+        "guideline",
+        "diagnosis",
+        "management",
+        "atrial",
+        "fibrillation"
+      ],
+      "canonical_name": "surgery",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "sequence",
+      "score": 5.05,
+      "doc_freq": 32,
+      "title_freq": 5,
+      "keyword_freq": 11,
+      "variants": [
+        "sequence",
+        "sequence.",
+        "sequences.",
+        "sequences"
+      ],
+      "contexts": [
+        "standards",
+        "guideline",
+        "interpretation",
+        "variants",
+        "joint",
+        "consensus",
+        "recommendation",
+        "american"
+      ],
+      "canonical_name": "sequence",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "primary",
+      "score": 5.05,
+      "doc_freq": 31,
+      "title_freq": 5,
+      "keyword_freq": 5,
+      "variants": [
+        "primary"
+      ],
+      "contexts": [
+        "not",
+        "prevention",
+        "arrays",
+        "risk-benefit",
+        "profile",
+        "found",
+        "trial",
+        "consistent"
+      ],
+      "canonical_name": "primary",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "radiation",
+      "score": 5.05,
+      "doc_freq": 28,
+      "title_freq": 5,
+      "keyword_freq": 25,
+      "variants": [
+        "radiation"
+      ],
+      "contexts": [
+        "exposure",
+        "of radiation",
+        "browser",
+        "displays",
+        "assembly",
+        "contigs",
+        "gaps",
+        "mrna"
+      ],
+      "canonical_name": "radiation",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "randomized",
+      "score": 5.05,
+      "doc_freq": 26,
+      "title_freq": 5,
+      "keyword_freq": 22,
+      "variants": [
+        "randomized"
+      ],
+      "contexts": [
+        "trial",
+        "plus",
+        "women",
+        "lumpectomy",
+        "cancer",
+        "risks",
+        "benefits",
+        "estrogen"
+      ],
+      "canonical_name": "randomized",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "antibody",
+      "score": 5.05,
+      "doc_freq": 23,
+      "title_freq": 5,
+      "keyword_freq": 22,
+      "variants": [
+        "antibody",
+        "antibodies"
+      ],
+      "contexts": [
+        "cancer",
+        "one",
+        "her2",
+        "safety",
+        "activity",
+        "immune",
+        "correlate",
+        "anti"
+      ],
+      "canonical_name": "antibody",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "drug",
+      "score": 5.05,
+      "doc_freq": 23,
+      "title_freq": 5,
+      "keyword_freq": 26,
+      "variants": [
+        "drug"
+      ],
+      "contexts": [
+        "survival",
+        "cancer",
+        "cell",
+        "line",
+        "encyclopedia",
+        "enable",
+        "predictive",
+        "modelling"
+      ],
+      "canonical_name": "drug",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "set",
+      "score": 5.05,
+      "doc_freq": 23,
+      "title_freq": 5,
+      "keyword_freq": 12,
+      "variants": [
+        "set"
+      ],
+      "contexts": [
+        "gene",
+        "enrichment",
+        "interpreting",
+        "expression",
+        "gene set",
+        "set enrichment",
+        "enrichment analysis",
+        "knowledge-based"
+      ],
+      "canonical_name": "set",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "somatic",
+      "score": 5.05,
+      "doc_freq": 23,
+      "title_freq": 5,
+      "keyword_freq": 19,
+      "variants": [
+        "somatic"
+      ],
+      "contexts": [
+        "mutations",
+        "gene",
+        "somatic mutations",
+        "only",
+        "three",
+        "tp53",
+        "pik3ca",
+        "gata3"
+      ],
+      "canonical_name": "somatic",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "angiogenesis",
+      "score": 5.05,
+      "doc_freq": 18,
+      "title_freq": 6,
+      "keyword_freq": 16,
+      "variants": [
+        "angiogenesis"
+      ],
+      "contexts": [
+        "cancer",
+        "invasion",
+        "angiogenesis in",
+        "in cancer",
+        "angiogenesis in cancer",
+        "they",
+        "include",
+        "sustaining"
+      ],
+      "canonical_name": "angiogenesis",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "burden",
+      "score": 5.05,
+      "doc_freq": 18,
+      "title_freq": 14,
+      "keyword_freq": 13,
+      "variants": [
+        "burden"
+      ],
+      "contexts": [
+        "global",
+        "2008",
+        "regional",
+        "1990",
+        "2010",
+        "systematic",
+        "disease",
+        "2017"
+      ],
+      "canonical_name": "burden",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "functional",
+      "score": 5.05,
+      "doc_freq": 18,
+      "title_freq": 6,
+      "keyword_freq": 4,
+      "variants": [
+        "functional"
+      ],
+      "contexts": [
+        "protein",
+        "string",
+        "v11",
+        "association",
+        "networks",
+        "increased",
+        "coverage",
+        "supporting"
+      ],
+      "canonical_name": "functional",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "leukemia",
+      "score": 5.05,
+      "doc_freq": 18,
+      "title_freq": 7,
+      "keyword_freq": 18,
+      "variants": [
+        "leukemia"
+      ],
+      "contexts": [
+        "acute",
+        "myeloid",
+        "class",
+        "discovery",
+        "procedure",
+        "automatically",
+        "discovered",
+        "distinction"
+      ],
+      "canonical_name": "leukemia",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "obesity",
+      "score": 5.05,
+      "doc_freq": 18,
+      "title_freq": 10,
+      "keyword_freq": 21,
+      "variants": [
+        "obesity"
+      ],
+      "contexts": [
+        "global",
+        "2013",
+        "associated",
+        "adipose",
+        "tissue",
+        "adipose tissue",
+        "regional",
+        "national"
+      ],
+      "canonical_name": "obesity",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "of gene",
+      "score": 4.95,
+      "doc_freq": 33,
+      "title_freq": 3,
+      "keyword_freq": 9,
+      "variants": [
+        "of genes",
+        "of gene"
+      ],
+      "contexts": [
+        "gene",
+        "expression",
+        "gene expression",
+        "co-expression",
+        "network",
+        "data",
+        "co-expression network",
+        "network analysis"
+      ],
+      "canonical_name": "of gene",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "gene expression profiling",
+      "score": 4.95,
+      "doc_freq": 20,
+      "title_freq": 3,
+      "keyword_freq": 19,
+      "variants": [
+        "gene expression profiling"
+      ],
+      "contexts": [
+        "gene",
+        "expression",
+        "profiling",
+        "predicts",
+        "clinical",
+        "outcome",
+        "breast",
+        "cancer"
+      ],
+      "canonical_name": "gene expression profiling",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "radiation therapy",
+      "score": 4.95,
+      "doc_freq": 20,
+      "title_freq": 3,
+      "keyword_freq": 20,
+      "variants": [
+        "radiation therapy"
+      ],
+      "contexts": [
+        "radiation",
+        "therapy",
+        "cancer",
+        "toxicity",
+        "criteria",
+        "oncology",
+        "group",
+        "rtog"
+      ],
+      "canonical_name": "radiation therapy",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "web",
+      "score": 4.925,
+      "doc_freq": 19,
+      "title_freq": 5,
+      "keyword_freq": 19,
+      "variants": [
+        "web"
+      ],
+      "contexts": [
+        "http",
+        "cancer",
+        "genomics",
+        "package",
+        "freely",
+        "available",
+        "under",
+        "lgpl"
+      ],
+      "canonical_name": "web",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "pathogenesis",
+      "score": 4.925,
+      "doc_freq": 17,
+      "title_freq": 6,
+      "keyword_freq": 8,
+      "variants": [
+        "pathogenesis"
+      ],
+      "contexts": [
+        "the pathogenesis",
+        "in the",
+        "pathogenesis of",
+        "in the pathogenesis",
+        "autophagy",
+        "diseases",
+        "autophagy in",
+        "autophagy in the"
+      ],
+      "canonical_name": "pathogenesis",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "prostate",
+      "score": 4.925,
+      "doc_freq": 17,
+      "title_freq": 7,
+      "keyword_freq": 19,
+      "variants": [
+        "prostate"
+      ],
+      "contexts": [
+        "cancer",
+        "prostate cancer",
+        "goseq",
+        "will",
+        "mirnas",
+        "originating",
+        "human",
+        "xenografts"
+      ],
+      "canonical_name": "prostate",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "public health",
+      "score": 4.825,
+      "doc_freq": 19,
+      "title_freq": 3,
+      "keyword_freq": 13,
+      "variants": [
+        "public health",
+        "public health."
+      ],
+      "contexts": [
+        "public",
+        "health",
+        "and public",
+        "and public health",
+        "findings",
+        "highlight",
+        "clinical",
+        "importance"
+      ],
+      "canonical_name": "public health",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "tumor microenvironment",
+      "score": 4.825,
+      "doc_freq": 19,
+      "title_freq": 3,
+      "keyword_freq": 19,
+      "variants": [
+        "tumor microenvironment",
+        "tumor microenvironment."
+      ],
+      "contexts": [
+        "tumor",
+        "microenvironment",
+        "the tumor",
+        "the tumor microenvironment",
+        "cells",
+        "to the",
+        "matrix",
+        "metalloproteinases"
+      ],
+      "canonical_name": "tumor microenvironment",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "kinase",
+      "score": 4.8,
+      "doc_freq": 31,
+      "title_freq": 4,
+      "keyword_freq": 52,
+      "variants": [
+        "kinase"
+      ],
+      "contexts": [
+        "patients",
+        "lung",
+        "cancer",
+        "egfr",
+        "gene",
+        "tyrosine",
+        "inhibitor",
+        "gefitinib"
+      ],
+      "canonical_name": "kinase",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "public",
+      "score": 4.8,
+      "doc_freq": 31,
+      "title_freq": 4,
+      "keyword_freq": 16,
+      "variants": [
+        "public"
+      ],
+      "contexts": [
+        "http",
+        "health",
+        "chronic",
+        "hepatitis",
+        "featurecounts",
+        "available",
+        "under",
+        "gnu"
+      ],
+      "canonical_name": "public",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "world",
+      "score": 4.8,
+      "doc_freq": 30,
+      "title_freq": 4,
+      "keyword_freq": 15,
+      "variants": [
+        "world.",
+        "world"
+      ],
+      "contexts": [
+        "cancer",
+        "regions",
+        "million",
+        "cases",
+        "deaths",
+        "source",
+        "compiling",
+        "national"
+      ],
+      "canonical_name": "world",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "apoptosis",
+      "score": 4.8,
+      "doc_freq": 29,
+      "title_freq": 4,
+      "keyword_freq": 30,
+      "variants": [
+        "apoptosis"
+      ],
+      "contexts": [
+        "cell",
+        "death",
+        "programmed",
+        "of programmed",
+        "programmed cell",
+        "cell death",
+        "apoptosis is",
+        "including"
+      ],
+      "canonical_name": "apoptosis",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "controlled",
+      "score": 4.8,
+      "doc_freq": 29,
+      "title_freq": 4,
+      "keyword_freq": 22,
+      "variants": [
+        "controlled"
+      ],
+      "contexts": [
+        "trial",
+        "women",
+        "chemotherapy",
+        "versus",
+        "cancer",
+        "randomised",
+        "risks",
+        "benefits"
+      ],
+      "canonical_name": "controlled",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "transcription",
+      "score": 4.8,
+      "doc_freq": 27,
+      "title_freq": 4,
+      "keyword_freq": 30,
+      "variants": [
+        "transcription"
+      ],
+      "contexts": [
+        "accurate",
+        "initiation",
+        "promoters",
+        "extract",
+        "nuclei",
+        "accurate transcription",
+        "transcription initiation",
+        "directs"
+      ],
+      "canonical_name": "transcription",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "site",
+      "score": 4.8,
+      "doc_freq": 23,
+      "title_freq": 4,
+      "keyword_freq": 5,
+      "variants": [
+        "site",
+        "sites",
+        "sites."
+      ],
+      "contexts": [
+        "cancer",
+        "package",
+        "freely",
+        "available",
+        "under",
+        "lgpl",
+        "licence",
+        "bioconductor"
+      ],
+      "canonical_name": "site",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "epidermal",
+      "score": 4.8,
+      "doc_freq": 21,
+      "title_freq": 4,
+      "keyword_freq": 20,
+      "variants": [
+        "epidermal"
+      ],
+      "contexts": [
+        "growth",
+        "factor",
+        "receptor",
+        "oncogene",
+        "of the",
+        "mutations",
+        "the epidermal",
+        "epidermal growth"
+      ],
+      "canonical_name": "epidermal",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "phenotype",
+      "score": 4.8,
+      "doc_freq": 21,
+      "title_freq": 4,
+      "keyword_freq": 15,
+      "variants": [
+        "phenotype",
+        "phenotypes.",
+        "phenotypes"
+      ],
+      "contexts": [
+        "cancer",
+        "most",
+        "associated",
+        "variants",
+        "not",
+        "correlated",
+        "protein-coding",
+        "change"
+      ],
+      "canonical_name": "phenotype",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "variants",
+      "score": 4.8,
+      "doc_freq": 21,
+      "title_freq": 4,
+      "keyword_freq": 5,
+      "variants": [
+        "variants"
+      ],
+      "contexts": [
+        "million",
+        "gene",
+        "genetic",
+        "standards",
+        "guideline",
+        "interpretation",
+        "sequence",
+        "joint"
+      ],
+      "canonical_name": "variants",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "syndrome",
+      "score": 4.8,
+      "doc_freq": 20,
+      "title_freq": 4,
+      "keyword_freq": 21,
+      "variants": [
+        "syndrome",
+        "syndromes"
+      ],
+      "contexts": [
+        "acute",
+        "patients",
+        "respiratory",
+        "2015",
+        "esc",
+        "guideline",
+        "management",
+        "coronary"
+      ],
+      "canonical_name": "syndrome",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "blockade",
+      "score": 4.8,
+      "doc_freq": 16,
+      "title_freq": 10,
+      "keyword_freq": 13,
+      "variants": [
+        "blockade"
+      ],
+      "contexts": [
+        "immune",
+        "checkpoint",
+        "cancer",
+        "immune checkpoint",
+        "checkpoint blockade",
+        "blockade of",
+        "pd-1",
+        "pd-l1"
+      ],
+      "canonical_name": "blockade",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "brain",
+      "score": 4.8,
+      "doc_freq": 16,
+      "title_freq": 6,
+      "keyword_freq": 8,
+      "variants": [
+        "brain",
+        "brain."
+      ],
+      "contexts": [
+        "cbtrus",
+        "report",
+        "primary",
+        "central",
+        "tumors",
+        "united",
+        "registry",
+        "population-based"
+      ],
+      "canonical_name": "brain",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "hepatocellular",
+      "score": 4.8,
+      "doc_freq": 16,
+      "title_freq": 14,
+      "keyword_freq": 16,
+      "variants": [
+        "hepatocellular"
+      ],
+      "contexts": [
+        "carcinoma",
+        "hepatocellular carcinoma",
+        "guideline",
+        "management",
+        "sorafenib",
+        "advanced hepatocellular",
+        "patients",
+        "practice"
+      ],
+      "canonical_name": "hepatocellular",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "melanoma",
+      "score": 4.8,
+      "doc_freq": 16,
+      "title_freq": 7,
+      "keyword_freq": 16,
+      "variants": [
+        "melanoma"
+      ],
+      "contexts": [
+        "cancer",
+        "patients",
+        "ipilimumab",
+        "objective",
+        "one",
+        "non-small-cell",
+        "lung",
+        "renal-cell"
+      ],
+      "canonical_name": "melanoma",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "development",
+      "score": 4.7667,
+      "doc_freq": 39,
+      "title_freq": 8,
+      "keyword_freq": 2,
+      "variants": [
+        "development",
+        "development."
+      ],
+      "contexts": [
+        "human",
+        "guideline",
+        "data",
+        "hallmarks",
+        "cancer",
+        "comprise",
+        "six",
+        "biological"
+      ],
+      "canonical_name": "development",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "outcome",
+      "score": 4.7667,
+      "doc_freq": 32,
+      "title_freq": 9,
+      "keyword_freq": 2,
+      "variants": [
+        "outcomes",
+        "outcomes.",
+        "outcome.",
+        "outcome"
+      ],
+      "contexts": [
+        "data",
+        "guideline",
+        "development",
+        "clinical",
+        "integrated",
+        "directly",
+        "multiinstitutional",
+        "base"
+      ],
+      "canonical_name": "outcome",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cardiovascular",
+      "score": 4.7667,
+      "doc_freq": 26,
+      "title_freq": 15,
+      "keyword_freq": 2,
+      "variants": [
+        "cardiovascular"
+      ],
+      "contexts": [
+        "events",
+        "death",
+        "hospitalization",
+        "independent",
+        "xxiv",
+        "cardiovascular system",
+        "system xxiv",
+        "cardiovascular system xxiv"
+      ],
+      "canonical_name": "cardiovascular",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "early",
+      "score": 4.7667,
+      "doc_freq": 21,
+      "title_freq": 8,
+      "keyword_freq": 2,
+      "variants": [
+        "early"
+      ],
+      "contexts": [
+        "patients",
+        "treatment",
+        "goal-directed",
+        "therapy",
+        "severe",
+        "sepsis",
+        "septic",
+        "shock"
+      ],
+      "canonical_name": "early",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "women",
+      "score": 4.725,
+      "doc_freq": 17,
+      "title_freq": 7,
+      "keyword_freq": 3,
+      "variants": [
+        "women",
+        "women."
+      ],
+      "contexts": [
+        "risks",
+        "benefits",
+        "estrogen",
+        "plus",
+        "progestin",
+        "healthy",
+        "postmenopausal",
+        "health"
+      ],
+      "canonical_name": "women",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cancer therapy",
+      "score": 4.7,
+      "doc_freq": 14,
+      "title_freq": 5,
+      "keyword_freq": 8,
+      "variants": [
+        "cancer therapy",
+        "cancer therapy.",
+        "cancer therapies"
+      ],
+      "contexts": [
+        "cancer",
+        "therapy",
+        "for cancer",
+        "for cancer therapy",
+        "nanocarriers",
+        "emerging",
+        "platform",
+        "nanocarriers as"
+      ],
+      "canonical_name": "cancer therapy",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "microenvironment",
+      "score": 4.675,
+      "doc_freq": 19,
+      "title_freq": 4,
+      "keyword_freq": 19,
+      "variants": [
+        "microenvironment",
+        "microenvironment."
+      ],
+      "contexts": [
+        "tumor",
+        "immune",
+        "the tumor",
+        "understanding",
+        "time",
+        "effective",
+        "therapy",
+        "understanding the"
+      ],
+      "canonical_name": "microenvironment",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "immunity",
+      "score": 4.675,
+      "doc_freq": 15,
+      "title_freq": 8,
+      "keyword_freq": 10,
+      "variants": [
+        "immunity"
+      ],
+      "contexts": [
+        "cancer",
+        "inflammation",
+        "immunity inflammation",
+        "inflammation and",
+        "and cancer",
+        "immunity inflammation and",
+        "inflammation and cancer",
+        "antiinflammatory"
+      ],
+      "canonical_name": "immunity",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "systematic",
+      "score": 4.6417,
+      "doc_freq": 19,
+      "title_freq": 14,
+      "keyword_freq": 2,
+      "variants": [
+        "systematic"
+      ],
+      "contexts": [
+        "global",
+        "regional",
+        "burden",
+        "disease",
+        "1990",
+        "national",
+        "prevalence",
+        "global regional"
+      ],
+      "canonical_name": "systematic",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cell cycle",
+      "score": 4.575,
+      "doc_freq": 19,
+      "title_freq": 2,
+      "keyword_freq": 19,
+      "variants": [
+        "cell cycle",
+        "cell cycles",
+        "cell cycles."
+      ],
+      "contexts": [
+        "cell",
+        "cycle",
+        "cancer",
+        "chapter",
+        "section",
+        "cycle section",
+        "section 3",
+        "cell cycle section"
+      ],
+      "canonical_name": "cell cycle",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "burden of disease",
+      "score": 4.575,
+      "doc_freq": 11,
+      "title_freq": 11,
+      "keyword_freq": 8,
+      "variants": [
+        "burden of disease"
+      ],
+      "contexts": [],
+      "canonical_name": "burden of disease",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cancer incidence",
+      "score": 4.575,
+      "doc_freq": 11,
+      "title_freq": 10,
+      "keyword_freq": 8,
+      "variants": [
+        "cancer incidence"
+      ],
+      "contexts": [
+        "cancer",
+        "incidence",
+        "mortality",
+        "source",
+        "incidence and",
+        "and mortality",
+        "globocan",
+        "cancer incidence and"
+      ],
+      "canonical_name": "cancer incidence",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "environmental",
+      "score": 4.55,
+      "doc_freq": 58,
+      "title_freq": 3,
+      "keyword_freq": 55,
+      "variants": [
+        "environmental"
+      ],
+      "contexts": [
+        "long-term",
+        "exposure",
+        "combustion-related",
+        "fine",
+        "particulate",
+        "air",
+        "pollution",
+        "risk"
+      ],
+      "canonical_name": "environmental",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "population",
+      "score": 4.55,
+      "doc_freq": 57,
+      "title_freq": 3,
+      "keyword_freq": 55,
+      "variants": [
+        "population",
+        "population."
+      ],
+      "contexts": [
+        "central",
+        "brain",
+        "registry",
+        "united",
+        "gsva",
+        "provide",
+        "increased",
+        "power"
+      ],
+      "canonical_name": "population",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "software",
+      "score": 4.55,
+      "doc_freq": 24,
+      "title_freq": 3,
+      "keyword_freq": 23,
+      "variants": [
+        "software"
+      ],
+      "contexts": [
+        "package",
+        "http",
+        "bioconductor",
+        "software package",
+        "part",
+        "www.bioconductor.org",
+        "limma",
+        "provide"
+      ],
+      "canonical_name": "software",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "database",
+      "score": 4.55,
+      "doc_freq": 22,
+      "title_freq": 3,
+      "keyword_freq": 12,
+      "variants": [
+        "database"
+      ],
+      "contexts": [
+        "blast",
+        "command-line",
+        "compared",
+        "tools",
+        "demonstrate",
+        "substantial",
+        "speed",
+        "improvements"
+      ],
+      "canonical_name": "database",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cycle",
+      "score": 4.55,
+      "doc_freq": 20,
+      "title_freq": 3,
+      "keyword_freq": 19,
+      "variants": [
+        "cycle"
+      ],
+      "contexts": [
+        "cell",
+        "cell cycle",
+        "phase",
+        "cancer",
+        "section",
+        "cycle section",
+        "section 3",
+        "cell cycle section"
+      ],
+      "canonical_name": "cycle",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "body",
+      "score": 4.55,
+      "doc_freq": 18,
+      "title_freq": 4,
+      "keyword_freq": 11,
+      "variants": [
+        "body"
+      ],
+      "contexts": [
+        "available",
+        "rich",
+        "variety",
+        "phenotypic",
+        "health-related",
+        "information",
+        "each",
+        "participant"
+      ],
+      "canonical_name": "body",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "life",
+      "score": 4.55,
+      "doc_freq": 16,
+      "title_freq": 5,
+      "keyword_freq": 10,
+      "variants": [
+        "life"
+      ],
+      "contexts": [
+        "disease",
+        "support",
+        "eortc",
+        "qlq-c30",
+        "reliable",
+        "valid",
+        "measure",
+        "quality"
+      ],
+      "canonical_name": "life",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "of the",
+      "score": 4.5,
+      "doc_freq": 208,
+      "title_freq": 56,
+      "keyword_freq": 0,
+      "variants": [
+        "of the"
+      ],
+      "contexts": [
+        "initial",
+        "analysis of",
+        "also",
+        "cancers",
+        "data",
+        "describing",
+        "some",
+        "insights"
+      ],
+      "canonical_name": "of the",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "in the",
+      "score": 4.5,
+      "doc_freq": 143,
+      "title_freq": 29,
+      "keyword_freq": 0,
+      "variants": [
+        "in the"
+      ],
+      "contexts": [
+        "immune",
+        "checkpoint",
+        "inhibition",
+        "represents",
+        "breakthrough",
+        "treatment",
+        "malignant",
+        "diseases"
+      ],
+      "canonical_name": "in the",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "patients with",
+      "score": 4.5,
+      "doc_freq": 89,
+      "title_freq": 23,
+      "keyword_freq": 0,
+      "variants": [
+        "patients with"
+      ],
+      "contexts": [
+        "patients",
+        "coronavirus",
+        "pneumonia",
+        "china",
+        "2019",
+        "novel coronavirus",
+        "coronavirus from",
+        "from patients"
+      ],
+      "canonical_name": "patients with",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "associated with",
+      "score": 4.5,
+      "doc_freq": 52,
+      "title_freq": 10,
+      "keyword_freq": 0,
+      "variants": [
+        "associated with"
+      ],
+      "contexts": [
+        "associated",
+        "is associated",
+        "cluster",
+        "chronic",
+        "hyperglycemia",
+        "diabete",
+        "long-term",
+        "damage"
+      ],
+      "canonical_name": "associated with",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "of a",
+      "score": 4.5,
+      "doc_freq": 44,
+      "title_freq": 8,
+      "keyword_freq": 0,
+      "variants": [
+        "of a"
+      ],
+      "contexts": [
+        "while",
+        "gse",
+        "generally",
+        "regarded",
+        "end",
+        "points",
+        "bioinformatic",
+        "gsva"
+      ],
+      "canonical_name": "of a",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "in patients",
+      "score": 4.5,
+      "doc_freq": 41,
+      "title_freq": 14,
+      "keyword_freq": 0,
+      "variants": [
+        "in patients"
+      ],
+      "contexts": [
+        "patients",
+        "patients with",
+        "survival",
+        "longer",
+        "than",
+        "hepatocellular",
+        "carcinoma",
+        "median"
+      ],
+      "canonical_name": "in patients",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "on the",
+      "score": 4.5,
+      "doc_freq": 41,
+      "title_freq": 9,
+      "keyword_freq": 0,
+      "variants": [
+        "on the"
+      ],
+      "contexts": [
+        "origin",
+        "cancer",
+        "cells",
+        "the origin",
+        "origin of",
+        "of cancer",
+        "cancer cells",
+        "on the origin"
+      ],
+      "canonical_name": "on the",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "in patients with",
+      "score": 4.5,
+      "doc_freq": 39,
+      "title_freq": 12,
+      "keyword_freq": 0,
+      "variants": [
+        "in patients with"
+      ],
+      "contexts": [
+        "patients",
+        "in patients",
+        "patients with",
+        "cancer",
+        "advanced cancer",
+        "safety",
+        "activity",
+        "anti"
+      ],
+      "canonical_name": "in patients with",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "in human",
+      "score": 4.5,
+      "doc_freq": 31,
+      "title_freq": 19,
+      "keyword_freq": 0,
+      "variants": [
+        "in human"
+      ],
+      "contexts": [
+        "human",
+        "cancer",
+        "gene",
+        "mutations",
+        "human cancer",
+        "in human cancer",
+        "shown",
+        "amplified"
+      ],
+      "canonical_name": "in human",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "of human",
+      "score": 4.5,
+      "doc_freq": 31,
+      "title_freq": 14,
+      "keyword_freq": 0,
+      "variants": [
+        "of human"
+      ],
+      "contexts": [
+        "human",
+        "comprehensive",
+        "molecular",
+        "comprehensive molecular",
+        "cancer",
+        "cells",
+        "portraits",
+        "breast"
+      ],
+      "canonical_name": "of human",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "management of",
+      "score": 4.5,
+      "doc_freq": 28,
+      "title_freq": 22,
+      "keyword_freq": 0,
+      "variants": [
+        "management of"
+      ],
+      "contexts": [
+        "management",
+        "the management",
+        "guideline",
+        "clinical",
+        "thyroid",
+        "esh",
+        "esc",
+        "arterial"
+      ],
+      "canonical_name": "management of",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "treatment of",
+      "score": 4.5,
+      "doc_freq": 26,
+      "title_freq": 16,
+      "keyword_freq": 0,
+      "variants": [
+        "treatment of"
+      ],
+      "contexts": [
+        "treatment",
+        "cancer",
+        "and treatment",
+        "immune",
+        "checkpoint",
+        "inhibition",
+        "represents",
+        "breakthrough"
+      ],
+      "canonical_name": "treatment of",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cancer and",
+      "score": 4.5,
+      "doc_freq": 22,
+      "title_freq": 7,
+      "keyword_freq": 0,
+      "variants": [
+        "cancer and"
+      ],
+      "contexts": [
+        "cancer",
+        "stem",
+        "cells",
+        "stem cells",
+        "late",
+        "1970s",
+        "international",
+        "union"
+      ],
+      "canonical_name": "cancer and",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "the national",
+      "score": 4.5,
+      "doc_freq": 21,
+      "title_freq": 6,
+      "keyword_freq": 0,
+      "variants": [
+        "the national"
+      ],
+      "contexts": [
+        "national",
+        "cancer",
+        "institute",
+        "comprehensive",
+        "network",
+        "national comprehensive",
+        "comprehensive cancer",
+        "cancer network"
+      ],
+      "canonical_name": "the national",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "immune system",
+      "score": 4.45,
+      "doc_freq": 52,
+      "title_freq": 1,
+      "keyword_freq": 58,
+      "variants": [
+        "immune system"
+      ],
+      "contexts": [
+        "immune",
+        "the immune",
+        "cancer",
+        "of the",
+        "cells",
+        "understanding",
+        "how",
+        "affects"
+      ],
+      "canonical_name": "immune system",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "signal transduction",
+      "score": 4.45,
+      "doc_freq": 41,
+      "title_freq": 1,
+      "keyword_freq": 40,
+      "variants": [
+        "signal transduction"
+      ],
+      "contexts": [
+        "signal",
+        "transduction",
+        "section",
+        "transduction systems",
+        "systems section",
+        "section 2",
+        "signal transduction systems",
+        "transduction systems section"
+      ],
+      "canonical_name": "signal transduction",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "artificial intelligence",
+      "score": 4.45,
+      "doc_freq": 33,
+      "title_freq": 1,
+      "keyword_freq": 33,
+      "variants": [
+        "artificial intelligence"
+      ],
+      "contexts": [
+        "artificial",
+        "intelligence",
+        "intelligence ai",
+        "radiomic",
+        "either",
+        "engineered",
+        "hard-coded",
+        "algorithms"
+      ],
+      "canonical_name": "artificial intelligence",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "stem cell",
+      "score": 4.45,
+      "doc_freq": 29,
+      "title_freq": 1,
+      "keyword_freq": 54,
+      "variants": [
+        "stem cell"
+      ],
+      "contexts": [
+        "identification",
+        "cancer",
+        "stem",
+        "cell",
+        "human",
+        "brain",
+        "tumors",
+        "of a"
+      ],
+      "canonical_name": "stem cell",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "molecular biology",
+      "score": 4.45,
+      "doc_freq": 27,
+      "title_freq": 1,
+      "keyword_freq": 25,
+      "variants": [
+        "molecular biology"
+      ],
+      "contexts": [
+        "molecular",
+        "biology",
+        "biology of",
+        "cell",
+        "molecular biology of",
+        "of the",
+        "the cell",
+        "part"
+      ],
+      "canonical_name": "molecular biology",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "overall survival",
+      "score": 4.45,
+      "doc_freq": 22,
+      "title_freq": 1,
+      "keyword_freq": 4,
+      "variants": [
+        "overall survival",
+        "overall survival."
+      ],
+      "contexts": [
+        "survival",
+        "overall",
+        "survival and",
+        "prolonged",
+        "amplification",
+        "her-2",
+        "neu",
+        "gene"
+      ],
+      "canonical_name": "overall survival",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "randomized controlled",
+      "score": 4.45,
+      "doc_freq": 22,
+      "title_freq": 1,
+      "keyword_freq": 22,
+      "variants": [
+        "randomized controlled"
+      ],
+      "contexts": [],
+      "canonical_name": "randomized controlled",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "randomized controlled trial",
+      "score": 4.45,
+      "doc_freq": 22,
+      "title_freq": 1,
+      "keyword_freq": 22,
+      "variants": [
+        "randomized controlled trial"
+      ],
+      "contexts": [],
+      "canonical_name": "randomized controlled trial",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "diabete mellitus",
+      "score": 4.45,
+      "doc_freq": 21,
+      "title_freq": 1,
+      "keyword_freq": 21,
+      "variants": [
+        "diabetes mellitus"
+      ],
+      "contexts": [
+        "diabete",
+        "mellitus",
+        "of diabete",
+        "insulin",
+        "diagnosis",
+        "classification",
+        "diagnosis and",
+        "and classification"
+      ],
+      "canonical_name": "diabete mellitus",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "programmed cell",
+      "score": 4.45,
+      "doc_freq": 21,
+      "title_freq": 1,
+      "keyword_freq": 18,
+      "variants": [
+        "programmed cell"
+      ],
+      "contexts": [
+        "programmed",
+        "cell",
+        "death",
+        "cell death",
+        "apoptosis",
+        "of programmed",
+        "apoptosis a",
+        "review of"
+      ],
+      "canonical_name": "programmed cell",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "transcription factor",
+      "score": 4.45,
+      "doc_freq": 21,
+      "title_freq": 1,
+      "keyword_freq": 23,
+      "variants": [
+        "transcription factor"
+      ],
+      "contexts": [
+        "transcription",
+        "factor",
+        "the transcription",
+        "nf-",
+        "regulate",
+        "multiple",
+        "aspects",
+        "innate"
+      ],
+      "canonical_name": "transcription factor",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "data science",
+      "score": 4.45,
+      "doc_freq": 20,
+      "title_freq": 1,
+      "keyword_freq": 20,
+      "variants": [
+        "data science"
+      ],
+      "contexts": [
+        "reproducible",
+        "interactive",
+        "scalable",
+        "extensible",
+        "microbiome",
+        "data",
+        "science",
+        "qiime"
+      ],
+      "canonical_name": "data science",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "programmed cell death",
+      "score": 4.45,
+      "doc_freq": 20,
+      "title_freq": 1,
+      "keyword_freq": 18,
+      "variants": [
+        "programmed cell death"
+      ],
+      "contexts": [
+        "apoptosis",
+        "programmed",
+        "cell",
+        "death",
+        "apoptosis a",
+        "review of",
+        "of programmed",
+        "programmed cell"
+      ],
+      "canonical_name": "programmed cell death",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "2 diabete",
+      "score": 4.45,
+      "doc_freq": 12,
+      "title_freq": 5,
+      "keyword_freq": 10,
+      "variants": [
+        "2 diabetes",
+        "2 diabetes."
+      ],
+      "contexts": [
+        "diabete",
+        "type 2",
+        "type 2 diabete",
+        "cardiovascular",
+        "and cardiovascular",
+        "in type",
+        "in type 2",
+        "outcome"
+      ],
+      "canonical_name": "2 diabete",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "type 2",
+      "score": 4.45,
+      "doc_freq": 12,
+      "title_freq": 5,
+      "keyword_freq": 10,
+      "variants": [
+        "type 2"
+      ],
+      "contexts": [
+        "diabete",
+        "cardiovascular",
+        "and cardiovascular",
+        "2 diabete",
+        "type 2 diabete",
+        "in type",
+        "in type 2",
+        "outcome"
+      ],
+      "canonical_name": "type 2",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "type 2 diabete",
+      "score": 4.45,
+      "doc_freq": 12,
+      "title_freq": 5,
+      "keyword_freq": 10,
+      "variants": [
+        "type 2 diabetes",
+        "type 2 diabetes."
+      ],
+      "contexts": [
+        "diabete",
+        "type 2",
+        "2 diabete",
+        "cardiovascular",
+        "and cardiovascular",
+        "in type",
+        "in type 2",
+        "outcome"
+      ],
+      "canonical_name": "type 2 diabete",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "cancer immunotherapy",
+      "score": 4.45,
+      "doc_freq": 10,
+      "title_freq": 7,
+      "keyword_freq": 9,
+      "variants": [
+        "cancer immunotherapy"
+      ],
+      "contexts": [
+        "cancer",
+        "immunotherapy",
+        "blockade",
+        "immune",
+        "checkpoints",
+        "the blockade",
+        "blockade of",
+        "of immune"
+      ],
+      "canonical_name": "cancer immunotherapy",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "years",
+      "score": 4.4333,
+      "doc_freq": 39,
+      "title_freq": 14,
+      "keyword_freq": 1,
+      "variants": [
+        "years",
+        "years."
+      ],
+      "contexts": [
+        "image",
+        "years of",
+        "nih",
+        "imagej",
+        "nih image",
+        "image to",
+        "to imagej",
+        "imagej 25"
+      ],
+      "canonical_name": "years",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "classification",
+      "score": 4.4333,
+      "doc_freq": 29,
+      "title_freq": 21,
+      "keyword_freq": 1,
+      "variants": [
+        "classification"
+      ],
+      "contexts": [
+        "classification of",
+        "cancer",
+        "class",
+        "diagnosis",
+        "diabete",
+        "mellitus",
+        "diagnosis and",
+        "and classification"
+      ],
+      "canonical_name": "classification",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "complex",
+      "score": 4.4333,
+      "doc_freq": 28,
+      "title_freq": 6,
+      "keyword_freq": 1,
+      "variants": [
+        "complex"
+      ],
+      "contexts": [
+        "cancer",
+        "genomics",
+        "profile",
+        "clinical",
+        "contains",
+        "rich",
+        "handling",
+        "experimental"
+      ],
+      "canonical_name": "complex",
+      "entity_type": "entity_candidate"
+    },
+    {
+      "name": "diagnosis",
+      "score": 4.4333,
+      "doc_freq": 26,
+      "title_freq": 18,
+      "keyword_freq": 1,
+      "variants": [
+        "diagnosis"
+      ],
+      "contexts": [
+        "global",
+        "chronic",
+        "obstructive",
+        "disease",
+        "copd",
+        "strategy",
+        "management",
+        "pulmonary"
+      ],
+      "canonical_name": "diagnosis",
+      "entity_type": "entity_candidate"
+    }
+  ],
+  "properties": [
+    {
+      "name": "time frame around",
+      "score": 1.55,
+      "doc_freq": 3,
+      "title_freq": 0,
+      "units": [
+        "s"
+      ],
+      "patterns": [
+        "For example, in the area of cancer, over the time frame from around the <VALUE> to the end of 2014, of the <VALUE>mall m",
+        "Thus, in the area of cancer, over the time frame from around the <VALUE> to date, of the <VALUE>mall molecules, 73% are ",
+        "Thus, in the area of cancer, over the time frame from around the <VALUE> to date, of the <VALUE>mall molecules, 131, or "
+      ],
+      "canonical_name": "time frame around",
+      "property_class": "process_parameter"
+    },
+    {
+      "name": "in less than",
+      "score": 1.3,
+      "doc_freq": 2,
+      "title_freq": 0,
+      "units": [
+        "%"
+      ],
+      "patterns": [
+        "We found that ctDNA was detectable in ><VALUE> of patients with advanced pancreatic, ovarian, colorectal, bladder, gastr",
+        "nintedanib was frequently associated with diarrhea, which led to discontinuation of the study medication in less than <V"
+      ],
+      "canonical_name": "in less than",
+      "property_class": "composition_metric"
+    },
+    {
+      "name": "less than",
+      "score": 1.3,
+      "doc_freq": 2,
+      "title_freq": 0,
+      "units": [
+        "%",
+        "m"
+      ],
+      "patterns": [
+        "Adherence to surveillance was suboptimal (less than <VALUE>) but in the subjects in the surveillance arm the HCC related",
+        "For example, in hepatitis B carriers infected at birth the incidence of HCC is less than <VALUE>.",
+        "Single channel resolution can be achieved when recording from whole cells, if the cell diameter is small (less than <VAL"
+      ],
+      "canonical_name": "less than",
+      "property_class": "composition_metric"
+    },
+    {
+      "name": "more than",
+      "score": 1.3,
+      "doc_freq": 2,
+      "title_freq": 0,
+      "units": [
+        "%",
+        "m"
+      ],
+      "patterns": [
+        "Arguedas et al.,34 using a similar analysis which did include liver transplantation in a population of hepatitis C patie",
+        "In 2015, more than <VALUE>illion family members and other unpaid caregivers provided an estimated 18.1 billion hours of "
+      ],
+      "canonical_name": "more than",
+      "property_class": "composition_metric"
+    },
+    {
+      "name": "recommends that her",
+      "score": 1.3,
+      "doc_freq": 2,
+      "title_freq": 0,
+      "units": [
+        "s"
+      ],
+      "patterns": [
+        "The panel recommends that HER<VALUE>tatus should be determined for all invasive breast cancer.",
+        "The Update Committee recommends that HER<VALUE>tatus (HER2 negative or positive) be determined in all patients with inva"
+      ],
+      "canonical_name": "recommends that her",
+      "property_class": "measurement"
+    }
+  ],
+  "units": [
+    {
+      "unit": "%",
+      "score": 0.6,
+      "doc_freq": 1,
+      "dimension": "ratio",
+      "aliases": [
+        "%"
+      ]
+    },
+    {
+      "unit": "V",
+      "score": 0.6,
+      "doc_freq": 1,
+      "dimension": "unknown",
+      "aliases": [
+        "V"
+      ]
+    },
+    {
+      "unit": "nm",
+      "score": 0.6,
+      "doc_freq": 1,
+      "dimension": "length",
+      "aliases": [
+        "nm"
+      ]
+    }
+  ],
+  "aliases": {
+    "gene expression": "gene expression",
+    "breast cancer": "breast cancer",
+    "lung cancer": "lung cancer",
+    "cancer cell": "cancer cell",
+    "colorectal cancer": "colorectal cancer",
+    "human genome": "human genome",
+    "regulation of": "regulation of",
+    "cell death": "cell death",
+    "of disease": "of disease",
+    "growth factor": "growth factor",
+    "dna methylation": "dna methylation",
+    "cancer": "cancer",
+    "gene": "gene",
+    "cell": "cell",
+    "oncology": "oncology",
+    "disease": "disease",
+    "human": "human",
+    "expression": "expression",
+    "clinical": "clinical",
+    "data": "data",
+    "health": "health",
+    "tumor": "tumor",
+    "genome": "genome",
+    "therapy": "therapy",
+    "dna": "dna",
+    "cells": "cells",
+    "molecular": "molecular",
+    "treatment": "treatment",
+    "receptor": "receptor",
+    "factor": "factor",
+    "survival": "survival",
+    "breast": "breast",
+    "lung": "lung",
+    "immune": "immune",
+    "care": "care",
+    "immunotherapy": "immunotherapy",
+    "growth": "growth",
+    "trial": "trial",
+    "risk": "risk",
+    "protein": "protein",
+    "chemotherapy": "chemotherapy",
+    "genetic": "genetic",
+    "death": "death",
+    "function": "function",
+    "information": "information",
+    "medical": "medical",
+    "pathway": "pathway",
+    "mutation": "mutation",
+    "family": "family",
+    "genomic": "genomic",
+    "signaling": "signaling",
+    "guideline": "guideline",
+    "incidence": "incidence",
+    "response": "response",
+    "colorectal": "colorectal",
+    "management": "management",
+    "rna": "rna",
+    "association": "association",
+    "international": "international",
+    "mortality": "mortality",
+    "activity": "activity",
+    "sequencing": "sequencing",
+    "carcinoma": "carcinoma",
+    "national": "national",
+    "regulation": "regulation",
+    "cellular": "cellular",
+    "chronic": "chronic",
+    "metastasis": "metastasis",
+    "stem": "stem",
+    "biological": "biological",
+    "diabete": "diabete",
+    "physical": "physical",
+    "tissue": "tissue",
+    "genomics": "genomics",
+    "project": "project",
+    "acute": "acute",
+    "inflammation": "inflammation",
+    "microrna": "microrna",
+    "profiling": "profiling",
+    "metastatic": "metastatic",
+    "methylation": "methylation",
+    "liver": "liver",
+    "variation": "variation",
+    "practice": "practice",
+    "prevention": "prevention",
+    "identification": "identification",
+    "metabolism": "metabolism",
+    "controlled trial": "controlled trial",
+    "factor receptor": "factor receptor",
+    "growth factor receptor": "growth factor receptor",
+    "expression profiling": "expression profiling",
+    "epidermal growth": "epidermal growth",
+    "epidermal growth factor": "epidermal growth factor",
+    "burden of": "burden of",
+    "checkpoint": "checkpoint",
+    "discovery": "discovery",
+    "epidemiology": "epidemiology",
+    "microarray": "microarray",
+    "network": "network",
+    "progression": "progression",
+    "analysis of": "analysis of",
+    "of cancer": "of cancer",
+    "in cancer": "in cancer",
+    "tumors": "tumors",
+    "global": "global",
+    "source": "source",
+    "resource": "resource",
+    "hepatocellular carcinoma": "hepatocellular carcinoma",
+    "prostate cancer": "prostate cancer",
+    "surgery": "surgery",
+    "sequence": "sequence",
+    "primary": "primary",
+    "radiation": "radiation",
+    "randomized": "randomized",
+    "antibody": "antibody",
+    "drug": "drug",
+    "set": "set",
+    "somatic": "somatic",
+    "angiogenesis": "angiogenesis",
+    "burden": "burden",
+    "functional": "functional",
+    "leukemia": "leukemia",
+    "obesity": "obesity",
+    "of gene": "of gene",
+    "gene expression profiling": "gene expression profiling",
+    "radiation therapy": "radiation therapy",
+    "web": "web",
+    "pathogenesis": "pathogenesis",
+    "prostate": "prostate",
+    "public health": "public health",
+    "tumor microenvironment": "tumor microenvironment",
+    "kinase": "kinase",
+    "public": "public",
+    "world": "world",
+    "apoptosis": "apoptosis",
+    "controlled": "controlled",
+    "transcription": "transcription",
+    "site": "site",
+    "epidermal": "epidermal",
+    "phenotype": "phenotype",
+    "variants": "variants",
+    "syndrome": "syndrome",
+    "blockade": "blockade",
+    "brain": "brain",
+    "hepatocellular": "hepatocellular",
+    "melanoma": "melanoma",
+    "development": "development",
+    "outcome": "outcome",
+    "cardiovascular": "cardiovascular",
+    "early": "early",
+    "women": "women",
+    "cancer therapy": "cancer therapy",
+    "microenvironment": "microenvironment",
+    "immunity": "immunity",
+    "systematic": "systematic",
+    "cell cycle": "cell cycle",
+    "burden of disease": "burden of disease",
+    "cancer incidence": "cancer incidence",
+    "environmental": "environmental",
+    "population": "population",
+    "software": "software",
+    "database": "database",
+    "cycle": "cycle",
+    "body": "body",
+    "life": "life",
+    "of the": "of the",
+    "in the": "in the",
+    "patients with": "patients with",
+    "associated with": "associated with",
+    "of a": "of a",
+    "in patients": "in patients",
+    "on the": "on the",
+    "in patients with": "in patients with",
+    "in human": "in human",
+    "of human": "of human",
+    "management of": "management of",
+    "treatment of": "treatment of",
+    "cancer and": "cancer and",
+    "the national": "the national",
+    "immune system": "immune system",
+    "signal transduction": "signal transduction",
+    "artificial intelligence": "artificial intelligence",
+    "stem cell": "stem cell",
+    "molecular biology": "molecular biology",
+    "overall survival": "overall survival",
+    "randomized controlled": "randomized controlled",
+    "randomized controlled trial": "randomized controlled trial",
+    "diabete mellitus": "diabete mellitus",
+    "programmed cell": "programmed cell",
+    "transcription factor": "transcription factor",
+    "data science": "data science",
+    "programmed cell death": "programmed cell death",
+    "2 diabete": "2 diabete",
+    "type 2": "type 2",
+    "type 2 diabete": "type 2 diabete",
+    "cancer immunotherapy": "cancer immunotherapy",
+    "years": "years",
+    "classification": "classification",
+    "complex": "complex",
+    "diagnosis": "diagnosis",
+    "gene-expression": "gene expression",
+    "breast-cancer": "breast cancer",
+    "lung-cancer": "lung cancer",
+    "cancer-cell": "cancer cell",
+    "colorectal-cancer": "colorectal cancer",
+    "human-genome": "human genome",
+    "regulation-of": "regulation of",
+    "cell-death": "cell death",
+    "of-disease": "of disease",
+    "growth-factor": "growth factor",
+    "dna-methylation": "dna methylation",
+    "controlled-trial": "controlled trial",
+    "factor-receptor": "factor receptor",
+    "growth-factor-receptor": "growth factor receptor",
+    "expression-profiling": "expression profiling",
+    "epidermal-growth": "epidermal growth",
+    "epidermal-growth-factor": "epidermal growth factor",
+    "burden-of": "burden of",
+    "analysis-of": "analysis of",
+    "of-cancer": "of cancer",
+    "in-cancer": "in cancer",
+    "hepatocellular-carcinoma": "hepatocellular carcinoma",
+    "prostate-cancer": "prostate cancer",
+    "of-gene": "of gene",
+    "gene-expression-profiling": "gene expression profiling",
+    "radiation-therapy": "radiation therapy",
+    "public-health": "public health",
+    "tumor-microenvironment": "tumor microenvironment",
+    "cancer-therapy": "cancer therapy",
+    "cell-cycle": "cell cycle",
+    "burden-of-disease": "burden of disease",
+    "cancer-incidence": "cancer incidence",
+    "of-the": "of the",
+    "in-the": "in the",
+    "patients-with": "patients with",
+    "associated-with": "associated with",
+    "of-a": "of a",
+    "in-patients": "in patients",
+    "on-the": "on the",
+    "in-patients-with": "in patients with",
+    "in-human": "in human",
+    "of-human": "of human",
+    "management-of": "management of",
+    "treatment-of": "treatment of",
+    "cancer-and": "cancer and",
+    "the-national": "the national",
+    "immune-system": "immune system",
+    "signal-transduction": "signal transduction",
+    "artificial-intelligence": "artificial intelligence",
+    "stem-cell": "stem cell",
+    "molecular-biology": "molecular biology",
+    "overall-survival": "overall survival",
+    "randomized-controlled": "randomized controlled",
+    "randomized-controlled-trial": "randomized controlled trial",
+    "diabete-mellitus": "diabete mellitus",
+    "programmed-cell": "programmed cell",
+    "transcription-factor": "transcription factor",
+    "data-science": "data science",
+    "programmed-cell-death": "programmed cell death",
+    "2-diabete": "2 diabete",
+    "type-2": "type 2",
+    "type-2-diabete": "type 2 diabete",
+    "cancer-immunotherapy": "cancer immunotherapy",
+    "WHO": "the world health organization",
+    "NO": "nitric oxide",
+    "ROS": "reactive oxygen species",
+    "TCGA": "the cancer genome atlas"
+  },
+  "taxonomy": {
+    "gene expression family": [
+      "gene expression",
+      "analysis of",
+      "of the"
+    ],
+    "breast cancer family": [
+      "breast cancer",
+      "breast",
+      "immune",
+      "checkpoint",
+      "blockade"
+    ],
+    "human genome family": [
+      "human genome",
+      "human",
+      "genome",
+      "information",
+      "development"
+    ],
+    "cell death family": [
+      "cell death",
+      "apoptosis",
+      "programmed cell"
+    ],
+    "growth factor family": [
+      "growth factor",
+      "receptor",
+      "factor",
+      "growth",
+      "factor receptor",
+      "epidermal growth",
+      "epidermal"
+    ],
+    "of cancer family": [
+      "of cancer",
+      "cancer",
+      "cells"
+    ],
+    "gene family": [
+      "gene",
+      "expression",
+      "set"
+    ],
+    "trial family": [
+      "trial",
+      "management",
+      "chronic",
+      "prevention",
+      "primary",
+      "diagnosis"
+    ],
+    "guideline family": [
+      "guideline",
+      "sequence",
+      "variants"
+    ],
+    "hepatocellular carcinoma family": [
+      "hepatocellular carcinoma",
+      "carcinoma",
+      "hepatocellular"
+    ],
+    "2 diabete family": [
+      "2 diabete",
+      "type 2",
+      "type 2 diabete"
+    ],
+    "cancer family": [
+      "lung cancer",
+      "colorectal cancer",
+      "in cancer",
+      "prostate cancer"
+    ]
+  },
+  "property_unit_map": {
+    "less than": [
+      "%",
+      "m"
+    ],
+    "more than": [
+      "%",
+      "m"
+    ],
+    "time frame around": [
+      "s"
+    ],
+    "in less than": [
+      "%"
+    ],
+    "recommends that her": [
+      "s"
+    ]
+  },
+  "metadata": {
+    "domain_name": "Cancer",
+    "seed_query": "Cancer",
+    "entity_count": 200,
+    "property_count": 5,
+    "unit_count": 3,
+    "min_term_doc_freq": 2,
+    "min_property_doc_freq": 2
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "parents": [
+    {
+      "subgenre_id": "sg-embedded-system",
+      "label": "embedded systems",
+      "paper_count": 25,
+      "child_count": 5,
+      "label_naturalness": 0.0344,
+      "base_label_naturalness": 0.1144,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.0,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0871,
+      "overlap_penalty": 0.0235,
+      "final_naturalness": 0.0109
+    },
+    {
+      "subgenre_id": "sg-energy-harvesting",
+      "label": "energy harvesting systems",
+      "paper_count": 22,
+      "child_count": 6,
+      "label_naturalness": 0.068,
+      "base_label_naturalness": 0.148,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.12,
+        "term_purity": 0.0,
+        "term_support": 0.0,
+        "term_centrality": 0.0,
+        "dispersion_complement": 1.0
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0,
+      "overlap_risk": 0.0871,
+      "overlap_penalty": 0.0235,
+      "final_naturalness": 0.0445
+    },
+    {
+      "subgenre_id": "sg-field-effect-transistor",
+      "label": "field-effect transistors",
+      "paper_count": 24,
+      "child_count": 3,
+      "label_naturalness": 0.1526,
+      "base_label_naturalness": 0.2326,
+      "label_penalties": 0.08,
+      "penalty_reasons": [
+        "child_like"
+      ],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.0,
+        "term_purity": 0.0545,
+        "term_support": 1.0,
+        "term_centrality": 0.5535,
+        "dispersion_complement": 0.0088
+      },
+      "tag_type": "child",
+      "semantic_role": "",
+      "topic_role": "",
+      "candidate_score": 0.0935,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.1526
+    },
+    {
+      "subgenre_id": "sg-renewable-energy",
+      "label": "renewable energy",
+      "paper_count": 35,
+      "child_count": 5,
+      "label_naturalness": 0.2206,
+      "base_label_naturalness": 0.2206,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0833,
+        "term_support": 1.0,
+        "term_centrality": 0.0929,
+        "dispersion_complement": 0.0763
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2815,
+      "overlap_risk": 0.0871,
+      "overlap_penalty": 0.0235,
+      "final_naturalness": 0.1971
+    },
+    {
+      "subgenre_id": "sg-carbon-nanotube",
+      "label": "carbon nanotube",
+      "paper_count": 18,
+      "child_count": 3,
+      "label_naturalness": 0.2205,
+      "base_label_naturalness": 0.2205,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0909,
+        "term_support": 1.0,
+        "term_centrality": 0.0881,
+        "dispersion_complement": 0.0702
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2808,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2205
+    },
+    {
+      "subgenre_id": "sg-electric-vehicle",
+      "label": "electric vehicle",
+      "paper_count": 16,
+      "child_count": 3,
+      "label_naturalness": 0.2253,
+      "base_label_naturalness": 0.2253,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.082,
+        "term_support": 1.0,
+        "term_centrality": 0.1118,
+        "dispersion_complement": 0.0949
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.2884,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2253
+    },
+    {
+      "subgenre_id": "sg-ion-battery",
+      "label": "ion battery",
+      "paper_count": 49,
+      "child_count": 4,
+      "label_naturalness": 0.2348,
+      "base_label_naturalness": 0.2348,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.08,
+        "domain_specificity": 0.18,
+        "term_purity": 0.0902,
+        "term_support": 1.0,
+        "term_centrality": 0.1513,
+        "dispersion_complement": 0.1136
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3022,
+      "overlap_risk": 0.0,
+      "overlap_penalty": 0.0,
+      "final_naturalness": 0.2348
+    },
+    {
+      "subgenre_id": "sg-organic-electronics",
+      "label": "organic electronics",
+      "paper_count": 42,
+      "child_count": 5,
+      "label_naturalness": 0.3957,
+      "base_label_naturalness": 0.3957,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.1012,
+        "term_support": 1.0,
+        "term_centrality": 0.117,
+        "dispersion_complement": 0.1038
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3796,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.364
+    },
+    {
+      "subgenre_id": "sg-flexible-electronics",
+      "label": "flexible electronics",
+      "paper_count": 45,
+      "child_count": 5,
+      "label_naturalness": 0.4001,
+      "base_label_naturalness": 0.4001,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.101,
+        "term_support": 1.0,
+        "term_centrality": 0.1453,
+        "dispersion_complement": 0.1026
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3863,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.3684
+    },
+    {
+      "subgenre_id": "sg-power-electronics",
+      "label": "power electronics",
+      "paper_count": 62,
+      "child_count": 6,
+      "label_naturalness": 0.4044,
+      "base_label_naturalness": 0.4044,
+      "label_penalties": 0.0,
+      "penalty_reasons": [],
+      "components": {
+        "abstraction_fit": 0.16,
+        "domain_specificity": 0.72,
+        "term_purity": 0.1044,
+        "term_support": 1.0,
+        "term_centrality": 0.1551,
+        "dispersion_complement": 0.1252
+      },
+      "tag_type": "parent",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "candidate_score": 0.3925,
+      "overlap_risk": 0.1173,
+      "overlap_penalty": 0.0317,
+      "final_naturalness": 0.3727
+    }
+  ],
+  "pairs": [
+    {
+      "a_id": "sg-flexible-electronics",
+      "a_label": "flexible electronics",
+      "b_id": "sg-organic-electronics",
+      "b_label": "organic electronics",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-power-electronics",
+      "a_label": "power electronics",
+      "b_id": "sg-flexible-electronics",
+      "b_label": "flexible electronics",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-power-electronics",
+      "a_label": "power electronics",
+      "b_id": "sg-organic-electronics",
+      "b_label": "organic electronics",
+      "risk": 0.1173,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.3333,
+      "containment": 0.0,
+      "sequence_similarity": 0.2
+    },
+    {
+      "a_id": "sg-embedded-system",
+      "a_label": "embedded systems",
+      "b_id": "sg-energy-harvesting",
+      "b_label": "energy harvesting systems",
+      "risk": 0.0871,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.25,
+      "containment": 0.0,
+      "sequence_similarity": 0.1429
+    },
+    {
+      "a_id": "sg-renewable-energy",
+      "a_label": "renewable energy",
+      "b_id": "sg-energy-harvesting",
+      "b_label": "energy harvesting systems",
+      "risk": 0.0871,
+      "doc_jaccard": 0.0,
+      "token_overlap": 0.25,
+      "containment": 0.0,
+      "sequence_similarity": 0.1429
+    }
+  ],
+  "summary": {
+    "median_label_naturalness": 0.2229,
+    "bottom10_label_naturalness": 0.0411,
+    "mean_parent_overlap_risk": 0.0613,
+    "assignment_naturalness": 0.9974,
+    "assignment_ambiguity_rate": 0.0,
+    "median_assignment_gap": 1.0378,
+    "weak_assignment_rate": 0.0,
+    "parent_with_children_ratio": 1.0,
+    "parent_size_cv": 0.4287,
+    "structure_score": 0.8622,
+    "human_naturalness_score": 0.4306
+  }
+}

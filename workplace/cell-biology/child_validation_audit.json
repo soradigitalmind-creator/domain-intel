@@ -1,0 +1,52 @@
+{
+  "reviewed": 71,
+  "invalidated": [
+    "sg-data-mining-random-variable",
+    "sg-genomics-phylogenetic-studies-mit-license"
+  ],
+  "relabelled": {
+    "sg-computational-biology-functional-of-gene": "gene function",
+    "sg-computational-biology-dna-elements-in-human": "DNA elements in humans",
+    "sg-computational-biology-elements-in-human": "genomic elements in humans",
+    "sg-computational-biology-map-of-human-genome": "human genome mapping",
+    "sg-computational-biology-map-of-human": "human genome mapping",
+    "sg-stem-cell-pluripotent-stem-cells-research": "pluripotent stem cells",
+    "sg-stem-cell-self-healing-hydrogels": "self-healing biomaterials",
+    "sg-stem-cell-tissue-engineering": "tissue regeneration",
+    "sg-programmed-cell-death-ferroptosis-and-cancer-prognosis": "ferroptosis and cancer prognosis",
+    "sg-cancer-research-cancer-therapy": "cancer therapeutics",
+    "sg-cancer-research-cancer-cells-and-metastasis": "cancer cell metastasis",
+    "sg-genomics-phylogenetic-studies-bacterial-genome-size": "bacterial genomics",
+    "sg-genomics-phylogenetic-studies-sequence-assembly": "genome assembly",
+    "sg-genomics-phylogenetic-studies-maximum-likelihood": "maximum likelihood methods",
+    "sg-genomics-phylogenetic-studies-pairwise-comparison": "pairwise sequence alignment"
+  },
+  "merged": {
+    "sg-computational-biology-elements-in-human": "sg-computational-biology-dna-elements-in-human",
+    "sg-computational-biology-map-of-human": "sg-computational-biology-map-of-human-genome",
+    "sg-gene-expression-gene-regulatory-network": "sg-gene-expression-biological-network",
+    "sg-molecular-biology-circular-rnas-in-diseases": "sg-molecular-biology-circular-rna"
+  },
+  "notes": {
+    "sg-computational-biology-functional-of-gene": "More natural phrasing.",
+    "sg-computational-biology-dna-elements-in-human": "More natural phrasing.",
+    "sg-computational-biology-elements-in-human": "More specific and natural phrasing.",
+    "sg-computational-biology-map-of-human-genome": "More natural phrasing.",
+    "sg-computational-biology-map-of-human": "Duplicate of 'map of human genome'.",
+    "sg-gene-expression-gene-regulatory-network": "This is a specific type of biological network, and 'biological network' is a more general and encompassing term.",
+    "sg-gene-expression-biological-network": "This is a more general term that encompasses gene regulatory networks.",
+    "sg-molecular-biology-circular-rnas-in-diseases": "This is a sub-topic of circular rna, and thus redundant.",
+    "sg-stem-cell-pluripotent-stem-cells-research": "The term 'research' is redundant.",
+    "sg-stem-cell-self-healing-hydrogels": "Hydrogels are a type of biomaterial, making the label more general and accurate.",
+    "sg-stem-cell-tissue-engineering": "Regeneration is a more specific outcome of tissue engineering in the context of stem cells.",
+    "sg-programmed-cell-death-ferroptosis-and-cancer-prognosis": "Improved phrasing for clarity.",
+    "sg-data-mining-random-variable": "This is a very general statistical concept and not specific enough as a child topic under data mining in cell biology.",
+    "sg-cancer-research-cancer-therapy": "Relabeled for more precise terminology.",
+    "sg-cancer-research-cancer-cells-and-metastasis": "Relabeled for more precise terminology.",
+    "sg-genomics-phylogenetic-studies-bacterial-genome-size": "More general term 'bacterial genomics' is better.",
+    "sg-genomics-phylogenetic-studies-sequence-assembly": "More specific to genomics.",
+    "sg-genomics-phylogenetic-studies-maximum-likelihood": "Adding 'methods' for clarity.",
+    "sg-genomics-phylogenetic-studies-pairwise-comparison": "More specific to genomics.",
+    "sg-genomics-phylogenetic-studies-mit-license": "This is a software license, not a biological topic."
+  }
+}

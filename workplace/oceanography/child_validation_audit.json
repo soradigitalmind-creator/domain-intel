@@ -1,0 +1,54 @@
+{
+  "reviewed": 69,
+  "invalidated": [
+    "sg-climate-change-earth-s",
+    "sg-remote-sensing-soil-moisture-and-remote-sensing"
+  ],
+  "relabelled": {
+    "sg-climate-change-climate-change-and-environmental-impact": "climate change and environmental impact",
+    "sg-climate-change-environmental-change": "environmental change",
+    "sg-climate-change-tree-ring-climate-responses": "tree-ring climate responses",
+    "sg-climate-change-alternative-stable-state": "alternative stable states",
+    "sg-climate-change-ecosystem-dynamics-and-resilience": "ecosystem dynamics and resilience",
+    "sg-remote-sensing-global-positioning-system": "global positioning system",
+    "sg-sea-level-future-sea-level": "future sea level projections",
+    "sg-sea-level-sea-level-rise": "sea level rise",
+    "sg-sea-level-storm-surge": "storm surge",
+    "sg-data-assimilation-atmospheric-infrared-sounder": "atmospheric infrared sounder",
+    "sg-data-assimilation-climate-forecast-system": "climate forecast system",
+    "sg-environmental-resource-management-ecosystem-management": "ecosystem management strategies",
+    "sg-geology-paleoclimatology-calibration-curve": "calibration curves",
+    "sg-geology-paleoclimatology-last-glacial-maximum": "Last Glacial Maximum",
+    "sg-geology-paleoclimatology-absolute-dating": "absolute dating methods",
+    "sg-geology-paleoclimatology-globigerina-bulloide": "Globigerina bulloides"
+  },
+  "merged": {
+    "sg-climate-change-regime-shift": "sg-climate-change-alternative-stable-state",
+    "sg-remote-sensing-geodetic-datum": "sg-remote-sensing-global-positioning-system",
+    "sg-oceanography-marine-marine-biology-annual": "sg-oceanography-marine-marine-biology"
+  },
+  "notes": {
+    "sg-climate-change-earth-s": "Too generic, likely noise.",
+    "sg-climate-change-regime-shift": "Alias of alternative stable state.",
+    "sg-climate-change-ecosystem-dynamics-and-resilience": "Label is missing 'and'.",
+    "sg-climate-change-alternative-stable-state": "Pluralize for better fit.",
+    "sg-climate-change-climate-change-and-environmental-impact": "Add 'and' for natural phrasing.",
+    "sg-climate-change-environmental-change": "Keep as is, but note it's broader than just climate change.",
+    "sg-climate-change-tree-ring-climate-responses": "Add hyphen for natural phrasing.",
+    "sg-remote-sensing-soil-moisture-and-remote-sensing": "This topic is related to soil science and land remote sensing, not oceanography.",
+    "sg-remote-sensing-geodetic-datum": "This is a sub-topic of global positioning system.",
+    "sg-remote-sensing-global-positioning-system": "The label 'global positioning' is too short. It should be 'global positioning system'.",
+    "sg-sea-level-future-sea-level": "Added 'projections' for clarity.",
+    "sg-sea-level-sea-level-rise": "This is a core concept and is well-labeled.",
+    "sg-sea-level-storm-surge": "This is a distinct phenomenon related to sea level and well-labeled.",
+    "sg-data-assimilation-atmospheric-infrared-sounder": "This is a specific instrument, but it is representative of a class of instruments used for atmospheric sounding in data assimilation.",
+    "sg-data-assimilation-climate-forecast-system": "The label 'climate forecast' is too generic. 'climate forecast system' is more specific and accurate.",
+    "sg-environmental-resource-management-ecosystem-management": "More specific than 'ecosystem management' and distinct from 'ecosystem-based management'.",
+    "sg-geology-paleoclimatology-calibration-curve": "Pluralize for consistency with other terms.",
+    "sg-geology-paleoclimatology-last-glacial-maximum": "Capitalize for proper noun.",
+    "sg-geology-paleoclimatology-absolute-dating": "Add 'methods' for clarity.",
+    "sg-geology-paleoclimatology-globigerina-bulloide": "Correct species name to plural.",
+    "sg-oceanography-marine-marine-biology-annual": "This is a duplicate of 'marine biology'. The 'annual' qualifier is not specific enough to warrant a separate topic.",
+    "sg-oceanography-marine-marine-biology": "This is the canonical topic for marine biology."
+  }
+}
