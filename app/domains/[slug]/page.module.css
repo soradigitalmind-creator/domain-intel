@@ -35,8 +35,7 @@
   display: grid;
   align-content: start;
   gap: 8px;
-  min-height: 192px;
-  padding: 14px 12px 16px;
+  padding: 16px 14px;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.84);
@@ -45,20 +44,9 @@
 
 .topicTitle {
   margin: 0;
-  font-size: 0.92rem;
+  font-size: 0.98rem;
   font-weight: 800;
   letter-spacing: -0.04em;
-}
-
-.topicList {
-  display: grid;
-  gap: 6px;
-}
-
-.topicItem {
-  color: #5f7ee5;
-  font-size: 0.9rem;
-  line-height: 1.28;
 }
 
 .footerLinks {
@@ -73,10 +61,4 @@
   color: var(--muted);
   font-size: 0.84rem;
   font-weight: 700;
-}
-
-@media (max-width: 640px) {
-  .topicCard {
-    min-height: 0;
-  }
 }

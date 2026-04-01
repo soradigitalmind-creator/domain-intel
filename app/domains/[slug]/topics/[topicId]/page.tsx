@@ -36,6 +36,21 @@ export default async function TopicPage({ params }: Props) {
     notFound();
   }
 
+  const grandchildMap = new Map(
+    detail.allSubgenres
+      .filter((item) => item.parent_id)
+      .reduce<Array<[string, typeof detail.allSubgenres]>>((acc, item) => {
+        const key = item.parent_id as string;
+        const existing = acc.find(([id]) => id === key);
+        if (existing) {
+          existing[1].push(item);
+        } else {
+          acc.push([key, [item]]);
+        }
+        return acc;
+      }, [])
+  );
+
   return (
     <main className="page-shell">
       <section className={styles.hero}>
@@ -54,12 +69,9 @@ export default async function TopicPage({ params }: Props) {
               >
                 <strong className={styles.childTitle}>{child.label}</strong>
                 <div className={styles.childList}>
-                  {(child.member_terms.length > 0
-                    ? child.member_terms.slice(0, 6)
-                    : child.top_entities.slice(0, 6)
-                  ).map((item) => (
-                    <span key={item} className={styles.childItem}>
-                      {item}
+                  {(grandchildMap.get(child.subgenre_id) ?? []).slice(0, 6).map((item) => (
+                    <span key={item.subgenre_id} className={styles.childItem}>
+                      {item.label}
                     </span>
                   ))}
                 </div>
@@ -91,7 +103,6 @@ export default async function TopicPage({ params }: Props) {
                   </span>
                 ) : null}
               </div>
-              <p className={styles.paperSummary}>{paper.short_summary || "No summary available."}</p>
               <p className={styles.paperConcepts}>
                 {paper.concepts.slice(0, 6).join(", ") || "No concept labels"}
               </p>

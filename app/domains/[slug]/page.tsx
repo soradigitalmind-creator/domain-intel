@@ -40,20 +40,6 @@ export default async function DomainPage({ params }: Props) {
   }
 
   const parentTopics = domain.subgenres.filter((item) => item.parent_id === null).slice(0, 12);
-  const childMap = new Map(
-    domain.subgenres
-      .filter((item) => item.parent_id)
-      .reduce<Array<[string, typeof domain.subgenres]>>((acc, item) => {
-        const key = item.parent_id as string;
-        const existing = acc.find(([id]) => id === key);
-        if (existing) {
-          existing[1].push(item);
-        } else {
-          acc.push([key, [item]]);
-        }
-        return acc;
-      }, [])
-  );
 
   return (
     <main className="page-shell">
@@ -67,30 +53,15 @@ export default async function DomainPage({ params }: Props) {
 
       <section className={styles.section}>
         <div className={styles.topicGrid}>
-          {parentTopics.map((topic) => {
-            const children = (childMap.get(topic.subgenre_id) ?? []).slice(0, 6);
-            const labels =
-              children.length > 0
-                ? children.map((item) => item.label)
-                : topic.member_terms.slice(0, 6);
-
-            return (
-              <Link
-                key={topic.subgenre_id}
-                href={`/domains/${slug}/topics/${topic.subgenre_id}`}
-                className={styles.topicCard}
-              >
-                <h2 className={styles.topicTitle}>{topic.label}</h2>
-                <div className={styles.topicList}>
-                  {labels.map((label) => (
-                    <span key={label} className={styles.topicItem}>
-                      {label}
-                    </span>
-                  ))}
-                </div>
-              </Link>
-            );
-          })}
+          {parentTopics.map((topic) => (
+            <Link
+              key={topic.subgenre_id}
+              href={`/domains/${slug}/topics/${topic.subgenre_id}`}
+              className={styles.topicCard}
+            >
+              <h2 className={styles.topicTitle}>{topic.label}</h2>
+            </Link>
+          ))}
         </div>
       </section>
 

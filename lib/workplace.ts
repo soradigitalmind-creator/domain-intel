@@ -85,6 +85,7 @@ export type TopicDetail = {
   domain: DomainSummary;
   topic: DomainDetail["subgenres"][number];
   children: DomainDetail["subgenres"];
+  allSubgenres: DomainDetail["subgenres"];
   papers: TopicPaper[];
 };
 
@@ -554,6 +555,7 @@ export async function getTopicDetail(
     domain,
     topic,
     children: domain.subgenres.filter((item) => item.parent_id === topic.subgenre_id),
+    allSubgenres: domain.subgenres,
     papers,
   };
 }
