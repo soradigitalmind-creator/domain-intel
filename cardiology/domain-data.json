@@ -1,0 +1,938 @@
+{
+  "slug": "cardiology",
+  "title": "Cardiology",
+  "updated_at": "2026-03-30T15:20:37.159025Z",
+  "snapshot": {
+    "papers": 740,
+    "topics": 10,
+    "subtopics": 655,
+    "entities": 1065,
+    "claims": 8
+  },
+  "rising_topics": [
+    {
+      "id": "sg-intensive-care-medicine",
+      "label": "Intensive care medicine",
+      "url": "topics/sg-intensive-care-medicine.html",
+      "trend": "rising"
+    },
+    {
+      "id": "sg-vascular-disease",
+      "label": "Vascular disease",
+      "url": "topics/sg-vascular-disease.html",
+      "trend": "rising"
+    },
+    {
+      "id": "sg-myocardial-infarction",
+      "label": "Myocardial infarction",
+      "url": "topics/sg-myocardial-infarction.html",
+      "trend": "rising"
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-intensive-care-medicine",
+      "label": "Intensive care medicine",
+      "url": "topics/sg-intensive-care-medicine.html",
+      "paper_count": 195,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: intensive care medicine, internal medicine, management",
+      "tags": [
+        "cardiovascular disease clinical",
+        "diagnosis management of chronic",
+        "diagnosis management of syncope",
+        "european society of intensive"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-intensive-care-medicine-intensive-care-unit-management",
+          "label": "Intensive care unit management",
+          "url": "topics/sg-intensive-care-medicine-intensive-care-unit-management.html",
+          "paper_count": 113
+        },
+        {
+          "id": "sg-intensive-care-medicine-disease-management",
+          "label": "Disease management",
+          "url": "topics/sg-intensive-care-medicine-disease-management.html",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-intensive-care-medicine-expert-opinion",
+          "label": "Expert opinion",
+          "url": "topics/sg-intensive-care-medicine-expert-opinion.html",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-intensive-care-medicine-diabetes-management",
+          "label": "Diabetes management",
+          "url": "topics/sg-intensive-care-medicine-diabetes-management.html",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-intensive-care-medicine-infective-endocarditis-diagnosis-management",
+          "label": "Infective endocarditis diagnosis management",
+          "url": "topics/sg-intensive-care-medicine-infective-endocarditis-diagnosis-management.html",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-intensive-care-medicine-position-statement",
+          "label": "Position statement",
+          "url": "topics/sg-intensive-care-medicine-position-statement.html",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3082188176",
+          "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2020",
+          "cited_by_count": 9717,
+          "url": "papers/https-openalex-org-w3082188176.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2133416234",
+          "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+          "year": "2013",
+          "cited_by_count": 13652,
+          "url": "papers/https-openalex-org-w2133416234.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2888589263",
+          "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+          "year": "2018",
+          "cited_by_count": 10258,
+          "url": "papers/https-openalex-org-w2888589263.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-vascular-disease",
+      "label": "Vascular disease",
+      "url": "topics/sg-vascular-disease.html",
+      "paper_count": 138,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: vascular, cardiovascular, disease",
+      "tags": [
+        "cardiovascular disease",
+        "cardiovascular disease clinical",
+        "cardiovascular disease prevention",
+        "diabete cardiovascular disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-vascular-disease-atherosclerotic-cardiovascular-disease",
+          "label": "Atherosclerotic cardiovascular disease",
+          "url": "topics/sg-vascular-disease-atherosclerotic-cardiovascular-disease.html",
+          "paper_count": 138
+        },
+        {
+          "id": "sg-vascular-disease-internal-medicine",
+          "label": "Internal medicine",
+          "url": "topics/sg-vascular-disease-internal-medicine.html",
+          "paper_count": 117
+        },
+        {
+          "id": "sg-vascular-disease-heart-disease",
+          "label": "Heart disease",
+          "url": "topics/sg-vascular-disease-heart-disease.html",
+          "paper_count": 22
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2156121263",
+          "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure&lt;SUBTITLE&gt;The JNC 7 Report&lt;/SUBTITLE&gt;",
+          "year": "2003",
+          "cited_by_count": 25504,
+          "url": "papers/https-openalex-org-w2156121263.html"
+        },
+        {
+          "source_id": "https://openalex.org/W4238251256",
+          "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+          "year": "2001",
+          "cited_by_count": 25848,
+          "url": "papers/https-openalex-org-w4238251256.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2143104968",
+          "title": "Harmonizing the Metabolic Syndrome",
+          "year": "2009",
+          "cited_by_count": 14439,
+          "url": "papers/https-openalex-org-w2143104968.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-myocardial-infarction",
+      "label": "Myocardial infarction",
+      "url": "topics/sg-myocardial-infarction.html",
+      "paper_count": 136,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cardiology, myocardial infarction",
+      "tags": [
+        "acute myocardial infarction",
+        "definition of myocardial infarction",
+        "myocardial infarction",
+        "myocardial infarction acc/aha/scai"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-myocardial-infarction-bypass-surgery",
+          "label": "Bypass surgery",
+          "url": "topics/sg-myocardial-infarction-bypass-surgery.html",
+          "paper_count": 59
+        },
+        {
+          "id": "sg-myocardial-infarction-coronary-intervention",
+          "label": "Coronary intervention",
+          "url": "topics/sg-myocardial-infarction-coronary-intervention.html",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-myocardial-infarction-acute-coronary-syndrome",
+          "label": "Acute coronary syndrome",
+          "url": "topics/sg-myocardial-infarction-acute-coronary-syndrome.html",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-myocardial-infarction-diagnosis-of-myocardial-infarction",
+          "label": "Diagnosis of myocardial infarction",
+          "url": "topics/sg-myocardial-infarction-diagnosis-of-myocardial-infarction.html",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-myocardial-infarction-myocardial-ischemia",
+          "label": "Myocardial ischemia",
+          "url": "topics/sg-myocardial-infarction-myocardial-ischemia.html",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-myocardial-infarction-troponin-t",
+          "label": "Troponin t",
+          "url": "topics/sg-myocardial-infarction-troponin-t.html",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2105397247",
+          "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+          "year": "2015",
+          "cited_by_count": 8282,
+          "url": "papers/https-openalex-org-w2105397247.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2145813488",
+          "title": "https://openalex.org/W2145813488",
+          "year": "",
+          "cited_by_count": 2273,
+          "url": "papers/https-openalex-org-w2145813488.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2888543854",
+          "title": "Fourth universal definition of myocardial infarction (2018)",
+          "year": "2018",
+          "cited_by_count": 5751,
+          "url": "papers/https-openalex-org-w2888543854.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-heart-failure",
+      "label": "Heart failure",
+      "url": "topics/sg-heart-failure.html",
+      "paper_count": 103,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: cardiology, internal medicine, of the",
+      "tags": [
+        "acute chronic heart failure",
+        "acute heart failure",
+        "chronic heart failure",
+        "epidemiology of heart failure"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-heart-failure-heart-failure",
+          "label": "Heart failure",
+          "url": "topics/sg-heart-failure-heart-failure.html",
+          "paper_count": 42
+        },
+        {
+          "id": "sg-heart-failure-heart-failure-treatment-and-management",
+          "label": "Heart failure treatment and management",
+          "url": "topics/sg-heart-failure-heart-failure-treatment-and-management.html",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-heart-failure-heart-failure-management",
+          "label": "Heart failure management",
+          "url": "topics/sg-heart-failure-heart-failure-management.html",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-heart-failure-volume-overload",
+          "label": "Volume overload",
+          "url": "topics/sg-heart-failure-volume-overload.html",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-heart-failure-arrhythmogenic-right-ventricular-dysplasia",
+          "label": "Arrhythmogenic right ventricular dysplasia",
+          "url": "topics/sg-heart-failure-arrhythmogenic-right-ventricular-dysplasia.html",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-heart-failure-cardiac-resynchronization-therapy",
+          "label": "Cardiac resynchronization therapy",
+          "url": "topics/sg-heart-failure-cardiac-resynchronization-therapy.html",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2427094903",
+          "title": "Corrigendum to: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: Developed by the Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC) With the special contribution of the Heart Failure Association (HFA) of the ESC.",
+          "year": "2021",
+          "cited_by_count": 19535,
+          "url": "papers/https-openalex-org-w2427094903.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2397911846",
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11387,
+          "url": "papers/https-openalex-org-w2397911846.html"
+        },
+        {
+          "source_id": "https://openalex.org/W3183857127",
+          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: <i>lipid modification to reduce cardiovascular risk</i>",
+          "year": "2019",
+          "cited_by_count": 8581,
+          "url": "papers/https-openalex-org-w3183857127.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-environmental-health",
+      "label": "Environmental health",
+      "url": "topics/sg-environmental-health.html",
+      "paper_count": 57,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: environmental health, internal medicine, disease",
+      "tags": [
+        "burden of disease",
+        "disease burden",
+        "environmental health",
+        "global burden of disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-environmental-health-burden-of-disease",
+          "label": "Burden of disease",
+          "url": "topics/sg-environmental-health-burden-of-disease.html",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-environmental-health-health-promotion-cardiovascular-prevention",
+          "label": "Health promotion cardiovascular prevention",
+          "url": "topics/sg-environmental-health-health-promotion-cardiovascular-prevention.html",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-environmental-health-global-health",
+          "label": "Global health",
+          "url": "topics/sg-environmental-health-global-health.html",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-environmental-health-medical-costs",
+          "label": "Medical costs",
+          "url": "topics/sg-environmental-health-medical-costs.html",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-environmental-health-cancer-incidence",
+          "label": "Cancer incidence",
+          "url": "topics/sg-environmental-health-cancer-incidence.html",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-environmental-health-years-of-potential-life-lost",
+          "label": "Years of potential life lost",
+          "url": "topics/sg-environmental-health-years-of-potential-life-lost.html",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3113178943",
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+          "year": "2020",
+          "cited_by_count": 10517,
+          "url": "papers/https-openalex-org-w3113178943.html"
+        },
+        {
+          "source_id": "https://openalex.org/W3197233575",
+          "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2021",
+          "cited_by_count": 7183,
+          "url": "papers/https-openalex-org-w3197233575.html"
+        },
+        {
+          "source_id": "https://openalex.org/W3005957464",
+          "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2020",
+          "cited_by_count": 6314,
+          "url": "papers/https-openalex-org-w3005957464.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-randomized-controlled-trial",
+      "label": "Randomized controlled trial",
+      "url": "topics/sg-randomized-controlled-trial.html",
+      "paper_count": 48,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cardiology, randomized controlled trial",
+      "tags": [
+        "ablation of atrial fibrillation",
+        "clinical endpoint",
+        "cochrane library",
+        "quality of evidence"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-randomized-controlled-trial-internal-medicine",
+          "label": "Internal medicine",
+          "url": "topics/sg-randomized-controlled-trial-internal-medicine.html",
+          "paper_count": 41
+        },
+        {
+          "id": "sg-randomized-controlled-trial-ablation-of-atrial-fibrillation",
+          "label": "Ablation of atrial fibrillation",
+          "url": "topics/sg-randomized-controlled-trial-ablation-of-atrial-fibrillation.html",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-randomized-controlled-trial-clinical-endpoint",
+          "label": "Clinical endpoint",
+          "url": "topics/sg-randomized-controlled-trial-clinical-endpoint.html",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-randomized-controlled-trial-coronary-artery-disease",
+          "label": "Coronary artery disease",
+          "url": "topics/sg-randomized-controlled-trial-coronary-artery-disease.html",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-randomized-controlled-trial-evidence-quality",
+          "label": "Evidence quality",
+          "url": "topics/sg-randomized-controlled-trial-evidence-quality.html",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2509795914",
+          "title": "2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+          "year": "2016",
+          "cited_by_count": 6474,
+          "url": "papers/https-openalex-org-w2509795914.html"
+        },
+        {
+          "source_id": "https://openalex.org/W3004050106",
+          "title": "2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+          "year": "2016",
+          "cited_by_count": 6411,
+          "url": "papers/https-openalex-org-w3004050106.html"
+        },
+        {
+          "source_id": "https://openalex.org/W4402049769",
+          "title": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2024",
+          "cited_by_count": 1995,
+          "url": "papers/https-openalex-org-w4402049769.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-confidence-interval",
+      "label": "Confidence interval",
+      "url": "topics/sg-confidence-interval.html",
+      "paper_count": 24,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: internal medicine, confidence interval, vascular",
+      "tags": [
+        "apnea-hypopnea index",
+        "confidence interval",
+        "high-normal blood pressure",
+        "myocardial infarction complicated"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-confidence-interval-relative-risk",
+          "label": "Relative risk",
+          "url": "topics/sg-confidence-interval-relative-risk.html",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-confidence-interval-internal-medicine",
+          "label": "Internal medicine",
+          "url": "topics/sg-confidence-interval-internal-medicine.html",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-confidence-interval-heart-disease",
+          "label": "Heart disease",
+          "url": "topics/sg-confidence-interval-heart-disease.html",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2136489990",
+          "title": "Dabigatran versus Warfarin in Patients with Atrial Fibrillation",
+          "year": "2009",
+          "cited_by_count": 11130,
+          "url": "papers/https-openalex-org-w2136489990.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2122779695",
+          "title": "Standardized Bleeding Definitions for Cardiovascular Clinical Trials",
+          "year": "2011",
+          "cited_by_count": 4345,
+          "url": "papers/https-openalex-org-w2122779695.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2798105113",
+          "title": "Role of C-Reactive Protein at Sites of Inflammation and Infection",
+          "year": "2018",
+          "cited_by_count": 2907,
+          "url": "papers/https-openalex-org-w2798105113.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-ejection-fraction",
+      "label": "Ejection fraction",
+      "url": "topics/sg-ejection-fraction.html",
+      "paper_count": 22,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: cardiology, ejection fraction, internal medicine",
+      "tags": [
+        "ejection fraction",
+        "epidemiology of heart failure",
+        "failure preserved ejection fraction",
+        "heart failure preserved"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-ejection-fraction-preserved-ejection-fraction",
+          "label": "Preserved ejection fraction",
+          "url": "topics/sg-ejection-fraction-preserved-ejection-fraction.html",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-ejection-fraction-internal-medicine",
+          "label": "Internal medicine",
+          "url": "topics/sg-ejection-fraction-internal-medicine.html",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-ejection-fraction-failure-preserved-ejection",
+          "label": "Failure preserved ejection",
+          "url": "topics/sg-ejection-fraction-failure-preserved-ejection.html",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-ejection-fraction-ventricular-remodeling",
+          "label": "Ventricular remodeling",
+          "url": "topics/sg-ejection-fraction-ventricular-remodeling.html",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2025639892",
+          "title": "Lipid Peroxidation: Production, Metabolism, and Signaling Mechanisms of Malondialdehyde and 4-Hydroxy-2-Nonenal",
+          "year": "2014",
+          "cited_by_count": 5954,
+          "url": "papers/https-openalex-org-w2025639892.html"
+        },
+        {
+          "source_id": "https://openalex.org/W4293354639",
+          "title": "Dapagliflozin in Heart Failure with Mildly Reduced or Preserved Ejection Fraction",
+          "year": "2022",
+          "cited_by_count": 2473,
+          "url": "papers/https-openalex-org-w4293354639.html"
+        },
+        {
+          "source_id": "https://openalex.org/W3022179669",
+          "title": "Recommendations for the Evaluation of Left Ventricular Diastolic Function by Echocardiography",
+          "year": "2009",
+          "cited_by_count": 4364,
+          "url": "papers/https-openalex-org-w3022179669.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-risk-factor",
+      "label": "Risk factor",
+      "url": "topics/sg-risk-factor.html",
+      "paper_count": 16,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: factor, risk, internal medicine",
+      "tags": [
+        "diabete cardiovascular disease",
+        "ischemic heart disease",
+        "risk factor",
+        "risk of cardiovascular disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-factor-stroke-risk",
+          "label": "Stroke risk",
+          "url": "topics/sg-risk-factor-stroke-risk.html",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-risk-factor-internal-medicine",
+          "label": "Internal medicine",
+          "url": "topics/sg-risk-factor-internal-medicine.html",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-risk-factor-heart-disease",
+          "label": "Heart disease",
+          "url": "topics/sg-risk-factor-heart-disease.html",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4381681857",
+          "title": "A multisociety Delphi consensus statement on new fatty liver disease nomenclature",
+          "year": "2023",
+          "cited_by_count": 2642,
+          "url": "papers/https-openalex-org-w4381681857.html"
+        },
+        {
+          "source_id": "https://openalex.org/W3011483298",
+          "title": "SARS-CoV-2 entry factors are highly expressed in nasal epithelial cells together with innate immune genes",
+          "year": "2020",
+          "cited_by_count": 2712,
+          "url": "papers/https-openalex-org-w3011483298.html"
+        },
+        {
+          "source_id": "https://openalex.org/W2154375587",
+          "title": "Risk of Ischemic Heart Disease in Women after Radiotherapy for Breast Cancer",
+          "year": "2013",
+          "cited_by_count": 3868,
+          "url": "papers/https-openalex-org-w2154375587.html"
+        }
+      ]
+    },
+    {
+      "id": "sg-hazard-ratio",
+      "label": "Hazard ratio",
+      "url": "topics/sg-hazard-ratio.html",
+      "paper_count": 1,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: association, body surface area, cardiovascular",
+      "tags": [
+        "ablation paroxysmal atrial fibrillation",
+        "apnea-hypopnea index",
+        "hazard ratio",
+        "high-normal blood pressure"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-hazard-ratio-apnea-hypopnea-index",
+          "label": "Apnea-hypopnea index",
+          "url": "topics/sg-hazard-ratio-apnea-hypopnea-index.html",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2145632027",
+          "title": "Chronic Kidney Disease and the Risks of Death, Cardiovascular Events, and Hospitalization",
+          "year": "2004",
+          "cited_by_count": 11262,
+          "url": "papers/https-openalex-org-w2145632027.html"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Vascular disease",
+      "paper_count": 12,
+      "papers": [
+        {
+          "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure&amp;lt;SUBTITLE&amp;gt;The JNC 7 Report&amp;lt;/SUBTITLE&amp;gt;",
+          "year": "2003",
+          "cited_by_count": 25504,
+          "topic": "Vascular disease",
+          "url": "papers/https-openalex-org-w2156121263.html"
+        },
+        {
+          "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+          "year": "2001",
+          "cited_by_count": 25848,
+          "topic": "Vascular disease",
+          "url": "papers/https-openalex-org-w4238251256.html"
+        },
+        {
+          "title": "Harmonizing the Metabolic Syndrome",
+          "year": "2009",
+          "cited_by_count": 14439,
+          "topic": "Vascular disease",
+          "url": "papers/https-openalex-org-w2143104968.html"
+        },
+        {
+          "title": "Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure",
+          "year": "2003",
+          "cited_by_count": 13237,
+          "topic": "Vascular disease",
+          "url": "papers/https-openalex-org-w2143954917.html"
+        },
+        {
+          "title": "Diagnosis and Management of the Metabolic Syndrome",
+          "year": "2005",
+          "cited_by_count": 11687,
+          "topic": "Vascular disease",
+          "url": "papers/https-openalex-org-w2103714496.html"
+        },
+        {
+          "title": "Recommendations for Chamber Quantification: A Report from the American Society of Echocardiography’s Guidelines and Standards Committee and the Chamber Quantification Writing Group, Developed in Conjunction with the European Association of Echocardiography, a Branch of the European Society of Cardiology",
+          "year": "2005",
+          "cited_by_count": 11302,
+          "topic": "Vascular disease",
+          "url": "papers/https-openalex-org-w2101099004.html"
+        }
+      ]
+    },
+    {
+      "label": "Intensive care medicine",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2020",
+          "cited_by_count": 9717,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w3082188176.html"
+        },
+        {
+          "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+          "year": "2013",
+          "cited_by_count": 13652,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2133416234.html"
+        },
+        {
+          "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+          "year": "2018",
+          "cited_by_count": 10258,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2888589263.html"
+        },
+        {
+          "title": "Heart rate variability: Standards of measurement, physiological interpretation, and clinical use",
+          "year": "1996",
+          "cited_by_count": 15208,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2133589238.html"
+        },
+        {
+          "title": "Endothelial cell infection and endotheliitis in COVID-19",
+          "year": "2020",
+          "cited_by_count": 6582,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w3017125154.html"
+        },
+        {
+          "title": "Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association",
+          "year": "2019",
+          "cited_by_count": 7003,
+          "topic": "Intensive care medicine",
+          "url": "papers/https-openalex-org-w2982303713.html"
+        }
+      ]
+    },
+    {
+      "label": "Myocardial infarction",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+          "year": "2015",
+          "cited_by_count": 8282,
+          "topic": "Myocardial infarction",
+          "url": "papers/https-openalex-org-w2105397247.html"
+        },
+        {
+          "title": "",
+          "year": "None",
+          "cited_by_count": 2273,
+          "topic": "Myocardial infarction",
+          "url": "papers/https-openalex-org-w2145813488.html"
+        },
+        {
+          "title": "Fourth universal definition of myocardial infarction (2018)",
+          "year": "2018",
+          "cited_by_count": 5751,
+          "topic": "Myocardial infarction",
+          "url": "papers/https-openalex-org-w2888543854.html"
+        },
+        {
+          "title": "2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+          "year": "2020",
+          "cited_by_count": 4917,
+          "topic": "Myocardial infarction",
+          "url": "papers/https-openalex-org-w3162195278.html"
+        },
+        {
+          "title": "2024 ESC Guidelines for the management of chronic coronary syndromes",
+          "year": "2024",
+          "cited_by_count": 1953,
+          "topic": "Myocardial infarction",
+          "url": "papers/https-openalex-org-w4402064302.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental health",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+          "year": "2020",
+          "cited_by_count": 10517,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w3113178943.html"
+        },
+        {
+          "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2021",
+          "cited_by_count": 7183,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w3197233575.html"
+        },
+        {
+          "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2020",
+          "cited_by_count": 6314,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w3005957464.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases and injuries in 188 countries, 1990–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+          "year": "2015",
+          "cited_by_count": 6465,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2098082628.html"
+        }
+      ]
+    },
+    {
+      "label": "Heart failure",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Corrigendum to: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: Developed by the Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC) With the special contribution of the Heart Failure Association (HFA) of the ESC.",
+          "year": "2021",
+          "cited_by_count": 19535,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w2427094903.html"
+        },
+        {
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11387,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w2397911846.html"
+        },
+        {
+          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: &lt;i&gt;lipid modification to reduce cardiovascular risk&lt;/i&gt;",
+          "year": "2019",
+          "cited_by_count": 8581,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w3183857127.html"
+        },
+        {
+          "title": "2015 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension",
+          "year": "2015",
+          "cited_by_count": 6926,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w2161370807.html"
+        }
+      ]
+    },
+    {
+      "label": "Randomized controlled trial",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+          "year": "2016",
+          "cited_by_count": 6474,
+          "topic": "Randomized controlled trial",
+          "url": "papers/https-openalex-org-w2509795914.html"
+        },
+        {
+          "title": "2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+          "year": "2016",
+          "cited_by_count": 6411,
+          "topic": "Randomized controlled trial",
+          "url": "papers/https-openalex-org-w3004050106.html"
+        },
+        {
+          "title": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2024",
+          "cited_by_count": 1995,
+          "topic": "Randomized controlled trial",
+          "url": "papers/https-openalex-org-w4402049769.html"
+        }
+      ]
+    },
+    {
+      "label": "Confidence interval",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Dabigatran versus Warfarin in Patients with Atrial Fibrillation",
+          "year": "2009",
+          "cited_by_count": 11130,
+          "topic": "Confidence interval",
+          "url": "papers/https-openalex-org-w2136489990.html"
+        }
+      ]
+    },
+    {
+      "label": "Hazard ratio",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Chronic Kidney Disease and the Risks of Death, Cardiovascular Events, and Hospitalization",
+          "year": "2004",
+          "cited_by_count": 11262,
+          "topic": "Hazard ratio",
+          "url": "papers/https-openalex-org-w2145632027.html"
+        }
+      ]
+    }
+  ]
+}
