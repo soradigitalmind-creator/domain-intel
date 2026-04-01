@@ -23,6 +23,14 @@
   gap: 10px;
 }
 
+.paperMeta,
+.paperSummary,
+.paperConcepts {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
 .childCard {
   padding: 16px 14px 18px;
   border: 1px solid rgba(17, 17, 17, 0.08);
@@ -45,13 +53,35 @@
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.paperGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 .childCard {
   display: grid;
   gap: 8px;
   min-height: 192px;
 }
 
+.paperCard {
+  display: grid;
+  gap: 12px;
+  padding: 16px 14px 18px;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.035);
+}
+
 .childTitle {
+  margin: 0;
+  font-size: 0.94rem;
+  letter-spacing: -0.03em;
+}
+
+.paperTitle {
   margin: 0;
   font-size: 0.94rem;
   letter-spacing: -0.03em;
@@ -66,4 +96,21 @@
   color: #5f7ee5;
   font-size: 0.9rem;
   line-height: 1.28;
+}
+
+.paperConfidence {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.paperTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.paperTitle a {
+  color: inherit;
 }

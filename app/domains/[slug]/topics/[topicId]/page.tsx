@@ -68,6 +68,37 @@ export default async function TopicPage({ params }: Props) {
           </div>
         </section>
       ) : null}
+
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Papers</h2>
+        <div className={styles.paperGrid}>
+          {detail.papers.map((paper) => (
+            <article key={paper.source_id} className={styles.paperCard}>
+              <div className={styles.paperTop}>
+                <div>
+                  <h3 className={styles.paperTitle}>
+                    <Link href={`/domains/${slug}/papers/${paper.source_id.split("/").pop() ?? paper.source_id}`}>
+                      {paper.title}
+                    </Link>
+                  </h3>
+                  <p className={styles.paperMeta}>
+                    {paper.year ?? "n/a"} / {paper.cited_by_count.toLocaleString()} cites
+                  </p>
+                </div>
+                {paper.assignment ? (
+                  <span className={styles.paperConfidence}>
+                    {Math.round(paper.assignment.confidence * 100)}%
+                  </span>
+                ) : null}
+              </div>
+              <p className={styles.paperSummary}>{paper.short_summary || "No summary available."}</p>
+              <p className={styles.paperConcepts}>
+                {paper.concepts.slice(0, 6).join(", ") || "No concept labels"}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
