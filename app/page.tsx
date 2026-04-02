@@ -33,9 +33,6 @@ export default async function HomePage() {
               <Link key={cat.slug} href={`/categories/${cat.slug}`} className={styles.categoryCard}>
                 <h3 className={styles.categoryLabel}>{cat.label}</h3>
                 <p className={styles.categoryDesc}>{cat.description}</p>
-                <span className={styles.categoryCount}>
-                  {cat.count.toLocaleString()} domain{cat.count === 1 ? "" : "s"}
-                </span>
               </Link>
             ))}
           </div>

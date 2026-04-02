@@ -23,8 +23,7 @@
   gap: 10px;
 }
 
-.paperMeta,
-.paperConcepts {
+.paperMeta {
   margin: 0;
   color: var(--muted);
   line-height: 1.55;
@@ -107,8 +106,4 @@
   justify-content: space-between;
   gap: 12px;
   align-items: flex-start;
-}
-
-.paperTitle a {
-  color: inherit;
 }

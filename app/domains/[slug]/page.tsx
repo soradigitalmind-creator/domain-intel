@@ -71,7 +71,7 @@ export default async function DomainPage({ params }: Props) {
             Topic atlas
           </Link>
           <Link href={`/domains/${slug}/papers`} className={styles.footerLink}>
-            Papers
+            Paper shelf
           </Link>
         </div>
       </section>

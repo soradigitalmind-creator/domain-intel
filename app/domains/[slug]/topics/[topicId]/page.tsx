@@ -82,17 +82,17 @@ export default async function TopicPage({ params }: Props) {
       ) : null}
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Papers</h2>
+        <h2 className={styles.sectionTitle}>Paper shelf</h2>
         <div className={styles.paperGrid}>
           {detail.papers.map((paper) => (
-            <article key={paper.source_id} className={styles.paperCard}>
+            <Link
+              key={paper.source_id}
+              href={`/domains/${slug}/papers/${paper.source_id.split("/").pop() ?? paper.source_id}`}
+              className={styles.paperCard}
+            >
               <div className={styles.paperTop}>
                 <div>
-                  <h3 className={styles.paperTitle}>
-                    <Link href={`/domains/${slug}/papers/${paper.source_id.split("/").pop() ?? paper.source_id}`}>
-                      {paper.title}
-                    </Link>
-                  </h3>
+                  <h3 className={styles.paperTitle}>{paper.title}</h3>
                   <p className={styles.paperMeta}>
                     {paper.year ?? "n/a"} / {paper.cited_by_count.toLocaleString()} cites
                   </p>
@@ -103,10 +103,7 @@ export default async function TopicPage({ params }: Props) {
                   </span>
                 ) : null}
               </div>
-              <p className={styles.paperConcepts}>
-                {paper.concepts.slice(0, 6).join(", ") || "No concept labels"}
-              </p>
-            </article>
+            </Link>
           ))}
         </div>
       </section>
