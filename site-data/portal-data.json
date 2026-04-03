@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-03T10:52:31.149865Z",
-  "total_domains": 1,
+  "updated_at": "2026-04-03T11:33:24.389427Z",
+  "total_domains": 2,
   "categories": [
     {
       "label": "Health",
@@ -18,8 +18,13 @@
       "label": "Earth",
       "slug": "earth",
       "description": "Includes climate, land, atmosphere, and planetary change.",
-      "count": 0,
-      "domains": []
+      "count": 1,
+      "domains": [
+        {
+          "slug": "water-resources",
+          "title": "Water Resources"
+        }
+      ]
     },
     {
       "label": "Engineering",
@@ -61,6 +66,31 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning clinical microbiology.",
       "updated_at": "2026-04-03T10:52:31.149865Z"
+    },
+    {
+      "slug": "water-resources",
+      "title": "Water Resources",
+      "sources": 424,
+      "effective_papers": 430,
+      "subgenres": 56,
+      "parent_subgenres": 10,
+      "child_subgenres": 46,
+      "entities": 981,
+      "claims": 3,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 424,
+        "total_papers": 424,
+        "facet_counts": {
+          "none": 424
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning water resource, water resource management and optimization.",
+      "updated_at": "2026-04-03T11:33:24.389427Z"
     }
   ]
 }
