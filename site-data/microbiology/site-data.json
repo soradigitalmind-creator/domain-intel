@@ -1,0 +1,1844 @@
+{
+  "slug": "microbiology",
+  "title": "Microbiology",
+  "updated_at": "2026-04-03T10:52:30.952106Z",
+  "snapshot": {
+    "papers": 479,
+    "topics": 4,
+    "subtopics": 38,
+    "entities": 1323,
+    "claims": 4
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 629,
+      "total_papers": 629,
+      "facet_counts": {
+        "none": 629
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning clinical microbiology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 38,
+    "max_depth": 2,
+    "leaf_topics": 38
+  },
+  "rising_topics": [
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/microbiology/topics/sg-evolutionary-biology",
+      "trend": "rising",
+      "year_total": 845007
+    },
+    {
+      "id": "sg-staphylococcus-aureus",
+      "label": "Staphylococcus aureus",
+      "url": "/domains/microbiology/topics/sg-staphylococcus-aureus",
+      "trend": "rising",
+      "year_total": 632899
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/microbiology/topics/sg-cell-biology",
+      "trend": "rising",
+      "year_total": 2795061
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/microbiology/topics/sg-evolutionary-biology",
+      "paper_count": 167,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "dna barcoding",
+        "evolution and genetic dynamics",
+        "evolutionary biology",
+        "healthy human microbiome"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-evolutionary-biology-phylogenetic-tree",
+          "label": "Phylogenetic tree",
+          "url": "/domains/microbiology/topics/sg-evolutionary-biology-phylogenetic-tree",
+          "paper_count": 72
+        },
+        {
+          "id": "sg-evolutionary-biology-sars-cov-2-lineage",
+          "label": "Sars-cov-2 lineage",
+          "url": "/domains/microbiology/topics/sg-evolutionary-biology-sars-cov-2-lineage",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-evolutionary-biology-ribosomal-rna",
+          "label": "Ribosomal rna",
+          "url": "/domains/microbiology/topics/sg-evolutionary-biology-ribosomal-rna",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-evolutionary-biology-dna-sequencing",
+          "label": "Dna sequencing",
+          "url": "/domains/microbiology/topics/sg-evolutionary-biology-dna-sequencing",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-evolutionary-biology-genetic-associations-epidemiology",
+          "label": "Genetic associations epidemiology",
+          "url": "/domains/microbiology/topics/sg-evolutionary-biology-genetic-associations-epidemiology",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-evolutionary-biology-phylogenetic-diversity",
+          "label": "Phylogenetic diversity",
+          "url": "/domains/microbiology/topics/sg-evolutionary-biology-phylogenetic-diversity",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-staphylococcus-aureus",
+      "label": "Staphylococcus aureus",
+      "url": "/domains/microbiology/topics/sg-staphylococcus-aureus",
+      "paper_count": 146,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "america treatment of methicillin-resistant",
+        "antimicrobial resistance in staphylococcus",
+        "leukocidin--producing staphylococcus aureus",
+        "methicillin-resistant staphylococcus aureus"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-staphylococcus-aureus-methicillin-resistant-staphylococcus",
+          "label": "Methicillin-resistant staphylococcus",
+          "url": "/domains/microbiology/topics/sg-staphylococcus-aureus-methicillin-resistant-staphylococcus",
+          "paper_count": 45
+        },
+        {
+          "id": "sg-staphylococcus-aureus-bacterial-identification-susceptibility-testing",
+          "label": "Bacterial identification susceptibility testing",
+          "url": "/domains/microbiology/topics/sg-staphylococcus-aureus-bacterial-identification-susceptibility-testing",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-staphylococcus-aureus-relative-risk",
+          "label": "Relative risk",
+          "url": "/domains/microbiology/topics/sg-staphylococcus-aureus-relative-risk",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-staphylococcus-aureus-pseudomonas-aeruginosa",
+          "label": "Pseudomonas aeruginosa",
+          "url": "/domains/microbiology/topics/sg-staphylococcus-aureus-pseudomonas-aeruginosa",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-staphylococcus-aureus-polymerase-chain-reaction",
+          "label": "Polymerase chain reaction",
+          "url": "/domains/microbiology/topics/sg-staphylococcus-aureus-polymerase-chain-reaction",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-staphylococcus-aureus-enterococcus-faecium",
+          "label": "Enterococcus faecium",
+          "url": "/domains/microbiology/topics/sg-staphylococcus-aureus-enterococcus-faecium",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/microbiology/topics/sg-cell-biology",
+      "paper_count": 89,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "entities: cell, of the, gene",
+      "tags": [
+        "cell biology",
+        "cell wall",
+        "dna repair",
+        "mesenchymal stem cell"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cell-biology-stem-cell",
+          "label": "Stem cell",
+          "url": "/domains/microbiology/topics/sg-cell-biology-stem-cell",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-cell-biology-bacterial-cell-structure",
+          "label": "Bacterial cell structure",
+          "url": "/domains/microbiology/topics/sg-cell-biology-bacterial-cell-structure",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-cell-biology-reactive-oxygen-species",
+          "label": "Reactive oxygen species",
+          "url": "/domains/microbiology/topics/sg-cell-biology-reactive-oxygen-species",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cell-biology-cell-wall",
+          "label": "Cell wall",
+          "url": "/domains/microbiology/topics/sg-cell-biology-cell-wall",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cell-biology-heterologous-expression",
+          "label": "Heterologous expression",
+          "url": "/domains/microbiology/topics/sg-cell-biology-heterologous-expression",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cell-biology-signal-transduction",
+          "label": "Signal transduction",
+          "url": "/domains/microbiology/topics/sg-cell-biology-signal-transduction",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2034269086",
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28393,
+          "url": "/domains/microbiology/papers/W2034269086"
+        },
+        {
+          "source_id": "https://openalex.org/W4391649568",
+          "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+          "year": "2024",
+          "cited_by_count": 3144,
+          "url": "/domains/microbiology/papers/W4391649568"
+        },
+        {
+          "source_id": "https://openalex.org/W2116137883",
+          "title": "One-step inactivation of chromosomal genes in <i>Escherichia coli</i> K-12 using PCR products",
+          "year": "2000",
+          "cited_by_count": 15054,
+          "url": "/domains/microbiology/papers/W2116137883"
+        }
+      ]
+    },
+    {
+      "id": "sg-microbial-community",
+      "label": "Microbial community",
+      "url": "/domains/microbiology/topics/sg-microbial-community",
+      "paper_count": 77,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: of the, gene, genetic",
+      "tags": [
+        "community structure",
+        "gut microbial community",
+        "microbial community",
+        "microbial community ecology and physiology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-microbial-community-human-microbiome",
+          "label": "Human microbiome",
+          "url": "/domains/microbiology/topics/sg-microbial-community-human-microbiome",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-microbial-community-data-mining",
+          "label": "Data mining",
+          "url": "/domains/microbiology/topics/sg-microbial-community-data-mining",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-microbial-community-microbial-ecology",
+          "label": "Microbial ecology",
+          "url": "/domains/microbiology/topics/sg-microbial-community-microbial-ecology",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-microbial-community-community-structure",
+          "label": "Community structure",
+          "url": "/domains/microbiology/topics/sg-microbial-community-community-structure",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-microbial-community-fecal-bacteriotherapy",
+          "label": "Fecal bacteriotherapy",
+          "url": "/domains/microbiology/topics/sg-microbial-community-fecal-bacteriotherapy",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-microbial-community-spurious-relationship",
+          "label": "Spurious relationship",
+          "url": "/domains/microbiology/topics/sg-microbial-community-spurious-relationship",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2131271579",
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68022,
+          "url": "/domains/microbiology/papers/W2131271579"
+        },
+        {
+          "source_id": "https://openalex.org/W2158217645",
+          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+          "year": "2008",
+          "cited_by_count": 37132,
+          "url": "/domains/microbiology/papers/W2158217645"
+        },
+        {
+          "source_id": "https://openalex.org/W2963276645",
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 22996,
+          "url": "/domains/microbiology/papers/W2963276645"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 12,
+      "papers": [
+        {
+          "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+          "year": "2011",
+          "cited_by_count": 34835,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2036897871.html"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 22996,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        },
+        {
+          "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+          "year": "2016",
+          "cited_by_count": 27045,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2280404143.html"
+        },
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19184,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 14173,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2125065061.html"
+        },
+        {
+          "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+          "year": "2014",
+          "cited_by_count": 12002,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2163710303.html"
+        }
+      ]
+    },
+    {
+      "label": "Evolutionary biology",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+          "year": "2013",
+          "cited_by_count": 47717,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2152207030.html"
+        },
+        {
+          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+          "year": "2021",
+          "cited_by_count": 20975,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w4251751280.html"
+        },
+        {
+          "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+          "year": "1985",
+          "cited_by_count": 41186,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2030966943.html"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24459,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2168909179.html"
+        },
+        {
+          "title": "Detecting the number of clusters of individuals using the software &lt;scp&gt;structure&lt;/scp&gt;: a simulation study",
+          "year": "2005",
+          "cited_by_count": 21891,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2161339576.html"
+        },
+        {
+          "title": "Canu: scalable and accurate long-read assembly via adaptive &lt;i&gt;k&lt;/i&gt; -mer weighting and repeat separation",
+          "year": "2017",
+          "cited_by_count": 8038,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2950354111.html"
+        }
+      ]
+    },
+    {
+      "label": "Phylogenetic tree",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68022,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w2131271579.html"
+        },
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31212,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+          "year": "2013",
+          "cited_by_count": 28168,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w2138207763.html"
+        },
+        {
+          "title": "WGCNA: an R package for weighted correlation network analysis",
+          "year": "2008",
+          "cited_by_count": 28366,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w1966327575.html"
+        },
+        {
+          "title": "Minimap2: pairwise alignment for nucleotide sequences",
+          "year": "2018",
+          "cited_by_count": 16102,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w2789843538.html"
+        },
+        {
+          "title": "FastTree 2 – Approximately Maximum-Likelihood Trees for Large Alignments",
+          "year": "2010",
+          "cited_by_count": 15591,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w2031611770.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell biology",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28393,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        },
+        {
+          "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+          "year": "2024",
+          "cited_by_count": 3144,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w4391649568.html"
+        },
+        {
+          "title": "One-step inactivation of chromosomal genes in &lt;i&gt;Escherichia coli&lt;/i&gt; K-12 using PCR products",
+          "year": "2000",
+          "cited_by_count": 15054,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2116137883.html"
+        }
+      ]
+    },
+    {
+      "label": "Data mining",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+          "year": "2008",
+          "cited_by_count": 37132,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2158217645.html"
+        },
+        {
+          "title": "The variant call format and VCFtools",
+          "year": "2011",
+          "cited_by_count": 17284,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2149992227.html"
+        }
+      ]
+    },
+    {
+      "label": "Dna sequencing",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments",
+          "year": "2009",
+          "cited_by_count": 15794,
+          "topic": "Dna sequencing",
+          "url": "papers/https-openalex-org-w2168420558.html"
+        },
+        {
+          "title": "Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads",
+          "year": "2017",
+          "cited_by_count": 8431,
+          "topic": "Dna sequencing",
+          "url": "papers/https-openalex-org-w2952167528.html"
+        }
+      ]
+    },
+    {
+      "label": "Microbial community",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "UCHIME improves sensitivity and speed of chimera detection",
+          "year": "2011",
+          "cited_by_count": 15368,
+          "topic": "Microbial community",
+          "url": "papers/https-openalex-org-w2136879569.html"
+        },
+        {
+          "title": "Structure, function and diversity of the healthy human microbiome",
+          "year": "2012",
+          "cited_by_count": 11758,
+          "topic": "Microbial community",
+          "url": "papers/https-openalex-org-w2128769815.html"
+        }
+      ]
+    },
+    {
+      "label": "Nf-κb signaling pathways",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "International Journal of Current Microbiology and Applied Sciences",
+          "year": "2026",
+          "cited_by_count": 2914,
+          "topic": "Nf-κb signaling pathways",
+          "url": "papers/https-openalex-org-w1797125039.html"
+        },
+        {
+          "title": "Antibiotic Susceptibility Testing by a Standardized Single Disk Method",
+          "year": "1966",
+          "cited_by_count": 18298,
+          "topic": "Nf-κb signaling pathways",
+          "url": "papers/https-openalex-org-w2136931384.html"
+        }
+      ]
+    },
+    {
+      "label": "Cancer-related molecular pathways",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 28988,
+          "topic": "Cancer-related molecular pathways",
+          "url": "papers/https-openalex-org-w3009885589.html"
+        }
+      ]
+    },
+    {
+      "label": "Staphylococcus aureus",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Manual of Clinical Microbiology.",
+          "year": "1980",
+          "cited_by_count": 14477,
+          "topic": "Staphylococcus aureus",
+          "url": "papers/https-openalex-org-w2166785990.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68022,
+      "adjusted_cited_by_count": 19636.26,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2152207030",
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+      "year": 2013,
+      "cited_by_count": 47717,
+      "adjusted_cited_by_count": 13234.31,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2152207030"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 28988,
+      "adjusted_cited_by_count": 11834.3,
+      "primary_topic_id": "sg-cell-biology-cancer-related-molecular-pathways",
+      "primary_topic_label": "Cancer-related molecular pathways",
+      "url": "/domains/microbiology/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31212,
+      "adjusted_cited_by_count": 9410.77,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W4251751280",
+      "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+      "year": 2021,
+      "cited_by_count": 20975,
+      "adjusted_cited_by_count": 9380.31,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W4251751280"
+    },
+    {
+      "source_id": "https://openalex.org/W2036897871",
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "year": 2011,
+      "cited_by_count": 34835,
+      "adjusted_cited_by_count": 8994.36,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2036897871"
+    },
+    {
+      "source_id": "https://openalex.org/W2158217645",
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "year": 2008,
+      "cited_by_count": 37132,
+      "adjusted_cited_by_count": 8752.1,
+      "primary_topic_id": "sg-microbial-community-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/microbiology/papers/W2158217645"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 22996,
+      "adjusted_cited_by_count": 8691.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27045,
+      "adjusted_cited_by_count": 8552.38,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28168,
+      "adjusted_cited_by_count": 7812.4,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28366,
+      "adjusted_cited_by_count": 6685.93,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2030966943",
+      "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+      "year": 1985,
+      "cited_by_count": 41186,
+      "adjusted_cited_by_count": 6432.17,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2030966943"
+    },
+    {
+      "source_id": "https://openalex.org/W2789843538",
+      "title": "Minimap2: pairwise alignment for nucleotide sequences",
+      "year": 2018,
+      "cited_by_count": 16102,
+      "adjusted_cited_by_count": 5692.92,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W2789843538"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28393,
+      "adjusted_cited_by_count": 5568.33,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/microbiology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19184,
+      "adjusted_cited_by_count": 5127.14,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24459,
+      "adjusted_cited_by_count": 4891.8,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2161339576",
+      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+      "year": 2005,
+      "cited_by_count": 21891,
+      "adjusted_cited_by_count": 4777.01,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2161339576"
+    },
+    {
+      "source_id": "https://openalex.org/W2149992227",
+      "title": "The variant call format and VCFtools",
+      "year": 2011,
+      "cited_by_count": 17284,
+      "adjusted_cited_by_count": 4462.71,
+      "primary_topic_id": "sg-microbial-community-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/microbiology/papers/W2149992227"
+    },
+    {
+      "source_id": "https://openalex.org/W2136879569",
+      "title": "UCHIME improves sensitivity and speed of chimera detection",
+      "year": 2011,
+      "cited_by_count": 15368,
+      "adjusted_cited_by_count": 3968.0,
+      "primary_topic_id": "sg-microbial-community",
+      "primary_topic_label": "Microbial community",
+      "url": "/domains/microbiology/papers/W2136879569"
+    },
+    {
+      "source_id": "https://openalex.org/W2031611770",
+      "title": "FastTree 2 – Approximately Maximum-Likelihood Trees for Large Alignments",
+      "year": 2010,
+      "cited_by_count": 15591,
+      "adjusted_cited_by_count": 3897.75,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W2031611770"
+    },
+    {
+      "source_id": "https://openalex.org/W2168420558",
+      "title": "The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments",
+      "year": 2009,
+      "cited_by_count": 15794,
+      "adjusted_cited_by_count": 3830.61,
+      "primary_topic_id": "sg-evolutionary-biology-dna-sequencing",
+      "primary_topic_label": "Dna sequencing",
+      "url": "/domains/microbiology/papers/W2168420558"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14173,
+      "adjusted_cited_by_count": 3787.89,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12002,
+      "adjusted_cited_by_count": 3464.68,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2513506562",
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "year": 2016,
+      "cited_by_count": 10675,
+      "adjusted_cited_by_count": 3375.73,
+      "primary_topic_id": "sg-evolutionary-biology-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/microbiology/papers/W2513506562"
+    },
+    {
+      "source_id": "https://openalex.org/W3009906937",
+      "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+      "year": 2020,
+      "cited_by_count": 7703,
+      "adjusted_cited_by_count": 3144.74,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W3009906937"
+    },
+    {
+      "source_id": "https://openalex.org/W4391649568",
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "year": 2024,
+      "cited_by_count": 3144,
+      "adjusted_cited_by_count": 3144.0,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/microbiology/papers/W4391649568"
+    },
+    {
+      "source_id": "https://openalex.org/W2128769815",
+      "title": "Structure, function and diversity of the healthy human microbiome",
+      "year": 2012,
+      "cited_by_count": 11758,
+      "adjusted_cited_by_count": 3142.46,
+      "primary_topic_id": "sg-microbial-community",
+      "primary_topic_label": "Microbial community",
+      "url": "/domains/microbiology/papers/W2128769815"
+    },
+    {
+      "source_id": "https://openalex.org/W2116137883",
+      "title": "One-step inactivation of chromosomal genes in <i>Escherichia coli</i> K-12 using PCR products",
+      "year": 2000,
+      "cited_by_count": 15054,
+      "adjusted_cited_by_count": 2952.33,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/microbiology/papers/W2116137883"
+    },
+    {
+      "source_id": "https://openalex.org/W1797125039",
+      "title": "International Journal of Current Microbiology and Applied Sciences",
+      "year": 2026,
+      "cited_by_count": 2914,
+      "adjusted_cited_by_count": 2914.0,
+      "primary_topic_id": "sg-cell-biology-nf-b-signaling-pathways",
+      "primary_topic_label": "Nf-κb signaling pathways",
+      "url": "/domains/microbiology/papers/W1797125039"
+    },
+    {
+      "source_id": "https://openalex.org/W2125826054",
+      "title": "A human gut microbial gene catalogue established by metagenomic sequencing",
+      "year": 2010,
+      "cited_by_count": 11506,
+      "adjusted_cited_by_count": 2876.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2125826054"
+    },
+    {
+      "source_id": "https://openalex.org/W2952167528",
+      "title": "Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads",
+      "year": 2017,
+      "cited_by_count": 8431,
+      "adjusted_cited_by_count": 2810.33,
+      "primary_topic_id": "sg-evolutionary-biology-dna-sequencing",
+      "primary_topic_label": "Dna sequencing",
+      "url": "/domains/microbiology/papers/W2952167528"
+    },
+    {
+      "source_id": "https://openalex.org/W2167062509",
+      "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+      "year": 2006,
+      "cited_by_count": 12279,
+      "adjusted_cited_by_count": 2745.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2167062509"
+    },
+    {
+      "source_id": "https://openalex.org/W2950354111",
+      "title": "Canu: scalable and accurate long-read assembly via adaptive <i>k</i> -mer weighting and repeat separation",
+      "year": 2017,
+      "cited_by_count": 8038,
+      "adjusted_cited_by_count": 2679.33,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2950354111"
+    },
+    {
+      "source_id": "https://openalex.org/W2136931384",
+      "title": "Antibiotic Susceptibility Testing by a Standardized Single Disk Method",
+      "year": 1966,
+      "cited_by_count": 18298,
+      "adjusted_cited_by_count": 2362.26,
+      "primary_topic_id": "sg-cell-biology-nf-b-signaling-pathways",
+      "primary_topic_label": "Nf-κb signaling pathways",
+      "url": "/domains/microbiology/papers/W2136931384"
+    },
+    {
+      "source_id": "https://openalex.org/W2115701239",
+      "title": "Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies",
+      "year": 2012,
+      "cited_by_count": 8749,
+      "adjusted_cited_by_count": 2338.27,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2115701239"
+    },
+    {
+      "source_id": "https://openalex.org/W2096791516",
+      "title": "An integrated map of genetic variation from 1,092 human genomes",
+      "year": 2012,
+      "cited_by_count": 8186,
+      "adjusted_cited_by_count": 2187.8,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/microbiology/papers/W2096791516"
+    },
+    {
+      "source_id": "https://openalex.org/W2166785990",
+      "title": "Manual of Clinical Microbiology.",
+      "year": 1980,
+      "cited_by_count": 14477,
+      "adjusted_cited_by_count": 2134.52,
+      "primary_topic_id": "sg-staphylococcus-aureus",
+      "primary_topic_label": "Staphylococcus aureus",
+      "url": "/domains/microbiology/papers/W2166785990"
+    },
+    {
+      "source_id": "https://openalex.org/W3119952098",
+      "title": "Natural products in drug discovery: advances and opportunities",
+      "year": 2021,
+      "cited_by_count": 4725,
+      "adjusted_cited_by_count": 2113.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W3119952098"
+    },
+    {
+      "source_id": "https://openalex.org/W3202964273",
+      "title": "Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021",
+      "year": 2021,
+      "cited_by_count": 4706,
+      "adjusted_cited_by_count": 2104.59,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W3202964273"
+    },
+    {
+      "source_id": "https://openalex.org/W2903899730",
+      "title": "Origin and evolution of pathogenic coronaviruses",
+      "year": 2018,
+      "cited_by_count": 5809,
+      "adjusted_cited_by_count": 2053.79,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/microbiology/papers/W2903899730"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68022,
+      "adjusted_cited_by_count": 19636.26,
+      "url": "/domains/microbiology/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2152207030",
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+      "year": 2013,
+      "cited_by_count": 47717,
+      "adjusted_cited_by_count": 13234.31,
+      "url": "/domains/microbiology/papers/W2152207030"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 28988,
+      "adjusted_cited_by_count": 11834.3,
+      "url": "/domains/microbiology/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31212,
+      "adjusted_cited_by_count": 9410.77,
+      "url": "/domains/microbiology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W4251751280",
+      "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+      "year": 2021,
+      "cited_by_count": 20975,
+      "adjusted_cited_by_count": 9380.31,
+      "url": "/domains/microbiology/papers/W4251751280"
+    },
+    {
+      "source_id": "https://openalex.org/W2036897871",
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "year": 2011,
+      "cited_by_count": 34835,
+      "adjusted_cited_by_count": 8994.36,
+      "url": "/domains/microbiology/papers/W2036897871"
+    },
+    {
+      "source_id": "https://openalex.org/W2158217645",
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "year": 2008,
+      "cited_by_count": 37132,
+      "adjusted_cited_by_count": 8752.1,
+      "url": "/domains/microbiology/papers/W2158217645"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 22996,
+      "adjusted_cited_by_count": 8691.67,
+      "url": "/domains/microbiology/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27045,
+      "adjusted_cited_by_count": 8552.38,
+      "url": "/domains/microbiology/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28168,
+      "adjusted_cited_by_count": 7812.4,
+      "url": "/domains/microbiology/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28366,
+      "adjusted_cited_by_count": 6685.93,
+      "url": "/domains/microbiology/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2030966943",
+      "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+      "year": 1985,
+      "cited_by_count": 41186,
+      "adjusted_cited_by_count": 6432.17,
+      "url": "/domains/microbiology/papers/W2030966943"
+    },
+    {
+      "source_id": "https://openalex.org/W2789843538",
+      "title": "Minimap2: pairwise alignment for nucleotide sequences",
+      "year": 2018,
+      "cited_by_count": 16102,
+      "adjusted_cited_by_count": 5692.92,
+      "url": "/domains/microbiology/papers/W2789843538"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28393,
+      "adjusted_cited_by_count": 5568.33,
+      "url": "/domains/microbiology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19184,
+      "adjusted_cited_by_count": 5127.14,
+      "url": "/domains/microbiology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24459,
+      "adjusted_cited_by_count": 4891.8,
+      "url": "/domains/microbiology/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2161339576",
+      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+      "year": 2005,
+      "cited_by_count": 21891,
+      "adjusted_cited_by_count": 4777.01,
+      "url": "/domains/microbiology/papers/W2161339576"
+    },
+    {
+      "source_id": "https://openalex.org/W2149992227",
+      "title": "The variant call format and VCFtools",
+      "year": 2011,
+      "cited_by_count": 17284,
+      "adjusted_cited_by_count": 4462.71,
+      "url": "/domains/microbiology/papers/W2149992227"
+    },
+    {
+      "source_id": "https://openalex.org/W2136879569",
+      "title": "UCHIME improves sensitivity and speed of chimera detection",
+      "year": 2011,
+      "cited_by_count": 15368,
+      "adjusted_cited_by_count": 3968.0,
+      "url": "/domains/microbiology/papers/W2136879569"
+    },
+    {
+      "source_id": "https://openalex.org/W2031611770",
+      "title": "FastTree 2 – Approximately Maximum-Likelihood Trees for Large Alignments",
+      "year": 2010,
+      "cited_by_count": 15591,
+      "adjusted_cited_by_count": 3897.75,
+      "url": "/domains/microbiology/papers/W2031611770"
+    },
+    {
+      "source_id": "https://openalex.org/W2168420558",
+      "title": "The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments",
+      "year": 2009,
+      "cited_by_count": 15794,
+      "adjusted_cited_by_count": 3830.61,
+      "url": "/domains/microbiology/papers/W2168420558"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14173,
+      "adjusted_cited_by_count": 3787.89,
+      "url": "/domains/microbiology/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12002,
+      "adjusted_cited_by_count": 3464.68,
+      "url": "/domains/microbiology/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2513506562",
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "year": 2016,
+      "cited_by_count": 10675,
+      "adjusted_cited_by_count": 3375.73,
+      "url": "/domains/microbiology/papers/W2513506562"
+    },
+    {
+      "source_id": "https://openalex.org/W3009906937",
+      "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+      "year": 2020,
+      "cited_by_count": 7703,
+      "adjusted_cited_by_count": 3144.74,
+      "url": "/domains/microbiology/papers/W3009906937"
+    },
+    {
+      "source_id": "https://openalex.org/W4391649568",
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "year": 2024,
+      "cited_by_count": 3144,
+      "adjusted_cited_by_count": 3144.0,
+      "url": "/domains/microbiology/papers/W4391649568"
+    },
+    {
+      "source_id": "https://openalex.org/W2128769815",
+      "title": "Structure, function and diversity of the healthy human microbiome",
+      "year": 2012,
+      "cited_by_count": 11758,
+      "adjusted_cited_by_count": 3142.46,
+      "url": "/domains/microbiology/papers/W2128769815"
+    },
+    {
+      "source_id": "https://openalex.org/W2116137883",
+      "title": "One-step inactivation of chromosomal genes in <i>Escherichia coli</i> K-12 using PCR products",
+      "year": 2000,
+      "cited_by_count": 15054,
+      "adjusted_cited_by_count": 2952.33,
+      "url": "/domains/microbiology/papers/W2116137883"
+    },
+    {
+      "source_id": "https://openalex.org/W1797125039",
+      "title": "International Journal of Current Microbiology and Applied Sciences",
+      "year": 2026,
+      "cited_by_count": 2914,
+      "adjusted_cited_by_count": 2914.0,
+      "url": "/domains/microbiology/papers/W1797125039"
+    },
+    {
+      "source_id": "https://openalex.org/W2125826054",
+      "title": "A human gut microbial gene catalogue established by metagenomic sequencing",
+      "year": 2010,
+      "cited_by_count": 11506,
+      "adjusted_cited_by_count": 2876.5,
+      "url": "/domains/microbiology/papers/W2125826054"
+    },
+    {
+      "source_id": "https://openalex.org/W2952167528",
+      "title": "Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads",
+      "year": 2017,
+      "cited_by_count": 8431,
+      "adjusted_cited_by_count": 2810.33,
+      "url": "/domains/microbiology/papers/W2952167528"
+    },
+    {
+      "source_id": "https://openalex.org/W2167062509",
+      "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+      "year": 2006,
+      "cited_by_count": 12279,
+      "adjusted_cited_by_count": 2745.67,
+      "url": "/domains/microbiology/papers/W2167062509"
+    },
+    {
+      "source_id": "https://openalex.org/W2950354111",
+      "title": "Canu: scalable and accurate long-read assembly via adaptive <i>k</i> -mer weighting and repeat separation",
+      "year": 2017,
+      "cited_by_count": 8038,
+      "adjusted_cited_by_count": 2679.33,
+      "url": "/domains/microbiology/papers/W2950354111"
+    },
+    {
+      "source_id": "https://openalex.org/W2136931384",
+      "title": "Antibiotic Susceptibility Testing by a Standardized Single Disk Method",
+      "year": 1966,
+      "cited_by_count": 18298,
+      "adjusted_cited_by_count": 2362.26,
+      "url": "/domains/microbiology/papers/W2136931384"
+    },
+    {
+      "source_id": "https://openalex.org/W2115701239",
+      "title": "Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies",
+      "year": 2012,
+      "cited_by_count": 8749,
+      "adjusted_cited_by_count": 2338.27,
+      "url": "/domains/microbiology/papers/W2115701239"
+    },
+    {
+      "source_id": "https://openalex.org/W2096791516",
+      "title": "An integrated map of genetic variation from 1,092 human genomes",
+      "year": 2012,
+      "cited_by_count": 8186,
+      "adjusted_cited_by_count": 2187.8,
+      "url": "/domains/microbiology/papers/W2096791516"
+    },
+    {
+      "source_id": "https://openalex.org/W2166785990",
+      "title": "Manual of Clinical Microbiology.",
+      "year": 1980,
+      "cited_by_count": 14477,
+      "adjusted_cited_by_count": 2134.52,
+      "url": "/domains/microbiology/papers/W2166785990"
+    },
+    {
+      "source_id": "https://openalex.org/W3119952098",
+      "title": "Natural products in drug discovery: advances and opportunities",
+      "year": 2021,
+      "cited_by_count": 4725,
+      "adjusted_cited_by_count": 2113.08,
+      "url": "/domains/microbiology/papers/W3119952098"
+    },
+    {
+      "source_id": "https://openalex.org/W3202964273",
+      "title": "Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021",
+      "year": 2021,
+      "cited_by_count": 4706,
+      "adjusted_cited_by_count": 2104.59,
+      "url": "/domains/microbiology/papers/W3202964273"
+    },
+    {
+      "source_id": "https://openalex.org/W2903899730",
+      "title": "Origin and evolution of pathogenic coronaviruses",
+      "year": 2018,
+      "cited_by_count": 5809,
+      "adjusted_cited_by_count": 2053.79,
+      "url": "/domains/microbiology/papers/W2903899730"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 306
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 282
+    },
+    {
+      "label": "genetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 245
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 226
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 215
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 196
+    },
+    {
+      "label": "microbiology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 191
+    },
+    {
+      "label": "bacteria",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 185
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 177
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "rna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "microbial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "infection",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 117
+    },
+    {
+      "label": "genome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 114
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 109
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 107
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 99
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 98
+    },
+    {
+      "label": "sequence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 98
+    },
+    {
+      "label": "infectious",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 96
+    },
+    {
+      "label": "cause",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "pathology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "vectored covid",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 2
+    },
+    {
+      "label": "antibiotic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 82
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 78
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 77
+    },
+    {
+      "label": "virus",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 73
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 77
+    },
+    {
+      "label": "community",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 71
+    },
+    {
+      "label": "by the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 66
+    },
+    {
+      "label": "biochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 65
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 65
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 64
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 64
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 63
+    },
+    {
+      "label": "coronavirus",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9871,
+      "evidence_count": 62
+    },
+    {
+      "label": "guideline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 62
+    },
+    {
+      "label": "factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 59
+    },
+    {
+      "label": "molecular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 59
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 59
+    },
+    {
+      "label": "analysis of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 58
+    },
+    {
+      "label": "group",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 58
+    },
+    {
+      "label": "host",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 58
+    },
+    {
+      "label": "sequencing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 55
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 55
+    },
+    {
+      "label": "resistance",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9862,
+      "evidence_count": 54
+    },
+    {
+      "label": "patients with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 53
+    }
+  ],
+  "topic_year_counts": {
+    "cell biology": {
+      "2023": 300141,
+      "2024": 275604,
+      "2025": 252041,
+      "2022": 209347,
+      "2021": 195842,
+      "2020": 184311,
+      "2019": 153986,
+      "2018": 138100,
+      "2017": 125966,
+      "2016": 113072,
+      "2015": 104417,
+      "2014": 98885,
+      "2013": 91569,
+      "2012": 82386,
+      "2011": 69054,
+      "2026": 59969,
+      "2010": 56751,
+      "2009": 47363,
+      "2008": 41485,
+      "2007": 35665,
+      "2006": 31239,
+      "2005": 27867,
+      "2004": 24912,
+      "2003": 21461,
+      "2002": 19101,
+      "2001": 17469,
+      "2000": 17058
+    },
+    "microbial community": {
+      "2025": 100331,
+      "2024": 91307,
+      "2023": 90702,
+      "2022": 64410,
+      "2021": 57718,
+      "2020": 51763,
+      "2019": 41072,
+      "2018": 35382,
+      "2017": 31207,
+      "2016": 27052,
+      "2026": 25506,
+      "2015": 23521,
+      "2014": 21441,
+      "2013": 18409,
+      "2012": 16030,
+      "2011": 12855,
+      "2010": 10703,
+      "2009": 9024,
+      "2008": 7831,
+      "2007": 6566,
+      "2006": 6470,
+      "2005": 5004,
+      "2004": 4056,
+      "2003": 3727,
+      "2000": 3230,
+      "2002": 3032,
+      "2001": 2696
+    },
+    "staphylococcus aureus": {
+      "2023": 63092,
+      "2025": 61024,
+      "2024": 60780,
+      "2022": 46377,
+      "2021": 43211,
+      "2020": 40505,
+      "2019": 33861,
+      "2018": 30307,
+      "2017": 27812,
+      "2016": 25092,
+      "2015": 22900,
+      "2014": 22467,
+      "2013": 20550,
+      "2012": 18592,
+      "2011": 16018,
+      "2010": 14084,
+      "2026": 13841,
+      "2009": 12481,
+      "2008": 11100,
+      "2007": 8956,
+      "2006": 7981,
+      "2005": 7158,
+      "2004": 6323,
+      "2003": 5880,
+      "2002": 4409,
+      "2001": 4098,
+      "2000": 4000
+    },
+    "evolutionary biology": {
+      "2023": 87941,
+      "2024": 80361,
+      "2025": 75673,
+      "2022": 59562,
+      "2021": 57693,
+      "2020": 55404,
+      "2019": 46433,
+      "2018": 42373,
+      "2017": 39714,
+      "2016": 35563,
+      "2015": 33277,
+      "2014": 31682,
+      "2013": 28876,
+      "2012": 25664,
+      "2011": 21927,
+      "2026": 18593,
+      "2010": 18412,
+      "2009": 15741,
+      "2008": 13556,
+      "2007": 11498,
+      "2006": 9769,
+      "2005": 7920,
+      "2004": 7237,
+      "2003": 5938,
+      "2002": 5123,
+      "2001": 4585,
+      "2000": 4492
+    }
+  }
+}
