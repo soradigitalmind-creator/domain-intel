@@ -5,17 +5,17 @@
 }
 .hero, .section { margin-top: 24px; }
 .eyebrow { margin: 0 0 8px; color: var(--muted); font-size: .76rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-.title { margin: 0; font-size: clamp(2.9rem,7vw,5rem); line-height: .98; letter-spacing: -.05em; }
-.copy, .paperMeta, .archiveMeta { margin: 0; color: var(--muted); line-height: 1.5; font-size: 1rem; }
+.title { margin: 0; font-size: clamp(2.4rem,5vw,4.6rem); line-height: .96; letter-spacing: -.06em; }
+.copy, .paperMeta, .archiveMeta { margin: 0; color: var(--muted); line-height: 1.7; }
 .sectionTitle { margin: 0 0 12px; font-size: 1.04rem; letter-spacing: -.03em; }
 .shelfGrid, .paperList, .archiveList { display: grid; gap: 12px; }
 .shelfGrid { grid-template-columns: repeat(auto-fit, minmax(320px,1fr)); }
 .shelfCard, .archiveRow {
-  padding: 22px; border: 1px solid rgba(17,17,17,.08); border-radius: 22px; background: rgba(255,255,255,.82); box-shadow: 0 18px 42px rgba(0,0,0,.04);
+  padding: 18px; border: 1px solid rgba(17,17,17,.08); border-radius: 22px; background: rgba(255,255,255,.82); box-shadow: 0 12px 32px rgba(17,17,17,.05);
 }
 .shelfCard { display: grid; gap: 12px; }
 .shelfTop, .archiveRow { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
-.shelfTitle { margin: 0; font-size: 1.55rem; letter-spacing: -.04em; }
+.shelfTitle { margin: 0; font-size: 1rem; letter-spacing: -.03em; }
 .inlineLink { padding: 10px 14px; border-radius: 999px; background: #111; color: #fff; font-size: .82rem; font-weight: 800; }
-.paperLink { display: flex; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 14px; background: rgba(245,245,243,.95); font-size: .95rem; }
-.archiveTitle { font-size: 1.55rem; font-weight: 800; letter-spacing: -.04em; }
+.paperLink { display: flex; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 14px; background: rgba(245,245,243,.95); font-size: .88rem; }
+.archiveTitle { font-size: .98rem; font-weight: 800; letter-spacing: -.02em; }
