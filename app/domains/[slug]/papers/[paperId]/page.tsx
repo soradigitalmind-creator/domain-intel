@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPaperDetail, listPaperStaticParams } from "../../../../../lib/workplace";
 import styles from "./page.module.css";
@@ -44,16 +43,17 @@ export default async function PaperPage({ params }: Props) {
         <p className={styles.meta}>
           {detail.paper.year ?? "n/a"} / {detail.paper.cited_by_count.toLocaleString()} citations / adjusted {detail.paper.adjusted_cited_by_count.toFixed(2)}
         </p>
-        <p className={styles.summary}>{detail.paper.short_summary || "No summary available."}</p>
         <div className={styles.linkRow}>
           <a href={detail.paper.url} target="_blank" rel="noreferrer" className={styles.primaryLink}>
             Open source
           </a>
-          {detail.paper.doi ? (
-            <a href={detail.paper.doi} target="_blank" rel="noreferrer" className={styles.secondaryLink}>
-              DOI
-            </a>
-          ) : null}
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Abstract</h2>
+        <div className={styles.infoCard}>
+          <p className={styles.summary}>{detail.paper.short_summary || "No summary available."}</p>
         </div>
       </section>
 

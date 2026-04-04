@@ -81,7 +81,7 @@ export default async function TopicPage({ params }: Props) {
         </section>
       ) : null}
 
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.paperSection}`}>
         <h2 className={styles.sectionTitle}>Paper shelf</h2>
         <div className={styles.paperGrid}>
           {detail.papers.map((paper) => (
