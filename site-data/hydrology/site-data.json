@@ -1,0 +1,2620 @@
+{
+  "slug": "hydrology",
+  "title": "Hydrology",
+  "updated_at": "2026-04-05T01:39:57.010735Z",
+  "snapshot": {
+    "papers": 868,
+    "topics": 12,
+    "subtopics": 380,
+    "entities": 1261,
+    "claims": 28
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 868,
+      "total_papers": 868,
+      "facet_counts": {
+        "none": 868
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning hydrology and watershed management studies, hydrology and drought analysis.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 12,
+    "descendant_topics": 380,
+    "max_depth": 4,
+    "leaf_topics": 268
+  },
+  "rising_topics": [
+    {
+      "id": "sg-environmental-resource-management",
+      "label": "Environmental resource management",
+      "url": "/domains/hydrology/topics/sg-environmental-resource-management",
+      "trend": "rising",
+      "year_total": 1743275
+    },
+    {
+      "id": "sg-land-use",
+      "label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/topics/sg-land-use",
+      "trend": "rising",
+      "year_total": 185427
+    },
+    {
+      "id": "sg-water-resource",
+      "label": "Water resource",
+      "url": "/domains/hydrology/topics/sg-water-resource",
+      "trend": "rising",
+      "year_total": 1803440
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-environmental-resource-management",
+      "label": "Environmental resource management",
+      "url": "/domains/hydrology/topics/sg-environmental-resource-management",
+      "paper_count": 191,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: ecology, of the, environmental resource management",
+      "tags": [
+        "adaptive management",
+        "climate change freshwater",
+        "climate change impacts",
+        "ecosystem service"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-environmental-resource-management-natural-resource-management",
+          "label": "Natural resource management",
+          "url": "/domains/hydrology/topics/sg-environmental-resource-management-natural-resource-management",
+          "paper_count": 49
+        },
+        {
+          "id": "sg-environmental-resource-management-climate-change-adaptation",
+          "label": "Climate change adaptation",
+          "url": "/domains/hydrology/topics/sg-environmental-resource-management-climate-change-adaptation",
+          "paper_count": 46
+        },
+        {
+          "id": "sg-environmental-resource-management-forest-policy",
+          "label": "Forest policy",
+          "url": "/domains/hydrology/topics/sg-environmental-resource-management-forest-policy",
+          "paper_count": 34
+        },
+        {
+          "id": "sg-environmental-resource-management-adaptive-management",
+          "label": "Adaptive management",
+          "url": "/domains/hydrology/topics/sg-environmental-resource-management-adaptive-management",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-environmental-resource-management-forest-management",
+          "label": "Forest management",
+          "url": "/domains/hydrology/topics/sg-environmental-resource-management-forest-management",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-environmental-resource-management-ecosystem-management",
+          "label": "Ecosystem management",
+          "url": "/domains/hydrology/topics/sg-environmental-resource-management-ecosystem-management",
+          "paper_count": 8
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1520428197",
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "url": "/domains/hydrology/papers/W1520428197"
+        },
+        {
+          "source_id": "https://openalex.org/W2746485780",
+          "title": "The value of the world's ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21692,
+          "url": "/domains/hydrology/papers/W2746485780"
+        },
+        {
+          "source_id": "https://openalex.org/W4213327538",
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12093,
+          "url": "/domains/hydrology/papers/W4213327538"
+        }
+      ]
+    },
+    {
+      "id": "sg-land-use",
+      "label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/topics/sg-land-use",
+      "paper_count": 102,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: of the, use, land",
+      "tags": [
+        "agricultural land",
+        "catchment land use",
+        "land cover",
+        "land degradation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-land-use-impacts-on-hydrology-land-use-and-ecosystem-services",
+          "label": "Land use and ecosystem services",
+          "url": "/domains/hydrology/topics/sg-land-use-impacts-on-hydrology-land-use-and-ecosystem-services",
+          "paper_count": 98
+        },
+        {
+          "id": "sg-land-use-climate-change",
+          "label": "Climate change",
+          "url": "/domains/hydrology/topics/sg-land-use-climate-change",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-land-use-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/hydrology/topics/sg-land-use-atmospheric-science",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-land-use-impacts-on-hydrology-agricultural-land",
+          "label": "Agricultural land",
+          "url": "/domains/hydrology/topics/sg-land-use-impacts-on-hydrology-agricultural-land",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-land-use-impacts-on-hydrology-land-degradation",
+          "label": "Land degradation",
+          "url": "/domains/hydrology/topics/sg-land-use-impacts-on-hydrology-land-degradation",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3025949386",
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28880,
+          "url": "/domains/hydrology/papers/W3025949386"
+        },
+        {
+          "source_id": "https://openalex.org/W2173251738",
+          "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+          "year": "1996",
+          "cited_by_count": 29045,
+          "url": "/domains/hydrology/papers/W2173251738"
+        },
+        {
+          "source_id": "https://openalex.org/W3208261418",
+          "title": "IOP Conference Series: Earth and Environmental Science",
+          "year": "2020",
+          "cited_by_count": 12783,
+          "url": "/domains/hydrology/papers/W3208261418"
+        }
+      ]
+    },
+    {
+      "id": "sg-water-resource",
+      "label": "Water resource",
+      "url": "/domains/hydrology/topics/sg-water-resource",
+      "paper_count": 102,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: water, geology, ecology",
+      "tags": [
+        "floods water resource",
+        "global water resource",
+        "hydrology water",
+        "hydrology water quality"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-water-resource-water-resource-management",
+          "label": "Water resource management",
+          "url": "/domains/hydrology/topics/sg-water-resource-water-resource-management",
+          "paper_count": 86
+        },
+        {
+          "id": "sg-water-resource-watershed-hydrology",
+          "label": "Watershed hydrology",
+          "url": "/domains/hydrology/topics/sg-water-resource-watershed-hydrology",
+          "paper_count": 26
+        },
+        {
+          "id": "sg-water-resource-climate-change",
+          "label": "Climate change",
+          "url": "/domains/hydrology/topics/sg-water-resource-climate-change",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-water-resource-water-scarcity",
+          "label": "Water scarcity",
+          "url": "/domains/hydrology/topics/sg-water-resource-water-scarcity",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-water-resource-water-security",
+          "label": "Water security",
+          "url": "/domains/hydrology/topics/sg-water-resource-water-security",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-water-resource-water-framework-directive",
+          "label": "Water framework directive",
+          "url": "/domains/hydrology/topics/sg-water-resource-water-framework-directive",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2098000995",
+          "title": "Global Biodiversity Scenarios for the Year 2100",
+          "year": "2000",
+          "cited_by_count": 9126,
+          "url": "/domains/hydrology/papers/W2098000995"
+        },
+        {
+          "source_id": "https://openalex.org/W2105414963",
+          "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+          "year": "2009",
+          "cited_by_count": 6923,
+          "url": "/domains/hydrology/papers/W2105414963"
+        },
+        {
+          "source_id": "https://openalex.org/W2037766564",
+          "title": "Pharmaceuticals, Hormones, and Other Organic Wastewater Contaminants in U.S. Streams, 1999−2000:  A National Reconnaissance",
+          "year": "2002",
+          "cited_by_count": 7879,
+          "url": "/domains/hydrology/papers/W2037766564"
+        }
+      ]
+    },
+    {
+      "id": "sg-remote-sensing",
+      "label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/topics/sg-remote-sensing",
+      "paper_count": 97,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: data, geology, of the",
+      "tags": [
+        "quantitative remote sensing",
+        "remote sensing",
+        "remote sensing in agriculture",
+        "satellite remote sensing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-remote-sensing-for-hydrology-geostationary-orbit",
+          "label": "Geostationary orbit",
+          "url": "/domains/hydrology/topics/sg-remote-sensing-for-hydrology-geostationary-orbit",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-remote-sensing-for-hydrology-soil-moisture-remote-sensing",
+          "label": "Soil moisture remote sensing",
+          "url": "/domains/hydrology/topics/sg-remote-sensing-for-hydrology-soil-moisture-remote-sensing",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-remote-sensing-for-hydrology-digital-elevation-model",
+          "label": "Digital elevation model",
+          "url": "/domains/hydrology/topics/sg-remote-sensing-for-hydrology-digital-elevation-model",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-remote-sensing-for-hydrology-remote-sensing-in-agriculture",
+          "label": "Remote sensing in agriculture",
+          "url": "/domains/hydrology/topics/sg-remote-sensing-for-hydrology-remote-sensing-in-agriculture",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-remote-sensing-for-hydrology-leaf-area-index",
+          "label": "Leaf area index",
+          "url": "/domains/hydrology/topics/sg-remote-sensing-for-hydrology-leaf-area-index",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-remote-sensing-for-hydrology-multispectral-image",
+          "label": "Multispectral image",
+          "url": "/domains/hydrology/topics/sg-remote-sensing-for-hydrology-multispectral-image",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2121745948",
+          "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+          "year": "2011",
+          "cited_by_count": 26255,
+          "url": "/domains/hydrology/papers/W2121745948"
+        },
+        {
+          "source_id": "https://openalex.org/W180836830",
+          "title": "Köppen's climate classification map for Brazil",
+          "year": "2013",
+          "cited_by_count": 11480,
+          "url": "/domains/hydrology/papers/W180836830"
+        },
+        {
+          "source_id": "https://openalex.org/W2146687568",
+          "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+          "year": "2010",
+          "cited_by_count": 9994,
+          "url": "/domains/hydrology/papers/W2146687568"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-science",
+      "label": "Soil science",
+      "url": "/domains/hydrology/topics/sg-soil-science",
+      "paper_count": 97,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: geology, of the, hydrology",
+      "tags": [
+        "hydrology engineers",
+        "soil biodiversity",
+        "soil biology",
+        "soil carbon"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-science-hydraulic-conductivity",
+          "label": "Hydraulic conductivity",
+          "url": "/domains/hydrology/topics/sg-soil-science-hydraulic-conductivity",
+          "paper_count": 47
+        },
+        {
+          "id": "sg-soil-science-soil-health",
+          "label": "Soil health",
+          "url": "/domains/hydrology/topics/sg-soil-science-soil-health",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-soil-science-soil-map",
+          "label": "Soil map",
+          "url": "/domains/hydrology/topics/sg-soil-science-soil-map",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-soil-science-soil-texture",
+          "label": "Soil texture",
+          "url": "/domains/hydrology/topics/sg-soil-science-soil-texture",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-soil-science-dns-root-zone",
+          "label": "Dns root zone",
+          "url": "/domains/hydrology/topics/sg-soil-science-dns-root-zone",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-soil-science-vadose-zone",
+          "label": "Vadose zone",
+          "url": "/domains/hydrology/topics/sg-soil-science-vadose-zone",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2138763184",
+          "title": "Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling",
+          "year": "2009",
+          "cited_by_count": 6445,
+          "url": "/domains/hydrology/papers/W2138763184"
+        },
+        {
+          "source_id": "https://openalex.org/W2083857556",
+          "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+          "year": "2006",
+          "cited_by_count": 6774,
+          "url": "/domains/hydrology/papers/W2083857556"
+        },
+        {
+          "source_id": "https://openalex.org/W2108971421",
+          "title": "Trace Element Discrimination Diagrams for the Tectonic Interpretation of Granitic Rocks",
+          "year": "1984",
+          "cited_by_count": 8453,
+          "url": "/domains/hydrology/papers/W2108971421"
+        }
+      ]
+    },
+    {
+      "id": "sg-geotechnical-engineering",
+      "label": "Geotechnical hydrology",
+      "url": "/domains/hydrology/topics/sg-geotechnical-engineering",
+      "paper_count": 66,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: geology, geotechnical engineering, hydrology",
+      "tags": [
+        "basin hydrology",
+        "geomorphology hydrology",
+        "geotechnical engineering",
+        "groundwater hydrology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-geotechnical-hydrology-reservoir-simulation",
+          "label": "Reservoir simulation",
+          "url": "/domains/hydrology/topics/sg-geotechnical-hydrology-reservoir-simulation",
+          "paper_count": 34
+        },
+        {
+          "id": "sg-geotechnical-hydrology-groundwater-model",
+          "label": "Groundwater model",
+          "url": "/domains/hydrology/topics/sg-geotechnical-hydrology-groundwater-model",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-geotechnical-hydrology-fluid-dynamics",
+          "label": "Fluid dynamics",
+          "url": "/domains/hydrology/topics/sg-geotechnical-hydrology-fluid-dynamics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-geotechnical-hydrology-soil-unsaturated-flow",
+          "label": "Soil unsaturated flow",
+          "url": "/domains/hydrology/topics/sg-geotechnical-hydrology-soil-unsaturated-flow",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-geotechnical-hydrology-alluvial-fan",
+          "label": "Alluvial fan",
+          "url": "/domains/hydrology/topics/sg-geotechnical-hydrology-alluvial-fan",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-geotechnical-hydrology-environmental-remediation-in-hydrology",
+          "label": "Environmental remediation in hydrology",
+          "url": "/domains/hydrology/topics/sg-geotechnical-hydrology-environmental-remediation-in-hydrology",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1969859799",
+          "title": "The composition of the Earth",
+          "year": "1995",
+          "cited_by_count": 13480,
+          "url": "/domains/hydrology/papers/W1969859799"
+        },
+        {
+          "source_id": "https://openalex.org/W2517268009",
+          "title": "Handbook of applied hydrology",
+          "year": "2010",
+          "cited_by_count": 3362,
+          "url": "/domains/hydrology/papers/W2517268009"
+        },
+        {
+          "source_id": "https://openalex.org/W1592303791",
+          "title": "Computer Models of Watershed Hydrology",
+          "year": "1995",
+          "cited_by_count": 3280,
+          "url": "/domains/hydrology/papers/W1592303791"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-warming",
+      "label": "Global warming impacts",
+      "url": "/domains/hydrology/topics/sg-global-warming",
+      "paper_count": 65,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: climate change, climate, climatology",
+      "tags": [
+        "effects of global warming",
+        "global warming",
+        "global warming change",
+        "global warming standardized"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-warming-impacts-climate-commitment",
+          "label": "Climate commitment",
+          "url": "/domains/hydrology/topics/sg-global-warming-impacts-climate-commitment",
+          "paper_count": 65
+        },
+        {
+          "id": "sg-global-warming-climate-model",
+          "label": "Climate model",
+          "url": "/domains/hydrology/topics/sg-global-warming-climate-model",
+          "paper_count": 48
+        },
+        {
+          "id": "sg-global-warming-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/hydrology/topics/sg-global-warming-atmospheric-science",
+          "paper_count": 21
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2939474406",
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "url": "/domains/hydrology/papers/W2939474406"
+        },
+        {
+          "source_id": "https://openalex.org/W2024966118",
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "url": "/domains/hydrology/papers/W2024966118"
+        },
+        {
+          "source_id": "https://openalex.org/W2193503481",
+          "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+          "year": "2016",
+          "cited_by_count": 11602,
+          "url": "/domains/hydrology/papers/W2193503481"
+        }
+      ]
+    },
+    {
+      "id": "sg-carbon-cycle",
+      "label": "Carbon cycle in hydrology",
+      "url": "/domains/hydrology/topics/sg-carbon-cycle",
+      "paper_count": 48,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: carbon, geology, ecology",
+      "tags": [
+        "atmospheric carbon cycle",
+        "carbon cycle",
+        "carbon cycle probable",
+        "carbon dioxide"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-carbon-cycle-in-hydrology-carbon-dioxide",
+          "label": "Carbon dioxide",
+          "url": "/domains/hydrology/topics/sg-carbon-cycle-in-hydrology-carbon-dioxide",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-carbon-cycle-in-hydrology-carbon-fibers",
+          "label": "Carbon fibers",
+          "url": "/domains/hydrology/topics/sg-carbon-cycle-in-hydrology-carbon-fibers",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-carbon-cycle-in-hydrology-carbon-flux",
+          "label": "Carbon flux",
+          "url": "/domains/hydrology/topics/sg-carbon-cycle-in-hydrology-carbon-flux",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-carbon-cycle-in-hydrology-carbon-sink",
+          "label": "Carbon sink",
+          "url": "/domains/hydrology/topics/sg-carbon-cycle-in-hydrology-carbon-sink",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-carbon-cycle-in-hydrology-ecosystem-respiration",
+          "label": "Ecosystem respiration",
+          "url": "/domains/hydrology/topics/sg-carbon-cycle-in-hydrology-ecosystem-respiration",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-carbon-cycle-in-hydrology-atmospheric-carbon",
+          "label": "Atmospheric carbon",
+          "url": "/domains/hydrology/topics/sg-carbon-cycle-in-hydrology-atmospheric-carbon",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3015391807",
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7218,
+          "url": "/domains/hydrology/papers/W3015391807"
+        },
+        {
+          "source_id": "https://openalex.org/W1907369419",
+          "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+          "year": "2013",
+          "cited_by_count": 6639,
+          "url": "/domains/hydrology/papers/W1907369419"
+        },
+        {
+          "source_id": "https://openalex.org/W2118295263",
+          "title": "The worldwide leaf economics spectrum",
+          "year": "2004",
+          "cited_by_count": 8580,
+          "url": "/domains/hydrology/papers/W2118295263"
+        }
+      ]
+    },
+    {
+      "id": "sg-cryospheric-studies-and-observations",
+      "label": "Cryospheric hydrology",
+      "url": "/domains/hydrology/topics/sg-cryospheric-studies-and-observations",
+      "paper_count": 42,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: geology, climatology, cryospheric studies and observations",
+      "tags": [
+        "accumulation zone",
+        "cryospheric studies and observations",
+        "future sea level",
+        "glacier ice accumulation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cryospheric-hydrology-ice-stream",
+          "label": "Ice stream",
+          "url": "/domains/hydrology/topics/sg-cryospheric-hydrology-ice-stream",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-cryospheric-studies-and-observations-climate-change",
+          "label": "Climate change",
+          "url": "/domains/hydrology/topics/sg-cryospheric-studies-and-observations-climate-change",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-cryospheric-hydrology-ice-divide",
+          "label": "Ice divide",
+          "url": "/domains/hydrology/topics/sg-cryospheric-hydrology-ice-divide",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-cryospheric-studies-and-observations-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/hydrology/topics/sg-cryospheric-studies-and-observations-atmospheric-science",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-cryospheric-hydrology-glacier-mass-balance",
+          "label": "Glacier mass balance",
+          "url": "/domains/hydrology/topics/sg-cryospheric-hydrology-glacier-mass-balance",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cryospheric-hydrology-future-sea-level",
+          "label": "Future sea level",
+          "url": "/domains/hydrology/topics/sg-cryospheric-hydrology-future-sea-level",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1982518595",
+          "title": "Elevation-dependent warming in mountain regions of the world",
+          "year": "2015",
+          "cited_by_count": 2809,
+          "url": "/domains/hydrology/papers/W1982518595"
+        },
+        {
+          "source_id": "https://openalex.org/W2102213705",
+          "title": "Bedmap2: improved ice bed, surface and thickness datasets for Antarctica",
+          "year": "2013",
+          "cited_by_count": 2093,
+          "url": "/domains/hydrology/papers/W2102213705"
+        },
+        {
+          "source_id": "https://openalex.org/W1540479500",
+          "title": "Arctic Climate Impact Assessment",
+          "year": "2017",
+          "cited_by_count": 1505,
+          "url": "/domains/hydrology/papers/W1540479500"
+        }
+      ]
+    },
+    {
+      "id": "sg-water-cycle",
+      "label": "Water cycle processes",
+      "url": "/domains/hydrology/topics/sg-water-cycle",
+      "paper_count": 26,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: water cycle, geology, cycle",
+      "tags": [
+        "change in hydrology",
+        "climate hydrology",
+        "global water cycle",
+        "hydrology engineers"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-water-cycle-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/hydrology/topics/sg-water-cycle-atmospheric-science",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-water-cycle-climate-change",
+          "label": "Climate change",
+          "url": "/domains/hydrology/topics/sg-water-cycle-climate-change",
+          "paper_count": 11
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2064299399",
+          "title": "Study and interpretation of the chemical characteristics of natural water",
+          "year": "1959",
+          "cited_by_count": 5778,
+          "url": "/domains/hydrology/papers/W2064299399"
+        },
+        {
+          "source_id": "https://openalex.org/W2138644576",
+          "title": "The Changing Character of Precipitation",
+          "year": "2003",
+          "cited_by_count": 3160,
+          "url": "/domains/hydrology/papers/W2138644576"
+        },
+        {
+          "source_id": "https://openalex.org/W3049213504",
+          "title": "Climate change impact on flood and extreme precipitation increases with water availability",
+          "year": "2020",
+          "cited_by_count": 1433,
+          "url": "/domains/hydrology/papers/W3049213504"
+        }
+      ]
+    },
+    {
+      "id": "sg-surface-water",
+      "label": "Surface water hydrology",
+      "url": "/domains/hydrology/topics/sg-surface-water",
+      "paper_count": 21,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: surface, surface water, water",
+      "tags": [
+        "basin hydrology",
+        "hydrology engineers",
+        "model of basin hydrology",
+        "surface subsurface hydrology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-surface-water-climate-change",
+          "label": "Climate change",
+          "url": "/domains/hydrology/topics/sg-surface-water-climate-change",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-surface-water-water-quality",
+          "label": "Water quality",
+          "url": "/domains/hydrology/topics/sg-surface-water-water-quality",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2784327149",
+          "title": "TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958–2015",
+          "year": "2018",
+          "cited_by_count": 3005,
+          "url": "/domains/hydrology/papers/W2784327149"
+        },
+        {
+          "source_id": "https://openalex.org/W1981646498",
+          "title": "A physically based, variable contributing area model of basin hydrology / Un modèle à base physique de zone d'appel variable de l'hydrologie du bassin versant",
+          "year": "1979",
+          "cited_by_count": 6536,
+          "url": "/domains/hydrology/papers/W1981646498"
+        },
+        {
+          "source_id": "https://openalex.org/W32193029",
+          "title": "A simplified table for staging anuran embryos and larvae with notes on identification",
+          "year": "1960",
+          "cited_by_count": 5745,
+          "url": "/domains/hydrology/papers/W32193029"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-change",
+      "label": "Global environmental change",
+      "url": "/domains/hydrology/topics/sg-global-change",
+      "paper_count": 11,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: global change, change, global",
+      "tags": [
+        "climate change disruptions",
+        "driving global change",
+        "global change",
+        "global change earth"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-change-climate-change",
+          "label": "Climate change",
+          "url": "/domains/hydrology/topics/sg-global-change-climate-change",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-global-change-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/hydrology/topics/sg-global-change-atmospheric-science",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2024649846",
+          "title": "Ecological responses to recent climate change",
+          "year": "2002",
+          "cited_by_count": 9874,
+          "url": "/domains/hydrology/papers/W2024649846"
+        },
+        {
+          "source_id": "https://openalex.org/W2002570697",
+          "title": "Estimates of global terrestrial isoprene emissions using MEGAN (Model of Emissions of Gases and Aerosols from Nature)",
+          "year": "2006",
+          "cited_by_count": 5118,
+          "url": "/domains/hydrology/papers/W2002570697"
+        },
+        {
+          "source_id": "https://openalex.org/W1515936669",
+          "title": "An Introduction to Tree-Ring Dating",
+          "year": "1996",
+          "cited_by_count": 4000,
+          "url": "/domains/hydrology/papers/W1515936669"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Environmental resource management",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        },
+        {
+          "title": "The value of the world&#x27;s ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21692,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w2746485780.html"
+        },
+        {
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12093,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w4213327538.html"
+        },
+        {
+          "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+          "year": "2013",
+          "cited_by_count": 11339,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w1981213426.html"
+        },
+        {
+          "title": "Food Security: The Challenge of Feeding 9 Billion People",
+          "year": "2010",
+          "cited_by_count": 11619,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w2148333466.html"
+        },
+        {
+          "title": "Global Consequences of Land Use",
+          "year": "2005",
+          "cited_by_count": 12749,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w2153820558.html"
+        }
+      ]
+    },
+    {
+      "label": "Land use impacts on hydrology",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28880,
+          "topic": "Land use impacts on hydrology",
+          "url": "papers/https-openalex-org-w3025949386.html"
+        },
+        {
+          "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+          "year": "1996",
+          "cited_by_count": 29045,
+          "topic": "Land use impacts on hydrology",
+          "url": "papers/https-openalex-org-w2173251738.html"
+        },
+        {
+          "title": "IOP Conference Series: Earth and Environmental Science",
+          "year": "2020",
+          "cited_by_count": 12783,
+          "topic": "Land use impacts on hydrology",
+          "url": "papers/https-openalex-org-w3208261418.html"
+        },
+        {
+          "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+          "year": "2019",
+          "cited_by_count": 10148,
+          "topic": "Land use impacts on hydrology",
+          "url": "papers/https-openalex-org-w2909678677.html"
+        },
+        {
+          "title": "The representative concentration pathways: an overview",
+          "year": "2011",
+          "cited_by_count": 7902,
+          "topic": "Land use impacts on hydrology",
+          "url": "papers/https-openalex-org-w1991308688.html"
+        },
+        {
+          "title": "Global food demand and the sustainable intensification of agriculture",
+          "year": "2011",
+          "cited_by_count": 7343,
+          "topic": "Land use impacts on hydrology",
+          "url": "papers/https-openalex-org-w2013414890.html"
+        }
+      ]
+    },
+    {
+      "label": "Remote sensing for hydrology",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+          "year": "2011",
+          "cited_by_count": 26255,
+          "topic": "Remote sensing for hydrology",
+          "url": "papers/https-openalex-org-w2121745948.html"
+        },
+        {
+          "title": "Köppen&#x27;s climate classification map for Brazil",
+          "year": "2013",
+          "cited_by_count": 11480,
+          "topic": "Remote sensing for hydrology",
+          "url": "papers/https-openalex-org-w180836830.html"
+        },
+        {
+          "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+          "year": "2010",
+          "cited_by_count": 9994,
+          "topic": "Remote sensing for hydrology",
+          "url": "papers/https-openalex-org-w2146687568.html"
+        },
+        {
+          "title": "World Map of the Köppen-Geiger climate classification updated",
+          "year": "2006",
+          "cited_by_count": 11125,
+          "topic": "Remote sensing for hydrology",
+          "url": "papers/https-openalex-org-w2127170577.html"
+        },
+        {
+          "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+          "year": "2018",
+          "cited_by_count": 6230,
+          "topic": "Remote sensing for hydrology",
+          "url": "papers/https-openalex-org-w2898962279.html"
+        },
+        {
+          "title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+          "year": "2020",
+          "cited_by_count": 4608,
+          "topic": "Remote sensing for hydrology",
+          "url": "papers/https-openalex-org-w3014125413.html"
+        }
+      ]
+    },
+    {
+      "label": "Global warming impacts",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Global warming impacts",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "topic": "Global warming impacts",
+          "url": "papers/https-openalex-org-w2024966118.html"
+        },
+        {
+          "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+          "year": "2016",
+          "cited_by_count": 11602,
+          "topic": "Global warming impacts",
+          "url": "papers/https-openalex-org-w2193503481.html"
+        },
+        {
+          "title": "Updated world map of the Köppen-Geiger climate classification",
+          "year": "2007",
+          "cited_by_count": 12519,
+          "topic": "Global warming impacts",
+          "url": "papers/https-openalex-org-w2101108516.html"
+        },
+        {
+          "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+          "year": "2009",
+          "cited_by_count": 8752,
+          "topic": "Global warming impacts",
+          "url": "papers/https-openalex-org-w2077968790.html"
+        },
+        {
+          "title": "A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests",
+          "year": "2009",
+          "cited_by_count": 7509,
+          "topic": "Global warming impacts",
+          "url": "papers/https-openalex-org-w2140131090.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon cycle in hydrology",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7218,
+          "topic": "Carbon cycle in hydrology",
+          "url": "papers/https-openalex-org-w3015391807.html"
+        },
+        {
+          "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+          "year": "2013",
+          "cited_by_count": 6639,
+          "topic": "Carbon cycle in hydrology",
+          "url": "papers/https-openalex-org-w1907369419.html"
+        },
+        {
+          "title": "The worldwide leaf economics spectrum",
+          "year": "2004",
+          "cited_by_count": 8580,
+          "topic": "Carbon cycle in hydrology",
+          "url": "papers/https-openalex-org-w2118295263.html"
+        }
+      ]
+    },
+    {
+      "label": "Water resource",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Global Biodiversity Scenarios for the Year 2100",
+          "year": "2000",
+          "cited_by_count": 9126,
+          "topic": "Water resource",
+          "url": "papers/https-openalex-org-w2098000995.html"
+        },
+        {
+          "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+          "year": "2009",
+          "cited_by_count": 6923,
+          "topic": "Water resource",
+          "url": "papers/https-openalex-org-w2105414963.html"
+        }
+      ]
+    },
+    {
+      "label": "Geotechnical hydrology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "The composition of the Earth",
+          "year": "1995",
+          "cited_by_count": 13480,
+          "topic": "Geotechnical hydrology",
+          "url": "papers/https-openalex-org-w1969859799.html"
+        }
+      ]
+    },
+    {
+      "label": "Global environmental change",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Ecological responses to recent climate change",
+          "year": "2002",
+          "cited_by_count": 9874,
+          "topic": "Global environmental change",
+          "url": "papers/https-openalex-org-w2024649846.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28880,
+      "adjusted_cited_by_count": 11790.21,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2121745948",
+      "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+      "year": 2011,
+      "cited_by_count": 26255,
+      "adjusted_cited_by_count": 6779.01,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W2121745948"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming impacts",
+      "url": "/domains/hydrology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2173251738",
+      "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+      "year": 1996,
+      "cited_by_count": 29045,
+      "adjusted_cited_by_count": 5302.87,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W2173251738"
+    },
+    {
+      "source_id": "https://openalex.org/W3208261418",
+      "title": "IOP Conference Series: Earth and Environmental Science",
+      "year": 2020,
+      "cited_by_count": 12783,
+      "adjusted_cited_by_count": 5218.64,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W3208261418"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21692,
+      "adjusted_cited_by_count": 4028.1,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10148,
+      "adjusted_cited_by_count": 3835.58,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming impacts",
+      "url": "/domains/hydrology/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11602,
+      "adjusted_cited_by_count": 3668.87,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming impacts",
+      "url": "/domains/hydrology/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12093,
+      "adjusted_cited_by_count": 3490.95,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W1981213426",
+      "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+      "year": 2013,
+      "cited_by_count": 11339,
+      "adjusted_cited_by_count": 3144.87,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W1981213426"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7218,
+      "adjusted_cited_by_count": 2946.74,
+      "primary_topic_id": "sg-carbon-cycle",
+      "primary_topic_label": "Carbon cycle in hydrology",
+      "url": "/domains/hydrology/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2148333466",
+      "title": "Food Security: The Challenge of Feeding 9 Billion People",
+      "year": 2010,
+      "cited_by_count": 11619,
+      "adjusted_cited_by_count": 2904.75,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2148333466"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12519,
+      "adjusted_cited_by_count": 2872.06,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming impacts",
+      "url": "/domains/hydrology/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2153820558",
+      "title": "Global Consequences of Land Use",
+      "year": 2005,
+      "cited_by_count": 12749,
+      "adjusted_cited_by_count": 2782.06,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2153820558"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9994,
+      "adjusted_cited_by_count": 2498.5,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W2127170577",
+      "title": "World Map of the Köppen-Geiger climate classification updated",
+      "year": 2006,
+      "cited_by_count": 11125,
+      "adjusted_cited_by_count": 2487.63,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W2127170577"
+    },
+    {
+      "source_id": "https://openalex.org/W1969859799",
+      "title": "The composition of the Earth",
+      "year": 1995,
+      "cited_by_count": 13480,
+      "adjusted_cited_by_count": 2421.08,
+      "primary_topic_id": "sg-geotechnical-engineering",
+      "primary_topic_label": "Geotechnical hydrology",
+      "url": "/domains/hydrology/papers/W1969859799"
+    },
+    {
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17396,
+      "adjusted_cited_by_count": 2389.52,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2011303397"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6230,
+      "adjusted_cited_by_count": 2202.64,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8752,
+      "adjusted_cited_by_count": 2122.67,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming impacts",
+      "url": "/domains/hydrology/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7902,
+      "adjusted_cited_by_count": 2040.29,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9874,
+      "adjusted_cited_by_count": 2015.52,
+      "primary_topic_id": "sg-global-change",
+      "primary_topic_label": "Global environmental change",
+      "url": "/domains/hydrology/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W2034994370",
+      "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+      "year": 2009,
+      "cited_by_count": 7941,
+      "adjusted_cited_by_count": 1925.98,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2034994370"
+    },
+    {
+      "source_id": "https://openalex.org/W2111684210",
+      "title": "A protocol for data exploration to avoid common statistical problems",
+      "year": 2009,
+      "cited_by_count": 7916,
+      "adjusted_cited_by_count": 1919.91,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2111684210"
+    },
+    {
+      "source_id": "https://openalex.org/W2013414890",
+      "title": "Global food demand and the sustainable intensification of agriculture",
+      "year": 2011,
+      "cited_by_count": 7343,
+      "adjusted_cited_by_count": 1895.95,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W2013414890"
+    },
+    {
+      "source_id": "https://openalex.org/W3014125413",
+      "title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+      "year": 2020,
+      "cited_by_count": 4608,
+      "adjusted_cited_by_count": 1881.21,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W3014125413"
+    },
+    {
+      "source_id": "https://openalex.org/W1907369419",
+      "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+      "year": 2013,
+      "cited_by_count": 6639,
+      "adjusted_cited_by_count": 1841.33,
+      "primary_topic_id": "sg-carbon-cycle",
+      "primary_topic_label": "Carbon cycle in hydrology",
+      "url": "/domains/hydrology/papers/W1907369419"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8580,
+      "adjusted_cited_by_count": 1829.26,
+      "primary_topic_id": "sg-carbon-cycle",
+      "primary_topic_label": "Carbon cycle in hydrology",
+      "url": "/domains/hydrology/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W2140131090",
+      "title": "A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests",
+      "year": 2009,
+      "cited_by_count": 7509,
+      "adjusted_cited_by_count": 1821.2,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming impacts",
+      "url": "/domains/hydrology/papers/W2140131090"
+    },
+    {
+      "source_id": "https://openalex.org/W2098000995",
+      "title": "Global Biodiversity Scenarios for the Year 2100",
+      "year": 2000,
+      "cited_by_count": 9126,
+      "adjusted_cited_by_count": 1789.76,
+      "primary_topic_id": "sg-water-resource",
+      "primary_topic_label": "Water resource",
+      "url": "/domains/hydrology/papers/W2098000995"
+    },
+    {
+      "source_id": "https://openalex.org/W2107140090",
+      "title": "Freshwater biodiversity: importance, threats, status and conservation challenges",
+      "year": 2005,
+      "cited_by_count": 8114,
+      "adjusted_cited_by_count": 1770.62,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W2107140090"
+    },
+    {
+      "source_id": "https://openalex.org/W2261645655",
+      "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+      "year": 2015,
+      "cited_by_count": 5790,
+      "adjusted_cited_by_count": 1745.75,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W2261645655"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7845,
+      "adjusted_cited_by_count": 1711.92,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/hydrology/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "primary_topic_id": "sg-water-resource",
+      "primary_topic_label": "Water resource",
+      "url": "/domains/hydrology/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1631559605",
+      "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+      "year": 2005,
+      "cited_by_count": 7438,
+      "adjusted_cited_by_count": 1623.1,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use impacts on hydrology",
+      "url": "/domains/hydrology/papers/W1631559605"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979275",
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "year": 2006,
+      "cited_by_count": 7227,
+      "adjusted_cited_by_count": 1616.01,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing for hydrology",
+      "url": "/domains/hydrology/papers/W2028979275"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28880,
+      "adjusted_cited_by_count": 11790.21,
+      "url": "/domains/hydrology/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2121745948",
+      "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+      "year": 2011,
+      "cited_by_count": 26255,
+      "adjusted_cited_by_count": 6779.01,
+      "url": "/domains/hydrology/papers/W2121745948"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/hydrology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2173251738",
+      "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+      "year": 1996,
+      "cited_by_count": 29045,
+      "adjusted_cited_by_count": 5302.87,
+      "url": "/domains/hydrology/papers/W2173251738"
+    },
+    {
+      "source_id": "https://openalex.org/W3208261418",
+      "title": "IOP Conference Series: Earth and Environmental Science",
+      "year": 2020,
+      "cited_by_count": 12783,
+      "adjusted_cited_by_count": 5218.64,
+      "url": "/domains/hydrology/papers/W3208261418"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "url": "/domains/hydrology/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21692,
+      "adjusted_cited_by_count": 4028.1,
+      "url": "/domains/hydrology/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10148,
+      "adjusted_cited_by_count": 3835.58,
+      "url": "/domains/hydrology/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "url": "/domains/hydrology/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11602,
+      "adjusted_cited_by_count": 3668.87,
+      "url": "/domains/hydrology/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12093,
+      "adjusted_cited_by_count": 3490.95,
+      "url": "/domains/hydrology/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "url": "/domains/hydrology/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W1981213426",
+      "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+      "year": 2013,
+      "cited_by_count": 11339,
+      "adjusted_cited_by_count": 3144.87,
+      "url": "/domains/hydrology/papers/W1981213426"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7218,
+      "adjusted_cited_by_count": 2946.74,
+      "url": "/domains/hydrology/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2148333466",
+      "title": "Food Security: The Challenge of Feeding 9 Billion People",
+      "year": 2010,
+      "cited_by_count": 11619,
+      "adjusted_cited_by_count": 2904.75,
+      "url": "/domains/hydrology/papers/W2148333466"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12519,
+      "adjusted_cited_by_count": 2872.06,
+      "url": "/domains/hydrology/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2153820558",
+      "title": "Global Consequences of Land Use",
+      "year": 2005,
+      "cited_by_count": 12749,
+      "adjusted_cited_by_count": 2782.06,
+      "url": "/domains/hydrology/papers/W2153820558"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9994,
+      "adjusted_cited_by_count": 2498.5,
+      "url": "/domains/hydrology/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W2127170577",
+      "title": "World Map of the Köppen-Geiger climate classification updated",
+      "year": 2006,
+      "cited_by_count": 11125,
+      "adjusted_cited_by_count": 2487.63,
+      "url": "/domains/hydrology/papers/W2127170577"
+    },
+    {
+      "source_id": "https://openalex.org/W1969859799",
+      "title": "The composition of the Earth",
+      "year": 1995,
+      "cited_by_count": 13480,
+      "adjusted_cited_by_count": 2421.08,
+      "url": "/domains/hydrology/papers/W1969859799"
+    },
+    {
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17396,
+      "adjusted_cited_by_count": 2389.52,
+      "url": "/domains/hydrology/papers/W2011303397"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6230,
+      "adjusted_cited_by_count": 2202.64,
+      "url": "/domains/hydrology/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8752,
+      "adjusted_cited_by_count": 2122.67,
+      "url": "/domains/hydrology/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7902,
+      "adjusted_cited_by_count": 2040.29,
+      "url": "/domains/hydrology/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9874,
+      "adjusted_cited_by_count": 2015.52,
+      "url": "/domains/hydrology/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W2034994370",
+      "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+      "year": 2009,
+      "cited_by_count": 7941,
+      "adjusted_cited_by_count": 1925.98,
+      "url": "/domains/hydrology/papers/W2034994370"
+    },
+    {
+      "source_id": "https://openalex.org/W2111684210",
+      "title": "A protocol for data exploration to avoid common statistical problems",
+      "year": 2009,
+      "cited_by_count": 7916,
+      "adjusted_cited_by_count": 1919.91,
+      "url": "/domains/hydrology/papers/W2111684210"
+    },
+    {
+      "source_id": "https://openalex.org/W2013414890",
+      "title": "Global food demand and the sustainable intensification of agriculture",
+      "year": 2011,
+      "cited_by_count": 7343,
+      "adjusted_cited_by_count": 1895.95,
+      "url": "/domains/hydrology/papers/W2013414890"
+    },
+    {
+      "source_id": "https://openalex.org/W3014125413",
+      "title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+      "year": 2020,
+      "cited_by_count": 4608,
+      "adjusted_cited_by_count": 1881.21,
+      "url": "/domains/hydrology/papers/W3014125413"
+    },
+    {
+      "source_id": "https://openalex.org/W1907369419",
+      "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+      "year": 2013,
+      "cited_by_count": 6639,
+      "adjusted_cited_by_count": 1841.33,
+      "url": "/domains/hydrology/papers/W1907369419"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8580,
+      "adjusted_cited_by_count": 1829.26,
+      "url": "/domains/hydrology/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W2140131090",
+      "title": "A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests",
+      "year": 2009,
+      "cited_by_count": 7509,
+      "adjusted_cited_by_count": 1821.2,
+      "url": "/domains/hydrology/papers/W2140131090"
+    },
+    {
+      "source_id": "https://openalex.org/W2098000995",
+      "title": "Global Biodiversity Scenarios for the Year 2100",
+      "year": 2000,
+      "cited_by_count": 9126,
+      "adjusted_cited_by_count": 1789.76,
+      "url": "/domains/hydrology/papers/W2098000995"
+    },
+    {
+      "source_id": "https://openalex.org/W2107140090",
+      "title": "Freshwater biodiversity: importance, threats, status and conservation challenges",
+      "year": 2005,
+      "cited_by_count": 8114,
+      "adjusted_cited_by_count": 1770.62,
+      "url": "/domains/hydrology/papers/W2107140090"
+    },
+    {
+      "source_id": "https://openalex.org/W2261645655",
+      "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+      "year": 2015,
+      "cited_by_count": 5790,
+      "adjusted_cited_by_count": 1745.75,
+      "url": "/domains/hydrology/papers/W2261645655"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "url": "/domains/hydrology/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7845,
+      "adjusted_cited_by_count": 1711.92,
+      "url": "/domains/hydrology/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "url": "/domains/hydrology/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1631559605",
+      "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+      "year": 2005,
+      "cited_by_count": 7438,
+      "adjusted_cited_by_count": 1623.1,
+      "url": "/domains/hydrology/papers/W1631559605"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979275",
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "year": 2006,
+      "cited_by_count": 7227,
+      "adjusted_cited_by_count": 1616.01,
+      "url": "/domains/hydrology/papers/W2028979275"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 668
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 551
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 441
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 390
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 382
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 361
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 350
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 344
+    },
+    {
+      "label": "hydrology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 323
+    },
+    {
+      "label": "climatology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 319
+    },
+    {
+      "label": "land",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 309
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 306
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 297
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 291
+    },
+    {
+      "label": "sea",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 248
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 226
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 206
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 196
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 195
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 192
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 188
+    },
+    {
+      "label": "precipitation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 176
+    },
+    {
+      "label": "ice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 170
+    },
+    {
+      "label": "atmosphere",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 161
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 154
+    },
+    {
+      "label": "area",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "spatial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 13
+    },
+    {
+      "label": "less than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 8
+    },
+    {
+      "label": "s esm",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 2
+    },
+    {
+      "label": "flow",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 131
+    },
+    {
+      "label": "river",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 129
+    },
+    {
+      "label": "soil",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 129
+    },
+    {
+      "label": "cover",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 128
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 123
+    },
+    {
+      "label": "climate model",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.989,
+      "evidence_count": 120
+    },
+    {
+      "label": "temperature",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.989,
+      "evidence_count": 120
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 119
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 715
+    },
+    {
+      "label": "resolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 117
+    },
+    {
+      "label": "assessment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 107
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 107
+    },
+    {
+      "label": "physical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 118
+    },
+    {
+      "label": "project",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 104
+    },
+    {
+      "label": "earth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 103
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 99
+    },
+    {
+      "label": "stream",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 98
+    },
+    {
+      "label": "simulation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 97
+    },
+    {
+      "label": "mean",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 95
+    },
+    {
+      "label": "period",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 95
+    }
+  ],
+  "topic_year_counts": {
+    "environmental resource management": {
+      "2025": 285696,
+      "2024": 226499,
+      "2023": 198601,
+      "2022": 128381,
+      "2021": 111797,
+      "2020": 99608,
+      "2019": 81811,
+      "2018": 71491,
+      "2026": 67764,
+      "2017": 62095,
+      "2016": 56420,
+      "2015": 50696,
+      "2014": 45714,
+      "2013": 40319,
+      "2012": 34757,
+      "2011": 29775,
+      "2010": 25962,
+      "2009": 22457,
+      "2008": 18501,
+      "2007": 15800,
+      "2006": 14457,
+      "2005": 12441,
+      "2004": 10433,
+      "2003": 9471,
+      "2002": 7928,
+      "2000": 7547,
+      "2001": 6854
+    },
+    "land use impacts on hydrology": {
+      "2025": 19978,
+      "2023": 19546,
+      "2024": 17480,
+      "2022": 14478,
+      "2021": 13488,
+      "2020": 11747,
+      "2019": 10408,
+      "2018": 10070,
+      "2017": 8312,
+      "2016": 7811,
+      "2015": 6689,
+      "2014": 6102,
+      "2013": 5940,
+      "2026": 4935,
+      "2012": 4888,
+      "2011": 4048,
+      "2010": 3360,
+      "2009": 2954,
+      "2008": 2370,
+      "2007": 2235,
+      "2006": 1809,
+      "2005": 1540,
+      "2004": 1319,
+      "2003": 1178,
+      "2002": 983,
+      "2000": 938,
+      "2001": 821
+    },
+    "water resource": {
+      "2025": 232141,
+      "2024": 206270,
+      "2023": 198940,
+      "2022": 132195,
+      "2021": 120458,
+      "2020": 110514,
+      "2019": 92412,
+      "2018": 82508,
+      "2017": 72978,
+      "2016": 66173,
+      "2015": 60108,
+      "2026": 55417,
+      "2014": 54466,
+      "2013": 49481,
+      "2012": 42248,
+      "2011": 36518,
+      "2010": 31684,
+      "2009": 27683,
+      "2008": 22993,
+      "2007": 20101,
+      "2006": 18251,
+      "2005": 15764,
+      "2004": 13490,
+      "2003": 12242,
+      "2002": 10429,
+      "2000": 9213,
+      "2001": 8763
+    },
+    "remote sensing for hydrology": {
+      "2025": 12445,
+      "2023": 11404,
+      "2024": 10196,
+      "2022": 8364,
+      "2021": 7531,
+      "2020": 6458,
+      "2019": 5510,
+      "2018": 5021,
+      "2017": 4068,
+      "2016": 3720,
+      "2026": 3168,
+      "2015": 3152,
+      "2014": 2840,
+      "2013": 2642,
+      "2012": 2181,
+      "2011": 1779,
+      "2010": 1464,
+      "2009": 1249,
+      "2008": 1082,
+      "2007": 890,
+      "2006": 770,
+      "2005": 695,
+      "2004": 512,
+      "2003": 469,
+      "2002": 403,
+      "2000": 385,
+      "2001": 334
+    },
+    "soil science": {
+      "2023": 212301,
+      "2025": 199186,
+      "2024": 195964,
+      "2022": 149874,
+      "2021": 135692,
+      "2020": 123869,
+      "2019": 102889,
+      "2018": 91360,
+      "2017": 79247,
+      "2016": 70790,
+      "2015": 62882,
+      "2014": 56797,
+      "2013": 50945,
+      "2026": 43203,
+      "2012": 43070,
+      "2011": 35499,
+      "2010": 29836,
+      "2009": 25931,
+      "2008": 21556,
+      "2007": 18816,
+      "2006": 16632,
+      "2005": 14338,
+      "2004": 12014,
+      "2003": 10741,
+      "2001": 9493,
+      "2002": 9094,
+      "2000": 9033
+    },
+    "geotechnical hydrology": {
+      "2023": 1726,
+      "2025": 1639,
+      "2024": 1495,
+      "2022": 1255,
+      "2021": 1182,
+      "2020": 1036,
+      "2019": 873,
+      "2018": 822,
+      "2017": 705,
+      "2016": 591,
+      "2015": 508,
+      "2013": 474,
+      "2026": 430,
+      "2014": 425,
+      "2012": 347,
+      "2011": 316,
+      "2009": 269,
+      "2010": 234,
+      "2007": 194,
+      "2008": 193,
+      "2006": 167,
+      "2005": 150,
+      "2004": 107,
+      "2000": 102,
+      "2003": 83,
+      "2001": 80,
+      "2002": 76
+    },
+    "global warming impacts": {
+      "2025": 124406,
+      "2023": 122474,
+      "2024": 121033,
+      "2022": 81389,
+      "2021": 73729,
+      "2020": 65134,
+      "2019": 53020,
+      "2018": 46445,
+      "2017": 40885,
+      "2016": 37032,
+      "2015": 32662,
+      "2014": 29932,
+      "2026": 29473,
+      "2013": 27084,
+      "2012": 23171,
+      "2011": 19557,
+      "2010": 16733,
+      "2009": 14427,
+      "2008": 11584,
+      "2007": 9324,
+      "2006": 7337,
+      "2005": 6556,
+      "2004": 4944,
+      "2003": 4153,
+      "2000": 3608,
+      "2002": 3432,
+      "2001": 2999
+    },
+    "carbon cycle in hydrology": {
+      "2025": 7910,
+      "2023": 7305,
+      "2024": 6840,
+      "2022": 5569,
+      "2021": 5238,
+      "2020": 4685,
+      "2019": 4201,
+      "2018": 4002,
+      "2017": 3725,
+      "2016": 3478,
+      "2015": 2851,
+      "2014": 2727,
+      "2013": 2577,
+      "2012": 2215,
+      "2026": 2058,
+      "2011": 1845,
+      "2010": 1489,
+      "2009": 1231,
+      "2008": 1040,
+      "2007": 935,
+      "2006": 748,
+      "2005": 699,
+      "2004": 519,
+      "2003": 452,
+      "2002": 405,
+      "2000": 395,
+      "2001": 352
+    },
+    "cryospheric hydrology": {
+      "2025": 463,
+      "2023": 386,
+      "2022": 336,
+      "2021": 304,
+      "2024": 294,
+      "2020": 226,
+      "2019": 201,
+      "2018": 178,
+      "2026": 150,
+      "2017": 137,
+      "2016": 128,
+      "2015": 125,
+      "2013": 101,
+      "2014": 98,
+      "2011": 66,
+      "2012": 58,
+      "2009": 42,
+      "2010": 42,
+      "2008": 36,
+      "2006": 31,
+      "2007": 25,
+      "2003": 18,
+      "2005": 17,
+      "2000": 7,
+      "2001": 7,
+      "2002": 6,
+      "2004": 5
+    },
+    "water cycle processes": {
+      "2023": 299211,
+      "2024": 281124,
+      "2025": 276566,
+      "2022": 199591,
+      "2021": 183394,
+      "2020": 168787,
+      "2019": 141794,
+      "2018": 125975,
+      "2017": 114733,
+      "2016": 103181,
+      "2015": 93629,
+      "2014": 85373,
+      "2013": 77417,
+      "2026": 67313,
+      "2012": 66697,
+      "2011": 56693,
+      "2010": 48235,
+      "2009": 40694,
+      "2008": 33981,
+      "2007": 29610,
+      "2006": 25972,
+      "2005": 22810,
+      "2004": 19811,
+      "2003": 17439,
+      "2002": 14668,
+      "2000": 13242,
+      "2001": 13040
+    },
+    "surface water hydrology": {
+      "2023": 23588,
+      "2025": 22844,
+      "2024": 20320,
+      "2022": 17727,
+      "2021": 17069,
+      "2020": 15172,
+      "2019": 13462,
+      "2018": 13135,
+      "2017": 10984,
+      "2016": 10369,
+      "2015": 9026,
+      "2014": 8385,
+      "2013": 8140,
+      "2012": 6670,
+      "2026": 5837,
+      "2011": 5776,
+      "2010": 4857,
+      "2009": 4197,
+      "2008": 3494,
+      "2007": 3391,
+      "2006": 2789,
+      "2005": 2451,
+      "2004": 2061,
+      "2003": 1885,
+      "2002": 1689,
+      "2000": 1628,
+      "2001": 1469
+    },
+    "global environmental change": {
+      "2025": 518878,
+      "2024": 467543,
+      "2023": 453655,
+      "2022": 301661,
+      "2021": 264484,
+      "2020": 231677,
+      "2019": 182245,
+      "2018": 157446,
+      "2017": 136591,
+      "2016": 122322,
+      "2026": 121009,
+      "2015": 108264,
+      "2014": 97851,
+      "2013": 86402,
+      "2012": 74025,
+      "2011": 61474,
+      "2010": 51816,
+      "2009": 43632,
+      "2008": 35134,
+      "2007": 29380,
+      "2006": 24486,
+      "2005": 21143,
+      "2004": 17236,
+      "2003": 14743,
+      "2002": 12230,
+      "2000": 10641,
+      "2001": 10285
+    }
+  }
+}

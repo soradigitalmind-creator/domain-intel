@@ -1,0 +1,1854 @@
+{
+  "slug": "biotechnology",
+  "title": "Biotechnology",
+  "updated_at": "2026-04-05T01:28:35.853646Z",
+  "snapshot": {
+    "papers": 429,
+    "topics": 5,
+    "subtopics": 50,
+    "entities": 1376,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 608,
+      "total_papers": 608,
+      "facet_counts": {
+        "none": 608
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 50,
+    "max_depth": 2,
+    "leaf_topics": 50
+  },
+  "rising_topics": [
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/biotechnology/topics/sg-cell-biology",
+      "trend": "rising",
+      "year_total": 2830523
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/biotechnology/topics/sg-gene-expression",
+      "trend": "rising",
+      "year_total": 4728708
+    },
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/biotechnology/topics/sg-cancer-research",
+      "trend": "rising",
+      "year_total": 4262079
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/biotechnology/topics/sg-cell-biology",
+      "paper_count": 126,
+      "subtopic_count": 15,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "cell biology",
+        "genome editing in human",
+        "haematopoietic stem cell",
+        "haematopoietic stem cell niche"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cell-biology-oxidative-stress",
+          "label": "Oxidative stress",
+          "url": "/domains/biotechnology/topics/sg-cell-biology-oxidative-stress",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-cell-biology-stem-cell",
+          "label": "Stem cell",
+          "url": "/domains/biotechnology/topics/sg-cell-biology-stem-cell",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-cell-biology-endoplasmic-reticulum",
+          "label": "Endoplasmic reticulum",
+          "url": "/domains/biotechnology/topics/sg-cell-biology-endoplasmic-reticulum",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-cell-biology-transcription-factor",
+          "label": "Transcription factor",
+          "url": "/domains/biotechnology/topics/sg-cell-biology-transcription-factor",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-cell-biology-mesenchymal-stem-cell",
+          "label": "Mesenchymal stem cell",
+          "url": "/domains/biotechnology/topics/sg-cell-biology-mesenchymal-stem-cell",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-cell-biology-cell-growth",
+          "label": "Cell growth",
+          "url": "/domains/biotechnology/topics/sg-cell-biology-cell-growth",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/biotechnology/topics/sg-gene-expression",
+      "paper_count": 125,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "dna microarray",
+        "encyclopedia of gene",
+        "encyclopedia of gene genome",
+        "gene expression"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gene-expression-regulation-of-gene-expression",
+          "label": "Regulation of gene expression",
+          "url": "/domains/biotechnology/topics/sg-gene-expression-regulation-of-gene-expression",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-gene-expression-bioinformatics-and-genomic-networks",
+          "label": "Bioinformatics and genomic networks",
+          "url": "/domains/biotechnology/topics/sg-gene-expression-bioinformatics-and-genomic-networks",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-gene-expression-microarray-techniques",
+          "label": "Microarray techniques",
+          "url": "/domains/biotechnology/topics/sg-gene-expression-microarray-techniques",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-gene-expression-genomics",
+          "label": "Genomics",
+          "url": "/domains/biotechnology/topics/sg-gene-expression-genomics",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-gene-expression-complementary-dna",
+          "label": "Complementary dna",
+          "url": "/domains/biotechnology/topics/sg-gene-expression-complementary-dna",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-gene-expression-housekeeping-gene",
+          "label": "Housekeeping gene",
+          "url": "/domains/biotechnology/topics/sg-gene-expression-housekeeping-gene",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/biotechnology/topics/sg-cancer-research",
+      "paper_count": 73,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cancer, cancer research",
+      "tags": [
+        "breast cancer",
+        "cancer research",
+        "colorectal cancer",
+        "lung cancer"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-research-lung-cancer",
+          "label": "Lung cancer",
+          "url": "/domains/biotechnology/topics/sg-cancer-research-lung-cancer",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-cancer-research-stromal-cell",
+          "label": "Stromal cell",
+          "url": "/domains/biotechnology/topics/sg-cancer-research-stromal-cell",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-cancer-research-germline-mutation",
+          "label": "Germline mutation",
+          "url": "/domains/biotechnology/topics/sg-cancer-research-germline-mutation",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-cancer-research-pi3k-akt-mtor-signaling-in-cancer",
+          "label": "Pi3k/akt/mtor signaling in cancer",
+          "url": "/domains/biotechnology/topics/sg-cancer-research-pi3k-akt-mtor-signaling-in-cancer",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cancer-research-pancreatic-cancer",
+          "label": "Pancreatic cancer",
+          "url": "/domains/biotechnology/topics/sg-cancer-research-pancreatic-cancer",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cancer-research-breast-cancer",
+          "label": "Breast cancer",
+          "url": "/domains/biotechnology/topics/sg-cancer-research-breast-cancer",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2125065061",
+          "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 14182,
+          "url": "/domains/biotechnology/papers/W2125065061"
+        },
+        {
+          "source_id": "https://openalex.org/W2899736836",
+          "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 8570,
+          "url": "/domains/biotechnology/papers/W2899736836"
+        },
+        {
+          "source_id": "https://openalex.org/W2735376054",
+          "title": "Health Effects of Overweight and Obesity in 195 Countries over 25 Years",
+          "year": "2017",
+          "cited_by_count": 7820,
+          "url": "/domains/biotechnology/papers/W2735376054"
+        }
+      ]
+    },
+    {
+      "id": "sg-signal-transduction",
+      "label": "Signal transduction",
+      "url": "/domains/biotechnology/topics/sg-signal-transduction",
+      "paper_count": 60,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: of the, in the, in a",
+      "tags": [
+        "glycoprotein 130",
+        "hedgehog signaling pathway",
+        "mapk/erk pathway",
+        "melanoma and mapk pathways"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-signal-transduction-phosphorylation-cascade",
+          "label": "Phosphorylation cascade",
+          "url": "/domains/biotechnology/topics/sg-signal-transduction-phosphorylation-cascade",
+          "paper_count": 50
+        },
+        {
+          "id": "sg-signal-transduction-hedgehog-signaling-pathway",
+          "label": "Hedgehog signaling pathway",
+          "url": "/domains/biotechnology/topics/sg-signal-transduction-hedgehog-signaling-pathway",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-signal-transduction-mapk-erk-pathway",
+          "label": "Mapk/erk pathway",
+          "url": "/domains/biotechnology/topics/sg-signal-transduction-mapk-erk-pathway",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-signal-transduction-glycoprotein-130",
+          "label": "Glycoprotein 130",
+          "url": "/domains/biotechnology/topics/sg-signal-transduction-glycoprotein-130",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-signal-transduction-signal-transducing-adaptor-protein",
+          "label": "Signal transducing adaptor protein",
+          "url": "/domains/biotechnology/topics/sg-signal-transduction-signal-transducing-adaptor-protein",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2097382368",
+          "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+          "year": "1997",
+          "cited_by_count": 39144,
+          "url": "/domains/biotechnology/papers/W2097382368"
+        },
+        {
+          "source_id": "https://openalex.org/W2908631100",
+          "title": "African Journal of Biotechnology",
+          "year": "2026",
+          "cited_by_count": 4538,
+          "url": "/domains/biotechnology/papers/W2908631100"
+        },
+        {
+          "source_id": "https://openalex.org/W2130600976",
+          "title": "African Journal of Agricultural Research",
+          "year": "2026",
+          "cited_by_count": 4071,
+          "url": "/domains/biotechnology/papers/W2130600976"
+        }
+      ]
+    },
+    {
+      "id": "sg-immune-system",
+      "label": "Immune system",
+      "url": "/domains/biotechnology/topics/sg-immune-system",
+      "paper_count": 45,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: immunology, immune system, gene",
+      "tags": [
+        "genome editing in human",
+        "immune escape",
+        "immune system",
+        "inflammasome and immune disorders"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-immune-system-immune-escape",
+          "label": "Immune escape",
+          "url": "/domains/biotechnology/topics/sg-immune-system-immune-escape",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-immune-system-t-cell",
+          "label": "T cell",
+          "url": "/domains/biotechnology/topics/sg-immune-system-t-cell",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-immune-system-innate-immune",
+          "label": "Innate immune",
+          "url": "/domains/biotechnology/topics/sg-immune-system-innate-immune",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-immune-system-multiple-myeloma",
+          "label": "Multiple myeloma",
+          "url": "/domains/biotechnology/topics/sg-immune-system-multiple-myeloma",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-immune-system-microscopic-colitis",
+          "label": "Microscopic colitis",
+          "url": "/domains/biotechnology/topics/sg-immune-system-microscopic-colitis",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-immune-system-inflammasome",
+          "label": "Inflammasome",
+          "url": "/domains/biotechnology/topics/sg-immune-system-inflammasome",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2064815984",
+          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+          "year": "2013",
+          "cited_by_count": 15548,
+          "url": "/domains/biotechnology/papers/W2064815984"
+        },
+        {
+          "source_id": "https://openalex.org/W3018517500",
+          "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+          "year": "2020",
+          "cited_by_count": 4602,
+          "url": "/domains/biotechnology/papers/W3018517500"
+        },
+        {
+          "source_id": "https://openalex.org/W3165479483",
+          "title": "SARS-CoV-2 variants, spike mutations and immune escape",
+          "year": "2021",
+          "cited_by_count": 3818,
+          "url": "/domains/biotechnology/papers/W3165479483"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Gene expression",
+      "paper_count": 17,
+      "papers": [
+        {
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 178865,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2107277218.html"
+        },
+        {
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": "2015",
+          "cited_by_count": 41938,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2146512944.html"
+        },
+        {
+          "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+          "year": "2005",
+          "cited_by_count": 55590,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2130410032.html"
+        },
+        {
+          "title": "Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks",
+          "year": "2003",
+          "cited_by_count": 53237,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2159675211.html"
+        },
+        {
+          "title": "&lt;tt&gt;edgeR&lt;/tt&gt; : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43796,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2114104545.html"
+        },
+        {
+          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+          "year": "2021",
+          "cited_by_count": 20993,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w4251751280.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 15,
+      "papers": [
+        {
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68070,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2131271579.html"
+        },
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31238,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+          "year": "2011",
+          "cited_by_count": 34866,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2036897871.html"
+        },
+        {
+          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+          "year": "2008",
+          "cited_by_count": 37144,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2158217645.html"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23023,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        },
+        {
+          "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+          "year": "2013",
+          "cited_by_count": 28196,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2138207763.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell biology",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+          "year": "1997",
+          "cited_by_count": 66556,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w1964184380.html"
+        },
+        {
+          "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+          "year": "2018",
+          "cited_by_count": 10857,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2900756811.html"
+        }
+      ]
+    },
+    {
+      "label": "Germline mutation",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "African Journal of Biotechnology",
+          "year": "2026",
+          "cited_by_count": 4538,
+          "topic": "Germline mutation",
+          "url": "papers/https-openalex-org-w2908631100.html"
+        },
+        {
+          "title": "African Journal of Agricultural Research",
+          "year": "2026",
+          "cited_by_count": 4071,
+          "topic": "Germline mutation",
+          "url": "papers/https-openalex-org-w2130600976.html"
+        }
+      ]
+    },
+    {
+      "label": "Immune system",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+          "year": "2013",
+          "cited_by_count": 15548,
+          "topic": "Immune system",
+          "url": "papers/https-openalex-org-w2064815984.html"
+        }
+      ]
+    },
+    {
+      "label": "Lung cancer",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+          "year": "2013",
+          "cited_by_count": 47289,
+          "topic": "Lung cancer",
+          "url": "papers/https-openalex-org-w2018289835.html"
+        }
+      ]
+    },
+    {
+      "label": "Microarray techniques",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "&lt;scp&gt;UCSF ChimeraX&lt;/scp&gt;: Structure visualization for researchers, educators, and developers",
+          "year": "2020",
+          "cited_by_count": 9646,
+          "topic": "Microarray techniques",
+          "url": "papers/https-openalex-org-w3083406432.html"
+        }
+      ]
+    },
+    {
+      "label": "Signal transduction",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+          "year": "1997",
+          "cited_by_count": 39144,
+          "topic": "Signal transduction",
+          "url": "papers/https-openalex-org-w2097382368.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 178865,
+      "adjusted_cited_by_count": 35773.0,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68070,
+      "adjusted_cited_by_count": 19650.12,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2018289835",
+      "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+      "year": 2013,
+      "cited_by_count": 47289,
+      "adjusted_cited_by_count": 13115.61,
+      "primary_topic_id": "sg-cancer-research-lung-cancer",
+      "primary_topic_label": "Lung cancer",
+      "url": "/domains/biotechnology/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W2146512944",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "year": 2015,
+      "cited_by_count": 41938,
+      "adjusted_cited_by_count": 12644.78,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66556,
+      "adjusted_cited_by_count": 12359.14,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biotechnology/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W2130410032",
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "year": 2005,
+      "cited_by_count": 55590,
+      "adjusted_cited_by_count": 12130.73,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2130410032"
+    },
+    {
+      "source_id": "https://openalex.org/W2159675211",
+      "title": "Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks",
+      "year": 2003,
+      "cited_by_count": 53237,
+      "adjusted_cited_by_count": 11100.68,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2159675211"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43796,
+      "adjusted_cited_by_count": 10622.09,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31238,
+      "adjusted_cited_by_count": 9418.61,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W4251751280",
+      "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+      "year": 2021,
+      "cited_by_count": 20993,
+      "adjusted_cited_by_count": 9388.36,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W4251751280"
+    },
+    {
+      "source_id": "https://openalex.org/W2036897871",
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "year": 2011,
+      "cited_by_count": 34866,
+      "adjusted_cited_by_count": 9002.36,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2036897871"
+    },
+    {
+      "source_id": "https://openalex.org/W2158217645",
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "year": 2008,
+      "cited_by_count": 37144,
+      "adjusted_cited_by_count": 8754.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2158217645"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23023,
+      "adjusted_cited_by_count": 8701.88,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28196,
+      "adjusted_cited_by_count": 7820.16,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W2102278945",
+      "title": "HISAT: a fast spliced aligner with low memory requirements",
+      "year": 2015,
+      "cited_by_count": 25502,
+      "adjusted_cited_by_count": 7689.14,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2102278945"
+    },
+    {
+      "source_id": "https://openalex.org/W4294216483",
+      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
+      "year": 2000,
+      "cited_by_count": 38440,
+      "adjusted_cited_by_count": 7538.7,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W4294216483"
+    },
+    {
+      "source_id": "https://openalex.org/W2097382368",
+      "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+      "year": 1997,
+      "cited_by_count": 39144,
+      "adjusted_cited_by_count": 7268.86,
+      "primary_topic_id": "sg-signal-transduction",
+      "primary_topic_label": "Signal transduction",
+      "url": "/domains/biotechnology/papers/W2097382368"
+    },
+    {
+      "source_id": "https://openalex.org/W2108244474",
+      "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+      "year": 2001,
+      "cited_by_count": 34582,
+      "adjusted_cited_by_count": 6916.4,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2108244474"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28382,
+      "adjusted_cited_by_count": 6689.7,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18882,
+      "adjusted_cited_by_count": 6675.8,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W2159482845",
+      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
+      "year": 1999,
+      "cited_by_count": 32349,
+      "adjusted_cited_by_count": 6225.57,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2159482845"
+    },
+    {
+      "source_id": "https://openalex.org/W2114570899",
+      "title": "Analyzing real-time PCR data by the comparative CT method",
+      "year": 2008,
+      "cited_by_count": 26312,
+      "adjusted_cited_by_count": 6201.8,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2114570899"
+    },
+    {
+      "source_id": "https://openalex.org/W1999574084",
+      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+      "year": 2011,
+      "cited_by_count": 23023,
+      "adjusted_cited_by_count": 5944.51,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W1999574084"
+    },
+    {
+      "source_id": "https://openalex.org/W2104549677",
+      "title": "A global reference for human genetic variation",
+      "year": 2015,
+      "cited_by_count": 19576,
+      "adjusted_cited_by_count": 5902.39,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2104549677"
+    },
+    {
+      "source_id": "https://openalex.org/W2142678478",
+      "title": "BLAST+: architecture and applications",
+      "year": 2009,
+      "cited_by_count": 22510,
+      "adjusted_cited_by_count": 5459.48,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2142678478"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19194,
+      "adjusted_cited_by_count": 5129.81,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24467,
+      "adjusted_cited_by_count": 4893.4,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2161339576",
+      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+      "year": 2005,
+      "cited_by_count": 21896,
+      "adjusted_cited_by_count": 4778.1,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2161339576"
+    },
+    {
+      "source_id": "https://openalex.org/W4281790889",
+      "title": "ColabFold: making protein folding accessible to all",
+      "year": 2022,
+      "cited_by_count": 9322,
+      "adjusted_cited_by_count": 4661.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W4281790889"
+    },
+    {
+      "source_id": "https://openalex.org/W2908631100",
+      "title": "African Journal of Biotechnology",
+      "year": 2026,
+      "cited_by_count": 4538,
+      "adjusted_cited_by_count": 4538.0,
+      "primary_topic_id": "sg-cancer-research-germline-mutation",
+      "primary_topic_label": "Germline mutation",
+      "url": "/domains/biotechnology/papers/W2908631100"
+    },
+    {
+      "source_id": "https://openalex.org/W2045435533",
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "year": 2012,
+      "cited_by_count": 16955,
+      "adjusted_cited_by_count": 4531.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2045435533"
+    },
+    {
+      "source_id": "https://openalex.org/W2149992227",
+      "title": "The variant call format and VCFtools",
+      "year": 2011,
+      "cited_by_count": 17295,
+      "adjusted_cited_by_count": 4465.55,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2149992227"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16014,
+      "adjusted_cited_by_count": 4441.48,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2064815984",
+      "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+      "year": 2013,
+      "cited_by_count": 15548,
+      "adjusted_cited_by_count": 4312.24,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Immune system",
+      "url": "/domains/biotechnology/papers/W2064815984"
+    },
+    {
+      "source_id": "https://openalex.org/W2099085143",
+      "title": "Second-generation PLINK: rising to the challenge of larger and richer datasets",
+      "year": 2015,
+      "cited_by_count": 13562,
+      "adjusted_cited_by_count": 4089.1,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W2099085143"
+    },
+    {
+      "source_id": "https://openalex.org/W2130600976",
+      "title": "African Journal of Agricultural Research",
+      "year": 2026,
+      "cited_by_count": 4071,
+      "adjusted_cited_by_count": 4071.0,
+      "primary_topic_id": "sg-cancer-research-germline-mutation",
+      "primary_topic_label": "Germline mutation",
+      "url": "/domains/biotechnology/papers/W2130600976"
+    },
+    {
+      "source_id": "https://openalex.org/W1577577364",
+      "title": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes",
+      "year": 2002,
+      "cited_by_count": 19901,
+      "adjusted_cited_by_count": 4062.27,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biotechnology/papers/W1577577364"
+    },
+    {
+      "source_id": "https://openalex.org/W3083406432",
+      "title": "<scp>UCSF ChimeraX</scp>: Structure visualization for researchers, educators, and developers",
+      "year": 2020,
+      "cited_by_count": 9646,
+      "adjusted_cited_by_count": 3937.96,
+      "primary_topic_id": "sg-gene-expression-microarray-techniques",
+      "primary_topic_label": "Microarray techniques",
+      "url": "/domains/biotechnology/papers/W3083406432"
+    },
+    {
+      "source_id": "https://openalex.org/W2900756811",
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "year": 2018,
+      "cited_by_count": 10857,
+      "adjusted_cited_by_count": 3838.53,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biotechnology/papers/W2900756811"
+    },
+    {
+      "source_id": "https://openalex.org/W2168420558",
+      "title": "The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments",
+      "year": 2009,
+      "cited_by_count": 15804,
+      "adjusted_cited_by_count": 3833.03,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biotechnology/papers/W2168420558"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 178865,
+      "adjusted_cited_by_count": 35773.0,
+      "url": "/domains/biotechnology/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68070,
+      "adjusted_cited_by_count": 19650.12,
+      "url": "/domains/biotechnology/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2018289835",
+      "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+      "year": 2013,
+      "cited_by_count": 47289,
+      "adjusted_cited_by_count": 13115.61,
+      "url": "/domains/biotechnology/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W2146512944",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "year": 2015,
+      "cited_by_count": 41938,
+      "adjusted_cited_by_count": 12644.78,
+      "url": "/domains/biotechnology/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66556,
+      "adjusted_cited_by_count": 12359.14,
+      "url": "/domains/biotechnology/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W2130410032",
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "year": 2005,
+      "cited_by_count": 55590,
+      "adjusted_cited_by_count": 12130.73,
+      "url": "/domains/biotechnology/papers/W2130410032"
+    },
+    {
+      "source_id": "https://openalex.org/W2159675211",
+      "title": "Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks",
+      "year": 2003,
+      "cited_by_count": 53237,
+      "adjusted_cited_by_count": 11100.68,
+      "url": "/domains/biotechnology/papers/W2159675211"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43796,
+      "adjusted_cited_by_count": 10622.09,
+      "url": "/domains/biotechnology/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31238,
+      "adjusted_cited_by_count": 9418.61,
+      "url": "/domains/biotechnology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W4251751280",
+      "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+      "year": 2021,
+      "cited_by_count": 20993,
+      "adjusted_cited_by_count": 9388.36,
+      "url": "/domains/biotechnology/papers/W4251751280"
+    },
+    {
+      "source_id": "https://openalex.org/W2036897871",
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "year": 2011,
+      "cited_by_count": 34866,
+      "adjusted_cited_by_count": 9002.36,
+      "url": "/domains/biotechnology/papers/W2036897871"
+    },
+    {
+      "source_id": "https://openalex.org/W2158217645",
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "year": 2008,
+      "cited_by_count": 37144,
+      "adjusted_cited_by_count": 8754.92,
+      "url": "/domains/biotechnology/papers/W2158217645"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23023,
+      "adjusted_cited_by_count": 8701.88,
+      "url": "/domains/biotechnology/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28196,
+      "adjusted_cited_by_count": 7820.16,
+      "url": "/domains/biotechnology/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W2102278945",
+      "title": "HISAT: a fast spliced aligner with low memory requirements",
+      "year": 2015,
+      "cited_by_count": 25502,
+      "adjusted_cited_by_count": 7689.14,
+      "url": "/domains/biotechnology/papers/W2102278945"
+    },
+    {
+      "source_id": "https://openalex.org/W4294216483",
+      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
+      "year": 2000,
+      "cited_by_count": 38440,
+      "adjusted_cited_by_count": 7538.7,
+      "url": "/domains/biotechnology/papers/W4294216483"
+    },
+    {
+      "source_id": "https://openalex.org/W2097382368",
+      "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+      "year": 1997,
+      "cited_by_count": 39144,
+      "adjusted_cited_by_count": 7268.86,
+      "url": "/domains/biotechnology/papers/W2097382368"
+    },
+    {
+      "source_id": "https://openalex.org/W2108244474",
+      "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+      "year": 2001,
+      "cited_by_count": 34582,
+      "adjusted_cited_by_count": 6916.4,
+      "url": "/domains/biotechnology/papers/W2108244474"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28382,
+      "adjusted_cited_by_count": 6689.7,
+      "url": "/domains/biotechnology/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18882,
+      "adjusted_cited_by_count": 6675.8,
+      "url": "/domains/biotechnology/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W2159482845",
+      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
+      "year": 1999,
+      "cited_by_count": 32349,
+      "adjusted_cited_by_count": 6225.57,
+      "url": "/domains/biotechnology/papers/W2159482845"
+    },
+    {
+      "source_id": "https://openalex.org/W2114570899",
+      "title": "Analyzing real-time PCR data by the comparative CT method",
+      "year": 2008,
+      "cited_by_count": 26312,
+      "adjusted_cited_by_count": 6201.8,
+      "url": "/domains/biotechnology/papers/W2114570899"
+    },
+    {
+      "source_id": "https://openalex.org/W1999574084",
+      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+      "year": 2011,
+      "cited_by_count": 23023,
+      "adjusted_cited_by_count": 5944.51,
+      "url": "/domains/biotechnology/papers/W1999574084"
+    },
+    {
+      "source_id": "https://openalex.org/W2104549677",
+      "title": "A global reference for human genetic variation",
+      "year": 2015,
+      "cited_by_count": 19576,
+      "adjusted_cited_by_count": 5902.39,
+      "url": "/domains/biotechnology/papers/W2104549677"
+    },
+    {
+      "source_id": "https://openalex.org/W2142678478",
+      "title": "BLAST+: architecture and applications",
+      "year": 2009,
+      "cited_by_count": 22510,
+      "adjusted_cited_by_count": 5459.48,
+      "url": "/domains/biotechnology/papers/W2142678478"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19194,
+      "adjusted_cited_by_count": 5129.81,
+      "url": "/domains/biotechnology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24467,
+      "adjusted_cited_by_count": 4893.4,
+      "url": "/domains/biotechnology/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2161339576",
+      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+      "year": 2005,
+      "cited_by_count": 21896,
+      "adjusted_cited_by_count": 4778.1,
+      "url": "/domains/biotechnology/papers/W2161339576"
+    },
+    {
+      "source_id": "https://openalex.org/W4281790889",
+      "title": "ColabFold: making protein folding accessible to all",
+      "year": 2022,
+      "cited_by_count": 9322,
+      "adjusted_cited_by_count": 4661.0,
+      "url": "/domains/biotechnology/papers/W4281790889"
+    },
+    {
+      "source_id": "https://openalex.org/W2908631100",
+      "title": "African Journal of Biotechnology",
+      "year": 2026,
+      "cited_by_count": 4538,
+      "adjusted_cited_by_count": 4538.0,
+      "url": "/domains/biotechnology/papers/W2908631100"
+    },
+    {
+      "source_id": "https://openalex.org/W2045435533",
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "year": 2012,
+      "cited_by_count": 16955,
+      "adjusted_cited_by_count": 4531.41,
+      "url": "/domains/biotechnology/papers/W2045435533"
+    },
+    {
+      "source_id": "https://openalex.org/W2149992227",
+      "title": "The variant call format and VCFtools",
+      "year": 2011,
+      "cited_by_count": 17295,
+      "adjusted_cited_by_count": 4465.55,
+      "url": "/domains/biotechnology/papers/W2149992227"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16014,
+      "adjusted_cited_by_count": 4441.48,
+      "url": "/domains/biotechnology/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2064815984",
+      "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+      "year": 2013,
+      "cited_by_count": 15548,
+      "adjusted_cited_by_count": 4312.24,
+      "url": "/domains/biotechnology/papers/W2064815984"
+    },
+    {
+      "source_id": "https://openalex.org/W2099085143",
+      "title": "Second-generation PLINK: rising to the challenge of larger and richer datasets",
+      "year": 2015,
+      "cited_by_count": 13562,
+      "adjusted_cited_by_count": 4089.1,
+      "url": "/domains/biotechnology/papers/W2099085143"
+    },
+    {
+      "source_id": "https://openalex.org/W2130600976",
+      "title": "African Journal of Agricultural Research",
+      "year": 2026,
+      "cited_by_count": 4071,
+      "adjusted_cited_by_count": 4071.0,
+      "url": "/domains/biotechnology/papers/W2130600976"
+    },
+    {
+      "source_id": "https://openalex.org/W1577577364",
+      "title": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes",
+      "year": 2002,
+      "cited_by_count": 19901,
+      "adjusted_cited_by_count": 4062.27,
+      "url": "/domains/biotechnology/papers/W1577577364"
+    },
+    {
+      "source_id": "https://openalex.org/W3083406432",
+      "title": "<scp>UCSF ChimeraX</scp>: Structure visualization for researchers, educators, and developers",
+      "year": 2020,
+      "cited_by_count": 9646,
+      "adjusted_cited_by_count": 3937.96,
+      "url": "/domains/biotechnology/papers/W3083406432"
+    },
+    {
+      "source_id": "https://openalex.org/W2900756811",
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "year": 2018,
+      "cited_by_count": 10857,
+      "adjusted_cited_by_count": 3838.53,
+      "url": "/domains/biotechnology/papers/W2900756811"
+    },
+    {
+      "source_id": "https://openalex.org/W2168420558",
+      "title": "The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments",
+      "year": 2009,
+      "cited_by_count": 15804,
+      "adjusted_cited_by_count": 3833.03,
+      "url": "/domains/biotechnology/papers/W2168420558"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "biology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 515
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 406
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 327
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 290
+    },
+    {
+      "label": "computational biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 252
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 211
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 208
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 206
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 204
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 168
+    },
+    {
+      "label": "genome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 145
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "sequence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 135
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "stem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "rna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 128
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 121
+    },
+    {
+      "label": "biochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 107
+    },
+    {
+      "label": "database",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "cell biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 95
+    },
+    {
+      "label": "genetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 95
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 95
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 91
+    },
+    {
+      "label": "tool",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 91
+    },
+    {
+      "label": "expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 93
+    },
+    {
+      "label": "functional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 86
+    },
+    {
+      "label": "cells",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 84
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 82
+    },
+    {
+      "label": "biotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 80
+    },
+    {
+      "label": "site",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 79
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 84
+    },
+    {
+      "label": "genomic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 75
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 73
+    },
+    {
+      "label": "gene expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 72
+    },
+    {
+      "label": "associated",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 71
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 69
+    },
+    {
+      "label": "dna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 90
+    },
+    {
+      "label": "target",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 64
+    },
+    {
+      "label": "mechanism",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 63
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 75
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 62
+    },
+    {
+      "label": "web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 62
+    },
+    {
+      "label": "enzyme",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 61
+    },
+    {
+      "label": "molecular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 67
+    },
+    {
+      "label": "of gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 57
+    }
+  ],
+  "topic_year_counts": {
+    "cancer research": {
+      "2023": 505779,
+      "2024": 489105,
+      "2025": 431029,
+      "2022": 353043,
+      "2021": 318152,
+      "2020": 290347,
+      "2019": 235022,
+      "2018": 198463,
+      "2017": 180232,
+      "2016": 161759,
+      "2015": 146700,
+      "2014": 131521,
+      "2013": 119885,
+      "2012": 106063,
+      "2026": 99459,
+      "2011": 88564,
+      "2010": 75709,
+      "2009": 58248,
+      "2008": 49747,
+      "2007": 42191,
+      "2006": 37230,
+      "2005": 33358,
+      "2004": 29688,
+      "2003": 24227,
+      "2002": 20675,
+      "2001": 18457,
+      "2000": 17426
+    },
+    "signal transduction": {
+      "2023": 72697,
+      "2024": 65150,
+      "2025": 56914,
+      "2022": 52280,
+      "2021": 50139,
+      "2020": 47386,
+      "2019": 38807,
+      "2017": 35372,
+      "2018": 35156,
+      "2016": 33638,
+      "2014": 32960,
+      "2015": 32723,
+      "2013": 32097,
+      "2012": 30212,
+      "2011": 27468,
+      "2010": 24481,
+      "2009": 22269,
+      "2008": 19924,
+      "2007": 18015,
+      "2006": 17278,
+      "2005": 15831,
+      "2004": 15421,
+      "2003": 14298,
+      "2026": 13860,
+      "2002": 13104,
+      "2001": 12003,
+      "2000": 11322
+    },
+    "immune system": {
+      "2023": 353626,
+      "2024": 334935,
+      "2025": 313149,
+      "2022": 254317,
+      "2021": 238329,
+      "2020": 212492,
+      "2019": 152427,
+      "2018": 134160,
+      "2017": 123038,
+      "2016": 111080,
+      "2015": 100523,
+      "2014": 94296,
+      "2013": 85509,
+      "2012": 76808,
+      "2026": 75169,
+      "2011": 64865,
+      "2010": 54691,
+      "2009": 47218,
+      "2008": 40370,
+      "2007": 35080,
+      "2006": 31797,
+      "2005": 29285,
+      "2004": 25958,
+      "2003": 23455,
+      "2002": 20493,
+      "2000": 17838,
+      "2001": 17723
+    },
+    "cell biology": {
+      "2023": 301643,
+      "2024": 277558,
+      "2025": 253967,
+      "2022": 210829,
+      "2021": 197419,
+      "2020": 186185,
+      "2019": 155896,
+      "2018": 139803,
+      "2017": 128032,
+      "2016": 115043,
+      "2015": 106430,
+      "2014": 100431,
+      "2013": 93022,
+      "2012": 83585,
+      "2011": 70391,
+      "2026": 62683,
+      "2010": 58273,
+      "2009": 49158,
+      "2008": 42292,
+      "2007": 36314,
+      "2006": 31842,
+      "2005": 28348,
+      "2004": 25268,
+      "2003": 21779,
+      "2002": 19367,
+      "2001": 17722,
+      "2000": 17243
+    },
+    "gene expression": {
+      "2023": 433761,
+      "2024": 383982,
+      "2025": 357517,
+      "2022": 314528,
+      "2021": 302281,
+      "2020": 288455,
+      "2019": 240260,
+      "2018": 217140,
+      "2017": 208219,
+      "2016": 194408,
+      "2015": 183088,
+      "2014": 175001,
+      "2013": 166416,
+      "2012": 152796,
+      "2011": 139353,
+      "2010": 123965,
+      "2009": 111167,
+      "2008": 99937,
+      "2007": 90445,
+      "2026": 85667,
+      "2006": 85652,
+      "2005": 78586,
+      "2004": 74250,
+      "2003": 64824,
+      "2002": 56896,
+      "2001": 51358,
+      "2000": 48756
+    }
+  }
+}

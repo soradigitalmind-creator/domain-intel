@@ -1,0 +1,1837 @@
+{
+  "slug": "nanotechnology",
+  "title": "Nanotechnology",
+  "updated_at": "2026-04-05T01:52:15.613696Z",
+  "snapshot": {
+    "papers": 325,
+    "topics": 4,
+    "subtopics": 44,
+    "entities": 1091,
+    "claims": 4
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 668,
+      "total_papers": 668,
+      "facet_counts": {
+        "none": 668
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning applications of nanotechnology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 44,
+    "max_depth": 2,
+    "leaf_topics": 44
+  },
+  "rising_topics": [
+    {
+      "id": "sg-composite-material",
+      "label": "Composite material",
+      "url": "/domains/nanotechnology/topics/sg-composite-material",
+      "trend": "rising",
+      "year_total": 2140368
+    },
+    {
+      "id": "sg-human-health",
+      "label": "Human health",
+      "url": "/domains/nanotechnology/topics/sg-human-health",
+      "trend": "rising",
+      "year_total": 8283351
+    },
+    {
+      "id": "sg-nanotechnology-synthesis",
+      "label": "Nanotechnology synthesis",
+      "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis",
+      "trend": "rising",
+      "year_total": 246745
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-composite-material",
+      "label": "Composite material",
+      "url": "/domains/nanotechnology/topics/sg-composite-material",
+      "paper_count": 123,
+      "subtopic_count": 23,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "aluminum alloys composite property",
+        "carbon nanotube graphene",
+        "composite material",
+        "composite number"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-composite-material-polymer-nanocomposite",
+          "label": "Polymer nanocomposite",
+          "url": "/domains/nanotechnology/topics/sg-composite-material-polymer-nanocomposite",
+          "paper_count": 44
+        },
+        {
+          "id": "sg-composite-material-conductive-polymer",
+          "label": "Conductive polymer",
+          "url": "/domains/nanotechnology/topics/sg-composite-material-conductive-polymer",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-composite-material-liquid-crystal",
+          "label": "Liquid crystal",
+          "url": "/domains/nanotechnology/topics/sg-composite-material-liquid-crystal",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-composite-material-atomically-thin",
+          "label": "Atomically thin",
+          "url": "/domains/nanotechnology/topics/sg-composite-material-atomically-thin",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-composite-material-scanning-electron-microscope",
+          "label": "Scanning electron microscope",
+          "url": "/domains/nanotechnology/topics/sg-composite-material-scanning-electron-microscope",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-composite-material-carbon-fibers",
+          "label": "Carbon fibers",
+          "url": "/domains/nanotechnology/topics/sg-composite-material-carbon-fibers",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-human-health",
+      "label": "Human health",
+      "url": "/domains/nanotechnology/topics/sg-human-health",
+      "paper_count": 107,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "delivery tissue engineering",
+        "drug delivery tissue",
+        "drug delivery tissue engineering",
+        "environmental health"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-human-health-drug-delivery-to-tissues",
+          "label": "Drug delivery to tissues",
+          "url": "/domains/nanotechnology/topics/sg-human-health-drug-delivery-to-tissues",
+          "paper_count": 38
+        },
+        {
+          "id": "sg-human-health-cancer-treatment",
+          "label": "Cancer treatment",
+          "url": "/domains/nanotechnology/topics/sg-human-health-cancer-treatment",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-human-health-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/nanotechnology/topics/sg-human-health-environmental-health",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-human-health-antibacterial-activity-of-nanoparticles",
+          "label": "Antibacterial activity of nanoparticles",
+          "url": "/domains/nanotechnology/topics/sg-human-health-antibacterial-activity-of-nanoparticles",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-human-health-food-processing-safety",
+          "label": "Food processing safety",
+          "url": "/domains/nanotechnology/topics/sg-human-health-food-processing-safety",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-human-health-health-risk",
+          "label": "Health risk",
+          "url": "/domains/nanotechnology/topics/sg-human-health-health-risk",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-nanotechnology-synthesis",
+      "label": "Nanotechnology synthesis",
+      "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis",
+      "paper_count": 62,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: nanotechnology, biochemical engineering, nanoparticle",
+      "tags": [
+        "\"green\" nanotechnology synthesis",
+        "aquatic environment",
+        "biochemical engineering",
+        "green synthesis of nanoparticle"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-nanotechnology-synthesis-nanoparticle-synthesis-in-plants",
+          "label": "Nanoparticle synthesis in plants",
+          "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis-nanoparticle-synthesis-in-plants",
+          "paper_count": 45
+        },
+        {
+          "id": "sg-nanotechnology-synthesis-nanomaterial-applications-in-agricultural-engineering",
+          "label": "Nanomaterial applications in agricultural engineering",
+          "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis-nanomaterial-applications-in-agricultural-engineering",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-nanotechnology-synthesis-potential-environmental-impact-of-nanomaterials",
+          "label": "Potential environmental impact of nanomaterials",
+          "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis-potential-environmental-impact-of-nanomaterials",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-nanotechnology-synthesis-nanomaterial-applications-in-architectural-engineering",
+          "label": "Nanomaterial applications in architectural engineering",
+          "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis-nanomaterial-applications-in-architectural-engineering",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-nanotechnology-synthesis-nanomaterial-applications-in-metabolic-engineering",
+          "label": "Nanomaterial applications in metabolic engineering",
+          "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis-nanomaterial-applications-in-metabolic-engineering",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-nanotechnology-synthesis-nanoparticle-synthesis-in-aquatic-environments",
+          "label": "Nanoparticle synthesis in aquatic environments",
+          "url": "/domains/nanotechnology/topics/sg-nanotechnology-synthesis-nanoparticle-synthesis-in-aquatic-environments",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2091875228",
+          "title": "Towards greener and more sustainable batteries for electrical energy storage",
+          "year": "2014",
+          "cited_by_count": 7534,
+          "url": "/domains/nanotechnology/papers/W2091875228"
+        },
+        {
+          "source_id": "https://openalex.org/W2158558808",
+          "title": "Understanding biophysicochemical interactions at the nano–bio interface",
+          "year": "2009",
+          "cited_by_count": 6871,
+          "url": "/domains/nanotechnology/papers/W2158558808"
+        },
+        {
+          "source_id": "https://openalex.org/W2564178799",
+          "title": "The path towards sustainable energy",
+          "year": "2016",
+          "cited_by_count": 4607,
+          "url": "/domains/nanotechnology/papers/W2564178799"
+        }
+      ]
+    },
+    {
+      "id": "sg-carbon-nanotube",
+      "label": "Carbon nanotube",
+      "url": "/domains/nanotechnology/topics/sg-carbon-nanotube",
+      "paper_count": 33,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: nanotechnology, carbon, carbon nanotube",
+      "tags": [
+        "carbon nanotube",
+        "carbon nanotube actuators",
+        "carbon nanotube composite",
+        "carbon nanotube graphene"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-carbon-nanotube-carbon-nanotube-in-composite",
+          "label": "Carbon nanotube in composite",
+          "url": "/domains/nanotechnology/topics/sg-carbon-nanotube-carbon-nanotube-in-composite",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-carbon-nanotube-oxide-nanoparticle",
+          "label": "Oxide nanoparticle",
+          "url": "/domains/nanotechnology/topics/sg-carbon-nanotube-oxide-nanoparticle",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-carbon-nanotube-transition-metal",
+          "label": "Transition metal",
+          "url": "/domains/nanotechnology/topics/sg-carbon-nanotube-transition-metal",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-carbon-nanotube-hydrogen-storage",
+          "label": "Hydrogen storage",
+          "url": "/domains/nanotechnology/topics/sg-carbon-nanotube-hydrogen-storage",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-carbon-nanotube-nanoscopic-scale",
+          "label": "Nanoscopic scale",
+          "url": "/domains/nanotechnology/topics/sg-carbon-nanotube-nanoscopic-scale",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-carbon-nanotube-risk-assessment",
+          "label": "Risk assessment",
+          "url": "/domains/nanotechnology/topics/sg-carbon-nanotube-risk-assessment",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2094963548",
+          "title": "Carbon Nanotubes--the Route Toward Applications",
+          "year": "2002",
+          "cited_by_count": 10182,
+          "url": "/domains/nanotechnology/papers/W2094963548"
+        },
+        {
+          "source_id": "https://openalex.org/W2603442821",
+          "title": "Sodium-ion batteries: present and future",
+          "year": "2017",
+          "cited_by_count": 4972,
+          "url": "/domains/nanotechnology/papers/W2603442821"
+        },
+        {
+          "source_id": "https://openalex.org/W2082904789",
+          "title": "Single-shell carbon nanotubes of 1-nm diameter",
+          "year": "1993",
+          "cited_by_count": 8871,
+          "url": "/domains/nanotechnology/papers/W2082904789"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Composite material",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Superior Thermal Conductivity of Single-Layer Graphene",
+          "year": "2008",
+          "cited_by_count": 13550,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2146564548.html"
+        },
+        {
+          "title": "Graphene-based composite materials",
+          "year": "2006",
+          "cited_by_count": 12735,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2101977779.html"
+        },
+        {
+          "title": "A roadmap for graphene",
+          "year": "2012",
+          "cited_by_count": 9082,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2163980958.html"
+        },
+        {
+          "title": "Graphene-Based Ultracapacitors",
+          "year": "2008",
+          "cited_by_count": 8269,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2018652376.html"
+        },
+        {
+          "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+          "year": "2003",
+          "cited_by_count": 6698,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2078270919.html"
+        },
+        {
+          "title": "Nonionic Triblock and Star Diblock Copolymer and Oligomeric Surfactant Syntheses of Highly Ordered, Hydrothermally Stable, Mesoporous Silica Structures",
+          "year": "1998",
+          "cited_by_count": 6600,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w1988745485.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Engineering precision nanoparticles for drug delivery",
+          "year": "2020",
+          "cited_by_count": 7004,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3109746568.html"
+        },
+        {
+          "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+          "year": "2003",
+          "cited_by_count": 12291,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2077228161.html"
+        },
+        {
+          "title": "Nanocarriers as an emerging platform for cancer therapy",
+          "year": "2007",
+          "cited_by_count": 8482,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2032760352.html"
+        },
+        {
+          "title": "Cancer nanomedicine: progress, challenges and opportunities",
+          "year": "2016",
+          "cited_by_count": 5499,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2554773181.html"
+        },
+        {
+          "title": "Analysis of nanoparticle delivery to tumours",
+          "year": "2016",
+          "cited_by_count": 4756,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2344644350.html"
+        },
+        {
+          "title": "The path towards sustainable energy",
+          "year": "2016",
+          "cited_by_count": 4607,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2564178799.html"
+        }
+      ]
+    },
+    {
+      "label": "Single-wall carbon",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Nano based drug delivery systems: recent developments and future prospects",
+          "year": "2018",
+          "cited_by_count": 6368,
+          "topic": "Single-wall carbon",
+          "url": "papers/https-openalex-org-w2890167612.html"
+        },
+        {
+          "title": "Fine Structure Constant Defines Visual Transparency of Graphene",
+          "year": "2008",
+          "cited_by_count": 8942,
+          "topic": "Single-wall carbon",
+          "url": "papers/https-openalex-org-w2123510746.html"
+        },
+        {
+          "title": "30 Years of Lithium‐Ion Batteries",
+          "year": "2018",
+          "cited_by_count": 5785,
+          "topic": "Single-wall carbon",
+          "url": "papers/https-openalex-org-w2808025896.html"
+        },
+        {
+          "title": "Recent Advances in Ultrathin Two-Dimensional Nanomaterials",
+          "year": "2017",
+          "cited_by_count": 4965,
+          "topic": "Single-wall carbon",
+          "url": "papers/https-openalex-org-w2597054437.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon nanotube",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Carbon Nanotubes--the Route Toward Applications",
+          "year": "2002",
+          "cited_by_count": 10182,
+          "topic": "Carbon nanotube",
+          "url": "papers/https-openalex-org-w2094963548.html"
+        },
+        {
+          "title": "Sodium-ion batteries: present and future",
+          "year": "2017",
+          "cited_by_count": 4972,
+          "topic": "Carbon nanotube",
+          "url": "papers/https-openalex-org-w2603442821.html"
+        },
+        {
+          "title": "Single-shell carbon nanotubes of 1-nm diameter",
+          "year": "1993",
+          "cited_by_count": 8871,
+          "topic": "Carbon nanotube",
+          "url": "papers/https-openalex-org-w2082904789.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon nanotube in composite",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39164,
+          "topic": "Carbon nanotube in composite",
+          "url": "papers/https-openalex-org-w2014935324.html"
+        },
+        {
+          "title": "Self-Assembled Monolayers of Thiolates on Metals as a Form of Nanotechnology",
+          "year": "2005",
+          "cited_by_count": 8106,
+          "topic": "Carbon nanotube in composite",
+          "url": "papers/https-openalex-org-w2166806803.html"
+        },
+        {
+          "title": "Understanding biophysicochemical interactions at the nano–bio interface",
+          "year": "2009",
+          "cited_by_count": 6871,
+          "topic": "Carbon nanotube in composite",
+          "url": "papers/https-openalex-org-w2158558808.html"
+        }
+      ]
+    },
+    {
+      "label": "Conductive polymer",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Li–O2 and Li–S batteries with high energy storage",
+          "year": "2011",
+          "cited_by_count": 9285,
+          "topic": "Conductive polymer",
+          "url": "papers/https-openalex-org-w2151207643.html"
+        },
+        {
+          "title": "Reviving the lithium metal anode for high-energy batteries",
+          "year": "2017",
+          "cited_by_count": 6465,
+          "topic": "Conductive polymer",
+          "url": "papers/https-openalex-org-w2593815020.html"
+        }
+      ]
+    },
+    {
+      "label": "Hydrogen storage",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Materials for electrochemical capacitors",
+          "year": "2008",
+          "cited_by_count": 15906,
+          "topic": "Hydrogen storage",
+          "url": "papers/https-openalex-org-w2053328406.html"
+        },
+        {
+          "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+          "year": "2014",
+          "cited_by_count": 5243,
+          "topic": "Hydrogen storage",
+          "url": "papers/https-openalex-org-w2162677524.html"
+        }
+      ]
+    },
+    {
+      "label": "Nanotechnology synthesis",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Towards greener and more sustainable batteries for electrical energy storage",
+          "year": "2014",
+          "cited_by_count": 7534,
+          "topic": "Nanotechnology synthesis",
+          "url": "papers/https-openalex-org-w2091875228.html"
+        },
+        {
+          "title": "Nanomaterials with enzyme-like characteristics (nanozymes): next-generation artificial enzymes",
+          "year": "2013",
+          "cited_by_count": 4212,
+          "topic": "Nanotechnology synthesis",
+          "url": "papers/https-openalex-org-w1976652877.html"
+        }
+      ]
+    },
+    {
+      "label": "Antibacterial activity of nanoparticles",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Silver nanoparticles as a new generation of antimicrobials",
+          "year": "2008",
+          "cited_by_count": 5927,
+          "topic": "Antibacterial activity of nanoparticles",
+          "url": "papers/https-openalex-org-w2061073363.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental health",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Quantum dot bioconjugates for imaging, labelling and sensing",
+          "year": "2005",
+          "cited_by_count": 6125,
+          "topic": "Environmental health",
+          "url": "papers/https-openalex-org-w2148924929.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39164,
+      "adjusted_cited_by_count": 8984.84,
+      "primary_topic_id": "sg-carbon-nanotube-carbon-nanotube-in-composite",
+      "primary_topic_label": "Carbon nanotube in composite",
+      "url": "/domains/nanotechnology/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2053328406",
+      "title": "Materials for electrochemical capacitors",
+      "year": 2008,
+      "cited_by_count": 15906,
+      "adjusted_cited_by_count": 3749.08,
+      "primary_topic_id": "sg-carbon-nanotube-hydrogen-storage",
+      "primary_topic_label": "Hydrogen storage",
+      "url": "/domains/nanotechnology/papers/W2053328406"
+    },
+    {
+      "source_id": "https://openalex.org/W2146564548",
+      "title": "Superior Thermal Conductivity of Single-Layer Graphene",
+      "year": 2008,
+      "cited_by_count": 13550,
+      "adjusted_cited_by_count": 3193.77,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W2146564548"
+    },
+    {
+      "source_id": "https://openalex.org/W2096421416",
+      "title": "Van der Waals heterostructures",
+      "year": 2013,
+      "cited_by_count": 10536,
+      "adjusted_cited_by_count": 2922.16,
+      "primary_topic_id": "sg-composite-material-surface-modification",
+      "primary_topic_label": "Surface modification",
+      "url": "/domains/nanotechnology/papers/W2096421416"
+    },
+    {
+      "source_id": "https://openalex.org/W3109746568",
+      "title": "Engineering precision nanoparticles for drug delivery",
+      "year": 2020,
+      "cited_by_count": 7004,
+      "adjusted_cited_by_count": 2859.37,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W3109746568"
+    },
+    {
+      "source_id": "https://openalex.org/W2101977779",
+      "title": "Graphene-based composite materials",
+      "year": 2006,
+      "cited_by_count": 12735,
+      "adjusted_cited_by_count": 2847.63,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W2101977779"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9639,
+      "adjusted_cited_by_count": 2673.38,
+      "primary_topic_id": "sg-carbon-nanotube-transition-metal",
+      "primary_topic_label": "Transition metal",
+      "url": "/domains/nanotechnology/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W2077228161",
+      "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+      "year": 2003,
+      "cited_by_count": 12291,
+      "adjusted_cited_by_count": 2562.85,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W2077228161"
+    },
+    {
+      "source_id": "https://openalex.org/W2163980958",
+      "title": "A roadmap for graphene",
+      "year": 2012,
+      "cited_by_count": 9082,
+      "adjusted_cited_by_count": 2427.27,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W2163980958"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9285,
+      "adjusted_cited_by_count": 2397.38,
+      "primary_topic_id": "sg-composite-material-conductive-polymer",
+      "primary_topic_label": "Conductive polymer",
+      "url": "/domains/nanotechnology/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2890167612",
+      "title": "Nano based drug delivery systems: recent developments and future prospects",
+      "year": 2018,
+      "cited_by_count": 6368,
+      "adjusted_cited_by_count": 2251.43,
+      "primary_topic_id": "sg-carbon-nanotube-single-wall-carbon",
+      "primary_topic_label": "Single-wall carbon",
+      "url": "/domains/nanotechnology/papers/W2890167612"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7534,
+      "adjusted_cited_by_count": 2174.88,
+      "primary_topic_id": "sg-nanotechnology-synthesis",
+      "primary_topic_label": "Nanotechnology synthesis",
+      "url": "/domains/nanotechnology/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2593815020",
+      "title": "Reviving the lithium metal anode for high-energy batteries",
+      "year": 2017,
+      "cited_by_count": 6465,
+      "adjusted_cited_by_count": 2155.0,
+      "primary_topic_id": "sg-composite-material-conductive-polymer",
+      "primary_topic_label": "Conductive polymer",
+      "url": "/domains/nanotechnology/papers/W2593815020"
+    },
+    {
+      "source_id": "https://openalex.org/W2123510746",
+      "title": "Fine Structure Constant Defines Visual Transparency of Graphene",
+      "year": 2008,
+      "cited_by_count": 8942,
+      "adjusted_cited_by_count": 2107.65,
+      "primary_topic_id": "sg-carbon-nanotube-single-wall-carbon",
+      "primary_topic_label": "Single-wall carbon",
+      "url": "/domains/nanotechnology/papers/W2123510746"
+    },
+    {
+      "source_id": "https://openalex.org/W2094963548",
+      "title": "Carbon Nanotubes--the Route Toward Applications",
+      "year": 2002,
+      "cited_by_count": 10182,
+      "adjusted_cited_by_count": 2078.39,
+      "primary_topic_id": "sg-carbon-nanotube",
+      "primary_topic_label": "Carbon nanotube",
+      "url": "/domains/nanotechnology/papers/W2094963548"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5785,
+      "adjusted_cited_by_count": 2045.31,
+      "primary_topic_id": "sg-carbon-nanotube-single-wall-carbon",
+      "primary_topic_label": "Single-wall carbon",
+      "url": "/domains/nanotechnology/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2018652376",
+      "title": "Graphene-Based Ultracapacitors",
+      "year": 2008,
+      "cited_by_count": 8269,
+      "adjusted_cited_by_count": 1949.02,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W2018652376"
+    },
+    {
+      "source_id": "https://openalex.org/W2032760352",
+      "title": "Nanocarriers as an emerging platform for cancer therapy",
+      "year": 2007,
+      "cited_by_count": 8482,
+      "adjusted_cited_by_count": 1945.9,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W2032760352"
+    },
+    {
+      "source_id": "https://openalex.org/W2166806803",
+      "title": "Self-Assembled Monolayers of Thiolates on Metals as a Form of Nanotechnology",
+      "year": 2005,
+      "cited_by_count": 8106,
+      "adjusted_cited_by_count": 1768.87,
+      "primary_topic_id": "sg-carbon-nanotube-carbon-nanotube-in-composite",
+      "primary_topic_label": "Carbon nanotube in composite",
+      "url": "/domains/nanotechnology/papers/W2166806803"
+    },
+    {
+      "source_id": "https://openalex.org/W2047205370",
+      "title": "<scp>WSXM</scp>: A software for scanning probe microscopy and a tool for nanotechnology",
+      "year": 2007,
+      "cited_by_count": 7616,
+      "adjusted_cited_by_count": 1747.23,
+      "primary_topic_id": "sg-composite-material-raman-spectroscopy",
+      "primary_topic_label": "Raman spectroscopy",
+      "url": "/domains/nanotechnology/papers/W2047205370"
+    },
+    {
+      "source_id": "https://openalex.org/W2554773181",
+      "title": "Cancer nanomedicine: progress, challenges and opportunities",
+      "year": 2016,
+      "cited_by_count": 5499,
+      "adjusted_cited_by_count": 1738.94,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W2554773181"
+    },
+    {
+      "source_id": "https://openalex.org/W2158558808",
+      "title": "Understanding biophysicochemical interactions at the nano–bio interface",
+      "year": 2009,
+      "cited_by_count": 6871,
+      "adjusted_cited_by_count": 1666.46,
+      "primary_topic_id": "sg-carbon-nanotube-carbon-nanotube-in-composite",
+      "primary_topic_label": "Carbon nanotube in composite",
+      "url": "/domains/nanotechnology/papers/W2158558808"
+    },
+    {
+      "source_id": "https://openalex.org/W2603442821",
+      "title": "Sodium-ion batteries: present and future",
+      "year": 2017,
+      "cited_by_count": 4972,
+      "adjusted_cited_by_count": 1657.33,
+      "primary_topic_id": "sg-carbon-nanotube",
+      "primary_topic_label": "Carbon nanotube",
+      "url": "/domains/nanotechnology/papers/W2603442821"
+    },
+    {
+      "source_id": "https://openalex.org/W2597054437",
+      "title": "Recent Advances in Ultrathin Two-Dimensional Nanomaterials",
+      "year": 2017,
+      "cited_by_count": 4965,
+      "adjusted_cited_by_count": 1655.0,
+      "primary_topic_id": "sg-carbon-nanotube-single-wall-carbon",
+      "primary_topic_label": "Single-wall carbon",
+      "url": "/domains/nanotechnology/papers/W2597054437"
+    },
+    {
+      "source_id": "https://openalex.org/W2082904789",
+      "title": "Single-shell carbon nanotubes of 1-nm diameter",
+      "year": 1993,
+      "cited_by_count": 8871,
+      "adjusted_cited_by_count": 1544.24,
+      "primary_topic_id": "sg-carbon-nanotube",
+      "primary_topic_label": "Carbon nanotube",
+      "url": "/domains/nanotechnology/papers/W2082904789"
+    },
+    {
+      "source_id": "https://openalex.org/W2162677524",
+      "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+      "year": 2014,
+      "cited_by_count": 5243,
+      "adjusted_cited_by_count": 1513.52,
+      "primary_topic_id": "sg-carbon-nanotube-hydrogen-storage",
+      "primary_topic_label": "Hydrogen storage",
+      "url": "/domains/nanotechnology/papers/W2162677524"
+    },
+    {
+      "source_id": "https://openalex.org/W2344644350",
+      "title": "Analysis of nanoparticle delivery to tumours",
+      "year": 2016,
+      "cited_by_count": 4756,
+      "adjusted_cited_by_count": 1503.98,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W2344644350"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4607,
+      "adjusted_cited_by_count": 1456.86,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2148260760",
+      "title": "The bactericidal effect of silver nanoparticles",
+      "year": 2005,
+      "cited_by_count": 6588,
+      "adjusted_cited_by_count": 1437.62,
+      "primary_topic_id": "sg-carbon-nanotube-nanoscopic-scale",
+      "primary_topic_label": "Nanoscopic scale",
+      "url": "/domains/nanotechnology/papers/W2148260760"
+    },
+    {
+      "source_id": "https://openalex.org/W2071659125",
+      "title": "Synthesis and surface engineering of iron oxide nanoparticles for biomedical applications",
+      "year": 2004,
+      "cited_by_count": 6661,
+      "adjusted_cited_by_count": 1420.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W2071659125"
+    },
+    {
+      "source_id": "https://openalex.org/W2141947008",
+      "title": "Emerging applications of stimuli-responsive polymer materials",
+      "year": 2010,
+      "cited_by_count": 5592,
+      "adjusted_cited_by_count": 1398.0,
+      "primary_topic_id": "sg-composite-material-natural-polymers",
+      "primary_topic_label": "Natural polymers",
+      "url": "/domains/nanotechnology/papers/W2141947008"
+    },
+    {
+      "source_id": "https://openalex.org/W2061073363",
+      "title": "Silver nanoparticles as a new generation of antimicrobials",
+      "year": 2008,
+      "cited_by_count": 5927,
+      "adjusted_cited_by_count": 1397.01,
+      "primary_topic_id": "sg-human-health-antibacterial-activity-of-nanoparticles",
+      "primary_topic_label": "Antibacterial activity of nanoparticles",
+      "url": "/domains/nanotechnology/papers/W2061073363"
+    },
+    {
+      "source_id": "https://openalex.org/W2078270919",
+      "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+      "year": 2003,
+      "cited_by_count": 6698,
+      "adjusted_cited_by_count": 1396.63,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W2078270919"
+    },
+    {
+      "source_id": "https://openalex.org/W2148924929",
+      "title": "Quantum dot bioconjugates for imaging, labelling and sensing",
+      "year": 2005,
+      "cited_by_count": 6125,
+      "adjusted_cited_by_count": 1336.58,
+      "primary_topic_id": "sg-human-health-environmental-health",
+      "primary_topic_label": "Environmental health",
+      "url": "/domains/nanotechnology/papers/W2148924929"
+    },
+    {
+      "source_id": "https://openalex.org/W1990681348",
+      "title": "Review on Zinc Oxide Nanoparticles: Antibacterial Activity and Toxicity Mechanism",
+      "year": 2015,
+      "cited_by_count": 4328,
+      "adjusted_cited_by_count": 1304.94,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/nanotechnology/papers/W1990681348"
+    },
+    {
+      "source_id": "https://openalex.org/W2589067428",
+      "title": "The antimicrobial activity of nanoparticles: present situation and prospects for the future",
+      "year": 2017,
+      "cited_by_count": 3849,
+      "adjusted_cited_by_count": 1283.0,
+      "primary_topic_id": "sg-human-health",
+      "primary_topic_label": "Human health",
+      "url": "/domains/nanotechnology/papers/W2589067428"
+    },
+    {
+      "source_id": "https://openalex.org/W1988745485",
+      "title": "Nonionic Triblock and Star Diblock Copolymer and Oligomeric Surfactant Syntheses of Highly Ordered, Hydrothermally Stable, Mesoporous Silica Structures",
+      "year": 1998,
+      "cited_by_count": 6600,
+      "adjusted_cited_by_count": 1247.28,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W1988745485"
+    },
+    {
+      "source_id": "https://openalex.org/W1589491906",
+      "title": "Concrete: Microstructure, Properties, and Materials",
+      "year": 2005,
+      "cited_by_count": 5661,
+      "adjusted_cited_by_count": 1235.33,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W1589491906"
+    },
+    {
+      "source_id": "https://openalex.org/W2106727463",
+      "title": "Electrospinning: A fascinating fiber fabrication technique",
+      "year": 2010,
+      "cited_by_count": 4858,
+      "adjusted_cited_by_count": 1214.5,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/nanotechnology/papers/W2106727463"
+    },
+    {
+      "source_id": "https://openalex.org/W1976652877",
+      "title": "Nanomaterials with enzyme-like characteristics (nanozymes): next-generation artificial enzymes",
+      "year": 2013,
+      "cited_by_count": 4212,
+      "adjusted_cited_by_count": 1168.2,
+      "primary_topic_id": "sg-nanotechnology-synthesis",
+      "primary_topic_label": "Nanotechnology synthesis",
+      "url": "/domains/nanotechnology/papers/W1976652877"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39164,
+      "adjusted_cited_by_count": 8984.84,
+      "url": "/domains/nanotechnology/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2053328406",
+      "title": "Materials for electrochemical capacitors",
+      "year": 2008,
+      "cited_by_count": 15906,
+      "adjusted_cited_by_count": 3749.08,
+      "url": "/domains/nanotechnology/papers/W2053328406"
+    },
+    {
+      "source_id": "https://openalex.org/W2146564548",
+      "title": "Superior Thermal Conductivity of Single-Layer Graphene",
+      "year": 2008,
+      "cited_by_count": 13550,
+      "adjusted_cited_by_count": 3193.77,
+      "url": "/domains/nanotechnology/papers/W2146564548"
+    },
+    {
+      "source_id": "https://openalex.org/W2096421416",
+      "title": "Van der Waals heterostructures",
+      "year": 2013,
+      "cited_by_count": 10536,
+      "adjusted_cited_by_count": 2922.16,
+      "url": "/domains/nanotechnology/papers/W2096421416"
+    },
+    {
+      "source_id": "https://openalex.org/W3109746568",
+      "title": "Engineering precision nanoparticles for drug delivery",
+      "year": 2020,
+      "cited_by_count": 7004,
+      "adjusted_cited_by_count": 2859.37,
+      "url": "/domains/nanotechnology/papers/W3109746568"
+    },
+    {
+      "source_id": "https://openalex.org/W2101977779",
+      "title": "Graphene-based composite materials",
+      "year": 2006,
+      "cited_by_count": 12735,
+      "adjusted_cited_by_count": 2847.63,
+      "url": "/domains/nanotechnology/papers/W2101977779"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9639,
+      "adjusted_cited_by_count": 2673.38,
+      "url": "/domains/nanotechnology/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W2077228161",
+      "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+      "year": 2003,
+      "cited_by_count": 12291,
+      "adjusted_cited_by_count": 2562.85,
+      "url": "/domains/nanotechnology/papers/W2077228161"
+    },
+    {
+      "source_id": "https://openalex.org/W2163980958",
+      "title": "A roadmap for graphene",
+      "year": 2012,
+      "cited_by_count": 9082,
+      "adjusted_cited_by_count": 2427.27,
+      "url": "/domains/nanotechnology/papers/W2163980958"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9285,
+      "adjusted_cited_by_count": 2397.38,
+      "url": "/domains/nanotechnology/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2890167612",
+      "title": "Nano based drug delivery systems: recent developments and future prospects",
+      "year": 2018,
+      "cited_by_count": 6368,
+      "adjusted_cited_by_count": 2251.43,
+      "url": "/domains/nanotechnology/papers/W2890167612"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7534,
+      "adjusted_cited_by_count": 2174.88,
+      "url": "/domains/nanotechnology/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2593815020",
+      "title": "Reviving the lithium metal anode for high-energy batteries",
+      "year": 2017,
+      "cited_by_count": 6465,
+      "adjusted_cited_by_count": 2155.0,
+      "url": "/domains/nanotechnology/papers/W2593815020"
+    },
+    {
+      "source_id": "https://openalex.org/W2123510746",
+      "title": "Fine Structure Constant Defines Visual Transparency of Graphene",
+      "year": 2008,
+      "cited_by_count": 8942,
+      "adjusted_cited_by_count": 2107.65,
+      "url": "/domains/nanotechnology/papers/W2123510746"
+    },
+    {
+      "source_id": "https://openalex.org/W2094963548",
+      "title": "Carbon Nanotubes--the Route Toward Applications",
+      "year": 2002,
+      "cited_by_count": 10182,
+      "adjusted_cited_by_count": 2078.39,
+      "url": "/domains/nanotechnology/papers/W2094963548"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5785,
+      "adjusted_cited_by_count": 2045.31,
+      "url": "/domains/nanotechnology/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2018652376",
+      "title": "Graphene-Based Ultracapacitors",
+      "year": 2008,
+      "cited_by_count": 8269,
+      "adjusted_cited_by_count": 1949.02,
+      "url": "/domains/nanotechnology/papers/W2018652376"
+    },
+    {
+      "source_id": "https://openalex.org/W2032760352",
+      "title": "Nanocarriers as an emerging platform for cancer therapy",
+      "year": 2007,
+      "cited_by_count": 8482,
+      "adjusted_cited_by_count": 1945.9,
+      "url": "/domains/nanotechnology/papers/W2032760352"
+    },
+    {
+      "source_id": "https://openalex.org/W2166806803",
+      "title": "Self-Assembled Monolayers of Thiolates on Metals as a Form of Nanotechnology",
+      "year": 2005,
+      "cited_by_count": 8106,
+      "adjusted_cited_by_count": 1768.87,
+      "url": "/domains/nanotechnology/papers/W2166806803"
+    },
+    {
+      "source_id": "https://openalex.org/W2047205370",
+      "title": "<scp>WSXM</scp>: A software for scanning probe microscopy and a tool for nanotechnology",
+      "year": 2007,
+      "cited_by_count": 7616,
+      "adjusted_cited_by_count": 1747.23,
+      "url": "/domains/nanotechnology/papers/W2047205370"
+    },
+    {
+      "source_id": "https://openalex.org/W2554773181",
+      "title": "Cancer nanomedicine: progress, challenges and opportunities",
+      "year": 2016,
+      "cited_by_count": 5499,
+      "adjusted_cited_by_count": 1738.94,
+      "url": "/domains/nanotechnology/papers/W2554773181"
+    },
+    {
+      "source_id": "https://openalex.org/W2158558808",
+      "title": "Understanding biophysicochemical interactions at the nano–bio interface",
+      "year": 2009,
+      "cited_by_count": 6871,
+      "adjusted_cited_by_count": 1666.46,
+      "url": "/domains/nanotechnology/papers/W2158558808"
+    },
+    {
+      "source_id": "https://openalex.org/W2603442821",
+      "title": "Sodium-ion batteries: present and future",
+      "year": 2017,
+      "cited_by_count": 4972,
+      "adjusted_cited_by_count": 1657.33,
+      "url": "/domains/nanotechnology/papers/W2603442821"
+    },
+    {
+      "source_id": "https://openalex.org/W2597054437",
+      "title": "Recent Advances in Ultrathin Two-Dimensional Nanomaterials",
+      "year": 2017,
+      "cited_by_count": 4965,
+      "adjusted_cited_by_count": 1655.0,
+      "url": "/domains/nanotechnology/papers/W2597054437"
+    },
+    {
+      "source_id": "https://openalex.org/W2082904789",
+      "title": "Single-shell carbon nanotubes of 1-nm diameter",
+      "year": 1993,
+      "cited_by_count": 8871,
+      "adjusted_cited_by_count": 1544.24,
+      "url": "/domains/nanotechnology/papers/W2082904789"
+    },
+    {
+      "source_id": "https://openalex.org/W2162677524",
+      "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+      "year": 2014,
+      "cited_by_count": 5243,
+      "adjusted_cited_by_count": 1513.52,
+      "url": "/domains/nanotechnology/papers/W2162677524"
+    },
+    {
+      "source_id": "https://openalex.org/W2344644350",
+      "title": "Analysis of nanoparticle delivery to tumours",
+      "year": 2016,
+      "cited_by_count": 4756,
+      "adjusted_cited_by_count": 1503.98,
+      "url": "/domains/nanotechnology/papers/W2344644350"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4607,
+      "adjusted_cited_by_count": 1456.86,
+      "url": "/domains/nanotechnology/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2148260760",
+      "title": "The bactericidal effect of silver nanoparticles",
+      "year": 2005,
+      "cited_by_count": 6588,
+      "adjusted_cited_by_count": 1437.62,
+      "url": "/domains/nanotechnology/papers/W2148260760"
+    },
+    {
+      "source_id": "https://openalex.org/W2071659125",
+      "title": "Synthesis and surface engineering of iron oxide nanoparticles for biomedical applications",
+      "year": 2004,
+      "cited_by_count": 6661,
+      "adjusted_cited_by_count": 1420.13,
+      "url": "/domains/nanotechnology/papers/W2071659125"
+    },
+    {
+      "source_id": "https://openalex.org/W2141947008",
+      "title": "Emerging applications of stimuli-responsive polymer materials",
+      "year": 2010,
+      "cited_by_count": 5592,
+      "adjusted_cited_by_count": 1398.0,
+      "url": "/domains/nanotechnology/papers/W2141947008"
+    },
+    {
+      "source_id": "https://openalex.org/W2061073363",
+      "title": "Silver nanoparticles as a new generation of antimicrobials",
+      "year": 2008,
+      "cited_by_count": 5927,
+      "adjusted_cited_by_count": 1397.01,
+      "url": "/domains/nanotechnology/papers/W2061073363"
+    },
+    {
+      "source_id": "https://openalex.org/W2078270919",
+      "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+      "year": 2003,
+      "cited_by_count": 6698,
+      "adjusted_cited_by_count": 1396.63,
+      "url": "/domains/nanotechnology/papers/W2078270919"
+    },
+    {
+      "source_id": "https://openalex.org/W2148924929",
+      "title": "Quantum dot bioconjugates for imaging, labelling and sensing",
+      "year": 2005,
+      "cited_by_count": 6125,
+      "adjusted_cited_by_count": 1336.58,
+      "url": "/domains/nanotechnology/papers/W2148924929"
+    },
+    {
+      "source_id": "https://openalex.org/W1990681348",
+      "title": "Review on Zinc Oxide Nanoparticles: Antibacterial Activity and Toxicity Mechanism",
+      "year": 2015,
+      "cited_by_count": 4328,
+      "adjusted_cited_by_count": 1304.94,
+      "url": "/domains/nanotechnology/papers/W1990681348"
+    },
+    {
+      "source_id": "https://openalex.org/W2589067428",
+      "title": "The antimicrobial activity of nanoparticles: present situation and prospects for the future",
+      "year": 2017,
+      "cited_by_count": 3849,
+      "adjusted_cited_by_count": 1283.0,
+      "url": "/domains/nanotechnology/papers/W2589067428"
+    },
+    {
+      "source_id": "https://openalex.org/W1988745485",
+      "title": "Nonionic Triblock and Star Diblock Copolymer and Oligomeric Surfactant Syntheses of Highly Ordered, Hydrothermally Stable, Mesoporous Silica Structures",
+      "year": 1998,
+      "cited_by_count": 6600,
+      "adjusted_cited_by_count": 1247.28,
+      "url": "/domains/nanotechnology/papers/W1988745485"
+    },
+    {
+      "source_id": "https://openalex.org/W1589491906",
+      "title": "Concrete: Microstructure, Properties, and Materials",
+      "year": 2005,
+      "cited_by_count": 5661,
+      "adjusted_cited_by_count": 1235.33,
+      "url": "/domains/nanotechnology/papers/W1589491906"
+    },
+    {
+      "source_id": "https://openalex.org/W2106727463",
+      "title": "Electrospinning: A fascinating fiber fabrication technique",
+      "year": 2010,
+      "cited_by_count": 4858,
+      "adjusted_cited_by_count": 1214.5,
+      "url": "/domains/nanotechnology/papers/W2106727463"
+    },
+    {
+      "source_id": "https://openalex.org/W1976652877",
+      "title": "Nanomaterials with enzyme-like characteristics (nanozymes): next-generation artificial enzymes",
+      "year": 2013,
+      "cited_by_count": 4212,
+      "adjusted_cited_by_count": 1168.2,
+      "url": "/domains/nanotechnology/papers/W1976652877"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 597
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 585
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 302
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 263
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 257
+    },
+    {
+      "label": "nanoparticle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 248
+    },
+    {
+      "label": "particle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 215
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 201
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 162
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 158
+    },
+    {
+      "label": "chemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 156
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 150
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 150
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 148
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 148
+    },
+    {
+      "label": "drug delivery",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 146
+    },
+    {
+      "label": "size",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 128
+    },
+    {
+      "label": "applications of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "activity",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 119
+    },
+    {
+      "label": "applications in",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 119
+    },
+    {
+      "label": "nanomaterials",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 119
+    },
+    {
+      "label": "published inissue",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
+    },
+    {
+      "label": "published online",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
+    },
+    {
+      "label": "electron",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 118
+    },
+    {
+      "label": "composite material",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 114
+    },
+    {
+      "label": "metal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 113
+    },
+    {
+      "label": "drug",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.989,
+      "evidence_count": 108
+    },
+    {
+      "label": "synthesis",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.989,
+      "evidence_count": 108
+    },
+    {
+      "label": "functional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 103
+    },
+    {
+      "label": "organic chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 90
+    },
+    {
+      "label": "biological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 89
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 87
+    },
+    {
+      "label": "electronic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 87
+    },
+    {
+      "label": "mechanism",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 87
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 86
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 81
+    },
+    {
+      "label": "development of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 81
+    },
+    {
+      "label": "polymer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 80
+    },
+    {
+      "label": "chemical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 78
+    },
+    {
+      "label": "medical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 78
+    },
+    {
+      "label": "of nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 78
+    },
+    {
+      "label": "molecule",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 72
+    },
+    {
+      "label": "property of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 72
+    },
+    {
+      "label": "of nanoparticle",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9857,
+      "evidence_count": 68
+    },
+    {
+      "label": "nanomedicine",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9856,
+      "evidence_count": 67
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9854,
+      "evidence_count": 65
+    },
+    {
+      "label": "toxicity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 64
+    },
+    {
+      "label": "physical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 68
+    }
+  ],
+  "topic_year_counts": {
+    "nanotechnology synthesis": {
+      "2023": 33584,
+      "2024": 31875,
+      "2025": 30679,
+      "2022": 21432,
+      "2021": 18517,
+      "2020": 16247,
+      "2019": 13727,
+      "2018": 11911,
+      "2017": 10859,
+      "2016": 9238,
+      "2015": 8309,
+      "2026": 7529,
+      "2014": 7093,
+      "2013": 6144,
+      "2012": 5168,
+      "2011": 3998,
+      "2010": 2814,
+      "2009": 2087,
+      "2008": 1485,
+      "2007": 1158,
+      "2006": 908,
+      "2005": 647,
+      "2004": 458,
+      "2003": 313,
+      "2000": 238,
+      "2002": 192,
+      "2001": 135
+    },
+    "carbon nanotube": {
+      "2023": 51699,
+      "2024": 46190,
+      "2025": 42835,
+      "2022": 36608,
+      "2021": 33186,
+      "2020": 31015,
+      "2019": 28267,
+      "2018": 25859,
+      "2017": 23839,
+      "2016": 22381,
+      "2015": 21108,
+      "2014": 19984,
+      "2013": 19000,
+      "2012": 17093,
+      "2011": 16143,
+      "2010": 13741,
+      "2009": 12034,
+      "2008": 10773,
+      "2026": 10036,
+      "2007": 9571,
+      "2006": 8616,
+      "2005": 6558,
+      "2004": 5438,
+      "2003": 4022,
+      "2002": 3004,
+      "2001": 2143,
+      "2000": 1568
+    },
+    "composite material": {
+      "2025": 249052,
+      "2023": 248881,
+      "2024": 239915,
+      "2022": 176189,
+      "2021": 151973,
+      "2020": 132979,
+      "2019": 113269,
+      "2018": 98748,
+      "2017": 86338,
+      "2016": 76331,
+      "2015": 70320,
+      "2026": 66652,
+      "2014": 63513,
+      "2013": 56554,
+      "2012": 49036,
+      "2011": 42644,
+      "2010": 35233,
+      "2009": 29804,
+      "2008": 26580,
+      "2007": 23484,
+      "2006": 21081,
+      "2005": 18061,
+      "2004": 15567,
+      "2003": 14004,
+      "2002": 12777,
+      "2001": 10791,
+      "2000": 10592
+    },
+    "human health": {
+      "2023": 976383,
+      "2024": 941414,
+      "2025": 910998,
+      "2022": 707326,
+      "2021": 636681,
+      "2020": 576986,
+      "2019": 434063,
+      "2018": 377318,
+      "2017": 337411,
+      "2016": 299287,
+      "2015": 270744,
+      "2014": 248017,
+      "2013": 219167,
+      "2026": 205012,
+      "2012": 189601,
+      "2011": 159534,
+      "2010": 135700,
+      "2009": 116183,
+      "2008": 97036,
+      "2007": 82884,
+      "2006": 73760,
+      "2005": 65240,
+      "2004": 57342,
+      "2003": 49421,
+      "2002": 42172,
+      "2000": 36876,
+      "2001": 36795
+    }
+  }
+}

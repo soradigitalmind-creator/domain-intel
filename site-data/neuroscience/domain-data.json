@@ -1,0 +1,2591 @@
+{
+  "slug": "neuroscience",
+  "title": "Neuroscience",
+  "updated_at": "2026-04-05T01:55:51.509152Z",
+  "snapshot": {
+    "papers": 405,
+    "topics": 12,
+    "subtopics": 62,
+    "entities": 802,
+    "claims": 4
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 381,
+      "total_papers": 381,
+      "facet_counts": {
+        "none": 381
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning affective neuroscience.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 12,
+    "descendant_topics": 62,
+    "max_depth": 2,
+    "leaf_topics": 63
+  },
+  "rising_topics": [
+    {
+      "id": "sg-functional-connectivity",
+      "label": "Functional connectivity",
+      "url": "/domains/neuroscience/topics/sg-functional-connectivity",
+      "trend": "rising",
+      "year_total": 913271
+    },
+    {
+      "id": "sg-cognitive-neuroscience",
+      "label": "Cognitive neuroscience",
+      "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience",
+      "trend": "rising",
+      "year_total": 652515
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/neuroscience/topics/sg-cell-biology",
+      "trend": "rising",
+      "year_total": 2830523
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-functional-connectivity",
+      "label": "Functional connectivity",
+      "url": "/domains/neuroscience/topics/sg-functional-connectivity",
+      "paper_count": 83,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: neuroscience, functional connectivity, functions",
+      "tags": [
+        "brain activity and meditation",
+        "functional connectivity",
+        "functional connectivity interpretational",
+        "functional magnetic resonance imaging"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-functional-connectivity-magnetic-resonance-imaging",
+          "label": "Magnetic resonance imaging",
+          "url": "/domains/neuroscience/topics/sg-functional-connectivity-magnetic-resonance-imaging",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-functional-connectivity-functional-neuroimaging",
+          "label": "Functional neuroimaging",
+          "url": "/domains/neuroscience/topics/sg-functional-connectivity-functional-neuroimaging",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-functional-connectivity-brain-activity",
+          "label": "Brain activity",
+          "url": "/domains/neuroscience/topics/sg-functional-connectivity-brain-activity",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-functional-connectivity-resting-state-fmri",
+          "label": "Resting-state fMRI",
+          "url": "/domains/neuroscience/topics/sg-functional-connectivity-resting-state-fmri",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-functional-connectivity-functional-integration",
+          "label": "Functional integration",
+          "url": "/domains/neuroscience/topics/sg-functional-connectivity-functional-integration",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-functional-connectivity-brain-activity-and-meditation",
+          "label": "Brain activity and meditation",
+          "url": "/domains/neuroscience/topics/sg-functional-connectivity-brain-activity-and-meditation",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2167822639",
+          "title": "Complex network measures of brain connectivity: Uses and interpretations",
+          "year": "2009",
+          "cited_by_count": 11779,
+          "url": "/domains/neuroscience/papers/W2167822639"
+        },
+        {
+          "source_id": "https://openalex.org/W2166073443",
+          "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+          "year": "2010",
+          "cited_by_count": 11123,
+          "url": "/domains/neuroscience/papers/W2166073443"
+        },
+        {
+          "source_id": "https://openalex.org/W2153791616",
+          "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+          "year": "2013",
+          "cited_by_count": 5692,
+          "url": "/domains/neuroscience/papers/W2153791616"
+        }
+      ]
+    },
+    {
+      "id": "sg-cognitive-neuroscience",
+      "label": "Cognitive neuroscience",
+      "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience",
+      "paper_count": 59,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: neuroscience, cognitive psychology, cognitive",
+      "tags": [
+        "behavioral neuroscience",
+        "cognitive neuroscience",
+        "cognitive neuroscience biology",
+        "cultural neuroscience"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cognitive-neuroscience-cognitive-neuropsychology",
+          "label": "Cognitive neuropsychology",
+          "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience-cognitive-neuropsychology",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-cognitive-neuroscience-mental-image",
+          "label": "Mental image",
+          "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience-mental-image",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-cognitive-neuroscience-neuroscience-of-education-and-cognitive-function",
+          "label": "Neuroscience of education and cognitive function",
+          "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience-neuroscience-of-education-and-cognitive-function",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cognitive-neuroscience-cognitive-psychology",
+          "label": "Cognitive psychology",
+          "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience-cognitive-psychology",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cognitive-neuroscience-cognitive-aging",
+          "label": "Cognitive aging",
+          "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience-cognitive-aging",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cognitive-neuroscience-context-archaeology",
+          "label": "Context archaeology",
+          "url": "/domains/neuroscience/topics/sg-cognitive-neuroscience-context-archaeology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1536620489",
+          "title": "An Introduction to the Event-Related Potential Technique",
+          "year": "2005",
+          "cited_by_count": 6065,
+          "url": "/domains/neuroscience/papers/W1536620489"
+        },
+        {
+          "source_id": "https://openalex.org/W2150375089",
+          "title": "Perceptual symbol systems",
+          "year": "1999",
+          "cited_by_count": 6680,
+          "url": "/domains/neuroscience/papers/W2150375089"
+        },
+        {
+          "source_id": "https://openalex.org/W1898014694",
+          "title": "The Cognitive neurosciences",
+          "year": "2005",
+          "cited_by_count": 4734,
+          "url": "/domains/neuroscience/papers/W1898014694"
+        }
+      ]
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/neuroscience/topics/sg-cell-biology",
+      "paper_count": 53,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: neuroscience, rat, of the",
+      "tags": [
+        "cell biology",
+        "cell culture",
+        "embryonic stem cell",
+        "granule cell"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cell-biology-neural-stem-cell",
+          "label": "Neural stem cell",
+          "url": "/domains/neuroscience/topics/sg-cell-biology-neural-stem-cell",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-cell-biology-gene-expression",
+          "label": "Gene expression",
+          "url": "/domains/neuroscience/topics/sg-cell-biology-gene-expression",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cell-biology-metabotropic-receptor",
+          "label": "Metabotropic receptor",
+          "url": "/domains/neuroscience/topics/sg-cell-biology-metabotropic-receptor",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cell-biology-embryonic-stem-cell",
+          "label": "Embryonic stem cell",
+          "url": "/domains/neuroscience/topics/sg-cell-biology-embryonic-stem-cell",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cell-biology-medium-spiny-neuron",
+          "label": "Medium spiny neuron",
+          "url": "/domains/neuroscience/topics/sg-cell-biology-medium-spiny-neuron",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cell-biology-cell-culture",
+          "label": "Cell culture",
+          "url": "/domains/neuroscience/topics/sg-cell-biology-cell-culture",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2104135721",
+          "title": "A robust and high-throughput Cre reporting and characterization system for the whole mouse brain",
+          "year": "2009",
+          "cited_by_count": 7256,
+          "url": "/domains/neuroscience/papers/W2104135721"
+        },
+        {
+          "source_id": "https://openalex.org/W2148898943",
+          "title": "Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages",
+          "year": "2010",
+          "cited_by_count": 5013,
+          "url": "/domains/neuroscience/papers/W2148898943"
+        },
+        {
+          "source_id": "https://openalex.org/W2067856703",
+          "title": "Neurogenesis in the adult human hippocampus",
+          "year": "1998",
+          "cited_by_count": 6285,
+          "url": "/domains/neuroscience/papers/W2067856703"
+        }
+      ]
+    },
+    {
+      "id": "sg-hippocampal-formation",
+      "label": "Hippocampal formation",
+      "url": "/domains/neuroscience/topics/sg-hippocampal-formation",
+      "paper_count": 46,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: hippocampal formation, neuroscience, rat",
+      "tags": [
+        "dentate gyrus",
+        "hippocampal formation",
+        "hippocampal formation ex",
+        "neuroscience and neural engineering"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-hippocampal-formation-long-term-potentiation",
+          "label": "Long-term potentiation",
+          "url": "/domains/neuroscience/topics/sg-hippocampal-formation-long-term-potentiation",
+          "paper_count": 26
+        },
+        {
+          "id": "sg-hippocampal-formation-cognitive-psychology",
+          "label": "Cognitive psychology",
+          "url": "/domains/neuroscience/topics/sg-hippocampal-formation-cognitive-psychology",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-hippocampal-formation-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/neuroscience/topics/sg-hippocampal-formation-cognitive-science",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-hippocampal-formation-apical-dendrite",
+          "label": "Apical dendrite",
+          "url": "/domains/neuroscience/topics/sg-hippocampal-formation-apical-dendrite",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2138884119",
+          "title": "The Lifelong Effects of Early Childhood Adversity and Toxic Stress",
+          "year": "2011",
+          "cited_by_count": 4956,
+          "url": "/domains/neuroscience/papers/W2138884119"
+        },
+        {
+          "source_id": "https://openalex.org/W2169134378",
+          "title": "The Neural Basis of Decision Making",
+          "year": "2007",
+          "cited_by_count": 3943,
+          "url": "/domains/neuroscience/papers/W2169134378"
+        },
+        {
+          "source_id": "https://openalex.org/W2147101007",
+          "title": "Synaptic Modifications in Cultured Hippocampal Neurons: Dependence on Spike Timing, Synaptic Strength, and Postsynaptic Cell Type",
+          "year": "1998",
+          "cited_by_count": 4738,
+          "url": "/domains/neuroscience/papers/W2147101007"
+        }
+      ]
+    },
+    {
+      "id": "sg-cerebral-cortex",
+      "label": "Cerebral cortex",
+      "url": "/domains/neuroscience/topics/sg-cerebral-cortex",
+      "paper_count": 42,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: neuroscience, cerebral cortex, in the",
+      "tags": [
+        "cerebral cortex",
+        "cingulate cortex",
+        "human cerebral cortex",
+        "mouse cerebral cortex"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cerebral-cortex-cingulate-cortex",
+          "label": "Cingulate cortex",
+          "url": "/domains/neuroscience/topics/sg-cerebral-cortex-cingulate-cortex",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-cerebral-cortex-visual-perception-and-processing",
+          "label": "Visual perception and processing",
+          "url": "/domains/neuroscience/topics/sg-cerebral-cortex-visual-perception-and-processing",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-cerebral-cortex-extrastriate-cortex",
+          "label": "Extrastriate cortex",
+          "url": "/domains/neuroscience/topics/sg-cerebral-cortex-extrastriate-cortex",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cerebral-cortex-posterior-parietal-cortex",
+          "label": "Posterior parietal cortex",
+          "url": "/domains/neuroscience/topics/sg-cerebral-cortex-posterior-parietal-cortex",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cerebral-cortex-entorhinal-cortex",
+          "label": "Entorhinal cortex",
+          "url": "/domains/neuroscience/topics/sg-cerebral-cortex-entorhinal-cortex",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cerebral-cortex-insular-cortex",
+          "label": "Insular cortex",
+          "url": "/domains/neuroscience/topics/sg-cerebral-cortex-insular-cortex",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2913606428",
+          "title": "PsychoPy2: Experiments in behavior made easy",
+          "year": "2019",
+          "cited_by_count": 5210,
+          "url": "/domains/neuroscience/papers/W2913606428"
+        },
+        {
+          "source_id": "https://openalex.org/W2171332611",
+          "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity",
+          "year": "2013",
+          "cited_by_count": 6986,
+          "url": "/domains/neuroscience/papers/W2171332611"
+        },
+        {
+          "source_id": "https://openalex.org/W2499800833",
+          "title": "A multi-modal parcellation of human cerebral cortex",
+          "year": "2016",
+          "cited_by_count": 5482,
+          "url": "/domains/neuroscience/papers/W2499800833"
+        }
+      ]
+    },
+    {
+      "id": "sg-central-nervous",
+      "label": "Central nervous",
+      "url": "/domains/neuroscience/topics/sg-central-nervous",
+      "paper_count": 32,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: neuroscience, central nervous system, rat",
+      "tags": [
+        "central nervous system",
+        "neuroinflammation and neurodegeneration mechanisms",
+        "role of microglia",
+        "systems neuroscience"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-central-nervous-multiple-sclerosis",
+          "label": "Multiple sclerosis",
+          "url": "/domains/neuroscience/topics/sg-central-nervous-multiple-sclerosis",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-central-nervous-glial-scars",
+          "label": "Glial scars",
+          "url": "/domains/neuroscience/topics/sg-central-nervous-glial-scars",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-central-nervous-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/neuroscience/topics/sg-central-nervous-cognitive-science",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-central-nervous-basal-ganglia",
+          "label": "Basal ganglia",
+          "url": "/domains/neuroscience/topics/sg-central-nervous-basal-ganglia",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-central-nervous-gfap",
+          "label": "GFAP",
+          "url": "/domains/neuroscience/topics/sg-central-nervous-gfap",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1996024251",
+          "title": "Copper-Zinc Superoxide Dismutase (SOD1) Is Released by Microglial Cells and Confers Neuroprotection against 6-OHDA Neurotoxicity",
+          "year": "2012",
+          "cited_by_count": 9017,
+          "url": "/domains/neuroscience/papers/W1996024251"
+        },
+        {
+          "source_id": "https://openalex.org/W2074661552",
+          "title": "Astrocytes: biology and pathology",
+          "year": "2009",
+          "cited_by_count": 5065,
+          "url": "/domains/neuroscience/papers/W2074661552"
+        },
+        {
+          "source_id": "https://openalex.org/W2167095271",
+          "title": "Millisecond-timescale, genetically targeted optical control of neural activity",
+          "year": "2005",
+          "cited_by_count": 4878,
+          "url": "/domains/neuroscience/papers/W2167095271"
+        }
+      ]
+    },
+    {
+      "id": "sg-affective-neuroscience",
+      "label": "Affective neuroscience",
+      "url": "/domains/neuroscience/topics/sg-affective-neuroscience",
+      "paper_count": 22,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: neuroscience, cognitive psychology, cognitive science",
+      "tags": [
+        "affective neuroscience",
+        "affective neuroscience foundations",
+        "affective neuroscience, cognitive",
+        "affective social neuroscience"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-affective-neuroscience-affective-neuroscience-cognitive",
+          "label": "Affective neuroscience, cognitive",
+          "url": "/domains/neuroscience/topics/sg-affective-neuroscience-affective-neuroscience-cognitive",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-affective-neuroscience-cognitive-psychology",
+          "label": "Cognitive psychology",
+          "url": "/domains/neuroscience/topics/sg-affective-neuroscience-cognitive-psychology",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2158553737",
+          "title": "Emotion Circuits in the Brain",
+          "year": "2000",
+          "cited_by_count": 8308,
+          "url": "/domains/neuroscience/papers/W2158553737"
+        },
+        {
+          "source_id": "https://openalex.org/W1494186755",
+          "title": "Handbook of Affective Sciences",
+          "year": "2002",
+          "cited_by_count": 5093,
+          "url": "/domains/neuroscience/papers/W1494186755"
+        },
+        {
+          "source_id": "https://openalex.org/W4388250061",
+          "title": "Affective Neuroscience",
+          "year": "1998",
+          "cited_by_count": 4151,
+          "url": "/domains/neuroscience/papers/W4388250061"
+        }
+      ]
+    },
+    {
+      "id": "sg-prefrontal-cortex",
+      "label": "Prefrontal cortex",
+      "url": "/domains/neuroscience/topics/sg-prefrontal-cortex",
+      "paper_count": 20,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: neuroscience, cognitive, cognitive psychology",
+      "tags": [
+        "anterior cingulate cortex",
+        "consumer neuroscience",
+        "hemispheric asymmetry in neuroscience",
+        "orbitofrontal cortex"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-prefrontal-cortex-working-memory",
+          "label": "Working memory",
+          "url": "/domains/neuroscience/topics/sg-prefrontal-cortex-working-memory",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-prefrontal-cortex-cognitive-reappraisal",
+          "label": "Cognitive reappraisal",
+          "url": "/domains/neuroscience/topics/sg-prefrontal-cortex-cognitive-reappraisal",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-prefrontal-cortex-orbitofrontal-cortex",
+          "label": "Orbitofrontal cortex",
+          "url": "/domains/neuroscience/topics/sg-prefrontal-cortex-orbitofrontal-cortex",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-prefrontal-cortex-ventromedial-prefrontal-cortex",
+          "label": "Ventromedial prefrontal cortex",
+          "url": "/domains/neuroscience/topics/sg-prefrontal-cortex-ventromedial-prefrontal-cortex",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-prefrontal-cortex-frontal-cortex",
+          "label": "Frontal cortex",
+          "url": "/domains/neuroscience/topics/sg-prefrontal-cortex-frontal-cortex",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-prefrontal-cortex-white-matter",
+          "label": "White matter",
+          "url": "/domains/neuroscience/topics/sg-prefrontal-cortex-white-matter",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2066848874",
+          "title": "Neurocircuitry of Addiction",
+          "year": "2009",
+          "cited_by_count": 5153,
+          "url": "/domains/neuroscience/papers/W2066848874"
+        },
+        {
+          "source_id": "https://openalex.org/W2128472904",
+          "title": "The Reward Circuit: Linking Primate Anatomy and Human Imaging",
+          "year": "2009",
+          "cited_by_count": 3697,
+          "url": "/domains/neuroscience/papers/W2128472904"
+        },
+        {
+          "source_id": "https://openalex.org/W3195973239",
+          "title": "The role of prefrontal cortex in cognitive control and executive function",
+          "year": "2021",
+          "cited_by_count": 1530,
+          "url": "/domains/neuroscience/papers/W3195973239"
+        }
+      ]
+    },
+    {
+      "id": "sg-computational-neuroscience",
+      "label": "Computational neuroscience",
+      "url": "/domains/neuroscience/topics/sg-computational-neuroscience",
+      "paper_count": 19,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: neuroscience, computational neuroscience, cognitive science",
+      "tags": [
+        "computational model",
+        "computational neuroscience",
+        "movement control",
+        "movement neuroscience"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-computational-neuroscience-neural-network",
+          "label": "Neural network",
+          "url": "/domains/neuroscience/topics/sg-computational-neuroscience-neural-network",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-computational-neuroscience-brain-function",
+          "label": "Brain function",
+          "url": "/domains/neuroscience/topics/sg-computational-neuroscience-brain-function",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-computational-neuroscience-computational-model",
+          "label": "Computational model",
+          "url": "/domains/neuroscience/topics/sg-computational-neuroscience-computational-model",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-computational-neuroscience-movement-control",
+          "label": "Movement control",
+          "url": "/domains/neuroscience/topics/sg-computational-neuroscience-movement-control",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-computational-neuroscience-control-management",
+          "label": "Control management",
+          "url": "/domains/neuroscience/topics/sg-computational-neuroscience-control-management",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1576838367",
+          "title": "Dynamical Systems in Neuroscience",
+          "year": "2006",
+          "cited_by_count": 3843,
+          "url": "/domains/neuroscience/papers/W1576838367"
+        },
+        {
+          "source_id": "https://openalex.org/W4211091012",
+          "title": "Network neuroscience",
+          "year": "2017",
+          "cited_by_count": 2375,
+          "url": "/domains/neuroscience/papers/W4211091012"
+        },
+        {
+          "source_id": "https://openalex.org/W1885639605",
+          "title": "The coordination of arm movements: an experimentally confirmed mathematical model",
+          "year": "1985",
+          "cited_by_count": 4337,
+          "url": "/domains/neuroscience/papers/W1885639605"
+        }
+      ]
+    },
+    {
+      "id": "sg-social-neuroscience",
+      "label": "Social neuroscience",
+      "url": "/domains/neuroscience/topics/sg-social-neuroscience",
+      "paper_count": 17,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: cognitive, cognitive psychology, neuroscience",
+      "tags": [
+        "affective social neuroscience",
+        "behavioral neuroscience",
+        "cultural neuroscience",
+        "developmental cognitive neuroscience"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-social-neuroscience-social-cognition",
+          "label": "Social cognition",
+          "url": "/domains/neuroscience/topics/sg-social-neuroscience-social-cognition",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-social-neuroscience-motor-cognition",
+          "label": "Motor cognition",
+          "url": "/domains/neuroscience/topics/sg-social-neuroscience-motor-cognition",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-social-neuroscience-cognitive-psychology",
+          "label": "Cognitive psychology",
+          "url": "/domains/neuroscience/topics/sg-social-neuroscience-cognitive-psychology",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-social-neuroscience-control-management",
+          "label": "Control management",
+          "url": "/domains/neuroscience/topics/sg-social-neuroscience-control-management",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2052610531",
+          "title": "Meeting of minds: the medial frontal cortex and social cognition",
+          "year": "2006",
+          "cited_by_count": 3770,
+          "url": "/domains/neuroscience/papers/W2052610531"
+        },
+        {
+          "source_id": "https://openalex.org/W2088180824",
+          "title": "A social neuroscience perspective on adolescent risk-taking",
+          "year": "2008",
+          "cited_by_count": 3492,
+          "url": "/domains/neuroscience/papers/W2088180824"
+        },
+        {
+          "source_id": "https://openalex.org/W2156430527",
+          "title": "Frontal theta as a mechanism for cognitive control",
+          "year": "2014",
+          "cited_by_count": 2641,
+          "url": "/domains/neuroscience/papers/W2156430527"
+        }
+      ]
+    },
+    {
+      "id": "sg-human-brain",
+      "label": "Human brain",
+      "url": "/domains/neuroscience/topics/sg-human-brain",
+      "paper_count": 11,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: neuroscience, functions, brain",
+      "tags": [
+        "human brain",
+        "human brain 20",
+        "human brain revealed",
+        "human cerebral cortex"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-human-brain-brain-function",
+          "label": "Brain function",
+          "url": "/domains/neuroscience/topics/sg-human-brain-brain-function",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-human-brain-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/neuroscience/topics/sg-human-brain-cognitive-science",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-human-brain-cognitive-psychology",
+          "label": "Cognitive psychology",
+          "url": "/domains/neuroscience/topics/sg-human-brain-cognitive-psychology",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-human-brain-small-world-network",
+          "label": "Small-world network",
+          "url": "/domains/neuroscience/topics/sg-human-brain-small-world-network",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2158553737",
+          "title": "Emotion Circuits in the Brain",
+          "year": "2000",
+          "cited_by_count": 8308,
+          "url": "/domains/neuroscience/papers/W2158553737"
+        },
+        {
+          "source_id": "https://openalex.org/W2121049815",
+          "title": "The Attention System of the Human Brain: 20 Years After",
+          "year": "2012",
+          "cited_by_count": 3380,
+          "url": "/domains/neuroscience/papers/W2121049815"
+        },
+        {
+          "source_id": "https://openalex.org/W2162932719",
+          "title": "Transcranial direct current stimulation: State of the art 2008",
+          "year": "2008",
+          "cited_by_count": 3042,
+          "url": "/domains/neuroscience/papers/W2162932719"
+        }
+      ]
+    },
+    {
+      "id": "sg-cultural-neuroscience",
+      "label": "Cultural neuroscience",
+      "url": "/domains/neuroscience/topics/sg-cultural-neuroscience",
+      "paper_count": 1,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: as a, brain, brain activity",
+      "tags": [
+        "cultural neuroscience",
+        "developmental cognitive neuroscience",
+        "educational neuroscience",
+        "functional neuroimaging"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2061195971",
+          "title": "Hemispheric asymmetry reduction in older adults: The HAROLD model.",
+          "year": "2002",
+          "cited_by_count": 2067,
+          "url": "/domains/neuroscience/papers/W2061195971"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Functional connectivity",
+      "paper_count": 15,
+      "papers": [
+        {
+          "title": "Complex network measures of brain connectivity: Uses and interpretations",
+          "year": "2009",
+          "cited_by_count": 11779,
+          "topic": "Functional connectivity",
+          "url": "papers/https-openalex-org-w2167822639.html"
+        },
+        {
+          "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+          "year": "2010",
+          "cited_by_count": 11123,
+          "topic": "Functional connectivity",
+          "url": "papers/https-openalex-org-w2166073443.html"
+        },
+        {
+          "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+          "year": "2013",
+          "cited_by_count": 5692,
+          "topic": "Functional connectivity",
+          "url": "papers/https-openalex-org-w2153791616.html"
+        },
+        {
+          "title": "Spontaneous fluctuations in brain activity observed with functional magnetic resonance imaging",
+          "year": "2007",
+          "cited_by_count": 6819,
+          "topic": "Functional connectivity",
+          "url": "papers/https-openalex-org-w1970695058.html"
+        },
+        {
+          "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research",
+          "year": "2009",
+          "cited_by_count": 5395,
+          "topic": "Functional connectivity",
+          "url": "papers/https-openalex-org-w2156092714.html"
+        },
+        {
+          "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI",
+          "year": "2017",
+          "cited_by_count": 3632,
+          "topic": "Functional connectivity",
+          "url": "papers/https-openalex-org-w2951617899.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell biology",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "A robust and high-throughput Cre reporting and characterization system for the whole mouse brain",
+          "year": "2009",
+          "cited_by_count": 7256,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2104135721.html"
+        },
+        {
+          "title": "Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages",
+          "year": "2010",
+          "cited_by_count": 5013,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2148898943.html"
+        },
+        {
+          "title": "Neurogenesis in the adult human hippocampus",
+          "year": "1998",
+          "cited_by_count": 6285,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2067856703.html"
+        },
+        {
+          "title": "The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes",
+          "year": "2012",
+          "cited_by_count": 4353,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w1973275441.html"
+        },
+        {
+          "title": "Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease",
+          "year": "2018",
+          "cited_by_count": 2785,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2807728333.html"
+        }
+      ]
+    },
+    {
+      "label": "Central nervous",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Copper-Zinc Superoxide Dismutase (SOD1) Is Released by Microglial Cells and Confers Neuroprotection against 6-OHDA Neurotoxicity",
+          "year": "2012",
+          "cited_by_count": 9017,
+          "topic": "Central nervous",
+          "url": "papers/https-openalex-org-w1996024251.html"
+        },
+        {
+          "title": "Astrocytes: biology and pathology",
+          "year": "2009",
+          "cited_by_count": 5065,
+          "topic": "Central nervous",
+          "url": "papers/https-openalex-org-w2074661552.html"
+        },
+        {
+          "title": "Millisecond-timescale, genetically targeted optical control of neural activity",
+          "year": "2005",
+          "cited_by_count": 4878,
+          "topic": "Central nervous",
+          "url": "papers/https-openalex-org-w2167095271.html"
+        },
+        {
+          "title": "Reactive astrocyte nomenclature, definitions, and future directions",
+          "year": "2021",
+          "cited_by_count": 2257,
+          "topic": "Central nervous",
+          "url": "papers/https-openalex-org-w3132240972.html"
+        },
+        {
+          "title": "Neuroinflammation in neurodegenerative disorders: the roles of microglia and astrocytes",
+          "year": "2020",
+          "cited_by_count": 2413,
+          "topic": "Central nervous",
+          "url": "papers/https-openalex-org-w3107395714.html"
+        }
+      ]
+    },
+    {
+      "label": "Cerebral cortex",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity",
+          "year": "2013",
+          "cited_by_count": 6986,
+          "topic": "Cerebral cortex",
+          "url": "papers/https-openalex-org-w2171332611.html"
+        },
+        {
+          "title": "A multi-modal parcellation of human cerebral cortex",
+          "year": "2016",
+          "cited_by_count": 5482,
+          "topic": "Cerebral cortex",
+          "url": "papers/https-openalex-org-w2499800833.html"
+        },
+        {
+          "title": "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control",
+          "year": "2007",
+          "cited_by_count": 7406,
+          "topic": "Cerebral cortex",
+          "url": "papers/https-openalex-org-w2116658855.html"
+        }
+      ]
+    },
+    {
+      "label": "Affective neuroscience",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Emotion Circuits in the Brain",
+          "year": "2000",
+          "cited_by_count": 8308,
+          "topic": "Affective neuroscience",
+          "url": "papers/https-openalex-org-w2158553737.html"
+        },
+        {
+          "title": "Handbook of Affective Sciences",
+          "year": "2002",
+          "cited_by_count": 5093,
+          "topic": "Affective neuroscience",
+          "url": "papers/https-openalex-org-w1494186755.html"
+        }
+      ]
+    },
+    {
+      "label": "Cognitive neuroscience",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "An Introduction to the Event-Related Potential Technique",
+          "year": "2005",
+          "cited_by_count": 6065,
+          "topic": "Cognitive neuroscience",
+          "url": "papers/https-openalex-org-w1536620489.html"
+        },
+        {
+          "title": "The Cognitive neurosciences",
+          "year": "2005",
+          "cited_by_count": 4734,
+          "topic": "Cognitive neuroscience",
+          "url": "papers/https-openalex-org-w1898014694.html"
+        }
+      ]
+    },
+    {
+      "label": "Hippocampal formation",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The Lifelong Effects of Early Childhood Adversity and Toxic Stress",
+          "year": "2011",
+          "cited_by_count": 4956,
+          "topic": "Hippocampal formation",
+          "url": "papers/https-openalex-org-w2138884119.html"
+        },
+        {
+          "title": "The Neural Basis of Decision Making",
+          "year": "2007",
+          "cited_by_count": 3943,
+          "topic": "Hippocampal formation",
+          "url": "papers/https-openalex-org-w2169134378.html"
+        }
+      ]
+    },
+    {
+      "label": "Prefrontal cortex",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Neurocircuitry of Addiction",
+          "year": "2009",
+          "cited_by_count": 5153,
+          "topic": "Prefrontal cortex",
+          "url": "papers/https-openalex-org-w2066848874.html"
+        },
+        {
+          "title": "The Reward Circuit: Linking Primate Anatomy and Human Imaging",
+          "year": "2009",
+          "cited_by_count": 3697,
+          "topic": "Prefrontal cortex",
+          "url": "papers/https-openalex-org-w2128472904.html"
+        }
+      ]
+    },
+    {
+      "label": "Cognitive psychology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Perceptual symbol systems",
+          "year": "1999",
+          "cited_by_count": 6680,
+          "topic": "Cognitive psychology",
+          "url": "papers/https-openalex-org-w2150375089.html"
+        }
+      ]
+    },
+    {
+      "label": "Embryonic stem cell",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Olfactory and gustatory dysfunctions as a clinical presentation of mild-to-moderate forms of the coronavirus disease (COVID-19): a multicenter European study",
+          "year": "2020",
+          "cited_by_count": 2753,
+          "topic": "Embryonic stem cell",
+          "url": "papers/https-openalex-org-w3014922871.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2167822639",
+      "title": "Complex network measures of brain connectivity: Uses and interpretations",
+      "year": 2009,
+      "cited_by_count": 11779,
+      "adjusted_cited_by_count": 2856.83,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2167822639"
+    },
+    {
+      "source_id": "https://openalex.org/W2166073443",
+      "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+      "year": 2010,
+      "cited_by_count": 11123,
+      "adjusted_cited_by_count": 2780.75,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2166073443"
+    },
+    {
+      "source_id": "https://openalex.org/W1996024251",
+      "title": "Copper-Zinc Superoxide Dismutase (SOD1) Is Released by Microglial Cells and Confers Neuroprotection against 6-OHDA Neurotoxicity",
+      "year": 2012,
+      "cited_by_count": 9017,
+      "adjusted_cited_by_count": 2409.89,
+      "primary_topic_id": "sg-central-nervous",
+      "primary_topic_label": "Central nervous",
+      "url": "/domains/neuroscience/papers/W1996024251"
+    },
+    {
+      "source_id": "https://openalex.org/W2913606428",
+      "title": "PsychoPy2: Experiments in behavior made easy",
+      "year": 2019,
+      "cited_by_count": 5210,
+      "adjusted_cited_by_count": 1969.19,
+      "primary_topic_id": "sg-cognitive-neuroscience-neuroscience-of-education-and-cognitive-function",
+      "primary_topic_label": "Neuroscience of education and cognitive function",
+      "url": "/domains/neuroscience/papers/W2913606428"
+    },
+    {
+      "source_id": "https://openalex.org/W2171332611",
+      "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity",
+      "year": 2013,
+      "cited_by_count": 6986,
+      "adjusted_cited_by_count": 1937.57,
+      "primary_topic_id": "sg-cerebral-cortex",
+      "primary_topic_label": "Cerebral cortex",
+      "url": "/domains/neuroscience/papers/W2171332611"
+    },
+    {
+      "source_id": "https://openalex.org/W2104135721",
+      "title": "A robust and high-throughput Cre reporting and characterization system for the whole mouse brain",
+      "year": 2009,
+      "cited_by_count": 7256,
+      "adjusted_cited_by_count": 1759.84,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/neuroscience/papers/W2104135721"
+    },
+    {
+      "source_id": "https://openalex.org/W2499800833",
+      "title": "A multi-modal parcellation of human cerebral cortex",
+      "year": 2016,
+      "cited_by_count": 5482,
+      "adjusted_cited_by_count": 1733.56,
+      "primary_topic_id": "sg-cerebral-cortex",
+      "primary_topic_label": "Cerebral cortex",
+      "url": "/domains/neuroscience/papers/W2499800833"
+    },
+    {
+      "source_id": "https://openalex.org/W2116658855",
+      "title": "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control",
+      "year": 2007,
+      "cited_by_count": 7406,
+      "adjusted_cited_by_count": 1699.05,
+      "primary_topic_id": "sg-cerebral-cortex",
+      "primary_topic_label": "Cerebral cortex",
+      "url": "/domains/neuroscience/papers/W2116658855"
+    },
+    {
+      "source_id": "https://openalex.org/W2158553737",
+      "title": "Emotion Circuits in the Brain",
+      "year": 2000,
+      "cited_by_count": 8308,
+      "adjusted_cited_by_count": 1629.33,
+      "primary_topic_id": "sg-affective-neuroscience",
+      "primary_topic_label": "Affective neuroscience",
+      "url": "/domains/neuroscience/papers/W2158553737"
+    },
+    {
+      "source_id": "https://openalex.org/W2153791616",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "year": 2013,
+      "cited_by_count": 5692,
+      "adjusted_cited_by_count": 1578.68,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2153791616"
+    },
+    {
+      "source_id": "https://openalex.org/W1970695058",
+      "title": "Spontaneous fluctuations in brain activity observed with functional magnetic resonance imaging",
+      "year": 2007,
+      "cited_by_count": 6819,
+      "adjusted_cited_by_count": 1564.39,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W1970695058"
+    },
+    {
+      "source_id": "https://openalex.org/W1536620489",
+      "title": "An Introduction to the Event-Related Potential Technique",
+      "year": 2005,
+      "cited_by_count": 6065,
+      "adjusted_cited_by_count": 1323.49,
+      "primary_topic_id": "sg-cognitive-neuroscience",
+      "primary_topic_label": "Cognitive neuroscience",
+      "url": "/domains/neuroscience/papers/W1536620489"
+    },
+    {
+      "source_id": "https://openalex.org/W2156092714",
+      "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research",
+      "year": 2009,
+      "cited_by_count": 5395,
+      "adjusted_cited_by_count": 1308.48,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2156092714"
+    },
+    {
+      "source_id": "https://openalex.org/W2150375089",
+      "title": "Perceptual symbol systems",
+      "year": 1999,
+      "cited_by_count": 6680,
+      "adjusted_cited_by_count": 1285.57,
+      "primary_topic_id": "sg-affective-neuroscience-cognitive-psychology",
+      "primary_topic_label": "Cognitive psychology",
+      "url": "/domains/neuroscience/papers/W2150375089"
+    },
+    {
+      "source_id": "https://openalex.org/W2138884119",
+      "title": "The Lifelong Effects of Early Childhood Adversity and Toxic Stress",
+      "year": 2011,
+      "cited_by_count": 4956,
+      "adjusted_cited_by_count": 1279.63,
+      "primary_topic_id": "sg-hippocampal-formation",
+      "primary_topic_label": "Hippocampal formation",
+      "url": "/domains/neuroscience/papers/W2138884119"
+    },
+    {
+      "source_id": "https://openalex.org/W2148898943",
+      "title": "Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages",
+      "year": 2010,
+      "cited_by_count": 5013,
+      "adjusted_cited_by_count": 1253.25,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/neuroscience/papers/W2148898943"
+    },
+    {
+      "source_id": "https://openalex.org/W2066848874",
+      "title": "Neurocircuitry of Addiction",
+      "year": 2009,
+      "cited_by_count": 5153,
+      "adjusted_cited_by_count": 1249.79,
+      "primary_topic_id": "sg-prefrontal-cortex",
+      "primary_topic_label": "Prefrontal cortex",
+      "url": "/domains/neuroscience/papers/W2066848874"
+    },
+    {
+      "source_id": "https://openalex.org/W2074661552",
+      "title": "Astrocytes: biology and pathology",
+      "year": 2009,
+      "cited_by_count": 5065,
+      "adjusted_cited_by_count": 1228.44,
+      "primary_topic_id": "sg-central-nervous",
+      "primary_topic_label": "Central nervous",
+      "url": "/domains/neuroscience/papers/W2074661552"
+    },
+    {
+      "source_id": "https://openalex.org/W2951617899",
+      "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI",
+      "year": 2017,
+      "cited_by_count": 3632,
+      "adjusted_cited_by_count": 1210.67,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2951617899"
+    },
+    {
+      "source_id": "https://openalex.org/W2067856703",
+      "title": "Neurogenesis in the adult human hippocampus",
+      "year": 1998,
+      "cited_by_count": 6285,
+      "adjusted_cited_by_count": 1187.75,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/neuroscience/papers/W2067856703"
+    },
+    {
+      "source_id": "https://openalex.org/W2005821483",
+      "title": "BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics",
+      "year": 2013,
+      "cited_by_count": 4223,
+      "adjusted_cited_by_count": 1171.25,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2005821483"
+    },
+    {
+      "source_id": "https://openalex.org/W1973275441",
+      "title": "The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes",
+      "year": 2012,
+      "cited_by_count": 4353,
+      "adjusted_cited_by_count": 1163.39,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/neuroscience/papers/W1973275441"
+    },
+    {
+      "source_id": "https://openalex.org/W2134305330",
+      "title": "Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates",
+      "year": 2016,
+      "cited_by_count": 3607,
+      "adjusted_cited_by_count": 1140.63,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2134305330"
+    },
+    {
+      "source_id": "https://openalex.org/W3014922871",
+      "title": "Olfactory and gustatory dysfunctions as a clinical presentation of mild-to-moderate forms of the coronavirus disease (COVID-19): a multicenter European study",
+      "year": 2020,
+      "cited_by_count": 2753,
+      "adjusted_cited_by_count": 1123.91,
+      "primary_topic_id": "sg-cell-biology-embryonic-stem-cell",
+      "primary_topic_label": "Embryonic stem cell",
+      "url": "/domains/neuroscience/papers/W3014922871"
+    },
+    {
+      "source_id": "https://openalex.org/W2130010412",
+      "title": "A component based noise correction method (CompCor) for BOLD and perfusion based fMRI",
+      "year": 2007,
+      "cited_by_count": 4783,
+      "adjusted_cited_by_count": 1097.3,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2130010412"
+    },
+    {
+      "source_id": "https://openalex.org/W2167095271",
+      "title": "Millisecond-timescale, genetically targeted optical control of neural activity",
+      "year": 2005,
+      "cited_by_count": 4878,
+      "adjusted_cited_by_count": 1064.47,
+      "primary_topic_id": "sg-central-nervous",
+      "primary_topic_label": "Central nervous",
+      "url": "/domains/neuroscience/papers/W2167095271"
+    },
+    {
+      "source_id": "https://openalex.org/W2169918686",
+      "title": "MEG and EEG data analysis with MNE-Python",
+      "year": 2013,
+      "cited_by_count": 3831,
+      "adjusted_cited_by_count": 1062.53,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2169918686"
+    },
+    {
+      "source_id": "https://openalex.org/W1494186755",
+      "title": "Handbook of Affective Sciences",
+      "year": 2002,
+      "cited_by_count": 5093,
+      "adjusted_cited_by_count": 1039.6,
+      "primary_topic_id": "sg-affective-neuroscience",
+      "primary_topic_label": "Affective neuroscience",
+      "url": "/domains/neuroscience/papers/W1494186755"
+    },
+    {
+      "source_id": "https://openalex.org/W1898014694",
+      "title": "The Cognitive neurosciences",
+      "year": 2005,
+      "cited_by_count": 4734,
+      "adjusted_cited_by_count": 1033.04,
+      "primary_topic_id": "sg-cognitive-neuroscience",
+      "primary_topic_label": "Cognitive neuroscience",
+      "url": "/domains/neuroscience/papers/W1898014694"
+    },
+    {
+      "source_id": "https://openalex.org/W3132240972",
+      "title": "Reactive astrocyte nomenclature, definitions, and future directions",
+      "year": 2021,
+      "cited_by_count": 2257,
+      "adjusted_cited_by_count": 1009.36,
+      "primary_topic_id": "sg-central-nervous",
+      "primary_topic_label": "Central nervous",
+      "url": "/domains/neuroscience/papers/W3132240972"
+    },
+    {
+      "source_id": "https://openalex.org/W2014502281",
+      "title": "Brainstorm: A User-Friendly Application for MEG/EEG Analysis",
+      "year": 2011,
+      "cited_by_count": 3816,
+      "adjusted_cited_by_count": 985.29,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2014502281"
+    },
+    {
+      "source_id": "https://openalex.org/W3107395714",
+      "title": "Neuroinflammation in neurodegenerative disorders: the roles of microglia and astrocytes",
+      "year": 2020,
+      "cited_by_count": 2413,
+      "adjusted_cited_by_count": 985.1,
+      "primary_topic_id": "sg-central-nervous",
+      "primary_topic_label": "Central nervous",
+      "url": "/domains/neuroscience/papers/W3107395714"
+    },
+    {
+      "source_id": "https://openalex.org/W2807728333",
+      "title": "Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease",
+      "year": 2018,
+      "cited_by_count": 2785,
+      "adjusted_cited_by_count": 984.65,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/neuroscience/papers/W2807728333"
+    },
+    {
+      "source_id": "https://openalex.org/W4220838968",
+      "title": "Reproducible brain-wide association studies require thousands of individuals",
+      "year": 2022,
+      "cited_by_count": 1937,
+      "adjusted_cited_by_count": 968.5,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W4220838968"
+    },
+    {
+      "source_id": "https://openalex.org/W2011131455",
+      "title": "A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data",
+      "year": 2005,
+      "cited_by_count": 4203,
+      "adjusted_cited_by_count": 917.17,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2011131455"
+    },
+    {
+      "source_id": "https://openalex.org/W2169134378",
+      "title": "The Neural Basis of Decision Making",
+      "year": 2007,
+      "cited_by_count": 3943,
+      "adjusted_cited_by_count": 904.59,
+      "primary_topic_id": "sg-hippocampal-formation",
+      "primary_topic_label": "Hippocampal formation",
+      "url": "/domains/neuroscience/papers/W2169134378"
+    },
+    {
+      "source_id": "https://openalex.org/W2121049815",
+      "title": "The Attention System of the Human Brain: 20 Years After",
+      "year": 2012,
+      "cited_by_count": 3380,
+      "adjusted_cited_by_count": 903.34,
+      "primary_topic_id": "sg-human-brain",
+      "primary_topic_label": "Human brain",
+      "url": "/domains/neuroscience/papers/W2121049815"
+    },
+    {
+      "source_id": "https://openalex.org/W2129900561",
+      "title": "An fMRI Investigation of Emotional Engagement in Moral Judgment",
+      "year": 2001,
+      "cited_by_count": 4512,
+      "adjusted_cited_by_count": 902.4,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2129900561"
+    },
+    {
+      "source_id": "https://openalex.org/W2111902267",
+      "title": "Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity",
+      "year": 2015,
+      "cited_by_count": 2979,
+      "adjusted_cited_by_count": 898.2,
+      "primary_topic_id": "sg-functional-connectivity",
+      "primary_topic_label": "Functional connectivity",
+      "url": "/domains/neuroscience/papers/W2111902267"
+    },
+    {
+      "source_id": "https://openalex.org/W2128472904",
+      "title": "The Reward Circuit: Linking Primate Anatomy and Human Imaging",
+      "year": 2009,
+      "cited_by_count": 3697,
+      "adjusted_cited_by_count": 896.65,
+      "primary_topic_id": "sg-prefrontal-cortex",
+      "primary_topic_label": "Prefrontal cortex",
+      "url": "/domains/neuroscience/papers/W2128472904"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2167822639",
+      "title": "Complex network measures of brain connectivity: Uses and interpretations",
+      "year": 2009,
+      "cited_by_count": 11779,
+      "adjusted_cited_by_count": 2856.83,
+      "url": "/domains/neuroscience/papers/W2167822639"
+    },
+    {
+      "source_id": "https://openalex.org/W2166073443",
+      "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+      "year": 2010,
+      "cited_by_count": 11123,
+      "adjusted_cited_by_count": 2780.75,
+      "url": "/domains/neuroscience/papers/W2166073443"
+    },
+    {
+      "source_id": "https://openalex.org/W1996024251",
+      "title": "Copper-Zinc Superoxide Dismutase (SOD1) Is Released by Microglial Cells and Confers Neuroprotection against 6-OHDA Neurotoxicity",
+      "year": 2012,
+      "cited_by_count": 9017,
+      "adjusted_cited_by_count": 2409.89,
+      "url": "/domains/neuroscience/papers/W1996024251"
+    },
+    {
+      "source_id": "https://openalex.org/W2913606428",
+      "title": "PsychoPy2: Experiments in behavior made easy",
+      "year": 2019,
+      "cited_by_count": 5210,
+      "adjusted_cited_by_count": 1969.19,
+      "url": "/domains/neuroscience/papers/W2913606428"
+    },
+    {
+      "source_id": "https://openalex.org/W2171332611",
+      "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity",
+      "year": 2013,
+      "cited_by_count": 6986,
+      "adjusted_cited_by_count": 1937.57,
+      "url": "/domains/neuroscience/papers/W2171332611"
+    },
+    {
+      "source_id": "https://openalex.org/W2104135721",
+      "title": "A robust and high-throughput Cre reporting and characterization system for the whole mouse brain",
+      "year": 2009,
+      "cited_by_count": 7256,
+      "adjusted_cited_by_count": 1759.84,
+      "url": "/domains/neuroscience/papers/W2104135721"
+    },
+    {
+      "source_id": "https://openalex.org/W2499800833",
+      "title": "A multi-modal parcellation of human cerebral cortex",
+      "year": 2016,
+      "cited_by_count": 5482,
+      "adjusted_cited_by_count": 1733.56,
+      "url": "/domains/neuroscience/papers/W2499800833"
+    },
+    {
+      "source_id": "https://openalex.org/W2116658855",
+      "title": "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control",
+      "year": 2007,
+      "cited_by_count": 7406,
+      "adjusted_cited_by_count": 1699.05,
+      "url": "/domains/neuroscience/papers/W2116658855"
+    },
+    {
+      "source_id": "https://openalex.org/W2158553737",
+      "title": "Emotion Circuits in the Brain",
+      "year": 2000,
+      "cited_by_count": 8308,
+      "adjusted_cited_by_count": 1629.33,
+      "url": "/domains/neuroscience/papers/W2158553737"
+    },
+    {
+      "source_id": "https://openalex.org/W2153791616",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "year": 2013,
+      "cited_by_count": 5692,
+      "adjusted_cited_by_count": 1578.68,
+      "url": "/domains/neuroscience/papers/W2153791616"
+    },
+    {
+      "source_id": "https://openalex.org/W1970695058",
+      "title": "Spontaneous fluctuations in brain activity observed with functional magnetic resonance imaging",
+      "year": 2007,
+      "cited_by_count": 6819,
+      "adjusted_cited_by_count": 1564.39,
+      "url": "/domains/neuroscience/papers/W1970695058"
+    },
+    {
+      "source_id": "https://openalex.org/W1536620489",
+      "title": "An Introduction to the Event-Related Potential Technique",
+      "year": 2005,
+      "cited_by_count": 6065,
+      "adjusted_cited_by_count": 1323.49,
+      "url": "/domains/neuroscience/papers/W1536620489"
+    },
+    {
+      "source_id": "https://openalex.org/W2156092714",
+      "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research",
+      "year": 2009,
+      "cited_by_count": 5395,
+      "adjusted_cited_by_count": 1308.48,
+      "url": "/domains/neuroscience/papers/W2156092714"
+    },
+    {
+      "source_id": "https://openalex.org/W2150375089",
+      "title": "Perceptual symbol systems",
+      "year": 1999,
+      "cited_by_count": 6680,
+      "adjusted_cited_by_count": 1285.57,
+      "url": "/domains/neuroscience/papers/W2150375089"
+    },
+    {
+      "source_id": "https://openalex.org/W2138884119",
+      "title": "The Lifelong Effects of Early Childhood Adversity and Toxic Stress",
+      "year": 2011,
+      "cited_by_count": 4956,
+      "adjusted_cited_by_count": 1279.63,
+      "url": "/domains/neuroscience/papers/W2138884119"
+    },
+    {
+      "source_id": "https://openalex.org/W2148898943",
+      "title": "Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages",
+      "year": 2010,
+      "cited_by_count": 5013,
+      "adjusted_cited_by_count": 1253.25,
+      "url": "/domains/neuroscience/papers/W2148898943"
+    },
+    {
+      "source_id": "https://openalex.org/W2066848874",
+      "title": "Neurocircuitry of Addiction",
+      "year": 2009,
+      "cited_by_count": 5153,
+      "adjusted_cited_by_count": 1249.79,
+      "url": "/domains/neuroscience/papers/W2066848874"
+    },
+    {
+      "source_id": "https://openalex.org/W2074661552",
+      "title": "Astrocytes: biology and pathology",
+      "year": 2009,
+      "cited_by_count": 5065,
+      "adjusted_cited_by_count": 1228.44,
+      "url": "/domains/neuroscience/papers/W2074661552"
+    },
+    {
+      "source_id": "https://openalex.org/W2951617899",
+      "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI",
+      "year": 2017,
+      "cited_by_count": 3632,
+      "adjusted_cited_by_count": 1210.67,
+      "url": "/domains/neuroscience/papers/W2951617899"
+    },
+    {
+      "source_id": "https://openalex.org/W2067856703",
+      "title": "Neurogenesis in the adult human hippocampus",
+      "year": 1998,
+      "cited_by_count": 6285,
+      "adjusted_cited_by_count": 1187.75,
+      "url": "/domains/neuroscience/papers/W2067856703"
+    },
+    {
+      "source_id": "https://openalex.org/W2005821483",
+      "title": "BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics",
+      "year": 2013,
+      "cited_by_count": 4223,
+      "adjusted_cited_by_count": 1171.25,
+      "url": "/domains/neuroscience/papers/W2005821483"
+    },
+    {
+      "source_id": "https://openalex.org/W1973275441",
+      "title": "The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes",
+      "year": 2012,
+      "cited_by_count": 4353,
+      "adjusted_cited_by_count": 1163.39,
+      "url": "/domains/neuroscience/papers/W1973275441"
+    },
+    {
+      "source_id": "https://openalex.org/W2134305330",
+      "title": "Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates",
+      "year": 2016,
+      "cited_by_count": 3607,
+      "adjusted_cited_by_count": 1140.63,
+      "url": "/domains/neuroscience/papers/W2134305330"
+    },
+    {
+      "source_id": "https://openalex.org/W3014922871",
+      "title": "Olfactory and gustatory dysfunctions as a clinical presentation of mild-to-moderate forms of the coronavirus disease (COVID-19): a multicenter European study",
+      "year": 2020,
+      "cited_by_count": 2753,
+      "adjusted_cited_by_count": 1123.91,
+      "url": "/domains/neuroscience/papers/W3014922871"
+    },
+    {
+      "source_id": "https://openalex.org/W2130010412",
+      "title": "A component based noise correction method (CompCor) for BOLD and perfusion based fMRI",
+      "year": 2007,
+      "cited_by_count": 4783,
+      "adjusted_cited_by_count": 1097.3,
+      "url": "/domains/neuroscience/papers/W2130010412"
+    },
+    {
+      "source_id": "https://openalex.org/W2167095271",
+      "title": "Millisecond-timescale, genetically targeted optical control of neural activity",
+      "year": 2005,
+      "cited_by_count": 4878,
+      "adjusted_cited_by_count": 1064.47,
+      "url": "/domains/neuroscience/papers/W2167095271"
+    },
+    {
+      "source_id": "https://openalex.org/W2169918686",
+      "title": "MEG and EEG data analysis with MNE-Python",
+      "year": 2013,
+      "cited_by_count": 3831,
+      "adjusted_cited_by_count": 1062.53,
+      "url": "/domains/neuroscience/papers/W2169918686"
+    },
+    {
+      "source_id": "https://openalex.org/W1494186755",
+      "title": "Handbook of Affective Sciences",
+      "year": 2002,
+      "cited_by_count": 5093,
+      "adjusted_cited_by_count": 1039.6,
+      "url": "/domains/neuroscience/papers/W1494186755"
+    },
+    {
+      "source_id": "https://openalex.org/W1898014694",
+      "title": "The Cognitive neurosciences",
+      "year": 2005,
+      "cited_by_count": 4734,
+      "adjusted_cited_by_count": 1033.04,
+      "url": "/domains/neuroscience/papers/W1898014694"
+    },
+    {
+      "source_id": "https://openalex.org/W3132240972",
+      "title": "Reactive astrocyte nomenclature, definitions, and future directions",
+      "year": 2021,
+      "cited_by_count": 2257,
+      "adjusted_cited_by_count": 1009.36,
+      "url": "/domains/neuroscience/papers/W3132240972"
+    },
+    {
+      "source_id": "https://openalex.org/W2014502281",
+      "title": "Brainstorm: A User-Friendly Application for MEG/EEG Analysis",
+      "year": 2011,
+      "cited_by_count": 3816,
+      "adjusted_cited_by_count": 985.29,
+      "url": "/domains/neuroscience/papers/W2014502281"
+    },
+    {
+      "source_id": "https://openalex.org/W3107395714",
+      "title": "Neuroinflammation in neurodegenerative disorders: the roles of microglia and astrocytes",
+      "year": 2020,
+      "cited_by_count": 2413,
+      "adjusted_cited_by_count": 985.1,
+      "url": "/domains/neuroscience/papers/W3107395714"
+    },
+    {
+      "source_id": "https://openalex.org/W2807728333",
+      "title": "Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease",
+      "year": 2018,
+      "cited_by_count": 2785,
+      "adjusted_cited_by_count": 984.65,
+      "url": "/domains/neuroscience/papers/W2807728333"
+    },
+    {
+      "source_id": "https://openalex.org/W4220838968",
+      "title": "Reproducible brain-wide association studies require thousands of individuals",
+      "year": 2022,
+      "cited_by_count": 1937,
+      "adjusted_cited_by_count": 968.5,
+      "url": "/domains/neuroscience/papers/W4220838968"
+    },
+    {
+      "source_id": "https://openalex.org/W2011131455",
+      "title": "A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data",
+      "year": 2005,
+      "cited_by_count": 4203,
+      "adjusted_cited_by_count": 917.17,
+      "url": "/domains/neuroscience/papers/W2011131455"
+    },
+    {
+      "source_id": "https://openalex.org/W2169134378",
+      "title": "The Neural Basis of Decision Making",
+      "year": 2007,
+      "cited_by_count": 3943,
+      "adjusted_cited_by_count": 904.59,
+      "url": "/domains/neuroscience/papers/W2169134378"
+    },
+    {
+      "source_id": "https://openalex.org/W2121049815",
+      "title": "The Attention System of the Human Brain: 20 Years After",
+      "year": 2012,
+      "cited_by_count": 3380,
+      "adjusted_cited_by_count": 903.34,
+      "url": "/domains/neuroscience/papers/W2121049815"
+    },
+    {
+      "source_id": "https://openalex.org/W2129900561",
+      "title": "An fMRI Investigation of Emotional Engagement in Moral Judgment",
+      "year": 2001,
+      "cited_by_count": 4512,
+      "adjusted_cited_by_count": 902.4,
+      "url": "/domains/neuroscience/papers/W2129900561"
+    },
+    {
+      "source_id": "https://openalex.org/W2111902267",
+      "title": "Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity",
+      "year": 2015,
+      "cited_by_count": 2979,
+      "adjusted_cited_by_count": 898.2,
+      "url": "/domains/neuroscience/papers/W2111902267"
+    },
+    {
+      "source_id": "https://openalex.org/W2128472904",
+      "title": "The Reward Circuit: Linking Primate Anatomy and Human Imaging",
+      "year": 2009,
+      "cited_by_count": 3697,
+      "adjusted_cited_by_count": 896.65,
+      "url": "/domains/neuroscience/papers/W2128472904"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "neuroscience",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 340
+    },
+    {
+      "label": "rat",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 205
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 199
+    },
+    {
+      "label": "cognitive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 191
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 185
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 145
+    },
+    {
+      "label": "brain",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "cognitive psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 140
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 132
+    },
+    {
+      "label": "functions",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 123
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "cognitive science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 89
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "humans",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "functional connectivity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "magnetic resonance imaging",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "hippocampal formation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "cells",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "activity",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "action",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "central nervous system",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 67
+    },
+    {
+      "label": "neural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 66
+    },
+    {
+      "label": "behavioral",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 65
+    },
+    {
+      "label": "cerebral cortex",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 64
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 57
+    },
+    {
+      "label": "neuroimaging",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 57
+    },
+    {
+      "label": "the brain",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 57
+    },
+    {
+      "label": "control management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 55
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 54
+    },
+    {
+      "label": "neurons",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 54
+    },
+    {
+      "label": "role",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 53
+    },
+    {
+      "label": "areas",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 51
+    },
+    {
+      "label": "processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 50
+    },
+    {
+      "label": "response",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 50
+    },
+    {
+      "label": "cortical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 48
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9871,
+      "evidence_count": 48
+    },
+    {
+      "label": "visual",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 48
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 47
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 47
+    },
+    {
+      "label": "developmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 45
+    },
+    {
+      "label": "during",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 45
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 45
+    },
+    {
+      "label": "evidence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 43
+    },
+    {
+      "label": "frontal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 42
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 42
+    },
+    {
+      "label": "memory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 42
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 41
+    }
+  ],
+  "topic_year_counts": {
+    "functional connectivity": {
+      "2025": 112391,
+      "2024": 103056,
+      "2023": 102489,
+      "2022": 69283,
+      "2021": 64896,
+      "2020": 58403,
+      "2019": 48841,
+      "2018": 42801,
+      "2017": 39163,
+      "2016": 34620,
+      "2026": 31700,
+      "2015": 31270,
+      "2014": 28321,
+      "2013": 25417,
+      "2012": 21665,
+      "2011": 17996,
+      "2010": 15052,
+      "2009": 12329,
+      "2008": 10014,
+      "2007": 8584,
+      "2006": 7635,
+      "2005": 6488,
+      "2004": 5277,
+      "2003": 4897,
+      "2002": 4048,
+      "2000": 3401,
+      "2001": 3234
+    },
+    "cognitive neuroscience": {
+      "2023": 77251,
+      "2025": 76331,
+      "2024": 72942,
+      "2022": 54234,
+      "2021": 47991,
+      "2020": 42384,
+      "2019": 36024,
+      "2018": 32336,
+      "2017": 29136,
+      "2016": 25173,
+      "2015": 23087,
+      "2014": 20919,
+      "2026": 18796,
+      "2013": 18595,
+      "2012": 15358,
+      "2011": 12777,
+      "2010": 10000,
+      "2009": 8180,
+      "2008": 6669,
+      "2007": 5536,
+      "2006": 4563,
+      "2005": 3527,
+      "2004": 3024,
+      "2003": 2474,
+      "2002": 2059,
+      "2001": 1619,
+      "2000": 1530
+    },
+    "cell biology": {
+      "2023": 301643,
+      "2024": 277558,
+      "2025": 253967,
+      "2022": 210829,
+      "2021": 197419,
+      "2020": 186185,
+      "2019": 155896,
+      "2018": 139803,
+      "2017": 128032,
+      "2016": 115043,
+      "2015": 106430,
+      "2014": 100431,
+      "2013": 93022,
+      "2012": 83585,
+      "2011": 70391,
+      "2026": 62683,
+      "2010": 58273,
+      "2009": 49158,
+      "2008": 42292,
+      "2007": 36314,
+      "2006": 31842,
+      "2005": 28348,
+      "2004": 25268,
+      "2003": 21779,
+      "2002": 19367,
+      "2001": 17722,
+      "2000": 17243
+    },
+    "hippocampal formation": {
+      "2023": 21974,
+      "2024": 19841,
+      "2025": 16704,
+      "2022": 15520,
+      "2021": 14450,
+      "2020": 13381,
+      "2019": 11259,
+      "2018": 10366,
+      "2017": 9838,
+      "2016": 8907,
+      "2015": 8504,
+      "2014": 8119,
+      "2013": 7913,
+      "2012": 7094,
+      "2011": 5917,
+      "2010": 5070,
+      "2009": 4241,
+      "2026": 3878,
+      "2008": 3588,
+      "2007": 3185,
+      "2006": 2902,
+      "2005": 2392,
+      "2004": 2285,
+      "2003": 2069,
+      "2002": 1795,
+      "2001": 1612,
+      "2000": 1500
+    },
+    "cerebral cortex": {
+      "2023": 48322,
+      "2024": 43851,
+      "2025": 36766,
+      "2022": 34953,
+      "2021": 32351,
+      "2020": 29823,
+      "2019": 25156,
+      "2018": 23339,
+      "2017": 21733,
+      "2016": 19668,
+      "2015": 18713,
+      "2014": 17762,
+      "2013": 17142,
+      "2012": 14952,
+      "2011": 12949,
+      "2010": 11174,
+      "2009": 9981,
+      "2008": 8663,
+      "2026": 8323,
+      "2007": 7546,
+      "2006": 6759,
+      "2005": 6307,
+      "2004": 5739,
+      "2003": 5464,
+      "2002": 4867,
+      "2000": 4457,
+      "2001": 4413
+    },
+    "central nervous": {
+      "2023": 139951,
+      "2024": 135159,
+      "2025": 124165,
+      "2022": 102046,
+      "2021": 96406,
+      "2020": 88415,
+      "2019": 73479,
+      "2018": 66632,
+      "2017": 62087,
+      "2016": 57953,
+      "2015": 54136,
+      "2014": 51532,
+      "2013": 47763,
+      "2012": 43570,
+      "2011": 37284,
+      "2010": 32681,
+      "2026": 29945,
+      "2009": 29089,
+      "2008": 25361,
+      "2007": 22516,
+      "2006": 20523,
+      "2005": 18420,
+      "2004": 17883,
+      "2003": 16563,
+      "2002": 14432,
+      "2001": 13538,
+      "2000": 13397
+    },
+    "affective neuroscience": {
+      "2023": 80716,
+      "2024": 74736,
+      "2025": 72557,
+      "2022": 58463,
+      "2021": 51008,
+      "2020": 45081,
+      "2019": 38039,
+      "2018": 34083,
+      "2017": 30872,
+      "2016": 27163,
+      "2015": 24904,
+      "2014": 23001,
+      "2013": 20726,
+      "2012": 17449,
+      "2026": 16568,
+      "2011": 14167,
+      "2010": 11061,
+      "2009": 8779,
+      "2008": 7214,
+      "2007": 6094,
+      "2006": 4972,
+      "2005": 4096,
+      "2004": 3632,
+      "2003": 2916,
+      "2002": 2459,
+      "2001": 2005,
+      "2000": 1913
+    },
+    "prefrontal cortex": {
+      "2023": 35392,
+      "2025": 34529,
+      "2024": 33425,
+      "2022": 25691,
+      "2021": 24508,
+      "2020": 22540,
+      "2019": 19486,
+      "2018": 17969,
+      "2017": 16635,
+      "2016": 15127,
+      "2015": 14055,
+      "2014": 13092,
+      "2013": 12043,
+      "2012": 10229,
+      "2011": 8587,
+      "2026": 8397,
+      "2010": 7254,
+      "2009": 6209,
+      "2008": 5226,
+      "2007": 4462,
+      "2006": 3691,
+      "2005": 3169,
+      "2004": 2800,
+      "2003": 2394,
+      "2002": 2007,
+      "2001": 1660,
+      "2000": 1628
+    },
+    "computational neuroscience": {
+      "2023": 40591,
+      "2024": 37737,
+      "2025": 36872,
+      "2022": 28644,
+      "2021": 22351,
+      "2020": 18952,
+      "2019": 15738,
+      "2018": 14231,
+      "2017": 11908,
+      "2026": 10161,
+      "2016": 10077,
+      "2015": 9044,
+      "2014": 8169,
+      "2013": 7195,
+      "2012": 5861,
+      "2011": 4848,
+      "2010": 3950,
+      "2009": 3494,
+      "2008": 2633,
+      "2007": 2325,
+      "2006": 1589,
+      "2005": 1251,
+      "2004": 993,
+      "2003": 898,
+      "2002": 670,
+      "2001": 609,
+      "2000": 548
+    },
+    "social neuroscience": {
+      "2023": 63728,
+      "2025": 62936,
+      "2024": 61225,
+      "2022": 45703,
+      "2021": 38774,
+      "2020": 33846,
+      "2019": 27963,
+      "2018": 24861,
+      "2017": 21910,
+      "2016": 19099,
+      "2015": 17284,
+      "2014": 15253,
+      "2026": 14101,
+      "2013": 13169,
+      "2012": 10653,
+      "2011": 8575,
+      "2010": 6758,
+      "2009": 5426,
+      "2008": 4356,
+      "2007": 3485,
+      "2006": 2848,
+      "2005": 1942,
+      "2004": 1829,
+      "2003": 1382,
+      "2002": 1076,
+      "2001": 891,
+      "2000": 847
+    },
+    "human brain": {
+      "2023": 329607,
+      "2024": 306859,
+      "2025": 274846,
+      "2022": 234430,
+      "2021": 215080,
+      "2020": 195103,
+      "2019": 159723,
+      "2018": 142449,
+      "2017": 130887,
+      "2016": 117323,
+      "2015": 108515,
+      "2014": 100936,
+      "2013": 92913,
+      "2012": 81742,
+      "2011": 69498,
+      "2026": 67737,
+      "2010": 58870,
+      "2009": 51541,
+      "2008": 43616,
+      "2007": 37994,
+      "2006": 33871,
+      "2005": 30080,
+      "2004": 27356,
+      "2003": 24474,
+      "2002": 21452,
+      "2001": 19459,
+      "2000": 19057
+    },
+    "cultural neuroscience": {
+      "2025": 27454,
+      "2024": 22344,
+      "2023": 21439,
+      "2022": 15128,
+      "2021": 12532,
+      "2020": 10807,
+      "2019": 9086,
+      "2018": 8420,
+      "2017": 7206,
+      "2016": 6354,
+      "2026": 6117,
+      "2015": 5553,
+      "2014": 5063,
+      "2013": 4093,
+      "2012": 3325,
+      "2011": 2570,
+      "2010": 2189,
+      "2009": 1692,
+      "2008": 1367,
+      "2007": 1118,
+      "2006": 854,
+      "2005": 633,
+      "2004": 513,
+      "2003": 411,
+      "2002": 306,
+      "2001": 249,
+      "2000": 233
+    }
+  }
+}

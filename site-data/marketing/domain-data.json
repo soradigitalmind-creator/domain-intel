@@ -1,0 +1,2363 @@
+{
+  "slug": "marketing",
+  "title": "Marketing",
+  "updated_at": "2026-04-05T01:44:25.327384Z",
+  "snapshot": {
+    "papers": 389,
+    "topics": 10,
+    "subtopics": 200,
+    "entities": 753,
+    "claims": 2
+  },
+  "overview": {
+    "source_ids": [
+      "https://openalex.org/W1496783311",
+      "https://openalex.org/W1607125416",
+      "https://openalex.org/W1976693131",
+      "https://openalex.org/W2002704355",
+      "https://openalex.org/W2052419127",
+      "https://openalex.org/W2090266480",
+      "https://openalex.org/W2091808588",
+      "https://openalex.org/W2097273566",
+      "https://openalex.org/W2119338125",
+      "https://openalex.org/W2122387224",
+      "https://openalex.org/W2122983118",
+      "https://openalex.org/W2131292268",
+      "https://openalex.org/W2132724845",
+      "https://openalex.org/W2134317867",
+      "https://openalex.org/W2142203809",
+      "https://openalex.org/W2148219776",
+      "https://openalex.org/W2155280457",
+      "https://openalex.org/W2166737518",
+      "https://openalex.org/W2315084850",
+      "https://openalex.org/W2549080287",
+      "https://openalex.org/W2801023641",
+      "https://openalex.org/W2969625533",
+      "https://openalex.org/W3035686316",
+      "https://openalex.org/W3123914693",
+      "https://openalex.org/W4253429119"
+    ],
+    "partition_summary": {
+      "overview_papers": 25,
+      "topical_papers": 388,
+      "total_papers": 413,
+      "facet_counts": {
+        "benchmark": 1,
+        "methods": 3,
+        "none": 388,
+        "overview": 21
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 25,
+      "overview_min_papers": 6
+    }
+  },
+  "abstraction": {
+    "label": "A family of related Marketing technologies, including relationship marketing, marketing research, marketing management.",
+    "concept_type": "family_system"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 200,
+    "max_depth": 4,
+    "leaf_topics": 138
+  },
+  "rising_topics": [
+    {
+      "id": "sg-marketing-management",
+      "label": "Marketing management",
+      "url": "/domains/marketing/topics/sg-marketing-management",
+      "trend": "rising",
+      "year_total": 1474016
+    },
+    {
+      "id": "sg-consumer-behaviour",
+      "label": "Consumer behaviour",
+      "url": "/domains/marketing/topics/sg-consumer-behaviour",
+      "trend": "rising",
+      "year_total": 774840
+    },
+    {
+      "id": "sg-marketing-research",
+      "label": "Marketing research",
+      "url": "/domains/marketing/topics/sg-marketing-research",
+      "trend": "rising",
+      "year_total": 1822250
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-overview",
+      "label": "Overview",
+      "url": "/domains/marketing/topics/sg-overview",
+      "paper_count": 25,
+      "subtopic_count": 0,
+      "trend": "stable",
+      "summary": "entities: perspective, marketing, of the",
+      "tags": [
+        "overview",
+        "survey",
+        "perspective",
+        "roadmap"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2969625533",
+          "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+          "year": "2019",
+          "cited_by_count": 3816,
+          "url": "/domains/marketing/papers/W2969625533"
+        },
+        {
+          "source_id": "https://openalex.org/W3035686316",
+          "title": "Setting the future of digital and social media marketing research: Perspectives and research propositions",
+          "year": "2020",
+          "cited_by_count": 2329,
+          "url": "/domains/marketing/papers/W3035686316"
+        },
+        {
+          "source_id": "https://openalex.org/W2166737518",
+          "title": "Business Model Design: An Activity System Perspective",
+          "year": "2009",
+          "cited_by_count": 3013,
+          "url": "/domains/marketing/papers/W2166737518"
+        }
+      ]
+    },
+    {
+      "id": "sg-marketing-management",
+      "label": "Marketing management",
+      "url": "/domains/marketing/topics/sg-marketing-management",
+      "paper_count": 62,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: marketing, marketing management, of the",
+      "tags": [
+        "business marketing",
+        "marketing communication",
+        "marketing effectiveness",
+        "marketing management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-marketing-management-marketing-sales-and-customer-techniques",
+          "label": "Marketing, sales, and customer techniques",
+          "url": "/domains/marketing/topics/sg-marketing-management-marketing-sales-and-customer-techniques",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-marketing-management-knowledge-management",
+          "label": "Knowledge management",
+          "url": "/domains/marketing/topics/sg-marketing-management-knowledge-management",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-marketing-management-marketing-mix",
+          "label": "Marketing mix",
+          "url": "/domains/marketing/topics/sg-marketing-management-marketing-mix",
+          "paper_count": 10
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2137247419",
+          "title": "The Commitment-Trust Theory of Relationship Marketing",
+          "year": "1994",
+          "cited_by_count": 17412,
+          "url": "/domains/marketing/papers/W2137247419"
+        },
+        {
+          "source_id": "https://openalex.org/W2135526934",
+          "title": "Evolving to a New Dominant Logic for Marketing",
+          "year": "2003",
+          "cited_by_count": 14185,
+          "url": "/domains/marketing/papers/W2135526934"
+        },
+        {
+          "source_id": "https://openalex.org/W4253262538",
+          "title": "The Commitment-Trust Theory of Relationship Marketing",
+          "year": "1994",
+          "cited_by_count": 10375,
+          "url": "/domains/marketing/papers/W4253262538"
+        }
+      ]
+    },
+    {
+      "id": "sg-consumer-behaviour",
+      "label": "Consumer behaviour",
+      "url": "/domains/marketing/topics/sg-consumer-behaviour",
+      "paper_count": 60,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: marketing, consumer behaviour, of the",
+      "tags": [
+        "consumer behaviour",
+        "consumer choice",
+        "database marketing",
+        "digital marketing and social media"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-consumer-behaviour-consumer-choice",
+          "label": "Consumer choice",
+          "url": "/domains/marketing/topics/sg-consumer-behaviour-consumer-choice",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-consumer-behaviour-probabilistic-logic",
+          "label": "Probabilistic logic",
+          "url": "/domains/marketing/topics/sg-consumer-behaviour-probabilistic-logic",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-consumer-behaviour-conceptual-framework",
+          "label": "Conceptual framework",
+          "url": "/domains/marketing/topics/sg-consumer-behaviour-conceptual-framework",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-consumer-behaviour-knowledge-management",
+          "label": "Knowledge management",
+          "url": "/domains/marketing/topics/sg-consumer-behaviour-knowledge-management",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-consumer-behaviour-organizational-justice",
+          "label": "Organizational justice",
+          "url": "/domains/marketing/topics/sg-consumer-behaviour-organizational-justice",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-consumer-behaviour-theory-of-planned-behavior",
+          "label": "Theory of planned behavior",
+          "url": "/domains/marketing/topics/sg-consumer-behaviour-theory-of-planned-behavior",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2093505263",
+          "title": "Co-creation experiences: The next practice in value creation",
+          "year": "2004",
+          "cited_by_count": 6179,
+          "url": "/domains/marketing/papers/W2093505263"
+        },
+        {
+          "source_id": "https://openalex.org/W2563185723",
+          "title": "A Glance on Changing Workplace Dynamics Post Covid-19 in India: A Review of Psychological Employee Withdrawal Behavior",
+          "year": "2025",
+          "cited_by_count": 1232,
+          "url": "/domains/marketing/papers/W2563185723"
+        },
+        {
+          "source_id": "https://openalex.org/W2038125955",
+          "title": "Servicescapes: The Impact of Physical Surroundings on Customers and Employees",
+          "year": "1992",
+          "cited_by_count": 5201,
+          "url": "/domains/marketing/papers/W2038125955"
+        }
+      ]
+    },
+    {
+      "id": "sg-marketing-research",
+      "label": "Marketing research",
+      "url": "/domains/marketing/topics/sg-marketing-research",
+      "paper_count": 57,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: marketing, marketing research, use",
+      "tags": [
+        "business marketing",
+        "marketing applied",
+        "marketing effectiveness",
+        "marketing research"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-marketing-research-ai-in-service-interactions",
+          "label": "Ai in service interactions",
+          "url": "/domains/marketing/topics/sg-marketing-research-ai-in-service-interactions",
+          "paper_count": 29
+        },
+        {
+          "id": "sg-marketing-research-square-structural-equation-modeling",
+          "label": "Square structural equation modeling",
+          "url": "/domains/marketing/topics/sg-marketing-research-square-structural-equation-modeling",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-marketing-research-social-change-in-marketing",
+          "label": "Social change in marketing",
+          "url": "/domains/marketing/topics/sg-marketing-research-social-change-in-marketing",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-marketing-research-between-providers-users",
+          "label": "Between providers users",
+          "url": "/domains/marketing/topics/sg-marketing-research-between-providers-users",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-marketing-research-economic-environmental-valuation",
+          "label": "Economic environmental valuation",
+          "url": "/domains/marketing/topics/sg-marketing-research-economic-environmental-valuation",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1988050849",
+          "title": "PLS-SEM: Indeed a Silver Bullet",
+          "year": "2011",
+          "cited_by_count": 20387,
+          "url": "/domains/marketing/papers/W1988050849"
+        },
+        {
+          "source_id": "https://openalex.org/W3122877168",
+          "title": "https://openalex.org/W3122877168",
+          "year": "2009",
+          "cited_by_count": 10593,
+          "url": "/domains/marketing/papers/W3122877168"
+        },
+        {
+          "source_id": "https://openalex.org/W2130892515",
+          "title": "An assessment of the use of partial least squares structural equation modeling in marketing research",
+          "year": "2011",
+          "cited_by_count": 7742,
+          "url": "/domains/marketing/papers/W2130892515"
+        }
+      ]
+    },
+    {
+      "id": "sg-media-marketing",
+      "label": "Media marketing",
+      "url": "/domains/marketing/topics/sg-media-marketing",
+      "paper_count": 51,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: marketing, of the, media marketing",
+      "tags": [
+        "digital marketing and social media",
+        "experiential marketing",
+        "influencer marketing",
+        "marketing how"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-media-marketing-social-media",
+          "label": "Social media",
+          "url": "/domains/marketing/topics/sg-media-marketing-social-media",
+          "paper_count": 51
+        },
+        {
+          "id": "sg-media-marketing-conceptual-framework",
+          "label": "Conceptual framework",
+          "url": "/domains/marketing/topics/sg-media-marketing-conceptual-framework",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-media-marketing-equation-modeling",
+          "label": "Equation modeling",
+          "url": "/domains/marketing/topics/sg-media-marketing-equation-modeling",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2266639535",
+          "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+          "year": "1993",
+          "cited_by_count": 10498,
+          "url": "/domains/marketing/papers/W2266639535"
+        },
+        {
+          "source_id": "https://openalex.org/W4234081717",
+          "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+          "year": "1993",
+          "cited_by_count": 7613,
+          "url": "/domains/marketing/papers/W4234081717"
+        },
+        {
+          "source_id": "https://openalex.org/W2010812063",
+          "title": "Market Orientation: The Construct, Research Propositions, and Managerial Implications",
+          "year": "1990",
+          "cited_by_count": 7374,
+          "url": "/domains/marketing/papers/W2010812063"
+        }
+      ]
+    },
+    {
+      "id": "sg-customer-satisfaction",
+      "label": "Customer satisfaction",
+      "url": "/domains/marketing/topics/sg-customer-satisfaction",
+      "paper_count": 43,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: marketing, of the, customer service quality and loyalty",
+      "tags": [
+        "customer retention",
+        "customer satisfaction",
+        "customer satisfaction index",
+        "customer satisfaction index nature"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-customer-satisfaction-customer-delight",
+          "label": "Customer delight",
+          "url": "/domains/marketing/topics/sg-customer-satisfaction-customer-delight",
+          "paper_count": 26
+        },
+        {
+          "id": "sg-customer-satisfaction-customer-perceived-value",
+          "label": "Customer perceived value",
+          "url": "/domains/marketing/topics/sg-customer-satisfaction-customer-perceived-value",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-customer-satisfaction-consumer-satisfaction",
+          "label": "Consumer satisfaction",
+          "url": "/domains/marketing/topics/sg-customer-satisfaction-consumer-satisfaction",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-customer-satisfaction-market-customer-satisfaction",
+          "label": "Market customer satisfaction",
+          "url": "/domains/marketing/topics/sg-customer-satisfaction-market-customer-satisfaction",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-customer-satisfaction-social-responsibility-and-customer-satisfaction",
+          "label": "Social responsibility and customer satisfaction",
+          "url": "/domains/marketing/topics/sg-customer-satisfaction-social-responsibility-and-customer-satisfaction",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2089402107",
+          "title": "Dynamic capabilities: what are they?",
+          "year": "2000",
+          "cited_by_count": 14262,
+          "url": "/domains/marketing/papers/W2089402107"
+        },
+        {
+          "source_id": "https://openalex.org/W2422895071",
+          "title": "Understanding Customer Experience Throughout the Customer Journey",
+          "year": "2016",
+          "cited_by_count": 4936,
+          "url": "/domains/marketing/papers/W2422895071"
+        },
+        {
+          "source_id": "https://openalex.org/W2955829435",
+          "title": "Predictive model assessment in PLS-SEM: guidelines for using PLSpredict",
+          "year": "2019",
+          "cited_by_count": 3447,
+          "url": "/domains/marketing/papers/W2955829435"
+        }
+      ]
+    },
+    {
+      "id": "sg-digital-marketing",
+      "label": "Digital marketing",
+      "url": "/domains/marketing/topics/sg-digital-marketing",
+      "paper_count": 38,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: marketing, of the, management",
+      "tags": [
+        "business marketing",
+        "digital marketing",
+        "digital marketing and social media",
+        "marketing effectiveness"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-digital-marketing-industrial-organization",
+          "label": "Industrial organization",
+          "url": "/domains/marketing/topics/sg-digital-marketing-industrial-organization",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-digital-marketing-marketing-mix",
+          "label": "Marketing mix",
+          "url": "/domains/marketing/topics/sg-digital-marketing-marketing-mix",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2902225836",
+          "title": "Advances in Consumer Research",
+          "year": "2025",
+          "cited_by_count": 13461,
+          "url": "/domains/marketing/papers/W2902225836"
+        },
+        {
+          "source_id": "https://openalex.org/W2148060162",
+          "title": "Digital Business Strategy: Toward a Next Generation of Insights",
+          "year": "2013",
+          "cited_by_count": 3721,
+          "url": "/domains/marketing/papers/W2148060162"
+        },
+        {
+          "source_id": "https://openalex.org/W2122929840",
+          "title": "The Effect of National Culture on the Choice of Entry Mode",
+          "year": "1988",
+          "cited_by_count": 6190,
+          "url": "/domains/marketing/papers/W2122929840"
+        }
+      ]
+    },
+    {
+      "id": "sg-relationship-marketing",
+      "label": "Relationship marketing",
+      "url": "/domains/marketing/topics/sg-relationship-marketing",
+      "paper_count": 38,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: marketing, customer service quality and loyalty, relations",
+      "tags": [
+        "business marketing",
+        "customer relationship management",
+        "effectiveness of relationship marketing",
+        "marketing mix to relationship"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-relationship-marketing-customer-relationship-management",
+          "label": "Customer relationship management",
+          "url": "/domains/marketing/topics/sg-relationship-marketing-customer-relationship-management",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-relationship-marketing-customer-service-quality-loyalty",
+          "label": "Customer service quality loyalty",
+          "url": "/domains/marketing/topics/sg-relationship-marketing-customer-service-quality-loyalty",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-relationship-marketing-customer-advocacy",
+          "label": "Customer advocacy",
+          "url": "/domains/marketing/topics/sg-relationship-marketing-customer-advocacy",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-relationship-marketing-customer-retention",
+          "label": "Customer retention",
+          "url": "/domains/marketing/topics/sg-relationship-marketing-customer-retention",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-relationship-marketing-effectiveness-of-relationship-marketing",
+          "label": "Effectiveness of relationship marketing",
+          "url": "/domains/marketing/topics/sg-relationship-marketing-effectiveness-of-relationship-marketing",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1991623719",
+          "title": "A Paradigm for Developing Better Measures of Marketing Constructs",
+          "year": "1979",
+          "cited_by_count": 12690,
+          "url": "/domains/marketing/papers/W1991623719"
+        },
+        {
+          "source_id": "https://openalex.org/W2003825788",
+          "title": "A Model of Distributor Firm and Manufacturer Firm Working Partnerships",
+          "year": "1990",
+          "cited_by_count": 5372,
+          "url": "/domains/marketing/papers/W2003825788"
+        },
+        {
+          "source_id": "https://openalex.org/W4240915221",
+          "title": "Whence Consumer Loyalty?",
+          "year": "1999",
+          "cited_by_count": 4629,
+          "url": "/domains/marketing/papers/W4240915221"
+        }
+      ]
+    },
+    {
+      "id": "sg-service-marketing",
+      "label": "Service marketing",
+      "url": "/domains/marketing/topics/sg-service-marketing",
+      "paper_count": 13,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: marketing, service, service marketing",
+      "tags": [
+        "marketing integrating",
+        "marketing integrating customer",
+        "marketing integrating customer focus",
+        "marketing mix to relationship"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-service-marketing-goods-and-services",
+          "label": "Goods and services",
+          "url": "/domains/marketing/topics/sg-service-marketing-goods-and-services",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-service-marketing-knowledge-management",
+          "label": "Knowledge management",
+          "url": "/domains/marketing/topics/sg-service-marketing-knowledge-management",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-service-marketing-customer-focus-across-the-firm",
+          "label": "Customer focus across the firm",
+          "url": "/domains/marketing/topics/sg-service-marketing-customer-focus-across-the-firm",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-service-marketing-conceptual-framework",
+          "label": "Conceptual framework",
+          "url": "/domains/marketing/topics/sg-service-marketing-conceptual-framework",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2126840412",
+          "title": "Service-dominant logic: continuing the evolution",
+          "year": "2007",
+          "cited_by_count": 7220,
+          "url": "/domains/marketing/papers/W2126840412"
+        },
+        {
+          "source_id": "https://openalex.org/W919187098",
+          "title": "Institutions and axioms: an extension and update of service-dominant logic",
+          "year": "2015",
+          "cited_by_count": 3342,
+          "url": "/domains/marketing/papers/W919187098"
+        },
+        {
+          "source_id": "https://openalex.org/W2094013842",
+          "title": "A Service Quality Model and its Marketing Implications",
+          "year": "1984",
+          "cited_by_count": 6480,
+          "url": "/domains/marketing/papers/W2094013842"
+        }
+      ]
+    },
+    {
+      "id": "sg-public-sector-marketing",
+      "label": "Public sector marketing",
+      "url": "/domains/marketing/topics/sg-public-sector-marketing",
+      "paper_count": 2,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: marketing, case, co-creation",
+      "tags": [
+        "business marketing",
+        "marketing effectiveness",
+        "marketing mix to relationship",
+        "marketing science"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2163000154",
+          "title": "An Examination of Selected Marketing Mix Elements and Brand Equity",
+          "year": "2000",
+          "cited_by_count": 3305,
+          "url": "/domains/marketing/papers/W2163000154"
+        },
+        {
+          "source_id": "https://openalex.org/W2135857123",
+          "title": "A Systematic Review of Co-Creation and Co-Production: Embarking on the social innovation journey",
+          "year": "2014",
+          "cited_by_count": 2220,
+          "url": "/domains/marketing/papers/W2135857123"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Marketing management",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "The Commitment-Trust Theory of Relationship Marketing",
+          "year": "1994",
+          "cited_by_count": 17412,
+          "topic": "Marketing management",
+          "url": "papers/https-openalex-org-w2137247419.html"
+        },
+        {
+          "title": "Evolving to a New Dominant Logic for Marketing",
+          "year": "2003",
+          "cited_by_count": 14185,
+          "topic": "Marketing management",
+          "url": "papers/https-openalex-org-w2135526934.html"
+        },
+        {
+          "title": "The Commitment-Trust Theory of Relationship Marketing",
+          "year": "1994",
+          "cited_by_count": 10375,
+          "topic": "Marketing management",
+          "url": "papers/https-openalex-org-w4253262538.html"
+        },
+        {
+          "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+          "year": "1977",
+          "cited_by_count": 10785,
+          "topic": "Marketing management",
+          "url": "papers/https-openalex-org-w1990631438.html"
+        },
+        {
+          "title": "Marketing management: analysis. planning. implementation and control",
+          "year": "2000",
+          "cited_by_count": 6704,
+          "topic": "Marketing management",
+          "url": "papers/https-openalex-org-w1562891728.html"
+        },
+        {
+          "title": "Developing Buyer-Seller Relationships",
+          "year": "1987",
+          "cited_by_count": 7765,
+          "topic": "Marketing management",
+          "url": "papers/https-openalex-org-w1991670833.html"
+        }
+      ]
+    },
+    {
+      "label": "Marketing research",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "PLS-SEM: Indeed a Silver Bullet",
+          "year": "2011",
+          "cited_by_count": 20387,
+          "topic": "Marketing research",
+          "url": "papers/https-openalex-org-w1988050849.html"
+        },
+        {
+          "title": "",
+          "year": "2009",
+          "cited_by_count": 10593,
+          "topic": "Marketing research",
+          "url": "papers/https-openalex-org-w3122877168.html"
+        },
+        {
+          "title": "An assessment of the use of partial least squares structural equation modeling in marketing research",
+          "year": "2011",
+          "cited_by_count": 7742,
+          "topic": "Marketing research",
+          "url": "papers/https-openalex-org-w2130892515.html"
+        },
+        {
+          "title": "Partial Least Squares Structural Equation Modeling: Rigorous Applications, Better Results and Higher Acceptance",
+          "year": "2013",
+          "cited_by_count": 4974,
+          "topic": "Marketing research",
+          "url": "papers/https-openalex-org-w3123722757.html"
+        },
+        {
+          "title": "Statistical Package for the Social Sciences",
+          "year": "2015",
+          "cited_by_count": 4433,
+          "topic": "Marketing research",
+          "url": "papers/https-openalex-org-w1581783538.html"
+        },
+        {
+          "title": "Marketing Research: An Applied Orientation",
+          "year": "1994",
+          "cited_by_count": 7145,
+          "topic": "Marketing research",
+          "url": "papers/https-openalex-org-w2024180819.html"
+        }
+      ]
+    },
+    {
+      "label": "Customer satisfaction",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Dynamic capabilities: what are they?",
+          "year": "2000",
+          "cited_by_count": 14262,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2089402107.html"
+        },
+        {
+          "title": "Understanding Customer Experience Throughout the Customer Journey",
+          "year": "2016",
+          "cited_by_count": 4936,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2422895071.html"
+        },
+        {
+          "title": "Predictive model assessment in PLS-SEM: guidelines for using PLSpredict",
+          "year": "2019",
+          "cited_by_count": 3447,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2955829435.html"
+        },
+        {
+          "title": "Assessing the effects of quality, value, and customer satisfaction on consumer behavioral intentions in service environments",
+          "year": "2000",
+          "cited_by_count": 6317,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2036063909.html"
+        }
+      ]
+    },
+    {
+      "label": "Media marketing",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+          "year": "1993",
+          "cited_by_count": 10498,
+          "topic": "Media marketing",
+          "url": "papers/https-openalex-org-w2266639535.html"
+        },
+        {
+          "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+          "year": "1993",
+          "cited_by_count": 7613,
+          "topic": "Media marketing",
+          "url": "papers/https-openalex-org-w4234081717.html"
+        },
+        {
+          "title": "Market Orientation: The Construct, Research Propositions, and Managerial Implications",
+          "year": "1990",
+          "cited_by_count": 7374,
+          "topic": "Media marketing",
+          "url": "papers/https-openalex-org-w2010812063.html"
+        },
+        {
+          "title": "A Critical Review of Construct Indicators and Measurement Model Misspecification in Marketing and Consumer Research",
+          "year": "2003",
+          "cited_by_count": 5511,
+          "topic": "Media marketing",
+          "url": "papers/https-openalex-org-w2146410840.html"
+        }
+      ]
+    },
+    {
+      "label": "Consumer behaviour",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Co-creation experiences: The next practice in value creation",
+          "year": "2004",
+          "cited_by_count": 6179,
+          "topic": "Consumer behaviour",
+          "url": "papers/https-openalex-org-w2093505263.html"
+        },
+        {
+          "title": "A Glance on Changing Workplace Dynamics Post Covid-19 in India: A Review of Psychological Employee Withdrawal Behavior",
+          "year": "2025",
+          "cited_by_count": 1232,
+          "topic": "Consumer behaviour",
+          "url": "papers/https-openalex-org-w2563185723.html"
+        },
+        {
+          "title": "Servicescapes: The Impact of Physical Surroundings on Customers and Employees",
+          "year": "1992",
+          "cited_by_count": 5201,
+          "topic": "Consumer behaviour",
+          "url": "papers/https-openalex-org-w2038125955.html"
+        }
+      ]
+    },
+    {
+      "label": "Digital marketing",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Advances in Consumer Research",
+          "year": "2025",
+          "cited_by_count": 13461,
+          "topic": "Digital marketing",
+          "url": "papers/https-openalex-org-w2902225836.html"
+        },
+        {
+          "title": "Digital Business Strategy: Toward a Next Generation of Insights",
+          "year": "2013",
+          "cited_by_count": 3721,
+          "topic": "Digital marketing",
+          "url": "papers/https-openalex-org-w2148060162.html"
+        },
+        {
+          "title": "The Effect of National Culture on the Choice of Entry Mode",
+          "year": "1988",
+          "cited_by_count": 6190,
+          "topic": "Digital marketing",
+          "url": "papers/https-openalex-org-w2122929840.html"
+        }
+      ]
+    },
+    {
+      "label": "Relationship marketing",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "A Paradigm for Developing Better Measures of Marketing Constructs",
+          "year": "1979",
+          "cited_by_count": 12690,
+          "topic": "Relationship marketing",
+          "url": "papers/https-openalex-org-w1991623719.html"
+        },
+        {
+          "title": "A Model of Distributor Firm and Manufacturer Firm Working Partnerships",
+          "year": "1990",
+          "cited_by_count": 5372,
+          "topic": "Relationship marketing",
+          "url": "papers/https-openalex-org-w2003825788.html"
+        },
+        {
+          "title": "Whence Consumer Loyalty?",
+          "year": "1999",
+          "cited_by_count": 4629,
+          "topic": "Relationship marketing",
+          "url": "papers/https-openalex-org-w4240915221.html"
+        }
+      ]
+    },
+    {
+      "label": "Service marketing",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Service-dominant logic: continuing the evolution",
+          "year": "2007",
+          "cited_by_count": 7220,
+          "topic": "Service marketing",
+          "url": "papers/https-openalex-org-w2126840412.html"
+        },
+        {
+          "title": "Institutions and axioms: an extension and update of service-dominant logic",
+          "year": "2015",
+          "cited_by_count": 3342,
+          "topic": "Service marketing",
+          "url": "papers/https-openalex-org-w919187098.html"
+        },
+        {
+          "title": "A Service Quality Model and its Marketing Implications",
+          "year": "1984",
+          "cited_by_count": 6480,
+          "topic": "Service marketing",
+          "url": "papers/https-openalex-org-w2094013842.html"
+        }
+      ]
+    },
+    {
+      "label": "Overview",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+          "year": "2019",
+          "cited_by_count": 3816,
+          "topic": "Overview",
+          "url": "papers/https-openalex-org-w2969625533.html"
+        },
+        {
+          "title": "Setting the future of digital and social media marketing research: Perspectives and research propositions",
+          "year": "2020",
+          "cited_by_count": 2329,
+          "topic": "Overview",
+          "url": "papers/https-openalex-org-w3035686316.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2902225836",
+      "title": "Advances in Consumer Research",
+      "year": 2025,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 13461.0,
+      "primary_topic_id": "sg-digital-marketing",
+      "primary_topic_label": "Digital marketing",
+      "url": "/domains/marketing/papers/W2902225836"
+    },
+    {
+      "source_id": "https://openalex.org/W1988050849",
+      "title": "PLS-SEM: Indeed a Silver Bullet",
+      "year": 2011,
+      "cited_by_count": 20387,
+      "adjusted_cited_by_count": 5263.9,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W1988050849"
+    },
+    {
+      "source_id": "https://openalex.org/W2137247419",
+      "title": "The Commitment-Trust Theory of Relationship Marketing",
+      "year": 1994,
+      "cited_by_count": 17412,
+      "adjusted_cited_by_count": 3078.04,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W2137247419"
+    },
+    {
+      "source_id": "https://openalex.org/W2135526934",
+      "title": "Evolving to a New Dominant Logic for Marketing",
+      "year": 2003,
+      "cited_by_count": 14185,
+      "adjusted_cited_by_count": 2957.78,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W2135526934"
+    },
+    {
+      "source_id": "https://openalex.org/W2089402107",
+      "title": "Dynamic capabilities: what are they?",
+      "year": 2000,
+      "cited_by_count": 14262,
+      "adjusted_cited_by_count": 2797.01,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/marketing/papers/W2089402107"
+    },
+    {
+      "source_id": "https://openalex.org/W3122877168",
+      "title": "https://openalex.org/W3122877168",
+      "year": 2009,
+      "cited_by_count": 10593,
+      "adjusted_cited_by_count": 2569.18,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W3122877168"
+    },
+    {
+      "source_id": "https://openalex.org/W2130892515",
+      "title": "An assessment of the use of partial least squares structural equation modeling in marketing research",
+      "year": 2011,
+      "cited_by_count": 7742,
+      "adjusted_cited_by_count": 1998.98,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W2130892515"
+    },
+    {
+      "source_id": "https://openalex.org/W1991623719",
+      "title": "A Paradigm for Developing Better Measures of Marketing Constructs",
+      "year": 1979,
+      "cited_by_count": 12690,
+      "adjusted_cited_by_count": 1851.03,
+      "primary_topic_id": "sg-relationship-marketing",
+      "primary_topic_label": "Relationship marketing",
+      "url": "/domains/marketing/papers/W1991623719"
+    },
+    {
+      "source_id": "https://openalex.org/W4253262538",
+      "title": "The Commitment-Trust Theory of Relationship Marketing",
+      "year": 1994,
+      "cited_by_count": 10375,
+      "adjusted_cited_by_count": 1834.06,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W4253262538"
+    },
+    {
+      "source_id": "https://openalex.org/W2266639535",
+      "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+      "year": 1993,
+      "cited_by_count": 10498,
+      "adjusted_cited_by_count": 1827.47,
+      "primary_topic_id": "sg-media-marketing",
+      "primary_topic_label": "Media marketing",
+      "url": "/domains/marketing/papers/W2266639535"
+    },
+    {
+      "source_id": "https://openalex.org/W2126840412",
+      "title": "Service-dominant logic: continuing the evolution",
+      "year": 2007,
+      "cited_by_count": 7220,
+      "adjusted_cited_by_count": 1656.38,
+      "primary_topic_id": "sg-service-marketing",
+      "primary_topic_label": "Service marketing",
+      "url": "/domains/marketing/papers/W2126840412"
+    },
+    {
+      "source_id": "https://openalex.org/W2422895071",
+      "title": "Understanding Customer Experience Throughout the Customer Journey",
+      "year": 2016,
+      "cited_by_count": 4936,
+      "adjusted_cited_by_count": 1560.9,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/marketing/papers/W2422895071"
+    },
+    {
+      "source_id": "https://openalex.org/W1990631438",
+      "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+      "year": 1977,
+      "cited_by_count": 10785,
+      "adjusted_cited_by_count": 1540.71,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W1990631438"
+    },
+    {
+      "source_id": "https://openalex.org/W2969625533",
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "year": 2019,
+      "cited_by_count": 3816,
+      "adjusted_cited_by_count": 1442.31,
+      "primary_topic_id": "sg-overview",
+      "primary_topic_label": "Overview",
+      "url": "/domains/marketing/papers/W2969625533"
+    },
+    {
+      "source_id": "https://openalex.org/W3123722757",
+      "title": "Partial Least Squares Structural Equation Modeling: Rigorous Applications, Better Results and Higher Acceptance",
+      "year": 2013,
+      "cited_by_count": 4974,
+      "adjusted_cited_by_count": 1379.54,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W3123722757"
+    },
+    {
+      "source_id": "https://openalex.org/W1581783538",
+      "title": "Statistical Package for the Social Sciences",
+      "year": 2015,
+      "cited_by_count": 4433,
+      "adjusted_cited_by_count": 1336.6,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W1581783538"
+    },
+    {
+      "source_id": "https://openalex.org/W4234081717",
+      "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+      "year": 1993,
+      "cited_by_count": 7613,
+      "adjusted_cited_by_count": 1325.25,
+      "primary_topic_id": "sg-media-marketing",
+      "primary_topic_label": "Media marketing",
+      "url": "/domains/marketing/papers/W4234081717"
+    },
+    {
+      "source_id": "https://openalex.org/W2093505263",
+      "title": "Co-creation experiences: The next practice in value creation",
+      "year": 2004,
+      "cited_by_count": 6179,
+      "adjusted_cited_by_count": 1317.37,
+      "primary_topic_id": "sg-consumer-behaviour",
+      "primary_topic_label": "Consumer behaviour",
+      "url": "/domains/marketing/papers/W2093505263"
+    },
+    {
+      "source_id": "https://openalex.org/W1562891728",
+      "title": "Marketing management: analysis. planning. implementation and control",
+      "year": 2000,
+      "cited_by_count": 6704,
+      "adjusted_cited_by_count": 1314.76,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W1562891728"
+    },
+    {
+      "source_id": "https://openalex.org/W2955829435",
+      "title": "Predictive model assessment in PLS-SEM: guidelines for using PLSpredict",
+      "year": 2019,
+      "cited_by_count": 3447,
+      "adjusted_cited_by_count": 1302.84,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/marketing/papers/W2955829435"
+    },
+    {
+      "source_id": "https://openalex.org/W2024180819",
+      "title": "Marketing Research: An Applied Orientation",
+      "year": 1994,
+      "cited_by_count": 7145,
+      "adjusted_cited_by_count": 1263.07,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W2024180819"
+    },
+    {
+      "source_id": "https://openalex.org/W1991670833",
+      "title": "Developing Buyer-Seller Relationships",
+      "year": 1987,
+      "cited_by_count": 7765,
+      "adjusted_cited_by_count": 1243.4,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W1991670833"
+    },
+    {
+      "source_id": "https://openalex.org/W1608836379",
+      "title": "Structural Equation Modeling and Regression: Guidelines for Research Practice",
+      "year": 2000,
+      "cited_by_count": 6331,
+      "adjusted_cited_by_count": 1241.61,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W1608836379"
+    },
+    {
+      "source_id": "https://openalex.org/W2036063909",
+      "title": "Assessing the effects of quality, value, and customer satisfaction on consumer behavioral intentions in service environments",
+      "year": 2000,
+      "cited_by_count": 6317,
+      "adjusted_cited_by_count": 1238.87,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/marketing/papers/W2036063909"
+    },
+    {
+      "source_id": "https://openalex.org/W2563185723",
+      "title": "A Glance on Changing Workplace Dynamics Post Covid-19 in India: A Review of Psychological Employee Withdrawal Behavior",
+      "year": 2025,
+      "cited_by_count": 1232,
+      "adjusted_cited_by_count": 1232.0,
+      "primary_topic_id": "sg-consumer-behaviour",
+      "primary_topic_label": "Consumer behaviour",
+      "url": "/domains/marketing/papers/W2563185723"
+    },
+    {
+      "source_id": "https://openalex.org/W2010812063",
+      "title": "Market Orientation: The Construct, Research Propositions, and Managerial Implications",
+      "year": 1990,
+      "cited_by_count": 7374,
+      "adjusted_cited_by_count": 1229.0,
+      "primary_topic_id": "sg-media-marketing",
+      "primary_topic_label": "Media marketing",
+      "url": "/domains/marketing/papers/W2010812063"
+    },
+    {
+      "source_id": "https://openalex.org/W4254434816",
+      "title": "A Paradigm for Developing Better Measures of Marketing Constructs",
+      "year": 1979,
+      "cited_by_count": 8017,
+      "adjusted_cited_by_count": 1169.4,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W4254434816"
+    },
+    {
+      "source_id": "https://openalex.org/W2146410840",
+      "title": "A Critical Review of Construct Indicators and Measurement Model Misspecification in Marketing and Consumer Research",
+      "year": 2003,
+      "cited_by_count": 5511,
+      "adjusted_cited_by_count": 1149.12,
+      "primary_topic_id": "sg-media-marketing",
+      "primary_topic_label": "Media marketing",
+      "url": "/domains/marketing/papers/W2146410840"
+    },
+    {
+      "source_id": "https://openalex.org/W2170430750",
+      "title": "Determinants of Long-Term Orientation in Buyer-Seller Relationships",
+      "year": 1994,
+      "cited_by_count": 5881,
+      "adjusted_cited_by_count": 1039.62,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W2170430750"
+    },
+    {
+      "source_id": "https://openalex.org/W2148060162",
+      "title": "Digital Business Strategy: Toward a Next Generation of Insights",
+      "year": 2013,
+      "cited_by_count": 3721,
+      "adjusted_cited_by_count": 1032.02,
+      "primary_topic_id": "sg-digital-marketing",
+      "primary_topic_label": "Digital marketing",
+      "url": "/domains/marketing/papers/W2148060162"
+    },
+    {
+      "source_id": "https://openalex.org/W2950750906",
+      "title": "How to Specify, Estimate, and Validate Higher-Order Constructs in PLS-SEM",
+      "year": 2019,
+      "cited_by_count": 2725,
+      "adjusted_cited_by_count": 1029.95,
+      "primary_topic_id": "sg-marketing-research",
+      "primary_topic_label": "Marketing research",
+      "url": "/domains/marketing/papers/W2950750906"
+    },
+    {
+      "source_id": "https://openalex.org/W919187098",
+      "title": "Institutions and axioms: an extension and update of service-dominant logic",
+      "year": 2015,
+      "cited_by_count": 3342,
+      "adjusted_cited_by_count": 1007.65,
+      "primary_topic_id": "sg-service-marketing",
+      "primary_topic_label": "Service marketing",
+      "url": "/domains/marketing/papers/W919187098"
+    },
+    {
+      "source_id": "https://openalex.org/W2122929840",
+      "title": "The Effect of National Culture on the Choice of Entry Mode",
+      "year": 1988,
+      "cited_by_count": 6190,
+      "adjusted_cited_by_count": 1004.15,
+      "primary_topic_id": "sg-digital-marketing",
+      "primary_topic_label": "Digital marketing",
+      "url": "/domains/marketing/papers/W2122929840"
+    },
+    {
+      "source_id": "https://openalex.org/W2094013842",
+      "title": "A Service Quality Model and its Marketing Implications",
+      "year": 1984,
+      "cited_by_count": 6480,
+      "adjusted_cited_by_count": 999.89,
+      "primary_topic_id": "sg-service-marketing",
+      "primary_topic_label": "Service marketing",
+      "url": "/domains/marketing/papers/W2094013842"
+    },
+    {
+      "source_id": "https://openalex.org/W4205327251",
+      "title": "Sport Marketing Quarterly",
+      "year": 2019,
+      "cited_by_count": 2519,
+      "adjusted_cited_by_count": 952.09,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W4205327251"
+    },
+    {
+      "source_id": "https://openalex.org/W3035686316",
+      "title": "Setting the future of digital and social media marketing research: Perspectives and research propositions",
+      "year": 2020,
+      "cited_by_count": 2329,
+      "adjusted_cited_by_count": 950.81,
+      "primary_topic_id": "sg-overview",
+      "primary_topic_label": "Overview",
+      "url": "/domains/marketing/papers/W3035686316"
+    },
+    {
+      "source_id": "https://openalex.org/W2003825788",
+      "title": "A Model of Distributor Firm and Manufacturer Firm Working Partnerships",
+      "year": 1990,
+      "cited_by_count": 5372,
+      "adjusted_cited_by_count": 895.33,
+      "primary_topic_id": "sg-relationship-marketing",
+      "primary_topic_label": "Relationship marketing",
+      "url": "/domains/marketing/papers/W2003825788"
+    },
+    {
+      "source_id": "https://openalex.org/W2100739170",
+      "title": "Common Beliefs and Reality About PLS",
+      "year": 2014,
+      "cited_by_count": 3090,
+      "adjusted_cited_by_count": 892.01,
+      "primary_topic_id": "sg-marketing-management",
+      "primary_topic_label": "Marketing management",
+      "url": "/domains/marketing/papers/W2100739170"
+    },
+    {
+      "source_id": "https://openalex.org/W2038125955",
+      "title": "Servicescapes: The Impact of Physical Surroundings on Customers and Employees",
+      "year": 1992,
+      "cited_by_count": 5201,
+      "adjusted_cited_by_count": 891.96,
+      "primary_topic_id": "sg-consumer-behaviour",
+      "primary_topic_label": "Consumer behaviour",
+      "url": "/domains/marketing/papers/W2038125955"
+    },
+    {
+      "source_id": "https://openalex.org/W4240915221",
+      "title": "Whence Consumer Loyalty?",
+      "year": 1999,
+      "cited_by_count": 4629,
+      "adjusted_cited_by_count": 890.85,
+      "primary_topic_id": "sg-relationship-marketing",
+      "primary_topic_label": "Relationship marketing",
+      "url": "/domains/marketing/papers/W4240915221"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2902225836",
+      "title": "Advances in Consumer Research",
+      "year": 2025,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 13461.0,
+      "url": "/domains/marketing/papers/W2902225836"
+    },
+    {
+      "source_id": "https://openalex.org/W1988050849",
+      "title": "PLS-SEM: Indeed a Silver Bullet",
+      "year": 2011,
+      "cited_by_count": 20387,
+      "adjusted_cited_by_count": 5263.9,
+      "url": "/domains/marketing/papers/W1988050849"
+    },
+    {
+      "source_id": "https://openalex.org/W2137247419",
+      "title": "The Commitment-Trust Theory of Relationship Marketing",
+      "year": 1994,
+      "cited_by_count": 17412,
+      "adjusted_cited_by_count": 3078.04,
+      "url": "/domains/marketing/papers/W2137247419"
+    },
+    {
+      "source_id": "https://openalex.org/W2135526934",
+      "title": "Evolving to a New Dominant Logic for Marketing",
+      "year": 2003,
+      "cited_by_count": 14185,
+      "adjusted_cited_by_count": 2957.78,
+      "url": "/domains/marketing/papers/W2135526934"
+    },
+    {
+      "source_id": "https://openalex.org/W2089402107",
+      "title": "Dynamic capabilities: what are they?",
+      "year": 2000,
+      "cited_by_count": 14262,
+      "adjusted_cited_by_count": 2797.01,
+      "url": "/domains/marketing/papers/W2089402107"
+    },
+    {
+      "source_id": "https://openalex.org/W3122877168",
+      "title": "https://openalex.org/W3122877168",
+      "year": 2009,
+      "cited_by_count": 10593,
+      "adjusted_cited_by_count": 2569.18,
+      "url": "/domains/marketing/papers/W3122877168"
+    },
+    {
+      "source_id": "https://openalex.org/W2130892515",
+      "title": "An assessment of the use of partial least squares structural equation modeling in marketing research",
+      "year": 2011,
+      "cited_by_count": 7742,
+      "adjusted_cited_by_count": 1998.98,
+      "url": "/domains/marketing/papers/W2130892515"
+    },
+    {
+      "source_id": "https://openalex.org/W1991623719",
+      "title": "A Paradigm for Developing Better Measures of Marketing Constructs",
+      "year": 1979,
+      "cited_by_count": 12690,
+      "adjusted_cited_by_count": 1851.03,
+      "url": "/domains/marketing/papers/W1991623719"
+    },
+    {
+      "source_id": "https://openalex.org/W4253262538",
+      "title": "The Commitment-Trust Theory of Relationship Marketing",
+      "year": 1994,
+      "cited_by_count": 10375,
+      "adjusted_cited_by_count": 1834.06,
+      "url": "/domains/marketing/papers/W4253262538"
+    },
+    {
+      "source_id": "https://openalex.org/W2266639535",
+      "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+      "year": 1993,
+      "cited_by_count": 10498,
+      "adjusted_cited_by_count": 1827.47,
+      "url": "/domains/marketing/papers/W2266639535"
+    },
+    {
+      "source_id": "https://openalex.org/W2126840412",
+      "title": "Service-dominant logic: continuing the evolution",
+      "year": 2007,
+      "cited_by_count": 7220,
+      "adjusted_cited_by_count": 1656.38,
+      "url": "/domains/marketing/papers/W2126840412"
+    },
+    {
+      "source_id": "https://openalex.org/W2422895071",
+      "title": "Understanding Customer Experience Throughout the Customer Journey",
+      "year": 2016,
+      "cited_by_count": 4936,
+      "adjusted_cited_by_count": 1560.9,
+      "url": "/domains/marketing/papers/W2422895071"
+    },
+    {
+      "source_id": "https://openalex.org/W1990631438",
+      "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+      "year": 1977,
+      "cited_by_count": 10785,
+      "adjusted_cited_by_count": 1540.71,
+      "url": "/domains/marketing/papers/W1990631438"
+    },
+    {
+      "source_id": "https://openalex.org/W2969625533",
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "year": 2019,
+      "cited_by_count": 3816,
+      "adjusted_cited_by_count": 1442.31,
+      "url": "/domains/marketing/papers/W2969625533"
+    },
+    {
+      "source_id": "https://openalex.org/W3123722757",
+      "title": "Partial Least Squares Structural Equation Modeling: Rigorous Applications, Better Results and Higher Acceptance",
+      "year": 2013,
+      "cited_by_count": 4974,
+      "adjusted_cited_by_count": 1379.54,
+      "url": "/domains/marketing/papers/W3123722757"
+    },
+    {
+      "source_id": "https://openalex.org/W1581783538",
+      "title": "Statistical Package for the Social Sciences",
+      "year": 2015,
+      "cited_by_count": 4433,
+      "adjusted_cited_by_count": 1336.6,
+      "url": "/domains/marketing/papers/W1581783538"
+    },
+    {
+      "source_id": "https://openalex.org/W4234081717",
+      "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+      "year": 1993,
+      "cited_by_count": 7613,
+      "adjusted_cited_by_count": 1325.25,
+      "url": "/domains/marketing/papers/W4234081717"
+    },
+    {
+      "source_id": "https://openalex.org/W2093505263",
+      "title": "Co-creation experiences: The next practice in value creation",
+      "year": 2004,
+      "cited_by_count": 6179,
+      "adjusted_cited_by_count": 1317.37,
+      "url": "/domains/marketing/papers/W2093505263"
+    },
+    {
+      "source_id": "https://openalex.org/W1562891728",
+      "title": "Marketing management: analysis. planning. implementation and control",
+      "year": 2000,
+      "cited_by_count": 6704,
+      "adjusted_cited_by_count": 1314.76,
+      "url": "/domains/marketing/papers/W1562891728"
+    },
+    {
+      "source_id": "https://openalex.org/W2955829435",
+      "title": "Predictive model assessment in PLS-SEM: guidelines for using PLSpredict",
+      "year": 2019,
+      "cited_by_count": 3447,
+      "adjusted_cited_by_count": 1302.84,
+      "url": "/domains/marketing/papers/W2955829435"
+    },
+    {
+      "source_id": "https://openalex.org/W2024180819",
+      "title": "Marketing Research: An Applied Orientation",
+      "year": 1994,
+      "cited_by_count": 7145,
+      "adjusted_cited_by_count": 1263.07,
+      "url": "/domains/marketing/papers/W2024180819"
+    },
+    {
+      "source_id": "https://openalex.org/W1991670833",
+      "title": "Developing Buyer-Seller Relationships",
+      "year": 1987,
+      "cited_by_count": 7765,
+      "adjusted_cited_by_count": 1243.4,
+      "url": "/domains/marketing/papers/W1991670833"
+    },
+    {
+      "source_id": "https://openalex.org/W1608836379",
+      "title": "Structural Equation Modeling and Regression: Guidelines for Research Practice",
+      "year": 2000,
+      "cited_by_count": 6331,
+      "adjusted_cited_by_count": 1241.61,
+      "url": "/domains/marketing/papers/W1608836379"
+    },
+    {
+      "source_id": "https://openalex.org/W2036063909",
+      "title": "Assessing the effects of quality, value, and customer satisfaction on consumer behavioral intentions in service environments",
+      "year": 2000,
+      "cited_by_count": 6317,
+      "adjusted_cited_by_count": 1238.87,
+      "url": "/domains/marketing/papers/W2036063909"
+    },
+    {
+      "source_id": "https://openalex.org/W2563185723",
+      "title": "A Glance on Changing Workplace Dynamics Post Covid-19 in India: A Review of Psychological Employee Withdrawal Behavior",
+      "year": 2025,
+      "cited_by_count": 1232,
+      "adjusted_cited_by_count": 1232.0,
+      "url": "/domains/marketing/papers/W2563185723"
+    },
+    {
+      "source_id": "https://openalex.org/W2010812063",
+      "title": "Market Orientation: The Construct, Research Propositions, and Managerial Implications",
+      "year": 1990,
+      "cited_by_count": 7374,
+      "adjusted_cited_by_count": 1229.0,
+      "url": "/domains/marketing/papers/W2010812063"
+    },
+    {
+      "source_id": "https://openalex.org/W4254434816",
+      "title": "A Paradigm for Developing Better Measures of Marketing Constructs",
+      "year": 1979,
+      "cited_by_count": 8017,
+      "adjusted_cited_by_count": 1169.4,
+      "url": "/domains/marketing/papers/W4254434816"
+    },
+    {
+      "source_id": "https://openalex.org/W2146410840",
+      "title": "A Critical Review of Construct Indicators and Measurement Model Misspecification in Marketing and Consumer Research",
+      "year": 2003,
+      "cited_by_count": 5511,
+      "adjusted_cited_by_count": 1149.12,
+      "url": "/domains/marketing/papers/W2146410840"
+    },
+    {
+      "source_id": "https://openalex.org/W2170430750",
+      "title": "Determinants of Long-Term Orientation in Buyer-Seller Relationships",
+      "year": 1994,
+      "cited_by_count": 5881,
+      "adjusted_cited_by_count": 1039.62,
+      "url": "/domains/marketing/papers/W2170430750"
+    },
+    {
+      "source_id": "https://openalex.org/W2148060162",
+      "title": "Digital Business Strategy: Toward a Next Generation of Insights",
+      "year": 2013,
+      "cited_by_count": 3721,
+      "adjusted_cited_by_count": 1032.02,
+      "url": "/domains/marketing/papers/W2148060162"
+    },
+    {
+      "source_id": "https://openalex.org/W2950750906",
+      "title": "How to Specify, Estimate, and Validate Higher-Order Constructs in PLS-SEM",
+      "year": 2019,
+      "cited_by_count": 2725,
+      "adjusted_cited_by_count": 1029.95,
+      "url": "/domains/marketing/papers/W2950750906"
+    },
+    {
+      "source_id": "https://openalex.org/W919187098",
+      "title": "Institutions and axioms: an extension and update of service-dominant logic",
+      "year": 2015,
+      "cited_by_count": 3342,
+      "adjusted_cited_by_count": 1007.65,
+      "url": "/domains/marketing/papers/W919187098"
+    },
+    {
+      "source_id": "https://openalex.org/W2122929840",
+      "title": "The Effect of National Culture on the Choice of Entry Mode",
+      "year": 1988,
+      "cited_by_count": 6190,
+      "adjusted_cited_by_count": 1004.15,
+      "url": "/domains/marketing/papers/W2122929840"
+    },
+    {
+      "source_id": "https://openalex.org/W2094013842",
+      "title": "A Service Quality Model and its Marketing Implications",
+      "year": 1984,
+      "cited_by_count": 6480,
+      "adjusted_cited_by_count": 999.89,
+      "url": "/domains/marketing/papers/W2094013842"
+    },
+    {
+      "source_id": "https://openalex.org/W4205327251",
+      "title": "Sport Marketing Quarterly",
+      "year": 2019,
+      "cited_by_count": 2519,
+      "adjusted_cited_by_count": 952.09,
+      "url": "/domains/marketing/papers/W4205327251"
+    },
+    {
+      "source_id": "https://openalex.org/W3035686316",
+      "title": "Setting the future of digital and social media marketing research: Perspectives and research propositions",
+      "year": 2020,
+      "cited_by_count": 2329,
+      "adjusted_cited_by_count": 950.81,
+      "url": "/domains/marketing/papers/W3035686316"
+    },
+    {
+      "source_id": "https://openalex.org/W2003825788",
+      "title": "A Model of Distributor Firm and Manufacturer Firm Working Partnerships",
+      "year": 1990,
+      "cited_by_count": 5372,
+      "adjusted_cited_by_count": 895.33,
+      "url": "/domains/marketing/papers/W2003825788"
+    },
+    {
+      "source_id": "https://openalex.org/W2100739170",
+      "title": "Common Beliefs and Reality About PLS",
+      "year": 2014,
+      "cited_by_count": 3090,
+      "adjusted_cited_by_count": 892.01,
+      "url": "/domains/marketing/papers/W2100739170"
+    },
+    {
+      "source_id": "https://openalex.org/W2038125955",
+      "title": "Servicescapes: The Impact of Physical Surroundings on Customers and Employees",
+      "year": 1992,
+      "cited_by_count": 5201,
+      "adjusted_cited_by_count": 891.96,
+      "url": "/domains/marketing/papers/W2038125955"
+    },
+    {
+      "source_id": "https://openalex.org/W4240915221",
+      "title": "Whence Consumer Loyalty?",
+      "year": 1999,
+      "cited_by_count": 4629,
+      "adjusted_cited_by_count": 890.85,
+      "url": "/domains/marketing/papers/W4240915221"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "marketing",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 357
+    },
+    {
+      "label": "business",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 350
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 244
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 237
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 202
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 145
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 145
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 136
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 115
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "product",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 103
+    },
+    {
+      "label": "knowledge management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "firm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 98
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 97
+    },
+    {
+      "label": "service",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 96
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 95
+    },
+    {
+      "label": "customer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "relations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "conceptual framework",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "concept",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 89
+    },
+    {
+      "label": "relationship",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "consumer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "consumer behaviour",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "value",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "industrial organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 129
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 77
+    },
+    {
+      "label": "literature",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 65
+    },
+    {
+      "label": "implications",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 63
+    },
+    {
+      "label": "marketing management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 63
+    },
+    {
+      "label": "organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 75
+    },
+    {
+      "label": "empirical research",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 62
+    },
+    {
+      "label": "focus",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 62
+    },
+    {
+      "label": "social psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 61
+    },
+    {
+      "label": "perspective",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 59
+    },
+    {
+      "label": "marketing research",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 58
+    },
+    {
+      "label": "strategy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 58
+    },
+    {
+      "label": "test",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 57
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 66
+    },
+    {
+      "label": "role",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 56
+    },
+    {
+      "label": "construct",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 55
+    },
+    {
+      "label": "impact of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 53
+    },
+    {
+      "label": "public relations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 50
+    },
+    {
+      "label": "relationship marketing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 49
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 48
+    },
+    {
+      "label": "of marketing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 47
+    }
+  ],
+  "topic_year_counts": {
+    "marketing management": {
+      "2025": 179254,
+      "2023": 165999,
+      "2024": 165907,
+      "2022": 115931,
+      "2021": 99346,
+      "2020": 91289,
+      "2019": 77574,
+      "2018": 68641,
+      "2017": 59325,
+      "2016": 54056,
+      "2015": 49672,
+      "2014": 45339,
+      "2013": 39755,
+      "2026": 36216,
+      "2012": 35104,
+      "2011": 30959,
+      "2010": 26637,
+      "2009": 23107,
+      "2008": 19146,
+      "2007": 16727,
+      "2006": 15613,
+      "2005": 13421,
+      "2004": 11588,
+      "2003": 9824,
+      "2002": 8555,
+      "2000": 7637,
+      "2001": 7394
+    },
+    "consumer behaviour": {
+      "2025": 85315,
+      "2023": 84556,
+      "2024": 81074,
+      "2022": 59667,
+      "2021": 55280,
+      "2020": 49697,
+      "2019": 41939,
+      "2018": 38847,
+      "2017": 34084,
+      "2016": 30092,
+      "2015": 27656,
+      "2014": 25066,
+      "2013": 21725,
+      "2026": 19562,
+      "2012": 19063,
+      "2011": 16654,
+      "2010": 15062,
+      "2009": 13463,
+      "2008": 10856,
+      "2007": 9126,
+      "2006": 8010,
+      "2005": 6904,
+      "2004": 5824,
+      "2003": 4852,
+      "2002": 4040,
+      "2001": 3403,
+      "2000": 3023
+    },
+    "marketing research": {
+      "2025": 213514,
+      "2024": 201165,
+      "2023": 200196,
+      "2022": 140225,
+      "2021": 124010,
+      "2020": 114590,
+      "2019": 98665,
+      "2018": 87185,
+      "2017": 76657,
+      "2016": 69762,
+      "2015": 64419,
+      "2014": 58095,
+      "2013": 50640,
+      "2012": 44263,
+      "2026": 43367,
+      "2011": 39193,
+      "2010": 33694,
+      "2009": 28985,
+      "2008": 24184,
+      "2007": 20710,
+      "2006": 18955,
+      "2005": 16213,
+      "2004": 13852,
+      "2003": 11776,
+      "2002": 10058,
+      "2000": 8960,
+      "2001": 8917
+    },
+    "media marketing": {
+      "2025": 125081,
+      "2024": 114133,
+      "2023": 112783,
+      "2022": 77192,
+      "2021": 64745,
+      "2020": 57360,
+      "2019": 49451,
+      "2018": 43239,
+      "2017": 36538,
+      "2016": 32764,
+      "2015": 28989,
+      "2014": 26013,
+      "2026": 24123,
+      "2013": 22092,
+      "2012": 19428,
+      "2011": 16124,
+      "2010": 13510,
+      "2009": 11248,
+      "2008": 9250,
+      "2007": 7809,
+      "2006": 7403,
+      "2005": 6195,
+      "2004": 5211,
+      "2003": 3968,
+      "2002": 3341,
+      "2000": 3224,
+      "2001": 2995
+    },
+    "customer satisfaction": {
+      "2025": 85558,
+      "2024": 79252,
+      "2023": 73624,
+      "2022": 49914,
+      "2021": 42110,
+      "2020": 39646,
+      "2019": 35085,
+      "2018": 30415,
+      "2017": 26231,
+      "2016": 23897,
+      "2015": 21758,
+      "2014": 19899,
+      "2013": 17814,
+      "2026": 16565,
+      "2012": 15391,
+      "2011": 13575,
+      "2010": 11212,
+      "2009": 9442,
+      "2008": 7695,
+      "2007": 6596,
+      "2006": 5828,
+      "2005": 4834,
+      "2004": 4624,
+      "2003": 3654,
+      "2002": 3139,
+      "2000": 2786,
+      "2001": 2630
+    },
+    "digital marketing": {
+      "2025": 154391,
+      "2024": 121458,
+      "2023": 107329,
+      "2022": 68474,
+      "2021": 53746,
+      "2020": 44375,
+      "2019": 35160,
+      "2026": 32992,
+      "2018": 28401,
+      "2017": 22805,
+      "2016": 19032,
+      "2015": 16232,
+      "2014": 14326,
+      "2013": 11611,
+      "2012": 9965,
+      "2011": 8320,
+      "2010": 6966,
+      "2009": 5720,
+      "2008": 4884,
+      "2007": 4098,
+      "2006": 3554,
+      "2005": 3402,
+      "2004": 2443,
+      "2003": 2065,
+      "2002": 1752,
+      "2000": 1649,
+      "2001": 1525
+    },
+    "relationship marketing": {
+      "2025": 142475,
+      "2023": 134528,
+      "2024": 134203,
+      "2022": 93408,
+      "2021": 81717,
+      "2020": 74307,
+      "2019": 64232,
+      "2018": 56538,
+      "2017": 49855,
+      "2016": 45608,
+      "2015": 41973,
+      "2014": 38471,
+      "2013": 33775,
+      "2012": 29683,
+      "2026": 29352,
+      "2011": 26406,
+      "2010": 22395,
+      "2009": 19351,
+      "2008": 16020,
+      "2007": 13957,
+      "2006": 12979,
+      "2005": 11120,
+      "2004": 9744,
+      "2003": 8231,
+      "2002": 6880,
+      "2000": 6510,
+      "2001": 5943
+    },
+    "service marketing": {
+      "2025": 148671,
+      "2023": 146290,
+      "2024": 142926,
+      "2022": 103178,
+      "2021": 89942,
+      "2020": 82989,
+      "2019": 72341,
+      "2018": 63766,
+      "2017": 55742,
+      "2016": 51303,
+      "2015": 47235,
+      "2014": 43610,
+      "2013": 38367,
+      "2012": 33759,
+      "2011": 30144,
+      "2026": 29881,
+      "2010": 25856,
+      "2009": 22593,
+      "2008": 18924,
+      "2007": 16603,
+      "2006": 15484,
+      "2005": 13505,
+      "2004": 11554,
+      "2003": 9984,
+      "2002": 8557,
+      "2000": 7767,
+      "2001": 7525
+    },
+    "public sector marketing": {
+      "2025": 76482,
+      "2024": 70791,
+      "2023": 69834,
+      "2022": 48623,
+      "2021": 42458,
+      "2020": 37320,
+      "2019": 32240,
+      "2018": 27989,
+      "2017": 24519,
+      "2016": 22095,
+      "2015": 19577,
+      "2014": 18362,
+      "2013": 15934,
+      "2026": 15208,
+      "2012": 14124,
+      "2011": 12056,
+      "2010": 10681,
+      "2009": 9378,
+      "2008": 7847,
+      "2007": 6849,
+      "2006": 6066,
+      "2005": 5466,
+      "2004": 4669,
+      "2003": 4050,
+      "2002": 3502,
+      "2000": 3334,
+      "2001": 3032
+    }
+  }
+}

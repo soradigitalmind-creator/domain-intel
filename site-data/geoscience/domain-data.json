@@ -1,0 +1,2414 @@
+{
+  "slug": "geoscience",
+  "title": "Geoscience",
+  "updated_at": "2026-04-05T01:36:15.029355Z",
+  "snapshot": {
+    "papers": 653,
+    "topics": 10,
+    "subtopics": 66,
+    "entities": 1241,
+    "claims": 41
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 709,
+      "total_papers": 709,
+      "facet_counts": {
+        "none": 709
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 66,
+    "max_depth": 2,
+    "leaf_topics": 66
+  },
+  "rising_topics": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/geoscience/topics/sg-climate-change",
+      "trend": "rising",
+      "year_total": 3751493
+    },
+    {
+      "id": "sg-atmospheric-science",
+      "label": "Atmospheric science",
+      "url": "/domains/geoscience/topics/sg-atmospheric-science",
+      "trend": "rising",
+      "year_total": 1026391
+    },
+    {
+      "id": "sg-remote-sensing",
+      "label": "Remote sensing",
+      "url": "/domains/geoscience/topics/sg-remote-sensing",
+      "trend": "rising",
+      "year_total": 1505722
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/geoscience/topics/sg-climate-change",
+      "paper_count": 180,
+      "subtopic_count": 19,
+      "trend": "rising",
+      "summary": "entities: climate change, geology, climate",
+      "tags": [
+        "climate change",
+        "climate change impacts",
+        "climate system",
+        "coupled model intercomparison project"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-general-circulation-model",
+          "label": "General circulation model",
+          "url": "/domains/geoscience/topics/sg-climate-change-general-circulation-model",
+          "paper_count": 88
+        },
+        {
+          "id": "sg-climate-change-environmental-change",
+          "label": "Environmental change",
+          "url": "/domains/geoscience/topics/sg-climate-change-environmental-change",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-climate-change-sea-level",
+          "label": "Sea level",
+          "url": "/domains/geoscience/topics/sg-climate-change-sea-level",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-climate-change-earth-science",
+          "label": "Earth science",
+          "url": "/domains/geoscience/topics/sg-climate-change-earth-science",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-climate-change-climate-change-mitigation",
+          "label": "Climate change mitigation",
+          "url": "/domains/geoscience/topics/sg-climate-change-climate-change-mitigation",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-climate-change-biogeochemical-cycle",
+          "label": "Biogeochemical cycle",
+          "url": "/domains/geoscience/topics/sg-climate-change-biogeochemical-cycle",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3025949386",
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28880,
+          "url": "/domains/geoscience/papers/W3025949386"
+        },
+        {
+          "source_id": "https://openalex.org/W2939474406",
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "url": "/domains/geoscience/papers/W2939474406"
+        },
+        {
+          "source_id": "https://openalex.org/W1520428197",
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "url": "/domains/geoscience/papers/W1520428197"
+        }
+      ]
+    },
+    {
+      "id": "sg-atmospheric-science",
+      "label": "Atmospheric science",
+      "url": "/domains/geoscience/topics/sg-atmospheric-science",
+      "paper_count": 135,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: of the, meteorology, atmospheric science",
+      "tags": [
+        "air pollution",
+        "atmospheric chemistry",
+        "atmospheric science",
+        "biomass burning"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-atmospheric-science-atmospheric-chemistry-and-aerosols",
+          "label": "Atmospheric chemistry and aerosols",
+          "url": "/domains/geoscience/topics/sg-atmospheric-science-atmospheric-chemistry-and-aerosols",
+          "paper_count": 93
+        },
+        {
+          "id": "sg-atmospheric-science-biomass-burning-aerosols",
+          "label": "Biomass burning aerosols",
+          "url": "/domains/geoscience/topics/sg-atmospheric-science-biomass-burning-aerosols",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-atmospheric-science-air-quality",
+          "label": "Air quality",
+          "url": "/domains/geoscience/topics/sg-atmospheric-science-air-quality",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-atmospheric-science-carbon-flux",
+          "label": "Carbon flux",
+          "url": "/domains/geoscience/topics/sg-atmospheric-science-carbon-flux",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-atmospheric-science-emission-inventories",
+          "label": "Emission inventories",
+          "url": "/domains/geoscience/topics/sg-atmospheric-science-emission-inventories",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-atmospheric-science-air-pollution-and-emissions",
+          "label": "Air pollution and emissions",
+          "url": "/domains/geoscience/topics/sg-atmospheric-science-air-pollution-and-emissions",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2909240409",
+          "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+          "year": "2019",
+          "cited_by_count": 8527,
+          "url": "/domains/geoscience/papers/W2909240409"
+        },
+        {
+          "source_id": "https://openalex.org/W3015391807",
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7218,
+          "url": "/domains/geoscience/papers/W3015391807"
+        },
+        {
+          "source_id": "https://openalex.org/W4230797236",
+          "title": "Geological Society London Special Publications",
+          "year": "2018",
+          "cited_by_count": 5629,
+          "url": "/domains/geoscience/papers/W4230797236"
+        }
+      ]
+    },
+    {
+      "id": "sg-remote-sensing",
+      "label": "Remote sensing",
+      "url": "/domains/geoscience/topics/sg-remote-sensing",
+      "paper_count": 119,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: remote sensing, geology, data",
+      "tags": [
+        "geoscience remote sensing",
+        "geoscience remote sensing symposium",
+        "international geoscience remote sensing",
+        "remote sensing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-remote-sensing-remote-sensing-in-agriculture",
+          "label": "Remote sensing in agriculture",
+          "url": "/domains/geoscience/topics/sg-remote-sensing-remote-sensing-in-agriculture",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-remote-sensing-radiative-transfer",
+          "label": "Radiative transfer",
+          "url": "/domains/geoscience/topics/sg-remote-sensing-radiative-transfer",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-remote-sensing-digital-elevation-model",
+          "label": "Digital elevation model",
+          "url": "/domains/geoscience/topics/sg-remote-sensing-digital-elevation-model",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-remote-sensing-moderate-resolution-imaging-spectroradiometer",
+          "label": "Moderate-resolution imaging spectroradiometer",
+          "url": "/domains/geoscience/topics/sg-remote-sensing-moderate-resolution-imaging-spectroradiometer",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-remote-sensing-soil-moisture-remote-sensing",
+          "label": "Soil moisture remote sensing",
+          "url": "/domains/geoscience/topics/sg-remote-sensing-soil-moisture-remote-sensing",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-remote-sensing-remote-sensing-land-use",
+          "label": "Remote sensing land use",
+          "url": "/domains/geoscience/topics/sg-remote-sensing-remote-sensing-land-use",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2111684210",
+          "title": "A protocol for data exploration to avoid common statistical problems",
+          "year": "2009",
+          "cited_by_count": 7916,
+          "url": "/domains/geoscience/papers/W2111684210"
+        },
+        {
+          "source_id": "https://openalex.org/W2261645655",
+          "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+          "year": "2015",
+          "cited_by_count": 5790,
+          "url": "/domains/geoscience/papers/W2261645655"
+        },
+        {
+          "source_id": "https://openalex.org/W4200394859",
+          "title": "IEEE Transactions on Geoscience and Remote Sensing",
+          "year": "2023",
+          "cited_by_count": 2273,
+          "url": "/domains/geoscience/papers/W4200394859"
+        }
+      ]
+    },
+    {
+      "id": "sg-environmental-resource-management",
+      "label": "Environmental resource management",
+      "url": "/domains/geoscience/topics/sg-environmental-resource-management",
+      "paper_count": 54,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: of the, age, use",
+      "tags": [
+        "ecosystem service",
+        "environmental resource management",
+        "flood risk management",
+        "land management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-environmental-resource-management-water-resources",
+          "label": "Water resources",
+          "url": "/domains/geoscience/topics/sg-environmental-resource-management-water-resources",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-environmental-resource-management-ecosystem-service",
+          "label": "Ecosystem service",
+          "url": "/domains/geoscience/topics/sg-environmental-resource-management-ecosystem-service",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-environmental-resource-management-flood-risk-management",
+          "label": "Flood risk management",
+          "url": "/domains/geoscience/topics/sg-environmental-resource-management-flood-risk-management",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-environmental-resource-management-food-security",
+          "label": "Food security",
+          "url": "/domains/geoscience/topics/sg-environmental-resource-management-food-security",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-environmental-resource-management-psychological-resilience",
+          "label": "Psychological resilience",
+          "url": "/domains/geoscience/topics/sg-environmental-resource-management-psychological-resilience",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2034994370",
+          "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+          "year": "2009",
+          "cited_by_count": 7941,
+          "url": "/domains/geoscience/papers/W2034994370"
+        },
+        {
+          "source_id": "https://openalex.org/W2103317434",
+          "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+          "year": "2005",
+          "cited_by_count": 7845,
+          "url": "/domains/geoscience/papers/W2103317434"
+        },
+        {
+          "source_id": "https://openalex.org/W2077208327",
+          "title": "Generic Mapping Tools: Improved Version Released",
+          "year": "2013",
+          "cited_by_count": 4027,
+          "url": "/domains/geoscience/papers/W2077208327"
+        }
+      ]
+    },
+    {
+      "id": "sg-land-use",
+      "label": "Land use",
+      "url": "/domains/geoscience/topics/sg-land-use",
+      "paper_count": 48,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: land, of the, use",
+      "tags": [
+        "climate change impacts",
+        "land cover",
+        "land degradation",
+        "land management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-land-use-land-cover",
+          "label": "Land cover",
+          "url": "/domains/geoscience/topics/sg-land-use-land-cover",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-land-use-land-degradation",
+          "label": "Land degradation",
+          "url": "/domains/geoscience/topics/sg-land-use-land-degradation",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-land-use-ecosystem-service",
+          "label": "Ecosystem service",
+          "url": "/domains/geoscience/topics/sg-land-use-ecosystem-service",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-land-use-data-set",
+          "label": "Data set",
+          "url": "/domains/geoscience/topics/sg-land-use-data-set",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-land-use-land-management",
+          "label": "Land management",
+          "url": "/domains/geoscience/topics/sg-land-use-land-management",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1991308688",
+          "title": "The representative concentration pathways: an overview",
+          "year": "2011",
+          "cited_by_count": 7902,
+          "url": "/domains/geoscience/papers/W1991308688"
+        },
+        {
+          "source_id": "https://openalex.org/W1867005924",
+          "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+          "year": "2013",
+          "cited_by_count": 6265,
+          "url": "/domains/geoscience/papers/W1867005924"
+        },
+        {
+          "source_id": "https://openalex.org/W2097467169",
+          "title": "Global Change and the Ecology of Cities",
+          "year": "2008",
+          "cited_by_count": 6854,
+          "url": "/domains/geoscience/papers/W2097467169"
+        }
+      ]
+    },
+    {
+      "id": "sg-earth-s",
+      "label": "Earth system science",
+      "url": "/domains/geoscience/topics/sg-earth-s",
+      "paper_count": 45,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: geology, earth, model",
+      "tags": [
+        "atmospheric circulation",
+        "coupled model",
+        "coupled model intercomparison project",
+        "earth model version"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-earth-s-climate-model",
+          "label": "Climate model",
+          "url": "/domains/geoscience/topics/sg-earth-s-climate-model",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-earth-s-climate-sensitivity",
+          "label": "Climate sensitivity",
+          "url": "/domains/geoscience/topics/sg-earth-s-climate-sensitivity",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2024966118",
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "url": "/domains/geoscience/papers/W2024966118"
+        },
+        {
+          "source_id": "https://openalex.org/W2193503481",
+          "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+          "year": "2016",
+          "cited_by_count": 11602,
+          "url": "/domains/geoscience/papers/W2193503481"
+        },
+        {
+          "source_id": "https://openalex.org/W2611772571",
+          "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+          "year": "2017",
+          "cited_by_count": 9171,
+          "url": "/domains/geoscience/papers/W2611772571"
+        }
+      ]
+    },
+    {
+      "id": "sg-carbon-cycle",
+      "label": "Carbon cycle",
+      "url": "/domains/geoscience/topics/sg-carbon-cycle",
+      "paper_count": 34,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: carbon, geology, in the",
+      "tags": [
+        "carbon cycle",
+        "carbon cycle models",
+        "carbon fibers",
+        "carbon sink"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-carbon-cycle-carbon-fibers",
+          "label": "Carbon fibers",
+          "url": "/domains/geoscience/topics/sg-carbon-cycle-carbon-fibers",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-carbon-cycle-carbon-sink",
+          "label": "Carbon sink",
+          "url": "/domains/geoscience/topics/sg-carbon-cycle-carbon-sink",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-carbon-cycle-data-set",
+          "label": "Data set",
+          "url": "/domains/geoscience/topics/sg-carbon-cycle-data-set",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-carbon-cycle-carbon-dioxide",
+          "label": "Carbon dioxide",
+          "url": "/domains/geoscience/topics/sg-carbon-cycle-carbon-dioxide",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-carbon-cycle-ecosystem-model",
+          "label": "Ecosystem model",
+          "url": "/domains/geoscience/topics/sg-carbon-cycle-ecosystem-model",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2979653715",
+          "title": "Global Carbon Budget 2019",
+          "year": "2019",
+          "cited_by_count": 1687,
+          "url": "/domains/geoscience/papers/W2979653715"
+        },
+        {
+          "source_id": "https://openalex.org/W2915336810",
+          "title": "Global Carbon Budget 2018",
+          "year": "2018",
+          "cited_by_count": 1644,
+          "url": "/domains/geoscience/papers/W2915336810"
+        },
+        {
+          "source_id": "https://openalex.org/W3048951226",
+          "title": "SHCal20 Southern Hemisphere Calibration, 0–55,000 Years cal BP",
+          "year": "2020",
+          "cited_by_count": 1387,
+          "url": "/domains/geoscience/papers/W3048951226"
+        }
+      ]
+    },
+    {
+      "id": "sg-sea-ice",
+      "label": "Sea ice",
+      "url": "/domains/geoscience/topics/sg-sea-ice",
+      "paper_count": 21,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: geology, climatology, sea ice",
+      "tags": [
+        "antarctic ice sheet",
+        "antarctic sea ice",
+        "future sea level",
+        "ice shelf"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sea-ice-ice-shelf",
+          "label": "Ice shelf",
+          "url": "/domains/geoscience/topics/sg-sea-ice-ice-shelf",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-sea-ice-ice-stream",
+          "label": "Ice stream",
+          "url": "/domains/geoscience/topics/sg-sea-ice-ice-stream",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-sea-ice-sea-ice-thickness",
+          "label": "Sea ice thickness",
+          "url": "/domains/geoscience/topics/sg-sea-ice-sea-ice-thickness",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-sea-ice-antarctic-ice-sheet",
+          "label": "Antarctic ice sheet",
+          "url": "/domains/geoscience/topics/sg-sea-ice-antarctic-ice-sheet",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4205617282",
+          "title": "Geophysical Research Letters",
+          "year": "2018",
+          "cited_by_count": 3123,
+          "url": "/domains/geoscience/papers/W4205617282"
+        },
+        {
+          "source_id": "https://openalex.org/W2801080873",
+          "title": "Mass balance of the Antarctic Ice Sheet from 1992 to 2017",
+          "year": "2018",
+          "cited_by_count": 1302,
+          "url": "/domains/geoscience/papers/W2801080873"
+        },
+        {
+          "source_id": "https://openalex.org/W2912817725",
+          "title": "A consensus estimate for the ice thickness distribution of all glaciers on Earth",
+          "year": "2019",
+          "cited_by_count": 868,
+          "url": "/domains/geoscience/papers/W2912817725"
+        }
+      ]
+    },
+    {
+      "id": "sg-greenhouse-gas",
+      "label": "Greenhouse gas",
+      "url": "/domains/geoscience/topics/sg-greenhouse-gas",
+      "paper_count": 11,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: greenhouse gas, use, geology",
+      "tags": [
+        "atmospheric methane",
+        "blue carbon",
+        "climate change mitigation",
+        "emission inventory"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-greenhouse-gas-fossil-fuel",
+          "label": "Fossil fuel",
+          "url": "/domains/geoscience/topics/sg-greenhouse-gas-fossil-fuel",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-greenhouse-gas-nitrous-oxide",
+          "label": "Nitrous oxide",
+          "url": "/domains/geoscience/topics/sg-greenhouse-gas-nitrous-oxide",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-greenhouse-gas-global-warming",
+          "label": "Global warming",
+          "url": "/domains/geoscience/topics/sg-greenhouse-gas-global-warming",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-greenhouse-gas-greenhouse-effect",
+          "label": "Greenhouse effect",
+          "url": "/domains/geoscience/topics/sg-greenhouse-gas-greenhouse-effect",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1991308688",
+          "title": "The representative concentration pathways: an overview",
+          "year": "2011",
+          "cited_by_count": 7902,
+          "url": "/domains/geoscience/papers/W1991308688"
+        },
+        {
+          "source_id": "https://openalex.org/W2058522703",
+          "title": "Three decades of global methane sources and sinks",
+          "year": "2013",
+          "cited_by_count": 2336,
+          "url": "/domains/geoscience/papers/W2058522703"
+        },
+        {
+          "source_id": "https://openalex.org/W2147924102",
+          "title": "Estimating Global “Blue Carbon” Emissions from Conversion and Degradation of Vegetated Coastal Ecosystems",
+          "year": "2012",
+          "cited_by_count": 1690,
+          "url": "/domains/geoscience/papers/W2147924102"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-change",
+      "label": "Global change",
+      "url": "/domains/geoscience/topics/sg-global-change",
+      "paper_count": 6,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: change, data, geology",
+      "tags": [
+        "climate change disruptions",
+        "global carbon budget",
+        "global change",
+        "global change ecology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-change-carbon-sink",
+          "label": "Carbon sink",
+          "url": "/domains/geoscience/topics/sg-global-change-carbon-sink",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-global-change-carbon-dioxide",
+          "label": "Carbon dioxide",
+          "url": "/domains/geoscience/topics/sg-global-change-carbon-dioxide",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3093432062",
+          "title": "Global Carbon Budget 2020",
+          "year": "2020",
+          "cited_by_count": 2494,
+          "url": "/domains/geoscience/papers/W3093432062"
+        },
+        {
+          "source_id": "https://openalex.org/W4308697725",
+          "title": "Global Carbon Budget 2022",
+          "year": "2022",
+          "cited_by_count": 1718,
+          "url": "/domains/geoscience/papers/W4308697725"
+        },
+        {
+          "source_id": "https://openalex.org/W2915841000",
+          "title": "Global Carbon Budget 2017",
+          "year": "2018",
+          "cited_by_count": 1142,
+          "url": "/domains/geoscience/papers/W2915841000"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Climate change",
+      "paper_count": 14,
+      "papers": [
+        {
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28880,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w3025949386.html"
+        },
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        },
+        {
+          "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 9264,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w3092861045.html"
+        },
+        {
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12093,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w4213327538.html"
+        },
+        {
+          "title": "Köppen&#x27;s climate classification map for Brazil",
+          "year": "2013",
+          "cited_by_count": 11480,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w180836830.html"
+        }
+      ]
+    },
+    {
+      "label": "Atmospheric science",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+          "year": "2019",
+          "cited_by_count": 8527,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w2909240409.html"
+        },
+        {
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7218,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w3015391807.html"
+        },
+        {
+          "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+          "year": "2013",
+          "cited_by_count": 6639,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w1907369419.html"
+        },
+        {
+          "title": "&lt;i&gt;Atmospheric Chemistry and Physics: From Air Pollution to Climate Change&lt;/i&gt;",
+          "year": "1998",
+          "cited_by_count": 8997,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w2020729558.html"
+        },
+        {
+          "title": "Estimates of global terrestrial isoprene emissions using MEGAN (Model of Emissions of Gases and Aerosols from Nature)",
+          "year": "2006",
+          "cited_by_count": 5118,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w2002570697.html"
+        },
+        {
+          "title": "The Model of Emissions of Gases and Aerosols from Nature version 2.1 (MEGAN2.1): an extended and updated framework for modeling biogenic emissions",
+          "year": "2012",
+          "cited_by_count": 4211,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w2955601895.html"
+        }
+      ]
+    },
+    {
+      "label": "Earth system science",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "topic": "Earth system science",
+          "url": "papers/https-openalex-org-w2024966118.html"
+        },
+        {
+          "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+          "year": "2016",
+          "cited_by_count": 11602,
+          "topic": "Earth system science",
+          "url": "papers/https-openalex-org-w2193503481.html"
+        },
+        {
+          "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+          "year": "2017",
+          "cited_by_count": 9171,
+          "topic": "Earth system science",
+          "url": "papers/https-openalex-org-w2611772571.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+          "year": "2006",
+          "cited_by_count": 7227,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2028979275.html"
+        },
+        {
+          "title": "The Version-2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979–Present)",
+          "year": "2003",
+          "cited_by_count": 5506,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2022548072.html"
+        },
+        {
+          "title": "Generic Mapping Tools: Improved Version Released",
+          "year": "2013",
+          "cited_by_count": 4027,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2077208327.html"
+        }
+      ]
+    },
+    {
+      "label": "Biogeochemical cycle",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The worldwide leaf economics spectrum",
+          "year": "2004",
+          "cited_by_count": 8580,
+          "topic": "Biogeochemical cycle",
+          "url": "papers/https-openalex-org-w2118295263.html"
+        },
+        {
+          "title": "Environmental Chemistry and Ecotoxicology of Hazardous Heavy Metals: Environmental Persistence, Toxicity, and Bioaccumulation",
+          "year": "2019",
+          "cited_by_count": 3007,
+          "topic": "Biogeochemical cycle",
+          "url": "papers/https-openalex-org-w2919629449.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental resource management",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+          "year": "2009",
+          "cited_by_count": 7941,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w2034994370.html"
+        },
+        {
+          "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+          "year": "2005",
+          "cited_by_count": 7845,
+          "topic": "Environmental resource management",
+          "url": "papers/https-openalex-org-w2103317434.html"
+        }
+      ]
+    },
+    {
+      "label": "Land cover",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "A protocol for data exploration to avoid common statistical problems",
+          "year": "2009",
+          "cited_by_count": 7916,
+          "topic": "Land cover",
+          "url": "papers/https-openalex-org-w2111684210.html"
+        },
+        {
+          "title": "Updated high‐resolution grids of monthly climatic observations – the &lt;scp&gt;CRU TS3&lt;/scp&gt; .10 Dataset",
+          "year": "2013",
+          "cited_by_count": 6265,
+          "topic": "Land cover",
+          "url": "papers/https-openalex-org-w1867005924.html"
+        }
+      ]
+    },
+    {
+      "label": "Marine fishery",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Geological Society London Special Publications",
+          "year": "2018",
+          "cited_by_count": 5629,
+          "topic": "Marine fishery",
+          "url": "papers/https-openalex-org-w4230797236.html"
+        },
+        {
+          "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ&lt;sup&gt;18&lt;/sup&gt;O records",
+          "year": "2005",
+          "cited_by_count": 7438,
+          "topic": "Marine fishery",
+          "url": "papers/https-openalex-org-w1631559605.html"
+        }
+      ]
+    },
+    {
+      "label": "Remote sensing",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+          "year": "2015",
+          "cited_by_count": 5790,
+          "topic": "Remote sensing",
+          "url": "papers/https-openalex-org-w2261645655.html"
+        },
+        {
+          "title": "IEEE Transactions on Geoscience and Remote Sensing",
+          "year": "2023",
+          "cited_by_count": 2273,
+          "topic": "Remote sensing",
+          "url": "papers/https-openalex-org-w4200394859.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon fibers",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+          "year": "2010",
+          "cited_by_count": 9994,
+          "topic": "Carbon fibers",
+          "url": "papers/https-openalex-org-w2146687568.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28880,
+      "adjusted_cited_by_count": 11790.21,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "primary_topic_id": "sg-earth-s",
+      "primary_topic_label": "Earth system science",
+      "url": "/domains/geoscience/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9264,
+      "adjusted_cited_by_count": 3782.01,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11602,
+      "adjusted_cited_by_count": 3668.87,
+      "primary_topic_id": "sg-earth-s",
+      "primary_topic_label": "Earth system science",
+      "url": "/domains/geoscience/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12093,
+      "adjusted_cited_by_count": 3490.95,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2909240409",
+      "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+      "year": 2019,
+      "cited_by_count": 8527,
+      "adjusted_cited_by_count": 3222.9,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/geoscience/papers/W2909240409"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W2611772571",
+      "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+      "year": 2017,
+      "cited_by_count": 9171,
+      "adjusted_cited_by_count": 3057.0,
+      "primary_topic_id": "sg-earth-s",
+      "primary_topic_label": "Earth system science",
+      "url": "/domains/geoscience/papers/W2611772571"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7218,
+      "adjusted_cited_by_count": 2946.74,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/geoscience/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12519,
+      "adjusted_cited_by_count": 2872.06,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9994,
+      "adjusted_cited_by_count": 2498.5,
+      "primary_topic_id": "sg-carbon-cycle-carbon-fibers",
+      "primary_topic_label": "Carbon fibers",
+      "url": "/domains/geoscience/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6230,
+      "adjusted_cited_by_count": 2202.64,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8752,
+      "adjusted_cited_by_count": 2122.67,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7902,
+      "adjusted_cited_by_count": 2040.29,
+      "primary_topic_id": "sg-greenhouse-gas",
+      "primary_topic_label": "Greenhouse gas",
+      "url": "/domains/geoscience/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9874,
+      "adjusted_cited_by_count": 2015.52,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W4230797236",
+      "title": "Geological Society London Special Publications",
+      "year": 2018,
+      "cited_by_count": 5629,
+      "adjusted_cited_by_count": 1990.15,
+      "primary_topic_id": "sg-climate-change-marine-fishery",
+      "primary_topic_label": "Marine fishery",
+      "url": "/domains/geoscience/papers/W4230797236"
+    },
+    {
+      "source_id": "https://openalex.org/W2034994370",
+      "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+      "year": 2009,
+      "cited_by_count": 7941,
+      "adjusted_cited_by_count": 1925.98,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/geoscience/papers/W2034994370"
+    },
+    {
+      "source_id": "https://openalex.org/W2111684210",
+      "title": "A protocol for data exploration to avoid common statistical problems",
+      "year": 2009,
+      "cited_by_count": 7916,
+      "adjusted_cited_by_count": 1919.91,
+      "primary_topic_id": "sg-land-use-land-cover",
+      "primary_topic_label": "Land cover",
+      "url": "/domains/geoscience/papers/W2111684210"
+    },
+    {
+      "source_id": "https://openalex.org/W1907369419",
+      "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+      "year": 2013,
+      "cited_by_count": 6639,
+      "adjusted_cited_by_count": 1841.33,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/geoscience/papers/W1907369419"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8580,
+      "adjusted_cited_by_count": 1829.26,
+      "primary_topic_id": "sg-climate-change-biogeochemical-cycle",
+      "primary_topic_label": "Biogeochemical cycle",
+      "url": "/domains/geoscience/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W2261645655",
+      "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+      "year": 2015,
+      "cited_by_count": 5790,
+      "adjusted_cited_by_count": 1745.75,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing",
+      "url": "/domains/geoscience/papers/W2261645655"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "primary_topic_id": "sg-land-use-land-cover",
+      "primary_topic_label": "Land cover",
+      "url": "/domains/geoscience/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7845,
+      "adjusted_cited_by_count": 1711.92,
+      "primary_topic_id": "sg-environmental-resource-management",
+      "primary_topic_label": "Environmental resource management",
+      "url": "/domains/geoscience/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2020729558",
+      "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+      "year": 1998,
+      "cited_by_count": 8997,
+      "adjusted_cited_by_count": 1700.27,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/geoscience/papers/W2020729558"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1631559605",
+      "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+      "year": 2005,
+      "cited_by_count": 7438,
+      "adjusted_cited_by_count": 1623.1,
+      "primary_topic_id": "sg-climate-change-marine-fishery",
+      "primary_topic_label": "Marine fishery",
+      "url": "/domains/geoscience/papers/W1631559605"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979275",
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "year": 2006,
+      "cited_by_count": 7227,
+      "adjusted_cited_by_count": 1616.01,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/geoscience/papers/W2028979275"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6854,
+      "adjusted_cited_by_count": 1615.5,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use",
+      "url": "/domains/geoscience/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2337225114",
+      "title": "The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6",
+      "year": 2016,
+      "cited_by_count": 4697,
+      "adjusted_cited_by_count": 1485.32,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2337225114"
+    },
+    {
+      "source_id": "https://openalex.org/W2100411277",
+      "title": "Abbreviations for names of rock-forming minerals",
+      "year": 2009,
+      "cited_by_count": 5932,
+      "adjusted_cited_by_count": 1438.72,
+      "primary_topic_id": "sg-climate-change-earth-science",
+      "primary_topic_label": "Earth science",
+      "url": "/domains/geoscience/papers/W2100411277"
+    },
+    {
+      "source_id": "https://openalex.org/W4200394859",
+      "title": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2023,
+      "cited_by_count": 2273,
+      "adjusted_cited_by_count": 1312.32,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing",
+      "url": "/domains/geoscience/papers/W4200394859"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5597,
+      "adjusted_cited_by_count": 1193.28,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2022548072",
+      "title": "The Version-2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979–Present)",
+      "year": 2003,
+      "cited_by_count": 5506,
+      "adjusted_cited_by_count": 1148.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/geoscience/papers/W2022548072"
+    },
+    {
+      "source_id": "https://openalex.org/W2002570697",
+      "title": "Estimates of global terrestrial isoprene emissions using MEGAN (Model of Emissions of Gases and Aerosols from Nature)",
+      "year": 2006,
+      "cited_by_count": 5118,
+      "adjusted_cited_by_count": 1144.42,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/geoscience/papers/W2002570697"
+    },
+    {
+      "source_id": "https://openalex.org/W2919629449",
+      "title": "Environmental Chemistry and Ecotoxicology of Hazardous Heavy Metals: Environmental Persistence, Toxicity, and Bioaccumulation",
+      "year": 2019,
+      "cited_by_count": 3007,
+      "adjusted_cited_by_count": 1136.54,
+      "primary_topic_id": "sg-climate-change-biogeochemical-cycle",
+      "primary_topic_label": "Biogeochemical cycle",
+      "url": "/domains/geoscience/papers/W2919629449"
+    },
+    {
+      "source_id": "https://openalex.org/W2955601895",
+      "title": "The Model of Emissions of Gases and Aerosols from Nature version 2.1 (MEGAN2.1): an extended and updated framework for modeling biogenic emissions",
+      "year": 2012,
+      "cited_by_count": 4211,
+      "adjusted_cited_by_count": 1125.44,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/geoscience/papers/W2955601895"
+    },
+    {
+      "source_id": "https://openalex.org/W2101020813",
+      "title": "New handbook for standardised measurement of plant functional traits worldwide",
+      "year": 2013,
+      "cited_by_count": 4042,
+      "adjusted_cited_by_count": 1121.05,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/geoscience/papers/W2101020813"
+    },
+    {
+      "source_id": "https://openalex.org/W2077208327",
+      "title": "Generic Mapping Tools: Improved Version Released",
+      "year": 2013,
+      "cited_by_count": 4027,
+      "adjusted_cited_by_count": 1116.89,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/geoscience/papers/W2077208327"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28880,
+      "adjusted_cited_by_count": 11790.21,
+      "url": "/domains/geoscience/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/geoscience/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "url": "/domains/geoscience/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "url": "/domains/geoscience/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9264,
+      "adjusted_cited_by_count": 3782.01,
+      "url": "/domains/geoscience/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11602,
+      "adjusted_cited_by_count": 3668.87,
+      "url": "/domains/geoscience/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12093,
+      "adjusted_cited_by_count": 3490.95,
+      "url": "/domains/geoscience/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2909240409",
+      "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+      "year": 2019,
+      "cited_by_count": 8527,
+      "adjusted_cited_by_count": 3222.9,
+      "url": "/domains/geoscience/papers/W2909240409"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "url": "/domains/geoscience/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W2611772571",
+      "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+      "year": 2017,
+      "cited_by_count": 9171,
+      "adjusted_cited_by_count": 3057.0,
+      "url": "/domains/geoscience/papers/W2611772571"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7218,
+      "adjusted_cited_by_count": 2946.74,
+      "url": "/domains/geoscience/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12519,
+      "adjusted_cited_by_count": 2872.06,
+      "url": "/domains/geoscience/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9994,
+      "adjusted_cited_by_count": 2498.5,
+      "url": "/domains/geoscience/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6230,
+      "adjusted_cited_by_count": 2202.64,
+      "url": "/domains/geoscience/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8752,
+      "adjusted_cited_by_count": 2122.67,
+      "url": "/domains/geoscience/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7902,
+      "adjusted_cited_by_count": 2040.29,
+      "url": "/domains/geoscience/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9874,
+      "adjusted_cited_by_count": 2015.52,
+      "url": "/domains/geoscience/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W4230797236",
+      "title": "Geological Society London Special Publications",
+      "year": 2018,
+      "cited_by_count": 5629,
+      "adjusted_cited_by_count": 1990.15,
+      "url": "/domains/geoscience/papers/W4230797236"
+    },
+    {
+      "source_id": "https://openalex.org/W2034994370",
+      "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+      "year": 2009,
+      "cited_by_count": 7941,
+      "adjusted_cited_by_count": 1925.98,
+      "url": "/domains/geoscience/papers/W2034994370"
+    },
+    {
+      "source_id": "https://openalex.org/W2111684210",
+      "title": "A protocol for data exploration to avoid common statistical problems",
+      "year": 2009,
+      "cited_by_count": 7916,
+      "adjusted_cited_by_count": 1919.91,
+      "url": "/domains/geoscience/papers/W2111684210"
+    },
+    {
+      "source_id": "https://openalex.org/W1907369419",
+      "title": "Bounding the role of black carbon in the climate system: A scientific assessment",
+      "year": 2013,
+      "cited_by_count": 6639,
+      "adjusted_cited_by_count": 1841.33,
+      "url": "/domains/geoscience/papers/W1907369419"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8580,
+      "adjusted_cited_by_count": 1829.26,
+      "url": "/domains/geoscience/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W2261645655",
+      "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+      "year": 2015,
+      "cited_by_count": 5790,
+      "adjusted_cited_by_count": 1745.75,
+      "url": "/domains/geoscience/papers/W2261645655"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "url": "/domains/geoscience/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7845,
+      "adjusted_cited_by_count": 1711.92,
+      "url": "/domains/geoscience/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2020729558",
+      "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+      "year": 1998,
+      "cited_by_count": 8997,
+      "adjusted_cited_by_count": 1700.27,
+      "url": "/domains/geoscience/papers/W2020729558"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "url": "/domains/geoscience/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1631559605",
+      "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+      "year": 2005,
+      "cited_by_count": 7438,
+      "adjusted_cited_by_count": 1623.1,
+      "url": "/domains/geoscience/papers/W1631559605"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979275",
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "year": 2006,
+      "cited_by_count": 7227,
+      "adjusted_cited_by_count": 1616.01,
+      "url": "/domains/geoscience/papers/W2028979275"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6854,
+      "adjusted_cited_by_count": 1615.5,
+      "url": "/domains/geoscience/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2337225114",
+      "title": "The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6",
+      "year": 2016,
+      "cited_by_count": 4697,
+      "adjusted_cited_by_count": 1485.32,
+      "url": "/domains/geoscience/papers/W2337225114"
+    },
+    {
+      "source_id": "https://openalex.org/W2100411277",
+      "title": "Abbreviations for names of rock-forming minerals",
+      "year": 2009,
+      "cited_by_count": 5932,
+      "adjusted_cited_by_count": 1438.72,
+      "url": "/domains/geoscience/papers/W2100411277"
+    },
+    {
+      "source_id": "https://openalex.org/W4200394859",
+      "title": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2023,
+      "cited_by_count": 2273,
+      "adjusted_cited_by_count": 1312.32,
+      "url": "/domains/geoscience/papers/W4200394859"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5597,
+      "adjusted_cited_by_count": 1193.28,
+      "url": "/domains/geoscience/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2022548072",
+      "title": "The Version-2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979–Present)",
+      "year": 2003,
+      "cited_by_count": 5506,
+      "adjusted_cited_by_count": 1148.08,
+      "url": "/domains/geoscience/papers/W2022548072"
+    },
+    {
+      "source_id": "https://openalex.org/W2002570697",
+      "title": "Estimates of global terrestrial isoprene emissions using MEGAN (Model of Emissions of Gases and Aerosols from Nature)",
+      "year": 2006,
+      "cited_by_count": 5118,
+      "adjusted_cited_by_count": 1144.42,
+      "url": "/domains/geoscience/papers/W2002570697"
+    },
+    {
+      "source_id": "https://openalex.org/W2919629449",
+      "title": "Environmental Chemistry and Ecotoxicology of Hazardous Heavy Metals: Environmental Persistence, Toxicity, and Bioaccumulation",
+      "year": 2019,
+      "cited_by_count": 3007,
+      "adjusted_cited_by_count": 1136.54,
+      "url": "/domains/geoscience/papers/W2919629449"
+    },
+    {
+      "source_id": "https://openalex.org/W2955601895",
+      "title": "The Model of Emissions of Gases and Aerosols from Nature version 2.1 (MEGAN2.1): an extended and updated framework for modeling biogenic emissions",
+      "year": 2012,
+      "cited_by_count": 4211,
+      "adjusted_cited_by_count": 1125.44,
+      "url": "/domains/geoscience/papers/W2955601895"
+    },
+    {
+      "source_id": "https://openalex.org/W2101020813",
+      "title": "New handbook for standardised measurement of plant functional traits worldwide",
+      "year": 2013,
+      "cited_by_count": 4042,
+      "adjusted_cited_by_count": 1121.05,
+      "url": "/domains/geoscience/papers/W2101020813"
+    },
+    {
+      "source_id": "https://openalex.org/W2077208327",
+      "title": "Generic Mapping Tools: Improved Version Released",
+      "year": 2013,
+      "cited_by_count": 4027,
+      "adjusted_cited_by_count": 1116.89,
+      "url": "/domains/geoscience/papers/W2077208327"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 489
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 384
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 361
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 326
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 309
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 283
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 271
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 267
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 263
+    },
+    {
+      "label": "age",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 259
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 259
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 255
+    },
+    {
+      "label": "sea",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 245
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 232
+    },
+    {
+      "label": "climatology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 230
+    },
+    {
+      "label": "atmospheric",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 222
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 221
+    },
+    {
+      "label": "land",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 203
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 200
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 195
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 184
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 174
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 162
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 148
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 147
+    },
+    {
+      "label": "remote sensing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "ice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 126
+    },
+    {
+      "label": "earth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 123
+    },
+    {
+      "label": "ocean",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 121
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "cover",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 114
+    },
+    {
+      "label": "area",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "aerosol",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "spatial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "resolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "temperature",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 104
+    },
+    {
+      "label": "measurement",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "satellite",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 98
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 11
+    },
+    {
+      "label": "less than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 10
+    },
+    {
+      "label": "ocean co",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "terrestrial co",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "but discrepancy up",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
+    },
+    {
+      "label": "level",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 96
+    },
+    {
+      "label": "climate model",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9897,
+      "evidence_count": 95
+    },
+    {
+      "label": "mass",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 95
+    },
+    {
+      "label": "emission",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 94
+    },
+    {
+      "label": "atmosphere",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 93
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 92
+    }
+  ],
+  "topic_year_counts": {
+    "climate change": {
+      "2025": 465511,
+      "2024": 414738,
+      "2023": 407163,
+      "2022": 292587,
+      "2021": 264315,
+      "2020": 237332,
+      "2019": 194877,
+      "2018": 172220,
+      "2017": 151941,
+      "2016": 140904,
+      "2015": 127529,
+      "2014": 115827,
+      "2026": 111459,
+      "2013": 106602,
+      "2012": 94232,
+      "2011": 81630,
+      "2010": 71648,
+      "2009": 61212,
+      "2008": 47971,
+      "2007": 39285,
+      "2006": 32010,
+      "2005": 27357,
+      "2004": 23618,
+      "2003": 20459,
+      "2002": 17547,
+      "2000": 15890,
+      "2001": 15629
+    },
+    "atmospheric science": {
+      "2023": 113059,
+      "2024": 102028,
+      "2025": 100576,
+      "2022": 77627,
+      "2021": 73249,
+      "2020": 66391,
+      "2019": 57184,
+      "2018": 52181,
+      "2017": 45582,
+      "2016": 42628,
+      "2015": 36960,
+      "2014": 33973,
+      "2013": 31830,
+      "2012": 27268,
+      "2026": 24653,
+      "2011": 23348,
+      "2010": 19989,
+      "2009": 17065,
+      "2008": 14744,
+      "2007": 12496,
+      "2006": 10692,
+      "2005": 9805,
+      "2004": 8006,
+      "2003": 7292,
+      "2002": 6323,
+      "2001": 5733,
+      "2000": 5709
+    },
+    "remote sensing": {
+      "2025": 171516,
+      "2023": 165337,
+      "2024": 161856,
+      "2022": 119486,
+      "2021": 106295,
+      "2020": 91189,
+      "2019": 75612,
+      "2018": 67002,
+      "2017": 57163,
+      "2016": 54410,
+      "2015": 48671,
+      "2014": 45410,
+      "2026": 43236,
+      "2013": 42014,
+      "2012": 37848,
+      "2011": 33149,
+      "2010": 29300,
+      "2009": 26449,
+      "2008": 22205,
+      "2007": 19474,
+      "2006": 17450,
+      "2005": 15791,
+      "2004": 13957,
+      "2003": 12334,
+      "2002": 11287,
+      "2000": 8747,
+      "2001": 8534
+    },
+    "environmental resource management": {
+      "2025": 285696,
+      "2024": 226499,
+      "2023": 198601,
+      "2022": 128381,
+      "2021": 111797,
+      "2020": 99608,
+      "2019": 81811,
+      "2018": 71491,
+      "2026": 67764,
+      "2017": 62095,
+      "2016": 56420,
+      "2015": 50696,
+      "2014": 45714,
+      "2013": 40319,
+      "2012": 34757,
+      "2011": 29775,
+      "2010": 25962,
+      "2009": 22457,
+      "2008": 18501,
+      "2007": 15800,
+      "2006": 14457,
+      "2005": 12441,
+      "2004": 10433,
+      "2003": 9471,
+      "2002": 7928,
+      "2000": 7547,
+      "2001": 6854
+    },
+    "land use": {
+      "2023": 383329,
+      "2025": 358421,
+      "2024": 356511,
+      "2022": 283638,
+      "2021": 269404,
+      "2020": 250291,
+      "2019": 216586,
+      "2018": 196621,
+      "2017": 174053,
+      "2016": 164100,
+      "2015": 150857,
+      "2014": 140310,
+      "2013": 129338,
+      "2012": 114422,
+      "2011": 101539,
+      "2010": 89901,
+      "2026": 84473,
+      "2009": 79976,
+      "2008": 69521,
+      "2007": 61378,
+      "2006": 54745,
+      "2005": 48746,
+      "2004": 42748,
+      "2003": 38480,
+      "2002": 33710,
+      "2001": 29627,
+      "2000": 29430
+    },
+    "earth system science": {
+      "2023": 202864,
+      "2025": 187629,
+      "2024": 187073,
+      "2022": 137045,
+      "2021": 121466,
+      "2020": 105196,
+      "2019": 86924,
+      "2018": 76646,
+      "2017": 65170,
+      "2016": 58624,
+      "2015": 51157,
+      "2014": 46278,
+      "2026": 43789,
+      "2013": 40876,
+      "2012": 34535,
+      "2011": 29509,
+      "2010": 25130,
+      "2009": 21515,
+      "2008": 17473,
+      "2007": 14936,
+      "2006": 12674,
+      "2005": 11125,
+      "2004": 9176,
+      "2003": 8145,
+      "2002": 6997,
+      "2000": 6178,
+      "2001": 6059
+    },
+    "carbon cycle": {
+      "2025": 211120,
+      "2023": 205351,
+      "2024": 201509,
+      "2022": 137461,
+      "2021": 121805,
+      "2020": 110223,
+      "2019": 91946,
+      "2018": 81833,
+      "2017": 73787,
+      "2016": 66410,
+      "2015": 59452,
+      "2026": 54490,
+      "2014": 53857,
+      "2013": 48221,
+      "2012": 41386,
+      "2011": 35168,
+      "2010": 29763,
+      "2009": 24871,
+      "2008": 20720,
+      "2007": 17446,
+      "2006": 15598,
+      "2005": 13700,
+      "2004": 11752,
+      "2003": 10552,
+      "2002": 8794,
+      "2000": 8136,
+      "2001": 8034
+    },
+    "sea ice": {
+      "2023": 47762,
+      "2024": 43219,
+      "2025": 41544,
+      "2022": 35842,
+      "2021": 35201,
+      "2020": 32684,
+      "2019": 28526,
+      "2018": 26542,
+      "2017": 24295,
+      "2016": 23004,
+      "2015": 20712,
+      "2014": 19786,
+      "2013": 18596,
+      "2012": 16442,
+      "2011": 14726,
+      "2010": 12913,
+      "2009": 11674,
+      "2026": 9998,
+      "2008": 9997,
+      "2007": 8966,
+      "2006": 7528,
+      "2005": 6850,
+      "2004": 6072,
+      "2003": 5840,
+      "2002": 5357,
+      "2000": 4839,
+      "2001": 4755
+    },
+    "greenhouse gas": {
+      "2025": 109586,
+      "2024": 103573,
+      "2023": 99937,
+      "2022": 66991,
+      "2021": 59567,
+      "2020": 51255,
+      "2019": 41599,
+      "2018": 36750,
+      "2017": 32817,
+      "2016": 30067,
+      "2015": 27225,
+      "2026": 25222,
+      "2014": 25117,
+      "2013": 22998,
+      "2012": 20545,
+      "2011": 18031,
+      "2010": 15478,
+      "2009": 12550,
+      "2008": 10139,
+      "2007": 7641,
+      "2006": 6523,
+      "2005": 5481,
+      "2004": 4611,
+      "2003": 4105,
+      "2000": 3347,
+      "2002": 3236,
+      "2001": 2949
+    },
+    "global change": {
+      "2023": 1107145,
+      "2025": 1104456,
+      "2024": 1083374,
+      "2022": 765347,
+      "2021": 697689,
+      "2020": 623791,
+      "2019": 485866,
+      "2018": 422733,
+      "2017": 374816,
+      "2016": 338324,
+      "2015": 305728,
+      "2014": 276766,
+      "2026": 266665,
+      "2013": 245582,
+      "2012": 212829,
+      "2011": 180980,
+      "2010": 154447,
+      "2009": 132833,
+      "2008": 109922,
+      "2007": 93727,
+      "2006": 79966,
+      "2005": 70126,
+      "2004": 59096,
+      "2003": 50869,
+      "2002": 42961,
+      "2001": 35934,
+      "2000": 34762
+    }
+  }
+}
