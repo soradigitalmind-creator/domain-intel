@@ -51,29 +51,30 @@ body {
   position: relative;
 }
 
-.site-menu[open] .site-menu-button {
-  background: rgba(255, 255, 255, 0.96);
-}
-
 .site-menu-button {
   display: inline-grid;
-  gap: 4px;
+  gap: 5px;
   width: 42px;
   padding: 10px 9px;
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.78);
   cursor: pointer;
-  list-style: none;
 }
 
-.site-menu-button::-webkit-details-marker {
-  display: none;
+.site-menu[data-open="true"] .site-menu-button {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.site-menu-button:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
 }
 
 .site-menu-button span {
   display: block;
-  height: 1px;
+  height: 2px;
   background: var(--text);
+  border-radius: 1px;
 }
 
 .site-menu-panel {
@@ -88,6 +89,16 @@ body {
   background: rgba(255, 255, 255, 0.96);
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.08);
   z-index: 20;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-6px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.site-menu[data-open="true"] .site-menu-panel {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
 }
 
 .site-menu-section {
@@ -109,6 +120,60 @@ body {
 
 .site-menu-panel a:hover {
   color: var(--text);
+}
+
+.site-menu-panel a:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+.site-menu-active {
+  color: var(--text) !important;
+}
+
+/* Mobile sidebar */
+@media (max-width: 639px) {
+  .site-menu-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 19;
+    backdrop-filter: blur(2px);
+  }
+
+  .site-menu-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(80vw, 300px);
+    min-width: unset;
+    border-radius: 0;
+    border: none;
+    border-left: 1px solid var(--border);
+    box-shadow: -8px 0 40px rgba(0, 0, 0, 0.12);
+    padding: 24px 20px;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .site-menu[data-open="true"] .site-menu-panel {
+    transform: translateX(0);
+  }
+
+  .site-menu-panel a {
+    font-size: 1rem;
+    padding: 4px 0;
+  }
+
+  .site-menu-section {
+    gap: 14px;
+  }
+}
+
+body.menu-open {
+  overflow: hidden;
 }
 
 a {

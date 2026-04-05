@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { HeaderMenu } from "./components/header-menu";
+import { TrailProvider } from "./components/trail-context";
 import "./globals.css";
 
 export const dynamic = "force-static";
@@ -20,15 +21,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <div className="site-header-inner page-shell">
-            <Link href="/" className="site-logo">
-              Domain Intel
-            </Link>
-            <HeaderMenu />
-          </div>
-        </header>
-        {children}
+        <TrailProvider>
+          <header className="site-header">
+            <div className="site-header-inner page-shell">
+              <Link href="/" className="site-logo">
+                Domain Intel
+              </Link>
+              <HeaderMenu />
+            </div>
+          </header>
+          {children}
+        </TrailProvider>
       </body>
     </html>
   );

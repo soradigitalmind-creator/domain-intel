@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTopicDetail, listTopicStaticParams } from "../../../../../lib/workplace";
+import { SetTrail } from "../../../../components/trail-context";
 import styles from "./page.module.css";
 
 type Props = {
@@ -51,8 +52,25 @@ export default async function TopicPage({ params }: Props) {
       }, [])
   );
 
+  // Build ancestor chain for breadcrumb
+  const topicTrail: { href: string; label: string }[] = [];
+  if (detail.topic.parent_id) {
+    const parent = detail.allSubgenres.find((item) => item.subgenre_id === detail.topic.parent_id);
+    if (parent) {
+      topicTrail.push({
+        href: `/domains/${slug}/topics/${parent.subgenre_id}`,
+        label: parent.label,
+      });
+    }
+  }
+  topicTrail.push({
+    href: `/domains/${slug}/topics/${topicId}`,
+    label: detail.topic.label,
+  });
+
   return (
     <main className="page-shell">
+      <SetTrail items={topicTrail} />
       <section className={styles.hero}>
         <h1 className={styles.title}>{detail.topic.label}</h1>
         <p className={styles.copy}>{detail.topic.summary}</p>
