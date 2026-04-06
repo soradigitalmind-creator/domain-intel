@@ -49,6 +49,16 @@
   letter-spacing: -0.04em;
 }
 
+.topicMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
 .footerLinks {
   display: flex;
   justify-content: flex-end;

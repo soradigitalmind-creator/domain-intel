@@ -109,7 +109,9 @@ export type PaperDetail = {
       evidence_count: number;
     }>;
     primaryTopicId: string | null;
+    primaryTopicLabel: string | null;
     secondaryTopicIds: string[];
+    secondaryTopicLabels: string[];
   };
 };
 
@@ -565,9 +567,9 @@ export async function getPaperDetail(
   paperId: string
 ): Promise<PaperDetail | null> {
   const bundle = await readWebBundle(slug);
-  const domain = await buildDomainSummary(slug);
+  const domain = await getDomainDetail(slug);
 
-  if (!bundle) {
+  if (!bundle || !domain) {
     return null;
   }
 
@@ -583,6 +585,7 @@ export async function getPaperDetail(
   }
 
   const assignment = assignments.find((item) => item.source_id === source.source_id) ?? null;
+  const topicById = new Map(domain.subgenres.map((item) => [item.subgenre_id, item] as const));
   const paperClaims = claims
     .filter((item) => item.source_id === source.source_id)
     .map((item) => ({
@@ -629,7 +632,14 @@ export async function getPaperDetail(
       claims: paperClaims,
       entities: paperEntities,
       primaryTopicId: assignment?.primary_subgenre_id ?? null,
+      primaryTopicLabel: assignment?.primary_subgenre_id
+        ? topicById.get(assignment.primary_subgenre_id)?.label ?? assignment.primary_subgenre_id
+        : null,
       secondaryTopicIds: assignment?.secondary_subgenre_ids ?? [],
+      secondaryTopicLabels:
+        assignment?.secondary_subgenre_ids.map(
+          (topicId) => topicById.get(topicId)?.label ?? topicId
+        ) ?? [],
     },
   };
 }

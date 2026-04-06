@@ -52,17 +52,26 @@ export default async function TopicPage({ params }: Props) {
       }, [])
   );
 
-  // Build ancestor chain for breadcrumb
-  const topicTrail: { href: string; label: string }[] = [];
-  if (detail.topic.parent_id) {
-    const parent = detail.allSubgenres.find((item) => item.subgenre_id === detail.topic.parent_id);
-    if (parent) {
-      topicTrail.push({
-        href: `/domains/${slug}/topics/${parent.subgenre_id}`,
-        label: parent.label,
-      });
+  const topicById = new Map(detail.allSubgenres.map((item) => [item.subgenre_id, item] as const));
+  const ancestorTrail: { href: string; label: string }[] = [];
+  let currentParentId = detail.topic.parent_id;
+
+  while (currentParentId) {
+    const parent = topicById.get(currentParentId);
+
+    if (!parent) {
+      break;
     }
+
+    ancestorTrail.unshift({
+      href: `/domains/${slug}/topics/${parent.subgenre_id}`,
+      label: parent.label,
+    });
+    currentParentId = parent.parent_id;
   }
+
+  // Build full ancestor chain for breadcrumb.
+  const topicTrail: { href: string; label: string }[] = [...ancestorTrail];
   topicTrail.push({
     href: `/domains/${slug}/topics/${topicId}`,
     label: detail.topic.label,

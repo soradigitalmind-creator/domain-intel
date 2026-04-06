@@ -61,10 +61,10 @@ export default async function PaperPage({ params }: Props) {
         <h2 className={styles.sectionTitle}>Assignment</h2>
         <div className={styles.infoCard}>
           <p className={styles.infoLine}>
-            Primary topic: {detail.paper.primaryTopicId ?? "none"}
+            Primary topic: {detail.paper.primaryTopicLabel ?? "none"}
           </p>
           <p className={styles.infoLine}>
-            Secondary topics: {detail.paper.secondaryTopicIds.join(", ") || "none"}
+            Secondary topics: {detail.paper.secondaryTopicLabels.join(", ") || "none"}
           </p>
           <p className={styles.infoLine}>
             Matched terms: {detail.paper.assignment?.matched_terms.join(", ") || "none"}

@@ -40,6 +40,18 @@ export default async function DomainPage({ params }: Props) {
   }
 
   const parentTopics = domain.subgenres.filter((item) => item.parent_id === null).slice(0, 12);
+  const childCountByTopicId = new Map<string, number>();
+
+  for (const subgenre of domain.subgenres) {
+    if (!subgenre.parent_id) {
+      continue;
+    }
+
+    childCountByTopicId.set(
+      subgenre.parent_id,
+      (childCountByTopicId.get(subgenre.parent_id) ?? 0) + 1
+    );
+  }
 
   return (
     <main className="page-shell">
@@ -60,6 +72,10 @@ export default async function DomainPage({ params }: Props) {
               className={styles.topicCard}
             >
               <h2 className={styles.topicTitle}>{topic.label}</h2>
+              <div className={styles.topicMeta}>
+                <span>{childCountByTopicId.get(topic.subgenre_id) ?? 0} subtopics</span>
+                <span>{topic.paper_ids.length} papers</span>
+              </div>
             </Link>
           ))}
         </div>

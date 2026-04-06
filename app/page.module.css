@@ -35,27 +35,34 @@
   .categoryGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .categoryCard {
+    min-height: 200px;
+  }
 }
 
 @media (max-width: 480px) {
   .categoryGrid {
     grid-template-columns: 1fr;
-    gap: 6px;
+    gap: 10px;
   }
 
   .categoryCard {
-    padding: 12px 14px;
-    gap: 4px;
-    border-radius: 12px;
+    min-height: 220px;
+    padding: 18px 18px 20px;
+    gap: 8px;
+    border-radius: 16px;
   }
 
   .categoryLabel {
-    font-size: 1.05rem;
+    font-size: 1.7rem;
   }
 
   .categoryDesc {
-    font-size: 0.82rem;
+    font-size: 0.96rem;
+    line-height: 1.55;
   }
+
 }
 
 .categoryCard {
@@ -63,6 +70,7 @@
   flex-direction: column;
   gap: 8px;
   padding: 18px 20px;
+  min-height: 240px;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.82);
@@ -79,7 +87,7 @@
 
 .categoryLabel {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.55rem;
   font-weight: 800;
   letter-spacing: -0.03em;
 }
