@@ -13,8 +13,18 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const NEXT_APP_ROOT = path.join(__dirname, "..");
-const SITE_DATA_ROOT =
-  process.env.NEXT_SITE_DATA_ROOT ?? path.join(NEXT_APP_ROOT, "..", "site-data");
+
+// site-data/ is inside the repo on Vercel, one level up in the local workspace
+const SITE_DATA_ROOT = process.env.NEXT_SITE_DATA_ROOT ?? await (async () => {
+  for (const candidate of [
+    path.join(NEXT_APP_ROOT, "site-data"),       // deploy repo (Vercel)
+    path.join(NEXT_APP_ROOT, "..", "site-data"),  // local dev workspace
+  ]) {
+    try { await fs.access(candidate); return candidate; } catch { /* try next */ }
+  }
+  throw new Error("site-data directory not found");
+})();
+
 const PAGE_DATA_ROOT = path.join(NEXT_APP_ROOT, "page-data");
 
 // ---------------------------------------------------------------------------
