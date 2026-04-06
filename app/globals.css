@@ -118,6 +118,17 @@ body {
   border-top: 1px solid var(--border);
 }
 
+.site-menu-panel-header,
+.site-menu-panel-logo,
+.site-menu-panel-close,
+.site-menu-section-label {
+  display: none;
+}
+
+.site-menu-panel-body {
+  display: contents;
+}
+
 .site-menu-panel a {
   font-size: 0.9rem;
   font-weight: 700;
@@ -159,24 +170,83 @@ body {
     border: none;
     border-left: 1px solid var(--border);
     box-shadow: -8px 0 40px rgba(0, 0, 0, 0.12);
-    padding: 24px 20px;
+    padding: 0;
     overflow-y: auto;
     z-index: 130;
+    opacity: 1;
+    pointer-events: auto;
     transform: translateX(100%);
-    transition: opacity 0.2s ease, transform 0.2s ease;
+    transition: transform 0.2s ease;
   }
 
   .site-menu[data-open="true"] .site-menu-panel {
+    opacity: 1;
+    pointer-events: auto;
     transform: translateX(0);
   }
 
-  .site-menu-panel a {
+  .site-menu-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+  }
+
+  .site-menu-panel-logo {
     font-size: 1rem;
-    padding: 4px 0;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text);
+  }
+
+  .site-menu-panel-close {
+    display: inline-grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: var(--muted);
+    border-radius: 8px;
+  }
+
+  .site-menu-panel-body {
+    padding: 24px 20px;
+    display: grid;
+    gap: 0;
+  }
+
+  .site-menu-panel a {
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 6px 0;
   }
 
   .site-menu-section {
-    gap: 14px;
+    gap: 4px;
+  }
+
+  .site-menu-section-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+
+  .site-menu-section + .site-menu-section {
+    margin-top: 24px;
+    padding-top: 24px;
   }
 }
 

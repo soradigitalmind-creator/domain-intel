@@ -140,23 +140,37 @@ export function HeaderMenu() {
         <span />
       </button>
       <div className="site-menu-panel" aria-hidden={!open}>
-        <nav className="site-menu-section" aria-label="Main">
-          <Link href="/">Home</Link>
-          <Link href="/domains">All domains</Link>
-        </nav>
-        {trail.length > 1 ? (
-          <nav className="site-menu-section" aria-label="Current path">
-            {trail.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={pathname === item.href ? "site-menu-active" : ""}
-              >
-                {item.label}
-              </Link>
-            ))}
+        <div className="site-menu-panel-header">
+          <Link href="/" className="site-menu-panel-logo">Domain Intel</Link>
+          <button
+            className="site-menu-panel-close"
+            aria-label="Close menu"
+            onClick={() => setOpen(false)}
+          >
+            ✕
+          </button>
+        </div>
+        <div className="site-menu-panel-body">
+          <nav className="site-menu-section" aria-label="Main">
+            <p className="site-menu-section-label">Menu</p>
+            <Link href="/">Home</Link>
+            <Link href="/domains">All domains</Link>
           </nav>
-        ) : null}
+          {trail.length > 1 ? (
+            <nav className="site-menu-section" aria-label="Current path">
+              <p className="site-menu-section-label">You are here</p>
+              {trail.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={pathname === item.href ? "site-menu-active" : ""}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          ) : null}
+        </div>
       </div>
     </div>
   );

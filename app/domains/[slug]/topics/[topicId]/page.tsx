@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getTopicDetail, listTopicStaticParams } from "../../../../../lib/workplace";
+import { getTopicDetail } from "../../../../../lib/workplace";
 import { SetTrail } from "../../../../components/trail-context";
 import styles from "./page.module.css";
 
@@ -9,11 +9,7 @@ type Props = {
   params: Promise<{ slug: string; topicId: string }>;
 };
 
-export async function generateStaticParams() {
-  return listTopicStaticParams();
-}
-
-export const dynamicParams = false;
+export const revalidate = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, topicId } = await params;
@@ -37,45 +33,10 @@ export default async function TopicPage({ params }: Props) {
     notFound();
   }
 
-  const grandchildMap = new Map(
-    detail.allSubgenres
-      .filter((item) => item.parent_id)
-      .reduce<Array<[string, typeof detail.allSubgenres]>>((acc, item) => {
-        const key = item.parent_id as string;
-        const existing = acc.find(([id]) => id === key);
-        if (existing) {
-          existing[1].push(item);
-        } else {
-          acc.push([key, [item]]);
-        }
-        return acc;
-      }, [])
-  );
-
-  const topicById = new Map(detail.allSubgenres.map((item) => [item.subgenre_id, item] as const));
-  const ancestorTrail: { href: string; label: string }[] = [];
-  let currentParentId = detail.topic.parent_id;
-
-  while (currentParentId) {
-    const parent = topicById.get(currentParentId);
-
-    if (!parent) {
-      break;
-    }
-
-    ancestorTrail.unshift({
-      href: `/domains/${slug}/topics/${parent.subgenre_id}`,
-      label: parent.label,
-    });
-    currentParentId = parent.parent_id;
-  }
-
-  // Build full ancestor chain for breadcrumb.
-  const topicTrail: { href: string; label: string }[] = [...ancestorTrail];
-  topicTrail.push({
-    href: `/domains/${slug}/topics/${topicId}`,
-    label: detail.topic.label,
-  });
+  const topicTrail = [
+    ...detail.ancestorTrail,
+    { href: `/domains/${slug}/topics/${topicId}`, label: detail.topic.label },
+  ];
 
   return (
     <main className="page-shell">
@@ -96,7 +57,7 @@ export default async function TopicPage({ params }: Props) {
               >
                 <strong className={styles.childTitle}>{child.label}</strong>
                 <div className={styles.childList}>
-                  {(grandchildMap.get(child.subgenre_id) ?? []).slice(0, 6).map((item) => (
+                  {(detail.grandchildren[child.subgenre_id] ?? []).slice(0, 6).map((item) => (
                     <span key={item.subgenre_id} className={styles.childItem}>
                       {item.label}
                     </span>

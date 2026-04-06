@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getPaperDetail, listPaperStaticParams } from "../../../../../lib/workplace";
+import { getPaperDetail } from "../../../../../lib/workplace";
 import styles from "./page.module.css";
 
 type Props = {
   params: Promise<{ slug: string; paperId: string }>;
 };
 
-export async function generateStaticParams() {
-  return listPaperStaticParams();
-}
-
-export const dynamicParams = false;
+export const revalidate = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, paperId } = await params;

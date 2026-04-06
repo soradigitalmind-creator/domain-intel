@@ -1,7 +1,7 @@
 .hero {
   display: grid;
   gap: 10px;
-  padding: 18px 0 14px;
+  padding: 22px 0 20px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -33,13 +33,13 @@
 .childCard {
   padding: 22px;
   border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.84);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.04);
 }
 
 .section {
-  margin-top: 14px;
+  margin-top: 26px;
 }
 
 .paperSection {
@@ -50,7 +50,7 @@
 
 .sectionTitle {
   margin: 0 0 10px;
-  font-size: 0.96rem;
+  font-size: 1rem;
   letter-spacing: -0.03em;
 }
 
@@ -74,9 +74,9 @@
   gap: 12px;
   padding: 16px 14px 18px;
   border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.84);
-  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.035);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.04);
 }
 
 .childTitle {

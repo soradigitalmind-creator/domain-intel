@@ -1,0 +1,501 @@
+/**
+ * Pre-build script: reads site-data/ once and writes per-page JSON to page-data/.
+ *
+ * Run this before `next build`. Each Next.js page then reads only its own small
+ * JSON file instead of the full web-bundle.json (1.6–4.2 MB per domain).
+ *
+ * Usage: node scripts/generate-page-data.mjs
+ */
+
+import { promises as fs } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const NEXT_APP_ROOT = path.join(__dirname, "..");
+const SITE_DATA_ROOT =
+  process.env.NEXT_SITE_DATA_ROOT ?? path.join(NEXT_APP_ROOT, "..", "site-data");
+const PAGE_DATA_ROOT = path.join(NEXT_APP_ROOT, "page-data");
+
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
+
+async function readJson(filePath) {
+  try {
+    const raw = await fs.readFile(filePath, "utf8");
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+async function writeJson(filePath, data) {
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  await fs.writeFile(filePath, JSON.stringify(data), "utf8");
+}
+
+function titleizeSlug(slug) {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function encodeSourceId(sourceId) {
+  return sourceId.split("/").pop() ?? sourceId;
+}
+
+function computeTrendScore(years) {
+  if (!years) return 0;
+  const current = (years["2026"] ?? 0) + (years["2025"] ?? 0);
+  const previous = (years["2024"] ?? 0) + (years["2023"] ?? 0);
+  if (previous <= 0) return current > 0 ? 1 : 0;
+  return (current - previous) / previous;
+}
+
+function extractTopicSummary(slug, payload) {
+  if (!payload) return null;
+  return payload[slug] ?? Object.values(payload)[0] ?? null;
+}
+
+function buildSourceMaps(bundle) {
+  const sourceById = new Map(bundle.sources.map((s) => [s.source_id, s]));
+  const assignmentById = new Map(
+    (bundle.paper_assignments ?? []).map((a) => [a.source_id, a])
+  );
+  // claims: source_id → claim[]
+  const claimsBySource = new Map();
+  for (const claim of bundle.claims ?? []) {
+    const list = claimsBySource.get(claim.source_id) ?? [];
+    list.push(claim);
+    claimsBySource.set(claim.source_id, list);
+  }
+  // entities: source_id → entity[] (entities store source_ids, invert)
+  const entitiesBySource = new Map();
+  for (const entity of bundle.entities ?? []) {
+    for (const sid of entity.source_ids ?? []) {
+      const list = entitiesBySource.get(sid) ?? [];
+      list.push(entity);
+      entitiesBySource.set(sid, list);
+    }
+  }
+  return { sourceById, assignmentById, claimsBySource, entitiesBySource };
+}
+
+function mapTopicPaper(sourceId, sourceById, assignmentById) {
+  const source = sourceById.get(sourceId);
+  if (!source) return null;
+  const assignment = assignmentById.get(sourceId);
+  return {
+    source_id: sourceId,
+    title: source.title,
+    year: source.year ?? null,
+    url: source.url ?? source.doi ?? "#",
+    doi: source.doi ?? null,
+    short_summary: source.short_summary ?? "",
+    cited_by_count: source.cited_by_count ?? 0,
+    adjusted_cited_by_count: source.adjusted_cited_by_count ?? 0,
+    concepts: source.concepts?.slice(0, 8) ?? [],
+    assignment: assignment
+      ? {
+          confidence: assignment.confidence,
+          score: assignment.score,
+          matched_terms: assignment.matched_terms,
+          secondary_subgenre_ids: assignment.secondary_subgenre_ids,
+        }
+      : null,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// DomainSummary builder
+// ---------------------------------------------------------------------------
+
+function buildDomainSummary(slug, bundle, siteDomainData, portalData) {
+  const topicSummaryPayload = bundle?.topic_summary ?? null;
+  const overviewPayload = bundle?.overview_partition_summary ?? null;
+  const subgenresPayload = bundle?.subgenres ?? null;
+
+  const topicSummary = extractTopicSummary(slug, topicSummaryPayload);
+  const topicCount = subgenresPayload?.length ?? 0;
+  const siteOverview = siteDomainData?.overview?.partition_summary;
+  const siteSnapshot = siteDomainData?.snapshot;
+  const portalDomain = portalData?.domains?.find((d) => d.slug === slug);
+  const portalOverview = portalDomain?.overview_partition_summary;
+
+  return {
+    slug,
+    title:
+      portalDomain?.title ??
+      (siteDomainData?.title ? titleizeSlug(siteDomainData.title) : titleizeSlug(slug)),
+    sources:
+      portalDomain?.sources ?? siteSnapshot?.papers ?? topicSummary?.counts?.sources ?? 0,
+    entities:
+      portalDomain?.entities ?? siteSnapshot?.entities ?? topicSummary?.counts?.entities ?? 0,
+    claims:
+      portalDomain?.claims ?? siteSnapshot?.claims ?? topicSummary?.counts?.claims ?? 0,
+    topicCount:
+      portalDomain?.parent_subgenres ?? siteSnapshot?.topics ?? topicCount,
+    topConcepts: topicSummary?.top_concepts?.slice(0, 5) ?? [],
+    overviewPapers:
+      portalOverview?.overview_papers ??
+      siteOverview?.overview_papers ??
+      overviewPayload?.overview_papers ??
+      0,
+    topicalPapers:
+      portalOverview?.topical_papers ??
+      siteOverview?.topical_papers ??
+      overviewPayload?.topical_papers ??
+      topicSummary?.counts?.sources ??
+      0,
+    facetCounts:
+      portalOverview?.facet_counts ??
+      siteOverview?.facet_counts ??
+      overviewPayload?.facet_counts ??
+      {},
+    hasDetail: Boolean(topicSummaryPayload && subgenresPayload?.length),
+    abstractionLabel:
+      portalDomain?.abstraction_label ?? siteDomainData?.abstraction?.label,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Per-page data builders
+// ---------------------------------------------------------------------------
+
+/** domain.json — for /domains/[slug] */
+function buildDomainPageData(slug, bundle, siteDomainData, domainSummary) {
+  return {
+    ...domainSummary,
+    subgenres: bundle.subgenres,
+    roleProfiles: siteDomainData?.role_profiles ?? [],
+    risingTopics: siteDomainData?.rising_topics ?? [],
+    hierarchy:
+      siteDomainData?.hierarchy ?? bundle.subgenre_hierarchy_summary ?? {},
+  };
+}
+
+/** topics-index.json — for /domains/[slug]/topics */
+function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps) {
+  const { sourceById, assignmentById } = maps;
+  const topicYearCounts = siteDomainData?.topic_year_counts;
+  const hierarchySummary =
+    siteDomainData?.hierarchy ?? bundle.subgenre_hierarchy_summary;
+  const subgenres = bundle.subgenres;
+
+  const rootTopics = subgenres.filter((t) => t.parent_id === null);
+  const topics = rootTopics
+    .map((topic) => {
+      const children = subgenres.filter((t) => t.parent_id === topic.subgenre_id);
+      const trendScore = computeTrendScore(topicYearCounts?.[topic.label]);
+      const featuredPapers = topic.paper_ids
+        .map((id) => mapTopicPaper(id, sourceById, assignmentById))
+        .filter(Boolean)
+        .sort((a, b) => b.cited_by_count - a.cited_by_count)
+        .slice(0, 3);
+
+      return {
+        subgenre_id: topic.subgenre_id,
+        label: topic.label,
+        summary: topic.summary,
+        paperCount: topic.paper_ids.length,
+        subtopicCount: children.length,
+        tags: topic.member_terms.slice(0, 4),
+        trendScore,
+        trendLabel: trendScore > -0.12 ? "rising" : "steady",
+        children: children
+          .map((c) => ({
+            subgenre_id: c.subgenre_id,
+            label: c.label,
+            paperCount: c.paper_ids.length,
+          }))
+          .sort((a, b) => b.paperCount - a.paperCount)
+          .slice(0, 6),
+        featuredPapers,
+      };
+    })
+    .sort((a, b) => b.trendScore - a.trendScore || b.paperCount - a.paperCount);
+
+  return {
+    domain: domainSummary,
+    hierarchy: {
+      maxDepth: hierarchySummary?.max_depth ?? 0,
+      rootTopics: hierarchySummary?.root_topics ?? rootTopics.length,
+      descendantTopics: hierarchySummary?.descendant_topics ?? 0,
+      leafTopics: hierarchySummary?.leaf_topics ?? 0,
+    },
+    topics,
+  };
+}
+
+/** papers-index.json — for /domains/[slug]/papers */
+function buildPapersIndexData(slug, bundle, domainSummary, maps) {
+  const { sourceById, assignmentById } = maps;
+  const subgenres = bundle.subgenres;
+  const topicMap = new Map(subgenres.map((t) => [t.subgenre_id, t]));
+  const rootTopics = subgenres.filter((t) => t.parent_id === null);
+
+  const shelves = rootTopics
+    .map((topic) => ({
+      topicId: topic.subgenre_id,
+      topicLabel: topic.label,
+      papers: topic.paper_ids
+        .map((id) => mapTopicPaper(id, sourceById, assignmentById))
+        .filter(Boolean)
+        .sort((a, b) => b.cited_by_count - a.cited_by_count)
+        .slice(0, 6),
+    }))
+    .filter((shelf) => shelf.papers.length > 0)
+    .sort((a, b) => b.papers[0].cited_by_count - a.papers[0].cited_by_count);
+
+  const archive = Array.from(sourceById.values())
+    .map((source) => {
+      const paper = mapTopicPaper(source.source_id, sourceById, assignmentById);
+      if (!paper) return null;
+      const assignment = assignmentById.get(source.source_id);
+      const primaryTopic = assignment?.primary_subgenre_id
+        ? topicMap.get(assignment.primary_subgenre_id) ?? null
+        : null;
+      return {
+        ...paper,
+        primaryTopicId: primaryTopic?.subgenre_id ?? null,
+        primaryTopicLabel: primaryTopic?.label ?? null,
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.cited_by_count - a.cited_by_count)
+    .slice(0, 120);
+
+  return { domain: domainSummary, shelves, archive };
+}
+
+/**
+ * topics/{topicId}.json — for /domains/[slug]/topics/[topicId]
+ *
+ * Pre-computes ancestorTrail and grandchildren so the page component
+ * does not need the full allSubgenres array.
+ */
+function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
+  const { sourceById, assignmentById } = maps;
+  const subgenres = bundle.subgenres;
+  const topicById = new Map(subgenres.map((t) => [t.subgenre_id, t]));
+
+  // Ancestor breadcrumb trail (excludes current topic; page appends itself)
+  const ancestorTrail = [];
+  let currentParentId = topic.parent_id;
+  while (currentParentId) {
+    const parent = topicById.get(currentParentId);
+    if (!parent) break;
+    ancestorTrail.unshift({
+      href: `/domains/${slug}/topics/${parent.subgenre_id}`,
+      label: parent.label,
+    });
+    currentParentId = parent.parent_id;
+  }
+
+  // Children of current topic
+  const children = subgenres
+    .filter((t) => t.parent_id === topic.subgenre_id)
+    .map((c) => ({ subgenre_id: c.subgenre_id, label: c.label }));
+
+  // Grandchildren keyed by child id (for display in child cards)
+  const grandchildren = {};
+  for (const child of children) {
+    grandchildren[child.subgenre_id] = subgenres
+      .filter((t) => t.parent_id === child.subgenre_id)
+      .map((t) => ({ subgenre_id: t.subgenre_id, label: t.label }));
+  }
+
+  // Top papers for this topic
+  const papers = topic.paper_ids
+    .map((id) => mapTopicPaper(id, sourceById, assignmentById))
+    .filter(Boolean)
+    .sort((a, b) => b.adjusted_cited_by_count - a.adjusted_cited_by_count)
+    .slice(0, 30);
+
+  return {
+    domain: domainSummary,
+    topic: {
+      subgenre_id: topic.subgenre_id,
+      label: topic.label,
+      summary: topic.summary,
+      paper_ids: topic.paper_ids,
+      parent_id: topic.parent_id,
+      level: topic.level,
+      member_terms: topic.member_terms,
+      top_entities: topic.top_entities,
+      top_properties: topic.top_properties,
+    },
+    children,
+    ancestorTrail,
+    grandchildren,
+    papers,
+  };
+}
+
+/** papers/{paperId}.json — for /domains/[slug]/papers/[paperId] */
+function buildPaperPageData(slug, source, bundle, domainSummary, maps) {
+  const { assignmentById, claimsBySource, entitiesBySource } = maps;
+  const subgenres = bundle.subgenres;
+  const topicById = new Map(subgenres.map((t) => [t.subgenre_id, t]));
+  const assignment = assignmentById.get(source.source_id);
+
+  const claims = (claimsBySource.get(source.source_id) ?? []).map((c) => ({
+    property_name: c.property_name,
+    value_text: c.value_text,
+    unit: c.unit ?? "",
+    evidence_text: c.evidence_text ?? "",
+    confidence: c.confidence ?? 0,
+    polarity: c.polarity ?? "neutral",
+    qualifiers: c.qualifiers ?? [],
+  }));
+
+  const entities = (entitiesBySource.get(source.source_id) ?? [])
+    .sort((a, b) => b.evidence_count - a.evidence_count)
+    .slice(0, 16)
+    .map((e) => ({
+      canonical_id: e.canonical_id,
+      canonical_name: e.canonical_name,
+      entity_type: e.entity_type,
+      evidence_count: e.evidence_count,
+    }));
+
+  return {
+    domain: domainSummary,
+    paper: {
+      source_id: source.source_id,
+      title: source.title,
+      year: source.year ?? null,
+      url: source.url ?? source.doi ?? "#",
+      doi: source.doi ?? null,
+      short_summary: source.short_summary ?? "",
+      cited_by_count: source.cited_by_count ?? 0,
+      adjusted_cited_by_count: source.adjusted_cited_by_count ?? 0,
+      concepts: source.concepts?.slice(0, 16) ?? [],
+      assignment: assignment
+        ? {
+            confidence: assignment.confidence,
+            score: assignment.score,
+            matched_terms: assignment.matched_terms,
+            secondary_subgenre_ids: assignment.secondary_subgenre_ids,
+          }
+        : null,
+      authors: source.authors ?? [],
+      claims,
+      entities,
+      primaryTopicId: assignment?.primary_subgenre_id ?? null,
+      primaryTopicLabel: assignment?.primary_subgenre_id
+        ? (topicById.get(assignment.primary_subgenre_id)?.label ??
+          assignment.primary_subgenre_id)
+        : null,
+      secondaryTopicIds: assignment?.secondary_subgenre_ids ?? [],
+      secondaryTopicLabels:
+        assignment?.secondary_subgenre_ids?.map(
+          (id) => topicById.get(id)?.label ?? id
+        ) ?? [],
+    },
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Main
+// ---------------------------------------------------------------------------
+
+async function processDomain(slug, portalData) {
+  const bundlePath = path.join(SITE_DATA_ROOT, slug, "web-bundle.json");
+  const sitePath = path.join(SITE_DATA_ROOT, slug, "site-data.json");
+
+  const [bundle, siteDomainData] = await Promise.all([
+    readJson(bundlePath),
+    readJson(sitePath),
+  ]);
+
+  if (!bundle?.subgenres?.length) {
+    console.warn(`  [skip] ${slug}: no subgenres in web-bundle.json`);
+    return { topics: 0, papers: 0 };
+  }
+
+  const domainSummary = buildDomainSummary(slug, bundle, siteDomainData, portalData);
+  const maps = buildSourceMaps(bundle);
+  const domainDir = path.join(PAGE_DATA_ROOT, slug);
+  const topicsDir = path.join(domainDir, "topics");
+  const papersDir = path.join(domainDir, "papers");
+
+  // All writes are independent — do them all in one pass
+  await Promise.all([
+    writeJson(path.join(domainDir, "summary.json"), domainSummary),
+    writeJson(
+      path.join(domainDir, "domain.json"),
+      buildDomainPageData(slug, bundle, siteDomainData, domainSummary)
+    ),
+    writeJson(
+      path.join(domainDir, "topics-index.json"),
+      buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
+    ),
+    writeJson(
+      path.join(domainDir, "papers-index.json"),
+      buildPapersIndexData(slug, bundle, domainSummary, maps)
+    ),
+    ...bundle.subgenres.map((topic) =>
+      writeJson(
+        path.join(topicsDir, `${topic.subgenre_id}.json`),
+        buildTopicPageData(slug, topic, bundle, domainSummary, maps)
+      )
+    ),
+    ...bundle.sources.map((source) =>
+      writeJson(
+        path.join(papersDir, `${encodeSourceId(source.source_id)}.json`),
+        buildPaperPageData(slug, source, bundle, domainSummary, maps)
+      )
+    ),
+  ]);
+
+  console.log(
+    `  ${slug}: ${bundle.subgenres.length} topics, ${bundle.sources.length} papers`
+  );
+  return { topics: bundle.subgenres.length, papers: bundle.sources.length };
+}
+
+async function main() {
+  console.log("Generating page data...");
+  console.log(`  site-data: ${SITE_DATA_ROOT}`);
+  console.log(`  page-data: ${PAGE_DATA_ROOT}`);
+
+  const portalData = await readJson(path.join(SITE_DATA_ROOT, "portal-data.json"));
+
+  // Write portal.json for home page / categories / domain list
+  await writeJson(path.join(PAGE_DATA_ROOT, "portal.json"), portalData ?? {});
+
+  // Collect domain slugs
+  let slugs = portalData?.domains?.map((d) => d.slug).filter(Boolean) ?? [];
+  if (slugs.length === 0) {
+    // Fall back to directory scan
+    const entries = await fs.readdir(SITE_DATA_ROOT, { withFileTypes: true });
+    slugs = entries
+      .filter(
+        (e) =>
+          e.isDirectory() &&
+          !e.name.startsWith(".") &&
+          e.name !== "domains"
+      )
+      .map((e) => e.name);
+  }
+
+  // Process all domains in parallel; collect counts from return values
+  const results = await Promise.all(slugs.map((slug) => processDomain(slug, portalData)));
+  const count = results.reduce(
+    (acc, r) => ({ topics: acc.topics + (r?.topics ?? 0), papers: acc.papers + (r?.papers ?? 0) }),
+    { topics: 0, papers: 0 }
+  );
+
+  console.log(
+    `Done. ${slugs.length} domains, ${count.topics} topic files, ${count.papers} paper files.`
+  );
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
