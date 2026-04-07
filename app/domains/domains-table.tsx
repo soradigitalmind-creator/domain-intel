@@ -88,7 +88,7 @@ export function DomainsTable({
               )}
               <p className={styles.tableTitle}>{domain.title}</p>
               <p className={styles.tableMeta}>
-                {domain.sources.toLocaleString()} papers / {domain.topicCount.toLocaleString()} topics
+                {domain.topicCount.toLocaleString()} topics / {domain.sources.toLocaleString()} papers
               </p>
             </Link>
           ) : (
@@ -98,7 +98,7 @@ export function DomainsTable({
               )}
               <p className={styles.tableTitle}>{domain.title}</p>
               <p className={styles.tableMeta}>
-                {domain.sources.toLocaleString()} papers / {domain.topicCount.toLocaleString()} topics
+                {domain.topicCount.toLocaleString()} topics / {domain.sources.toLocaleString()} papers
               </p>
             </div>
           )

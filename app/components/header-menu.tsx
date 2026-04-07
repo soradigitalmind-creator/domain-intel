@@ -10,6 +10,12 @@ type TrailItem = {
   label: string;
 };
 
+const MOBILE_BREAKPOINT = 639;
+const MENU_ID = "site-menu-panel";
+const SWIPE_OPEN_EDGE = 40;
+const SWIPE_CLOSE_EDGE = 72;
+const SWIPE_DISTANCE = 56;
+
 function titleize(value: string) {
   return value
     .replace(/^sg-/, "")
@@ -75,6 +81,8 @@ export function HeaderMenu() {
     : baseTrail;
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -96,23 +104,64 @@ export function HeaderMenu() {
   }, [open]);
 
   useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setOpen(false);
+      }
+    }
+
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, []);
+
+  useEffect(() => {
+    if (open) {
+      panelRef.current?.focus();
+      return;
+    }
+
+    buttonRef.current?.focus();
+  }, [open]);
+
+  useEffect(() => {
     let startX = 0;
     let startY = 0;
+    let active = false;
 
     function onTouchStart(e: TouchEvent) {
+      if (window.innerWidth > MOBILE_BREAKPOINT || e.touches.length !== 1) {
+        active = false;
+        return;
+      }
+
       startX = e.touches[0].clientX;
       startY = e.touches[0].clientY;
+      active = true;
     }
 
     function onTouchEnd(e: TouchEvent) {
+      if (!active || e.changedTouches.length !== 1) return;
+
       const dx = e.changedTouches[0].clientX - startX;
       const dy = e.changedTouches[0].clientY - startY;
-      if (Math.abs(dy) > Math.abs(dx)) return; // 縦スクロールは無視
+      active = false;
+      if (Math.abs(dy) > Math.abs(dx)) return;
 
-      if (!open && dx < -50 && startX > window.innerWidth - 40) {
-        setOpen(true); // 右端から左にスワイプ → 開く
-      } else if (open && dx > 50) {
-        setOpen(false); // 開いている状態で右にスワイプ → 閉じる
+      if (!open && dx < -SWIPE_DISTANCE && startX >= window.innerWidth - SWIPE_OPEN_EDGE) {
+        setOpen(true);
+        return;
+      }
+
+      if (!open || dx <= SWIPE_DISTANCE) return;
+
+      const panelRect = panelRef.current?.getBoundingClientRect();
+      if (!panelRect) return;
+
+      const startedNearPanelEdge =
+        startX >= panelRect.left && startX <= panelRect.left + SWIPE_CLOSE_EDGE;
+
+      if (startedNearPanelEdge) {
+        setOpen(false);
       }
     }
 
@@ -130,20 +179,32 @@ export function HeaderMenu() {
         <div className="site-menu-overlay" aria-hidden onClick={() => setOpen(false)} />
       )}
       <button
+        ref={buttonRef}
         className="site-menu-button"
         aria-label={open ? "Close menu" : "Open menu"}
+        aria-controls={MENU_ID}
         aria-expanded={open}
+        aria-haspopup="dialog"
         onClick={() => setOpen((v) => !v)}
       >
         <span />
         <span />
         <span />
       </button>
-      <div className="site-menu-panel" aria-hidden={!open}>
+      <div
+        id={MENU_ID}
+        ref={panelRef}
+        className="site-menu-panel"
+        aria-hidden={!open}
+        aria-modal={open}
+        role="dialog"
+        tabIndex={-1}
+      >
         <div className="site-menu-panel-header">
-          <Link href="/" className="site-menu-panel-logo">Domain Intel</Link>
+          <Link href="/" className="site-menu-panel-logo" onClick={() => setOpen(false)}>Domain Intel</Link>
           <button
             className="site-menu-panel-close"
+            type="button"
             aria-label="Close menu"
             onClick={() => setOpen(false)}
           >
@@ -152,24 +213,19 @@ export function HeaderMenu() {
         </div>
         <div className="site-menu-panel-body">
           <nav className="site-menu-section" aria-label="Main">
-            <p className="site-menu-section-label">Menu</p>
-            <Link href="/">Home</Link>
-            <Link href="/domains">All domains</Link>
+            <Link href="/" onClick={() => setOpen(false)}>Home</Link>
+            <Link href="/domains" onClick={() => setOpen(false)}>All domains</Link>
+            {trail.length > 1 && trail.slice(1).map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={pathname === item.href ? "site-menu-active" : ""}
+                onClick={() => setOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
-          {trail.length > 1 ? (
-            <nav className="site-menu-section" aria-label="Current path">
-              <p className="site-menu-section-label">You are here</p>
-              {trail.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={pathname === item.href ? "site-menu-active" : ""}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-          ) : null}
         </div>
       </div>
     </div>
