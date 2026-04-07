@@ -28,8 +28,15 @@ export function DomainsTable({
   categoryBySlug: Record<string, string>;
 }) {
   const [sort, setSort] = useState<SortKey>("title");
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
-  const sorted = [...domains].sort((a, b) => {
+  const categories = Array.from(new Set(Object.values(categoryBySlug))).sort();
+
+  const filtered = activeCategory
+    ? domains.filter((d) => categoryBySlug[d.slug] === activeCategory)
+    : domains;
+
+  const sorted = [...filtered].sort((a, b) => {
     if (sort === "title") return a.title.localeCompare(b.title);
     return b[sort] - a[sort];
   });
@@ -38,19 +45,37 @@ export function DomainsTable({
     <>
       <div className={styles.sectionTop}>
         <h2 className={styles.sectionTitle}>Index</h2>
-        <div className={styles.sortRow}>
-          {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
-            <button
-              key={key}
-              className={`${styles.sortButton} ${sort === key ? styles.sortButtonActive : ""}`}
-              onClick={() => setSort(key)}
-            >
-              {SORT_LABELS[key]}
-            </button>
-          ))}
-          <Link href="/" className={styles.subtleLink}>
-            Categories
-          </Link>
+        <div className={styles.controls}>
+          {categories.length > 0 && (
+            <div className={styles.filterRow}>
+              <button
+                className={`${styles.sortButton} ${activeCategory === null ? styles.sortButtonActive : ""}`}
+                onClick={() => setActiveCategory(null)}
+              >
+                All
+              </button>
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  className={`${styles.sortButton} ${activeCategory === cat ? styles.sortButtonActive : ""}`}
+                  onClick={() => setActiveCategory(cat)}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+          )}
+          <div className={styles.sortRow}>
+            {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
+              <button
+                key={key}
+                className={`${styles.sortButton} ${sort === key ? styles.sortButtonActive : ""}`}
+                onClick={() => setSort(key)}
+              >
+                {SORT_LABELS[key]}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 

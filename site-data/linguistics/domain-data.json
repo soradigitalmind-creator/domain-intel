@@ -1,0 +1,2300 @@
+{
+  "slug": "linguistics",
+  "title": "Linguistics",
+  "updated_at": "2026-04-06T14:32:21.950265Z",
+  "snapshot": {
+    "papers": 250,
+    "topics": 9,
+    "subtopics": 123,
+    "entities": 359,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 250,
+      "total_papers": 250,
+      "facet_counts": {
+        "none": 250
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning applied linguistics, computational linguistics, cognitive linguistics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 9,
+    "descendant_topics": 123,
+    "max_depth": 4,
+    "leaf_topics": 88
+  },
+  "rising_topics": [
+    {
+      "id": "sg-applied-linguistics",
+      "label": "Applied linguistics",
+      "url": "/domains/linguistics/topics/sg-applied-linguistics",
+      "trend": "rising",
+      "year_total": 487752
+    },
+    {
+      "id": "sg-cognitive-linguistics",
+      "label": "Cognitive linguistics",
+      "url": "/domains/linguistics/topics/sg-cognitive-linguistics",
+      "trend": "rising",
+      "year_total": 301177
+    },
+    {
+      "id": "sg-computational-linguistics",
+      "label": "Computational linguistics",
+      "url": "/domains/linguistics/topics/sg-computational-linguistics",
+      "trend": "rising",
+      "year_total": 302506
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-applied-linguistics",
+      "label": "Applied linguistics",
+      "url": "/domains/linguistics/topics/sg-applied-linguistics",
+      "paper_count": 63,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: linguistic, of the, language",
+      "tags": [
+        "applied linguistics",
+        "clinical linguistics",
+        "complex applied linguistics",
+        "contrastive linguistics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-applied-linguistics-second-language-learning-and-teaching",
+          "label": "Second language learning and teaching",
+          "url": "/domains/linguistics/topics/sg-applied-linguistics-second-language-learning-and-teaching",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-applied-linguistics-efl-esl-teaching-and-learning",
+          "label": "EFL/ESL teaching and learning",
+          "url": "/domains/linguistics/topics/sg-applied-linguistics-efl-esl-teaching-and-learning",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-applied-linguistics-lexicography-language-studies",
+          "label": "Lexicography language studies",
+          "url": "/domains/linguistics/topics/sg-applied-linguistics-lexicography-language-studies",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-applied-linguistics-linguistics-language-diversity-and-identity",
+          "label": "Linguistics, language diversity, and identity",
+          "url": "/domains/linguistics/topics/sg-applied-linguistics-linguistics-language-diversity-and-identity",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-applied-linguistics-language-discourse-and-communication-strategy",
+          "label": "Language, discourse, and communication strategy",
+          "url": "/domains/linguistics/topics/sg-applied-linguistics-language-discourse-and-communication-strategy",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-applied-linguistics-multilingual-education-policy",
+          "label": "Multilingual education policy",
+          "url": "/domains/linguistics/topics/sg-applied-linguistics-multilingual-education-policy",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2072026461",
+          "title": "Course in General Linguistics",
+          "year": "2017",
+          "cited_by_count": 4724,
+          "url": "/domains/linguistics/papers/W2072026461"
+        },
+        {
+          "source_id": "https://openalex.org/W4231533450",
+          "title": "Politeness",
+          "year": "1987",
+          "cited_by_count": 9686,
+          "url": "/domains/linguistics/papers/W4231533450"
+        },
+        {
+          "source_id": "https://openalex.org/W1482892933",
+          "title": "Longman Dictionary of Language Teaching and Applied Linguistics",
+          "year": "2013",
+          "cited_by_count": 3494,
+          "url": "/domains/linguistics/papers/W1482892933"
+        }
+      ]
+    },
+    {
+      "id": "sg-cognitive-linguistics",
+      "label": "Cognitive linguistics",
+      "url": "/domains/linguistics/topics/sg-cognitive-linguistics",
+      "paper_count": 49,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: in the, linguistic, of the",
+      "tags": [
+        "cognitive grammar",
+        "cognitive linguistics",
+        "cognitive linguistics second",
+        "cognitive science"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cognitive-linguistics-cognitive-psychology",
+          "label": "Cognitive psychology",
+          "url": "/domains/linguistics/topics/sg-cognitive-linguistics-cognitive-psychology",
+          "paper_count": 38
+        },
+        {
+          "id": "sg-cognitive-linguistics-language-metaphor-and-cognition",
+          "label": "Language, metaphor, and cognition",
+          "url": "/domains/linguistics/topics/sg-cognitive-linguistics-language-metaphor-and-cognition",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-cognitive-linguistics-language-discourse-communication-strategy",
+          "label": "Language, discourse, communication strategy",
+          "url": "/domains/linguistics/topics/sg-cognitive-linguistics-language-discourse-communication-strategy",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cognitive-linguistics-comprehension-approach",
+          "label": "Comprehension approach",
+          "url": "/domains/linguistics/topics/sg-cognitive-linguistics-comprehension-approach",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1684349371",
+          "title": "Negation in English and other languages",
+          "year": "2025",
+          "cited_by_count": 1628,
+          "url": "/domains/linguistics/papers/W1684349371"
+        },
+        {
+          "source_id": "https://openalex.org/W2946940662",
+          "title": "Discourse Strategies",
+          "year": "1982",
+          "cited_by_count": 5056,
+          "url": "/domains/linguistics/papers/W2946940662"
+        },
+        {
+          "source_id": "https://openalex.org/W354650940",
+          "title": "Cognitive Linguistics",
+          "year": "2004",
+          "cited_by_count": 3156,
+          "url": "/domains/linguistics/papers/W354650940"
+        }
+      ]
+    },
+    {
+      "id": "sg-computational-linguistics",
+      "label": "Computational linguistics",
+      "url": "/domains/linguistics/topics/sg-computational-linguistics",
+      "paper_count": 38,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: linguistic, natural language processing, of the",
+      "tags": [
+        "association computational linguistics",
+        "chapter of association computational",
+        "computational linguistics",
+        "conference on computational linguistics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-computational-linguistics-association-for-computational-linguistics",
+          "label": "Association for computational linguistics",
+          "url": "/domains/linguistics/topics/sg-computational-linguistics-association-for-computational-linguistics",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-computational-linguistics-natural-language-processing-techniques",
+          "label": "Natural language processing techniques",
+          "url": "/domains/linguistics/topics/sg-computational-linguistics-natural-language-processing-techniques",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-computational-linguistics-natural-language",
+          "label": "Natural language",
+          "url": "/domains/linguistics/topics/sg-computational-linguistics-natural-language",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-computational-linguistics-natural-language-processing",
+          "label": "Natural language processing",
+          "url": "/domains/linguistics/topics/sg-computational-linguistics-natural-language-processing",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-computational-linguistics-library-science",
+          "label": "Library science",
+          "url": "/domains/linguistics/topics/sg-computational-linguistics-library-science",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-computational-linguistics-semantic-web-ontology",
+          "label": "Semantic web ontology",
+          "url": "/domains/linguistics/topics/sg-computational-linguistics-semantic-web-ontology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2599674900",
+          "title": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+          "year": "2019",
+          "cited_by_count": 2392,
+          "url": "/domains/linguistics/papers/W2599674900"
+        },
+        {
+          "source_id": "https://openalex.org/W1579838312",
+          "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition",
+          "year": "2000",
+          "cited_by_count": 4170,
+          "url": "/domains/linguistics/papers/W1579838312"
+        },
+        {
+          "source_id": "https://openalex.org/W2750779823",
+          "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "year": "2021",
+          "cited_by_count": 1698,
+          "url": "/domains/linguistics/papers/W2750779823"
+        }
+      ]
+    },
+    {
+      "id": "sg-language-education",
+      "label": "Language education",
+      "url": "/domains/linguistics/topics/sg-language-education",
+      "paper_count": 31,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: language, linguistic, applied",
+      "tags": [
+        "comprehension approach",
+        "critical applied linguistics",
+        "developmental linguistics",
+        "language education"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-language-education-language-assessment",
+          "label": "Language assessment",
+          "url": "/domains/linguistics/topics/sg-language-education-language-assessment",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-language-education-english-language-education",
+          "label": "English language education",
+          "url": "/domains/linguistics/topics/sg-language-education-english-language-education",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-language-education-universal-auxiliary-language",
+          "label": "Universal auxiliary language",
+          "url": "/domains/linguistics/topics/sg-language-education-universal-auxiliary-language",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-language-education-bilingual-education",
+          "label": "Bilingual education",
+          "url": "/domains/linguistics/topics/sg-language-education-bilingual-education",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-language-education-language-teaching-pedagogy",
+          "label": "Language teaching pedagogy",
+          "url": "/domains/linguistics/topics/sg-language-education-language-teaching-pedagogy",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-language-education-language-teachers",
+          "label": "Language teachers",
+          "url": "/domains/linguistics/topics/sg-language-education-language-teachers",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2072404599",
+          "title": "THEORETICAL BASES OF COMMUNICATIVE APPROACHES TO SECOND LANGUAGE TEACHING AND TESTING",
+          "year": "1980",
+          "cited_by_count": 4947,
+          "url": "/domains/linguistics/papers/W2072404599"
+        },
+        {
+          "source_id": "https://openalex.org/W2143370312",
+          "title": "TASK-BASED LANGUAGE LEARNING AND TEACHING",
+          "year": "2004",
+          "cited_by_count": 2869,
+          "url": "/domains/linguistics/papers/W2143370312"
+        },
+        {
+          "source_id": "https://openalex.org/W4301495495",
+          "title": "The Cultural Politics of English as an International Language",
+          "year": "2017",
+          "cited_by_count": 1622,
+          "url": "/domains/linguistics/papers/W4301495495"
+        }
+      ]
+    },
+    {
+      "id": "sg-generative-grammar",
+      "label": "Generative grammar",
+      "url": "/domains/linguistics/topics/sg-generative-grammar",
+      "paper_count": 19,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: linguistic, syntax, semantics, linguistic variation, grammar",
+      "tags": [
+        "emergent grammar",
+        "encyclopedia of language",
+        "encyclopedia of language linguistics",
+        "generative grammar"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-generative-grammar-syntax-semantics-linguistic-variation",
+          "label": "Syntax, semantics, linguistic variation",
+          "url": "/domains/linguistics/topics/sg-generative-grammar-syntax-semantics-linguistic-variation",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-generative-grammar-emergent-grammar",
+          "label": "Emergent grammar",
+          "url": "/domains/linguistics/topics/sg-generative-grammar-emergent-grammar",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-generative-grammar-transformational-grammar",
+          "label": "Transformational grammar",
+          "url": "/domains/linguistics/topics/sg-generative-grammar-transformational-grammar",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-generative-grammar-natural-language-processing",
+          "label": "Natural language processing",
+          "url": "/domains/linguistics/topics/sg-generative-grammar-natural-language-processing",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1996672843",
+          "title": "The Minimalist Program",
+          "year": "2014",
+          "cited_by_count": 8126,
+          "url": "/domains/linguistics/papers/W1996672843"
+        },
+        {
+          "source_id": "https://openalex.org/W1550933260",
+          "title": "Constructions at Work: The Nature of Generalization in Language",
+          "year": "2006",
+          "cited_by_count": 3974,
+          "url": "/domains/linguistics/papers/W1550933260"
+        },
+        {
+          "source_id": "https://openalex.org/W2152397575",
+          "title": "Semantic Interpretation in Generative Grammar",
+          "year": "1975",
+          "cited_by_count": 4649,
+          "url": "/domains/linguistics/papers/W2152397575"
+        }
+      ]
+    },
+    {
+      "id": "sg-quantitative-linguistics",
+      "label": "Quantitative linguistics",
+      "url": "/domains/linguistics/topics/sg-quantitative-linguistics",
+      "paper_count": 19,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: linguistic, theoretical linguistics, applied linguistics",
+      "tags": [
+        "clinical linguistics",
+        "contrastive linguistics",
+        "linguistics language",
+        "pragmatics linguistics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-quantitative-linguistics-lexicography-language-studies",
+          "label": "Lexicography language studies",
+          "url": "/domains/linguistics/topics/sg-quantitative-linguistics-lexicography-language-studies",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-quantitative-linguistics-natural-language-processing",
+          "label": "Natural language processing",
+          "url": "/domains/linguistics/topics/sg-quantitative-linguistics-natural-language-processing",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2322604240",
+          "title": "A Dictionary of Linguistics and Phonetics",
+          "year": "2008",
+          "cited_by_count": 2111,
+          "url": "/domains/linguistics/papers/W2322604240"
+        },
+        {
+          "source_id": "https://openalex.org/W1993189578",
+          "title": "A Dictionary of Linguistics and Phonetics",
+          "year": "1992",
+          "cited_by_count": 2775,
+          "url": "/domains/linguistics/papers/W1993189578"
+        },
+        {
+          "source_id": "https://openalex.org/W1503874588",
+          "title": "Corpora in Applied Linguistics",
+          "year": "2022",
+          "cited_by_count": 917,
+          "url": "/domains/linguistics/papers/W1503874588"
+        }
+      ]
+    },
+    {
+      "id": "sg-historical-linguistics",
+      "label": "Historical linguistics",
+      "url": "/domains/linguistics/topics/sg-historical-linguistics",
+      "paper_count": 12,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: linguistic, historical linguistics and language studies, of the",
+      "tags": [
+        "clinical linguistics",
+        "contrastive linguistics",
+        "developmental linguistics",
+        "historical linguistics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-historical-linguistics-historical-linguistics-language-studies",
+          "label": "Historical linguistics language studies",
+          "url": "/domains/linguistics/topics/sg-historical-linguistics-historical-linguistics-language-studies",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-historical-linguistics-general-linguistics",
+          "label": "General linguistics",
+          "url": "/domains/linguistics/topics/sg-historical-linguistics-general-linguistics",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1981242024",
+          "title": "Speech Genres and Other Late Essays",
+          "year": "1986",
+          "cited_by_count": 8330,
+          "url": "/domains/linguistics/papers/W1981242024"
+        },
+        {
+          "source_id": "https://openalex.org/W41683454",
+          "title": "Course in General Linguistics",
+          "year": "2013",
+          "cited_by_count": 2731,
+          "url": "/domains/linguistics/papers/W41683454"
+        },
+        {
+          "source_id": "https://openalex.org/W1541456968",
+          "title": "Constructionalization and Constructional Changes",
+          "year": "2013",
+          "cited_by_count": 1650,
+          "url": "/domains/linguistics/papers/W1541456968"
+        }
+      ]
+    },
+    {
+      "id": "sg-language-acquisition",
+      "label": "Language acquisition",
+      "url": "/domains/linguistics/topics/sg-language-acquisition",
+      "paper_count": 12,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: language, linguistic, language acquisition",
+      "tags": [
+        "language acquisition",
+        "language learning",
+        "language teaching learning",
+        "natural language acquisition"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-language-acquisition-second-language-acquisition",
+          "label": "Second-language acquisition",
+          "url": "/domains/linguistics/topics/sg-language-acquisition-second-language-acquisition",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-language-acquisition-natural-language",
+          "label": "Natural language",
+          "url": "/domains/linguistics/topics/sg-language-acquisition-natural-language",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-language-acquisition-encyclopedia-of-applied",
+          "label": "Encyclopedia of applied",
+          "url": "/domains/linguistics/topics/sg-language-acquisition-encyclopedia-of-applied",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2525281131",
+          "title": "The Encyclopedia of Applied Linguistics",
+          "year": "2012",
+          "cited_by_count": 2042,
+          "url": "/domains/linguistics/papers/W2525281131"
+        },
+        {
+          "source_id": "https://openalex.org/W1521255875",
+          "title": "Frequency and the Emergence of Linguistic Structure",
+          "year": "2001",
+          "cited_by_count": 2220,
+          "url": "/domains/linguistics/papers/W1521255875"
+        },
+        {
+          "source_id": "https://openalex.org/W230660992",
+          "title": "Identity and Language Learning",
+          "year": "2013",
+          "cited_by_count": 1574,
+          "url": "/domains/linguistics/papers/W230660992"
+        }
+      ]
+    },
+    {
+      "id": "sg-discourse-analysis",
+      "label": "Discourse analysis",
+      "url": "/domains/linguistics/topics/sg-discourse-analysis",
+      "paper_count": 7,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: discourse, discourse analysis, context",
+      "tags": [
+        "critical applied linguistics",
+        "discourse analysis",
+        "history of linguistics",
+        "linguistics literacy"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-discourse-analysis-critical-discourse",
+          "label": "Critical discourse",
+          "url": "/domains/linguistics/topics/sg-discourse-analysis-critical-discourse",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-discourse-analysis-dialogical-self",
+          "label": "Dialogical self",
+          "url": "/domains/linguistics/topics/sg-discourse-analysis-dialogical-self",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2033282520",
+          "title": "Social Linguistics And Literacies: Ideology in Discourse",
+          "year": "1996",
+          "cited_by_count": 4335,
+          "url": "/domains/linguistics/papers/W2033282520"
+        },
+        {
+          "source_id": "https://openalex.org/W14129648",
+          "title": "Social Linguistics and Literacies",
+          "year": "2015",
+          "cited_by_count": 1635,
+          "url": "/domains/linguistics/papers/W14129648"
+        },
+        {
+          "source_id": "https://openalex.org/W4205420192",
+          "title": "Discourse",
+          "year": "2005",
+          "cited_by_count": 2258,
+          "url": "/domains/linguistics/papers/W4205420192"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Applied linguistics",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Course in General Linguistics",
+          "year": "2017",
+          "cited_by_count": 4724,
+          "topic": "Applied linguistics",
+          "url": "papers/https-openalex-org-w2072026461.html"
+        },
+        {
+          "title": "Politeness",
+          "year": "1987",
+          "cited_by_count": 9686,
+          "topic": "Applied linguistics",
+          "url": "papers/https-openalex-org-w4231533450.html"
+        },
+        {
+          "title": "Longman Dictionary of Language Teaching and Applied Linguistics",
+          "year": "2013",
+          "cited_by_count": 3494,
+          "topic": "Applied linguistics",
+          "url": "papers/https-openalex-org-w1482892933.html"
+        },
+        {
+          "title": "The ethnographic interview",
+          "year": "2019",
+          "cited_by_count": 2132,
+          "topic": "Applied linguistics",
+          "url": "papers/https-openalex-org-w2978845797.html"
+        },
+        {
+          "title": "Identity and interaction: a sociocultural linguistic approach",
+          "year": "2005",
+          "cited_by_count": 3606,
+          "topic": "Applied linguistics",
+          "url": "papers/https-openalex-org-w2109151141.html"
+        },
+        {
+          "title": "Pragmatics",
+          "year": "1983",
+          "cited_by_count": 4867,
+          "topic": "Applied linguistics",
+          "url": "papers/https-openalex-org-w4238722546.html"
+        }
+      ]
+    },
+    {
+      "label": "Cognitive linguistics",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Negation in English and other languages",
+          "year": "2025",
+          "cited_by_count": 1628,
+          "topic": "Cognitive linguistics",
+          "url": "papers/https-openalex-org-w1684349371.html"
+        },
+        {
+          "title": "Discourse Strategies",
+          "year": "1982",
+          "cited_by_count": 5056,
+          "topic": "Cognitive linguistics",
+          "url": "papers/https-openalex-org-w2946940662.html"
+        },
+        {
+          "title": "Cognitive Linguistics",
+          "year": "2004",
+          "cited_by_count": 3156,
+          "topic": "Cognitive linguistics",
+          "url": "papers/https-openalex-org-w354650940.html"
+        },
+        {
+          "title": "Foundations of Language",
+          "year": "2002",
+          "cited_by_count": 3172,
+          "topic": "Cognitive linguistics",
+          "url": "papers/https-openalex-org-w3140196993.html"
+        },
+        {
+          "title": "Cognitive Linguistics: An Introduction",
+          "year": "2006",
+          "cited_by_count": 2497,
+          "topic": "Cognitive linguistics",
+          "url": "papers/https-openalex-org-w1530190859.html"
+        },
+        {
+          "title": "Halliday&#x27;s Introduction to Functional Grammar",
+          "year": "2013",
+          "cited_by_count": 2001,
+          "topic": "Cognitive linguistics",
+          "url": "papers/https-openalex-org-w597039002.html"
+        }
+      ]
+    },
+    {
+      "label": "Computational linguistics",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+          "year": "2019",
+          "cited_by_count": 2392,
+          "topic": "Computational linguistics",
+          "url": "papers/https-openalex-org-w2599674900.html"
+        },
+        {
+          "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition",
+          "year": "2000",
+          "cited_by_count": 4170,
+          "topic": "Computational linguistics",
+          "url": "papers/https-openalex-org-w1579838312.html"
+        },
+        {
+          "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "year": "2021",
+          "cited_by_count": 1698,
+          "topic": "Computational linguistics",
+          "url": "papers/https-openalex-org-w2750779823.html"
+        },
+        {
+          "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+          "year": "2020",
+          "cited_by_count": 1422,
+          "topic": "Computational linguistics",
+          "url": "papers/https-openalex-org-w4365799947.html"
+        },
+        {
+          "title": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "year": "2022",
+          "cited_by_count": 1090,
+          "topic": "Computational linguistics",
+          "url": "papers/https-openalex-org-w2892181857.html"
+        }
+      ]
+    },
+    {
+      "label": "Language education",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "THEORETICAL BASES OF COMMUNICATIVE APPROACHES TO SECOND LANGUAGE TEACHING AND TESTING",
+          "year": "1980",
+          "cited_by_count": 4947,
+          "topic": "Language education",
+          "url": "papers/https-openalex-org-w2072404599.html"
+        },
+        {
+          "title": "TASK-BASED LANGUAGE LEARNING AND TEACHING",
+          "year": "2004",
+          "cited_by_count": 2869,
+          "topic": "Language education",
+          "url": "papers/https-openalex-org-w2143370312.html"
+        },
+        {
+          "title": "The Cultural Politics of English as an International Language",
+          "year": "2017",
+          "cited_by_count": 1622,
+          "topic": "Language education",
+          "url": "papers/https-openalex-org-w4301495495.html"
+        },
+        {
+          "title": "Teacher cognition in language teaching: A review of research on what language teachers think, know, believe, and do",
+          "year": "2003",
+          "cited_by_count": 2445,
+          "topic": "Language education",
+          "url": "papers/https-openalex-org-w2168447582.html"
+        },
+        {
+          "title": "Strategies in Learning and Using a Second Language",
+          "year": "2014",
+          "cited_by_count": 1737,
+          "topic": "Language education",
+          "url": "papers/https-openalex-org-w1514687800.html"
+        }
+      ]
+    },
+    {
+      "label": "Discourse analysis",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Social Linguistics And Literacies: Ideology in Discourse",
+          "year": "1996",
+          "cited_by_count": 4335,
+          "topic": "Discourse analysis",
+          "url": "papers/https-openalex-org-w2033282520.html"
+        },
+        {
+          "title": "Social Linguistics and Literacies",
+          "year": "2015",
+          "cited_by_count": 1635,
+          "topic": "Discourse analysis",
+          "url": "papers/https-openalex-org-w14129648.html"
+        },
+        {
+          "title": "Discourse",
+          "year": "2005",
+          "cited_by_count": 2258,
+          "topic": "Discourse analysis",
+          "url": "papers/https-openalex-org-w4205420192.html"
+        }
+      ]
+    },
+    {
+      "label": "Generative grammar",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The Minimalist Program",
+          "year": "2014",
+          "cited_by_count": 8126,
+          "topic": "Generative grammar",
+          "url": "papers/https-openalex-org-w1996672843.html"
+        },
+        {
+          "title": "Constructions at Work: The Nature of Generalization in Language",
+          "year": "2006",
+          "cited_by_count": 3974,
+          "topic": "Generative grammar",
+          "url": "papers/https-openalex-org-w1550933260.html"
+        },
+        {
+          "title": "Semantic Interpretation in Generative Grammar",
+          "year": "1975",
+          "cited_by_count": 4649,
+          "topic": "Generative grammar",
+          "url": "papers/https-openalex-org-w2152397575.html"
+        }
+      ]
+    },
+    {
+      "label": "Historical linguistics",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Speech Genres and Other Late Essays",
+          "year": "1986",
+          "cited_by_count": 8330,
+          "topic": "Historical linguistics",
+          "url": "papers/https-openalex-org-w1981242024.html"
+        },
+        {
+          "title": "Course in General Linguistics",
+          "year": "2013",
+          "cited_by_count": 2731,
+          "topic": "Historical linguistics",
+          "url": "papers/https-openalex-org-w41683454.html"
+        }
+      ]
+    },
+    {
+      "label": "Language acquisition",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "The Encyclopedia of Applied Linguistics",
+          "year": "2012",
+          "cited_by_count": 2042,
+          "topic": "Language acquisition",
+          "url": "papers/https-openalex-org-w2525281131.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantitative linguistics",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "A Dictionary of Linguistics and Phonetics",
+          "year": "2008",
+          "cited_by_count": 2111,
+          "topic": "Quantitative linguistics",
+          "url": "papers/https-openalex-org-w2322604240.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W1996672843",
+      "title": "The Minimalist Program",
+      "year": 2014,
+      "cited_by_count": 8126,
+      "adjusted_cited_by_count": 2345.77,
+      "primary_topic_id": "sg-generative-grammar",
+      "primary_topic_label": "Generative grammar",
+      "url": "/domains/linguistics/papers/W1996672843"
+    },
+    {
+      "source_id": "https://openalex.org/W1684349371",
+      "title": "Negation in English and other languages",
+      "year": 2025,
+      "cited_by_count": 1628,
+      "adjusted_cited_by_count": 1628.0,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W1684349371"
+    },
+    {
+      "source_id": "https://openalex.org/W2072026461",
+      "title": "Course in General Linguistics",
+      "year": 2017,
+      "cited_by_count": 4724,
+      "adjusted_cited_by_count": 1574.67,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W2072026461"
+    },
+    {
+      "source_id": "https://openalex.org/W4231533450",
+      "title": "Politeness",
+      "year": 1987,
+      "cited_by_count": 9686,
+      "adjusted_cited_by_count": 1551.0,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W4231533450"
+    },
+    {
+      "source_id": "https://openalex.org/W1981242024",
+      "title": "Speech Genres and Other Late Essays",
+      "year": 1986,
+      "cited_by_count": 8330,
+      "adjusted_cited_by_count": 1317.09,
+      "primary_topic_id": "sg-historical-linguistics",
+      "primary_topic_label": "Historical linguistics",
+      "url": "/domains/linguistics/papers/W1981242024"
+    },
+    {
+      "source_id": "https://openalex.org/W1482892933",
+      "title": "Longman Dictionary of Language Teaching and Applied Linguistics",
+      "year": 2013,
+      "cited_by_count": 3494,
+      "adjusted_cited_by_count": 969.06,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W1482892933"
+    },
+    {
+      "source_id": "https://openalex.org/W2599674900",
+      "title": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "year": 2019,
+      "cited_by_count": 2392,
+      "adjusted_cited_by_count": 904.09,
+      "primary_topic_id": "sg-computational-linguistics",
+      "primary_topic_label": "Computational linguistics",
+      "url": "/domains/linguistics/papers/W2599674900"
+    },
+    {
+      "source_id": "https://openalex.org/W1550933260",
+      "title": "Constructions at Work: The Nature of Generalization in Language",
+      "year": 2006,
+      "cited_by_count": 3974,
+      "adjusted_cited_by_count": 888.61,
+      "primary_topic_id": "sg-generative-grammar",
+      "primary_topic_label": "Generative grammar",
+      "url": "/domains/linguistics/papers/W1550933260"
+    },
+    {
+      "source_id": "https://openalex.org/W1579838312",
+      "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition",
+      "year": 2000,
+      "cited_by_count": 4170,
+      "adjusted_cited_by_count": 817.8,
+      "primary_topic_id": "sg-computational-linguistics",
+      "primary_topic_label": "Computational linguistics",
+      "url": "/domains/linguistics/papers/W1579838312"
+    },
+    {
+      "source_id": "https://openalex.org/W2978845797",
+      "title": "The ethnographic interview",
+      "year": 2019,
+      "cited_by_count": 2132,
+      "adjusted_cited_by_count": 805.82,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W2978845797"
+    },
+    {
+      "source_id": "https://openalex.org/W2033282520",
+      "title": "Social Linguistics And Literacies: Ideology in Discourse",
+      "year": 1996,
+      "cited_by_count": 4335,
+      "adjusted_cited_by_count": 791.46,
+      "primary_topic_id": "sg-discourse-analysis",
+      "primary_topic_label": "Discourse analysis",
+      "url": "/domains/linguistics/papers/W2033282520"
+    },
+    {
+      "source_id": "https://openalex.org/W2109151141",
+      "title": "Identity and interaction: a sociocultural linguistic approach",
+      "year": 2005,
+      "cited_by_count": 3606,
+      "adjusted_cited_by_count": 786.89,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W2109151141"
+    },
+    {
+      "source_id": "https://openalex.org/W2946940662",
+      "title": "Discourse Strategies",
+      "year": 1982,
+      "cited_by_count": 5056,
+      "adjusted_cited_by_count": 762.22,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W2946940662"
+    },
+    {
+      "source_id": "https://openalex.org/W2750779823",
+      "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "year": 2021,
+      "cited_by_count": 1698,
+      "adjusted_cited_by_count": 759.37,
+      "primary_topic_id": "sg-computational-linguistics",
+      "primary_topic_label": "Computational linguistics",
+      "url": "/domains/linguistics/papers/W2750779823"
+    },
+    {
+      "source_id": "https://openalex.org/W41683454",
+      "title": "Course in General Linguistics",
+      "year": 2013,
+      "cited_by_count": 2731,
+      "adjusted_cited_by_count": 757.44,
+      "primary_topic_id": "sg-historical-linguistics",
+      "primary_topic_label": "Historical linguistics",
+      "url": "/domains/linguistics/papers/W41683454"
+    },
+    {
+      "source_id": "https://openalex.org/W4238722546",
+      "title": "Pragmatics",
+      "year": 1983,
+      "cited_by_count": 4867,
+      "adjusted_cited_by_count": 742.21,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W4238722546"
+    },
+    {
+      "source_id": "https://openalex.org/W2072404599",
+      "title": "THEORETICAL BASES OF COMMUNICATIVE APPROACHES TO SECOND LANGUAGE TEACHING AND TESTING",
+      "year": 1980,
+      "cited_by_count": 4947,
+      "adjusted_cited_by_count": 729.4,
+      "primary_topic_id": "sg-language-education",
+      "primary_topic_label": "Language education",
+      "url": "/domains/linguistics/papers/W2072404599"
+    },
+    {
+      "source_id": "https://openalex.org/W354650940",
+      "title": "Cognitive Linguistics",
+      "year": 2004,
+      "cited_by_count": 3156,
+      "adjusted_cited_by_count": 672.86,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W354650940"
+    },
+    {
+      "source_id": "https://openalex.org/W2152397575",
+      "title": "Semantic Interpretation in Generative Grammar",
+      "year": 1975,
+      "cited_by_count": 4649,
+      "adjusted_cited_by_count": 650.99,
+      "primary_topic_id": "sg-generative-grammar",
+      "primary_topic_label": "Generative grammar",
+      "url": "/domains/linguistics/papers/W2152397575"
+    },
+    {
+      "source_id": "https://openalex.org/W3140196993",
+      "title": "Foundations of Language",
+      "year": 2002,
+      "cited_by_count": 3172,
+      "adjusted_cited_by_count": 647.48,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W3140196993"
+    },
+    {
+      "source_id": "https://openalex.org/W2143370312",
+      "title": "TASK-BASED LANGUAGE LEARNING AND TEACHING",
+      "year": 2004,
+      "cited_by_count": 2869,
+      "adjusted_cited_by_count": 611.67,
+      "primary_topic_id": "sg-language-education",
+      "primary_topic_label": "Language education",
+      "url": "/domains/linguistics/papers/W2143370312"
+    },
+    {
+      "source_id": "https://openalex.org/W2518999116",
+      "title": "Clarifying translanguaging and deconstructing named languages: A perspective from linguistics",
+      "year": 2015,
+      "cited_by_count": 2011,
+      "adjusted_cited_by_count": 606.34,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W2518999116"
+    },
+    {
+      "source_id": "https://openalex.org/W4365799947",
+      "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "year": 2020,
+      "cited_by_count": 1422,
+      "adjusted_cited_by_count": 580.53,
+      "primary_topic_id": "sg-computational-linguistics",
+      "primary_topic_label": "Computational linguistics",
+      "url": "/domains/linguistics/papers/W4365799947"
+    },
+    {
+      "source_id": "https://openalex.org/W1530190859",
+      "title": "Cognitive Linguistics: An Introduction",
+      "year": 2006,
+      "cited_by_count": 2497,
+      "adjusted_cited_by_count": 558.35,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W1530190859"
+    },
+    {
+      "source_id": "https://openalex.org/W597039002",
+      "title": "Halliday's Introduction to Functional Grammar",
+      "year": 2013,
+      "cited_by_count": 2001,
+      "adjusted_cited_by_count": 554.98,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W597039002"
+    },
+    {
+      "source_id": "https://openalex.org/W2525281131",
+      "title": "The Encyclopedia of Applied Linguistics",
+      "year": 2012,
+      "cited_by_count": 2042,
+      "adjusted_cited_by_count": 545.75,
+      "primary_topic_id": "sg-language-acquisition",
+      "primary_topic_label": "Language acquisition",
+      "url": "/domains/linguistics/papers/W2525281131"
+    },
+    {
+      "source_id": "https://openalex.org/W2892181857",
+      "title": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "year": 2022,
+      "cited_by_count": 1090,
+      "adjusted_cited_by_count": 545.0,
+      "primary_topic_id": "sg-computational-linguistics",
+      "primary_topic_label": "Computational linguistics",
+      "url": "/domains/linguistics/papers/W2892181857"
+    },
+    {
+      "source_id": "https://openalex.org/W4301495495",
+      "title": "The Cultural Politics of English as an International Language",
+      "year": 2017,
+      "cited_by_count": 1622,
+      "adjusted_cited_by_count": 540.67,
+      "primary_topic_id": "sg-language-education",
+      "primary_topic_label": "Language education",
+      "url": "/domains/linguistics/papers/W4301495495"
+    },
+    {
+      "source_id": "https://openalex.org/W1560867637",
+      "title": "The Oxford Handbook of Cognitive Linguistics",
+      "year": 2010,
+      "cited_by_count": 2134,
+      "adjusted_cited_by_count": 533.5,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W1560867637"
+    },
+    {
+      "source_id": "https://openalex.org/W2013833248",
+      "title": "The Cambridge Grammar of the English Language",
+      "year": 2005,
+      "cited_by_count": 2418,
+      "adjusted_cited_by_count": 527.65,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W2013833248"
+    },
+    {
+      "source_id": "https://openalex.org/W1993750641",
+      "title": "On The Language Instinct",
+      "year": 1994,
+      "cited_by_count": 2966,
+      "adjusted_cited_by_count": 524.32,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W1993750641"
+    },
+    {
+      "source_id": "https://openalex.org/W1990673309",
+      "title": "Linguistics in Philosophy",
+      "year": 1967,
+      "cited_by_count": 4005,
+      "adjusted_cited_by_count": 521.41,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W1990673309"
+    },
+    {
+      "source_id": "https://openalex.org/W2168447582",
+      "title": "Teacher cognition in language teaching: A review of research on what language teachers think, know, believe, and do",
+      "year": 2003,
+      "cited_by_count": 2445,
+      "adjusted_cited_by_count": 509.82,
+      "primary_topic_id": "sg-language-education",
+      "primary_topic_label": "Language education",
+      "url": "/domains/linguistics/papers/W2168447582"
+    },
+    {
+      "source_id": "https://openalex.org/W4300386811",
+      "title": "Language Contact, Creolization, and Genetic Linguistics",
+      "year": 1988,
+      "cited_by_count": 3108,
+      "adjusted_cited_by_count": 504.18,
+      "primary_topic_id": "sg-applied-linguistics",
+      "primary_topic_label": "Applied linguistics",
+      "url": "/domains/linguistics/papers/W4300386811"
+    },
+    {
+      "source_id": "https://openalex.org/W1560265695",
+      "title": "Information structure in discourse: Towards an integrated formal theory of pragmatics",
+      "year": 2012,
+      "cited_by_count": 1886,
+      "adjusted_cited_by_count": 504.05,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W1560265695"
+    },
+    {
+      "source_id": "https://openalex.org/W1514687800",
+      "title": "Strategies in Learning and Using a Second Language",
+      "year": 2014,
+      "cited_by_count": 1737,
+      "adjusted_cited_by_count": 501.43,
+      "primary_topic_id": "sg-language-education",
+      "primary_topic_label": "Language education",
+      "url": "/domains/linguistics/papers/W1514687800"
+    },
+    {
+      "source_id": "https://openalex.org/W59945560",
+      "title": "LITERACY IN THE NEW MEDIA AGE",
+      "year": 2003,
+      "cited_by_count": 2396,
+      "adjusted_cited_by_count": 499.6,
+      "primary_topic_id": "sg-cognitive-linguistics",
+      "primary_topic_label": "Cognitive linguistics",
+      "url": "/domains/linguistics/papers/W59945560"
+    },
+    {
+      "source_id": "https://openalex.org/W2322604240",
+      "title": "A Dictionary of Linguistics and Phonetics",
+      "year": 2008,
+      "cited_by_count": 2111,
+      "adjusted_cited_by_count": 497.57,
+      "primary_topic_id": "sg-quantitative-linguistics",
+      "primary_topic_label": "Quantitative linguistics",
+      "url": "/domains/linguistics/papers/W2322604240"
+    },
+    {
+      "source_id": "https://openalex.org/W14129648",
+      "title": "Social Linguistics and Literacies",
+      "year": 2015,
+      "cited_by_count": 1635,
+      "adjusted_cited_by_count": 492.97,
+      "primary_topic_id": "sg-discourse-analysis",
+      "primary_topic_label": "Discourse analysis",
+      "url": "/domains/linguistics/papers/W14129648"
+    },
+    {
+      "source_id": "https://openalex.org/W4205420192",
+      "title": "Discourse",
+      "year": 2005,
+      "cited_by_count": 2258,
+      "adjusted_cited_by_count": 492.74,
+      "primary_topic_id": "sg-discourse-analysis",
+      "primary_topic_label": "Discourse analysis",
+      "url": "/domains/linguistics/papers/W4205420192"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W1996672843",
+      "title": "The Minimalist Program",
+      "year": 2014,
+      "cited_by_count": 8126,
+      "adjusted_cited_by_count": 2345.77,
+      "url": "/domains/linguistics/papers/W1996672843"
+    },
+    {
+      "source_id": "https://openalex.org/W1684349371",
+      "title": "Negation in English and other languages",
+      "year": 2025,
+      "cited_by_count": 1628,
+      "adjusted_cited_by_count": 1628.0,
+      "url": "/domains/linguistics/papers/W1684349371"
+    },
+    {
+      "source_id": "https://openalex.org/W2072026461",
+      "title": "Course in General Linguistics",
+      "year": 2017,
+      "cited_by_count": 4724,
+      "adjusted_cited_by_count": 1574.67,
+      "url": "/domains/linguistics/papers/W2072026461"
+    },
+    {
+      "source_id": "https://openalex.org/W4231533450",
+      "title": "Politeness",
+      "year": 1987,
+      "cited_by_count": 9686,
+      "adjusted_cited_by_count": 1551.0,
+      "url": "/domains/linguistics/papers/W4231533450"
+    },
+    {
+      "source_id": "https://openalex.org/W1981242024",
+      "title": "Speech Genres and Other Late Essays",
+      "year": 1986,
+      "cited_by_count": 8330,
+      "adjusted_cited_by_count": 1317.09,
+      "url": "/domains/linguistics/papers/W1981242024"
+    },
+    {
+      "source_id": "https://openalex.org/W1482892933",
+      "title": "Longman Dictionary of Language Teaching and Applied Linguistics",
+      "year": 2013,
+      "cited_by_count": 3494,
+      "adjusted_cited_by_count": 969.06,
+      "url": "/domains/linguistics/papers/W1482892933"
+    },
+    {
+      "source_id": "https://openalex.org/W2599674900",
+      "title": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "year": 2019,
+      "cited_by_count": 2392,
+      "adjusted_cited_by_count": 904.09,
+      "url": "/domains/linguistics/papers/W2599674900"
+    },
+    {
+      "source_id": "https://openalex.org/W1550933260",
+      "title": "Constructions at Work: The Nature of Generalization in Language",
+      "year": 2006,
+      "cited_by_count": 3974,
+      "adjusted_cited_by_count": 888.61,
+      "url": "/domains/linguistics/papers/W1550933260"
+    },
+    {
+      "source_id": "https://openalex.org/W1579838312",
+      "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition",
+      "year": 2000,
+      "cited_by_count": 4170,
+      "adjusted_cited_by_count": 817.8,
+      "url": "/domains/linguistics/papers/W1579838312"
+    },
+    {
+      "source_id": "https://openalex.org/W2978845797",
+      "title": "The ethnographic interview",
+      "year": 2019,
+      "cited_by_count": 2132,
+      "adjusted_cited_by_count": 805.82,
+      "url": "/domains/linguistics/papers/W2978845797"
+    },
+    {
+      "source_id": "https://openalex.org/W2033282520",
+      "title": "Social Linguistics And Literacies: Ideology in Discourse",
+      "year": 1996,
+      "cited_by_count": 4335,
+      "adjusted_cited_by_count": 791.46,
+      "url": "/domains/linguistics/papers/W2033282520"
+    },
+    {
+      "source_id": "https://openalex.org/W2109151141",
+      "title": "Identity and interaction: a sociocultural linguistic approach",
+      "year": 2005,
+      "cited_by_count": 3606,
+      "adjusted_cited_by_count": 786.89,
+      "url": "/domains/linguistics/papers/W2109151141"
+    },
+    {
+      "source_id": "https://openalex.org/W2946940662",
+      "title": "Discourse Strategies",
+      "year": 1982,
+      "cited_by_count": 5056,
+      "adjusted_cited_by_count": 762.22,
+      "url": "/domains/linguistics/papers/W2946940662"
+    },
+    {
+      "source_id": "https://openalex.org/W2750779823",
+      "title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "year": 2021,
+      "cited_by_count": 1698,
+      "adjusted_cited_by_count": 759.37,
+      "url": "/domains/linguistics/papers/W2750779823"
+    },
+    {
+      "source_id": "https://openalex.org/W41683454",
+      "title": "Course in General Linguistics",
+      "year": 2013,
+      "cited_by_count": 2731,
+      "adjusted_cited_by_count": 757.44,
+      "url": "/domains/linguistics/papers/W41683454"
+    },
+    {
+      "source_id": "https://openalex.org/W4238722546",
+      "title": "Pragmatics",
+      "year": 1983,
+      "cited_by_count": 4867,
+      "adjusted_cited_by_count": 742.21,
+      "url": "/domains/linguistics/papers/W4238722546"
+    },
+    {
+      "source_id": "https://openalex.org/W2072404599",
+      "title": "THEORETICAL BASES OF COMMUNICATIVE APPROACHES TO SECOND LANGUAGE TEACHING AND TESTING",
+      "year": 1980,
+      "cited_by_count": 4947,
+      "adjusted_cited_by_count": 729.4,
+      "url": "/domains/linguistics/papers/W2072404599"
+    },
+    {
+      "source_id": "https://openalex.org/W354650940",
+      "title": "Cognitive Linguistics",
+      "year": 2004,
+      "cited_by_count": 3156,
+      "adjusted_cited_by_count": 672.86,
+      "url": "/domains/linguistics/papers/W354650940"
+    },
+    {
+      "source_id": "https://openalex.org/W2152397575",
+      "title": "Semantic Interpretation in Generative Grammar",
+      "year": 1975,
+      "cited_by_count": 4649,
+      "adjusted_cited_by_count": 650.99,
+      "url": "/domains/linguistics/papers/W2152397575"
+    },
+    {
+      "source_id": "https://openalex.org/W3140196993",
+      "title": "Foundations of Language",
+      "year": 2002,
+      "cited_by_count": 3172,
+      "adjusted_cited_by_count": 647.48,
+      "url": "/domains/linguistics/papers/W3140196993"
+    },
+    {
+      "source_id": "https://openalex.org/W2143370312",
+      "title": "TASK-BASED LANGUAGE LEARNING AND TEACHING",
+      "year": 2004,
+      "cited_by_count": 2869,
+      "adjusted_cited_by_count": 611.67,
+      "url": "/domains/linguistics/papers/W2143370312"
+    },
+    {
+      "source_id": "https://openalex.org/W2518999116",
+      "title": "Clarifying translanguaging and deconstructing named languages: A perspective from linguistics",
+      "year": 2015,
+      "cited_by_count": 2011,
+      "adjusted_cited_by_count": 606.34,
+      "url": "/domains/linguistics/papers/W2518999116"
+    },
+    {
+      "source_id": "https://openalex.org/W4365799947",
+      "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "year": 2020,
+      "cited_by_count": 1422,
+      "adjusted_cited_by_count": 580.53,
+      "url": "/domains/linguistics/papers/W4365799947"
+    },
+    {
+      "source_id": "https://openalex.org/W1530190859",
+      "title": "Cognitive Linguistics: An Introduction",
+      "year": 2006,
+      "cited_by_count": 2497,
+      "adjusted_cited_by_count": 558.35,
+      "url": "/domains/linguistics/papers/W1530190859"
+    },
+    {
+      "source_id": "https://openalex.org/W597039002",
+      "title": "Halliday's Introduction to Functional Grammar",
+      "year": 2013,
+      "cited_by_count": 2001,
+      "adjusted_cited_by_count": 554.98,
+      "url": "/domains/linguistics/papers/W597039002"
+    },
+    {
+      "source_id": "https://openalex.org/W2525281131",
+      "title": "The Encyclopedia of Applied Linguistics",
+      "year": 2012,
+      "cited_by_count": 2042,
+      "adjusted_cited_by_count": 545.75,
+      "url": "/domains/linguistics/papers/W2525281131"
+    },
+    {
+      "source_id": "https://openalex.org/W2892181857",
+      "title": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "year": 2022,
+      "cited_by_count": 1090,
+      "adjusted_cited_by_count": 545.0,
+      "url": "/domains/linguistics/papers/W2892181857"
+    },
+    {
+      "source_id": "https://openalex.org/W4301495495",
+      "title": "The Cultural Politics of English as an International Language",
+      "year": 2017,
+      "cited_by_count": 1622,
+      "adjusted_cited_by_count": 540.67,
+      "url": "/domains/linguistics/papers/W4301495495"
+    },
+    {
+      "source_id": "https://openalex.org/W1560867637",
+      "title": "The Oxford Handbook of Cognitive Linguistics",
+      "year": 2010,
+      "cited_by_count": 2134,
+      "adjusted_cited_by_count": 533.5,
+      "url": "/domains/linguistics/papers/W1560867637"
+    },
+    {
+      "source_id": "https://openalex.org/W2013833248",
+      "title": "The Cambridge Grammar of the English Language",
+      "year": 2005,
+      "cited_by_count": 2418,
+      "adjusted_cited_by_count": 527.65,
+      "url": "/domains/linguistics/papers/W2013833248"
+    },
+    {
+      "source_id": "https://openalex.org/W1993750641",
+      "title": "On The Language Instinct",
+      "year": 1994,
+      "cited_by_count": 2966,
+      "adjusted_cited_by_count": 524.32,
+      "url": "/domains/linguistics/papers/W1993750641"
+    },
+    {
+      "source_id": "https://openalex.org/W1990673309",
+      "title": "Linguistics in Philosophy",
+      "year": 1967,
+      "cited_by_count": 4005,
+      "adjusted_cited_by_count": 521.41,
+      "url": "/domains/linguistics/papers/W1990673309"
+    },
+    {
+      "source_id": "https://openalex.org/W2168447582",
+      "title": "Teacher cognition in language teaching: A review of research on what language teachers think, know, believe, and do",
+      "year": 2003,
+      "cited_by_count": 2445,
+      "adjusted_cited_by_count": 509.82,
+      "url": "/domains/linguistics/papers/W2168447582"
+    },
+    {
+      "source_id": "https://openalex.org/W4300386811",
+      "title": "Language Contact, Creolization, and Genetic Linguistics",
+      "year": 1988,
+      "cited_by_count": 3108,
+      "adjusted_cited_by_count": 504.18,
+      "url": "/domains/linguistics/papers/W4300386811"
+    },
+    {
+      "source_id": "https://openalex.org/W1560265695",
+      "title": "Information structure in discourse: Towards an integrated formal theory of pragmatics",
+      "year": 2012,
+      "cited_by_count": 1886,
+      "adjusted_cited_by_count": 504.05,
+      "url": "/domains/linguistics/papers/W1560265695"
+    },
+    {
+      "source_id": "https://openalex.org/W1514687800",
+      "title": "Strategies in Learning and Using a Second Language",
+      "year": 2014,
+      "cited_by_count": 1737,
+      "adjusted_cited_by_count": 501.43,
+      "url": "/domains/linguistics/papers/W1514687800"
+    },
+    {
+      "source_id": "https://openalex.org/W59945560",
+      "title": "LITERACY IN THE NEW MEDIA AGE",
+      "year": 2003,
+      "cited_by_count": 2396,
+      "adjusted_cited_by_count": 499.6,
+      "url": "/domains/linguistics/papers/W59945560"
+    },
+    {
+      "source_id": "https://openalex.org/W2322604240",
+      "title": "A Dictionary of Linguistics and Phonetics",
+      "year": 2008,
+      "cited_by_count": 2111,
+      "adjusted_cited_by_count": 497.57,
+      "url": "/domains/linguistics/papers/W2322604240"
+    },
+    {
+      "source_id": "https://openalex.org/W14129648",
+      "title": "Social Linguistics and Literacies",
+      "year": 2015,
+      "cited_by_count": 1635,
+      "adjusted_cited_by_count": 492.97,
+      "url": "/domains/linguistics/papers/W14129648"
+    },
+    {
+      "source_id": "https://openalex.org/W4205420192",
+      "title": "Discourse",
+      "year": 2005,
+      "cited_by_count": 2258,
+      "adjusted_cited_by_count": 492.74,
+      "url": "/domains/linguistics/papers/W4205420192"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "linguistics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 226
+    },
+    {
+      "label": "linguistic",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 206
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 169
+    },
+    {
+      "label": "language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 158
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "art",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "applied linguistics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "applied",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "book",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "text",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "one",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "provide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "of language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "history",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "introduction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "epistemology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "natural language processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "linguistics and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "second",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "grammar",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 44
+    },
+    {
+      "label": "the book",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 44
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 43
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 42
+    },
+    {
+      "label": "of linguistic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 42
+    },
+    {
+      "label": "theoretical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 45
+    },
+    {
+      "label": "discourse",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 40
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 39
+    },
+    {
+      "label": "this book",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 39
+    },
+    {
+      "label": "chapter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 38
+    },
+    {
+      "label": "general",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 38
+    },
+    {
+      "label": "provide a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 37
+    },
+    {
+      "label": "context",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 36
+    },
+    {
+      "label": "english",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 35
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 35
+    },
+    {
+      "label": "in linguistics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 34
+    },
+    {
+      "label": "what",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 34
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 33
+    }
+  ],
+  "topic_year_counts": {
+    "applied linguistics": {
+      "2024": 69263,
+      "2025": 69180,
+      "2023": 64776,
+      "2022": 41075,
+      "2021": 35819,
+      "2020": 29373,
+      "2019": 24238,
+      "2018": 21093,
+      "2026": 18646,
+      "2017": 17038,
+      "2016": 14614,
+      "2015": 13336,
+      "2014": 11357,
+      "2013": 9427,
+      "2012": 8073,
+      "2011": 6952,
+      "2010": 5788,
+      "2009": 5437,
+      "2008": 4222,
+      "2007": 3580,
+      "2006": 3184,
+      "2005": 2540,
+      "2004": 2351,
+      "2003": 1774,
+      "2000": 1650,
+      "2002": 1581,
+      "2001": 1385
+    },
+    "cognitive linguistics": {
+      "2025": 43295,
+      "2024": 38139,
+      "2023": 35639,
+      "2022": 24307,
+      "2021": 21815,
+      "2020": 18156,
+      "2019": 15264,
+      "2018": 13785,
+      "2026": 11303,
+      "2017": 11196,
+      "2016": 9854,
+      "2015": 9058,
+      "2014": 7823,
+      "2013": 6674,
+      "2012": 5672,
+      "2011": 5063,
+      "2010": 4408,
+      "2009": 3797,
+      "2008": 3204,
+      "2007": 2596,
+      "2006": 2249,
+      "2005": 1789,
+      "2004": 1653,
+      "2003": 1338,
+      "2002": 1088,
+      "2000": 1074,
+      "2001": 938
+    },
+    "computational linguistics": {
+      "2024": 53957,
+      "2025": 47316,
+      "2023": 45522,
+      "2022": 22317,
+      "2021": 20031,
+      "2026": 16200,
+      "2020": 15758,
+      "2019": 12877,
+      "2018": 11064,
+      "2017": 8495,
+      "2016": 7292,
+      "2015": 6706,
+      "2014": 5519,
+      "2013": 4228,
+      "2012": 3474,
+      "2009": 3137,
+      "2011": 3003,
+      "2010": 2681,
+      "2008": 2347,
+      "2007": 2061,
+      "2006": 1984,
+      "2005": 1433,
+      "2004": 1358,
+      "2003": 1079,
+      "2002": 950,
+      "2000": 945,
+      "2001": 772
+    },
+    "language education": {
+      "2025": 375018,
+      "2024": 341427,
+      "2023": 338785,
+      "2022": 239549,
+      "2021": 213255,
+      "2020": 194689,
+      "2019": 162500,
+      "2018": 139814,
+      "2017": 121292,
+      "2016": 109982,
+      "2015": 99704,
+      "2014": 87869,
+      "2026": 85022,
+      "2013": 76870,
+      "2012": 65820,
+      "2011": 56634,
+      "2010": 49222,
+      "2009": 43083,
+      "2008": 34898,
+      "2007": 29732,
+      "2006": 25936,
+      "2005": 22240,
+      "2004": 19380,
+      "2003": 15804,
+      "2002": 13990,
+      "2000": 12864,
+      "2001": 11832
+    },
+    "generative grammar": {
+      "2025": 18998,
+      "2024": 11029,
+      "2023": 8102,
+      "2026": 7458,
+      "2022": 4117,
+      "2021": 3891,
+      "2020": 3706,
+      "2019": 3300,
+      "2018": 2950,
+      "2017": 2714,
+      "2016": 2534,
+      "2015": 2415,
+      "2014": 2330,
+      "2013": 2068,
+      "2012": 1780,
+      "2011": 1536,
+      "2009": 1503,
+      "2010": 1490,
+      "2008": 1184,
+      "2007": 989,
+      "2006": 930,
+      "2005": 812,
+      "2004": 785,
+      "2003": 620,
+      "2000": 563,
+      "2002": 535,
+      "2001": 515
+    },
+    "quantitative linguistics": {
+      "2025": 34753,
+      "2024": 31688,
+      "2023": 27881,
+      "2022": 18026,
+      "2021": 15179,
+      "2020": 12284,
+      "2026": 9935,
+      "2019": 9857,
+      "2018": 8497,
+      "2017": 6956,
+      "2016": 5680,
+      "2015": 5391,
+      "2014": 4411,
+      "2013": 3695,
+      "2012": 2966,
+      "2011": 2540,
+      "2010": 2190,
+      "2009": 1867,
+      "2008": 1579,
+      "2007": 1191,
+      "2006": 1059,
+      "2005": 920,
+      "2004": 737,
+      "2003": 578,
+      "2000": 530,
+      "2002": 501,
+      "2001": 399
+    },
+    "historical linguistics": {
+      "2025": 31227,
+      "2024": 29605,
+      "2023": 25546,
+      "2022": 17065,
+      "2021": 15373,
+      "2020": 13648,
+      "2019": 11927,
+      "2018": 10669,
+      "2017": 8789,
+      "2026": 8072,
+      "2016": 7736,
+      "2015": 7251,
+      "2014": 6382,
+      "2013": 5323,
+      "2012": 4617,
+      "2011": 4105,
+      "2010": 3611,
+      "2009": 3067,
+      "2008": 2649,
+      "2007": 2222,
+      "2006": 1962,
+      "2004": 1528,
+      "2005": 1512,
+      "2003": 1216,
+      "2002": 986,
+      "2000": 972,
+      "2001": 894
+    },
+    "language acquisition": {
+      "2025": 138530,
+      "2024": 131200,
+      "2023": 124473,
+      "2022": 83978,
+      "2021": 74736,
+      "2020": 67728,
+      "2019": 56891,
+      "2018": 50037,
+      "2017": 44028,
+      "2016": 40395,
+      "2015": 37453,
+      "2026": 36165,
+      "2014": 33611,
+      "2013": 30199,
+      "2012": 26459,
+      "2011": 23126,
+      "2010": 20623,
+      "2009": 18232,
+      "2008": 14706,
+      "2007": 12774,
+      "2006": 11155,
+      "2005": 9660,
+      "2004": 8222,
+      "2003": 7387,
+      "2002": 6355,
+      "2000": 5918,
+      "2001": 5281
+    },
+    "discourse analysis": {
+      "2025": 207769,
+      "2024": 169633,
+      "2023": 155865,
+      "2022": 107541,
+      "2021": 102108,
+      "2020": 95861,
+      "2019": 86003,
+      "2018": 76743,
+      "2017": 68740,
+      "2016": 63190,
+      "2015": 57850,
+      "2014": 51424,
+      "2026": 48845,
+      "2013": 45733,
+      "2012": 39234,
+      "2011": 33858,
+      "2010": 29400,
+      "2009": 26442,
+      "2008": 21793,
+      "2007": 18464,
+      "2006": 15875,
+      "2005": 13109,
+      "2004": 11330,
+      "2003": 9121,
+      "2002": 7984,
+      "2000": 6982,
+      "2001": 6838
+    }
+  }
+}

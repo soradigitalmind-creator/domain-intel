@@ -1,0 +1,1956 @@
+{
+  "slug": "decision-sciences",
+  "title": "Decision Sciences",
+  "updated_at": "2026-04-06T14:26:14.287599Z",
+  "snapshot": {
+    "papers": 207,
+    "topics": 5,
+    "subtopics": 37,
+    "entities": 724,
+    "claims": 4
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 237,
+      "total_papers": 237,
+      "facet_counts": {
+        "none": 237
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 37,
+    "max_depth": 2,
+    "leaf_topics": 37
+  },
+  "rising_topics": [
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/decision-sciences/topics/sg-pattern-recognition",
+      "trend": "rising",
+      "year_total": 2804927
+    },
+    {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/decision-sciences/topics/sg-data-mining",
+      "trend": "rising",
+      "year_total": 1752462
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural networks",
+      "url": "/domains/decision-sciences/topics/sg-neural-network",
+      "trend": "rising",
+      "year_total": 3531600
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/decision-sciences/topics/sg-pattern-recognition",
+      "paper_count": 63,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: of the, on a, one",
+      "tags": [
+        "convolutional neural",
+        "convolutional neural network",
+        "decision boundary",
+        "feature extraction"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-pattern-recognition-theoretical-computer",
+          "label": "Theoretical computer",
+          "url": "/domains/decision-sciences/topics/sg-pattern-recognition-theoretical-computer",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-pattern-recognition-knowledge-management",
+          "label": "Knowledge management",
+          "url": "/domains/decision-sciences/topics/sg-pattern-recognition-knowledge-management",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-pattern-recognition-feature-extraction",
+          "label": "Feature extraction",
+          "url": "/domains/decision-sciences/topics/sg-pattern-recognition-feature-extraction",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-pattern-recognition-mathematical-optimization",
+          "label": "Mathematical optimization",
+          "url": "/domains/decision-sciences/topics/sg-pattern-recognition-mathematical-optimization",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-pattern-recognition-fuzzy-logic",
+          "label": "Fuzzy logic",
+          "url": "/domains/decision-sciences/topics/sg-pattern-recognition-fuzzy-logic",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-pattern-recognition-optimal-distinctiveness-theory",
+          "label": "Optimal distinctiveness theory",
+          "url": "/domains/decision-sciences/topics/sg-pattern-recognition-optimal-distinctiveness-theory",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W639708223",
+          "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "year": "2016",
+          "cited_by_count": 53067,
+          "url": "/domains/decision-sciences/papers/W639708223"
+        },
+        {
+          "source_id": "https://openalex.org/W2112796928",
+          "title": "Gradient-based learning applied to document recognition",
+          "year": "1998",
+          "cited_by_count": 57171,
+          "url": "/domains/decision-sciences/papers/W2112796928"
+        },
+        {
+          "source_id": "https://openalex.org/W2102605133",
+          "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+          "year": "2014",
+          "cited_by_count": 31410,
+          "url": "/domains/decision-sciences/papers/W2102605133"
+        }
+      ]
+    },
+    {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/decision-sciences/topics/sg-data-mining",
+      "paper_count": 54,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: data, data mining, of the",
+      "tags": [
+        "big data",
+        "data mining",
+        "data set",
+        "data stream mining techniques"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-data-mining-software-engineering",
+          "label": "Software engineering",
+          "url": "/domains/decision-sciences/topics/sg-data-mining-software-engineering",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-data-mining-data-stream-mining",
+          "label": "Data stream mining",
+          "url": "/domains/decision-sciences/topics/sg-data-mining-data-stream-mining",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-data-mining-statistical-learning",
+          "label": "Statistical learning",
+          "url": "/domains/decision-sciences/topics/sg-data-mining-statistical-learning",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-data-mining-wide-web",
+          "label": "Wide web",
+          "url": "/domains/decision-sciences/topics/sg-data-mining-wide-web",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-data-mining-support-vector-machines",
+          "label": "Support vector machines",
+          "url": "/domains/decision-sciences/topics/sg-data-mining-support-vector-machines",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-data-mining-anomaly-detection",
+          "label": "Anomaly detection",
+          "url": "/domains/decision-sciences/topics/sg-data-mining-anomaly-detection",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2582743722",
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352952,
+          "url": "/domains/decision-sciences/papers/W2582743722"
+        },
+        {
+          "source_id": "https://openalex.org/W2153635508",
+          "title": "LIBSVM",
+          "year": "2011",
+          "cited_by_count": 41221,
+          "url": "/domains/decision-sciences/papers/W2153635508"
+        },
+        {
+          "source_id": "https://openalex.org/W2963276645",
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23034,
+          "url": "/domains/decision-sciences/papers/W2963276645"
+        }
+      ]
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural networks",
+      "url": "/domains/decision-sciences/topics/sg-neural-network",
+      "paper_count": 42,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: on a, network, neural",
+      "tags": [
+        "artificial neural network",
+        "convolutional neural",
+        "convolutional neural network",
+        "deep neural"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-networks-deep-neural-networks",
+          "label": "Deep neural networks",
+          "url": "/domains/decision-sciences/topics/sg-neural-networks-deep-neural-networks",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-neural-networks-reinforcement-learning",
+          "label": "Reinforcement learning",
+          "url": "/domains/decision-sciences/topics/sg-neural-networks-reinforcement-learning",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-neural-networks-deep-convolutional",
+          "label": "Deep convolutional",
+          "url": "/domains/decision-sciences/topics/sg-neural-networks-deep-convolutional",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-neural-networks-supervised-learning",
+          "label": "Supervised learning",
+          "url": "/domains/decision-sciences/topics/sg-neural-networks-supervised-learning",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-neural-networks-image-classification",
+          "label": "Image classification",
+          "url": "/domains/decision-sciences/topics/sg-neural-networks-image-classification",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-neural-networks-neural-networks",
+          "label": "Neural networks",
+          "url": "/domains/decision-sciences/topics/sg-neural-networks-neural-networks",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2194775991",
+          "title": "Deep Residual Learning for Image Recognition",
+          "year": "2016",
+          "cited_by_count": 217496,
+          "url": "/domains/decision-sciences/papers/W2194775991"
+        },
+        {
+          "source_id": "https://openalex.org/W2163605009",
+          "title": "ImageNet classification with deep convolutional neural networks",
+          "year": "2017",
+          "cited_by_count": 75670,
+          "url": "/domains/decision-sciences/papers/W2163605009"
+        },
+        {
+          "source_id": "https://openalex.org/W2919115771",
+          "title": "Deep learning",
+          "year": "2015",
+          "cited_by_count": 79475,
+          "url": "/domains/decision-sciences/papers/W2919115771"
+        }
+      ]
+    },
+    {
+      "id": "sg-natural-language-processing",
+      "label": "Natural language processing",
+      "url": "/domains/decision-sciences/topics/sg-natural-language-processing",
+      "paper_count": 38,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: natural language processing, use, of the",
+      "tags": [
+        "language model",
+        "natural language processing",
+        "natural language processing techniques",
+        "topic modeling"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-natural-language-processing-topic-modeling",
+          "label": "Topic modeling",
+          "url": "/domains/decision-sciences/topics/sg-natural-language-processing-topic-modeling",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-natural-language-processing-nlp-techniques",
+          "label": "NLP techniques",
+          "url": "/domains/decision-sciences/topics/sg-natural-language-processing-nlp-techniques",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-natural-language-processing-sentiment-analysis-and-opinion-mining",
+          "label": "Sentiment analysis and opinion mining",
+          "url": "/domains/decision-sciences/topics/sg-natural-language-processing-sentiment-analysis-and-opinion-mining",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-natural-language-processing-language-processing",
+          "label": "Language processing",
+          "url": "/domains/decision-sciences/topics/sg-natural-language-processing-language-processing",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-natural-language-processing-probabilistic-logic",
+          "label": "Probabilistic logic",
+          "url": "/domains/decision-sciences/topics/sg-natural-language-processing-probabilistic-logic",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4385245566",
+          "title": "MizAR 60 for Mizar 50",
+          "year": "2023",
+          "cited_by_count": 74706,
+          "url": "/domains/decision-sciences/papers/W4385245566"
+        },
+        {
+          "source_id": "https://openalex.org/W1951724000",
+          "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+          "year": "2015",
+          "cited_by_count": 82905,
+          "url": "/domains/decision-sciences/papers/W1951724000"
+        },
+        {
+          "source_id": "https://openalex.org/W2896457183",
+          "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+          "year": "2018",
+          "cited_by_count": 45472,
+          "url": "/domains/decision-sciences/papers/W2896457183"
+        }
+      ]
+    },
+    {
+      "id": "sg-decision-tree",
+      "label": "Decision trees",
+      "url": "/domains/decision-sciences/topics/sg-decision-tree",
+      "paper_count": 10,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: decision tree, tree, machine learning and data classification",
+      "tags": [
+        "alternating decision tree",
+        "decision tree",
+        "decision tree learning",
+        "decision trees"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-decision-trees-decision-tree-learning",
+          "label": "Decision tree learning",
+          "url": "/domains/decision-sciences/topics/sg-decision-trees-decision-tree-learning",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-decision-trees-ai-in-games",
+          "label": "AI in games",
+          "url": "/domains/decision-sciences/topics/sg-decision-trees-ai-in-games",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-decision-tree-gradient-boosting",
+          "label": "Gradient boosting",
+          "url": "/domains/decision-sciences/topics/sg-decision-tree-gradient-boosting",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-decision-trees-random-forest",
+          "label": "Random forest",
+          "url": "/domains/decision-sciences/topics/sg-decision-trees-random-forest",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2295598076",
+          "title": "XGBoost",
+          "year": "2016",
+          "cited_by_count": 45695,
+          "url": "/domains/decision-sciences/papers/W2295598076"
+        },
+        {
+          "source_id": "https://openalex.org/W2768348081",
+          "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+          "year": "2017",
+          "cited_by_count": 9484,
+          "url": "/domains/decision-sciences/papers/W2768348081"
+        },
+        {
+          "source_id": "https://openalex.org/W2149706766",
+          "title": "Induction of Decision Trees",
+          "year": "1986",
+          "cited_by_count": 14612,
+          "url": "/domains/decision-sciences/papers/W2149706766"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Neural networks",
+      "paper_count": 13,
+      "papers": [
+        {
+          "title": "Deep Residual Learning for Image Recognition",
+          "year": "2016",
+          "cited_by_count": 217496,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2194775991.html"
+        },
+        {
+          "title": "ImageNet classification with deep convolutional neural networks",
+          "year": "2017",
+          "cited_by_count": 75670,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2163605009.html"
+        },
+        {
+          "title": "Deep learning",
+          "year": "2015",
+          "cited_by_count": 79475,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2919115771.html"
+        },
+        {
+          "title": "",
+          "year": "2021",
+          "cited_by_count": 50095,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2964121744.html"
+        },
+        {
+          "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "year": "2014",
+          "cited_by_count": 75499,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w1686810756.html"
+        },
+        {
+          "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+          "year": "2024",
+          "cited_by_count": 14276,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w4293584584.html"
+        }
+      ]
+    },
+    {
+      "label": "Pattern recognition",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "year": "2016",
+          "cited_by_count": 53067,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w639708223.html"
+        },
+        {
+          "title": "Gradient-based learning applied to document recognition",
+          "year": "1998",
+          "cited_by_count": 57171,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2112796928.html"
+        },
+        {
+          "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+          "year": "2014",
+          "cited_by_count": 31410,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2102605133.html"
+        },
+        {
+          "title": "CBAM: Convolutional Block Attention Module",
+          "year": "2018",
+          "cited_by_count": 21504,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2884585870.html"
+        },
+        {
+          "title": "Lecture Notes in Computer Science 1205",
+          "year": "1999",
+          "cited_by_count": 38730,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2561675875.html"
+        },
+        {
+          "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "year": "2017",
+          "cited_by_count": 21693,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2412782625.html"
+        }
+      ]
+    },
+    {
+      "label": "Data mining",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352952,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2582743722.html"
+        },
+        {
+          "title": "LIBSVM",
+          "year": "2011",
+          "cited_by_count": 41221,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2153635508.html"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23034,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        },
+        {
+          "title": "Data mining: concepts and techniques",
+          "year": "2012",
+          "cited_by_count": 28872,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2140190241.html"
+        },
+        {
+          "title": "The Nature of Statistical Learning Theory",
+          "year": "1995",
+          "cited_by_count": 39169,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2156909104.html"
+        },
+        {
+          "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+          "year": "2011",
+          "cited_by_count": 25708,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w1570448133.html"
+        }
+      ]
+    },
+    {
+      "label": "Natural language processing",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "MizAR 60 for Mizar 50",
+          "year": "2023",
+          "cited_by_count": 74706,
+          "topic": "Natural language processing",
+          "url": "papers/https-openalex-org-w4385245566.html"
+        },
+        {
+          "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+          "year": "2018",
+          "cited_by_count": 45472,
+          "topic": "Natural language processing",
+          "url": "papers/https-openalex-org-w2896457183.html"
+        },
+        {
+          "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "year": "2020",
+          "cited_by_count": 21368,
+          "topic": "Natural language processing",
+          "url": "papers/https-openalex-org-w3094502228.html"
+        },
+        {
+          "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+          "year": "2023",
+          "cited_by_count": 14144,
+          "topic": "Natural language processing",
+          "url": "papers/https-openalex-org-w4292779060.html"
+        },
+        {
+          "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+          "year": "2014",
+          "cited_by_count": 23998,
+          "topic": "Natural language processing",
+          "url": "papers/https-openalex-org-w2157331557.html"
+        },
+        {
+          "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
+          "year": "2019",
+          "cited_by_count": 17226,
+          "topic": "Natural language processing",
+          "url": "papers/https-openalex-org-w2965373594.html"
+        }
+      ]
+    },
+    {
+      "label": "Big data mining",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Fitting Linear Mixed-Effects Models Using &lt;b&gt;lme4&lt;/b&gt;",
+          "year": "2015",
+          "cited_by_count": 82905,
+          "topic": "Big data mining",
+          "url": "papers/https-openalex-org-w1951724000.html"
+        },
+        {
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 21021,
+          "topic": "Big data mining",
+          "url": "papers/https-openalex-org-w3035965352.html"
+        },
+        {
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 18804,
+          "topic": "Big data mining",
+          "url": "papers/https-openalex-org-w3099878876.html"
+        }
+      ]
+    },
+    {
+      "label": "Decision trees",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "XGBoost",
+          "year": "2016",
+          "cited_by_count": 45695,
+          "topic": "Decision trees",
+          "url": "papers/https-openalex-org-w2295598076.html"
+        }
+      ]
+    },
+    {
+      "label": "Deep convolutional",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Collective dynamics of ‘small-world’ networks",
+          "year": "1998",
+          "cited_by_count": 42804,
+          "topic": "Deep convolutional",
+          "url": "papers/https-openalex-org-w2112090702.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36206,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3003257820.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2194775991",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2016,
+      "cited_by_count": 217496,
+      "adjusted_cited_by_count": 68778.27,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2194775991"
+    },
+    {
+      "source_id": "https://openalex.org/W4385245566",
+      "title": "MizAR 60 for Mizar 50",
+      "year": 2023,
+      "cited_by_count": 74706,
+      "adjusted_cited_by_count": 43131.53,
+      "primary_topic_id": "sg-natural-language-processing",
+      "primary_topic_label": "Natural language processing",
+      "url": "/domains/decision-sciences/papers/W4385245566"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75670,
+      "adjusted_cited_by_count": 25223.33,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W1951724000",
+      "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+      "year": 2015,
+      "cited_by_count": 82905,
+      "adjusted_cited_by_count": 24996.8,
+      "primary_topic_id": "sg-data-mining-big-data-mining",
+      "primary_topic_label": "Big data mining",
+      "url": "/domains/decision-sciences/papers/W1951724000"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79475,
+      "adjusted_cited_by_count": 23962.61,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2919115771"
+    },
+    {
+      "source_id": "https://openalex.org/W2964121744",
+      "title": "https://openalex.org/W2964121744",
+      "year": 2021,
+      "cited_by_count": 50095,
+      "adjusted_cited_by_count": 22403.17,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2964121744"
+    },
+    {
+      "source_id": "https://openalex.org/W1686810756",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "cited_by_count": 75499,
+      "adjusted_cited_by_count": 21794.68,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W1686810756"
+    },
+    {
+      "source_id": "https://openalex.org/W639708223",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "year": 2016,
+      "cited_by_count": 53067,
+      "adjusted_cited_by_count": 16781.26,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W639708223"
+    },
+    {
+      "source_id": "https://openalex.org/W2896457183",
+      "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+      "year": 2018,
+      "cited_by_count": 45472,
+      "adjusted_cited_by_count": 16076.78,
+      "primary_topic_id": "sg-natural-language-processing",
+      "primary_topic_label": "Natural language processing",
+      "url": "/domains/decision-sciences/papers/W2896457183"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36206,
+      "adjusted_cited_by_count": 14781.04,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/decision-sciences/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2295598076",
+      "title": "XGBoost",
+      "year": 2016,
+      "cited_by_count": 45695,
+      "adjusted_cited_by_count": 14450.03,
+      "primary_topic_id": "sg-decision-tree",
+      "primary_topic_label": "Decision trees",
+      "url": "/domains/decision-sciences/papers/W2295598076"
+    },
+    {
+      "source_id": "https://openalex.org/W4293584584",
+      "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+      "year": 2024,
+      "cited_by_count": 14276,
+      "adjusted_cited_by_count": 14276.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W4293584584"
+    },
+    {
+      "source_id": "https://openalex.org/W2097117768",
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "cited_by_count": 46426,
+      "adjusted_cited_by_count": 13997.97,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2097117768"
+    },
+    {
+      "source_id": "https://openalex.org/W2962862931",
+      "title": "On a Method to Measure Supervised Multiclass Model’s Interpretability: Application to Degradation Diagnosis (Short Paper)",
+      "year": 2024,
+      "cited_by_count": 13164,
+      "adjusted_cited_by_count": 13164.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2962862931"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57171,
+      "adjusted_cited_by_count": 10804.3,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2153635508",
+      "title": "LIBSVM",
+      "year": 2011,
+      "cited_by_count": 41221,
+      "adjusted_cited_by_count": 10643.22,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W2153635508"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34242,
+      "adjusted_cited_by_count": 9884.81,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W2752782242",
+      "title": "Squeeze-and-Excitation Networks",
+      "year": 2018,
+      "cited_by_count": 27382,
+      "adjusted_cited_by_count": 9681.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2752782242"
+    },
+    {
+      "source_id": "https://openalex.org/W2183341477",
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2016,
+      "cited_by_count": 30467,
+      "adjusted_cited_by_count": 9634.51,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2183341477"
+    },
+    {
+      "source_id": "https://openalex.org/W2152195021",
+      "title": "Particle swarm optimization",
+      "year": 2002,
+      "cited_by_count": 46857,
+      "adjusted_cited_by_count": 9564.65,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2152195021"
+    },
+    {
+      "source_id": "https://openalex.org/W2102605133",
+      "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+      "year": 2014,
+      "cited_by_count": 31410,
+      "adjusted_cited_by_count": 9067.29,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W2102605133"
+    },
+    {
+      "source_id": "https://openalex.org/W3094502228",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "year": 2020,
+      "cited_by_count": 21368,
+      "adjusted_cited_by_count": 8723.45,
+      "primary_topic_id": "sg-natural-language-processing",
+      "primary_topic_label": "Natural language processing",
+      "url": "/domains/decision-sciences/papers/W3094502228"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23034,
+      "adjusted_cited_by_count": 8706.03,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 21021,
+      "adjusted_cited_by_count": 8581.79,
+      "primary_topic_id": "sg-data-mining-big-data-mining",
+      "primary_topic_label": "Big data mining",
+      "url": "/domains/decision-sciences/papers/W3035965352"
+    },
+    {
+      "source_id": "https://openalex.org/W4292779060",
+      "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+      "year": 2023,
+      "cited_by_count": 14144,
+      "adjusted_cited_by_count": 8166.04,
+      "primary_topic_id": "sg-natural-language-processing",
+      "primary_topic_label": "Natural language processing",
+      "url": "/domains/decision-sciences/papers/W4292779060"
+    },
+    {
+      "source_id": "https://openalex.org/W2112090702",
+      "title": "Collective dynamics of ‘small-world’ networks",
+      "year": 1998,
+      "cited_by_count": 42804,
+      "adjusted_cited_by_count": 8089.2,
+      "primary_topic_id": "sg-neural-networks-deep-convolutional",
+      "primary_topic_label": "Deep convolutional",
+      "url": "/domains/decision-sciences/papers/W2112090702"
+    },
+    {
+      "source_id": "https://openalex.org/W2140190241",
+      "title": "Data mining: concepts and techniques",
+      "year": 2012,
+      "cited_by_count": 28872,
+      "adjusted_cited_by_count": 7716.37,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W2140190241"
+    },
+    {
+      "source_id": "https://openalex.org/W3099878876",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 18804,
+      "adjusted_cited_by_count": 7676.7,
+      "primary_topic_id": "sg-data-mining-big-data-mining",
+      "primary_topic_label": "Big data mining",
+      "url": "/domains/decision-sciences/papers/W3099878876"
+    },
+    {
+      "source_id": "https://openalex.org/W2884585870",
+      "title": "CBAM: Convolutional Block Attention Module",
+      "year": 2018,
+      "cited_by_count": 21504,
+      "adjusted_cited_by_count": 7602.81,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W2884585870"
+    },
+    {
+      "source_id": "https://openalex.org/W2561675875",
+      "title": "Lecture Notes in Computer Science 1205",
+      "year": 1999,
+      "cited_by_count": 38730,
+      "adjusted_cited_by_count": 7453.59,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W2561675875"
+    },
+    {
+      "source_id": "https://openalex.org/W2412782625",
+      "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+      "year": 2017,
+      "cited_by_count": 21693,
+      "adjusted_cited_by_count": 7231.0,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W2412782625"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40052,
+      "adjusted_cited_by_count": 7193.55,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W2156909104",
+      "title": "The Nature of Statistical Learning Theory",
+      "year": 1995,
+      "cited_by_count": 39169,
+      "adjusted_cited_by_count": 7034.96,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W2156909104"
+    },
+    {
+      "source_id": "https://openalex.org/W2157331557",
+      "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+      "year": 2014,
+      "cited_by_count": 23998,
+      "adjusted_cited_by_count": 6927.63,
+      "primary_topic_id": "sg-natural-language-processing",
+      "primary_topic_label": "Natural language processing",
+      "url": "/domains/decision-sciences/papers/W2157331557"
+    },
+    {
+      "source_id": "https://openalex.org/W2962858109",
+      "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+      "year": 2017,
+      "cited_by_count": 20567,
+      "adjusted_cited_by_count": 6855.67,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/decision-sciences/papers/W2962858109"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25708,
+      "adjusted_cited_by_count": 6637.78,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2965373594",
+      "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
+      "year": 2019,
+      "cited_by_count": 17226,
+      "adjusted_cited_by_count": 6510.82,
+      "primary_topic_id": "sg-natural-language-processing",
+      "primary_topic_label": "Natural language processing",
+      "url": "/domains/decision-sciences/papers/W2965373594"
+    },
+    {
+      "source_id": "https://openalex.org/W3029645440",
+      "title": "Numerical optimization",
+      "year": 2021,
+      "cited_by_count": 14179,
+      "adjusted_cited_by_count": 6341.04,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/decision-sciences/papers/W3029645440"
+    },
+    {
+      "source_id": "https://openalex.org/W2531409750",
+      "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+      "year": 2017,
+      "cited_by_count": 18497,
+      "adjusted_cited_by_count": 6165.67,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/decision-sciences/papers/W2531409750"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "url": "/domains/decision-sciences/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2194775991",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2016,
+      "cited_by_count": 217496,
+      "adjusted_cited_by_count": 68778.27,
+      "url": "/domains/decision-sciences/papers/W2194775991"
+    },
+    {
+      "source_id": "https://openalex.org/W4385245566",
+      "title": "MizAR 60 for Mizar 50",
+      "year": 2023,
+      "cited_by_count": 74706,
+      "adjusted_cited_by_count": 43131.53,
+      "url": "/domains/decision-sciences/papers/W4385245566"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75670,
+      "adjusted_cited_by_count": 25223.33,
+      "url": "/domains/decision-sciences/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W1951724000",
+      "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+      "year": 2015,
+      "cited_by_count": 82905,
+      "adjusted_cited_by_count": 24996.8,
+      "url": "/domains/decision-sciences/papers/W1951724000"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79475,
+      "adjusted_cited_by_count": 23962.61,
+      "url": "/domains/decision-sciences/papers/W2919115771"
+    },
+    {
+      "source_id": "https://openalex.org/W2964121744",
+      "title": "https://openalex.org/W2964121744",
+      "year": 2021,
+      "cited_by_count": 50095,
+      "adjusted_cited_by_count": 22403.17,
+      "url": "/domains/decision-sciences/papers/W2964121744"
+    },
+    {
+      "source_id": "https://openalex.org/W1686810756",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "cited_by_count": 75499,
+      "adjusted_cited_by_count": 21794.68,
+      "url": "/domains/decision-sciences/papers/W1686810756"
+    },
+    {
+      "source_id": "https://openalex.org/W639708223",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "year": 2016,
+      "cited_by_count": 53067,
+      "adjusted_cited_by_count": 16781.26,
+      "url": "/domains/decision-sciences/papers/W639708223"
+    },
+    {
+      "source_id": "https://openalex.org/W2896457183",
+      "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+      "year": 2018,
+      "cited_by_count": 45472,
+      "adjusted_cited_by_count": 16076.78,
+      "url": "/domains/decision-sciences/papers/W2896457183"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36206,
+      "adjusted_cited_by_count": 14781.04,
+      "url": "/domains/decision-sciences/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2295598076",
+      "title": "XGBoost",
+      "year": 2016,
+      "cited_by_count": 45695,
+      "adjusted_cited_by_count": 14450.03,
+      "url": "/domains/decision-sciences/papers/W2295598076"
+    },
+    {
+      "source_id": "https://openalex.org/W4293584584",
+      "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+      "year": 2024,
+      "cited_by_count": 14276,
+      "adjusted_cited_by_count": 14276.0,
+      "url": "/domains/decision-sciences/papers/W4293584584"
+    },
+    {
+      "source_id": "https://openalex.org/W2097117768",
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "cited_by_count": 46426,
+      "adjusted_cited_by_count": 13997.97,
+      "url": "/domains/decision-sciences/papers/W2097117768"
+    },
+    {
+      "source_id": "https://openalex.org/W2962862931",
+      "title": "On a Method to Measure Supervised Multiclass Model’s Interpretability: Application to Degradation Diagnosis (Short Paper)",
+      "year": 2024,
+      "cited_by_count": 13164,
+      "adjusted_cited_by_count": 13164.0,
+      "url": "/domains/decision-sciences/papers/W2962862931"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57171,
+      "adjusted_cited_by_count": 10804.3,
+      "url": "/domains/decision-sciences/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2153635508",
+      "title": "LIBSVM",
+      "year": 2011,
+      "cited_by_count": 41221,
+      "adjusted_cited_by_count": 10643.22,
+      "url": "/domains/decision-sciences/papers/W2153635508"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34242,
+      "adjusted_cited_by_count": 9884.81,
+      "url": "/domains/decision-sciences/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W2752782242",
+      "title": "Squeeze-and-Excitation Networks",
+      "year": 2018,
+      "cited_by_count": 27382,
+      "adjusted_cited_by_count": 9681.0,
+      "url": "/domains/decision-sciences/papers/W2752782242"
+    },
+    {
+      "source_id": "https://openalex.org/W2183341477",
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2016,
+      "cited_by_count": 30467,
+      "adjusted_cited_by_count": 9634.51,
+      "url": "/domains/decision-sciences/papers/W2183341477"
+    },
+    {
+      "source_id": "https://openalex.org/W2152195021",
+      "title": "Particle swarm optimization",
+      "year": 2002,
+      "cited_by_count": 46857,
+      "adjusted_cited_by_count": 9564.65,
+      "url": "/domains/decision-sciences/papers/W2152195021"
+    },
+    {
+      "source_id": "https://openalex.org/W2102605133",
+      "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+      "year": 2014,
+      "cited_by_count": 31410,
+      "adjusted_cited_by_count": 9067.29,
+      "url": "/domains/decision-sciences/papers/W2102605133"
+    },
+    {
+      "source_id": "https://openalex.org/W3094502228",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "year": 2020,
+      "cited_by_count": 21368,
+      "adjusted_cited_by_count": 8723.45,
+      "url": "/domains/decision-sciences/papers/W3094502228"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23034,
+      "adjusted_cited_by_count": 8706.03,
+      "url": "/domains/decision-sciences/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 21021,
+      "adjusted_cited_by_count": 8581.79,
+      "url": "/domains/decision-sciences/papers/W3035965352"
+    },
+    {
+      "source_id": "https://openalex.org/W4292779060",
+      "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+      "year": 2023,
+      "cited_by_count": 14144,
+      "adjusted_cited_by_count": 8166.04,
+      "url": "/domains/decision-sciences/papers/W4292779060"
+    },
+    {
+      "source_id": "https://openalex.org/W2112090702",
+      "title": "Collective dynamics of ‘small-world’ networks",
+      "year": 1998,
+      "cited_by_count": 42804,
+      "adjusted_cited_by_count": 8089.2,
+      "url": "/domains/decision-sciences/papers/W2112090702"
+    },
+    {
+      "source_id": "https://openalex.org/W2140190241",
+      "title": "Data mining: concepts and techniques",
+      "year": 2012,
+      "cited_by_count": 28872,
+      "adjusted_cited_by_count": 7716.37,
+      "url": "/domains/decision-sciences/papers/W2140190241"
+    },
+    {
+      "source_id": "https://openalex.org/W3099878876",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 18804,
+      "adjusted_cited_by_count": 7676.7,
+      "url": "/domains/decision-sciences/papers/W3099878876"
+    },
+    {
+      "source_id": "https://openalex.org/W2884585870",
+      "title": "CBAM: Convolutional Block Attention Module",
+      "year": 2018,
+      "cited_by_count": 21504,
+      "adjusted_cited_by_count": 7602.81,
+      "url": "/domains/decision-sciences/papers/W2884585870"
+    },
+    {
+      "source_id": "https://openalex.org/W2561675875",
+      "title": "Lecture Notes in Computer Science 1205",
+      "year": 1999,
+      "cited_by_count": 38730,
+      "adjusted_cited_by_count": 7453.59,
+      "url": "/domains/decision-sciences/papers/W2561675875"
+    },
+    {
+      "source_id": "https://openalex.org/W2412782625",
+      "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+      "year": 2017,
+      "cited_by_count": 21693,
+      "adjusted_cited_by_count": 7231.0,
+      "url": "/domains/decision-sciences/papers/W2412782625"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40052,
+      "adjusted_cited_by_count": 7193.55,
+      "url": "/domains/decision-sciences/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W2156909104",
+      "title": "The Nature of Statistical Learning Theory",
+      "year": 1995,
+      "cited_by_count": 39169,
+      "adjusted_cited_by_count": 7034.96,
+      "url": "/domains/decision-sciences/papers/W2156909104"
+    },
+    {
+      "source_id": "https://openalex.org/W2157331557",
+      "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+      "year": 2014,
+      "cited_by_count": 23998,
+      "adjusted_cited_by_count": 6927.63,
+      "url": "/domains/decision-sciences/papers/W2157331557"
+    },
+    {
+      "source_id": "https://openalex.org/W2962858109",
+      "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+      "year": 2017,
+      "cited_by_count": 20567,
+      "adjusted_cited_by_count": 6855.67,
+      "url": "/domains/decision-sciences/papers/W2962858109"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25708,
+      "adjusted_cited_by_count": 6637.78,
+      "url": "/domains/decision-sciences/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2965373594",
+      "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
+      "year": 2019,
+      "cited_by_count": 17226,
+      "adjusted_cited_by_count": 6510.82,
+      "url": "/domains/decision-sciences/papers/W2965373594"
+    },
+    {
+      "source_id": "https://openalex.org/W3029645440",
+      "title": "Numerical optimization",
+      "year": 2021,
+      "cited_by_count": 14179,
+      "adjusted_cited_by_count": 6341.04,
+      "url": "/domains/decision-sciences/papers/W3029645440"
+    },
+    {
+      "source_id": "https://openalex.org/W2531409750",
+      "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+      "year": 2017,
+      "cited_by_count": 18497,
+      "adjusted_cited_by_count": 6165.67,
+      "url": "/domains/decision-sciences/papers/W2531409750"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 222
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 152
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 119
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 104
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "on a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 83
+    },
+    {
+      "label": "algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "one",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "provide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "such",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "in this",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "this paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "machine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 92
+    },
+    {
+      "label": "pattern recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 43
+    },
+    {
+      "label": "neural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 50
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 40
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 39
+    },
+    {
+      "label": "propose",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 39
+    },
+    {
+      "label": "neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 46
+    },
+    {
+      "label": "decision",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 37
+    },
+    {
+      "label": "deep",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 37
+    },
+    {
+      "label": "many",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 34
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9877,
+      "evidence_count": 34
+    },
+    {
+      "label": "computer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 222
+    },
+    {
+      "label": "classification",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 33
+    },
+    {
+      "label": "language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 51
+    },
+    {
+      "label": "artificial neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 32
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 32
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 31
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 31
+    },
+    {
+      "label": "programming language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 30
+    },
+    {
+      "label": "based on",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 29
+    },
+    {
+      "label": "natural language processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 29
+    },
+    {
+      "label": "such as",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 29
+    },
+    {
+      "label": "processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 39
+    },
+    {
+      "label": "most",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 28
+    }
+  ],
+  "topic_year_counts": {
+    "pattern recognition": {
+      "2025": 345167,
+      "2024": 321680,
+      "2023": 309897,
+      "2022": 195817,
+      "2021": 179378,
+      "2020": 164661,
+      "2019": 139368,
+      "2018": 121008,
+      "2017": 107990,
+      "2016": 99469,
+      "2026": 97857,
+      "2015": 92944,
+      "2014": 86449,
+      "2013": 79486,
+      "2012": 70840,
+      "2011": 61291,
+      "2010": 53769,
+      "2009": 47751,
+      "2008": 39952,
+      "2007": 35033,
+      "2006": 31091,
+      "2005": 27389,
+      "2004": 24002,
+      "2003": 21108,
+      "2002": 19719,
+      "2000": 16229,
+      "2001": 15582
+    },
+    "data mining": {
+      "2023": 213293,
+      "2024": 212654,
+      "2025": 203983,
+      "2022": 146759,
+      "2021": 130977,
+      "2020": 114667,
+      "2019": 95621,
+      "2018": 80792,
+      "2017": 67002,
+      "2016": 60433,
+      "2015": 54948,
+      "2026": 49387,
+      "2014": 48804,
+      "2013": 42886,
+      "2012": 37134,
+      "2011": 32399,
+      "2010": 27823,
+      "2009": 24660,
+      "2008": 20431,
+      "2007": 17557,
+      "2006": 16011,
+      "2005": 13545,
+      "2004": 11207,
+      "2003": 9486,
+      "2002": 8030,
+      "2001": 6040,
+      "2000": 5933
+    },
+    "neural networks": {
+      "2025": 492585,
+      "2024": 488921,
+      "2023": 461455,
+      "2022": 316261,
+      "2021": 274960,
+      "2020": 227303,
+      "2026": 192415,
+      "2019": 179904,
+      "2018": 137087,
+      "2017": 101087,
+      "2016": 80496,
+      "2015": 69420,
+      "2014": 63407,
+      "2013": 58542,
+      "2012": 52157,
+      "2011": 47030,
+      "2010": 41612,
+      "2009": 37705,
+      "2008": 32994,
+      "2007": 29552,
+      "2006": 28892,
+      "2002": 26113,
+      "2005": 25081,
+      "2003": 20960,
+      "2004": 20589,
+      "2001": 12863,
+      "2000": 12209
+    },
+    "natural language processing": {
+      "2025": 304516,
+      "2024": 300191,
+      "2023": 282280,
+      "2022": 177089,
+      "2021": 160945,
+      "2020": 144580,
+      "2019": 123180,
+      "2018": 106591,
+      "2017": 91982,
+      "2016": 83017,
+      "2026": 79895,
+      "2015": 75686,
+      "2014": 67744,
+      "2013": 59342,
+      "2012": 51276,
+      "2011": 44128,
+      "2010": 39238,
+      "2009": 35253,
+      "2008": 28607,
+      "2007": 24651,
+      "2006": 21708,
+      "2005": 18612,
+      "2004": 15947,
+      "2003": 13255,
+      "2002": 11405,
+      "2000": 11244,
+      "2001": 9528
+    },
+    "decision trees": {
+      "2025": 162925,
+      "2024": 160163,
+      "2023": 157376,
+      "2022": 103454,
+      "2021": 93719,
+      "2020": 84594,
+      "2019": 70656,
+      "2018": 59967,
+      "2017": 51736,
+      "2016": 48019,
+      "2015": 43829,
+      "2014": 42053,
+      "2026": 40236,
+      "2013": 38496,
+      "2012": 33091,
+      "2011": 27866,
+      "2010": 24138,
+      "2009": 21564,
+      "2008": 17480,
+      "2007": 15082,
+      "2006": 13498,
+      "2005": 11435,
+      "2004": 9705,
+      "2003": 8640,
+      "2002": 7484,
+      "2000": 7089,
+      "2001": 5899
+    }
+  }
+}

@@ -1,0 +1,2120 @@
+{
+  "slug": "finance",
+  "title": "Finance",
+  "updated_at": "2026-04-06T14:38:58.697758Z",
+  "snapshot": {
+    "papers": 268,
+    "topics": 7,
+    "subtopics": 49,
+    "entities": 754,
+    "claims": 2
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 320,
+      "total_papers": 320,
+      "facet_counts": {
+        "none": 320
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning corporate finance, corporate finance and governance.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 7,
+    "descendant_topics": 49,
+    "max_depth": 2,
+    "leaf_topics": 49
+  },
+  "rising_topics": [
+    {
+      "id": "sg-monetary-economics",
+      "label": "Monetary economics",
+      "url": "/domains/finance/topics/sg-monetary-economics",
+      "trend": "rising",
+      "year_total": 534068
+    },
+    {
+      "id": "sg-financial-economics",
+      "label": "Financial economics",
+      "url": "/domains/finance/topics/sg-financial-economics",
+      "trend": "rising",
+      "year_total": 1637394
+    },
+    {
+      "id": "sg-financial-system",
+      "label": "Financial system",
+      "url": "/domains/finance/topics/sg-financial-system",
+      "trend": "rising",
+      "year_total": 5368836
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-monetary-economics",
+      "label": "Monetary economics",
+      "url": "/domains/finance/topics/sg-monetary-economics",
+      "paper_count": 95,
+      "subtopic_count": 20,
+      "trend": "rising",
+      "summary": "entities: monetary economics, finance, of the",
+      "tags": [
+        "business cycle",
+        "financial crisis",
+        "international economics",
+        "international finance"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-monetary-economics-international-economics",
+          "label": "International economics",
+          "url": "/domains/finance/topics/sg-monetary-economics-international-economics",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-monetary-economics-economic-bubble",
+          "label": "Economic bubble",
+          "url": "/domains/finance/topics/sg-monetary-economics-economic-bubble",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-monetary-economics-business-cycle",
+          "label": "Business cycle",
+          "url": "/domains/finance/topics/sg-monetary-economics-business-cycle",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-monetary-economics-cost-of-capital",
+          "label": "Cost of capital",
+          "url": "/domains/finance/topics/sg-monetary-economics-cost-of-capital",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-monetary-economics-fiscal-policy",
+          "label": "Fiscal policy",
+          "url": "/domains/finance/topics/sg-monetary-economics-fiscal-policy",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-monetary-economics-keynesian-economics",
+          "label": "Keynesian economics",
+          "url": "/domains/finance/topics/sg-monetary-economics-keynesian-economics",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2110603299",
+          "title": "Co-Integration and Error Correction: Representation, Estimation, and Testing",
+          "year": "1987",
+          "cited_by_count": 31716,
+          "url": "/domains/finance/papers/W2110603299"
+        },
+        {
+          "source_id": "https://openalex.org/W3126081245",
+          "title": "Measuring Economic Policy Uncertainty*",
+          "year": "2016",
+          "cited_by_count": 11426,
+          "url": "/domains/finance/papers/W3126081245"
+        },
+        {
+          "source_id": "https://openalex.org/W3121131820",
+          "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+          "year": "1986",
+          "cited_by_count": 17576,
+          "url": "/domains/finance/papers/W3121131820"
+        }
+      ]
+    },
+    {
+      "id": "sg-financial-economics",
+      "label": "Financial economics",
+      "url": "/domains/finance/topics/sg-financial-economics",
+      "paper_count": 82,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "asset pricing",
+        "behavioral economics",
+        "behavioral finance",
+        "economics finance"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-financial-economics-expected-return",
+          "label": "Expected return",
+          "url": "/domains/finance/topics/sg-financial-economics-expected-return",
+          "paper_count": 47
+        },
+        {
+          "id": "sg-financial-economics-modern-portfolio-theory",
+          "label": "Modern portfolio theory",
+          "url": "/domains/finance/topics/sg-financial-economics-modern-portfolio-theory",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-financial-economics-empirical-evidence",
+          "label": "Empirical evidence",
+          "url": "/domains/finance/topics/sg-financial-economics-empirical-evidence",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-financial-economics-consumption-based-capital-asset-pricing-model",
+          "label": "Consumption-based capital asset pricing model",
+          "url": "/domains/finance/topics/sg-financial-economics-consumption-based-capital-asset-pricing-model",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-financial-economics-expected-shortfall",
+          "label": "Expected shortfall",
+          "url": "/domains/finance/topics/sg-financial-economics-expected-shortfall",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-financial-economics-financial-modeling",
+          "label": "Financial modeling",
+          "url": "/domains/finance/topics/sg-financial-economics-financial-modeling",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-financial-system",
+      "label": "Financial system",
+      "url": "/domains/finance/topics/sg-financial-system",
+      "paper_count": 28,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: finance, financial system, financial",
+      "tags": [
+        "access to finance",
+        "determinants of external finance",
+        "external finance",
+        "finance growth theory evidence"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-financial-system-financial-crisis",
+          "label": "Financial crisis",
+          "url": "/domains/finance/topics/sg-financial-system-financial-crisis",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-financial-system-financial-intermediary",
+          "label": "Financial intermediary",
+          "url": "/domains/finance/topics/sg-financial-system-financial-intermediary",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-financial-system-private-sector",
+          "label": "Private sector",
+          "url": "/domains/finance/topics/sg-financial-system-private-sector",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-financial-system-finance-growth-theory",
+          "label": "Finance growth theory",
+          "url": "/domains/finance/topics/sg-financial-system-finance-growth-theory",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-financial-system-financial-institution",
+          "label": "Financial institution",
+          "url": "/domains/finance/topics/sg-financial-system-financial-institution",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-financial-system-microfinance-and-financial-inclusion",
+          "label": "Microfinance and financial inclusion",
+          "url": "/domains/finance/topics/sg-financial-system-microfinance-and-financial-inclusion",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4298413470",
+          "title": "Institutions, Institutional Change and Economic Performance",
+          "year": "1990",
+          "cited_by_count": 29967,
+          "url": "/domains/finance/papers/W4298413470"
+        },
+        {
+          "source_id": "https://openalex.org/W2074928461",
+          "title": "The cost of capital, corporation finance and the theory of investment",
+          "year": "2008",
+          "cited_by_count": 8816,
+          "url": "/domains/finance/papers/W2074928461"
+        },
+        {
+          "source_id": "https://openalex.org/W1969519191",
+          "title": "Legal Determinants of External Finance",
+          "year": "1997",
+          "cited_by_count": 9919,
+          "url": "/domains/finance/papers/W1969519191"
+        }
+      ]
+    },
+    {
+      "id": "sg-capital-market",
+      "label": "Capital market",
+      "url": "/domains/finance/topics/sg-capital-market",
+      "paper_count": 22,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: of the, finance, market",
+      "tags": [
+        "capital market",
+        "capital market equilibrium",
+        "capital market equilibrium incomplete",
+        "capital markets"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-capital-market-efficient-markets",
+          "label": "Efficient markets",
+          "url": "/domains/finance/topics/sg-capital-market-efficient-markets",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-capital-market-equity-markets",
+          "label": "Equity markets",
+          "url": "/domains/finance/topics/sg-capital-market-equity-markets",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-capital-market-market-equilibrium",
+          "label": "Market equilibrium",
+          "url": "/domains/finance/topics/sg-capital-market-market-equilibrium",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-capital-market-market-equilibrium-incomplete",
+          "label": "Market equilibrium incomplete",
+          "url": "/domains/finance/topics/sg-capital-market-market-equilibrium-incomplete",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160860931",
+          "title": "Agency costs of free cash flow, corporate finance, and takeovers",
+          "year": "1996",
+          "cited_by_count": 9646,
+          "url": "/domains/finance/papers/W2160860931"
+        },
+        {
+          "source_id": "https://openalex.org/W4231546411",
+          "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+          "year": "1970",
+          "cited_by_count": 13058,
+          "url": "/domains/finance/papers/W4231546411"
+        },
+        {
+          "source_id": "https://openalex.org/W2906323621",
+          "title": "The Importance of Climate Risks for Institutional Investors",
+          "year": "2019",
+          "cited_by_count": 2510,
+          "url": "/domains/finance/papers/W2906323621"
+        }
+      ]
+    },
+    {
+      "id": "sg-public-finance",
+      "label": "Public finance",
+      "url": "/domains/finance/topics/sg-public-finance",
+      "paper_count": 20,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: economic, finance, of the",
+      "tags": [
+        "access to finance",
+        "capital market equilibrium",
+        "capital market equilibrium incomplete",
+        "model of capital"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-public-finance-public-economics",
+          "label": "Public economics",
+          "url": "/domains/finance/topics/sg-public-finance-public-economics",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-public-finance-climate-change",
+          "label": "Climate change",
+          "url": "/domains/finance/topics/sg-public-finance-climate-change",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-public-finance-schools-of-economic-thought",
+          "label": "Schools of economic thought",
+          "url": "/domains/finance/topics/sg-public-finance-schools-of-economic-thought",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3121385028",
+          "title": "Recent Developments in the Econometrics of Program Evaluation",
+          "year": "2009",
+          "cited_by_count": 4809,
+          "url": "/domains/finance/papers/W3121385028"
+        },
+        {
+          "source_id": "https://openalex.org/W2031753087",
+          "title": "Fractional Brownian Motions, Fractional Noises and Applications",
+          "year": "1968",
+          "cited_by_count": 7630,
+          "url": "/domains/finance/papers/W2031753087"
+        },
+        {
+          "source_id": "https://openalex.org/W2153509701",
+          "title": "Designing payments for environmental services in theory and practice: An overview of the issues",
+          "year": "2008",
+          "cited_by_count": 2387,
+          "url": "/domains/finance/papers/W2153509701"
+        }
+      ]
+    },
+    {
+      "id": "sg-mathematical-finance",
+      "label": "Mathematical finance",
+      "url": "/domains/finance/topics/sg-mathematical-finance",
+      "paper_count": 13,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: finance, mathematical finance, theory",
+      "tags": [
+        "differential equation",
+        "mathematical finance",
+        "ornstein-uhlenbeck process",
+        "stochastic differential equation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mathematical-finance-differential-equation",
+          "label": "Differential equation",
+          "url": "/domains/finance/topics/sg-mathematical-finance-differential-equation",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-mathematical-finance-ornstein-uhlenbeck-process",
+          "label": "Ornstein-uhlenbeck process",
+          "url": "/domains/finance/topics/sg-mathematical-finance-ornstein-uhlenbeck-process",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-mathematical-finance-stochastic-differential",
+          "label": "Stochastic differential",
+          "url": "/domains/finance/topics/sg-mathematical-finance-stochastic-differential",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-mathematical-finance-stochastic-differential-equation",
+          "label": "Stochastic differential equation",
+          "url": "/domains/finance/topics/sg-mathematical-finance-stochastic-differential-equation",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-mathematical-finance-financial-economics",
+          "label": "Financial economics",
+          "url": "/domains/finance/topics/sg-mathematical-finance-financial-economics",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1580561995",
+          "title": "Brownian Motion and Stochastic Calculus",
+          "year": "2007",
+          "cited_by_count": 7834,
+          "url": "/domains/finance/papers/W1580561995"
+        },
+        {
+          "source_id": "https://openalex.org/W2170316986",
+          "title": "Stochastic Differential Equations: An Introduction with Applications.",
+          "year": "1987",
+          "cited_by_count": 4098,
+          "url": "/domains/finance/papers/W2170316986"
+        },
+        {
+          "source_id": "https://openalex.org/W1558902221",
+          "title": "Controlled Markov Processes and Viscosity Solutions",
+          "year": "2005",
+          "cited_by_count": 2798,
+          "url": "/domains/finance/papers/W1558902221"
+        }
+      ]
+    },
+    {
+      "id": "sg-stock-market",
+      "label": "Stock market",
+      "url": "/domains/finance/topics/sg-stock-market",
+      "paper_count": 8,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: of the, market, stock market",
+      "tags": [
+        "law, finance",
+        "market portfolio",
+        "security market line",
+        "stock exchange"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-stock-market-stock-price",
+          "label": "Stock price",
+          "url": "/domains/finance/topics/sg-stock-market-stock-price",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-stock-market-financial-economics",
+          "label": "Financial economics",
+          "url": "/domains/finance/topics/sg-stock-market-financial-economics",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-stock-market-stock-exchange",
+          "label": "Stock exchange",
+          "url": "/domains/finance/topics/sg-stock-market-stock-exchange",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2029056003",
+          "title": "CAPITAL ASSET PRICES: A THEORY OF MARKET EQUILIBRIUM UNDER CONDITIONS OF RISK*",
+          "year": "1964",
+          "cited_by_count": 17342,
+          "url": "/domains/finance/papers/W2029056003"
+        },
+        {
+          "source_id": "https://openalex.org/W3043617920",
+          "title": "The Unprecedented Stock Market Reaction to COVID-19",
+          "year": "2020",
+          "cited_by_count": 1456,
+          "url": "/domains/finance/papers/W3043617920"
+        },
+        {
+          "source_id": "https://openalex.org/W2106022734",
+          "title": "Skills, Tasks and Technologies: Implications for Employment and Earnings",
+          "year": "2010",
+          "cited_by_count": 2196,
+          "url": "/domains/finance/papers/W2106022734"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Financial economics",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "A model of investor sentiment /",
+          "year": "None",
+          "cited_by_count": 4196,
+          "topic": "Financial economics",
+          "url": "papers/https-openalex-org-w3122578644.html"
+        },
+        {
+          "title": "On Persistence in Mutual Fund Performance",
+          "year": "1997",
+          "cited_by_count": 16837,
+          "topic": "Financial economics",
+          "url": "papers/https-openalex-org-w2136120210.html"
+        },
+        {
+          "title": "Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches",
+          "year": "2008",
+          "cited_by_count": 11010,
+          "topic": "Financial economics",
+          "url": "papers/https-openalex-org-w3125688476.html"
+        },
+        {
+          "title": "The Cross‐Section of Expected Stock Returns",
+          "year": "1992",
+          "cited_by_count": 15060,
+          "topic": "Financial economics",
+          "url": "papers/https-openalex-org-w2166215547.html"
+        },
+        {
+          "title": "Editor&#x27;s Choice Digesting Anomalies: An Investment Approach",
+          "year": "None",
+          "cited_by_count": 2581,
+          "topic": "Financial economics",
+          "url": "papers/https-openalex-org-w3125206904.html"
+        },
+        {
+          "title": "Illiquidity and stock returns: cross-section and time-series effects",
+          "year": "2002",
+          "cited_by_count": 10168,
+          "topic": "Financial economics",
+          "url": "papers/https-openalex-org-w3121401171.html"
+        }
+      ]
+    },
+    {
+      "label": "Monetary economics",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Co-Integration and Error Correction: Representation, Estimation, and Testing",
+          "year": "1987",
+          "cited_by_count": 31716,
+          "topic": "Monetary economics",
+          "url": "papers/https-openalex-org-w2110603299.html"
+        },
+        {
+          "title": "Measuring Economic Policy Uncertainty*",
+          "year": "2016",
+          "cited_by_count": 11426,
+          "topic": "Monetary economics",
+          "url": "papers/https-openalex-org-w3126081245.html"
+        },
+        {
+          "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+          "year": "1986",
+          "cited_by_count": 17576,
+          "topic": "Monetary economics",
+          "url": "papers/https-openalex-org-w3121131820.html"
+        },
+        {
+          "title": "Multivariate GARCH models: a survey",
+          "year": "None",
+          "cited_by_count": 2054,
+          "topic": "Monetary economics",
+          "url": "papers/https-openalex-org-w3125564657.html"
+        },
+        {
+          "title": "The Cost of Capital, Corporation Finance and the Theory of Investment",
+          "year": "1958",
+          "cited_by_count": 15021,
+          "topic": "Monetary economics",
+          "url": "papers/https-openalex-org-w2124597406.html"
+        },
+        {
+          "title": "ON THE PRICING OF CORPORATE DEBT: THE RISK STRUCTURE OF INTEREST RATES*",
+          "year": "1974",
+          "cited_by_count": 11010,
+          "topic": "Monetary economics",
+          "url": "papers/https-openalex-org-w2105973145.html"
+        }
+      ]
+    },
+    {
+      "label": "Financial system",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Institutions, Institutional Change and Economic Performance",
+          "year": "1990",
+          "cited_by_count": 29967,
+          "topic": "Financial system",
+          "url": "papers/https-openalex-org-w4298413470.html"
+        },
+        {
+          "title": "The cost of capital, corporation finance and the theory of investment",
+          "year": "2008",
+          "cited_by_count": 8816,
+          "topic": "Financial system",
+          "url": "papers/https-openalex-org-w2074928461.html"
+        },
+        {
+          "title": "Legal Determinants of External Finance",
+          "year": "1997",
+          "cited_by_count": 9919,
+          "topic": "Financial system",
+          "url": "papers/https-openalex-org-w1969519191.html"
+        },
+        {
+          "title": "Corporate Financing and Investment Decisions When Firms Have InformationThat Investors Do Not Have",
+          "year": "1984",
+          "cited_by_count": 6792,
+          "topic": "Financial system",
+          "url": "papers/https-openalex-org-w2140358882.html"
+        },
+        {
+          "title": "Corporate social responsibility and access to finance",
+          "year": "2013",
+          "cited_by_count": 3590,
+          "topic": "Financial system",
+          "url": "papers/https-openalex-org-w1738524706.html"
+        }
+      ]
+    },
+    {
+      "label": "Keynesian economics",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Social Capital in the Creation of Human Capital",
+          "year": "2000",
+          "cited_by_count": 21836,
+          "topic": "Keynesian economics",
+          "url": "papers/https-openalex-org-w2085491458.html"
+        },
+        {
+          "title": "Law and Finance",
+          "year": "1998",
+          "cited_by_count": 17929,
+          "topic": "Keynesian economics",
+          "url": "papers/https-openalex-org-w3121759882.html"
+        },
+        {
+          "title": "The Nature of the Firm",
+          "year": "1937",
+          "cited_by_count": 23214,
+          "topic": "Keynesian economics",
+          "url": "papers/https-openalex-org-w2015930340.html"
+        },
+        {
+          "title": "Fractional Brownian Motions, Fractional Noises and Applications",
+          "year": "1968",
+          "cited_by_count": 7630,
+          "topic": "Keynesian economics",
+          "url": "papers/https-openalex-org-w2031753087.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Distribution of the Estimators for Autoregressive Time Series with a Unit Root",
+          "year": "1979",
+          "cited_by_count": 22801,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1975994995.html"
+        },
+        {
+          "title": "A Contribution to the Theory of Economic Growth",
+          "year": "1956",
+          "cited_by_count": 23648,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2070631858.html"
+        },
+        {
+          "title": "Firms and social responsibility: A review of ESG and CSR research in corporate finance",
+          "year": "2021",
+          "cited_by_count": 2433,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3128871793.html"
+        }
+      ]
+    },
+    {
+      "label": "Capital market",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Agency costs of free cash flow, corporate finance, and takeovers",
+          "year": "1996",
+          "cited_by_count": 9646,
+          "topic": "Capital market",
+          "url": "papers/https-openalex-org-w2160860931.html"
+        },
+        {
+          "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+          "year": "1970",
+          "cited_by_count": 13058,
+          "topic": "Capital market",
+          "url": "papers/https-openalex-org-w4231546411.html"
+        }
+      ]
+    },
+    {
+      "label": "Cash flow",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+          "year": "1976",
+          "cited_by_count": 69696,
+          "topic": "Cash flow",
+          "url": "papers/https-openalex-org-w2752617332.html"
+        }
+      ]
+    },
+    {
+      "label": "Equity markets",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Increasing Returns, Path Dependence, and the Study of Politics",
+          "year": "2000",
+          "cited_by_count": 7537,
+          "topic": "Equity markets",
+          "url": "papers/https-openalex-org-w2147111138.html"
+        }
+      ]
+    },
+    {
+      "label": "Mathematical finance",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Brownian Motion and Stochastic Calculus",
+          "year": "2007",
+          "cited_by_count": 7834,
+          "topic": "Mathematical finance",
+          "url": "papers/https-openalex-org-w1580561995.html"
+        }
+      ]
+    },
+    {
+      "label": "Public finance",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Recent Developments in the Econometrics of Program Evaluation",
+          "year": "2009",
+          "cited_by_count": 4809,
+          "topic": "Public finance",
+          "url": "papers/https-openalex-org-w3121385028.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2752617332",
+      "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+      "year": 1976,
+      "cited_by_count": 69696,
+      "adjusted_cited_by_count": 9856.5,
+      "primary_topic_id": "sg-monetary-economics-cash-flow",
+      "primary_topic_label": "Cash flow",
+      "url": "/domains/finance/papers/W2752617332"
+    },
+    {
+      "source_id": "https://openalex.org/W2110603299",
+      "title": "Co-Integration and Error Correction: Representation, Estimation, and Testing",
+      "year": 1987,
+      "cited_by_count": 31716,
+      "adjusted_cited_by_count": 5078.62,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W2110603299"
+    },
+    {
+      "source_id": "https://openalex.org/W4298413470",
+      "title": "Institutions, Institutional Change and Economic Performance",
+      "year": 1990,
+      "cited_by_count": 29967,
+      "adjusted_cited_by_count": 4994.5,
+      "primary_topic_id": "sg-financial-system",
+      "primary_topic_label": "Financial system",
+      "url": "/domains/finance/papers/W4298413470"
+    },
+    {
+      "source_id": "https://openalex.org/W2085491458",
+      "title": "Social Capital in the Creation of Human Capital",
+      "year": 2000,
+      "cited_by_count": 21836,
+      "adjusted_cited_by_count": 4282.39,
+      "primary_topic_id": "sg-monetary-economics-keynesian-economics",
+      "primary_topic_label": "Keynesian economics",
+      "url": "/domains/finance/papers/W2085491458"
+    },
+    {
+      "source_id": "https://openalex.org/W3122578644",
+      "title": "A model of investor sentiment /",
+      "year": null,
+      "cited_by_count": 4196,
+      "adjusted_cited_by_count": 4196.0,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W3122578644"
+    },
+    {
+      "source_id": "https://openalex.org/W3126081245",
+      "title": "Measuring Economic Policy Uncertainty*",
+      "year": 2016,
+      "cited_by_count": 11426,
+      "adjusted_cited_by_count": 3613.22,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W3126081245"
+    },
+    {
+      "source_id": "https://openalex.org/W3121759882",
+      "title": "Law and Finance",
+      "year": 1998,
+      "cited_by_count": 17929,
+      "adjusted_cited_by_count": 3388.26,
+      "primary_topic_id": "sg-monetary-economics-keynesian-economics",
+      "primary_topic_label": "Keynesian economics",
+      "url": "/domains/finance/papers/W3121759882"
+    },
+    {
+      "source_id": "https://openalex.org/W1975994995",
+      "title": "Distribution of the Estimators for Autoregressive Time Series with a Unit Root",
+      "year": 1979,
+      "cited_by_count": 22801,
+      "adjusted_cited_by_count": 3325.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/finance/papers/W1975994995"
+    },
+    {
+      "source_id": "https://openalex.org/W2136120210",
+      "title": "On Persistence in Mutual Fund Performance",
+      "year": 1997,
+      "cited_by_count": 16837,
+      "adjusted_cited_by_count": 3126.55,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W2136120210"
+    },
+    {
+      "source_id": "https://openalex.org/W2070631858",
+      "title": "A Contribution to the Theory of Economic Growth",
+      "year": 1956,
+      "cited_by_count": 23648,
+      "adjusted_cited_by_count": 2826.48,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/finance/papers/W2070631858"
+    },
+    {
+      "source_id": "https://openalex.org/W3121131820",
+      "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+      "year": 1986,
+      "cited_by_count": 17576,
+      "adjusted_cited_by_count": 2779.01,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W3121131820"
+    },
+    {
+      "source_id": "https://openalex.org/W3125688476",
+      "title": "Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches",
+      "year": 2008,
+      "cited_by_count": 11010,
+      "adjusted_cited_by_count": 2595.08,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W3125688476"
+    },
+    {
+      "source_id": "https://openalex.org/W2166215547",
+      "title": "The Cross‐Section of Expected Stock Returns",
+      "year": 1992,
+      "cited_by_count": 15060,
+      "adjusted_cited_by_count": 2582.77,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W2166215547"
+    },
+    {
+      "source_id": "https://openalex.org/W3125206904",
+      "title": "Editor's Choice Digesting Anomalies: An Investment Approach",
+      "year": null,
+      "cited_by_count": 2581,
+      "adjusted_cited_by_count": 2581.0,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W3125206904"
+    },
+    {
+      "source_id": "https://openalex.org/W2015930340",
+      "title": "The Nature of the Firm",
+      "year": 1937,
+      "cited_by_count": 23214,
+      "adjusted_cited_by_count": 2460.68,
+      "primary_topic_id": "sg-monetary-economics-keynesian-economics",
+      "primary_topic_label": "Keynesian economics",
+      "url": "/domains/finance/papers/W2015930340"
+    },
+    {
+      "source_id": "https://openalex.org/W2029056003",
+      "title": "CAPITAL ASSET PRICES: A THEORY OF MARKET EQUILIBRIUM UNDER CONDITIONS OF RISK*",
+      "year": 1964,
+      "cited_by_count": 17342,
+      "adjusted_cited_by_count": 2202.44,
+      "primary_topic_id": "sg-stock-market",
+      "primary_topic_label": "Stock market",
+      "url": "/domains/finance/papers/W2029056003"
+    },
+    {
+      "source_id": "https://openalex.org/W2074928461",
+      "title": "The cost of capital, corporation finance and the theory of investment",
+      "year": 2008,
+      "cited_by_count": 8816,
+      "adjusted_cited_by_count": 2077.95,
+      "primary_topic_id": "sg-financial-system",
+      "primary_topic_label": "Financial system",
+      "url": "/domains/finance/papers/W2074928461"
+    },
+    {
+      "source_id": "https://openalex.org/W3121401171",
+      "title": "Illiquidity and stock returns: cross-section and time-series effects",
+      "year": 2002,
+      "cited_by_count": 10168,
+      "adjusted_cited_by_count": 2075.53,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W3121401171"
+    },
+    {
+      "source_id": "https://openalex.org/W3125564657",
+      "title": "Multivariate GARCH models: a survey",
+      "year": null,
+      "cited_by_count": 2054,
+      "adjusted_cited_by_count": 2054.0,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W3125564657"
+    },
+    {
+      "source_id": "https://openalex.org/W1969519191",
+      "title": "Legal Determinants of External Finance",
+      "year": 1997,
+      "cited_by_count": 9919,
+      "adjusted_cited_by_count": 1841.91,
+      "primary_topic_id": "sg-financial-system",
+      "primary_topic_label": "Financial system",
+      "url": "/domains/finance/papers/W1969519191"
+    },
+    {
+      "source_id": "https://openalex.org/W2124597406",
+      "title": "The Cost of Capital, Corporation Finance and the Theory of Investment",
+      "year": 1958,
+      "cited_by_count": 15021,
+      "adjusted_cited_by_count": 1821.56,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W2124597406"
+    },
+    {
+      "source_id": "https://openalex.org/W1580561995",
+      "title": "Brownian Motion and Stochastic Calculus",
+      "year": 2007,
+      "cited_by_count": 7834,
+      "adjusted_cited_by_count": 1797.24,
+      "primary_topic_id": "sg-mathematical-finance",
+      "primary_topic_label": "Mathematical finance",
+      "url": "/domains/finance/papers/W1580561995"
+    },
+    {
+      "source_id": "https://openalex.org/W2160860931",
+      "title": "Agency costs of free cash flow, corporate finance, and takeovers",
+      "year": 1996,
+      "cited_by_count": 9646,
+      "adjusted_cited_by_count": 1761.11,
+      "primary_topic_id": "sg-capital-market",
+      "primary_topic_label": "Capital market",
+      "url": "/domains/finance/papers/W2160860931"
+    },
+    {
+      "source_id": "https://openalex.org/W4231546411",
+      "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+      "year": 1970,
+      "cited_by_count": 13058,
+      "adjusted_cited_by_count": 1744.95,
+      "primary_topic_id": "sg-capital-market",
+      "primary_topic_label": "Capital market",
+      "url": "/domains/finance/papers/W4231546411"
+    },
+    {
+      "source_id": "https://openalex.org/W2010997253",
+      "title": "The Econometrics of Financial Markets",
+      "year": 2012,
+      "cited_by_count": 6164,
+      "adjusted_cited_by_count": 1647.4,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W2010997253"
+    },
+    {
+      "source_id": "https://openalex.org/W2105973145",
+      "title": "ON THE PRICING OF CORPORATE DEBT: THE RISK STRUCTURE OF INTEREST RATES*",
+      "year": 1974,
+      "cited_by_count": 11010,
+      "adjusted_cited_by_count": 1526.81,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W2105973145"
+    },
+    {
+      "source_id": "https://openalex.org/W2102897370",
+      "title": "Finance and Growth: Schumpeter Might Be Right",
+      "year": 1993,
+      "cited_by_count": 8511,
+      "adjusted_cited_by_count": 1481.57,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W2102897370"
+    },
+    {
+      "source_id": "https://openalex.org/W2147111138",
+      "title": "Increasing Returns, Path Dependence, and the Study of Politics",
+      "year": 2000,
+      "cited_by_count": 7537,
+      "adjusted_cited_by_count": 1478.13,
+      "primary_topic_id": "sg-capital-market-equity-markets",
+      "primary_topic_label": "Equity markets",
+      "url": "/domains/finance/papers/W2147111138"
+    },
+    {
+      "source_id": "https://openalex.org/W1969230115",
+      "title": "A Comparative Study of Unit Root Tests with Panel Data and a New Simple Test",
+      "year": 1999,
+      "cited_by_count": 6735,
+      "adjusted_cited_by_count": 1296.15,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W1969230115"
+    },
+    {
+      "source_id": "https://openalex.org/W2113305199",
+      "title": "Multifactor Explanations of Asset Pricing Anomalies",
+      "year": 1996,
+      "cited_by_count": 6471,
+      "adjusted_cited_by_count": 1181.44,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W2113305199"
+    },
+    {
+      "source_id": "https://openalex.org/W3121385028",
+      "title": "Recent Developments in the Econometrics of Program Evaluation",
+      "year": 2009,
+      "cited_by_count": 4809,
+      "adjusted_cited_by_count": 1166.35,
+      "primary_topic_id": "sg-public-finance",
+      "primary_topic_label": "Public finance",
+      "url": "/domains/finance/papers/W3121385028"
+    },
+    {
+      "source_id": "https://openalex.org/W3123142049",
+      "title": "The theory and practice of corporate finance: evidence from the field",
+      "year": 2001,
+      "cited_by_count": 5659,
+      "adjusted_cited_by_count": 1131.8,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W3123142049"
+    },
+    {
+      "source_id": "https://openalex.org/W2022220920",
+      "title": "Consistent Covariance Matrix Estimation with Spatially Dependent Panel Data",
+      "year": 1998,
+      "cited_by_count": 5957,
+      "adjusted_cited_by_count": 1125.77,
+      "primary_topic_id": "sg-monetary-economics",
+      "primary_topic_label": "Monetary economics",
+      "url": "/domains/finance/papers/W2022220920"
+    },
+    {
+      "source_id": "https://openalex.org/W3128871793",
+      "title": "Firms and social responsibility: A review of ESG and CSR research in corporate finance",
+      "year": 2021,
+      "cited_by_count": 2433,
+      "adjusted_cited_by_count": 1088.07,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/finance/papers/W3128871793"
+    },
+    {
+      "source_id": "https://openalex.org/W2128633294",
+      "title": "Investor Psychology and Security Market Under‐ and Overreactions",
+      "year": 1998,
+      "cited_by_count": 5690,
+      "adjusted_cited_by_count": 1075.31,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W2128633294"
+    },
+    {
+      "source_id": "https://openalex.org/W2140358882",
+      "title": "Corporate Financing and Investment Decisions When Firms Have InformationThat Investors Do Not Have",
+      "year": 1984,
+      "cited_by_count": 6792,
+      "adjusted_cited_by_count": 1048.03,
+      "primary_topic_id": "sg-financial-system",
+      "primary_topic_label": "Financial system",
+      "url": "/domains/finance/papers/W2140358882"
+    },
+    {
+      "source_id": "https://openalex.org/W3122611856",
+      "title": "Government Spending in a Simple Model of Endogeneous Growth",
+      "year": 1990,
+      "cited_by_count": 6191,
+      "adjusted_cited_by_count": 1031.83,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W3122611856"
+    },
+    {
+      "source_id": "https://openalex.org/W2031753087",
+      "title": "Fractional Brownian Motions, Fractional Noises and Applications",
+      "year": 1968,
+      "cited_by_count": 7630,
+      "adjusted_cited_by_count": 1001.87,
+      "primary_topic_id": "sg-monetary-economics-keynesian-economics",
+      "primary_topic_label": "Keynesian economics",
+      "url": "/domains/finance/papers/W2031753087"
+    },
+    {
+      "source_id": "https://openalex.org/W1738524706",
+      "title": "Corporate social responsibility and access to finance",
+      "year": 2013,
+      "cited_by_count": 3590,
+      "adjusted_cited_by_count": 995.69,
+      "primary_topic_id": "sg-financial-system",
+      "primary_topic_label": "Financial system",
+      "url": "/domains/finance/papers/W1738524706"
+    },
+    {
+      "source_id": "https://openalex.org/W2083148578",
+      "title": "THE VALUATION OF RISK ASSETS AND THE SELECTION OF RISKY INVESTMENTS IN STOCK PORTFOLIOS AND CAPITAL BUDGETS**This paper is another in a series of interrelated theoretical and statistical studies of corporate financial and investment policies being made under grants from the Rockefeller Foundation, and more recently the Ford Foundation, to the Harvard Business School. The generous support for this work is most gratefully acknowledged. The author is also much indebted to his colleagues Professors Bishop, Christenson, Kahr, Raiffa, and (especially) Schlaifer, for extensive discussion and commentary on an earlier draft of this paper; but responsibility for any errors or imperfections remains strictly his own.[Professor Sharpe's paper, “Capital Asset Prices: A Theory of Market Equilibrium Under Conditions of Risk” (Journal of Finance, September 1964) appeared after this paper was in final form and on its way to the printers. My first section, which parallels the first half of his paper (with corresponding conclusions), sets the algebraic framework for sections II, III and VI, (which have no counterpart in his paper) and for section IV on the equilibrium prices of risk assets, concerning which our results differ significantly for reasons which will be explored elsewhere. Sharpe does not take up the capital budgeting problem developed in section V below.]",
+      "year": 1975,
+      "cited_by_count": 6902,
+      "adjusted_cited_by_count": 966.47,
+      "primary_topic_id": "sg-financial-economics",
+      "primary_topic_label": "Financial economics",
+      "url": "/domains/finance/papers/W2083148578"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2752617332",
+      "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+      "year": 1976,
+      "cited_by_count": 69696,
+      "adjusted_cited_by_count": 9856.5,
+      "url": "/domains/finance/papers/W2752617332"
+    },
+    {
+      "source_id": "https://openalex.org/W2110603299",
+      "title": "Co-Integration and Error Correction: Representation, Estimation, and Testing",
+      "year": 1987,
+      "cited_by_count": 31716,
+      "adjusted_cited_by_count": 5078.62,
+      "url": "/domains/finance/papers/W2110603299"
+    },
+    {
+      "source_id": "https://openalex.org/W4298413470",
+      "title": "Institutions, Institutional Change and Economic Performance",
+      "year": 1990,
+      "cited_by_count": 29967,
+      "adjusted_cited_by_count": 4994.5,
+      "url": "/domains/finance/papers/W4298413470"
+    },
+    {
+      "source_id": "https://openalex.org/W2085491458",
+      "title": "Social Capital in the Creation of Human Capital",
+      "year": 2000,
+      "cited_by_count": 21836,
+      "adjusted_cited_by_count": 4282.39,
+      "url": "/domains/finance/papers/W2085491458"
+    },
+    {
+      "source_id": "https://openalex.org/W3122578644",
+      "title": "A model of investor sentiment /",
+      "year": null,
+      "cited_by_count": 4196,
+      "adjusted_cited_by_count": 4196.0,
+      "url": "/domains/finance/papers/W3122578644"
+    },
+    {
+      "source_id": "https://openalex.org/W3126081245",
+      "title": "Measuring Economic Policy Uncertainty*",
+      "year": 2016,
+      "cited_by_count": 11426,
+      "adjusted_cited_by_count": 3613.22,
+      "url": "/domains/finance/papers/W3126081245"
+    },
+    {
+      "source_id": "https://openalex.org/W3121759882",
+      "title": "Law and Finance",
+      "year": 1998,
+      "cited_by_count": 17929,
+      "adjusted_cited_by_count": 3388.26,
+      "url": "/domains/finance/papers/W3121759882"
+    },
+    {
+      "source_id": "https://openalex.org/W1975994995",
+      "title": "Distribution of the Estimators for Autoregressive Time Series with a Unit Root",
+      "year": 1979,
+      "cited_by_count": 22801,
+      "adjusted_cited_by_count": 3325.87,
+      "url": "/domains/finance/papers/W1975994995"
+    },
+    {
+      "source_id": "https://openalex.org/W2136120210",
+      "title": "On Persistence in Mutual Fund Performance",
+      "year": 1997,
+      "cited_by_count": 16837,
+      "adjusted_cited_by_count": 3126.55,
+      "url": "/domains/finance/papers/W2136120210"
+    },
+    {
+      "source_id": "https://openalex.org/W2070631858",
+      "title": "A Contribution to the Theory of Economic Growth",
+      "year": 1956,
+      "cited_by_count": 23648,
+      "adjusted_cited_by_count": 2826.48,
+      "url": "/domains/finance/papers/W2070631858"
+    },
+    {
+      "source_id": "https://openalex.org/W3121131820",
+      "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+      "year": 1986,
+      "cited_by_count": 17576,
+      "adjusted_cited_by_count": 2779.01,
+      "url": "/domains/finance/papers/W3121131820"
+    },
+    {
+      "source_id": "https://openalex.org/W3125688476",
+      "title": "Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches",
+      "year": 2008,
+      "cited_by_count": 11010,
+      "adjusted_cited_by_count": 2595.08,
+      "url": "/domains/finance/papers/W3125688476"
+    },
+    {
+      "source_id": "https://openalex.org/W2166215547",
+      "title": "The Cross‐Section of Expected Stock Returns",
+      "year": 1992,
+      "cited_by_count": 15060,
+      "adjusted_cited_by_count": 2582.77,
+      "url": "/domains/finance/papers/W2166215547"
+    },
+    {
+      "source_id": "https://openalex.org/W3125206904",
+      "title": "Editor's Choice Digesting Anomalies: An Investment Approach",
+      "year": null,
+      "cited_by_count": 2581,
+      "adjusted_cited_by_count": 2581.0,
+      "url": "/domains/finance/papers/W3125206904"
+    },
+    {
+      "source_id": "https://openalex.org/W2015930340",
+      "title": "The Nature of the Firm",
+      "year": 1937,
+      "cited_by_count": 23214,
+      "adjusted_cited_by_count": 2460.68,
+      "url": "/domains/finance/papers/W2015930340"
+    },
+    {
+      "source_id": "https://openalex.org/W2029056003",
+      "title": "CAPITAL ASSET PRICES: A THEORY OF MARKET EQUILIBRIUM UNDER CONDITIONS OF RISK*",
+      "year": 1964,
+      "cited_by_count": 17342,
+      "adjusted_cited_by_count": 2202.44,
+      "url": "/domains/finance/papers/W2029056003"
+    },
+    {
+      "source_id": "https://openalex.org/W2074928461",
+      "title": "The cost of capital, corporation finance and the theory of investment",
+      "year": 2008,
+      "cited_by_count": 8816,
+      "adjusted_cited_by_count": 2077.95,
+      "url": "/domains/finance/papers/W2074928461"
+    },
+    {
+      "source_id": "https://openalex.org/W3121401171",
+      "title": "Illiquidity and stock returns: cross-section and time-series effects",
+      "year": 2002,
+      "cited_by_count": 10168,
+      "adjusted_cited_by_count": 2075.53,
+      "url": "/domains/finance/papers/W3121401171"
+    },
+    {
+      "source_id": "https://openalex.org/W3125564657",
+      "title": "Multivariate GARCH models: a survey",
+      "year": null,
+      "cited_by_count": 2054,
+      "adjusted_cited_by_count": 2054.0,
+      "url": "/domains/finance/papers/W3125564657"
+    },
+    {
+      "source_id": "https://openalex.org/W1969519191",
+      "title": "Legal Determinants of External Finance",
+      "year": 1997,
+      "cited_by_count": 9919,
+      "adjusted_cited_by_count": 1841.91,
+      "url": "/domains/finance/papers/W1969519191"
+    },
+    {
+      "source_id": "https://openalex.org/W2124597406",
+      "title": "The Cost of Capital, Corporation Finance and the Theory of Investment",
+      "year": 1958,
+      "cited_by_count": 15021,
+      "adjusted_cited_by_count": 1821.56,
+      "url": "/domains/finance/papers/W2124597406"
+    },
+    {
+      "source_id": "https://openalex.org/W1580561995",
+      "title": "Brownian Motion and Stochastic Calculus",
+      "year": 2007,
+      "cited_by_count": 7834,
+      "adjusted_cited_by_count": 1797.24,
+      "url": "/domains/finance/papers/W1580561995"
+    },
+    {
+      "source_id": "https://openalex.org/W2160860931",
+      "title": "Agency costs of free cash flow, corporate finance, and takeovers",
+      "year": 1996,
+      "cited_by_count": 9646,
+      "adjusted_cited_by_count": 1761.11,
+      "url": "/domains/finance/papers/W2160860931"
+    },
+    {
+      "source_id": "https://openalex.org/W4231546411",
+      "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+      "year": 1970,
+      "cited_by_count": 13058,
+      "adjusted_cited_by_count": 1744.95,
+      "url": "/domains/finance/papers/W4231546411"
+    },
+    {
+      "source_id": "https://openalex.org/W2010997253",
+      "title": "The Econometrics of Financial Markets",
+      "year": 2012,
+      "cited_by_count": 6164,
+      "adjusted_cited_by_count": 1647.4,
+      "url": "/domains/finance/papers/W2010997253"
+    },
+    {
+      "source_id": "https://openalex.org/W2105973145",
+      "title": "ON THE PRICING OF CORPORATE DEBT: THE RISK STRUCTURE OF INTEREST RATES*",
+      "year": 1974,
+      "cited_by_count": 11010,
+      "adjusted_cited_by_count": 1526.81,
+      "url": "/domains/finance/papers/W2105973145"
+    },
+    {
+      "source_id": "https://openalex.org/W2102897370",
+      "title": "Finance and Growth: Schumpeter Might Be Right",
+      "year": 1993,
+      "cited_by_count": 8511,
+      "adjusted_cited_by_count": 1481.57,
+      "url": "/domains/finance/papers/W2102897370"
+    },
+    {
+      "source_id": "https://openalex.org/W2147111138",
+      "title": "Increasing Returns, Path Dependence, and the Study of Politics",
+      "year": 2000,
+      "cited_by_count": 7537,
+      "adjusted_cited_by_count": 1478.13,
+      "url": "/domains/finance/papers/W2147111138"
+    },
+    {
+      "source_id": "https://openalex.org/W1969230115",
+      "title": "A Comparative Study of Unit Root Tests with Panel Data and a New Simple Test",
+      "year": 1999,
+      "cited_by_count": 6735,
+      "adjusted_cited_by_count": 1296.15,
+      "url": "/domains/finance/papers/W1969230115"
+    },
+    {
+      "source_id": "https://openalex.org/W2113305199",
+      "title": "Multifactor Explanations of Asset Pricing Anomalies",
+      "year": 1996,
+      "cited_by_count": 6471,
+      "adjusted_cited_by_count": 1181.44,
+      "url": "/domains/finance/papers/W2113305199"
+    },
+    {
+      "source_id": "https://openalex.org/W3121385028",
+      "title": "Recent Developments in the Econometrics of Program Evaluation",
+      "year": 2009,
+      "cited_by_count": 4809,
+      "adjusted_cited_by_count": 1166.35,
+      "url": "/domains/finance/papers/W3121385028"
+    },
+    {
+      "source_id": "https://openalex.org/W3123142049",
+      "title": "The theory and practice of corporate finance: evidence from the field",
+      "year": 2001,
+      "cited_by_count": 5659,
+      "adjusted_cited_by_count": 1131.8,
+      "url": "/domains/finance/papers/W3123142049"
+    },
+    {
+      "source_id": "https://openalex.org/W2022220920",
+      "title": "Consistent Covariance Matrix Estimation with Spatially Dependent Panel Data",
+      "year": 1998,
+      "cited_by_count": 5957,
+      "adjusted_cited_by_count": 1125.77,
+      "url": "/domains/finance/papers/W2022220920"
+    },
+    {
+      "source_id": "https://openalex.org/W3128871793",
+      "title": "Firms and social responsibility: A review of ESG and CSR research in corporate finance",
+      "year": 2021,
+      "cited_by_count": 2433,
+      "adjusted_cited_by_count": 1088.07,
+      "url": "/domains/finance/papers/W3128871793"
+    },
+    {
+      "source_id": "https://openalex.org/W2128633294",
+      "title": "Investor Psychology and Security Market Under‐ and Overreactions",
+      "year": 1998,
+      "cited_by_count": 5690,
+      "adjusted_cited_by_count": 1075.31,
+      "url": "/domains/finance/papers/W2128633294"
+    },
+    {
+      "source_id": "https://openalex.org/W2140358882",
+      "title": "Corporate Financing and Investment Decisions When Firms Have InformationThat Investors Do Not Have",
+      "year": 1984,
+      "cited_by_count": 6792,
+      "adjusted_cited_by_count": 1048.03,
+      "url": "/domains/finance/papers/W2140358882"
+    },
+    {
+      "source_id": "https://openalex.org/W3122611856",
+      "title": "Government Spending in a Simple Model of Endogeneous Growth",
+      "year": 1990,
+      "cited_by_count": 6191,
+      "adjusted_cited_by_count": 1031.83,
+      "url": "/domains/finance/papers/W3122611856"
+    },
+    {
+      "source_id": "https://openalex.org/W2031753087",
+      "title": "Fractional Brownian Motions, Fractional Noises and Applications",
+      "year": 1968,
+      "cited_by_count": 7630,
+      "adjusted_cited_by_count": 1001.87,
+      "url": "/domains/finance/papers/W2031753087"
+    },
+    {
+      "source_id": "https://openalex.org/W1738524706",
+      "title": "Corporate social responsibility and access to finance",
+      "year": 2013,
+      "cited_by_count": 3590,
+      "adjusted_cited_by_count": 995.69,
+      "url": "/domains/finance/papers/W1738524706"
+    },
+    {
+      "source_id": "https://openalex.org/W2083148578",
+      "title": "THE VALUATION OF RISK ASSETS AND THE SELECTION OF RISKY INVESTMENTS IN STOCK PORTFOLIOS AND CAPITAL BUDGETS**This paper is another in a series of interrelated theoretical and statistical studies of corporate financial and investment policies being made under grants from the Rockefeller Foundation, and more recently the Ford Foundation, to the Harvard Business School. The generous support for this work is most gratefully acknowledged. The author is also much indebted to his colleagues Professors Bishop, Christenson, Kahr, Raiffa, and (especially) Schlaifer, for extensive discussion and commentary on an earlier draft of this paper; but responsibility for any errors or imperfections remains strictly his own.[Professor Sharpe's paper, “Capital Asset Prices: A Theory of Market Equilibrium Under Conditions of Risk” (Journal of Finance, September 1964) appeared after this paper was in final form and on its way to the printers. My first section, which parallels the first half of his paper (with corresponding conclusions), sets the algebraic framework for sections II, III and VI, (which have no counterpart in his paper) and for section IV on the equilibrium prices of risk assets, concerning which our results differ significantly for reasons which will be explored elsewhere. Sharpe does not take up the capital budgeting problem developed in section V below.]",
+      "year": 1975,
+      "cited_by_count": 6902,
+      "adjusted_cited_by_count": 966.47,
+      "url": "/domains/finance/papers/W2083148578"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "economics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 279
+    },
+    {
+      "label": "finance",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 209
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 151
+    },
+    {
+      "label": "financial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 121
+    },
+    {
+      "label": "economic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 114
+    },
+    {
+      "label": "market",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 92
+    },
+    {
+      "label": "monetary economics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 79
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "econometrics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 73
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 73
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 73
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "financial economics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 65
+    },
+    {
+      "label": "firm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "capital",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "macroeconomics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "under",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "this paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "evidence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 55
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 61
+    },
+    {
+      "label": "growth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 66
+    },
+    {
+      "label": "also",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 53
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 53
+    },
+    {
+      "label": "return",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 53
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9891,
+      "evidence_count": 51
+    },
+    {
+      "label": "cost",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 50
+    },
+    {
+      "label": "some",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 49
+    },
+    {
+      "label": "policy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 49
+    },
+    {
+      "label": "economic growth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 46
+    },
+    {
+      "label": "microeconomics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 46
+    },
+    {
+      "label": "price",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 46
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 45
+    },
+    {
+      "label": "empirical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 45
+    },
+    {
+      "label": "corporate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 46
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 44
+    },
+    {
+      "label": "investment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 44
+    },
+    {
+      "label": "returns",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 44
+    },
+    {
+      "label": "stock",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 43
+    }
+  ],
+  "topic_year_counts": {
+    "monetary economics": {
+      "2023": 49916,
+      "2024": 46972,
+      "2025": 46267,
+      "2022": 36366,
+      "2021": 34788,
+      "2020": 33455,
+      "2019": 29004,
+      "2018": 27522,
+      "2017": 25043,
+      "2016": 23146,
+      "2015": 21580,
+      "2014": 19730,
+      "2013": 17435,
+      "2012": 15976,
+      "2011": 14654,
+      "2010": 13043,
+      "2009": 11897,
+      "2026": 10147,
+      "2008": 9752,
+      "2007": 8783,
+      "2006": 7871,
+      "2005": 6885,
+      "2004": 6216,
+      "2003": 5403,
+      "2002": 4475,
+      "2001": 3959,
+      "2000": 3783
+    },
+    "financial system": {
+      "2025": 643806,
+      "2024": 640404,
+      "2023": 637806,
+      "2022": 435288,
+      "2021": 377053,
+      "2020": 328734,
+      "2019": 265863,
+      "2018": 237542,
+      "2017": 220848,
+      "2016": 206597,
+      "2015": 184802,
+      "2026": 163516,
+      "2014": 161897,
+      "2013": 138512,
+      "2012": 118516,
+      "2011": 101318,
+      "2010": 86217,
+      "2009": 75276,
+      "2008": 61193,
+      "2007": 53352,
+      "2006": 48201,
+      "2005": 41861,
+      "2004": 36022,
+      "2003": 31849,
+      "2002": 27346,
+      "2000": 22549,
+      "2001": 22468
+    },
+    "capital market": {
+      "2025": 184559,
+      "2023": 177456,
+      "2024": 167970,
+      "2022": 130048,
+      "2021": 121026,
+      "2020": 114717,
+      "2019": 102167,
+      "2018": 93854,
+      "2017": 85543,
+      "2016": 79349,
+      "2015": 73535,
+      "2014": 67918,
+      "2013": 60449,
+      "2012": 55278,
+      "2011": 49463,
+      "2026": 43523,
+      "2010": 43335,
+      "2009": 39692,
+      "2008": 33140,
+      "2007": 29363,
+      "2006": 26448,
+      "2005": 23322,
+      "2004": 20912,
+      "2003": 18552,
+      "2002": 15846,
+      "2001": 13370,
+      "2000": 12889
+    },
+    "public finance": {
+      "2025": 192035,
+      "2023": 183339,
+      "2024": 177436,
+      "2022": 129317,
+      "2021": 114779,
+      "2020": 105222,
+      "2019": 90518,
+      "2018": 81108,
+      "2017": 71859,
+      "2016": 65792,
+      "2015": 60408,
+      "2014": 55236,
+      "2013": 49229,
+      "2012": 44453,
+      "2026": 42911,
+      "2011": 39873,
+      "2010": 35090,
+      "2009": 31458,
+      "2008": 26232,
+      "2007": 23233,
+      "2006": 21195,
+      "2005": 19403,
+      "2004": 16462,
+      "2003": 14894,
+      "2002": 12680,
+      "2001": 10514,
+      "2000": 10021
+    },
+    "mathematical finance": {
+      "2024": 50203,
+      "2023": 47434,
+      "2025": 44557,
+      "2022": 30879,
+      "2021": 27111,
+      "2020": 24327,
+      "2019": 20337,
+      "2018": 17671,
+      "2017": 15318,
+      "2016": 14009,
+      "2015": 12782,
+      "2014": 11741,
+      "2026": 10778,
+      "2013": 10459,
+      "2012": 9249,
+      "2011": 7978,
+      "2010": 7011,
+      "2009": 5879,
+      "2008": 4762,
+      "2007": 4174,
+      "2006": 3681,
+      "2005": 3202,
+      "2004": 2703,
+      "2003": 2360,
+      "2002": 1867,
+      "2001": 1607,
+      "2000": 1581
+    },
+    "stock market": {
+      "2023": 105868,
+      "2024": 100839,
+      "2025": 98947,
+      "2022": 78199,
+      "2021": 73086,
+      "2020": 69860,
+      "2019": 61257,
+      "2018": 56589,
+      "2017": 52370,
+      "2016": 49124,
+      "2015": 46275,
+      "2014": 43404,
+      "2013": 39267,
+      "2012": 37610,
+      "2011": 33327,
+      "2010": 29267,
+      "2009": 26932,
+      "2008": 22376,
+      "2026": 22099,
+      "2007": 19812,
+      "2006": 18588,
+      "2005": 16301,
+      "2004": 14580,
+      "2003": 13260,
+      "2002": 11107,
+      "2000": 9591,
+      "2001": 9590
+    },
+    "financial economics": {
+      "2025": 194982,
+      "2023": 181404,
+      "2024": 181313,
+      "2022": 127183,
+      "2021": 112670,
+      "2020": 102692,
+      "2019": 86113,
+      "2018": 77773,
+      "2017": 68187,
+      "2016": 61546,
+      "2015": 56470,
+      "2014": 50586,
+      "2013": 44118,
+      "2026": 42310,
+      "2012": 38731,
+      "2011": 34666,
+      "2010": 29817,
+      "2009": 26266,
+      "2008": 21344,
+      "2007": 18691,
+      "2006": 16885,
+      "2005": 14534,
+      "2004": 12808,
+      "2003": 11247,
+      "2002": 9545,
+      "2000": 7885,
+      "2001": 7628
+    }
+  }
+}

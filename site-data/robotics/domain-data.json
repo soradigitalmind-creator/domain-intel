@@ -1,0 +1,2254 @@
+{
+  "slug": "robotics",
+  "title": "Robotics",
+  "updated_at": "2026-04-06T14:10:31.589411Z",
+  "snapshot": {
+    "papers": 505,
+    "topics": 8,
+    "subtopics": 47,
+    "entities": 1184,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 565,
+      "total_papers": 565,
+      "facet_counts": {
+        "none": 565
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning reinforcement learning in robotics, soft robotics, robotics and sensor-based localization.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 8,
+    "descendant_topics": 47,
+    "max_depth": 2,
+    "leaf_topics": 47
+  },
+  "rising_topics": [
+    {
+      "id": "sg-embedded-system",
+      "label": "Embedded system",
+      "url": "/domains/robotics/topics/sg-embedded-system",
+      "trend": "rising",
+      "year_total": 3621415
+    },
+    {
+      "id": "sg-control-theory",
+      "label": "Control theory",
+      "url": "/domains/robotics/topics/sg-control-theory",
+      "trend": "rising",
+      "year_total": 6450917
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/robotics/topics/sg-neural-network",
+      "trend": "rising",
+      "year_total": 3531600
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-embedded-system",
+      "label": "Embedded system",
+      "url": "/domains/robotics/topics/sg-embedded-system",
+      "paper_count": 112,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: of the, robot, in the",
+      "tags": [
+        "context-aware activity recognition systems",
+        "embedded system",
+        "operating system",
+        "prosthetics and rehabilitation robotics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-embedded-system-human-computer-interaction",
+          "label": "Human-computer interaction",
+          "url": "/domains/robotics/topics/sg-embedded-system-human-computer-interaction",
+          "paper_count": 47
+        },
+        {
+          "id": "sg-embedded-system-context-aware-activity-recognition",
+          "label": "Context-aware activity recognition",
+          "url": "/domains/robotics/topics/sg-embedded-system-context-aware-activity-recognition",
+          "paper_count": 39
+        },
+        {
+          "id": "sg-embedded-system-wearable-computer",
+          "label": "Wearable computer",
+          "url": "/domains/robotics/topics/sg-embedded-system-wearable-computer",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-embedded-system-robotics-automation",
+          "label": "Robotics automation",
+          "url": "/domains/robotics/topics/sg-embedded-system-robotics-automation",
+          "paper_count": 11
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1564897360",
+          "title": "A Mathematical Introduction to Robotic Manipulation",
+          "year": "2017",
+          "cited_by_count": 6706,
+          "url": "/domains/robotics/papers/W1564897360"
+        },
+        {
+          "source_id": "https://openalex.org/W2901136733",
+          "title": "ROS: an open-source Robot Operating System",
+          "year": "2009",
+          "cited_by_count": 7181,
+          "url": "/domains/robotics/papers/W2901136733"
+        },
+        {
+          "source_id": "https://openalex.org/W2905810301",
+          "title": "A guide to deep learning in healthcare",
+          "year": "2018",
+          "cited_by_count": 4330,
+          "url": "/domains/robotics/papers/W2905810301"
+        }
+      ]
+    },
+    {
+      "id": "sg-control-theory",
+      "label": "Control theory",
+      "url": "/domains/robotics/topics/sg-control-theory",
+      "paper_count": 106,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: control, robot, of the",
+      "tags": [
+        "avoidance manipulators mobile robots",
+        "control engineering",
+        "control theory",
+        "manipulators mobile robots"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-control-theory-robotic-mechanisms-and-dynamics",
+          "label": "Robotic mechanisms and dynamics",
+          "url": "/domains/robotics/topics/sg-control-theory-robotic-mechanisms-and-dynamics",
+          "paper_count": 54
+        },
+        {
+          "id": "sg-control-theory-motion-control",
+          "label": "Motion control",
+          "url": "/domains/robotics/topics/sg-control-theory-motion-control",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-control-theory-adaptive-control",
+          "label": "Adaptive control",
+          "url": "/domains/robotics/topics/sg-control-theory-adaptive-control",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-control-theory-nonlinear-control",
+          "label": "Nonlinear control",
+          "url": "/domains/robotics/topics/sg-control-theory-nonlinear-control",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-control-theory-fuzzy-logic-control",
+          "label": "Fuzzy logic control",
+          "url": "/domains/robotics/topics/sg-control-theory-fuzzy-logic-control",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-control-theory-adaptive-control-of-nonlinear-systems",
+          "label": "Adaptive control of nonlinear systems",
+          "url": "/domains/robotics/topics/sg-control-theory-adaptive-control-of-nonlinear-systems",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1487127700",
+          "title": "Applied Nonlinear Control",
+          "year": "1991",
+          "cited_by_count": 18992,
+          "url": "/domains/robotics/papers/W1487127700"
+        },
+        {
+          "source_id": "https://openalex.org/W2165744313",
+          "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+          "year": "2003",
+          "cited_by_count": 8387,
+          "url": "/domains/robotics/papers/W2165744313"
+        },
+        {
+          "source_id": "https://openalex.org/W2842089854",
+          "title": "CasADi: a software framework for nonlinear optimization and optimal control",
+          "year": "2018",
+          "cited_by_count": 3612,
+          "url": "/domains/robotics/papers/W2842089854"
+        }
+      ]
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/robotics/topics/sg-neural-network",
+      "paper_count": 83,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: network, learning, neural",
+      "tags": [
+        "artificial neural network",
+        "convolutional neural network",
+        "convolutional neural networks",
+        "neural network"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-network-convolutional-neural-networks",
+          "label": "Convolutional neural networks",
+          "url": "/domains/robotics/topics/sg-neural-network-convolutional-neural-networks",
+          "paper_count": 41
+        },
+        {
+          "id": "sg-neural-network-recurrent-neural-network",
+          "label": "Recurrent neural network",
+          "url": "/domains/robotics/topics/sg-neural-network-recurrent-neural-network",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-neural-network-3d-shape-modeling",
+          "label": "3d shape modeling",
+          "url": "/domains/robotics/topics/sg-neural-network-3d-shape-modeling",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-neural-network-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/robotics/topics/sg-neural-network-field-mathematics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-neural-network-machine-learning-algorithms",
+          "label": "Machine learning algorithms",
+          "url": "/domains/robotics/topics/sg-neural-network-machine-learning-algorithms",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-neural-network-anomaly-detection",
+          "label": "Anomaly detection",
+          "url": "/domains/robotics/topics/sg-neural-network-anomaly-detection",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2981731882",
+          "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+          "year": "2019",
+          "cited_by_count": 8400,
+          "url": "/domains/robotics/papers/W2981731882"
+        },
+        {
+          "source_id": "https://openalex.org/W3135028703",
+          "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+          "year": "2021",
+          "cited_by_count": 4858,
+          "url": "/domains/robotics/papers/W3135028703"
+        },
+        {
+          "source_id": "https://openalex.org/W3168997536",
+          "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+          "year": "2021",
+          "cited_by_count": 4599,
+          "url": "/domains/robotics/papers/W3168997536"
+        }
+      ]
+    },
+    {
+      "id": "sg-mobile-robot",
+      "label": "Mobile robot",
+      "url": "/domains/robotics/topics/sg-mobile-robot",
+      "paper_count": 63,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: mobile robot, robot, of the",
+      "tags": [
+        "avoidance manipulators mobile robots",
+        "carlo localization mobile robots",
+        "localization mobile robots",
+        "manipulators mobile robots"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mobile-robot-knowledge-management",
+          "label": "Knowledge management",
+          "url": "/domains/robotics/topics/sg-mobile-robot-knowledge-management",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-mobile-robot-mobile-robot-navigation",
+          "label": "Mobile robot navigation",
+          "url": "/domains/robotics/topics/sg-mobile-robot-mobile-robot-navigation",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-mobile-robot-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/robotics/topics/sg-mobile-robot-field-mathematics",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-mobile-robot-object-detection",
+          "label": "Object detection",
+          "url": "/domains/robotics/topics/sg-mobile-robot-object-detection",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-mobile-robot-robot-control",
+          "label": "Robot control",
+          "url": "/domains/robotics/topics/sg-mobile-robot-robot-control",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-mobile-robot-visual-odometry",
+          "label": "Visual odometry",
+          "url": "/domains/robotics/topics/sg-mobile-robot-visual-odometry",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2115579991",
+          "title": "Vision meets robotics: The KITTI dataset",
+          "year": "2013",
+          "cited_by_count": 9518,
+          "url": "/domains/robotics/papers/W2115579991"
+        },
+        {
+          "source_id": "https://openalex.org/W2277195237",
+          "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+          "year": "2017",
+          "cited_by_count": 5095,
+          "url": "/domains/robotics/papers/W2277195237"
+        },
+        {
+          "source_id": "https://openalex.org/W2978346165",
+          "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+          "year": "2019",
+          "cited_by_count": 4357,
+          "url": "/domains/robotics/papers/W2978346165"
+        }
+      ]
+    },
+    {
+      "id": "sg-robotics-sensor-based-localization",
+      "label": "Robotics sensor-based localization",
+      "url": "/domains/robotics/topics/sg-robotics-sensor-based-localization",
+      "paper_count": 53,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: robot, robotics, robotic",
+      "tags": [
+        "carlo localization mobile robots",
+        "localization and mapping",
+        "localization mobile robots",
+        "robotics and sensor-based localization"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-robotics-sensor-based-localization-probabilistic-logic",
+          "label": "Probabilistic logic",
+          "url": "/domains/robotics/topics/sg-robotics-sensor-based-localization-probabilistic-logic",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-robotics-sensor-based-localization-simultaneous-localization-and-mapping",
+          "label": "Simultaneous localization and mapping",
+          "url": "/domains/robotics/topics/sg-robotics-sensor-based-localization-simultaneous-localization-and-mapping",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-robotics-sensor-based-localization-localization-and-mapping",
+          "label": "Localization and mapping",
+          "url": "/domains/robotics/topics/sg-robotics-sensor-based-localization-localization-and-mapping",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-robotics-sensor-based-localization-inertial-measurement-unit",
+          "label": "Inertial measurement unit",
+          "url": "/domains/robotics/topics/sg-robotics-sensor-based-localization-inertial-measurement-unit",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-robotics-sensor-based-localization-monte-carlo",
+          "label": "Monte carlo",
+          "url": "/domains/robotics/topics/sg-robotics-sensor-based-localization-monte-carlo",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2150066425",
+          "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+          "year": "2012",
+          "cited_by_count": 14122,
+          "url": "/domains/robotics/papers/W2150066425"
+        },
+        {
+          "source_id": "https://openalex.org/W3043971245",
+          "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+          "year": "2021",
+          "cited_by_count": 3636,
+          "url": "/domains/robotics/papers/W3043971245"
+        },
+        {
+          "source_id": "https://openalex.org/W2963727135",
+          "title": "VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection",
+          "year": "2018",
+          "cited_by_count": 4466,
+          "url": "/domains/robotics/papers/W2963727135"
+        }
+      ]
+    },
+    {
+      "id": "sg-soft-robotics",
+      "label": "Soft robotics",
+      "url": "/domains/robotics/topics/sg-soft-robotics",
+      "paper_count": 37,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: nanotechnology, soft robotics, soft",
+      "tags": [
+        "micro and nano robotics",
+        "robotics bioinspired evolution",
+        "robotics biological",
+        "robotics biological inspiration"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soft-robotics-control-engineering",
+          "label": "Control engineering",
+          "url": "/domains/robotics/topics/sg-soft-robotics-control-engineering",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-soft-robotics-electronic-skin",
+          "label": "Electronic skin",
+          "url": "/domains/robotics/topics/sg-soft-robotics-electronic-skin",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-soft-robotics-soft-matter",
+          "label": "Soft matter",
+          "url": "/domains/robotics/topics/sg-soft-robotics-soft-matter",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-soft-robotics-soft-lithography",
+          "label": "Soft lithography",
+          "url": "/domains/robotics/topics/sg-soft-robotics-soft-lithography",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1515749184",
+          "title": "Design, fabrication and control of soft robots",
+          "year": "2015",
+          "cited_by_count": 5444,
+          "url": "/domains/robotics/papers/W1515749184"
+        },
+        {
+          "source_id": "https://openalex.org/W2285847257",
+          "title": "Stretchable, Skin‐Mountable, and Wearable Strain Sensors and Their Potential Applications: A Review",
+          "year": "2016",
+          "cited_by_count": 3010,
+          "url": "/domains/robotics/papers/W2285847257"
+        },
+        {
+          "source_id": "https://openalex.org/W1982085124",
+          "title": "Skin-like pressure and strain sensors based on transparent elastic films of carbon nanotubes",
+          "year": "2011",
+          "cited_by_count": 3133,
+          "url": "/domains/robotics/papers/W1982085124"
+        }
+      ]
+    },
+    {
+      "id": "sg-motion-planning",
+      "label": "Motion planning",
+      "url": "/domains/robotics/topics/sg-motion-planning",
+      "paper_count": 32,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: robot, robotic path planning algorithms, algorithms",
+      "tags": [
+        "any-angle path planning",
+        "avoidance manipulators mobile robots",
+        "manipulators mobile robots",
+        "mobile robot navigation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-motion-planning-any-angle-path-planning",
+          "label": "Any-angle path planning",
+          "url": "/domains/robotics/topics/sg-motion-planning-any-angle-path-planning",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-motion-planning-coverage-path-planning",
+          "label": "Coverage path planning",
+          "url": "/domains/robotics/topics/sg-motion-planning-coverage-path-planning",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-motion-planning-human-computer-interaction",
+          "label": "Human-computer interaction",
+          "url": "/domains/robotics/topics/sg-motion-planning-human-computer-interaction",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-motion-planning-mathematical-optimization",
+          "label": "Mathematical optimization",
+          "url": "/domains/robotics/topics/sg-motion-planning-mathematical-optimization",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4236137412",
+          "title": "Induction of decision trees",
+          "year": "1986",
+          "cited_by_count": 12336,
+          "url": "/domains/robotics/papers/W4236137412"
+        },
+        {
+          "source_id": "https://openalex.org/W2336416123",
+          "title": "Probabilistic robotics",
+          "year": "2002",
+          "cited_by_count": 7979,
+          "url": "/domains/robotics/papers/W2336416123"
+        },
+        {
+          "source_id": "https://openalex.org/W2128990851",
+          "title": "Probabilistic roadmaps for path planning in high-dimensional configuration spaces",
+          "year": "1996",
+          "cited_by_count": 6217,
+          "url": "/domains/robotics/papers/W2128990851"
+        }
+      ]
+    },
+    {
+      "id": "sg-reinforcement-learning-in-robotics",
+      "label": "Reinforcement learning for robotics",
+      "url": "/domains/robotics/topics/sg-reinforcement-learning-in-robotics",
+      "paper_count": 19,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: learning, reinforcement learning in robotics, force",
+      "tags": [
+        "bellman equation",
+        "deep reinforcement learning",
+        "end-to-end principle",
+        "markov decision process"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-reinforcement-learning-for-robotics-deep-reinforcement-learning",
+          "label": "Deep reinforcement learning",
+          "url": "/domains/robotics/topics/sg-reinforcement-learning-for-robotics-deep-reinforcement-learning",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-reinforcement-learning-for-robotics-bellman-equation",
+          "label": "Bellman equation",
+          "url": "/domains/robotics/topics/sg-reinforcement-learning-for-robotics-bellman-equation",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-reinforcement-learning-in-robotics-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/robotics/topics/sg-reinforcement-learning-in-robotics-field-mathematics",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-reinforcement-learning-for-robotics-markov-process",
+          "label": "Markov process",
+          "url": "/domains/robotics/topics/sg-reinforcement-learning-for-robotics-markov-process",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3163842339",
+          "title": "https://openalex.org/W3163842339",
+          "year": "",
+          "cited_by_count": 1761,
+          "url": "/domains/robotics/papers/W3163842339"
+        },
+        {
+          "source_id": "https://openalex.org/W3094704314",
+          "title": "A review on genetic algorithm: past, present, and future",
+          "year": "2020",
+          "cited_by_count": 4281,
+          "url": "/domains/robotics/papers/W3094704314"
+        },
+        {
+          "source_id": "https://openalex.org/W2107726111",
+          "title": "Reinforcement Learning: A Survey",
+          "year": "1996",
+          "cited_by_count": 8743,
+          "url": "/domains/robotics/papers/W2107726111"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Neural network",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+          "year": "2021",
+          "cited_by_count": 4858,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w3135028703.html"
+        },
+        {
+          "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+          "year": "2021",
+          "cited_by_count": 4599,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w3168997536.html"
+        },
+        {
+          "title": "Self-Organizing Maps",
+          "year": "1995",
+          "cited_by_count": 10390,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w1679913846.html"
+        },
+        {
+          "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+          "year": "2022",
+          "cited_by_count": 3469,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w4221151978.html"
+        },
+        {
+          "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+          "year": "2017",
+          "cited_by_count": 4492,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2274287116.html"
+        },
+        {
+          "title": "Deep Reinforcement Learning: A Brief Survey",
+          "year": "2017",
+          "cited_by_count": 4182,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w3100789280.html"
+        }
+      ]
+    },
+    {
+      "label": "Mobile robot",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Vision meets robotics: The KITTI dataset",
+          "year": "2013",
+          "cited_by_count": 9518,
+          "topic": "Mobile robot",
+          "url": "papers/https-openalex-org-w2115579991.html"
+        },
+        {
+          "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+          "year": "2017",
+          "cited_by_count": 5095,
+          "topic": "Mobile robot",
+          "url": "papers/https-openalex-org-w2277195237.html"
+        },
+        {
+          "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+          "year": "2019",
+          "cited_by_count": 4357,
+          "topic": "Mobile robot",
+          "url": "papers/https-openalex-org-w2978346165.html"
+        },
+        {
+          "title": "VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection",
+          "year": "2018",
+          "cited_by_count": 4466,
+          "topic": "Mobile robot",
+          "url": "papers/https-openalex-org-w2963727135.html"
+        },
+        {
+          "title": "A robust layered control system for a mobile robot",
+          "year": "1986",
+          "cited_by_count": 7731,
+          "topic": "Mobile robot",
+          "url": "papers/https-openalex-org-w2097856935.html"
+        }
+      ]
+    },
+    {
+      "label": "Control theory",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Applied Nonlinear Control",
+          "year": "1991",
+          "cited_by_count": 18992,
+          "topic": "Control theory",
+          "url": "papers/https-openalex-org-w1487127700.html"
+        },
+        {
+          "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+          "year": "2003",
+          "cited_by_count": 8387,
+          "topic": "Control theory",
+          "url": "papers/https-openalex-org-w2165744313.html"
+        },
+        {
+          "title": "CasADi: a software framework for nonlinear optimization and optimal control",
+          "year": "2018",
+          "cited_by_count": 3612,
+          "topic": "Control theory",
+          "url": "papers/https-openalex-org-w2842089854.html"
+        },
+        {
+          "title": "Real-Time Obstacle Avoidance for Manipulators and Mobile Robots",
+          "year": "1986",
+          "cited_by_count": 7481,
+          "topic": "Control theory",
+          "url": "papers/https-openalex-org-w2103120971.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+          "year": "2019",
+          "cited_by_count": 8400,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2981731882.html"
+        },
+        {
+          "title": "A Mathematical Introduction to Robotic Manipulation",
+          "year": "2017",
+          "cited_by_count": 6706,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1564897360.html"
+        },
+        {
+          "title": "The Pascal Visual Object Classes Challenge: A Retrospective",
+          "year": "2014",
+          "cited_by_count": 7212,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2037227137.html"
+        },
+        {
+          "title": "Swarm Intelligence",
+          "year": "1999",
+          "cited_by_count": 6380,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2126554879.html"
+        }
+      ]
+    },
+    {
+      "label": "Reinforcement learning for robotics",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "A review on genetic algorithm: past, present, and future",
+          "year": "2020",
+          "cited_by_count": 4281,
+          "topic": "Reinforcement learning for robotics",
+          "url": "papers/https-openalex-org-w3094704314.html"
+        },
+        {
+          "title": "Reinforcement Learning: A Survey",
+          "year": "1996",
+          "cited_by_count": 8743,
+          "topic": "Reinforcement learning for robotics",
+          "url": "papers/https-openalex-org-w2107726111.html"
+        },
+        {
+          "title": "Q-learning",
+          "year": "1992",
+          "cited_by_count": 8929,
+          "topic": "Reinforcement learning for robotics",
+          "url": "papers/https-openalex-org-w32403112.html"
+        }
+      ]
+    },
+    {
+      "label": "Robotics sensor-based localization",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+          "year": "2012",
+          "cited_by_count": 14122,
+          "topic": "Robotics sensor-based localization",
+          "url": "papers/https-openalex-org-w2150066425.html"
+        },
+        {
+          "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+          "year": "2021",
+          "cited_by_count": 3636,
+          "topic": "Robotics sensor-based localization",
+          "url": "papers/https-openalex-org-w3043971245.html"
+        },
+        {
+          "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+          "year": "2018",
+          "cited_by_count": 4292,
+          "topic": "Robotics sensor-based localization",
+          "url": "papers/https-openalex-org-w2745859992.html"
+        }
+      ]
+    },
+    {
+      "label": "Embedded system",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "ROS: an open-source Robot Operating System",
+          "year": "2009",
+          "cited_by_count": 7181,
+          "topic": "Embedded system",
+          "url": "papers/https-openalex-org-w2901136733.html"
+        },
+        {
+          "title": "Artificial Intelligence in Education: A Review",
+          "year": "2020",
+          "cited_by_count": 3203,
+          "topic": "Embedded system",
+          "url": "papers/https-openalex-org-w3017131514.html"
+        }
+      ]
+    },
+    {
+      "label": "Motion planning",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Induction of decision trees",
+          "year": "1986",
+          "cited_by_count": 12336,
+          "topic": "Motion planning",
+          "url": "papers/https-openalex-org-w4236137412.html"
+        },
+        {
+          "title": "Probabilistic robotics",
+          "year": "2002",
+          "cited_by_count": 7979,
+          "topic": "Motion planning",
+          "url": "papers/https-openalex-org-w2336416123.html"
+        }
+      ]
+    },
+    {
+      "label": "Context-aware activity recognition",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "A survey of methods for explaining black box models",
+          "year": "2019",
+          "cited_by_count": 4497,
+          "topic": "Context-aware activity recognition",
+          "url": "papers/https-openalex-org-w2962772482.html"
+        }
+      ]
+    },
+    {
+      "label": "Convolutional neural networks",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "",
+          "year": "None",
+          "cited_by_count": 1761,
+          "topic": "Convolutional neural networks",
+          "url": "papers/https-openalex-org-w3163842339.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2150066425",
+      "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+      "year": 2012,
+      "cited_by_count": 14122,
+      "adjusted_cited_by_count": 3774.26,
+      "primary_topic_id": "sg-robotics-sensor-based-localization",
+      "primary_topic_label": "Robotics sensor-based localization",
+      "url": "/domains/robotics/papers/W2150066425"
+    },
+    {
+      "source_id": "https://openalex.org/W1487127700",
+      "title": "Applied Nonlinear Control",
+      "year": 1991,
+      "cited_by_count": 18992,
+      "adjusted_cited_by_count": 3210.23,
+      "primary_topic_id": "sg-control-theory",
+      "primary_topic_label": "Control theory",
+      "url": "/domains/robotics/papers/W1487127700"
+    },
+    {
+      "source_id": "https://openalex.org/W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "cited_by_count": 8400,
+      "adjusted_cited_by_count": 3174.9,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/robotics/papers/W2981731882"
+    },
+    {
+      "source_id": "https://openalex.org/W2115579991",
+      "title": "Vision meets robotics: The KITTI dataset",
+      "year": 2013,
+      "cited_by_count": 9518,
+      "adjusted_cited_by_count": 2639.82,
+      "primary_topic_id": "sg-mobile-robot",
+      "primary_topic_label": "Mobile robot",
+      "url": "/domains/robotics/papers/W2115579991"
+    },
+    {
+      "source_id": "https://openalex.org/W1564897360",
+      "title": "A Mathematical Introduction to Robotic Manipulation",
+      "year": 2017,
+      "cited_by_count": 6706,
+      "adjusted_cited_by_count": 2235.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/robotics/papers/W1564897360"
+    },
+    {
+      "source_id": "https://openalex.org/W3135028703",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 4858,
+      "adjusted_cited_by_count": 2172.56,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W3135028703"
+    },
+    {
+      "source_id": "https://openalex.org/W2037227137",
+      "title": "The Pascal Visual Object Classes Challenge: A Retrospective",
+      "year": 2014,
+      "cited_by_count": 7212,
+      "adjusted_cited_by_count": 2081.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/robotics/papers/W2037227137"
+    },
+    {
+      "source_id": "https://openalex.org/W3168997536",
+      "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+      "year": 2021,
+      "cited_by_count": 4599,
+      "adjusted_cited_by_count": 2056.74,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W3168997536"
+    },
+    {
+      "source_id": "https://openalex.org/W4236137412",
+      "title": "Induction of decision trees",
+      "year": 1986,
+      "cited_by_count": 12336,
+      "adjusted_cited_by_count": 1950.49,
+      "primary_topic_id": "sg-motion-planning",
+      "primary_topic_label": "Motion planning",
+      "url": "/domains/robotics/papers/W4236137412"
+    },
+    {
+      "source_id": "https://openalex.org/W1679913846",
+      "title": "Self-Organizing Maps",
+      "year": 1995,
+      "cited_by_count": 10390,
+      "adjusted_cited_by_count": 1866.1,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W1679913846"
+    },
+    {
+      "source_id": "https://openalex.org/W3163842339",
+      "title": "https://openalex.org/W3163842339",
+      "year": null,
+      "cited_by_count": 1761,
+      "adjusted_cited_by_count": 1761.0,
+      "primary_topic_id": "sg-neural-network-convolutional-neural-networks",
+      "primary_topic_label": "Convolutional neural networks",
+      "url": "/domains/robotics/papers/W3163842339"
+    },
+    {
+      "source_id": "https://openalex.org/W2165744313",
+      "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+      "year": 2003,
+      "cited_by_count": 8387,
+      "adjusted_cited_by_count": 1748.81,
+      "primary_topic_id": "sg-control-theory",
+      "primary_topic_label": "Control theory",
+      "url": "/domains/robotics/papers/W2165744313"
+    },
+    {
+      "source_id": "https://openalex.org/W3094704314",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "year": 2020,
+      "cited_by_count": 4281,
+      "adjusted_cited_by_count": 1747.71,
+      "primary_topic_id": "sg-reinforcement-learning-in-robotics",
+      "primary_topic_label": "Reinforcement learning for robotics",
+      "url": "/domains/robotics/papers/W3094704314"
+    },
+    {
+      "source_id": "https://openalex.org/W2901136733",
+      "title": "ROS: an open-source Robot Operating System",
+      "year": 2009,
+      "cited_by_count": 7181,
+      "adjusted_cited_by_count": 1741.65,
+      "primary_topic_id": "sg-embedded-system",
+      "primary_topic_label": "Embedded system",
+      "url": "/domains/robotics/papers/W2901136733"
+    },
+    {
+      "source_id": "https://openalex.org/W4221151978",
+      "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+      "year": 2022,
+      "cited_by_count": 3469,
+      "adjusted_cited_by_count": 1734.5,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W4221151978"
+    },
+    {
+      "source_id": "https://openalex.org/W2962772482",
+      "title": "A survey of methods for explaining black box models",
+      "year": 2019,
+      "cited_by_count": 4497,
+      "adjusted_cited_by_count": 1699.71,
+      "primary_topic_id": "sg-embedded-system-context-aware-activity-recognition",
+      "primary_topic_label": "Context-aware activity recognition",
+      "url": "/domains/robotics/papers/W2962772482"
+    },
+    {
+      "source_id": "https://openalex.org/W2277195237",
+      "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+      "year": 2017,
+      "cited_by_count": 5095,
+      "adjusted_cited_by_count": 1698.33,
+      "primary_topic_id": "sg-mobile-robot",
+      "primary_topic_label": "Mobile robot",
+      "url": "/domains/robotics/papers/W2277195237"
+    },
+    {
+      "source_id": "https://openalex.org/W2978346165",
+      "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+      "year": 2019,
+      "cited_by_count": 4357,
+      "adjusted_cited_by_count": 1646.79,
+      "primary_topic_id": "sg-mobile-robot",
+      "primary_topic_label": "Mobile robot",
+      "url": "/domains/robotics/papers/W2978346165"
+    },
+    {
+      "source_id": "https://openalex.org/W1515749184",
+      "title": "Design, fabrication and control of soft robots",
+      "year": 2015,
+      "cited_by_count": 5444,
+      "adjusted_cited_by_count": 1641.43,
+      "primary_topic_id": "sg-soft-robotics",
+      "primary_topic_label": "Soft robotics",
+      "url": "/domains/robotics/papers/W1515749184"
+    },
+    {
+      "source_id": "https://openalex.org/W2336416123",
+      "title": "Probabilistic robotics",
+      "year": 2002,
+      "cited_by_count": 7979,
+      "adjusted_cited_by_count": 1628.71,
+      "primary_topic_id": "sg-motion-planning",
+      "primary_topic_label": "Motion planning",
+      "url": "/domains/robotics/papers/W2336416123"
+    },
+    {
+      "source_id": "https://openalex.org/W3043971245",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "year": 2021,
+      "cited_by_count": 3636,
+      "adjusted_cited_by_count": 1626.07,
+      "primary_topic_id": "sg-robotics-sensor-based-localization",
+      "primary_topic_label": "Robotics sensor-based localization",
+      "url": "/domains/robotics/papers/W3043971245"
+    },
+    {
+      "source_id": "https://openalex.org/W2107726111",
+      "title": "Reinforcement Learning: A Survey",
+      "year": 1996,
+      "cited_by_count": 8743,
+      "adjusted_cited_by_count": 1596.25,
+      "primary_topic_id": "sg-reinforcement-learning-in-robotics",
+      "primary_topic_label": "Reinforcement learning for robotics",
+      "url": "/domains/robotics/papers/W2107726111"
+    },
+    {
+      "source_id": "https://openalex.org/W2963727135",
+      "title": "VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection",
+      "year": 2018,
+      "cited_by_count": 4466,
+      "adjusted_cited_by_count": 1578.97,
+      "primary_topic_id": "sg-mobile-robot",
+      "primary_topic_label": "Mobile robot",
+      "url": "/domains/robotics/papers/W2963727135"
+    },
+    {
+      "source_id": "https://openalex.org/W32403112",
+      "title": "Q-learning",
+      "year": 1992,
+      "cited_by_count": 8929,
+      "adjusted_cited_by_count": 1531.31,
+      "primary_topic_id": "sg-reinforcement-learning-in-robotics",
+      "primary_topic_label": "Reinforcement learning for robotics",
+      "url": "/domains/robotics/papers/W32403112"
+    },
+    {
+      "source_id": "https://openalex.org/W2905810301",
+      "title": "A guide to deep learning in healthcare",
+      "year": 2018,
+      "cited_by_count": 4330,
+      "adjusted_cited_by_count": 1530.89,
+      "primary_topic_id": "sg-reinforcement-learning-for-robotics-deep-reinforcement-learning",
+      "primary_topic_label": "Deep reinforcement learning",
+      "url": "/domains/robotics/papers/W2905810301"
+    },
+    {
+      "source_id": "https://openalex.org/W2745859992",
+      "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+      "year": 2018,
+      "cited_by_count": 4292,
+      "adjusted_cited_by_count": 1517.45,
+      "primary_topic_id": "sg-robotics-sensor-based-localization",
+      "primary_topic_label": "Robotics sensor-based localization",
+      "url": "/domains/robotics/papers/W2745859992"
+    },
+    {
+      "source_id": "https://openalex.org/W2274287116",
+      "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+      "year": 2017,
+      "cited_by_count": 4492,
+      "adjusted_cited_by_count": 1497.33,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W2274287116"
+    },
+    {
+      "source_id": "https://openalex.org/W3194620979",
+      "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+      "year": 2022,
+      "cited_by_count": 2962,
+      "adjusted_cited_by_count": 1481.0,
+      "primary_topic_id": "sg-mobile-robot-mobile-robot-navigation",
+      "primary_topic_label": "Mobile robot navigation",
+      "url": "/domains/robotics/papers/W3194620979"
+    },
+    {
+      "source_id": "https://openalex.org/W3100789280",
+      "title": "Deep Reinforcement Learning: A Brief Survey",
+      "year": 2017,
+      "cited_by_count": 4182,
+      "adjusted_cited_by_count": 1394.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W3100789280"
+    },
+    {
+      "source_id": "https://openalex.org/W4388823657",
+      "title": "A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS",
+      "year": 2023,
+      "cited_by_count": 2343,
+      "adjusted_cited_by_count": 1352.73,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W4388823657"
+    },
+    {
+      "source_id": "https://openalex.org/W1787224781",
+      "title": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation",
+      "year": 2015,
+      "cited_by_count": 4483,
+      "adjusted_cited_by_count": 1351.68,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W1787224781"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7144,
+      "adjusted_cited_by_count": 1326.61,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W3017131514",
+      "title": "Artificial Intelligence in Education: A Review",
+      "year": 2020,
+      "cited_by_count": 3203,
+      "adjusted_cited_by_count": 1307.62,
+      "primary_topic_id": "sg-embedded-system",
+      "primary_topic_label": "Embedded system",
+      "url": "/domains/robotics/papers/W3017131514"
+    },
+    {
+      "source_id": "https://openalex.org/W2604319603",
+      "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+      "year": 2017,
+      "cited_by_count": 3885,
+      "adjusted_cited_by_count": 1295.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W2604319603"
+    },
+    {
+      "source_id": "https://openalex.org/W2842089854",
+      "title": "CasADi: a software framework for nonlinear optimization and optimal control",
+      "year": 2018,
+      "cited_by_count": 3612,
+      "adjusted_cited_by_count": 1277.03,
+      "primary_topic_id": "sg-control-theory",
+      "primary_topic_label": "Control theory",
+      "url": "/domains/robotics/papers/W2842089854"
+    },
+    {
+      "source_id": "https://openalex.org/W2126554879",
+      "title": "Swarm Intelligence",
+      "year": 1999,
+      "cited_by_count": 6380,
+      "adjusted_cited_by_count": 1227.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/robotics/papers/W2126554879"
+    },
+    {
+      "source_id": "https://openalex.org/W2097856935",
+      "title": "A robust layered control system for a mobile robot",
+      "year": 1986,
+      "cited_by_count": 7731,
+      "adjusted_cited_by_count": 1222.38,
+      "primary_topic_id": "sg-mobile-robot",
+      "primary_topic_label": "Mobile robot",
+      "url": "/domains/robotics/papers/W2097856935"
+    },
+    {
+      "source_id": "https://openalex.org/W2103120971",
+      "title": "Real-Time Obstacle Avoidance for Manipulators and Mobile Robots",
+      "year": 1986,
+      "cited_by_count": 7481,
+      "adjusted_cited_by_count": 1182.85,
+      "primary_topic_id": "sg-control-theory",
+      "primary_topic_label": "Control theory",
+      "url": "/domains/robotics/papers/W2103120971"
+    },
+    {
+      "source_id": "https://openalex.org/W2161484642",
+      "title": "Maintaining knowledge about temporal intervals",
+      "year": 1983,
+      "cited_by_count": 7526,
+      "adjusted_cited_by_count": 1147.7,
+      "primary_topic_id": "sg-mobile-robot-robot-control",
+      "primary_topic_label": "Robot control",
+      "url": "/domains/robotics/papers/W2161484642"
+    },
+    {
+      "source_id": "https://openalex.org/W2794284562",
+      "title": "Deep Learning for Computer Vision: A Brief Review",
+      "year": 2018,
+      "cited_by_count": 3244,
+      "adjusted_cited_by_count": 1146.93,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/robotics/papers/W2794284562"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2150066425",
+      "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+      "year": 2012,
+      "cited_by_count": 14122,
+      "adjusted_cited_by_count": 3774.26,
+      "url": "/domains/robotics/papers/W2150066425"
+    },
+    {
+      "source_id": "https://openalex.org/W1487127700",
+      "title": "Applied Nonlinear Control",
+      "year": 1991,
+      "cited_by_count": 18992,
+      "adjusted_cited_by_count": 3210.23,
+      "url": "/domains/robotics/papers/W1487127700"
+    },
+    {
+      "source_id": "https://openalex.org/W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "cited_by_count": 8400,
+      "adjusted_cited_by_count": 3174.9,
+      "url": "/domains/robotics/papers/W2981731882"
+    },
+    {
+      "source_id": "https://openalex.org/W2115579991",
+      "title": "Vision meets robotics: The KITTI dataset",
+      "year": 2013,
+      "cited_by_count": 9518,
+      "adjusted_cited_by_count": 2639.82,
+      "url": "/domains/robotics/papers/W2115579991"
+    },
+    {
+      "source_id": "https://openalex.org/W1564897360",
+      "title": "A Mathematical Introduction to Robotic Manipulation",
+      "year": 2017,
+      "cited_by_count": 6706,
+      "adjusted_cited_by_count": 2235.33,
+      "url": "/domains/robotics/papers/W1564897360"
+    },
+    {
+      "source_id": "https://openalex.org/W3135028703",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 4858,
+      "adjusted_cited_by_count": 2172.56,
+      "url": "/domains/robotics/papers/W3135028703"
+    },
+    {
+      "source_id": "https://openalex.org/W2037227137",
+      "title": "The Pascal Visual Object Classes Challenge: A Retrospective",
+      "year": 2014,
+      "cited_by_count": 7212,
+      "adjusted_cited_by_count": 2081.93,
+      "url": "/domains/robotics/papers/W2037227137"
+    },
+    {
+      "source_id": "https://openalex.org/W3168997536",
+      "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+      "year": 2021,
+      "cited_by_count": 4599,
+      "adjusted_cited_by_count": 2056.74,
+      "url": "/domains/robotics/papers/W3168997536"
+    },
+    {
+      "source_id": "https://openalex.org/W4236137412",
+      "title": "Induction of decision trees",
+      "year": 1986,
+      "cited_by_count": 12336,
+      "adjusted_cited_by_count": 1950.49,
+      "url": "/domains/robotics/papers/W4236137412"
+    },
+    {
+      "source_id": "https://openalex.org/W1679913846",
+      "title": "Self-Organizing Maps",
+      "year": 1995,
+      "cited_by_count": 10390,
+      "adjusted_cited_by_count": 1866.1,
+      "url": "/domains/robotics/papers/W1679913846"
+    },
+    {
+      "source_id": "https://openalex.org/W3163842339",
+      "title": "https://openalex.org/W3163842339",
+      "year": null,
+      "cited_by_count": 1761,
+      "adjusted_cited_by_count": 1761.0,
+      "url": "/domains/robotics/papers/W3163842339"
+    },
+    {
+      "source_id": "https://openalex.org/W2165744313",
+      "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+      "year": 2003,
+      "cited_by_count": 8387,
+      "adjusted_cited_by_count": 1748.81,
+      "url": "/domains/robotics/papers/W2165744313"
+    },
+    {
+      "source_id": "https://openalex.org/W3094704314",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "year": 2020,
+      "cited_by_count": 4281,
+      "adjusted_cited_by_count": 1747.71,
+      "url": "/domains/robotics/papers/W3094704314"
+    },
+    {
+      "source_id": "https://openalex.org/W2901136733",
+      "title": "ROS: an open-source Robot Operating System",
+      "year": 2009,
+      "cited_by_count": 7181,
+      "adjusted_cited_by_count": 1741.65,
+      "url": "/domains/robotics/papers/W2901136733"
+    },
+    {
+      "source_id": "https://openalex.org/W4221151978",
+      "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+      "year": 2022,
+      "cited_by_count": 3469,
+      "adjusted_cited_by_count": 1734.5,
+      "url": "/domains/robotics/papers/W4221151978"
+    },
+    {
+      "source_id": "https://openalex.org/W2962772482",
+      "title": "A survey of methods for explaining black box models",
+      "year": 2019,
+      "cited_by_count": 4497,
+      "adjusted_cited_by_count": 1699.71,
+      "url": "/domains/robotics/papers/W2962772482"
+    },
+    {
+      "source_id": "https://openalex.org/W2277195237",
+      "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+      "year": 2017,
+      "cited_by_count": 5095,
+      "adjusted_cited_by_count": 1698.33,
+      "url": "/domains/robotics/papers/W2277195237"
+    },
+    {
+      "source_id": "https://openalex.org/W2978346165",
+      "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+      "year": 2019,
+      "cited_by_count": 4357,
+      "adjusted_cited_by_count": 1646.79,
+      "url": "/domains/robotics/papers/W2978346165"
+    },
+    {
+      "source_id": "https://openalex.org/W1515749184",
+      "title": "Design, fabrication and control of soft robots",
+      "year": 2015,
+      "cited_by_count": 5444,
+      "adjusted_cited_by_count": 1641.43,
+      "url": "/domains/robotics/papers/W1515749184"
+    },
+    {
+      "source_id": "https://openalex.org/W2336416123",
+      "title": "Probabilistic robotics",
+      "year": 2002,
+      "cited_by_count": 7979,
+      "adjusted_cited_by_count": 1628.71,
+      "url": "/domains/robotics/papers/W2336416123"
+    },
+    {
+      "source_id": "https://openalex.org/W3043971245",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "year": 2021,
+      "cited_by_count": 3636,
+      "adjusted_cited_by_count": 1626.07,
+      "url": "/domains/robotics/papers/W3043971245"
+    },
+    {
+      "source_id": "https://openalex.org/W2107726111",
+      "title": "Reinforcement Learning: A Survey",
+      "year": 1996,
+      "cited_by_count": 8743,
+      "adjusted_cited_by_count": 1596.25,
+      "url": "/domains/robotics/papers/W2107726111"
+    },
+    {
+      "source_id": "https://openalex.org/W2963727135",
+      "title": "VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection",
+      "year": 2018,
+      "cited_by_count": 4466,
+      "adjusted_cited_by_count": 1578.97,
+      "url": "/domains/robotics/papers/W2963727135"
+    },
+    {
+      "source_id": "https://openalex.org/W32403112",
+      "title": "Q-learning",
+      "year": 1992,
+      "cited_by_count": 8929,
+      "adjusted_cited_by_count": 1531.31,
+      "url": "/domains/robotics/papers/W32403112"
+    },
+    {
+      "source_id": "https://openalex.org/W2905810301",
+      "title": "A guide to deep learning in healthcare",
+      "year": 2018,
+      "cited_by_count": 4330,
+      "adjusted_cited_by_count": 1530.89,
+      "url": "/domains/robotics/papers/W2905810301"
+    },
+    {
+      "source_id": "https://openalex.org/W2745859992",
+      "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+      "year": 2018,
+      "cited_by_count": 4292,
+      "adjusted_cited_by_count": 1517.45,
+      "url": "/domains/robotics/papers/W2745859992"
+    },
+    {
+      "source_id": "https://openalex.org/W2274287116",
+      "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+      "year": 2017,
+      "cited_by_count": 4492,
+      "adjusted_cited_by_count": 1497.33,
+      "url": "/domains/robotics/papers/W2274287116"
+    },
+    {
+      "source_id": "https://openalex.org/W3194620979",
+      "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+      "year": 2022,
+      "cited_by_count": 2962,
+      "adjusted_cited_by_count": 1481.0,
+      "url": "/domains/robotics/papers/W3194620979"
+    },
+    {
+      "source_id": "https://openalex.org/W3100789280",
+      "title": "Deep Reinforcement Learning: A Brief Survey",
+      "year": 2017,
+      "cited_by_count": 4182,
+      "adjusted_cited_by_count": 1394.0,
+      "url": "/domains/robotics/papers/W3100789280"
+    },
+    {
+      "source_id": "https://openalex.org/W4388823657",
+      "title": "A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS",
+      "year": 2023,
+      "cited_by_count": 2343,
+      "adjusted_cited_by_count": 1352.73,
+      "url": "/domains/robotics/papers/W4388823657"
+    },
+    {
+      "source_id": "https://openalex.org/W1787224781",
+      "title": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation",
+      "year": 2015,
+      "cited_by_count": 4483,
+      "adjusted_cited_by_count": 1351.68,
+      "url": "/domains/robotics/papers/W1787224781"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7144,
+      "adjusted_cited_by_count": 1326.61,
+      "url": "/domains/robotics/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W3017131514",
+      "title": "Artificial Intelligence in Education: A Review",
+      "year": 2020,
+      "cited_by_count": 3203,
+      "adjusted_cited_by_count": 1307.62,
+      "url": "/domains/robotics/papers/W3017131514"
+    },
+    {
+      "source_id": "https://openalex.org/W2604319603",
+      "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+      "year": 2017,
+      "cited_by_count": 3885,
+      "adjusted_cited_by_count": 1295.0,
+      "url": "/domains/robotics/papers/W2604319603"
+    },
+    {
+      "source_id": "https://openalex.org/W2842089854",
+      "title": "CasADi: a software framework for nonlinear optimization and optimal control",
+      "year": 2018,
+      "cited_by_count": 3612,
+      "adjusted_cited_by_count": 1277.03,
+      "url": "/domains/robotics/papers/W2842089854"
+    },
+    {
+      "source_id": "https://openalex.org/W2126554879",
+      "title": "Swarm Intelligence",
+      "year": 1999,
+      "cited_by_count": 6380,
+      "adjusted_cited_by_count": 1227.83,
+      "url": "/domains/robotics/papers/W2126554879"
+    },
+    {
+      "source_id": "https://openalex.org/W2097856935",
+      "title": "A robust layered control system for a mobile robot",
+      "year": 1986,
+      "cited_by_count": 7731,
+      "adjusted_cited_by_count": 1222.38,
+      "url": "/domains/robotics/papers/W2097856935"
+    },
+    {
+      "source_id": "https://openalex.org/W2103120971",
+      "title": "Real-Time Obstacle Avoidance for Manipulators and Mobile Robots",
+      "year": 1986,
+      "cited_by_count": 7481,
+      "adjusted_cited_by_count": 1182.85,
+      "url": "/domains/robotics/papers/W2103120971"
+    },
+    {
+      "source_id": "https://openalex.org/W2161484642",
+      "title": "Maintaining knowledge about temporal intervals",
+      "year": 1983,
+      "cited_by_count": 7526,
+      "adjusted_cited_by_count": 1147.7,
+      "url": "/domains/robotics/papers/W2161484642"
+    },
+    {
+      "source_id": "https://openalex.org/W2794284562",
+      "title": "Deep Learning for Computer Vision: A Brief Review",
+      "year": 2018,
+      "cited_by_count": 3244,
+      "adjusted_cited_by_count": 1146.93,
+      "url": "/domains/robotics/papers/W2794284562"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 530
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 446
+    },
+    {
+      "label": "robot",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 301
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 287
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 189
+    },
+    {
+      "label": "robotic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 160
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 151
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 144
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 144
+    },
+    {
+      "label": "robotics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 136
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 126
+    },
+    {
+      "label": "algorithms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 123
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 109
+    },
+    {
+      "label": "computer vision",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 105
+    },
+    {
+      "label": "task",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 95
+    },
+    {
+      "label": "mobile robot",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 90
+    },
+    {
+      "label": "field mathematics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 89
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 88
+    },
+    {
+      "label": "based on",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 86
+    },
+    {
+      "label": "mechanical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 82
+    },
+    {
+      "label": "human computer interaction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 76
+    },
+    {
+      "label": "motion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 76
+    },
+    {
+      "label": "object",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 76
+    },
+    {
+      "label": "general",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 71
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 68
+    },
+    {
+      "label": "image",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 68
+    },
+    {
+      "label": "dynamic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 67
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 67
+    },
+    {
+      "label": "control theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 66
+    },
+    {
+      "label": "sensor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 66
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 65
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 63
+    },
+    {
+      "label": "vision",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 109
+    },
+    {
+      "label": "deep learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 62
+    },
+    {
+      "label": "point",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 61
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 61
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 60
+    },
+    {
+      "label": "simulation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 60
+    },
+    {
+      "label": "networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 58
+    },
+    {
+      "label": "control engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 55
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 55
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 55
+    },
+    {
+      "label": "neural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 66
+    },
+    {
+      "label": "force",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 53
+    },
+    {
+      "label": "framework",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 53
+    },
+    {
+      "label": "soft",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 53
+    },
+    {
+      "label": "open",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9849,
+      "evidence_count": 52
+    }
+  ],
+  "topic_year_counts": {
+    "embedded system": {
+      "2025": 453799,
+      "2023": 397081,
+      "2024": 386734,
+      "2022": 255344,
+      "2021": 236996,
+      "2020": 217454,
+      "2019": 184423,
+      "2018": 161418,
+      "2026": 148490,
+      "2017": 143975,
+      "2016": 131880,
+      "2015": 120448,
+      "2014": 110401,
+      "2013": 100089,
+      "2012": 88465,
+      "2011": 77242,
+      "2010": 68581,
+      "2009": 59097,
+      "2008": 51459,
+      "2007": 44567,
+      "2006": 39566,
+      "2005": 34557,
+      "2004": 29104,
+      "2003": 25064,
+      "2002": 22092,
+      "2001": 16656,
+      "2000": 16433
+    },
+    "control theory": {
+      "2023": 697748,
+      "2024": 645442,
+      "2025": 634293,
+      "2022": 481071,
+      "2021": 442829,
+      "2020": 411730,
+      "2019": 352283,
+      "2018": 313942,
+      "2017": 281213,
+      "2016": 259092,
+      "2015": 240661,
+      "2014": 217340,
+      "2013": 195025,
+      "2012": 171621,
+      "2026": 169746,
+      "2011": 150841,
+      "2010": 131680,
+      "2009": 114455,
+      "2008": 96397,
+      "2007": 84660,
+      "2006": 74581,
+      "2005": 64685,
+      "2004": 55925,
+      "2003": 48210,
+      "2002": 43235,
+      "2000": 36836,
+      "2001": 35376
+    },
+    "neural network": {
+      "2025": 492585,
+      "2024": 488921,
+      "2023": 461455,
+      "2022": 316261,
+      "2021": 274960,
+      "2020": 227303,
+      "2026": 192415,
+      "2019": 179904,
+      "2018": 137087,
+      "2017": 101087,
+      "2016": 80496,
+      "2015": 69420,
+      "2014": 63407,
+      "2013": 58542,
+      "2012": 52157,
+      "2011": 47030,
+      "2010": 41612,
+      "2009": 37705,
+      "2008": 32994,
+      "2007": 29552,
+      "2006": 28892,
+      "2002": 26113,
+      "2005": 25081,
+      "2003": 20960,
+      "2004": 20589,
+      "2001": 12863,
+      "2000": 12209
+    },
+    "mobile robot": {
+      "2024": 52733,
+      "2023": 52411,
+      "2025": 50332,
+      "2022": 35903,
+      "2021": 31035,
+      "2020": 26877,
+      "2019": 22385,
+      "2018": 17753,
+      "2017": 14659,
+      "2016": 12337,
+      "2026": 11917,
+      "2015": 11247,
+      "2014": 10468,
+      "2013": 9693,
+      "2012": 8756,
+      "2011": 7891,
+      "2010": 7102,
+      "2009": 6361,
+      "2008": 5657,
+      "2007": 5215,
+      "2006": 4941,
+      "2002": 4352,
+      "2005": 4108,
+      "2004": 3254,
+      "2003": 3118,
+      "2001": 1506,
+      "2000": 1348
+    },
+    "robotics sensor-based localization": {
+      "2025": 19397,
+      "2024": 17921,
+      "2023": 17744,
+      "2022": 10704,
+      "2021": 9407,
+      "2020": 7859,
+      "2019": 6596,
+      "2026": 5596,
+      "2018": 5000,
+      "2017": 3917,
+      "2016": 3359,
+      "2015": 2830,
+      "2014": 2505,
+      "2013": 2333,
+      "2012": 1933,
+      "2011": 1616,
+      "2010": 1437,
+      "2009": 1159,
+      "2008": 1006,
+      "2007": 912,
+      "2005": 856,
+      "2006": 694,
+      "2004": 370,
+      "2003": 320,
+      "2002": 311,
+      "2001": 163,
+      "2000": 126
+    },
+    "soft robotics": {
+      "2024": 39226,
+      "2023": 37814,
+      "2025": 37667,
+      "2022": 24204,
+      "2021": 20382,
+      "2020": 17267,
+      "2019": 13290,
+      "2026": 10104,
+      "2018": 10073,
+      "2017": 7887,
+      "2016": 6667,
+      "2015": 5420,
+      "2014": 4782,
+      "2013": 4038,
+      "2012": 3506,
+      "2011": 2849,
+      "2010": 2400,
+      "2009": 1939,
+      "2008": 1625,
+      "2007": 1554,
+      "2005": 1268,
+      "2006": 1224,
+      "2004": 725,
+      "2002": 618,
+      "2003": 590,
+      "2000": 412,
+      "2001": 376
+    },
+    "motion planning": {
+      "2023": 93367,
+      "2024": 89916,
+      "2025": 83508,
+      "2022": 63033,
+      "2021": 59271,
+      "2020": 56165,
+      "2019": 49119,
+      "2018": 44168,
+      "2017": 39154,
+      "2016": 36339,
+      "2015": 33597,
+      "2014": 30134,
+      "2013": 27565,
+      "2012": 24686,
+      "2026": 22036,
+      "2011": 21317,
+      "2010": 19024,
+      "2009": 16625,
+      "2008": 14304,
+      "2007": 12461,
+      "2006": 11206,
+      "2005": 9654,
+      "2004": 8519,
+      "2003": 7168,
+      "2002": 6789,
+      "2001": 5146,
+      "2000": 4949
+    },
+    "reinforcement learning for robotics": {
+      "2025": 28424,
+      "2024": 26892,
+      "2023": 23442,
+      "2022": 11944,
+      "2021": 9824,
+      "2026": 9006,
+      "2020": 7452,
+      "2019": 5130,
+      "2018": 3435,
+      "2017": 2178,
+      "2016": 1681,
+      "2015": 1340,
+      "2014": 1173,
+      "2013": 1137,
+      "2012": 969,
+      "2011": 887,
+      "2010": 771,
+      "2009": 661,
+      "2008": 554,
+      "2007": 548,
+      "2006": 475,
+      "2005": 394,
+      "2004": 331,
+      "2002": 323,
+      "2003": 317,
+      "2000": 161,
+      "2001": 157
+    }
+  }
+}

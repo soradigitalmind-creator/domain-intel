@@ -1,0 +1,2625 @@
+{
+  "slug": "business",
+  "title": "Business",
+  "updated_at": "2026-04-06T14:15:38.715309Z",
+  "snapshot": {
+    "papers": 324,
+    "topics": 12,
+    "subtopics": 163,
+    "entities": 708,
+    "claims": 2
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 324,
+      "total_papers": 324,
+      "facet_counts": {
+        "none": 324
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning international business, business strategy and innovation, business model.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 12,
+    "descendant_topics": 163,
+    "max_depth": 4,
+    "leaf_topics": 121
+  },
+  "rising_topics": [
+    {
+      "id": "sg-knowledge-management",
+      "label": "Knowledge management",
+      "url": "/domains/business/topics/sg-knowledge-management",
+      "trend": "rising",
+      "year_total": 5923805
+    },
+    {
+      "id": "sg-customer-satisfaction",
+      "label": "Customer satisfaction",
+      "url": "/domains/business/topics/sg-customer-satisfaction",
+      "trend": "rising",
+      "year_total": 654231
+    },
+    {
+      "id": "sg-industrial-organization",
+      "label": "Industrial organization",
+      "url": "/domains/business/topics/sg-industrial-organization",
+      "trend": "rising",
+      "year_total": 1842649
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-knowledge-management",
+      "label": "Knowledge management",
+      "url": "/domains/business/topics/sg-knowledge-management",
+      "paper_count": 84,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: of the, knowledge management, management",
+      "tags": [
+        "business ecosystem",
+        "business relationship management",
+        "business transformation",
+        "entrepreneurial orientation business"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-knowledge-management-resource-management",
+          "label": "Resource management",
+          "url": "/domains/business/topics/sg-knowledge-management-resource-management",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-knowledge-management-absorptive-capacity",
+          "label": "Absorptive capacity",
+          "url": "/domains/business/topics/sg-knowledge-management-absorptive-capacity",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-knowledge-management-business-process-reengineering",
+          "label": "Business process reengineering",
+          "url": "/domains/business/topics/sg-knowledge-management-business-process-reengineering",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-knowledge-management-competitive-knowledge-intelligence",
+          "label": "Competitive knowledge intelligence",
+          "url": "/domains/business/topics/sg-knowledge-management-competitive-knowledge-intelligence",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-knowledge-management-organizational-learning",
+          "label": "Organizational learning",
+          "url": "/domains/business/topics/sg-knowledge-management-organizational-learning",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-knowledge-management-knowledge-value-chain",
+          "label": "Knowledge value chain",
+          "url": "/domains/business/topics/sg-knowledge-management-knowledge-value-chain",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2123709218",
+          "title": "Dynamic capabilities and strategic management",
+          "year": "1997",
+          "cited_by_count": 30601,
+          "url": "/domains/business/papers/W2123709218"
+        },
+        {
+          "source_id": "https://openalex.org/W2101157755",
+          "title": "The fifth discipline, the art and practice of the learning organization",
+          "year": "1991",
+          "cited_by_count": 20167,
+          "url": "/domains/business/papers/W2101157755"
+        },
+        {
+          "source_id": "https://openalex.org/W2169667133",
+          "title": "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance",
+          "year": "2007",
+          "cited_by_count": 14120,
+          "url": "/domains/business/papers/W2169667133"
+        }
+      ]
+    },
+    {
+      "id": "sg-customer-satisfaction",
+      "label": "Customer satisfaction",
+      "url": "/domains/business/topics/sg-customer-satisfaction",
+      "paper_count": 43,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: marketing, customer satisfaction, market economy",
+      "tags": [
+        "business marketing",
+        "customer satisfaction",
+        "customer satisfaction barometer",
+        "customer satisfaction barometer swedish"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-customer-satisfaction-service-quality",
+          "label": "Service quality",
+          "url": "/domains/business/topics/sg-customer-satisfaction-service-quality",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-customer-satisfaction-customer-engagement",
+          "label": "Customer engagement",
+          "url": "/domains/business/topics/sg-customer-satisfaction-customer-engagement",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-customer-satisfaction-customer-orientation",
+          "label": "Customer orientation",
+          "url": "/domains/business/topics/sg-customer-satisfaction-customer-orientation",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-customer-satisfaction-relationship-marketing",
+          "label": "Relationship marketing",
+          "url": "/domains/business/topics/sg-customer-satisfaction-relationship-marketing",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-customer-satisfaction-marketing-management",
+          "label": "Marketing management",
+          "url": "/domains/business/topics/sg-customer-satisfaction-marketing-management",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-customer-satisfaction-customer-lifetime-value",
+          "label": "Customer lifetime value",
+          "url": "/domains/business/topics/sg-customer-satisfaction-customer-lifetime-value",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2902225836",
+          "title": "Advances in Consumer Research",
+          "year": "2025",
+          "cited_by_count": 13461,
+          "url": "/domains/business/papers/W2902225836"
+        },
+        {
+          "source_id": "https://openalex.org/W2026368098",
+          "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+          "year": "1985",
+          "cited_by_count": 17168,
+          "url": "/domains/business/papers/W2026368098"
+        },
+        {
+          "source_id": "https://openalex.org/W3122877168",
+          "title": "https://openalex.org/W3122877168",
+          "year": "2009",
+          "cited_by_count": 10595,
+          "url": "/domains/business/papers/W3122877168"
+        }
+      ]
+    },
+    {
+      "id": "sg-industrial-organization",
+      "label": "Industrial organization",
+      "url": "/domains/business/topics/sg-industrial-organization",
+      "paper_count": 42,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: industrial organization, marketing, management",
+      "tags": [
+        "business profitability",
+        "industrial organization",
+        "market orientation",
+        "market orientation antecedents consequence"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-industrial-organization-market-orientation",
+          "label": "Market orientation",
+          "url": "/domains/business/topics/sg-industrial-organization-market-orientation",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-industrial-organization-value-creation",
+          "label": "Value creation",
+          "url": "/domains/business/topics/sg-industrial-organization-value-creation",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-industrial-organization-principal-agent-problem",
+          "label": "Principal-agent problem",
+          "url": "/domains/business/topics/sg-industrial-organization-principal-agent-problem",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-industrial-organization-complementary-assets",
+          "label": "Complementary assets",
+          "url": "/domains/business/topics/sg-industrial-organization-complementary-assets",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-industrial-organization-service-and-product-innovation",
+          "label": "Service and product innovation",
+          "url": "/domains/business/topics/sg-industrial-organization-service-and-product-innovation",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2061977616",
+          "title": "Firm resources and sustained competitive advantage",
+          "year": "2004",
+          "cited_by_count": 38498,
+          "url": "/domains/business/papers/W2061977616"
+        },
+        {
+          "source_id": "https://openalex.org/W3124536214",
+          "title": "Firm Resources and Sustained Competitive Advantage",
+          "year": "1991",
+          "cited_by_count": 44230,
+          "url": "/domains/business/papers/W3124536214"
+        },
+        {
+          "source_id": "https://openalex.org/W2164284962",
+          "title": "Exploration and Exploitation in Organizational Learning",
+          "year": "1991",
+          "cited_by_count": 21021,
+          "url": "/domains/business/papers/W2164284962"
+        }
+      ]
+    },
+    {
+      "id": "sg-credit-interest-business-cycle",
+      "label": "Credit, interest, business cycle",
+      "url": "/domains/business/topics/sg-credit-interest-business-cycle",
+      "paper_count": 41,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: economic growth, of the, finance",
+      "tags": [
+        "capital, credit, interest, business",
+        "credit, interest, business",
+        "credit, interest, business cycle",
+        "economic growth"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-credit-interest-business-cycle-keynesian-economics",
+          "label": "Keynesian economics",
+          "url": "/domains/business/topics/sg-credit-interest-business-cycle-keynesian-economics",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-credit-interest-business-cycle-monetary-economics",
+          "label": "Monetary economics",
+          "url": "/domains/business/topics/sg-credit-interest-business-cycle-monetary-economics",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-credit-interest-business-cycle-market-economy",
+          "label": "Market economy",
+          "url": "/domains/business/topics/sg-credit-interest-business-cycle-market-economy",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-credit-interest-business-cycle-per-capita-economic-measures",
+          "label": "Per capita economic measures",
+          "url": "/domains/business/topics/sg-credit-interest-business-cycle-per-capita-economic-measures",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-credit-interest-business-cycle-economic-growth-and-productivity",
+          "label": "Economic growth and productivity",
+          "url": "/domains/business/topics/sg-credit-interest-business-cycle-economic-growth-and-productivity",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-credit-interest-business-cycle-organizational-capital",
+          "label": "Organizational capital",
+          "url": "/domains/business/topics/sg-credit-interest-business-cycle-organizational-capital",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4297081765",
+          "title": "Harvard business review",
+          "year": "1994",
+          "cited_by_count": 46510,
+          "url": "/domains/business/papers/W4297081765"
+        },
+        {
+          "source_id": "https://openalex.org/W4301377693",
+          "title": "Harvard business review",
+          "year": "1993",
+          "cited_by_count": 18342,
+          "url": "/domains/business/papers/W4301377693"
+        },
+        {
+          "source_id": "https://openalex.org/W1517701247",
+          "title": "Harvard Business Review",
+          "year": "1988",
+          "cited_by_count": 18229,
+          "url": "/domains/business/papers/W1517701247"
+        }
+      ]
+    },
+    {
+      "id": "sg-business-models",
+      "label": "Business models",
+      "url": "/domains/business/topics/sg-business-models",
+      "paper_count": 31,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: business models, marketing, models",
+      "tags": [
+        "business model",
+        "business model generation",
+        "business models",
+        "business relationship management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-business-models-business-model",
+          "label": "Business model",
+          "url": "/domains/business/topics/sg-business-models-business-model",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-business-models-business-process",
+          "label": "Business process",
+          "url": "/domains/business/topics/sg-business-models-business-process",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-business-models-business-process-modeling",
+          "label": "Business process modeling",
+          "url": "/domains/business/topics/sg-business-models-business-process-modeling",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-business-models-artifact-centric-business-process-model",
+          "label": "Artifact-centric business process model",
+          "url": "/domains/business/topics/sg-business-models-artifact-centric-business-process-model",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W279724836",
+          "title": "Business Model Generation : A Handbook for Visionaries, Game Changers, and Challengers",
+          "year": "2010",
+          "cited_by_count": 6949,
+          "url": "/domains/business/papers/W279724836"
+        },
+        {
+          "source_id": "https://openalex.org/W2141975087",
+          "title": "Business Intelligence and Analytics: From Big Data to Big Impact",
+          "year": "2012",
+          "cited_by_count": 5915,
+          "url": "/domains/business/papers/W2141975087"
+        },
+        {
+          "source_id": "https://openalex.org/W1886337131",
+          "title": "4 What Is Web 2.0? Design Patterns and Business Models for the Next Generation of Software",
+          "year": "2012",
+          "cited_by_count": 5659,
+          "url": "/domains/business/papers/W1886337131"
+        }
+      ]
+    },
+    {
+      "id": "sg-international-business",
+      "label": "International business",
+      "url": "/domains/business/topics/sg-international-business",
+      "paper_count": 23,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: international business, management, international business and fdi",
+      "tags": [
+        "business networks",
+        "business social",
+        "business social science",
+        "business strategy focus"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-international-business-global-trade-competitiveness",
+          "label": "Global trade competitiveness",
+          "url": "/domains/business/topics/sg-international-business-global-trade-competitiveness",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-international-business-market-economy",
+          "label": "Market economy",
+          "url": "/domains/business/topics/sg-international-business-market-economy",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-international-business-international-trade",
+          "label": "International trade",
+          "url": "/domains/business/topics/sg-international-business-international-trade",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4243174206",
+          "title": "Journal of Small Business Management",
+          "year": "2020",
+          "cited_by_count": 6684,
+          "url": "/domains/business/papers/W4243174206"
+        },
+        {
+          "source_id": "https://openalex.org/W2177756622",
+          "title": "The Social Responsibility of Business Is to Increase Its Profits",
+          "year": "2007",
+          "cited_by_count": 11639,
+          "url": "/domains/business/papers/W2177756622"
+        },
+        {
+          "source_id": "https://openalex.org/W1990631438",
+          "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+          "year": "1977",
+          "cited_by_count": 10785,
+          "url": "/domains/business/papers/W1990631438"
+        }
+      ]
+    },
+    {
+      "id": "sg-supply-chain",
+      "label": "Supply chain management",
+      "url": "/domains/business/topics/sg-supply-chain",
+      "paper_count": 18,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: marketing, in a, supply chain",
+      "tags": [
+        "business logistics",
+        "chain management",
+        "outsourcing and supply chain management",
+        "supply chain"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-supply-chain-management-supply-chain-inventory",
+          "label": "Supply chain inventory",
+          "url": "/domains/business/topics/sg-supply-chain-management-supply-chain-inventory",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-supply-chain-conceptual-model",
+          "label": "Conceptual model",
+          "url": "/domains/business/topics/sg-supply-chain-conceptual-model",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-supply-chain-management-service-management",
+          "label": "Service management",
+          "url": "/domains/business/topics/sg-supply-chain-management-service-management",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-supply-chain-operations-management",
+          "label": "Operations management",
+          "url": "/domains/business/topics/sg-supply-chain-operations-management",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-supply-chain-management-outsourcing-in-supply-chain-management",
+          "label": "Outsourcing in supply chain management",
+          "url": "/domains/business/topics/sg-supply-chain-management-outsourcing-in-supply-chain-management",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-supply-chain-management-supply-chain-risk",
+          "label": "Supply chain risk",
+          "url": "/domains/business/topics/sg-supply-chain-management-supply-chain-risk",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2756283300",
+          "title": "Conceptualizing the circular economy: An analysis of 114 definitions",
+          "year": "2017",
+          "cited_by_count": 7275,
+          "url": "/domains/business/papers/W2756283300"
+        },
+        {
+          "source_id": "https://openalex.org/W3149395617",
+          "title": "Competitive Advantage: Creating and Sustaining Superior Performance",
+          "year": "1985",
+          "cited_by_count": 14818,
+          "url": "/domains/business/papers/W3149395617"
+        },
+        {
+          "source_id": "https://openalex.org/W2988934653",
+          "title": "Business Dynamics: Systems Thinking and Modeling for a Complex World",
+          "year": "2000",
+          "cited_by_count": 9489,
+          "url": "/domains/business/papers/W2988934653"
+        }
+      ]
+    },
+    {
+      "id": "sg-business-management",
+      "label": "Business management",
+      "url": "/domains/business/topics/sg-business-management",
+      "paper_count": 12,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: management, business administration, of business",
+      "tags": [
+        "business administration",
+        "business management",
+        "business networks",
+        "business relationship management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-business-management-business-strategy-innovation",
+          "label": "Business strategy innovation",
+          "url": "/domains/business/topics/sg-business-management-business-strategy-innovation",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-business-management-market-economy",
+          "label": "Market economy",
+          "url": "/domains/business/topics/sg-business-management-market-economy",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4243838916",
+          "title": "African Journal of Business Management",
+          "year": "2026",
+          "cited_by_count": 4222,
+          "url": "/domains/business/papers/W4243838916"
+        },
+        {
+          "source_id": "https://openalex.org/W1571438983",
+          "title": "“Options, Futures, and Other Derivatives”",
+          "year": "2016",
+          "cited_by_count": 5155,
+          "url": "/domains/business/papers/W1571438983"
+        },
+        {
+          "source_id": "https://openalex.org/W2005497495",
+          "title": "Reengineering the corporation: A manifesto for business revolution",
+          "year": "1993",
+          "cited_by_count": 6429,
+          "url": "/domains/business/papers/W2005497495"
+        }
+      ]
+    },
+    {
+      "id": "sg-competitive-advantage",
+      "label": "Competitive advantage",
+      "url": "/domains/business/topics/sg-competitive-advantage",
+      "paper_count": 11,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: competitive advantage, our, of the",
+      "tags": [
+        "competitive advantage",
+        "customer satisfaction barometer",
+        "customer satisfaction barometer swedish",
+        "market orientation antecedents"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-competitive-advantage-resource-based-view",
+          "label": "Resource-based view",
+          "url": "/domains/business/topics/sg-competitive-advantage-resource-based-view",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-competitive-advantage-business-strategy-innovation",
+          "label": "Business strategy innovation",
+          "url": "/domains/business/topics/sg-competitive-advantage-business-strategy-innovation",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-competitive-advantage-brand-management",
+          "label": "Brand management",
+          "url": "/domains/business/topics/sg-competitive-advantage-brand-management",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-competitive-advantage-marketing-buzz",
+          "label": "Marketing buzz",
+          "url": "/domains/business/topics/sg-competitive-advantage-marketing-buzz",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W39941679",
+          "title": "Strategy and society: the link between competitive advantage and corporate social responsibility",
+          "year": "2007",
+          "cited_by_count": 7478,
+          "url": "/domains/business/papers/W39941679"
+        },
+        {
+          "source_id": "https://openalex.org/W3025238321",
+          "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 2432,
+          "url": "/domains/business/papers/W3025238321"
+        },
+        {
+          "source_id": "https://openalex.org/W1530487374",
+          "title": "Building Strong Brands",
+          "year": "1995",
+          "cited_by_count": 3721,
+          "url": "/domains/business/papers/W1530487374"
+        }
+      ]
+    },
+    {
+      "id": "sg-strategic-management",
+      "label": "Strategic management",
+      "url": "/domains/business/topics/sg-strategic-management",
+      "paper_count": 9,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: how, in the, management",
+      "tags": [
+        "business environment",
+        "resource sustained competitive advantage",
+        "stakeholder management",
+        "strategic business unit"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-strategic-management-stakeholder-management",
+          "label": "Stakeholder management",
+          "url": "/domains/business/topics/sg-strategic-management-stakeholder-management",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-strategic-management-business-ethics",
+          "label": "Business ethics",
+          "url": "/domains/business/topics/sg-strategic-management-business-ethics",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-strategic-management-management-stakeholder",
+          "label": "Management stakeholder",
+          "url": "/domains/business/topics/sg-strategic-management-management-stakeholder",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-strategic-management-strategic-thinking",
+          "label": "Strategic thinking",
+          "url": "/domains/business/topics/sg-strategic-management-strategic-thinking",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-strategic-management-strategy-map",
+          "label": "Strategy map",
+          "url": "/domains/business/topics/sg-strategic-management-strategy-map",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2047735993",
+          "title": "Strategic management a stakeholder approach",
+          "year": "1984",
+          "cited_by_count": 23419,
+          "url": "/domains/business/papers/W2047735993"
+        },
+        {
+          "source_id": "https://openalex.org/W1492039495",
+          "title": "Cannibals with forks: the triple bottom line of 21st century business",
+          "year": "1999",
+          "cited_by_count": 9091,
+          "url": "/domains/business/papers/W1492039495"
+        },
+        {
+          "source_id": "https://openalex.org/W2107604945",
+          "title": "Strategic alignment: Leveraging information technology for transforming organizations",
+          "year": "1999",
+          "cited_by_count": 3477,
+          "url": "/domains/business/papers/W2107604945"
+        }
+      ]
+    },
+    {
+      "id": "sg-small-business",
+      "label": "Small business",
+      "url": "/domains/business/topics/sg-small-business",
+      "paper_count": 6,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: small business, finance, how",
+      "tags": [
+        "business administration",
+        "business finance",
+        "business finance role",
+        "business lending"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2143841915",
+          "title": "The Benefits of Lending Relationships: Evidence from Small Business Data",
+          "year": "1994",
+          "cited_by_count": 5252,
+          "url": "/domains/business/papers/W2143841915"
+        },
+        {
+          "source_id": "https://openalex.org/W2119780569",
+          "title": "The economics of small business finance: The roles of private equity and debt markets in the financial growth cycle",
+          "year": "1998",
+          "cited_by_count": 3660,
+          "url": "/domains/business/papers/W2119780569"
+        },
+        {
+          "source_id": "https://openalex.org/W2045312920",
+          "title": "Entrepreneurial orientation and small business performance: a configurational approach",
+          "year": "2004",
+          "cited_by_count": 3108,
+          "url": "/domains/business/papers/W2045312920"
+        }
+      ]
+    },
+    {
+      "id": "sg-business-development",
+      "label": "Business development",
+      "url": "/domains/business/topics/sg-business-development",
+      "paper_count": 4,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: business models, marketing, new business development",
+      "tags": [
+        "business enterprise",
+        "business relationship management",
+        "business rule",
+        "business sector"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-business-development-business-administration",
+          "label": "Business administration",
+          "url": "/domains/business/topics/sg-business-development-business-administration",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2140699752",
+          "title": "Business Models, Business Strategy and Innovation",
+          "year": "2009",
+          "cited_by_count": 7953,
+          "url": "/domains/business/papers/W2140699752"
+        },
+        {
+          "source_id": "https://openalex.org/W2032285541",
+          "title": "Value creation in E‐business",
+          "year": "2001",
+          "cited_by_count": 5426,
+          "url": "/domains/business/papers/W2032285541"
+        },
+        {
+          "source_id": "https://openalex.org/W1971354656",
+          "title": "The Business Case for Corporate Social Responsibility: A Review of Concepts, Research and Practice",
+          "year": "2010",
+          "cited_by_count": 3785,
+          "url": "/domains/business/papers/W1971354656"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Knowledge management",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Dynamic capabilities and strategic management",
+          "year": "1997",
+          "cited_by_count": 30601,
+          "topic": "Knowledge management",
+          "url": "papers/https-openalex-org-w2123709218.html"
+        },
+        {
+          "title": "The fifth discipline, the art and practice of the learning organization",
+          "year": "1991",
+          "cited_by_count": 20167,
+          "topic": "Knowledge management",
+          "url": "papers/https-openalex-org-w2101157755.html"
+        },
+        {
+          "title": "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance",
+          "year": "2007",
+          "cited_by_count": 14120,
+          "topic": "Knowledge management",
+          "url": "papers/https-openalex-org-w2169667133.html"
+        },
+        {
+          "title": "Cultures and Organizations: Software of the Mind.",
+          "year": "1993",
+          "cited_by_count": 17875,
+          "topic": "Knowledge management",
+          "url": "papers/https-openalex-org-w2140918013.html"
+        },
+        {
+          "title": "Dynamic capabilities: what are they?",
+          "year": "2000",
+          "cited_by_count": 14263,
+          "topic": "Knowledge management",
+          "url": "papers/https-openalex-org-w2089402107.html"
+        },
+        {
+          "title": "The Promise of Entrepreneurship as a Field of Research",
+          "year": "2000",
+          "cited_by_count": 11054,
+          "topic": "Knowledge management",
+          "url": "papers/https-openalex-org-w2116006659.html"
+        }
+      ]
+    },
+    {
+      "label": "Industrial organization",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Firm resources and sustained competitive advantage",
+          "year": "2004",
+          "cited_by_count": 38498,
+          "topic": "Industrial organization",
+          "url": "papers/https-openalex-org-w2061977616.html"
+        },
+        {
+          "title": "Firm Resources and Sustained Competitive Advantage",
+          "year": "1991",
+          "cited_by_count": 44230,
+          "topic": "Industrial organization",
+          "url": "papers/https-openalex-org-w3124536214.html"
+        },
+        {
+          "title": "Exploration and Exploitation in Organizational Learning",
+          "year": "1991",
+          "cited_by_count": 21021,
+          "topic": "Industrial organization",
+          "url": "papers/https-openalex-org-w2164284962.html"
+        },
+        {
+          "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+          "year": "1986",
+          "cited_by_count": 17576,
+          "topic": "Industrial organization",
+          "url": "papers/https-openalex-org-w3121131820.html"
+        },
+        {
+          "title": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+          "year": "1980",
+          "cited_by_count": 16838,
+          "topic": "Industrial organization",
+          "url": "papers/https-openalex-org-w1855283887.html"
+        },
+        {
+          "title": "Handbook of Industrial and Organizational Psychology.",
+          "year": "1977",
+          "cited_by_count": 12140,
+          "topic": "Industrial organization",
+          "url": "papers/https-openalex-org-w2045181804.html"
+        }
+      ]
+    },
+    {
+      "label": "Credit, interest, business cycle",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Harvard business review",
+          "year": "1994",
+          "cited_by_count": 46510,
+          "topic": "Credit, interest, business cycle",
+          "url": "papers/https-openalex-org-w4297081765.html"
+        },
+        {
+          "title": "Harvard business review",
+          "year": "1993",
+          "cited_by_count": 18342,
+          "topic": "Credit, interest, business cycle",
+          "url": "papers/https-openalex-org-w4301377693.html"
+        },
+        {
+          "title": "Harvard Business Review",
+          "year": "1988",
+          "cited_by_count": 18229,
+          "topic": "Credit, interest, business cycle",
+          "url": "papers/https-openalex-org-w1517701247.html"
+        },
+        {
+          "title": "Harvard business review",
+          "year": "1993",
+          "cited_by_count": 12114,
+          "topic": "Credit, interest, business cycle",
+          "url": "papers/https-openalex-org-w4298140396.html"
+        },
+        {
+          "title": "A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle",
+          "year": "1989",
+          "cited_by_count": 9546,
+          "topic": "Credit, interest, business cycle",
+          "url": "papers/https-openalex-org-w2074812030.html"
+        }
+      ]
+    },
+    {
+      "label": "Customer satisfaction",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Advances in Consumer Research",
+          "year": "2025",
+          "cited_by_count": 13461,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2902225836.html"
+        },
+        {
+          "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+          "year": "1985",
+          "cited_by_count": 17168,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2026368098.html"
+        },
+        {
+          "title": "",
+          "year": "2009",
+          "cited_by_count": 10595,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w3122877168.html"
+        },
+        {
+          "title": "Understanding Customer Experience Throughout the Customer Journey",
+          "year": "2016",
+          "cited_by_count": 4938,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w2422895071.html"
+        },
+        {
+          "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+          "year": "1985",
+          "cited_by_count": 9893,
+          "topic": "Customer satisfaction",
+          "url": "papers/https-openalex-org-w4240969601.html"
+        }
+      ]
+    },
+    {
+      "label": "International business",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Journal of Small Business Management",
+          "year": "2020",
+          "cited_by_count": 6684,
+          "topic": "International business",
+          "url": "papers/https-openalex-org-w4243174206.html"
+        },
+        {
+          "title": "The Social Responsibility of Business Is to Increase Its Profits",
+          "year": "2007",
+          "cited_by_count": 11639,
+          "topic": "International business",
+          "url": "papers/https-openalex-org-w2177756622.html"
+        },
+        {
+          "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+          "year": "1977",
+          "cited_by_count": 10785,
+          "topic": "International business",
+          "url": "papers/https-openalex-org-w1990631438.html"
+        },
+        {
+          "title": "International Journal of Business and Social Science",
+          "year": "2018",
+          "cited_by_count": 4292,
+          "topic": "International business",
+          "url": "papers/https-openalex-org-w4288076309.html"
+        }
+      ]
+    },
+    {
+      "label": "Business models",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Business Model Generation : A Handbook for Visionaries, Game Changers, and Challengers",
+          "year": "2010",
+          "cited_by_count": 6949,
+          "topic": "Business models",
+          "url": "papers/https-openalex-org-w279724836.html"
+        },
+        {
+          "title": "Business Intelligence and Analytics: From Big Data to Big Impact",
+          "year": "2012",
+          "cited_by_count": 5915,
+          "topic": "Business models",
+          "url": "papers/https-openalex-org-w2141975087.html"
+        },
+        {
+          "title": "4 What Is Web 2.0? Design Patterns and Business Models for the Next Generation of Software",
+          "year": "2012",
+          "cited_by_count": 5659,
+          "topic": "Business models",
+          "url": "papers/https-openalex-org-w1886337131.html"
+        }
+      ]
+    },
+    {
+      "label": "Supply chain management",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Conceptualizing the circular economy: An analysis of 114 definitions",
+          "year": "2017",
+          "cited_by_count": 7275,
+          "topic": "Supply chain management",
+          "url": "papers/https-openalex-org-w2756283300.html"
+        },
+        {
+          "title": "Competitive Advantage: Creating and Sustaining Superior Performance",
+          "year": "1985",
+          "cited_by_count": 14818,
+          "topic": "Supply chain management",
+          "url": "papers/https-openalex-org-w3149395617.html"
+        },
+        {
+          "title": "Business Dynamics: Systems Thinking and Modeling for a Complex World",
+          "year": "2000",
+          "cited_by_count": 9489,
+          "topic": "Supply chain management",
+          "url": "papers/https-openalex-org-w2988934653.html"
+        }
+      ]
+    },
+    {
+      "label": "Business management",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "African Journal of Business Management",
+          "year": "2026",
+          "cited_by_count": 4222,
+          "topic": "Business management",
+          "url": "papers/https-openalex-org-w4243838916.html"
+        },
+        {
+          "title": "“Options, Futures, and Other Derivatives”",
+          "year": "2016",
+          "cited_by_count": 5155,
+          "topic": "Business management",
+          "url": "papers/https-openalex-org-w1571438983.html"
+        }
+      ]
+    },
+    {
+      "label": "Strategic management",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Strategic management a stakeholder approach",
+          "year": "1984",
+          "cited_by_count": 23419,
+          "topic": "Strategic management",
+          "url": "papers/https-openalex-org-w2047735993.html"
+        },
+        {
+          "title": "Cannibals with forks: the triple bottom line of 21st century business",
+          "year": "1999",
+          "cited_by_count": 9091,
+          "topic": "Strategic management",
+          "url": "papers/https-openalex-org-w1492039495.html"
+        }
+      ]
+    },
+    {
+      "label": "Business development",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Business Models, Business Strategy and Innovation",
+          "year": "2009",
+          "cited_by_count": 7953,
+          "topic": "Business development",
+          "url": "papers/https-openalex-org-w2140699752.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2902225836",
+      "title": "Advances in Consumer Research",
+      "year": 2025,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 13461.0,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/business/papers/W2902225836"
+    },
+    {
+      "source_id": "https://openalex.org/W4297081765",
+      "title": "Harvard business review",
+      "year": 1994,
+      "cited_by_count": 46510,
+      "adjusted_cited_by_count": 8221.88,
+      "primary_topic_id": "sg-credit-interest-business-cycle",
+      "primary_topic_label": "Credit, interest, business cycle",
+      "url": "/domains/business/papers/W4297081765"
+    },
+    {
+      "source_id": "https://openalex.org/W2061977616",
+      "title": "Firm resources and sustained competitive advantage",
+      "year": 2004,
+      "cited_by_count": 38498,
+      "adjusted_cited_by_count": 8207.8,
+      "primary_topic_id": "sg-industrial-organization",
+      "primary_topic_label": "Industrial organization",
+      "url": "/domains/business/papers/W2061977616"
+    },
+    {
+      "source_id": "https://openalex.org/W3124536214",
+      "title": "Firm Resources and Sustained Competitive Advantage",
+      "year": 1991,
+      "cited_by_count": 44230,
+      "adjusted_cited_by_count": 7476.23,
+      "primary_topic_id": "sg-industrial-organization",
+      "primary_topic_label": "Industrial organization",
+      "url": "/domains/business/papers/W3124536214"
+    },
+    {
+      "source_id": "https://openalex.org/W2123709218",
+      "title": "Dynamic capabilities and strategic management",
+      "year": 1997,
+      "cited_by_count": 30601,
+      "adjusted_cited_by_count": 5682.46,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2123709218"
+    },
+    {
+      "source_id": "https://openalex.org/W4243838916",
+      "title": "African Journal of Business Management",
+      "year": 2026,
+      "cited_by_count": 4222,
+      "adjusted_cited_by_count": 4222.0,
+      "primary_topic_id": "sg-business-management",
+      "primary_topic_label": "Business management",
+      "url": "/domains/business/papers/W4243838916"
+    },
+    {
+      "source_id": "https://openalex.org/W2047735993",
+      "title": "Strategic management a stakeholder approach",
+      "year": 1984,
+      "cited_by_count": 23419,
+      "adjusted_cited_by_count": 3613.63,
+      "primary_topic_id": "sg-strategic-management",
+      "primary_topic_label": "Strategic management",
+      "url": "/domains/business/papers/W2047735993"
+    },
+    {
+      "source_id": "https://openalex.org/W2164284962",
+      "title": "Exploration and Exploitation in Organizational Learning",
+      "year": 1991,
+      "cited_by_count": 21021,
+      "adjusted_cited_by_count": 3553.2,
+      "primary_topic_id": "sg-industrial-organization",
+      "primary_topic_label": "Industrial organization",
+      "url": "/domains/business/papers/W2164284962"
+    },
+    {
+      "source_id": "https://openalex.org/W2101157755",
+      "title": "The fifth discipline, the art and practice of the learning organization",
+      "year": 1991,
+      "cited_by_count": 20167,
+      "adjusted_cited_by_count": 3408.85,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2101157755"
+    },
+    {
+      "source_id": "https://openalex.org/W2169667133",
+      "title": "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance",
+      "year": 2007,
+      "cited_by_count": 14120,
+      "adjusted_cited_by_count": 3239.35,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2169667133"
+    },
+    {
+      "source_id": "https://openalex.org/W4301377693",
+      "title": "Harvard business review",
+      "year": 1993,
+      "cited_by_count": 18342,
+      "adjusted_cited_by_count": 3192.93,
+      "primary_topic_id": "sg-credit-interest-business-cycle",
+      "primary_topic_label": "Credit, interest, business cycle",
+      "url": "/domains/business/papers/W4301377693"
+    },
+    {
+      "source_id": "https://openalex.org/W2140918013",
+      "title": "Cultures and Organizations: Software of the Mind.",
+      "year": 1993,
+      "cited_by_count": 17875,
+      "adjusted_cited_by_count": 3111.64,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2140918013"
+    },
+    {
+      "source_id": "https://openalex.org/W1517701247",
+      "title": "Harvard Business Review",
+      "year": 1988,
+      "cited_by_count": 18229,
+      "adjusted_cited_by_count": 2957.13,
+      "primary_topic_id": "sg-credit-interest-business-cycle",
+      "primary_topic_label": "Credit, interest, business cycle",
+      "url": "/domains/business/papers/W1517701247"
+    },
+    {
+      "source_id": "https://openalex.org/W2089402107",
+      "title": "Dynamic capabilities: what are they?",
+      "year": 2000,
+      "cited_by_count": 14263,
+      "adjusted_cited_by_count": 2797.2,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2089402107"
+    },
+    {
+      "source_id": "https://openalex.org/W3121131820",
+      "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+      "year": 1986,
+      "cited_by_count": 17576,
+      "adjusted_cited_by_count": 2779.01,
+      "primary_topic_id": "sg-industrial-organization",
+      "primary_topic_label": "Industrial organization",
+      "url": "/domains/business/papers/W3121131820"
+    },
+    {
+      "source_id": "https://openalex.org/W4243174206",
+      "title": "Journal of Small Business Management",
+      "year": 2020,
+      "cited_by_count": 6684,
+      "adjusted_cited_by_count": 2728.73,
+      "primary_topic_id": "sg-international-business",
+      "primary_topic_label": "International business",
+      "url": "/domains/business/papers/W4243174206"
+    },
+    {
+      "source_id": "https://openalex.org/W2026368098",
+      "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+      "year": 1985,
+      "cited_by_count": 17168,
+      "adjusted_cited_by_count": 2681.19,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/business/papers/W2026368098"
+    },
+    {
+      "source_id": "https://openalex.org/W2177756622",
+      "title": "The Social Responsibility of Business Is to Increase Its Profits",
+      "year": 2007,
+      "cited_by_count": 11639,
+      "adjusted_cited_by_count": 2670.17,
+      "primary_topic_id": "sg-international-business",
+      "primary_topic_label": "International business",
+      "url": "/domains/business/papers/W2177756622"
+    },
+    {
+      "source_id": "https://openalex.org/W3122877168",
+      "title": "https://openalex.org/W3122877168",
+      "year": 2009,
+      "cited_by_count": 10595,
+      "adjusted_cited_by_count": 2569.66,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/business/papers/W3122877168"
+    },
+    {
+      "source_id": "https://openalex.org/W1855283887",
+      "title": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+      "year": 1980,
+      "cited_by_count": 16838,
+      "adjusted_cited_by_count": 2482.63,
+      "primary_topic_id": "sg-industrial-organization",
+      "primary_topic_label": "Industrial organization",
+      "url": "/domains/business/papers/W1855283887"
+    },
+    {
+      "source_id": "https://openalex.org/W2756283300",
+      "title": "Conceptualizing the circular economy: An analysis of 114 definitions",
+      "year": 2017,
+      "cited_by_count": 7275,
+      "adjusted_cited_by_count": 2425.0,
+      "primary_topic_id": "sg-supply-chain",
+      "primary_topic_label": "Supply chain management",
+      "url": "/domains/business/papers/W2756283300"
+    },
+    {
+      "source_id": "https://openalex.org/W3149395617",
+      "title": "Competitive Advantage: Creating and Sustaining Superior Performance",
+      "year": 1985,
+      "cited_by_count": 14818,
+      "adjusted_cited_by_count": 2314.18,
+      "primary_topic_id": "sg-supply-chain",
+      "primary_topic_label": "Supply chain management",
+      "url": "/domains/business/papers/W3149395617"
+    },
+    {
+      "source_id": "https://openalex.org/W2116006659",
+      "title": "The Promise of Entrepreneurship as a Field of Research",
+      "year": 2000,
+      "cited_by_count": 11054,
+      "adjusted_cited_by_count": 2167.87,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2116006659"
+    },
+    {
+      "source_id": "https://openalex.org/W4298140396",
+      "title": "Harvard business review",
+      "year": 1993,
+      "cited_by_count": 12114,
+      "adjusted_cited_by_count": 2108.78,
+      "primary_topic_id": "sg-credit-interest-business-cycle",
+      "primary_topic_label": "Credit, interest, business cycle",
+      "url": "/domains/business/papers/W4298140396"
+    },
+    {
+      "source_id": "https://openalex.org/W2118639955",
+      "title": "Working knowledge: how organizations manage what they know",
+      "year": 1998,
+      "cited_by_count": 10881,
+      "adjusted_cited_by_count": 2056.32,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W2118639955"
+    },
+    {
+      "source_id": "https://openalex.org/W2140699752",
+      "title": "Business Models, Business Strategy and Innovation",
+      "year": 2009,
+      "cited_by_count": 7953,
+      "adjusted_cited_by_count": 1928.89,
+      "primary_topic_id": "sg-business-development",
+      "primary_topic_label": "Business development",
+      "url": "/domains/business/papers/W2140699752"
+    },
+    {
+      "source_id": "https://openalex.org/W2988934653",
+      "title": "Business Dynamics: Systems Thinking and Modeling for a Complex World",
+      "year": 2000,
+      "cited_by_count": 9489,
+      "adjusted_cited_by_count": 1860.95,
+      "primary_topic_id": "sg-supply-chain",
+      "primary_topic_label": "Supply chain management",
+      "url": "/domains/business/papers/W2988934653"
+    },
+    {
+      "source_id": "https://openalex.org/W1492039495",
+      "title": "Cannibals with forks: the triple bottom line of 21st century business",
+      "year": 1999,
+      "cited_by_count": 9091,
+      "adjusted_cited_by_count": 1749.56,
+      "primary_topic_id": "sg-strategic-management",
+      "primary_topic_label": "Strategic management",
+      "url": "/domains/business/papers/W1492039495"
+    },
+    {
+      "source_id": "https://openalex.org/W279724836",
+      "title": "Business Model Generation : A Handbook for Visionaries, Game Changers, and Challengers",
+      "year": 2010,
+      "cited_by_count": 6949,
+      "adjusted_cited_by_count": 1737.25,
+      "primary_topic_id": "sg-business-models",
+      "primary_topic_label": "Business models",
+      "url": "/domains/business/papers/W279724836"
+    },
+    {
+      "source_id": "https://openalex.org/W2045181804",
+      "title": "Handbook of Industrial and Organizational Psychology.",
+      "year": 1977,
+      "cited_by_count": 12140,
+      "adjusted_cited_by_count": 1734.29,
+      "primary_topic_id": "sg-industrial-organization",
+      "primary_topic_label": "Industrial organization",
+      "url": "/domains/business/papers/W2045181804"
+    },
+    {
+      "source_id": "https://openalex.org/W39941679",
+      "title": "Strategy and society: the link between competitive advantage and corporate social responsibility",
+      "year": 2007,
+      "cited_by_count": 7478,
+      "adjusted_cited_by_count": 1715.57,
+      "primary_topic_id": "sg-competitive-advantage",
+      "primary_topic_label": "Competitive advantage",
+      "url": "/domains/business/papers/W39941679"
+    },
+    {
+      "source_id": "https://openalex.org/W1571438983",
+      "title": "“Options, Futures, and Other Derivatives”",
+      "year": 2016,
+      "cited_by_count": 5155,
+      "adjusted_cited_by_count": 1630.15,
+      "primary_topic_id": "sg-business-management",
+      "primary_topic_label": "Business management",
+      "url": "/domains/business/papers/W1571438983"
+    },
+    {
+      "source_id": "https://openalex.org/W2141975087",
+      "title": "Business Intelligence and Analytics: From Big Data to Big Impact",
+      "year": 2012,
+      "cited_by_count": 5915,
+      "adjusted_cited_by_count": 1580.85,
+      "primary_topic_id": "sg-business-models",
+      "primary_topic_label": "Business models",
+      "url": "/domains/business/papers/W2141975087"
+    },
+    {
+      "source_id": "https://openalex.org/W2074812030",
+      "title": "A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle",
+      "year": 1989,
+      "cited_by_count": 9546,
+      "adjusted_cited_by_count": 1569.35,
+      "primary_topic_id": "sg-credit-interest-business-cycle",
+      "primary_topic_label": "Credit, interest, business cycle",
+      "url": "/domains/business/papers/W2074812030"
+    },
+    {
+      "source_id": "https://openalex.org/W2422895071",
+      "title": "Understanding Customer Experience Throughout the Customer Journey",
+      "year": 2016,
+      "cited_by_count": 4938,
+      "adjusted_cited_by_count": 1561.53,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/business/papers/W2422895071"
+    },
+    {
+      "source_id": "https://openalex.org/W4240969601",
+      "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+      "year": 1985,
+      "cited_by_count": 9893,
+      "adjusted_cited_by_count": 1545.03,
+      "primary_topic_id": "sg-customer-satisfaction",
+      "primary_topic_label": "Customer satisfaction",
+      "url": "/domains/business/papers/W4240969601"
+    },
+    {
+      "source_id": "https://openalex.org/W1990631438",
+      "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+      "year": 1977,
+      "cited_by_count": 10785,
+      "adjusted_cited_by_count": 1540.71,
+      "primary_topic_id": "sg-international-business",
+      "primary_topic_label": "International business",
+      "url": "/domains/business/papers/W1990631438"
+    },
+    {
+      "source_id": "https://openalex.org/W1955934323",
+      "title": "The balanced scorecard: Translating strategy into action",
+      "year": 1997,
+      "cited_by_count": 8287,
+      "adjusted_cited_by_count": 1538.86,
+      "primary_topic_id": "sg-knowledge-management",
+      "primary_topic_label": "Knowledge management",
+      "url": "/domains/business/papers/W1955934323"
+    },
+    {
+      "source_id": "https://openalex.org/W4288076309",
+      "title": "International Journal of Business and Social Science",
+      "year": 2018,
+      "cited_by_count": 4292,
+      "adjusted_cited_by_count": 1517.45,
+      "primary_topic_id": "sg-international-business",
+      "primary_topic_label": "International business",
+      "url": "/domains/business/papers/W4288076309"
+    },
+    {
+      "source_id": "https://openalex.org/W1886337131",
+      "title": "4 What Is Web 2.0? Design Patterns and Business Models for the Next Generation of Software",
+      "year": 2012,
+      "cited_by_count": 5659,
+      "adjusted_cited_by_count": 1512.43,
+      "primary_topic_id": "sg-business-models",
+      "primary_topic_label": "Business models",
+      "url": "/domains/business/papers/W1886337131"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2902225836",
+      "title": "Advances in Consumer Research",
+      "year": 2025,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 13461.0,
+      "url": "/domains/business/papers/W2902225836"
+    },
+    {
+      "source_id": "https://openalex.org/W4297081765",
+      "title": "Harvard business review",
+      "year": 1994,
+      "cited_by_count": 46510,
+      "adjusted_cited_by_count": 8221.88,
+      "url": "/domains/business/papers/W4297081765"
+    },
+    {
+      "source_id": "https://openalex.org/W2061977616",
+      "title": "Firm resources and sustained competitive advantage",
+      "year": 2004,
+      "cited_by_count": 38498,
+      "adjusted_cited_by_count": 8207.8,
+      "url": "/domains/business/papers/W2061977616"
+    },
+    {
+      "source_id": "https://openalex.org/W3124536214",
+      "title": "Firm Resources and Sustained Competitive Advantage",
+      "year": 1991,
+      "cited_by_count": 44230,
+      "adjusted_cited_by_count": 7476.23,
+      "url": "/domains/business/papers/W3124536214"
+    },
+    {
+      "source_id": "https://openalex.org/W2123709218",
+      "title": "Dynamic capabilities and strategic management",
+      "year": 1997,
+      "cited_by_count": 30601,
+      "adjusted_cited_by_count": 5682.46,
+      "url": "/domains/business/papers/W2123709218"
+    },
+    {
+      "source_id": "https://openalex.org/W4243838916",
+      "title": "African Journal of Business Management",
+      "year": 2026,
+      "cited_by_count": 4222,
+      "adjusted_cited_by_count": 4222.0,
+      "url": "/domains/business/papers/W4243838916"
+    },
+    {
+      "source_id": "https://openalex.org/W2047735993",
+      "title": "Strategic management a stakeholder approach",
+      "year": 1984,
+      "cited_by_count": 23419,
+      "adjusted_cited_by_count": 3613.63,
+      "url": "/domains/business/papers/W2047735993"
+    },
+    {
+      "source_id": "https://openalex.org/W2164284962",
+      "title": "Exploration and Exploitation in Organizational Learning",
+      "year": 1991,
+      "cited_by_count": 21021,
+      "adjusted_cited_by_count": 3553.2,
+      "url": "/domains/business/papers/W2164284962"
+    },
+    {
+      "source_id": "https://openalex.org/W2101157755",
+      "title": "The fifth discipline, the art and practice of the learning organization",
+      "year": 1991,
+      "cited_by_count": 20167,
+      "adjusted_cited_by_count": 3408.85,
+      "url": "/domains/business/papers/W2101157755"
+    },
+    {
+      "source_id": "https://openalex.org/W2169667133",
+      "title": "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance",
+      "year": 2007,
+      "cited_by_count": 14120,
+      "adjusted_cited_by_count": 3239.35,
+      "url": "/domains/business/papers/W2169667133"
+    },
+    {
+      "source_id": "https://openalex.org/W4301377693",
+      "title": "Harvard business review",
+      "year": 1993,
+      "cited_by_count": 18342,
+      "adjusted_cited_by_count": 3192.93,
+      "url": "/domains/business/papers/W4301377693"
+    },
+    {
+      "source_id": "https://openalex.org/W2140918013",
+      "title": "Cultures and Organizations: Software of the Mind.",
+      "year": 1993,
+      "cited_by_count": 17875,
+      "adjusted_cited_by_count": 3111.64,
+      "url": "/domains/business/papers/W2140918013"
+    },
+    {
+      "source_id": "https://openalex.org/W1517701247",
+      "title": "Harvard Business Review",
+      "year": 1988,
+      "cited_by_count": 18229,
+      "adjusted_cited_by_count": 2957.13,
+      "url": "/domains/business/papers/W1517701247"
+    },
+    {
+      "source_id": "https://openalex.org/W2089402107",
+      "title": "Dynamic capabilities: what are they?",
+      "year": 2000,
+      "cited_by_count": 14263,
+      "adjusted_cited_by_count": 2797.2,
+      "url": "/domains/business/papers/W2089402107"
+    },
+    {
+      "source_id": "https://openalex.org/W3121131820",
+      "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+      "year": 1986,
+      "cited_by_count": 17576,
+      "adjusted_cited_by_count": 2779.01,
+      "url": "/domains/business/papers/W3121131820"
+    },
+    {
+      "source_id": "https://openalex.org/W4243174206",
+      "title": "Journal of Small Business Management",
+      "year": 2020,
+      "cited_by_count": 6684,
+      "adjusted_cited_by_count": 2728.73,
+      "url": "/domains/business/papers/W4243174206"
+    },
+    {
+      "source_id": "https://openalex.org/W2026368098",
+      "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+      "year": 1985,
+      "cited_by_count": 17168,
+      "adjusted_cited_by_count": 2681.19,
+      "url": "/domains/business/papers/W2026368098"
+    },
+    {
+      "source_id": "https://openalex.org/W2177756622",
+      "title": "The Social Responsibility of Business Is to Increase Its Profits",
+      "year": 2007,
+      "cited_by_count": 11639,
+      "adjusted_cited_by_count": 2670.17,
+      "url": "/domains/business/papers/W2177756622"
+    },
+    {
+      "source_id": "https://openalex.org/W3122877168",
+      "title": "https://openalex.org/W3122877168",
+      "year": 2009,
+      "cited_by_count": 10595,
+      "adjusted_cited_by_count": 2569.66,
+      "url": "/domains/business/papers/W3122877168"
+    },
+    {
+      "source_id": "https://openalex.org/W1855283887",
+      "title": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+      "year": 1980,
+      "cited_by_count": 16838,
+      "adjusted_cited_by_count": 2482.63,
+      "url": "/domains/business/papers/W1855283887"
+    },
+    {
+      "source_id": "https://openalex.org/W2756283300",
+      "title": "Conceptualizing the circular economy: An analysis of 114 definitions",
+      "year": 2017,
+      "cited_by_count": 7275,
+      "adjusted_cited_by_count": 2425.0,
+      "url": "/domains/business/papers/W2756283300"
+    },
+    {
+      "source_id": "https://openalex.org/W3149395617",
+      "title": "Competitive Advantage: Creating and Sustaining Superior Performance",
+      "year": 1985,
+      "cited_by_count": 14818,
+      "adjusted_cited_by_count": 2314.18,
+      "url": "/domains/business/papers/W3149395617"
+    },
+    {
+      "source_id": "https://openalex.org/W2116006659",
+      "title": "The Promise of Entrepreneurship as a Field of Research",
+      "year": 2000,
+      "cited_by_count": 11054,
+      "adjusted_cited_by_count": 2167.87,
+      "url": "/domains/business/papers/W2116006659"
+    },
+    {
+      "source_id": "https://openalex.org/W4298140396",
+      "title": "Harvard business review",
+      "year": 1993,
+      "cited_by_count": 12114,
+      "adjusted_cited_by_count": 2108.78,
+      "url": "/domains/business/papers/W4298140396"
+    },
+    {
+      "source_id": "https://openalex.org/W2118639955",
+      "title": "Working knowledge: how organizations manage what they know",
+      "year": 1998,
+      "cited_by_count": 10881,
+      "adjusted_cited_by_count": 2056.32,
+      "url": "/domains/business/papers/W2118639955"
+    },
+    {
+      "source_id": "https://openalex.org/W2140699752",
+      "title": "Business Models, Business Strategy and Innovation",
+      "year": 2009,
+      "cited_by_count": 7953,
+      "adjusted_cited_by_count": 1928.89,
+      "url": "/domains/business/papers/W2140699752"
+    },
+    {
+      "source_id": "https://openalex.org/W2988934653",
+      "title": "Business Dynamics: Systems Thinking and Modeling for a Complex World",
+      "year": 2000,
+      "cited_by_count": 9489,
+      "adjusted_cited_by_count": 1860.95,
+      "url": "/domains/business/papers/W2988934653"
+    },
+    {
+      "source_id": "https://openalex.org/W1492039495",
+      "title": "Cannibals with forks: the triple bottom line of 21st century business",
+      "year": 1999,
+      "cited_by_count": 9091,
+      "adjusted_cited_by_count": 1749.56,
+      "url": "/domains/business/papers/W1492039495"
+    },
+    {
+      "source_id": "https://openalex.org/W279724836",
+      "title": "Business Model Generation : A Handbook for Visionaries, Game Changers, and Challengers",
+      "year": 2010,
+      "cited_by_count": 6949,
+      "adjusted_cited_by_count": 1737.25,
+      "url": "/domains/business/papers/W279724836"
+    },
+    {
+      "source_id": "https://openalex.org/W2045181804",
+      "title": "Handbook of Industrial and Organizational Psychology.",
+      "year": 1977,
+      "cited_by_count": 12140,
+      "adjusted_cited_by_count": 1734.29,
+      "url": "/domains/business/papers/W2045181804"
+    },
+    {
+      "source_id": "https://openalex.org/W39941679",
+      "title": "Strategy and society: the link between competitive advantage and corporate social responsibility",
+      "year": 2007,
+      "cited_by_count": 7478,
+      "adjusted_cited_by_count": 1715.57,
+      "url": "/domains/business/papers/W39941679"
+    },
+    {
+      "source_id": "https://openalex.org/W1571438983",
+      "title": "“Options, Futures, and Other Derivatives”",
+      "year": 2016,
+      "cited_by_count": 5155,
+      "adjusted_cited_by_count": 1630.15,
+      "url": "/domains/business/papers/W1571438983"
+    },
+    {
+      "source_id": "https://openalex.org/W2141975087",
+      "title": "Business Intelligence and Analytics: From Big Data to Big Impact",
+      "year": 2012,
+      "cited_by_count": 5915,
+      "adjusted_cited_by_count": 1580.85,
+      "url": "/domains/business/papers/W2141975087"
+    },
+    {
+      "source_id": "https://openalex.org/W2074812030",
+      "title": "A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle",
+      "year": 1989,
+      "cited_by_count": 9546,
+      "adjusted_cited_by_count": 1569.35,
+      "url": "/domains/business/papers/W2074812030"
+    },
+    {
+      "source_id": "https://openalex.org/W2422895071",
+      "title": "Understanding Customer Experience Throughout the Customer Journey",
+      "year": 2016,
+      "cited_by_count": 4938,
+      "adjusted_cited_by_count": 1561.53,
+      "url": "/domains/business/papers/W2422895071"
+    },
+    {
+      "source_id": "https://openalex.org/W4240969601",
+      "title": "A Conceptual Model of Service Quality and Its Implications for Future Research",
+      "year": 1985,
+      "cited_by_count": 9893,
+      "adjusted_cited_by_count": 1545.03,
+      "url": "/domains/business/papers/W4240969601"
+    },
+    {
+      "source_id": "https://openalex.org/W1990631438",
+      "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+      "year": 1977,
+      "cited_by_count": 10785,
+      "adjusted_cited_by_count": 1540.71,
+      "url": "/domains/business/papers/W1990631438"
+    },
+    {
+      "source_id": "https://openalex.org/W1955934323",
+      "title": "The balanced scorecard: Translating strategy into action",
+      "year": 1997,
+      "cited_by_count": 8287,
+      "adjusted_cited_by_count": 1538.86,
+      "url": "/domains/business/papers/W1955934323"
+    },
+    {
+      "source_id": "https://openalex.org/W4288076309",
+      "title": "International Journal of Business and Social Science",
+      "year": 2018,
+      "cited_by_count": 4292,
+      "adjusted_cited_by_count": 1517.45,
+      "url": "/domains/business/papers/W4288076309"
+    },
+    {
+      "source_id": "https://openalex.org/W1886337131",
+      "title": "4 What Is Web 2.0? Design Patterns and Business Models for the Next Generation of Software",
+      "year": 2012,
+      "cited_by_count": 5659,
+      "adjusted_cited_by_count": 1512.43,
+      "url": "/domains/business/papers/W1886337131"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "business",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 254
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 187
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 187
+    },
+    {
+      "label": "marketing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 154
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 126
+    },
+    {
+      "label": "our",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 117
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "firms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 95
+    },
+    {
+      "label": "industrial organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 95
+    },
+    {
+      "label": "market economy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 92
+    },
+    {
+      "label": "knowledge management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "finance",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 79
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "value",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "economic growth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "product",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "they",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "strategy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "view",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "competitive advantage",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "corporate governance",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "organizational",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "concept",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "triple bottom line",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 2
+    },
+    {
+      "label": "strategic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 49
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 48
+    },
+    {
+      "label": "company",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 48
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 59
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 47
+    },
+    {
+      "label": "process management",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 46
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 44
+    },
+    {
+      "label": "through",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 43
+    },
+    {
+      "label": "microeconomics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 42
+    },
+    {
+      "label": "information technology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 41
+    },
+    {
+      "label": "of business",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 41
+    },
+    {
+      "label": "relations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 41
+    },
+    {
+      "label": "than",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 41
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 44
+    }
+  ],
+  "topic_year_counts": {
+    "knowledge management": {
+      "2025": 695456,
+      "2023": 689234,
+      "2024": 685553,
+      "2022": 477003,
+      "2021": 427772,
+      "2020": 389859,
+      "2019": 310725,
+      "2018": 273868,
+      "2017": 240029,
+      "2016": 217285,
+      "2015": 196870,
+      "2014": 177277,
+      "2026": 161631,
+      "2013": 154968,
+      "2012": 134516,
+      "2011": 116068,
+      "2010": 98326,
+      "2009": 85528,
+      "2008": 70993,
+      "2007": 61581,
+      "2006": 55016,
+      "2005": 47737,
+      "2004": 41142,
+      "2003": 35344,
+      "2002": 29829,
+      "2000": 25773,
+      "2001": 24422
+    },
+    "customer satisfaction": {
+      "2025": 85611,
+      "2024": 79287,
+      "2023": 73633,
+      "2022": 49935,
+      "2021": 42165,
+      "2020": 39726,
+      "2019": 35204,
+      "2018": 30525,
+      "2017": 26317,
+      "2016": 23991,
+      "2015": 21796,
+      "2014": 19920,
+      "2013": 17818,
+      "2026": 16855,
+      "2012": 15399,
+      "2011": 13588,
+      "2010": 11225,
+      "2009": 9448,
+      "2008": 7699,
+      "2007": 6603,
+      "2006": 5831,
+      "2005": 4829,
+      "2004": 4626,
+      "2003": 3655,
+      "2002": 3133,
+      "2000": 2781,
+      "2001": 2631
+    },
+    "industrial organization": {
+      "2023": 208145,
+      "2025": 203512,
+      "2024": 198629,
+      "2022": 148964,
+      "2021": 131573,
+      "2020": 120453,
+      "2019": 98679,
+      "2018": 86447,
+      "2017": 74830,
+      "2016": 68319,
+      "2015": 62423,
+      "2014": 57359,
+      "2013": 50232,
+      "2026": 45518,
+      "2012": 45083,
+      "2011": 39231,
+      "2010": 34176,
+      "2009": 30154,
+      "2008": 24582,
+      "2007": 21473,
+      "2006": 19574,
+      "2005": 16862,
+      "2004": 14629,
+      "2003": 12518,
+      "2002": 10870,
+      "2000": 9388,
+      "2001": 9026
+    },
+    "credit, interest, business cycle": {
+      "2024": 22829,
+      "2025": 22677,
+      "2023": 22086,
+      "2022": 16455,
+      "2020": 15643,
+      "2021": 15595,
+      "2019": 14425,
+      "2018": 13653,
+      "2017": 13055,
+      "2016": 12284,
+      "2015": 11365,
+      "2014": 10470,
+      "2013": 9496,
+      "2012": 8646,
+      "2011": 7913,
+      "2010": 7290,
+      "2009": 6517,
+      "2026": 5415,
+      "2008": 5121,
+      "2007": 4328,
+      "2006": 4233,
+      "2005": 3495,
+      "2004": 3338,
+      "2003": 2700,
+      "2002": 2193,
+      "2000": 2014,
+      "2001": 1814
+    },
+    "business models": {
+      "2025": 473105,
+      "2023": 453943,
+      "2024": 440243,
+      "2022": 320488,
+      "2021": 289413,
+      "2020": 267975,
+      "2019": 223178,
+      "2018": 199332,
+      "2017": 173881,
+      "2016": 157475,
+      "2015": 141224,
+      "2014": 125751,
+      "2013": 110727,
+      "2026": 102458,
+      "2012": 98151,
+      "2011": 88096,
+      "2010": 75455,
+      "2009": 65898,
+      "2008": 54558,
+      "2007": 47809,
+      "2006": 42406,
+      "2005": 36772,
+      "2004": 31545,
+      "2003": 27059,
+      "2002": 22942,
+      "2000": 18938,
+      "2001": 18583
+    },
+    "international business": {
+      "2025": 444497,
+      "2023": 443786,
+      "2024": 424489,
+      "2022": 311022,
+      "2021": 277288,
+      "2020": 251354,
+      "2019": 206503,
+      "2018": 183763,
+      "2017": 158164,
+      "2016": 142572,
+      "2015": 126247,
+      "2014": 111609,
+      "2013": 96382,
+      "2026": 91995,
+      "2012": 83957,
+      "2011": 72658,
+      "2010": 62862,
+      "2009": 54801,
+      "2008": 45603,
+      "2007": 39472,
+      "2006": 34913,
+      "2005": 30018,
+      "2004": 25815,
+      "2003": 22301,
+      "2002": 18690,
+      "2000": 15785,
+      "2001": 15683
+    },
+    "supply chain management": {
+      "2025": 157851,
+      "2024": 137410,
+      "2023": 131023,
+      "2022": 88274,
+      "2021": 76329,
+      "2020": 67439,
+      "2019": 53497,
+      "2018": 46736,
+      "2017": 40249,
+      "2026": 38544,
+      "2016": 36520,
+      "2015": 33104,
+      "2014": 30382,
+      "2013": 26914,
+      "2012": 24227,
+      "2011": 20965,
+      "2010": 18198,
+      "2009": 15916,
+      "2008": 13131,
+      "2007": 11370,
+      "2006": 10254,
+      "2005": 8676,
+      "2004": 7516,
+      "2003": 6203,
+      "2002": 5236,
+      "2000": 4616,
+      "2001": 4208
+    },
+    "business management": {
+      "2025": 448289,
+      "2023": 417277,
+      "2024": 413943,
+      "2022": 294858,
+      "2021": 260300,
+      "2020": 239601,
+      "2019": 198694,
+      "2018": 177362,
+      "2017": 154228,
+      "2016": 139193,
+      "2015": 127394,
+      "2014": 114721,
+      "2013": 100889,
+      "2026": 94280,
+      "2012": 89201,
+      "2011": 79137,
+      "2010": 68172,
+      "2009": 58881,
+      "2008": 49202,
+      "2007": 42811,
+      "2006": 38854,
+      "2005": 34161,
+      "2004": 29322,
+      "2003": 25297,
+      "2002": 21915,
+      "2000": 17749,
+      "2001": 17654
+    },
+    "competitive advantage": {
+      "2025": 201325,
+      "2024": 184351,
+      "2023": 176813,
+      "2022": 117877,
+      "2021": 108209,
+      "2020": 101283,
+      "2019": 88041,
+      "2018": 79658,
+      "2017": 72208,
+      "2016": 66293,
+      "2015": 61375,
+      "2014": 56436,
+      "2013": 51440,
+      "2026": 50888,
+      "2012": 45529,
+      "2011": 40440,
+      "2010": 35033,
+      "2009": 31121,
+      "2008": 26153,
+      "2007": 22781,
+      "2006": 21064,
+      "2005": 18130,
+      "2004": 16035,
+      "2003": 13569,
+      "2002": 12101,
+      "2000": 10181,
+      "2001": 9825
+    },
+    "strategic management": {
+      "2025": 374427,
+      "2024": 282897,
+      "2023": 242675,
+      "2022": 164314,
+      "2021": 148015,
+      "2020": 137359,
+      "2019": 115774,
+      "2018": 102842,
+      "2026": 92577,
+      "2017": 90297,
+      "2016": 81126,
+      "2015": 74311,
+      "2014": 67650,
+      "2013": 59270,
+      "2012": 52036,
+      "2011": 46270,
+      "2010": 39563,
+      "2009": 34240,
+      "2008": 28465,
+      "2007": 24646,
+      "2006": 22112,
+      "2005": 19066,
+      "2004": 16767,
+      "2003": 13836,
+      "2002": 11866,
+      "2001": 9730,
+      "2000": 9309
+    },
+    "small business": {
+      "2023": 323046,
+      "2025": 301323,
+      "2024": 300829,
+      "2022": 229598,
+      "2021": 211481,
+      "2020": 201150,
+      "2019": 169387,
+      "2018": 153712,
+      "2017": 136752,
+      "2016": 126549,
+      "2015": 114332,
+      "2014": 101630,
+      "2013": 90181,
+      "2012": 80179,
+      "2011": 71493,
+      "2026": 66104,
+      "2010": 62041,
+      "2009": 54783,
+      "2008": 45575,
+      "2007": 40182,
+      "2006": 36202,
+      "2005": 32236,
+      "2004": 27817,
+      "2003": 24072,
+      "2002": 20578,
+      "2000": 18326,
+      "2001": 17449
+    },
+    "business development": {
+      "2025": 480923,
+      "2023": 469215,
+      "2024": 458990,
+      "2022": 331527,
+      "2021": 300454,
+      "2020": 279503,
+      "2019": 230558,
+      "2018": 205162,
+      "2017": 178645,
+      "2016": 161780,
+      "2015": 147375,
+      "2014": 130840,
+      "2013": 114843,
+      "2012": 101084,
+      "2026": 98856,
+      "2011": 89671,
+      "2010": 77189,
+      "2009": 67355,
+      "2008": 56227,
+      "2007": 49339,
+      "2006": 44257,
+      "2005": 38845,
+      "2004": 33183,
+      "2003": 28922,
+      "2002": 25498,
+      "2000": 21021,
+      "2001": 20698
+    }
+  }
+}

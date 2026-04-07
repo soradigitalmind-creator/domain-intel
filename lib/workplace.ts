@@ -93,7 +93,7 @@ export type TopicDetail = {
     top_entities: string[];
     top_properties: string[];
   };
-  children: Array<{ subgenre_id: string; label: string }>;
+  children: Array<{ subgenre_id: string; label: string; paperCount: number }>;
   /** Pre-computed ancestor breadcrumb (excludes current topic). */
   ancestorTrail: Array<{ href: string; label: string }>;
   /** Pre-computed grandchildren keyed by child subgenre_id. */
@@ -170,7 +170,7 @@ export type PortalCategory = {
   slug: string;
   description: string;
   count: number;
-  domains: Array<{ slug: string; title: string }>;
+  domains: Array<{ slug: string; title: string; sources?: number; topicCount?: number }>;
 };
 
 export type PortalData = {
@@ -290,8 +290,18 @@ export async function listPortalCategories(): Promise<PortalCategory[]> {
 }
 
 export async function getCategoryBySlug(categorySlug: string): Promise<PortalCategory | null> {
-  const cats = await listPortalCategories();
-  return cats.find((c) => c.slug === categorySlug) ?? null;
+  const portal = await getPortalData();
+  const cat = portal?.categories?.find((c) => c.slug === categorySlug);
+  if (!cat) return null;
+  const domainMap = new Map((portal?.domains ?? []).map((d) => [d.slug, d]));
+  return {
+    ...cat,
+    domains: cat.domains.map((d) => ({
+      ...d,
+      sources: domainMap.get(d.slug)?.sources,
+      topicCount: domainMap.get(d.slug)?.parent_subgenres,
+    })),
+  };
 }
 
 export async function listCategorySlugs(): Promise<string[]> {

@@ -50,6 +50,10 @@ export default async function CategoryPage({ params }: Props) {
             {category.domains.map((d) => (
               <Link key={d.slug} href={`/domains/${d.slug}`} className={styles.card}>
                 <strong className={styles.cardTitle}>{d.title}</strong>
+                <div className={styles.cardMeta}>
+                  {d.sources != null && <span>{d.sources.toLocaleString()} papers</span>}
+                  {d.topicCount != null && <span>{d.topicCount.toLocaleString()} topics</span>}
+                </div>
               </Link>
             ))}
           </div>

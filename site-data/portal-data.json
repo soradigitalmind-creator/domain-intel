@@ -1,16 +1,20 @@
 {
   "updated_at": "2026-04-03T11:33:24.389427Z",
-  "total_domains": 9,
+  "total_domains": 22,
   "categories": [
     {
       "label": "Life",
       "slug": "life",
       "description": "Includes biology, medicine, care, and living systems.",
-      "count": 3,
+      "count": 4,
       "domains": [
         {
           "slug": "biotechnology",
           "title": "Biotechnology"
+        },
+        {
+          "slug": "cancergenetics",
+          "title": "CancerGenetics"
         },
         {
           "slug": "microbiology",
@@ -46,11 +50,27 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 1,
+      "count": 5,
       "domains": [
+        {
+          "slug": "artificial-intelligence",
+          "title": "Artificial Intelligence"
+        },
+        {
+          "slug": "machine-learning",
+          "title": "Machine Learning"
+        },
         {
           "slug": "nanotechnology",
           "title": "Nanotechnology"
+        },
+        {
+          "slug": "robotics",
+          "title": "Robotics"
+        },
+        {
+          "slug": "sensors",
+          "title": "Sensors"
         }
       ]
     },
@@ -58,16 +78,168 @@
       "label": "Society",
       "slug": "society",
       "description": "Includes markets, behavior, institutions, and collective life.",
-      "count": 1,
+      "count": 9,
       "domains": [
+        {
+          "slug": "business",
+          "title": "Business"
+        },
+        {
+          "slug": "business-management",
+          "title": "Business Management"
+        },
+        {
+          "slug": "decision-sciences",
+          "title": "Decision Sciences"
+        },
+        {
+          "slug": "economics",
+          "title": "Economics"
+        },
+        {
+          "slug": "finance",
+          "title": "Finance"
+        },
+        {
+          "slug": "linguistics",
+          "title": "Linguistics"
+        },
         {
           "slug": "marketing",
           "title": "Marketing"
+        },
+        {
+          "slug": "philosophy",
+          "title": "Philosophy"
+        },
+        {
+          "slug": "psychology",
+          "title": "Psychology"
         }
       ]
     }
   ],
   "domains": [
+    {
+      "slug": "artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "sources": 560,
+      "effective_papers": 360,
+      "subgenres": 45,
+      "parent_subgenres": 7,
+      "child_subgenres": 37,
+      "entities": 1121,
+      "claims": 2,
+      "overview_source_ids": [
+        "https://openalex.org/W1128809682",
+        "https://openalex.org/W1608796453",
+        "https://openalex.org/W1641498739",
+        "https://openalex.org/W1901616594",
+        "https://openalex.org/W1943579973",
+        "https://openalex.org/W1966716734",
+        "https://openalex.org/W2019738489",
+        "https://openalex.org/W2083780116",
+        "https://openalex.org/W2099419573",
+        "https://openalex.org/W2099618002",
+        "https://openalex.org/W2100235918",
+        "https://openalex.org/W2114652055",
+        "https://openalex.org/W2125283600",
+        "https://openalex.org/W2137130182",
+        "https://openalex.org/W2147253850",
+        "https://openalex.org/W2150102617",
+        "https://openalex.org/W2159525276",
+        "https://openalex.org/W2165698076",
+        "https://openalex.org/W2171278097",
+        "https://openalex.org/W2260783129",
+        "https://openalex.org/W2338318698",
+        "https://openalex.org/W2395579298",
+        "https://openalex.org/W2472333518",
+        "https://openalex.org/W2561715562",
+        "https://openalex.org/W2581042172",
+        "https://openalex.org/W2604319603",
+        "https://openalex.org/W2619383789",
+        "https://openalex.org/W2740168486",
+        "https://openalex.org/W2747680751",
+        "https://openalex.org/W2891503716",
+        "https://openalex.org/W2896457183",
+        "https://openalex.org/W2936503027",
+        "https://openalex.org/W2944523811",
+        "https://openalex.org/W2951694401",
+        "https://openalex.org/W2954996726",
+        "https://openalex.org/W2958089299",
+        "https://openalex.org/W2958285686",
+        "https://openalex.org/W2962700793",
+        "https://openalex.org/W2962727772",
+        "https://openalex.org/W2962772482",
+        "https://openalex.org/W2962814013",
+        "https://openalex.org/W2964236337",
+        "https://openalex.org/W2964303497",
+        "https://openalex.org/W2969625533",
+        "https://openalex.org/W2972006294",
+        "https://openalex.org/W2988916019",
+        "https://openalex.org/W3023211159",
+        "https://openalex.org/W3037109418",
+        "https://openalex.org/W3048804154",
+        "https://openalex.org/W3091870957",
+        "https://openalex.org/W3100789280",
+        "https://openalex.org/W3109650690",
+        "https://openalex.org/W3114632476",
+        "https://openalex.org/W3136021864",
+        "https://openalex.org/W3140854437",
+        "https://openalex.org/W3155912831",
+        "https://openalex.org/W3168997536",
+        "https://openalex.org/W3185341429",
+        "https://openalex.org/W3194730353",
+        "https://openalex.org/W3212386989",
+        "https://openalex.org/W4205129187",
+        "https://openalex.org/W4210827551",
+        "https://openalex.org/W4291819654",
+        "https://openalex.org/W4367595583"
+      ],
+      "overview_partition_summary": {
+        "overview_papers": 64,
+        "topical_papers": 496,
+        "total_papers": 560,
+        "facet_counts": {
+          "benchmark": 5,
+          "methods": 3,
+          "none": 496,
+          "outlook": 1,
+          "overview": 55
+        },
+        "gemini_validation_enabled": true,
+        "gemini_validation_ready": true,
+        "title_phrase_candidates": 64,
+        "overview_min_papers": 6
+      },
+      "abstraction_label": "A family of related Artificial Intelligence technologies, including explainable artificial intelligence, artificial intelligence, artificial intelligence in healthcare and education.",
+      "updated_at": "2026-04-06T14:02:36.200542Z"
+    },
+    {
+      "slug": "batteryeducation",
+      "title": "BatteryEducation",
+      "sources": 19,
+      "effective_papers": 0,
+      "subgenres": 0,
+      "parent_subgenres": 0,
+      "child_subgenres": 0,
+      "entities": 89,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 19,
+        "total_papers": 19,
+        "facet_counts": {
+          "none": 19
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+      "updated_at": "2026-04-06T14:12:18.546573Z"
+    },
     {
       "slug": "biotechnology",
       "title": "Biotechnology",
@@ -94,6 +266,56 @@
       "updated_at": "2026-04-05T01:28:35.950793Z"
     },
     {
+      "slug": "business",
+      "title": "Business",
+      "sources": 324,
+      "effective_papers": 324,
+      "subgenres": 175,
+      "parent_subgenres": 12,
+      "child_subgenres": 163,
+      "entities": 708,
+      "claims": 2,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 324,
+        "total_papers": 324,
+        "facet_counts": {
+          "none": 324
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning international business, business strategy and innovation, business model.",
+      "updated_at": "2026-04-06T14:15:38.792217Z"
+    },
+    {
+      "slug": "business-management",
+      "title": "Business Management",
+      "sources": 374,
+      "effective_papers": 373,
+      "subgenres": 199,
+      "parent_subgenres": 13,
+      "child_subgenres": 186,
+      "entities": 809,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 374,
+        "total_papers": 374,
+        "facet_counts": {
+          "none": 374
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+      "updated_at": "2026-04-06T14:19:18.518333Z"
+    },
+    {
       "slug": "cancergenetics",
       "title": "CancerGenetics",
       "sources": 556,
@@ -117,6 +339,81 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
       "updated_at": "2026-04-05T01:32:13.848246Z"
+    },
+    {
+      "slug": "decision-sciences",
+      "title": "Decision Sciences",
+      "sources": 237,
+      "effective_papers": 207,
+      "subgenres": 42,
+      "parent_subgenres": 5,
+      "child_subgenres": 37,
+      "entities": 724,
+      "claims": 4,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 237,
+        "total_papers": 237,
+        "facet_counts": {
+          "none": 237
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+      "updated_at": "2026-04-06T14:26:14.360350Z"
+    },
+    {
+      "slug": "economics",
+      "title": "Economics",
+      "sources": 298,
+      "effective_papers": 302,
+      "subgenres": 65,
+      "parent_subgenres": 11,
+      "child_subgenres": 54,
+      "entities": 748,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 298,
+        "total_papers": 298,
+        "facet_counts": {
+          "none": 298
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning positive economics, neoclassical economics, mathematical economics.",
+      "updated_at": "2026-04-06T14:22:49.594506Z"
+    },
+    {
+      "slug": "finance",
+      "title": "Finance",
+      "sources": 320,
+      "effective_papers": 268,
+      "subgenres": 56,
+      "parent_subgenres": 7,
+      "child_subgenres": 49,
+      "entities": 754,
+      "claims": 2,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 320,
+        "total_papers": 320,
+        "facet_counts": {
+          "none": 320
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning corporate finance, corporate finance and governance.",
+      "updated_at": "2026-04-06T14:38:58.778402Z"
     },
     {
       "slug": "geoscience",
@@ -167,6 +464,56 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning hydrology and watershed management studies, hydrology and drought analysis.",
       "updated_at": "2026-04-05T01:39:57.137730Z"
+    },
+    {
+      "slug": "linguistics",
+      "title": "Linguistics",
+      "sources": 250,
+      "effective_papers": 250,
+      "subgenres": 132,
+      "parent_subgenres": 9,
+      "child_subgenres": 123,
+      "entities": 359,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 250,
+        "total_papers": 250,
+        "facet_counts": {
+          "none": 250
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning applied linguistics, computational linguistics, cognitive linguistics.",
+      "updated_at": "2026-04-06T14:32:22.018672Z"
+    },
+    {
+      "slug": "machine-learning",
+      "title": "Machine Learning",
+      "sources": 568,
+      "effective_papers": 556,
+      "subgenres": 45,
+      "parent_subgenres": 6,
+      "child_subgenres": 39,
+      "entities": 1033,
+      "claims": 8,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 568,
+        "total_papers": 568,
+        "facet_counts": {
+          "none": 568
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning machine learning, machine learning and data classification.",
+      "updated_at": "2026-04-06T14:06:24.407801Z"
     },
     {
       "slug": "marketing",
@@ -297,6 +644,106 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning affective neuroscience.",
       "updated_at": "2026-04-05T01:55:51.595566Z"
+    },
+    {
+      "slug": "philosophy",
+      "title": "Philosophy",
+      "sources": 209,
+      "effective_papers": 209,
+      "subgenres": 112,
+      "parent_subgenres": 8,
+      "child_subgenres": 104,
+      "entities": 384,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 209,
+        "total_papers": 209,
+        "facet_counts": {
+          "none": 209
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning political philosophy, contemporary philosophy, philosophy of science.",
+      "updated_at": "2026-04-06T14:35:22.897849Z"
+    },
+    {
+      "slug": "psychology",
+      "title": "Psychology",
+      "sources": 363,
+      "effective_papers": 363,
+      "subgenres": 120,
+      "parent_subgenres": 10,
+      "child_subgenres": 110,
+      "entities": 704,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 363,
+        "total_papers": 363,
+        "facet_counts": {
+          "none": 363
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning social psychology, cognitive psychology, applied psychology.",
+      "updated_at": "2026-04-06T14:29:23.478764Z"
+    },
+    {
+      "slug": "robotics",
+      "title": "Robotics",
+      "sources": 565,
+      "effective_papers": 505,
+      "subgenres": 55,
+      "parent_subgenres": 8,
+      "child_subgenres": 47,
+      "entities": 1184,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 565,
+        "total_papers": 565,
+        "facet_counts": {
+          "none": 565
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning reinforcement learning in robotics, soft robotics, robotics and sensor-based localization.",
+      "updated_at": "2026-04-06T14:10:31.692483Z"
+    },
+    {
+      "slug": "sensors",
+      "title": "Sensors",
+      "sources": 349,
+      "effective_papers": 240,
+      "subgenres": 44,
+      "parent_subgenres": 5,
+      "child_subgenres": 39,
+      "entities": 1053,
+      "claims": 2,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 349,
+        "total_papers": 349,
+        "facet_counts": {
+          "none": 349
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+      "updated_at": "2026-04-06T13:58:13.598744Z"
     },
     {
       "slug": "water-resources",

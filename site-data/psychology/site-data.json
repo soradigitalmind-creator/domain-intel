@@ -1,0 +1,2375 @@
+{
+  "slug": "psychology",
+  "title": "Psychology",
+  "updated_at": "2026-04-06T14:29:23.401363Z",
+  "snapshot": {
+    "papers": 363,
+    "topics": 10,
+    "subtopics": 110,
+    "entities": 704,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 363,
+      "total_papers": 363,
+      "facet_counts": {
+        "none": 363
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning social psychology, cognitive psychology, applied psychology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 110,
+    "max_depth": 4,
+    "leaf_topics": 86
+  },
+  "rising_topics": [
+    {
+      "id": "sg-social-psychology",
+      "label": "Social psychology",
+      "url": "/domains/psychology/topics/sg-social-psychology",
+      "trend": "rising",
+      "year_total": 2506484
+    },
+    {
+      "id": "sg-cognitive-psychology",
+      "label": "Cognitive psychology",
+      "url": "/domains/psychology/topics/sg-cognitive-psychology",
+      "trend": "rising",
+      "year_total": 1523676
+    },
+    {
+      "id": "sg-applied-psychology",
+      "label": "Applied psychology",
+      "url": "/domains/psychology/topics/sg-applied-psychology",
+      "trend": "rising",
+      "year_total": 1602900
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-social-psychology",
+      "label": "Social psychology",
+      "url": "/domains/psychology/topics/sg-social-psychology",
+      "paper_count": 106,
+      "subtopic_count": 31,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "experimental social psychology",
+        "personality social psychology",
+        "social and intergroup psychology",
+        "social psychology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-social-psychology-maslows-hierarchy-of-needs",
+          "label": "Maslows hierarchy of needs",
+          "url": "/domains/psychology/topics/sg-social-psychology-maslows-hierarchy-of-needs",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-social-psychology-interpersonal-relationships",
+          "label": "Interpersonal relationships",
+          "url": "/domains/psychology/topics/sg-social-psychology-interpersonal-relationships",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-social-psychology-complex-decision-making",
+          "label": "Complex decision making",
+          "url": "/domains/psychology/topics/sg-social-psychology-complex-decision-making",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-social-psychology-behavior-change",
+          "label": "Behavior change",
+          "url": "/domains/psychology/topics/sg-social-psychology-behavior-change",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-social-psychology-community-health-development",
+          "label": "Community health development",
+          "url": "/domains/psychology/topics/sg-social-psychology-community-health-development",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-social-psychology-motivation-self-concept-in-sports",
+          "label": "Motivation self-concept in sports",
+          "url": "/domains/psychology/topics/sg-social-psychology-motivation-self-concept-in-sports",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-cognitive-psychology",
+      "label": "Cognitive psychology",
+      "url": "/domains/psychology/topics/sg-cognitive-psychology",
+      "paper_count": 73,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: cognitive psychology, cognitive science, of the",
+      "tags": [
+        "cognitive psychology",
+        "cognitive psychology implications",
+        "educational psychology cognitive",
+        "educational psychology cognitive view"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cognitive-psychology-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/psychology/topics/sg-cognitive-psychology-cognitive-science",
+          "paper_count": 61
+        },
+        {
+          "id": "sg-cognitive-psychology-gestalt-psychology",
+          "label": "Gestalt psychology",
+          "url": "/domains/psychology/topics/sg-cognitive-psychology-gestalt-psychology",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cognitive-psychology-embodied-cognition",
+          "label": "Embodied cognition",
+          "url": "/domains/psychology/topics/sg-cognitive-psychology-embodied-cognition",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cognitive-psychology-affective-neuroscience",
+          "label": "Affective neuroscience",
+          "url": "/domains/psychology/topics/sg-cognitive-psychology-affective-neuroscience",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cognitive-psychology-neuroscience-education-and-cognitive-function",
+          "label": "Neuroscience, education, and cognitive function",
+          "url": "/domains/psychology/topics/sg-cognitive-psychology-neuroscience-education-and-cognitive-function",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-cognitive-psychology-visual-cognitive-learning-processes",
+          "label": "Visual cognitive learning processes",
+          "url": "/domains/psychology/topics/sg-cognitive-psychology-visual-cognitive-learning-processes",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2096452841",
+          "title": "The Framing of Decisions and the Psychology of Choice",
+          "year": "1981",
+          "cited_by_count": 17129,
+          "url": "/domains/psychology/papers/W2096452841"
+        },
+        {
+          "source_id": "https://openalex.org/W4207080468",
+          "title": "The Psychology of Learning and Motivation",
+          "year": "2021",
+          "cited_by_count": 5069,
+          "url": "/domains/psychology/papers/W4207080468"
+        },
+        {
+          "source_id": "https://openalex.org/W2579555219",
+          "title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information.",
+          "year": "1956",
+          "cited_by_count": 17299,
+          "url": "/domains/psychology/papers/W2579555219"
+        }
+      ]
+    },
+    {
+      "id": "sg-applied-psychology",
+      "label": "Applied psychology",
+      "url": "/domains/psychology/topics/sg-applied-psychology",
+      "paper_count": 57,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: applied psychology, social psychology, our",
+      "tags": [
+        "applied psychology",
+        "educational psychology cognitive",
+        "personality psychology",
+        "personality traits and psychology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-applied-psychology-clinical-psychology",
+          "label": "Clinical psychology",
+          "url": "/domains/psychology/topics/sg-applied-psychology-clinical-psychology",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-applied-psychology-experimental-psychology",
+          "label": "Experimental psychology",
+          "url": "/domains/psychology/topics/sg-applied-psychology-experimental-psychology",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2141708418",
+          "title": "Amazon's Mechanical Turk",
+          "year": "2011",
+          "cited_by_count": 10029,
+          "url": "/domains/psychology/papers/W2141708418"
+        },
+        {
+          "source_id": "https://openalex.org/W2169434152",
+          "title": "The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions",
+          "year": "2013",
+          "cited_by_count": 7839,
+          "url": "/domains/psychology/papers/W2169434152"
+        },
+        {
+          "source_id": "https://openalex.org/W4241286296",
+          "title": "Positive psychology: An introduction.",
+          "year": "2000",
+          "cited_by_count": 10937,
+          "url": "/domains/psychology/papers/W4241286296"
+        }
+      ]
+    },
+    {
+      "id": "sg-developmental-psychology",
+      "label": "Developmental psychology",
+      "url": "/domains/psychology/topics/sg-developmental-psychology",
+      "paper_count": 48,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: developmental psychology, social psychology, of the",
+      "tags": [
+        "clinical psychology",
+        "developmental psychology",
+        "evolutionary psychology and human behavior",
+        "life-span developmental psychology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-developmental-psychology-behavior-change",
+          "label": "Behavior change",
+          "url": "/domains/psychology/topics/sg-developmental-psychology-behavior-change",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-developmental-psychology-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/psychology/topics/sg-developmental-psychology-cognitive-science",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2114613490",
+          "title": "A RATING SCALE FOR DEPRESSION",
+          "year": "1960",
+          "cited_by_count": 32358,
+          "url": "/domains/psychology/papers/W2114613490"
+        },
+        {
+          "source_id": "https://openalex.org/W2025802167",
+          "title": "The Strengths and Difficulties Questionnaire: A Research Note",
+          "year": "1997",
+          "cited_by_count": 14598,
+          "url": "/domains/psychology/papers/W2025802167"
+        },
+        {
+          "source_id": "https://openalex.org/W2146850492",
+          "title": "Sexual Selection and the Descent of Man",
+          "year": "2017",
+          "cited_by_count": 7304,
+          "url": "/domains/psychology/papers/W2146850492"
+        }
+      ]
+    },
+    {
+      "id": "sg-mental-health",
+      "label": "Mental health",
+      "url": "/domains/psychology/topics/sg-mental-health",
+      "paper_count": 23,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: mental, mental health, of the",
+      "tags": [
+        "classification of mental disorders",
+        "covid-19 and mental health",
+        "mental health",
+        "mental health care"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mental-health-mental-health-treatment-access",
+          "label": "Mental health treatment access",
+          "url": "/domains/psychology/topics/sg-mental-health-mental-health-treatment-access",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-mental-health-mental-disorders",
+          "label": "Mental disorders",
+          "url": "/domains/psychology/topics/sg-mental-health-mental-disorders",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-mental-health-clinical-psychology",
+          "label": "Clinical psychology",
+          "url": "/domains/psychology/topics/sg-mental-health-clinical-psychology",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-mental-health-prevalence-of-mental-disorders",
+          "label": "Prevalence of mental disorders",
+          "url": "/domains/psychology/topics/sg-mental-health-prevalence-of-mental-disorders",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2159011576",
+          "title": "Diagnostic and Statistical Manual of Mental Disorders",
+          "year": "2013",
+          "cited_by_count": 109978,
+          "url": "/domains/psychology/papers/W2159011576"
+        },
+        {
+          "source_id": "https://openalex.org/W2122517769",
+          "title": "The \"What\" and \"Why\" of Goal Pursuits: Human Needs and the Self-Determination of Behavior",
+          "year": "2000",
+          "cited_by_count": 30913,
+          "url": "/domains/psychology/papers/W2122517769"
+        },
+        {
+          "source_id": "https://openalex.org/W2141846678",
+          "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+          "year": "2000",
+          "cited_by_count": 27288,
+          "url": "/domains/psychology/papers/W2141846678"
+        }
+      ]
+    },
+    {
+      "id": "sg-cultural-psychology",
+      "label": "Cultural psychology",
+      "url": "/domains/psychology/topics/sg-cultural-psychology",
+      "paper_count": 21,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: cultural difference and values, social psychology, in the",
+      "tags": [
+        "cultural difference and values",
+        "cultural psychology",
+        "evolutionary psychology",
+        "psychology of intergroup"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cultural-psychology-cultural-difference-values",
+          "label": "Cultural difference values",
+          "url": "/domains/psychology/topics/sg-cultural-psychology-cultural-difference-values",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-cultural-psychology-cultural-values",
+          "label": "Cultural values",
+          "url": "/domains/psychology/topics/sg-cultural-psychology-cultural-values",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-cultural-psychology-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/psychology/topics/sg-cultural-psychology-cognitive-science",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cultural-psychology-hofstede-cultural-dimensions-theory",
+          "label": "Hofstede cultural dimensions theory",
+          "url": "/domains/psychology/topics/sg-cultural-psychology-hofstede-cultural-dimensions-theory",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2097780989",
+          "title": "Culture and the self: Implications for cognition, emotion, and motivation.",
+          "year": "1991",
+          "cited_by_count": 20532,
+          "url": "/domains/psychology/papers/W2097780989"
+        },
+        {
+          "source_id": "https://openalex.org/W2085876742",
+          "title": "The weirdest people in the world?",
+          "year": "2010",
+          "cited_by_count": 11697,
+          "url": "/domains/psychology/papers/W2085876742"
+        },
+        {
+          "source_id": "https://openalex.org/W4241785331",
+          "title": "Culture's Consequences",
+          "year": "2018",
+          "cited_by_count": 5500,
+          "url": "/domains/psychology/papers/W4241785331"
+        }
+      ]
+    },
+    {
+      "id": "sg-educational-psychology",
+      "label": "Educational psychology",
+      "url": "/domains/psychology/topics/sg-educational-psychology",
+      "paper_count": 12,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: educational psychology, motivation, educational",
+      "tags": [
+        "educational psychology",
+        "educational psychology cognitive",
+        "educational psychology cognitive view",
+        "psychology cognitive"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-educational-psychology-self-regulated-learning",
+          "label": "Self-regulated learning",
+          "url": "/domains/psychology/topics/sg-educational-psychology-self-regulated-learning",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-educational-psychology-educational-psychological-assessments",
+          "label": "Educational psychological assessments",
+          "url": "/domains/psychology/topics/sg-educational-psychology-educational-psychological-assessments",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-educational-psychology-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/psychology/topics/sg-educational-psychology-cognitive-science",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-educational-psychology-learning-motivation",
+          "label": "Learning motivation",
+          "url": "/domains/psychology/topics/sg-educational-psychology-learning-motivation",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2111638337",
+          "title": "Motivational Beliefs, Values, and Goals",
+          "year": "2002",
+          "cited_by_count": 7056,
+          "url": "/domains/psychology/papers/W2111638337"
+        },
+        {
+          "source_id": "https://openalex.org/W1777119744",
+          "title": "The Cambridge Handbook of the Learning Sciences",
+          "year": "2005",
+          "cited_by_count": 4597,
+          "url": "/domains/psychology/papers/W1777119744"
+        },
+        {
+          "source_id": "https://openalex.org/W370177488",
+          "title": "Handbook of educational psychology",
+          "year": "1997",
+          "cited_by_count": 4841,
+          "url": "/domains/psychology/papers/W370177488"
+        }
+      ]
+    },
+    {
+      "id": "sg-health-psychology",
+      "label": "Health psychology",
+      "url": "/domains/psychology/topics/sg-health-psychology",
+      "paper_count": 12,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: social psychology, health psychology, health",
+      "tags": [
+        "clinical psychology",
+        "community psychology",
+        "consulting clinical psychology",
+        "consulting psychology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-health-psychology-life-satisfaction",
+          "label": "Life satisfaction",
+          "url": "/domains/psychology/topics/sg-health-psychology-life-satisfaction",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-health-psychology-satisfaction-life",
+          "label": "Satisfaction life",
+          "url": "/domains/psychology/topics/sg-health-psychology-satisfaction-life",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2132470305",
+          "title": "The theory of planned behaviour: Reactions and reflections",
+          "year": "2011",
+          "cited_by_count": 4437,
+          "url": "/domains/psychology/papers/W2132470305"
+        },
+        {
+          "source_id": "https://openalex.org/W4249500411",
+          "title": "Journal of Consulting and Clinical Psychology",
+          "year": "2015",
+          "cited_by_count": 2494,
+          "url": "/domains/psychology/papers/W4249500411"
+        },
+        {
+          "source_id": "https://openalex.org/W1936633569",
+          "title": "Discourse and Social Psychology: Beyond Attitudes and Behaviour",
+          "year": "1987",
+          "cited_by_count": 4526,
+          "url": "/domains/psychology/papers/W1936633569"
+        }
+      ]
+    },
+    {
+      "id": "sg-positive-psychology",
+      "label": "Positive psychology",
+      "url": "/domains/psychology/topics/sg-positive-psychology",
+      "paper_count": 7,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: positive, positive psychology, social psychology",
+      "tags": [
+        "emotions in positive psychology",
+        "positive psychology",
+        "positive psychology broaden-and-build",
+        "psychology broaden-and-build"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-positive-psychology-role-of-positive-emotions",
+          "label": "Role of positive emotions",
+          "url": "/domains/psychology/topics/sg-positive-psychology-role-of-positive-emotions",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-positive-psychology-positive-emotions",
+          "label": "Positive emotions",
+          "url": "/domains/psychology/topics/sg-positive-psychology-positive-emotions",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-positive-psychology-psychology-broaden-and-build-theory",
+          "label": "Psychology broaden-and-build theory",
+          "url": "/domains/psychology/topics/sg-positive-psychology-psychology-broaden-and-build-theory",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2007445014",
+          "title": "The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions.",
+          "year": "2001",
+          "cited_by_count": 13983,
+          "url": "/domains/psychology/papers/W2007445014"
+        },
+        {
+          "source_id": "https://openalex.org/W2053133047",
+          "title": "Positive psychology: An introduction.",
+          "year": "2000",
+          "cited_by_count": 9883,
+          "url": "/domains/psychology/papers/W2053133047"
+        },
+        {
+          "source_id": "https://openalex.org/W1746951143",
+          "title": "Handbook of Positive Psychology",
+          "year": "2001",
+          "cited_by_count": 9092,
+          "url": "/domains/psychology/papers/W1746951143"
+        }
+      ]
+    },
+    {
+      "id": "sg-industrial-organizational-psychology",
+      "label": "Industrial organizational psychology",
+      "url": "/domains/psychology/topics/sg-industrial-organizational-psychology",
+      "paper_count": 4,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: industrial and organizational psychology, management, social psychology",
+      "tags": [
+        "industrial and organizational psychology",
+        "job satisfaction and organizational behavior",
+        "social psychology of organizations"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-industrial-organizational-psychology-industrial-organizational",
+          "label": "Industrial organizational",
+          "url": "/domains/psychology/topics/sg-industrial-organizational-psychology-industrial-organizational",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-industrial-organizational-psychology-job-satisfaction-organizational-behavior",
+          "label": "Job satisfaction organizational behavior",
+          "url": "/domains/psychology/topics/sg-industrial-organizational-psychology-job-satisfaction-organizational-behavior",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2045181804",
+          "title": "Handbook of Industrial and Organizational Psychology.",
+          "year": "1977",
+          "cited_by_count": 12140,
+          "url": "/domains/psychology/papers/W2045181804"
+        },
+        {
+          "source_id": "https://openalex.org/W3109530354",
+          "title": "Handbook of industrial and organizational psychology",
+          "year": "1993",
+          "cited_by_count": 5461,
+          "url": "/domains/psychology/papers/W3109530354"
+        },
+        {
+          "source_id": "https://openalex.org/W1995113941",
+          "title": "Employee-Organization Linkages: The Psychology of Commitment, Absenteeism, and Turnover.",
+          "year": "1984",
+          "cited_by_count": 4714,
+          "url": "/domains/psychology/papers/W1995113941"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Applied psychology",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Amazon&#x27;s Mechanical Turk",
+          "year": "2011",
+          "cited_by_count": 10029,
+          "topic": "Applied psychology",
+          "url": "papers/https-openalex-org-w2141708418.html"
+        },
+        {
+          "title": "The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions",
+          "year": "2013",
+          "cited_by_count": 7839,
+          "topic": "Applied psychology",
+          "url": "papers/https-openalex-org-w2169434152.html"
+        },
+        {
+          "title": "Positive psychology: An introduction.",
+          "year": "2000",
+          "cited_by_count": 10937,
+          "topic": "Applied psychology",
+          "url": "papers/https-openalex-org-w4241286296.html"
+        },
+        {
+          "title": "Handbook of Social Psychology",
+          "year": "2013",
+          "cited_by_count": 7551,
+          "topic": "Applied psychology",
+          "url": "papers/https-openalex-org-w1483679835.html"
+        },
+        {
+          "title": "The Social Psychology of Organizations.",
+          "year": "1979",
+          "cited_by_count": 12377,
+          "topic": "Applied psychology",
+          "url": "papers/https-openalex-org-w2140256961.html"
+        },
+        {
+          "title": "Mindset: the new psychology of success",
+          "year": "2006",
+          "cited_by_count": 7889,
+          "topic": "Applied psychology",
+          "url": "papers/https-openalex-org-w1522024619.html"
+        }
+      ]
+    },
+    {
+      "label": "Mental health",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Diagnostic and Statistical Manual of Mental Disorders",
+          "year": "2013",
+          "cited_by_count": 109978,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2159011576.html"
+        },
+        {
+          "title": "The &quot;What&quot; and &quot;Why&quot; of Goal Pursuits: Human Needs and the Self-Determination of Behavior",
+          "year": "2000",
+          "cited_by_count": 30913,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2122517769.html"
+        },
+        {
+          "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+          "year": "2000",
+          "cited_by_count": 27288,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2141846678.html"
+        },
+        {
+          "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+          "year": "2020",
+          "cited_by_count": 6024,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w3015197879.html"
+        },
+        {
+          "title": "Development of a new resilience scale: The Connor-Davidson Resilience Scale (CD-RISC)",
+          "year": "2003",
+          "cited_by_count": 11032,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2118185372.html"
+        },
+        {
+          "title": "Using social and behavioural science to support COVID-19 pandemic response",
+          "year": "2020",
+          "cited_by_count": 5005,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w3016902371.html"
+        }
+      ]
+    },
+    {
+      "label": "Social psychology",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Advances In Experimental Social Psychology",
+          "year": "2022",
+          "cited_by_count": 22492,
+          "topic": "Social psychology",
+          "url": "papers/https-openalex-org-w4214907476.html"
+        },
+        {
+          "title": "The Ecology of Human Development",
+          "year": "1979",
+          "cited_by_count": 23124,
+          "topic": "Social psychology",
+          "url": "papers/https-openalex-org-w2254735081.html"
+        },
+        {
+          "title": "THE PSYCHOLOGY OF PERSONAL CONSTRUCTS",
+          "year": "2010",
+          "cited_by_count": 8633,
+          "topic": "Social psychology",
+          "url": "papers/https-openalex-org-w199743680.html"
+        },
+        {
+          "title": "Flow: the psychology of optimal experience",
+          "year": "1990",
+          "cited_by_count": 12713,
+          "topic": "Social psychology",
+          "url": "papers/https-openalex-org-w2140205964.html"
+        },
+        {
+          "title": "The Social psychology of intergroup relations",
+          "year": "1979",
+          "cited_by_count": 11544,
+          "topic": "Social psychology",
+          "url": "papers/https-openalex-org-w386986494.html"
+        },
+        {
+          "title": "The psychology of interpersonal relations.",
+          "year": "1958",
+          "cited_by_count": 12975,
+          "topic": "Social psychology",
+          "url": "papers/https-openalex-org-w4298185589.html"
+        }
+      ]
+    },
+    {
+      "label": "Cultural psychology",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Culture and the self: Implications for cognition, emotion, and motivation.",
+          "year": "1991",
+          "cited_by_count": 20532,
+          "topic": "Cultural psychology",
+          "url": "papers/https-openalex-org-w2097780989.html"
+        },
+        {
+          "title": "The weirdest people in the world?",
+          "year": "2010",
+          "cited_by_count": 11697,
+          "topic": "Cultural psychology",
+          "url": "papers/https-openalex-org-w2085876742.html"
+        },
+        {
+          "title": "Culture&#x27;s Consequences",
+          "year": "2018",
+          "cited_by_count": 5500,
+          "topic": "Cultural psychology",
+          "url": "papers/https-openalex-org-w4241785331.html"
+        },
+        {
+          "title": "Dimensionalizing Cultures: The Hofstede Model in Context",
+          "year": "2011",
+          "cited_by_count": 6640,
+          "topic": "Cultural psychology",
+          "url": "papers/https-openalex-org-w2133535394.html"
+        },
+        {
+          "title": "Psychology of intergroup relations",
+          "year": "1986",
+          "cited_by_count": 10686,
+          "topic": "Cultural psychology",
+          "url": "papers/https-openalex-org-w630727849.html"
+        }
+      ]
+    },
+    {
+      "label": "Developmental psychology",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "A RATING SCALE FOR DEPRESSION",
+          "year": "1960",
+          "cited_by_count": 32358,
+          "topic": "Developmental psychology",
+          "url": "papers/https-openalex-org-w2114613490.html"
+        },
+        {
+          "title": "The Strengths and Difficulties Questionnaire: A Research Note",
+          "year": "1997",
+          "cited_by_count": 14598,
+          "topic": "Developmental psychology",
+          "url": "papers/https-openalex-org-w2025802167.html"
+        },
+        {
+          "title": "Sexual Selection and the Descent of Man",
+          "year": "2017",
+          "cited_by_count": 7304,
+          "topic": "Developmental psychology",
+          "url": "papers/https-openalex-org-w2146850492.html"
+        },
+        {
+          "title": "The Emerging Field of Emotion Regulation: An Integrative Review",
+          "year": "1998",
+          "cited_by_count": 8685,
+          "topic": "Developmental psychology",
+          "url": "papers/https-openalex-org-w2096423181.html"
+        },
+        {
+          "title": "Measuring emotion: The self-assessment manikin and the semantic differential",
+          "year": "1994",
+          "cited_by_count": 9267,
+          "topic": "Developmental psychology",
+          "url": "papers/https-openalex-org-w2167557160.html"
+        }
+      ]
+    },
+    {
+      "label": "Cognitive psychology",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The Framing of Decisions and the Psychology of Choice",
+          "year": "1981",
+          "cited_by_count": 17129,
+          "topic": "Cognitive psychology",
+          "url": "papers/https-openalex-org-w2096452841.html"
+        },
+        {
+          "title": "The Psychology of Learning and Motivation",
+          "year": "2021",
+          "cited_by_count": 5069,
+          "topic": "Cognitive psychology",
+          "url": "papers/https-openalex-org-w4207080468.html"
+        },
+        {
+          "title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information.",
+          "year": "1956",
+          "cited_by_count": 17299,
+          "topic": "Cognitive psychology",
+          "url": "papers/https-openalex-org-w2579555219.html"
+        },
+        {
+          "title": "Flow: The Psychology of Optimal Experience",
+          "year": "1991",
+          "cited_by_count": 9463,
+          "topic": "Cognitive psychology",
+          "url": "papers/https-openalex-org-w4293872590.html"
+        }
+      ]
+    },
+    {
+      "label": "Positive psychology",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions.",
+          "year": "2001",
+          "cited_by_count": 13983,
+          "topic": "Positive psychology",
+          "url": "papers/https-openalex-org-w2007445014.html"
+        },
+        {
+          "title": "Positive psychology: An introduction.",
+          "year": "2000",
+          "cited_by_count": 9883,
+          "topic": "Positive psychology",
+          "url": "papers/https-openalex-org-w2053133047.html"
+        },
+        {
+          "title": "Handbook of Positive Psychology",
+          "year": "2001",
+          "cited_by_count": 9092,
+          "topic": "Positive psychology",
+          "url": "papers/https-openalex-org-w1746951143.html"
+        },
+        {
+          "title": "False-Positive Psychology",
+          "year": "2011",
+          "cited_by_count": 6627,
+          "topic": "Positive psychology",
+          "url": "papers/https-openalex-org-w2161498332.html"
+        }
+      ]
+    },
+    {
+      "label": "Industrial organizational psychology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Handbook of Industrial and Organizational Psychology.",
+          "year": "1977",
+          "cited_by_count": 12140,
+          "topic": "Industrial organizational psychology",
+          "url": "papers/https-openalex-org-w2045181804.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2159011576",
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "year": 2013,
+      "cited_by_count": 109978,
+      "adjusted_cited_by_count": 30502.41,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/psychology/papers/W2159011576"
+    },
+    {
+      "source_id": "https://openalex.org/W4214907476",
+      "title": "Advances In Experimental Social Psychology",
+      "year": 2022,
+      "cited_by_count": 22492,
+      "adjusted_cited_by_count": 11246.0,
+      "primary_topic_id": "sg-social-psychology",
+      "primary_topic_label": "Social psychology",
+      "url": "/domains/psychology/papers/W4214907476"
+    },
+    {
+      "source_id": "https://openalex.org/W2122517769",
+      "title": "The \"What\" and \"Why\" of Goal Pursuits: Human Needs and the Self-Determination of Behavior",
+      "year": 2000,
+      "cited_by_count": 30913,
+      "adjusted_cited_by_count": 6062.54,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/psychology/papers/W2122517769"
+    },
+    {
+      "source_id": "https://openalex.org/W2141846678",
+      "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+      "year": 2000,
+      "cited_by_count": 27288,
+      "adjusted_cited_by_count": 5351.62,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/psychology/papers/W2141846678"
+    },
+    {
+      "source_id": "https://openalex.org/W2114613490",
+      "title": "A RATING SCALE FOR DEPRESSION",
+      "year": 1960,
+      "cited_by_count": 32358,
+      "adjusted_cited_by_count": 3982.99,
+      "primary_topic_id": "sg-developmental-psychology",
+      "primary_topic_label": "Developmental psychology",
+      "url": "/domains/psychology/papers/W2114613490"
+    },
+    {
+      "source_id": "https://openalex.org/W2097780989",
+      "title": "Culture and the self: Implications for cognition, emotion, and motivation.",
+      "year": 1991,
+      "cited_by_count": 20532,
+      "adjusted_cited_by_count": 3470.54,
+      "primary_topic_id": "sg-cultural-psychology",
+      "primary_topic_label": "Cultural psychology",
+      "url": "/domains/psychology/papers/W2097780989"
+    },
+    {
+      "source_id": "https://openalex.org/W2254735081",
+      "title": "The Ecology of Human Development",
+      "year": 1979,
+      "cited_by_count": 23124,
+      "adjusted_cited_by_count": 3372.98,
+      "primary_topic_id": "sg-social-psychology",
+      "primary_topic_label": "Social psychology",
+      "url": "/domains/psychology/papers/W2254735081"
+    },
+    {
+      "source_id": "https://openalex.org/W2085876742",
+      "title": "The weirdest people in the world?",
+      "year": 2010,
+      "cited_by_count": 11697,
+      "adjusted_cited_by_count": 2924.25,
+      "primary_topic_id": "sg-cultural-psychology",
+      "primary_topic_label": "Cultural psychology",
+      "url": "/domains/psychology/papers/W2085876742"
+    },
+    {
+      "source_id": "https://openalex.org/W2007445014",
+      "title": "The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions.",
+      "year": 2001,
+      "cited_by_count": 13983,
+      "adjusted_cited_by_count": 2796.6,
+      "primary_topic_id": "sg-positive-psychology",
+      "primary_topic_label": "Positive psychology",
+      "url": "/domains/psychology/papers/W2007445014"
+    },
+    {
+      "source_id": "https://openalex.org/W2025802167",
+      "title": "The Strengths and Difficulties Questionnaire: A Research Note",
+      "year": 1997,
+      "cited_by_count": 14598,
+      "adjusted_cited_by_count": 2710.78,
+      "primary_topic_id": "sg-developmental-psychology",
+      "primary_topic_label": "Developmental psychology",
+      "url": "/domains/psychology/papers/W2025802167"
+    },
+    {
+      "source_id": "https://openalex.org/W2141708418",
+      "title": "Amazon's Mechanical Turk",
+      "year": 2011,
+      "cited_by_count": 10029,
+      "adjusted_cited_by_count": 2589.48,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W2141708418"
+    },
+    {
+      "source_id": "https://openalex.org/W2096452841",
+      "title": "The Framing of Decisions and the Psychology of Choice",
+      "year": 1981,
+      "cited_by_count": 17129,
+      "adjusted_cited_by_count": 2553.44,
+      "primary_topic_id": "sg-cognitive-psychology",
+      "primary_topic_label": "Cognitive psychology",
+      "url": "/domains/psychology/papers/W2096452841"
+    },
+    {
+      "source_id": "https://openalex.org/W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "year": 2020,
+      "cited_by_count": 6024,
+      "adjusted_cited_by_count": 2459.29,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/psychology/papers/W3015197879"
+    },
+    {
+      "source_id": "https://openalex.org/W2146850492",
+      "title": "Sexual Selection and the Descent of Man",
+      "year": 2017,
+      "cited_by_count": 7304,
+      "adjusted_cited_by_count": 2434.67,
+      "primary_topic_id": "sg-developmental-psychology",
+      "primary_topic_label": "Developmental psychology",
+      "url": "/domains/psychology/papers/W2146850492"
+    },
+    {
+      "source_id": "https://openalex.org/W2118185372",
+      "title": "Development of a new resilience scale: The Connor-Davidson Resilience Scale (CD-RISC)",
+      "year": 2003,
+      "cited_by_count": 11032,
+      "adjusted_cited_by_count": 2300.33,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/psychology/papers/W2118185372"
+    },
+    {
+      "source_id": "https://openalex.org/W4207080468",
+      "title": "The Psychology of Learning and Motivation",
+      "year": 2021,
+      "cited_by_count": 5069,
+      "adjusted_cited_by_count": 2266.93,
+      "primary_topic_id": "sg-cognitive-psychology",
+      "primary_topic_label": "Cognitive psychology",
+      "url": "/domains/psychology/papers/W4207080468"
+    },
+    {
+      "source_id": "https://openalex.org/W2169434152",
+      "title": "The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions",
+      "year": 2013,
+      "cited_by_count": 7839,
+      "adjusted_cited_by_count": 2174.15,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W2169434152"
+    },
+    {
+      "source_id": "https://openalex.org/W199743680",
+      "title": "THE PSYCHOLOGY OF PERSONAL CONSTRUCTS",
+      "year": 2010,
+      "cited_by_count": 8633,
+      "adjusted_cited_by_count": 2158.25,
+      "primary_topic_id": "sg-social-psychology",
+      "primary_topic_label": "Social psychology",
+      "url": "/domains/psychology/papers/W199743680"
+    },
+    {
+      "source_id": "https://openalex.org/W4241286296",
+      "title": "Positive psychology: An introduction.",
+      "year": 2000,
+      "cited_by_count": 10937,
+      "adjusted_cited_by_count": 2144.92,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W4241286296"
+    },
+    {
+      "source_id": "https://openalex.org/W2140205964",
+      "title": "Flow: the psychology of optimal experience",
+      "year": 1990,
+      "cited_by_count": 12713,
+      "adjusted_cited_by_count": 2118.83,
+      "primary_topic_id": "sg-social-psychology",
+      "primary_topic_label": "Social psychology",
+      "url": "/domains/psychology/papers/W2140205964"
+    },
+    {
+      "source_id": "https://openalex.org/W1483679835",
+      "title": "Handbook of Social Psychology",
+      "year": 2013,
+      "cited_by_count": 7551,
+      "adjusted_cited_by_count": 2094.27,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W1483679835"
+    },
+    {
+      "source_id": "https://openalex.org/W2579555219",
+      "title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information.",
+      "year": 1956,
+      "cited_by_count": 17299,
+      "adjusted_cited_by_count": 2067.63,
+      "primary_topic_id": "sg-cognitive-psychology",
+      "primary_topic_label": "Cognitive psychology",
+      "url": "/domains/psychology/papers/W2579555219"
+    },
+    {
+      "source_id": "https://openalex.org/W3016902371",
+      "title": "Using social and behavioural science to support COVID-19 pandemic response",
+      "year": 2020,
+      "cited_by_count": 5005,
+      "adjusted_cited_by_count": 2043.28,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/psychology/papers/W3016902371"
+    },
+    {
+      "source_id": "https://openalex.org/W4241785331",
+      "title": "Culture's Consequences",
+      "year": 2018,
+      "cited_by_count": 5500,
+      "adjusted_cited_by_count": 1944.54,
+      "primary_topic_id": "sg-cultural-psychology",
+      "primary_topic_label": "Cultural psychology",
+      "url": "/domains/psychology/papers/W4241785331"
+    },
+    {
+      "source_id": "https://openalex.org/W2053133047",
+      "title": "Positive psychology: An introduction.",
+      "year": 2000,
+      "cited_by_count": 9883,
+      "adjusted_cited_by_count": 1938.22,
+      "primary_topic_id": "sg-positive-psychology",
+      "primary_topic_label": "Positive psychology",
+      "url": "/domains/psychology/papers/W2053133047"
+    },
+    {
+      "source_id": "https://openalex.org/W1746951143",
+      "title": "Handbook of Positive Psychology",
+      "year": 2001,
+      "cited_by_count": 9092,
+      "adjusted_cited_by_count": 1818.4,
+      "primary_topic_id": "sg-positive-psychology",
+      "primary_topic_label": "Positive psychology",
+      "url": "/domains/psychology/papers/W1746951143"
+    },
+    {
+      "source_id": "https://openalex.org/W2140256961",
+      "title": "The Social Psychology of Organizations.",
+      "year": 1979,
+      "cited_by_count": 12377,
+      "adjusted_cited_by_count": 1805.37,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W2140256961"
+    },
+    {
+      "source_id": "https://openalex.org/W1522024619",
+      "title": "Mindset: the new psychology of success",
+      "year": 2006,
+      "cited_by_count": 7889,
+      "adjusted_cited_by_count": 1764.03,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W1522024619"
+    },
+    {
+      "source_id": "https://openalex.org/W2045181804",
+      "title": "Handbook of Industrial and Organizational Psychology.",
+      "year": 1977,
+      "cited_by_count": 12140,
+      "adjusted_cited_by_count": 1734.29,
+      "primary_topic_id": "sg-industrial-organizational-psychology",
+      "primary_topic_label": "Industrial organizational psychology",
+      "url": "/domains/psychology/papers/W2045181804"
+    },
+    {
+      "source_id": "https://openalex.org/W2133535394",
+      "title": "Dimensionalizing Cultures: The Hofstede Model in Context",
+      "year": 2011,
+      "cited_by_count": 6640,
+      "adjusted_cited_by_count": 1714.44,
+      "primary_topic_id": "sg-cultural-psychology",
+      "primary_topic_label": "Cultural psychology",
+      "url": "/domains/psychology/papers/W2133535394"
+    },
+    {
+      "source_id": "https://openalex.org/W3022671937",
+      "title": "Journal of personality and social psychology",
+      "year": 1988,
+      "cited_by_count": 10567,
+      "adjusted_cited_by_count": 1714.19,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W3022671937"
+    },
+    {
+      "source_id": "https://openalex.org/W2161498332",
+      "title": "False-Positive Psychology",
+      "year": 2011,
+      "cited_by_count": 6627,
+      "adjusted_cited_by_count": 1711.08,
+      "primary_topic_id": "sg-positive-psychology",
+      "primary_topic_label": "Positive psychology",
+      "url": "/domains/psychology/papers/W2161498332"
+    },
+    {
+      "source_id": "https://openalex.org/W630727849",
+      "title": "Psychology of intergroup relations",
+      "year": 1986,
+      "cited_by_count": 10686,
+      "adjusted_cited_by_count": 1689.6,
+      "primary_topic_id": "sg-cultural-psychology",
+      "primary_topic_label": "Cultural psychology",
+      "url": "/domains/psychology/papers/W630727849"
+    },
+    {
+      "source_id": "https://openalex.org/W386986494",
+      "title": "The Social psychology of intergroup relations",
+      "year": 1979,
+      "cited_by_count": 11544,
+      "adjusted_cited_by_count": 1683.87,
+      "primary_topic_id": "sg-social-psychology",
+      "primary_topic_label": "Social psychology",
+      "url": "/domains/psychology/papers/W386986494"
+    },
+    {
+      "source_id": "https://openalex.org/W1488837022",
+      "title": "The Handbook of Social Psychology",
+      "year": 1969,
+      "cited_by_count": 12666,
+      "adjusted_cited_by_count": 1677.65,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W1488837022"
+    },
+    {
+      "source_id": "https://openalex.org/W4235959379",
+      "title": "Clinical Psychology: Science and Practice",
+      "year": 2021,
+      "cited_by_count": 3681,
+      "adjusted_cited_by_count": 1646.19,
+      "primary_topic_id": "sg-applied-psychology",
+      "primary_topic_label": "Applied psychology",
+      "url": "/domains/psychology/papers/W4235959379"
+    },
+    {
+      "source_id": "https://openalex.org/W2096423181",
+      "title": "The Emerging Field of Emotion Regulation: An Integrative Review",
+      "year": 1998,
+      "cited_by_count": 8685,
+      "adjusted_cited_by_count": 1641.31,
+      "primary_topic_id": "sg-developmental-psychology",
+      "primary_topic_label": "Developmental psychology",
+      "url": "/domains/psychology/papers/W2096423181"
+    },
+    {
+      "source_id": "https://openalex.org/W2167557160",
+      "title": "Measuring emotion: The self-assessment manikin and the semantic differential",
+      "year": 1994,
+      "cited_by_count": 9267,
+      "adjusted_cited_by_count": 1638.19,
+      "primary_topic_id": "sg-developmental-psychology",
+      "primary_topic_label": "Developmental psychology",
+      "url": "/domains/psychology/papers/W2167557160"
+    },
+    {
+      "source_id": "https://openalex.org/W4293872590",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "year": 1991,
+      "cited_by_count": 9463,
+      "adjusted_cited_by_count": 1599.54,
+      "primary_topic_id": "sg-cognitive-psychology",
+      "primary_topic_label": "Cognitive psychology",
+      "url": "/domains/psychology/papers/W4293872590"
+    },
+    {
+      "source_id": "https://openalex.org/W4298185589",
+      "title": "The psychology of interpersonal relations.",
+      "year": 1958,
+      "cited_by_count": 12975,
+      "adjusted_cited_by_count": 1573.45,
+      "primary_topic_id": "sg-social-psychology",
+      "primary_topic_label": "Social psychology",
+      "url": "/domains/psychology/papers/W4298185589"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2159011576",
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "year": 2013,
+      "cited_by_count": 109978,
+      "adjusted_cited_by_count": 30502.41,
+      "url": "/domains/psychology/papers/W2159011576"
+    },
+    {
+      "source_id": "https://openalex.org/W4214907476",
+      "title": "Advances In Experimental Social Psychology",
+      "year": 2022,
+      "cited_by_count": 22492,
+      "adjusted_cited_by_count": 11246.0,
+      "url": "/domains/psychology/papers/W4214907476"
+    },
+    {
+      "source_id": "https://openalex.org/W2122517769",
+      "title": "The \"What\" and \"Why\" of Goal Pursuits: Human Needs and the Self-Determination of Behavior",
+      "year": 2000,
+      "cited_by_count": 30913,
+      "adjusted_cited_by_count": 6062.54,
+      "url": "/domains/psychology/papers/W2122517769"
+    },
+    {
+      "source_id": "https://openalex.org/W2141846678",
+      "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+      "year": 2000,
+      "cited_by_count": 27288,
+      "adjusted_cited_by_count": 5351.62,
+      "url": "/domains/psychology/papers/W2141846678"
+    },
+    {
+      "source_id": "https://openalex.org/W2114613490",
+      "title": "A RATING SCALE FOR DEPRESSION",
+      "year": 1960,
+      "cited_by_count": 32358,
+      "adjusted_cited_by_count": 3982.99,
+      "url": "/domains/psychology/papers/W2114613490"
+    },
+    {
+      "source_id": "https://openalex.org/W2097780989",
+      "title": "Culture and the self: Implications for cognition, emotion, and motivation.",
+      "year": 1991,
+      "cited_by_count": 20532,
+      "adjusted_cited_by_count": 3470.54,
+      "url": "/domains/psychology/papers/W2097780989"
+    },
+    {
+      "source_id": "https://openalex.org/W2254735081",
+      "title": "The Ecology of Human Development",
+      "year": 1979,
+      "cited_by_count": 23124,
+      "adjusted_cited_by_count": 3372.98,
+      "url": "/domains/psychology/papers/W2254735081"
+    },
+    {
+      "source_id": "https://openalex.org/W2085876742",
+      "title": "The weirdest people in the world?",
+      "year": 2010,
+      "cited_by_count": 11697,
+      "adjusted_cited_by_count": 2924.25,
+      "url": "/domains/psychology/papers/W2085876742"
+    },
+    {
+      "source_id": "https://openalex.org/W2007445014",
+      "title": "The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions.",
+      "year": 2001,
+      "cited_by_count": 13983,
+      "adjusted_cited_by_count": 2796.6,
+      "url": "/domains/psychology/papers/W2007445014"
+    },
+    {
+      "source_id": "https://openalex.org/W2025802167",
+      "title": "The Strengths and Difficulties Questionnaire: A Research Note",
+      "year": 1997,
+      "cited_by_count": 14598,
+      "adjusted_cited_by_count": 2710.78,
+      "url": "/domains/psychology/papers/W2025802167"
+    },
+    {
+      "source_id": "https://openalex.org/W2141708418",
+      "title": "Amazon's Mechanical Turk",
+      "year": 2011,
+      "cited_by_count": 10029,
+      "adjusted_cited_by_count": 2589.48,
+      "url": "/domains/psychology/papers/W2141708418"
+    },
+    {
+      "source_id": "https://openalex.org/W2096452841",
+      "title": "The Framing of Decisions and the Psychology of Choice",
+      "year": 1981,
+      "cited_by_count": 17129,
+      "adjusted_cited_by_count": 2553.44,
+      "url": "/domains/psychology/papers/W2096452841"
+    },
+    {
+      "source_id": "https://openalex.org/W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "year": 2020,
+      "cited_by_count": 6024,
+      "adjusted_cited_by_count": 2459.29,
+      "url": "/domains/psychology/papers/W3015197879"
+    },
+    {
+      "source_id": "https://openalex.org/W2146850492",
+      "title": "Sexual Selection and the Descent of Man",
+      "year": 2017,
+      "cited_by_count": 7304,
+      "adjusted_cited_by_count": 2434.67,
+      "url": "/domains/psychology/papers/W2146850492"
+    },
+    {
+      "source_id": "https://openalex.org/W2118185372",
+      "title": "Development of a new resilience scale: The Connor-Davidson Resilience Scale (CD-RISC)",
+      "year": 2003,
+      "cited_by_count": 11032,
+      "adjusted_cited_by_count": 2300.33,
+      "url": "/domains/psychology/papers/W2118185372"
+    },
+    {
+      "source_id": "https://openalex.org/W4207080468",
+      "title": "The Psychology of Learning and Motivation",
+      "year": 2021,
+      "cited_by_count": 5069,
+      "adjusted_cited_by_count": 2266.93,
+      "url": "/domains/psychology/papers/W4207080468"
+    },
+    {
+      "source_id": "https://openalex.org/W2169434152",
+      "title": "The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions",
+      "year": 2013,
+      "cited_by_count": 7839,
+      "adjusted_cited_by_count": 2174.15,
+      "url": "/domains/psychology/papers/W2169434152"
+    },
+    {
+      "source_id": "https://openalex.org/W199743680",
+      "title": "THE PSYCHOLOGY OF PERSONAL CONSTRUCTS",
+      "year": 2010,
+      "cited_by_count": 8633,
+      "adjusted_cited_by_count": 2158.25,
+      "url": "/domains/psychology/papers/W199743680"
+    },
+    {
+      "source_id": "https://openalex.org/W4241286296",
+      "title": "Positive psychology: An introduction.",
+      "year": 2000,
+      "cited_by_count": 10937,
+      "adjusted_cited_by_count": 2144.92,
+      "url": "/domains/psychology/papers/W4241286296"
+    },
+    {
+      "source_id": "https://openalex.org/W2140205964",
+      "title": "Flow: the psychology of optimal experience",
+      "year": 1990,
+      "cited_by_count": 12713,
+      "adjusted_cited_by_count": 2118.83,
+      "url": "/domains/psychology/papers/W2140205964"
+    },
+    {
+      "source_id": "https://openalex.org/W1483679835",
+      "title": "Handbook of Social Psychology",
+      "year": 2013,
+      "cited_by_count": 7551,
+      "adjusted_cited_by_count": 2094.27,
+      "url": "/domains/psychology/papers/W1483679835"
+    },
+    {
+      "source_id": "https://openalex.org/W2579555219",
+      "title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information.",
+      "year": 1956,
+      "cited_by_count": 17299,
+      "adjusted_cited_by_count": 2067.63,
+      "url": "/domains/psychology/papers/W2579555219"
+    },
+    {
+      "source_id": "https://openalex.org/W3016902371",
+      "title": "Using social and behavioural science to support COVID-19 pandemic response",
+      "year": 2020,
+      "cited_by_count": 5005,
+      "adjusted_cited_by_count": 2043.28,
+      "url": "/domains/psychology/papers/W3016902371"
+    },
+    {
+      "source_id": "https://openalex.org/W4241785331",
+      "title": "Culture's Consequences",
+      "year": 2018,
+      "cited_by_count": 5500,
+      "adjusted_cited_by_count": 1944.54,
+      "url": "/domains/psychology/papers/W4241785331"
+    },
+    {
+      "source_id": "https://openalex.org/W2053133047",
+      "title": "Positive psychology: An introduction.",
+      "year": 2000,
+      "cited_by_count": 9883,
+      "adjusted_cited_by_count": 1938.22,
+      "url": "/domains/psychology/papers/W2053133047"
+    },
+    {
+      "source_id": "https://openalex.org/W1746951143",
+      "title": "Handbook of Positive Psychology",
+      "year": 2001,
+      "cited_by_count": 9092,
+      "adjusted_cited_by_count": 1818.4,
+      "url": "/domains/psychology/papers/W1746951143"
+    },
+    {
+      "source_id": "https://openalex.org/W2140256961",
+      "title": "The Social Psychology of Organizations.",
+      "year": 1979,
+      "cited_by_count": 12377,
+      "adjusted_cited_by_count": 1805.37,
+      "url": "/domains/psychology/papers/W2140256961"
+    },
+    {
+      "source_id": "https://openalex.org/W1522024619",
+      "title": "Mindset: the new psychology of success",
+      "year": 2006,
+      "cited_by_count": 7889,
+      "adjusted_cited_by_count": 1764.03,
+      "url": "/domains/psychology/papers/W1522024619"
+    },
+    {
+      "source_id": "https://openalex.org/W2045181804",
+      "title": "Handbook of Industrial and Organizational Psychology.",
+      "year": 1977,
+      "cited_by_count": 12140,
+      "adjusted_cited_by_count": 1734.29,
+      "url": "/domains/psychology/papers/W2045181804"
+    },
+    {
+      "source_id": "https://openalex.org/W2133535394",
+      "title": "Dimensionalizing Cultures: The Hofstede Model in Context",
+      "year": 2011,
+      "cited_by_count": 6640,
+      "adjusted_cited_by_count": 1714.44,
+      "url": "/domains/psychology/papers/W2133535394"
+    },
+    {
+      "source_id": "https://openalex.org/W3022671937",
+      "title": "Journal of personality and social psychology",
+      "year": 1988,
+      "cited_by_count": 10567,
+      "adjusted_cited_by_count": 1714.19,
+      "url": "/domains/psychology/papers/W3022671937"
+    },
+    {
+      "source_id": "https://openalex.org/W2161498332",
+      "title": "False-Positive Psychology",
+      "year": 2011,
+      "cited_by_count": 6627,
+      "adjusted_cited_by_count": 1711.08,
+      "url": "/domains/psychology/papers/W2161498332"
+    },
+    {
+      "source_id": "https://openalex.org/W630727849",
+      "title": "Psychology of intergroup relations",
+      "year": 1986,
+      "cited_by_count": 10686,
+      "adjusted_cited_by_count": 1689.6,
+      "url": "/domains/psychology/papers/W630727849"
+    },
+    {
+      "source_id": "https://openalex.org/W386986494",
+      "title": "The Social psychology of intergroup relations",
+      "year": 1979,
+      "cited_by_count": 11544,
+      "adjusted_cited_by_count": 1683.87,
+      "url": "/domains/psychology/papers/W386986494"
+    },
+    {
+      "source_id": "https://openalex.org/W1488837022",
+      "title": "The Handbook of Social Psychology",
+      "year": 1969,
+      "cited_by_count": 12666,
+      "adjusted_cited_by_count": 1677.65,
+      "url": "/domains/psychology/papers/W1488837022"
+    },
+    {
+      "source_id": "https://openalex.org/W4235959379",
+      "title": "Clinical Psychology: Science and Practice",
+      "year": 2021,
+      "cited_by_count": 3681,
+      "adjusted_cited_by_count": 1646.19,
+      "url": "/domains/psychology/papers/W4235959379"
+    },
+    {
+      "source_id": "https://openalex.org/W2096423181",
+      "title": "The Emerging Field of Emotion Regulation: An Integrative Review",
+      "year": 1998,
+      "cited_by_count": 8685,
+      "adjusted_cited_by_count": 1641.31,
+      "url": "/domains/psychology/papers/W2096423181"
+    },
+    {
+      "source_id": "https://openalex.org/W2167557160",
+      "title": "Measuring emotion: The self-assessment manikin and the semantic differential",
+      "year": 1994,
+      "cited_by_count": 9267,
+      "adjusted_cited_by_count": 1638.19,
+      "url": "/domains/psychology/papers/W2167557160"
+    },
+    {
+      "source_id": "https://openalex.org/W4293872590",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "year": 1991,
+      "cited_by_count": 9463,
+      "adjusted_cited_by_count": 1599.54,
+      "url": "/domains/psychology/papers/W4293872590"
+    },
+    {
+      "source_id": "https://openalex.org/W4298185589",
+      "title": "The psychology of interpersonal relations.",
+      "year": 1958,
+      "cited_by_count": 12975,
+      "adjusted_cited_by_count": 1573.45,
+      "url": "/domains/psychology/papers/W4298185589"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 338
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 214
+    },
+    {
+      "label": "social psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 201
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 174
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 133
+    },
+    {
+      "label": "cognitive psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "our",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 96
+    },
+    {
+      "label": "mental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 89
+    },
+    {
+      "label": "epistemology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "psychology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 83
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "behavior",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "psychoanalysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "cognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "cognitive science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "applied psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 67
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 67
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 66
+    },
+    {
+      "label": "cognitive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 155
+    },
+    {
+      "label": "psychological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 63
+    },
+    {
+      "label": "relations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 58
+    },
+    {
+      "label": "in this",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 54
+    },
+    {
+      "label": "the psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 54
+    },
+    {
+      "label": "individual",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 52
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 51
+    },
+    {
+      "label": "the psychology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 50
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 48
+    },
+    {
+      "label": "most",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 48
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 46
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 46
+    },
+    {
+      "label": "some",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 46
+    },
+    {
+      "label": "theory of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 46
+    },
+    {
+      "label": "affect",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 44
+    },
+    {
+      "label": "developmental psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 44
+    },
+    {
+      "label": "processes",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 44
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 43
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 43
+    },
+    {
+      "label": "motivation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 43
+    },
+    {
+      "label": "emotion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 42
+    },
+    {
+      "label": "psychotherapist",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 40
+    }
+  ],
+  "topic_year_counts": {
+    "cognitive psychology": {
+      "2025": 192434,
+      "2023": 170231,
+      "2024": 168202,
+      "2022": 122219,
+      "2021": 108430,
+      "2020": 97303,
+      "2019": 82567,
+      "2018": 71905,
+      "2017": 64827,
+      "2016": 57863,
+      "2015": 52737,
+      "2026": 46322,
+      "2014": 45679,
+      "2013": 40494,
+      "2012": 34437,
+      "2011": 29005,
+      "2010": 25420,
+      "2009": 21944,
+      "2008": 17524,
+      "2007": 15267,
+      "2006": 12807,
+      "2005": 10831,
+      "2004": 9226,
+      "2003": 7732,
+      "2002": 6318,
+      "2000": 6175,
+      "2001": 5777
+    },
+    "applied psychology": {
+      "2025": 201345,
+      "2023": 186463,
+      "2024": 183592,
+      "2022": 133419,
+      "2021": 116774,
+      "2020": 104949,
+      "2019": 87780,
+      "2018": 76580,
+      "2017": 67380,
+      "2016": 59874,
+      "2015": 54433,
+      "2014": 47112,
+      "2026": 46202,
+      "2013": 40450,
+      "2012": 34565,
+      "2011": 29293,
+      "2010": 25138,
+      "2009": 21324,
+      "2008": 16925,
+      "2007": 14401,
+      "2006": 11968,
+      "2005": 10184,
+      "2004": 8523,
+      "2003": 7014,
+      "2000": 6136,
+      "2002": 5990,
+      "2001": 5086
+    },
+    "developmental psychology": {
+      "2025": 78454,
+      "2023": 69269,
+      "2024": 68261,
+      "2022": 49852,
+      "2021": 44933,
+      "2020": 41706,
+      "2019": 36369,
+      "2018": 32007,
+      "2017": 29475,
+      "2016": 26863,
+      "2015": 24895,
+      "2014": 21864,
+      "2026": 19068,
+      "2013": 19042,
+      "2012": 16499,
+      "2011": 13690,
+      "2010": 12269,
+      "2009": 10449,
+      "2008": 8346,
+      "2007": 7183,
+      "2006": 5678,
+      "2005": 4871,
+      "2004": 4186,
+      "2003": 3516,
+      "2000": 3120,
+      "2002": 2939,
+      "2001": 2611
+    },
+    "mental health": {
+      "2025": 426624,
+      "2024": 406494,
+      "2023": 398660,
+      "2022": 295873,
+      "2021": 265554,
+      "2020": 229271,
+      "2019": 171758,
+      "2018": 148581,
+      "2017": 132425,
+      "2016": 119019,
+      "2015": 107354,
+      "2026": 96634,
+      "2014": 96196,
+      "2013": 85598,
+      "2012": 74149,
+      "2011": 63316,
+      "2010": 55053,
+      "2009": 48651,
+      "2008": 40525,
+      "2007": 35477,
+      "2006": 31297,
+      "2005": 27267,
+      "2004": 23799,
+      "2003": 20209,
+      "2002": 18031,
+      "2000": 15810,
+      "2001": 15664
+    },
+    "cultural psychology": {
+      "2025": 188710,
+      "2024": 156557,
+      "2023": 149389,
+      "2022": 105963,
+      "2021": 92931,
+      "2020": 83224,
+      "2019": 70264,
+      "2018": 61515,
+      "2017": 54443,
+      "2016": 48713,
+      "2015": 44483,
+      "2026": 41666,
+      "2014": 38506,
+      "2013": 33282,
+      "2012": 28134,
+      "2011": 23801,
+      "2010": 20941,
+      "2009": 17979,
+      "2008": 14380,
+      "2007": 11932,
+      "2006": 10095,
+      "2005": 8278,
+      "2004": 7103,
+      "2003": 5888,
+      "2000": 4883,
+      "2002": 4880,
+      "2001": 4270
+    },
+    "educational psychology": {
+      "2025": 192144,
+      "2024": 166394,
+      "2023": 160431,
+      "2022": 114869,
+      "2021": 99042,
+      "2020": 88316,
+      "2019": 73575,
+      "2018": 61221,
+      "2017": 53935,
+      "2016": 47445,
+      "2015": 43240,
+      "2026": 41993,
+      "2014": 36639,
+      "2013": 31289,
+      "2012": 26303,
+      "2011": 22235,
+      "2010": 19134,
+      "2009": 16121,
+      "2008": 12953,
+      "2007": 10979,
+      "2006": 9069,
+      "2005": 7554,
+      "2004": 6317,
+      "2003": 5274,
+      "2000": 4807,
+      "2002": 4488,
+      "2001": 3797
+    },
+    "health psychology": {
+      "2025": 221204,
+      "2023": 207577,
+      "2024": 206534,
+      "2022": 149273,
+      "2021": 127258,
+      "2020": 109824,
+      "2019": 87593,
+      "2018": 74581,
+      "2017": 66209,
+      "2016": 58622,
+      "2015": 52723,
+      "2026": 48587,
+      "2014": 45291,
+      "2013": 38650,
+      "2012": 32800,
+      "2011": 26822,
+      "2010": 23544,
+      "2009": 19716,
+      "2008": 15722,
+      "2007": 13272,
+      "2006": 11072,
+      "2005": 9498,
+      "2004": 7922,
+      "2003": 6665,
+      "2000": 5805,
+      "2002": 5740,
+      "2001": 4795
+    },
+    "positive psychology": {
+      "2025": 221128,
+      "2023": 214563,
+      "2024": 211568,
+      "2022": 153535,
+      "2021": 133248,
+      "2020": 118623,
+      "2019": 98566,
+      "2018": 85339,
+      "2017": 75988,
+      "2016": 67570,
+      "2015": 61130,
+      "2014": 52798,
+      "2026": 48493,
+      "2013": 45558,
+      "2012": 38535,
+      "2011": 32244,
+      "2010": 28068,
+      "2009": 23772,
+      "2008": 18724,
+      "2007": 15845,
+      "2006": 13254,
+      "2005": 11118,
+      "2004": 9256,
+      "2003": 7428,
+      "2000": 6666,
+      "2002": 6553,
+      "2001": 5523
+    },
+    "industrial organizational psychology": {
+      "2024": 41242,
+      "2025": 40128,
+      "2023": 38763,
+      "2022": 28249,
+      "2021": 23868,
+      "2020": 22387,
+      "2019": 18682,
+      "2018": 16309,
+      "2017": 14149,
+      "2016": 12850,
+      "2015": 11318,
+      "2014": 10209,
+      "2013": 8517,
+      "2026": 8405,
+      "2012": 7641,
+      "2011": 6601,
+      "2010": 5712,
+      "2009": 4943,
+      "2008": 3834,
+      "2007": 3160,
+      "2006": 2819,
+      "2005": 2349,
+      "2004": 1974,
+      "2003": 1640,
+      "2000": 1406,
+      "2002": 1384,
+      "2001": 1132
+    },
+    "social psychology": {
+      "2025": 316428,
+      "2023": 292593,
+      "2024": 286971,
+      "2022": 211805,
+      "2021": 184937,
+      "2020": 163994,
+      "2019": 136103,
+      "2018": 117742,
+      "2017": 104362,
+      "2016": 92612,
+      "2015": 83974,
+      "2014": 72570,
+      "2026": 69790,
+      "2013": 63283,
+      "2012": 53355,
+      "2011": 44929,
+      "2010": 39212,
+      "2009": 33398,
+      "2008": 26972,
+      "2007": 22916,
+      "2006": 19226,
+      "2005": 16191,
+      "2004": 13765,
+      "2003": 11395,
+      "2002": 10039,
+      "2000": 9450,
+      "2001": 8472
+    }
+  }
+}

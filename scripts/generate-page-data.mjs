@@ -308,7 +308,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
   // Children of current topic
   const children = subgenres
     .filter((t) => t.parent_id === topic.subgenre_id)
-    .map((c) => ({ subgenre_id: c.subgenre_id, label: c.label }));
+    .map((c) => ({ subgenre_id: c.subgenre_id, label: c.label, paperCount: c.paper_ids.length }));
 
   // Grandchildren keyed by child id (for display in child cards)
   const grandchildren = {};

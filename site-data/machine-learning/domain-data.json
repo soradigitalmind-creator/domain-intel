@@ -1,0 +1,1936 @@
+{
+  "slug": "machine-learning",
+  "title": "Machine Learning",
+  "updated_at": "2026-04-06T14:06:24.299903Z",
+  "snapshot": {
+    "papers": 556,
+    "topics": 6,
+    "subtopics": 39,
+    "entities": 1033,
+    "claims": 8
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 568,
+      "total_papers": 568,
+      "facet_counts": {
+        "none": 568
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning machine learning, machine learning and data classification.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 6,
+    "descendant_topics": 39,
+    "max_depth": 2,
+    "leaf_topics": 39
+  },
+  "rising_topics": [
+    {
+      "id": "sg-neural-network",
+      "label": "Neural networks",
+      "url": "/domains/machine-learning/topics/sg-neural-network",
+      "trend": "rising",
+      "year_total": 3531600
+    },
+    {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/machine-learning/topics/sg-data-mining",
+      "trend": "rising",
+      "year_total": 1752462
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/machine-learning/topics/sg-pattern-recognition",
+      "trend": "rising",
+      "year_total": 2804927
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-neural-network",
+      "label": "Neural networks",
+      "url": "/domains/machine-learning/topics/sg-neural-network",
+      "paper_count": 224,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "artificial neural network",
+        "convolutional neural",
+        "convolutional neural network",
+        "deep neural networks"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-networks-natural-language-processing",
+          "label": "Natural language processing",
+          "url": "/domains/machine-learning/topics/sg-neural-networks-natural-language-processing",
+          "paper_count": 79
+        },
+        {
+          "id": "sg-neural-networks-deep-neural-networks",
+          "label": "Deep neural networks",
+          "url": "/domains/machine-learning/topics/sg-neural-networks-deep-neural-networks",
+          "paper_count": 49
+        },
+        {
+          "id": "sg-neural-networks-convolutional-neural-networks",
+          "label": "Convolutional neural networks",
+          "url": "/domains/machine-learning/topics/sg-neural-networks-convolutional-neural-networks",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-neural-networks-recurrent-neural-network",
+          "label": "Recurrent neural network",
+          "url": "/domains/machine-learning/topics/sg-neural-networks-recurrent-neural-network",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-neural-networks-artificial-neural-networks",
+          "label": "Artificial neural networks",
+          "url": "/domains/machine-learning/topics/sg-neural-networks-artificial-neural-networks",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-neural-networks-evolutionary-computation",
+          "label": "Evolutionary computation",
+          "url": "/domains/machine-learning/topics/sg-neural-networks-evolutionary-computation",
+          "paper_count": 17
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/machine-learning/topics/sg-data-mining",
+      "paper_count": 156,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "data mining",
+        "data mining machine",
+        "data stream mining",
+        "machine classification"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-data-mining-data-stream-mining",
+          "label": "Data stream mining",
+          "url": "/domains/machine-learning/topics/sg-data-mining-data-stream-mining",
+          "paper_count": 82
+        },
+        {
+          "id": "sg-data-mining-big-data",
+          "label": "Big data",
+          "url": "/domains/machine-learning/topics/sg-data-mining-big-data",
+          "paper_count": 47
+        },
+        {
+          "id": "sg-data-mining-feature-selection",
+          "label": "Feature selection",
+          "url": "/domains/machine-learning/topics/sg-data-mining-feature-selection",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-data-mining-data-warehousing",
+          "label": "Data warehousing",
+          "url": "/domains/machine-learning/topics/sg-data-mining-data-warehousing",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-data-mining-network-security-intrusion-detection",
+          "label": "Network security intrusion detection",
+          "url": "/domains/machine-learning/topics/sg-data-mining-network-security-intrusion-detection",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-data-mining-gene-expression-cancer-classification",
+          "label": "Gene expression cancer classification",
+          "url": "/domains/machine-learning/topics/sg-data-mining-gene-expression-cancer-classification",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/machine-learning/topics/sg-pattern-recognition",
+      "paper_count": 65,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: pattern recognition, of the, data",
+      "tags": [
+        "learning convolutional neural",
+        "learning convolutional neural networks",
+        "pattern recognition",
+        "pattern recognition machine"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-pattern-recognition-feature-extraction",
+          "label": "Feature extraction",
+          "url": "/domains/machine-learning/topics/sg-pattern-recognition-feature-extraction",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-pattern-recognition-medical-imaging",
+          "label": "Medical imaging",
+          "url": "/domains/machine-learning/topics/sg-pattern-recognition-medical-imaging",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-pattern-recognition-object-detection",
+          "label": "Object detection",
+          "url": "/domains/machine-learning/topics/sg-pattern-recognition-object-detection",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-pattern-recognition-digital-signal-processing",
+          "label": "Digital signal processing",
+          "url": "/domains/machine-learning/topics/sg-pattern-recognition-digital-signal-processing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-pattern-recognition-viola-jones-object-detection-framework",
+          "label": "Viola-Jones object detection framework",
+          "url": "/domains/machine-learning/topics/sg-pattern-recognition-viola-jones-object-detection-framework",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-pattern-recognition-human-pose-action-recognition",
+          "label": "Human pose action recognition",
+          "url": "/domains/machine-learning/topics/sg-pattern-recognition-human-pose-action-recognition",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2108598243",
+          "title": "ImageNet: A large-scale hierarchical image database",
+          "year": "2009",
+          "cited_by_count": 60753,
+          "url": "/domains/machine-learning/papers/W2108598243"
+        },
+        {
+          "source_id": "https://openalex.org/W3035965352",
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 21021,
+          "url": "/domains/machine-learning/papers/W3035965352"
+        },
+        {
+          "source_id": "https://openalex.org/W3099878876",
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 18804,
+          "url": "/domains/machine-learning/papers/W3099878876"
+        }
+      ]
+    },
+    {
+      "id": "sg-support-vector-machine",
+      "label": "Support vector machine",
+      "url": "/domains/machine-learning/topics/sg-support-vector-machine",
+      "paper_count": 45,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: support vector machine, learning, machine",
+      "tags": [
+        "relevance vector machine",
+        "support vector machine",
+        "support vector machine classification",
+        "support vector machine kernel-based"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-support-vector-machine-ranking-svm",
+          "label": "Ranking svm",
+          "url": "/domains/machine-learning/topics/sg-support-vector-machine-ranking-svm",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-support-vector-machine-quadratic-programming",
+          "label": "Quadratic programming",
+          "url": "/domains/machine-learning/topics/sg-support-vector-machine-quadratic-programming",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-support-vector-machine-confusion-matrix",
+          "label": "Confusion matrix",
+          "url": "/domains/machine-learning/topics/sg-support-vector-machine-confusion-matrix",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-support-vector-machine-quadratic-classifier",
+          "label": "Quadratic classifier",
+          "url": "/domains/machine-learning/topics/sg-support-vector-machine-quadratic-classifier",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-support-vector-machine-face-detection",
+          "label": "Face detection",
+          "url": "/domains/machine-learning/topics/sg-support-vector-machine-face-detection",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-support-vector-machine-radial-basis-function-kernel",
+          "label": "Radial basis function kernel",
+          "url": "/domains/machine-learning/topics/sg-support-vector-machine-radial-basis-function-kernel",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2153635508",
+          "title": "LIBSVM",
+          "year": "2011",
+          "cited_by_count": 41221,
+          "url": "/domains/machine-learning/papers/W2153635508"
+        },
+        {
+          "source_id": "https://openalex.org/W1497256448",
+          "title": "Adaptation in Natural and Artificial Systems",
+          "year": "1992",
+          "cited_by_count": 35555,
+          "url": "/domains/machine-learning/papers/W1497256448"
+        },
+        {
+          "source_id": "https://openalex.org/W2164598857",
+          "title": "Rapid object detection using a boosted cascade of simple features",
+          "year": "2005",
+          "cited_by_count": 18151,
+          "url": "/domains/machine-learning/papers/W2164598857"
+        }
+      ]
+    },
+    {
+      "id": "sg-supervised-learning",
+      "label": "Supervised learning",
+      "url": "/domains/machine-learning/topics/sg-supervised-learning",
+      "paper_count": 36,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: learning, supervised, supervised learning",
+      "tags": [
+        "learning to predict",
+        "machine learning perspective",
+        "quantum machine learning",
+        "semi-supervised learning"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-supervised-learning-learning-algorithms",
+          "label": "Learning algorithms",
+          "url": "/domains/machine-learning/topics/sg-supervised-learning-learning-algorithms",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-supervised-learning-artificial-neural-network",
+          "label": "Artificial neural network",
+          "url": "/domains/machine-learning/topics/sg-supervised-learning-artificial-neural-network",
+          "paper_count": 15
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2165698076",
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22739,
+          "url": "/domains/machine-learning/papers/W2165698076"
+        },
+        {
+          "source_id": "https://openalex.org/W1554944419",
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2013",
+          "cited_by_count": 19402,
+          "url": "/domains/machine-learning/papers/W1554944419"
+        },
+        {
+          "source_id": "https://openalex.org/W2335728318",
+          "title": "Reading digits in natural images with unsupervised feature learning",
+          "year": "2024",
+          "cited_by_count": 4556,
+          "url": "/domains/machine-learning/papers/W2335728318"
+        }
+      ]
+    },
+    {
+      "id": "sg-machine-learning-algorithms",
+      "label": "Machine learning algorithms",
+      "url": "/domains/machine-learning/topics/sg-machine-learning-algorithms",
+      "paper_count": 30,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: learning, machine, algorithm",
+      "tags": [
+        "machine learning algorithms",
+        "programs machine learning",
+        "scikit-learn machine",
+        "scikit-learn machine learning"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-machine-learning-algorithms-algorithms-machine",
+          "label": "Algorithms machine",
+          "url": "/domains/machine-learning/topics/sg-machine-learning-algorithms-algorithms-machine",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-machine-learning-algorithms-programming-language",
+          "label": "Programming language",
+          "url": "/domains/machine-learning/topics/sg-machine-learning-algorithms-programming-language",
+          "paper_count": 13
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2101234009",
+          "title": "Scikit-learn: Machine Learning in Python",
+          "year": "2012",
+          "cited_by_count": 63525,
+          "url": "/domains/machine-learning/papers/W2101234009"
+        },
+        {
+          "source_id": "https://openalex.org/W2295598076",
+          "title": "XGBoost",
+          "year": "2016",
+          "cited_by_count": 45695,
+          "url": "/domains/machine-learning/papers/W2295598076"
+        },
+        {
+          "source_id": "https://openalex.org/W2768348081",
+          "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+          "year": "2017",
+          "cited_by_count": 9484,
+          "url": "/domains/machine-learning/papers/W2768348081"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Neural networks",
+      "paper_count": 25,
+      "papers": [
+        {
+          "title": "Deep Residual Learning for Image Recognition",
+          "year": "2016",
+          "cited_by_count": 217496,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2194775991.html"
+        },
+        {
+          "title": "MizAR 60 for Mizar 50",
+          "year": "2023",
+          "cited_by_count": 74706,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w4385245566.html"
+        },
+        {
+          "title": "ImageNet classification with deep convolutional neural networks",
+          "year": "2017",
+          "cited_by_count": 75670,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2163605009.html"
+        },
+        {
+          "title": "Random Forests",
+          "year": "2001",
+          "cited_by_count": 121718,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2911964244.html"
+        },
+        {
+          "title": "Deep learning",
+          "year": "2015",
+          "cited_by_count": 79475,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2919115771.html"
+        },
+        {
+          "title": "",
+          "year": "2021",
+          "cited_by_count": 50095,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2964121744.html"
+        }
+      ]
+    },
+    {
+      "label": "Data mining",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352952,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2582743722.html"
+        },
+        {
+          "title": "Data mining: concepts and techniques",
+          "year": "2012",
+          "cited_by_count": 28872,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2140190241.html"
+        },
+        {
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22739,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2165698076.html"
+        }
+      ]
+    },
+    {
+      "label": "Data warehousing",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 21021,
+          "topic": "Data warehousing",
+          "url": "papers/https-openalex-org-w3035965352.html"
+        },
+        {
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 18804,
+          "topic": "Data warehousing",
+          "url": "papers/https-openalex-org-w3099878876.html"
+        }
+      ]
+    },
+    {
+      "label": "Machine learning algorithms",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Scikit-learn: Machine Learning in Python",
+          "year": "2012",
+          "cited_by_count": 63525,
+          "topic": "Machine learning algorithms",
+          "url": "papers/https-openalex-org-w2101234009.html"
+        },
+        {
+          "title": "XGBoost",
+          "year": "2016",
+          "cited_by_count": 45695,
+          "topic": "Machine learning algorithms",
+          "url": "papers/https-openalex-org-w2295598076.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+          "year": "2018",
+          "cited_by_count": 45472,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2896457183.html"
+        },
+        {
+          "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+          "year": "2019",
+          "cited_by_count": 16185,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2970971581.html"
+        }
+      ]
+    },
+    {
+      "label": "Quadratic programming",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Genetic algorithms in search, optimization, and machine learning",
+          "year": "1989",
+          "cited_by_count": 49332,
+          "topic": "Quadratic programming",
+          "url": "papers/https-openalex-org-w3023540311.html"
+        },
+        {
+          "title": "Adaptation in Natural and Artificial Systems",
+          "year": "1992",
+          "cited_by_count": 35555,
+          "topic": "Quadratic programming",
+          "url": "papers/https-openalex-org-w1497256448.html"
+        }
+      ]
+    },
+    {
+      "label": "Algorithms machine",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36206,
+          "topic": "Algorithms machine",
+          "url": "papers/https-openalex-org-w3003257820.html"
+        }
+      ]
+    },
+    {
+      "label": "Data stream mining",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "UCI Machine Learning Repository",
+          "year": "2007",
+          "cited_by_count": 24319,
+          "topic": "Data stream mining",
+          "url": "papers/https-openalex-org-w3120740533.html"
+        }
+      ]
+    },
+    {
+      "label": "Pattern recognition",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "ImageNet: A large-scale hierarchical image database",
+          "year": "2009",
+          "cited_by_count": 60753,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2108598243.html"
+        }
+      ]
+    },
+    {
+      "label": "Support vector machine",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "LIBSVM",
+          "year": "2011",
+          "cited_by_count": 41221,
+          "topic": "Support vector machine",
+          "url": "papers/https-openalex-org-w2153635508.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/machine-learning/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2194775991",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2016,
+      "cited_by_count": 217496,
+      "adjusted_cited_by_count": 68778.27,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2194775991"
+    },
+    {
+      "source_id": "https://openalex.org/W4385245566",
+      "title": "MizAR 60 for Mizar 50",
+      "year": 2023,
+      "cited_by_count": 74706,
+      "adjusted_cited_by_count": 43131.53,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W4385245566"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75670,
+      "adjusted_cited_by_count": 25223.33,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W2911964244",
+      "title": "Random Forests",
+      "year": 2001,
+      "cited_by_count": 121718,
+      "adjusted_cited_by_count": 24343.6,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2911964244"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79475,
+      "adjusted_cited_by_count": 23962.61,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2919115771"
+    },
+    {
+      "source_id": "https://openalex.org/W2964121744",
+      "title": "https://openalex.org/W2964121744",
+      "year": 2021,
+      "cited_by_count": 50095,
+      "adjusted_cited_by_count": 22403.17,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2964121744"
+    },
+    {
+      "source_id": "https://openalex.org/W1686810756",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "cited_by_count": 75499,
+      "adjusted_cited_by_count": 21794.68,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W1686810756"
+    },
+    {
+      "source_id": "https://openalex.org/W2101234009",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "year": 2012,
+      "cited_by_count": 63525,
+      "adjusted_cited_by_count": 16977.77,
+      "primary_topic_id": "sg-machine-learning-algorithms",
+      "primary_topic_label": "Machine learning algorithms",
+      "url": "/domains/machine-learning/papers/W2101234009"
+    },
+    {
+      "source_id": "https://openalex.org/W2896457183",
+      "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+      "year": 2018,
+      "cited_by_count": 45472,
+      "adjusted_cited_by_count": 16076.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/machine-learning/papers/W2896457183"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36206,
+      "adjusted_cited_by_count": 14781.04,
+      "primary_topic_id": "sg-machine-learning-algorithms-algorithms-machine",
+      "primary_topic_label": "Algorithms machine",
+      "url": "/domains/machine-learning/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2108598243",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "year": 2009,
+      "cited_by_count": 60753,
+      "adjusted_cited_by_count": 14734.77,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/machine-learning/papers/W2108598243"
+    },
+    {
+      "source_id": "https://openalex.org/W2295598076",
+      "title": "XGBoost",
+      "year": 2016,
+      "cited_by_count": 45695,
+      "adjusted_cited_by_count": 14450.03,
+      "primary_topic_id": "sg-machine-learning-algorithms",
+      "primary_topic_label": "Machine learning algorithms",
+      "url": "/domains/machine-learning/papers/W2295598076"
+    },
+    {
+      "source_id": "https://openalex.org/W4293584584",
+      "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+      "year": 2024,
+      "cited_by_count": 14276,
+      "adjusted_cited_by_count": 14276.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W4293584584"
+    },
+    {
+      "source_id": "https://openalex.org/W2097117768",
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "cited_by_count": 46426,
+      "adjusted_cited_by_count": 13997.97,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2097117768"
+    },
+    {
+      "source_id": "https://openalex.org/W2962862931",
+      "title": "On a Method to Measure Supervised Multiclass Model’s Interpretability: Application to Degradation Diagnosis (Short Paper)",
+      "year": 2024,
+      "cited_by_count": 13164,
+      "adjusted_cited_by_count": 13164.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2962862931"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57171,
+      "adjusted_cited_by_count": 10804.3,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2153635508",
+      "title": "LIBSVM",
+      "year": 2011,
+      "cited_by_count": 41221,
+      "adjusted_cited_by_count": 10643.22,
+      "primary_topic_id": "sg-support-vector-machine",
+      "primary_topic_label": "Support vector machine",
+      "url": "/domains/machine-learning/papers/W2153635508"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34242,
+      "adjusted_cited_by_count": 9884.81,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W3106250896",
+      "title": "SSD: Single Shot MultiBox Detector",
+      "year": 2016,
+      "cited_by_count": 30526,
+      "adjusted_cited_by_count": 9653.17,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W3106250896"
+    },
+    {
+      "source_id": "https://openalex.org/W2183341477",
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2016,
+      "cited_by_count": 30467,
+      "adjusted_cited_by_count": 9634.51,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2183341477"
+    },
+    {
+      "source_id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 21021,
+      "adjusted_cited_by_count": 8581.79,
+      "primary_topic_id": "sg-data-mining-data-warehousing",
+      "primary_topic_label": "Data warehousing",
+      "url": "/domains/machine-learning/papers/W3035965352"
+    },
+    {
+      "source_id": "https://openalex.org/W3023540311",
+      "title": "Genetic algorithms in search, optimization, and machine learning",
+      "year": 1989,
+      "cited_by_count": 49332,
+      "adjusted_cited_by_count": 8110.13,
+      "primary_topic_id": "sg-support-vector-machine-quadratic-programming",
+      "primary_topic_label": "Quadratic programming",
+      "url": "/domains/machine-learning/papers/W3023540311"
+    },
+    {
+      "source_id": "https://openalex.org/W2140190241",
+      "title": "Data mining: concepts and techniques",
+      "year": 2012,
+      "cited_by_count": 28872,
+      "adjusted_cited_by_count": 7716.37,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/machine-learning/papers/W2140190241"
+    },
+    {
+      "source_id": "https://openalex.org/W3099878876",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 18804,
+      "adjusted_cited_by_count": 7676.7,
+      "primary_topic_id": "sg-data-mining-data-warehousing",
+      "primary_topic_label": "Data warehousing",
+      "url": "/domains/machine-learning/papers/W3099878876"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40052,
+      "adjusted_cited_by_count": 7193.55,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W2962784628",
+      "title": "https://openalex.org/W2962784628",
+      "year": null,
+      "cited_by_count": 7147,
+      "adjusted_cited_by_count": 7147.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2962784628"
+    },
+    {
+      "source_id": "https://openalex.org/W2156909104",
+      "title": "The Nature of Statistical Learning Theory",
+      "year": 1995,
+      "cited_by_count": 39169,
+      "adjusted_cited_by_count": 7034.96,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2156909104"
+    },
+    {
+      "source_id": "https://openalex.org/W2157331557",
+      "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+      "year": 2014,
+      "cited_by_count": 23998,
+      "adjusted_cited_by_count": 6927.63,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2157331557"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25708,
+      "adjusted_cited_by_count": 6637.78,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2965373594",
+      "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
+      "year": 2019,
+      "cited_by_count": 17226,
+      "adjusted_cited_by_count": 6510.82,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2965373594"
+    },
+    {
+      "source_id": "https://openalex.org/W2970971581",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "year": 2019,
+      "cited_by_count": 16185,
+      "adjusted_cited_by_count": 6117.35,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/machine-learning/papers/W2970971581"
+    },
+    {
+      "source_id": "https://openalex.org/W1497256448",
+      "title": "Adaptation in Natural and Artificial Systems",
+      "year": 1992,
+      "cited_by_count": 35555,
+      "adjusted_cited_by_count": 6097.63,
+      "primary_topic_id": "sg-support-vector-machine-quadratic-programming",
+      "primary_topic_label": "Quadratic programming",
+      "url": "/domains/machine-learning/papers/W1497256448"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32212,
+      "adjusted_cited_by_count": 5785.45,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W1678356000",
+      "title": "Greedy function approximation: A gradient boosting machine.",
+      "year": 2001,
+      "cited_by_count": 27912,
+      "adjusted_cited_by_count": 5582.4,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W1678356000"
+    },
+    {
+      "source_id": "https://openalex.org/W3120740533",
+      "title": "UCI Machine Learning Repository",
+      "year": 2007,
+      "cited_by_count": 24319,
+      "adjusted_cited_by_count": 5579.16,
+      "primary_topic_id": "sg-data-mining-data-stream-mining",
+      "primary_topic_label": "Data stream mining",
+      "url": "/domains/machine-learning/papers/W3120740533"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22739,
+      "adjusted_cited_by_count": 5515.02,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/machine-learning/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W2613718673",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "year": 2015,
+      "cited_by_count": 18237,
+      "adjusted_cited_by_count": 5498.66,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2613718673"
+    },
+    {
+      "source_id": "https://openalex.org/W2593436234",
+      "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+      "year": 2017,
+      "cited_by_count": 16251,
+      "adjusted_cited_by_count": 5417.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W2593436234"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19402,
+      "adjusted_cited_by_count": 5381.15,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/machine-learning/papers/W1554944419"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "url": "/domains/machine-learning/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2194775991",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2016,
+      "cited_by_count": 217496,
+      "adjusted_cited_by_count": 68778.27,
+      "url": "/domains/machine-learning/papers/W2194775991"
+    },
+    {
+      "source_id": "https://openalex.org/W4385245566",
+      "title": "MizAR 60 for Mizar 50",
+      "year": 2023,
+      "cited_by_count": 74706,
+      "adjusted_cited_by_count": 43131.53,
+      "url": "/domains/machine-learning/papers/W4385245566"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75670,
+      "adjusted_cited_by_count": 25223.33,
+      "url": "/domains/machine-learning/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W2911964244",
+      "title": "Random Forests",
+      "year": 2001,
+      "cited_by_count": 121718,
+      "adjusted_cited_by_count": 24343.6,
+      "url": "/domains/machine-learning/papers/W2911964244"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79475,
+      "adjusted_cited_by_count": 23962.61,
+      "url": "/domains/machine-learning/papers/W2919115771"
+    },
+    {
+      "source_id": "https://openalex.org/W2964121744",
+      "title": "https://openalex.org/W2964121744",
+      "year": 2021,
+      "cited_by_count": 50095,
+      "adjusted_cited_by_count": 22403.17,
+      "url": "/domains/machine-learning/papers/W2964121744"
+    },
+    {
+      "source_id": "https://openalex.org/W1686810756",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "cited_by_count": 75499,
+      "adjusted_cited_by_count": 21794.68,
+      "url": "/domains/machine-learning/papers/W1686810756"
+    },
+    {
+      "source_id": "https://openalex.org/W2101234009",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "year": 2012,
+      "cited_by_count": 63525,
+      "adjusted_cited_by_count": 16977.77,
+      "url": "/domains/machine-learning/papers/W2101234009"
+    },
+    {
+      "source_id": "https://openalex.org/W2896457183",
+      "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+      "year": 2018,
+      "cited_by_count": 45472,
+      "adjusted_cited_by_count": 16076.78,
+      "url": "/domains/machine-learning/papers/W2896457183"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36206,
+      "adjusted_cited_by_count": 14781.04,
+      "url": "/domains/machine-learning/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2108598243",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "year": 2009,
+      "cited_by_count": 60753,
+      "adjusted_cited_by_count": 14734.77,
+      "url": "/domains/machine-learning/papers/W2108598243"
+    },
+    {
+      "source_id": "https://openalex.org/W2295598076",
+      "title": "XGBoost",
+      "year": 2016,
+      "cited_by_count": 45695,
+      "adjusted_cited_by_count": 14450.03,
+      "url": "/domains/machine-learning/papers/W2295598076"
+    },
+    {
+      "source_id": "https://openalex.org/W4293584584",
+      "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+      "year": 2024,
+      "cited_by_count": 14276,
+      "adjusted_cited_by_count": 14276.0,
+      "url": "/domains/machine-learning/papers/W4293584584"
+    },
+    {
+      "source_id": "https://openalex.org/W2097117768",
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "cited_by_count": 46426,
+      "adjusted_cited_by_count": 13997.97,
+      "url": "/domains/machine-learning/papers/W2097117768"
+    },
+    {
+      "source_id": "https://openalex.org/W2962862931",
+      "title": "On a Method to Measure Supervised Multiclass Model’s Interpretability: Application to Degradation Diagnosis (Short Paper)",
+      "year": 2024,
+      "cited_by_count": 13164,
+      "adjusted_cited_by_count": 13164.0,
+      "url": "/domains/machine-learning/papers/W2962862931"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57171,
+      "adjusted_cited_by_count": 10804.3,
+      "url": "/domains/machine-learning/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2153635508",
+      "title": "LIBSVM",
+      "year": 2011,
+      "cited_by_count": 41221,
+      "adjusted_cited_by_count": 10643.22,
+      "url": "/domains/machine-learning/papers/W2153635508"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34242,
+      "adjusted_cited_by_count": 9884.81,
+      "url": "/domains/machine-learning/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W3106250896",
+      "title": "SSD: Single Shot MultiBox Detector",
+      "year": 2016,
+      "cited_by_count": 30526,
+      "adjusted_cited_by_count": 9653.17,
+      "url": "/domains/machine-learning/papers/W3106250896"
+    },
+    {
+      "source_id": "https://openalex.org/W2183341477",
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2016,
+      "cited_by_count": 30467,
+      "adjusted_cited_by_count": 9634.51,
+      "url": "/domains/machine-learning/papers/W2183341477"
+    },
+    {
+      "source_id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 21021,
+      "adjusted_cited_by_count": 8581.79,
+      "url": "/domains/machine-learning/papers/W3035965352"
+    },
+    {
+      "source_id": "https://openalex.org/W3023540311",
+      "title": "Genetic algorithms in search, optimization, and machine learning",
+      "year": 1989,
+      "cited_by_count": 49332,
+      "adjusted_cited_by_count": 8110.13,
+      "url": "/domains/machine-learning/papers/W3023540311"
+    },
+    {
+      "source_id": "https://openalex.org/W2140190241",
+      "title": "Data mining: concepts and techniques",
+      "year": 2012,
+      "cited_by_count": 28872,
+      "adjusted_cited_by_count": 7716.37,
+      "url": "/domains/machine-learning/papers/W2140190241"
+    },
+    {
+      "source_id": "https://openalex.org/W3099878876",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 18804,
+      "adjusted_cited_by_count": 7676.7,
+      "url": "/domains/machine-learning/papers/W3099878876"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40052,
+      "adjusted_cited_by_count": 7193.55,
+      "url": "/domains/machine-learning/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W2962784628",
+      "title": "https://openalex.org/W2962784628",
+      "year": null,
+      "cited_by_count": 7147,
+      "adjusted_cited_by_count": 7147.0,
+      "url": "/domains/machine-learning/papers/W2962784628"
+    },
+    {
+      "source_id": "https://openalex.org/W2156909104",
+      "title": "The Nature of Statistical Learning Theory",
+      "year": 1995,
+      "cited_by_count": 39169,
+      "adjusted_cited_by_count": 7034.96,
+      "url": "/domains/machine-learning/papers/W2156909104"
+    },
+    {
+      "source_id": "https://openalex.org/W2157331557",
+      "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+      "year": 2014,
+      "cited_by_count": 23998,
+      "adjusted_cited_by_count": 6927.63,
+      "url": "/domains/machine-learning/papers/W2157331557"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25708,
+      "adjusted_cited_by_count": 6637.78,
+      "url": "/domains/machine-learning/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2965373594",
+      "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
+      "year": 2019,
+      "cited_by_count": 17226,
+      "adjusted_cited_by_count": 6510.82,
+      "url": "/domains/machine-learning/papers/W2965373594"
+    },
+    {
+      "source_id": "https://openalex.org/W2970971581",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "year": 2019,
+      "cited_by_count": 16185,
+      "adjusted_cited_by_count": 6117.35,
+      "url": "/domains/machine-learning/papers/W2970971581"
+    },
+    {
+      "source_id": "https://openalex.org/W1497256448",
+      "title": "Adaptation in Natural and Artificial Systems",
+      "year": 1992,
+      "cited_by_count": 35555,
+      "adjusted_cited_by_count": 6097.63,
+      "url": "/domains/machine-learning/papers/W1497256448"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32212,
+      "adjusted_cited_by_count": 5785.45,
+      "url": "/domains/machine-learning/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W1678356000",
+      "title": "Greedy function approximation: A gradient boosting machine.",
+      "year": 2001,
+      "cited_by_count": 27912,
+      "adjusted_cited_by_count": 5582.4,
+      "url": "/domains/machine-learning/papers/W1678356000"
+    },
+    {
+      "source_id": "https://openalex.org/W3120740533",
+      "title": "UCI Machine Learning Repository",
+      "year": 2007,
+      "cited_by_count": 24319,
+      "adjusted_cited_by_count": 5579.16,
+      "url": "/domains/machine-learning/papers/W3120740533"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22739,
+      "adjusted_cited_by_count": 5515.02,
+      "url": "/domains/machine-learning/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W2613718673",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "year": 2015,
+      "cited_by_count": 18237,
+      "adjusted_cited_by_count": 5498.66,
+      "url": "/domains/machine-learning/papers/W2613718673"
+    },
+    {
+      "source_id": "https://openalex.org/W2593436234",
+      "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+      "year": 2017,
+      "cited_by_count": 16251,
+      "adjusted_cited_by_count": 5417.0,
+      "url": "/domains/machine-learning/papers/W2593436234"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19402,
+      "adjusted_cited_by_count": 5381.15,
+      "url": "/domains/machine-learning/papers/W1554944419"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 539
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 465
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 418
+    },
+    {
+      "label": "machine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 385
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 354
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 272
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 263
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 212
+    },
+    {
+      "label": "algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 211
+    },
+    {
+      "label": "over",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 182
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 178
+    },
+    {
+      "label": "class",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 175
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 172
+    },
+    {
+      "label": "neural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 161
+    },
+    {
+      "label": "search",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 135
+    },
+    {
+      "label": "pattern recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "deep",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 143
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 106
+    },
+    {
+      "label": "artificial neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 105
+    },
+    {
+      "label": "classification",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 102
+    },
+    {
+      "label": "deep learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 96
+    },
+    {
+      "label": "training",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 93
+    },
+    {
+      "label": "image",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 91
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9884,
+      "evidence_count": 91
+    },
+    {
+      "label": "computation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 84
+    },
+    {
+      "label": "natural language processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 84
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 81
+    },
+    {
+      "label": "text",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 80
+    },
+    {
+      "label": "neural networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 78
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 81
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 74
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 72
+    },
+    {
+      "label": "techniques",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 71
+    },
+    {
+      "label": "language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 129
+    },
+    {
+      "label": "support",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 67
+    },
+    {
+      "label": "computer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 541
+    },
+    {
+      "label": "architecture",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 64
+    },
+    {
+      "label": "recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 155
+    },
+    {
+      "label": "computational",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 71
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 63
+    },
+    {
+      "label": "framework",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 62
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 60
+    },
+    {
+      "label": "natural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 89
+    },
+    {
+      "label": "graph",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 59
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 59
+    },
+    {
+      "label": "representation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 58
+    }
+  ],
+  "topic_year_counts": {
+    "pattern recognition": {
+      "2025": 345167,
+      "2024": 321680,
+      "2023": 309897,
+      "2022": 195817,
+      "2021": 179378,
+      "2020": 164661,
+      "2019": 139368,
+      "2018": 121008,
+      "2017": 107990,
+      "2016": 99469,
+      "2026": 97857,
+      "2015": 92944,
+      "2014": 86449,
+      "2013": 79486,
+      "2012": 70840,
+      "2011": 61291,
+      "2010": 53769,
+      "2009": 47751,
+      "2008": 39952,
+      "2007": 35033,
+      "2006": 31091,
+      "2005": 27389,
+      "2004": 24002,
+      "2003": 21108,
+      "2002": 19719,
+      "2000": 16229,
+      "2001": 15582
+    },
+    "support vector machine": {
+      "2024": 207418,
+      "2023": 201735,
+      "2025": 198710,
+      "2022": 126727,
+      "2021": 109103,
+      "2020": 93497,
+      "2019": 75688,
+      "2018": 60358,
+      "2026": 55357,
+      "2017": 48459,
+      "2016": 42082,
+      "2015": 36866,
+      "2014": 32936,
+      "2013": 29052,
+      "2012": 24846,
+      "2011": 21288,
+      "2010": 18778,
+      "2009": 16432,
+      "2008": 13839,
+      "2007": 11671,
+      "2006": 10274,
+      "2005": 8538,
+      "2004": 6202,
+      "2003": 4695,
+      "2002": 3551,
+      "2000": 2873,
+      "2001": 2510
+    },
+    "supervised learning": {
+      "2025": 292095,
+      "2024": 282905,
+      "2023": 272586,
+      "2022": 172654,
+      "2021": 145263,
+      "2020": 123391,
+      "2019": 96272,
+      "2026": 84146,
+      "2018": 77271,
+      "2017": 62956,
+      "2016": 55319,
+      "2015": 48504,
+      "2014": 42468,
+      "2013": 35863,
+      "2012": 30662,
+      "2011": 26266,
+      "2010": 23141,
+      "2009": 20363,
+      "2008": 15962,
+      "2007": 13651,
+      "2006": 11926,
+      "2005": 9703,
+      "2004": 8351,
+      "2003": 6935,
+      "2002": 6090,
+      "2000": 5439,
+      "2001": 4741
+    },
+    "machine learning algorithms": {
+      "2025": 375434,
+      "2024": 370752,
+      "2023": 336511,
+      "2022": 202690,
+      "2021": 165324,
+      "2020": 131130,
+      "2019": 97218,
+      "2026": 97006,
+      "2018": 69944,
+      "2017": 49512,
+      "2016": 43419,
+      "2015": 38524,
+      "2014": 32388,
+      "2013": 28123,
+      "2012": 24944,
+      "2011": 21257,
+      "2010": 19399,
+      "2009": 18975,
+      "2007": 16270,
+      "2008": 15715,
+      "2006": 10871,
+      "2004": 8478,
+      "2005": 8338,
+      "2003": 7223,
+      "2002": 6368,
+      "2000": 5367,
+      "2001": 4702
+    },
+    "data mining": {
+      "2023": 213293,
+      "2024": 212654,
+      "2025": 203983,
+      "2022": 146759,
+      "2021": 130977,
+      "2020": 114667,
+      "2019": 95621,
+      "2018": 80792,
+      "2017": 67002,
+      "2016": 60433,
+      "2015": 54948,
+      "2026": 49387,
+      "2014": 48804,
+      "2013": 42886,
+      "2012": 37134,
+      "2011": 32399,
+      "2010": 27823,
+      "2009": 24660,
+      "2008": 20431,
+      "2007": 17557,
+      "2006": 16011,
+      "2005": 13545,
+      "2004": 11207,
+      "2003": 9486,
+      "2002": 8030,
+      "2001": 6040,
+      "2000": 5933
+    },
+    "neural networks": {
+      "2025": 492585,
+      "2024": 488921,
+      "2023": 461455,
+      "2022": 316261,
+      "2021": 274960,
+      "2020": 227303,
+      "2026": 192415,
+      "2019": 179904,
+      "2018": 137087,
+      "2017": 101087,
+      "2016": 80496,
+      "2015": 69420,
+      "2014": 63407,
+      "2013": 58542,
+      "2012": 52157,
+      "2011": 47030,
+      "2010": 41612,
+      "2009": 37705,
+      "2008": 32994,
+      "2007": 29552,
+      "2006": 28892,
+      "2002": 26113,
+      "2005": 25081,
+      "2003": 20960,
+      "2004": 20589,
+      "2001": 12863,
+      "2000": 12209
+    }
+  }
+}

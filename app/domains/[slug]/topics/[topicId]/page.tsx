@@ -44,6 +44,12 @@ export default async function TopicPage({ params }: Props) {
       <section className={styles.hero}>
         <h1 className={styles.title}>{detail.topic.label}</h1>
         <p className={styles.copy}>{detail.topic.summary}</p>
+        <div className={styles.heroMeta}>
+          <span>{detail.topic.paper_ids.length.toLocaleString()} papers</span>
+          {detail.children.length > 0 && (
+            <span>{detail.children.length.toLocaleString()} subtopics</span>
+          )}
+        </div>
       </section>
 
       {detail.children.length > 0 ? (
@@ -56,6 +62,7 @@ export default async function TopicPage({ params }: Props) {
                 className={styles.childCard}
               >
                 <strong className={styles.childTitle}>{child.label}</strong>
+                <p className={styles.childMeta}>{child.paperCount.toLocaleString()} papers</p>
                 <div className={styles.childList}>
                   {(detail.grandchildren[child.subgenre_id] ?? []).slice(0, 6).map((item) => (
                     <span key={item.subgenre_id} className={styles.childItem}>
