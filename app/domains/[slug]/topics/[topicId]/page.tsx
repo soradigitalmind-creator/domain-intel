@@ -43,7 +43,6 @@ export default async function TopicPage({ params }: Props) {
       <SetTrail items={topicTrail} />
       <section className={styles.hero}>
         <h1 className={styles.title}>{detail.topic.label}</h1>
-        <p className={styles.copy}>{detail.topic.summary}</p>
         <div className={styles.heroMeta}>
           <span>{detail.topic.paper_ids.length.toLocaleString()} papers</span>
           {detail.children.length > 0 && (
