@@ -1,0 +1,1895 @@
+{
+  "slug": "education",
+  "title": "Education",
+  "updated_at": "2026-04-08T12:44:13.598270Z",
+  "snapshot": {
+    "papers": 260,
+    "topics": 5,
+    "subtopics": 39,
+    "entities": 1081,
+    "claims": 5
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 440,
+      "total_papers": 440,
+      "facet_counts": {
+        "none": 440
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning mathematics education, national cholesterol education program.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 39,
+    "max_depth": 2,
+    "leaf_topics": 39
+  },
+  "rising_topics": [
+    {
+      "id": "sg-mathematics-education",
+      "label": "Mathematics education",
+      "url": "/domains/education/topics/sg-mathematics-education",
+      "trend": "rising",
+      "year_total": 1313998
+    },
+    {
+      "id": "sg-health-care",
+      "label": "Health care",
+      "url": "/domains/education/topics/sg-health-care",
+      "trend": "rising",
+      "year_total": 7322382
+    },
+    {
+      "id": "sg-diabete-mellitus",
+      "label": "Diabete mellitus",
+      "url": "/domains/education/topics/sg-diabete-mellitus",
+      "trend": "rising",
+      "year_total": 9931
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-mathematics-education",
+      "label": "Mathematics education",
+      "url": "/domains/education/topics/sg-mathematics-education",
+      "paper_count": 79,
+      "subtopic_count": 15,
+      "trend": "rising",
+      "summary": "entities: mathematics education, of the, pedagogy",
+      "tags": [
+        "education policy",
+        "education standards",
+        "experience education",
+        "mathematics education"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mathematics-education-higher-education-mathematics",
+          "label": "Higher education mathematics",
+          "url": "/domains/education/topics/sg-mathematics-education-higher-education-mathematics",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-mathematics-education-innovative-mathematics-teaching",
+          "label": "Innovative mathematics teaching",
+          "url": "/domains/education/topics/sg-mathematics-education-innovative-mathematics-teaching",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-mathematics-education-mathematics-education-technology",
+          "label": "Mathematics education technology",
+          "url": "/domains/education/topics/sg-mathematics-education-mathematics-education-technology",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-mathematics-education-active-learning",
+          "label": "Active learning",
+          "url": "/domains/education/topics/sg-mathematics-education-active-learning",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-mathematics-education-descriptive-statistics",
+          "label": "Descriptive statistics",
+          "url": "/domains/education/topics/sg-mathematics-education-descriptive-statistics",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-mathematics-education-instructional-design",
+          "label": "Instructional design",
+          "url": "/domains/education/topics/sg-mathematics-education-instructional-design",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3015901506",
+          "title": "The Difference between Emergency Remote Teaching and Online Learning",
+          "year": "2024",
+          "cited_by_count": 6261,
+          "url": "/domains/education/papers/W3015901506"
+        },
+        {
+          "source_id": "https://openalex.org/W2183707334",
+          "title": "PAST: PALEONTOLOGICAL STATISTICAL SOFTWARE PACKAGE FOR EDUCATION AND DATA ANALYSIS",
+          "year": "2001",
+          "cited_by_count": 18005,
+          "url": "/domains/education/papers/W2183707334"
+        },
+        {
+          "source_id": "https://openalex.org/W1585818825",
+          "title": "Democracy and Education",
+          "year": "2015",
+          "cited_by_count": 10947,
+          "url": "/domains/education/papers/W1585818825"
+        }
+      ]
+    },
+    {
+      "id": "sg-health-care",
+      "label": "Health care",
+      "url": "/domains/education/topics/sg-health-care",
+      "paper_count": 77,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "health care",
+        "health education",
+        "health equity",
+        "implications health care"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-health-care-health-equity",
+          "label": "Health equity",
+          "url": "/domains/education/topics/sg-health-care-health-equity",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-health-care-european-society-of-cardiology",
+          "label": "European society of cardiology",
+          "url": "/domains/education/topics/sg-health-care-european-society-of-cardiology",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-health-care-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/education/topics/sg-health-care-environmental-health",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-health-care-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/education/topics/sg-health-care-internal-medicine",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-health-care-development-economics",
+          "label": "Development economics",
+          "url": "/domains/education/topics/sg-health-care-development-economics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-health-care-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/education/topics/sg-health-care-intensive-care-medicine",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-diabete-mellitus",
+      "label": "Diabete mellitus",
+      "url": "/domains/education/topics/sg-diabete-mellitus",
+      "paper_count": 56,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: internal medicine, diabete, diabete mellitus",
+      "tags": [
+        "2 diabete",
+        "diabete mellitus",
+        "diabete treatment and management",
+        "hyperglycemia in 2 diabete"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-diabete-mellitus-diabetes-management",
+          "label": "Diabetes management",
+          "url": "/domains/education/topics/sg-diabete-mellitus-diabetes-management",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-diabete-mellitus-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/education/topics/sg-diabete-mellitus-internal-medicine",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-diabete-mellitus-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/education/topics/sg-diabete-mellitus-intensive-care-medicine",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-diabete-mellitus-confidence-interval",
+          "label": "Confidence interval",
+          "url": "/domains/education/topics/sg-diabete-mellitus-confidence-interval",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-diabete-mellitus-cochrane-library",
+          "label": "Cochrane library",
+          "url": "/domains/education/topics/sg-diabete-mellitus-cochrane-library",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-diabete-mellitus-diabetic-foot",
+          "label": "Diabetic foot",
+          "url": "/domains/education/topics/sg-diabete-mellitus-diabetic-foot",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2103714496",
+          "title": "Diagnosis and Management of the Metabolic Syndrome",
+          "year": "2005",
+          "cited_by_count": 11697,
+          "url": "/domains/education/papers/W2103714496"
+        },
+        {
+          "source_id": "https://openalex.org/W4316014106",
+          "title": "Long COVID: major findings, mechanisms and recommendations",
+          "year": "2023",
+          "cited_by_count": 3953,
+          "url": "/domains/education/papers/W4316014106"
+        },
+        {
+          "source_id": "https://openalex.org/W2425644022",
+          "title": "Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes",
+          "year": "2016",
+          "cited_by_count": 7126,
+          "url": "/domains/education/papers/W2425644022"
+        }
+      ]
+    },
+    {
+      "id": "sg-medical-education",
+      "label": "Medical education",
+      "url": "/domains/education/topics/sg-medical-education",
+      "paper_count": 38,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: of the, higher education, medical education",
+      "tags": [
+        "empathy and medical education",
+        "higher education",
+        "implications health care",
+        "innovations in medical education"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-medical-education-european-society-of-cardiology",
+          "label": "European society of cardiology",
+          "url": "/domains/education/topics/sg-medical-education-european-society-of-cardiology",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-medical-education-family-medicine",
+          "label": "Family medicine",
+          "url": "/domains/education/topics/sg-medical-education-family-medicine",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2061935394",
+          "title": "Making sense of Cronbach's alpha",
+          "year": "2011",
+          "cited_by_count": 13847,
+          "url": "/domains/education/papers/W2061935394"
+        },
+        {
+          "source_id": "https://openalex.org/W2145555293",
+          "title": "Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide",
+          "year": "2014",
+          "cited_by_count": 10203,
+          "url": "/domains/education/papers/W2145555293"
+        },
+        {
+          "source_id": "https://openalex.org/W2396881363",
+          "title": "MIMIC-III, a freely accessible critical care database",
+          "year": "2016",
+          "cited_by_count": 7904,
+          "url": "/domains/education/papers/W2396881363"
+        }
+      ]
+    },
+    {
+      "id": "sg-education-program",
+      "label": "Education program",
+      "url": "/domains/education/topics/sg-education-program",
+      "paper_count": 10,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: education program, program, internal medicine",
+      "tags": [
+        "blood cholesterol",
+        "cholesterol education",
+        "cholesterol education program",
+        "cholesterol education program expert"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-education-program-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/education/topics/sg-education-program-internal-medicine",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-education-program-coronary-heart-disease",
+          "label": "Coronary heart disease",
+          "url": "/domains/education/topics/sg-education-program-coronary-heart-disease",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-education-program-national-cholesterol",
+          "label": "National cholesterol",
+          "url": "/domains/education/topics/sg-education-program-national-cholesterol",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4238251256",
+          "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+          "year": "2001",
+          "cited_by_count": 25862,
+          "url": "/domains/education/papers/W4238251256"
+        },
+        {
+          "source_id": "https://openalex.org/W2118310760",
+          "title": "Summary of the Second Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel II)",
+          "year": "1993",
+          "cited_by_count": 27891,
+          "url": "/domains/education/papers/W2118310760"
+        },
+        {
+          "source_id": "https://openalex.org/W4230870013",
+          "title": "Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III) Final Report",
+          "year": "2002",
+          "cited_by_count": 14005,
+          "url": "/domains/education/papers/W4230870013"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 17,
+      "papers": [
+        {
+          "title": "Older Adults&#x27; Reasons for Using Technology while Aging in Place",
+          "year": "2015",
+          "cited_by_count": 19737,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2167311298.html"
+        },
+        {
+          "title": "Journal of Physics: Conference Series",
+          "year": "2013",
+          "cited_by_count": 15702,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2990714382.html"
+        },
+        {
+          "title": "African Journal of Business Management",
+          "year": "2026",
+          "cited_by_count": 4222,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4243838916.html"
+        },
+        {
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11394,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2397911846.html"
+        },
+        {
+          "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer&#x27;s disease",
+          "year": "2018",
+          "cited_by_count": 9978,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2798054687.html"
+        },
+        {
+          "title": "Education for Critical Consciousness",
+          "year": "2021",
+          "cited_by_count": 6760,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1597018565.html"
+        }
+      ]
+    },
+    {
+      "label": "Mathematics education",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "The Difference between Emergency Remote Teaching and Online Learning",
+          "year": "2024",
+          "cited_by_count": 6261,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w3015901506.html"
+        },
+        {
+          "title": "PAST: PALEONTOLOGICAL STATISTICAL SOFTWARE PACKAGE FOR EDUCATION AND DATA ANALYSIS",
+          "year": "2001",
+          "cited_by_count": 18005,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w2183707334.html"
+        },
+        {
+          "title": "Democracy and Education",
+          "year": "2015",
+          "cited_by_count": 10947,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w1585818825.html"
+        },
+        {
+          "title": "The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education",
+          "year": "2017",
+          "cited_by_count": 9777,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w2623703952.html"
+        },
+        {
+          "title": "Strategi Belajar Mengajar",
+          "year": "2024",
+          "cited_by_count": 2759,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w4402690901.html"
+        },
+        {
+          "title": "Knowledge and Teaching:Foundations of the New Reform",
+          "year": "1987",
+          "cited_by_count": 16245,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w2153000380.html"
+        }
+      ]
+    },
+    {
+      "label": "Health care",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Birds of a Feather: Homophily in Social Networks",
+          "year": "2001",
+          "cited_by_count": 18344,
+          "topic": "Health care",
+          "url": "papers/https-openalex-org-w2130354913.html"
+        },
+        {
+          "title": "Nudge: improving decisions about health, wealth, and happiness",
+          "year": "2008",
+          "cited_by_count": 11811,
+          "topic": "Health care",
+          "url": "papers/https-openalex-org-w1481908410.html"
+        },
+        {
+          "title": "Chronic Kidney Disease and the Risks of Death, Cardiovascular Events, and Hospitalization",
+          "year": "2004",
+          "cited_by_count": 11273,
+          "topic": "Health care",
+          "url": "papers/https-openalex-org-w2145632027.html"
+        },
+        {
+          "title": "K/DOQI clinical practice guidelines for chronic kidney disease: Evaluation, classification, and stratification",
+          "year": "2002",
+          "cited_by_count": 11655,
+          "topic": "Health care",
+          "url": "papers/https-openalex-org-w2487377689.html"
+        },
+        {
+          "title": "Health Behavior and Health Education: Theory, Research, and Practice",
+          "year": "1992",
+          "cited_by_count": 13311,
+          "topic": "Health care",
+          "url": "papers/https-openalex-org-w2090214829.html"
+        }
+      ]
+    },
+    {
+      "label": "Education program",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+          "year": "2001",
+          "cited_by_count": 25862,
+          "topic": "Education program",
+          "url": "papers/https-openalex-org-w4238251256.html"
+        },
+        {
+          "title": "Summary of the Second Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel II)",
+          "year": "1993",
+          "cited_by_count": 27891,
+          "topic": "Education program",
+          "url": "papers/https-openalex-org-w2118310760.html"
+        },
+        {
+          "title": "Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III) Final Report",
+          "year": "2002",
+          "cited_by_count": 14005,
+          "topic": "Education program",
+          "url": "papers/https-openalex-org-w4230870013.html"
+        }
+      ]
+    },
+    {
+      "label": "Medical education",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Making sense of Cronbach&#x27;s alpha",
+          "year": "2011",
+          "cited_by_count": 13847,
+          "topic": "Medical education",
+          "url": "papers/https-openalex-org-w2061935394.html"
+        },
+        {
+          "title": "Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide",
+          "year": "2014",
+          "cited_by_count": 10203,
+          "topic": "Medical education",
+          "url": "papers/https-openalex-org-w2145555293.html"
+        },
+        {
+          "title": "MIMIC-III, a freely accessible critical care database",
+          "year": "2016",
+          "cited_by_count": 7904,
+          "topic": "Medical education",
+          "url": "papers/https-openalex-org-w2396881363.html"
+        }
+      ]
+    },
+    {
+      "label": "Active learning",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Diagnostic and Statistical Manual of Mental Disorders",
+          "year": "2009",
+          "cited_by_count": 10233,
+          "topic": "Active learning",
+          "url": "papers/https-openalex-org-w2502993979.html"
+        }
+      ]
+    },
+    {
+      "label": "Clinical judgement",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+          "year": "2018",
+          "cited_by_count": 10289,
+          "topic": "Clinical judgement",
+          "url": "papers/https-openalex-org-w2888589263.html"
+        }
+      ]
+    },
+    {
+      "label": "Diabete mellitus",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Diagnosis and Management of the Metabolic Syndrome",
+          "year": "2005",
+          "cited_by_count": 11697,
+          "topic": "Diabete mellitus",
+          "url": "papers/https-openalex-org-w2103714496.html"
+        }
+      ]
+    },
+    {
+      "label": "Diabetes management",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128·9 million children, adolescents, and adults",
+          "year": "2017",
+          "cited_by_count": 7534,
+          "topic": "Diabetes management",
+          "url": "papers/https-openalex-org-w2762689525.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3015901506",
+      "title": "The Difference between Emergency Remote Teaching and Online Learning",
+      "year": 2024,
+      "cited_by_count": 6261,
+      "adjusted_cited_by_count": 6261.0,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W3015901506"
+    },
+    {
+      "source_id": "https://openalex.org/W2167311298",
+      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+      "year": 2015,
+      "cited_by_count": 19737,
+      "adjusted_cited_by_count": 5950.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2167311298"
+    },
+    {
+      "source_id": "https://openalex.org/W4238251256",
+      "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+      "year": 2001,
+      "cited_by_count": 25862,
+      "adjusted_cited_by_count": 5172.4,
+      "primary_topic_id": "sg-education-program",
+      "primary_topic_label": "Education program",
+      "url": "/domains/education/papers/W4238251256"
+    },
+    {
+      "source_id": "https://openalex.org/W2118310760",
+      "title": "Summary of the Second Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel II)",
+      "year": 1993,
+      "cited_by_count": 27891,
+      "adjusted_cited_by_count": 4855.2,
+      "primary_topic_id": "sg-education-program",
+      "primary_topic_label": "Education program",
+      "url": "/domains/education/papers/W2118310760"
+    },
+    {
+      "source_id": "https://openalex.org/W2990714382",
+      "title": "Journal of Physics: Conference Series",
+      "year": 2013,
+      "cited_by_count": 15702,
+      "adjusted_cited_by_count": 4354.95,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2990714382"
+    },
+    {
+      "source_id": "https://openalex.org/W4243838916",
+      "title": "African Journal of Business Management",
+      "year": 2026,
+      "cited_by_count": 4222,
+      "adjusted_cited_by_count": 4222.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W4243838916"
+    },
+    {
+      "source_id": "https://openalex.org/W2130354913",
+      "title": "Birds of a Feather: Homophily in Social Networks",
+      "year": 2001,
+      "cited_by_count": 18344,
+      "adjusted_cited_by_count": 3668.8,
+      "primary_topic_id": "sg-health-care",
+      "primary_topic_label": "Health care",
+      "url": "/domains/education/papers/W2130354913"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10289,
+      "adjusted_cited_by_count": 3637.71,
+      "primary_topic_id": "sg-health-care-clinical-judgement",
+      "primary_topic_label": "Clinical judgement",
+      "url": "/domains/education/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2397911846",
+      "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2016,
+      "cited_by_count": 11394,
+      "adjusted_cited_by_count": 3603.1,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2397911846"
+    },
+    {
+      "source_id": "https://openalex.org/W2183707334",
+      "title": "PAST: PALEONTOLOGICAL STATISTICAL SOFTWARE PACKAGE FOR EDUCATION AND DATA ANALYSIS",
+      "year": 2001,
+      "cited_by_count": 18005,
+      "adjusted_cited_by_count": 3601.0,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W2183707334"
+    },
+    {
+      "source_id": "https://openalex.org/W2061935394",
+      "title": "Making sense of Cronbach's alpha",
+      "year": 2011,
+      "cited_by_count": 13847,
+      "adjusted_cited_by_count": 3575.28,
+      "primary_topic_id": "sg-medical-education",
+      "primary_topic_label": "Medical education",
+      "url": "/domains/education/papers/W2061935394"
+    },
+    {
+      "source_id": "https://openalex.org/W2798054687",
+      "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by_count": 9978,
+      "adjusted_cited_by_count": 3527.76,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2798054687"
+    },
+    {
+      "source_id": "https://openalex.org/W1585818825",
+      "title": "Democracy and Education",
+      "year": 2015,
+      "cited_by_count": 10947,
+      "adjusted_cited_by_count": 3300.64,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W1585818825"
+    },
+    {
+      "source_id": "https://openalex.org/W2623703952",
+      "title": "The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education",
+      "year": 2017,
+      "cited_by_count": 9777,
+      "adjusted_cited_by_count": 3259.0,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W2623703952"
+    },
+    {
+      "source_id": "https://openalex.org/W1597018565",
+      "title": "Education for Critical Consciousness",
+      "year": 2021,
+      "cited_by_count": 6760,
+      "adjusted_cited_by_count": 3023.16,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W1597018565"
+    },
+    {
+      "source_id": "https://openalex.org/W2145555293",
+      "title": "Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide",
+      "year": 2014,
+      "cited_by_count": 10203,
+      "adjusted_cited_by_count": 2945.35,
+      "primary_topic_id": "sg-medical-education",
+      "primary_topic_label": "Medical education",
+      "url": "/domains/education/papers/W2145555293"
+    },
+    {
+      "source_id": "https://openalex.org/W4230870013",
+      "title": "Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III) Final Report",
+      "year": 2002,
+      "cited_by_count": 14005,
+      "adjusted_cited_by_count": 2858.76,
+      "primary_topic_id": "sg-education-program",
+      "primary_topic_label": "Education program",
+      "url": "/domains/education/papers/W4230870013"
+    },
+    {
+      "source_id": "https://openalex.org/W2151176003",
+      "title": "Economics of the Family: Marriage, Children, and Human Capital",
+      "year": null,
+      "cited_by_count": 2856,
+      "adjusted_cited_by_count": 2856.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2151176003"
+    },
+    {
+      "source_id": "https://openalex.org/W1481908410",
+      "title": "Nudge: improving decisions about health, wealth, and happiness",
+      "year": 2008,
+      "cited_by_count": 11811,
+      "adjusted_cited_by_count": 2783.88,
+      "primary_topic_id": "sg-health-care",
+      "primary_topic_label": "Health care",
+      "url": "/domains/education/papers/W1481908410"
+    },
+    {
+      "source_id": "https://openalex.org/W4402690901",
+      "title": "Strategi Belajar Mengajar",
+      "year": 2024,
+      "cited_by_count": 2759,
+      "adjusted_cited_by_count": 2759.0,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W4402690901"
+    },
+    {
+      "source_id": "https://openalex.org/W2153000380",
+      "title": "Knowledge and Teaching:Foundations of the New Reform",
+      "year": 1987,
+      "cited_by_count": 16245,
+      "adjusted_cited_by_count": 2601.28,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W2153000380"
+    },
+    {
+      "source_id": "https://openalex.org/W2010593734",
+      "title": "Active learning increases student performance in science, engineering, and mathematics",
+      "year": 2014,
+      "cited_by_count": 8977,
+      "adjusted_cited_by_count": 2591.44,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W2010593734"
+    },
+    {
+      "source_id": "https://openalex.org/W2594075087",
+      "title": "Correspondence - Tranexamic acid for traumatic brain injury",
+      "year": 2005,
+      "cited_by_count": 11704,
+      "adjusted_cited_by_count": 2554.02,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2594075087"
+    },
+    {
+      "source_id": "https://openalex.org/W2103714496",
+      "title": "Diagnosis and Management of the Metabolic Syndrome",
+      "year": 2005,
+      "cited_by_count": 11697,
+      "adjusted_cited_by_count": 2552.49,
+      "primary_topic_id": "sg-diabete-mellitus",
+      "primary_topic_label": "Diabete mellitus",
+      "url": "/domains/education/papers/W2103714496"
+    },
+    {
+      "source_id": "https://openalex.org/W4323655724",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "year": 2023,
+      "cited_by_count": 4408,
+      "adjusted_cited_by_count": 2544.96,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W4323655724"
+    },
+    {
+      "source_id": "https://openalex.org/W2762689525",
+      "title": "Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128·9 million children, adolescents, and adults",
+      "year": 2017,
+      "cited_by_count": 7534,
+      "adjusted_cited_by_count": 2511.33,
+      "primary_topic_id": "sg-diabete-mellitus-diabetes-management",
+      "primary_topic_label": "Diabetes management",
+      "url": "/domains/education/papers/W2762689525"
+    },
+    {
+      "source_id": "https://openalex.org/W2105397247",
+      "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+      "year": 2015,
+      "cited_by_count": 8291,
+      "adjusted_cited_by_count": 2499.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2105397247"
+    },
+    {
+      "source_id": "https://openalex.org/W2396881363",
+      "title": "MIMIC-III, a freely accessible critical care database",
+      "year": 2016,
+      "cited_by_count": 7904,
+      "adjusted_cited_by_count": 2499.46,
+      "primary_topic_id": "sg-medical-education",
+      "primary_topic_label": "Medical education",
+      "url": "/domains/education/papers/W2396881363"
+    },
+    {
+      "source_id": "https://openalex.org/W2157619495",
+      "title": "Bowling Alone: America's Declining Social Capital",
+      "year": 1995,
+      "cited_by_count": 13910,
+      "adjusted_cited_by_count": 2498.31,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2157619495"
+    },
+    {
+      "source_id": "https://openalex.org/W2502993979",
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "year": 2009,
+      "cited_by_count": 10233,
+      "adjusted_cited_by_count": 2481.87,
+      "primary_topic_id": "sg-mathematics-education-active-learning",
+      "primary_topic_label": "Active learning",
+      "url": "/domains/education/papers/W2502993979"
+    },
+    {
+      "source_id": "https://openalex.org/W2267159071",
+      "title": "Breastfeeding in the 21st century: epidemiology, mechanisms, and lifelong effect",
+      "year": 2016,
+      "cited_by_count": 7821,
+      "adjusted_cited_by_count": 2473.22,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2267159071"
+    },
+    {
+      "source_id": "https://openalex.org/W1528074835",
+      "title": "Handbook of Theory and Research for the Sociology of Education.",
+      "year": 1987,
+      "cited_by_count": 15201,
+      "adjusted_cited_by_count": 2434.11,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W1528074835"
+    },
+    {
+      "source_id": "https://openalex.org/W2145632027",
+      "title": "Chronic Kidney Disease and the Risks of Death, Cardiovascular Events, and Hospitalization",
+      "year": 2004,
+      "cited_by_count": 11273,
+      "adjusted_cited_by_count": 2403.41,
+      "primary_topic_id": "sg-health-care",
+      "primary_topic_label": "Health care",
+      "url": "/domains/education/papers/W2145632027"
+    },
+    {
+      "source_id": "https://openalex.org/W2487377689",
+      "title": "K/DOQI clinical practice guidelines for chronic kidney disease: Evaluation, classification, and stratification",
+      "year": 2002,
+      "cited_by_count": 11655,
+      "adjusted_cited_by_count": 2379.07,
+      "primary_topic_id": "sg-health-care",
+      "primary_topic_label": "Health care",
+      "url": "/domains/education/papers/W2487377689"
+    },
+    {
+      "source_id": "https://openalex.org/W3195842247",
+      "title": "2021 ESC/EACTS Guidelines for the management of valvular heart disease",
+      "year": 2021,
+      "cited_by_count": 5263,
+      "adjusted_cited_by_count": 2353.69,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W3195842247"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7332,
+      "adjusted_cited_by_count": 2318.58,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W1536573182",
+      "title": "The New Meaning of Educational Change",
+      "year": 2013,
+      "cited_by_count": 8268,
+      "adjusted_cited_by_count": 2293.13,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/education/papers/W1536573182"
+    },
+    {
+      "source_id": "https://openalex.org/W2090214829",
+      "title": "Health Behavior and Health Education: Theory, Research, and Practice",
+      "year": 1992,
+      "cited_by_count": 13311,
+      "adjusted_cited_by_count": 2282.82,
+      "primary_topic_id": "sg-health-care",
+      "primary_topic_label": "Health care",
+      "url": "/domains/education/papers/W2090214829"
+    },
+    {
+      "source_id": "https://openalex.org/W4316014106",
+      "title": "Long COVID: major findings, mechanisms and recommendations",
+      "year": 2023,
+      "cited_by_count": 3953,
+      "adjusted_cited_by_count": 2282.27,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W4316014106"
+    },
+    {
+      "source_id": "https://openalex.org/W3021842026",
+      "title": "European Guidelines on cardiovascular disease prevention in clinical practice (version 2012): The Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts) * Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)",
+      "year": 2012,
+      "cited_by_count": 8510,
+      "adjusted_cited_by_count": 2274.39,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/education/papers/W3021842026"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3015901506",
+      "title": "The Difference between Emergency Remote Teaching and Online Learning",
+      "year": 2024,
+      "cited_by_count": 6261,
+      "adjusted_cited_by_count": 6261.0,
+      "url": "/domains/education/papers/W3015901506"
+    },
+    {
+      "source_id": "https://openalex.org/W2167311298",
+      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+      "year": 2015,
+      "cited_by_count": 19737,
+      "adjusted_cited_by_count": 5950.93,
+      "url": "/domains/education/papers/W2167311298"
+    },
+    {
+      "source_id": "https://openalex.org/W4238251256",
+      "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+      "year": 2001,
+      "cited_by_count": 25862,
+      "adjusted_cited_by_count": 5172.4,
+      "url": "/domains/education/papers/W4238251256"
+    },
+    {
+      "source_id": "https://openalex.org/W2118310760",
+      "title": "Summary of the Second Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel II)",
+      "year": 1993,
+      "cited_by_count": 27891,
+      "adjusted_cited_by_count": 4855.2,
+      "url": "/domains/education/papers/W2118310760"
+    },
+    {
+      "source_id": "https://openalex.org/W2990714382",
+      "title": "Journal of Physics: Conference Series",
+      "year": 2013,
+      "cited_by_count": 15702,
+      "adjusted_cited_by_count": 4354.95,
+      "url": "/domains/education/papers/W2990714382"
+    },
+    {
+      "source_id": "https://openalex.org/W4243838916",
+      "title": "African Journal of Business Management",
+      "year": 2026,
+      "cited_by_count": 4222,
+      "adjusted_cited_by_count": 4222.0,
+      "url": "/domains/education/papers/W4243838916"
+    },
+    {
+      "source_id": "https://openalex.org/W2130354913",
+      "title": "Birds of a Feather: Homophily in Social Networks",
+      "year": 2001,
+      "cited_by_count": 18344,
+      "adjusted_cited_by_count": 3668.8,
+      "url": "/domains/education/papers/W2130354913"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10289,
+      "adjusted_cited_by_count": 3637.71,
+      "url": "/domains/education/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2397911846",
+      "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2016,
+      "cited_by_count": 11394,
+      "adjusted_cited_by_count": 3603.1,
+      "url": "/domains/education/papers/W2397911846"
+    },
+    {
+      "source_id": "https://openalex.org/W2183707334",
+      "title": "PAST: PALEONTOLOGICAL STATISTICAL SOFTWARE PACKAGE FOR EDUCATION AND DATA ANALYSIS",
+      "year": 2001,
+      "cited_by_count": 18005,
+      "adjusted_cited_by_count": 3601.0,
+      "url": "/domains/education/papers/W2183707334"
+    },
+    {
+      "source_id": "https://openalex.org/W2061935394",
+      "title": "Making sense of Cronbach's alpha",
+      "year": 2011,
+      "cited_by_count": 13847,
+      "adjusted_cited_by_count": 3575.28,
+      "url": "/domains/education/papers/W2061935394"
+    },
+    {
+      "source_id": "https://openalex.org/W2798054687",
+      "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by_count": 9978,
+      "adjusted_cited_by_count": 3527.76,
+      "url": "/domains/education/papers/W2798054687"
+    },
+    {
+      "source_id": "https://openalex.org/W1585818825",
+      "title": "Democracy and Education",
+      "year": 2015,
+      "cited_by_count": 10947,
+      "adjusted_cited_by_count": 3300.64,
+      "url": "/domains/education/papers/W1585818825"
+    },
+    {
+      "source_id": "https://openalex.org/W2623703952",
+      "title": "The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education",
+      "year": 2017,
+      "cited_by_count": 9777,
+      "adjusted_cited_by_count": 3259.0,
+      "url": "/domains/education/papers/W2623703952"
+    },
+    {
+      "source_id": "https://openalex.org/W1597018565",
+      "title": "Education for Critical Consciousness",
+      "year": 2021,
+      "cited_by_count": 6760,
+      "adjusted_cited_by_count": 3023.16,
+      "url": "/domains/education/papers/W1597018565"
+    },
+    {
+      "source_id": "https://openalex.org/W2145555293",
+      "title": "Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide",
+      "year": 2014,
+      "cited_by_count": 10203,
+      "adjusted_cited_by_count": 2945.35,
+      "url": "/domains/education/papers/W2145555293"
+    },
+    {
+      "source_id": "https://openalex.org/W4230870013",
+      "title": "Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III) Final Report",
+      "year": 2002,
+      "cited_by_count": 14005,
+      "adjusted_cited_by_count": 2858.76,
+      "url": "/domains/education/papers/W4230870013"
+    },
+    {
+      "source_id": "https://openalex.org/W2151176003",
+      "title": "Economics of the Family: Marriage, Children, and Human Capital",
+      "year": null,
+      "cited_by_count": 2856,
+      "adjusted_cited_by_count": 2856.0,
+      "url": "/domains/education/papers/W2151176003"
+    },
+    {
+      "source_id": "https://openalex.org/W1481908410",
+      "title": "Nudge: improving decisions about health, wealth, and happiness",
+      "year": 2008,
+      "cited_by_count": 11811,
+      "adjusted_cited_by_count": 2783.88,
+      "url": "/domains/education/papers/W1481908410"
+    },
+    {
+      "source_id": "https://openalex.org/W4402690901",
+      "title": "Strategi Belajar Mengajar",
+      "year": 2024,
+      "cited_by_count": 2759,
+      "adjusted_cited_by_count": 2759.0,
+      "url": "/domains/education/papers/W4402690901"
+    },
+    {
+      "source_id": "https://openalex.org/W2153000380",
+      "title": "Knowledge and Teaching:Foundations of the New Reform",
+      "year": 1987,
+      "cited_by_count": 16245,
+      "adjusted_cited_by_count": 2601.28,
+      "url": "/domains/education/papers/W2153000380"
+    },
+    {
+      "source_id": "https://openalex.org/W2010593734",
+      "title": "Active learning increases student performance in science, engineering, and mathematics",
+      "year": 2014,
+      "cited_by_count": 8977,
+      "adjusted_cited_by_count": 2591.44,
+      "url": "/domains/education/papers/W2010593734"
+    },
+    {
+      "source_id": "https://openalex.org/W2594075087",
+      "title": "Correspondence - Tranexamic acid for traumatic brain injury",
+      "year": 2005,
+      "cited_by_count": 11704,
+      "adjusted_cited_by_count": 2554.02,
+      "url": "/domains/education/papers/W2594075087"
+    },
+    {
+      "source_id": "https://openalex.org/W2103714496",
+      "title": "Diagnosis and Management of the Metabolic Syndrome",
+      "year": 2005,
+      "cited_by_count": 11697,
+      "adjusted_cited_by_count": 2552.49,
+      "url": "/domains/education/papers/W2103714496"
+    },
+    {
+      "source_id": "https://openalex.org/W4323655724",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "year": 2023,
+      "cited_by_count": 4408,
+      "adjusted_cited_by_count": 2544.96,
+      "url": "/domains/education/papers/W4323655724"
+    },
+    {
+      "source_id": "https://openalex.org/W2762689525",
+      "title": "Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128·9 million children, adolescents, and adults",
+      "year": 2017,
+      "cited_by_count": 7534,
+      "adjusted_cited_by_count": 2511.33,
+      "url": "/domains/education/papers/W2762689525"
+    },
+    {
+      "source_id": "https://openalex.org/W2105397247",
+      "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+      "year": 2015,
+      "cited_by_count": 8291,
+      "adjusted_cited_by_count": 2499.83,
+      "url": "/domains/education/papers/W2105397247"
+    },
+    {
+      "source_id": "https://openalex.org/W2396881363",
+      "title": "MIMIC-III, a freely accessible critical care database",
+      "year": 2016,
+      "cited_by_count": 7904,
+      "adjusted_cited_by_count": 2499.46,
+      "url": "/domains/education/papers/W2396881363"
+    },
+    {
+      "source_id": "https://openalex.org/W2157619495",
+      "title": "Bowling Alone: America's Declining Social Capital",
+      "year": 1995,
+      "cited_by_count": 13910,
+      "adjusted_cited_by_count": 2498.31,
+      "url": "/domains/education/papers/W2157619495"
+    },
+    {
+      "source_id": "https://openalex.org/W2502993979",
+      "title": "Diagnostic and Statistical Manual of Mental Disorders",
+      "year": 2009,
+      "cited_by_count": 10233,
+      "adjusted_cited_by_count": 2481.87,
+      "url": "/domains/education/papers/W2502993979"
+    },
+    {
+      "source_id": "https://openalex.org/W2267159071",
+      "title": "Breastfeeding in the 21st century: epidemiology, mechanisms, and lifelong effect",
+      "year": 2016,
+      "cited_by_count": 7821,
+      "adjusted_cited_by_count": 2473.22,
+      "url": "/domains/education/papers/W2267159071"
+    },
+    {
+      "source_id": "https://openalex.org/W1528074835",
+      "title": "Handbook of Theory and Research for the Sociology of Education.",
+      "year": 1987,
+      "cited_by_count": 15201,
+      "adjusted_cited_by_count": 2434.11,
+      "url": "/domains/education/papers/W1528074835"
+    },
+    {
+      "source_id": "https://openalex.org/W2145632027",
+      "title": "Chronic Kidney Disease and the Risks of Death, Cardiovascular Events, and Hospitalization",
+      "year": 2004,
+      "cited_by_count": 11273,
+      "adjusted_cited_by_count": 2403.41,
+      "url": "/domains/education/papers/W2145632027"
+    },
+    {
+      "source_id": "https://openalex.org/W2487377689",
+      "title": "K/DOQI clinical practice guidelines for chronic kidney disease: Evaluation, classification, and stratification",
+      "year": 2002,
+      "cited_by_count": 11655,
+      "adjusted_cited_by_count": 2379.07,
+      "url": "/domains/education/papers/W2487377689"
+    },
+    {
+      "source_id": "https://openalex.org/W3195842247",
+      "title": "2021 ESC/EACTS Guidelines for the management of valvular heart disease",
+      "year": 2021,
+      "cited_by_count": 5263,
+      "adjusted_cited_by_count": 2353.69,
+      "url": "/domains/education/papers/W3195842247"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7332,
+      "adjusted_cited_by_count": 2318.58,
+      "url": "/domains/education/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W1536573182",
+      "title": "The New Meaning of Educational Change",
+      "year": 2013,
+      "cited_by_count": 8268,
+      "adjusted_cited_by_count": 2293.13,
+      "url": "/domains/education/papers/W1536573182"
+    },
+    {
+      "source_id": "https://openalex.org/W2090214829",
+      "title": "Health Behavior and Health Education: Theory, Research, and Practice",
+      "year": 1992,
+      "cited_by_count": 13311,
+      "adjusted_cited_by_count": 2282.82,
+      "url": "/domains/education/papers/W2090214829"
+    },
+    {
+      "source_id": "https://openalex.org/W4316014106",
+      "title": "Long COVID: major findings, mechanisms and recommendations",
+      "year": 2023,
+      "cited_by_count": 3953,
+      "adjusted_cited_by_count": 2282.27,
+      "url": "/domains/education/papers/W4316014106"
+    },
+    {
+      "source_id": "https://openalex.org/W3021842026",
+      "title": "European Guidelines on cardiovascular disease prevention in clinical practice (version 2012): The Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts) * Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)",
+      "year": 2012,
+      "cited_by_count": 8510,
+      "adjusted_cited_by_count": 2274.39,
+      "url": "/domains/education/papers/W3021842026"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 180
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 158
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 129
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 128
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 110
+    },
+    {
+      "label": "care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 103
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 98
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "patients",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "guideline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 65
+    },
+    {
+      "label": "intensive care medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "individual",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "pedagogy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "mathematics education",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "treatment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "evidence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 73
+    },
+    {
+      "label": "public",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 55
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 47
+    },
+    {
+      "label": "knowledge",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 47
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 47
+    },
+    {
+      "label": "by the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 46
+    },
+    {
+      "label": "management of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 45
+    },
+    {
+      "label": "practice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 45
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9888,
+      "evidence_count": 45
+    },
+    {
+      "label": "use of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 45
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 50
+    },
+    {
+      "label": "life",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 44
+    },
+    {
+      "label": "student",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 44
+    },
+    {
+      "label": "cardiology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 43
+    },
+    {
+      "label": "quality",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 42
+    },
+    {
+      "label": "report",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 42
+    },
+    {
+      "label": "professional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 41
+    },
+    {
+      "label": "patients with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 40
+    }
+  ],
+  "topic_year_counts": {
+    "mathematics education": {
+      "2023": 156160,
+      "2024": 156070,
+      "2025": 153445,
+      "2022": 111326,
+      "2021": 96820,
+      "2020": 92916,
+      "2019": 71670,
+      "2018": 62059,
+      "2017": 51834,
+      "2016": 47038,
+      "2015": 44071,
+      "2014": 37828,
+      "2013": 34030,
+      "2026": 32945,
+      "2012": 28310,
+      "2011": 24066,
+      "2010": 20347,
+      "2009": 17349,
+      "2008": 14351,
+      "2007": 12164,
+      "2006": 10478,
+      "2005": 8948,
+      "2004": 7752,
+      "2003": 6387,
+      "2002": 5888,
+      "2000": 5047,
+      "2001": 4699
+    },
+    "diabete mellitus": {
+      "2023": 878,
+      "2024": 793,
+      "2022": 703,
+      "2025": 652,
+      "2020": 577,
+      "2021": 558,
+      "2019": 491,
+      "2018": 465,
+      "2017": 461,
+      "2013": 434,
+      "2016": 422,
+      "2015": 399,
+      "2014": 349,
+      "2012": 335,
+      "2011": 300,
+      "2010": 298,
+      "2009": 294,
+      "2008": 245,
+      "2007": 226,
+      "2006": 185,
+      "2005": 153,
+      "2002": 138,
+      "2003": 125,
+      "2026": 123,
+      "2004": 117,
+      "2001": 113,
+      "2000": 97
+    },
+    "medical education": {
+      "2024": 355112,
+      "2023": 353332,
+      "2025": 350925,
+      "2022": 257571,
+      "2021": 230080,
+      "2020": 212346,
+      "2019": 162900,
+      "2018": 141128,
+      "2017": 125817,
+      "2016": 113296,
+      "2015": 103602,
+      "2014": 92995,
+      "2013": 81792,
+      "2026": 77130,
+      "2012": 70316,
+      "2011": 59857,
+      "2010": 51602,
+      "2009": 43927,
+      "2008": 37053,
+      "2007": 31946,
+      "2006": 28993,
+      "2005": 25394,
+      "2004": 22733,
+      "2003": 18769,
+      "2002": 16465,
+      "2000": 15433,
+      "2001": 14160
+    },
+    "education program": {
+      "2025": 609679,
+      "2024": 566884,
+      "2023": 558235,
+      "2022": 397125,
+      "2021": 358299,
+      "2020": 341537,
+      "2019": 274315,
+      "2018": 235543,
+      "2017": 207920,
+      "2016": 189803,
+      "2015": 176442,
+      "2014": 155525,
+      "2013": 137912,
+      "2026": 129807,
+      "2012": 118683,
+      "2011": 102188,
+      "2010": 87283,
+      "2009": 74560,
+      "2008": 62761,
+      "2007": 54470,
+      "2006": 48983,
+      "2005": 42805,
+      "2004": 37055,
+      "2003": 31347,
+      "2002": 27941,
+      "2000": 25493,
+      "2001": 23431
+    },
+    "health care": {
+      "2023": 789710,
+      "2024": 761038,
+      "2025": 740512,
+      "2022": 587458,
+      "2021": 555509,
+      "2020": 522025,
+      "2019": 387490,
+      "2018": 341884,
+      "2017": 310747,
+      "2016": 281854,
+      "2015": 257301,
+      "2014": 235496,
+      "2013": 209069,
+      "2012": 182613,
+      "2026": 172381,
+      "2011": 155955,
+      "2010": 135200,
+      "2009": 116781,
+      "2008": 99475,
+      "2007": 86323,
+      "2006": 77509,
+      "2005": 69869,
+      "2004": 61893,
+      "2003": 53518,
+      "2002": 46738,
+      "2001": 42116,
+      "2000": 41918
+    }
+  }
+}

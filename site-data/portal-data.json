@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-03T11:33:24.389427Z",
-  "total_domains": 30,
+  "total_domains": 32,
   "categories": [
     {
       "label": "Life",
@@ -82,11 +82,15 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 5,
+      "count": 6,
       "domains": [
         {
           "slug": "artificial-intelligence",
           "title": "Artificial Intelligence"
+        },
+        {
+          "slug": "battery",
+          "title": "Battery"
         },
         {
           "slug": "machine-learning",
@@ -110,7 +114,7 @@
       "label": "Society",
       "slug": "society",
       "description": "Includes markets, behavior, institutions, and collective life.",
-      "count": 9,
+      "count": 10,
       "domains": [
         {
           "slug": "business",
@@ -127,6 +131,10 @@
         {
           "slug": "economics",
           "title": "Economics"
+        },
+        {
+          "slug": "education",
+          "title": "Education"
         },
         {
           "slug": "finance",
@@ -246,6 +254,50 @@
       },
       "abstraction_label": "A family of related Artificial Intelligence technologies, including explainable artificial intelligence, artificial intelligence, artificial intelligence in healthcare and education.",
       "updated_at": "2026-04-06T14:02:36.200542Z"
+    },
+    {
+      "slug": "battery",
+      "title": "Battery",
+      "sources": 390,
+      "effective_papers": 345,
+      "subgenres": 174,
+      "parent_subgenres": 8,
+      "child_subgenres": 165,
+      "entities": 607,
+      "claims": 19,
+      "overview_source_ids": [
+        "https://openalex.org/W2001312628",
+        "https://openalex.org/W2012062191",
+        "https://openalex.org/W2021172010",
+        "https://openalex.org/W2035837781",
+        "https://openalex.org/W2046672513",
+        "https://openalex.org/W2100061873",
+        "https://openalex.org/W2105457945",
+        "https://openalex.org/W2123405170",
+        "https://openalex.org/W2138285500",
+        "https://openalex.org/W2153292828",
+        "https://openalex.org/W2550613263",
+        "https://openalex.org/W2558095361",
+        "https://openalex.org/W2567205822",
+        "https://openalex.org/W2796854462",
+        "https://openalex.org/W2802987866",
+        "https://openalex.org/W3027710877"
+      ],
+      "overview_partition_summary": {
+        "overview_papers": 16,
+        "topical_papers": 374,
+        "total_papers": 390,
+        "facet_counts": {
+          "none": 374,
+          "overview": 16
+        },
+        "gemini_validation_enabled": true,
+        "gemini_validation_ready": true,
+        "title_phrase_candidates": 23,
+        "overview_min_papers": 6
+      },
+      "abstraction_label": "A family of related Battery technologies, including advancements in battery material, advanced battery technology research, advanced battery material and technology.",
+      "updated_at": "2026-04-08T12:39:45.623315Z"
     },
     {
       "slug": "batteryeducation",
@@ -502,6 +554,31 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning positive economics, neoclassical economics, mathematical economics.",
       "updated_at": "2026-04-06T14:22:49.594506Z"
+    },
+    {
+      "slug": "education",
+      "title": "Education",
+      "sources": 440,
+      "effective_papers": 260,
+      "subgenres": 44,
+      "parent_subgenres": 5,
+      "child_subgenres": 39,
+      "entities": 1081,
+      "claims": 5,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 440,
+        "total_papers": 440,
+        "facet_counts": {
+          "none": 440
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning mathematics education, national cholesterol education program.",
+      "updated_at": "2026-04-08T12:44:13.693220Z"
     },
     {
       "slug": "energy",
