@@ -1,0 +1,2499 @@
+{
+  "slug": "climate-change",
+  "title": "Climate Change",
+  "updated_at": "2026-04-07T12:12:08.212088Z",
+  "snapshot": {
+    "papers": 535,
+    "topics": 11,
+    "subtopics": 189,
+    "entities": 1024,
+    "claims": 10
+  },
+  "overview": {
+    "source_ids": [
+      "https://openalex.org/W1588827410",
+      "https://openalex.org/W1867005924",
+      "https://openalex.org/W1991308688",
+      "https://openalex.org/W2001890098",
+      "https://openalex.org/W2018459257",
+      "https://openalex.org/W2024966118",
+      "https://openalex.org/W2029604816",
+      "https://openalex.org/W2034326114",
+      "https://openalex.org/W2055442076",
+      "https://openalex.org/W2062217294",
+      "https://openalex.org/W2068774424",
+      "https://openalex.org/W2093540905",
+      "https://openalex.org/W2099196698",
+      "https://openalex.org/W2111684210",
+      "https://openalex.org/W2120496201",
+      "https://openalex.org/W2140131090",
+      "https://openalex.org/W2144042033",
+      "https://openalex.org/W2146706569",
+      "https://openalex.org/W2193503481",
+      "https://openalex.org/W2754769271",
+      "https://openalex.org/W2782625861",
+      "https://openalex.org/W2784327149",
+      "https://openalex.org/W2910922638",
+      "https://openalex.org/W2981104727",
+      "https://openalex.org/W3014125413",
+      "https://openalex.org/W3188524028"
+    ],
+    "partition_summary": {
+      "overview_papers": 26,
+      "topical_papers": 520,
+      "total_papers": 546,
+      "facet_counts": {
+        "benchmark": 9,
+        "methods": 4,
+        "none": 520,
+        "overview": 13
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 27,
+      "overview_min_papers": 6
+    }
+  },
+  "abstraction": {
+    "label": "A family of related Climate Change technologies, including species distribution and climate change, climate change, climate change and environmental impact.",
+    "concept_type": "family_system"
+  },
+  "hierarchy": {
+    "root_topics": 11,
+    "descendant_topics": 189,
+    "max_depth": 4,
+    "leaf_topics": 138
+  },
+  "rising_topics": [
+    {
+      "id": "sg-global-warming",
+      "label": "Global warming",
+      "url": "/domains/climate-change/topics/sg-global-warming",
+      "trend": "rising",
+      "year_total": 1367403
+    },
+    {
+      "id": "sg-atmospheric-science",
+      "label": "Atmospheric science",
+      "url": "/domains/climate-change/topics/sg-atmospheric-science",
+      "trend": "rising",
+      "year_total": 1028572
+    },
+    {
+      "id": "sg-climate-change-impacts-on-agriculture",
+      "label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/topics/sg-climate-change-impacts-on-agriculture",
+      "trend": "rising",
+      "year_total": 1076014
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-overview",
+      "label": "Overview",
+      "url": "/domains/climate-change/topics/sg-overview",
+      "paper_count": 26,
+      "subtopic_count": 0,
+      "trend": "stable",
+      "summary": "entities: of the, data, use",
+      "tags": [
+        "overview",
+        "survey",
+        "perspective",
+        "roadmap"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2024966118",
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "url": "/domains/climate-change/papers/W2024966118"
+        },
+        {
+          "source_id": "https://openalex.org/W2193503481",
+          "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+          "year": "2016",
+          "cited_by_count": 11606,
+          "url": "/domains/climate-change/papers/W2193503481"
+        },
+        {
+          "source_id": "https://openalex.org/W1991308688",
+          "title": "The representative concentration pathways: an overview",
+          "year": "2011",
+          "cited_by_count": 7901,
+          "url": "/domains/climate-change/papers/W1991308688"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-warming",
+      "label": "Global warming",
+      "url": "/domains/climate-change/topics/sg-global-warming",
+      "paper_count": 123,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: change, climate, ecology",
+      "tags": [
+        "abrupt climate change",
+        "climate change and permafrost",
+        "climate change risks",
+        "climate warming"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-warming-global-warming",
+          "label": "Global warming",
+          "url": "/domains/climate-change/topics/sg-global-warming-global-warming",
+          "paper_count": 65
+        },
+        {
+          "id": "sg-global-warming-ecological-forecasting",
+          "label": "Ecological forecasting",
+          "url": "/domains/climate-change/topics/sg-global-warming-ecological-forecasting",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-global-warming-greenhouse-effect",
+          "label": "Greenhouse effect",
+          "url": "/domains/climate-change/topics/sg-global-warming-greenhouse-effect",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-global-warming-coupled-model-intercomparison-project",
+          "label": "Coupled model intercomparison project",
+          "url": "/domains/climate-change/topics/sg-global-warming-coupled-model-intercomparison-project",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-global-warming-scientific-consensus",
+          "label": "Scientific consensus",
+          "url": "/domains/climate-change/topics/sg-global-warming-scientific-consensus",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-global-warming-greenhouse-gas-removal",
+          "label": "Greenhouse gas removal",
+          "url": "/domains/climate-change/topics/sg-global-warming-greenhouse-gas-removal",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2939474406",
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "url": "/domains/climate-change/papers/W2939474406"
+        },
+        {
+          "source_id": "https://openalex.org/W4382362038",
+          "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+          "year": "2023",
+          "cited_by_count": 7151,
+          "url": "/domains/climate-change/papers/W4382362038"
+        },
+        {
+          "source_id": "https://openalex.org/W75231382",
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "url": "/domains/climate-change/papers/W75231382"
+        }
+      ]
+    },
+    {
+      "id": "sg-atmospheric-science",
+      "label": "Atmospheric science",
+      "url": "/domains/climate-change/topics/sg-atmospheric-science",
+      "paper_count": 104,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: geology, climate, of the",
+      "tags": [
+        "air pollution to climate",
+        "atmospheric and environmental gas dynamics",
+        "atmospheric science",
+        "climate change due"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-atmospheric-science-atmospheric-chemistry",
+          "label": "Atmospheric chemistry",
+          "url": "/domains/climate-change/topics/sg-atmospheric-science-atmospheric-chemistry",
+          "paper_count": 55
+        },
+        {
+          "id": "sg-atmospheric-science-radiative-transfer",
+          "label": "Radiative transfer",
+          "url": "/domains/climate-change/topics/sg-atmospheric-science-radiative-transfer",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-atmospheric-science-radiative-forcing",
+          "label": "Radiative forcing",
+          "url": "/domains/climate-change/topics/sg-atmospheric-science-radiative-forcing",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-atmospheric-science-latent-heat",
+          "label": "Latent heat",
+          "url": "/domains/climate-change/topics/sg-atmospheric-science-latent-heat",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-atmospheric-science-solar-irradiance",
+          "label": "Solar irradiance",
+          "url": "/domains/climate-change/topics/sg-atmospheric-science-solar-irradiance",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-atmospheric-science-cloud-condensation-nuclei",
+          "label": "Cloud condensation nuclei",
+          "url": "/domains/climate-change/topics/sg-atmospheric-science-cloud-condensation-nuclei",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1981213426",
+          "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+          "year": "2013",
+          "cited_by_count": 11342,
+          "url": "/domains/climate-change/papers/W1981213426"
+        },
+        {
+          "source_id": "https://openalex.org/W2611772571",
+          "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+          "year": "2017",
+          "cited_by_count": 9176,
+          "url": "/domains/climate-change/papers/W2611772571"
+        },
+        {
+          "source_id": "https://openalex.org/W2607350314",
+          "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+          "year": "2017",
+          "cited_by_count": 6418,
+          "url": "/domains/climate-change/papers/W2607350314"
+        }
+      ]
+    },
+    {
+      "id": "sg-climate-change-impacts-on-agriculture",
+      "label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/topics/sg-climate-change-impacts-on-agriculture",
+      "paper_count": 84,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: climate, change, of the",
+      "tags": [
+        "climate change adaptation",
+        "climate change impacts on agriculture",
+        "crop yield",
+        "risks of climate change"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-impacts-on-agriculture-crop-yield",
+          "label": "Crop yield",
+          "url": "/domains/climate-change/topics/sg-climate-change-impacts-on-agriculture-crop-yield",
+          "paper_count": 83
+        },
+        {
+          "id": "sg-climate-change-impacts-on-agriculture-environmental-resource-management",
+          "label": "Environmental resource management",
+          "url": "/domains/climate-change/topics/sg-climate-change-impacts-on-agriculture-environmental-resource-management",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-climate-change-impacts-on-agriculture-environmental-planning",
+          "label": "Environmental planning",
+          "url": "/domains/climate-change/topics/sg-climate-change-impacts-on-agriculture-environmental-planning",
+          "paper_count": 11
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3025949386",
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28895,
+          "url": "/domains/climate-change/papers/W3025949386"
+        },
+        {
+          "source_id": "https://openalex.org/W2173251738",
+          "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+          "year": "1996",
+          "cited_by_count": 29047,
+          "url": "/domains/climate-change/papers/W2173251738"
+        },
+        {
+          "source_id": "https://openalex.org/W2725897987",
+          "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+          "year": "2017",
+          "cited_by_count": 13420,
+          "url": "/domains/climate-change/papers/W2725897987"
+        }
+      ]
+    },
+    {
+      "id": "sg-extinction-risk-climate-change",
+      "label": "Extinction risk climate change",
+      "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change",
+      "paper_count": 65,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: ecology, species distribution and climate change, change",
+      "tags": [
+        "extinction risk climate",
+        "extinction risk climate change",
+        "responses to climate",
+        "responses to climate change"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-extinction-risk-climate-change-species-distribution",
+          "label": "Species distribution",
+          "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change-species-distribution",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-extinction-risk-climate-change-ecological-niche",
+          "label": "Ecological niche",
+          "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change-ecological-niche",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-extinction-risk-climate-change-evolutionary-ecology",
+          "label": "Evolutionary ecology",
+          "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change-evolutionary-ecology",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-extinction-risk-climate-change-global-biodiversity",
+          "label": "Global biodiversity",
+          "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change-global-biodiversity",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-extinction-risk-climate-change-sample-size-determination",
+          "label": "Sample size determination",
+          "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change-sample-size-determination",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-extinction-risk-climate-change-adaptive-evolution",
+          "label": "Adaptive evolution",
+          "url": "/domains/climate-change/topics/sg-extinction-risk-climate-change-adaptive-evolution",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2056279562",
+          "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+          "year": "2013",
+          "cited_by_count": 21837,
+          "url": "/domains/climate-change/papers/W2056279562"
+        },
+        {
+          "source_id": "https://openalex.org/W2011303397",
+          "title": "Resilience and Stability of Ecological Systems",
+          "year": "1973",
+          "cited_by_count": 17400,
+          "url": "/domains/climate-change/papers/W2011303397"
+        },
+        {
+          "source_id": "https://openalex.org/W2133501143",
+          "title": "A globally coherent fingerprint of climate change impacts across natural systems",
+          "year": "2003",
+          "cited_by_count": 10988,
+          "url": "/domains/climate-change/papers/W2133501143"
+        }
+      ]
+    },
+    {
+      "id": "sg-land-use",
+      "label": "Land use and climate change",
+      "url": "/domains/climate-change/topics/sg-land-use",
+      "paper_count": 40,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: ecology, change, in the",
+      "tags": [
+        "agricultural land",
+        "climate change, desertification",
+        "land cover",
+        "land degradation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-land-use-and-climate-change-land-cover",
+          "label": "Land cover",
+          "url": "/domains/climate-change/topics/sg-land-use-and-climate-change-land-cover",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-land-use-and-climate-change-land-use-ecosystem-service",
+          "label": "Land use ecosystem service",
+          "url": "/domains/climate-change/topics/sg-land-use-and-climate-change-land-use-ecosystem-service",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-land-use-and-climate-change-agricultural-land",
+          "label": "Agricultural land",
+          "url": "/domains/climate-change/topics/sg-land-use-and-climate-change-agricultural-land",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-land-use-and-climate-change-land-management",
+          "label": "Land management",
+          "url": "/domains/climate-change/topics/sg-land-use-and-climate-change-land-management",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-land-use-and-climate-change-civil-engineering",
+          "label": "Civil engineering",
+          "url": "/domains/climate-change/topics/sg-land-use-and-climate-change-civil-engineering",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-land-use-and-climate-change-land-degradation",
+          "label": "Land degradation",
+          "url": "/domains/climate-change/topics/sg-land-use-and-climate-change-land-degradation",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3174993126",
+          "title": "vegan: Community Ecology Package",
+          "year": "2001",
+          "cited_by_count": 22948,
+          "url": "/domains/climate-change/papers/W3174993126"
+        },
+        {
+          "source_id": "https://openalex.org/W2916743836",
+          "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+          "year": "2025",
+          "cited_by_count": 2717,
+          "url": "/domains/climate-change/papers/W2916743836"
+        },
+        {
+          "source_id": "https://openalex.org/W2130509491",
+          "title": "Changes in the global value of ecosystem services",
+          "year": "2014",
+          "cited_by_count": 5975,
+          "url": "/domains/climate-change/papers/W2130509491"
+        }
+      ]
+    },
+    {
+      "id": "sg-climate-change-policy-economics",
+      "label": "Climate change policy economics",
+      "url": "/domains/climate-change/topics/sg-climate-change-policy-economics",
+      "paper_count": 33,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: change, climate, on climate",
+      "tags": [
+        "climate change across",
+        "climate change policy and economics",
+        "climate change stern",
+        "intergovernmental panel on climate"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-policy-economics-environmental-planning",
+          "label": "Environmental planning",
+          "url": "/domains/climate-change/topics/sg-climate-change-policy-economics-environmental-planning",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-climate-change-policy-economics-environmental-resource-management",
+          "label": "Environmental resource management",
+          "url": "/domains/climate-change/topics/sg-climate-change-policy-economics-environmental-resource-management",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1520428197",
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "url": "/domains/climate-change/papers/W1520428197"
+        },
+        {
+          "source_id": "https://openalex.org/W2746485780",
+          "title": "The value of the world's ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21693,
+          "url": "/domains/climate-change/papers/W2746485780"
+        },
+        {
+          "source_id": "https://openalex.org/W1650569836",
+          "title": "Climate Change 2023 Synthesis Report",
+          "year": "2024",
+          "cited_by_count": 2376,
+          "url": "/domains/climate-change/papers/W1650569836"
+        }
+      ]
+    },
+    {
+      "id": "sg-carbon-cycle",
+      "label": "Carbon cycle and climate change",
+      "url": "/domains/climate-change/topics/sg-carbon-cycle",
+      "paper_count": 28,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: carbon, ecology, ecosystem",
+      "tags": [
+        "atmospheric and environmental gas dynamics",
+        "atmospheric carbon cycle",
+        "carbon cycle",
+        "carbon dioxide"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-carbon-cycle-and-climate-change-carbon-fibers-and-climate-change",
+          "label": "Carbon fibers and climate change",
+          "url": "/domains/climate-change/topics/sg-carbon-cycle-and-climate-change-carbon-fibers-and-climate-change",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-carbon-cycle-and-climate-change-eddy-covariance",
+          "label": "Eddy covariance",
+          "url": "/domains/climate-change/topics/sg-carbon-cycle-and-climate-change-eddy-covariance",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-carbon-cycle-and-climate-change-atmospheric-carbon-cycle-and-climate-change",
+          "label": "Atmospheric carbon cycle and climate change",
+          "url": "/domains/climate-change/topics/sg-carbon-cycle-and-climate-change-atmospheric-carbon-cycle-and-climate-change",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-carbon-cycle-and-climate-change-methane-hydrate-related-phenomena",
+          "label": "Methane hydrate related phenomena",
+          "url": "/domains/climate-change/topics/sg-carbon-cycle-and-climate-change-methane-hydrate-related-phenomena",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-carbon-cycle-and-climate-change-peatlands-wetlands-ecology",
+          "label": "Peatlands wetlands ecology",
+          "url": "/domains/climate-change/topics/sg-carbon-cycle-and-climate-change-peatlands-wetlands-ecology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2118295263",
+          "title": "The worldwide leaf economics spectrum",
+          "year": "2004",
+          "cited_by_count": 8584,
+          "url": "/domains/climate-change/papers/W2118295263"
+        },
+        {
+          "source_id": "https://openalex.org/W2083857556",
+          "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+          "year": "2006",
+          "cited_by_count": 6777,
+          "url": "/domains/climate-change/papers/W2083857556"
+        },
+        {
+          "source_id": "https://openalex.org/W2009225674",
+          "title": "Climate change and the permafrost carbon feedback",
+          "year": "2015",
+          "cited_by_count": 3702,
+          "url": "/domains/climate-change/papers/W2009225674"
+        }
+      ]
+    },
+    {
+      "id": "sg-climate-variability-models",
+      "label": "Climate variability models",
+      "url": "/domains/climate-change/topics/sg-climate-variability-models",
+      "paper_count": 22,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: geology, climatology, climate variability and models",
+      "tags": [
+        "change in climate",
+        "climate change projections",
+        "climate classification",
+        "climate model version"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-variability-models-el-ni-o-southern-oscillation",
+          "label": "El niño southern oscillation",
+          "url": "/domains/climate-change/topics/sg-climate-variability-models-el-ni-o-southern-oscillation",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-climate-variability-models-pacific-decadal-oscillation",
+          "label": "Pacific decadal oscillation",
+          "url": "/domains/climate-change/topics/sg-climate-variability-models-pacific-decadal-oscillation",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-climate-variability-models-heat-wave",
+          "label": "Heat wave",
+          "url": "/domains/climate-change/topics/sg-climate-variability-models-heat-wave",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-climate-variability-models-east-asia",
+          "label": "East asia",
+          "url": "/domains/climate-change/topics/sg-climate-variability-models-east-asia",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-climate-variability-models-orographic-lift",
+          "label": "Orographic lift",
+          "url": "/domains/climate-change/topics/sg-climate-variability-models-orographic-lift",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-climate-variability-models-geopotential-height",
+          "label": "Geopotential height",
+          "url": "/domains/climate-change/topics/sg-climate-variability-models-geopotential-height",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2101108516",
+          "title": "Updated world map of the Köppen-Geiger climate classification",
+          "year": "2007",
+          "cited_by_count": 12521,
+          "url": "/domains/climate-change/papers/W2101108516"
+        },
+        {
+          "source_id": "https://openalex.org/W2127170577",
+          "title": "World Map of the Köppen-Geiger climate classification updated",
+          "year": "2006",
+          "cited_by_count": 11126,
+          "url": "/domains/climate-change/papers/W2127170577"
+        },
+        {
+          "source_id": "https://openalex.org/W2898962279",
+          "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+          "year": "2018",
+          "cited_by_count": 6234,
+          "url": "/domains/climate-change/papers/W2898962279"
+        }
+      ]
+    },
+    {
+      "id": "sg-food-security",
+      "label": "Food security and climate change",
+      "url": "/domains/climate-change/topics/sg-food-security",
+      "paper_count": 8,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: ecology, food security, agriculture",
+      "tags": [
+        "change food",
+        "climate change food",
+        "food insecurity",
+        "food security"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-food-security-environmental-resource-management",
+          "label": "Environmental resource management",
+          "url": "/domains/climate-change/topics/sg-food-security-environmental-resource-management",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-food-security-and-climate-change-food-insecurity",
+          "label": "Food insecurity",
+          "url": "/domains/climate-change/topics/sg-food-security-and-climate-change-food-insecurity",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-food-security-climate-change-impacts",
+          "label": "Climate change impacts",
+          "url": "/domains/climate-change/topics/sg-food-security-climate-change-impacts",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-food-security-and-climate-change-water-security-and-climate-change",
+          "label": "Water security and climate change",
+          "url": "/domains/climate-change/topics/sg-food-security-and-climate-change-water-security-and-climate-change",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2148333466",
+          "title": "Food Security: The Challenge of Feeding 9 Billion People",
+          "year": "2010",
+          "cited_by_count": 11621,
+          "url": "/domains/climate-change/papers/W2148333466"
+        },
+        {
+          "source_id": "https://openalex.org/W2126902408",
+          "title": "Solutions for a cultivated planet",
+          "year": "2011",
+          "cited_by_count": 8143,
+          "url": "/domains/climate-change/papers/W2126902408"
+        },
+        {
+          "source_id": "https://openalex.org/W2085585287",
+          "title": "Climate Change Will Affect the Asian Water Towers",
+          "year": "2010",
+          "cited_by_count": 4011,
+          "url": "/domains/climate-change/papers/W2085585287"
+        }
+      ]
+    },
+    {
+      "id": "sg-climate-change-mitigation",
+      "label": "Climate change mitigation strategy",
+      "url": "/domains/climate-change/topics/sg-climate-change-mitigation",
+      "paper_count": 2,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: change, climate, climate change mitigation",
+      "tags": [
+        "change mitigation adaptation",
+        "climate change mitigation",
+        "climate change mitigation adaptation",
+        "climate change, desertification"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-mitigation-strategy-change-mitigation",
+          "label": "Change mitigation",
+          "url": "/domains/climate-change/topics/sg-climate-change-mitigation-strategy-change-mitigation",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3216798413",
+          "title": "Climate Change 2022 - Mitigation of Climate Change",
+          "year": "2023",
+          "cited_by_count": 2247,
+          "url": "/domains/climate-change/papers/W3216798413"
+        },
+        {
+          "source_id": "https://openalex.org/W2068963615",
+          "title": "Barriers perceived to engaging with climate change among the UK public and their policy implications",
+          "year": "2007",
+          "cited_by_count": 1978,
+          "url": "/domains/climate-change/papers/W2068963615"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Global warming",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+          "year": "2023",
+          "cited_by_count": 7151,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w4382362038.html"
+        },
+        {
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w75231382.html"
+        },
+        {
+          "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 9264,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w3092861045.html"
+        },
+        {
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12092,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w4213327538.html"
+        },
+        {
+          "title": "Climate Change 2021 – The Physical Science Basis",
+          "year": "2023",
+          "cited_by_count": 5739,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w4382363623.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate change impacts on agriculture",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28895,
+          "topic": "Climate change impacts on agriculture",
+          "url": "papers/https-openalex-org-w3025949386.html"
+        },
+        {
+          "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+          "year": "1996",
+          "cited_by_count": 29047,
+          "topic": "Climate change impacts on agriculture",
+          "url": "papers/https-openalex-org-w2173251738.html"
+        },
+        {
+          "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+          "year": "2017",
+          "cited_by_count": 13420,
+          "topic": "Climate change impacts on agriculture",
+          "url": "papers/https-openalex-org-w2725897987.html"
+        },
+        {
+          "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+          "year": "2019",
+          "cited_by_count": 10150,
+          "topic": "Climate change impacts on agriculture",
+          "url": "papers/https-openalex-org-w2909678677.html"
+        },
+        {
+          "title": "Global Consequences of Land Use",
+          "year": "2005",
+          "cited_by_count": 12755,
+          "topic": "Climate change impacts on agriculture",
+          "url": "papers/https-openalex-org-w2153820558.html"
+        },
+        {
+          "title": "Climate Change 2001: The Scientific Basis",
+          "year": "2002",
+          "cited_by_count": 12982,
+          "topic": "Climate change impacts on agriculture",
+          "url": "papers/https-openalex-org-w1522296012.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate change policy economics",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Climate change policy economics",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        },
+        {
+          "title": "The value of the world&#x27;s ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21693,
+          "topic": "Climate change policy economics",
+          "url": "papers/https-openalex-org-w2746485780.html"
+        },
+        {
+          "title": "Climate Change 2023 Synthesis Report",
+          "year": "2024",
+          "cited_by_count": 2376,
+          "topic": "Climate change policy economics",
+          "url": "papers/https-openalex-org-w1650569836.html"
+        },
+        {
+          "title": "Climate change 2007 : the physical science basis : summary for policymakers, a report of Working Group I of the Intergovernmental Panel on Climate Change and technical summary, a report accepted by Working Group I of the IPCC but not approved in detail and frequently asked questions : part of the Working Group I contribution to the fourth assessment report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 9674,
+          "topic": "Climate change policy economics",
+          "url": "papers/https-openalex-org-w617039848.html"
+        }
+      ]
+    },
+    {
+      "label": "Extinction risk climate change",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+          "year": "2013",
+          "cited_by_count": 21837,
+          "topic": "Extinction risk climate change",
+          "url": "papers/https-openalex-org-w2056279562.html"
+        },
+        {
+          "title": "Resilience and Stability of Ecological Systems",
+          "year": "1973",
+          "cited_by_count": 17400,
+          "topic": "Extinction risk climate change",
+          "url": "papers/https-openalex-org-w2011303397.html"
+        },
+        {
+          "title": "A globally coherent fingerprint of climate change impacts across natural systems",
+          "year": "2003",
+          "cited_by_count": 10988,
+          "topic": "Extinction risk climate change",
+          "url": "papers/https-openalex-org-w2133501143.html"
+        },
+        {
+          "title": "Ecological responses to recent climate change",
+          "year": "2002",
+          "cited_by_count": 9874,
+          "topic": "Extinction risk climate change",
+          "url": "papers/https-openalex-org-w2024649846.html"
+        }
+      ]
+    },
+    {
+      "label": "Atmospheric science",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+          "year": "2013",
+          "cited_by_count": 11342,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w1981213426.html"
+        },
+        {
+          "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+          "year": "2017",
+          "cited_by_count": 9176,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w2611772571.html"
+        },
+        {
+          "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+          "year": "2017",
+          "cited_by_count": 6418,
+          "topic": "Atmospheric science",
+          "url": "papers/https-openalex-org-w2607350314.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate variability models",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Updated world map of the Köppen-Geiger climate classification",
+          "year": "2007",
+          "cited_by_count": 12521,
+          "topic": "Climate variability models",
+          "url": "papers/https-openalex-org-w2101108516.html"
+        },
+        {
+          "title": "World Map of the Köppen-Geiger climate classification updated",
+          "year": "2006",
+          "cited_by_count": 11126,
+          "topic": "Climate variability models",
+          "url": "papers/https-openalex-org-w2127170577.html"
+        },
+        {
+          "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+          "year": "2018",
+          "cited_by_count": 6234,
+          "topic": "Climate variability models",
+          "url": "papers/https-openalex-org-w2898962279.html"
+        }
+      ]
+    },
+    {
+      "label": "Overview",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "topic": "Overview",
+          "url": "papers/https-openalex-org-w2024966118.html"
+        },
+        {
+          "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+          "year": "2016",
+          "cited_by_count": 11606,
+          "topic": "Overview",
+          "url": "papers/https-openalex-org-w2193503481.html"
+        },
+        {
+          "title": "The representative concentration pathways: an overview",
+          "year": "2011",
+          "cited_by_count": 7901,
+          "topic": "Overview",
+          "url": "papers/https-openalex-org-w1991308688.html"
+        }
+      ]
+    },
+    {
+      "label": "Food security and climate change",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Food Security: The Challenge of Feeding 9 Billion People",
+          "year": "2010",
+          "cited_by_count": 11621,
+          "topic": "Food security and climate change",
+          "url": "papers/https-openalex-org-w2148333466.html"
+        },
+        {
+          "title": "Solutions for a cultivated planet",
+          "year": "2011",
+          "cited_by_count": 8143,
+          "topic": "Food security and climate change",
+          "url": "papers/https-openalex-org-w2126902408.html"
+        }
+      ]
+    },
+    {
+      "label": "Land use and climate change",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "vegan: Community Ecology Package",
+          "year": "2001",
+          "cited_by_count": 22948,
+          "topic": "Land use and climate change",
+          "url": "papers/https-openalex-org-w3174993126.html"
+        },
+        {
+          "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+          "year": "2025",
+          "cited_by_count": 2717,
+          "topic": "Land use and climate change",
+          "url": "papers/https-openalex-org-w2916743836.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28895,
+      "adjusted_cited_by_count": 11796.33,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2056279562",
+      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+      "year": 2013,
+      "cited_by_count": 21837,
+      "adjusted_cited_by_count": 6056.49,
+      "primary_topic_id": "sg-extinction-risk-climate-change",
+      "primary_topic_label": "Extinction risk climate change",
+      "url": "/domains/climate-change/papers/W2056279562"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2173251738",
+      "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+      "year": 1996,
+      "cited_by_count": 29047,
+      "adjusted_cited_by_count": 5303.23,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2173251738"
+    },
+    {
+      "source_id": "https://openalex.org/W3174993126",
+      "title": "vegan: Community Ecology Package",
+      "year": 2001,
+      "cited_by_count": 22948,
+      "adjusted_cited_by_count": 4589.6,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use and climate change",
+      "url": "/domains/climate-change/papers/W3174993126"
+    },
+    {
+      "source_id": "https://openalex.org/W2725897987",
+      "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+      "year": 2017,
+      "cited_by_count": 13420,
+      "adjusted_cited_by_count": 4473.33,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2725897987"
+    },
+    {
+      "source_id": "https://openalex.org/W4382362038",
+      "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+      "year": 2023,
+      "cited_by_count": 7151,
+      "adjusted_cited_by_count": 4128.63,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W4382362038"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "primary_topic_id": "sg-climate-change-policy-economics",
+      "primary_topic_label": "Climate change policy economics",
+      "url": "/domains/climate-change/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21693,
+      "adjusted_cited_by_count": 4028.29,
+      "primary_topic_id": "sg-climate-change-policy-economics",
+      "primary_topic_label": "Climate change policy economics",
+      "url": "/domains/climate-change/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10150,
+      "adjusted_cited_by_count": 3836.34,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "primary_topic_id": "sg-overview",
+      "primary_topic_label": "Overview",
+      "url": "/domains/climate-change/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9264,
+      "adjusted_cited_by_count": 3782.01,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11606,
+      "adjusted_cited_by_count": 3670.14,
+      "primary_topic_id": "sg-overview",
+      "primary_topic_label": "Overview",
+      "url": "/domains/climate-change/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12092,
+      "adjusted_cited_by_count": 3490.66,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W4382363623",
+      "title": "Climate Change 2021 – The Physical Science Basis",
+      "year": 2023,
+      "cited_by_count": 5739,
+      "adjusted_cited_by_count": 3313.41,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W4382363623"
+    },
+    {
+      "source_id": "https://openalex.org/W1588713494",
+      "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 11230,
+      "adjusted_cited_by_count": 3241.82,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W1588713494"
+    },
+    {
+      "source_id": "https://openalex.org/W1981213426",
+      "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+      "year": 2013,
+      "cited_by_count": 11342,
+      "adjusted_cited_by_count": 3145.7,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/climate-change/papers/W1981213426"
+    },
+    {
+      "source_id": "https://openalex.org/W2611772571",
+      "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+      "year": 2017,
+      "cited_by_count": 9176,
+      "adjusted_cited_by_count": 3058.67,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/climate-change/papers/W2611772571"
+    },
+    {
+      "source_id": "https://openalex.org/W2148333466",
+      "title": "Food Security: The Challenge of Feeding 9 Billion People",
+      "year": 2010,
+      "cited_by_count": 11621,
+      "adjusted_cited_by_count": 2905.25,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security and climate change",
+      "url": "/domains/climate-change/papers/W2148333466"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12521,
+      "adjusted_cited_by_count": 2872.51,
+      "primary_topic_id": "sg-climate-variability-models",
+      "primary_topic_label": "Climate variability models",
+      "url": "/domains/climate-change/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2153820558",
+      "title": "Global Consequences of Land Use",
+      "year": 2005,
+      "cited_by_count": 12755,
+      "adjusted_cited_by_count": 2783.37,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2153820558"
+    },
+    {
+      "source_id": "https://openalex.org/W2916743836",
+      "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+      "year": 2025,
+      "cited_by_count": 2717,
+      "adjusted_cited_by_count": 2717.0,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use and climate change",
+      "url": "/domains/climate-change/papers/W2916743836"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W2127170577",
+      "title": "World Map of the Köppen-Geiger climate classification updated",
+      "year": 2006,
+      "cited_by_count": 11126,
+      "adjusted_cited_by_count": 2487.85,
+      "primary_topic_id": "sg-climate-variability-models",
+      "primary_topic_label": "Climate variability models",
+      "url": "/domains/climate-change/papers/W2127170577"
+    },
+    {
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17400,
+      "adjusted_cited_by_count": 2390.07,
+      "primary_topic_id": "sg-extinction-risk-climate-change",
+      "primary_topic_label": "Extinction risk climate change",
+      "url": "/domains/climate-change/papers/W2011303397"
+    },
+    {
+      "source_id": "https://openalex.org/W1650569836",
+      "title": "Climate Change 2023 Synthesis Report",
+      "year": 2024,
+      "cited_by_count": 2376,
+      "adjusted_cited_by_count": 2376.0,
+      "primary_topic_id": "sg-climate-change-policy-economics",
+      "primary_topic_label": "Climate change policy economics",
+      "url": "/domains/climate-change/papers/W1650569836"
+    },
+    {
+      "source_id": "https://openalex.org/W2133501143",
+      "title": "A globally coherent fingerprint of climate change impacts across natural systems",
+      "year": 2003,
+      "cited_by_count": 10988,
+      "adjusted_cited_by_count": 2291.16,
+      "primary_topic_id": "sg-extinction-risk-climate-change",
+      "primary_topic_label": "Extinction risk climate change",
+      "url": "/domains/climate-change/papers/W2133501143"
+    },
+    {
+      "source_id": "https://openalex.org/W2126416729",
+      "title": "The Economics of Climate Change: The Stern Review",
+      "year": 2007,
+      "cited_by_count": 9782,
+      "adjusted_cited_by_count": 2244.14,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2126416729"
+    },
+    {
+      "source_id": "https://openalex.org/W617039848",
+      "title": "Climate change 2007 : the physical science basis : summary for policymakers, a report of Working Group I of the Intergovernmental Panel on Climate Change and technical summary, a report accepted by Working Group I of the IPCC but not approved in detail and frequently asked questions : part of the Working Group I contribution to the fourth assessment report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 9674,
+      "adjusted_cited_by_count": 2219.37,
+      "primary_topic_id": "sg-climate-change-policy-economics",
+      "primary_topic_label": "Climate change policy economics",
+      "url": "/domains/climate-change/papers/W617039848"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6234,
+      "adjusted_cited_by_count": 2204.05,
+      "primary_topic_id": "sg-climate-variability-models",
+      "primary_topic_label": "Climate variability models",
+      "url": "/domains/climate-change/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2159352443",
+      "title": "IPCC special report on carbon dioxide capture and storage",
+      "year": 2021,
+      "cited_by_count": 4923,
+      "adjusted_cited_by_count": 2201.63,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W2159352443"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6418,
+      "adjusted_cited_by_count": 2139.33,
+      "primary_topic_id": "sg-atmospheric-science",
+      "primary_topic_label": "Atmospheric science",
+      "url": "/domains/climate-change/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8753,
+      "adjusted_cited_by_count": 2122.91,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W2126975094",
+      "title": "Climate Change 2007: Impacts, Adaptation and Vulnerability",
+      "year": 2007,
+      "cited_by_count": 9170,
+      "adjusted_cited_by_count": 2103.74,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2126975094"
+    },
+    {
+      "source_id": "https://openalex.org/W2126902408",
+      "title": "Solutions for a cultivated planet",
+      "year": 2011,
+      "cited_by_count": 8143,
+      "adjusted_cited_by_count": 2102.51,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security and climate change",
+      "url": "/domains/climate-change/papers/W2126902408"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7901,
+      "adjusted_cited_by_count": 2040.03,
+      "primary_topic_id": "sg-overview",
+      "primary_topic_label": "Overview",
+      "url": "/domains/climate-change/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9874,
+      "adjusted_cited_by_count": 2015.52,
+      "primary_topic_id": "sg-extinction-risk-climate-change",
+      "primary_topic_label": "Extinction risk climate change",
+      "url": "/domains/climate-change/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W3007246056",
+      "title": "Environmental and Health Impacts of Air Pollution: A Review",
+      "year": 2020,
+      "cited_by_count": 4862,
+      "adjusted_cited_by_count": 1984.9,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/climate-change/papers/W3007246056"
+    },
+    {
+      "source_id": "https://openalex.org/W2120012334",
+      "title": "Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation",
+      "year": 2012,
+      "cited_by_count": 7254,
+      "adjusted_cited_by_count": 1938.71,
+      "primary_topic_id": "sg-climate-change-impacts-on-agriculture",
+      "primary_topic_label": "Climate change impacts on agriculture",
+      "url": "/domains/climate-change/papers/W2120012334"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28895,
+      "adjusted_cited_by_count": 11796.33,
+      "url": "/domains/climate-change/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2056279562",
+      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+      "year": 2013,
+      "cited_by_count": 21837,
+      "adjusted_cited_by_count": 6056.49,
+      "url": "/domains/climate-change/papers/W2056279562"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/climate-change/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2173251738",
+      "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+      "year": 1996,
+      "cited_by_count": 29047,
+      "adjusted_cited_by_count": 5303.23,
+      "url": "/domains/climate-change/papers/W2173251738"
+    },
+    {
+      "source_id": "https://openalex.org/W3174993126",
+      "title": "vegan: Community Ecology Package",
+      "year": 2001,
+      "cited_by_count": 22948,
+      "adjusted_cited_by_count": 4589.6,
+      "url": "/domains/climate-change/papers/W3174993126"
+    },
+    {
+      "source_id": "https://openalex.org/W2725897987",
+      "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+      "year": 2017,
+      "cited_by_count": 13420,
+      "adjusted_cited_by_count": 4473.33,
+      "url": "/domains/climate-change/papers/W2725897987"
+    },
+    {
+      "source_id": "https://openalex.org/W4382362038",
+      "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+      "year": 2023,
+      "cited_by_count": 7151,
+      "adjusted_cited_by_count": 4128.63,
+      "url": "/domains/climate-change/papers/W4382362038"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "url": "/domains/climate-change/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21693,
+      "adjusted_cited_by_count": 4028.29,
+      "url": "/domains/climate-change/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "url": "/domains/climate-change/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10150,
+      "adjusted_cited_by_count": 3836.34,
+      "url": "/domains/climate-change/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "url": "/domains/climate-change/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9264,
+      "adjusted_cited_by_count": 3782.01,
+      "url": "/domains/climate-change/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11606,
+      "adjusted_cited_by_count": 3670.14,
+      "url": "/domains/climate-change/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12092,
+      "adjusted_cited_by_count": 3490.66,
+      "url": "/domains/climate-change/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W4382363623",
+      "title": "Climate Change 2021 – The Physical Science Basis",
+      "year": 2023,
+      "cited_by_count": 5739,
+      "adjusted_cited_by_count": 3313.41,
+      "url": "/domains/climate-change/papers/W4382363623"
+    },
+    {
+      "source_id": "https://openalex.org/W1588713494",
+      "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 11230,
+      "adjusted_cited_by_count": 3241.82,
+      "url": "/domains/climate-change/papers/W1588713494"
+    },
+    {
+      "source_id": "https://openalex.org/W1981213426",
+      "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+      "year": 2013,
+      "cited_by_count": 11342,
+      "adjusted_cited_by_count": 3145.7,
+      "url": "/domains/climate-change/papers/W1981213426"
+    },
+    {
+      "source_id": "https://openalex.org/W2611772571",
+      "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+      "year": 2017,
+      "cited_by_count": 9176,
+      "adjusted_cited_by_count": 3058.67,
+      "url": "/domains/climate-change/papers/W2611772571"
+    },
+    {
+      "source_id": "https://openalex.org/W2148333466",
+      "title": "Food Security: The Challenge of Feeding 9 Billion People",
+      "year": 2010,
+      "cited_by_count": 11621,
+      "adjusted_cited_by_count": 2905.25,
+      "url": "/domains/climate-change/papers/W2148333466"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12521,
+      "adjusted_cited_by_count": 2872.51,
+      "url": "/domains/climate-change/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2153820558",
+      "title": "Global Consequences of Land Use",
+      "year": 2005,
+      "cited_by_count": 12755,
+      "adjusted_cited_by_count": 2783.37,
+      "url": "/domains/climate-change/papers/W2153820558"
+    },
+    {
+      "source_id": "https://openalex.org/W2916743836",
+      "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+      "year": 2025,
+      "cited_by_count": 2717,
+      "adjusted_cited_by_count": 2717.0,
+      "url": "/domains/climate-change/papers/W2916743836"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "url": "/domains/climate-change/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W2127170577",
+      "title": "World Map of the Köppen-Geiger climate classification updated",
+      "year": 2006,
+      "cited_by_count": 11126,
+      "adjusted_cited_by_count": 2487.85,
+      "url": "/domains/climate-change/papers/W2127170577"
+    },
+    {
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17400,
+      "adjusted_cited_by_count": 2390.07,
+      "url": "/domains/climate-change/papers/W2011303397"
+    },
+    {
+      "source_id": "https://openalex.org/W1650569836",
+      "title": "Climate Change 2023 Synthesis Report",
+      "year": 2024,
+      "cited_by_count": 2376,
+      "adjusted_cited_by_count": 2376.0,
+      "url": "/domains/climate-change/papers/W1650569836"
+    },
+    {
+      "source_id": "https://openalex.org/W2133501143",
+      "title": "A globally coherent fingerprint of climate change impacts across natural systems",
+      "year": 2003,
+      "cited_by_count": 10988,
+      "adjusted_cited_by_count": 2291.16,
+      "url": "/domains/climate-change/papers/W2133501143"
+    },
+    {
+      "source_id": "https://openalex.org/W2126416729",
+      "title": "The Economics of Climate Change: The Stern Review",
+      "year": 2007,
+      "cited_by_count": 9782,
+      "adjusted_cited_by_count": 2244.14,
+      "url": "/domains/climate-change/papers/W2126416729"
+    },
+    {
+      "source_id": "https://openalex.org/W617039848",
+      "title": "Climate change 2007 : the physical science basis : summary for policymakers, a report of Working Group I of the Intergovernmental Panel on Climate Change and technical summary, a report accepted by Working Group I of the IPCC but not approved in detail and frequently asked questions : part of the Working Group I contribution to the fourth assessment report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 9674,
+      "adjusted_cited_by_count": 2219.37,
+      "url": "/domains/climate-change/papers/W617039848"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6234,
+      "adjusted_cited_by_count": 2204.05,
+      "url": "/domains/climate-change/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2159352443",
+      "title": "IPCC special report on carbon dioxide capture and storage",
+      "year": 2021,
+      "cited_by_count": 4923,
+      "adjusted_cited_by_count": 2201.63,
+      "url": "/domains/climate-change/papers/W2159352443"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6418,
+      "adjusted_cited_by_count": 2139.33,
+      "url": "/domains/climate-change/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8753,
+      "adjusted_cited_by_count": 2122.91,
+      "url": "/domains/climate-change/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W2126975094",
+      "title": "Climate Change 2007: Impacts, Adaptation and Vulnerability",
+      "year": 2007,
+      "cited_by_count": 9170,
+      "adjusted_cited_by_count": 2103.74,
+      "url": "/domains/climate-change/papers/W2126975094"
+    },
+    {
+      "source_id": "https://openalex.org/W2126902408",
+      "title": "Solutions for a cultivated planet",
+      "year": 2011,
+      "cited_by_count": 8143,
+      "adjusted_cited_by_count": 2102.51,
+      "url": "/domains/climate-change/papers/W2126902408"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7901,
+      "adjusted_cited_by_count": 2040.03,
+      "url": "/domains/climate-change/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9874,
+      "adjusted_cited_by_count": 2015.52,
+      "url": "/domains/climate-change/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W3007246056",
+      "title": "Environmental and Health Impacts of Air Pollution: A Review",
+      "year": 2020,
+      "cited_by_count": 4862,
+      "adjusted_cited_by_count": 1984.9,
+      "url": "/domains/climate-change/papers/W3007246056"
+    },
+    {
+      "source_id": "https://openalex.org/W2120012334",
+      "title": "Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation",
+      "year": 2012,
+      "cited_by_count": 7254,
+      "adjusted_cited_by_count": 1938.71,
+      "url": "/domains/climate-change/papers/W2120012334"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 394
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 385
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 384
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 363
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 312
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 297
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 246
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 228
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 228
+    },
+    {
+      "label": "climatology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 196
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 162
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 156
+    },
+    {
+      "label": "sea",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 137
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 136
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 130
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 126
+    },
+    {
+      "label": "land",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 121
+    },
+    {
+      "label": "impact",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 118
+    },
+    {
+      "label": "environmental resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "global warming",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 107
+    },
+    {
+      "label": "ice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 103
+    },
+    {
+      "label": "atmospheric science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 99
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 98
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 97
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 97
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "temperature",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 92
+    },
+    {
+      "label": "range",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 83
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 78
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 77
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 79
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 75
+    },
+    {
+      "label": "climate model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 73
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 73
+    },
+    {
+      "label": "assessment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 70
+    },
+    {
+      "label": "greenhouse gas",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 69
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 69
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 449
+    },
+    {
+      "label": "atmospheric",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 131
+    },
+    {
+      "label": "precipitation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 68
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 67
+    },
+    {
+      "label": "level",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 64
+    },
+    {
+      "label": "cover",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 63
+    },
+    {
+      "label": "distribution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 63
+    },
+    {
+      "label": "project",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 63
+    },
+    {
+      "label": "warming",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 108
+    }
+  ],
+  "topic_year_counts": {
+    "global warming": {
+      "2023": 154853,
+      "2025": 152426,
+      "2024": 149892,
+      "2022": 107589,
+      "2021": 98349,
+      "2020": 88510,
+      "2019": 72408,
+      "2018": 64018,
+      "2017": 56639,
+      "2016": 51806,
+      "2015": 46650,
+      "2014": 43117,
+      "2013": 39320,
+      "2026": 38719,
+      "2012": 34470,
+      "2011": 29848,
+      "2010": 26038,
+      "2009": 22903,
+      "2008": 18755,
+      "2007": 15235,
+      "2006": 11963,
+      "2005": 10508,
+      "2004": 8338,
+      "2003": 7317,
+      "2002": 6238,
+      "2000": 5892,
+      "2001": 5602
+    },
+    "atmospheric science": {
+      "2023": 113057,
+      "2024": 102079,
+      "2025": 100665,
+      "2022": 77648,
+      "2021": 73362,
+      "2020": 66575,
+      "2019": 57439,
+      "2018": 52478,
+      "2017": 45819,
+      "2016": 42863,
+      "2015": 37080,
+      "2014": 34033,
+      "2013": 31857,
+      "2012": 27295,
+      "2026": 24994,
+      "2011": 23358,
+      "2010": 20016,
+      "2009": 17097,
+      "2008": 14764,
+      "2007": 12502,
+      "2006": 10696,
+      "2005": 9818,
+      "2004": 8014,
+      "2003": 7299,
+      "2002": 6322,
+      "2001": 5738,
+      "2000": 5704
+    },
+    "climate change impacts on agriculture": {
+      "2025": 154476,
+      "2024": 137219,
+      "2023": 132371,
+      "2022": 87360,
+      "2021": 76950,
+      "2020": 66538,
+      "2019": 53951,
+      "2018": 46929,
+      "2017": 40686,
+      "2016": 36540,
+      "2026": 34287,
+      "2015": 32245,
+      "2014": 28725,
+      "2013": 25761,
+      "2012": 21952,
+      "2011": 18465,
+      "2010": 15616,
+      "2009": 12979,
+      "2008": 10210,
+      "2007": 8339,
+      "2006": 7667,
+      "2005": 6383,
+      "2004": 5327,
+      "2003": 4376,
+      "2000": 3843,
+      "2002": 3620,
+      "2001": 3199
+    },
+    "extinction risk climate change": {
+      "2023": 13720,
+      "2025": 13557,
+      "2024": 13105,
+      "2022": 9091,
+      "2021": 8434,
+      "2020": 7725,
+      "2019": 6296,
+      "2018": 5524,
+      "2017": 5083,
+      "2016": 4493,
+      "2015": 3925,
+      "2014": 3547,
+      "2013": 3239,
+      "2026": 3028,
+      "2012": 2800,
+      "2011": 2287,
+      "2010": 1952,
+      "2009": 1670,
+      "2008": 1338,
+      "2006": 1188,
+      "2007": 1104,
+      "2005": 707,
+      "2004": 656,
+      "2003": 488,
+      "2002": 391,
+      "2000": 337,
+      "2001": 337
+    },
+    "land use and climate change": {
+      "2025": 156509,
+      "2023": 149111,
+      "2024": 143348,
+      "2022": 104427,
+      "2021": 95243,
+      "2020": 84293,
+      "2019": 70482,
+      "2018": 62927,
+      "2017": 54814,
+      "2016": 51018,
+      "2015": 45125,
+      "2014": 41026,
+      "2013": 37459,
+      "2026": 36784,
+      "2012": 32216,
+      "2011": 27816,
+      "2010": 23488,
+      "2009": 19974,
+      "2008": 16147,
+      "2007": 13545,
+      "2006": 11768,
+      "2005": 9837,
+      "2004": 8443,
+      "2003": 7152,
+      "2002": 6052,
+      "2000": 5845,
+      "2001": 5218
+    },
+    "climate change policy economics": {
+      "2025": 76214,
+      "2024": 68093,
+      "2023": 64879,
+      "2022": 43685,
+      "2021": 38620,
+      "2020": 34229,
+      "2019": 28292,
+      "2018": 25061,
+      "2017": 21946,
+      "2016": 19937,
+      "2015": 18039,
+      "2026": 16612,
+      "2014": 16125,
+      "2013": 14317,
+      "2012": 12773,
+      "2011": 11188,
+      "2010": 9808,
+      "2009": 8238,
+      "2008": 6519,
+      "2007": 5209,
+      "2006": 4563,
+      "2005": 3588,
+      "2004": 3146,
+      "2003": 2754,
+      "2002": 2301,
+      "2000": 2202,
+      "2001": 1923
+    },
+    "carbon cycle and climate change": {
+      "2025": 81009,
+      "2024": 71036,
+      "2023": 70620,
+      "2022": 45748,
+      "2021": 41045,
+      "2020": 35538,
+      "2019": 28857,
+      "2018": 25826,
+      "2017": 22867,
+      "2016": 20852,
+      "2026": 20567,
+      "2015": 18030,
+      "2014": 16382,
+      "2013": 14927,
+      "2012": 12750,
+      "2011": 10671,
+      "2010": 8990,
+      "2009": 7395,
+      "2008": 5899,
+      "2007": 4597,
+      "2006": 4175,
+      "2005": 3568,
+      "2004": 2957,
+      "2003": 2376,
+      "2000": 1885,
+      "2002": 1877,
+      "2001": 1696
+    },
+    "climate variability models": {
+      "2025": 118595,
+      "2024": 92368,
+      "2023": 88440,
+      "2022": 61641,
+      "2021": 59444,
+      "2020": 52951,
+      "2019": 44565,
+      "2018": 40505,
+      "2017": 35685,
+      "2016": 33694,
+      "2026": 33553,
+      "2015": 29824,
+      "2014": 26649,
+      "2013": 24929,
+      "2012": 20932,
+      "2011": 17625,
+      "2010": 14818,
+      "2009": 12627,
+      "2008": 10388,
+      "2007": 8906,
+      "2006": 7788,
+      "2005": 6633,
+      "2004": 5852,
+      "2003": 4618,
+      "2002": 3937,
+      "2000": 3757,
+      "2001": 3280
+    },
+    "food security and climate change": {
+      "2025": 75569,
+      "2024": 65580,
+      "2023": 61302,
+      "2022": 40671,
+      "2021": 35735,
+      "2020": 30482,
+      "2019": 24581,
+      "2018": 21407,
+      "2017": 18428,
+      "2026": 17334,
+      "2016": 16298,
+      "2015": 14534,
+      "2014": 13128,
+      "2013": 11352,
+      "2012": 9739,
+      "2011": 8334,
+      "2010": 7080,
+      "2009": 5918,
+      "2008": 4381,
+      "2007": 3479,
+      "2006": 3116,
+      "2005": 2482,
+      "2004": 2128,
+      "2003": 1785,
+      "2000": 1519,
+      "2002": 1496,
+      "2001": 1268
+    },
+    "climate change mitigation strategy": {
+      "2025": 155588,
+      "2024": 118781,
+      "2023": 95732,
+      "2022": 55231,
+      "2021": 48491,
+      "2020": 40208,
+      "2026": 38048,
+      "2019": 31569,
+      "2018": 26763,
+      "2017": 23018,
+      "2016": 20406,
+      "2015": 17579,
+      "2014": 15297,
+      "2013": 13206,
+      "2012": 11362,
+      "2011": 9592,
+      "2010": 7951,
+      "2009": 6435,
+      "2008": 4666,
+      "2007": 3664,
+      "2006": 2856,
+      "2005": 2496,
+      "2004": 2330,
+      "2003": 1697,
+      "2000": 1495,
+      "2002": 1330,
+      "2001": 1195
+    }
+  }
+}

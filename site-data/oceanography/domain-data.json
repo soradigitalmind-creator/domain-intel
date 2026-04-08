@@ -1,0 +1,2182 @@
+{
+  "slug": "oceanography",
+  "title": "Oceanography",
+  "updated_at": "2026-04-07T12:07:40.795981Z",
+  "snapshot": {
+    "papers": 625,
+    "topics": 8,
+    "subtopics": 49,
+    "entities": 1395,
+    "claims": 31
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 868,
+      "total_papers": 868,
+      "facet_counts": {
+        "none": 868
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 8,
+    "descendant_topics": 49,
+    "max_depth": 2,
+    "leaf_topics": 49
+  },
+  "rising_topics": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/oceanography/topics/sg-climate-change",
+      "trend": "rising",
+      "year_total": 3756723
+    },
+    {
+      "id": "sg-marine-ecosystem",
+      "label": "Marine ecosystem",
+      "url": "/domains/oceanography/topics/sg-marine-ecosystem",
+      "trend": "rising",
+      "year_total": 556881
+    },
+    {
+      "id": "sg-geology-paleoclimatology",
+      "label": "Geology paleoclimatology",
+      "url": "/domains/oceanography/topics/sg-geology-paleoclimatology",
+      "trend": "rising",
+      "year_total": 9228
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/oceanography/topics/sg-climate-change",
+      "paper_count": 236,
+      "subtopic_count": 20,
+      "trend": "rising",
+      "summary": "entities: climate change, of the, geology",
+      "tags": [
+        "climate change",
+        "climate change impacts",
+        "climate change mitigation",
+        "climate change on fish"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-climate-science",
+          "label": "Climate science",
+          "url": "/domains/oceanography/topics/sg-climate-change-climate-science",
+          "paper_count": 57
+        },
+        {
+          "id": "sg-climate-change-ecosystem-based-management",
+          "label": "Ecosystem-based management",
+          "url": "/domains/oceanography/topics/sg-climate-change-ecosystem-based-management",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-climate-change-climate-change-mitigation",
+          "label": "Climate change mitigation",
+          "url": "/domains/oceanography/topics/sg-climate-change-climate-change-mitigation",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-climate-change-climate-sensitivity",
+          "label": "Climate sensitivity",
+          "url": "/domains/oceanography/topics/sg-climate-change-climate-sensitivity",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-climate-change-effects-of-global-warming",
+          "label": "Effects of global warming",
+          "url": "/domains/oceanography/topics/sg-climate-change-effects-of-global-warming",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-climate-change-ocean-acidification",
+          "label": "Ocean acidification",
+          "url": "/domains/oceanography/topics/sg-climate-change-ocean-acidification",
+          "paper_count": 13
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3025949386",
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28895,
+          "url": "/domains/oceanography/papers/W3025949386"
+        },
+        {
+          "source_id": "https://openalex.org/W2121745948",
+          "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+          "year": "2011",
+          "cited_by_count": 26257,
+          "url": "/domains/oceanography/papers/W2121745948"
+        },
+        {
+          "source_id": "https://openalex.org/W2939474406",
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "url": "/domains/oceanography/papers/W2939474406"
+        }
+      ]
+    },
+    {
+      "id": "sg-marine-ecosystem",
+      "label": "Marine ecosystem",
+      "url": "/domains/oceanography/topics/sg-marine-ecosystem",
+      "paper_count": 108,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: ecology, of the, ecosystem",
+      "tags": [
+        "coastal marine ecosystems",
+        "impacts of marine",
+        "marine conservation",
+        "marine ecosystem"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-marine-ecosystem-marine-ecosystems",
+          "label": "Marine ecosystems",
+          "url": "/domains/oceanography/topics/sg-marine-ecosystem-marine-ecosystems",
+          "paper_count": 42
+        },
+        {
+          "id": "sg-marine-ecosystem-benthic-zone",
+          "label": "Benthic zone",
+          "url": "/domains/oceanography/topics/sg-marine-ecosystem-benthic-zone",
+          "paper_count": 41
+        },
+        {
+          "id": "sg-marine-ecosystem-primary-producers",
+          "label": "Primary producers",
+          "url": "/domains/oceanography/topics/sg-marine-ecosystem-primary-producers",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-marine-ecosystem-marine-conservation",
+          "label": "Marine conservation",
+          "url": "/domains/oceanography/topics/sg-marine-ecosystem-marine-conservation",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-marine-ecosystem-mesopredator-release-hypothesis",
+          "label": "Mesopredator release hypothesis",
+          "url": "/domains/oceanography/topics/sg-marine-ecosystem-mesopredator-release-hypothesis",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-marine-ecosystem-marine-spatial-planning",
+          "label": "Marine spatial planning",
+          "url": "/domains/oceanography/topics/sg-marine-ecosystem-marine-spatial-planning",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2164526292",
+          "title": "Microplastics in the marine environment",
+          "year": "2011",
+          "cited_by_count": 7597,
+          "url": "/domains/oceanography/papers/W2164526292"
+        },
+        {
+          "source_id": "https://openalex.org/W2118295263",
+          "title": "The worldwide leaf economics spectrum",
+          "year": "2004",
+          "cited_by_count": 8584,
+          "url": "/domains/oceanography/papers/W2118295263"
+        },
+        {
+          "source_id": "https://openalex.org/W2130231032",
+          "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6479,
+          "url": "/domains/oceanography/papers/W2130231032"
+        }
+      ]
+    },
+    {
+      "id": "sg-geology-paleoclimatology",
+      "label": "Geology paleoclimatology",
+      "url": "/domains/oceanography/topics/sg-geology-paleoclimatology",
+      "paper_count": 67,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: geology, oceanography, paleontology",
+      "tags": [
+        "calibration curve",
+        "clay minerals",
+        "geology and paleoclimatology research",
+        "glacial period"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-geology-paleoclimatology-glacial-period",
+          "label": "Glacial period",
+          "url": "/domains/oceanography/topics/sg-geology-paleoclimatology-glacial-period",
+          "paper_count": 41
+        },
+        {
+          "id": "sg-geology-paleoclimatology-calibration-curve",
+          "label": "Calibration curve",
+          "url": "/domains/oceanography/topics/sg-geology-paleoclimatology-calibration-curve",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-geology-paleoclimatology-last-glacial-maximum",
+          "label": "Last glacial maximum",
+          "url": "/domains/oceanography/topics/sg-geology-paleoclimatology-last-glacial-maximum",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-geology-paleoclimatology-tropical-atlantic",
+          "label": "Tropical atlantic",
+          "url": "/domains/oceanography/topics/sg-geology-paleoclimatology-tropical-atlantic",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-geology-paleoclimatology-clay-minerals",
+          "label": "Clay minerals",
+          "url": "/domains/oceanography/topics/sg-geology-paleoclimatology-clay-minerals",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-geology-paleoclimatology-globigerina-bulloide",
+          "label": "Globigerina bulloide",
+          "url": "/domains/oceanography/topics/sg-geology-paleoclimatology-globigerina-bulloide",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3015391807",
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7221,
+          "url": "/domains/oceanography/papers/W3015391807"
+        },
+        {
+          "source_id": "https://openalex.org/W2146687568",
+          "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+          "year": "2010",
+          "cited_by_count": 9994,
+          "url": "/domains/oceanography/papers/W2146687568"
+        },
+        {
+          "source_id": "https://openalex.org/W1631559605",
+          "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+          "year": "2005",
+          "cited_by_count": 7438,
+          "url": "/domains/oceanography/papers/W1631559605"
+        }
+      ]
+    },
+    {
+      "id": "sg-sea-level",
+      "label": "Sea level",
+      "url": "/domains/oceanography/topics/sg-sea-level",
+      "paper_count": 53,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: geology, of the, oceanography",
+      "tags": [
+        "antarctic ice sheet",
+        "future sea level",
+        "greenland ice sheet",
+        "sea level"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sea-level-post-glacial-rebound",
+          "label": "Post-glacial rebound",
+          "url": "/domains/oceanography/topics/sg-sea-level-post-glacial-rebound",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-sea-level-sea-level-rise",
+          "label": "Sea level rise",
+          "url": "/domains/oceanography/topics/sg-sea-level-sea-level-rise",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-sea-level-tide-gauge-measurements",
+          "label": "Tide gauge measurements",
+          "url": "/domains/oceanography/topics/sg-sea-level-tide-gauge-measurements",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-sea-level-future-sea-level-projections",
+          "label": "Future sea level projections",
+          "url": "/domains/oceanography/topics/sg-sea-level-future-sea-level-projections",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-sea-level-greenland-ice-sheet-contribution",
+          "label": "Greenland ice sheet contribution",
+          "url": "/domains/oceanography/topics/sg-sea-level-greenland-ice-sheet-contribution",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-sea-level-antarctic-ice-sheet-contribution",
+          "label": "Antarctic ice sheet contribution",
+          "url": "/domains/oceanography/topics/sg-sea-level-antarctic-ice-sheet-contribution",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2028979275",
+          "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+          "year": "2006",
+          "cited_by_count": 7227,
+          "url": "/domains/oceanography/papers/W2028979275"
+        },
+        {
+          "source_id": "https://openalex.org/W2124459709",
+          "title": "Application of the cross wavelet transform and wavelet coherence to geophysical time series",
+          "year": "2004",
+          "cited_by_count": 6111,
+          "url": "/domains/oceanography/papers/W2124459709"
+        },
+        {
+          "source_id": "https://openalex.org/W1596195796",
+          "title": "Atmospheric Modeling, Data Assimilation and Predictability",
+          "year": "2002",
+          "cited_by_count": 3462,
+          "url": "/domains/oceanography/papers/W1596195796"
+        }
+      ]
+    },
+    {
+      "id": "sg-sea-surface",
+      "label": "Sea surface",
+      "url": "/domains/oceanography/topics/sg-sea-surface",
+      "paper_count": 45,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: geology, sea, surface",
+      "tags": [
+        "extended reconstructed sea surface",
+        "predict sea surface",
+        "reconstructed sea surface",
+        "reconstructed sea surface temperature"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sea-surface-el-ni",
+          "label": "El ni",
+          "url": "/domains/oceanography/topics/sg-sea-surface-el-ni",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-sea-surface-el-ni-o-southern-oscillation",
+          "label": "El niño southern oscillation",
+          "url": "/domains/oceanography/topics/sg-sea-surface-el-ni-o-southern-oscillation",
+          "paper_count": 20
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2130707940",
+          "title": "Plastic Pollution in the World's Oceans: More than 5 Trillion Plastic Pieces Weighing over 250,000 Tons Afloat at Sea",
+          "year": "2014",
+          "cited_by_count": 4556,
+          "url": "/domains/oceanography/papers/W2130707940"
+        },
+        {
+          "source_id": "https://openalex.org/W2738516213",
+          "title": "Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons",
+          "year": "2017",
+          "cited_by_count": 3214,
+          "url": "/domains/oceanography/papers/W2738516213"
+        },
+        {
+          "source_id": "https://openalex.org/W2131070146",
+          "title": "Daily High-Resolution-Blended Analyses for Sea Surface Temperature",
+          "year": "2007",
+          "cited_by_count": 4353,
+          "url": "/domains/oceanography/papers/W2131070146"
+        }
+      ]
+    },
+    {
+      "id": "sg-biogeochemical-cycle",
+      "label": "Biogeochemical cycle",
+      "url": "/domains/oceanography/topics/sg-biogeochemical-cycle",
+      "paper_count": 43,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: geology, ocean, oceanography",
+      "tags": [
+        "ammonia monooxygenase",
+        "biogeochemical cycle",
+        "iron in ocean",
+        "marine primary production"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-biogeochemical-cycle-iron-in-ocean",
+          "label": "Iron in ocean",
+          "url": "/domains/oceanography/topics/sg-biogeochemical-cycle-iron-in-ocean",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-biogeochemical-cycle-anoxic-waters",
+          "label": "Anoxic waters",
+          "url": "/domains/oceanography/topics/sg-biogeochemical-cycle-anoxic-waters",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-biogeochemical-cycle-ammonia-monooxygenase",
+          "label": "Ammonia monooxygenase",
+          "url": "/domains/oceanography/topics/sg-biogeochemical-cycle-ammonia-monooxygenase",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-biogeochemical-cycle-earth-science",
+          "label": "Earth science",
+          "url": "/domains/oceanography/topics/sg-biogeochemical-cycle-earth-science",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2097467169",
+          "title": "Global Change and the Ecology of Cities",
+          "year": "2008",
+          "cited_by_count": 6857,
+          "url": "/domains/oceanography/papers/W2097467169"
+        },
+        {
+          "source_id": "https://openalex.org/W1758058526",
+          "title": "Algorithms for the computation of fundamental properties of seawater.",
+          "year": "2021",
+          "cited_by_count": 1538,
+          "url": "/domains/oceanography/papers/W1758058526"
+        },
+        {
+          "source_id": "https://openalex.org/W2097004990",
+          "title": "The Nitrogen Cascade",
+          "year": "2003",
+          "cited_by_count": 2875,
+          "url": "/domains/oceanography/papers/W2097004990"
+        }
+      ]
+    },
+    {
+      "id": "sg-oceanography-marine",
+      "label": "Oceanography marine",
+      "url": "/domains/oceanography/topics/sg-oceanography-marine",
+      "paper_count": 43,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: oceanography, geology, ocean",
+      "tags": [
+        "biological oceanography",
+        "climate change on fish",
+        "data in physical oceanography",
+        "marine and fishery research"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-oceanography-marine-marine-biology",
+          "label": "Marine biology",
+          "url": "/domains/oceanography/topics/sg-oceanography-marine-marine-biology",
+          "paper_count": 34
+        },
+        {
+          "id": "sg-oceanography-marine-benthic-zone",
+          "label": "Benthic zone",
+          "url": "/domains/oceanography/topics/sg-oceanography-marine-benthic-zone",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2230443456",
+          "title": "A hierarchical approach to defining marine heatwaves",
+          "year": "2016",
+          "cited_by_count": 2134,
+          "url": "/domains/oceanography/papers/W2230443456"
+        },
+        {
+          "source_id": "https://openalex.org/W2018291779",
+          "title": "Global imprint of climate change on marine life",
+          "year": "2013",
+          "cited_by_count": 2189,
+          "url": "/domains/oceanography/papers/W2018291779"
+        },
+        {
+          "source_id": "https://openalex.org/W2300403628",
+          "title": "Microplastic as a Vector for Chemicals in the Aquatic Environment: Critical Review and Model-Supported Reinterpretation of Empirical Studies",
+          "year": "2016",
+          "cited_by_count": 1463,
+          "url": "/domains/oceanography/papers/W2300403628"
+        }
+      ]
+    },
+    {
+      "id": "sg-physical-oceanography",
+      "label": "Physical oceanography",
+      "url": "/domains/oceanography/topics/sg-physical-oceanography",
+      "paper_count": 30,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: ocean, oceanography, geology",
+      "tags": [
+        "biological oceanography",
+        "data in physical",
+        "data in physical oceanography",
+        "descriptive physical oceanography"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-physical-oceanography-geophysical-fluid-dynamics",
+          "label": "Geophysical fluid dynamics",
+          "url": "/domains/oceanography/topics/sg-physical-oceanography-geophysical-fluid-dynamics",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-physical-oceanography-geostrophic-wind",
+          "label": "Geostrophic wind",
+          "url": "/domains/oceanography/topics/sg-physical-oceanography-geostrophic-wind",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2000756370",
+          "title": "Climatological Atlas of the World Ocean",
+          "year": "1983",
+          "cited_by_count": 3062,
+          "url": "/domains/oceanography/papers/W2000756370"
+        },
+        {
+          "source_id": "https://openalex.org/W2016150148",
+          "title": "Data Analysis Methods in Physical Oceanography",
+          "year": "2014",
+          "cited_by_count": 1613,
+          "url": "/domains/oceanography/papers/W2016150148"
+        },
+        {
+          "source_id": "https://openalex.org/W3002696674",
+          "title": "The physical oceanography of the transport of floating marine debris",
+          "year": "2020",
+          "cited_by_count": 919,
+          "url": "/domains/oceanography/papers/W3002696674"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Climate change",
+      "paper_count": 19,
+      "papers": [
+        {
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28895,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w3025949386.html"
+        },
+        {
+          "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+          "year": "2011",
+          "cited_by_count": 26257,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2121745948.html"
+        },
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        },
+        {
+          "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+          "year": "2019",
+          "cited_by_count": 10150,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2909678677.html"
+        },
+        {
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14687,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2024966118.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Very high resolution interpolated climate surfaces for global land areas",
+          "year": "2005",
+          "cited_by_count": 20020,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2112776483.html"
+        },
+        {
+          "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+          "year": "2019",
+          "cited_by_count": 8525,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2909240409.html"
+        },
+        {
+          "title": "An Introduction to Boundary Layer Meteorology",
+          "year": "1988",
+          "cited_by_count": 10472,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1667277804.html"
+        },
+        {
+          "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+          "year": "1998",
+          "cited_by_count": 8464,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2089433206.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate science",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+          "year": "1996",
+          "cited_by_count": 29047,
+          "topic": "Climate science",
+          "url": "papers/https-openalex-org-w2173251738.html"
+        },
+        {
+          "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+          "year": "2017",
+          "cited_by_count": 9176,
+          "topic": "Climate science",
+          "url": "papers/https-openalex-org-w2611772571.html"
+        },
+        {
+          "title": "The ERA‐40 re‐analysis",
+          "year": "2005",
+          "cited_by_count": 7121,
+          "topic": "Climate science",
+          "url": "papers/https-openalex-org-w2090249381.html"
+        }
+      ]
+    },
+    {
+      "label": "Geology paleoclimatology",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7221,
+          "topic": "Geology paleoclimatology",
+          "url": "papers/https-openalex-org-w3015391807.html"
+        },
+        {
+          "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+          "year": "2010",
+          "cited_by_count": 9994,
+          "topic": "Geology paleoclimatology",
+          "url": "papers/https-openalex-org-w2146687568.html"
+        },
+        {
+          "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ&lt;sup&gt;18&lt;/sup&gt;O records",
+          "year": "2005",
+          "cited_by_count": 7438,
+          "topic": "Geology paleoclimatology",
+          "url": "papers/https-openalex-org-w1631559605.html"
+        }
+      ]
+    },
+    {
+      "label": "Marine ecosystem",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Microplastics in the marine environment",
+          "year": "2011",
+          "cited_by_count": 7597,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2164526292.html"
+        },
+        {
+          "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6479,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2130231032.html"
+        },
+        {
+          "title": "A Global Map of Human Impact on Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6365,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2124565737.html"
+        }
+      ]
+    },
+    {
+      "label": "El ni",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+          "year": "2020",
+          "cited_by_count": 4609,
+          "topic": "El ni",
+          "url": "papers/https-openalex-org-w3014125413.html"
+        },
+        {
+          "title": "Updated high‐resolution grids of monthly climatic observations – the &lt;scp&gt;CRU TS3&lt;/scp&gt; .10 Dataset",
+          "year": "2013",
+          "cited_by_count": 6265,
+          "topic": "El ni",
+          "url": "papers/https-openalex-org-w1867005924.html"
+        }
+      ]
+    },
+    {
+      "label": "Adaptive management",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "The worldwide leaf economics spectrum",
+          "year": "2004",
+          "cited_by_count": 8584,
+          "topic": "Adaptive management",
+          "url": "papers/https-openalex-org-w2118295263.html"
+        }
+      ]
+    },
+    {
+      "label": "Biogeochemical cycle",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Global Change and the Ecology of Cities",
+          "year": "2008",
+          "cited_by_count": 6857,
+          "topic": "Biogeochemical cycle",
+          "url": "papers/https-openalex-org-w2097467169.html"
+        }
+      ]
+    },
+    {
+      "label": "Effects of global warming",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Anomalous collapses of Nares Strait ice arches leads to enhanced export of Arctic sea ice",
+          "year": "2021",
+          "cited_by_count": 5179,
+          "topic": "Effects of global warming",
+          "url": "papers/https-openalex-org-w3119774682.html"
+        }
+      ]
+    },
+    {
+      "label": "Marine ecosystems",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+          "year": "2009",
+          "cited_by_count": 6923,
+          "topic": "Marine ecosystems",
+          "url": "papers/https-openalex-org-w2105414963.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28895,
+      "adjusted_cited_by_count": 11796.33,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2121745948",
+      "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+      "year": 2011,
+      "cited_by_count": 26257,
+      "adjusted_cited_by_count": 6779.53,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2121745948"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2173251738",
+      "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+      "year": 1996,
+      "cited_by_count": 29047,
+      "adjusted_cited_by_count": 5303.23,
+      "primary_topic_id": "sg-climate-change-climate-science",
+      "primary_topic_label": "Climate science",
+      "url": "/domains/oceanography/papers/W2173251738"
+    },
+    {
+      "source_id": "https://openalex.org/W2112776483",
+      "title": "Very high resolution interpolated climate surfaces for global land areas",
+      "year": 2005,
+      "cited_by_count": 20020,
+      "adjusted_cited_by_count": 4368.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/oceanography/papers/W2112776483"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10150,
+      "adjusted_cited_by_count": 3836.34,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9264,
+      "adjusted_cited_by_count": 3782.01,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11606,
+      "adjusted_cited_by_count": 3670.14,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12092,
+      "adjusted_cited_by_count": 3490.66,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2909240409",
+      "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+      "year": 2019,
+      "cited_by_count": 8525,
+      "adjusted_cited_by_count": 3222.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/oceanography/papers/W2909240409"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W2611772571",
+      "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+      "year": 2017,
+      "cited_by_count": 9176,
+      "adjusted_cited_by_count": 3058.67,
+      "primary_topic_id": "sg-climate-change-climate-science",
+      "primary_topic_label": "Climate science",
+      "url": "/domains/oceanography/papers/W2611772571"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7221,
+      "adjusted_cited_by_count": 2947.96,
+      "primary_topic_id": "sg-geology-paleoclimatology",
+      "primary_topic_label": "Geology paleoclimatology",
+      "url": "/domains/oceanography/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2148333466",
+      "title": "Food Security: The Challenge of Feeding 9 Billion People",
+      "year": 2010,
+      "cited_by_count": 11621,
+      "adjusted_cited_by_count": 2905.25,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2148333466"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12521,
+      "adjusted_cited_by_count": 2872.51,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9994,
+      "adjusted_cited_by_count": 2498.5,
+      "primary_topic_id": "sg-geology-paleoclimatology",
+      "primary_topic_label": "Geology paleoclimatology",
+      "url": "/domains/oceanography/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W3119774682",
+      "title": "Anomalous collapses of Nares Strait ice arches leads to enhanced export of Arctic sea ice",
+      "year": 2021,
+      "cited_by_count": 5179,
+      "adjusted_cited_by_count": 2316.12,
+      "primary_topic_id": "sg-climate-change-effects-of-global-warming",
+      "primary_topic_label": "Effects of global warming",
+      "url": "/domains/oceanography/papers/W3119774682"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8753,
+      "adjusted_cited_by_count": 2122.91,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7901,
+      "adjusted_cited_by_count": 2040.03,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2164526292",
+      "title": "Microplastics in the marine environment",
+      "year": 2011,
+      "cited_by_count": 7597,
+      "adjusted_cited_by_count": 1961.54,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/oceanography/papers/W2164526292"
+    },
+    {
+      "source_id": "https://openalex.org/W2135858501",
+      "title": "Ecological and Evolutionary Responses to Recent Climate Change",
+      "year": 2006,
+      "cited_by_count": 8476,
+      "adjusted_cited_by_count": 1895.29,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2135858501"
+    },
+    {
+      "source_id": "https://openalex.org/W3014125413",
+      "title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+      "year": 2020,
+      "cited_by_count": 4609,
+      "adjusted_cited_by_count": 1881.62,
+      "primary_topic_id": "sg-sea-surface-el-ni",
+      "primary_topic_label": "El ni",
+      "url": "/domains/oceanography/papers/W3014125413"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8584,
+      "adjusted_cited_by_count": 1830.11,
+      "primary_topic_id": "sg-climate-change-adaptive-management",
+      "primary_topic_label": "Adaptive management",
+      "url": "/domains/oceanography/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "primary_topic_id": "sg-sea-surface-el-ni",
+      "primary_topic_label": "El ni",
+      "url": "/domains/oceanography/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7844,
+      "adjusted_cited_by_count": 1711.7,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2020729558",
+      "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+      "year": 1998,
+      "cited_by_count": 8997,
+      "adjusted_cited_by_count": 1700.27,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2020729558"
+    },
+    {
+      "source_id": "https://openalex.org/W1667277804",
+      "title": "An Introduction to Boundary Layer Meteorology",
+      "year": 1988,
+      "cited_by_count": 10472,
+      "adjusted_cited_by_count": 1698.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/oceanography/papers/W1667277804"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "primary_topic_id": "sg-marine-ecosystem-marine-ecosystems",
+      "primary_topic_label": "Marine ecosystems",
+      "url": "/domains/oceanography/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1631559605",
+      "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+      "year": 2005,
+      "cited_by_count": 7438,
+      "adjusted_cited_by_count": 1623.1,
+      "primary_topic_id": "sg-geology-paleoclimatology",
+      "primary_topic_label": "Geology paleoclimatology",
+      "url": "/domains/oceanography/papers/W1631559605"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6857,
+      "adjusted_cited_by_count": 1616.21,
+      "primary_topic_id": "sg-biogeochemical-cycle",
+      "primary_topic_label": "Biogeochemical cycle",
+      "url": "/domains/oceanography/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979275",
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "year": 2006,
+      "cited_by_count": 7227,
+      "adjusted_cited_by_count": 1616.01,
+      "primary_topic_id": "sg-sea-level",
+      "primary_topic_label": "Sea level",
+      "url": "/domains/oceanography/papers/W2028979275"
+    },
+    {
+      "source_id": "https://openalex.org/W2089433206",
+      "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+      "year": 1998,
+      "cited_by_count": 8464,
+      "adjusted_cited_by_count": 1599.55,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/oceanography/papers/W2089433206"
+    },
+    {
+      "source_id": "https://openalex.org/W2090249381",
+      "title": "The ERA‐40 re‐analysis",
+      "year": 2005,
+      "cited_by_count": 7121,
+      "adjusted_cited_by_count": 1553.93,
+      "primary_topic_id": "sg-climate-change-climate-science",
+      "primary_topic_label": "Climate science",
+      "url": "/domains/oceanography/papers/W2090249381"
+    },
+    {
+      "source_id": "https://openalex.org/W2130231032",
+      "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6479,
+      "adjusted_cited_by_count": 1527.11,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/oceanography/papers/W2130231032"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6777,
+      "adjusted_cited_by_count": 1515.38,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2124565737",
+      "title": "A Global Map of Human Impact on Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6365,
+      "adjusted_cited_by_count": 1500.24,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/oceanography/papers/W2124565737"
+    },
+    {
+      "source_id": "https://openalex.org/W2103948957",
+      "title": "Catastrophic shifts in ecosystems",
+      "year": 2001,
+      "cited_by_count": 7187,
+      "adjusted_cited_by_count": 1437.4,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/oceanography/papers/W2103948957"
+    },
+    {
+      "source_id": "https://openalex.org/W2130707940",
+      "title": "Plastic Pollution in the World's Oceans: More than 5 Trillion Plastic Pieces Weighing over 250,000 Tons Afloat at Sea",
+      "year": 2014,
+      "cited_by_count": 4556,
+      "adjusted_cited_by_count": 1315.2,
+      "primary_topic_id": "sg-sea-surface",
+      "primary_topic_label": "Sea surface",
+      "url": "/domains/oceanography/papers/W2130707940"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28895,
+      "adjusted_cited_by_count": 11796.33,
+      "url": "/domains/oceanography/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2121745948",
+      "title": "The ERA‐Interim reanalysis: configuration and performance of the data assimilation system",
+      "year": 2011,
+      "cited_by_count": 26257,
+      "adjusted_cited_by_count": 6779.53,
+      "url": "/domains/oceanography/papers/W2121745948"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/oceanography/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2173251738",
+      "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+      "year": 1996,
+      "cited_by_count": 29047,
+      "adjusted_cited_by_count": 5303.23,
+      "url": "/domains/oceanography/papers/W2173251738"
+    },
+    {
+      "source_id": "https://openalex.org/W2112776483",
+      "title": "Very high resolution interpolated climate surfaces for global land areas",
+      "year": 2005,
+      "cited_by_count": 20020,
+      "adjusted_cited_by_count": 4368.72,
+      "url": "/domains/oceanography/papers/W2112776483"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "url": "/domains/oceanography/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10150,
+      "adjusted_cited_by_count": 3836.34,
+      "url": "/domains/oceanography/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14687,
+      "adjusted_cited_by_count": 3792.17,
+      "url": "/domains/oceanography/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9264,
+      "adjusted_cited_by_count": 3782.01,
+      "url": "/domains/oceanography/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2193503481",
+      "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+      "year": 2016,
+      "cited_by_count": 11606,
+      "adjusted_cited_by_count": 3670.14,
+      "url": "/domains/oceanography/papers/W2193503481"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12092,
+      "adjusted_cited_by_count": 3490.66,
+      "url": "/domains/oceanography/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2909240409",
+      "title": "Occurrence of the potent mutagens 2- nitrobenzanthrone and 3-nitrobenzanthrone in fine airborne particles",
+      "year": 2019,
+      "cited_by_count": 8525,
+      "adjusted_cited_by_count": 3222.15,
+      "url": "/domains/oceanography/papers/W2909240409"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "url": "/domains/oceanography/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W2611772571",
+      "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+      "year": 2017,
+      "cited_by_count": 9176,
+      "adjusted_cited_by_count": 3058.67,
+      "url": "/domains/oceanography/papers/W2611772571"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7221,
+      "adjusted_cited_by_count": 2947.96,
+      "url": "/domains/oceanography/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2148333466",
+      "title": "Food Security: The Challenge of Feeding 9 Billion People",
+      "year": 2010,
+      "cited_by_count": 11621,
+      "adjusted_cited_by_count": 2905.25,
+      "url": "/domains/oceanography/papers/W2148333466"
+    },
+    {
+      "source_id": "https://openalex.org/W2101108516",
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "year": 2007,
+      "cited_by_count": 12521,
+      "adjusted_cited_by_count": 2872.51,
+      "url": "/domains/oceanography/papers/W2101108516"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9994,
+      "adjusted_cited_by_count": 2498.5,
+      "url": "/domains/oceanography/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W3119774682",
+      "title": "Anomalous collapses of Nares Strait ice arches leads to enhanced export of Arctic sea ice",
+      "year": 2021,
+      "cited_by_count": 5179,
+      "adjusted_cited_by_count": 2316.12,
+      "url": "/domains/oceanography/papers/W3119774682"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8753,
+      "adjusted_cited_by_count": 2122.91,
+      "url": "/domains/oceanography/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7901,
+      "adjusted_cited_by_count": 2040.03,
+      "url": "/domains/oceanography/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2164526292",
+      "title": "Microplastics in the marine environment",
+      "year": 2011,
+      "cited_by_count": 7597,
+      "adjusted_cited_by_count": 1961.54,
+      "url": "/domains/oceanography/papers/W2164526292"
+    },
+    {
+      "source_id": "https://openalex.org/W2135858501",
+      "title": "Ecological and Evolutionary Responses to Recent Climate Change",
+      "year": 2006,
+      "cited_by_count": 8476,
+      "adjusted_cited_by_count": 1895.29,
+      "url": "/domains/oceanography/papers/W2135858501"
+    },
+    {
+      "source_id": "https://openalex.org/W3014125413",
+      "title": "Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset",
+      "year": 2020,
+      "cited_by_count": 4609,
+      "adjusted_cited_by_count": 1881.62,
+      "url": "/domains/oceanography/papers/W3014125413"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8584,
+      "adjusted_cited_by_count": 1830.11,
+      "url": "/domains/oceanography/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "url": "/domains/oceanography/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7844,
+      "adjusted_cited_by_count": 1711.7,
+      "url": "/domains/oceanography/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2020729558",
+      "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+      "year": 1998,
+      "cited_by_count": 8997,
+      "adjusted_cited_by_count": 1700.27,
+      "url": "/domains/oceanography/papers/W2020729558"
+    },
+    {
+      "source_id": "https://openalex.org/W1667277804",
+      "title": "An Introduction to Boundary Layer Meteorology",
+      "year": 1988,
+      "cited_by_count": 10472,
+      "adjusted_cited_by_count": 1698.78,
+      "url": "/domains/oceanography/papers/W1667277804"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "url": "/domains/oceanography/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1631559605",
+      "title": "A Pliocene‐Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records",
+      "year": 2005,
+      "cited_by_count": 7438,
+      "adjusted_cited_by_count": 1623.1,
+      "url": "/domains/oceanography/papers/W1631559605"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6857,
+      "adjusted_cited_by_count": 1616.21,
+      "url": "/domains/oceanography/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979275",
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "year": 2006,
+      "cited_by_count": 7227,
+      "adjusted_cited_by_count": 1616.01,
+      "url": "/domains/oceanography/papers/W2028979275"
+    },
+    {
+      "source_id": "https://openalex.org/W2089433206",
+      "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+      "year": 1998,
+      "cited_by_count": 8464,
+      "adjusted_cited_by_count": 1599.55,
+      "url": "/domains/oceanography/papers/W2089433206"
+    },
+    {
+      "source_id": "https://openalex.org/W2090249381",
+      "title": "The ERA‐40 re‐analysis",
+      "year": 2005,
+      "cited_by_count": 7121,
+      "adjusted_cited_by_count": 1553.93,
+      "url": "/domains/oceanography/papers/W2090249381"
+    },
+    {
+      "source_id": "https://openalex.org/W2130231032",
+      "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6479,
+      "adjusted_cited_by_count": 1527.11,
+      "url": "/domains/oceanography/papers/W2130231032"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6777,
+      "adjusted_cited_by_count": 1515.38,
+      "url": "/domains/oceanography/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2124565737",
+      "title": "A Global Map of Human Impact on Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6365,
+      "adjusted_cited_by_count": 1500.24,
+      "url": "/domains/oceanography/papers/W2124565737"
+    },
+    {
+      "source_id": "https://openalex.org/W2103948957",
+      "title": "Catastrophic shifts in ecosystems",
+      "year": 2001,
+      "cited_by_count": 7187,
+      "adjusted_cited_by_count": 1437.4,
+      "url": "/domains/oceanography/papers/W2103948957"
+    },
+    {
+      "source_id": "https://openalex.org/W2130707940",
+      "title": "Plastic Pollution in the World's Oceans: More than 5 Trillion Plastic Pieces Weighing over 250,000 Tons Afloat at Sea",
+      "year": 2014,
+      "cited_by_count": 4556,
+      "adjusted_cited_by_count": 1315.2,
+      "url": "/domains/oceanography/papers/W2130707940"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 589
+    },
+    {
+      "label": "oceanography",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 451
+    },
+    {
+      "label": "ocean",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 420
+    },
+    {
+      "label": "sea",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 399
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 372
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 364
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 328
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 304
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 284
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 281
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 273
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 267
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 246
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 221
+    },
+    {
+      "label": "marine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 207
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 199
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 197
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 192
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 192
+    },
+    {
+      "label": "atmospheric",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 178
+    },
+    {
+      "label": "environment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 164
+    },
+    {
+      "label": "temperature",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 162
+    },
+    {
+      "label": "land",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 156
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 147
+    },
+    {
+      "label": "observations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "ice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 140
+    },
+    {
+      "label": "level",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 132
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "north",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 11
+    },
+    {
+      "label": "less than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 7
+    },
+    {
+      "label": "ocean co",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 6
+    },
+    {
+      "label": "terrestrial co",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 6
+    },
+    {
+      "label": "but discrepancy up",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
+    },
+    {
+      "label": "distribution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 119
+    },
+    {
+      "label": "impact",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 116
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 115
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 110
+    },
+    {
+      "label": "physical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 105
+    },
+    {
+      "label": "variability",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 104
+    },
+    {
+      "label": "last",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 103
+    },
+    {
+      "label": "mass",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 101
+    },
+    {
+      "label": "atmosphere",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 98
+    },
+    {
+      "label": "earth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 109
+    },
+    {
+      "label": "community",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 96
+    },
+    {
+      "label": "east",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 96
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 587
+    },
+    {
+      "label": "size",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9877,
+      "evidence_count": 92
+    },
+    {
+      "label": "cycle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 110
+    },
+    {
+      "label": "general",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 89
+    }
+  ],
+  "topic_year_counts": {
+    "climate change": {
+      "2025": 465937,
+      "2024": 414905,
+      "2023": 407229,
+      "2022": 292711,
+      "2021": 264526,
+      "2020": 237672,
+      "2019": 195334,
+      "2018": 172688,
+      "2017": 152285,
+      "2016": 141252,
+      "2015": 127701,
+      "2014": 115916,
+      "2026": 113068,
+      "2013": 106665,
+      "2012": 94309,
+      "2011": 81689,
+      "2010": 71701,
+      "2009": 61277,
+      "2008": 47985,
+      "2007": 39301,
+      "2006": 32027,
+      "2005": 27370,
+      "2004": 23639,
+      "2003": 20458,
+      "2002": 17553,
+      "2000": 15892,
+      "2001": 15633
+    },
+    "marine ecosystem": {
+      "2025": 66893,
+      "2023": 59867,
+      "2024": 59360,
+      "2022": 41957,
+      "2021": 38749,
+      "2020": 34067,
+      "2019": 28795,
+      "2018": 26317,
+      "2017": 23601,
+      "2016": 21424,
+      "2015": 19148,
+      "2014": 17840,
+      "2013": 16214,
+      "2026": 15683,
+      "2012": 14421,
+      "2011": 11834,
+      "2010": 10319,
+      "2009": 9308,
+      "2008": 7653,
+      "2007": 6541,
+      "2006": 5759,
+      "2005": 4887,
+      "2004": 4064,
+      "2003": 3709,
+      "2002": 3145,
+      "2001": 2703,
+      "2000": 2623
+    },
+    "geology paleoclimatology": {
+      "2023": 957,
+      "2025": 852,
+      "2024": 833,
+      "2021": 726,
+      "2022": 709,
+      "2020": 661,
+      "2019": 521,
+      "2018": 407,
+      "2016": 347,
+      "2017": 339,
+      "2015": 329,
+      "2013": 278,
+      "2014": 263,
+      "2012": 244,
+      "2010": 215,
+      "2011": 208,
+      "2026": 178,
+      "2008": 173,
+      "2007": 170,
+      "2009": 168,
+      "2006": 149,
+      "2005": 99,
+      "2003": 93,
+      "2002": 88,
+      "2004": 81,
+      "2001": 80,
+      "2000": 60
+    },
+    "sea level": {
+      "2023": 193748,
+      "2024": 178233,
+      "2025": 172925,
+      "2022": 140975,
+      "2021": 133455,
+      "2020": 123214,
+      "2019": 105653,
+      "2018": 96923,
+      "2017": 88065,
+      "2016": 80547,
+      "2015": 73110,
+      "2014": 68652,
+      "2013": 62830,
+      "2012": 56247,
+      "2011": 48749,
+      "2010": 43078,
+      "2026": 39865,
+      "2009": 37919,
+      "2008": 32495,
+      "2007": 28772,
+      "2006": 25749,
+      "2005": 22308,
+      "2004": 20039,
+      "2003": 18096,
+      "2002": 16165,
+      "2001": 14580,
+      "2000": 14363
+    },
+    "sea surface": {
+      "2023": 119781,
+      "2024": 107949,
+      "2025": 104465,
+      "2022": 88290,
+      "2021": 84667,
+      "2020": 76851,
+      "2019": 67657,
+      "2018": 62241,
+      "2017": 56222,
+      "2016": 52935,
+      "2015": 47909,
+      "2014": 45542,
+      "2013": 42673,
+      "2012": 37722,
+      "2011": 33211,
+      "2010": 29379,
+      "2026": 26187,
+      "2009": 26037,
+      "2008": 22627,
+      "2007": 20039,
+      "2006": 18273,
+      "2005": 15837,
+      "2004": 14576,
+      "2003": 13463,
+      "2002": 12526,
+      "2001": 10887,
+      "2000": 10869
+    },
+    "oceanography marine": {
+      "2023": 18174,
+      "2025": 16835,
+      "2024": 15788,
+      "2022": 12947,
+      "2021": 12846,
+      "2020": 12025,
+      "2019": 10905,
+      "2018": 10181,
+      "2017": 9312,
+      "2016": 8483,
+      "2015": 7713,
+      "2014": 7357,
+      "2013": 7035,
+      "2012": 6286,
+      "2011": 5401,
+      "2010": 4884,
+      "2009": 4276,
+      "2026": 3996,
+      "2008": 3811,
+      "2007": 3477,
+      "2006": 2960,
+      "2005": 2517,
+      "2004": 2269,
+      "2003": 2098,
+      "2002": 1970,
+      "2000": 1712,
+      "2001": 1619
+    },
+    "biogeochemical cycle": {
+      "2025": 18948,
+      "2023": 17362,
+      "2024": 16583,
+      "2022": 13290,
+      "2021": 12698,
+      "2020": 11489,
+      "2019": 9825,
+      "2018": 9166,
+      "2017": 8392,
+      "2016": 7848,
+      "2015": 6746,
+      "2014": 6245,
+      "2013": 5888,
+      "2026": 5208,
+      "2012": 4860,
+      "2011": 4005,
+      "2010": 3459,
+      "2009": 3032,
+      "2008": 2512,
+      "2007": 2155,
+      "2006": 1903,
+      "2005": 1551,
+      "2004": 1383,
+      "2003": 1279,
+      "2002": 1016,
+      "2001": 993,
+      "2000": 818
+    },
+    "physical oceanography": {
+      "2023": 13878,
+      "2025": 12532,
+      "2024": 12036,
+      "2022": 9917,
+      "2021": 9883,
+      "2020": 9273,
+      "2019": 8420,
+      "2018": 8262,
+      "2017": 7391,
+      "2016": 6907,
+      "2014": 6130,
+      "2015": 6126,
+      "2013": 5569,
+      "2012": 4993,
+      "2011": 4747,
+      "2010": 3959,
+      "2009": 3415,
+      "2026": 3073,
+      "2008": 2984,
+      "2007": 2753,
+      "2006": 2391,
+      "2005": 1955,
+      "2004": 1752,
+      "2003": 1726,
+      "2002": 1547,
+      "2000": 1446,
+      "2001": 1371
+    }
+  }
+}

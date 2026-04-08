@@ -1,0 +1,2422 @@
+{
+  "slug": "renewable-energy",
+  "title": "Renewable Energy",
+  "updated_at": "2026-04-07T12:23:20.368708Z",
+  "snapshot": {
+    "papers": 606,
+    "topics": 10,
+    "subtopics": 53,
+    "entities": 1039,
+    "claims": 12
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 620,
+      "total_papers": 620,
+      "facet_counts": {
+        "none": 620
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning renewable energy, hybrid renewable energy systems.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 53,
+    "max_depth": 2,
+    "leaf_topics": 53
+  },
+  "rising_topics": [
+    {
+      "id": "sg-energy-storage",
+      "label": "Energy storage",
+      "url": "/domains/renewable-energy/topics/sg-energy-storage",
+      "trend": "rising",
+      "year_total": 2056211
+    },
+    {
+      "id": "sg-solar-energy",
+      "label": "Solar energy",
+      "url": "/domains/renewable-energy/topics/sg-solar-energy",
+      "trend": "rising",
+      "year_total": 1341560
+    },
+    {
+      "id": "sg-hybrid-renewable-energy",
+      "label": "Hybrid renewable energy",
+      "url": "/domains/renewable-energy/topics/sg-hybrid-renewable-energy",
+      "trend": "rising",
+      "year_total": 338650
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-energy-storage",
+      "label": "Energy storage",
+      "url": "/domains/renewable-energy/topics/sg-energy-storage",
+      "paper_count": 112,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: energy, ion, energy storage",
+      "tags": [
+        "battery energy storage",
+        "electrical energy storage",
+        "electrochemical energy storage",
+        "energy conversion storage device"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-energy-storage-battery-technology",
+          "label": "Battery technology",
+          "url": "/domains/renewable-energy/topics/sg-energy-storage-battery-technology",
+          "paper_count": 52
+        },
+        {
+          "id": "sg-energy-storage-supercapacitor-fabrication",
+          "label": "Supercapacitor fabrication",
+          "url": "/domains/renewable-energy/topics/sg-energy-storage-supercapacitor-fabrication",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-energy-storage-ammonia-synthesis-nitrogen-reduction",
+          "label": "Ammonia synthesis nitrogen reduction",
+          "url": "/domains/renewable-energy/topics/sg-energy-storage-ammonia-synthesis-nitrogen-reduction",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-energy-storage-pumped-storage-hydroelectricity",
+          "label": "Pumped-storage hydroelectricity",
+          "url": "/domains/renewable-energy/topics/sg-energy-storage-pumped-storage-hydroelectricity",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-energy-storage-phase-change-material-research",
+          "label": "Phase-change material research",
+          "url": "/domains/renewable-energy/topics/sg-energy-storage-phase-change-material-research",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-energy-storage-organic-radical-battery",
+          "label": "Organic radical battery",
+          "url": "/domains/renewable-energy/topics/sg-energy-storage-organic-radical-battery",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1949231392",
+          "title": "Issues and challenges facing rechargeable lithium batteries",
+          "year": "2001",
+          "cited_by_count": 20440,
+          "url": "/domains/renewable-energy/papers/W1949231392"
+        },
+        {
+          "source_id": "https://openalex.org/W2089525884",
+          "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+          "year": "2011",
+          "cited_by_count": 14488,
+          "url": "/domains/renewable-energy/papers/W2089525884"
+        },
+        {
+          "source_id": "https://openalex.org/W2021172010",
+          "title": "The Li-Ion Rechargeable Battery: A Perspective",
+          "year": "2013",
+          "cited_by_count": 9490,
+          "url": "/domains/renewable-energy/papers/W2021172010"
+        }
+      ]
+    },
+    {
+      "id": "sg-solar-energy",
+      "label": "Solar energy",
+      "url": "/domains/renewable-energy/topics/sg-solar-energy",
+      "paper_count": 107,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: ion, renewable energy, energy",
+      "tags": [
+        "global solar energy",
+        "renewable energy integration",
+        "renewable energy source",
+        "renewable sustainable energy"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-solar-energy-solar-radiation-and-photovoltaics",
+          "label": "Solar radiation and photovoltaics",
+          "url": "/domains/renewable-energy/topics/sg-solar-energy-solar-radiation-and-photovoltaics",
+          "paper_count": 43
+        },
+        {
+          "id": "sg-solar-energy-solar-powered-water-purification",
+          "label": "Solar-powered water purification",
+          "url": "/domains/renewable-energy/topics/sg-solar-energy-solar-powered-water-purification",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-solar-energy-natural-resource-economics",
+          "label": "Natural resource economics",
+          "url": "/domains/renewable-energy/topics/sg-solar-energy-natural-resource-economics",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-solar-energy-tio2-photocatalysis-solar-cells",
+          "label": "Tio2 photocatalysis solar cells",
+          "url": "/domains/renewable-energy/topics/sg-solar-energy-tio2-photocatalysis-solar-cells",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-solar-energy-energy-consumption",
+          "label": "Energy consumption",
+          "url": "/domains/renewable-energy/topics/sg-solar-energy-energy-consumption",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-solar-energy-photovoltaic-thermal-hybrid-solar-collectors",
+          "label": "Photovoltaic-thermal hybrid solar collectors",
+          "url": "/domains/renewable-energy/topics/sg-solar-energy-photovoltaic-thermal-hybrid-solar-collectors",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1980216394",
+          "title": "A low-cost, high-efficiency solar cell based on dye-sensitized colloidal TiO2 films",
+          "year": "1991",
+          "cited_by_count": 28299,
+          "url": "/domains/renewable-energy/papers/W1980216394"
+        },
+        {
+          "source_id": "https://openalex.org/W1986829915",
+          "title": "Powering the planet: Chemical challenges in solar energy utilization",
+          "year": "2006",
+          "cited_by_count": 8169,
+          "url": "/domains/renewable-energy/papers/W1986829915"
+        },
+        {
+          "source_id": "https://openalex.org/W4200503332",
+          "title": "National Renewable Energy Laboratory",
+          "year": "2021",
+          "cited_by_count": 2564,
+          "url": "/domains/renewable-energy/papers/W4200503332"
+        }
+      ]
+    },
+    {
+      "id": "sg-hybrid-renewable-energy",
+      "label": "Hybrid renewable energy",
+      "url": "/domains/renewable-energy/topics/sg-hybrid-renewable-energy",
+      "paper_count": 84,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: renewable energy, ion, waste management",
+      "tags": [
+        "clean energy",
+        "energy carrier",
+        "hybrid renewable energy systems",
+        "hydrogen energy"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-hybrid-renewable-energy-hydrogen-production",
+          "label": "Hydrogen production",
+          "url": "/domains/renewable-energy/topics/sg-hybrid-renewable-energy-hydrogen-production",
+          "paper_count": 71
+        },
+        {
+          "id": "sg-hybrid-renewable-energy-waste-management",
+          "label": "Waste management",
+          "url": "/domains/renewable-energy/topics/sg-hybrid-renewable-energy-waste-management",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-hybrid-renewable-energy-fossil-fuel",
+          "label": "Fossil fuel",
+          "url": "/domains/renewable-energy/topics/sg-hybrid-renewable-energy-fossil-fuel",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2573377826",
+          "title": "Combining theory and experiment in electrocatalysis: Insights into materials design",
+          "year": "2017",
+          "cited_by_count": 11472,
+          "url": "/domains/renewable-energy/papers/W2573377826"
+        },
+        {
+          "source_id": "https://openalex.org/W2032100925",
+          "title": "Opportunities and challenges for a sustainable energy future",
+          "year": "2012",
+          "cited_by_count": 11902,
+          "url": "/domains/renewable-energy/papers/W2032100925"
+        },
+        {
+          "source_id": "https://openalex.org/W2120446525",
+          "title": "Synthesis of Transportation Fuels from Biomass:  Chemistry, Catalysts, and Engineering",
+          "year": "2006",
+          "cited_by_count": 7549,
+          "url": "/domains/renewable-energy/papers/W2120446525"
+        }
+      ]
+    },
+    {
+      "id": "sg-water-splitting",
+      "label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/topics/sg-water-splitting",
+      "paper_count": 80,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: catalysis, ion, catalyst",
+      "tags": [
+        "electrocatalytic water splitting",
+        "overall water splitting",
+        "photocatalytic photoelectrochemical water splitting",
+        "photocatalytic water splitting"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-water-splitting-for-hydrogen-electrocatalysts-for-water-oxidation",
+          "label": "Electrocatalysts for water oxidation",
+          "url": "/domains/renewable-energy/topics/sg-water-splitting-for-hydrogen-electrocatalysts-for-water-oxidation",
+          "paper_count": 48
+        },
+        {
+          "id": "sg-water-splitting-for-hydrogen-photocatalytic-water-splitting",
+          "label": "Photocatalytic water splitting",
+          "url": "/domains/renewable-energy/topics/sg-water-splitting-for-hydrogen-photocatalytic-water-splitting",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-water-splitting-carbon-dioxide",
+          "label": "Carbon dioxide",
+          "url": "/domains/renewable-energy/topics/sg-water-splitting-carbon-dioxide",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-water-splitting-carbon-fibers",
+          "label": "Carbon fibers",
+          "url": "/domains/renewable-energy/topics/sg-water-splitting-carbon-fibers",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-water-splitting-for-hydrogen-water-electrolysis",
+          "label": "Water electrolysis",
+          "url": "/domains/renewable-energy/topics/sg-water-splitting-for-hydrogen-water-electrolysis",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2575823937",
+          "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+          "year": "2017",
+          "cited_by_count": 6014,
+          "url": "/domains/renewable-energy/papers/W2575823937"
+        },
+        {
+          "source_id": "https://openalex.org/W2118976774",
+          "title": "Noble metal-free hydrogen evolution catalysts for water splitting",
+          "year": "2015",
+          "cited_by_count": 5771,
+          "url": "/domains/renewable-energy/papers/W2118976774"
+        },
+        {
+          "source_id": "https://openalex.org/W2146278879",
+          "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+          "year": "2011",
+          "cited_by_count": 5427,
+          "url": "/domains/renewable-energy/papers/W2146278879"
+        }
+      ]
+    },
+    {
+      "id": "sg-fuel-cells",
+      "label": "Fuel cells",
+      "url": "/domains/renewable-energy/topics/sg-fuel-cells",
+      "paper_count": 70,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: ion, cell, fuel",
+      "tags": [
+        "dimethyl ether",
+        "electrochemical energy conversion",
+        "fuel cells",
+        "hydrogen fuel"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-fuel-cells-fuel-cells-and-related-materials",
+          "label": "Fuel cells and related materials",
+          "url": "/domains/renewable-energy/topics/sg-fuel-cells-fuel-cells-and-related-materials",
+          "paper_count": 26
+        },
+        {
+          "id": "sg-fuel-cells-renewable-energy",
+          "label": "Renewable energy",
+          "url": "/domains/renewable-energy/topics/sg-fuel-cells-renewable-energy",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-fuel-cells-electrochemical-energy",
+          "label": "Electrochemical energy",
+          "url": "/domains/renewable-energy/topics/sg-fuel-cells-electrochemical-energy",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-fuel-cells-proton-exchange-membrane-fuel-cell",
+          "label": "Proton exchange membrane fuel cell",
+          "url": "/domains/renewable-energy/topics/sg-fuel-cells-proton-exchange-membrane-fuel-cell",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-fuel-cells-microbial-fuel-cells-and-bioremediation",
+          "label": "Microbial fuel cells and bioremediation",
+          "url": "/domains/renewable-energy/topics/sg-fuel-cells-microbial-fuel-cells-and-bioremediation",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2167035995",
+          "title": "Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode",
+          "year": "2004",
+          "cited_by_count": 12342,
+          "url": "/domains/renewable-energy/papers/W2167035995"
+        },
+        {
+          "source_id": "https://openalex.org/W1992469412",
+          "title": "Characteristics of hemicellulose, cellulose and lignin pyrolysis",
+          "year": "2007",
+          "cited_by_count": 7651,
+          "url": "/domains/renewable-energy/papers/W1992469412"
+        },
+        {
+          "source_id": "https://openalex.org/W2118976774",
+          "title": "Noble metal-free hydrogen evolution catalysts for water splitting",
+          "year": "2015",
+          "cited_by_count": 5771,
+          "url": "/domains/renewable-energy/papers/W2118976774"
+        }
+      ]
+    },
+    {
+      "id": "sg-renewable-energy-integration",
+      "label": "Renewable energy integration",
+      "url": "/domains/renewable-energy/topics/sg-renewable-energy-integration",
+      "paper_count": 43,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: ion, photovoltaic system, renewable energy",
+      "tags": [
+        "energy integration",
+        "grid renewable energy",
+        "intermittent energy source",
+        "photovoltaic system"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-renewable-energy-integration-energy-source",
+          "label": "Energy source",
+          "url": "/domains/renewable-energy/topics/sg-renewable-energy-integration-energy-source",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-renewable-energy-integration-automotive-engineering",
+          "label": "Automotive engineering",
+          "url": "/domains/renewable-energy/topics/sg-renewable-energy-integration-automotive-engineering",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-renewable-energy-integration-grid-parity",
+          "label": "Grid parity",
+          "url": "/domains/renewable-energy/topics/sg-renewable-energy-integration-grid-parity",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2071134066",
+          "title": "Polymer Photovoltaic Cells: Enhanced Efficiencies via a Network of Internal Donor-Acceptor Heterojunctions",
+          "year": "1995",
+          "cited_by_count": 10267,
+          "url": "/domains/renewable-energy/papers/W2071134066"
+        },
+        {
+          "source_id": "https://openalex.org/W2020007931",
+          "title": "A comprehensive review on PEM water electrolysis",
+          "year": "2013",
+          "cited_by_count": 5112,
+          "url": "/domains/renewable-energy/papers/W2020007931"
+        },
+        {
+          "source_id": "https://openalex.org/W2527042386",
+          "title": "Incorporation of rubidium cations into perovskite solar cells improves photovoltaic performance",
+          "year": "2016",
+          "cited_by_count": 3630,
+          "url": "/domains/renewable-energy/papers/W2527042386"
+        }
+      ]
+    },
+    {
+      "id": "sg-wind-power",
+      "label": "Wind power",
+      "url": "/domains/renewable-energy/topics/sg-wind-power",
+      "paper_count": 39,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: ion, energy, wind power",
+      "tags": [
+        "intermittent energy source",
+        "levels of variable renewable",
+        "offshore wind power",
+        "renewable energy integration"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-wind-power-offshore-wind-power",
+          "label": "Offshore wind power",
+          "url": "/domains/renewable-energy/topics/sg-wind-power-offshore-wind-power",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-wind-power-wind-turbine-control",
+          "label": "Wind turbine control",
+          "url": "/domains/renewable-energy/topics/sg-wind-power-wind-turbine-control",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-wind-power-marine-engineering",
+          "label": "Marine engineering",
+          "url": "/domains/renewable-energy/topics/sg-wind-power-marine-engineering",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-wind-power-social-acceptance",
+          "label": "Social acceptance",
+          "url": "/domains/renewable-energy/topics/sg-wind-power-social-acceptance",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-wind-power-wind-power-forecasting",
+          "label": "Wind power forecasting",
+          "url": "/domains/renewable-energy/topics/sg-wind-power-wind-power-forecasting",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2911892655",
+          "title": "The role of renewable energy in the global energy transformation",
+          "year": "2019",
+          "cited_by_count": 4640,
+          "url": "/domains/renewable-energy/papers/W2911892655"
+        },
+        {
+          "source_id": "https://openalex.org/W4391247352",
+          "title": "The renewable energy role in the global energy Transformations",
+          "year": "2024",
+          "cited_by_count": 1360,
+          "url": "/domains/renewable-energy/papers/W4391247352"
+        },
+        {
+          "source_id": "https://openalex.org/W1971144082",
+          "title": "The Catalytic Valorization of Lignin for the Production of Renewable Chemicals",
+          "year": "2010",
+          "cited_by_count": 4311,
+          "url": "/domains/renewable-energy/papers/W1971144082"
+        }
+      ]
+    },
+    {
+      "id": "sg-electricity-generation",
+      "label": "Electricity generation technology",
+      "url": "/domains/renewable-energy/topics/sg-electricity-generation",
+      "paper_count": 26,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: ion, power, renewable energy",
+      "tags": [
+        "cost of electricity by source",
+        "electricity generation",
+        "energy production",
+        "energy production biomass"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-electricity-generation-renewable-energy",
+          "label": "Renewable energy",
+          "url": "/domains/renewable-energy/topics/sg-electricity-generation-renewable-energy",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-electricity-generation-technology-technical-economic-feasibility",
+          "label": "Technical economic feasibility",
+          "url": "/domains/renewable-energy/topics/sg-electricity-generation-technology-technical-economic-feasibility",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-electricity-generation-fossil-fuel",
+          "label": "Fossil fuel",
+          "url": "/domains/renewable-energy/topics/sg-electricity-generation-fossil-fuel",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-electricity-generation-technology-cost-of-electricity-by-source",
+          "label": "Cost of electricity by source",
+          "url": "/domains/renewable-energy/topics/sg-electricity-generation-technology-cost-of-electricity-by-source",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1987415646",
+          "title": "Energy production from biomass (part 1): overview of biomass",
+          "year": "2002",
+          "cited_by_count": 4726,
+          "url": "/domains/renewable-energy/papers/W1987415646"
+        },
+        {
+          "source_id": "https://openalex.org/W2128145324",
+          "title": "A Survey of 5G Network: Architecture and Emerging Technologies",
+          "year": "2015",
+          "cited_by_count": 2379,
+          "url": "/domains/renewable-energy/papers/W2128145324"
+        },
+        {
+          "source_id": "https://openalex.org/W2055603026",
+          "title": "4th Generation District Heating (4GDH)",
+          "year": "2014",
+          "cited_by_count": 2081,
+          "url": "/domains/renewable-energy/papers/W2055603026"
+        }
+      ]
+    },
+    {
+      "id": "sg-lithium-ion-battery",
+      "label": "Lithium-ion battery",
+      "url": "/domains/renewable-energy/topics/sg-lithium-ion-battery",
+      "paper_count": 24,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: battery, lithium, ion",
+      "tags": [
+        "cathode lithium-ion battery",
+        "grid energy storage",
+        "high-performance lithium-ion battery",
+        "lithium-ion battery"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-lithium-ion-battery-nanoarchitecture-for-lithium-ion-battery",
+          "label": "Nanoarchitecture for lithium-ion battery",
+          "url": "/domains/renewable-energy/topics/sg-lithium-ion-battery-nanoarchitecture-for-lithium-ion-battery",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-lithium-ion-battery-electric-vehicle",
+          "label": "Electric vehicle",
+          "url": "/domains/renewable-energy/topics/sg-lithium-ion-battery-electric-vehicle",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-lithium-ion-battery-cathode-lithium-ion",
+          "label": "Cathode lithium-ion",
+          "url": "/domains/renewable-energy/topics/sg-lithium-ion-battery-cathode-lithium-ion",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-lithium-ion-battery-lithium-sulfur-battery",
+          "label": "Lithium-sulfur battery",
+          "url": "/domains/renewable-energy/topics/sg-lithium-ion-battery-lithium-sulfur-battery",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-lithium-ion-battery-sodium-ion-battery",
+          "label": "Sodium-ion battery",
+          "url": "/domains/renewable-energy/topics/sg-lithium-ion-battery-sodium-ion-battery",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2808025896",
+          "title": "30 Years of Lithium‐Ion Batteries",
+          "year": "2018",
+          "cited_by_count": 5785,
+          "url": "/domains/renewable-energy/papers/W2808025896"
+        },
+        {
+          "source_id": "https://openalex.org/W2603442821",
+          "title": "Sodium-ion batteries: present and future",
+          "year": "2017",
+          "cited_by_count": 4973,
+          "url": "/domains/renewable-energy/papers/W2603442821"
+        },
+        {
+          "source_id": "https://openalex.org/W2019903682",
+          "title": "Nanomaterials for Rechargeable Lithium Batteries",
+          "year": "2008",
+          "cited_by_count": 5841,
+          "url": "/domains/renewable-energy/papers/W2019903682"
+        }
+      ]
+    },
+    {
+      "id": "sg-sustainable-energy",
+      "label": "Sustainable energy systems",
+      "url": "/domains/renewable-energy/topics/sg-sustainable-energy",
+      "paper_count": 21,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: energy, renewable energy, sustainable",
+      "tags": [
+        "energy carrier",
+        "energy transformation roadmap",
+        "global energy transformation",
+        "renewable energy source"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sustainable-energy-energy-source",
+          "label": "Energy source",
+          "url": "/domains/renewable-energy/topics/sg-sustainable-energy-energy-source",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-sustainable-energy-sustainable-development",
+          "label": "Sustainable development",
+          "url": "/domains/renewable-energy/topics/sg-sustainable-energy-sustainable-development",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2564178799",
+          "title": "The path towards sustainable energy",
+          "year": "2016",
+          "cited_by_count": 4607,
+          "url": "/domains/renewable-energy/papers/W2564178799"
+        },
+        {
+          "source_id": "https://openalex.org/W4210464014",
+          "title": "Renewable energy and climate change",
+          "year": "2022",
+          "cited_by_count": 1514,
+          "url": "/domains/renewable-energy/papers/W4210464014"
+        },
+        {
+          "source_id": "https://openalex.org/W2228940409",
+          "title": "Hydrogen production from renewable and sustainable energy resources: Promising green energy carrier for clean development",
+          "year": "2016",
+          "cited_by_count": 2329,
+          "url": "/domains/renewable-energy/papers/W2228940409"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Energy storage",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "Issues and challenges facing rechargeable lithium batteries",
+          "year": "2001",
+          "cited_by_count": 20440,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w1949231392.html"
+        },
+        {
+          "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+          "year": "2011",
+          "cited_by_count": 14488,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w2089525884.html"
+        },
+        {
+          "title": "The Li-Ion Rechargeable Battery: A Perspective",
+          "year": "2013",
+          "cited_by_count": 9490,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w2021172010.html"
+        },
+        {
+          "title": "Li–O2 and Li–S batteries with high energy storage",
+          "year": "2011",
+          "cited_by_count": 9284,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w2151207643.html"
+        },
+        {
+          "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+          "year": "2017",
+          "cited_by_count": 7081,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w2574394697.html"
+        },
+        {
+          "title": "Towards greener and more sustainable batteries for electrical energy storage",
+          "year": "2014",
+          "cited_by_count": 7533,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w2091875228.html"
+        }
+      ]
+    },
+    {
+      "label": "Water splitting for hydrogen",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+          "year": "2017",
+          "cited_by_count": 6014,
+          "topic": "Water splitting for hydrogen",
+          "url": "papers/https-openalex-org-w2575823937.html"
+        },
+        {
+          "title": "Noble metal-free hydrogen evolution catalysts for water splitting",
+          "year": "2015",
+          "cited_by_count": 5771,
+          "topic": "Water splitting for hydrogen",
+          "url": "papers/https-openalex-org-w2118976774.html"
+        },
+        {
+          "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+          "year": "2011",
+          "cited_by_count": 5427,
+          "topic": "Water splitting for hydrogen",
+          "url": "papers/https-openalex-org-w2146278879.html"
+        },
+        {
+          "title": "Metal-free efficient photocatalyst for stable visible water splitting via a two-electron pathway",
+          "year": "2015",
+          "cited_by_count": 4380,
+          "topic": "Water splitting for hydrogen",
+          "url": "papers/https-openalex-org-w1969929163.html"
+        },
+        {
+          "title": "MoS&lt;sub&gt;2&lt;/sub&gt; Nanoparticles Grown on Graphene: An Advanced Catalyst for the Hydrogen Evolution Reaction",
+          "year": "2011",
+          "cited_by_count": 4934,
+          "topic": "Water splitting for hydrogen",
+          "url": "papers/https-openalex-org-w2043775186.html"
+        },
+        {
+          "title": "Recent advances in semiconductors for photocatalytic and photoelectrochemical water splitting",
+          "year": "2014",
+          "cited_by_count": 4407,
+          "topic": "Water splitting for hydrogen",
+          "url": "papers/https-openalex-org-w1992464644.html"
+        }
+      ]
+    },
+    {
+      "label": "Hybrid renewable energy",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Combining theory and experiment in electrocatalysis: Insights into materials design",
+          "year": "2017",
+          "cited_by_count": 11472,
+          "topic": "Hybrid renewable energy",
+          "url": "papers/https-openalex-org-w2573377826.html"
+        },
+        {
+          "title": "Opportunities and challenges for a sustainable energy future",
+          "year": "2012",
+          "cited_by_count": 11902,
+          "topic": "Hybrid renewable energy",
+          "url": "papers/https-openalex-org-w2032100925.html"
+        },
+        {
+          "title": "Synthesis of Transportation Fuels from Biomass:  Chemistry, Catalysts, and Engineering",
+          "year": "2006",
+          "cited_by_count": 7549,
+          "topic": "Hybrid renewable energy",
+          "url": "papers/https-openalex-org-w2120446525.html"
+        },
+        {
+          "title": "The role of hydrogen and fuel cells in the global energy system",
+          "year": "2018",
+          "cited_by_count": 3658,
+          "topic": "Hybrid renewable energy",
+          "url": "papers/https-openalex-org-w2905218447.html"
+        }
+      ]
+    },
+    {
+      "label": "Lithium-ion battery",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "30 Years of Lithium‐Ion Batteries",
+          "year": "2018",
+          "cited_by_count": 5785,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2808025896.html"
+        },
+        {
+          "title": "Sodium-ion batteries: present and future",
+          "year": "2017",
+          "cited_by_count": 4973,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2603442821.html"
+        },
+        {
+          "title": "Nanomaterials for Rechargeable Lithium Batteries",
+          "year": "2008",
+          "cited_by_count": 5841,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2019903682.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview",
+          "year": "2016",
+          "cited_by_count": 6227,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2410390527.html"
+        },
+        {
+          "title": "Characteristics of hemicellulose, cellulose and lignin pyrolysis",
+          "year": "2007",
+          "cited_by_count": 7651,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1992469412.html"
+        },
+        {
+          "title": "A review on buildings energy consumption information",
+          "year": "2007",
+          "cited_by_count": 6399,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2163121678.html"
+        }
+      ]
+    },
+    {
+      "label": "Fuel cells",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The Theory of Polymer Dynamics",
+          "year": "1987",
+          "cited_by_count": 9845,
+          "topic": "Fuel cells",
+          "url": "papers/https-openalex-org-w227143473.html"
+        },
+        {
+          "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+          "year": "2004",
+          "cited_by_count": 7208,
+          "topic": "Fuel cells",
+          "url": "papers/https-openalex-org-w1989937017.html"
+        }
+      ]
+    },
+    {
+      "label": "Renewable energy integration",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Polymer Photovoltaic Cells: Enhanced Efficiencies via a Network of Internal Donor-Acceptor Heterojunctions",
+          "year": "1995",
+          "cited_by_count": 10267,
+          "topic": "Renewable energy integration",
+          "url": "papers/https-openalex-org-w2071134066.html"
+        },
+        {
+          "title": "A comprehensive review on PEM water electrolysis",
+          "year": "2013",
+          "cited_by_count": 5112,
+          "topic": "Renewable energy integration",
+          "url": "papers/https-openalex-org-w2020007931.html"
+        }
+      ]
+    },
+    {
+      "label": "Solar energy",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "A low-cost, high-efficiency solar cell based on dye-sensitized colloidal TiO2 films",
+          "year": "1991",
+          "cited_by_count": 28299,
+          "topic": "Solar energy",
+          "url": "papers/https-openalex-org-w1980216394.html"
+        },
+        {
+          "title": "Powering the planet: Chemical challenges in solar energy utilization",
+          "year": "2006",
+          "cited_by_count": 8169,
+          "topic": "Solar energy",
+          "url": "papers/https-openalex-org-w1986829915.html"
+        }
+      ]
+    },
+    {
+      "label": "Wind power",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The role of renewable energy in the global energy transformation",
+          "year": "2019",
+          "cited_by_count": 4640,
+          "topic": "Wind power",
+          "url": "papers/https-openalex-org-w2911892655.html"
+        },
+        {
+          "title": "The renewable energy role in the global energy Transformations",
+          "year": "2024",
+          "cited_by_count": 1360,
+          "topic": "Wind power",
+          "url": "papers/https-openalex-org-w4391247352.html"
+        }
+      ]
+    },
+    {
+      "label": "Electric vehicle",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Lithium batteries: Status, prospects and future",
+          "year": "2009",
+          "cited_by_count": 5036,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w1985013794.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W1980216394",
+      "title": "A low-cost, high-efficiency solar cell based on dye-sensitized colloidal TiO2 films",
+      "year": 1991,
+      "cited_by_count": 28299,
+      "adjusted_cited_by_count": 4783.4,
+      "primary_topic_id": "sg-solar-energy",
+      "primary_topic_label": "Solar energy",
+      "url": "/domains/renewable-energy/papers/W1980216394"
+    },
+    {
+      "source_id": "https://openalex.org/W1949231392",
+      "title": "Issues and challenges facing rechargeable lithium batteries",
+      "year": 2001,
+      "cited_by_count": 20440,
+      "adjusted_cited_by_count": 4088.0,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W1949231392"
+    },
+    {
+      "source_id": "https://openalex.org/W2573377826",
+      "title": "Combining theory and experiment in electrocatalysis: Insights into materials design",
+      "year": 2017,
+      "cited_by_count": 11472,
+      "adjusted_cited_by_count": 3824.0,
+      "primary_topic_id": "sg-hybrid-renewable-energy",
+      "primary_topic_label": "Hybrid renewable energy",
+      "url": "/domains/renewable-energy/papers/W2573377826"
+    },
+    {
+      "source_id": "https://openalex.org/W2089525884",
+      "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+      "year": 2011,
+      "cited_by_count": 14488,
+      "adjusted_cited_by_count": 3740.79,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2089525884"
+    },
+    {
+      "source_id": "https://openalex.org/W2032100925",
+      "title": "Opportunities and challenges for a sustainable energy future",
+      "year": 2012,
+      "cited_by_count": 11902,
+      "adjusted_cited_by_count": 3180.94,
+      "primary_topic_id": "sg-hybrid-renewable-energy",
+      "primary_topic_label": "Hybrid renewable energy",
+      "url": "/domains/renewable-energy/papers/W2032100925"
+    },
+    {
+      "source_id": "https://openalex.org/W2021172010",
+      "title": "The Li-Ion Rechargeable Battery: A Perspective",
+      "year": 2013,
+      "cited_by_count": 9490,
+      "adjusted_cited_by_count": 2632.05,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2021172010"
+    },
+    {
+      "source_id": "https://openalex.org/W2167035995",
+      "title": "Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode",
+      "year": 2004,
+      "cited_by_count": 12342,
+      "adjusted_cited_by_count": 2631.32,
+      "primary_topic_id": "sg-solar-energy-tio2-photocatalysis-solar-cells",
+      "primary_topic_label": "Tio2 photocatalysis solar cells",
+      "url": "/domains/renewable-energy/papers/W2167035995"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9284,
+      "adjusted_cited_by_count": 2397.12,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2574394697",
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "year": 2017,
+      "cited_by_count": 7081,
+      "adjusted_cited_by_count": 2360.33,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2574394697"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7533,
+      "adjusted_cited_by_count": 2174.59,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5785,
+      "adjusted_cited_by_count": 2045.31,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/renewable-energy/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2575823937",
+      "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+      "year": 2017,
+      "cited_by_count": 6014,
+      "adjusted_cited_by_count": 2004.67,
+      "primary_topic_id": "sg-water-splitting",
+      "primary_topic_label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/papers/W2575823937"
+    },
+    {
+      "source_id": "https://openalex.org/W2410390527",
+      "title": "The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview",
+      "year": 2016,
+      "cited_by_count": 6227,
+      "adjusted_cited_by_count": 1969.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/renewable-energy/papers/W2410390527"
+    },
+    {
+      "source_id": "https://openalex.org/W2142841029",
+      "title": "Nanostructured materials for advanced energy conversion and storage devices",
+      "year": 2005,
+      "cited_by_count": 8724,
+      "adjusted_cited_by_count": 1903.73,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2142841029"
+    },
+    {
+      "source_id": "https://openalex.org/W2071134066",
+      "title": "Polymer Photovoltaic Cells: Enhanced Efficiencies via a Network of Internal Donor-Acceptor Heterojunctions",
+      "year": 1995,
+      "cited_by_count": 10267,
+      "adjusted_cited_by_count": 1844.01,
+      "primary_topic_id": "sg-renewable-energy-integration",
+      "primary_topic_label": "Renewable energy integration",
+      "url": "/domains/renewable-energy/papers/W2071134066"
+    },
+    {
+      "source_id": "https://openalex.org/W1986829915",
+      "title": "Powering the planet: Chemical challenges in solar energy utilization",
+      "year": 2006,
+      "cited_by_count": 8169,
+      "adjusted_cited_by_count": 1826.64,
+      "primary_topic_id": "sg-solar-energy",
+      "primary_topic_label": "Solar energy",
+      "url": "/domains/renewable-energy/papers/W1986829915"
+    },
+    {
+      "source_id": "https://openalex.org/W1992469412",
+      "title": "Characteristics of hemicellulose, cellulose and lignin pyrolysis",
+      "year": 2007,
+      "cited_by_count": 7651,
+      "adjusted_cited_by_count": 1755.26,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/renewable-energy/papers/W1992469412"
+    },
+    {
+      "source_id": "https://openalex.org/W2911892655",
+      "title": "The role of renewable energy in the global energy transformation",
+      "year": 2019,
+      "cited_by_count": 4640,
+      "adjusted_cited_by_count": 1753.76,
+      "primary_topic_id": "sg-wind-power",
+      "primary_topic_label": "Wind power",
+      "url": "/domains/renewable-energy/papers/W2911892655"
+    },
+    {
+      "source_id": "https://openalex.org/W2118976774",
+      "title": "Noble metal-free hydrogen evolution catalysts for water splitting",
+      "year": 2015,
+      "cited_by_count": 5771,
+      "adjusted_cited_by_count": 1740.02,
+      "primary_topic_id": "sg-water-splitting",
+      "primary_topic_label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/papers/W2118976774"
+    },
+    {
+      "source_id": "https://openalex.org/W1998062017",
+      "title": "Challenges in the development of advanced Li-ion batteries: a review",
+      "year": 2011,
+      "cited_by_count": 6605,
+      "adjusted_cited_by_count": 1705.4,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W1998062017"
+    },
+    {
+      "source_id": "https://openalex.org/W2120446525",
+      "title": "Synthesis of Transportation Fuels from Biomass:  Chemistry, Catalysts, and Engineering",
+      "year": 2006,
+      "cited_by_count": 7549,
+      "adjusted_cited_by_count": 1688.01,
+      "primary_topic_id": "sg-hybrid-renewable-energy",
+      "primary_topic_label": "Hybrid renewable energy",
+      "url": "/domains/renewable-energy/papers/W2120446525"
+    },
+    {
+      "source_id": "https://openalex.org/W2603442821",
+      "title": "Sodium-ion batteries: present and future",
+      "year": 2017,
+      "cited_by_count": 4973,
+      "adjusted_cited_by_count": 1657.67,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/renewable-energy/papers/W2603442821"
+    },
+    {
+      "source_id": "https://openalex.org/W227143473",
+      "title": "The Theory of Polymer Dynamics",
+      "year": 1987,
+      "cited_by_count": 9845,
+      "adjusted_cited_by_count": 1576.46,
+      "primary_topic_id": "sg-fuel-cells",
+      "primary_topic_label": "Fuel cells",
+      "url": "/domains/renewable-energy/papers/W227143473"
+    },
+    {
+      "source_id": "https://openalex.org/W1989937017",
+      "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+      "year": 2004,
+      "cited_by_count": 7208,
+      "adjusted_cited_by_count": 1536.75,
+      "primary_topic_id": "sg-fuel-cells",
+      "primary_topic_label": "Fuel cells",
+      "url": "/domains/renewable-energy/papers/W1989937017"
+    },
+    {
+      "source_id": "https://openalex.org/W2162677524",
+      "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+      "year": 2014,
+      "cited_by_count": 5244,
+      "adjusted_cited_by_count": 1513.81,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2162677524"
+    },
+    {
+      "source_id": "https://openalex.org/W2163121678",
+      "title": "A review on buildings energy consumption information",
+      "year": 2007,
+      "cited_by_count": 6399,
+      "adjusted_cited_by_count": 1468.03,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/renewable-energy/papers/W2163121678"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4607,
+      "adjusted_cited_by_count": 1456.86,
+      "primary_topic_id": "sg-sustainable-energy",
+      "primary_topic_label": "Sustainable energy systems",
+      "url": "/domains/renewable-energy/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2020007931",
+      "title": "A comprehensive review on PEM water electrolysis",
+      "year": 2013,
+      "cited_by_count": 5112,
+      "adjusted_cited_by_count": 1417.81,
+      "primary_topic_id": "sg-renewable-energy-integration",
+      "primary_topic_label": "Renewable energy integration",
+      "url": "/domains/renewable-energy/papers/W2020007931"
+    },
+    {
+      "source_id": "https://openalex.org/W2146278879",
+      "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+      "year": 2011,
+      "cited_by_count": 5427,
+      "adjusted_cited_by_count": 1401.25,
+      "primary_topic_id": "sg-water-splitting",
+      "primary_topic_label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/papers/W2146278879"
+    },
+    {
+      "source_id": "https://openalex.org/W2019903682",
+      "title": "Nanomaterials for Rechargeable Lithium Batteries",
+      "year": 2008,
+      "cited_by_count": 5841,
+      "adjusted_cited_by_count": 1376.74,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/renewable-energy/papers/W2019903682"
+    },
+    {
+      "source_id": "https://openalex.org/W4391247352",
+      "title": "The renewable energy role in the global energy Transformations",
+      "year": 2024,
+      "cited_by_count": 1360,
+      "adjusted_cited_by_count": 1360.0,
+      "primary_topic_id": "sg-wind-power",
+      "primary_topic_label": "Wind power",
+      "url": "/domains/renewable-energy/papers/W4391247352"
+    },
+    {
+      "source_id": "https://openalex.org/W2046495385",
+      "title": "Microalgae for biodiesel production and other applications: A review",
+      "year": 2009,
+      "cited_by_count": 5540,
+      "adjusted_cited_by_count": 1343.65,
+      "primary_topic_id": "sg-energy-storage-supercapacitor-fabrication",
+      "primary_topic_label": "Supercapacitor fabrication",
+      "url": "/domains/renewable-energy/papers/W2046495385"
+    },
+    {
+      "source_id": "https://openalex.org/W1969929163",
+      "title": "Metal-free efficient photocatalyst for stable visible water splitting via a two-electron pathway",
+      "year": 2015,
+      "cited_by_count": 4380,
+      "adjusted_cited_by_count": 1320.62,
+      "primary_topic_id": "sg-water-splitting",
+      "primary_topic_label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/papers/W1969929163"
+    },
+    {
+      "source_id": "https://openalex.org/W2272252865",
+      "title": "Active sites of nitrogen-doped carbon materials for oxygen reduction reaction clarified using model catalysts",
+      "year": 2016,
+      "cited_by_count": 4120,
+      "adjusted_cited_by_count": 1302.86,
+      "primary_topic_id": "sg-fuel-cells-electrochemical-energy",
+      "primary_topic_label": "Electrochemical energy",
+      "url": "/domains/renewable-energy/papers/W2272252865"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3658,
+      "adjusted_cited_by_count": 1293.3,
+      "primary_topic_id": "sg-hybrid-renewable-energy",
+      "primary_topic_label": "Hybrid renewable energy",
+      "url": "/domains/renewable-energy/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2043775186",
+      "title": "MoS<sub>2</sub> Nanoparticles Grown on Graphene: An Advanced Catalyst for the Hydrogen Evolution Reaction",
+      "year": 2011,
+      "cited_by_count": 4934,
+      "adjusted_cited_by_count": 1273.95,
+      "primary_topic_id": "sg-water-splitting",
+      "primary_topic_label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/papers/W2043775186"
+    },
+    {
+      "source_id": "https://openalex.org/W1992464644",
+      "title": "Recent advances in semiconductors for photocatalytic and photoelectrochemical water splitting",
+      "year": 2014,
+      "cited_by_count": 4407,
+      "adjusted_cited_by_count": 1272.19,
+      "primary_topic_id": "sg-water-splitting",
+      "primary_topic_label": "Water splitting for hydrogen",
+      "url": "/domains/renewable-energy/papers/W1992464644"
+    },
+    {
+      "source_id": "https://openalex.org/W2916252188",
+      "title": "Pathways for practical high-energy long-cycling lithium metal batteries",
+      "year": 2019,
+      "cited_by_count": 3267,
+      "adjusted_cited_by_count": 1234.81,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W2916252188"
+    },
+    {
+      "source_id": "https://openalex.org/W1985013794",
+      "title": "Lithium batteries: Status, prospects and future",
+      "year": 2009,
+      "cited_by_count": 5036,
+      "adjusted_cited_by_count": 1221.41,
+      "primary_topic_id": "sg-lithium-ion-battery-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/renewable-energy/papers/W1985013794"
+    },
+    {
+      "source_id": "https://openalex.org/W1504052325",
+      "title": "Hierarchical Control of Droop-Controlled AC and DC Microgrids—A General Approach Toward Standardization",
+      "year": 2010,
+      "cited_by_count": 4829,
+      "adjusted_cited_by_count": 1207.25,
+      "primary_topic_id": "sg-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/renewable-energy/papers/W1504052325"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W1980216394",
+      "title": "A low-cost, high-efficiency solar cell based on dye-sensitized colloidal TiO2 films",
+      "year": 1991,
+      "cited_by_count": 28299,
+      "adjusted_cited_by_count": 4783.4,
+      "url": "/domains/renewable-energy/papers/W1980216394"
+    },
+    {
+      "source_id": "https://openalex.org/W1949231392",
+      "title": "Issues and challenges facing rechargeable lithium batteries",
+      "year": 2001,
+      "cited_by_count": 20440,
+      "adjusted_cited_by_count": 4088.0,
+      "url": "/domains/renewable-energy/papers/W1949231392"
+    },
+    {
+      "source_id": "https://openalex.org/W2573377826",
+      "title": "Combining theory and experiment in electrocatalysis: Insights into materials design",
+      "year": 2017,
+      "cited_by_count": 11472,
+      "adjusted_cited_by_count": 3824.0,
+      "url": "/domains/renewable-energy/papers/W2573377826"
+    },
+    {
+      "source_id": "https://openalex.org/W2089525884",
+      "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+      "year": 2011,
+      "cited_by_count": 14488,
+      "adjusted_cited_by_count": 3740.79,
+      "url": "/domains/renewable-energy/papers/W2089525884"
+    },
+    {
+      "source_id": "https://openalex.org/W2032100925",
+      "title": "Opportunities and challenges for a sustainable energy future",
+      "year": 2012,
+      "cited_by_count": 11902,
+      "adjusted_cited_by_count": 3180.94,
+      "url": "/domains/renewable-energy/papers/W2032100925"
+    },
+    {
+      "source_id": "https://openalex.org/W2021172010",
+      "title": "The Li-Ion Rechargeable Battery: A Perspective",
+      "year": 2013,
+      "cited_by_count": 9490,
+      "adjusted_cited_by_count": 2632.05,
+      "url": "/domains/renewable-energy/papers/W2021172010"
+    },
+    {
+      "source_id": "https://openalex.org/W2167035995",
+      "title": "Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode",
+      "year": 2004,
+      "cited_by_count": 12342,
+      "adjusted_cited_by_count": 2631.32,
+      "url": "/domains/renewable-energy/papers/W2167035995"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9284,
+      "adjusted_cited_by_count": 2397.12,
+      "url": "/domains/renewable-energy/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2574394697",
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "year": 2017,
+      "cited_by_count": 7081,
+      "adjusted_cited_by_count": 2360.33,
+      "url": "/domains/renewable-energy/papers/W2574394697"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7533,
+      "adjusted_cited_by_count": 2174.59,
+      "url": "/domains/renewable-energy/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5785,
+      "adjusted_cited_by_count": 2045.31,
+      "url": "/domains/renewable-energy/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2575823937",
+      "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+      "year": 2017,
+      "cited_by_count": 6014,
+      "adjusted_cited_by_count": 2004.67,
+      "url": "/domains/renewable-energy/papers/W2575823937"
+    },
+    {
+      "source_id": "https://openalex.org/W2410390527",
+      "title": "The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview",
+      "year": 2016,
+      "cited_by_count": 6227,
+      "adjusted_cited_by_count": 1969.15,
+      "url": "/domains/renewable-energy/papers/W2410390527"
+    },
+    {
+      "source_id": "https://openalex.org/W2142841029",
+      "title": "Nanostructured materials for advanced energy conversion and storage devices",
+      "year": 2005,
+      "cited_by_count": 8724,
+      "adjusted_cited_by_count": 1903.73,
+      "url": "/domains/renewable-energy/papers/W2142841029"
+    },
+    {
+      "source_id": "https://openalex.org/W2071134066",
+      "title": "Polymer Photovoltaic Cells: Enhanced Efficiencies via a Network of Internal Donor-Acceptor Heterojunctions",
+      "year": 1995,
+      "cited_by_count": 10267,
+      "adjusted_cited_by_count": 1844.01,
+      "url": "/domains/renewable-energy/papers/W2071134066"
+    },
+    {
+      "source_id": "https://openalex.org/W1986829915",
+      "title": "Powering the planet: Chemical challenges in solar energy utilization",
+      "year": 2006,
+      "cited_by_count": 8169,
+      "adjusted_cited_by_count": 1826.64,
+      "url": "/domains/renewable-energy/papers/W1986829915"
+    },
+    {
+      "source_id": "https://openalex.org/W1992469412",
+      "title": "Characteristics of hemicellulose, cellulose and lignin pyrolysis",
+      "year": 2007,
+      "cited_by_count": 7651,
+      "adjusted_cited_by_count": 1755.26,
+      "url": "/domains/renewable-energy/papers/W1992469412"
+    },
+    {
+      "source_id": "https://openalex.org/W2911892655",
+      "title": "The role of renewable energy in the global energy transformation",
+      "year": 2019,
+      "cited_by_count": 4640,
+      "adjusted_cited_by_count": 1753.76,
+      "url": "/domains/renewable-energy/papers/W2911892655"
+    },
+    {
+      "source_id": "https://openalex.org/W2118976774",
+      "title": "Noble metal-free hydrogen evolution catalysts for water splitting",
+      "year": 2015,
+      "cited_by_count": 5771,
+      "adjusted_cited_by_count": 1740.02,
+      "url": "/domains/renewable-energy/papers/W2118976774"
+    },
+    {
+      "source_id": "https://openalex.org/W1998062017",
+      "title": "Challenges in the development of advanced Li-ion batteries: a review",
+      "year": 2011,
+      "cited_by_count": 6605,
+      "adjusted_cited_by_count": 1705.4,
+      "url": "/domains/renewable-energy/papers/W1998062017"
+    },
+    {
+      "source_id": "https://openalex.org/W2120446525",
+      "title": "Synthesis of Transportation Fuels from Biomass:  Chemistry, Catalysts, and Engineering",
+      "year": 2006,
+      "cited_by_count": 7549,
+      "adjusted_cited_by_count": 1688.01,
+      "url": "/domains/renewable-energy/papers/W2120446525"
+    },
+    {
+      "source_id": "https://openalex.org/W2603442821",
+      "title": "Sodium-ion batteries: present and future",
+      "year": 2017,
+      "cited_by_count": 4973,
+      "adjusted_cited_by_count": 1657.67,
+      "url": "/domains/renewable-energy/papers/W2603442821"
+    },
+    {
+      "source_id": "https://openalex.org/W227143473",
+      "title": "The Theory of Polymer Dynamics",
+      "year": 1987,
+      "cited_by_count": 9845,
+      "adjusted_cited_by_count": 1576.46,
+      "url": "/domains/renewable-energy/papers/W227143473"
+    },
+    {
+      "source_id": "https://openalex.org/W1989937017",
+      "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+      "year": 2004,
+      "cited_by_count": 7208,
+      "adjusted_cited_by_count": 1536.75,
+      "url": "/domains/renewable-energy/papers/W1989937017"
+    },
+    {
+      "source_id": "https://openalex.org/W2162677524",
+      "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+      "year": 2014,
+      "cited_by_count": 5244,
+      "adjusted_cited_by_count": 1513.81,
+      "url": "/domains/renewable-energy/papers/W2162677524"
+    },
+    {
+      "source_id": "https://openalex.org/W2163121678",
+      "title": "A review on buildings energy consumption information",
+      "year": 2007,
+      "cited_by_count": 6399,
+      "adjusted_cited_by_count": 1468.03,
+      "url": "/domains/renewable-energy/papers/W2163121678"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4607,
+      "adjusted_cited_by_count": 1456.86,
+      "url": "/domains/renewable-energy/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2020007931",
+      "title": "A comprehensive review on PEM water electrolysis",
+      "year": 2013,
+      "cited_by_count": 5112,
+      "adjusted_cited_by_count": 1417.81,
+      "url": "/domains/renewable-energy/papers/W2020007931"
+    },
+    {
+      "source_id": "https://openalex.org/W2146278879",
+      "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+      "year": 2011,
+      "cited_by_count": 5427,
+      "adjusted_cited_by_count": 1401.25,
+      "url": "/domains/renewable-energy/papers/W2146278879"
+    },
+    {
+      "source_id": "https://openalex.org/W2019903682",
+      "title": "Nanomaterials for Rechargeable Lithium Batteries",
+      "year": 2008,
+      "cited_by_count": 5841,
+      "adjusted_cited_by_count": 1376.74,
+      "url": "/domains/renewable-energy/papers/W2019903682"
+    },
+    {
+      "source_id": "https://openalex.org/W4391247352",
+      "title": "The renewable energy role in the global energy Transformations",
+      "year": 2024,
+      "cited_by_count": 1360,
+      "adjusted_cited_by_count": 1360.0,
+      "url": "/domains/renewable-energy/papers/W4391247352"
+    },
+    {
+      "source_id": "https://openalex.org/W2046495385",
+      "title": "Microalgae for biodiesel production and other applications: A review",
+      "year": 2009,
+      "cited_by_count": 5540,
+      "adjusted_cited_by_count": 1343.65,
+      "url": "/domains/renewable-energy/papers/W2046495385"
+    },
+    {
+      "source_id": "https://openalex.org/W1969929163",
+      "title": "Metal-free efficient photocatalyst for stable visible water splitting via a two-electron pathway",
+      "year": 2015,
+      "cited_by_count": 4380,
+      "adjusted_cited_by_count": 1320.62,
+      "url": "/domains/renewable-energy/papers/W1969929163"
+    },
+    {
+      "source_id": "https://openalex.org/W2272252865",
+      "title": "Active sites of nitrogen-doped carbon materials for oxygen reduction reaction clarified using model catalysts",
+      "year": 2016,
+      "cited_by_count": 4120,
+      "adjusted_cited_by_count": 1302.86,
+      "url": "/domains/renewable-energy/papers/W2272252865"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3658,
+      "adjusted_cited_by_count": 1293.3,
+      "url": "/domains/renewable-energy/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2043775186",
+      "title": "MoS<sub>2</sub> Nanoparticles Grown on Graphene: An Advanced Catalyst for the Hydrogen Evolution Reaction",
+      "year": 2011,
+      "cited_by_count": 4934,
+      "adjusted_cited_by_count": 1273.95,
+      "url": "/domains/renewable-energy/papers/W2043775186"
+    },
+    {
+      "source_id": "https://openalex.org/W1992464644",
+      "title": "Recent advances in semiconductors for photocatalytic and photoelectrochemical water splitting",
+      "year": 2014,
+      "cited_by_count": 4407,
+      "adjusted_cited_by_count": 1272.19,
+      "url": "/domains/renewable-energy/papers/W1992464644"
+    },
+    {
+      "source_id": "https://openalex.org/W2916252188",
+      "title": "Pathways for practical high-energy long-cycling lithium metal batteries",
+      "year": 2019,
+      "cited_by_count": 3267,
+      "adjusted_cited_by_count": 1234.81,
+      "url": "/domains/renewable-energy/papers/W2916252188"
+    },
+    {
+      "source_id": "https://openalex.org/W1985013794",
+      "title": "Lithium batteries: Status, prospects and future",
+      "year": 2009,
+      "cited_by_count": 5036,
+      "adjusted_cited_by_count": 1221.41,
+      "url": "/domains/renewable-energy/papers/W1985013794"
+    },
+    {
+      "source_id": "https://openalex.org/W1504052325",
+      "title": "Hierarchical Control of Droop-Controlled AC and DC Microgrids—A General Approach Toward Standardization",
+      "year": 2010,
+      "cited_by_count": 4829,
+      "adjusted_cited_by_count": 1207.25,
+      "url": "/domains/renewable-energy/papers/W1504052325"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "ion",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 515
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 456
+    },
+    {
+      "label": "renewable",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 368
+    },
+    {
+      "label": "renewable energy",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 354
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 263
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 254
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 192
+    },
+    {
+      "label": "power",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 186
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 166
+    },
+    {
+      "label": "catalysis",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 161
+    },
+    {
+      "label": "fuel",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 152
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 149
+    },
+    {
+      "label": "electrode",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 148
+    },
+    {
+      "label": "chemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 146
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 133
+    },
+    {
+      "label": "production",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "catalyst",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "storage",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 119
+    },
+    {
+      "label": "energy storage",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "hydrogen",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "conversion",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 107
+    },
+    {
+      "label": "solar",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "electric",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "power conversion efficiency",
+      "semantic_role": "metric_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 6
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 102
+    },
+    {
+      "label": "metal",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9894,
+      "evidence_count": 97
+    },
+    {
+      "label": "reaction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 96
+    },
+    {
+      "label": "efficiency",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9891,
+      "evidence_count": 94
+    },
+    {
+      "label": "battery",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.989,
+      "evidence_count": 93
+    },
+    {
+      "label": "cost",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 93
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 93
+    },
+    {
+      "label": "oxide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 91
+    },
+    {
+      "label": "fossil fuel",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 87
+    },
+    {
+      "label": "efficient",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 81
+    },
+    {
+      "label": "light",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 80
+    },
+    {
+      "label": "electrochemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 79
+    },
+    {
+      "label": "fuels",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 78
+    },
+    {
+      "label": "sustainable",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 78
+    },
+    {
+      "label": "active",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 77
+    },
+    {
+      "label": "of renewable",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 75
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 74
+    },
+    {
+      "label": "electricity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 118
+    },
+    {
+      "label": "evolution",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.987,
+      "evidence_count": 72
+    },
+    {
+      "label": "biomass",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9869,
+      "evidence_count": 71
+    },
+    {
+      "label": "resource",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 136
+    },
+    {
+      "label": "generation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 93
+    }
+  ],
+  "topic_year_counts": {
+    "energy storage": {
+      "2025": 256377,
+      "2024": 248937,
+      "2023": 244483,
+      "2022": 165375,
+      "2021": 145373,
+      "2020": 130249,
+      "2019": 111542,
+      "2018": 96724,
+      "2017": 84978,
+      "2016": 75151,
+      "2015": 66783,
+      "2026": 64445,
+      "2014": 59292,
+      "2013": 51741,
+      "2012": 43988,
+      "2011": 36884,
+      "2010": 30817,
+      "2009": 25533,
+      "2008": 20940,
+      "2007": 17983,
+      "2006": 15996,
+      "2005": 13796,
+      "2004": 12073,
+      "2003": 10745,
+      "2002": 9800,
+      "2000": 8523,
+      "2001": 7683
+    },
+    "solar energy": {
+      "2025": 152525,
+      "2024": 151947,
+      "2023": 151914,
+      "2022": 103061,
+      "2021": 93484,
+      "2020": 84989,
+      "2019": 73812,
+      "2018": 66327,
+      "2017": 58556,
+      "2016": 52343,
+      "2015": 47759,
+      "2014": 43239,
+      "2026": 38884,
+      "2013": 37536,
+      "2012": 32739,
+      "2011": 27806,
+      "2010": 22659,
+      "2009": 18348,
+      "2008": 15315,
+      "2007": 12304,
+      "2006": 11114,
+      "2005": 9642,
+      "2004": 8723,
+      "2003": 7896,
+      "2002": 6707,
+      "2001": 6052,
+      "2000": 5879
+    },
+    "hybrid renewable energy": {
+      "2025": 58130,
+      "2024": 49145,
+      "2023": 48934,
+      "2022": 30977,
+      "2021": 26021,
+      "2020": 21782,
+      "2019": 17441,
+      "2026": 14954,
+      "2018": 14248,
+      "2017": 11267,
+      "2016": 9136,
+      "2015": 7702,
+      "2014": 6411,
+      "2013": 5194,
+      "2012": 4207,
+      "2011": 3189,
+      "2010": 2497,
+      "2009": 1854,
+      "2008": 1367,
+      "2007": 988,
+      "2006": 750,
+      "2005": 592,
+      "2004": 543,
+      "2003": 463,
+      "2002": 300,
+      "2000": 293,
+      "2001": 265
+    },
+    "water splitting for hydrogen": {
+      "2023": 17871,
+      "2024": 17350,
+      "2025": 16892,
+      "2022": 11259,
+      "2021": 9397,
+      "2020": 8843,
+      "2019": 7587,
+      "2018": 6555,
+      "2017": 5821,
+      "2016": 4822,
+      "2026": 4240,
+      "2015": 4109,
+      "2014": 3440,
+      "2013": 2913,
+      "2012": 2562,
+      "2011": 2176,
+      "2010": 1714,
+      "2009": 1491,
+      "2008": 1259,
+      "2007": 1048,
+      "2006": 976,
+      "2005": 720,
+      "2004": 621,
+      "2003": 478,
+      "2002": 412,
+      "2000": 394,
+      "2001": 353
+    },
+    "fuel cells": {
+      "2023": 100433,
+      "2024": 95790,
+      "2025": 90116,
+      "2022": 68167,
+      "2021": 63030,
+      "2020": 58562,
+      "2019": 50420,
+      "2018": 45959,
+      "2017": 42549,
+      "2016": 38927,
+      "2015": 36352,
+      "2014": 32962,
+      "2013": 30244,
+      "2012": 26837,
+      "2011": 24522,
+      "2026": 22094,
+      "2010": 21580,
+      "2009": 18824,
+      "2008": 15781,
+      "2007": 13843,
+      "2006": 12714,
+      "2005": 10224,
+      "2004": 8984,
+      "2003": 7094,
+      "2002": 5553,
+      "2000": 4536,
+      "2001": 4480
+    },
+    "renewable energy integration": {
+      "2025": 115124,
+      "2024": 88597,
+      "2023": 72064,
+      "2022": 43508,
+      "2021": 37285,
+      "2020": 32340,
+      "2026": 28109,
+      "2019": 26298,
+      "2018": 21977,
+      "2017": 18576,
+      "2016": 15603,
+      "2015": 13532,
+      "2014": 11857,
+      "2013": 9700,
+      "2012": 8034,
+      "2011": 6393,
+      "2010": 5001,
+      "2009": 3862,
+      "2008": 2763,
+      "2007": 2045,
+      "2006": 1659,
+      "2005": 1328,
+      "2004": 1126,
+      "2003": 1061,
+      "2002": 747,
+      "2000": 671,
+      "2001": 626
+    },
+    "wind power": {
+      "2023": 110272,
+      "2024": 105722,
+      "2025": 103488,
+      "2022": 76555,
+      "2021": 70992,
+      "2020": 66396,
+      "2019": 58961,
+      "2018": 52573,
+      "2017": 46942,
+      "2016": 43238,
+      "2015": 40324,
+      "2014": 37429,
+      "2013": 34126,
+      "2012": 30416,
+      "2011": 26318,
+      "2026": 24720,
+      "2010": 22164,
+      "2009": 19067,
+      "2008": 15194,
+      "2007": 12620,
+      "2006": 11345,
+      "2005": 9130,
+      "2004": 7747,
+      "2003": 6854,
+      "2002": 5795,
+      "2000": 5232,
+      "2001": 5089
+    },
+    "electricity generation technology": {
+      "2023": 58801,
+      "2024": 57846,
+      "2025": 55690,
+      "2022": 38707,
+      "2021": 34957,
+      "2020": 31746,
+      "2019": 26744,
+      "2018": 23399,
+      "2017": 20215,
+      "2016": 17713,
+      "2015": 16289,
+      "2014": 14277,
+      "2026": 13288,
+      "2013": 12439,
+      "2012": 10516,
+      "2011": 9135,
+      "2010": 7487,
+      "2009": 6016,
+      "2008": 4693,
+      "2007": 3792,
+      "2006": 3352,
+      "2005": 2861,
+      "2004": 2352,
+      "2003": 2158,
+      "2002": 1640,
+      "2000": 1373,
+      "2001": 1339
+    },
+    "lithium-ion battery": {
+      "2025": 41804,
+      "2024": 37989,
+      "2023": 35290,
+      "2022": 24062,
+      "2021": 20400,
+      "2020": 19225,
+      "2019": 16627,
+      "2018": 13931,
+      "2017": 12348,
+      "2016": 11658,
+      "2026": 10496,
+      "2015": 9681,
+      "2014": 8925,
+      "2013": 6757,
+      "2012": 5154,
+      "2011": 3859,
+      "2010": 2965,
+      "2009": 2136,
+      "2008": 1660,
+      "2007": 1594,
+      "2006": 1395,
+      "2005": 1117,
+      "2004": 911,
+      "2003": 830,
+      "2002": 814,
+      "2001": 584,
+      "2000": 543
+    },
+    "sustainable energy systems": {
+      "2025": 427215,
+      "2024": 363062,
+      "2023": 345122,
+      "2022": 218063,
+      "2021": 185447,
+      "2020": 162195,
+      "2019": 132330,
+      "2018": 114121,
+      "2026": 111760,
+      "2017": 96560,
+      "2016": 84830,
+      "2015": 75310,
+      "2014": 66954,
+      "2013": 57709,
+      "2012": 49620,
+      "2011": 41443,
+      "2010": 35177,
+      "2009": 29415,
+      "2008": 23306,
+      "2007": 19757,
+      "2006": 17188,
+      "2005": 13994,
+      "2004": 12177,
+      "2003": 10208,
+      "2002": 8575,
+      "2000": 8331,
+      "2001": 7751
+    }
+  }
+}

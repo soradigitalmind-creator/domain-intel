@@ -1,0 +1,2122 @@
+{
+  "slug": "ecology",
+  "title": "Ecology",
+  "updated_at": "2026-04-07T11:55:12.876565Z",
+  "snapshot": {
+    "papers": 316,
+    "topics": 8,
+    "subtopics": 27,
+    "entities": 913,
+    "claims": 4
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 463,
+      "total_papers": 463,
+      "facet_counts": {
+        "none": 463
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning evolutionary ecology, population ecology, human ecology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 8,
+    "descendant_topics": 27,
+    "max_depth": 2,
+    "leaf_topics": 27
+  },
+  "rising_topics": [
+    {
+      "id": "sg-evolutionary-ecology",
+      "label": "Evolutionary ecology",
+      "url": "/domains/ecology/topics/sg-evolutionary-ecology",
+      "trend": "rising",
+      "year_total": 473803
+    },
+    {
+      "id": "sg-species-distribution",
+      "label": "Species distribution",
+      "url": "/domains/ecology/topics/sg-species-distribution",
+      "trend": "rising",
+      "year_total": 3266189
+    },
+    {
+      "id": "sg-ecological-niche",
+      "label": "Ecological niche",
+      "url": "/domains/ecology/topics/sg-ecological-niche",
+      "trend": "rising",
+      "year_total": 318440
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-evolutionary-ecology",
+      "label": "Evolutionary ecology",
+      "url": "/domains/ecology/topics/sg-evolutionary-ecology",
+      "paper_count": 65,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: ecology, evolution, of the",
+      "tags": [
+        "behavioral ecology",
+        "behavioural ecology",
+        "behavioural ecology evolutionary",
+        "ecology and evolution"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-evolutionary-ecology-evolutionary-ecology",
+          "label": "Evolutionary ecology",
+          "url": "/domains/ecology/topics/sg-evolutionary-ecology-evolutionary-ecology",
+          "paper_count": 50
+        },
+        {
+          "id": "sg-evolutionary-ecology-evolution-of-community",
+          "label": "Evolution of community",
+          "url": "/domains/ecology/topics/sg-evolutionary-ecology-evolution-of-community",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-evolutionary-ecology-sexual-selection",
+          "label": "Sexual selection",
+          "url": "/domains/ecology/topics/sg-evolutionary-ecology-sexual-selection",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-evolutionary-ecology-seeds-ecology-biogeography-evolution",
+          "label": "Seeds ecology, biogeography, evolution",
+          "url": "/domains/ecology/topics/sg-evolutionary-ecology-seeds-ecology-biogeography-evolution",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2155988679",
+          "title": "Generalized linear mixed models: a practical guide for ecology and evolution",
+          "year": "2009",
+          "cited_by_count": 8661,
+          "url": "/domains/ecology/papers/W2155988679"
+        },
+        {
+          "source_id": "https://openalex.org/W2111684210",
+          "title": "A protocol for data exploration to avoid common statistical problems",
+          "year": "2009",
+          "cited_by_count": 7917,
+          "url": "/domains/ecology/papers/W2111684210"
+        },
+        {
+          "source_id": "https://openalex.org/W2105414963",
+          "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+          "year": "2009",
+          "cited_by_count": 6923,
+          "url": "/domains/ecology/papers/W2105414963"
+        }
+      ]
+    },
+    {
+      "id": "sg-species-distribution",
+      "label": "Species distribution",
+      "url": "/domains/ecology/topics/sg-species-distribution",
+      "paper_count": 57,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: ecology, species distribution and climate change, species",
+      "tags": [
+        "cohens kappa",
+        "ecology of pattern",
+        "environmental data",
+        "spatial ecology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-species-distribution-cohens-kappa",
+          "label": "Cohens kappa",
+          "url": "/domains/ecology/topics/sg-species-distribution-cohens-kappa",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-species-distribution-data-mining",
+          "label": "Data mining",
+          "url": "/domains/ecology/topics/sg-species-distribution-data-mining",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-species-distribution-species-distributions",
+          "label": "Species distributions",
+          "url": "/domains/ecology/topics/sg-species-distribution-species-distributions",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-species-distribution-ecology-r",
+          "label": "Ecology r",
+          "url": "/domains/ecology/topics/sg-species-distribution-ecology-r",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-species-distribution-environmental-data",
+          "label": "Environmental data",
+          "url": "/domains/ecology/topics/sg-species-distribution-environmental-data",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-species-distribution-predicting-species",
+          "label": "Predicting species",
+          "url": "/domains/ecology/topics/sg-species-distribution-predicting-species",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2056279562",
+          "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+          "year": "2013",
+          "cited_by_count": 21837,
+          "url": "/domains/ecology/papers/W2056279562"
+        },
+        {
+          "source_id": "https://openalex.org/W1518897246",
+          "title": "Mixed effects models and extensions in ecology with R",
+          "year": "2009",
+          "cited_by_count": 17466,
+          "url": "/domains/ecology/papers/W1518897246"
+        },
+        {
+          "source_id": "https://openalex.org/W2112315008",
+          "title": "Novel methods improve prediction of species’ distributions from occurrence data",
+          "year": "2006",
+          "cited_by_count": 9011,
+          "url": "/domains/ecology/papers/W2112315008"
+        }
+      ]
+    },
+    {
+      "id": "sg-ecological-niche",
+      "label": "Ecological niche",
+      "url": "/domains/ecology/topics/sg-ecological-niche",
+      "paper_count": 48,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: ecology, ecological, environment",
+      "tags": [
+        "ecological niche",
+        "ecological niche modeling",
+        "ecology conservation",
+        "ecology conservation biology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-ecological-niche-species-distribution-modelling",
+          "label": "Species distribution modelling",
+          "url": "/domains/ecology/topics/sg-ecological-niche-species-distribution-modelling",
+          "paper_count": 46
+        },
+        {
+          "id": "sg-ecological-niche-niche-construction",
+          "label": "Niche construction",
+          "url": "/domains/ecology/topics/sg-ecological-niche-niche-construction",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2105630660",
+          "title": "The ecology of human development : experiments by nature and design",
+          "year": "1979",
+          "cited_by_count": 12559,
+          "url": "/domains/ecology/papers/W2105630660"
+        },
+        {
+          "source_id": "https://openalex.org/W2274815048",
+          "title": "Resilience, Adaptability and Transformability in Social-ecological Systems",
+          "year": "2004",
+          "cited_by_count": 7305,
+          "url": "/domains/ecology/papers/W2274815048"
+        },
+        {
+          "source_id": "https://openalex.org/W2120160157",
+          "title": "Predictive habitat distribution models in ecology",
+          "year": "2000",
+          "cited_by_count": 7242,
+          "url": "/domains/ecology/papers/W2120160157"
+        }
+      ]
+    },
+    {
+      "id": "sg-microbial-ecology",
+      "label": "Microbial ecology",
+      "url": "/domains/ecology/topics/sg-microbial-ecology",
+      "paper_count": 44,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: ecology, microbial, microbial community ecology and physiology",
+      "tags": [
+        "biofilms ecology",
+        "ecology biotechnology",
+        "ecosystem ecology",
+        "metabolism microbial ecology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-microbial-ecology-16s-ribosomal-rna",
+          "label": "16s ribosomal rna",
+          "url": "/domains/ecology/topics/sg-microbial-ecology-16s-ribosomal-rna",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-microbial-ecology-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/ecology/topics/sg-microbial-ecology-evolutionary-biology",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-microbial-ecology-bacteriophage-microbial-interactions",
+          "label": "Bacteriophage microbial interactions",
+          "url": "/domains/ecology/topics/sg-microbial-ecology-bacteriophage-microbial-interactions",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2166171121",
+          "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+          "year": "2012",
+          "cited_by_count": 8984,
+          "url": "/domains/ecology/papers/W2166171121"
+        },
+        {
+          "source_id": "https://openalex.org/W1971415551",
+          "title": "Obesity alters gut microbial ecology",
+          "year": "2005",
+          "cited_by_count": 6100,
+          "url": "/domains/ecology/papers/W1971415551"
+        },
+        {
+          "source_id": "https://openalex.org/W2086865963",
+          "title": "Quality-filtering vastly improves diversity estimates from Illumina amplicon sequencing",
+          "year": "2012",
+          "cited_by_count": 4348,
+          "url": "/domains/ecology/papers/W2086865963"
+        }
+      ]
+    },
+    {
+      "id": "sg-plant-ecology",
+      "label": "Plant ecology",
+      "url": "/domains/ecology/topics/sg-plant-ecology",
+      "paper_count": 30,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: ecology, plant, plant ecology",
+      "tags": [
+        "applied ecology",
+        "ecology individuals",
+        "ecosystem ecology",
+        "physiological plant ecology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-plant-ecology-leaf-property-and-growth-measurement",
+          "label": "Leaf property and growth measurement",
+          "url": "/domains/ecology/topics/sg-plant-ecology-leaf-property-and-growth-measurement",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-plant-ecology-physiological-ecology",
+          "label": "Physiological ecology",
+          "url": "/domains/ecology/topics/sg-plant-ecology-physiological-ecology",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-plant-ecology-vegetation-ecology",
+          "label": "Vegetation ecology",
+          "url": "/domains/ecology/topics/sg-plant-ecology-vegetation-ecology",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2322480672",
+          "title": "The Problem of Pattern and Scale in Ecology: The Robert H. MacArthur Award Lecture",
+          "year": "1992",
+          "cited_by_count": 6699,
+          "url": "/domains/ecology/papers/W2322480672"
+        },
+        {
+          "source_id": "https://openalex.org/W2101020813",
+          "title": "New handbook for standardised measurement of plant functional traits worldwide",
+          "year": "2013",
+          "cited_by_count": 4044,
+          "url": "/domains/ecology/papers/W2101020813"
+        },
+        {
+          "source_id": "https://openalex.org/W1544206333",
+          "title": "Aims and Methods of Vegetation Ecology",
+          "year": "1976",
+          "cited_by_count": 7435,
+          "url": "/domains/ecology/papers/W1544206333"
+        }
+      ]
+    },
+    {
+      "id": "sg-community-ecology",
+      "label": "Community ecology",
+      "url": "/domains/ecology/topics/sg-community-ecology",
+      "paper_count": 27,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: ecology, community, of the",
+      "tags": [
+        "community ecology",
+        "community ecology package",
+        "community ecology phylogenetic",
+        "ecology behavior"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-community-ecology-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/ecology/topics/sg-community-ecology-evolutionary-biology",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-community-ecology-r-package",
+          "label": "R package",
+          "url": "/domains/ecology/topics/sg-community-ecology-r-package",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-community-ecology-vegan-community",
+          "label": "Vegan community",
+          "url": "/domains/ecology/topics/sg-community-ecology-vegan-community",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3174993126",
+          "title": "vegan: Community Ecology Package",
+          "year": "2001",
+          "cited_by_count": 22948,
+          "url": "/domains/ecology/papers/W3174993126"
+        },
+        {
+          "source_id": "https://openalex.org/W1936774573",
+          "title": "The Theory of Island Biogeography",
+          "year": "2001",
+          "cited_by_count": 12734,
+          "url": "/domains/ecology/papers/W1936774573"
+        },
+        {
+          "source_id": "https://openalex.org/W2133360663",
+          "title": "Picante: R tools for integrating phylogenies and ecology",
+          "year": "2010",
+          "cited_by_count": 6246,
+          "url": "/domains/ecology/papers/W2133360663"
+        }
+      ]
+    },
+    {
+      "id": "sg-biological-dispersal",
+      "label": "Biological dispersal",
+      "url": "/domains/ecology/topics/sg-biological-dispersal",
+      "paper_count": 23,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: ecology, ecology and vegetation dynamics studies, ecological",
+      "tags": [
+        "biogeography ecology",
+        "biological dispersal",
+        "biology ecology",
+        "ecology and evolutionary biology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-biological-dispersal-seed-dispersal",
+          "label": "Seed dispersal",
+          "url": "/domains/ecology/topics/sg-biological-dispersal-seed-dispersal",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-biological-dispersal-library-science",
+          "label": "Library science",
+          "url": "/domains/ecology/topics/sg-biological-dispersal-library-science",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2254735081",
+          "title": "The Ecology of Human Development",
+          "year": "1979",
+          "cited_by_count": 23124,
+          "url": "/domains/ecology/papers/W2254735081"
+        },
+        {
+          "source_id": "https://openalex.org/W1998025025",
+          "title": "Collinearity: a review of methods to deal with it and a simulation study evaluating their performance",
+          "year": "2012",
+          "cited_by_count": 10099,
+          "url": "/domains/ecology/papers/W1998025025"
+        },
+        {
+          "source_id": "https://openalex.org/W2161163382",
+          "title": "A new method for non‐parametric multivariate analysis of variance",
+          "year": "2001",
+          "cited_by_count": 13235,
+          "url": "/domains/ecology/papers/W2161163382"
+        }
+      ]
+    },
+    {
+      "id": "sg-landscape-ecology",
+      "label": "Landscape ecology",
+      "url": "/domains/ecology/topics/sg-landscape-ecology",
+      "paper_count": 22,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: ecology, land, landscape",
+      "tags": [
+        "applied ecology",
+        "biology ecology",
+        "community landscape ecology",
+        "ecology and evolutionary biology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-landscape-ecology-landscape-connectivity",
+          "label": "Landscape connectivity",
+          "url": "/domains/ecology/topics/sg-landscape-ecology-landscape-connectivity",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-landscape-ecology-land-use",
+          "label": "Land use",
+          "url": "/domains/ecology/topics/sg-landscape-ecology-land-use",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-landscape-ecology-ecological-genetics",
+          "label": "Ecological genetics",
+          "url": "/domains/ecology/topics/sg-landscape-ecology-ecological-genetics",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-landscape-ecology-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/ecology/topics/sg-landscape-ecology-evolutionary-biology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W180836830",
+          "title": "Köppen's climate classification map for Brazil",
+          "year": "2013",
+          "cited_by_count": 11480,
+          "url": "/domains/ecology/papers/W180836830"
+        },
+        {
+          "source_id": "https://openalex.org/W2784327149",
+          "title": "TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958–2015",
+          "year": "2018",
+          "cited_by_count": 3007,
+          "url": "/domains/ecology/papers/W2784327149"
+        },
+        {
+          "source_id": "https://openalex.org/W2888940799",
+          "title": "Three pillars of sustainability: in search of conceptual origins",
+          "year": "2018",
+          "cited_by_count": 2969,
+          "url": "/domains/ecology/papers/W2888940799"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 21,
+      "papers": [
+        {
+          "title": "The ERA5 global reanalysis",
+          "year": "2020",
+          "cited_by_count": 28895,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3025949386.html"
+        },
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        },
+        {
+          "title": "The value of the world&#x27;s ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21693,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2746485780.html"
+        },
+        {
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12092,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4213327538.html"
+        },
+        {
+          "title": "The Ecology of Human Development",
+          "year": "1979",
+          "cited_by_count": 23124,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2254735081.html"
+        }
+      ]
+    },
+    {
+      "label": "Landscape connectivity",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Köppen&#x27;s climate classification map for Brazil",
+          "year": "2013",
+          "cited_by_count": 11480,
+          "topic": "Landscape connectivity",
+          "url": "papers/https-openalex-org-w180836830.html"
+        },
+        {
+          "title": "The representative concentration pathways: an overview",
+          "year": "2011",
+          "cited_by_count": 7901,
+          "topic": "Landscape connectivity",
+          "url": "papers/https-openalex-org-w1991308688.html"
+        },
+        {
+          "title": "Environmental and Health Impacts of Air Pollution: A Review",
+          "year": "2020",
+          "cited_by_count": 4862,
+          "topic": "Landscape connectivity",
+          "url": "papers/https-openalex-org-w3007246056.html"
+        },
+        {
+          "title": "Updated high‐resolution grids of monthly climatic observations – the &lt;scp&gt;CRU TS3&lt;/scp&gt; .10 Dataset",
+          "year": "2013",
+          "cited_by_count": 6265,
+          "topic": "Landscape connectivity",
+          "url": "papers/https-openalex-org-w1867005924.html"
+        },
+        {
+          "title": "Global Change and the Ecology of Cities",
+          "year": "2008",
+          "cited_by_count": 6857,
+          "topic": "Landscape connectivity",
+          "url": "papers/https-openalex-org-w2097467169.html"
+        },
+        {
+          "title": "Resilience, Adaptability and Transformability in Social-ecological Systems",
+          "year": "2004",
+          "cited_by_count": 7305,
+          "topic": "Landscape connectivity",
+          "url": "papers/https-openalex-org-w2274815048.html"
+        }
+      ]
+    },
+    {
+      "label": "Community ecology",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "vegan: Community Ecology Package",
+          "year": "2001",
+          "cited_by_count": 22948,
+          "topic": "Community ecology",
+          "url": "papers/https-openalex-org-w3174993126.html"
+        },
+        {
+          "title": "The Theory of Island Biogeography",
+          "year": "2001",
+          "cited_by_count": 12734,
+          "topic": "Community ecology",
+          "url": "papers/https-openalex-org-w1936774573.html"
+        },
+        {
+          "title": "Picante: R tools for integrating phylogenies and ecology",
+          "year": "2010",
+          "cited_by_count": 6246,
+          "topic": "Community ecology",
+          "url": "papers/https-openalex-org-w2133360663.html"
+        },
+        {
+          "title": "Vegan : community ecology package. R package version 1.17-9",
+          "year": "2007",
+          "cited_by_count": 6593,
+          "topic": "Community ecology",
+          "url": "papers/https-openalex-org-w2282537990.html"
+        }
+      ]
+    },
+    {
+      "label": "Species distribution",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+          "year": "2013",
+          "cited_by_count": 21837,
+          "topic": "Species distribution",
+          "url": "papers/https-openalex-org-w2056279562.html"
+        },
+        {
+          "title": "Novel methods improve prediction of species’ distributions from occurrence data",
+          "year": "2006",
+          "cited_by_count": 9011,
+          "topic": "Species distribution",
+          "url": "papers/https-openalex-org-w2112315008.html"
+        },
+        {
+          "title": "Ecological Diversity and Its Measurement",
+          "year": "1988",
+          "cited_by_count": 10906,
+          "topic": "Species distribution",
+          "url": "papers/https-openalex-org-w2003485756.html"
+        },
+        {
+          "title": "Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation",
+          "year": "2008",
+          "cited_by_count": 6715,
+          "topic": "Species distribution",
+          "url": "papers/https-openalex-org-w2033686454.html"
+        }
+      ]
+    },
+    {
+      "label": "Evolutionary ecology",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Generalized linear mixed models: a practical guide for ecology and evolution",
+          "year": "2009",
+          "cited_by_count": 8661,
+          "topic": "Evolutionary ecology",
+          "url": "papers/https-openalex-org-w2155988679.html"
+        },
+        {
+          "title": "Seeds: ecology, biogeography, and evolution of dormancy and germination",
+          "year": "2015",
+          "cited_by_count": 5505,
+          "topic": "Evolutionary ecology",
+          "url": "papers/https-openalex-org-w1514490835.html"
+        },
+        {
+          "title": "TOWARD A METABOLIC THEORY OF ECOLOGY",
+          "year": "2004",
+          "cited_by_count": 7687,
+          "topic": "Evolutionary ecology",
+          "url": "papers/https-openalex-org-w2114795157.html"
+        }
+      ]
+    },
+    {
+      "label": "Microbial ecology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+          "year": "2012",
+          "cited_by_count": 8984,
+          "topic": "Microbial ecology",
+          "url": "papers/https-openalex-org-w2166171121.html"
+        }
+      ]
+    },
+    {
+      "label": "Species distributions",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Mixed effects models and extensions in ecology with R",
+          "year": "2009",
+          "cited_by_count": 17466,
+          "topic": "Species distributions",
+          "url": "papers/https-openalex-org-w1518897246.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28895,
+      "adjusted_cited_by_count": 11796.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2056279562",
+      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+      "year": 2013,
+      "cited_by_count": 21837,
+      "adjusted_cited_by_count": 6056.49,
+      "primary_topic_id": "sg-species-distribution",
+      "primary_topic_label": "Species distribution",
+      "url": "/domains/ecology/papers/W2056279562"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W3174993126",
+      "title": "vegan: Community Ecology Package",
+      "year": 2001,
+      "cited_by_count": 22948,
+      "adjusted_cited_by_count": 4589.6,
+      "primary_topic_id": "sg-community-ecology",
+      "primary_topic_label": "Community ecology",
+      "url": "/domains/ecology/papers/W3174993126"
+    },
+    {
+      "source_id": "https://openalex.org/W1518897246",
+      "title": "Mixed effects models and extensions in ecology with R",
+      "year": 2009,
+      "cited_by_count": 17466,
+      "adjusted_cited_by_count": 4236.13,
+      "primary_topic_id": "sg-species-distribution-species-distributions",
+      "primary_topic_label": "Species distributions",
+      "url": "/domains/ecology/papers/W1518897246"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21693,
+      "adjusted_cited_by_count": 4028.29,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12092,
+      "adjusted_cited_by_count": 3490.66,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2254735081",
+      "title": "The Ecology of Human Development",
+      "year": 1979,
+      "cited_by_count": 23124,
+      "adjusted_cited_by_count": 3372.98,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2254735081"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "primary_topic_id": "sg-landscape-ecology-landscape-connectivity",
+      "primary_topic_label": "Landscape connectivity",
+      "url": "/domains/ecology/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W1998025025",
+      "title": "Collinearity: a review of methods to deal with it and a simulation study evaluating their performance",
+      "year": 2012,
+      "cited_by_count": 10099,
+      "adjusted_cited_by_count": 2699.07,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W1998025025"
+    },
+    {
+      "source_id": "https://openalex.org/W2161163382",
+      "title": "A new method for non‐parametric multivariate analysis of variance",
+      "year": 2001,
+      "cited_by_count": 13235,
+      "adjusted_cited_by_count": 2647.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2161163382"
+    },
+    {
+      "source_id": "https://openalex.org/W1936774573",
+      "title": "The Theory of Island Biogeography",
+      "year": 2001,
+      "cited_by_count": 12734,
+      "adjusted_cited_by_count": 2546.8,
+      "primary_topic_id": "sg-community-ecology",
+      "primary_topic_label": "Community ecology",
+      "url": "/domains/ecology/papers/W1936774573"
+    },
+    {
+      "source_id": "https://openalex.org/W2166171121",
+      "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+      "year": 2012,
+      "cited_by_count": 8984,
+      "adjusted_cited_by_count": 2401.07,
+      "primary_topic_id": "sg-microbial-ecology",
+      "primary_topic_label": "Microbial ecology",
+      "url": "/domains/ecology/papers/W2166171121"
+    },
+    {
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17400,
+      "adjusted_cited_by_count": 2390.07,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2011303397"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6234,
+      "adjusted_cited_by_count": 2204.05,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2155988679",
+      "title": "Generalized linear mixed models: a practical guide for ecology and evolution",
+      "year": 2009,
+      "cited_by_count": 8661,
+      "adjusted_cited_by_count": 2100.6,
+      "primary_topic_id": "sg-evolutionary-ecology",
+      "primary_topic_label": "Evolutionary ecology",
+      "url": "/domains/ecology/papers/W2155988679"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7901,
+      "adjusted_cited_by_count": 2040.03,
+      "primary_topic_id": "sg-landscape-ecology-landscape-connectivity",
+      "primary_topic_label": "Landscape connectivity",
+      "url": "/domains/ecology/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2112315008",
+      "title": "Novel methods improve prediction of species’ distributions from occurrence data",
+      "year": 2006,
+      "cited_by_count": 9011,
+      "adjusted_cited_by_count": 2014.92,
+      "primary_topic_id": "sg-species-distribution",
+      "primary_topic_label": "Species distribution",
+      "url": "/domains/ecology/papers/W2112315008"
+    },
+    {
+      "source_id": "https://openalex.org/W3007246056",
+      "title": "Environmental and Health Impacts of Air Pollution: A Review",
+      "year": 2020,
+      "cited_by_count": 4862,
+      "adjusted_cited_by_count": 1984.9,
+      "primary_topic_id": "sg-landscape-ecology-landscape-connectivity",
+      "primary_topic_label": "Landscape connectivity",
+      "url": "/domains/ecology/papers/W3007246056"
+    },
+    {
+      "source_id": "https://openalex.org/W2111684210",
+      "title": "A protocol for data exploration to avoid common statistical problems",
+      "year": 2009,
+      "cited_by_count": 7917,
+      "adjusted_cited_by_count": 1920.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2111684210"
+    },
+    {
+      "source_id": "https://openalex.org/W2105630660",
+      "title": "The ecology of human development : experiments by nature and design",
+      "year": 1979,
+      "cited_by_count": 12559,
+      "adjusted_cited_by_count": 1831.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2105630660"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8584,
+      "adjusted_cited_by_count": 1830.11,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W2107140090",
+      "title": "Freshwater biodiversity: importance, threats, status and conservation challenges",
+      "year": 2005,
+      "cited_by_count": 8116,
+      "adjusted_cited_by_count": 1771.06,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2107140090"
+    },
+    {
+      "source_id": "https://openalex.org/W2003485756",
+      "title": "Ecological Diversity and Its Measurement",
+      "year": 1988,
+      "cited_by_count": 10906,
+      "adjusted_cited_by_count": 1769.19,
+      "primary_topic_id": "sg-species-distribution",
+      "primary_topic_label": "Species distribution",
+      "url": "/domains/ecology/papers/W2003485756"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "primary_topic_id": "sg-landscape-ecology-landscape-connectivity",
+      "primary_topic_label": "Landscape connectivity",
+      "url": "/domains/ecology/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7844,
+      "adjusted_cited_by_count": 1711.7,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1971670344",
+      "title": "Institutional Ecology, `Translations' and Boundary Objects: Amateurs and Professionals in Berkeley's Museum of Vertebrate Zoology, 1907-39",
+      "year": 1989,
+      "cited_by_count": 10098,
+      "adjusted_cited_by_count": 1660.1,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W1971670344"
+    },
+    {
+      "source_id": "https://openalex.org/W1514490835",
+      "title": "Seeds: ecology, biogeography, and evolution of dormancy and germination",
+      "year": 2015,
+      "cited_by_count": 5505,
+      "adjusted_cited_by_count": 1659.82,
+      "primary_topic_id": "sg-evolutionary-ecology",
+      "primary_topic_label": "Evolutionary ecology",
+      "url": "/domains/ecology/papers/W1514490835"
+    },
+    {
+      "source_id": "https://openalex.org/W2114795157",
+      "title": "TOWARD A METABOLIC THEORY OF ECOLOGY",
+      "year": 2004,
+      "cited_by_count": 7687,
+      "adjusted_cited_by_count": 1638.87,
+      "primary_topic_id": "sg-evolutionary-ecology",
+      "primary_topic_label": "Evolutionary ecology",
+      "url": "/domains/ecology/papers/W2114795157"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6857,
+      "adjusted_cited_by_count": 1616.21,
+      "primary_topic_id": "sg-landscape-ecology-landscape-connectivity",
+      "primary_topic_label": "Landscape connectivity",
+      "url": "/domains/ecology/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2084530896",
+      "title": "Resilience: The emergence of a perspective for social–ecological systems analyses",
+      "year": 2006,
+      "cited_by_count": 7197,
+      "adjusted_cited_by_count": 1609.3,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2084530896"
+    },
+    {
+      "source_id": "https://openalex.org/W2033686454",
+      "title": "Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation",
+      "year": 2008,
+      "cited_by_count": 6715,
+      "adjusted_cited_by_count": 1582.74,
+      "primary_topic_id": "sg-species-distribution",
+      "primary_topic_label": "Species distribution",
+      "url": "/domains/ecology/papers/W2033686454"
+    },
+    {
+      "source_id": "https://openalex.org/W2133360663",
+      "title": "Picante: R tools for integrating phylogenies and ecology",
+      "year": 2010,
+      "cited_by_count": 6246,
+      "adjusted_cited_by_count": 1561.5,
+      "primary_topic_id": "sg-community-ecology",
+      "primary_topic_label": "Community ecology",
+      "url": "/domains/ecology/papers/W2133360663"
+    },
+    {
+      "source_id": "https://openalex.org/W2274815048",
+      "title": "Resilience, Adaptability and Transformability in Social-ecological Systems",
+      "year": 2004,
+      "cited_by_count": 7305,
+      "adjusted_cited_by_count": 1557.43,
+      "primary_topic_id": "sg-landscape-ecology-landscape-connectivity",
+      "primary_topic_label": "Landscape connectivity",
+      "url": "/domains/ecology/papers/W2274815048"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6777,
+      "adjusted_cited_by_count": 1515.38,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2282537990",
+      "title": "Vegan : community ecology package. R package version 1.17-9",
+      "year": 2007,
+      "cited_by_count": 6593,
+      "adjusted_cited_by_count": 1512.54,
+      "primary_topic_id": "sg-community-ecology",
+      "primary_topic_label": "Community ecology",
+      "url": "/domains/ecology/papers/W2282537990"
+    },
+    {
+      "source_id": "https://openalex.org/W4386706488",
+      "title": "Earth beyond six of nine planetary boundaries",
+      "year": 2023,
+      "cited_by_count": 2564,
+      "adjusted_cited_by_count": 1480.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W4386706488"
+    },
+    {
+      "source_id": "https://openalex.org/W2011596025",
+      "title": "Parasitology Meets Ecology on Its Own Terms: Margolis et al. Revisited",
+      "year": 1997,
+      "cited_by_count": 7742,
+      "adjusted_cited_by_count": 1437.65,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/ecology/papers/W2011596025"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3025949386",
+      "title": "The ERA5 global reanalysis",
+      "year": 2020,
+      "cited_by_count": 28895,
+      "adjusted_cited_by_count": 11796.33,
+      "url": "/domains/ecology/papers/W3025949386"
+    },
+    {
+      "source_id": "https://openalex.org/W2056279562",
+      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+      "year": 2013,
+      "cited_by_count": 21837,
+      "adjusted_cited_by_count": 6056.49,
+      "url": "/domains/ecology/papers/W2056279562"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/ecology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W3174993126",
+      "title": "vegan: Community Ecology Package",
+      "year": 2001,
+      "cited_by_count": 22948,
+      "adjusted_cited_by_count": 4589.6,
+      "url": "/domains/ecology/papers/W3174993126"
+    },
+    {
+      "source_id": "https://openalex.org/W1518897246",
+      "title": "Mixed effects models and extensions in ecology with R",
+      "year": 2009,
+      "cited_by_count": 17466,
+      "adjusted_cited_by_count": 4236.13,
+      "url": "/domains/ecology/papers/W1518897246"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "url": "/domains/ecology/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21693,
+      "adjusted_cited_by_count": 4028.29,
+      "url": "/domains/ecology/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12092,
+      "adjusted_cited_by_count": 3490.66,
+      "url": "/domains/ecology/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2254735081",
+      "title": "The Ecology of Human Development",
+      "year": 1979,
+      "cited_by_count": 23124,
+      "adjusted_cited_by_count": 3372.98,
+      "url": "/domains/ecology/papers/W2254735081"
+    },
+    {
+      "source_id": "https://openalex.org/W180836830",
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by_count": 11480,
+      "adjusted_cited_by_count": 3183.98,
+      "url": "/domains/ecology/papers/W180836830"
+    },
+    {
+      "source_id": "https://openalex.org/W1998025025",
+      "title": "Collinearity: a review of methods to deal with it and a simulation study evaluating their performance",
+      "year": 2012,
+      "cited_by_count": 10099,
+      "adjusted_cited_by_count": 2699.07,
+      "url": "/domains/ecology/papers/W1998025025"
+    },
+    {
+      "source_id": "https://openalex.org/W2161163382",
+      "title": "A new method for non‐parametric multivariate analysis of variance",
+      "year": 2001,
+      "cited_by_count": 13235,
+      "adjusted_cited_by_count": 2647.0,
+      "url": "/domains/ecology/papers/W2161163382"
+    },
+    {
+      "source_id": "https://openalex.org/W1936774573",
+      "title": "The Theory of Island Biogeography",
+      "year": 2001,
+      "cited_by_count": 12734,
+      "adjusted_cited_by_count": 2546.8,
+      "url": "/domains/ecology/papers/W1936774573"
+    },
+    {
+      "source_id": "https://openalex.org/W2166171121",
+      "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+      "year": 2012,
+      "cited_by_count": 8984,
+      "adjusted_cited_by_count": 2401.07,
+      "url": "/domains/ecology/papers/W2166171121"
+    },
+    {
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17400,
+      "adjusted_cited_by_count": 2390.07,
+      "url": "/domains/ecology/papers/W2011303397"
+    },
+    {
+      "source_id": "https://openalex.org/W2898962279",
+      "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+      "year": 2018,
+      "cited_by_count": 6234,
+      "adjusted_cited_by_count": 2204.05,
+      "url": "/domains/ecology/papers/W2898962279"
+    },
+    {
+      "source_id": "https://openalex.org/W2155988679",
+      "title": "Generalized linear mixed models: a practical guide for ecology and evolution",
+      "year": 2009,
+      "cited_by_count": 8661,
+      "adjusted_cited_by_count": 2100.6,
+      "url": "/domains/ecology/papers/W2155988679"
+    },
+    {
+      "source_id": "https://openalex.org/W1991308688",
+      "title": "The representative concentration pathways: an overview",
+      "year": 2011,
+      "cited_by_count": 7901,
+      "adjusted_cited_by_count": 2040.03,
+      "url": "/domains/ecology/papers/W1991308688"
+    },
+    {
+      "source_id": "https://openalex.org/W2112315008",
+      "title": "Novel methods improve prediction of species’ distributions from occurrence data",
+      "year": 2006,
+      "cited_by_count": 9011,
+      "adjusted_cited_by_count": 2014.92,
+      "url": "/domains/ecology/papers/W2112315008"
+    },
+    {
+      "source_id": "https://openalex.org/W3007246056",
+      "title": "Environmental and Health Impacts of Air Pollution: A Review",
+      "year": 2020,
+      "cited_by_count": 4862,
+      "adjusted_cited_by_count": 1984.9,
+      "url": "/domains/ecology/papers/W3007246056"
+    },
+    {
+      "source_id": "https://openalex.org/W2111684210",
+      "title": "A protocol for data exploration to avoid common statistical problems",
+      "year": 2009,
+      "cited_by_count": 7917,
+      "adjusted_cited_by_count": 1920.15,
+      "url": "/domains/ecology/papers/W2111684210"
+    },
+    {
+      "source_id": "https://openalex.org/W2105630660",
+      "title": "The ecology of human development : experiments by nature and design",
+      "year": 1979,
+      "cited_by_count": 12559,
+      "adjusted_cited_by_count": 1831.92,
+      "url": "/domains/ecology/papers/W2105630660"
+    },
+    {
+      "source_id": "https://openalex.org/W2118295263",
+      "title": "The worldwide leaf economics spectrum",
+      "year": 2004,
+      "cited_by_count": 8584,
+      "adjusted_cited_by_count": 1830.11,
+      "url": "/domains/ecology/papers/W2118295263"
+    },
+    {
+      "source_id": "https://openalex.org/W2107140090",
+      "title": "Freshwater biodiversity: importance, threats, status and conservation challenges",
+      "year": 2005,
+      "cited_by_count": 8116,
+      "adjusted_cited_by_count": 1771.06,
+      "url": "/domains/ecology/papers/W2107140090"
+    },
+    {
+      "source_id": "https://openalex.org/W2003485756",
+      "title": "Ecological Diversity and Its Measurement",
+      "year": 1988,
+      "cited_by_count": 10906,
+      "adjusted_cited_by_count": 1769.19,
+      "url": "/domains/ecology/papers/W2003485756"
+    },
+    {
+      "source_id": "https://openalex.org/W1867005924",
+      "title": "Updated high‐resolution grids of monthly climatic observations – the <scp>CRU TS3</scp> .10 Dataset",
+      "year": 2013,
+      "cited_by_count": 6265,
+      "adjusted_cited_by_count": 1737.6,
+      "url": "/domains/ecology/papers/W1867005924"
+    },
+    {
+      "source_id": "https://openalex.org/W2103317434",
+      "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+      "year": 2005,
+      "cited_by_count": 7844,
+      "adjusted_cited_by_count": 1711.7,
+      "url": "/domains/ecology/papers/W2103317434"
+    },
+    {
+      "source_id": "https://openalex.org/W2105414963",
+      "title": "Planetary Boundaries: Exploring the Safe Operating Space for Humanity",
+      "year": 2009,
+      "cited_by_count": 6923,
+      "adjusted_cited_by_count": 1679.07,
+      "url": "/domains/ecology/papers/W2105414963"
+    },
+    {
+      "source_id": "https://openalex.org/W1971670344",
+      "title": "Institutional Ecology, `Translations' and Boundary Objects: Amateurs and Professionals in Berkeley's Museum of Vertebrate Zoology, 1907-39",
+      "year": 1989,
+      "cited_by_count": 10098,
+      "adjusted_cited_by_count": 1660.1,
+      "url": "/domains/ecology/papers/W1971670344"
+    },
+    {
+      "source_id": "https://openalex.org/W1514490835",
+      "title": "Seeds: ecology, biogeography, and evolution of dormancy and germination",
+      "year": 2015,
+      "cited_by_count": 5505,
+      "adjusted_cited_by_count": 1659.82,
+      "url": "/domains/ecology/papers/W1514490835"
+    },
+    {
+      "source_id": "https://openalex.org/W2114795157",
+      "title": "TOWARD A METABOLIC THEORY OF ECOLOGY",
+      "year": 2004,
+      "cited_by_count": 7687,
+      "adjusted_cited_by_count": 1638.87,
+      "url": "/domains/ecology/papers/W2114795157"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6857,
+      "adjusted_cited_by_count": 1616.21,
+      "url": "/domains/ecology/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2084530896",
+      "title": "Resilience: The emergence of a perspective for social–ecological systems analyses",
+      "year": 2006,
+      "cited_by_count": 7197,
+      "adjusted_cited_by_count": 1609.3,
+      "url": "/domains/ecology/papers/W2084530896"
+    },
+    {
+      "source_id": "https://openalex.org/W2033686454",
+      "title": "Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation",
+      "year": 2008,
+      "cited_by_count": 6715,
+      "adjusted_cited_by_count": 1582.74,
+      "url": "/domains/ecology/papers/W2033686454"
+    },
+    {
+      "source_id": "https://openalex.org/W2133360663",
+      "title": "Picante: R tools for integrating phylogenies and ecology",
+      "year": 2010,
+      "cited_by_count": 6246,
+      "adjusted_cited_by_count": 1561.5,
+      "url": "/domains/ecology/papers/W2133360663"
+    },
+    {
+      "source_id": "https://openalex.org/W2274815048",
+      "title": "Resilience, Adaptability and Transformability in Social-ecological Systems",
+      "year": 2004,
+      "cited_by_count": 7305,
+      "adjusted_cited_by_count": 1557.43,
+      "url": "/domains/ecology/papers/W2274815048"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6777,
+      "adjusted_cited_by_count": 1515.38,
+      "url": "/domains/ecology/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2282537990",
+      "title": "Vegan : community ecology package. R package version 1.17-9",
+      "year": 2007,
+      "cited_by_count": 6593,
+      "adjusted_cited_by_count": 1512.54,
+      "url": "/domains/ecology/papers/W2282537990"
+    },
+    {
+      "source_id": "https://openalex.org/W4386706488",
+      "title": "Earth beyond six of nine planetary boundaries",
+      "year": 2023,
+      "cited_by_count": 2564,
+      "adjusted_cited_by_count": 1480.33,
+      "url": "/domains/ecology/papers/W4386706488"
+    },
+    {
+      "source_id": "https://openalex.org/W2011596025",
+      "title": "Parasitology Meets Ecology on Its Own Terms: Margolis et al. Revisited",
+      "year": 1997,
+      "cited_by_count": 7742,
+      "adjusted_cited_by_count": 1437.65,
+      "url": "/domains/ecology/papers/W2011596025"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 404
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 220
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 199
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 147
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 129
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 129
+    },
+    {
+      "label": "ecological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 126
+    },
+    {
+      "label": "environment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 110
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 104
+    },
+    {
+      "label": "community",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 97
+    },
+    {
+      "label": "diversity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 92
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 89
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "habitat",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 222
+    },
+    {
+      "label": "land",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 80
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 79
+    },
+    {
+      "label": "evolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 77
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 70
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 70
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 69
+    },
+    {
+      "label": "two",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 69
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 68
+    },
+    {
+      "label": "ecology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 67
+    },
+    {
+      "label": "plant",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 67
+    },
+    {
+      "label": "ecosystems",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 63
+    },
+    {
+      "label": "biodiversity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 61
+    },
+    {
+      "label": "range",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 60
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 60
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 59
+    },
+    {
+      "label": "distribution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 58
+    },
+    {
+      "label": "environmental resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 56
+    },
+    {
+      "label": "natural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 56
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 63
+    },
+    {
+      "label": "ecology and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 57
+    },
+    {
+      "label": "processes",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 55
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 54
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 54
+    },
+    {
+      "label": "impact",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 53
+    }
+  ],
+  "topic_year_counts": {
+    "evolutionary ecology": {
+      "2023": 49300,
+      "2024": 45262,
+      "2025": 45130,
+      "2022": 33486,
+      "2021": 32698,
+      "2020": 30959,
+      "2019": 26681,
+      "2018": 24084,
+      "2017": 22730,
+      "2016": 20535,
+      "2015": 18767,
+      "2014": 17282,
+      "2013": 15512,
+      "2012": 13628,
+      "2011": 11406,
+      "2026": 10880,
+      "2010": 9599,
+      "2009": 8491,
+      "2008": 7042,
+      "2007": 6064,
+      "2006": 5248,
+      "2005": 4271,
+      "2004": 3845,
+      "2003": 3243,
+      "2002": 2778,
+      "2000": 2451,
+      "2001": 2431
+    },
+    "species distribution": {
+      "2023": 330116,
+      "2024": 308050,
+      "2025": 304843,
+      "2022": 229262,
+      "2021": 222353,
+      "2020": 202298,
+      "2019": 181705,
+      "2018": 153388,
+      "2017": 142714,
+      "2016": 132215,
+      "2015": 122542,
+      "2014": 114150,
+      "2013": 105075,
+      "2012": 93354,
+      "2026": 83127,
+      "2011": 81518,
+      "2010": 71161,
+      "2009": 63113,
+      "2008": 54030,
+      "2007": 47921,
+      "2006": 42821,
+      "2005": 38429,
+      "2004": 34536,
+      "2003": 31005,
+      "2002": 27055,
+      "2000": 24966,
+      "2001": 24442
+    },
+    "ecological niche": {
+      "2025": 38373,
+      "2023": 33268,
+      "2024": 32378,
+      "2022": 22874,
+      "2021": 22442,
+      "2020": 20418,
+      "2019": 17396,
+      "2018": 15443,
+      "2017": 14304,
+      "2016": 13058,
+      "2015": 11565,
+      "2014": 10554,
+      "2026": 10476,
+      "2013": 9407,
+      "2012": 8227,
+      "2011": 6762,
+      "2010": 5774,
+      "2009": 4926,
+      "2008": 3960,
+      "2007": 3445,
+      "2006": 3335,
+      "2005": 2356,
+      "2004": 1941,
+      "2003": 1783,
+      "2002": 1410,
+      "2000": 1287,
+      "2001": 1278
+    },
+    "microbial ecology": {
+      "2023": 42398,
+      "2025": 42163,
+      "2024": 40401,
+      "2022": 29683,
+      "2021": 27708,
+      "2020": 25834,
+      "2019": 21307,
+      "2018": 18727,
+      "2017": 17043,
+      "2016": 15071,
+      "2015": 12983,
+      "2014": 12047,
+      "2026": 10688,
+      "2013": 10526,
+      "2012": 9206,
+      "2011": 7256,
+      "2010": 6190,
+      "2009": 5251,
+      "2008": 4423,
+      "2007": 3894,
+      "2006": 3375,
+      "2005": 2760,
+      "2004": 2317,
+      "2003": 2073,
+      "2002": 1806,
+      "2001": 1582,
+      "2000": 1540
+    },
+    "plant ecology": {
+      "2023": 106662,
+      "2025": 98276,
+      "2024": 98020,
+      "2022": 75679,
+      "2021": 71367,
+      "2020": 66263,
+      "2019": 56445,
+      "2018": 50416,
+      "2017": 45642,
+      "2016": 41417,
+      "2015": 36987,
+      "2014": 34215,
+      "2013": 31073,
+      "2012": 27184,
+      "2011": 22643,
+      "2026": 21693,
+      "2010": 19739,
+      "2009": 17125,
+      "2008": 14571,
+      "2007": 13099,
+      "2006": 11537,
+      "2005": 9743,
+      "2004": 8408,
+      "2003": 7499,
+      "2002": 6439,
+      "2001": 5932,
+      "2000": 5827
+    },
+    "community ecology": {
+      "2023": 121430,
+      "2025": 121282,
+      "2024": 114716,
+      "2022": 85180,
+      "2021": 80446,
+      "2020": 73648,
+      "2019": 62367,
+      "2018": 55703,
+      "2017": 50433,
+      "2016": 45745,
+      "2015": 40962,
+      "2014": 37618,
+      "2013": 33592,
+      "2012": 29170,
+      "2026": 28772,
+      "2011": 24292,
+      "2010": 21219,
+      "2009": 18480,
+      "2008": 15450,
+      "2007": 13661,
+      "2006": 11964,
+      "2005": 9979,
+      "2004": 8496,
+      "2003": 7492,
+      "2002": 6409,
+      "2000": 5831,
+      "2001": 5713
+    },
+    "biological dispersal": {
+      "2023": 23113,
+      "2025": 21009,
+      "2024": 20481,
+      "2022": 15669,
+      "2021": 15666,
+      "2020": 14916,
+      "2019": 12949,
+      "2018": 11750,
+      "2017": 11297,
+      "2016": 10614,
+      "2015": 9657,
+      "2014": 9092,
+      "2013": 8510,
+      "2012": 7379,
+      "2011": 6053,
+      "2026": 5342,
+      "2010": 5236,
+      "2009": 4751,
+      "2008": 3849,
+      "2007": 3440,
+      "2006": 2930,
+      "2005": 2553,
+      "2004": 2229,
+      "2003": 1914,
+      "2002": 1661,
+      "2000": 1595,
+      "2001": 1406
+    },
+    "landscape ecology": {
+      "2025": 69435,
+      "2023": 62734,
+      "2024": 62452,
+      "2022": 42981,
+      "2021": 40996,
+      "2020": 37252,
+      "2019": 32090,
+      "2018": 28563,
+      "2017": 25668,
+      "2016": 23495,
+      "2015": 20866,
+      "2014": 18949,
+      "2013": 17168,
+      "2026": 16890,
+      "2012": 14527,
+      "2011": 12064,
+      "2010": 10444,
+      "2009": 9059,
+      "2008": 7673,
+      "2007": 6804,
+      "2006": 5935,
+      "2005": 4876,
+      "2004": 3800,
+      "2003": 3387,
+      "2002": 2812,
+      "2000": 2499,
+      "2001": 2389
+    }
+  }
+}
