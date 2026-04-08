@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { createPortal } from "react-dom";
 import { useTrailContext } from "./trail-context";
 
 type TrailItem = {
@@ -81,25 +80,9 @@ export function HeaderMenu() {
       ]
     : baseTrail;
   const [open, setOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    function syncIsMobile() {
-      setIsMobile(window.innerWidth <= MOBILE_BREAKPOINT);
-    }
-
-    syncIsMobile();
-    window.addEventListener("resize", syncIsMobile);
-    return () => window.removeEventListener("resize", syncIsMobile);
-  }, []);
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -190,11 +173,24 @@ export function HeaderMenu() {
     };
   }, [open]);
 
-  const panel = (
-    <>
+  return (
+    <div className="site-menu" data-open={open} ref={ref}>
       {open && (
         <div className="site-menu-overlay" aria-hidden onClick={() => setOpen(false)} />
       )}
+      <button
+        ref={buttonRef}
+        className="site-menu-button"
+        aria-label={open ? "Close menu" : "Open menu"}
+        aria-controls={MENU_ID}
+        aria-expanded={open}
+        aria-haspopup="dialog"
+        onClick={() => setOpen((v) => !v)}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
       <div
         id={MENU_ID}
         ref={panelRef}
@@ -232,25 +228,6 @@ export function HeaderMenu() {
           </nav>
         </div>
       </div>
-    </>
-  );
-
-  return (
-    <div className="site-menu" data-open={open} ref={ref}>
-      <button
-        ref={buttonRef}
-        className="site-menu-button"
-        aria-label={open ? "Close menu" : "Open menu"}
-        aria-controls={MENU_ID}
-        aria-expanded={open}
-        aria-haspopup="dialog"
-        onClick={() => setOpen((v) => !v)}
-      >
-        <span />
-        <span />
-        <span />
-      </button>
-      {mounted ? (isMobile ? createPortal(panel, document.body) : panel) : null}
     </div>
   );
 }
