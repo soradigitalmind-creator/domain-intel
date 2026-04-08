@@ -171,6 +171,18 @@ function buildDomainSummary(slug, bundle, siteDomainData, portalData) {
   };
 }
 
+function sanitizeTopicSummary(summary) {
+  if (typeof summary !== "string" || summary.length === 0) {
+    return "";
+  }
+
+  return summary
+    .replace(/,?\s*\d+\s+prominent entities?,\s*\d+\s+prominent properties?\./gi, ".")
+    .replace(/\s+\./g, ".")
+    .replace(/\.\s*\./g, ".")
+    .trim();
+}
+
 // ---------------------------------------------------------------------------
 // Per-page data builders
 // ---------------------------------------------------------------------------
@@ -209,7 +221,7 @@ function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
       return {
         subgenre_id: topic.subgenre_id,
         label: topic.label,
-        summary: topic.summary,
+        summary: sanitizeTopicSummary(topic.summary),
         paperCount: topic.paper_ids.length,
         subtopicCount: children.length,
         tags: topic.member_terms.slice(0, 4),
@@ -330,7 +342,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
     topic: {
       subgenre_id: topic.subgenre_id,
       label: topic.label,
-      summary: topic.summary,
+      summary: sanitizeTopicSummary(topic.summary),
       paper_ids: topic.paper_ids,
       parent_id: topic.parent_id,
       level: topic.level,
