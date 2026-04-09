@@ -75,11 +75,11 @@ export default async function DomainPapersPage({ params }: Props) {
         </div>
       </section>
 
-      {detail.relatedDomains?.length > 0 && (
+      {detail.domain.relatedDomains?.length > 0 && (
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Related domains</h2>
           <div className={styles.relatedGrid}>
-            {detail.relatedDomains.map((d) => (
+            {detail.domain.relatedDomains.map((d) => (
               <Link
                 key={d.slug}
                 href={`/domains/${d.slug}/papers`}

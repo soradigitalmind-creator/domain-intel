@@ -107,7 +107,23 @@ function buildSourceMaps(bundle) {
     }
   }
 
-  return { sourceById, assignmentById, claimsBySource, entitiesBySource, sourcesByEntity, sourcesByConcept };
+  // Per-topic fingerprints: Set of entity ids + concepts derived from its papers
+  const topicFingerprints = new Map();
+  for (const topic of bundle.subgenres ?? []) {
+    const fp = new Set();
+    for (const pid of topic.paper_ids ?? []) {
+      const src = sourceById.get(pid);
+      if (src) {
+        for (const c of src.concepts ?? []) fp.add("c:" + c);
+      }
+      for (const ent of entitiesBySource.get(pid) ?? []) {
+        fp.add("e:" + ent.canonical_id);
+      }
+    }
+    topicFingerprints.set(topic.subgenre_id, fp);
+  }
+
+  return { sourceById, assignmentById, claimsBySource, entitiesBySource, sourcesByEntity, sourcesByConcept, topicFingerprints };
 }
 
 function mapTopicPaper(sourceId, sourceById, assignmentById) {
@@ -184,6 +200,7 @@ function buildDomainSummary(slug, bundle, siteDomainData, portalData) {
     hasDetail: Boolean(topicSummaryPayload && subgenresPayload?.length),
     abstractionLabel:
       portalDomain?.abstraction_label ?? siteDomainData?.abstraction?.label,
+    relatedDomains: buildRelatedDomains(slug, portalData),
   };
 }
 
@@ -281,7 +298,7 @@ function buildRelatedDomains(slug, portalData) {
 }
 
 /** papers-index.json — for /domains/[slug]/papers */
-function buildPapersIndexData(slug, bundle, domainSummary, maps, portalData) {
+function buildPapersIndexData(slug, bundle, domainSummary, maps) {
   const { sourceById, assignmentById } = maps;
   const subgenres = bundle.subgenres;
   const topicMap = new Map(subgenres.map((t) => [t.subgenre_id, t]));
@@ -318,10 +335,7 @@ function buildPapersIndexData(slug, bundle, domainSummary, maps, portalData) {
     .sort((a, b) => b.cited_by_count - a.cited_by_count)
     .slice(0, 120);
 
-  // Related domains: siblings in the same portal category
-  const relatedDomains = buildRelatedDomains(slug, portalData);
-
-  return { domain: domainSummary, shelves, archive, relatedDomains };
+  return { domain: domainSummary, shelves, archive };
 }
 
 /**
@@ -361,20 +375,32 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
       .map((t) => ({ subgenre_id: t.subgenre_id, label: t.label }));
   }
 
-  // Sibling topics: same parent, excluding self
+  // Related topics: siblings ranked by entity/concept Jaccard similarity
+  const { topicFingerprints } = maps;
+  const selfFp = topicFingerprints.get(topic.subgenre_id) ?? new Set();
   const siblingTopics = subgenres
     .filter(
       (t) =>
         t.parent_id === topic.parent_id &&
         t.subgenre_id !== topic.subgenre_id
     )
-    .map((t) => ({
-      subgenre_id: t.subgenre_id,
-      label: t.label,
-      paperCount: t.paper_ids.length,
-      subtopicCount: subgenres.filter((c) => c.parent_id === t.subgenre_id).length,
-    }))
-    .sort((a, b) => b.paperCount - a.paperCount)
+    .map((t) => {
+      const otherFp = topicFingerprints.get(t.subgenre_id) ?? new Set();
+      let intersection = 0;
+      for (const key of selfFp) {
+        if (otherFp.has(key)) intersection++;
+      }
+      const union = selfFp.size + otherFp.size - intersection;
+      const similarity = union > 0 ? Math.round((intersection / union) * 100) : 0;
+      return {
+        subgenre_id: t.subgenre_id,
+        label: t.label,
+        paperCount: t.paper_ids.length,
+        subtopicCount: subgenres.filter((c) => c.parent_id === t.subgenre_id).length,
+        similarity,
+      };
+    })
+    .sort((a, b) => b.similarity - a.similarity || b.paperCount - a.paperCount)
     .slice(0, 12);
 
   // Top papers for this topic
@@ -554,7 +580,7 @@ async function processDomain(slug, portalData) {
     ),
     writeJson(
       path.join(domainDir, "papers-index.json"),
-      buildPapersIndexData(slug, bundle, domainSummary, maps, portalData)
+      buildPapersIndexData(slug, bundle, domainSummary, maps)
     ),
     ...bundle.subgenres.map((topic) =>
       writeJson(

@@ -1,0 +1,2646 @@
+{
+  "slug": "cancer",
+  "title": "Cancer",
+  "updated_at": "2026-04-09T15:46:38.123724Z",
+  "snapshot": {
+    "papers": 779,
+    "topics": 12,
+    "subtopics": 386,
+    "entities": 1447,
+    "claims": 8
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 798,
+      "total_papers": 798,
+      "facet_counts": {
+        "none": 798
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning lung cancer, breast cancer, colorectal cancer.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 12,
+    "descendant_topics": 386,
+    "max_depth": 4,
+    "leaf_topics": 270
+  },
+  "rising_topics": [
+    {
+      "id": "sg-breast-cancer",
+      "label": "Breast cancer",
+      "url": "/domains/cancer/topics/sg-breast-cancer",
+      "trend": "rising",
+      "year_total": 2063387
+    },
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/cancer/topics/sg-cancer-research",
+      "trend": "rising",
+      "year_total": 4272670
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/cancer/topics/sg-gene-expression",
+      "trend": "rising",
+      "year_total": 4737806
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-breast-cancer",
+      "label": "Breast cancer",
+      "url": "/domains/cancer/topics/sg-breast-cancer",
+      "paper_count": 141,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cancer, of the",
+      "tags": [
+        "breast cancer",
+        "breast cancer potential",
+        "breast ovarian cancer",
+        "early breast cancer"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-breast-cancer-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-breast-cancer-internal-medicine",
+          "paper_count": 104
+        },
+        {
+          "id": "sg-breast-cancer-estrogen-receptor",
+          "label": "Estrogen receptor",
+          "url": "/domains/cancer/topics/sg-breast-cancer-estrogen-receptor",
+          "paper_count": 98
+        },
+        {
+          "id": "sg-breast-cancer-adjuvant-therapy",
+          "label": "Adjuvant therapy",
+          "url": "/domains/cancer/topics/sg-breast-cancer-adjuvant-therapy",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-breast-cancer-triple-negative-breast-cancer",
+          "label": "Triple-negative breast cancer",
+          "url": "/domains/cancer/topics/sg-breast-cancer-triple-negative-breast-cancer",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-breast-cancer-cancer-genomics",
+          "label": "Cancer genomics",
+          "url": "/domains/cancer/topics/sg-breast-cancer-cancer-genomics",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-breast-cancer-breast-conserving-surgery",
+          "label": "Breast-conserving surgery",
+          "url": "/domains/cancer/topics/sg-breast-cancer-breast-conserving-surgery",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3001897055",
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30218,
+          "url": "/domains/cancer/papers/W3001897055"
+        },
+        {
+          "source_id": "https://openalex.org/W2502134830",
+          "title": "AJCC Cancer Staging Manual",
+          "year": "2016",
+          "cited_by_count": 17404,
+          "url": "/domains/cancer/papers/W2502134830"
+        },
+        {
+          "source_id": "https://openalex.org/W1981989535",
+          "title": "Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008",
+          "year": "2010",
+          "cited_by_count": 21385,
+          "url": "/domains/cancer/papers/W1981989535"
+        }
+      ]
+    },
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/cancer/topics/sg-cancer-research",
+      "paper_count": 136,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: cancer research, cancer, genetics",
+      "tags": [
+        "breast ovarian cancer",
+        "cancer cells and metastasis",
+        "cancer correlation",
+        "cancer research"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-research-tumor-suppressor-gene",
+          "label": "Tumor suppressor gene",
+          "url": "/domains/cancer/topics/sg-cancer-research-tumor-suppressor-gene",
+          "paper_count": 43
+        },
+        {
+          "id": "sg-cancer-research-warburg-effect",
+          "label": "Warburg effect",
+          "url": "/domains/cancer/topics/sg-cancer-research-warburg-effect",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-cancer-research-cancer-associated-fibroblasts",
+          "label": "Cancer-associated fibroblasts",
+          "url": "/domains/cancer/topics/sg-cancer-research-cancer-associated-fibroblasts",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-cancer-research-cancer-metabolism-and-hypoxia",
+          "label": "Cancer metabolism and hypoxia",
+          "url": "/domains/cancer/topics/sg-cancer-research-cancer-metabolism-and-hypoxia",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-cancer-research-stromal-cell",
+          "label": "Stromal cell",
+          "url": "/domains/cancer/topics/sg-cancer-research-stromal-cell",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-cancer-research-tumor-progression",
+          "label": "Tumor progression",
+          "url": "/domains/cancer/topics/sg-cancer-research-tumor-progression",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2117692326",
+          "title": "Hallmarks of Cancer: The Next Generation",
+          "year": "2011",
+          "cited_by_count": 65790,
+          "url": "/domains/cancer/papers/W2117692326"
+        },
+        {
+          "source_id": "https://openalex.org/W2096287682",
+          "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+          "year": "2005",
+          "cited_by_count": 21313,
+          "url": "/domains/cancer/papers/W2096287682"
+        },
+        {
+          "source_id": "https://openalex.org/W2126525177",
+          "title": "The Hallmarks of Aging",
+          "year": "2013",
+          "cited_by_count": 14563,
+          "url": "/domains/cancer/papers/W2126525177"
+        }
+      ]
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/cancer/topics/sg-gene-expression",
+      "paper_count": 114,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: gene, genetics, gene expression",
+      "tags": [
+        "gene expression",
+        "gene expression and cancer classification",
+        "gene expression data",
+        "gene expression profiling"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gene-expression-gene-expression-profiling",
+          "label": "Gene expression profiling",
+          "url": "/domains/cancer/topics/sg-gene-expression-gene-expression-profiling",
+          "paper_count": 42
+        },
+        {
+          "id": "sg-gene-expression-regulation-of-gene-expression",
+          "label": "Regulation of gene expression",
+          "url": "/domains/cancer/topics/sg-gene-expression-regulation-of-gene-expression",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-gene-expression-gene-co-expression-network",
+          "label": "Gene co-expression network",
+          "url": "/domains/cancer/topics/sg-gene-expression-gene-co-expression-network",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-gene-expression-single-cell-spatial-transcriptomics",
+          "label": "Single-cell spatial transcriptomics",
+          "url": "/domains/cancer/topics/sg-gene-expression-single-cell-spatial-transcriptomics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-gene-expression-rna-directed-dna-methylation",
+          "label": "Rna-directed dna methylation",
+          "url": "/domains/cancer/topics/sg-gene-expression-rna-directed-dna-methylation",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-gene-expression-epigenetics-of-exercise",
+          "label": "Epigenetics of exercise",
+          "url": "/domains/cancer/topics/sg-gene-expression-epigenetics-of-exercise",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2146512944",
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": "2015",
+          "cited_by_count": 41988,
+          "url": "/domains/cancer/papers/W2146512944"
+        },
+        {
+          "source_id": "https://openalex.org/W2130410032",
+          "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+          "year": "2005",
+          "cited_by_count": 55632,
+          "url": "/domains/cancer/papers/W2130410032"
+        },
+        {
+          "source_id": "https://openalex.org/W2114104545",
+          "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43839,
+          "url": "/domains/cancer/papers/W2114104545"
+        }
+      ]
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/cancer/topics/sg-cell-biology",
+      "paper_count": 96,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: cell, cell biology, gene",
+      "tags": [
+        "cancer cells and metastasis",
+        "cancer stem",
+        "cancer stem cell",
+        "cell biology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cell-biology-stem-cell",
+          "label": "Stem cell",
+          "url": "/domains/cancer/topics/sg-cell-biology-stem-cell",
+          "paper_count": 77
+        },
+        {
+          "id": "sg-cell-biology-cell-adhesion-molecule",
+          "label": "Cell adhesion molecule",
+          "url": "/domains/cancer/topics/sg-cell-biology-cell-adhesion-molecule",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cell-biology-free-radicals-and-antioxidants",
+          "label": "Free radicals and antioxidants",
+          "url": "/domains/cancer/topics/sg-cell-biology-free-radicals-and-antioxidants",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cell-biology-protease-inhibitor-mechanisms",
+          "label": "Protease inhibitor mechanisms",
+          "url": "/domains/cancer/topics/sg-cell-biology-protease-inhibitor-mechanisms",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cell-biology-cell-signaling",
+          "label": "Cell signaling",
+          "url": "/domains/cancer/topics/sg-cell-biology-cell-signaling",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-cell-biology-cell-culture-techniques",
+          "label": "Cell culture techniques",
+          "url": "/domains/cancer/topics/sg-cell-biology-cell-culture-techniques",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1775749144",
+          "title": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
+          "year": "1951",
+          "cited_by_count": 317743,
+          "url": "/domains/cancer/papers/W1775749144"
+        },
+        {
+          "source_id": "https://openalex.org/W2018289835",
+          "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+          "year": "2013",
+          "cited_by_count": 47289,
+          "url": "/domains/cancer/papers/W2018289835"
+        },
+        {
+          "source_id": "https://openalex.org/W2900569176",
+          "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+          "year": "2018",
+          "cited_by_count": 18895,
+          "url": "/domains/cancer/papers/W2900569176"
+        }
+      ]
+    },
+    {
+      "id": "sg-clinical-trial",
+      "label": "Clinical trial",
+      "url": "/domains/cancer/topics/sg-clinical-trial",
+      "paper_count": 60,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: internal medicine, clinical, cancer",
+      "tags": [
+        "angiogenesis in cancer",
+        "cancer immunotherapy come",
+        "cancer immunotherapy t",
+        "cancer survivorship and care"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-clinical-trial-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-clinical-trial-internal-medicine",
+          "paper_count": 56
+        },
+        {
+          "id": "sg-clinical-trial-surrogate-endpoint",
+          "label": "Surrogate endpoint",
+          "url": "/domains/cancer/topics/sg-clinical-trial-surrogate-endpoint",
+          "paper_count": 35
+        },
+        {
+          "id": "sg-clinical-trial-phases-of-clinical",
+          "label": "Phases of clinical",
+          "url": "/domains/cancer/topics/sg-clinical-trial-phases-of-clinical",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-clinical-trial-cancer-therapy",
+          "label": "Cancer therapy",
+          "url": "/domains/cancer/topics/sg-clinical-trial-cancer-therapy",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2145150141",
+          "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "year": "2015",
+          "cited_by_count": 16159,
+          "url": "/domains/cancer/papers/W2145150141"
+        },
+        {
+          "source_id": "https://openalex.org/W2277004004",
+          "title": "EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma",
+          "year": "2018",
+          "cited_by_count": 11367,
+          "url": "/domains/cancer/papers/W2277004004"
+        },
+        {
+          "source_id": "https://openalex.org/W3027630905",
+          "title": "Remdesivir for the Treatment of Covid-19 — Final Report",
+          "year": "2020",
+          "cited_by_count": 7690,
+          "url": "/domains/cancer/papers/W3027630905"
+        }
+      ]
+    },
+    {
+      "id": "sg-immune-system",
+      "label": "Cancer immunology",
+      "url": "/domains/cancer/topics/sg-immune-system",
+      "paper_count": 54,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: immunology, immune system, cancer",
+      "tags": [
+        "acquired immune system",
+        "cancer immunoediting",
+        "cancer immunotherapy",
+        "cancer vaccine"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-immunology-adaptive-immunity",
+          "label": "Adaptive immunity",
+          "url": "/domains/cancer/topics/sg-cancer-immunology-adaptive-immunity",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-cancer-immunology-immune-checkpoint",
+          "label": "Immune checkpoint",
+          "url": "/domains/cancer/topics/sg-cancer-immunology-immune-checkpoint",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-cancer-immunology-innate-immunity",
+          "label": "Innate immunity",
+          "url": "/domains/cancer/topics/sg-cancer-immunology-innate-immunity",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-cancer-immunology-tumor-immunology",
+          "label": "Tumor immunology",
+          "url": "/domains/cancer/topics/sg-cancer-immunology-tumor-immunology",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cancer-immunology-t-cell",
+          "label": "T cell",
+          "url": "/domains/cancer/topics/sg-cancer-immunology-t-cell",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cancer-immunology-immune-tolerance-in-cancer",
+          "label": "Immune tolerance in cancer",
+          "url": "/domains/cancer/topics/sg-cancer-immunology-immune-tolerance-in-cancer",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2099540110",
+          "title": "NIH Image to ImageJ: 25 years of image analysis",
+          "year": "2012",
+          "cited_by_count": 63778,
+          "url": "/domains/cancer/papers/W2099540110"
+        },
+        {
+          "source_id": "https://openalex.org/W2560367415",
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "url": "/domains/cancer/papers/W2560367415"
+        },
+        {
+          "source_id": "https://openalex.org/W2963276645",
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23068,
+          "url": "/domains/cancer/papers/W2963276645"
+        }
+      ]
+    },
+    {
+      "id": "sg-lung-cancer",
+      "label": "Lung cancer",
+      "url": "/domains/cancer/topics/sg-lung-cancer",
+      "paper_count": 42,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: cancer, lung cancer, lung",
+      "tags": [
+        "cell lung cancer",
+        "lung cancer",
+        "lung cancer cancers",
+        "lung cancer correlation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-lung-cancer-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-lung-cancer-internal-medicine",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-lung-cancer-lung-cancer-diagnosis-and-treatment",
+          "label": "Lung cancer diagnosis and treatment",
+          "url": "/domains/cancer/topics/sg-lung-cancer-lung-cancer-diagnosis-and-treatment",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-lung-cancer-non-small-cell-lung",
+          "label": "Non-small-cell lung",
+          "url": "/domains/cancer/topics/sg-lung-cancer-non-small-cell-lung",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-lung-cancer-lung-cancer-staging",
+          "label": "Lung cancer staging",
+          "url": "/domains/cancer/topics/sg-lung-cancer-lung-cancer-staging",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-lung-cancer-anaplastic-lymphoma-kinase",
+          "label": "Anaplastic lymphoma kinase",
+          "url": "/domains/cancer/topics/sg-lung-cancer-anaplastic-lymphoma-kinase",
+          "paper_count": 8
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160834915",
+          "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+          "year": "2012",
+          "cited_by_count": 12550,
+          "url": "/domains/cancer/papers/W2160834915"
+        },
+        {
+          "source_id": "https://openalex.org/W2527905628",
+          "title": "Pembrolizumab versus Chemotherapy for PD-L1–Positive Non–Small-Cell Lung Cancer",
+          "year": "2016",
+          "cited_by_count": 9940,
+          "url": "/domains/cancer/papers/W2527905628"
+        },
+        {
+          "source_id": "https://openalex.org/W2104347254",
+          "title": "Nivolumab versus Docetaxel in Advanced Nonsquamous Non–Small-Cell Lung Cancer",
+          "year": "2015",
+          "cited_by_count": 9399,
+          "url": "/domains/cancer/papers/W2104347254"
+        }
+      ]
+    },
+    {
+      "id": "sg-cancer-genomics-diagnostics",
+      "label": "Cancer genomics diagnostics",
+      "url": "/domains/cancer/topics/sg-cancer-genomics-diagnostics",
+      "paper_count": 37,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: gene, genetics, genome",
+      "tags": [
+        "cancer cell line",
+        "cancer genome",
+        "cancer genome sequencing",
+        "cancer genomics and diagnostics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-genomics-diagnostics-copy-number",
+          "label": "Copy number",
+          "url": "/domains/cancer/topics/sg-cancer-genomics-diagnostics-copy-number",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-cancer-genomics-diagnostics-genetic-association",
+          "label": "Genetic association",
+          "url": "/domains/cancer/topics/sg-cancer-genomics-diagnostics-genetic-association",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cancer-genomics-diagnostics-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-cancer-genomics-diagnostics-internal-medicine",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2138207763",
+          "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+          "year": "2013",
+          "cited_by_count": 28244,
+          "url": "/domains/cancer/papers/W2138207763"
+        },
+        {
+          "source_id": "https://openalex.org/W2034269086",
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28419,
+          "url": "/domains/cancer/papers/W2034269086"
+        },
+        {
+          "source_id": "https://openalex.org/W2259938310",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19204,
+          "url": "/domains/cancer/papers/W2259938310"
+        }
+      ]
+    },
+    {
+      "id": "sg-signal-transduction",
+      "label": "Signal transduction",
+      "url": "/domains/cancer/topics/sg-signal-transduction",
+      "paper_count": 26,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: signal transduction, cell biology, cancer",
+      "tags": [
+        "cell signaling",
+        "cytokine signaling pathways and interactions",
+        "inflammation, cancer",
+        "mechanistic target of rapamycin"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-signal-transduction-pi3k-akt-mtor-pathway",
+          "label": "Pi3k/akt/mtor pathway",
+          "url": "/domains/cancer/topics/sg-signal-transduction-pi3k-akt-mtor-pathway",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-signal-transduction-signaling-cancer",
+          "label": "Signaling cancer",
+          "url": "/domains/cancer/topics/sg-signal-transduction-signaling-cancer",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-signal-transduction-cytokine-signaling-pathways-interactions",
+          "label": "Cytokine signaling pathways interactions",
+          "url": "/domains/cancer/topics/sg-signal-transduction-cytokine-signaling-pathways-interactions",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-signal-transduction-signaling-in-growth",
+          "label": "Signaling in growth",
+          "url": "/domains/cancer/topics/sg-signal-transduction-signaling-in-growth",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "url": "/domains/cancer/papers/W2051978340"
+        },
+        {
+          "source_id": "https://openalex.org/W2805983714",
+          "title": "The MR-Base platform supports systematic causal inference across the human phenome",
+          "year": "2018",
+          "cited_by_count": 8185,
+          "url": "/domains/cancer/papers/W2805983714"
+        },
+        {
+          "source_id": "https://openalex.org/W3112376646",
+          "title": "UniProt: the universal protein knowledgebase in 2021",
+          "year": "2020",
+          "cited_by_count": 6950,
+          "url": "/domains/cancer/papers/W3112376646"
+        }
+      ]
+    },
+    {
+      "id": "sg-colorectal-cancer",
+      "label": "Colorectal cancer",
+      "url": "/domains/cancer/topics/sg-colorectal-cancer",
+      "paper_count": 25,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: cancer, colorectal cancer, colorectal",
+      "tags": [
+        "colon cancer",
+        "colorectal cancer",
+        "colorectal cancer cancer-related",
+        "colorectal cancer incidence"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-colorectal-cancer-adenomatous-polyposis-coli",
+          "label": "Adenomatous polyposis coli",
+          "url": "/domains/cancer/topics/sg-colorectal-cancer-adenomatous-polyposis-coli",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-colorectal-cancer-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-colorectal-cancer-internal-medicine",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-colorectal-cancer-dna-mismatch-repair",
+          "label": "Dna mismatch repair",
+          "url": "/domains/cancer/topics/sg-colorectal-cancer-dna-mismatch-repair",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-colorectal-cancer-cancer-incidence",
+          "label": "Cancer incidence",
+          "url": "/domains/cancer/topics/sg-colorectal-cancer-cancer-incidence",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-colorectal-cancer-metal-complexes-synthesis-property",
+          "label": "Metal complexes synthesis property",
+          "url": "/domains/cancer/topics/sg-colorectal-cancer-metal-complexes-synthesis-property",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4210774372",
+          "title": "Hepatocellular carcinoma",
+          "year": "2021",
+          "cited_by_count": 6228,
+          "url": "/domains/cancer/papers/W4210774372"
+        },
+        {
+          "source_id": "https://openalex.org/W2157769714",
+          "title": "Bevacizumab plus Irinotecan, Fluorouracil, and Leucovorin for Metastatic Colorectal Cancer",
+          "year": "2004",
+          "cited_by_count": 10936,
+          "url": "/domains/cancer/papers/W2157769714"
+        },
+        {
+          "source_id": "https://openalex.org/W2262414037",
+          "title": "Comprehensive molecular characterization of human colon and rectal cancer",
+          "year": "2012",
+          "cited_by_count": 8560,
+          "url": "/domains/cancer/papers/W2262414037"
+        }
+      ]
+    },
+    {
+      "id": "sg-prostate-cancer",
+      "label": "Prostate cancer",
+      "url": "/domains/cancer/topics/sg-prostate-cancer",
+      "paper_count": 25,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cancer, prostate cancer",
+      "tags": [
+        "cancer biomarkers",
+        "gene in prostate cancer",
+        "metastatic prostate cancer",
+        "prostate cancer"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-prostate-cancer-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-prostate-cancer-internal-medicine",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-prostate-cancer-androgen-deprivation-therapy",
+          "label": "Androgen deprivation therapy",
+          "url": "/domains/cancer/topics/sg-prostate-cancer-androgen-deprivation-therapy",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-prostate-cancer-cancer-treatment",
+          "label": "Cancer treatment",
+          "url": "/domains/cancer/topics/sg-prostate-cancer-cancer-treatment",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-prostate-cancer-prostate-specific-antigen",
+          "label": "Prostate-specific antigen",
+          "url": "/domains/cancer/topics/sg-prostate-cancer-prostate-specific-antigen",
+          "paper_count": 8
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160691650",
+          "title": "Early Goal-Directed Therapy in the Treatment of Severe Sepsis and Septic Shock",
+          "year": "2001",
+          "cited_by_count": 10734,
+          "url": "/domains/cancer/papers/W2160691650"
+        },
+        {
+          "source_id": "https://openalex.org/W1980717583",
+          "title": "Intensive Insulin Therapy in Critically Ill Patients",
+          "year": "2001",
+          "cited_by_count": 9991,
+          "url": "/domains/cancer/papers/W1980717583"
+        },
+        {
+          "source_id": "https://openalex.org/W2032760352",
+          "title": "Nanocarriers as an emerging platform for cancer therapy",
+          "year": "2007",
+          "cited_by_count": 8486,
+          "url": "/domains/cancer/papers/W2032760352"
+        }
+      ]
+    },
+    {
+      "id": "sg-cancer-registry",
+      "label": "Cancer registry",
+      "url": "/domains/cancer/topics/sg-cancer-registry",
+      "paper_count": 23,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: cancer, cancer registry, registry",
+      "tags": [
+        "cancer incidence",
+        "cancer incidence mortality",
+        "cancer registry",
+        "cancer registry data"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-registry-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cancer/topics/sg-cancer-registry-internal-medicine",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cancer-registry-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/cancer/topics/sg-cancer-registry-environmental-health",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1757407923",
+          "title": "Cancer incidence and mortality worldwide: Sources, methods and major patterns in GLOBOCAN 2012",
+          "year": "2014",
+          "cited_by_count": 28974,
+          "url": "/domains/cancer/papers/W1757407923"
+        },
+        {
+          "source_id": "https://openalex.org/W2148977460",
+          "title": "CBTRUS Statistical Report: Primary Brain and Central Nervous System Tumors Diagnosed in the United States in 2006-2010",
+          "year": "2013",
+          "cited_by_count": 12089,
+          "url": "/domains/cancer/papers/W2148977460"
+        },
+        {
+          "source_id": "https://openalex.org/W2895926103",
+          "title": "Estimating the global cancer incidence and mortality in 2018: GLOBOCAN sources and methods",
+          "year": "2018",
+          "cited_by_count": 7684,
+          "url": "/domains/cancer/papers/W2895926103"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Gene expression",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": "2015",
+          "cited_by_count": 41988,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2146512944.html"
+        },
+        {
+          "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+          "year": "2005",
+          "cited_by_count": 55632,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2130410032.html"
+        },
+        {
+          "title": "&lt;tt&gt;edgeR&lt;/tt&gt; : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43839,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2114104545.html"
+        },
+        {
+          "title": "WGCNA: an R package for weighted correlation network analysis",
+          "year": "2008",
+          "cited_by_count": 28424,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w1966327575.html"
+        },
+        {
+          "title": "A global reference for human genetic variation",
+          "year": "2015",
+          "cited_by_count": 19597,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2104549677.html"
+        },
+        {
+          "title": "BLAST+: architecture and applications",
+          "year": "2009",
+          "cited_by_count": 22540,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2142678478.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell biology",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
+          "year": "1951",
+          "cited_by_count": 317743,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w1775749144.html"
+        },
+        {
+          "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+          "year": "2013",
+          "cited_by_count": 47289,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2018289835.html"
+        },
+        {
+          "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+          "year": "2018",
+          "cited_by_count": 18895,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2900569176.html"
+        },
+        {
+          "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+          "year": "2015",
+          "cited_by_count": 16339,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w1523693806.html"
+        },
+        {
+          "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+          "year": "2012",
+          "cited_by_count": 17388,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w1997183854.html"
+        },
+        {
+          "title": "Hallmarks of Cancer: New Dimensions",
+          "year": "2022",
+          "cited_by_count": 8671,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w4206662285.html"
+        }
+      ]
+    },
+    {
+      "label": "Breast cancer",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30218,
+          "topic": "Breast cancer",
+          "url": "papers/https-openalex-org-w3001897055.html"
+        },
+        {
+          "title": "AJCC Cancer Staging Manual",
+          "year": "2016",
+          "cited_by_count": 17404,
+          "topic": "Breast cancer",
+          "url": "papers/https-openalex-org-w2502134830.html"
+        },
+        {
+          "title": "Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008",
+          "year": "2010",
+          "cited_by_count": 21385,
+          "topic": "Breast cancer",
+          "url": "papers/https-openalex-org-w1981989535.html"
+        },
+        {
+          "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+          "year": "2017",
+          "cited_by_count": 13315,
+          "topic": "Breast cancer",
+          "url": "papers/https-openalex-org-w2581082771.html"
+        },
+        {
+          "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+          "year": "2020",
+          "cited_by_count": 9583,
+          "topic": "Breast cancer",
+          "url": "papers/https-openalex-org-w3002539152.html"
+        },
+        {
+          "title": "International Agency for Research on Cancer",
+          "year": "2020",
+          "cited_by_count": 9483,
+          "topic": "Breast cancer",
+          "url": "papers/https-openalex-org-w4235739337.html"
+        }
+      ]
+    },
+    {
+      "label": "Cancer genomics diagnostics",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+          "year": "2013",
+          "cited_by_count": 28244,
+          "topic": "Cancer genomics diagnostics",
+          "url": "papers/https-openalex-org-w2138207763.html"
+        },
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28419,
+          "topic": "Cancer genomics diagnostics",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        },
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19204,
+          "topic": "Cancer genomics diagnostics",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
+          "year": "2012",
+          "cited_by_count": 18164,
+          "topic": "Cancer genomics diagnostics",
+          "url": "papers/https-openalex-org-w2149441684.html"
+        }
+      ]
+    },
+    {
+      "label": "Cancer immunology",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "NIH Image to ImageJ: 25 years of image analysis",
+          "year": "2012",
+          "cited_by_count": 63778,
+          "topic": "Cancer immunology",
+          "url": "papers/https-openalex-org-w2099540110.html"
+        },
+        {
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "topic": "Cancer immunology",
+          "url": "papers/https-openalex-org-w2560367415.html"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23068,
+          "topic": "Cancer immunology",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        },
+        {
+          "title": "UK Biobank: An Open Access Resource for Identifying the Causes of a Wide Range of Complex Diseases of Middle and Old Age",
+          "year": "2015",
+          "cited_by_count": 12828,
+          "topic": "Cancer immunology",
+          "url": "papers/https-openalex-org-w2082704080.html"
+        }
+      ]
+    },
+    {
+      "label": "Cancer research",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Hallmarks of Cancer: The Next Generation",
+          "year": "2011",
+          "cited_by_count": 65790,
+          "topic": "Cancer research",
+          "url": "papers/https-openalex-org-w2117692326.html"
+        },
+        {
+          "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+          "year": "2005",
+          "cited_by_count": 21313,
+          "topic": "Cancer research",
+          "url": "papers/https-openalex-org-w2096287682.html"
+        },
+        {
+          "title": "The Hallmarks of Aging",
+          "year": "2013",
+          "cited_by_count": 14563,
+          "topic": "Cancer research",
+          "url": "papers/https-openalex-org-w2126525177.html"
+        }
+      ]
+    },
+    {
+      "label": "Clinical trial",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "year": "2015",
+          "cited_by_count": 16159,
+          "topic": "Clinical trial",
+          "url": "papers/https-openalex-org-w2145150141.html"
+        },
+        {
+          "title": "EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma",
+          "year": "2018",
+          "cited_by_count": 11367,
+          "topic": "Clinical trial",
+          "url": "papers/https-openalex-org-w2277004004.html"
+        }
+      ]
+    },
+    {
+      "label": "Cancer registry",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Cancer incidence and mortality worldwide: Sources, methods and major patterns in GLOBOCAN 2012",
+          "year": "2014",
+          "cited_by_count": 28974,
+          "topic": "Cancer registry",
+          "url": "papers/https-openalex-org-w1757407923.html"
+        }
+      ]
+    },
+    {
+      "label": "Signal transduction",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "topic": "Signal transduction",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W1775749144",
+      "title": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
+      "year": 1951,
+      "cited_by_count": 317743,
+      "adjusted_cited_by_count": 36689.8,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W1775749144"
+    },
+    {
+      "source_id": "https://openalex.org/W2099540110",
+      "title": "NIH Image to ImageJ: 25 years of image analysis",
+      "year": 2012,
+      "cited_by_count": 63778,
+      "adjusted_cited_by_count": 17045.39,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Cancer immunology",
+      "url": "/domains/cancer/papers/W2099540110"
+    },
+    {
+      "source_id": "https://openalex.org/W2117692326",
+      "title": "Hallmarks of Cancer: The Next Generation",
+      "year": 2011,
+      "cited_by_count": 65790,
+      "adjusted_cited_by_count": 16986.9,
+      "primary_topic_id": "sg-cancer-research",
+      "primary_topic_label": "Cancer research",
+      "url": "/domains/cancer/papers/W2117692326"
+    },
+    {
+      "source_id": "https://openalex.org/W2018289835",
+      "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+      "year": 2013,
+      "cited_by_count": 47289,
+      "adjusted_cited_by_count": 13115.61,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W2146512944",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "year": 2015,
+      "cited_by_count": 41988,
+      "adjusted_cited_by_count": 12659.86,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30218,
+      "adjusted_cited_by_count": 12336.45,
+      "primary_topic_id": "sg-breast-cancer",
+      "primary_topic_label": "Breast cancer",
+      "url": "/domains/cancer/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W2130410032",
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "year": 2005,
+      "cited_by_count": 55632,
+      "adjusted_cited_by_count": 12139.9,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2130410032"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43839,
+      "adjusted_cited_by_count": 10632.52,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Cancer immunology",
+      "url": "/domains/cancer/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31276,
+      "adjusted_cited_by_count": 9430.07,
+      "primary_topic_id": "sg-signal-transduction",
+      "primary_topic_label": "Signal transduction",
+      "url": "/domains/cancer/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23068,
+      "adjusted_cited_by_count": 8718.88,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Cancer immunology",
+      "url": "/domains/cancer/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W1757407923",
+      "title": "Cancer incidence and mortality worldwide: Sources, methods and major patterns in GLOBOCAN 2012",
+      "year": 2014,
+      "cited_by_count": 28974,
+      "adjusted_cited_by_count": 8364.07,
+      "primary_topic_id": "sg-cancer-registry",
+      "primary_topic_label": "Cancer registry",
+      "url": "/domains/cancer/papers/W1757407923"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28244,
+      "adjusted_cited_by_count": 7833.48,
+      "primary_topic_id": "sg-cancer-genomics-diagnostics",
+      "primary_topic_label": "Cancer genomics diagnostics",
+      "url": "/domains/cancer/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28424,
+      "adjusted_cited_by_count": 6699.6,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18895,
+      "adjusted_cited_by_count": 6680.39,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W2104549677",
+      "title": "A global reference for human genetic variation",
+      "year": 2015,
+      "cited_by_count": 19597,
+      "adjusted_cited_by_count": 5908.72,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2104549677"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28419,
+      "adjusted_cited_by_count": 5573.42,
+      "primary_topic_id": "sg-cancer-genomics-diagnostics",
+      "primary_topic_label": "Cancer genomics diagnostics",
+      "url": "/domains/cancer/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2502134830",
+      "title": "AJCC Cancer Staging Manual",
+      "year": 2016,
+      "cited_by_count": 17404,
+      "adjusted_cited_by_count": 5503.63,
+      "primary_topic_id": "sg-breast-cancer",
+      "primary_topic_label": "Breast cancer",
+      "url": "/domains/cancer/papers/W2502134830"
+    },
+    {
+      "source_id": "https://openalex.org/W2142678478",
+      "title": "BLAST+: architecture and applications",
+      "year": 2009,
+      "cited_by_count": 22540,
+      "adjusted_cited_by_count": 5466.75,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2142678478"
+    },
+    {
+      "source_id": "https://openalex.org/W1981989535",
+      "title": "Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008",
+      "year": 2010,
+      "cited_by_count": 21385,
+      "adjusted_cited_by_count": 5346.25,
+      "primary_topic_id": "sg-breast-cancer",
+      "primary_topic_label": "Breast cancer",
+      "url": "/domains/cancer/papers/W1981989535"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19204,
+      "adjusted_cited_by_count": 5132.48,
+      "primary_topic_id": "sg-cancer-genomics-diagnostics",
+      "primary_topic_label": "Cancer genomics diagnostics",
+      "url": "/domains/cancer/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W1523693806",
+      "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+      "year": 2015,
+      "cited_by_count": 16339,
+      "adjusted_cited_by_count": 4926.39,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W1523693806"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24468,
+      "adjusted_cited_by_count": 4893.6,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16159,
+      "adjusted_cited_by_count": 4872.12,
+      "primary_topic_id": "sg-clinical-trial",
+      "primary_topic_label": "Clinical trial",
+      "url": "/domains/cancer/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2149441684",
+      "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
+      "year": 2012,
+      "cited_by_count": 18164,
+      "adjusted_cited_by_count": 4854.53,
+      "primary_topic_id": "sg-cancer-genomics-diagnostics",
+      "primary_topic_label": "Cancer genomics diagnostics",
+      "url": "/domains/cancer/papers/W2149441684"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21313,
+      "adjusted_cited_by_count": 4650.88,
+      "primary_topic_id": "sg-cancer-research",
+      "primary_topic_label": "Cancer research",
+      "url": "/domains/cancer/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W1997183854",
+      "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+      "year": 2012,
+      "cited_by_count": 17388,
+      "adjusted_cited_by_count": 4647.14,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W1997183854"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16025,
+      "adjusted_cited_by_count": 4444.54,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2581082771",
+      "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+      "year": 2017,
+      "cited_by_count": 13315,
+      "adjusted_cited_by_count": 4438.33,
+      "primary_topic_id": "sg-breast-cancer",
+      "primary_topic_label": "Breast cancer",
+      "url": "/domains/cancer/papers/W2581082771"
+    },
+    {
+      "source_id": "https://openalex.org/W2114843025",
+      "title": "Integrative Analysis of Complex Cancer Genomics and Clinical Profiles Using the cBioPortal",
+      "year": 2013,
+      "cited_by_count": 15756,
+      "adjusted_cited_by_count": 4369.93,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2114843025"
+    },
+    {
+      "source_id": "https://openalex.org/W4206662285",
+      "title": "Hallmarks of Cancer: New Dimensions",
+      "year": 2022,
+      "cited_by_count": 8671,
+      "adjusted_cited_by_count": 4335.5,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W4206662285"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 13996,
+      "adjusted_cited_by_count": 4219.95,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W1577577364",
+      "title": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes",
+      "year": 2002,
+      "cited_by_count": 19910,
+      "adjusted_cited_by_count": 4064.11,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/cancer/papers/W1577577364"
+    },
+    {
+      "source_id": "https://openalex.org/W2126525177",
+      "title": "The Hallmarks of Aging",
+      "year": 2013,
+      "cited_by_count": 14563,
+      "adjusted_cited_by_count": 4039.05,
+      "primary_topic_id": "sg-cancer-research",
+      "primary_topic_label": "Cancer research",
+      "url": "/domains/cancer/papers/W2126525177"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9887,
+      "adjusted_cited_by_count": 4036.35,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W2277004004",
+      "title": "EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma",
+      "year": 2018,
+      "cited_by_count": 11367,
+      "adjusted_cited_by_count": 4018.84,
+      "primary_topic_id": "sg-clinical-trial",
+      "primary_topic_label": "Clinical trial",
+      "url": "/domains/cancer/papers/W2277004004"
+    },
+    {
+      "source_id": "https://openalex.org/W3002539152",
+      "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+      "year": 2020,
+      "cited_by_count": 9583,
+      "adjusted_cited_by_count": 3912.24,
+      "primary_topic_id": "sg-breast-cancer",
+      "primary_topic_label": "Breast cancer",
+      "url": "/domains/cancer/papers/W3002539152"
+    },
+    {
+      "source_id": "https://openalex.org/W4235739337",
+      "title": "International Agency for Research on Cancer",
+      "year": 2020,
+      "cited_by_count": 9483,
+      "adjusted_cited_by_count": 3871.42,
+      "primary_topic_id": "sg-breast-cancer",
+      "primary_topic_label": "Breast cancer",
+      "url": "/domains/cancer/papers/W4235739337"
+    },
+    {
+      "source_id": "https://openalex.org/W2082704080",
+      "title": "UK Biobank: An Open Access Resource for Identifying the Causes of a Wide Range of Complex Diseases of Middle and Old Age",
+      "year": 2015,
+      "cited_by_count": 12828,
+      "adjusted_cited_by_count": 3867.79,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Cancer immunology",
+      "url": "/domains/cancer/papers/W2082704080"
+    },
+    {
+      "source_id": "https://openalex.org/W2097259163",
+      "title": "Understanding the Warburg Effect: The Metabolic Requirements of Cell Proliferation",
+      "year": 2009,
+      "cited_by_count": 15841,
+      "adjusted_cited_by_count": 3842.01,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cancer/papers/W2097259163"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W1775749144",
+      "title": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
+      "year": 1951,
+      "cited_by_count": 317743,
+      "adjusted_cited_by_count": 36689.8,
+      "url": "/domains/cancer/papers/W1775749144"
+    },
+    {
+      "source_id": "https://openalex.org/W2099540110",
+      "title": "NIH Image to ImageJ: 25 years of image analysis",
+      "year": 2012,
+      "cited_by_count": 63778,
+      "adjusted_cited_by_count": 17045.39,
+      "url": "/domains/cancer/papers/W2099540110"
+    },
+    {
+      "source_id": "https://openalex.org/W2117692326",
+      "title": "Hallmarks of Cancer: The Next Generation",
+      "year": 2011,
+      "cited_by_count": 65790,
+      "adjusted_cited_by_count": 16986.9,
+      "url": "/domains/cancer/papers/W2117692326"
+    },
+    {
+      "source_id": "https://openalex.org/W2018289835",
+      "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+      "year": 2013,
+      "cited_by_count": 47289,
+      "adjusted_cited_by_count": 13115.61,
+      "url": "/domains/cancer/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W2146512944",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "year": 2015,
+      "cited_by_count": 41988,
+      "adjusted_cited_by_count": 12659.86,
+      "url": "/domains/cancer/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30218,
+      "adjusted_cited_by_count": 12336.45,
+      "url": "/domains/cancer/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W2130410032",
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "year": 2005,
+      "cited_by_count": 55632,
+      "adjusted_cited_by_count": 12139.9,
+      "url": "/domains/cancer/papers/W2130410032"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43839,
+      "adjusted_cited_by_count": 10632.52,
+      "url": "/domains/cancer/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "url": "/domains/cancer/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31276,
+      "adjusted_cited_by_count": 9430.07,
+      "url": "/domains/cancer/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23068,
+      "adjusted_cited_by_count": 8718.88,
+      "url": "/domains/cancer/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W1757407923",
+      "title": "Cancer incidence and mortality worldwide: Sources, methods and major patterns in GLOBOCAN 2012",
+      "year": 2014,
+      "cited_by_count": 28974,
+      "adjusted_cited_by_count": 8364.07,
+      "url": "/domains/cancer/papers/W1757407923"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28244,
+      "adjusted_cited_by_count": 7833.48,
+      "url": "/domains/cancer/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28424,
+      "adjusted_cited_by_count": 6699.6,
+      "url": "/domains/cancer/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18895,
+      "adjusted_cited_by_count": 6680.39,
+      "url": "/domains/cancer/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W2104549677",
+      "title": "A global reference for human genetic variation",
+      "year": 2015,
+      "cited_by_count": 19597,
+      "adjusted_cited_by_count": 5908.72,
+      "url": "/domains/cancer/papers/W2104549677"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28419,
+      "adjusted_cited_by_count": 5573.42,
+      "url": "/domains/cancer/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2502134830",
+      "title": "AJCC Cancer Staging Manual",
+      "year": 2016,
+      "cited_by_count": 17404,
+      "adjusted_cited_by_count": 5503.63,
+      "url": "/domains/cancer/papers/W2502134830"
+    },
+    {
+      "source_id": "https://openalex.org/W2142678478",
+      "title": "BLAST+: architecture and applications",
+      "year": 2009,
+      "cited_by_count": 22540,
+      "adjusted_cited_by_count": 5466.75,
+      "url": "/domains/cancer/papers/W2142678478"
+    },
+    {
+      "source_id": "https://openalex.org/W1981989535",
+      "title": "Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008",
+      "year": 2010,
+      "cited_by_count": 21385,
+      "adjusted_cited_by_count": 5346.25,
+      "url": "/domains/cancer/papers/W1981989535"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19204,
+      "adjusted_cited_by_count": 5132.48,
+      "url": "/domains/cancer/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W1523693806",
+      "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+      "year": 2015,
+      "cited_by_count": 16339,
+      "adjusted_cited_by_count": 4926.39,
+      "url": "/domains/cancer/papers/W1523693806"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24468,
+      "adjusted_cited_by_count": 4893.6,
+      "url": "/domains/cancer/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16159,
+      "adjusted_cited_by_count": 4872.12,
+      "url": "/domains/cancer/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2149441684",
+      "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
+      "year": 2012,
+      "cited_by_count": 18164,
+      "adjusted_cited_by_count": 4854.53,
+      "url": "/domains/cancer/papers/W2149441684"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21313,
+      "adjusted_cited_by_count": 4650.88,
+      "url": "/domains/cancer/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W1997183854",
+      "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+      "year": 2012,
+      "cited_by_count": 17388,
+      "adjusted_cited_by_count": 4647.14,
+      "url": "/domains/cancer/papers/W1997183854"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16025,
+      "adjusted_cited_by_count": 4444.54,
+      "url": "/domains/cancer/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2581082771",
+      "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+      "year": 2017,
+      "cited_by_count": 13315,
+      "adjusted_cited_by_count": 4438.33,
+      "url": "/domains/cancer/papers/W2581082771"
+    },
+    {
+      "source_id": "https://openalex.org/W2114843025",
+      "title": "Integrative Analysis of Complex Cancer Genomics and Clinical Profiles Using the cBioPortal",
+      "year": 2013,
+      "cited_by_count": 15756,
+      "adjusted_cited_by_count": 4369.93,
+      "url": "/domains/cancer/papers/W2114843025"
+    },
+    {
+      "source_id": "https://openalex.org/W4206662285",
+      "title": "Hallmarks of Cancer: New Dimensions",
+      "year": 2022,
+      "cited_by_count": 8671,
+      "adjusted_cited_by_count": 4335.5,
+      "url": "/domains/cancer/papers/W4206662285"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 13996,
+      "adjusted_cited_by_count": 4219.95,
+      "url": "/domains/cancer/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W1577577364",
+      "title": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes",
+      "year": 2002,
+      "cited_by_count": 19910,
+      "adjusted_cited_by_count": 4064.11,
+      "url": "/domains/cancer/papers/W1577577364"
+    },
+    {
+      "source_id": "https://openalex.org/W2126525177",
+      "title": "The Hallmarks of Aging",
+      "year": 2013,
+      "cited_by_count": 14563,
+      "adjusted_cited_by_count": 4039.05,
+      "url": "/domains/cancer/papers/W2126525177"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9887,
+      "adjusted_cited_by_count": 4036.35,
+      "url": "/domains/cancer/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W2277004004",
+      "title": "EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma",
+      "year": 2018,
+      "cited_by_count": 11367,
+      "adjusted_cited_by_count": 4018.84,
+      "url": "/domains/cancer/papers/W2277004004"
+    },
+    {
+      "source_id": "https://openalex.org/W3002539152",
+      "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+      "year": 2020,
+      "cited_by_count": 9583,
+      "adjusted_cited_by_count": 3912.24,
+      "url": "/domains/cancer/papers/W3002539152"
+    },
+    {
+      "source_id": "https://openalex.org/W4235739337",
+      "title": "International Agency for Research on Cancer",
+      "year": 2020,
+      "cited_by_count": 9483,
+      "adjusted_cited_by_count": 3871.42,
+      "url": "/domains/cancer/papers/W4235739337"
+    },
+    {
+      "source_id": "https://openalex.org/W2082704080",
+      "title": "UK Biobank: An Open Access Resource for Identifying the Causes of a Wide Range of Complex Diseases of Middle and Old Age",
+      "year": 2015,
+      "cited_by_count": 12828,
+      "adjusted_cited_by_count": 3867.79,
+      "url": "/domains/cancer/papers/W2082704080"
+    },
+    {
+      "source_id": "https://openalex.org/W2097259163",
+      "title": "Understanding the Warburg Effect: The Metabolic Requirements of Cell Proliferation",
+      "year": 2009,
+      "cited_by_count": 15841,
+      "adjusted_cited_by_count": 3842.01,
+      "url": "/domains/cancer/papers/W2097259163"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 457
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 359
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 281
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 240
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 210
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 200
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 178
+    },
+    {
+      "label": "oncology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 149
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "rna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "tumor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "therapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 114
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "patients with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "genome",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 95
+    },
+    {
+      "label": "treatment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "cells",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 92
+    },
+    {
+      "label": "gene expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "stem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 84
+    },
+    {
+      "label": "survival",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 81
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 80
+    },
+    {
+      "label": "genomic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 77
+    },
+    {
+      "label": "molecular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 79
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 72
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 72
+    },
+    {
+      "label": "mutation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 71
+    },
+    {
+      "label": "factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 70
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 68
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 68
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 93
+    },
+    {
+      "label": "cellular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 67
+    },
+    {
+      "label": "genetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 66
+    },
+    {
+      "label": "of cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 65
+    },
+    {
+      "label": "tissue",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 65
+    },
+    {
+      "label": "breast cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 64
+    },
+    {
+      "label": "breast",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 65
+    },
+    {
+      "label": "associated with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 62
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 61
+    },
+    {
+      "label": "lung",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 61
+    },
+    {
+      "label": "pathway",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 60
+    },
+    {
+      "label": "immunotherapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 59
+    },
+    {
+      "label": "response",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 59
+    },
+    {
+      "label": "receptor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 69
+    },
+    {
+      "label": "death",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 58
+    },
+    {
+      "label": "in cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 57
+    },
+    {
+      "label": "national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 57
+    }
+  ],
+  "topic_year_counts": {
+    "breast cancer": {
+      "2023": 224266,
+      "2024": 188412,
+      "2025": 174383,
+      "2022": 147325,
+      "2021": 138682,
+      "2020": 131330,
+      "2019": 109331,
+      "2018": 97028,
+      "2017": 91874,
+      "2016": 84513,
+      "2015": 78250,
+      "2014": 71215,
+      "2013": 67547,
+      "2012": 61971,
+      "2011": 54230,
+      "2010": 47637,
+      "2026": 43902,
+      "2009": 41322,
+      "2008": 35128,
+      "2007": 31620,
+      "2006": 28491,
+      "2005": 25231,
+      "2004": 23667,
+      "2003": 19234,
+      "2002": 17079,
+      "2001": 15421,
+      "2000": 14298
+    },
+    "cancer research": {
+      "2023": 505931,
+      "2024": 489479,
+      "2025": 431823,
+      "2022": 353410,
+      "2021": 318657,
+      "2020": 291028,
+      "2019": 235865,
+      "2018": 199237,
+      "2017": 180878,
+      "2016": 162265,
+      "2015": 146951,
+      "2014": 131669,
+      "2013": 119967,
+      "2012": 106142,
+      "2026": 103572,
+      "2011": 88652,
+      "2010": 75757,
+      "2009": 58297,
+      "2008": 49780,
+      "2007": 42215,
+      "2006": 37251,
+      "2005": 33357,
+      "2004": 29699,
+      "2003": 24224,
+      "2002": 20673,
+      "2001": 18457,
+      "2000": 17434
+    },
+    "gene expression": {
+      "2023": 433870,
+      "2024": 384194,
+      "2025": 358061,
+      "2022": 314779,
+      "2021": 302707,
+      "2020": 288992,
+      "2019": 240993,
+      "2018": 217888,
+      "2017": 208754,
+      "2016": 194996,
+      "2015": 183349,
+      "2014": 175151,
+      "2013": 166511,
+      "2012": 152870,
+      "2011": 139403,
+      "2010": 124011,
+      "2009": 111198,
+      "2008": 99983,
+      "2007": 90475,
+      "2026": 89219,
+      "2006": 85672,
+      "2005": 78604,
+      "2004": 74259,
+      "2003": 64829,
+      "2002": 56907,
+      "2001": 51361,
+      "2000": 48770
+    },
+    "cell biology": {
+      "2023": 301767,
+      "2024": 277771,
+      "2025": 254463,
+      "2022": 211090,
+      "2021": 197913,
+      "2020": 186816,
+      "2019": 156812,
+      "2018": 140714,
+      "2017": 128694,
+      "2016": 115675,
+      "2015": 106733,
+      "2014": 100610,
+      "2013": 93116,
+      "2012": 83654,
+      "2011": 70445,
+      "2026": 65565,
+      "2010": 58331,
+      "2009": 49203,
+      "2008": 42327,
+      "2007": 36342,
+      "2006": 31867,
+      "2005": 28351,
+      "2004": 25287,
+      "2003": 21784,
+      "2002": 19380,
+      "2001": 17730,
+      "2000": 17247
+    },
+    "clinical trial": {
+      "2023": 532750,
+      "2024": 516675,
+      "2025": 503434,
+      "2022": 381272,
+      "2021": 358697,
+      "2020": 332810,
+      "2019": 256954,
+      "2018": 226337,
+      "2017": 207947,
+      "2016": 186422,
+      "2015": 169663,
+      "2014": 154528,
+      "2013": 140644,
+      "2026": 127961,
+      "2012": 123057,
+      "2011": 104246,
+      "2010": 88777,
+      "2009": 76817,
+      "2008": 66881,
+      "2007": 59162,
+      "2006": 53906,
+      "2005": 49844,
+      "2004": 44739,
+      "2003": 37518,
+      "2002": 31659,
+      "2001": 28084,
+      "2000": 25710
+    },
+    "cancer immunology": {
+      "2023": 40970,
+      "2024": 38680,
+      "2025": 37658,
+      "2022": 30726,
+      "2021": 27388,
+      "2020": 24446,
+      "2019": 18265,
+      "2018": 16329,
+      "2017": 14668,
+      "2016": 13447,
+      "2015": 11341,
+      "2014": 10163,
+      "2026": 9540,
+      "2013": 9417,
+      "2012": 8432,
+      "2011": 6658,
+      "2010": 5396,
+      "2009": 4514,
+      "2008": 3642,
+      "2007": 3114,
+      "2006": 2862,
+      "2005": 2548,
+      "2003": 2436,
+      "2004": 2328,
+      "2002": 2079,
+      "2000": 1759,
+      "2001": 1698
+    },
+    "lung cancer": {
+      "2023": 221678,
+      "2024": 193854,
+      "2025": 169098,
+      "2022": 151565,
+      "2021": 142936,
+      "2020": 131528,
+      "2019": 104715,
+      "2018": 91564,
+      "2017": 86929,
+      "2016": 75149,
+      "2015": 68988,
+      "2014": 63945,
+      "2013": 58480,
+      "2012": 53056,
+      "2011": 45111,
+      "2026": 40338,
+      "2010": 38366,
+      "2009": 33338,
+      "2008": 28579,
+      "2007": 26604,
+      "2006": 22659,
+      "2005": 21131,
+      "2004": 18873,
+      "2003": 15927,
+      "2002": 12981,
+      "2001": 11891,
+      "2000": 11443
+    },
+    "cancer genomics diagnostics": {
+      "2024": 46309,
+      "2023": 45556,
+      "2025": 44031,
+      "2022": 30946,
+      "2021": 28363,
+      "2020": 25001,
+      "2019": 18779,
+      "2018": 16163,
+      "2017": 15088,
+      "2016": 13335,
+      "2015": 11639,
+      "2026": 11046,
+      "2014": 10959,
+      "2013": 9392,
+      "2012": 8291,
+      "2011": 6919,
+      "2010": 5627,
+      "2009": 4656,
+      "2008": 3928,
+      "2007": 3287,
+      "2006": 2831,
+      "2005": 2551,
+      "2004": 2058,
+      "2003": 1948,
+      "2002": 1338,
+      "2001": 1183,
+      "2000": 1081
+    },
+    "signal transduction": {
+      "2023": 72716,
+      "2024": 65204,
+      "2025": 57033,
+      "2022": 52353,
+      "2021": 50297,
+      "2020": 47581,
+      "2019": 39127,
+      "2017": 35592,
+      "2018": 35428,
+      "2016": 33863,
+      "2014": 33010,
+      "2015": 32820,
+      "2013": 32114,
+      "2012": 30244,
+      "2011": 27484,
+      "2010": 24499,
+      "2009": 22290,
+      "2008": 19930,
+      "2007": 18028,
+      "2006": 17282,
+      "2005": 15832,
+      "2004": 15426,
+      "2026": 14442,
+      "2003": 14300,
+      "2002": 13108,
+      "2001": 12009,
+      "2000": 11324
+    },
+    "colorectal cancer": {
+      "2023": 110721,
+      "2024": 98149,
+      "2025": 90638,
+      "2022": 74468,
+      "2021": 70010,
+      "2020": 64440,
+      "2019": 52409,
+      "2018": 45626,
+      "2017": 42360,
+      "2016": 37888,
+      "2015": 34937,
+      "2014": 32006,
+      "2013": 28703,
+      "2012": 25846,
+      "2026": 22568,
+      "2011": 22071,
+      "2010": 18793,
+      "2009": 15684,
+      "2008": 13833,
+      "2007": 11932,
+      "2006": 10596,
+      "2005": 9476,
+      "2004": 8768,
+      "2003": 7230,
+      "2002": 5921,
+      "2001": 5579,
+      "2000": 5247
+    },
+    "prostate cancer": {
+      "2023": 99590,
+      "2024": 81610,
+      "2025": 70020,
+      "2022": 63727,
+      "2021": 61679,
+      "2020": 59965,
+      "2019": 50794,
+      "2018": 46242,
+      "2017": 44472,
+      "2016": 41690,
+      "2015": 38922,
+      "2014": 36559,
+      "2013": 34046,
+      "2012": 30947,
+      "2011": 27439,
+      "2010": 23461,
+      "2009": 19885,
+      "2008": 17845,
+      "2026": 17515,
+      "2007": 15932,
+      "2006": 14198,
+      "2005": 12979,
+      "2004": 11733,
+      "2003": 9315,
+      "2002": 7530,
+      "2001": 6660,
+      "2000": 5994
+    },
+    "cancer registry": {
+      "2023": 51176,
+      "2024": 49590,
+      "2025": 45489,
+      "2022": 35187,
+      "2021": 32364,
+      "2020": 30000,
+      "2019": 22994,
+      "2018": 19971,
+      "2017": 17821,
+      "2016": 15757,
+      "2015": 13715,
+      "2014": 12244,
+      "2026": 11504,
+      "2013": 10851,
+      "2012": 9605,
+      "2011": 7974,
+      "2010": 6601,
+      "2009": 5811,
+      "2008": 4891,
+      "2007": 4252,
+      "2006": 3873,
+      "2005": 3020,
+      "2004": 2876,
+      "2003": 2436,
+      "2002": 1853,
+      "2001": 1707,
+      "2000": 1609
+    }
+  }
+}

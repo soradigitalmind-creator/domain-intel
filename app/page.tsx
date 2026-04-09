@@ -50,15 +50,14 @@ export default async function HomePage() {
             {categories.map((cat) => (
               <Link key={cat.slug} href={`/categories/${cat.slug}`} className={styles.categoryCard}>
                 <h3 className={styles.categoryLabel}>{cat.label}</h3>
-                <p className={styles.categoryDesc}>{cat.description}</p>
+                <p className={styles.categoryMeta}>
+                  {cat.domains.length} domains · {(categoryStats.get(cat.slug)?.topics ?? 0).toLocaleString()} topics · {(categoryStats.get(cat.slug)?.papers ?? 0).toLocaleString()} papers
+                </p>
                 <div className={styles.categoryDomains}>
                   {cat.domains.map((d) => (
                     <span key={d.slug} className={styles.domainChip}>{d.title}</span>
                   ))}
                 </div>
-                <p className={styles.categoryMeta}>
-                  {cat.domains.length} domains · {(categoryStats.get(cat.slug)?.topics ?? 0).toLocaleString()} topics · {(categoryStats.get(cat.slug)?.papers ?? 0).toLocaleString()} papers
-                </p>
               </Link>
             ))}
           </div>

@@ -10,7 +10,6 @@ import {
   useRef,
   useState,
 } from "react";
-import { useTrailContext } from "./trail-context";
 
 /* ---- Shared context so button (in header) and panel (outside header) share state ---- */
 
@@ -53,7 +52,7 @@ export function MenuProvider({ children }: { children: React.ReactNode }) {
       const dy = e.changedTouches[0].clientY - sy;
       on = false;
       if (Math.abs(dy) > Math.abs(dx)) return;
-      if (!open && dx < -56 && sx >= window.innerWidth - 40) { setOpen(true); return; }
+      if (!open && dx < -30 && sx >= window.innerWidth - 80) { setOpen(true); return; }
       if (open && dx > 56) close();
     }
     document.addEventListener("touchstart", ts, { passive: true });
@@ -82,38 +81,12 @@ export function MenuButton() {
 
 /* ---- Sidebar panel (goes OUTSIDE header in layout.tsx) ---- */
 
-function titleize(v: string) {
-  return v.replace(/^sg-/, "").replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim().replace(/\b\w/g, (c) => c.toUpperCase());
-}
+type NavCategory = { slug: string; label: string };
 
-function buildTrail(pathname: string) {
-  const s = pathname.split("/").filter(Boolean);
-  const t: Array<{ href: string; label: string }> = [{ href: "/", label: "Home" }];
-  if (s[0] === "domains") {
-    t.push({ href: "/domains", label: "Domains" });
-    if (s[1]) t.push({ href: `/domains/${s[1]}`, label: titleize(s[1]) });
-    if (s[2] === "topics") {
-      t.push({ href: `/domains/${s[1]}/topics`, label: "Topics" });
-      if (s[3]) t.push({ href: `/domains/${s[1]}/topics/${s[3]}`, label: titleize(s[3]) });
-    }
-    if (s[2] === "papers") {
-      t.push({ href: `/domains/${s[1]}/papers`, label: "Papers" });
-      if (s[3]) t.push({ href: `/domains/${s[1]}/papers/${s[3]}`, label: titleize(s[3]) });
-    }
-  }
-  if (s[0] === "categories" && s[1]) t.push({ href: `/categories/${s[1]}`, label: titleize(s[1]) });
-  return t;
-}
-
-export function SidebarPanel() {
+export function SidebarPanel({ categories }: { categories: NavCategory[] }) {
   const { open, close } = useContext(MenuCtx);
   const pathname = usePathname();
-  const { topicTrail } = useTrailContext();
   const ref = useRef<HTMLDivElement>(null);
-  const base = buildTrail(pathname);
-  const trail = topicTrail.length > 0
-    ? [...base.slice(0, base.findIndex((i) => i.label === "Topics") + 1), ...topicTrail]
-    : base;
 
   useEffect(() => { if (open) ref.current?.focus(); }, [open]);
 
@@ -126,18 +99,19 @@ export function SidebarPanel() {
           <button className="sidebar-close" onClick={close} aria-label="Close">✕</button>
         </div>
         <nav className="sidebar-body">
-          <Link href="/" onClick={close}>Home</Link>
-          <Link href="/domains" onClick={close}>All domains</Link>
-          {trail.slice(1).map((item) => (
+          <Link href="/" className={pathname === "/" ? "sidebar-active" : ""} onClick={close}>Home</Link>
+          {categories.map((cat) => (
             <Link
-              key={item.href}
-              href={item.href}
-              className={pathname === item.href ? "sidebar-active" : ""}
+              key={cat.slug}
+              href={`/categories/${cat.slug}`}
+              className={pathname === `/categories/${cat.slug}` ? "sidebar-active" : ""}
               onClick={close}
             >
-              {item.label}
+              {cat.label}
             </Link>
           ))}
+          <div className="sidebar-divider" />
+          <Link href="/domains" className={pathname === "/domains" ? "sidebar-active" : ""} onClick={close}>All domains</Link>
         </nav>
       </div>
     </div>

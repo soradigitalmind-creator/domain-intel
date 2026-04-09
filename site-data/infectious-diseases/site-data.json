@@ -1,0 +1,1982 @@
+{
+  "slug": "infectious-diseases",
+  "title": "Infectious Diseases",
+  "updated_at": "2026-04-09T16:10:01.033767Z",
+  "snapshot": {
+    "papers": 498,
+    "topics": 5,
+    "subtopics": 46,
+    "entities": 1360,
+    "claims": 9
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 680,
+      "total_papers": 680,
+      "facet_counts": {
+        "none": 680
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 46,
+    "max_depth": 2,
+    "leaf_topics": 46
+  },
+  "rising_topics": [
+    {
+      "id": "sg-infectious-disease",
+      "label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/topics/sg-infectious-disease",
+      "trend": "rising",
+      "year_total": 1895242
+    },
+    {
+      "id": "sg-acute-respiratory-syndrome",
+      "label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome",
+      "trend": "rising",
+      "year_total": 738762
+    },
+    {
+      "id": "sg-bacterial-infection",
+      "label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/topics/sg-bacterial-infection",
+      "trend": "rising",
+      "year_total": 1395832
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-infectious-disease",
+      "label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/topics/sg-infectious-disease",
+      "paper_count": 144,
+      "subtopic_count": 17,
+      "trend": "rising",
+      "summary": "entities: disease, infectious disease, s disease",
+      "tags": [
+        "emerging infectious disease",
+        "infectious disease",
+        "infectious diseases",
+        "mathematical modelling of infectious disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-infectious-diseases-infectious-diseases",
+          "label": "Infectious diseases",
+          "url": "/domains/infectious-diseases/topics/sg-infectious-diseases-infectious-diseases",
+          "paper_count": 50
+        },
+        {
+          "id": "sg-infectious-diseases-diseases-society",
+          "label": "Diseases society",
+          "url": "/domains/infectious-diseases/topics/sg-infectious-diseases-diseases-society",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-infectious-diseases-covid-19-clinical-studies",
+          "label": "COVID-19 clinical studies",
+          "url": "/domains/infectious-diseases/topics/sg-infectious-diseases-covid-19-clinical-studies",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-infectious-diseases-health-care",
+          "label": "Health care",
+          "url": "/domains/infectious-diseases/topics/sg-infectious-diseases-health-care",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-infectious-diseases-middle-east-respiratory-syndrome-coronavirus",
+          "label": "Middle east respiratory syndrome coronavirus",
+          "url": "/domains/infectious-diseases/topics/sg-infectious-diseases-middle-east-respiratory-syndrome-coronavirus",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-infectious-diseases-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/infectious-diseases/topics/sg-infectious-diseases-intensive-care-medicine",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3008827533",
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31075,
+          "url": "/domains/infectious-diseases/papers/W3008827533"
+        },
+        {
+          "source_id": "https://openalex.org/W1523693806",
+          "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+          "year": "2015",
+          "cited_by_count": 16339,
+          "url": "/domains/infectious-diseases/papers/W1523693806"
+        },
+        {
+          "source_id": "https://openalex.org/W3113734454",
+          "title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+          "year": "2020",
+          "cited_by_count": 10559,
+          "url": "/domains/infectious-diseases/papers/W3113734454"
+        }
+      ]
+    },
+    {
+      "id": "sg-acute-respiratory-syndrome",
+      "label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome",
+      "paper_count": 123,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: internal medicine, disease, coronavirus disease 2019",
+      "tags": [
+        "acute respiratory distress syndrome",
+        "acute respiratory syndrome",
+        "management of acute",
+        "severe acute"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-acute-respiratory-syndrome-severe-acute-respiratory-syndrome",
+          "label": "Severe acute respiratory syndrome",
+          "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome-severe-acute-respiratory-syndrome",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-acute-respiratory-syndrome-severe-acute-respiratory-syndrome-coronavirus",
+          "label": "Severe acute respiratory syndrome coronavirus",
+          "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome-severe-acute-respiratory-syndrome-coronavirus",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-acute-respiratory-syndrome-severe-acute",
+          "label": "Severe acute",
+          "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome-severe-acute",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-acute-respiratory-syndrome-respiratory-syndrome",
+          "label": "Respiratory syndrome",
+          "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome-respiratory-syndrome",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-acute-respiratory-syndrome-pulmonary-edema",
+          "label": "Pulmonary edema",
+          "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome-pulmonary-edema",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-acute-respiratory-syndrome-diffuse-alveolar-damage",
+          "label": "Diffuse alveolar damage",
+          "url": "/domains/infectious-diseases/topics/sg-acute-respiratory-syndrome-diffuse-alveolar-damage",
+          "paper_count": 12
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2018289835",
+          "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+          "year": "2013",
+          "cited_by_count": 47289,
+          "url": "/domains/infectious-diseases/papers/W2018289835"
+        },
+        {
+          "source_id": "https://openalex.org/W3001897055",
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30218,
+          "url": "/domains/infectious-diseases/papers/W3001897055"
+        },
+        {
+          "source_id": "https://openalex.org/W3004280078",
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23216,
+          "url": "/domains/infectious-diseases/papers/W3004280078"
+        }
+      ]
+    },
+    {
+      "id": "sg-bacterial-infection",
+      "label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/topics/sg-bacterial-infection",
+      "paper_count": 96,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: bacterial infection, internal medicine, disease",
+      "tags": [
+        "bacterial infection",
+        "infectious diseases",
+        "infectious diseases of humans",
+        "respiratory syndrome"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-bacterial-infections-hiv-aids-interventions",
+          "label": "HIV/AIDS interventions",
+          "url": "/domains/infectious-diseases/topics/sg-bacterial-infections-hiv-aids-interventions",
+          "paper_count": 70
+        },
+        {
+          "id": "sg-bacterial-infections-surgical-site-infection-prevention",
+          "label": "Surgical site infection prevention",
+          "url": "/domains/infectious-diseases/topics/sg-bacterial-infections-surgical-site-infection-prevention",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-bacterial-infections-helicobacter-pylori-infection",
+          "label": "Helicobacter pylori infection",
+          "url": "/domains/infectious-diseases/topics/sg-bacterial-infections-helicobacter-pylori-infection",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-bacterial-infections-surgical-wound-infection",
+          "label": "Surgical wound infection",
+          "url": "/domains/infectious-diseases/topics/sg-bacterial-infections-surgical-wound-infection",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3008028633",
+          "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+          "year": "2020",
+          "cited_by_count": 17941,
+          "url": "/domains/infectious-diseases/papers/W3008028633"
+        },
+        {
+          "source_id": "https://openalex.org/W3003217347",
+          "title": "A new coronavirus associated with human respiratory disease in China",
+          "year": "2020",
+          "cited_by_count": 12830,
+          "url": "/domains/infectious-diseases/papers/W3003217347"
+        },
+        {
+          "source_id": "https://openalex.org/W3009906937",
+          "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+          "year": "2020",
+          "cited_by_count": 7707,
+          "url": "/domains/infectious-diseases/papers/W3009906937"
+        }
+      ]
+    },
+    {
+      "id": "sg-immune-system",
+      "label": "Immune system",
+      "url": "/domains/infectious-diseases/topics/sg-immune-system",
+      "paper_count": 82,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: immunology, immune system, disease",
+      "tags": [
+        "acquired immune system",
+        "immune cell function and interaction",
+        "immune checkpoint",
+        "immune dysregulation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-immune-system-innate-immunity",
+          "label": "Innate immunity",
+          "url": "/domains/infectious-diseases/topics/sg-immune-system-innate-immunity",
+          "paper_count": 29
+        },
+        {
+          "id": "sg-immune-system-cell-growth",
+          "label": "Cell growth",
+          "url": "/domains/infectious-diseases/topics/sg-immune-system-cell-growth",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-immune-system-immune-checkpoint",
+          "label": "Immune checkpoint",
+          "url": "/domains/infectious-diseases/topics/sg-immune-system-immune-checkpoint",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-immune-system-t-cell",
+          "label": "T cell",
+          "url": "/domains/infectious-diseases/topics/sg-immune-system-t-cell",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-immune-system-gut-brain-axis",
+          "label": "Gut-brain axis",
+          "url": "/domains/infectious-diseases/topics/sg-immune-system-gut-brain-axis",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-immune-system-adaptive-immunity",
+          "label": "Adaptive immunity",
+          "url": "/domains/infectious-diseases/topics/sg-immune-system-adaptive-immunity",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2560367415",
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "url": "/domains/infectious-diseases/papers/W2560367415"
+        },
+        {
+          "source_id": "https://openalex.org/W3164692211",
+          "title": "Integrated analysis of multimodal single-cell data",
+          "year": "2021",
+          "cited_by_count": 15353,
+          "url": "/domains/infectious-diseases/papers/W3164692211"
+        },
+        {
+          "source_id": "https://openalex.org/W3009859788",
+          "title": "Dysregulation of Immune Response in Patients With Coronavirus 2019 (COVID-19) in Wuhan, China",
+          "year": "2020",
+          "cited_by_count": 5000,
+          "url": "/domains/infectious-diseases/papers/W3009859788"
+        }
+      ]
+    },
+    {
+      "id": "sg-antibiotic-resistance",
+      "label": "Antibiotic resistance",
+      "url": "/domains/infectious-diseases/topics/sg-antibiotic-resistance",
+      "paper_count": 53,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: gene, genetics, genome",
+      "tags": [
+        "acquired antimicrobial resistance",
+        "antibiotic resistance",
+        "antibiotic resistance in bacteria",
+        "antibiotic resistance mechanism"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-antibiotic-resistance-mobile-genetic-elements",
+          "label": "Mobile genetic elements",
+          "url": "/domains/infectious-diseases/topics/sg-antibiotic-resistance-mobile-genetic-elements",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-antibiotic-resistance-health-care",
+          "label": "Health care",
+          "url": "/domains/infectious-diseases/topics/sg-antibiotic-resistance-health-care",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-antibiotic-resistance-antibiotic-resistance-in-bacteria",
+          "label": "Antibiotic resistance in bacteria",
+          "url": "/domains/infectious-diseases/topics/sg-antibiotic-resistance-antibiotic-resistance-in-bacteria",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-antibiotic-resistance-antimicrobial-resistance",
+          "label": "Antimicrobial resistance",
+          "url": "/domains/infectious-diseases/topics/sg-antibiotic-resistance-antimicrobial-resistance",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-antibiotic-resistance-pseudomonas-aeruginosa",
+          "label": "Pseudomonas aeruginosa",
+          "url": "/domains/infectious-diseases/topics/sg-antibiotic-resistance-pseudomonas-aeruginosa",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "url": "/domains/infectious-diseases/papers/W2051978340"
+        },
+        {
+          "source_id": "https://openalex.org/W4251751280",
+          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+          "year": "2021",
+          "cited_by_count": 21061,
+          "url": "/domains/infectious-diseases/papers/W4251751280"
+        },
+        {
+          "source_id": "https://openalex.org/W2034269086",
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28419,
+          "url": "/domains/infectious-diseases/papers/W2034269086"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 12,
+      "papers": [
+        {
+          "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+          "year": "2013",
+          "cited_by_count": 47289,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2018289835.html"
+        },
+        {
+          "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+          "year": "2020",
+          "cited_by_count": 21130,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3005079553.html"
+        },
+        {
+          "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+          "year": "2016",
+          "cited_by_count": 27111,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2280404143.html"
+        },
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18572,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3092849554.html"
+        },
+        {
+          "title": "GRADE: an emerging consensus on rating quality of evidence and strength of recommendations",
+          "year": "2008",
+          "cited_by_count": 21289,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2165010366.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13836,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        }
+      ]
+    },
+    {
+      "label": "Acute respiratory syndrome",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30218,
+          "topic": "Acute respiratory syndrome",
+          "url": "papers/https-openalex-org-w3001897055.html"
+        },
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23216,
+          "topic": "Acute respiratory syndrome",
+          "url": "papers/https-openalex-org-w3004280078.html"
+        },
+        {
+          "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+          "year": "2020",
+          "cited_by_count": 12534,
+          "topic": "Acute respiratory syndrome",
+          "url": "papers/https-openalex-org-w3004318991.html"
+        },
+        {
+          "title": "An interactive web-based dashboard to track COVID-19 in real time",
+          "year": "2020",
+          "cited_by_count": 11123,
+          "topic": "Acute respiratory syndrome",
+          "url": "papers/https-openalex-org-w3008443627.html"
+        },
+        {
+          "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+          "year": "2020",
+          "cited_by_count": 8138,
+          "topic": "Acute respiratory syndrome",
+          "url": "papers/https-openalex-org-w3001195213.html"
+        },
+        {
+          "title": "A novel coronavirus outbreak of global health concern",
+          "year": "2020",
+          "cited_by_count": 8083,
+          "topic": "Acute respiratory syndrome",
+          "url": "papers/https-openalex-org-w3001465255.html"
+        }
+      ]
+    },
+    {
+      "label": "Bacterial infections",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+          "year": "2020",
+          "cited_by_count": 17941,
+          "topic": "Bacterial infections",
+          "url": "papers/https-openalex-org-w3008028633.html"
+        },
+        {
+          "title": "A new coronavirus associated with human respiratory disease in China",
+          "year": "2020",
+          "cited_by_count": 12830,
+          "topic": "Bacterial infections",
+          "url": "papers/https-openalex-org-w3003217347.html"
+        },
+        {
+          "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+          "year": "2020",
+          "cited_by_count": 7707,
+          "topic": "Bacterial infections",
+          "url": "papers/https-openalex-org-w3009906937.html"
+        },
+        {
+          "title": "Remdesivir for the Treatment of Covid-19 — Final Report",
+          "year": "2020",
+          "cited_by_count": 7691,
+          "topic": "Bacterial infections",
+          "url": "papers/https-openalex-org-w3027630905.html"
+        },
+        {
+          "title": "Neurologic Manifestations of Hospitalized Patients With Coronavirus Disease 2019 in Wuhan, China",
+          "year": "2020",
+          "cited_by_count": 7376,
+          "topic": "Bacterial infections",
+          "url": "papers/https-openalex-org-w3016127017.html"
+        }
+      ]
+    },
+    {
+      "label": "Infectious diseases",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31075,
+          "topic": "Infectious diseases",
+          "url": "papers/https-openalex-org-w3008827533.html"
+        },
+        {
+          "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+          "year": "2015",
+          "cited_by_count": 16339,
+          "topic": "Infectious diseases",
+          "url": "papers/https-openalex-org-w1523693806.html"
+        },
+        {
+          "title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+          "year": "2020",
+          "cited_by_count": 10559,
+          "topic": "Infectious diseases",
+          "url": "papers/https-openalex-org-w3113734454.html"
+        },
+        {
+          "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": "2024",
+          "cited_by_count": 4018,
+          "topic": "Infectious diseases",
+          "url": "papers/https-openalex-org-w4394894573.html"
+        },
+        {
+          "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+          "year": "2020",
+          "cited_by_count": 9583,
+          "topic": "Infectious diseases",
+          "url": "papers/https-openalex-org-w3002539152.html"
+        }
+      ]
+    },
+    {
+      "label": "Mobile genetic elements",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "topic": "Mobile genetic elements",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28419,
+          "topic": "Mobile genetic elements",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24468,
+          "topic": "Mobile genetic elements",
+          "url": "papers/https-openalex-org-w2168909179.html"
+        },
+        {
+          "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+          "year": "2020",
+          "cited_by_count": 9897,
+          "topic": "Mobile genetic elements",
+          "url": "papers/https-openalex-org-w3029661147.html"
+        }
+      ]
+    },
+    {
+      "label": "Immune system",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "topic": "Immune system",
+          "url": "papers/https-openalex-org-w2560367415.html"
+        },
+        {
+          "title": "Integrated analysis of multimodal single-cell data",
+          "year": "2021",
+          "cited_by_count": 15353,
+          "topic": "Immune system",
+          "url": "papers/https-openalex-org-w3164692211.html"
+        }
+      ]
+    },
+    {
+      "label": "Acute respiratory distress syndrome",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+          "year": "2012",
+          "cited_by_count": 16073,
+          "topic": "Acute respiratory distress syndrome",
+          "url": "papers/https-openalex-org-w2127951128.html"
+        }
+      ]
+    },
+    {
+      "label": "Antimicrobial resistance",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+          "year": "2021",
+          "cited_by_count": 21061,
+          "topic": "Antimicrobial resistance",
+          "url": "papers/https-openalex-org-w4251751280.html"
+        }
+      ]
+    },
+    {
+      "label": "Chimeric antigen receptor",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+          "year": "2005",
+          "cited_by_count": 21313,
+          "topic": "Chimeric antigen receptor",
+          "url": "papers/https-openalex-org-w2096287682.html"
+        }
+      ]
+    },
+    {
+      "label": "Data-driven disease surveillance",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+          "year": "2018",
+          "cited_by_count": 10866,
+          "topic": "Data-driven disease surveillance",
+          "url": "papers/https-openalex-org-w2900756811.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2018289835",
+      "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+      "year": 2013,
+      "cited_by_count": 47289,
+      "adjusted_cited_by_count": 13115.61,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31075,
+      "adjusted_cited_by_count": 12686.32,
+      "primary_topic_id": "sg-infectious-disease",
+      "primary_topic_label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30218,
+      "adjusted_cited_by_count": 12336.45,
+      "primary_topic_id": "sg-acute-respiratory-syndrome",
+      "primary_topic_label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29017,
+      "adjusted_cited_by_count": 11846.14,
+      "primary_topic_id": "sg-acute-respiratory-syndrome-diffuse-alveolar-damage",
+      "primary_topic_label": "Diffuse alveolar damage",
+      "url": "/domains/infectious-diseases/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Immune system",
+      "url": "/domains/infectious-diseases/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23216,
+      "adjusted_cited_by_count": 9477.89,
+      "primary_topic_id": "sg-acute-respiratory-syndrome",
+      "primary_topic_label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31276,
+      "adjusted_cited_by_count": 9430.07,
+      "primary_topic_id": "sg-antibiotic-resistance-mobile-genetic-elements",
+      "primary_topic_label": "Mobile genetic elements",
+      "url": "/domains/infectious-diseases/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W4251751280",
+      "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+      "year": 2021,
+      "cited_by_count": 21061,
+      "adjusted_cited_by_count": 9418.77,
+      "primary_topic_id": "sg-antibiotic-resistance-antimicrobial-resistance",
+      "primary_topic_label": "Antimicrobial resistance",
+      "url": "/domains/infectious-diseases/papers/W4251751280"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21130,
+      "adjusted_cited_by_count": 8626.29,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27111,
+      "adjusted_cited_by_count": 8573.25,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18572,
+      "adjusted_cited_by_count": 7581.99,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W3008028633",
+      "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+      "year": 2020,
+      "cited_by_count": 17941,
+      "adjusted_cited_by_count": 7324.38,
+      "primary_topic_id": "sg-bacterial-infection",
+      "primary_topic_label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/papers/W3008028633"
+    },
+    {
+      "source_id": "https://openalex.org/W3164692211",
+      "title": "Integrated analysis of multimodal single-cell data",
+      "year": 2021,
+      "cited_by_count": 15353,
+      "adjusted_cited_by_count": 6866.07,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Immune system",
+      "url": "/domains/infectious-diseases/papers/W3164692211"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28419,
+      "adjusted_cited_by_count": 5573.42,
+      "primary_topic_id": "sg-antibiotic-resistance-mobile-genetic-elements",
+      "primary_topic_label": "Mobile genetic elements",
+      "url": "/domains/infectious-diseases/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W3003217347",
+      "title": "A new coronavirus associated with human respiratory disease in China",
+      "year": 2020,
+      "cited_by_count": 12830,
+      "adjusted_cited_by_count": 5237.83,
+      "primary_topic_id": "sg-bacterial-infection",
+      "primary_topic_label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/papers/W3003217347"
+    },
+    {
+      "source_id": "https://openalex.org/W3004318991",
+      "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+      "year": 2020,
+      "cited_by_count": 12534,
+      "adjusted_cited_by_count": 5116.98,
+      "primary_topic_id": "sg-acute-respiratory-syndrome",
+      "primary_topic_label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/papers/W3004318991"
+    },
+    {
+      "source_id": "https://openalex.org/W2165010366",
+      "title": "GRADE: an emerging consensus on rating quality of evidence and strength of recommendations",
+      "year": 2008,
+      "cited_by_count": 21289,
+      "adjusted_cited_by_count": 5017.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2165010366"
+    },
+    {
+      "source_id": "https://openalex.org/W1523693806",
+      "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+      "year": 2015,
+      "cited_by_count": 16339,
+      "adjusted_cited_by_count": 4926.39,
+      "primary_topic_id": "sg-infectious-disease",
+      "primary_topic_label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/papers/W1523693806"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24468,
+      "adjusted_cited_by_count": 4893.6,
+      "primary_topic_id": "sg-antibiotic-resistance-mobile-genetic-elements",
+      "primary_topic_label": "Mobile genetic elements",
+      "url": "/domains/infectious-diseases/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13836,
+      "adjusted_cited_by_count": 4891.76,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21313,
+      "adjusted_cited_by_count": 4650.88,
+      "primary_topic_id": "sg-immune-system-chimeric-antigen-receptor",
+      "primary_topic_label": "Chimeric antigen receptor",
+      "url": "/domains/infectious-diseases/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W3008443627",
+      "title": "An interactive web-based dashboard to track COVID-19 in real time",
+      "year": 2020,
+      "cited_by_count": 11123,
+      "adjusted_cited_by_count": 4540.95,
+      "primary_topic_id": "sg-acute-respiratory-syndrome",
+      "primary_topic_label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/papers/W3008443627"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13445,
+      "adjusted_cited_by_count": 4481.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W3008090866",
+      "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+      "year": 2020,
+      "cited_by_count": 10677,
+      "adjusted_cited_by_count": 4358.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W3008090866"
+    },
+    {
+      "source_id": "https://openalex.org/W3113734454",
+      "title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+      "year": 2020,
+      "cited_by_count": 10559,
+      "adjusted_cited_by_count": 4310.69,
+      "primary_topic_id": "sg-infectious-disease",
+      "primary_topic_label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/papers/W3113734454"
+    },
+    {
+      "source_id": "https://openalex.org/W2127951128",
+      "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+      "year": 2012,
+      "cited_by_count": 16073,
+      "adjusted_cited_by_count": 4295.69,
+      "primary_topic_id": "sg-acute-respiratory-syndrome-acute-respiratory-distress-syndrome",
+      "primary_topic_label": "Acute respiratory distress syndrome",
+      "url": "/domains/infectious-diseases/papers/W2127951128"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9897,
+      "adjusted_cited_by_count": 4040.43,
+      "primary_topic_id": "sg-antibiotic-resistance-mobile-genetic-elements",
+      "primary_topic_label": "Mobile genetic elements",
+      "url": "/domains/infectious-diseases/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4018,
+      "adjusted_cited_by_count": 4018.0,
+      "primary_topic_id": "sg-infectious-disease",
+      "primary_topic_label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W3002539152",
+      "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+      "year": 2020,
+      "cited_by_count": 9583,
+      "adjusted_cited_by_count": 3912.24,
+      "primary_topic_id": "sg-infectious-disease",
+      "primary_topic_label": "Infectious diseases",
+      "url": "/domains/infectious-diseases/papers/W3002539152"
+    },
+    {
+      "source_id": "https://openalex.org/W2900756811",
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "year": 2018,
+      "cited_by_count": 10866,
+      "adjusted_cited_by_count": 3841.71,
+      "primary_topic_id": "sg-infectious-diseases-data-driven-disease-surveillance",
+      "primary_topic_label": "Data-driven disease surveillance",
+      "url": "/domains/infectious-diseases/papers/W2900756811"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14184,
+      "adjusted_cited_by_count": 3790.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W3001195213",
+      "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+      "year": 2020,
+      "cited_by_count": 8138,
+      "adjusted_cited_by_count": 3322.32,
+      "primary_topic_id": "sg-acute-respiratory-syndrome",
+      "primary_topic_label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/papers/W3001195213"
+    },
+    {
+      "source_id": "https://openalex.org/W3001465255",
+      "title": "A novel coronavirus outbreak of global health concern",
+      "year": 2020,
+      "cited_by_count": 8083,
+      "adjusted_cited_by_count": 3299.87,
+      "primary_topic_id": "sg-acute-respiratory-syndrome",
+      "primary_topic_label": "Acute respiratory syndrome",
+      "url": "/domains/infectious-diseases/papers/W3001465255"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7234,
+      "adjusted_cited_by_count": 3235.14,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W4391649568",
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "year": 2024,
+      "cited_by_count": 3175,
+      "adjusted_cited_by_count": 3175.0,
+      "primary_topic_id": "sg-acute-respiratory-syndrome-pulmonary-edema",
+      "primary_topic_label": "Pulmonary edema",
+      "url": "/domains/infectious-diseases/papers/W4391649568"
+    },
+    {
+      "source_id": "https://openalex.org/W3009906937",
+      "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+      "year": 2020,
+      "cited_by_count": 7707,
+      "adjusted_cited_by_count": 3146.37,
+      "primary_topic_id": "sg-bacterial-infection",
+      "primary_topic_label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/papers/W3009906937"
+    },
+    {
+      "source_id": "https://openalex.org/W3027630905",
+      "title": "Remdesivir for the Treatment of Covid-19 — Final Report",
+      "year": 2020,
+      "cited_by_count": 7691,
+      "adjusted_cited_by_count": 3139.84,
+      "primary_topic_id": "sg-bacterial-infection",
+      "primary_topic_label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/papers/W3027630905"
+    },
+    {
+      "source_id": "https://openalex.org/W2899736836",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 8578,
+      "adjusted_cited_by_count": 3032.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2899736836"
+    },
+    {
+      "source_id": "https://openalex.org/W3016127017",
+      "title": "Neurologic Manifestations of Hospitalized Patients With Coronavirus Disease 2019 in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 7376,
+      "adjusted_cited_by_count": 3011.24,
+      "primary_topic_id": "sg-bacterial-infection",
+      "primary_topic_label": "Bacterial infections",
+      "url": "/domains/infectious-diseases/papers/W3016127017"
+    },
+    {
+      "source_id": "https://openalex.org/W2998853022",
+      "title": "Global, regional, and national sepsis incidence and mortality, 1990–2017: analysis for the Global Burden of Disease Study",
+      "year": 2020,
+      "cited_by_count": 7324,
+      "adjusted_cited_by_count": 2990.01,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/infectious-diseases/papers/W2998853022"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2018289835",
+      "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
+      "year": 2013,
+      "cited_by_count": 47289,
+      "adjusted_cited_by_count": 13115.61,
+      "url": "/domains/infectious-diseases/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31075,
+      "adjusted_cited_by_count": 12686.32,
+      "url": "/domains/infectious-diseases/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30218,
+      "adjusted_cited_by_count": 12336.45,
+      "url": "/domains/infectious-diseases/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29017,
+      "adjusted_cited_by_count": 11846.14,
+      "url": "/domains/infectious-diseases/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "url": "/domains/infectious-diseases/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23216,
+      "adjusted_cited_by_count": 9477.89,
+      "url": "/domains/infectious-diseases/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31276,
+      "adjusted_cited_by_count": 9430.07,
+      "url": "/domains/infectious-diseases/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W4251751280",
+      "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+      "year": 2021,
+      "cited_by_count": 21061,
+      "adjusted_cited_by_count": 9418.77,
+      "url": "/domains/infectious-diseases/papers/W4251751280"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21130,
+      "adjusted_cited_by_count": 8626.29,
+      "url": "/domains/infectious-diseases/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27111,
+      "adjusted_cited_by_count": 8573.25,
+      "url": "/domains/infectious-diseases/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18572,
+      "adjusted_cited_by_count": 7581.99,
+      "url": "/domains/infectious-diseases/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W3008028633",
+      "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+      "year": 2020,
+      "cited_by_count": 17941,
+      "adjusted_cited_by_count": 7324.38,
+      "url": "/domains/infectious-diseases/papers/W3008028633"
+    },
+    {
+      "source_id": "https://openalex.org/W3164692211",
+      "title": "Integrated analysis of multimodal single-cell data",
+      "year": 2021,
+      "cited_by_count": 15353,
+      "adjusted_cited_by_count": 6866.07,
+      "url": "/domains/infectious-diseases/papers/W3164692211"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28419,
+      "adjusted_cited_by_count": 5573.42,
+      "url": "/domains/infectious-diseases/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W3003217347",
+      "title": "A new coronavirus associated with human respiratory disease in China",
+      "year": 2020,
+      "cited_by_count": 12830,
+      "adjusted_cited_by_count": 5237.83,
+      "url": "/domains/infectious-diseases/papers/W3003217347"
+    },
+    {
+      "source_id": "https://openalex.org/W3004318991",
+      "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+      "year": 2020,
+      "cited_by_count": 12534,
+      "adjusted_cited_by_count": 5116.98,
+      "url": "/domains/infectious-diseases/papers/W3004318991"
+    },
+    {
+      "source_id": "https://openalex.org/W2165010366",
+      "title": "GRADE: an emerging consensus on rating quality of evidence and strength of recommendations",
+      "year": 2008,
+      "cited_by_count": 21289,
+      "adjusted_cited_by_count": 5017.87,
+      "url": "/domains/infectious-diseases/papers/W2165010366"
+    },
+    {
+      "source_id": "https://openalex.org/W1523693806",
+      "title": "Repertoires of Autophagy in the Pathogenesis of Ocular Diseases",
+      "year": 2015,
+      "cited_by_count": 16339,
+      "adjusted_cited_by_count": 4926.39,
+      "url": "/domains/infectious-diseases/papers/W1523693806"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24468,
+      "adjusted_cited_by_count": 4893.6,
+      "url": "/domains/infectious-diseases/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13836,
+      "adjusted_cited_by_count": 4891.76,
+      "url": "/domains/infectious-diseases/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21313,
+      "adjusted_cited_by_count": 4650.88,
+      "url": "/domains/infectious-diseases/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W3008443627",
+      "title": "An interactive web-based dashboard to track COVID-19 in real time",
+      "year": 2020,
+      "cited_by_count": 11123,
+      "adjusted_cited_by_count": 4540.95,
+      "url": "/domains/infectious-diseases/papers/W3008443627"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13445,
+      "adjusted_cited_by_count": 4481.67,
+      "url": "/domains/infectious-diseases/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W3008090866",
+      "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+      "year": 2020,
+      "cited_by_count": 10677,
+      "adjusted_cited_by_count": 4358.87,
+      "url": "/domains/infectious-diseases/papers/W3008090866"
+    },
+    {
+      "source_id": "https://openalex.org/W3113734454",
+      "title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+      "year": 2020,
+      "cited_by_count": 10559,
+      "adjusted_cited_by_count": 4310.69,
+      "url": "/domains/infectious-diseases/papers/W3113734454"
+    },
+    {
+      "source_id": "https://openalex.org/W2127951128",
+      "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+      "year": 2012,
+      "cited_by_count": 16073,
+      "adjusted_cited_by_count": 4295.69,
+      "url": "/domains/infectious-diseases/papers/W2127951128"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9897,
+      "adjusted_cited_by_count": 4040.43,
+      "url": "/domains/infectious-diseases/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4018,
+      "adjusted_cited_by_count": 4018.0,
+      "url": "/domains/infectious-diseases/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W3002539152",
+      "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+      "year": 2020,
+      "cited_by_count": 9583,
+      "adjusted_cited_by_count": 3912.24,
+      "url": "/domains/infectious-diseases/papers/W3002539152"
+    },
+    {
+      "source_id": "https://openalex.org/W2900756811",
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "year": 2018,
+      "cited_by_count": 10866,
+      "adjusted_cited_by_count": 3841.71,
+      "url": "/domains/infectious-diseases/papers/W2900756811"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14184,
+      "adjusted_cited_by_count": 3790.83,
+      "url": "/domains/infectious-diseases/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W3001195213",
+      "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+      "year": 2020,
+      "cited_by_count": 8138,
+      "adjusted_cited_by_count": 3322.32,
+      "url": "/domains/infectious-diseases/papers/W3001195213"
+    },
+    {
+      "source_id": "https://openalex.org/W3001465255",
+      "title": "A novel coronavirus outbreak of global health concern",
+      "year": 2020,
+      "cited_by_count": 8083,
+      "adjusted_cited_by_count": 3299.87,
+      "url": "/domains/infectious-diseases/papers/W3001465255"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7234,
+      "adjusted_cited_by_count": 3235.14,
+      "url": "/domains/infectious-diseases/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W4391649568",
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "year": 2024,
+      "cited_by_count": 3175,
+      "adjusted_cited_by_count": 3175.0,
+      "url": "/domains/infectious-diseases/papers/W4391649568"
+    },
+    {
+      "source_id": "https://openalex.org/W3009906937",
+      "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+      "year": 2020,
+      "cited_by_count": 7707,
+      "adjusted_cited_by_count": 3146.37,
+      "url": "/domains/infectious-diseases/papers/W3009906937"
+    },
+    {
+      "source_id": "https://openalex.org/W3027630905",
+      "title": "Remdesivir for the Treatment of Covid-19 — Final Report",
+      "year": 2020,
+      "cited_by_count": 7691,
+      "adjusted_cited_by_count": 3139.84,
+      "url": "/domains/infectious-diseases/papers/W3027630905"
+    },
+    {
+      "source_id": "https://openalex.org/W2899736836",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 8578,
+      "adjusted_cited_by_count": 3032.78,
+      "url": "/domains/infectious-diseases/papers/W2899736836"
+    },
+    {
+      "source_id": "https://openalex.org/W3016127017",
+      "title": "Neurologic Manifestations of Hospitalized Patients With Coronavirus Disease 2019 in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 7376,
+      "adjusted_cited_by_count": 3011.24,
+      "url": "/domains/infectious-diseases/papers/W3016127017"
+    },
+    {
+      "source_id": "https://openalex.org/W2998853022",
+      "title": "Global, regional, and national sepsis incidence and mortality, 1990–2017: analysis for the Global Burden of Disease Study",
+      "year": 2020,
+      "cited_by_count": 7324,
+      "adjusted_cited_by_count": 2990.01,
+      "url": "/domains/infectious-diseases/papers/W2998853022"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 541
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 383
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 306
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 271
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 225
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 220
+    },
+    {
+      "label": "infectious disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 219
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 213
+    },
+    {
+      "label": "clinical practice guideline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 189
+    },
+    {
+      "label": "health care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 177
+    },
+    {
+      "label": "s disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 154
+    },
+    {
+      "label": "diseases",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 149
+    },
+    {
+      "label": "virus",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 140
+    },
+    {
+      "label": "coronavirus disease 2019",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 133
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 117
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 109
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 7
+    },
+    {
+      "label": "treatment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 104
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 101
+    },
+    {
+      "label": "evidence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 91
+    },
+    {
+      "label": "patients with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 87
+    },
+    {
+      "label": "infectious diseases",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 88
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 84
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 83
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 82
+    },
+    {
+      "label": "immune system",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 82
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 80
+    },
+    {
+      "label": "global health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 79
+    },
+    {
+      "label": "by the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 77
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 75
+    },
+    {
+      "label": "sars",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9867,
+      "evidence_count": 73
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 72
+    },
+    {
+      "label": "therapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 71
+    },
+    {
+      "label": "associated with",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 69
+    },
+    {
+      "label": "covid-19",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 140
+    },
+    {
+      "label": "outbreak",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9862,
+      "evidence_count": 75
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 67
+    },
+    {
+      "label": "diagnosis and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 66
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 65
+    },
+    {
+      "label": "genome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 64
+    },
+    {
+      "label": "severe",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 119
+    },
+    {
+      "label": "acute respiratory syndrome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 87
+    },
+    {
+      "label": "management of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 61
+    },
+    {
+      "label": "public health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 60
+    },
+    {
+      "label": "epidemiology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 58
+    },
+    {
+      "label": "guideline for the",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9854,
+      "evidence_count": 58
+    },
+    {
+      "label": "practice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 58
+    },
+    {
+      "label": "life",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9853,
+      "evidence_count": 57
+    },
+    {
+      "label": "sars-cov-2",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 95
+    },
+    {
+      "label": "response",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 56
+    }
+  ],
+  "topic_year_counts": {
+    "infectious diseases": {
+      "2023": 210949,
+      "2024": 192759,
+      "2025": 170668,
+      "2022": 166231,
+      "2021": 165883,
+      "2020": 156907,
+      "2019": 91526,
+      "2018": 80935,
+      "2017": 73972,
+      "2016": 66829,
+      "2015": 61687,
+      "2014": 58970,
+      "2013": 52827,
+      "2012": 46985,
+      "2026": 42125,
+      "2011": 40185,
+      "2010": 34317,
+      "2009": 29654,
+      "2008": 25791,
+      "2007": 21538,
+      "2006": 19730,
+      "2005": 18367,
+      "2004": 16929,
+      "2003": 15038,
+      "2002": 12453,
+      "2001": 11118,
+      "2000": 10869
+    },
+    "acute respiratory syndrome": {
+      "2021": 98137,
+      "2023": 95582,
+      "2020": 89605,
+      "2022": 86524,
+      "2024": 76009,
+      "2025": 58801,
+      "2019": 24437,
+      "2018": 21415,
+      "2017": 19171,
+      "2016": 17648,
+      "2015": 16325,
+      "2014": 15398,
+      "2013": 14154,
+      "2026": 13588,
+      "2012": 13056,
+      "2011": 10873,
+      "2010": 9504,
+      "2009": 8366,
+      "2008": 7265,
+      "2005": 6973,
+      "2007": 6641,
+      "2004": 6596,
+      "2006": 6390,
+      "2003": 6148,
+      "2002": 3747,
+      "2001": 3253,
+      "2000": 3156
+    },
+    "bacterial infections": {
+      "2023": 150273,
+      "2024": 143317,
+      "2025": 135333,
+      "2022": 108025,
+      "2021": 102535,
+      "2020": 96636,
+      "2019": 73133,
+      "2018": 64330,
+      "2017": 59429,
+      "2016": 52904,
+      "2015": 48282,
+      "2014": 46854,
+      "2013": 41710,
+      "2012": 37216,
+      "2026": 32515,
+      "2011": 31349,
+      "2010": 26627,
+      "2009": 22823,
+      "2008": 20003,
+      "2007": 17121,
+      "2006": 15674,
+      "2005": 14850,
+      "2004": 13324,
+      "2003": 12070,
+      "2002": 10467,
+      "2000": 9678,
+      "2001": 9354
+    },
+    "immune system": {
+      "2023": 353728,
+      "2024": 335160,
+      "2025": 313713,
+      "2022": 254568,
+      "2021": 238698,
+      "2020": 212946,
+      "2019": 153075,
+      "2018": 134690,
+      "2017": 123458,
+      "2016": 111464,
+      "2015": 100707,
+      "2014": 94383,
+      "2013": 85558,
+      "2026": 78575,
+      "2012": 76862,
+      "2011": 64909,
+      "2010": 54700,
+      "2009": 47246,
+      "2008": 40398,
+      "2007": 35091,
+      "2006": 31816,
+      "2005": 29286,
+      "2004": 25965,
+      "2003": 23456,
+      "2002": 20501,
+      "2000": 17841,
+      "2001": 17725
+    },
+    "antibiotic resistance": {
+      "2023": 99794,
+      "2025": 98765,
+      "2024": 98520,
+      "2022": 69389,
+      "2021": 63318,
+      "2020": 58792,
+      "2019": 48412,
+      "2018": 41706,
+      "2017": 37995,
+      "2016": 33328,
+      "2015": 29470,
+      "2014": 27567,
+      "2026": 25131,
+      "2013": 24308,
+      "2012": 21685,
+      "2011": 17832,
+      "2010": 15005,
+      "2009": 13162,
+      "2008": 11309,
+      "2007": 9667,
+      "2006": 8726,
+      "2005": 8169,
+      "2004": 7065,
+      "2003": 6641,
+      "2002": 5697,
+      "2000": 5288,
+      "2001": 5107
+    }
+  }
+}

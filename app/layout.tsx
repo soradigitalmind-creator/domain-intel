@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { MenuButton, MenuProvider, SidebarPanel } from "./components/header-menu";
 import { TrailProvider } from "./components/trail-context";
+import { listPortalCategories } from "../lib/workplace";
 import "./globals.css";
 
 export const dynamic = "force-static";
@@ -15,9 +16,12 @@ export const metadata: Metadata = {
     "Browse research fields by category and explore topic maps, paper collections, and structured summaries for each domain.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children
 }: Readonly<{ children: React.ReactNode }>) {
+  const categories = await listPortalCategories();
+  const navCategories = categories.map((c) => ({ slug: c.slug, label: c.label }));
+
   return (
     <html lang="en">
       <body>
@@ -31,8 +35,7 @@ export default function RootLayout({
                 <MenuButton />
               </div>
             </header>
-            {/* SidebarPanel is OUTSIDE header — not trapped by header's stacking context */}
-            <SidebarPanel />
+            <SidebarPanel categories={navCategories} />
             {children}
           </MenuProvider>
         </TrailProvider>

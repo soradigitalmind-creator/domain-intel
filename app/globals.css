@@ -182,6 +182,12 @@ body.menu-open {
   color: var(--text) !important;
 }
 
+.sidebar-divider {
+  height: 1px;
+  margin: 8px 0;
+  background: var(--border);
+}
+
 
 a {
   color: inherit;

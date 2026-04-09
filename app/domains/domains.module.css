@@ -27,6 +27,7 @@
 
 .sectionTop {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
@@ -95,13 +96,15 @@
 
 .table {
   display: grid;
-  gap: 0;
-  border-top: 1px solid var(--border);
+  gap: 8px;
 }
 
 .tableRow {
-  display: block;
-  padding: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.82);
@@ -118,26 +121,53 @@ a.tableRow:hover {
   opacity: 0.5;
 }
 
+.tableMain {
+  min-width: 0;
+}
+
+.tableTitle {
+  margin: 0 0 2px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+}
+
+.tableMeta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 .tableCategory {
-  margin: 0 0 6px;
-  font-size: 0.78rem;
+  margin: 0;
+  flex-shrink: 0;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted);
 }
 
-.tableTitle {
-  margin: 0 0 4px;
-  font-size: 1.75rem;
-  font-weight: 800;
-  letter-spacing: -0.04em;
-}
+@media (max-width: 639px) {
+  .sectionTop {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.tableMeta {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-  line-height: 1.45;
-}
+  .controls {
+    align-items: flex-start;
+  }
 
+  .filterRow {
+    justify-content: flex-start;
+  }
+
+  .tableRow {
+    padding: 14px 16px;
+  }
+
+  .tableTitle {
+    font-size: 1.1rem;
+  }
+}

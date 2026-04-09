@@ -26,6 +26,7 @@ export type DomainSummary = {
   facetCounts: Record<string, number>;
   hasDetail: boolean;
   abstractionLabel?: string;
+  relatedDomains: Array<{ slug: string; title: string }>;
 };
 
 export type DomainDetail = DomainSummary & {
@@ -99,7 +100,7 @@ export type TopicDetail = {
   /** Pre-computed grandchildren keyed by child subgenre_id. */
   grandchildren: Record<string, Array<{ subgenre_id: string; label: string }>>;
   /** Sibling topics sharing the same parent. */
-  siblingTopics: Array<{ subgenre_id: string; label: string; paperCount: number; subtopicCount: number }>;
+  siblingTopics: Array<{ subgenre_id: string; label: string; paperCount: number; subtopicCount: number; similarity: number }>;
   papers: TopicPaper[];
 };
 
@@ -172,7 +173,6 @@ export type DomainPapersIndex = {
     papers: TopicPaper[];
   }>;
   archive: Array<TopicPaper & { primaryTopicId: string | null; primaryTopicLabel: string | null }>;
-  relatedDomains: Array<{ slug: string; title: string }>;
 };
 
 export type PortalCategory = {

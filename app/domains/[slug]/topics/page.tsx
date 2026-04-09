@@ -114,6 +114,19 @@ export default async function DomainTopicsPage({ params }: Props) {
           </article>
         ))}
       </section>
+
+      {detail.domain.relatedDomains?.length > 0 && (
+        <section className={styles.relatedSection}>
+          <h2 className={styles.relatedTitle}>Related domains</h2>
+          <div className={styles.relatedGrid}>
+            {detail.domain.relatedDomains.map((d) => (
+              <Link key={d.slug} href={`/domains/${d.slug}/topics`} className={styles.relatedCard}>
+                {d.title}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }

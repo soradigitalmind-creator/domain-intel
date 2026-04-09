@@ -112,7 +112,12 @@ export default async function TopicPage({ params }: Props) {
                 href={`/domains/${slug}/topics/${t.subgenre_id}`}
                 className={styles.relatedCard}
               >
-                <strong className={styles.relatedLabel}>{t.label}</strong>
+                <div className={styles.relatedTop}>
+                  <strong className={styles.relatedLabel}>{t.label}</strong>
+                  {t.similarity > 0 && (
+                    <span className={styles.relatedSimilarity}>{t.similarity}%</span>
+                  )}
+                </div>
                 <span className={styles.relatedMeta}>
                   {t.paperCount} papers{t.subtopicCount > 0 ? ` · ${t.subtopicCount} subtopics` : ""}
                 </span>

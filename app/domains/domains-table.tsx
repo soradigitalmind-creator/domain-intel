@@ -83,23 +83,27 @@ export function DomainsTable({
         {sorted.map((domain) =>
           domain.hasDetail ? (
             <Link key={domain.slug} href={`/domains/${domain.slug}`} className={styles.tableRow}>
+              <div className={styles.tableMain}>
+                <p className={styles.tableTitle}>{domain.title}</p>
+                <p className={styles.tableMeta}>
+                  {domain.topicCount.toLocaleString()} topics / {domain.sources.toLocaleString()} papers
+                </p>
+              </div>
               {categoryBySlug[domain.slug] && (
                 <p className={styles.tableCategory}>{categoryBySlug[domain.slug]}</p>
               )}
-              <p className={styles.tableTitle}>{domain.title}</p>
-              <p className={styles.tableMeta}>
-                {domain.topicCount.toLocaleString()} topics / {domain.sources.toLocaleString()} papers
-              </p>
             </Link>
           ) : (
             <div key={domain.slug} className={`${styles.tableRow} ${styles.tableRowPending}`}>
+              <div className={styles.tableMain}>
+                <p className={styles.tableTitle}>{domain.title}</p>
+                <p className={styles.tableMeta}>
+                  {domain.topicCount.toLocaleString()} topics / {domain.sources.toLocaleString()} papers
+                </p>
+              </div>
               {categoryBySlug[domain.slug] && (
                 <p className={styles.tableCategory}>{categoryBySlug[domain.slug]}</p>
               )}
-              <p className={styles.tableTitle}>{domain.title}</p>
-              <p className={styles.tableMeta}>
-                {domain.topicCount.toLocaleString()} topics / {domain.sources.toLocaleString()} papers
-              </p>
             </div>
           )
         )}

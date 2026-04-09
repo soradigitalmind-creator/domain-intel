@@ -81,6 +81,19 @@ export default async function DomainPage({ params }: Props) {
         </div>
       </section>
 
+      {domain.relatedDomains?.length > 0 && (
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Related domains</h2>
+          <div className={styles.relatedGrid}>
+            {domain.relatedDomains.map((d) => (
+              <Link key={d.slug} href={`/domains/${d.slug}`} className={styles.relatedCard}>
+                {d.title}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className={styles.section}>
         <div className={styles.footerLinks}>
           <Link href={`/domains/${slug}/topics`} className={styles.footerLink}>
