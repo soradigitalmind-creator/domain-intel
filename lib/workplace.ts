@@ -99,7 +99,7 @@ export type TopicDetail = {
   /** Pre-computed grandchildren keyed by child subgenre_id. */
   grandchildren: Record<string, Array<{ subgenre_id: string; label: string }>>;
   /** Sibling topics sharing the same parent. */
-  siblingTopics: Array<{ subgenre_id: string; label: string; paperCount: number }>;
+  siblingTopics: Array<{ subgenre_id: string; label: string; paperCount: number; subtopicCount: number }>;
   papers: TopicPaper[];
 };
 

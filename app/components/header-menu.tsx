@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useTrailContext } from "./trail-context";
 
 type TrailItem = {
@@ -71,8 +71,6 @@ export function HeaderMenu() {
   const pathname = usePathname();
   const { topicTrail } = useTrailContext();
   const baseTrail = buildTrail(pathname);
-  // When topicTrail is injected by a topic page, replace the auto-generated
-  // topic items (after "Topics") with the real parent→child chain.
   const trail = topicTrail.length > 0
     ? [
         ...baseTrail.slice(0, baseTrail.findIndex((item) => item.label === "Topics") + 1),
@@ -80,49 +78,40 @@ export function HeaderMenu() {
       ]
     : baseTrail;
   const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
 
-  useEffect(() => {
-    function handleClick(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) {
-        setOpen(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
-  }, []);
+  const close = useCallback(() => setOpen(false), []);
 
+  // Close on route change
   useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
+    close();
+  }, [pathname, close]);
 
+  // Lock body scroll while open
   useEffect(() => {
     document.body.classList.toggle("menu-open", open);
     return () => document.body.classList.remove("menu-open");
   }, [open]);
 
+  // Escape key
   useEffect(() => {
+    if (!open) return;
     function onKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") {
-        setOpen(false);
-      }
+      if (e.key === "Escape") close();
     }
-
     document.addEventListener("keydown", onKeyDown);
     return () => document.removeEventListener("keydown", onKeyDown);
-  }, []);
+  }, [open, close]);
 
+  // Focus management
   useEffect(() => {
     if (open) {
       panelRef.current?.focus();
-      return;
     }
-
-    buttonRef.current?.focus();
   }, [open]);
 
+  // Swipe gestures (mobile)
   useEffect(() => {
     let startX = 0;
     let startY = 0;
@@ -133,7 +122,6 @@ export function HeaderMenu() {
         active = false;
         return;
       }
-
       startX = e.touches[0].clientX;
       startY = e.touches[0].clientY;
       active = true;
@@ -141,7 +129,6 @@ export function HeaderMenu() {
 
     function onTouchEnd(e: TouchEvent) {
       if (!active || e.changedTouches.length !== 1) return;
-
       const dx = e.changedTouches[0].clientX - startX;
       const dy = e.changedTouches[0].clientY - startY;
       active = false;
@@ -153,15 +140,10 @@ export function HeaderMenu() {
       }
 
       if (!open || dx <= SWIPE_DISTANCE) return;
-
       const panelRect = panelRef.current?.getBoundingClientRect();
       if (!panelRect) return;
-
-      const startedNearPanelEdge =
-        startX >= panelRect.left && startX <= panelRect.left + SWIPE_CLOSE_EDGE;
-
-      if (startedNearPanelEdge) {
-        setOpen(false);
+      if (startX >= panelRect.left && startX <= panelRect.left + SWIPE_CLOSE_EDGE) {
+        close();
       }
     }
 
@@ -171,13 +153,20 @@ export function HeaderMenu() {
       document.removeEventListener("touchstart", onTouchStart);
       document.removeEventListener("touchend", onTouchEnd);
     };
-  }, [open]);
+  }, [open, close]);
+
+  // Navigate and close — used by all panel links
+  const handleNav = useCallback(() => {
+    close();
+  }, [close]);
 
   return (
-    <div className="site-menu" data-open={open} ref={ref}>
-      {open && (
-        <div className="site-menu-overlay" aria-hidden onClick={() => setOpen(false)} />
-      )}
+    <div className="site-menu" data-open={open}>
+      <div
+        className="site-menu-overlay"
+        data-visible={open}
+        onClick={close}
+      />
       <button
         ref={buttonRef}
         className="site-menu-button"
@@ -201,26 +190,26 @@ export function HeaderMenu() {
         tabIndex={-1}
       >
         <div className="site-menu-panel-header">
-          <Link href="/" className="site-menu-panel-logo" onClick={() => setOpen(false)}>Domain Intel</Link>
+          <Link href="/" className="site-menu-panel-logo" onClick={handleNav}>Domain Intel</Link>
           <button
             className="site-menu-panel-close"
             type="button"
             aria-label="Close menu"
-            onClick={() => setOpen(false)}
+            onClick={close}
           >
             ✕
           </button>
         </div>
         <div className="site-menu-panel-body">
           <nav className="site-menu-section" aria-label="Main">
-            <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-            <Link href="/domains" onClick={() => setOpen(false)}>All domains</Link>
+            <Link href="/" onClick={handleNav}>Home</Link>
+            <Link href="/domains" onClick={handleNav}>All domains</Link>
             {trail.length > 1 && trail.slice(1).map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 className={pathname === item.href ? "site-menu-active" : ""}
-                onClick={() => setOpen(false)}
+                onClick={handleNav}
               >
                 {item.label}
               </Link>

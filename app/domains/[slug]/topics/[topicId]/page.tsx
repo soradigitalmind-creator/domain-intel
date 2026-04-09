@@ -113,7 +113,9 @@ export default async function TopicPage({ params }: Props) {
                 className={styles.relatedCard}
               >
                 <strong className={styles.relatedLabel}>{t.label}</strong>
-                <span className={styles.relatedMeta}>{t.paperCount} papers</span>
+                <span className={styles.relatedMeta}>
+                  {t.paperCount} papers{t.subtopicCount > 0 ? ` · ${t.subtopicCount} subtopics` : ""}
+                </span>
               </Link>
             ))}
           </div>

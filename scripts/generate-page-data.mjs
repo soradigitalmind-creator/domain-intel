@@ -372,6 +372,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
       subgenre_id: t.subgenre_id,
       label: t.label,
       paperCount: t.paper_ids.length,
+      subtopicCount: subgenres.filter((c) => c.parent_id === t.subgenre_id).length,
     }))
     .sort((a, b) => b.paperCount - a.paperCount)
     .slice(0, 12);

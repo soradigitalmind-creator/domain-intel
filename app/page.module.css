@@ -36,7 +36,6 @@
   flex-direction: column;
   gap: 10px;
   padding: 28px 28px 32px;
-  min-height: 200px;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.82);
@@ -66,6 +65,30 @@
   max-width: 340px;
 }
 
+.categoryDomains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.domainChip {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.categoryMeta {
+  margin: auto 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
 @media (max-width: 600px) {
   .categoryGrid {
     grid-template-columns: 1fr;
@@ -73,7 +96,6 @@
   }
 
   .categoryCard {
-    min-height: 0;
     padding: 20px 22px 24px;
   }
 

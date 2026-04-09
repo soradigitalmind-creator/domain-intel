@@ -19,6 +19,24 @@ export default async function HomePage() {
       ? portal.total_domains
       : portal?.domains?.length ?? 0;
 
+  // Build per-category topic/paper totals from portal domain stats
+  const domainMap = new Map(
+    (portal?.domains ?? []).map((d) => [d.slug, d])
+  );
+  const categoryStats = new Map<string, { topics: number; papers: number }>();
+  for (const cat of categories) {
+    let topics = 0;
+    let papers = 0;
+    for (const d of cat.domains) {
+      const info = domainMap.get(d.slug);
+      if (info) {
+        topics += info.parent_subgenres ?? 0;
+        papers += info.sources ?? 0;
+      }
+    }
+    categoryStats.set(cat.slug, { topics, papers });
+  }
+
   return (
     <main className="page-shell">
       <section className={styles.hero}>
@@ -33,6 +51,14 @@ export default async function HomePage() {
               <Link key={cat.slug} href={`/categories/${cat.slug}`} className={styles.categoryCard}>
                 <h3 className={styles.categoryLabel}>{cat.label}</h3>
                 <p className={styles.categoryDesc}>{cat.description}</p>
+                <div className={styles.categoryDomains}>
+                  {cat.domains.map((d) => (
+                    <span key={d.slug} className={styles.domainChip}>{d.title}</span>
+                  ))}
+                </div>
+                <p className={styles.categoryMeta}>
+                  {cat.domains.length} domains · {(categoryStats.get(cat.slug)?.topics ?? 0).toLocaleString()} topics · {(categoryStats.get(cat.slug)?.papers ?? 0).toLocaleString()} papers
+                </p>
               </Link>
             ))}
           </div>
