@@ -2,93 +2,31 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { useTrailContext } from "./trail-context";
 
-type TrailItem = {
-  href: string;
-  label: string;
-};
+/* ---- Shared context so button (in header) and panel (outside header) share state ---- */
 
-const MOBILE_BREAKPOINT = 639;
-const MENU_ID = "site-menu-panel";
-const SWIPE_OPEN_EDGE = 40;
-const SWIPE_CLOSE_EDGE = 72;
-const SWIPE_DISTANCE = 56;
+type MenuState = { open: boolean; toggle: () => void; close: () => void };
+const MenuCtx = createContext<MenuState>({ open: false, toggle() {}, close() {} });
 
-function titleize(value: string) {
-  return value
-    .replace(/^sg-/, "")
-    .replace(/[-_]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .replace(/\b\w/g, (char) => char.toUpperCase());
-}
-
-function buildTrail(pathname: string): TrailItem[] {
-  const segments = pathname.split("/").filter(Boolean);
-  const trail: TrailItem[] = [{ href: "/", label: "Home" }];
-
-  if (segments[0] === "domains") {
-    trail.push({ href: "/domains", label: "Domains" });
-
-    if (segments[1]) {
-      trail.push({ href: `/domains/${segments[1]}`, label: titleize(segments[1]) });
-    }
-
-    if (segments[2] === "topics") {
-      trail.push({ href: `/domains/${segments[1]}/topics`, label: "Topics" });
-      if (segments[3]) {
-        trail.push({
-          href: `/domains/${segments[1]}/topics/${segments[3]}`,
-          label: titleize(segments[3]),
-        });
-      }
-    }
-
-    if (segments[2] === "papers") {
-      trail.push({ href: `/domains/${segments[1]}/papers`, label: "Papers" });
-      if (segments[3]) {
-        trail.push({
-          href: `/domains/${segments[1]}/papers/${segments[3]}`,
-          label: titleize(segments[3]),
-        });
-      }
-    }
-  }
-
-  if (segments[0] === "categories" && segments[1]) {
-    trail.push({
-      href: `/categories/${segments[1]}`,
-      label: titleize(segments[1]),
-    });
-  }
-
-  return trail;
-}
-
-export function HeaderMenu() {
+export function MenuProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const { topicTrail } = useTrailContext();
-  const baseTrail = buildTrail(pathname);
-  const trail = topicTrail.length > 0
-    ? [
-        ...baseTrail.slice(0, baseTrail.findIndex((item) => item.label === "Topics") + 1),
-        ...topicTrail,
-      ]
-    : baseTrail;
   const [open, setOpen] = useState(false);
-  const panelRef = useRef<HTMLDivElement>(null);
-  const buttonRef = useRef<HTMLButtonElement>(null);
-
   const close = useCallback(() => setOpen(false), []);
+  const toggle = useCallback(() => setOpen((v) => !v), []);
 
   // Close on route change
-  useEffect(() => {
-    close();
-  }, [pathname, close]);
+  useEffect(() => { close(); }, [pathname, close]);
 
-  // Lock body scroll while open
+  // Body scroll lock
   useEffect(() => {
     document.body.classList.toggle("menu-open", open);
     return () => document.body.classList.remove("menu-open");
@@ -97,125 +35,110 @@ export function HeaderMenu() {
   // Escape key
   useEffect(() => {
     if (!open) return;
-    function onKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") close();
-    }
-    document.addEventListener("keydown", onKeyDown);
-    return () => document.removeEventListener("keydown", onKeyDown);
+    const h = (e: KeyboardEvent) => { if (e.key === "Escape") close(); };
+    document.addEventListener("keydown", h);
+    return () => document.removeEventListener("keydown", h);
   }, [open, close]);
 
-  // Focus management
+  // Swipe (mobile)
   useEffect(() => {
-    if (open) {
-      panelRef.current?.focus();
+    let sx = 0, sy = 0, on = false;
+    function ts(e: TouchEvent) {
+      if (window.innerWidth > 639 || e.touches.length !== 1) { on = false; return; }
+      sx = e.touches[0].clientX; sy = e.touches[0].clientY; on = true;
     }
-  }, [open]);
-
-  // Swipe gestures (mobile)
-  useEffect(() => {
-    let startX = 0;
-    let startY = 0;
-    let active = false;
-
-    function onTouchStart(e: TouchEvent) {
-      if (window.innerWidth > MOBILE_BREAKPOINT || e.touches.length !== 1) {
-        active = false;
-        return;
-      }
-      startX = e.touches[0].clientX;
-      startY = e.touches[0].clientY;
-      active = true;
-    }
-
-    function onTouchEnd(e: TouchEvent) {
-      if (!active || e.changedTouches.length !== 1) return;
-      const dx = e.changedTouches[0].clientX - startX;
-      const dy = e.changedTouches[0].clientY - startY;
-      active = false;
+    function te(e: TouchEvent) {
+      if (!on || e.changedTouches.length !== 1) return;
+      const dx = e.changedTouches[0].clientX - sx;
+      const dy = e.changedTouches[0].clientY - sy;
+      on = false;
       if (Math.abs(dy) > Math.abs(dx)) return;
-
-      if (!open && dx < -SWIPE_DISTANCE && startX >= window.innerWidth - SWIPE_OPEN_EDGE) {
-        setOpen(true);
-        return;
-      }
-
-      if (!open || dx <= SWIPE_DISTANCE) return;
-      const panelRect = panelRef.current?.getBoundingClientRect();
-      if (!panelRect) return;
-      if (startX >= panelRect.left && startX <= panelRect.left + SWIPE_CLOSE_EDGE) {
-        close();
-      }
+      if (!open && dx < -56 && sx >= window.innerWidth - 40) { setOpen(true); return; }
+      if (open && dx > 56) close();
     }
-
-    document.addEventListener("touchstart", onTouchStart, { passive: true });
-    document.addEventListener("touchend", onTouchEnd, { passive: true });
-    return () => {
-      document.removeEventListener("touchstart", onTouchStart);
-      document.removeEventListener("touchend", onTouchEnd);
-    };
+    document.addEventListener("touchstart", ts, { passive: true });
+    document.addEventListener("touchend", te, { passive: true });
+    return () => { document.removeEventListener("touchstart", ts); document.removeEventListener("touchend", te); };
   }, [open, close]);
 
-  // Navigate and close — used by all panel links
-  const handleNav = useCallback(() => {
-    close();
-  }, [close]);
+  return <MenuCtx.Provider value={{ open, toggle, close }}>{children}</MenuCtx.Provider>;
+}
+
+/* ---- Hamburger button (goes inside header) ---- */
+
+export function MenuButton() {
+  const { open, toggle } = useContext(MenuCtx);
+  return (
+    <button
+      className="site-menu-button"
+      aria-label={open ? "Close menu" : "Open menu"}
+      aria-expanded={open}
+      onClick={toggle}
+    >
+      <span /><span /><span />
+    </button>
+  );
+}
+
+/* ---- Sidebar panel (goes OUTSIDE header in layout.tsx) ---- */
+
+function titleize(v: string) {
+  return v.replace(/^sg-/, "").replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim().replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function buildTrail(pathname: string) {
+  const s = pathname.split("/").filter(Boolean);
+  const t: Array<{ href: string; label: string }> = [{ href: "/", label: "Home" }];
+  if (s[0] === "domains") {
+    t.push({ href: "/domains", label: "Domains" });
+    if (s[1]) t.push({ href: `/domains/${s[1]}`, label: titleize(s[1]) });
+    if (s[2] === "topics") {
+      t.push({ href: `/domains/${s[1]}/topics`, label: "Topics" });
+      if (s[3]) t.push({ href: `/domains/${s[1]}/topics/${s[3]}`, label: titleize(s[3]) });
+    }
+    if (s[2] === "papers") {
+      t.push({ href: `/domains/${s[1]}/papers`, label: "Papers" });
+      if (s[3]) t.push({ href: `/domains/${s[1]}/papers/${s[3]}`, label: titleize(s[3]) });
+    }
+  }
+  if (s[0] === "categories" && s[1]) t.push({ href: `/categories/${s[1]}`, label: titleize(s[1]) });
+  return t;
+}
+
+export function SidebarPanel() {
+  const { open, close } = useContext(MenuCtx);
+  const pathname = usePathname();
+  const { topicTrail } = useTrailContext();
+  const ref = useRef<HTMLDivElement>(null);
+  const base = buildTrail(pathname);
+  const trail = topicTrail.length > 0
+    ? [...base.slice(0, base.findIndex((i) => i.label === "Topics") + 1), ...topicTrail]
+    : base;
+
+  useEffect(() => { if (open) ref.current?.focus(); }, [open]);
 
   return (
-    <div className="site-menu" data-open={open}>
-      <div
-        className="site-menu-overlay"
-        data-visible={open}
-        onClick={close}
-      />
-      <button
-        ref={buttonRef}
-        className="site-menu-button"
-        aria-label={open ? "Close menu" : "Open menu"}
-        aria-controls={MENU_ID}
-        aria-expanded={open}
-        aria-haspopup="dialog"
-        onClick={() => setOpen((v) => !v)}
-      >
-        <span />
-        <span />
-        <span />
-      </button>
-      <div
-        id={MENU_ID}
-        ref={panelRef}
-        className="site-menu-panel"
-        aria-hidden={!open}
-        aria-modal={open}
-        role="dialog"
-        tabIndex={-1}
-      >
-        <div className="site-menu-panel-header">
-          <Link href="/" className="site-menu-panel-logo" onClick={handleNav}>Domain Intel</Link>
-          <button
-            className="site-menu-panel-close"
-            type="button"
-            aria-label="Close menu"
-            onClick={close}
-          >
-            ✕
-          </button>
+    <div className="sidebar-root" data-open={open}>
+      <div className="sidebar-overlay" onClick={close} />
+      <div ref={ref} className="sidebar-panel" tabIndex={-1}>
+        <div className="sidebar-header">
+          <Link href="/" className="sidebar-logo" onClick={close}>Domain Intel</Link>
+          <button className="sidebar-close" onClick={close} aria-label="Close">✕</button>
         </div>
-        <div className="site-menu-panel-body">
-          <nav className="site-menu-section" aria-label="Main">
-            <Link href="/" onClick={handleNav}>Home</Link>
-            <Link href="/domains" onClick={handleNav}>All domains</Link>
-            {trail.length > 1 && trail.slice(1).map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={pathname === item.href ? "site-menu-active" : ""}
-                onClick={handleNav}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
-        </div>
+        <nav className="sidebar-body">
+          <Link href="/" onClick={close}>Home</Link>
+          <Link href="/domains" onClick={close}>All domains</Link>
+          {trail.slice(1).map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={pathname === item.href ? "sidebar-active" : ""}
+              onClick={close}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
       </div>
     </div>
   );

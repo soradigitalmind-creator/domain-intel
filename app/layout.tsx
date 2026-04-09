@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { HeaderMenu } from "./components/header-menu";
+import { MenuButton, MenuProvider, SidebarPanel } from "./components/header-menu";
 import { TrailProvider } from "./components/trail-context";
 import "./globals.css";
 
@@ -22,15 +22,19 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <TrailProvider>
-          <header className="site-header">
-            <div className="site-header-inner page-shell">
-              <Link href="/" className="site-logo">
-                Domain Intel
-              </Link>
-              <HeaderMenu />
-            </div>
-          </header>
-          {children}
+          <MenuProvider>
+            <header className="site-header">
+              <div className="site-header-inner page-shell">
+                <Link href="/" className="site-logo">
+                  Domain Intel
+                </Link>
+                <MenuButton />
+              </div>
+            </header>
+            {/* SidebarPanel is OUTSIDE header — not trapped by header's stacking context */}
+            <SidebarPanel />
+            {children}
+          </MenuProvider>
         </TrailProvider>
       </body>
     </html>
