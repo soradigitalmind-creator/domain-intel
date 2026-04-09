@@ -252,8 +252,20 @@ function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
   };
 }
 
+/** Find sibling domains in the same portal category. */
+function buildRelatedDomains(slug, portalData) {
+  if (!portalData?.categories) return [];
+  const category = portalData.categories.find((cat) =>
+    cat.domains?.some((d) => d.slug === slug)
+  );
+  if (!category) return [];
+  return category.domains
+    .filter((d) => d.slug !== slug)
+    .map((d) => ({ slug: d.slug, title: d.title }));
+}
+
 /** papers-index.json — for /domains/[slug]/papers */
-function buildPapersIndexData(slug, bundle, domainSummary, maps) {
+function buildPapersIndexData(slug, bundle, domainSummary, maps, portalData) {
   const { sourceById, assignmentById } = maps;
   const subgenres = bundle.subgenres;
   const topicMap = new Map(subgenres.map((t) => [t.subgenre_id, t]));
@@ -290,7 +302,10 @@ function buildPapersIndexData(slug, bundle, domainSummary, maps) {
     .sort((a, b) => b.cited_by_count - a.cited_by_count)
     .slice(0, 120);
 
-  return { domain: domainSummary, shelves, archive };
+  // Related domains: siblings in the same portal category
+  const relatedDomains = buildRelatedDomains(slug, portalData);
+
+  return { domain: domainSummary, shelves, archive, relatedDomains };
 }
 
 /**
@@ -330,6 +345,21 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
       .map((t) => ({ subgenre_id: t.subgenre_id, label: t.label }));
   }
 
+  // Sibling topics: same parent, excluding self
+  const siblingTopics = subgenres
+    .filter(
+      (t) =>
+        t.parent_id === topic.parent_id &&
+        t.subgenre_id !== topic.subgenre_id
+    )
+    .map((t) => ({
+      subgenre_id: t.subgenre_id,
+      label: t.label,
+      paperCount: t.paper_ids.length,
+    }))
+    .sort((a, b) => b.paperCount - a.paperCount)
+    .slice(0, 12);
+
   // Top papers for this topic
   const papers = topic.paper_ids
     .map((id) => mapTopicPaper(id, sourceById, assignmentById))
@@ -353,6 +383,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
     children,
     ancestorTrail,
     grandchildren,
+    siblingTopics,
     papers,
   };
 }
@@ -458,7 +489,7 @@ async function processDomain(slug, portalData) {
     ),
     writeJson(
       path.join(domainDir, "papers-index.json"),
-      buildPapersIndexData(slug, bundle, domainSummary, maps)
+      buildPapersIndexData(slug, bundle, domainSummary, maps, portalData)
     ),
     ...bundle.subgenres.map((topic) =>
       writeJson(

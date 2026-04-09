@@ -98,6 +98,8 @@ export type TopicDetail = {
   ancestorTrail: Array<{ href: string; label: string }>;
   /** Pre-computed grandchildren keyed by child subgenre_id. */
   grandchildren: Record<string, Array<{ subgenre_id: string; label: string }>>;
+  /** Sibling topics sharing the same parent. */
+  siblingTopics: Array<{ subgenre_id: string; label: string; paperCount: number }>;
   papers: TopicPaper[];
 };
 
@@ -163,6 +165,7 @@ export type DomainPapersIndex = {
     papers: TopicPaper[];
   }>;
   archive: Array<TopicPaper & { primaryTopicId: string | null; primaryTopicLabel: string | null }>;
+  relatedDomains: Array<{ slug: string; title: string }>;
 };
 
 export type PortalCategory = {
