@@ -91,7 +91,23 @@ function buildSourceMaps(bundle) {
       entitiesBySource.set(sid, list);
     }
   }
-  return { sourceById, assignmentById, claimsBySource, entitiesBySource };
+  // Inverted indices for related-paper scoring
+  // entity canonical_id → Set<source_id>
+  const sourcesByEntity = new Map();
+  for (const entity of bundle.entities ?? []) {
+    sourcesByEntity.set(entity.canonical_id, new Set(entity.source_ids ?? []));
+  }
+  // concept → Set<source_id>
+  const sourcesByConcept = new Map();
+  for (const source of bundle.sources) {
+    for (const concept of source.concepts ?? []) {
+      const set = sourcesByConcept.get(concept) ?? new Set();
+      set.add(source.source_id);
+      sourcesByConcept.set(concept, set);
+    }
+  }
+
+  return { sourceById, assignmentById, claimsBySource, entitiesBySource, sourcesByEntity, sourcesByConcept };
 }
 
 function mapTopicPaper(sourceId, sourceById, assignmentById) {
@@ -388,12 +404,59 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
   };
 }
 
+/** Compute related papers by shared entity + concept overlap. */
+function buildRelatedPapers(source, maps, limit = 8) {
+  const { sourceById, sourcesByEntity, sourcesByConcept, entitiesBySource } = maps;
+  const sid = source.source_id;
+  const scores = new Map(); // candidate source_id → score
+
+  // Score from shared entities (weight: 2 per shared entity)
+  const paperEntities = entitiesBySource.get(sid) ?? [];
+  for (const entity of paperEntities) {
+    const peers = sourcesByEntity.get(entity.canonical_id);
+    if (!peers) continue;
+    for (const peerId of peers) {
+      if (peerId === sid) continue;
+      scores.set(peerId, (scores.get(peerId) ?? 0) + 2);
+    }
+  }
+
+  // Score from shared concepts (weight: 1 per shared concept)
+  const paperConcepts = source.concepts ?? [];
+  for (const concept of paperConcepts) {
+    const peers = sourcesByConcept.get(concept);
+    if (!peers) continue;
+    for (const peerId of peers) {
+      if (peerId === sid) continue;
+      scores.set(peerId, (scores.get(peerId) ?? 0) + 1);
+    }
+  }
+
+  return Array.from(scores.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([peerId, score]) => {
+      const peer = sourceById.get(peerId);
+      if (!peer) return null;
+      return {
+        source_id: peerId,
+        title: peer.title,
+        year: peer.year ?? null,
+        cited_by_count: peer.cited_by_count ?? 0,
+        score,
+      };
+    })
+    .filter(Boolean);
+}
+
 /** papers/{paperId}.json — for /domains/[slug]/papers/[paperId] */
 function buildPaperPageData(slug, source, bundle, domainSummary, maps) {
   const { assignmentById, claimsBySource, entitiesBySource } = maps;
   const subgenres = bundle.subgenres;
   const topicById = new Map(subgenres.map((t) => [t.subgenre_id, t]));
   const assignment = assignmentById.get(source.source_id);
+
+  const relatedPapers = buildRelatedPapers(source, maps);
 
   const claims = (claimsBySource.get(source.source_id) ?? []).map((c) => ({
     property_name: c.property_name,
@@ -448,6 +511,7 @@ function buildPaperPageData(slug, source, bundle, domainSummary, maps) {
         assignment?.secondary_subgenre_ids?.map(
           (id) => topicById.get(id)?.label ?? id
         ) ?? [],
+      relatedPapers,
     },
   };
 }

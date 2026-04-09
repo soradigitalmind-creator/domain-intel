@@ -126,6 +126,13 @@ export type PaperDetail = {
     primaryTopicLabel: string | null;
     secondaryTopicIds: string[];
     secondaryTopicLabels: string[];
+    relatedPapers: Array<{
+      source_id: string;
+      title: string;
+      year: number | null;
+      cited_by_count: number;
+      score: number;
+    }>;
   };
 };
 

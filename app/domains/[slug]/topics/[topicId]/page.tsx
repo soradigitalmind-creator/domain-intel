@@ -75,24 +75,6 @@ export default async function TopicPage({ params }: Props) {
         </section>
       ) : null}
 
-      {detail.siblingTopics?.length > 0 && (
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Related topics</h2>
-          <div className={styles.relatedGrid}>
-            {detail.siblingTopics.map((t) => (
-              <Link
-                key={t.subgenre_id}
-                href={`/domains/${slug}/topics/${t.subgenre_id}`}
-                className={styles.relatedCard}
-              >
-                <span>{t.label}</span>
-                <span className={styles.relatedMeta}>{t.paperCount} papers</span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
       <section className={`${styles.section} ${styles.paperSection}`}>
         <h2 className={styles.sectionTitle}>Paper shelf</h2>
         <div className={styles.paperGrid}>
@@ -119,6 +101,24 @@ export default async function TopicPage({ params }: Props) {
           ))}
         </div>
       </section>
+
+      {detail.siblingTopics?.length > 0 && (
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Related topics</h2>
+          <div className={styles.relatedGrid}>
+            {detail.siblingTopics.map((t) => (
+              <Link
+                key={t.subgenre_id}
+                href={`/domains/${slug}/topics/${t.subgenre_id}`}
+                className={styles.relatedCard}
+              >
+                <strong className={styles.relatedLabel}>{t.label}</strong>
+                <span className={styles.relatedMeta}>{t.paperCount} papers</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }

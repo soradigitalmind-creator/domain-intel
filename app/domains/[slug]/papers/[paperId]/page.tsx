@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPaperDetail } from "../../../../../lib/workplace";
 import styles from "./page.module.css";
@@ -116,6 +117,26 @@ export default async function PaperPage({ params }: Props) {
           <p className={styles.emptyState}>No extracted claims for this paper.</p>
         )}
       </section>
+
+      {detail.paper.relatedPapers?.length > 0 && (
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Related papers</h2>
+          <div className={styles.relatedGrid}>
+            {detail.paper.relatedPapers.map((rp) => (
+              <Link
+                key={rp.source_id}
+                href={`/domains/${slug}/papers/${rp.source_id.split("/").pop() ?? rp.source_id}`}
+                className={styles.relatedCard}
+              >
+                <h3 className={styles.relatedTitle}>{rp.title}</h3>
+                <p className={styles.relatedMeta}>
+                  {rp.year ?? "n/a"} / {rp.cited_by_count.toLocaleString()} cites
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }
