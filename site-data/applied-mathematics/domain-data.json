@@ -1,0 +1,1673 @@
+{
+  "slug": "applied-mathematics",
+  "title": "Applied Mathematics",
+  "updated_at": "2026-04-10T11:53:55.166754Z",
+  "snapshot": {
+    "papers": 158,
+    "topics": 3,
+    "subtopics": 27,
+    "entities": 679,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 195,
+      "total_papers": 195,
+      "facet_counts": {
+        "none": 195
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning applied mathematics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 3,
+    "descendant_topics": 27,
+    "max_depth": 2,
+    "leaf_topics": 27
+  },
+  "rising_topics": [
+    {
+      "id": "sg-mathematical-optimization",
+      "label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization",
+      "trend": "rising",
+      "year_total": 1685595
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural networks",
+      "url": "/domains/applied-mathematics/topics/sg-neural-network",
+      "trend": "rising",
+      "year_total": 3537187
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/topics/sg-pattern-recognition",
+      "trend": "rising",
+      "year_total": 2808948
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-mathematical-optimization",
+      "label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization",
+      "paper_count": 62,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "applied mathematics",
+        "convex set",
+        "mathematical optimization",
+        "proper convex function"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mathematical-optimization-information-retrieval",
+          "label": "Information retrieval",
+          "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization-information-retrieval",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-mathematical-optimization-metaheuristic-optimization-algorithms",
+          "label": "Metaheuristic optimization algorithms",
+          "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization-metaheuristic-optimization-algorithms",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-mathematical-optimization-variational-eigenvalue-solver",
+          "label": "Variational eigenvalue solver",
+          "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization-variational-eigenvalue-solver",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-mathematical-optimization-saddle-point-problems-arising",
+          "label": "Saddle-point problems arising",
+          "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization-saddle-point-problems-arising",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-mathematical-optimization-linear-algebra",
+          "label": "Linear algebra",
+          "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization-linear-algebra",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-mathematical-optimization-convex-optimization",
+          "label": "Convex optimization",
+          "url": "/domains/applied-mathematics/topics/sg-mathematical-optimization-convex-optimization",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural networks",
+      "url": "/domains/applied-mathematics/topics/sg-neural-network",
+      "paper_count": 60,
+      "subtopic_count": 12,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "artificial neural",
+        "artificial neural network",
+        "convolutional neural",
+        "convolutional neural network"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-networks-convolutional-neural-networks",
+          "label": "Convolutional neural networks",
+          "url": "/domains/applied-mathematics/topics/sg-neural-networks-convolutional-neural-networks",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-neural-networks-software-engineering",
+          "label": "Software engineering",
+          "url": "/domains/applied-mathematics/topics/sg-neural-networks-software-engineering",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-neural-networks-parallel-computing",
+          "label": "Parallel computing",
+          "url": "/domains/applied-mathematics/topics/sg-neural-networks-parallel-computing",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-neural-networks-graph-neural-networks",
+          "label": "Graph neural networks",
+          "url": "/domains/applied-mathematics/topics/sg-neural-networks-graph-neural-networks",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-neural-networks-artificial-neural-networks",
+          "label": "Artificial neural networks",
+          "url": "/domains/applied-mathematics/topics/sg-neural-networks-artificial-neural-networks",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-neural-networks-big-data",
+          "label": "Big data",
+          "url": "/domains/applied-mathematics/topics/sg-neural-networks-big-data",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/topics/sg-pattern-recognition",
+      "paper_count": 36,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: of the, use, pattern recognition",
+      "tags": [
+        "convolutional neural",
+        "image segmentation",
+        "medical image segmentation",
+        "pattern recognition"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-pattern-recognition-false-positive-paradox",
+          "label": "False positive paradox",
+          "url": "/domains/applied-mathematics/topics/sg-pattern-recognition-false-positive-paradox",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-pattern-recognition-image-processing",
+          "label": "Image processing",
+          "url": "/domains/applied-mathematics/topics/sg-pattern-recognition-image-processing",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-pattern-recognition-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/applied-mathematics/topics/sg-pattern-recognition-cognitive-science",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-pattern-recognition-feature-extraction",
+          "label": "Feature extraction",
+          "url": "/domains/applied-mathematics/topics/sg-pattern-recognition-feature-extraction",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-pattern-recognition-image-segmentation",
+          "label": "Image segmentation",
+          "url": "/domains/applied-mathematics/topics/sg-pattern-recognition-image-segmentation",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-pattern-recognition-imbalanced-data-classification-techniques",
+          "label": "Imbalanced data classification techniques",
+          "url": "/domains/applied-mathematics/topics/sg-pattern-recognition-imbalanced-data-classification-techniques",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2999309192",
+          "title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
+          "year": "2020",
+          "cited_by_count": 5554,
+          "url": "/domains/applied-mathematics/papers/W2999309192"
+        },
+        {
+          "source_id": "https://openalex.org/W4236137412",
+          "title": "Induction of decision trees",
+          "year": "1986",
+          "cited_by_count": 12337,
+          "url": "/domains/applied-mathematics/papers/W4236137412"
+        },
+        {
+          "source_id": "https://openalex.org/W2056132907",
+          "title": "Extremely randomized trees",
+          "year": "2006",
+          "cited_by_count": 8371,
+          "url": "/domains/applied-mathematics/papers/W2056132907"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Neural networks",
+      "paper_count": 18,
+      "papers": [
+        {
+          "title": "Gradient-based learning applied to document recognition",
+          "year": "1998",
+          "cited_by_count": 57213,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2112796928.html"
+        },
+        {
+          "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+          "year": "2021",
+          "cited_by_count": 4868,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w3135028703.html"
+        },
+        {
+          "title": "Digital Natives, Digital Immigrants Part 1",
+          "year": "2001",
+          "cited_by_count": 10553,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2097210817.html"
+        },
+        {
+          "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+          "year": "2021",
+          "cited_by_count": 4610,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w3168997536.html"
+        },
+        {
+          "title": "SExtractor: Software for source extraction",
+          "year": "1996",
+          "cited_by_count": 10901,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2142238829.html"
+        },
+        {
+          "title": "A survey of transfer learning",
+          "year": "2016",
+          "cited_by_count": 6024,
+          "topic": "Neural networks",
+          "url": "papers/https-openalex-org-w2395579298.html"
+        }
+      ]
+    },
+    {
+      "label": "Mathematical optimization",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Advances and Open Problems in Federated Learning",
+          "year": "2020",
+          "cited_by_count": 4405,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w2995022099.html"
+        },
+        {
+          "title": "A review on genetic algorithm: past, present, and future",
+          "year": "2020",
+          "cited_by_count": 4285,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w3094704314.html"
+        },
+        {
+          "title": "Matrix Analysis",
+          "year": "1985",
+          "cited_by_count": 10145,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w391578156.html"
+        },
+        {
+          "title": "Convex Analysis",
+          "year": "1970",
+          "cited_by_count": 10527,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w4249667877.html"
+        },
+        {
+          "title": "The Mathematics of Infectious Diseases",
+          "year": "2000",
+          "cited_by_count": 6759,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w2161728228.html"
+        },
+        {
+          "title": "A variational eigenvalue solver on a photonic quantum processor",
+          "year": "2014",
+          "cited_by_count": 4420,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w2161685427.html"
+        }
+      ]
+    },
+    {
+      "label": "Pattern recognition",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
+          "year": "2020",
+          "cited_by_count": 5554,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2999309192.html"
+        },
+        {
+          "title": "Induction of decision trees",
+          "year": "1986",
+          "cited_by_count": 12337,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w4236137412.html"
+        },
+        {
+          "title": "Extremely randomized trees",
+          "year": "2006",
+          "cited_by_count": 8371,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2056132907.html"
+        },
+        {
+          "title": "Normalization of Real-Time Quantitative Reverse Transcription-PCR Data: A Model-Based Variance Estimation Approach to Identify Genes Suited for Normalization, Applied to Bladder and Colon Cancer Data Sets",
+          "year": "2004",
+          "cited_by_count": 7133,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2105423509.html"
+        },
+        {
+          "title": "Mathematical Theory of Optimal Processes",
+          "year": "2018",
+          "cited_by_count": 3689,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w1587799944.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "LLaMA: Open and Efficient Foundation Language Models",
+          "year": "2023",
+          "cited_by_count": 3851,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4322718191.html"
+        },
+        {
+          "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+          "year": "2022",
+          "cited_by_count": 3457,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3185341429.html"
+        },
+        {
+          "title": "Large language models encode clinical knowledge",
+          "year": "2023",
+          "cited_by_count": 2836,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4384071683.html"
+        },
+        {
+          "title": "Hierarchical Attention Networks for Document Classification",
+          "year": "2016",
+          "cited_by_count": 4776,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2470673105.html"
+        }
+      ]
+    },
+    {
+      "label": "Metaheuristic optimization algorithms",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Quantum cryptography",
+          "year": "2002",
+          "cited_by_count": 8262,
+          "topic": "Metaheuristic optimization algorithms",
+          "url": "papers/https-openalex-org-w3038067977.html"
+        },
+        {
+          "title": "Variational quantum algorithms",
+          "year": "2021",
+          "cited_by_count": 2758,
+          "topic": "Metaheuristic optimization algorithms",
+          "url": "papers/https-openalex-org-w3111162498.html"
+        },
+        {
+          "title": "Applied Mathematical Sciences",
+          "year": "2021",
+          "cited_by_count": 2682,
+          "topic": "Metaheuristic optimization algorithms",
+          "url": "papers/https-openalex-org-w2182274314.html"
+        }
+      ]
+    },
+    {
+      "label": "Convolutional neural networks",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Reinforcement Learning: A Survey",
+          "year": "1996",
+          "cited_by_count": 8750,
+          "topic": "Convolutional neural networks",
+          "url": "papers/https-openalex-org-w2107726111.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57213,
+      "adjusted_cited_by_count": 10812.24,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2999309192",
+      "title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
+      "year": 2020,
+      "cited_by_count": 5554,
+      "adjusted_cited_by_count": 2267.41,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/papers/W2999309192"
+    },
+    {
+      "source_id": "https://openalex.org/W4322718191",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": 2023,
+      "cited_by_count": 3851,
+      "adjusted_cited_by_count": 2223.38,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/applied-mathematics/papers/W4322718191"
+    },
+    {
+      "source_id": "https://openalex.org/W3135028703",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 4868,
+      "adjusted_cited_by_count": 2177.04,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W3135028703"
+    },
+    {
+      "source_id": "https://openalex.org/W2097210817",
+      "title": "Digital Natives, Digital Immigrants Part 1",
+      "year": 2001,
+      "cited_by_count": 10553,
+      "adjusted_cited_by_count": 2110.6,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2097210817"
+    },
+    {
+      "source_id": "https://openalex.org/W3168997536",
+      "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+      "year": 2021,
+      "cited_by_count": 4610,
+      "adjusted_cited_by_count": 2061.65,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W3168997536"
+    },
+    {
+      "source_id": "https://openalex.org/W2142238829",
+      "title": "SExtractor: Software for source extraction",
+      "year": 1996,
+      "cited_by_count": 10901,
+      "adjusted_cited_by_count": 1990.24,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2142238829"
+    },
+    {
+      "source_id": "https://openalex.org/W4236137412",
+      "title": "Induction of decision trees",
+      "year": 1986,
+      "cited_by_count": 12337,
+      "adjusted_cited_by_count": 1950.65,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/papers/W4236137412"
+    },
+    {
+      "source_id": "https://openalex.org/W2395579298",
+      "title": "A survey of transfer learning",
+      "year": 2016,
+      "cited_by_count": 6024,
+      "adjusted_cited_by_count": 1904.96,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2395579298"
+    },
+    {
+      "source_id": "https://openalex.org/W2056132907",
+      "title": "Extremely randomized trees",
+      "year": 2006,
+      "cited_by_count": 8371,
+      "adjusted_cited_by_count": 1871.81,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/papers/W2056132907"
+    },
+    {
+      "source_id": "https://openalex.org/W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "year": 2020,
+      "cited_by_count": 4405,
+      "adjusted_cited_by_count": 1798.33,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W2995022099"
+    },
+    {
+      "source_id": "https://openalex.org/W3094704314",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "year": 2020,
+      "cited_by_count": 4285,
+      "adjusted_cited_by_count": 1749.34,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W3094704314"
+    },
+    {
+      "source_id": "https://openalex.org/W2165744313",
+      "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+      "year": 2003,
+      "cited_by_count": 8387,
+      "adjusted_cited_by_count": 1748.81,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2165744313"
+    },
+    {
+      "source_id": "https://openalex.org/W2604314403",
+      "title": "Modeling Relational Data with Graph Convolutional Networks",
+      "year": 2018,
+      "cited_by_count": 4932,
+      "adjusted_cited_by_count": 1743.73,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2604314403"
+    },
+    {
+      "source_id": "https://openalex.org/W4221151978",
+      "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+      "year": 2022,
+      "cited_by_count": 3472,
+      "adjusted_cited_by_count": 1736.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W4221151978"
+    },
+    {
+      "source_id": "https://openalex.org/W3185341429",
+      "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+      "year": 2022,
+      "cited_by_count": 3457,
+      "adjusted_cited_by_count": 1728.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/applied-mathematics/papers/W3185341429"
+    },
+    {
+      "source_id": "https://openalex.org/W2962772482",
+      "title": "A survey of methods for explaining black box models",
+      "year": 2019,
+      "cited_by_count": 4507,
+      "adjusted_cited_by_count": 1703.49,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2962772482"
+    },
+    {
+      "source_id": "https://openalex.org/W3038067977",
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by_count": 8262,
+      "adjusted_cited_by_count": 1686.47,
+      "primary_topic_id": "sg-mathematical-optimization-metaheuristic-optimization-algorithms",
+      "primary_topic_label": "Metaheuristic optimization algorithms",
+      "url": "/domains/applied-mathematics/papers/W3038067977"
+    },
+    {
+      "source_id": "https://openalex.org/W4384071683",
+      "title": "Large language models encode clinical knowledge",
+      "year": 2023,
+      "cited_by_count": 2836,
+      "adjusted_cited_by_count": 1637.37,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/applied-mathematics/papers/W4384071683"
+    },
+    {
+      "source_id": "https://openalex.org/W2107726111",
+      "title": "Reinforcement Learning: A Survey",
+      "year": 1996,
+      "cited_by_count": 8750,
+      "adjusted_cited_by_count": 1597.52,
+      "primary_topic_id": "sg-neural-networks-convolutional-neural-networks",
+      "primary_topic_label": "Convolutional neural networks",
+      "url": "/domains/applied-mathematics/papers/W2107726111"
+    },
+    {
+      "source_id": "https://openalex.org/W391578156",
+      "title": "Matrix Analysis",
+      "year": 1985,
+      "cited_by_count": 10145,
+      "adjusted_cited_by_count": 1584.38,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W391578156"
+    },
+    {
+      "source_id": "https://openalex.org/W2105423509",
+      "title": "Normalization of Real-Time Quantitative Reverse Transcription-PCR Data: A Model-Based Variance Estimation Approach to Identify Genes Suited for Normalization, Applied to Bladder and Colon Cancer Data Sets",
+      "year": 2004,
+      "cited_by_count": 7133,
+      "adjusted_cited_by_count": 1520.76,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/papers/W2105423509"
+    },
+    {
+      "source_id": "https://openalex.org/W2470673105",
+      "title": "Hierarchical Attention Networks for Document Classification",
+      "year": 2016,
+      "cited_by_count": 4776,
+      "adjusted_cited_by_count": 1510.3,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/applied-mathematics/papers/W2470673105"
+    },
+    {
+      "source_id": "https://openalex.org/W2559394418",
+      "title": "Quantum machine learning",
+      "year": 2017,
+      "cited_by_count": 4235,
+      "adjusted_cited_by_count": 1411.67,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2559394418"
+    },
+    {
+      "source_id": "https://openalex.org/W4249667877",
+      "title": "Convex Analysis",
+      "year": 1970,
+      "cited_by_count": 10527,
+      "adjusted_cited_by_count": 1406.73,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W4249667877"
+    },
+    {
+      "source_id": "https://openalex.org/W3035060554",
+      "title": "Bootstrap your own latent: A new approach to self-supervised Learning",
+      "year": 2020,
+      "cited_by_count": 3437,
+      "adjusted_cited_by_count": 1403.15,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W3035060554"
+    },
+    {
+      "source_id": "https://openalex.org/W2133109597",
+      "title": "Toward principles for the design of ontologies used for knowledge sharing?",
+      "year": 1995,
+      "cited_by_count": 7625,
+      "adjusted_cited_by_count": 1369.49,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2133109597"
+    },
+    {
+      "source_id": "https://openalex.org/W1787224781",
+      "title": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation",
+      "year": 2015,
+      "cited_by_count": 4486,
+      "adjusted_cited_by_count": 1352.58,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W1787224781"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7150,
+      "adjusted_cited_by_count": 1327.72,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W4211161891",
+      "title": "Topological photonics",
+      "year": 2019,
+      "cited_by_count": 3509,
+      "adjusted_cited_by_count": 1326.28,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W4211161891"
+    },
+    {
+      "source_id": "https://openalex.org/W2161728228",
+      "title": "The Mathematics of Infectious Diseases",
+      "year": 2000,
+      "cited_by_count": 6759,
+      "adjusted_cited_by_count": 1325.55,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W2161728228"
+    },
+    {
+      "source_id": "https://openalex.org/W4327810158",
+      "title": "GPT-4 Technical Report",
+      "year": 2023,
+      "cited_by_count": 2273,
+      "adjusted_cited_by_count": 1312.32,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W4327810158"
+    },
+    {
+      "source_id": "https://openalex.org/W1587799944",
+      "title": "Mathematical Theory of Optimal Processes",
+      "year": 2018,
+      "cited_by_count": 3689,
+      "adjusted_cited_by_count": 1304.26,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/applied-mathematics/papers/W1587799944"
+    },
+    {
+      "source_id": "https://openalex.org/W2161685427",
+      "title": "A variational eigenvalue solver on a photonic quantum processor",
+      "year": 2014,
+      "cited_by_count": 4420,
+      "adjusted_cited_by_count": 1275.94,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W2161685427"
+    },
+    {
+      "source_id": "https://openalex.org/W2119717200",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "year": 1992,
+      "cited_by_count": 7429,
+      "adjusted_cited_by_count": 1274.06,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural networks",
+      "url": "/domains/applied-mathematics/papers/W2119717200"
+    },
+    {
+      "source_id": "https://openalex.org/W2166843422",
+      "title": "Handbook of Genetic Algorithms",
+      "year": 1991,
+      "cited_by_count": 7317,
+      "adjusted_cited_by_count": 1236.8,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W2166843422"
+    },
+    {
+      "source_id": "https://openalex.org/W3111162498",
+      "title": "Variational quantum algorithms",
+      "year": 2021,
+      "cited_by_count": 2758,
+      "adjusted_cited_by_count": 1233.42,
+      "primary_topic_id": "sg-mathematical-optimization-metaheuristic-optimization-algorithms",
+      "primary_topic_label": "Metaheuristic optimization algorithms",
+      "url": "/domains/applied-mathematics/papers/W3111162498"
+    },
+    {
+      "source_id": "https://openalex.org/W2182274314",
+      "title": "Applied Mathematical Sciences",
+      "year": 2021,
+      "cited_by_count": 2682,
+      "adjusted_cited_by_count": 1199.43,
+      "primary_topic_id": "sg-mathematical-optimization-metaheuristic-optimization-algorithms",
+      "primary_topic_label": "Metaheuristic optimization algorithms",
+      "url": "/domains/applied-mathematics/papers/W2182274314"
+    },
+    {
+      "source_id": "https://openalex.org/W2216946510",
+      "title": "A random forest guided tour",
+      "year": 2016,
+      "cited_by_count": 3713,
+      "adjusted_cited_by_count": 1174.15,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W2216946510"
+    },
+    {
+      "source_id": "https://openalex.org/W205960364",
+      "title": "Convex Analysis and Monotone Operator Theory in Hilbert Spaces",
+      "year": 2017,
+      "cited_by_count": 3447,
+      "adjusted_cited_by_count": 1149.0,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/applied-mathematics/papers/W205960364"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57213,
+      "adjusted_cited_by_count": 10812.24,
+      "url": "/domains/applied-mathematics/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2999309192",
+      "title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
+      "year": 2020,
+      "cited_by_count": 5554,
+      "adjusted_cited_by_count": 2267.41,
+      "url": "/domains/applied-mathematics/papers/W2999309192"
+    },
+    {
+      "source_id": "https://openalex.org/W4322718191",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": 2023,
+      "cited_by_count": 3851,
+      "adjusted_cited_by_count": 2223.38,
+      "url": "/domains/applied-mathematics/papers/W4322718191"
+    },
+    {
+      "source_id": "https://openalex.org/W3135028703",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 4868,
+      "adjusted_cited_by_count": 2177.04,
+      "url": "/domains/applied-mathematics/papers/W3135028703"
+    },
+    {
+      "source_id": "https://openalex.org/W2097210817",
+      "title": "Digital Natives, Digital Immigrants Part 1",
+      "year": 2001,
+      "cited_by_count": 10553,
+      "adjusted_cited_by_count": 2110.6,
+      "url": "/domains/applied-mathematics/papers/W2097210817"
+    },
+    {
+      "source_id": "https://openalex.org/W3168997536",
+      "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+      "year": 2021,
+      "cited_by_count": 4610,
+      "adjusted_cited_by_count": 2061.65,
+      "url": "/domains/applied-mathematics/papers/W3168997536"
+    },
+    {
+      "source_id": "https://openalex.org/W2142238829",
+      "title": "SExtractor: Software for source extraction",
+      "year": 1996,
+      "cited_by_count": 10901,
+      "adjusted_cited_by_count": 1990.24,
+      "url": "/domains/applied-mathematics/papers/W2142238829"
+    },
+    {
+      "source_id": "https://openalex.org/W4236137412",
+      "title": "Induction of decision trees",
+      "year": 1986,
+      "cited_by_count": 12337,
+      "adjusted_cited_by_count": 1950.65,
+      "url": "/domains/applied-mathematics/papers/W4236137412"
+    },
+    {
+      "source_id": "https://openalex.org/W2395579298",
+      "title": "A survey of transfer learning",
+      "year": 2016,
+      "cited_by_count": 6024,
+      "adjusted_cited_by_count": 1904.96,
+      "url": "/domains/applied-mathematics/papers/W2395579298"
+    },
+    {
+      "source_id": "https://openalex.org/W2056132907",
+      "title": "Extremely randomized trees",
+      "year": 2006,
+      "cited_by_count": 8371,
+      "adjusted_cited_by_count": 1871.81,
+      "url": "/domains/applied-mathematics/papers/W2056132907"
+    },
+    {
+      "source_id": "https://openalex.org/W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "year": 2020,
+      "cited_by_count": 4405,
+      "adjusted_cited_by_count": 1798.33,
+      "url": "/domains/applied-mathematics/papers/W2995022099"
+    },
+    {
+      "source_id": "https://openalex.org/W3094704314",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "year": 2020,
+      "cited_by_count": 4285,
+      "adjusted_cited_by_count": 1749.34,
+      "url": "/domains/applied-mathematics/papers/W3094704314"
+    },
+    {
+      "source_id": "https://openalex.org/W2165744313",
+      "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+      "year": 2003,
+      "cited_by_count": 8387,
+      "adjusted_cited_by_count": 1748.81,
+      "url": "/domains/applied-mathematics/papers/W2165744313"
+    },
+    {
+      "source_id": "https://openalex.org/W2604314403",
+      "title": "Modeling Relational Data with Graph Convolutional Networks",
+      "year": 2018,
+      "cited_by_count": 4932,
+      "adjusted_cited_by_count": 1743.73,
+      "url": "/domains/applied-mathematics/papers/W2604314403"
+    },
+    {
+      "source_id": "https://openalex.org/W4221151978",
+      "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+      "year": 2022,
+      "cited_by_count": 3472,
+      "adjusted_cited_by_count": 1736.0,
+      "url": "/domains/applied-mathematics/papers/W4221151978"
+    },
+    {
+      "source_id": "https://openalex.org/W3185341429",
+      "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+      "year": 2022,
+      "cited_by_count": 3457,
+      "adjusted_cited_by_count": 1728.5,
+      "url": "/domains/applied-mathematics/papers/W3185341429"
+    },
+    {
+      "source_id": "https://openalex.org/W2962772482",
+      "title": "A survey of methods for explaining black box models",
+      "year": 2019,
+      "cited_by_count": 4507,
+      "adjusted_cited_by_count": 1703.49,
+      "url": "/domains/applied-mathematics/papers/W2962772482"
+    },
+    {
+      "source_id": "https://openalex.org/W3038067977",
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by_count": 8262,
+      "adjusted_cited_by_count": 1686.47,
+      "url": "/domains/applied-mathematics/papers/W3038067977"
+    },
+    {
+      "source_id": "https://openalex.org/W4384071683",
+      "title": "Large language models encode clinical knowledge",
+      "year": 2023,
+      "cited_by_count": 2836,
+      "adjusted_cited_by_count": 1637.37,
+      "url": "/domains/applied-mathematics/papers/W4384071683"
+    },
+    {
+      "source_id": "https://openalex.org/W2107726111",
+      "title": "Reinforcement Learning: A Survey",
+      "year": 1996,
+      "cited_by_count": 8750,
+      "adjusted_cited_by_count": 1597.52,
+      "url": "/domains/applied-mathematics/papers/W2107726111"
+    },
+    {
+      "source_id": "https://openalex.org/W391578156",
+      "title": "Matrix Analysis",
+      "year": 1985,
+      "cited_by_count": 10145,
+      "adjusted_cited_by_count": 1584.38,
+      "url": "/domains/applied-mathematics/papers/W391578156"
+    },
+    {
+      "source_id": "https://openalex.org/W2105423509",
+      "title": "Normalization of Real-Time Quantitative Reverse Transcription-PCR Data: A Model-Based Variance Estimation Approach to Identify Genes Suited for Normalization, Applied to Bladder and Colon Cancer Data Sets",
+      "year": 2004,
+      "cited_by_count": 7133,
+      "adjusted_cited_by_count": 1520.76,
+      "url": "/domains/applied-mathematics/papers/W2105423509"
+    },
+    {
+      "source_id": "https://openalex.org/W2470673105",
+      "title": "Hierarchical Attention Networks for Document Classification",
+      "year": 2016,
+      "cited_by_count": 4776,
+      "adjusted_cited_by_count": 1510.3,
+      "url": "/domains/applied-mathematics/papers/W2470673105"
+    },
+    {
+      "source_id": "https://openalex.org/W2559394418",
+      "title": "Quantum machine learning",
+      "year": 2017,
+      "cited_by_count": 4235,
+      "adjusted_cited_by_count": 1411.67,
+      "url": "/domains/applied-mathematics/papers/W2559394418"
+    },
+    {
+      "source_id": "https://openalex.org/W4249667877",
+      "title": "Convex Analysis",
+      "year": 1970,
+      "cited_by_count": 10527,
+      "adjusted_cited_by_count": 1406.73,
+      "url": "/domains/applied-mathematics/papers/W4249667877"
+    },
+    {
+      "source_id": "https://openalex.org/W3035060554",
+      "title": "Bootstrap your own latent: A new approach to self-supervised Learning",
+      "year": 2020,
+      "cited_by_count": 3437,
+      "adjusted_cited_by_count": 1403.15,
+      "url": "/domains/applied-mathematics/papers/W3035060554"
+    },
+    {
+      "source_id": "https://openalex.org/W2133109597",
+      "title": "Toward principles for the design of ontologies used for knowledge sharing?",
+      "year": 1995,
+      "cited_by_count": 7625,
+      "adjusted_cited_by_count": 1369.49,
+      "url": "/domains/applied-mathematics/papers/W2133109597"
+    },
+    {
+      "source_id": "https://openalex.org/W1787224781",
+      "title": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation",
+      "year": 2015,
+      "cited_by_count": 4486,
+      "adjusted_cited_by_count": 1352.58,
+      "url": "/domains/applied-mathematics/papers/W1787224781"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7150,
+      "adjusted_cited_by_count": 1327.72,
+      "url": "/domains/applied-mathematics/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W4211161891",
+      "title": "Topological photonics",
+      "year": 2019,
+      "cited_by_count": 3509,
+      "adjusted_cited_by_count": 1326.28,
+      "url": "/domains/applied-mathematics/papers/W4211161891"
+    },
+    {
+      "source_id": "https://openalex.org/W2161728228",
+      "title": "The Mathematics of Infectious Diseases",
+      "year": 2000,
+      "cited_by_count": 6759,
+      "adjusted_cited_by_count": 1325.55,
+      "url": "/domains/applied-mathematics/papers/W2161728228"
+    },
+    {
+      "source_id": "https://openalex.org/W4327810158",
+      "title": "GPT-4 Technical Report",
+      "year": 2023,
+      "cited_by_count": 2273,
+      "adjusted_cited_by_count": 1312.32,
+      "url": "/domains/applied-mathematics/papers/W4327810158"
+    },
+    {
+      "source_id": "https://openalex.org/W1587799944",
+      "title": "Mathematical Theory of Optimal Processes",
+      "year": 2018,
+      "cited_by_count": 3689,
+      "adjusted_cited_by_count": 1304.26,
+      "url": "/domains/applied-mathematics/papers/W1587799944"
+    },
+    {
+      "source_id": "https://openalex.org/W2161685427",
+      "title": "A variational eigenvalue solver on a photonic quantum processor",
+      "year": 2014,
+      "cited_by_count": 4420,
+      "adjusted_cited_by_count": 1275.94,
+      "url": "/domains/applied-mathematics/papers/W2161685427"
+    },
+    {
+      "source_id": "https://openalex.org/W2119717200",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "year": 1992,
+      "cited_by_count": 7429,
+      "adjusted_cited_by_count": 1274.06,
+      "url": "/domains/applied-mathematics/papers/W2119717200"
+    },
+    {
+      "source_id": "https://openalex.org/W2166843422",
+      "title": "Handbook of Genetic Algorithms",
+      "year": 1991,
+      "cited_by_count": 7317,
+      "adjusted_cited_by_count": 1236.8,
+      "url": "/domains/applied-mathematics/papers/W2166843422"
+    },
+    {
+      "source_id": "https://openalex.org/W3111162498",
+      "title": "Variational quantum algorithms",
+      "year": 2021,
+      "cited_by_count": 2758,
+      "adjusted_cited_by_count": 1233.42,
+      "url": "/domains/applied-mathematics/papers/W3111162498"
+    },
+    {
+      "source_id": "https://openalex.org/W2182274314",
+      "title": "Applied Mathematical Sciences",
+      "year": 2021,
+      "cited_by_count": 2682,
+      "adjusted_cited_by_count": 1199.43,
+      "url": "/domains/applied-mathematics/papers/W2182274314"
+    },
+    {
+      "source_id": "https://openalex.org/W2216946510",
+      "title": "A random forest guided tour",
+      "year": 2016,
+      "cited_by_count": 3713,
+      "adjusted_cited_by_count": 1174.15,
+      "url": "/domains/applied-mathematics/papers/W2216946510"
+    },
+    {
+      "source_id": "https://openalex.org/W205960364",
+      "title": "Convex Analysis and Monotone Operator Theory in Hilbert Spaces",
+      "year": 2017,
+      "cited_by_count": 3447,
+      "adjusted_cited_by_count": 1149.0,
+      "url": "/domains/applied-mathematics/papers/W205960364"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 178
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "one",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "over",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "applied",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "provide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "in this",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "such",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 51
+    },
+    {
+      "label": "mathematical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 48
+    },
+    {
+      "label": "algorithms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 34
+    },
+    {
+      "label": "machine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 67
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 34
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 33
+    },
+    {
+      "label": "this paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 33
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9893,
+      "evidence_count": 33
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 32
+    },
+    {
+      "label": "most",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 31
+    },
+    {
+      "label": "many",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 30
+    },
+    {
+      "label": "problems",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 30
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 29
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 29
+    },
+    {
+      "label": "techniques",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 29
+    },
+    {
+      "label": "number",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 28
+    },
+    {
+      "label": "based on",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 27
+    },
+    {
+      "label": "theoretical computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 27
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 25
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 25
+    },
+    {
+      "label": "such as",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 25
+    },
+    {
+      "label": "image",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 24
+    },
+    {
+      "label": "number of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 23
+    },
+    {
+      "label": "to be",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 23
+    }
+  ],
+  "topic_year_counts": {
+    "pattern recognition": {
+      "2025": 345413,
+      "2024": 321702,
+      "2023": 309921,
+      "2022": 195921,
+      "2021": 179600,
+      "2020": 164832,
+      "2019": 139573,
+      "2018": 121116,
+      "2017": 108038,
+      "2026": 100516,
+      "2016": 99493,
+      "2015": 92983,
+      "2014": 86479,
+      "2013": 79505,
+      "2012": 70855,
+      "2011": 61295,
+      "2010": 53780,
+      "2009": 47747,
+      "2008": 39965,
+      "2007": 35052,
+      "2006": 31094,
+      "2005": 27403,
+      "2004": 24018,
+      "2003": 21108,
+      "2002": 19724,
+      "2000": 16232,
+      "2001": 15583
+    },
+    "neural networks": {
+      "2025": 492894,
+      "2024": 489059,
+      "2023": 461561,
+      "2022": 316420,
+      "2021": 275203,
+      "2020": 227481,
+      "2026": 196464,
+      "2019": 180057,
+      "2018": 137187,
+      "2017": 101145,
+      "2016": 80515,
+      "2015": 69435,
+      "2014": 63407,
+      "2013": 58559,
+      "2012": 52167,
+      "2011": 47048,
+      "2010": 41614,
+      "2009": 37711,
+      "2008": 32998,
+      "2007": 29552,
+      "2006": 28892,
+      "2002": 26114,
+      "2005": 25080,
+      "2003": 20962,
+      "2004": 20589,
+      "2001": 12864,
+      "2000": 12209
+    },
+    "mathematical optimization": {
+      "2024": 225059,
+      "2023": 216753,
+      "2025": 213873,
+      "2022": 133398,
+      "2021": 118153,
+      "2020": 104247,
+      "2019": 85701,
+      "2018": 73344,
+      "2026": 62429,
+      "2017": 61958,
+      "2016": 55909,
+      "2015": 50438,
+      "2014": 46010,
+      "2013": 41119,
+      "2012": 34814,
+      "2011": 29757,
+      "2010": 25076,
+      "2009": 21007,
+      "2008": 17313,
+      "2007": 14831,
+      "2006": 12713,
+      "2005": 10415,
+      "2004": 8664,
+      "2003": 7110,
+      "2002": 5998,
+      "2000": 4894,
+      "2001": 4612
+    }
+  }
+}

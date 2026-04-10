@@ -1,0 +1,2254 @@
+{
+  "slug": "astrophysics",
+  "title": "Astrophysics",
+  "updated_at": "2026-04-10T12:05:23.004652Z",
+  "snapshot": {
+    "papers": 652,
+    "topics": 8,
+    "subtopics": 41,
+    "entities": 1067,
+    "claims": 65
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 821,
+      "total_papers": 821,
+      "facet_counts": {
+        "none": 821
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning astrophysics and star formation studies, astrophysics and cosmic phenomena.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 8,
+    "descendant_topics": 41,
+    "max_depth": 2,
+    "leaf_topics": 41
+  },
+  "rising_topics": [
+    {
+      "id": "sg-astrophysics-square-kilometre",
+      "label": "Astrophysics square kilometre",
+      "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre",
+      "trend": "rising",
+      "year_total": 4760
+    },
+    {
+      "id": "sg-spectral-line",
+      "label": "Spectral line",
+      "url": "/domains/astrophysics/topics/sg-spectral-line",
+      "trend": "rising",
+      "year_total": 1099290
+    },
+    {
+      "id": "sg-astrophysics-star-formation-studies",
+      "label": "Astrophysics star formation studies",
+      "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies",
+      "trend": "rising",
+      "year_total": 51239
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-astrophysics-square-kilometre",
+      "label": "Astrophysics square kilometre",
+      "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre",
+      "paper_count": 125,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: of the, red, data",
+      "tags": [
+        "advancing astrophysics",
+        "advancing astrophysics square kilometre",
+        "astrophysics square kilometre",
+        "astrophysics square kilometre array"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-astrophysics-square-kilometre-data-processing",
+          "label": "Data processing",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre-data-processing",
+          "paper_count": 68
+        },
+        {
+          "id": "sg-astrophysics-square-kilometre-binary-neutron-star",
+          "label": "Binary neutron star",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre-binary-neutron-star",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-astrophysics-square-kilometre-radio-frequency",
+          "label": "Radio frequency",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre-radio-frequency",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-astrophysics-square-kilometre-solar-astronomy",
+          "label": "Solar astronomy",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre-solar-astronomy",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-astrophysics-square-kilometre-solar-physics",
+          "label": "Solar physics",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre-solar-physics",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-astrophysics-square-kilometre-square-kilometre-array",
+          "label": "Square kilometre array",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-square-kilometre-square-kilometre-array",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2135625048",
+          "title": "Astropy: A community Python package for astronomy",
+          "year": "2013",
+          "cited_by_count": 14066,
+          "url": "/domains/astrophysics/papers/W2135625048"
+        },
+        {
+          "source_id": "https://openalex.org/W2765081049",
+          "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+          "year": "2017",
+          "cited_by_count": 9434,
+          "url": "/domains/astrophysics/papers/W2765081049"
+        },
+        {
+          "source_id": "https://openalex.org/W2899497983",
+          "title": "The Chemical Composition of the Sun",
+          "year": "2009",
+          "cited_by_count": 9239,
+          "url": "/domains/astrophysics/papers/W2899497983"
+        }
+      ]
+    },
+    {
+      "id": "sg-spectral-line",
+      "label": "Spectral line",
+      "url": "/domains/astrophysics/topics/sg-spectral-line",
+      "paper_count": 121,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: of the, astrophysics, astronomy",
+      "tags": [
+        "emission spectrum",
+        "lyman-alpha forest",
+        "spectral index",
+        "spectral line"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-spectral-line-spectral-resolution",
+          "label": "Spectral resolution",
+          "url": "/domains/astrophysics/topics/sg-spectral-line-spectral-resolution",
+          "paper_count": 43
+        },
+        {
+          "id": "sg-spectral-line-spectral-index",
+          "label": "Spectral index",
+          "url": "/domains/astrophysics/topics/sg-spectral-line-spectral-index",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-spectral-line-emission-spectrum",
+          "label": "Emission spectrum",
+          "url": "/domains/astrophysics/topics/sg-spectral-line-emission-spectrum",
+          "paper_count": 34
+        },
+        {
+          "id": "sg-spectral-line-lyman-alpha-forest",
+          "label": "Lyman-alpha forest",
+          "url": "/domains/astrophysics/topics/sg-spectral-line-lyman-alpha-forest",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-spectral-line-surface-gravity",
+          "label": "Surface gravity",
+          "url": "/domains/astrophysics/topics/sg-spectral-line-surface-gravity",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4288079944",
+          "title": "<i>Planck</i> 2018 results",
+          "year": "2020",
+          "cited_by_count": 13517,
+          "url": "/domains/astrophysics/papers/W4288079944"
+        },
+        {
+          "source_id": "https://openalex.org/W4292875581",
+          "title": "<i>Planck</i>2015 results",
+          "year": "2016",
+          "cited_by_count": 10530,
+          "url": "/domains/astrophysics/papers/W4292875581"
+        },
+        {
+          "source_id": "https://openalex.org/W2118265220",
+          "title": "First‐Year <i>Wilkinson Microwave Anisotropy Probe</i> ( <i>WMAP</i> ) Observations: Determination of Cosmological Parameters",
+          "year": "2003",
+          "cited_by_count": 10970,
+          "url": "/domains/astrophysics/papers/W2118265220"
+        }
+      ]
+    },
+    {
+      "id": "sg-astrophysics-star-formation-studies",
+      "label": "Astrophysics star formation studies",
+      "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies",
+      "paper_count": 104,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: astrophysics, astronomy, of the",
+      "tags": [
+        "astrophysics and star formation studies",
+        "cosmic dust",
+        "masses star formation",
+        "orion nebula"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-astrophysics-star-formation-studies-circumstellar-dust",
+          "label": "Circumstellar dust",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies-circumstellar-dust",
+          "paper_count": 63
+        },
+        {
+          "id": "sg-astrophysics-star-formation-studies-young-stellar-object",
+          "label": "Young stellar object",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies-young-stellar-object",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-astrophysics-star-formation-studies-supersonic-speed",
+          "label": "Supersonic speed",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies-supersonic-speed",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-astrophysics-star-formation-studies-orion-nebula",
+          "label": "Orion nebula",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies-orion-nebula",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-astrophysics-star-formation-studies-star-formation-law",
+          "label": "Star formation law",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies-star-formation-law",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-astrophysics-star-formation-studies-star-formation-masses",
+          "label": "Star formation masses",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-star-formation-studies-star-formation-masses",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2252795400",
+          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+          "year": "2016",
+          "cited_by_count": 13992,
+          "url": "/domains/astrophysics/papers/W2252795400"
+        },
+        {
+          "source_id": "https://openalex.org/W2111817932",
+          "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+          "year": "1998",
+          "cited_by_count": 15248,
+          "url": "/domains/astrophysics/papers/W2111817932"
+        },
+        {
+          "source_id": "https://openalex.org/W2971836485",
+          "title": "GWTC-1: A Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by LIGO and Virgo during the First and Second Observing Runs",
+          "year": "2019",
+          "cited_by_count": 3524,
+          "url": "/domains/astrophysics/papers/W2971836485"
+        }
+      ]
+    },
+    {
+      "id": "sg-milky-way",
+      "label": "Milky way",
+      "url": "/domains/astrophysics/topics/sg-milky-way",
+      "paper_count": 100,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: astrophysics, of the, astronomy",
+      "tags": [
+        "disc galaxy",
+        "galactic astronomy",
+        "masses star formation",
+        "milky way"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-milky-way-stellar-kinematics",
+          "label": "Stellar kinematics",
+          "url": "/domains/astrophysics/topics/sg-milky-way-stellar-kinematics",
+          "paper_count": 53
+        },
+        {
+          "id": "sg-milky-way-milky-way-astronomy",
+          "label": "Milky Way astronomy",
+          "url": "/domains/astrophysics/topics/sg-milky-way-milky-way-astronomy",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-milky-way-milky-way-disc-structure",
+          "label": "Milky Way disc structure",
+          "url": "/domains/astrophysics/topics/sg-milky-way-milky-way-disc-structure",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-milky-way-stellar-astrophysics",
+          "label": "Stellar astrophysics",
+          "url": "/domains/astrophysics/topics/sg-milky-way-stellar-astrophysics",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-milky-way-galactic-plane",
+          "label": "Galactic plane",
+          "url": "/domains/astrophysics/topics/sg-milky-way-galactic-plane",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-milky-way-open-cluster",
+          "label": "Open cluster",
+          "url": "/domains/astrophysics/topics/sg-milky-way-open-cluster",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2798336535",
+          "title": "<i>Gaia</i> Data Release 2",
+          "year": "2018",
+          "cited_by_count": 8577,
+          "url": "/domains/astrophysics/papers/W2798336535"
+        },
+        {
+          "source_id": "https://openalex.org/W2151062050",
+          "title": "The Dust Content and Opacity of Actively Star‐forming Galaxies",
+          "year": "2000",
+          "cited_by_count": 5651,
+          "url": "/domains/astrophysics/papers/W2151062050"
+        },
+        {
+          "source_id": "https://openalex.org/W2073603601",
+          "title": "The cosmological constant and dark energy",
+          "year": "2003",
+          "cited_by_count": 5156,
+          "url": "/domains/astrophysics/papers/W2073603601"
+        }
+      ]
+    },
+    {
+      "id": "sg-magnetic-field",
+      "label": "Magnetic field",
+      "url": "/domains/astrophysics/topics/sg-magnetic-field",
+      "paper_count": 89,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: of the, astrophysics, astronomy",
+      "tags": [
+        "electric field",
+        "fields in astrophysics",
+        "magnetic energy",
+        "magnetic field"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-magnetic-field-equipartition-theorem",
+          "label": "Equipartition theorem",
+          "url": "/domains/astrophysics/topics/sg-magnetic-field-equipartition-theorem",
+          "paper_count": 35
+        },
+        {
+          "id": "sg-magnetic-field-stellar-magnetic-field",
+          "label": "Stellar magnetic field",
+          "url": "/domains/astrophysics/topics/sg-magnetic-field-stellar-magnetic-field",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-magnetic-field-magnetohydrodynamic-drive",
+          "label": "Magnetohydrodynamic drive",
+          "url": "/domains/astrophysics/topics/sg-magnetic-field-magnetohydrodynamic-drive",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-magnetic-field-helioseismic-magnetic-imager",
+          "label": "Helioseismic magnetic imager",
+          "url": "/domains/astrophysics/topics/sg-magnetic-field-helioseismic-magnetic-imager",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-magnetic-field-magnetic-energy",
+          "label": "Magnetic energy",
+          "url": "/domains/astrophysics/topics/sg-magnetic-field-magnetic-energy",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-magnetic-field-solar-cycle-and-dynamo",
+          "label": "Solar cycle and dynamo",
+          "url": "/domains/astrophysics/topics/sg-magnetic-field-solar-cycle-and-dynamo",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1853767801",
+          "title": "Measurements of Ω and Λ from 42 High‐Redshift Supernovae",
+          "year": "1999",
+          "cited_by_count": 17736,
+          "url": "/domains/astrophysics/papers/W1853767801"
+        },
+        {
+          "source_id": "https://openalex.org/W2166436681",
+          "title": "The Confrontation between General Relativity and Experiment",
+          "year": "2014",
+          "cited_by_count": 3795,
+          "url": "/domains/astrophysics/papers/W2166436681"
+        },
+        {
+          "source_id": "https://openalex.org/W1989589910",
+          "title": "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>R</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math>theories of gravity",
+          "year": "2010",
+          "cited_by_count": 4382,
+          "url": "/domains/astrophysics/papers/W1989589910"
+        }
+      ]
+    },
+    {
+      "id": "sg-sloan-digital-sky",
+      "label": "Sloan digital sky survey",
+      "url": "/domains/astrophysics/topics/sg-sloan-digital-sky",
+      "paper_count": 47,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: of the, red, galaxy",
+      "tags": [
+        "data release of sloan",
+        "digital sky survey first",
+        "digital sky surveys",
+        "release of sloan digital"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sloan-digital-sky-sloan-digital",
+          "label": "Sloan digital",
+          "url": "/domains/astrophysics/topics/sg-sloan-digital-sky-sloan-digital",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-sloan-digital-sky-survey-sdss-data-release",
+          "label": "SDSS data release",
+          "url": "/domains/astrophysics/topics/sg-sloan-digital-sky-survey-sdss-data-release",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-sloan-digital-sky-survey-sdss-spectroscopic-data",
+          "label": "SDSS spectroscopic data",
+          "url": "/domains/astrophysics/topics/sg-sloan-digital-sky-survey-sdss-spectroscopic-data",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2763117186",
+          "title": "The Complete Light-curve Sample of Spectroscopically Confirmed SNe Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon Sample",
+          "year": "2018",
+          "cited_by_count": 2711,
+          "url": "/domains/astrophysics/papers/W2763117186"
+        },
+        {
+          "source_id": "https://openalex.org/W3098899650",
+          "title": "<i>Planck</i>2018 results",
+          "year": "2019",
+          "cited_by_count": 1611,
+          "url": "/domains/astrophysics/papers/W3098899650"
+        },
+        {
+          "source_id": "https://openalex.org/W4220924308",
+          "title": "The Seventeenth Data Release of the Sloan Digital Sky Surveys: Complete Release of MaNGA, MaStar, and APOGEE-2 Data",
+          "year": "2022",
+          "cited_by_count": 1156,
+          "url": "/domains/astrophysics/papers/W4220924308"
+        }
+      ]
+    },
+    {
+      "id": "sg-astrophysics-cosmic-phenomena",
+      "label": "Astrophysics cosmic phenomena",
+      "url": "/domains/astrophysics/topics/sg-astrophysics-cosmic-phenomena",
+      "paper_count": 43,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: astrophysics, astronomy, astrophysics and cosmic phenomena",
+      "tags": [
+        "astrophysics and cosmic phenomena",
+        "cherenkov telescope array",
+        "galactic nuclei detected",
+        "gamma-ray astronomy"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-astrophysics-cosmic-phenomena-cosmic-ray",
+          "label": "Cosmic ray",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-cosmic-phenomena-cosmic-ray",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-astrophysics-cosmic-phenomena-cherenkov-telescope-array",
+          "label": "Cherenkov telescope array",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-cosmic-phenomena-cherenkov-telescope-array",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-astrophysics-cosmic-phenomena-cosmic-cancer-database",
+          "label": "Cosmic cancer database",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-cosmic-phenomena-cosmic-cancer-database",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-astrophysics-cosmic-phenomena-gamma-ray-astronomy",
+          "label": "Gamma-ray astronomy",
+          "url": "/domains/astrophysics/topics/sg-astrophysics-cosmic-phenomena-gamma-ray-astronomy",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2936095933",
+          "title": "First M87 Event Horizon Telescope Results. VI. The Shadow and Mass of the Central Black Hole",
+          "year": "2019",
+          "cited_by_count": 1583,
+          "url": "/domains/astrophysics/papers/W2936095933"
+        },
+        {
+          "source_id": "https://openalex.org/W2888259247",
+          "title": "The Simons Observatory: science goals and forecasts",
+          "year": "2019",
+          "cited_by_count": 1515,
+          "url": "/domains/astrophysics/papers/W2888259247"
+        },
+        {
+          "source_id": "https://openalex.org/W2985443361",
+          "title": "Accretion Power in Astrophysics",
+          "year": "2002",
+          "cited_by_count": 2491,
+          "url": "/domains/astrophysics/papers/W2985443361"
+        }
+      ]
+    },
+    {
+      "id": "sg-interstellar-medium",
+      "label": "Interstellar medium",
+      "url": "/domains/astrophysics/topics/sg-interstellar-medium",
+      "paper_count": 23,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: stellar, interstellar, interstellar medium",
+      "tags": [
+        "interstellar cloud",
+        "interstellar medium",
+        "k-epsilon turbulence model",
+        "k-omega turbulence model"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-interstellar-medium-molecular-cloud",
+          "label": "Molecular cloud",
+          "url": "/domains/astrophysics/topics/sg-interstellar-medium-molecular-cloud",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-interstellar-medium-k-omega-turbulence-model",
+          "label": "K-omega turbulence model",
+          "url": "/domains/astrophysics/topics/sg-interstellar-medium-k-omega-turbulence-model",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-interstellar-medium-cosmic-ray",
+          "label": "Cosmic ray",
+          "url": "/domains/astrophysics/topics/sg-interstellar-medium-cosmic-ray",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1624693442",
+          "title": "Physics of the Interstellar and Intergalactic Medium",
+          "year": "2011",
+          "cited_by_count": 1736,
+          "url": "/domains/astrophysics/papers/W1624693442"
+        },
+        {
+          "source_id": "https://openalex.org/W2076246932",
+          "title": "Galaxies on FIRE (Feedback In Realistic Environments): stellar feedback explains cosmologically inefficient star formation",
+          "year": "2014",
+          "cited_by_count": 1436,
+          "url": "/domains/astrophysics/papers/W2076246932"
+        },
+        {
+          "source_id": "https://openalex.org/W2970202019",
+          "title": "First results from the TNG50 simulation: galactic outflows driven by supernovae and black hole feedback",
+          "year": "2019",
+          "cited_by_count": 956,
+          "url": "/domains/astrophysics/papers/W2970202019"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+          "year": "1998",
+          "cited_by_count": 19232,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2073832139.html"
+        },
+        {
+          "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+          "year": "2012",
+          "cited_by_count": 10633,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1858542512.html"
+        },
+        {
+          "title": "Particle creation by black holes",
+          "year": "1975",
+          "cited_by_count": 12700,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2090386790.html"
+        },
+        {
+          "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+          "year": "2019",
+          "cited_by_count": 4034,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2936349953.html"
+        },
+        {
+          "title": "The Confrontation between General Relativity and Experiment",
+          "year": "2014",
+          "cited_by_count": 3795,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2166436681.html"
+        },
+        {
+          "title": "The cosmological constant and dark energy",
+          "year": "2003",
+          "cited_by_count": 5156,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2073603601.html"
+        }
+      ]
+    },
+    {
+      "label": "Astrophysics square kilometre",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The Chemical Composition of the Sun",
+          "year": "2009",
+          "cited_by_count": 9239,
+          "topic": "Astrophysics square kilometre",
+          "url": "papers/https-openalex-org-w2899497983.html"
+        },
+        {
+          "title": "The&lt;i&gt;Gaia&lt;/i&gt;mission",
+          "year": "2016",
+          "cited_by_count": 6831,
+          "topic": "Astrophysics square kilometre",
+          "url": "papers/https-openalex-org-w147232447.html"
+        },
+        {
+          "title": "Computational electrodynamics, the finite-difference time-domain method",
+          "year": "1996",
+          "cited_by_count": 9481,
+          "topic": "Astrophysics square kilometre",
+          "url": "papers/https-openalex-org-w2090843874.html"
+        },
+        {
+          "title": "Multi-messenger Observations of a Binary Neutron Star Merger&lt;sup&gt;*&lt;/sup&gt;",
+          "year": "2017",
+          "cited_by_count": 3593,
+          "topic": "Astrophysics square kilometre",
+          "url": "papers/https-openalex-org-w2766840380.html"
+        }
+      ]
+    },
+    {
+      "label": "Circumstellar dust",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+          "year": "2016",
+          "cited_by_count": 13992,
+          "topic": "Circumstellar dust",
+          "url": "papers/https-openalex-org-w2252795400.html"
+        },
+        {
+          "title": "Anti de Sitter space and holography",
+          "year": "1998",
+          "cited_by_count": 13221,
+          "topic": "Circumstellar dust",
+          "url": "papers/https-openalex-org-w1889142700.html"
+        },
+        {
+          "title": "The Large Scale Structure of Space-Time",
+          "year": "1973",
+          "cited_by_count": 10308,
+          "topic": "Circumstellar dust",
+          "url": "papers/https-openalex-org-w2029403139.html"
+        },
+        {
+          "title": "GWTC-1: A Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by LIGO and Virgo during the First and Second Observing Runs",
+          "year": "2019",
+          "cited_by_count": 3524,
+          "topic": "Circumstellar dust",
+          "url": "papers/https-openalex-org-w2971836485.html"
+        }
+      ]
+    },
+    {
+      "label": "Milky Way disc structure",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Review of Particle Physics",
+          "year": "2014",
+          "cited_by_count": 6800,
+          "topic": "Milky Way disc structure",
+          "url": "papers/https-openalex-org-w4292322877.html"
+        },
+        {
+          "title": "A Universal Density Profile from Hierarchical Clustering",
+          "year": "1997",
+          "cited_by_count": 9737,
+          "topic": "Milky Way disc structure",
+          "url": "papers/https-openalex-org-w2060003036.html"
+        },
+        {
+          "title": "The cosmological simulation code gadget-2",
+          "year": "2005",
+          "cited_by_count": 6331,
+          "topic": "Milky Way disc structure",
+          "url": "papers/https-openalex-org-w2100188138.html"
+        },
+        {
+          "title": "Simulations of the formation, evolution and clustering of galaxies and quasars",
+          "year": "2005",
+          "cited_by_count": 5012,
+          "topic": "Milky Way disc structure",
+          "url": "papers/https-openalex-org-w2141709306.html"
+        }
+      ]
+    },
+    {
+      "label": "Spectral line",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "&lt;i&gt;Planck&lt;/i&gt; 2018 results",
+          "year": "2020",
+          "cited_by_count": 13517,
+          "topic": "Spectral line",
+          "url": "papers/https-openalex-org-w4288079944.html"
+        },
+        {
+          "title": "&lt;i&gt;Planck&lt;/i&gt;2015 results",
+          "year": "2016",
+          "cited_by_count": 10530,
+          "topic": "Spectral line",
+          "url": "papers/https-openalex-org-w4292875581.html"
+        },
+        {
+          "title": "&lt;i&gt;Gaia&lt;/i&gt; Data Release 3",
+          "year": "2022",
+          "cited_by_count": 3527,
+          "topic": "Spectral line",
+          "url": "papers/https-openalex-org-w4281694390.html"
+        },
+        {
+          "title": "Planck 2015 results",
+          "year": "2016",
+          "cited_by_count": 5466,
+          "topic": "Spectral line",
+          "url": "papers/https-openalex-org-w1909359706.html"
+        }
+      ]
+    },
+    {
+      "label": "Astrophysics star formation studies",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+          "year": "1998",
+          "cited_by_count": 15248,
+          "topic": "Astrophysics star formation studies",
+          "url": "papers/https-openalex-org-w2111817932.html"
+        },
+        {
+          "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA): BINARIES, PULSATIONS, AND EXPLOSIONS",
+          "year": "2015",
+          "cited_by_count": 3056,
+          "topic": "Astrophysics star formation studies",
+          "url": "papers/https-openalex-org-w2095725842.html"
+        }
+      ]
+    },
+    {
+      "label": "Sloan digital",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "&lt;i&gt;Gaia&lt;/i&gt; Data Release 2",
+          "year": "2018",
+          "cited_by_count": 8577,
+          "topic": "Sloan digital",
+          "url": "papers/https-openalex-org-w2798336535.html"
+        },
+        {
+          "title": "&lt;i&gt;Gaia&lt;/i&gt;Early Data Release 3",
+          "year": "2020",
+          "cited_by_count": 3782,
+          "topic": "Sloan digital",
+          "url": "papers/https-openalex-org-w4213259675.html"
+        }
+      ]
+    },
+    {
+      "label": "Solar physics",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
+          "year": "2022",
+          "cited_by_count": 4253,
+          "topic": "Solar physics",
+          "url": "papers/https-openalex-org-w4293212596.html"
+        },
+        {
+          "title": "Transiting Exoplanet Survey Satellite",
+          "year": "2014",
+          "cited_by_count": 3881,
+          "topic": "Solar physics",
+          "url": "papers/https-openalex-org-w2761986865.html"
+        }
+      ]
+    },
+    {
+      "label": "Stellar astrophysics",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "First‐Year &lt;i&gt;Wilkinson Microwave Anisotropy Probe&lt;/i&gt; ( &lt;i&gt;WMAP&lt;/i&gt; ) Observations: Determination of Cosmological Parameters",
+          "year": "2003",
+          "cited_by_count": 10970,
+          "topic": "Stellar astrophysics",
+          "url": "papers/https-openalex-org-w2118265220.html"
+        },
+        {
+          "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA)",
+          "year": "2010",
+          "cited_by_count": 4186,
+          "topic": "Stellar astrophysics",
+          "url": "papers/https-openalex-org-w2041485609.html"
+        }
+      ]
+    },
+    {
+      "label": "Binary neutron star",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+          "year": "2017",
+          "cited_by_count": 9434,
+          "topic": "Binary neutron star",
+          "url": "papers/https-openalex-org-w2765081049.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W4288079944",
+      "title": "<i>Planck</i> 2018 results",
+      "year": 2020,
+      "cited_by_count": 13517,
+      "adjusted_cited_by_count": 5518.29,
+      "primary_topic_id": "sg-spectral-line",
+      "primary_topic_label": "Spectral line",
+      "url": "/domains/astrophysics/papers/W4288079944"
+    },
+    {
+      "source_id": "https://openalex.org/W2252795400",
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "year": 2016,
+      "cited_by_count": 13992,
+      "adjusted_cited_by_count": 4424.66,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies-circumstellar-dust",
+      "primary_topic_label": "Circumstellar dust",
+      "url": "/domains/astrophysics/papers/W2252795400"
+    },
+    {
+      "source_id": "https://openalex.org/W2135625048",
+      "title": "Astropy: A community Python package for astronomy",
+      "year": 2013,
+      "cited_by_count": 14066,
+      "adjusted_cited_by_count": 3901.21,
+      "primary_topic_id": "sg-astrophysics-square-kilometre-solar-astronomy",
+      "primary_topic_label": "Solar astronomy",
+      "url": "/domains/astrophysics/papers/W2135625048"
+    },
+    {
+      "source_id": "https://openalex.org/W2073832139",
+      "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+      "year": 1998,
+      "cited_by_count": 19232,
+      "adjusted_cited_by_count": 3634.51,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2073832139"
+    },
+    {
+      "source_id": "https://openalex.org/W1853767801",
+      "title": "Measurements of Ω and Λ from 42 High‐Redshift Supernovae",
+      "year": 1999,
+      "cited_by_count": 17736,
+      "adjusted_cited_by_count": 3413.29,
+      "primary_topic_id": "sg-milky-way-open-cluster",
+      "primary_topic_label": "Open cluster",
+      "url": "/domains/astrophysics/papers/W1853767801"
+    },
+    {
+      "source_id": "https://openalex.org/W4292875581",
+      "title": "<i>Planck</i>2015 results",
+      "year": 2016,
+      "cited_by_count": 10530,
+      "adjusted_cited_by_count": 3329.88,
+      "primary_topic_id": "sg-spectral-line",
+      "primary_topic_label": "Spectral line",
+      "url": "/domains/astrophysics/papers/W4292875581"
+    },
+    {
+      "source_id": "https://openalex.org/W2765081049",
+      "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+      "year": 2017,
+      "cited_by_count": 9434,
+      "adjusted_cited_by_count": 3144.67,
+      "primary_topic_id": "sg-astrophysics-square-kilometre-binary-neutron-star",
+      "primary_topic_label": "Binary neutron star",
+      "url": "/domains/astrophysics/papers/W2765081049"
+    },
+    {
+      "source_id": "https://openalex.org/W2798336535",
+      "title": "<i>Gaia</i> Data Release 2",
+      "year": 2018,
+      "cited_by_count": 8577,
+      "adjusted_cited_by_count": 3032.43,
+      "primary_topic_id": "sg-sloan-digital-sky-sloan-digital",
+      "primary_topic_label": "Sloan digital",
+      "url": "/domains/astrophysics/papers/W2798336535"
+    },
+    {
+      "source_id": "https://openalex.org/W2111817932",
+      "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+      "year": 1998,
+      "cited_by_count": 15248,
+      "adjusted_cited_by_count": 2881.6,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies",
+      "primary_topic_label": "Astrophysics star formation studies",
+      "url": "/domains/astrophysics/papers/W2111817932"
+    },
+    {
+      "source_id": "https://openalex.org/W1858542512",
+      "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+      "year": 2012,
+      "cited_by_count": 10633,
+      "adjusted_cited_by_count": 2841.79,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W1858542512"
+    },
+    {
+      "source_id": "https://openalex.org/W1889142700",
+      "title": "Anti de Sitter space and holography",
+      "year": 1998,
+      "cited_by_count": 13221,
+      "adjusted_cited_by_count": 2498.53,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies-circumstellar-dust",
+      "primary_topic_label": "Circumstellar dust",
+      "url": "/domains/astrophysics/papers/W1889142700"
+    },
+    {
+      "source_id": "https://openalex.org/W2118265220",
+      "title": "First‐Year <i>Wilkinson Microwave Anisotropy Probe</i> ( <i>WMAP</i> ) Observations: Determination of Cosmological Parameters",
+      "year": 2003,
+      "cited_by_count": 10970,
+      "adjusted_cited_by_count": 2287.4,
+      "primary_topic_id": "sg-milky-way-stellar-astrophysics",
+      "primary_topic_label": "Stellar astrophysics",
+      "url": "/domains/astrophysics/papers/W2118265220"
+    },
+    {
+      "source_id": "https://openalex.org/W2899497983",
+      "title": "The Chemical Composition of the Sun",
+      "year": 2009,
+      "cited_by_count": 9239,
+      "adjusted_cited_by_count": 2240.79,
+      "primary_topic_id": "sg-astrophysics-square-kilometre",
+      "primary_topic_label": "Astrophysics square kilometre",
+      "url": "/domains/astrophysics/papers/W2899497983"
+    },
+    {
+      "source_id": "https://openalex.org/W147232447",
+      "title": "The<i>Gaia</i>mission",
+      "year": 2016,
+      "cited_by_count": 6831,
+      "adjusted_cited_by_count": 2160.15,
+      "primary_topic_id": "sg-astrophysics-square-kilometre",
+      "primary_topic_label": "Astrophysics square kilometre",
+      "url": "/domains/astrophysics/papers/W147232447"
+    },
+    {
+      "source_id": "https://openalex.org/W4293212596",
+      "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
+      "year": 2022,
+      "cited_by_count": 4253,
+      "adjusted_cited_by_count": 2126.5,
+      "primary_topic_id": "sg-astrophysics-square-kilometre-solar-physics",
+      "primary_topic_label": "Solar physics",
+      "url": "/domains/astrophysics/papers/W4293212596"
+    },
+    {
+      "source_id": "https://openalex.org/W4292322877",
+      "title": "Review of Particle Physics",
+      "year": 2014,
+      "cited_by_count": 6800,
+      "adjusted_cited_by_count": 1962.99,
+      "primary_topic_id": "sg-milky-way-milky-way-disc-structure",
+      "primary_topic_label": "Milky Way disc structure",
+      "url": "/domains/astrophysics/papers/W4292322877"
+    },
+    {
+      "source_id": "https://openalex.org/W2060003036",
+      "title": "A Universal Density Profile from Hierarchical Clustering",
+      "year": 1997,
+      "cited_by_count": 9737,
+      "adjusted_cited_by_count": 1808.12,
+      "primary_topic_id": "sg-milky-way-milky-way-disc-structure",
+      "primary_topic_label": "Milky Way disc structure",
+      "url": "/domains/astrophysics/papers/W2060003036"
+    },
+    {
+      "source_id": "https://openalex.org/W2090386790",
+      "title": "Particle creation by black holes",
+      "year": 1975,
+      "cited_by_count": 12700,
+      "adjusted_cited_by_count": 1778.36,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2090386790"
+    },
+    {
+      "source_id": "https://openalex.org/W4281694390",
+      "title": "<i>Gaia</i> Data Release 3",
+      "year": 2022,
+      "cited_by_count": 3527,
+      "adjusted_cited_by_count": 1763.5,
+      "primary_topic_id": "sg-spectral-line",
+      "primary_topic_label": "Spectral line",
+      "url": "/domains/astrophysics/papers/W4281694390"
+    },
+    {
+      "source_id": "https://openalex.org/W2090843874",
+      "title": "Computational electrodynamics, the finite-difference time-domain method",
+      "year": 1996,
+      "cited_by_count": 9481,
+      "adjusted_cited_by_count": 1730.99,
+      "primary_topic_id": "sg-astrophysics-square-kilometre",
+      "primary_topic_label": "Astrophysics square kilometre",
+      "url": "/domains/astrophysics/papers/W2090843874"
+    },
+    {
+      "source_id": "https://openalex.org/W1909359706",
+      "title": "Planck 2015 results",
+      "year": 2016,
+      "cited_by_count": 5466,
+      "adjusted_cited_by_count": 1728.5,
+      "primary_topic_id": "sg-spectral-line",
+      "primary_topic_label": "Spectral line",
+      "url": "/domains/astrophysics/papers/W1909359706"
+    },
+    {
+      "source_id": "https://openalex.org/W4213259675",
+      "title": "<i>Gaia</i>Early Data Release 3",
+      "year": 2020,
+      "cited_by_count": 3782,
+      "adjusted_cited_by_count": 1544.0,
+      "primary_topic_id": "sg-sloan-digital-sky-sloan-digital",
+      "primary_topic_label": "Sloan digital",
+      "url": "/domains/astrophysics/papers/W4213259675"
+    },
+    {
+      "source_id": "https://openalex.org/W2936349953",
+      "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+      "year": 2019,
+      "cited_by_count": 4034,
+      "adjusted_cited_by_count": 1524.71,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2936349953"
+    },
+    {
+      "source_id": "https://openalex.org/W2029403139",
+      "title": "The Large Scale Structure of Space-Time",
+      "year": 1973,
+      "cited_by_count": 10308,
+      "adjusted_cited_by_count": 1415.91,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies-circumstellar-dust",
+      "primary_topic_label": "Circumstellar dust",
+      "url": "/domains/astrophysics/papers/W2029403139"
+    },
+    {
+      "source_id": "https://openalex.org/W2100188138",
+      "title": "The cosmological simulation code gadget-2",
+      "year": 2005,
+      "cited_by_count": 6331,
+      "adjusted_cited_by_count": 1381.54,
+      "primary_topic_id": "sg-milky-way-milky-way-disc-structure",
+      "primary_topic_label": "Milky Way disc structure",
+      "url": "/domains/astrophysics/papers/W2100188138"
+    },
+    {
+      "source_id": "https://openalex.org/W2971836485",
+      "title": "GWTC-1: A Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by LIGO and Virgo during the First and Second Observing Runs",
+      "year": 2019,
+      "cited_by_count": 3524,
+      "adjusted_cited_by_count": 1331.95,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies-circumstellar-dust",
+      "primary_topic_label": "Circumstellar dust",
+      "url": "/domains/astrophysics/papers/W2971836485"
+    },
+    {
+      "source_id": "https://openalex.org/W2766840380",
+      "title": "Multi-messenger Observations of a Binary Neutron Star Merger<sup>*</sup>",
+      "year": 2017,
+      "cited_by_count": 3593,
+      "adjusted_cited_by_count": 1197.67,
+      "primary_topic_id": "sg-astrophysics-square-kilometre",
+      "primary_topic_label": "Astrophysics square kilometre",
+      "url": "/domains/astrophysics/papers/W2766840380"
+    },
+    {
+      "source_id": "https://openalex.org/W2766754978",
+      "title": "Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A",
+      "year": 2017,
+      "cited_by_count": 3476,
+      "adjusted_cited_by_count": 1158.67,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies-star-formation-masses",
+      "primary_topic_label": "Star formation masses",
+      "url": "/domains/astrophysics/papers/W2766754978"
+    },
+    {
+      "source_id": "https://openalex.org/W2761986865",
+      "title": "Transiting Exoplanet Survey Satellite",
+      "year": 2014,
+      "cited_by_count": 3881,
+      "adjusted_cited_by_count": 1120.35,
+      "primary_topic_id": "sg-astrophysics-square-kilometre-solar-physics",
+      "primary_topic_label": "Solar physics",
+      "url": "/domains/astrophysics/papers/W2761986865"
+    },
+    {
+      "source_id": "https://openalex.org/W2151062050",
+      "title": "The Dust Content and Opacity of Actively Star‐forming Galaxies",
+      "year": 2000,
+      "cited_by_count": 5651,
+      "adjusted_cited_by_count": 1108.25,
+      "primary_topic_id": "sg-milky-way",
+      "primary_topic_label": "Milky way",
+      "url": "/domains/astrophysics/papers/W2151062050"
+    },
+    {
+      "source_id": "https://openalex.org/W2140137154",
+      "title": "<scp>parsec</scp>: stellar tracks and isochrones with the PAdova and TRieste Stellar Evolution Code",
+      "year": 2012,
+      "cited_by_count": 4105,
+      "adjusted_cited_by_count": 1097.11,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies-supersonic-speed",
+      "primary_topic_label": "Supersonic speed",
+      "url": "/domains/astrophysics/papers/W2140137154"
+    },
+    {
+      "source_id": "https://openalex.org/W2166436681",
+      "title": "The Confrontation between General Relativity and Experiment",
+      "year": 2014,
+      "cited_by_count": 3795,
+      "adjusted_cited_by_count": 1095.52,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2166436681"
+    },
+    {
+      "source_id": "https://openalex.org/W1989589910",
+      "title": "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>R</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math>theories of gravity",
+      "year": 2010,
+      "cited_by_count": 4382,
+      "adjusted_cited_by_count": 1095.5,
+      "primary_topic_id": "sg-magnetic-field-magnetohydrodynamic-drive",
+      "primary_topic_label": "Magnetohydrodynamic drive",
+      "url": "/domains/astrophysics/papers/W1989589910"
+    },
+    {
+      "source_id": "https://openalex.org/W2141709306",
+      "title": "Simulations of the formation, evolution and clustering of galaxies and quasars",
+      "year": 2005,
+      "cited_by_count": 5012,
+      "adjusted_cited_by_count": 1093.71,
+      "primary_topic_id": "sg-milky-way-milky-way-disc-structure",
+      "primary_topic_label": "Milky Way disc structure",
+      "url": "/domains/astrophysics/papers/W2141709306"
+    },
+    {
+      "source_id": "https://openalex.org/W2073603601",
+      "title": "The cosmological constant and dark energy",
+      "year": 2003,
+      "cited_by_count": 5156,
+      "adjusted_cited_by_count": 1075.1,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2073603601"
+    },
+    {
+      "source_id": "https://openalex.org/W2041485609",
+      "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA)",
+      "year": 2010,
+      "cited_by_count": 4186,
+      "adjusted_cited_by_count": 1046.5,
+      "primary_topic_id": "sg-milky-way-stellar-astrophysics",
+      "primary_topic_label": "Stellar astrophysics",
+      "url": "/domains/astrophysics/papers/W2041485609"
+    },
+    {
+      "source_id": "https://openalex.org/W2763117186",
+      "title": "The Complete Light-curve Sample of Spectroscopically Confirmed SNe Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon Sample",
+      "year": 2018,
+      "cited_by_count": 2711,
+      "adjusted_cited_by_count": 958.48,
+      "primary_topic_id": "sg-sloan-digital-sky",
+      "primary_topic_label": "Sloan digital sky survey",
+      "url": "/domains/astrophysics/papers/W2763117186"
+    },
+    {
+      "source_id": "https://openalex.org/W2134803267",
+      "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+      "year": 1998,
+      "cited_by_count": 5053,
+      "adjusted_cited_by_count": 954.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2134803267"
+    },
+    {
+      "source_id": "https://openalex.org/W2006124034",
+      "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA): PLANETS, OSCILLATIONS, ROTATION, AND MASSIVE STARS",
+      "year": 2013,
+      "cited_by_count": 3424,
+      "adjusted_cited_by_count": 949.65,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/astrophysics/papers/W2006124034"
+    },
+    {
+      "source_id": "https://openalex.org/W2095725842",
+      "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA): BINARIES, PULSATIONS, AND EXPLOSIONS",
+      "year": 2015,
+      "cited_by_count": 3056,
+      "adjusted_cited_by_count": 921.42,
+      "primary_topic_id": "sg-astrophysics-star-formation-studies",
+      "primary_topic_label": "Astrophysics star formation studies",
+      "url": "/domains/astrophysics/papers/W2095725842"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W4288079944",
+      "title": "<i>Planck</i> 2018 results",
+      "year": 2020,
+      "cited_by_count": 13517,
+      "adjusted_cited_by_count": 5518.29,
+      "url": "/domains/astrophysics/papers/W4288079944"
+    },
+    {
+      "source_id": "https://openalex.org/W2252795400",
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "year": 2016,
+      "cited_by_count": 13992,
+      "adjusted_cited_by_count": 4424.66,
+      "url": "/domains/astrophysics/papers/W2252795400"
+    },
+    {
+      "source_id": "https://openalex.org/W2135625048",
+      "title": "Astropy: A community Python package for astronomy",
+      "year": 2013,
+      "cited_by_count": 14066,
+      "adjusted_cited_by_count": 3901.21,
+      "url": "/domains/astrophysics/papers/W2135625048"
+    },
+    {
+      "source_id": "https://openalex.org/W2073832139",
+      "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+      "year": 1998,
+      "cited_by_count": 19232,
+      "adjusted_cited_by_count": 3634.51,
+      "url": "/domains/astrophysics/papers/W2073832139"
+    },
+    {
+      "source_id": "https://openalex.org/W1853767801",
+      "title": "Measurements of Ω and Λ from 42 High‐Redshift Supernovae",
+      "year": 1999,
+      "cited_by_count": 17736,
+      "adjusted_cited_by_count": 3413.29,
+      "url": "/domains/astrophysics/papers/W1853767801"
+    },
+    {
+      "source_id": "https://openalex.org/W4292875581",
+      "title": "<i>Planck</i>2015 results",
+      "year": 2016,
+      "cited_by_count": 10530,
+      "adjusted_cited_by_count": 3329.88,
+      "url": "/domains/astrophysics/papers/W4292875581"
+    },
+    {
+      "source_id": "https://openalex.org/W2765081049",
+      "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+      "year": 2017,
+      "cited_by_count": 9434,
+      "adjusted_cited_by_count": 3144.67,
+      "url": "/domains/astrophysics/papers/W2765081049"
+    },
+    {
+      "source_id": "https://openalex.org/W2798336535",
+      "title": "<i>Gaia</i> Data Release 2",
+      "year": 2018,
+      "cited_by_count": 8577,
+      "adjusted_cited_by_count": 3032.43,
+      "url": "/domains/astrophysics/papers/W2798336535"
+    },
+    {
+      "source_id": "https://openalex.org/W2111817932",
+      "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+      "year": 1998,
+      "cited_by_count": 15248,
+      "adjusted_cited_by_count": 2881.6,
+      "url": "/domains/astrophysics/papers/W2111817932"
+    },
+    {
+      "source_id": "https://openalex.org/W1858542512",
+      "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+      "year": 2012,
+      "cited_by_count": 10633,
+      "adjusted_cited_by_count": 2841.79,
+      "url": "/domains/astrophysics/papers/W1858542512"
+    },
+    {
+      "source_id": "https://openalex.org/W1889142700",
+      "title": "Anti de Sitter space and holography",
+      "year": 1998,
+      "cited_by_count": 13221,
+      "adjusted_cited_by_count": 2498.53,
+      "url": "/domains/astrophysics/papers/W1889142700"
+    },
+    {
+      "source_id": "https://openalex.org/W2118265220",
+      "title": "First‐Year <i>Wilkinson Microwave Anisotropy Probe</i> ( <i>WMAP</i> ) Observations: Determination of Cosmological Parameters",
+      "year": 2003,
+      "cited_by_count": 10970,
+      "adjusted_cited_by_count": 2287.4,
+      "url": "/domains/astrophysics/papers/W2118265220"
+    },
+    {
+      "source_id": "https://openalex.org/W2899497983",
+      "title": "The Chemical Composition of the Sun",
+      "year": 2009,
+      "cited_by_count": 9239,
+      "adjusted_cited_by_count": 2240.79,
+      "url": "/domains/astrophysics/papers/W2899497983"
+    },
+    {
+      "source_id": "https://openalex.org/W147232447",
+      "title": "The<i>Gaia</i>mission",
+      "year": 2016,
+      "cited_by_count": 6831,
+      "adjusted_cited_by_count": 2160.15,
+      "url": "/domains/astrophysics/papers/W147232447"
+    },
+    {
+      "source_id": "https://openalex.org/W4293212596",
+      "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
+      "year": 2022,
+      "cited_by_count": 4253,
+      "adjusted_cited_by_count": 2126.5,
+      "url": "/domains/astrophysics/papers/W4293212596"
+    },
+    {
+      "source_id": "https://openalex.org/W4292322877",
+      "title": "Review of Particle Physics",
+      "year": 2014,
+      "cited_by_count": 6800,
+      "adjusted_cited_by_count": 1962.99,
+      "url": "/domains/astrophysics/papers/W4292322877"
+    },
+    {
+      "source_id": "https://openalex.org/W2060003036",
+      "title": "A Universal Density Profile from Hierarchical Clustering",
+      "year": 1997,
+      "cited_by_count": 9737,
+      "adjusted_cited_by_count": 1808.12,
+      "url": "/domains/astrophysics/papers/W2060003036"
+    },
+    {
+      "source_id": "https://openalex.org/W2090386790",
+      "title": "Particle creation by black holes",
+      "year": 1975,
+      "cited_by_count": 12700,
+      "adjusted_cited_by_count": 1778.36,
+      "url": "/domains/astrophysics/papers/W2090386790"
+    },
+    {
+      "source_id": "https://openalex.org/W4281694390",
+      "title": "<i>Gaia</i> Data Release 3",
+      "year": 2022,
+      "cited_by_count": 3527,
+      "adjusted_cited_by_count": 1763.5,
+      "url": "/domains/astrophysics/papers/W4281694390"
+    },
+    {
+      "source_id": "https://openalex.org/W2090843874",
+      "title": "Computational electrodynamics, the finite-difference time-domain method",
+      "year": 1996,
+      "cited_by_count": 9481,
+      "adjusted_cited_by_count": 1730.99,
+      "url": "/domains/astrophysics/papers/W2090843874"
+    },
+    {
+      "source_id": "https://openalex.org/W1909359706",
+      "title": "Planck 2015 results",
+      "year": 2016,
+      "cited_by_count": 5466,
+      "adjusted_cited_by_count": 1728.5,
+      "url": "/domains/astrophysics/papers/W1909359706"
+    },
+    {
+      "source_id": "https://openalex.org/W4213259675",
+      "title": "<i>Gaia</i>Early Data Release 3",
+      "year": 2020,
+      "cited_by_count": 3782,
+      "adjusted_cited_by_count": 1544.0,
+      "url": "/domains/astrophysics/papers/W4213259675"
+    },
+    {
+      "source_id": "https://openalex.org/W2936349953",
+      "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+      "year": 2019,
+      "cited_by_count": 4034,
+      "adjusted_cited_by_count": 1524.71,
+      "url": "/domains/astrophysics/papers/W2936349953"
+    },
+    {
+      "source_id": "https://openalex.org/W2029403139",
+      "title": "The Large Scale Structure of Space-Time",
+      "year": 1973,
+      "cited_by_count": 10308,
+      "adjusted_cited_by_count": 1415.91,
+      "url": "/domains/astrophysics/papers/W2029403139"
+    },
+    {
+      "source_id": "https://openalex.org/W2100188138",
+      "title": "The cosmological simulation code gadget-2",
+      "year": 2005,
+      "cited_by_count": 6331,
+      "adjusted_cited_by_count": 1381.54,
+      "url": "/domains/astrophysics/papers/W2100188138"
+    },
+    {
+      "source_id": "https://openalex.org/W2971836485",
+      "title": "GWTC-1: A Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by LIGO and Virgo during the First and Second Observing Runs",
+      "year": 2019,
+      "cited_by_count": 3524,
+      "adjusted_cited_by_count": 1331.95,
+      "url": "/domains/astrophysics/papers/W2971836485"
+    },
+    {
+      "source_id": "https://openalex.org/W2766840380",
+      "title": "Multi-messenger Observations of a Binary Neutron Star Merger<sup>*</sup>",
+      "year": 2017,
+      "cited_by_count": 3593,
+      "adjusted_cited_by_count": 1197.67,
+      "url": "/domains/astrophysics/papers/W2766840380"
+    },
+    {
+      "source_id": "https://openalex.org/W2766754978",
+      "title": "Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A",
+      "year": 2017,
+      "cited_by_count": 3476,
+      "adjusted_cited_by_count": 1158.67,
+      "url": "/domains/astrophysics/papers/W2766754978"
+    },
+    {
+      "source_id": "https://openalex.org/W2761986865",
+      "title": "Transiting Exoplanet Survey Satellite",
+      "year": 2014,
+      "cited_by_count": 3881,
+      "adjusted_cited_by_count": 1120.35,
+      "url": "/domains/astrophysics/papers/W2761986865"
+    },
+    {
+      "source_id": "https://openalex.org/W2151062050",
+      "title": "The Dust Content and Opacity of Actively Star‐forming Galaxies",
+      "year": 2000,
+      "cited_by_count": 5651,
+      "adjusted_cited_by_count": 1108.25,
+      "url": "/domains/astrophysics/papers/W2151062050"
+    },
+    {
+      "source_id": "https://openalex.org/W2140137154",
+      "title": "<scp>parsec</scp>: stellar tracks and isochrones with the PAdova and TRieste Stellar Evolution Code",
+      "year": 2012,
+      "cited_by_count": 4105,
+      "adjusted_cited_by_count": 1097.11,
+      "url": "/domains/astrophysics/papers/W2140137154"
+    },
+    {
+      "source_id": "https://openalex.org/W2166436681",
+      "title": "The Confrontation between General Relativity and Experiment",
+      "year": 2014,
+      "cited_by_count": 3795,
+      "adjusted_cited_by_count": 1095.52,
+      "url": "/domains/astrophysics/papers/W2166436681"
+    },
+    {
+      "source_id": "https://openalex.org/W1989589910",
+      "title": "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>R</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math>theories of gravity",
+      "year": 2010,
+      "cited_by_count": 4382,
+      "adjusted_cited_by_count": 1095.5,
+      "url": "/domains/astrophysics/papers/W1989589910"
+    },
+    {
+      "source_id": "https://openalex.org/W2141709306",
+      "title": "Simulations of the formation, evolution and clustering of galaxies and quasars",
+      "year": 2005,
+      "cited_by_count": 5012,
+      "adjusted_cited_by_count": 1093.71,
+      "url": "/domains/astrophysics/papers/W2141709306"
+    },
+    {
+      "source_id": "https://openalex.org/W2073603601",
+      "title": "The cosmological constant and dark energy",
+      "year": 2003,
+      "cited_by_count": 5156,
+      "adjusted_cited_by_count": 1075.1,
+      "url": "/domains/astrophysics/papers/W2073603601"
+    },
+    {
+      "source_id": "https://openalex.org/W2041485609",
+      "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA)",
+      "year": 2010,
+      "cited_by_count": 4186,
+      "adjusted_cited_by_count": 1046.5,
+      "url": "/domains/astrophysics/papers/W2041485609"
+    },
+    {
+      "source_id": "https://openalex.org/W2763117186",
+      "title": "The Complete Light-curve Sample of Spectroscopically Confirmed SNe Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon Sample",
+      "year": 2018,
+      "cited_by_count": 2711,
+      "adjusted_cited_by_count": 958.48,
+      "url": "/domains/astrophysics/papers/W2763117186"
+    },
+    {
+      "source_id": "https://openalex.org/W2134803267",
+      "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+      "year": 1998,
+      "cited_by_count": 5053,
+      "adjusted_cited_by_count": 954.93,
+      "url": "/domains/astrophysics/papers/W2134803267"
+    },
+    {
+      "source_id": "https://openalex.org/W2006124034",
+      "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA): PLANETS, OSCILLATIONS, ROTATION, AND MASSIVE STARS",
+      "year": 2013,
+      "cited_by_count": 3424,
+      "adjusted_cited_by_count": 949.65,
+      "url": "/domains/astrophysics/papers/W2006124034"
+    },
+    {
+      "source_id": "https://openalex.org/W2095725842",
+      "title": "MODULES FOR EXPERIMENTS IN STELLAR ASTROPHYSICS (MESA): BINARIES, PULSATIONS, AND EXPLOSIONS",
+      "year": 2015,
+      "cited_by_count": 3056,
+      "adjusted_cited_by_count": 921.42,
+      "url": "/domains/astrophysics/papers/W2095725842"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 625
+    },
+    {
+      "label": "astrophysics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 594
+    },
+    {
+      "label": "astronomy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 474
+    },
+    {
+      "label": "red",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 414
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 315
+    },
+    {
+      "label": "galaxy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 306
+    },
+    {
+      "label": "mode",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 300
+    },
+    {
+      "label": "star",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 300
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 291
+    },
+    {
+      "label": "mass",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 274
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 260
+    },
+    {
+      "label": "disk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 252
+    },
+    {
+      "label": "stars",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 252
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 249
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 201
+    },
+    {
+      "label": "stellar",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 197
+    },
+    {
+      "label": "first",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 196
+    },
+    {
+      "label": "line",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 195
+    },
+    {
+      "label": "wave",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 189
+    },
+    {
+      "label": "view",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 186
+    },
+    {
+      "label": "survey",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 181
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 168
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "formation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 159
+    },
+    {
+      "label": "gravitational",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 159
+    },
+    {
+      "label": "physical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 157
+    },
+    {
+      "label": "hot",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 155
+    },
+    {
+      "label": "redshift",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 153
+    },
+    {
+      "label": "evolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 152
+    },
+    {
+      "label": "ray",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 149
+    },
+    {
+      "label": "neutron star",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "less than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 12
+    },
+    {
+      "label": "km s",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 9
+    },
+    {
+      "label": "first m",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 6
+    },
+    {
+      "label": "launched on",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
+    },
+    {
+      "label": "high-precision timing",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 3
+    },
+    {
+      "label": "parameter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 137
+    },
+    {
+      "label": "very",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 136
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 135
+    },
+    {
+      "label": "cosmology",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9896,
+      "evidence_count": 133
+    },
+    {
+      "label": "space",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 133
+    },
+    {
+      "label": "galactic",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9895,
+      "evidence_count": 132
+    },
+    {
+      "label": "hole",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9893,
+      "evidence_count": 129
+    },
+    {
+      "label": "density",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9892,
+      "evidence_count": 128
+    },
+    {
+      "label": "black",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9889,
+      "evidence_count": 123
+    },
+    {
+      "label": "matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 123
+    },
+    {
+      "label": "black hole",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9887,
+      "evidence_count": 120
+    },
+    {
+      "label": "sample",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9883,
+      "evidence_count": 115
+    },
+    {
+      "label": "light",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 109
+    },
+    {
+      "label": "universe",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 109
+    }
+  ],
+  "topic_year_counts": {
+    "astrophysics square kilometre": {
+      "2024": 732,
+      "2023": 689,
+      "2025": 510,
+      "2021": 283,
+      "2022": 278,
+      "2019": 267,
+      "2015": 259,
+      "2018": 249,
+      "2020": 233,
+      "2017": 216,
+      "2016": 213,
+      "2026": 200,
+      "2014": 116,
+      "2011": 92,
+      "2013": 88,
+      "2012": 74,
+      "2010": 56,
+      "2008": 54,
+      "2009": 47,
+      "2006": 29,
+      "2007": 23,
+      "2005": 14,
+      "2003": 10,
+      "2004": 10,
+      "2001": 7,
+      "2002": 7,
+      "2000": 4
+    },
+    "spectral line": {
+      "2023": 128030,
+      "2024": 116575,
+      "2025": 96921,
+      "2022": 75844,
+      "2021": 71295,
+      "2020": 65345,
+      "2019": 57670,
+      "2018": 51330,
+      "2017": 47216,
+      "2016": 44142,
+      "2015": 40494,
+      "2014": 36375,
+      "2013": 33010,
+      "2026": 32543,
+      "2012": 28909,
+      "2011": 25587,
+      "2010": 22701,
+      "2009": 19659,
+      "2008": 17146,
+      "2007": 15424,
+      "2006": 14509,
+      "2005": 12991,
+      "2004": 11632,
+      "2003": 9910,
+      "2002": 9081,
+      "2001": 7839,
+      "2000": 7112
+    },
+    "astrophysics star formation studies": {
+      "2024": 8314,
+      "2023": 7550,
+      "2025": 4750,
+      "2022": 2886,
+      "2021": 2526,
+      "2019": 2215,
+      "2020": 2189,
+      "2018": 2086,
+      "2026": 1972,
+      "2016": 1814,
+      "2017": 1762,
+      "2015": 1751,
+      "2014": 1387,
+      "2013": 1283,
+      "2012": 1199,
+      "2011": 1087,
+      "2010": 960,
+      "2009": 918,
+      "2008": 730,
+      "2007": 714,
+      "2006": 686,
+      "2005": 570,
+      "2004": 513,
+      "2003": 451,
+      "2002": 376,
+      "2001": 345,
+      "2000": 205
+    },
+    "milky way": {
+      "2023": 9973,
+      "2024": 9497,
+      "2025": 7834,
+      "2022": 5751,
+      "2021": 5100,
+      "2019": 4633,
+      "2020": 4623,
+      "2018": 4137,
+      "2016": 3978,
+      "2017": 3893,
+      "2015": 3854,
+      "2014": 3196,
+      "2026": 3090,
+      "2013": 2957,
+      "2012": 2774,
+      "2011": 2400,
+      "2010": 2156,
+      "2009": 2133,
+      "2008": 1828,
+      "2006": 1609,
+      "2007": 1458,
+      "2005": 1287,
+      "2004": 1220,
+      "2003": 1063,
+      "2002": 919,
+      "2001": 791,
+      "2000": 718
+    },
+    "magnetic field": {
+      "2026": 276872,
+      "2023": 224002,
+      "2024": 210735,
+      "2025": 185316,
+      "2022": 148122,
+      "2021": 136099,
+      "2020": 125079,
+      "2019": 111914,
+      "2018": 102511,
+      "2017": 95065,
+      "2016": 89967,
+      "2015": 83696,
+      "2014": 77234,
+      "2013": 71251,
+      "2012": 65224,
+      "2011": 58942,
+      "2010": 52581,
+      "2009": 46772,
+      "2008": 42769,
+      "2007": 39826,
+      "2006": 38371,
+      "2005": 34423,
+      "2004": 31796,
+      "2003": 28760,
+      "2002": 28729,
+      "2001": 23410,
+      "2000": 22779
+    },
+    "sloan digital sky survey": {
+      "2024": 2687,
+      "2023": 2684,
+      "2025": 1773,
+      "2022": 1444,
+      "2016": 1313,
+      "2019": 1207,
+      "2018": 1206,
+      "2020": 1203,
+      "2012": 1201,
+      "2015": 1191,
+      "2017": 1184,
+      "2021": 1167,
+      "2014": 1091,
+      "2013": 1053,
+      "2011": 972,
+      "2010": 966,
+      "2009": 890,
+      "2008": 738,
+      "2006": 727,
+      "2007": 696,
+      "2026": 660,
+      "2005": 536,
+      "2004": 476,
+      "2003": 362,
+      "2002": 261,
+      "2001": 164,
+      "2000": 103
+    },
+    "astrophysics cosmic phenomena": {
+      "2024": 2534,
+      "2025": 2303,
+      "2023": 2283,
+      "2021": 968,
+      "2022": 883,
+      "2019": 827,
+      "2026": 771,
+      "2020": 739,
+      "2018": 670,
+      "2016": 624,
+      "2017": 618,
+      "2015": 552,
+      "2014": 468,
+      "2013": 446,
+      "2012": 401,
+      "2011": 386,
+      "2009": 312,
+      "2010": 309,
+      "2008": 226,
+      "2007": 186,
+      "2005": 180,
+      "2006": 165,
+      "2003": 122,
+      "2004": 122,
+      "2002": 112,
+      "2001": 109,
+      "2000": 76
+    },
+    "interstellar medium": {
+      "2023": 6557,
+      "2024": 6423,
+      "2025": 5098,
+      "2022": 3516,
+      "2021": 3222,
+      "2020": 3009,
+      "2019": 2970,
+      "2016": 2894,
+      "2015": 2843,
+      "2018": 2838,
+      "2017": 2752,
+      "2014": 2343,
+      "2013": 2272,
+      "2026": 2195,
+      "2012": 2173,
+      "2011": 2092,
+      "2010": 1917,
+      "2009": 1753,
+      "2008": 1703,
+      "2006": 1609,
+      "2005": 1486,
+      "2007": 1481,
+      "2004": 1406,
+      "2003": 1335,
+      "2001": 1249,
+      "2002": 1236,
+      "2000": 953
+    }
+  }
+}

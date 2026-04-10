@@ -94,9 +94,14 @@
 }
 
 .childTitle {
+  display: block;
   margin: 0;
   font-size: 1.75rem;
   letter-spacing: -0.04em;
+}
+
+.childTitle::first-letter {
+  text-transform: uppercase;
 }
 
 .paperTitle {
@@ -168,6 +173,10 @@
   margin: 0;
   font-size: 1.15rem;
   letter-spacing: -0.035em;
+}
+
+.relatedLabel::first-letter {
+  text-transform: uppercase;
 }
 
 .relatedSimilarity {

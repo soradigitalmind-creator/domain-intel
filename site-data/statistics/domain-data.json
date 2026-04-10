@@ -1,0 +1,2239 @@
+{
+  "slug": "statistics",
+  "title": "Statistics",
+  "updated_at": "2026-04-10T12:00:01.332405Z",
+  "snapshot": {
+    "papers": 248,
+    "topics": 8,
+    "subtopics": 46,
+    "entities": 789,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 285,
+      "total_papers": 285,
+      "facet_counts": {
+        "none": 285
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning nonparametric statistics, multivariate statistics, descriptive statistics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 8,
+    "descendant_topics": 46,
+    "max_depth": 2,
+    "leaf_topics": 46
+  },
+  "rising_topics": [
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/statistics/topics/sg-cancer-research",
+      "trend": "rising",
+      "year_total": 4272670
+    },
+    {
+      "id": "sg-genetic-variation",
+      "label": "Genetic variation",
+      "url": "/domains/statistics/topics/sg-genetic-variation",
+      "trend": "rising",
+      "year_total": 2296680
+    },
+    {
+      "id": "sg-genetic-association",
+      "label": "Genetic association",
+      "url": "/domains/statistics/topics/sg-genetic-association",
+      "trend": "rising",
+      "year_total": 2568289
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/statistics/topics/sg-cancer-research",
+      "paper_count": 72,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cancer, disease",
+      "tags": [
+        "cancer research",
+        "colorectal cancer",
+        "microsatellite instability",
+        "non-small-cell lung cancer"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-research-colorectal-cancer",
+          "label": "Colorectal cancer",
+          "url": "/domains/statistics/topics/sg-cancer-research-colorectal-cancer",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-cancer-research-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/statistics/topics/sg-cancer-research-environmental-health",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-cancer-research-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/statistics/topics/sg-cancer-research-internal-medicine",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-cancer-research-stromal-cell",
+          "label": "Stromal cell",
+          "url": "/domains/statistics/topics/sg-cancer-research-stromal-cell",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cancer-research-ovarian-cancer",
+          "label": "Ovarian cancer",
+          "url": "/domains/statistics/topics/sg-cancer-research-ovarian-cancer",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2912654919",
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13836,
+          "url": "/domains/statistics/papers/W2912654919"
+        },
+        {
+          "source_id": "https://openalex.org/W2160234571",
+          "title": "Homeostasis model assessment: insulin resistance and ?-cell function from fasting plasma glucose and insulin concentrations in man",
+          "year": "1985",
+          "cited_by_count": 31223,
+          "url": "/domains/statistics/papers/W2160234571"
+        },
+        {
+          "source_id": "https://openalex.org/W2751884637",
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13445,
+          "url": "/domains/statistics/papers/W2751884637"
+        }
+      ]
+    },
+    {
+      "id": "sg-genetic-variation",
+      "label": "Genetic variation",
+      "url": "/domains/statistics/topics/sg-genetic-variation",
+      "paper_count": 48,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "entities: gene, genetic variation, data",
+      "tags": [
+        "genetic associations and epidemiology",
+        "genetic variants",
+        "genetic variation",
+        "genetic variation 1,092"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-genetic-variation-principal-component-analysis",
+          "label": "Principal component analysis",
+          "url": "/domains/statistics/topics/sg-genetic-variation-principal-component-analysis",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-genetic-variation-human-genetic-variation",
+          "label": "Human genetic variation",
+          "url": "/domains/statistics/topics/sg-genetic-variation-human-genetic-variation",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-genetic-variation-mendelian-randomization",
+          "label": "Mendelian randomization",
+          "url": "/domains/statistics/topics/sg-genetic-variation-mendelian-randomization",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-genetic-variation-whole-genome-sequencing",
+          "label": "Whole genome sequencing",
+          "url": "/domains/statistics/topics/sg-genetic-variation-whole-genome-sequencing",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-genetic-variation-information-retrieval",
+          "label": "Information retrieval",
+          "url": "/domains/statistics/topics/sg-genetic-variation-information-retrieval",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-genetic-variation-bacterial-genome-size",
+          "label": "Bacterial genome size",
+          "url": "/domains/statistics/topics/sg-genetic-variation-bacterial-genome-size",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "url": "/domains/statistics/papers/W2051978340"
+        },
+        {
+          "source_id": "https://openalex.org/W2161339576",
+          "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+          "year": "2005",
+          "cited_by_count": 21901,
+          "url": "/domains/statistics/papers/W2161339576"
+        },
+        {
+          "source_id": "https://openalex.org/W1990074132",
+          "title": "Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows",
+          "year": "2010",
+          "cited_by_count": 16432,
+          "url": "/domains/statistics/papers/W1990074132"
+        }
+      ]
+    },
+    {
+      "id": "sg-genetic-association",
+      "label": "Genetic association",
+      "url": "/domains/statistics/topics/sg-genetic-association",
+      "paper_count": 41,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: genetic association, gene, genetics",
+      "tags": [
+        "association mapping",
+        "genetic association",
+        "genetic associations and epidemiology",
+        "genome-wide association"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-genetic-association-thyroid-cancer",
+          "label": "Thyroid cancer",
+          "url": "/domains/statistics/topics/sg-genetic-association-thyroid-cancer",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-genetic-association-genome-wide-association-studies",
+          "label": "Genome-wide association studies",
+          "url": "/domains/statistics/topics/sg-genetic-association-genome-wide-association-studies",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-genetic-association-genetic-association-mapping",
+          "label": "Genetic association mapping",
+          "url": "/domains/statistics/topics/sg-genetic-association-genetic-association-mapping",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-genetic-association-protein-protein-association-networks",
+          "label": "Protein-protein association networks",
+          "url": "/domains/statistics/topics/sg-genetic-association-protein-protein-association-networks",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-genetic-association-atlas-of-genetics",
+          "label": "Atlas of genetics",
+          "url": "/domains/statistics/topics/sg-genetic-association-atlas-of-genetics",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-genetic-association-multidisciplinary-approach",
+          "label": "Multidisciplinary approach",
+          "url": "/domains/statistics/topics/sg-genetic-association-multidisciplinary-approach",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "url": "/domains/statistics/papers/W2051978340"
+        },
+        {
+          "source_id": "https://openalex.org/W2161633633",
+          "title": "PLINK: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses",
+          "year": "2007",
+          "cited_by_count": 35610,
+          "url": "/domains/statistics/papers/W2161633633"
+        },
+        {
+          "source_id": "https://openalex.org/W3131055609",
+          "title": "Twelve years of SAMtools and BCFtools",
+          "year": "2021",
+          "cited_by_count": 14953,
+          "url": "/domains/statistics/papers/W3131055609"
+        }
+      ]
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/statistics/topics/sg-gene-expression",
+      "paper_count": 37,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: gene, gene expression, genetics",
+      "tags": [
+        "dna microarray",
+        "gene expression",
+        "gene expression across",
+        "gene expression and cancer classification"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gene-expression-reverse-transcription-polymerase-chain-reaction",
+          "label": "Reverse transcription polymerase chain reaction",
+          "url": "/domains/statistics/topics/sg-gene-expression-reverse-transcription-polymerase-chain-reaction",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-gene-expression-dna-microarray",
+          "label": "DNA microarray",
+          "url": "/domains/statistics/topics/sg-gene-expression-dna-microarray",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-gene-expression-regulation-of-gene-expression",
+          "label": "Regulation of gene expression",
+          "url": "/domains/statistics/topics/sg-gene-expression-regulation-of-gene-expression",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-gene-expression-gene-expression-and-cancer-classification",
+          "label": "Gene expression and cancer classification",
+          "url": "/domains/statistics/topics/sg-gene-expression-gene-expression-and-cancer-classification",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-gene-expression-gene-ontology",
+          "label": "Gene ontology",
+          "url": "/domains/statistics/topics/sg-gene-expression-gene-ontology",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-gene-expression-gene-chip-analysis",
+          "label": "Gene chip analysis",
+          "url": "/domains/statistics/topics/sg-gene-expression-gene-chip-analysis",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2107277218",
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 179008,
+          "url": "/domains/statistics/papers/W2107277218"
+        },
+        {
+          "source_id": "https://openalex.org/W2146512944",
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": "2015",
+          "cited_by_count": 41988,
+          "url": "/domains/statistics/papers/W2146512944"
+        },
+        {
+          "source_id": "https://openalex.org/W1964184380",
+          "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+          "year": "1997",
+          "cited_by_count": 66556,
+          "url": "/domains/statistics/papers/W1964184380"
+        }
+      ]
+    },
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/statistics/topics/sg-evolutionary-biology",
+      "paper_count": 21,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: gene, evolutionary biology, genetics",
+      "tags": [
+        "allele frequency",
+        "dna sequencing",
+        "evolutionary biology",
+        "human evolutionary genetics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-evolutionary-biology-human-genetics",
+          "label": "Human genetics",
+          "url": "/domains/statistics/topics/sg-evolutionary-biology-human-genetics",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-evolutionary-biology-molecular-evolutionary-genetics",
+          "label": "Molecular evolutionary genetics",
+          "url": "/domains/statistics/topics/sg-evolutionary-biology-molecular-evolutionary-genetics",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2152207030",
+          "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+          "year": "2013",
+          "cited_by_count": 47729,
+          "url": "/domains/statistics/papers/W2152207030"
+        },
+        {
+          "source_id": "https://openalex.org/W2168909179",
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24468,
+          "url": "/domains/statistics/papers/W2168909179"
+        },
+        {
+          "source_id": "https://openalex.org/W2161339576",
+          "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+          "year": "2005",
+          "cited_by_count": 21901,
+          "url": "/domains/statistics/papers/W2161339576"
+        }
+      ]
+    },
+    {
+      "id": "sg-phylogenetic-tree",
+      "label": "Phylogenetic tree",
+      "url": "/domains/statistics/topics/sg-phylogenetic-tree",
+      "paper_count": 10,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: genomics and phylogenetic studies, sequence, software",
+      "tags": [
+        "dna polymorphism analyses",
+        "dna sequencing",
+        "human evolutionary genetics",
+        "multiple sequence alignment"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-phylogenetic-tree-multiple-sequence-alignment",
+          "label": "Multiple sequence alignment",
+          "url": "/domains/statistics/topics/sg-phylogenetic-tree-multiple-sequence-alignment",
+          "paper_count": 8
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2152207030",
+          "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+          "year": "2013",
+          "cited_by_count": 47729,
+          "url": "/domains/statistics/papers/W2152207030"
+        },
+        {
+          "source_id": "https://openalex.org/W2142678478",
+          "title": "BLAST+: architecture and applications",
+          "year": "2009",
+          "cited_by_count": 22540,
+          "url": "/domains/statistics/papers/W2142678478"
+        },
+        {
+          "source_id": "https://openalex.org/W2026616100",
+          "title": "3D Slicer as an image computing platform for the Quantitative Imaging Network",
+          "year": "2012",
+          "cited_by_count": 8584,
+          "url": "/domains/statistics/papers/W2026616100"
+        }
+      ]
+    },
+    {
+      "id": "sg-reference-genome",
+      "label": "Reference genome",
+      "url": "/domains/statistics/topics/sg-reference-genome",
+      "paper_count": 10,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: human genome, gene, genetics",
+      "tags": [
+        "dna sequencing",
+        "genome browser",
+        "genome sequence relationship",
+        "hybrid genome assembly"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-reference-genome-massively-parallel",
+          "label": "Massively parallel",
+          "url": "/domains/statistics/topics/sg-reference-genome-massively-parallel",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-reference-genome-genomics-and-chromatin-dynamics",
+          "label": "Genomics and chromatin dynamics",
+          "url": "/domains/statistics/topics/sg-reference-genome-genomics-and-chromatin-dynamics",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-reference-genome-genome-browser",
+          "label": "Genome browser",
+          "url": "/domains/statistics/topics/sg-reference-genome-genome-browser",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2259938310",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19204,
+          "url": "/domains/statistics/papers/W2259938310"
+        },
+        {
+          "source_id": "https://openalex.org/W1982855075",
+          "title": "Pilon: An Integrated Tool for Comprehensive Microbial Variant Detection and Genome Assembly Improvement",
+          "year": "2014",
+          "cited_by_count": 10006,
+          "url": "/domains/statistics/papers/W1982855075"
+        },
+        {
+          "source_id": "https://openalex.org/W2113679889",
+          "title": "MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct <i>de Bruijn</i> graph",
+          "year": "2015",
+          "cited_by_count": 9502,
+          "url": "/domains/statistics/papers/W2113679889"
+        }
+      ]
+    },
+    {
+      "id": "sg-single-nucleotide-polymorphism",
+      "label": "Single-nucleotide polymorphism",
+      "url": "/domains/statistics/topics/sg-single-nucleotide-polymorphism",
+      "paper_count": 9,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: genetics, gene, genotype",
+      "tags": [
+        "genetic associations and epidemiology",
+        "genome-wide association",
+        "international hapmap project",
+        "single-nucleotide polymorphism"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-single-nucleotide-polymorphism-comparative-genomic-hybridization",
+          "label": "Comparative genomic hybridization",
+          "url": "/domains/statistics/topics/sg-single-nucleotide-polymorphism-comparative-genomic-hybridization",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-single-nucleotide-polymorphism-genome-wide-association-studies",
+          "label": "Genome-wide association studies",
+          "url": "/domains/statistics/topics/sg-single-nucleotide-polymorphism-genome-wide-association-studies",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-single-nucleotide-polymorphism-human-genetic-variation",
+          "label": "Human genetic variation",
+          "url": "/domains/statistics/topics/sg-single-nucleotide-polymorphism-human-genetic-variation",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-single-nucleotide-polymorphism-tag-snp",
+          "label": "Tag snp",
+          "url": "/domains/statistics/topics/sg-single-nucleotide-polymorphism-tag-snp",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2104549677",
+          "title": "A global reference for human genetic variation",
+          "year": "2015",
+          "cited_by_count": 19597,
+          "url": "/domains/statistics/papers/W2104549677"
+        },
+        {
+          "source_id": "https://openalex.org/W2141157874",
+          "title": "Mfold web server for nucleic acid folding and hybridization prediction",
+          "year": "2003",
+          "cited_by_count": 13474,
+          "url": "/domains/statistics/papers/W2141157874"
+        },
+        {
+          "source_id": "https://openalex.org/W2217809488",
+          "title": "A haplotype map of the human genome",
+          "year": "2005",
+          "cited_by_count": 5896,
+          "url": "/domains/statistics/papers/W2217809488"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23216,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3004280078.html"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23068,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        },
+        {
+          "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
+          "year": "2019",
+          "cited_by_count": 15273,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2928665623.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13836,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        },
+        {
+          "title": "Homeostasis model assessment: insulin resistance and ?-cell function from fasting plasma glucose and insulin concentrations in man",
+          "year": "1985",
+          "cited_by_count": 31223,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2160234571.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13445,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        }
+      ]
+    },
+    {
+      "label": "Genetic variation",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31276,
+          "topic": "Genetic variation",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows",
+          "year": "2010",
+          "cited_by_count": 16432,
+          "topic": "Genetic variation",
+          "url": "papers/https-openalex-org-w1990074132.html"
+        },
+        {
+          "title": "Second-generation PLINK: rising to the challenge of larger and richer datasets",
+          "year": "2015",
+          "cited_by_count": 13583,
+          "topic": "Genetic variation",
+          "url": "papers/https-openalex-org-w2099085143.html"
+        },
+        {
+          "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+          "year": "2020",
+          "cited_by_count": 9897,
+          "topic": "Genetic variation",
+          "url": "papers/https-openalex-org-w3029661147.html"
+        },
+        {
+          "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
+          "year": "2017",
+          "cited_by_count": 11850,
+          "topic": "Genetic variation",
+          "url": "papers/https-openalex-org-w2786358356.html"
+        },
+        {
+          "title": "&lt;scp&gt;UCSF ChimeraX&lt;/scp&gt;: Structure visualization for researchers, educators, and developers",
+          "year": "2020",
+          "cited_by_count": 9675,
+          "topic": "Genetic variation",
+          "url": "papers/https-openalex-org-w3083406432.html"
+        }
+      ]
+    },
+    {
+      "label": "Gene expression",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 179008,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2107277218.html"
+        },
+        {
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": "2015",
+          "cited_by_count": 41988,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2146512944.html"
+        },
+        {
+          "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+          "year": "1997",
+          "cited_by_count": 66556,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w1964184380.html"
+        },
+        {
+          "title": "WGCNA: an R package for weighted correlation network analysis",
+          "year": "2008",
+          "cited_by_count": 28424,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w1966327575.html"
+        },
+        {
+          "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+          "year": "2011",
+          "cited_by_count": 23045,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w1999574084.html"
+        },
+        {
+          "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+          "year": "2013",
+          "cited_by_count": 16033,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2159707944.html"
+        }
+      ]
+    },
+    {
+      "label": "Genetic association",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "PLINK: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses",
+          "year": "2007",
+          "cited_by_count": 35610,
+          "topic": "Genetic association",
+          "url": "papers/https-openalex-org-w2161633633.html"
+        },
+        {
+          "title": "Twelve years of SAMtools and BCFtools",
+          "year": "2021",
+          "cited_by_count": 14953,
+          "topic": "Genetic association",
+          "url": "papers/https-openalex-org-w3131055609.html"
+        },
+        {
+          "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+          "year": "2018",
+          "cited_by_count": 18895,
+          "topic": "Genetic association",
+          "url": "papers/https-openalex-org-w2900569176.html"
+        },
+        {
+          "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "year": "2015",
+          "cited_by_count": 16159,
+          "topic": "Genetic association",
+          "url": "papers/https-openalex-org-w2145150141.html"
+        },
+        {
+          "title": "Enrichr: a comprehensive gene set enrichment analysis web server 2016 update",
+          "year": "2016",
+          "cited_by_count": 11392,
+          "topic": "Genetic association",
+          "url": "papers/https-openalex-org-w2345356016.html"
+        }
+      ]
+    },
+    {
+      "label": "Evolutionary biology",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+          "year": "2013",
+          "cited_by_count": 47729,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2152207030.html"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24468,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2168909179.html"
+        },
+        {
+          "title": "Detecting the number of clusters of individuals using the software &lt;scp&gt;structure&lt;/scp&gt;: a simulation study",
+          "year": "2005",
+          "cited_by_count": 21901,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2161339576.html"
+        },
+        {
+          "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+          "year": "2015",
+          "cited_by_count": 12331,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2112364185.html"
+        }
+      ]
+    },
+    {
+      "label": "Molecular evolutionary genetics",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68145,
+          "topic": "Molecular evolutionary genetics",
+          "url": "papers/https-openalex-org-w2131271579.html"
+        },
+        {
+          "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+          "year": "1997",
+          "cited_by_count": 74204,
+          "topic": "Molecular evolutionary genetics",
+          "url": "papers/https-openalex-org-w2158714788.html"
+        },
+        {
+          "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+          "year": "2015",
+          "cited_by_count": 13996,
+          "topic": "Molecular evolutionary genetics",
+          "url": "papers/https-openalex-org-w2214074259.html"
+        }
+      ]
+    },
+    {
+      "label": "Atlas of genetics",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+          "year": "2024",
+          "cited_by_count": 11909,
+          "topic": "Atlas of genetics",
+          "url": "papers/https-openalex-org-w4396721167.html"
+        }
+      ]
+    },
+    {
+      "label": "Colorectal cancer",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
+          "year": "2010",
+          "cited_by_count": 18743,
+          "topic": "Colorectal cancer",
+          "url": "papers/https-openalex-org-w2111211467.html"
+        }
+      ]
+    },
+    {
+      "label": "Phylogenetic tree",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "BLAST+: architecture and applications",
+          "year": "2009",
+          "cited_by_count": 22540,
+          "topic": "Phylogenetic tree",
+          "url": "papers/https-openalex-org-w2142678478.html"
+        }
+      ]
+    },
+    {
+      "label": "Reference genome",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19204,
+          "topic": "Reference genome",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 179008,
+      "adjusted_cited_by_count": 35801.6,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/statistics/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68145,
+      "adjusted_cited_by_count": 19671.77,
+      "primary_topic_id": "sg-evolutionary-biology-molecular-evolutionary-genetics",
+      "primary_topic_label": "Molecular evolutionary genetics",
+      "url": "/domains/statistics/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2158714788",
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+      "year": 1997,
+      "cited_by_count": 74204,
+      "adjusted_cited_by_count": 13779.34,
+      "primary_topic_id": "sg-evolutionary-biology-molecular-evolutionary-genetics",
+      "primary_topic_label": "Molecular evolutionary genetics",
+      "url": "/domains/statistics/papers/W2158714788"
+    },
+    {
+      "source_id": "https://openalex.org/W2152207030",
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+      "year": 2013,
+      "cited_by_count": 47729,
+      "adjusted_cited_by_count": 13237.64,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/statistics/papers/W2152207030"
+    },
+    {
+      "source_id": "https://openalex.org/W2146512944",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "year": 2015,
+      "cited_by_count": 41988,
+      "adjusted_cited_by_count": 12659.86,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/statistics/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66556,
+      "adjusted_cited_by_count": 12359.14,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/statistics/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W4396721167",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "year": 2024,
+      "cited_by_count": 11909,
+      "adjusted_cited_by_count": 11909.0,
+      "primary_topic_id": "sg-genetic-association-atlas-of-genetics",
+      "primary_topic_label": "Atlas of genetics",
+      "url": "/domains/statistics/papers/W4396721167"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23216,
+      "adjusted_cited_by_count": 9477.89,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31276,
+      "adjusted_cited_by_count": 9430.07,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23068,
+      "adjusted_cited_by_count": 8718.88,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2161633633",
+      "title": "PLINK: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses",
+      "year": 2007,
+      "cited_by_count": 35610,
+      "adjusted_cited_by_count": 8169.49,
+      "primary_topic_id": "sg-genetic-association",
+      "primary_topic_label": "Genetic association",
+      "url": "/domains/statistics/papers/W2161633633"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28424,
+      "adjusted_cited_by_count": 6699.6,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/statistics/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W3131055609",
+      "title": "Twelve years of SAMtools and BCFtools",
+      "year": 2021,
+      "cited_by_count": 14953,
+      "adjusted_cited_by_count": 6687.18,
+      "primary_topic_id": "sg-genetic-association",
+      "primary_topic_label": "Genetic association",
+      "url": "/domains/statistics/papers/W3131055609"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18895,
+      "adjusted_cited_by_count": 6680.39,
+      "primary_topic_id": "sg-genetic-association",
+      "primary_topic_label": "Genetic association",
+      "url": "/domains/statistics/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W1999574084",
+      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+      "year": 2011,
+      "cited_by_count": 23045,
+      "adjusted_cited_by_count": 5950.19,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/statistics/papers/W1999574084"
+    },
+    {
+      "source_id": "https://openalex.org/W2104549677",
+      "title": "A global reference for human genetic variation",
+      "year": 2015,
+      "cited_by_count": 19597,
+      "adjusted_cited_by_count": 5908.72,
+      "primary_topic_id": "sg-single-nucleotide-polymorphism",
+      "primary_topic_label": "Single-nucleotide polymorphism",
+      "url": "/domains/statistics/papers/W2104549677"
+    },
+    {
+      "source_id": "https://openalex.org/W2928665623",
+      "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
+      "year": 2019,
+      "cited_by_count": 15273,
+      "adjusted_cited_by_count": 5772.65,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2928665623"
+    },
+    {
+      "source_id": "https://openalex.org/W2142678478",
+      "title": "BLAST+: architecture and applications",
+      "year": 2009,
+      "cited_by_count": 22540,
+      "adjusted_cited_by_count": 5466.75,
+      "primary_topic_id": "sg-phylogenetic-tree",
+      "primary_topic_label": "Phylogenetic tree",
+      "url": "/domains/statistics/papers/W2142678478"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19204,
+      "adjusted_cited_by_count": 5132.48,
+      "primary_topic_id": "sg-reference-genome",
+      "primary_topic_label": "Reference genome",
+      "url": "/domains/statistics/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24468,
+      "adjusted_cited_by_count": 4893.6,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/statistics/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13836,
+      "adjusted_cited_by_count": 4891.76,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2160234571",
+      "title": "Homeostasis model assessment: insulin resistance and ?-cell function from fasting plasma glucose and insulin concentrations in man",
+      "year": 1985,
+      "cited_by_count": 31223,
+      "adjusted_cited_by_count": 4876.21,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2160234571"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16159,
+      "adjusted_cited_by_count": 4872.12,
+      "primary_topic_id": "sg-genetic-association",
+      "primary_topic_label": "Genetic association",
+      "url": "/domains/statistics/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2161339576",
+      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+      "year": 2005,
+      "cited_by_count": 21901,
+      "adjusted_cited_by_count": 4779.19,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/statistics/papers/W2161339576"
+    },
+    {
+      "source_id": "https://openalex.org/W2111211467",
+      "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
+      "year": 2010,
+      "cited_by_count": 18743,
+      "adjusted_cited_by_count": 4685.75,
+      "primary_topic_id": "sg-cancer-research-colorectal-cancer",
+      "primary_topic_label": "Colorectal cancer",
+      "url": "/domains/statistics/papers/W2111211467"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13445,
+      "adjusted_cited_by_count": 4481.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16033,
+      "adjusted_cited_by_count": 4446.75,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/statistics/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 13996,
+      "adjusted_cited_by_count": 4219.95,
+      "primary_topic_id": "sg-evolutionary-biology-molecular-evolutionary-genetics",
+      "primary_topic_label": "Molecular evolutionary genetics",
+      "url": "/domains/statistics/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W1990074132",
+      "title": "Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows",
+      "year": 2010,
+      "cited_by_count": 16432,
+      "adjusted_cited_by_count": 4108.0,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W1990074132"
+    },
+    {
+      "source_id": "https://openalex.org/W2099085143",
+      "title": "Second-generation PLINK: rising to the challenge of larger and richer datasets",
+      "year": 2015,
+      "cited_by_count": 13583,
+      "adjusted_cited_by_count": 4095.43,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W2099085143"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9897,
+      "adjusted_cited_by_count": 4040.43,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W3046275966",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by_count": 9897,
+      "adjusted_cited_by_count": 4040.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W3046275966"
+    },
+    {
+      "source_id": "https://openalex.org/W2786358356",
+      "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
+      "year": 2017,
+      "cited_by_count": 11850,
+      "adjusted_cited_by_count": 3950.0,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W2786358356"
+    },
+    {
+      "source_id": "https://openalex.org/W3083406432",
+      "title": "<scp>UCSF ChimeraX</scp>: Structure visualization for researchers, educators, and developers",
+      "year": 2020,
+      "cited_by_count": 9675,
+      "adjusted_cited_by_count": 3949.8,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W3083406432"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14184,
+      "adjusted_cited_by_count": 3790.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2112364185",
+      "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+      "year": 2015,
+      "cited_by_count": 12331,
+      "adjusted_cited_by_count": 3717.94,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/statistics/papers/W2112364185"
+    },
+    {
+      "source_id": "https://openalex.org/W2004444667",
+      "title": "<scp>genalex</scp> 6: genetic analysis in Excel. Population genetic software for teaching and research",
+      "year": 2005,
+      "cited_by_count": 16650,
+      "adjusted_cited_by_count": 3633.33,
+      "primary_topic_id": "sg-genetic-variation",
+      "primary_topic_label": "Genetic variation",
+      "url": "/domains/statistics/papers/W2004444667"
+    },
+    {
+      "source_id": "https://openalex.org/W2345356016",
+      "title": "Enrichr: a comprehensive gene set enrichment analysis web server 2016 update",
+      "year": 2016,
+      "cited_by_count": 11392,
+      "adjusted_cited_by_count": 3602.47,
+      "primary_topic_id": "sg-genetic-association",
+      "primary_topic_label": "Genetic association",
+      "url": "/domains/statistics/papers/W2345356016"
+    },
+    {
+      "source_id": "https://openalex.org/W2061935394",
+      "title": "Making sense of Cronbach's alpha",
+      "year": 2011,
+      "cited_by_count": 13863,
+      "adjusted_cited_by_count": 3579.41,
+      "primary_topic_id": "sg-cancer-research-stromal-cell",
+      "primary_topic_label": "Stromal cell",
+      "url": "/domains/statistics/papers/W2061935394"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12011,
+      "adjusted_cited_by_count": 3467.28,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/statistics/papers/W2163710303"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 179008,
+      "adjusted_cited_by_count": 35801.6,
+      "url": "/domains/statistics/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68145,
+      "adjusted_cited_by_count": 19671.77,
+      "url": "/domains/statistics/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2158714788",
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+      "year": 1997,
+      "cited_by_count": 74204,
+      "adjusted_cited_by_count": 13779.34,
+      "url": "/domains/statistics/papers/W2158714788"
+    },
+    {
+      "source_id": "https://openalex.org/W2152207030",
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+      "year": 2013,
+      "cited_by_count": 47729,
+      "adjusted_cited_by_count": 13237.64,
+      "url": "/domains/statistics/papers/W2152207030"
+    },
+    {
+      "source_id": "https://openalex.org/W2146512944",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "year": 2015,
+      "cited_by_count": 41988,
+      "adjusted_cited_by_count": 12659.86,
+      "url": "/domains/statistics/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66556,
+      "adjusted_cited_by_count": 12359.14,
+      "url": "/domains/statistics/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W4396721167",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "year": 2024,
+      "cited_by_count": 11909,
+      "adjusted_cited_by_count": 11909.0,
+      "url": "/domains/statistics/papers/W4396721167"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23216,
+      "adjusted_cited_by_count": 9477.89,
+      "url": "/domains/statistics/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31276,
+      "adjusted_cited_by_count": 9430.07,
+      "url": "/domains/statistics/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23068,
+      "adjusted_cited_by_count": 8718.88,
+      "url": "/domains/statistics/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2161633633",
+      "title": "PLINK: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses",
+      "year": 2007,
+      "cited_by_count": 35610,
+      "adjusted_cited_by_count": 8169.49,
+      "url": "/domains/statistics/papers/W2161633633"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28424,
+      "adjusted_cited_by_count": 6699.6,
+      "url": "/domains/statistics/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W3131055609",
+      "title": "Twelve years of SAMtools and BCFtools",
+      "year": 2021,
+      "cited_by_count": 14953,
+      "adjusted_cited_by_count": 6687.18,
+      "url": "/domains/statistics/papers/W3131055609"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18895,
+      "adjusted_cited_by_count": 6680.39,
+      "url": "/domains/statistics/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W1999574084",
+      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+      "year": 2011,
+      "cited_by_count": 23045,
+      "adjusted_cited_by_count": 5950.19,
+      "url": "/domains/statistics/papers/W1999574084"
+    },
+    {
+      "source_id": "https://openalex.org/W2104549677",
+      "title": "A global reference for human genetic variation",
+      "year": 2015,
+      "cited_by_count": 19597,
+      "adjusted_cited_by_count": 5908.72,
+      "url": "/domains/statistics/papers/W2104549677"
+    },
+    {
+      "source_id": "https://openalex.org/W2928665623",
+      "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
+      "year": 2019,
+      "cited_by_count": 15273,
+      "adjusted_cited_by_count": 5772.65,
+      "url": "/domains/statistics/papers/W2928665623"
+    },
+    {
+      "source_id": "https://openalex.org/W2142678478",
+      "title": "BLAST+: architecture and applications",
+      "year": 2009,
+      "cited_by_count": 22540,
+      "adjusted_cited_by_count": 5466.75,
+      "url": "/domains/statistics/papers/W2142678478"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19204,
+      "adjusted_cited_by_count": 5132.48,
+      "url": "/domains/statistics/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24468,
+      "adjusted_cited_by_count": 4893.6,
+      "url": "/domains/statistics/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13836,
+      "adjusted_cited_by_count": 4891.76,
+      "url": "/domains/statistics/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2160234571",
+      "title": "Homeostasis model assessment: insulin resistance and ?-cell function from fasting plasma glucose and insulin concentrations in man",
+      "year": 1985,
+      "cited_by_count": 31223,
+      "adjusted_cited_by_count": 4876.21,
+      "url": "/domains/statistics/papers/W2160234571"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16159,
+      "adjusted_cited_by_count": 4872.12,
+      "url": "/domains/statistics/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2161339576",
+      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
+      "year": 2005,
+      "cited_by_count": 21901,
+      "adjusted_cited_by_count": 4779.19,
+      "url": "/domains/statistics/papers/W2161339576"
+    },
+    {
+      "source_id": "https://openalex.org/W2111211467",
+      "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
+      "year": 2010,
+      "cited_by_count": 18743,
+      "adjusted_cited_by_count": 4685.75,
+      "url": "/domains/statistics/papers/W2111211467"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13445,
+      "adjusted_cited_by_count": 4481.67,
+      "url": "/domains/statistics/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16033,
+      "adjusted_cited_by_count": 4446.75,
+      "url": "/domains/statistics/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 13996,
+      "adjusted_cited_by_count": 4219.95,
+      "url": "/domains/statistics/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W1990074132",
+      "title": "Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows",
+      "year": 2010,
+      "cited_by_count": 16432,
+      "adjusted_cited_by_count": 4108.0,
+      "url": "/domains/statistics/papers/W1990074132"
+    },
+    {
+      "source_id": "https://openalex.org/W2099085143",
+      "title": "Second-generation PLINK: rising to the challenge of larger and richer datasets",
+      "year": 2015,
+      "cited_by_count": 13583,
+      "adjusted_cited_by_count": 4095.43,
+      "url": "/domains/statistics/papers/W2099085143"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9897,
+      "adjusted_cited_by_count": 4040.43,
+      "url": "/domains/statistics/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W3046275966",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by_count": 9897,
+      "adjusted_cited_by_count": 4040.43,
+      "url": "/domains/statistics/papers/W3046275966"
+    },
+    {
+      "source_id": "https://openalex.org/W2786358356",
+      "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
+      "year": 2017,
+      "cited_by_count": 11850,
+      "adjusted_cited_by_count": 3950.0,
+      "url": "/domains/statistics/papers/W2786358356"
+    },
+    {
+      "source_id": "https://openalex.org/W3083406432",
+      "title": "<scp>UCSF ChimeraX</scp>: Structure visualization for researchers, educators, and developers",
+      "year": 2020,
+      "cited_by_count": 9675,
+      "adjusted_cited_by_count": 3949.8,
+      "url": "/domains/statistics/papers/W3083406432"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14184,
+      "adjusted_cited_by_count": 3790.83,
+      "url": "/domains/statistics/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2112364185",
+      "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+      "year": 2015,
+      "cited_by_count": 12331,
+      "adjusted_cited_by_count": 3717.94,
+      "url": "/domains/statistics/papers/W2112364185"
+    },
+    {
+      "source_id": "https://openalex.org/W2004444667",
+      "title": "<scp>genalex</scp> 6: genetic analysis in Excel. Population genetic software for teaching and research",
+      "year": 2005,
+      "cited_by_count": 16650,
+      "adjusted_cited_by_count": 3633.33,
+      "url": "/domains/statistics/papers/W2004444667"
+    },
+    {
+      "source_id": "https://openalex.org/W2345356016",
+      "title": "Enrichr: a comprehensive gene set enrichment analysis web server 2016 update",
+      "year": 2016,
+      "cited_by_count": 11392,
+      "adjusted_cited_by_count": 3602.47,
+      "url": "/domains/statistics/papers/W2345356016"
+    },
+    {
+      "source_id": "https://openalex.org/W2061935394",
+      "title": "Making sense of Cronbach's alpha",
+      "year": 2011,
+      "cited_by_count": 13863,
+      "adjusted_cited_by_count": 3579.41,
+      "url": "/domains/statistics/papers/W2061935394"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12011,
+      "adjusted_cited_by_count": 3467.28,
+      "url": "/domains/statistics/papers/W2163710303"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 132
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 123
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 123
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 117
+    },
+    {
+      "label": "computational biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 99
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "analysis of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "human genome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "provide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "genetic variation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "tool",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "rna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "sequence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "software",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "than",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "number",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "patients",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 36
+    },
+    {
+      "label": "gene expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "information retrieval",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "biological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "genetic association",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "number of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "bioinformatics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "tools",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    }
+  ],
+  "topic_year_counts": {
+    "cancer research": {
+      "2023": 505931,
+      "2024": 489479,
+      "2025": 431823,
+      "2022": 353410,
+      "2021": 318657,
+      "2020": 291028,
+      "2019": 235865,
+      "2018": 199237,
+      "2017": 180878,
+      "2016": 162265,
+      "2015": 146951,
+      "2014": 131669,
+      "2013": 119967,
+      "2012": 106142,
+      "2026": 103572,
+      "2011": 88652,
+      "2010": 75757,
+      "2009": 58297,
+      "2008": 49780,
+      "2007": 42215,
+      "2006": 37251,
+      "2005": 33357,
+      "2004": 29699,
+      "2003": 24224,
+      "2002": 20673,
+      "2001": 18457,
+      "2000": 17434
+    },
+    "genetic variation": {
+      "2024": 234715,
+      "2023": 232958,
+      "2025": 227496,
+      "2022": 159339,
+      "2021": 151805,
+      "2020": 145138,
+      "2019": 120936,
+      "2018": 107645,
+      "2017": 100476,
+      "2016": 92050,
+      "2015": 85725,
+      "2014": 81276,
+      "2013": 74581,
+      "2012": 66980,
+      "2011": 57307,
+      "2026": 55072,
+      "2010": 49409,
+      "2009": 43096,
+      "2008": 36868,
+      "2007": 31594,
+      "2006": 28409,
+      "2005": 25763,
+      "2004": 22449,
+      "2003": 19311,
+      "2002": 16829,
+      "2000": 14769,
+      "2001": 14684
+    },
+    "genetic association": {
+      "2023": 271725,
+      "2024": 263950,
+      "2025": 241316,
+      "2022": 190431,
+      "2021": 179210,
+      "2020": 167933,
+      "2019": 137254,
+      "2018": 121477,
+      "2017": 112890,
+      "2016": 102784,
+      "2015": 95594,
+      "2014": 89855,
+      "2013": 82092,
+      "2012": 73771,
+      "2011": 62738,
+      "2026": 59283,
+      "2010": 52940,
+      "2009": 45755,
+      "2008": 38311,
+      "2007": 32903,
+      "2006": 29428,
+      "2005": 26409,
+      "2004": 23043,
+      "2003": 20166,
+      "2002": 17181,
+      "2001": 14950,
+      "2000": 14900
+    },
+    "gene expression": {
+      "2023": 433870,
+      "2024": 384194,
+      "2025": 358061,
+      "2022": 314779,
+      "2021": 302707,
+      "2020": 288992,
+      "2019": 240993,
+      "2018": 217888,
+      "2017": 208754,
+      "2016": 194996,
+      "2015": 183349,
+      "2014": 175151,
+      "2013": 166511,
+      "2012": 152870,
+      "2011": 139403,
+      "2010": 124011,
+      "2009": 111198,
+      "2008": 99983,
+      "2007": 90475,
+      "2026": 89219,
+      "2006": 85672,
+      "2005": 78604,
+      "2004": 74259,
+      "2003": 64829,
+      "2002": 56907,
+      "2001": 51361,
+      "2000": 48770
+    },
+    "evolutionary biology": {
+      "2023": 88725,
+      "2024": 81290,
+      "2025": 76544,
+      "2022": 60265,
+      "2021": 58549,
+      "2020": 56453,
+      "2019": 47561,
+      "2018": 43348,
+      "2017": 40794,
+      "2016": 36560,
+      "2015": 34165,
+      "2014": 32344,
+      "2013": 29493,
+      "2012": 26205,
+      "2011": 22472,
+      "2026": 20308,
+      "2010": 18995,
+      "2009": 16563,
+      "2008": 13914,
+      "2007": 11785,
+      "2006": 10034,
+      "2005": 8132,
+      "2004": 7372,
+      "2003": 6084,
+      "2002": 5237,
+      "2001": 4682,
+      "2000": 4584
+    },
+    "phylogenetic tree": {
+      "2023": 52109,
+      "2024": 46994,
+      "2025": 43084,
+      "2022": 36668,
+      "2021": 35291,
+      "2020": 33621,
+      "2019": 27923,
+      "2018": 24237,
+      "2017": 22895,
+      "2016": 21263,
+      "2015": 19801,
+      "2014": 17927,
+      "2013": 16595,
+      "2012": 14184,
+      "2011": 12325,
+      "2026": 10974,
+      "2010": 10485,
+      "2009": 9214,
+      "2008": 8024,
+      "2007": 6885,
+      "2006": 6444,
+      "2005": 5001,
+      "2004": 4826,
+      "2003": 3790,
+      "2002": 3216,
+      "2001": 2927,
+      "2000": 2621
+    },
+    "reference genome": {
+      "2023": 136670,
+      "2024": 125965,
+      "2025": 106649,
+      "2022": 93110,
+      "2021": 88361,
+      "2020": 82686,
+      "2019": 63539,
+      "2018": 53652,
+      "2017": 49041,
+      "2016": 43477,
+      "2015": 38222,
+      "2014": 34594,
+      "2013": 30695,
+      "2026": 29058,
+      "2012": 26539,
+      "2011": 22171,
+      "2010": 17769,
+      "2009": 14724,
+      "2008": 12456,
+      "2007": 9917,
+      "2006": 8438,
+      "2005": 7850,
+      "2004": 6509,
+      "2003": 5264,
+      "2002": 4144,
+      "2000": 3514,
+      "2001": 3406
+    },
+    "single-nucleotide polymorphism": {
+      "2023": 45495,
+      "2024": 42176,
+      "2025": 35003,
+      "2020": 33740,
+      "2022": 33277,
+      "2021": 33124,
+      "2019": 28744,
+      "2018": 26348,
+      "2017": 25357,
+      "2016": 24495,
+      "2015": 23827,
+      "2014": 23272,
+      "2013": 21449,
+      "2012": 19929,
+      "2011": 17662,
+      "2010": 15002,
+      "2009": 12999,
+      "2008": 11207,
+      "2007": 9208,
+      "2006": 8420,
+      "2005": 7915,
+      "2026": 7870,
+      "2004": 5742,
+      "2003": 4907,
+      "2002": 3837,
+      "2001": 3259,
+      "2000": 2823
+    }
+  }
+}

@@ -48,6 +48,10 @@
   letter-spacing: -0.04em;
 }
 
+.topicTitle::first-letter {
+  text-transform: uppercase;
+}
+
 .topicMeta {
   display: flex;
   flex-wrap: wrap;

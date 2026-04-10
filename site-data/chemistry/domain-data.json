@@ -1,0 +1,2474 @@
+{
+  "slug": "chemistry",
+  "title": "Chemistry",
+  "updated_at": "2026-04-10T12:12:37.771279Z",
+  "snapshot": {
+    "papers": 286,
+    "topics": 11,
+    "subtopics": 167,
+    "entities": 602,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 287,
+      "total_papers": 287,
+      "facet_counts": {
+        "none": 287
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning organic chemistry, history and advancements in chemistry, environmental chemistry.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 11,
+    "descendant_topics": 167,
+    "max_depth": 4,
+    "leaf_topics": 124
+  },
+  "rising_topics": [
+    {
+      "id": "sg-organic-chemistry",
+      "label": "Organic chemistry",
+      "url": "/domains/chemistry/topics/sg-organic-chemistry",
+      "trend": "rising",
+      "year_total": 1279420
+    },
+    {
+      "id": "sg-computational-chemistry",
+      "label": "Computational chemistry",
+      "url": "/domains/chemistry/topics/sg-computational-chemistry",
+      "trend": "rising",
+      "year_total": 657726
+    },
+    {
+      "id": "sg-environmental-chemistry",
+      "label": "Environmental chemistry",
+      "url": "/domains/chemistry/topics/sg-environmental-chemistry",
+      "trend": "rising",
+      "year_total": 1345813
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-organic-chemistry",
+      "label": "Organic chemistry",
+      "url": "/domains/chemistry/topics/sg-organic-chemistry",
+      "paper_count": 133,
+      "subtopic_count": 18,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "chemistry and chemical engineering",
+        "fluorine in organic chemistry",
+        "green chemistry",
+        "organic"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-organic-chemistry-organic-synthesis",
+          "label": "Organic synthesis",
+          "url": "/domains/chemistry/topics/sg-organic-chemistry-organic-synthesis",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-organic-chemistry-catalytic-cross-coupling-reactions",
+          "label": "Catalytic cross-coupling reactions",
+          "url": "/domains/chemistry/topics/sg-organic-chemistry-catalytic-cross-coupling-reactions",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-organic-chemistry-steric-effects",
+          "label": "Steric effects",
+          "url": "/domains/chemistry/topics/sg-organic-chemistry-steric-effects",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-organic-chemistry-enantioselective-synthesis",
+          "label": "Enantioselective synthesis",
+          "url": "/domains/chemistry/topics/sg-organic-chemistry-enantioselective-synthesis",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-organic-chemistry-hydrogen-bond",
+          "label": "Hydrogen bond",
+          "url": "/domains/chemistry/topics/sg-organic-chemistry-hydrogen-bond",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-organic-chemistry-reaction-mechanism",
+          "label": "Reaction mechanism",
+          "url": "/domains/chemistry/topics/sg-organic-chemistry-reaction-mechanism",
+          "paper_count": 10
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-computational-chemistry",
+      "label": "Computational chemistry",
+      "url": "/domains/chemistry/topics/sg-computational-chemistry",
+      "paper_count": 36,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: computational chemistry, of the, molecule",
+      "tags": [
+        "chemistry biology",
+        "computational chemistry",
+        "computational chemistry calculations",
+        "constants correlation in chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-computational-chemistry-electronic-structure",
+          "label": "Electronic structure",
+          "url": "/domains/chemistry/topics/sg-computational-chemistry-electronic-structure",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-computational-chemistry-substituent-constants-correlation",
+          "label": "Substituent constants correlation",
+          "url": "/domains/chemistry/topics/sg-computational-chemistry-substituent-constants-correlation",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-computational-chemistry-statistical-physics",
+          "label": "Statistical physics",
+          "url": "/domains/chemistry/topics/sg-computational-chemistry-statistical-physics",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-computational-chemistry-orbital-free-density-functional-theory",
+          "label": "Orbital-free density functional theory",
+          "url": "/domains/chemistry/topics/sg-computational-chemistry-orbital-free-density-functional-theory",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-computational-chemistry-atomic-orbital",
+          "label": "Atomic orbital",
+          "url": "/domains/chemistry/topics/sg-computational-chemistry-atomic-orbital",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-computational-chemistry-chemical-thermodynamics-molecular-structure",
+          "label": "Chemical thermodynamics molecular structure",
+          "url": "/domains/chemistry/topics/sg-computational-chemistry-chemical-thermodynamics-molecular-structure",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2022950330",
+          "title": "General atomic and molecular electronic structure system",
+          "year": "1993",
+          "cited_by_count": 20138,
+          "url": "/domains/chemistry/papers/W2022950330"
+        },
+        {
+          "source_id": "https://openalex.org/W4401916766",
+          "title": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+          "year": "2024",
+          "cited_by_count": 3126,
+          "url": "/domains/chemistry/papers/W4401916766"
+        },
+        {
+          "source_id": "https://openalex.org/W1597773817",
+          "title": "Atoms in molecules : a quantum theory",
+          "year": "1990",
+          "cited_by_count": 11757,
+          "url": "/domains/chemistry/papers/W1597773817"
+        }
+      ]
+    },
+    {
+      "id": "sg-environmental-chemistry",
+      "label": "Environmental chemistry",
+      "url": "/domains/chemistry/topics/sg-environmental-chemistry",
+      "paper_count": 28,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: environmental chemistry, of the, chemical",
+      "tags": [
+        "atmospheric chemistry",
+        "atmospheric chemistry physics air",
+        "chemistry physics air",
+        "chemistry physics air pollution"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-environmental-chemistry-soil-environmental-studies",
+          "label": "Soil environmental studies",
+          "url": "/domains/chemistry/topics/sg-environmental-chemistry-soil-environmental-studies",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-environmental-chemistry-air-pollution",
+          "label": "Air pollution",
+          "url": "/domains/chemistry/topics/sg-environmental-chemistry-air-pollution",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-environmental-chemistry-heavy-metal-contamination",
+          "label": "Heavy metal contamination",
+          "url": "/domains/chemistry/topics/sg-environmental-chemistry-heavy-metal-contamination",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-environmental-chemistry-water-quality-monitoring",
+          "label": "Water quality monitoring",
+          "url": "/domains/chemistry/topics/sg-environmental-chemistry-water-quality-monitoring",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-environmental-chemistry-oxidation-water-treatment",
+          "label": "Oxidation water treatment",
+          "url": "/domains/chemistry/topics/sg-environmental-chemistry-oxidation-water-treatment",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2145538332",
+          "title": "Structure validation in chemical crystallography",
+          "year": "2009",
+          "cited_by_count": 15230,
+          "url": "/domains/chemistry/papers/W2145538332"
+        },
+        {
+          "source_id": "https://openalex.org/W2020729558",
+          "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+          "year": "1998",
+          "cited_by_count": 8997,
+          "url": "/domains/chemistry/papers/W2020729558"
+        },
+        {
+          "source_id": "https://openalex.org/W2067670322",
+          "title": "Chemistry and Biological Activities of Flavonoids: An Overview",
+          "year": "2013",
+          "cited_by_count": 4744,
+          "url": "/domains/chemistry/papers/W2067670322"
+        }
+      ]
+    },
+    {
+      "id": "sg-inorganic-chemistry",
+      "label": "Inorganic chemistry",
+      "url": "/domains/chemistry/topics/sg-inorganic-chemistry",
+      "paper_count": 23,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: history and advancements in chemistry, of the, date",
+      "tags": [
+        "chemistry education",
+        "chemistry of elements",
+        "chemistry principle",
+        "history and advancements in chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-inorganic-chemistry-chemistry-physics",
+          "label": "Chemistry physics",
+          "url": "/domains/chemistry/topics/sg-inorganic-chemistry-chemistry-physics",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-inorganic-chemistry-physics-chemistry",
+          "label": "Physics chemistry",
+          "url": "/domains/chemistry/topics/sg-inorganic-chemistry-physics-chemistry",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2132905138",
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2014",
+          "cited_by_count": 57796,
+          "url": "/domains/chemistry/papers/W2132905138"
+        },
+        {
+          "source_id": "https://openalex.org/W2298230951",
+          "title": "Official Methods of Analysis of",
+          "year": "1980",
+          "cited_by_count": 59552,
+          "url": "/domains/chemistry/papers/W2298230951"
+        },
+        {
+          "source_id": "https://openalex.org/W2964344211",
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2016",
+          "cited_by_count": 13816,
+          "url": "/domains/chemistry/papers/W2964344211"
+        }
+      ]
+    },
+    {
+      "id": "sg-physical-chemistry",
+      "label": "Physical chemistry",
+      "url": "/domains/chemistry/topics/sg-physical-chemistry",
+      "paper_count": 17,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: physical chemistry, chemistry of, physical",
+      "tags": [
+        "chemistry interatomic",
+        "chemistry interatomic potentials",
+        "chemistry of surface",
+        "modeling solid-state chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-physical-chemistry-band-gap-in-materials",
+          "label": "Band gap in materials",
+          "url": "/domains/chemistry/topics/sg-physical-chemistry-band-gap-in-materials",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-physical-chemistry-electron-transfer",
+          "label": "Electron transfer",
+          "url": "/domains/chemistry/topics/sg-physical-chemistry-electron-transfer",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-physical-chemistry-statistical-physics",
+          "label": "Statistical physics",
+          "url": "/domains/chemistry/topics/sg-physical-chemistry-statistical-physics",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-physical-chemistry-various-chemistry-topics",
+          "label": "Various chemistry topics",
+          "url": "/domains/chemistry/topics/sg-physical-chemistry-various-chemistry-topics",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-physical-chemistry-chemical-shift",
+          "label": "Chemical shift",
+          "url": "/domains/chemistry/topics/sg-physical-chemistry-chemical-shift",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-physical-chemistry-interatomic-potentials-multicomponent",
+          "label": "Interatomic potentials multicomponent",
+          "url": "/domains/chemistry/topics/sg-physical-chemistry-interatomic-potentials-multicomponent",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2011899447",
+          "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+          "year": "2013",
+          "cited_by_count": 9647,
+          "url": "/domains/chemistry/papers/W2011899447"
+        },
+        {
+          "source_id": "https://openalex.org/W2062070676",
+          "title": "Physical chemistry of surfaces",
+          "year": "1998",
+          "cited_by_count": 11695,
+          "url": "/domains/chemistry/papers/W2062070676"
+        },
+        {
+          "source_id": "https://openalex.org/W1604035276",
+          "title": "User's guide to PHREEQC (Version 2): A computer program for speciation, batch-reaction, one-dimensional transport, and inverse geochemical calculations",
+          "year": "1999",
+          "cited_by_count": 7682,
+          "url": "/domains/chemistry/papers/W1604035276"
+        }
+      ]
+    },
+    {
+      "id": "sg-supramolecular-chemistry",
+      "label": "Supramolecular chemistry",
+      "url": "/domains/chemistry/topics/sg-supramolecular-chemistry",
+      "paper_count": 13,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: molecular, supramolecular chemistry, molecule",
+      "tags": [
+        "chemistry and chemical engineering",
+        "crystal engineering",
+        "dynamic covalent chemistry",
+        "host-guest chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-supramolecular-chemistry-molecular-recognition-molecular",
+          "label": "Molecular recognition molecular",
+          "url": "/domains/chemistry/topics/sg-supramolecular-chemistry-molecular-recognition-molecular",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-supramolecular-chemistry-supramolecular-assembly",
+          "label": "Supramolecular assembly",
+          "url": "/domains/chemistry/topics/sg-supramolecular-chemistry-supramolecular-assembly",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-supramolecular-chemistry-molecular-recognition",
+          "label": "Molecular recognition",
+          "url": "/domains/chemistry/topics/sg-supramolecular-chemistry-molecular-recognition",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-supramolecular-chemistry-hydrogen-bond",
+          "label": "Hydrogen bond",
+          "url": "/domains/chemistry/topics/sg-supramolecular-chemistry-hydrogen-bond",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-supramolecular-chemistry-crystal-engineering",
+          "label": "Crystal engineering",
+          "url": "/domains/chemistry/topics/sg-supramolecular-chemistry-crystal-engineering",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2077228161",
+          "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+          "year": "2003",
+          "cited_by_count": 12292,
+          "url": "/domains/chemistry/papers/W2077228161"
+        },
+        {
+          "source_id": "https://openalex.org/W1999937609",
+          "title": "Functional Porous Coordination Polymers",
+          "year": "2004",
+          "cited_by_count": 10897,
+          "url": "/domains/chemistry/papers/W1999937609"
+        },
+        {
+          "source_id": "https://openalex.org/W1999908724",
+          "title": "Reticular synthesis and the design of new materials",
+          "year": "2003",
+          "cited_by_count": 8901,
+          "url": "/domains/chemistry/papers/W1999908724"
+        }
+      ]
+    },
+    {
+      "id": "sg-medicinal-chemistry",
+      "label": "Medicinal chemistry",
+      "url": "/domains/chemistry/topics/sg-medicinal-chemistry",
+      "paper_count": 11,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: medicinal chemistry, compounds, as a",
+      "tags": [
+        "chemistry friendliness",
+        "fluorine in medicinal",
+        "fluorine in medicinal chemistry",
+        "fluorine in organic chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-medicinal-chemistry-drug-development",
+          "label": "Drug development",
+          "url": "/domains/chemistry/topics/sg-medicinal-chemistry-drug-development",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-medicinal-chemistry-chemistry-organic",
+          "label": "Chemistry organic",
+          "url": "/domains/chemistry/topics/sg-medicinal-chemistry-chemistry-organic",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-medicinal-chemistry-fluorine-in-medicinal-chemistry",
+          "label": "Fluorine in medicinal chemistry",
+          "url": "/domains/chemistry/topics/sg-medicinal-chemistry-fluorine-in-medicinal-chemistry",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-medicinal-chemistry-click-chemistry",
+          "label": "Click chemistry",
+          "url": "/domains/chemistry/topics/sg-medicinal-chemistry-click-chemistry",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2593436234",
+          "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+          "year": "2017",
+          "cited_by_count": 16287,
+          "url": "/domains/chemistry/papers/W2593436234"
+        },
+        {
+          "source_id": "https://openalex.org/W2116087305",
+          "title": "Fluorine in medicinal chemistry",
+          "year": "2007",
+          "cited_by_count": 7331,
+          "url": "/domains/chemistry/papers/W2116087305"
+        },
+        {
+          "source_id": "https://openalex.org/W2007661885",
+          "title": "A Chromium Terephthalate-Based Solid with Unusually Large Pore Volumes and Surface Area",
+          "year": "2005",
+          "cited_by_count": 5277,
+          "url": "/domains/chemistry/papers/W2007661885"
+        }
+      ]
+    },
+    {
+      "id": "sg-analytical-chemistry",
+      "label": "Analytical chemistry",
+      "url": "/domains/chemistry/topics/sg-analytical-chemistry",
+      "paper_count": 8,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: analytical chemistry, library science, chemical",
+      "tags": [
+        "analytical chemistry",
+        "chemistry property",
+        "encyclopedia of industrial chemistry",
+        "fenton’s reaction chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-analytical-chemistry-library-science",
+          "label": "Library science",
+          "url": "/domains/chemistry/topics/sg-analytical-chemistry-library-science",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-analytical-chemistry-biochemical-engineering",
+          "label": "Biochemical engineering",
+          "url": "/domains/chemistry/topics/sg-analytical-chemistry-biochemical-engineering",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3035579699",
+          "title": "Encyclopedia of Analytical Chemistry",
+          "year": "2006",
+          "cited_by_count": 7420,
+          "url": "/domains/chemistry/papers/W3035579699"
+        },
+        {
+          "source_id": "https://openalex.org/W1980495221",
+          "title": "Chemistry and Properties of Nanocrystals of Different Shapes",
+          "year": "2005",
+          "cited_by_count": 7142,
+          "url": "/domains/chemistry/papers/W1980495221"
+        },
+        {
+          "source_id": "https://openalex.org/W2088376206",
+          "title": "Response surface methodology (RSM) as a tool for optimization in analytical chemistry",
+          "year": "2008",
+          "cited_by_count": 5750,
+          "url": "/domains/chemistry/papers/W2088376206"
+        }
+      ]
+    },
+    {
+      "id": "sg-click-chemistry",
+      "label": "Click chemistry",
+      "url": "/domains/chemistry/topics/sg-click-chemistry",
+      "paper_count": 8,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: click chemistry, combinatorial chemistry, of the",
+      "tags": [
+        "bioorthogonal chemistry",
+        "chemistry diverse",
+        "chemistry diverse chemical",
+        "chemistry diverse chemical function"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-click-chemistry-radical-photochemical-reactions",
+          "label": "Radical photochemical reactions",
+          "url": "/domains/chemistry/topics/sg-click-chemistry-radical-photochemical-reactions",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-click-chemistry-diverse-chemical-function",
+          "label": "Diverse chemical function",
+          "url": "/domains/chemistry/topics/sg-click-chemistry-diverse-chemical-function",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-click-chemistry-chemical-function-few",
+          "label": "Chemical function few",
+          "url": "/domains/chemistry/topics/sg-click-chemistry-chemical-function-few",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-click-chemistry-function-few-reactions",
+          "label": "Function few reactions",
+          "url": "/domains/chemistry/topics/sg-click-chemistry-function-few-reactions",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4256503849",
+          "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+          "year": "2001",
+          "cited_by_count": 12928,
+          "url": "/domains/chemistry/papers/W4256503849"
+        },
+        {
+          "source_id": "https://openalex.org/W2586637063",
+          "title": "In situ click chemistry generation of cyclooxygenase-2 inhibitors",
+          "year": "2017",
+          "cited_by_count": 7531,
+          "url": "/domains/chemistry/papers/W2586637063"
+        },
+        {
+          "source_id": "https://openalex.org/W2052731133",
+          "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+          "year": "2001",
+          "cited_by_count": 9279,
+          "url": "/domains/chemistry/papers/W2052731133"
+        }
+      ]
+    },
+    {
+      "id": "sg-surface-chemistry",
+      "label": "Surface chemistry",
+      "url": "/domains/chemistry/topics/sg-surface-chemistry",
+      "paper_count": 5,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: surface, surface chemistry, organic chemistry",
+      "tags": [
+        "colloid surface chemistry",
+        "physical chemistry of surface",
+        "principle of colloid",
+        "principle of colloid surface"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-surface-chemistry-principle-of-colloid-surface",
+          "label": "Principle of colloid surface",
+          "url": "/domains/chemistry/topics/sg-surface-chemistry-principle-of-colloid-surface",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-surface-chemistry-colloid-surface",
+          "label": "Colloid surface",
+          "url": "/domains/chemistry/topics/sg-surface-chemistry-colloid-surface",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-surface-chemistry-shape-surface",
+          "label": "Shape, surface",
+          "url": "/domains/chemistry/topics/sg-surface-chemistry-shape-surface",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-surface-chemistry-size-shape-surface",
+          "label": "Size, shape, surface",
+          "url": "/domains/chemistry/topics/sg-surface-chemistry-size-shape-surface",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2108615682",
+          "title": "The Effect of Nanoparticle Size, Shape, and Surface Chemistry on Biological Systems",
+          "year": "2012",
+          "cited_by_count": 3720,
+          "url": "/domains/chemistry/papers/W2108615682"
+        },
+        {
+          "source_id": "https://openalex.org/W2026589009",
+          "title": "Introduction to surface chemistry and catalysis",
+          "year": "2011",
+          "cited_by_count": 2741,
+          "url": "/domains/chemistry/papers/W2026589009"
+        },
+        {
+          "source_id": "https://openalex.org/W2168206768",
+          "title": "Starburst Dendrimers: Molecular‐Level Control of Size, Shape, Surface Chemistry, Topology, and Flexibility from Atoms to Macroscopic Matter",
+          "year": "1990",
+          "cited_by_count": 3193,
+          "url": "/domains/chemistry/papers/W2168206768"
+        }
+      ]
+    },
+    {
+      "id": "sg-polymer-chemistry",
+      "label": "Polymer chemistry",
+      "url": "/domains/chemistry/topics/sg-polymer-chemistry",
+      "paper_count": 4,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: polymer chemistry, polymer, principle",
+      "tags": [
+        "green chemistry",
+        "group 2 organometallic chemistry",
+        "heterogeneous organocatalyst photochemistry",
+        "inorganic and organometallic chemistry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-polymer-chemistry-advertisement-return",
+          "label": "Advertisement return",
+          "url": "/domains/chemistry/topics/sg-polymer-chemistry-advertisement-return",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-polymer-chemistry-principle-of-polymer",
+          "label": "Principle of polymer",
+          "url": "/domains/chemistry/topics/sg-polymer-chemistry-principle-of-polymer",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-polymer-chemistry-various-chemistry-topics",
+          "label": "Various chemistry topics",
+          "url": "/domains/chemistry/topics/sg-polymer-chemistry-various-chemistry-topics",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1505352099",
+          "title": "Principles of polymer chemistry",
+          "year": "1995",
+          "cited_by_count": 15302,
+          "url": "/domains/chemistry/papers/W1505352099"
+        },
+        {
+          "source_id": "https://openalex.org/W2314659927",
+          "title": "Principles of Polymer Chemistry.",
+          "year": "1954",
+          "cited_by_count": 16626,
+          "url": "/domains/chemistry/papers/W2314659927"
+        },
+        {
+          "source_id": "https://openalex.org/W2034745057",
+          "title": "Comprehensive Organometallic Chemistry",
+          "year": "1984",
+          "cited_by_count": 4776,
+          "url": "/domains/chemistry/papers/W2034745057"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Organic chemistry",
+      "paper_count": 16,
+      "papers": [
+        {
+          "title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+          "year": "2015",
+          "cited_by_count": 25732,
+          "topic": "Organic chemistry",
+          "url": "papers/https-openalex-org-w1031578623.html"
+        },
+        {
+          "title": "Helical microtubules of graphitic carbon",
+          "year": "1991",
+          "cited_by_count": 42630,
+          "topic": "Organic chemistry",
+          "url": "papers/https-openalex-org-w2018858346.html"
+        },
+        {
+          "title": "Antioxidant activity applying an improved ABTS radical cation decolorization assay",
+          "year": "1999",
+          "cited_by_count": 25146,
+          "topic": "Organic chemistry",
+          "url": "papers/https-openalex-org-w2012991711.html"
+        },
+        {
+          "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+          "year": "2013",
+          "cited_by_count": 16148,
+          "topic": "Organic chemistry",
+          "url": "papers/https-openalex-org-w2141939342.html"
+        },
+        {
+          "title": "Use of a free radical method to evaluate antioxidant activity",
+          "year": "1995",
+          "cited_by_count": 24791,
+          "topic": "Organic chemistry",
+          "url": "papers/https-openalex-org-w2065853716.html"
+        },
+        {
+          "title": "The Cambridge Structural Database",
+          "year": "2016",
+          "cited_by_count": 9937,
+          "topic": "Organic chemistry",
+          "url": "papers/https-openalex-org-w2319902168.html"
+        }
+      ]
+    },
+    {
+      "label": "Inorganic chemistry",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2014",
+          "cited_by_count": 57796,
+          "topic": "Inorganic chemistry",
+          "url": "papers/https-openalex-org-w2132905138.html"
+        },
+        {
+          "title": "Official Methods of Analysis of",
+          "year": "1980",
+          "cited_by_count": 59552,
+          "topic": "Inorganic chemistry",
+          "url": "papers/https-openalex-org-w2298230951.html"
+        },
+        {
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2016",
+          "cited_by_count": 13816,
+          "topic": "Inorganic chemistry",
+          "url": "papers/https-openalex-org-w2964344211.html"
+        },
+        {
+          "title": "Advanced inorganic chemistry",
+          "year": "1999",
+          "cited_by_count": 14348,
+          "topic": "Inorganic chemistry",
+          "url": "papers/https-openalex-org-w1523417784.html"
+        },
+        {
+          "title": "Atoms in Molecules",
+          "year": "1990",
+          "cited_by_count": 12321,
+          "topic": "Inorganic chemistry",
+          "url": "papers/https-openalex-org-w4388166534.html"
+        },
+        {
+          "title": "Stochastic Processes in Physics and Chemistry",
+          "year": "2007",
+          "cited_by_count": 8927,
+          "topic": "Inorganic chemistry",
+          "url": "papers/https-openalex-org-w2102787760.html"
+        }
+      ]
+    },
+    {
+      "label": "Computational chemistry",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "General atomic and molecular electronic structure system",
+          "year": "1993",
+          "cited_by_count": 20138,
+          "topic": "Computational chemistry",
+          "url": "papers/https-openalex-org-w2022950330.html"
+        },
+        {
+          "title": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+          "year": "2024",
+          "cited_by_count": 3126,
+          "topic": "Computational chemistry",
+          "url": "papers/https-openalex-org-w4401916766.html"
+        },
+        {
+          "title": "Atoms in molecules : a quantum theory",
+          "year": "1990",
+          "cited_by_count": 11757,
+          "topic": "Computational chemistry",
+          "url": "papers/https-openalex-org-w1597773817.html"
+        },
+        {
+          "title": "The ORCA quantum chemistry program package",
+          "year": "2020",
+          "cited_by_count": 4760,
+          "topic": "Computational chemistry",
+          "url": "papers/https-openalex-org-w3034310241.html"
+        },
+        {
+          "title": "Density Functional Theory of Atoms and Molecules",
+          "year": "1980",
+          "cited_by_count": 11988,
+          "topic": "Computational chemistry",
+          "url": "papers/https-openalex-org-w1550061415.html"
+        }
+      ]
+    },
+    {
+      "label": "Supramolecular chemistry",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+          "year": "2003",
+          "cited_by_count": 12292,
+          "topic": "Supramolecular chemistry",
+          "url": "papers/https-openalex-org-w2077228161.html"
+        },
+        {
+          "title": "Functional Porous Coordination Polymers",
+          "year": "2004",
+          "cited_by_count": 10897,
+          "topic": "Supramolecular chemistry",
+          "url": "papers/https-openalex-org-w1999937609.html"
+        },
+        {
+          "title": "Reticular synthesis and the design of new materials",
+          "year": "2003",
+          "cited_by_count": 8901,
+          "topic": "Supramolecular chemistry",
+          "url": "papers/https-openalex-org-w1999908724.html"
+        },
+        {
+          "title": "Supramolecular Chemistry",
+          "year": "1995",
+          "cited_by_count": 9810,
+          "topic": "Supramolecular chemistry",
+          "url": "papers/https-openalex-org-w29179573.html"
+        }
+      ]
+    },
+    {
+      "label": "Click chemistry",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+          "year": "2001",
+          "cited_by_count": 12928,
+          "topic": "Click chemistry",
+          "url": "papers/https-openalex-org-w4256503849.html"
+        },
+        {
+          "title": "In situ click chemistry generation of cyclooxygenase-2 inhibitors",
+          "year": "2017",
+          "cited_by_count": 7531,
+          "topic": "Click chemistry",
+          "url": "papers/https-openalex-org-w2586637063.html"
+        },
+        {
+          "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+          "year": "2001",
+          "cited_by_count": 9279,
+          "topic": "Click chemistry",
+          "url": "papers/https-openalex-org-w2052731133.html"
+        }
+      ]
+    },
+    {
+      "label": "Physical chemistry",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+          "year": "2013",
+          "cited_by_count": 9647,
+          "topic": "Physical chemistry",
+          "url": "papers/https-openalex-org-w2011899447.html"
+        },
+        {
+          "title": "Physical chemistry of surfaces",
+          "year": "1998",
+          "cited_by_count": 11695,
+          "topic": "Physical chemistry",
+          "url": "papers/https-openalex-org-w2062070676.html"
+        }
+      ]
+    },
+    {
+      "label": "Polymer chemistry",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Principles of polymer chemistry",
+          "year": "1995",
+          "cited_by_count": 15302,
+          "topic": "Polymer chemistry",
+          "url": "papers/https-openalex-org-w1505352099.html"
+        },
+        {
+          "title": "Principles of Polymer Chemistry.",
+          "year": "1954",
+          "cited_by_count": 16626,
+          "topic": "Polymer chemistry",
+          "url": "papers/https-openalex-org-w2314659927.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental chemistry",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Structure validation in chemical crystallography",
+          "year": "2009",
+          "cited_by_count": 15230,
+          "topic": "Environmental chemistry",
+          "url": "papers/https-openalex-org-w2145538332.html"
+        }
+      ]
+    },
+    {
+      "label": "Medicinal chemistry",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+          "year": "2017",
+          "cited_by_count": 16287,
+          "topic": "Medicinal chemistry",
+          "url": "papers/https-openalex-org-w2593436234.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2132905138",
+      "title": "CRC Handbook of Chemistry and Physics",
+      "year": 2014,
+      "cited_by_count": 57796,
+      "adjusted_cited_by_count": 16684.27,
+      "primary_topic_id": "sg-inorganic-chemistry",
+      "primary_topic_label": "Inorganic chemistry",
+      "url": "/domains/chemistry/papers/W2132905138"
+    },
+    {
+      "source_id": "https://openalex.org/W2298230951",
+      "title": "Official Methods of Analysis of",
+      "year": 1980,
+      "cited_by_count": 59552,
+      "adjusted_cited_by_count": 8780.46,
+      "primary_topic_id": "sg-inorganic-chemistry",
+      "primary_topic_label": "Inorganic chemistry",
+      "url": "/domains/chemistry/papers/W2298230951"
+    },
+    {
+      "source_id": "https://openalex.org/W1031578623",
+      "title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+      "year": 2015,
+      "cited_by_count": 25732,
+      "adjusted_cited_by_count": 7758.49,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W1031578623"
+    },
+    {
+      "source_id": "https://openalex.org/W2018858346",
+      "title": "Helical microtubules of graphitic carbon",
+      "year": 1991,
+      "cited_by_count": 42630,
+      "adjusted_cited_by_count": 7205.79,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2018858346"
+    },
+    {
+      "source_id": "https://openalex.org/W2593436234",
+      "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+      "year": 2017,
+      "cited_by_count": 16287,
+      "adjusted_cited_by_count": 5429.0,
+      "primary_topic_id": "sg-medicinal-chemistry",
+      "primary_topic_label": "Medicinal chemistry",
+      "url": "/domains/chemistry/papers/W2593436234"
+    },
+    {
+      "source_id": "https://openalex.org/W2012991711",
+      "title": "Antioxidant activity applying an improved ABTS radical cation decolorization assay",
+      "year": 1999,
+      "cited_by_count": 25146,
+      "adjusted_cited_by_count": 4839.35,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2012991711"
+    },
+    {
+      "source_id": "https://openalex.org/W2141939342",
+      "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+      "year": 2013,
+      "cited_by_count": 16148,
+      "adjusted_cited_by_count": 4478.65,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2141939342"
+    },
+    {
+      "source_id": "https://openalex.org/W2065853716",
+      "title": "Use of a free radical method to evaluate antioxidant activity",
+      "year": 1995,
+      "cited_by_count": 24791,
+      "adjusted_cited_by_count": 4452.6,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2065853716"
+    },
+    {
+      "source_id": "https://openalex.org/W2964344211",
+      "title": "CRC Handbook of Chemistry and Physics",
+      "year": 2016,
+      "cited_by_count": 13816,
+      "adjusted_cited_by_count": 4369.0,
+      "primary_topic_id": "sg-inorganic-chemistry",
+      "primary_topic_label": "Inorganic chemistry",
+      "url": "/domains/chemistry/papers/W2964344211"
+    },
+    {
+      "source_id": "https://openalex.org/W2145538332",
+      "title": "Structure validation in chemical crystallography",
+      "year": 2009,
+      "cited_by_count": 15230,
+      "adjusted_cited_by_count": 3693.82,
+      "primary_topic_id": "sg-environmental-chemistry",
+      "primary_topic_label": "Environmental chemistry",
+      "url": "/domains/chemistry/papers/W2145538332"
+    },
+    {
+      "source_id": "https://openalex.org/W2022950330",
+      "title": "General atomic and molecular electronic structure system",
+      "year": 1993,
+      "cited_by_count": 20138,
+      "adjusted_cited_by_count": 3505.58,
+      "primary_topic_id": "sg-computational-chemistry",
+      "primary_topic_label": "Computational chemistry",
+      "url": "/domains/chemistry/papers/W2022950330"
+    },
+    {
+      "source_id": "https://openalex.org/W2319902168",
+      "title": "The Cambridge Structural Database",
+      "year": 2016,
+      "cited_by_count": 9937,
+      "adjusted_cited_by_count": 3142.36,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2319902168"
+    },
+    {
+      "source_id": "https://openalex.org/W4401916766",
+      "title": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+      "year": 2024,
+      "cited_by_count": 3126,
+      "adjusted_cited_by_count": 3126.0,
+      "primary_topic_id": "sg-computational-chemistry",
+      "primary_topic_label": "Computational chemistry",
+      "url": "/domains/chemistry/papers/W4401916766"
+    },
+    {
+      "source_id": "https://openalex.org/W1523417784",
+      "title": "Advanced inorganic chemistry",
+      "year": 1999,
+      "cited_by_count": 14348,
+      "adjusted_cited_by_count": 2761.27,
+      "primary_topic_id": "sg-inorganic-chemistry",
+      "primary_topic_label": "Inorganic chemistry",
+      "url": "/domains/chemistry/papers/W1523417784"
+    },
+    {
+      "source_id": "https://openalex.org/W1505352099",
+      "title": "Principles of polymer chemistry",
+      "year": 1995,
+      "cited_by_count": 15302,
+      "adjusted_cited_by_count": 2748.32,
+      "primary_topic_id": "sg-polymer-chemistry",
+      "primary_topic_label": "Polymer chemistry",
+      "url": "/domains/chemistry/papers/W1505352099"
+    },
+    {
+      "source_id": "https://openalex.org/W2135479172",
+      "title": "The chemistry of graphene oxide",
+      "year": 2009,
+      "cited_by_count": 11223,
+      "adjusted_cited_by_count": 2721.98,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2135479172"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9647,
+      "adjusted_cited_by_count": 2675.6,
+      "primary_topic_id": "sg-physical-chemistry",
+      "primary_topic_label": "Physical chemistry",
+      "url": "/domains/chemistry/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W4300198507",
+      "title": "Free Radicals in Biology and Medicine",
+      "year": 2015,
+      "cited_by_count": 8796,
+      "adjusted_cited_by_count": 2652.09,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W4300198507"
+    },
+    {
+      "source_id": "https://openalex.org/W2133151341",
+      "title": "The HITRAN2016 molecular spectroscopic database",
+      "year": 2017,
+      "cited_by_count": 7923,
+      "adjusted_cited_by_count": 2641.0,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2133151341"
+    },
+    {
+      "source_id": "https://openalex.org/W4256503849",
+      "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+      "year": 2001,
+      "cited_by_count": 12928,
+      "adjusted_cited_by_count": 2585.6,
+      "primary_topic_id": "sg-click-chemistry",
+      "primary_topic_label": "Click chemistry",
+      "url": "/domains/chemistry/papers/W4256503849"
+    },
+    {
+      "source_id": "https://openalex.org/W2077228161",
+      "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+      "year": 2003,
+      "cited_by_count": 12292,
+      "adjusted_cited_by_count": 2563.06,
+      "primary_topic_id": "sg-supramolecular-chemistry",
+      "primary_topic_label": "Supramolecular chemistry",
+      "url": "/domains/chemistry/papers/W2077228161"
+    },
+    {
+      "source_id": "https://openalex.org/W2586637063",
+      "title": "In situ click chemistry generation of cyclooxygenase-2 inhibitors",
+      "year": 2017,
+      "cited_by_count": 7531,
+      "adjusted_cited_by_count": 2510.33,
+      "primary_topic_id": "sg-click-chemistry",
+      "primary_topic_label": "Click chemistry",
+      "url": "/domains/chemistry/papers/W2586637063"
+    },
+    {
+      "source_id": "https://openalex.org/W2092858957",
+      "title": "Mussel-Inspired Surface Chemistry for Multifunctional Coatings",
+      "year": 2007,
+      "cited_by_count": 10597,
+      "adjusted_cited_by_count": 2431.12,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2092858957"
+    },
+    {
+      "source_id": "https://openalex.org/W1999937609",
+      "title": "Functional Porous Coordination Polymers",
+      "year": 2004,
+      "cited_by_count": 10897,
+      "adjusted_cited_by_count": 2323.25,
+      "primary_topic_id": "sg-supramolecular-chemistry",
+      "primary_topic_label": "Supramolecular chemistry",
+      "url": "/domains/chemistry/papers/W1999937609"
+    },
+    {
+      "source_id": "https://openalex.org/W1978890358",
+      "title": "Palladium-Catalyzed Cross-Coupling Reactions of Organoboron Compounds",
+      "year": 1995,
+      "cited_by_count": 12620,
+      "adjusted_cited_by_count": 2266.62,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W1978890358"
+    },
+    {
+      "source_id": "https://openalex.org/W2104919283",
+      "title": "Revealing Noncovalent Interactions",
+      "year": 2010,
+      "cited_by_count": 9049,
+      "adjusted_cited_by_count": 2262.25,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2104919283"
+    },
+    {
+      "source_id": "https://openalex.org/W2062070676",
+      "title": "Physical chemistry of surfaces",
+      "year": 1998,
+      "cited_by_count": 11695,
+      "adjusted_cited_by_count": 2210.15,
+      "primary_topic_id": "sg-physical-chemistry",
+      "primary_topic_label": "Physical chemistry",
+      "url": "/domains/chemistry/papers/W2062070676"
+    },
+    {
+      "source_id": "https://openalex.org/W4388166534",
+      "title": "Atoms in Molecules",
+      "year": 1990,
+      "cited_by_count": 12321,
+      "adjusted_cited_by_count": 2053.5,
+      "primary_topic_id": "sg-inorganic-chemistry",
+      "primary_topic_label": "Inorganic chemistry",
+      "url": "/domains/chemistry/papers/W4388166534"
+    },
+    {
+      "source_id": "https://openalex.org/W2102787760",
+      "title": "Stochastic Processes in Physics and Chemistry",
+      "year": 2007,
+      "cited_by_count": 8927,
+      "adjusted_cited_by_count": 2047.99,
+      "primary_topic_id": "sg-inorganic-chemistry",
+      "primary_topic_label": "Inorganic chemistry",
+      "url": "/domains/chemistry/papers/W2102787760"
+    },
+    {
+      "source_id": "https://openalex.org/W2890252021",
+      "title": "Handbook on the Physics and Chemistry of Rare Earths",
+      "year": 2015,
+      "cited_by_count": 6688,
+      "adjusted_cited_by_count": 2016.51,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2890252021"
+    },
+    {
+      "source_id": "https://openalex.org/W2150345533",
+      "title": "Chemistry with ADF",
+      "year": 2001,
+      "cited_by_count": 9984,
+      "adjusted_cited_by_count": 1996.8,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2150345533"
+    },
+    {
+      "source_id": "https://openalex.org/W1597773817",
+      "title": "Atoms in molecules : a quantum theory",
+      "year": 1990,
+      "cited_by_count": 11757,
+      "adjusted_cited_by_count": 1959.5,
+      "primary_topic_id": "sg-computational-chemistry",
+      "primary_topic_label": "Computational chemistry",
+      "url": "/domains/chemistry/papers/W1597773817"
+    },
+    {
+      "source_id": "https://openalex.org/W2314659927",
+      "title": "Principles of Polymer Chemistry.",
+      "year": 1954,
+      "cited_by_count": 16626,
+      "adjusted_cited_by_count": 1959.39,
+      "primary_topic_id": "sg-polymer-chemistry",
+      "primary_topic_label": "Polymer chemistry",
+      "url": "/domains/chemistry/papers/W2314659927"
+    },
+    {
+      "source_id": "https://openalex.org/W3034310241",
+      "title": "The ORCA quantum chemistry program package",
+      "year": 2020,
+      "cited_by_count": 4760,
+      "adjusted_cited_by_count": 1943.26,
+      "primary_topic_id": "sg-computational-chemistry",
+      "primary_topic_label": "Computational chemistry",
+      "url": "/domains/chemistry/papers/W3034310241"
+    },
+    {
+      "source_id": "https://openalex.org/W1999908724",
+      "title": "Reticular synthesis and the design of new materials",
+      "year": 2003,
+      "cited_by_count": 8901,
+      "adjusted_cited_by_count": 1855.99,
+      "primary_topic_id": "sg-supramolecular-chemistry",
+      "primary_topic_label": "Supramolecular chemistry",
+      "url": "/domains/chemistry/papers/W1999908724"
+    },
+    {
+      "source_id": "https://openalex.org/W2052731133",
+      "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+      "year": 2001,
+      "cited_by_count": 9279,
+      "adjusted_cited_by_count": 1855.8,
+      "primary_topic_id": "sg-click-chemistry",
+      "primary_topic_label": "Click chemistry",
+      "url": "/domains/chemistry/papers/W2052731133"
+    },
+    {
+      "source_id": "https://openalex.org/W2002799357",
+      "title": "Metal–Organic Framework Materials as Chemical Sensors",
+      "year": 2011,
+      "cited_by_count": 7037,
+      "adjusted_cited_by_count": 1816.95,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W2002799357"
+    },
+    {
+      "source_id": "https://openalex.org/W280137907",
+      "title": "Comprehensive organic synthesis",
+      "year": 2014,
+      "cited_by_count": 6250,
+      "adjusted_cited_by_count": 1804.22,
+      "primary_topic_id": "sg-organic-chemistry",
+      "primary_topic_label": "Organic chemistry",
+      "url": "/domains/chemistry/papers/W280137907"
+    },
+    {
+      "source_id": "https://openalex.org/W1550061415",
+      "title": "Density Functional Theory of Atoms and Molecules",
+      "year": 1980,
+      "cited_by_count": 11988,
+      "adjusted_cited_by_count": 1767.53,
+      "primary_topic_id": "sg-computational-chemistry",
+      "primary_topic_label": "Computational chemistry",
+      "url": "/domains/chemistry/papers/W1550061415"
+    },
+    {
+      "source_id": "https://openalex.org/W29179573",
+      "title": "Supramolecular Chemistry",
+      "year": 1995,
+      "cited_by_count": 9810,
+      "adjusted_cited_by_count": 1761.93,
+      "primary_topic_id": "sg-supramolecular-chemistry",
+      "primary_topic_label": "Supramolecular chemistry",
+      "url": "/domains/chemistry/papers/W29179573"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2132905138",
+      "title": "CRC Handbook of Chemistry and Physics",
+      "year": 2014,
+      "cited_by_count": 57796,
+      "adjusted_cited_by_count": 16684.27,
+      "url": "/domains/chemistry/papers/W2132905138"
+    },
+    {
+      "source_id": "https://openalex.org/W2298230951",
+      "title": "Official Methods of Analysis of",
+      "year": 1980,
+      "cited_by_count": 59552,
+      "adjusted_cited_by_count": 8780.46,
+      "url": "/domains/chemistry/papers/W2298230951"
+    },
+    {
+      "source_id": "https://openalex.org/W1031578623",
+      "title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+      "year": 2015,
+      "cited_by_count": 25732,
+      "adjusted_cited_by_count": 7758.49,
+      "url": "/domains/chemistry/papers/W1031578623"
+    },
+    {
+      "source_id": "https://openalex.org/W2018858346",
+      "title": "Helical microtubules of graphitic carbon",
+      "year": 1991,
+      "cited_by_count": 42630,
+      "adjusted_cited_by_count": 7205.79,
+      "url": "/domains/chemistry/papers/W2018858346"
+    },
+    {
+      "source_id": "https://openalex.org/W2593436234",
+      "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+      "year": 2017,
+      "cited_by_count": 16287,
+      "adjusted_cited_by_count": 5429.0,
+      "url": "/domains/chemistry/papers/W2593436234"
+    },
+    {
+      "source_id": "https://openalex.org/W2012991711",
+      "title": "Antioxidant activity applying an improved ABTS radical cation decolorization assay",
+      "year": 1999,
+      "cited_by_count": 25146,
+      "adjusted_cited_by_count": 4839.35,
+      "url": "/domains/chemistry/papers/W2012991711"
+    },
+    {
+      "source_id": "https://openalex.org/W2141939342",
+      "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+      "year": 2013,
+      "cited_by_count": 16148,
+      "adjusted_cited_by_count": 4478.65,
+      "url": "/domains/chemistry/papers/W2141939342"
+    },
+    {
+      "source_id": "https://openalex.org/W2065853716",
+      "title": "Use of a free radical method to evaluate antioxidant activity",
+      "year": 1995,
+      "cited_by_count": 24791,
+      "adjusted_cited_by_count": 4452.6,
+      "url": "/domains/chemistry/papers/W2065853716"
+    },
+    {
+      "source_id": "https://openalex.org/W2964344211",
+      "title": "CRC Handbook of Chemistry and Physics",
+      "year": 2016,
+      "cited_by_count": 13816,
+      "adjusted_cited_by_count": 4369.0,
+      "url": "/domains/chemistry/papers/W2964344211"
+    },
+    {
+      "source_id": "https://openalex.org/W2145538332",
+      "title": "Structure validation in chemical crystallography",
+      "year": 2009,
+      "cited_by_count": 15230,
+      "adjusted_cited_by_count": 3693.82,
+      "url": "/domains/chemistry/papers/W2145538332"
+    },
+    {
+      "source_id": "https://openalex.org/W2022950330",
+      "title": "General atomic and molecular electronic structure system",
+      "year": 1993,
+      "cited_by_count": 20138,
+      "adjusted_cited_by_count": 3505.58,
+      "url": "/domains/chemistry/papers/W2022950330"
+    },
+    {
+      "source_id": "https://openalex.org/W2319902168",
+      "title": "The Cambridge Structural Database",
+      "year": 2016,
+      "cited_by_count": 9937,
+      "adjusted_cited_by_count": 3142.36,
+      "url": "/domains/chemistry/papers/W2319902168"
+    },
+    {
+      "source_id": "https://openalex.org/W4401916766",
+      "title": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+      "year": 2024,
+      "cited_by_count": 3126,
+      "adjusted_cited_by_count": 3126.0,
+      "url": "/domains/chemistry/papers/W4401916766"
+    },
+    {
+      "source_id": "https://openalex.org/W1523417784",
+      "title": "Advanced inorganic chemistry",
+      "year": 1999,
+      "cited_by_count": 14348,
+      "adjusted_cited_by_count": 2761.27,
+      "url": "/domains/chemistry/papers/W1523417784"
+    },
+    {
+      "source_id": "https://openalex.org/W1505352099",
+      "title": "Principles of polymer chemistry",
+      "year": 1995,
+      "cited_by_count": 15302,
+      "adjusted_cited_by_count": 2748.32,
+      "url": "/domains/chemistry/papers/W1505352099"
+    },
+    {
+      "source_id": "https://openalex.org/W2135479172",
+      "title": "The chemistry of graphene oxide",
+      "year": 2009,
+      "cited_by_count": 11223,
+      "adjusted_cited_by_count": 2721.98,
+      "url": "/domains/chemistry/papers/W2135479172"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9647,
+      "adjusted_cited_by_count": 2675.6,
+      "url": "/domains/chemistry/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W4300198507",
+      "title": "Free Radicals in Biology and Medicine",
+      "year": 2015,
+      "cited_by_count": 8796,
+      "adjusted_cited_by_count": 2652.09,
+      "url": "/domains/chemistry/papers/W4300198507"
+    },
+    {
+      "source_id": "https://openalex.org/W2133151341",
+      "title": "The HITRAN2016 molecular spectroscopic database",
+      "year": 2017,
+      "cited_by_count": 7923,
+      "adjusted_cited_by_count": 2641.0,
+      "url": "/domains/chemistry/papers/W2133151341"
+    },
+    {
+      "source_id": "https://openalex.org/W4256503849",
+      "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+      "year": 2001,
+      "cited_by_count": 12928,
+      "adjusted_cited_by_count": 2585.6,
+      "url": "/domains/chemistry/papers/W4256503849"
+    },
+    {
+      "source_id": "https://openalex.org/W2077228161",
+      "title": "Gold Nanoparticles:  Assembly, Supramolecular Chemistry, Quantum-Size-Related Properties, and Applications toward Biology, Catalysis, and Nanotechnology",
+      "year": 2003,
+      "cited_by_count": 12292,
+      "adjusted_cited_by_count": 2563.06,
+      "url": "/domains/chemistry/papers/W2077228161"
+    },
+    {
+      "source_id": "https://openalex.org/W2586637063",
+      "title": "In situ click chemistry generation of cyclooxygenase-2 inhibitors",
+      "year": 2017,
+      "cited_by_count": 7531,
+      "adjusted_cited_by_count": 2510.33,
+      "url": "/domains/chemistry/papers/W2586637063"
+    },
+    {
+      "source_id": "https://openalex.org/W2092858957",
+      "title": "Mussel-Inspired Surface Chemistry for Multifunctional Coatings",
+      "year": 2007,
+      "cited_by_count": 10597,
+      "adjusted_cited_by_count": 2431.12,
+      "url": "/domains/chemistry/papers/W2092858957"
+    },
+    {
+      "source_id": "https://openalex.org/W1999937609",
+      "title": "Functional Porous Coordination Polymers",
+      "year": 2004,
+      "cited_by_count": 10897,
+      "adjusted_cited_by_count": 2323.25,
+      "url": "/domains/chemistry/papers/W1999937609"
+    },
+    {
+      "source_id": "https://openalex.org/W1978890358",
+      "title": "Palladium-Catalyzed Cross-Coupling Reactions of Organoboron Compounds",
+      "year": 1995,
+      "cited_by_count": 12620,
+      "adjusted_cited_by_count": 2266.62,
+      "url": "/domains/chemistry/papers/W1978890358"
+    },
+    {
+      "source_id": "https://openalex.org/W2104919283",
+      "title": "Revealing Noncovalent Interactions",
+      "year": 2010,
+      "cited_by_count": 9049,
+      "adjusted_cited_by_count": 2262.25,
+      "url": "/domains/chemistry/papers/W2104919283"
+    },
+    {
+      "source_id": "https://openalex.org/W2062070676",
+      "title": "Physical chemistry of surfaces",
+      "year": 1998,
+      "cited_by_count": 11695,
+      "adjusted_cited_by_count": 2210.15,
+      "url": "/domains/chemistry/papers/W2062070676"
+    },
+    {
+      "source_id": "https://openalex.org/W4388166534",
+      "title": "Atoms in Molecules",
+      "year": 1990,
+      "cited_by_count": 12321,
+      "adjusted_cited_by_count": 2053.5,
+      "url": "/domains/chemistry/papers/W4388166534"
+    },
+    {
+      "source_id": "https://openalex.org/W2102787760",
+      "title": "Stochastic Processes in Physics and Chemistry",
+      "year": 2007,
+      "cited_by_count": 8927,
+      "adjusted_cited_by_count": 2047.99,
+      "url": "/domains/chemistry/papers/W2102787760"
+    },
+    {
+      "source_id": "https://openalex.org/W2890252021",
+      "title": "Handbook on the Physics and Chemistry of Rare Earths",
+      "year": 2015,
+      "cited_by_count": 6688,
+      "adjusted_cited_by_count": 2016.51,
+      "url": "/domains/chemistry/papers/W2890252021"
+    },
+    {
+      "source_id": "https://openalex.org/W2150345533",
+      "title": "Chemistry with ADF",
+      "year": 2001,
+      "cited_by_count": 9984,
+      "adjusted_cited_by_count": 1996.8,
+      "url": "/domains/chemistry/papers/W2150345533"
+    },
+    {
+      "source_id": "https://openalex.org/W1597773817",
+      "title": "Atoms in molecules : a quantum theory",
+      "year": 1990,
+      "cited_by_count": 11757,
+      "adjusted_cited_by_count": 1959.5,
+      "url": "/domains/chemistry/papers/W1597773817"
+    },
+    {
+      "source_id": "https://openalex.org/W2314659927",
+      "title": "Principles of Polymer Chemistry.",
+      "year": 1954,
+      "cited_by_count": 16626,
+      "adjusted_cited_by_count": 1959.39,
+      "url": "/domains/chemistry/papers/W2314659927"
+    },
+    {
+      "source_id": "https://openalex.org/W3034310241",
+      "title": "The ORCA quantum chemistry program package",
+      "year": 2020,
+      "cited_by_count": 4760,
+      "adjusted_cited_by_count": 1943.26,
+      "url": "/domains/chemistry/papers/W3034310241"
+    },
+    {
+      "source_id": "https://openalex.org/W1999908724",
+      "title": "Reticular synthesis and the design of new materials",
+      "year": 2003,
+      "cited_by_count": 8901,
+      "adjusted_cited_by_count": 1855.99,
+      "url": "/domains/chemistry/papers/W1999908724"
+    },
+    {
+      "source_id": "https://openalex.org/W2052731133",
+      "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+      "year": 2001,
+      "cited_by_count": 9279,
+      "adjusted_cited_by_count": 1855.8,
+      "url": "/domains/chemistry/papers/W2052731133"
+    },
+    {
+      "source_id": "https://openalex.org/W2002799357",
+      "title": "Metal–Organic Framework Materials as Chemical Sensors",
+      "year": 2011,
+      "cited_by_count": 7037,
+      "adjusted_cited_by_count": 1816.95,
+      "url": "/domains/chemistry/papers/W2002799357"
+    },
+    {
+      "source_id": "https://openalex.org/W280137907",
+      "title": "Comprehensive organic synthesis",
+      "year": 2014,
+      "cited_by_count": 6250,
+      "adjusted_cited_by_count": 1804.22,
+      "url": "/domains/chemistry/papers/W280137907"
+    },
+    {
+      "source_id": "https://openalex.org/W1550061415",
+      "title": "Density Functional Theory of Atoms and Molecules",
+      "year": 1980,
+      "cited_by_count": 11988,
+      "adjusted_cited_by_count": 1767.53,
+      "url": "/domains/chemistry/papers/W1550061415"
+    },
+    {
+      "source_id": "https://openalex.org/W29179573",
+      "title": "Supramolecular Chemistry",
+      "year": 1995,
+      "cited_by_count": 9810,
+      "adjusted_cited_by_count": 1761.93,
+      "url": "/domains/chemistry/papers/W29179573"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 280
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 144
+    },
+    {
+      "label": "organic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 140
+    },
+    {
+      "label": "organic chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 117
+    },
+    {
+      "label": "chemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "rev",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 103
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "formation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "molecule",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "citation",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "date",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "library science",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "since",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "metal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "publication history received",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 23
+    },
+    {
+      "label": "published inissue",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "published online",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "history published online",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 9
+    },
+    {
+      "label": "chemistry and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 55
+    },
+    {
+      "label": "history",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9896,
+      "evidence_count": 54
+    },
+    {
+      "label": "molecular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 52
+    },
+    {
+      "label": "catalysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 50
+    },
+    {
+      "label": "doi",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9889,
+      "evidence_count": 50
+    },
+    {
+      "label": "icon",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9889,
+      "evidence_count": 50
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 50
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 49
+    },
+    {
+      "label": "reaction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 49
+    },
+    {
+      "label": "inissue",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9886,
+      "evidence_count": 48
+    },
+    {
+      "label": "media",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9886,
+      "evidence_count": 48
+    },
+    {
+      "label": "return",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9886,
+      "evidence_count": 48
+    },
+    {
+      "label": "return to",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9886,
+      "evidence_count": 48
+    },
+    {
+      "label": "advertisement",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9884,
+      "evidence_count": 47
+    },
+    {
+      "label": "advertisement return",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9884,
+      "evidence_count": 47
+    },
+    {
+      "label": "advertisement return to",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9884,
+      "evidence_count": 47
+    },
+    {
+      "label": "author",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9884,
+      "evidence_count": 47
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 47
+    },
+    {
+      "label": "chemistry of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 46
+    },
+    {
+      "label": "world wide web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 44
+    },
+    {
+      "label": "pubs.acs.org",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9877,
+      "evidence_count": 43
+    },
+    {
+      "label": "social media",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9875,
+      "evidence_count": 42
+    },
+    {
+      "label": "of chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9871,
+      "evidence_count": 40
+    }
+  ],
+  "topic_year_counts": {
+    "computational chemistry": {
+      "2023": 86072,
+      "2024": 83960,
+      "2025": 78948,
+      "2022": 51868,
+      "2021": 46111,
+      "2020": 41582,
+      "2019": 33390,
+      "2018": 29718,
+      "2017": 26490,
+      "2026": 24426,
+      "2016": 23715,
+      "2015": 20573,
+      "2014": 17745,
+      "2013": 16083,
+      "2012": 13784,
+      "2011": 11581,
+      "2010": 9477,
+      "2009": 8030,
+      "2008": 6649,
+      "2007": 5581,
+      "2006": 4842,
+      "2005": 4124,
+      "2004": 3417,
+      "2003": 2953,
+      "2002": 2424,
+      "2000": 2141,
+      "2001": 2042
+    },
+    "environmental chemistry": {
+      "2025": 160010,
+      "2023": 154514,
+      "2024": 152241,
+      "2022": 103531,
+      "2021": 93469,
+      "2020": 85864,
+      "2019": 73376,
+      "2018": 65847,
+      "2017": 58112,
+      "2016": 54029,
+      "2015": 46540,
+      "2014": 41495,
+      "2026": 41159,
+      "2013": 38127,
+      "2012": 32292,
+      "2011": 26159,
+      "2010": 21329,
+      "2009": 17776,
+      "2008": 14574,
+      "2007": 12456,
+      "2006": 11218,
+      "2005": 9571,
+      "2004": 8273,
+      "2003": 6983,
+      "2002": 6089,
+      "2000": 5577,
+      "2001": 5202
+    },
+    "inorganic chemistry": {
+      "2023": 61237,
+      "2024": 54916,
+      "2025": 51430,
+      "2022": 40311,
+      "2021": 37302,
+      "2020": 33796,
+      "2019": 29867,
+      "2018": 27254,
+      "2017": 24743,
+      "2016": 21399,
+      "2015": 19357,
+      "2014": 17672,
+      "2013": 16030,
+      "2026": 14332,
+      "2012": 13881,
+      "2011": 11815,
+      "2010": 9729,
+      "2009": 8242,
+      "2008": 6694,
+      "2007": 5886,
+      "2006": 5728,
+      "2005": 5214,
+      "2004": 3864,
+      "2003": 3341,
+      "2002": 2871,
+      "2001": 2649,
+      "2000": 2629
+    },
+    "physical chemistry": {
+      "2023": 164945,
+      "2024": 153315,
+      "2025": 140993,
+      "2022": 106938,
+      "2021": 98550,
+      "2020": 92367,
+      "2019": 79002,
+      "2018": 72309,
+      "2017": 65345,
+      "2016": 59663,
+      "2015": 53176,
+      "2014": 48037,
+      "2013": 44215,
+      "2012": 40435,
+      "2026": 39455,
+      "2011": 32829,
+      "2010": 26082,
+      "2009": 24853,
+      "2008": 24037,
+      "2007": 20683,
+      "2006": 19053,
+      "2005": 15493,
+      "2004": 10866,
+      "2003": 9265,
+      "2002": 8078,
+      "2000": 7317,
+      "2001": 6931
+    },
+    "supramolecular chemistry": {
+      "2023": 13852,
+      "2024": 12459,
+      "2025": 11363,
+      "2022": 8629,
+      "2021": 7993,
+      "2020": 7233,
+      "2019": 6238,
+      "2018": 5363,
+      "2017": 4887,
+      "2016": 4451,
+      "2015": 3904,
+      "2014": 3389,
+      "2026": 3287,
+      "2013": 2965,
+      "2012": 2525,
+      "2011": 2325,
+      "2010": 1841,
+      "2009": 1545,
+      "2008": 1364,
+      "2007": 1179,
+      "2006": 1048,
+      "2005": 1004,
+      "2004": 695,
+      "2002": 555,
+      "2003": 547,
+      "2001": 471,
+      "2000": 434
+    },
+    "medicinal chemistry": {
+      "2023": 50951,
+      "2025": 49728,
+      "2024": 49132,
+      "2022": 36320,
+      "2021": 31435,
+      "2020": 27705,
+      "2019": 22742,
+      "2018": 19859,
+      "2017": 17677,
+      "2016": 14985,
+      "2015": 13147,
+      "2014": 12056,
+      "2026": 11756,
+      "2013": 10755,
+      "2012": 8934,
+      "2011": 6793,
+      "2010": 5085,
+      "2009": 3924,
+      "2008": 3285,
+      "2007": 2621,
+      "2006": 2198,
+      "2005": 1940,
+      "2004": 1761,
+      "2003": 1184,
+      "2000": 1087,
+      "2002": 949,
+      "2001": 872
+    },
+    "analytical chemistry": {
+      "2023": 113438,
+      "2024": 107884,
+      "2025": 105805,
+      "2022": 75600,
+      "2021": 69772,
+      "2020": 65454,
+      "2019": 57547,
+      "2018": 51753,
+      "2017": 47085,
+      "2016": 41019,
+      "2015": 37234,
+      "2014": 34103,
+      "2013": 31350,
+      "2026": 29646,
+      "2012": 27182,
+      "2011": 22269,
+      "2010": 18200,
+      "2009": 15395,
+      "2008": 12782,
+      "2007": 10976,
+      "2006": 9438,
+      "2005": 8651,
+      "2004": 7044,
+      "2003": 6193,
+      "2002": 5492,
+      "2000": 5210,
+      "2001": 4889
+    },
+    "click chemistry": {
+      "2023": 11954,
+      "2024": 11123,
+      "2025": 9653,
+      "2022": 7576,
+      "2021": 7563,
+      "2020": 7291,
+      "2019": 6324,
+      "2018": 5777,
+      "2017": 5195,
+      "2016": 4921,
+      "2015": 4561,
+      "2014": 4182,
+      "2013": 3694,
+      "2012": 3231,
+      "2011": 2901,
+      "2010": 2503,
+      "2026": 2500,
+      "2009": 2304,
+      "2000": 1949,
+      "2008": 1910,
+      "2001": 1888,
+      "2007": 1530,
+      "2006": 1344,
+      "2005": 1101,
+      "2002": 1085,
+      "2004": 1059,
+      "2003": 1050
+    },
+    "surface chemistry": {
+      "2023": 195342,
+      "2024": 179398,
+      "2025": 168988,
+      "2022": 129363,
+      "2021": 120409,
+      "2020": 113466,
+      "2019": 98562,
+      "2018": 88985,
+      "2017": 81972,
+      "2016": 71359,
+      "2015": 65662,
+      "2014": 58598,
+      "2013": 53855,
+      "2026": 46816,
+      "2012": 46464,
+      "2011": 39240,
+      "2010": 32150,
+      "2009": 27147,
+      "2008": 23643,
+      "2007": 19734,
+      "2006": 17734,
+      "2005": 15661,
+      "2004": 13646,
+      "2003": 11992,
+      "2002": 10621,
+      "2001": 9319,
+      "2000": 9212
+    },
+    "polymer chemistry": {
+      "2023": 97520,
+      "2024": 89077,
+      "2025": 81392,
+      "2022": 64830,
+      "2021": 55732,
+      "2020": 50781,
+      "2019": 43908,
+      "2018": 38987,
+      "2017": 36209,
+      "2016": 31108,
+      "2015": 29083,
+      "2014": 24839,
+      "2026": 22517,
+      "2013": 22363,
+      "2012": 19164,
+      "2011": 16290,
+      "2010": 12925,
+      "2009": 10875,
+      "2008": 9478,
+      "2007": 7632,
+      "2006": 6748,
+      "2005": 5891,
+      "2004": 4949,
+      "2003": 4152,
+      "2002": 3707,
+      "2000": 3461,
+      "2001": 3452
+    },
+    "organic chemistry": {
+      "2023": 147129,
+      "2024": 136793,
+      "2025": 128837,
+      "2022": 97492,
+      "2021": 89334,
+      "2020": 82573,
+      "2019": 70700,
+      "2018": 63518,
+      "2017": 58092,
+      "2016": 51122,
+      "2015": 45748,
+      "2014": 41258,
+      "2013": 37568,
+      "2026": 33936,
+      "2012": 32304,
+      "2011": 27343,
+      "2010": 22495,
+      "2009": 18966,
+      "2008": 17948,
+      "2007": 13656,
+      "2006": 12610,
+      "2005": 11906,
+      "2004": 9476,
+      "2003": 8138,
+      "2002": 7124,
+      "2000": 6723,
+      "2001": 6631
+    }
+  }
+}
