@@ -62,13 +62,6 @@ export default async function TopicPage({ params }: Props) {
               >
                 <strong className={styles.childTitle}>{child.label}</strong>
                 <p className={styles.childMeta}>{child.paperCount.toLocaleString()} papers</p>
-                <div className={styles.childList}>
-                  {(detail.grandchildren[child.subgenre_id] ?? []).slice(0, 6).map((item) => (
-                    <span key={item.subgenre_id} className={styles.childItem}>
-                      {item.label}
-                    </span>
-                  ))}
-                </div>
               </Link>
             ))}
           </div>
