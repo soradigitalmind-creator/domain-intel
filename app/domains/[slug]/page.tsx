@@ -39,7 +39,10 @@ export default async function DomainPage({ params }: Props) {
     notFound();
   }
 
-  const parentTopics = domain.subgenres.filter((item) => item.parent_id === null).slice(0, 12);
+  const parentTopics = domain.subgenres
+    .filter((item) => item.parent_id === null)
+    .sort((a, b) => (a.subgenre_id === "sg-overview" ? -1 : b.subgenre_id === "sg-overview" ? 1 : 0))
+    .slice(0, 12);
   const childCountByTopicId = new Map<string, number>();
 
   for (const subgenre of domain.subgenres) {
