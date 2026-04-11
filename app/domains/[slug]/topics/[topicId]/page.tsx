@@ -44,10 +44,10 @@ export default async function TopicPage({ params }: Props) {
       <section className={styles.hero}>
         <h1 className={styles.title}>{detail.topic.label}</h1>
         <div className={styles.heroMeta}>
-          <span>{detail.topic.paper_ids.length.toLocaleString()} papers</span>
           {detail.children.length > 0 && (
             <span>{detail.children.length.toLocaleString()} subtopics</span>
           )}
+          <span>{detail.topic.paper_ids.length.toLocaleString()} papers</span>
         </div>
       </section>
 
