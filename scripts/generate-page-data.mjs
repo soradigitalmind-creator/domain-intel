@@ -204,6 +204,11 @@ function buildDomainSummary(slug, bundle, siteDomainData, portalData) {
   };
 }
 
+function capitalizeFirst(s) {
+  if (!s) return s;
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
 function sanitizeTopicSummary(summary) {
   if (typeof summary !== "string" || summary.length === 0) {
     return "";
@@ -253,7 +258,7 @@ function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
 
       return {
         subgenre_id: topic.subgenre_id,
-        label: topic.label,
+        label: capitalizeFirst(topic.label),
         summary: sanitizeTopicSummary(topic.summary),
         paperCount: topic.paper_ids.length,
         subtopicCount: children.length,
@@ -263,7 +268,7 @@ function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
         children: children
           .map((c) => ({
             subgenre_id: c.subgenre_id,
-            label: c.label,
+            label: capitalizeFirst(c.label),
             paperCount: c.paper_ids.length,
           }))
           .sort((a, b) => b.paperCount - a.paperCount)
@@ -357,7 +362,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
     if (!parent) break;
     ancestorTrail.unshift({
       href: `/domains/${slug}/topics/${parent.subgenre_id}`,
-      label: parent.label,
+      label: capitalizeFirst(parent.label),
     });
     currentParentId = parent.parent_id;
   }
@@ -365,14 +370,14 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
   // Children of current topic
   const children = subgenres
     .filter((t) => t.parent_id === topic.subgenre_id)
-    .map((c) => ({ subgenre_id: c.subgenre_id, label: c.label, paperCount: c.paper_ids.length }));
+    .map((c) => ({ subgenre_id: c.subgenre_id, label: capitalizeFirst(c.label), paperCount: c.paper_ids.length }));
 
   // Grandchildren keyed by child id (for display in child cards)
   const grandchildren = {};
   for (const child of children) {
     grandchildren[child.subgenre_id] = subgenres
       .filter((t) => t.parent_id === child.subgenre_id)
-      .map((t) => ({ subgenre_id: t.subgenre_id, label: t.label }));
+      .map((t) => ({ subgenre_id: t.subgenre_id, label: capitalizeFirst(t.label) }));
   }
 
   // Related topics: siblings ranked by entity/concept Jaccard similarity
@@ -394,7 +399,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
       const similarity = union > 0 ? Math.round((intersection / union) * 100) : 0;
       return {
         subgenre_id: t.subgenre_id,
-        label: t.label,
+        label: capitalizeFirst(t.label),
         paperCount: t.paper_ids.length,
         subtopicCount: subgenres.filter((c) => c.parent_id === t.subgenre_id).length,
         similarity,
@@ -414,7 +419,7 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
     domain: domainSummary,
     topic: {
       subgenre_id: topic.subgenre_id,
-      label: topic.label,
+      label: capitalizeFirst(topic.label),
       summary: sanitizeTopicSummary(topic.summary),
       paper_ids: topic.paper_ids,
       parent_id: topic.parent_id,
@@ -667,7 +672,7 @@ async function buildSearchIndex(slugs, portalData) {
           domainSlug: slug,
           domainTitle,
           topicId: topic.subgenre_id,
-          label: topic.label,
+          label: capitalizeFirst(topic.label),
           summary: topic.summary ? topic.summary.slice(0, 140) : "",
         });
         // Include child topics too
@@ -677,7 +682,7 @@ async function buildSearchIndex(slugs, portalData) {
             domainSlug: slug,
             domainTitle,
             topicId: child.subgenre_id,
-            label: child.label,
+            label: capitalizeFirst(child.label),
             summary: "",
           });
         }
