@@ -365,3 +365,14 @@ export async function getPaperDetail(
     path.join(PAGE_DATA_ROOT, slug, "papers", `${paperId}.json`)
   );
 }
+
+export type SearchIndexItem =
+  | { type: "domain"; slug: string; title: string }
+  | { type: "topic"; domainSlug: string; domainTitle: string; topicId: string; label: string; summary: string };
+
+export async function getSearchIndex(): Promise<SearchIndexItem[]> {
+  const data = await readPageData<SearchIndexItem[]>(
+    path.join(PAGE_DATA_ROOT, "search-index.json")
+  );
+  return data ?? [];
+}

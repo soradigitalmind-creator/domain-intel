@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { MenuButton, MenuProvider, SidebarPanel } from "./components/header-menu";
+import { MenuButton, MenuProvider, SearchButton, SidebarPanel } from "./components/header-menu";
 import { TrailProvider } from "./components/trail-context";
 import { listPortalCategories } from "../lib/workplace";
 import "./globals.css";
@@ -32,7 +32,10 @@ export default async function RootLayout({
                 <Link href="/" className="site-logo">
                   Domain Intel
                 </Link>
-                <MenuButton />
+                <div className="site-header-actions">
+                  <SearchButton />
+                  <MenuButton />
+                </div>
               </div>
             </header>
             <SidebarPanel categories={navCategories} />

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   createContext,
   useCallback,
@@ -63,6 +63,24 @@ export function MenuProvider({ children }: { children: React.ReactNode }) {
   return <MenuCtx.Provider value={{ open, toggle, close }}>{children}</MenuCtx.Provider>;
 }
 
+/* ---- Search button (goes inside header, next to hamburger) ---- */
+
+export function SearchButton() {
+  const router = useRouter();
+  return (
+    <button
+      className="site-search-button"
+      aria-label="Search"
+      onClick={() => router.push("/search")}
+    >
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" strokeWidth="1.6" />
+        <line x1="10" y1="10" x2="14.5" y2="14.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      </svg>
+    </button>
+  );
+}
+
 /* ---- Hamburger button (goes inside header) ---- */
 
 export function MenuButton() {
@@ -111,6 +129,7 @@ export function SidebarPanel({ categories }: { categories: NavCategory[] }) {
             </Link>
           ))}
           <div className="sidebar-divider" />
+          <Link href="/search" className={pathname === "/search" ? "sidebar-active" : ""} onClick={close}>Search</Link>
           <Link href="/domains" className={pathname === "/domains" ? "sidebar-active" : ""} onClick={close}>All domains</Link>
         </nav>
       </div>

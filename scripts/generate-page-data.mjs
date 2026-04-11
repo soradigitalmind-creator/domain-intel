@@ -634,9 +634,59 @@ async function main() {
     { topics: 0, papers: 0 }
   );
 
+  // Build and write search index
+  await buildSearchIndex(slugs, portalData);
+
   console.log(
     `Done. ${slugs.length} domains, ${count.topics} topic files, ${count.papers} paper files.`
   );
+}
+
+async function buildSearchIndex(slugs, portalData) {
+  const items = [];
+
+  // Domain entries
+  const domainMap = new Map((portalData?.domains ?? []).map((d) => [d.slug, d]));
+  for (const slug of slugs) {
+    const info = domainMap.get(slug);
+    const title = info?.title ?? titleizeSlug(slug);
+    items.push({ type: "domain", slug, title });
+  }
+
+  // Topic entries — read from already-written topics-index.json
+  await Promise.all(
+    slugs.map(async (slug) => {
+      const info = domainMap.get(slug);
+      const domainTitle = info?.title ?? titleizeSlug(slug);
+      const indexPath = path.join(PAGE_DATA_ROOT, slug, "topics-index.json");
+      const data = await readJson(indexPath);
+      if (!data?.topics) return;
+      for (const topic of data.topics) {
+        items.push({
+          type: "topic",
+          domainSlug: slug,
+          domainTitle,
+          topicId: topic.subgenre_id,
+          label: topic.label,
+          summary: topic.summary ? topic.summary.slice(0, 140) : "",
+        });
+        // Include child topics too
+        for (const child of topic.children ?? []) {
+          items.push({
+            type: "topic",
+            domainSlug: slug,
+            domainTitle,
+            topicId: child.subgenre_id,
+            label: child.label,
+            summary: "",
+          });
+        }
+      }
+    })
+  );
+
+  await writeJson(path.join(PAGE_DATA_ROOT, "search-index.json"), items);
+  console.log(`  search index: ${items.length} entries`);
 }
 
 main().catch((err) => {

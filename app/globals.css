@@ -76,6 +76,34 @@ body.menu-open {
   overflow: hidden;
 }
 
+/* ---- Header actions (search + hamburger) ---- */
+.site-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.site-search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+  color: var(--text);
+}
+
+.site-search-button:hover {
+  background: var(--surface);
+}
+
+.site-search-button:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
 /* ---- Sidebar (OUTSIDE header — no stacking context trap) ---- */
 .sidebar-root {
   position: fixed;
