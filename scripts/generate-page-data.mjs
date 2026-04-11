@@ -123,7 +123,16 @@ function buildSourceMaps(bundle) {
     topicFingerprints.set(topic.subgenre_id, fp);
   }
 
-  return { sourceById, assignmentById, claimsBySource, entitiesBySource, sourcesByEntity, sourcesByConcept, topicFingerprints };
+  // Per-paper fingerprints: entity canonical_ids + concepts
+  const paperFingerprints = new Map();
+  for (const source of bundle.sources) {
+    const fp = new Set();
+    for (const c of source.concepts ?? []) fp.add("c:" + c);
+    for (const ent of entitiesBySource.get(source.source_id) ?? []) fp.add("e:" + ent.canonical_id);
+    paperFingerprints.set(source.source_id, fp);
+  }
+
+  return { sourceById, assignmentById, claimsBySource, entitiesBySource, sourcesByEntity, sourcesByConcept, topicFingerprints, paperFingerprints };
 }
 
 function mapTopicPaper(sourceId, sourceById, assignmentById) {
@@ -436,49 +445,45 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
   };
 }
 
-/** Compute related papers by shared entity + concept overlap. */
+/** Compute related papers by Jaccard similarity on entity + concept fingerprints. */
 function buildRelatedPapers(source, maps, limit = 8) {
-  const { sourceById, sourcesByEntity, sourcesByConcept, entitiesBySource } = maps;
+  const { sourceById, sourcesByEntity, sourcesByConcept, entitiesBySource, paperFingerprints } = maps;
   const sid = source.source_id;
-  const scores = new Map(); // candidate source_id → score
+  const selfFp = paperFingerprints.get(sid) ?? new Set();
+  const candidates = new Set();
 
-  // Score from shared entities (weight: 2 per shared entity)
-  const paperEntities = entitiesBySource.get(sid) ?? [];
-  for (const entity of paperEntities) {
-    const peers = sourcesByEntity.get(entity.canonical_id);
-    if (!peers) continue;
-    for (const peerId of peers) {
-      if (peerId === sid) continue;
-      scores.set(peerId, (scores.get(peerId) ?? 0) + 2);
+  // Collect candidate papers via shared entities and concepts
+  for (const entity of entitiesBySource.get(sid) ?? []) {
+    for (const peerId of sourcesByEntity.get(entity.canonical_id) ?? []) {
+      if (peerId !== sid) candidates.add(peerId);
+    }
+  }
+  for (const concept of source.concepts ?? []) {
+    for (const peerId of sourcesByConcept.get(concept) ?? []) {
+      if (peerId !== sid) candidates.add(peerId);
     }
   }
 
-  // Score from shared concepts (weight: 1 per shared concept)
-  const paperConcepts = source.concepts ?? [];
-  for (const concept of paperConcepts) {
-    const peers = sourcesByConcept.get(concept);
-    if (!peers) continue;
-    for (const peerId of peers) {
-      if (peerId === sid) continue;
-      scores.set(peerId, (scores.get(peerId) ?? 0) + 1);
-    }
-  }
-
-  return Array.from(scores.entries())
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, limit)
-    .map(([peerId, score]) => {
+  return Array.from(candidates)
+    .map((peerId) => {
       const peer = sourceById.get(peerId);
       if (!peer) return null;
+      const otherFp = paperFingerprints.get(peerId) ?? new Set();
+      let intersection = 0;
+      for (const key of selfFp) if (otherFp.has(key)) intersection++;
+      const union = selfFp.size + otherFp.size - intersection;
+      const similarity = union > 0 ? Math.round((intersection / union) * 100) : 0;
       return {
         source_id: peerId,
         title: peer.title,
         year: peer.year ?? null,
         cited_by_count: peer.cited_by_count ?? 0,
-        score,
+        similarity,
       };
     })
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort((a, b) => b.similarity - a.similarity || b.cited_by_count - a.cited_by_count)
+    .slice(0, limit);
 }
 
 /** papers/{paperId}.json — for /domains/[slug]/papers/[paperId] */
@@ -552,6 +557,9 @@ function buildPaperPageData(slug, source, bundle, domainSummary, maps) {
 // Main
 // ---------------------------------------------------------------------------
 
+// Module-level domain fingerprints: slug → Set<string> (topic labels + entity ids)
+const domainFingerprints = new Map();
+
 async function processDomain(slug, portalData) {
   const bundlePath = path.join(SITE_DATA_ROOT, slug, "web-bundle.json");
   const sitePath = path.join(SITE_DATA_ROOT, slug, "site-data.json");
@@ -565,6 +573,12 @@ async function processDomain(slug, portalData) {
     console.warn(`  [skip] ${slug}: no subgenres in web-bundle.json`);
     return { topics: 0, papers: 0 };
   }
+
+  // Build domain fingerprint for cross-domain similarity
+  const domainFp = new Set();
+  for (const sg of bundle.subgenres ?? []) domainFp.add("t:" + sg.label.toLowerCase());
+  for (const ent of (bundle.entities ?? []).slice(0, 200)) domainFp.add("e:" + ent.canonical_id);
+  domainFingerprints.set(slug, domainFp);
 
   const domainSummary = buildDomainSummary(slug, bundle, siteDomainData, portalData);
   const maps = buildSourceMaps(bundle);
@@ -639,11 +653,38 @@ async function main() {
     { topics: 0, papers: 0 }
   );
 
+  // Add Jaccard similarity to relatedDomains in each domain.json
+  await addDomainSimilarities(slugs);
+
   // Build and write search index
   await buildSearchIndex(slugs, portalData);
 
   console.log(
     `Done. ${slugs.length} domains, ${count.topics} topic files, ${count.papers} paper files.`
+  );
+}
+
+async function addDomainSimilarities(slugs) {
+  await Promise.all(
+    slugs.map(async (slug) => {
+      const domainPath = path.join(PAGE_DATA_ROOT, slug, "domain.json");
+      const domain = await readJson(domainPath);
+      if (!domain?.relatedDomains?.length) return;
+
+      const selfFp = domainFingerprints.get(slug) ?? new Set();
+      domain.relatedDomains = domain.relatedDomains
+        .map((rd) => {
+          const otherFp = domainFingerprints.get(rd.slug) ?? new Set();
+          let intersection = 0;
+          for (const key of selfFp) if (otherFp.has(key)) intersection++;
+          const union = selfFp.size + otherFp.size - intersection;
+          const similarity = union > 0 ? Math.round((intersection / union) * 100) : 0;
+          return { ...rd, similarity };
+        })
+        .sort((a, b) => b.similarity - a.similarity);
+
+      await writeJson(domainPath, domain);
+    })
   );
 }
 

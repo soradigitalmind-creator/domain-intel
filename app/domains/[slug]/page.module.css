@@ -75,7 +75,10 @@
 }
 
 .relatedCard {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
   padding: 18px 20px;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 22px;
@@ -92,6 +95,18 @@
 .relatedCard:hover {
   background: #111;
   color: #fff;
+}
+
+.relatedCard:hover .relatedSimilarity {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.relatedSimilarity {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .footerLinks {

@@ -87,7 +87,10 @@ export default async function DomainPage({ params }: Props) {
           <div className={styles.relatedGrid}>
             {domain.relatedDomains.map((d) => (
               <Link key={d.slug} href={`/domains/${d.slug}`} className={styles.relatedCard}>
-                {d.title}
+                <span>{d.title}</span>
+                {d.similarity != null && d.similarity > 0 && (
+                  <span className={styles.relatedSimilarity}>{d.similarity}%</span>
+                )}
               </Link>
             ))}
           </div>

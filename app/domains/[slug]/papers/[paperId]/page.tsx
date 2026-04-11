@@ -103,7 +103,12 @@ export default async function PaperPage({ params }: Props) {
                 href={`/domains/${slug}/papers/${rp.source_id.split("/").pop() ?? rp.source_id}`}
                 className={styles.relatedCard}
               >
-                <h3 className={styles.relatedTitle}>{rp.title}</h3>
+                <div className={styles.relatedTop}>
+                  <h3 className={styles.relatedTitle}>{rp.title}</h3>
+                  {rp.similarity > 0 && (
+                    <span className={styles.relatedSimilarity}>{rp.similarity}%</span>
+                  )}
+                </div>
                 <p className={styles.relatedMeta}>
                   {rp.year ?? "n/a"} / {rp.cited_by_count.toLocaleString()} cites
                 </p>

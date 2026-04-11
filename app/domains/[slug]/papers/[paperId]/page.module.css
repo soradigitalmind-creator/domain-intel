@@ -149,10 +149,31 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.relatedTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .relatedTitle {
   margin: 0;
   font-size: 1.05rem;
   letter-spacing: -0.03em;
+  flex: 1;
+  min-width: 0;
+}
+
+.relatedSimilarity {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.relatedCard:hover .relatedSimilarity {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .relatedMeta {

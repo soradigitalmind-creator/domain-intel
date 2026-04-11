@@ -26,7 +26,7 @@ export type DomainSummary = {
   facetCounts: Record<string, number>;
   hasDetail: boolean;
   abstractionLabel?: string;
-  relatedDomains: Array<{ slug: string; title: string }>;
+  relatedDomains: Array<{ slug: string; title: string; similarity?: number }>;
 };
 
 export type DomainDetail = DomainSummary & {
@@ -132,7 +132,7 @@ export type PaperDetail = {
       title: string;
       year: number | null;
       cited_by_count: number;
-      score: number;
+      similarity: number;
     }>;
   };
 };
