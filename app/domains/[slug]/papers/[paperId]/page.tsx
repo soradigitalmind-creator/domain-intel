@@ -73,31 +73,6 @@ export default async function PaperPage({ params }: Props) {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Concepts</h2>
-        <div className={styles.tagGrid}>
-          {detail.paper.concepts.map((concept) => (
-            <span key={concept} className={styles.tag}>
-              {concept}
-            </span>
-          ))}
-        </div>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Entities</h2>
-        <div className={styles.entityGrid}>
-          {detail.paper.entities.map((entity) => (
-            <article key={entity.canonical_id} className={styles.entityCard}>
-              <strong className={styles.entityName}>{entity.canonical_name}</strong>
-              <p className={styles.entityMeta}>
-                {entity.entity_type} / evidence {entity.evidence_count}
-              </p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Claims</h2>
         {detail.paper.claims.length > 0 ? (
           <div className={styles.claimGrid}>
