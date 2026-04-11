@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-03T11:33:24.389427Z",
-  "total_domains": 47,
+  "total_domains": 48,
   "categories": [
     {
       "label": "Life",
@@ -174,7 +174,7 @@
       "label": "Society",
       "slug": "society",
       "description": "Includes markets, behavior, institutions, and collective life.",
-      "count": 10,
+      "count": 11,
       "domains": [
         {
           "slug": "business",
@@ -215,6 +215,10 @@
         {
           "slug": "psychology",
           "title": "Psychology"
+        },
+        {
+          "slug": "social-sciences",
+          "title": "Social Sciences"
         }
       ]
     }
@@ -1494,6 +1498,31 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
       "updated_at": "2026-04-06T13:58:13.598744Z"
+    },
+    {
+      "slug": "social-sciences",
+      "title": "Social Sciences",
+      "sources": 197,
+      "effective_papers": 197,
+      "subgenres": 38,
+      "parent_subgenres": 8,
+      "child_subgenres": 30,
+      "entities": 536,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 197,
+        "total_papers": 197,
+        "facet_counts": {
+          "none": 197
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning social science.",
+      "updated_at": "2026-04-11T11:51:42.204995Z"
     },
     {
       "slug": "statistics",
