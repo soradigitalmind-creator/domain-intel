@@ -1,0 +1,1974 @@
+{
+  "slug": "battery-technology",
+  "title": "Battery Technology",
+  "updated_at": "2026-04-12T04:21:44.761133Z",
+  "snapshot": {
+    "papers": 259,
+    "topics": 6,
+    "subtopics": 37,
+    "entities": 568,
+    "claims": 10
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 366,
+      "total_papers": 366,
+      "facet_counts": {
+        "none": 366
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning advanced battery technology research.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 6,
+    "descendant_topics": 37,
+    "max_depth": 2,
+    "leaf_topics": 37
+  },
+  "rising_topics": [
+    {
+      "id": "sg-ion-battery",
+      "label": "Ion battery",
+      "url": "/domains/battery-technology/topics/sg-ion-battery",
+      "trend": "rising",
+      "year_total": 476868
+    },
+    {
+      "id": "sg-lithium-ion-battery",
+      "label": "Lithium-ion battery",
+      "url": "/domains/battery-technology/topics/sg-lithium-ion-battery",
+      "trend": "rising",
+      "year_total": 293850
+    },
+    {
+      "id": "sg-ionic-conductivity",
+      "label": "Ionic conductivity",
+      "url": "/domains/battery-technology/topics/sg-ionic-conductivity",
+      "trend": "rising",
+      "year_total": 283645
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-ion-battery",
+      "label": "Ion battery",
+      "url": "/domains/battery-technology/topics/sg-ion-battery",
+      "paper_count": 163,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "ion battery",
+        "lithium ion",
+        "lithium ion battery",
+        "lithium-ion battery electric"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-ion-battery-lithium-ion",
+          "label": "Lithium ion",
+          "url": "/domains/battery-technology/topics/sg-ion-battery-lithium-ion",
+          "paper_count": 92
+        },
+        {
+          "id": "sg-ion-battery-energy-storage",
+          "label": "Energy storage",
+          "url": "/domains/battery-technology/topics/sg-ion-battery-energy-storage",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-ion-battery-fuel-cell-related",
+          "label": "Fuel cell related",
+          "url": "/domains/battery-technology/topics/sg-ion-battery-fuel-cell-related",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-ion-battery-carbon-fibers",
+          "label": "Carbon fibers",
+          "url": "/domains/battery-technology/topics/sg-ion-battery-carbon-fibers",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-ion-battery-electric-vehicle",
+          "label": "Electric vehicle",
+          "url": "/domains/battery-technology/topics/sg-ion-battery-electric-vehicle",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-ion-battery-potassium-ion",
+          "label": "Potassium ion",
+          "url": "/domains/battery-technology/topics/sg-ion-battery-potassium-ion",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-lithium-ion-battery",
+      "label": "Lithium-ion battery",
+      "url": "/domains/battery-technology/topics/sg-lithium-ion-battery",
+      "paper_count": 37,
+      "subtopic_count": 12,
+      "trend": "rising",
+      "summary": "entities: battery, ion, lithium-ion battery",
+      "tags": [
+        "cathode lithium-ion battery",
+        "electrode lithium-ion battery",
+        "high-performance lithium-ion battery",
+        "lithium-ion battery"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-lithium-ion-battery-electric-vehicle-applications",
+          "label": "Electric vehicle applications",
+          "url": "/domains/battery-technology/topics/sg-lithium-ion-battery-electric-vehicle-applications",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-lithium-ion-battery-environmentally-friendly",
+          "label": "Environmentally friendly",
+          "url": "/domains/battery-technology/topics/sg-lithium-ion-battery-environmentally-friendly",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-lithium-ion-battery-reliability-engineering",
+          "label": "Reliability engineering",
+          "url": "/domains/battery-technology/topics/sg-lithium-ion-battery-reliability-engineering",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-lithium-ion-battery-life-cycle-assessment",
+          "label": "Life-cycle assessment",
+          "url": "/domains/battery-technology/topics/sg-lithium-ion-battery-life-cycle-assessment",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-lithium-ion-battery-raman-spectroscopy",
+          "label": "Raman spectroscopy",
+          "url": "/domains/battery-technology/topics/sg-lithium-ion-battery-raman-spectroscopy",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-lithium-ion-battery-automotive-engineering",
+          "label": "Automotive engineering",
+          "url": "/domains/battery-technology/topics/sg-lithium-ion-battery-automotive-engineering",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2011899447",
+          "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+          "year": "2013",
+          "cited_by_count": 9649,
+          "url": "/domains/battery-technology/papers/W2011899447"
+        },
+        {
+          "source_id": "https://openalex.org/W2124043346",
+          "title": "High-performance lithium battery anodes using silicon nanowires",
+          "year": "2007",
+          "cited_by_count": 6574,
+          "url": "/domains/battery-technology/papers/W2124043346"
+        },
+        {
+          "source_id": "https://openalex.org/W1985013794",
+          "title": "Lithium batteries: Status, prospects and future",
+          "year": "2009",
+          "cited_by_count": 5038,
+          "url": "/domains/battery-technology/papers/W1985013794"
+        }
+      ]
+    },
+    {
+      "id": "sg-ionic-conductivity",
+      "label": "Ionic conductivity",
+      "url": "/domains/battery-technology/topics/sg-ionic-conductivity",
+      "paper_count": 18,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: electrolyte, electrode, battery",
+      "tags": [
+        "electrochemical window",
+        "fast ion conductor",
+        "ionic conductivity",
+        "polymer electrolyte"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-ionic-conductivity-fast-ion-conductor",
+          "label": "Fast ion conductor",
+          "url": "/domains/battery-technology/topics/sg-ionic-conductivity-fast-ion-conductor",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-ionic-conductivity-electrochemical-window",
+          "label": "Electrochemical window",
+          "url": "/domains/battery-technology/topics/sg-ionic-conductivity-electrochemical-window",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-ionic-conductivity-energy-storage",
+          "label": "Energy storage",
+          "url": "/domains/battery-technology/topics/sg-ionic-conductivity-energy-storage",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-ionic-conductivity-ionic-bonding",
+          "label": "Ionic bonding",
+          "url": "/domains/battery-technology/topics/sg-ionic-conductivity-ionic-bonding",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-ionic-conductivity-lithium-battery",
+          "label": "Lithium battery",
+          "url": "/domains/battery-technology/topics/sg-ionic-conductivity-lithium-battery",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-ionic-conductivity-polymer-electrolyte",
+          "label": "Polymer electrolyte",
+          "url": "/domains/battery-technology/topics/sg-ionic-conductivity-polymer-electrolyte",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2587767928",
+          "title": "Lithium battery chemistries enabled by solid-state electrolytes",
+          "year": "2017",
+          "cited_by_count": 4435,
+          "url": "/domains/battery-technology/papers/W2587767928"
+        },
+        {
+          "source_id": "https://openalex.org/W2153511586",
+          "title": "A lithium superionic conductor",
+          "year": "2011",
+          "cited_by_count": 4776,
+          "url": "/domains/battery-technology/papers/W2153511586"
+        },
+        {
+          "source_id": "https://openalex.org/W4321618060",
+          "title": "Challenges in speeding up solid-state battery development",
+          "year": "2023",
+          "cited_by_count": 1411,
+          "url": "/domains/battery-technology/papers/W4321618060"
+        }
+      ]
+    },
+    {
+      "id": "sg-lithium-metal",
+      "label": "Lithium metal",
+      "url": "/domains/battery-technology/topics/sg-lithium-metal",
+      "paper_count": 17,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: battery, electrode, lithium",
+      "tags": [
+        "lithium metal",
+        "lithium metal anode",
+        "lithium metal battery",
+        "lithium-metal battery"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-lithium-metal-lithium-metal-anode",
+          "label": "Lithium metal anode",
+          "url": "/domains/battery-technology/topics/sg-lithium-metal-lithium-metal-anode",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-lithium-metal-high-energy-long-cycling-lithium-metal-batteries",
+          "label": "High-energy long-cycling lithium metal batteries",
+          "url": "/domains/battery-technology/topics/sg-lithium-metal-high-energy-long-cycling-lithium-metal-batteries",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-lithium-metal-composite-anode-for-lithium-metal-batteries",
+          "label": "Composite anode for lithium metal batteries",
+          "url": "/domains/battery-technology/topics/sg-lithium-metal-composite-anode-for-lithium-metal-batteries",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-lithium-metal-stable-lithium-metal",
+          "label": "Stable lithium metal",
+          "url": "/domains/battery-technology/topics/sg-lithium-metal-stable-lithium-metal",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-lithium-metal-lithium-fluoride-in-batteries",
+          "label": "Lithium fluoride in batteries",
+          "url": "/domains/battery-technology/topics/sg-lithium-metal-lithium-fluoride-in-batteries",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2593815020",
+          "title": "Reviving the lithium metal anode for high-energy batteries",
+          "year": "2017",
+          "cited_by_count": 6471,
+          "url": "/domains/battery-technology/papers/W2593815020"
+        },
+        {
+          "source_id": "https://openalex.org/W2742075475",
+          "title": "Toward Safe Lithium Metal Anode in Rechargeable Batteries: A Review",
+          "year": "2017",
+          "cited_by_count": 5951,
+          "url": "/domains/battery-technology/papers/W2742075475"
+        },
+        {
+          "source_id": "https://openalex.org/W2916252188",
+          "title": "Pathways for practical high-energy long-cycling lithium metal batteries",
+          "year": "2019",
+          "cited_by_count": 3269,
+          "url": "/domains/battery-technology/papers/W2916252188"
+        }
+      ]
+    },
+    {
+      "id": "sg-flow-battery",
+      "label": "Flow battery",
+      "url": "/domains/battery-technology/topics/sg-flow-battery",
+      "paper_count": 12,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: battery, advanced battery technology research, flow battery",
+      "tags": [
+        "battery energy density",
+        "flow battery",
+        "flow battery storage",
+        "redox flow battery"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-flow-battery-energy-storage",
+          "label": "Energy storage",
+          "url": "/domains/battery-technology/topics/sg-flow-battery-energy-storage",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-flow-battery-biochemical-engineering",
+          "label": "Biochemical engineering",
+          "url": "/domains/battery-technology/topics/sg-flow-battery-biochemical-engineering",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-flow-battery-flow-battery-remaining",
+          "label": "Flow battery remaining",
+          "url": "/domains/battery-technology/topics/sg-flow-battery-flow-battery-remaining",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2017428530",
+          "title": "Progress in electrical energy storage system: A critical review",
+          "year": "2009",
+          "cited_by_count": 3630,
+          "url": "/domains/battery-technology/papers/W2017428530"
+        },
+        {
+          "source_id": "https://openalex.org/W2100100522",
+          "title": "Anion-exchange membranes in electrochemical energy systems",
+          "year": "2014",
+          "cited_by_count": 1980,
+          "url": "/domains/battery-technology/papers/W2100100522"
+        },
+        {
+          "source_id": "https://openalex.org/W3177188809",
+          "title": "Fundamentals, status and promise of sodium-based batteries",
+          "year": "2021",
+          "cited_by_count": 1234,
+          "url": "/domains/battery-technology/papers/W3177188809"
+        }
+      ]
+    },
+    {
+      "id": "sg-rechargeable-battery",
+      "label": "Rechargeable battery",
+      "url": "/domains/battery-technology/topics/sg-rechargeable-battery",
+      "paper_count": 12,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: battery, charge, rechargeable",
+      "tags": [
+        "battery cathode",
+        "electrode rechargeable battery",
+        "rechargeable battery",
+        "rechargeable battery capacity"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-rechargeable-battery-metal-organic-frameworks",
+          "label": "Metal-organic frameworks",
+          "url": "/domains/battery-technology/topics/sg-rechargeable-battery-metal-organic-frameworks",
+          "paper_count": 11
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1949231392",
+          "title": "Issues and challenges facing rechargeable lithium batteries",
+          "year": "2001",
+          "cited_by_count": 20458,
+          "url": "/domains/battery-technology/papers/W1949231392"
+        },
+        {
+          "source_id": "https://openalex.org/W3023435578",
+          "title": "Challenges for Rechargeable Li Batteries",
+          "year": "2009",
+          "cited_by_count": 10631,
+          "url": "/domains/battery-technology/papers/W3023435578"
+        },
+        {
+          "source_id": "https://openalex.org/W2097924219",
+          "title": "Challenges Facing Lithium Batteries and Electrical Double‐Layer Capacitors",
+          "year": "2012",
+          "cited_by_count": 2673,
+          "url": "/domains/battery-technology/papers/W2097924219"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Ion battery",
+      "paper_count": 14,
+      "papers": [
+        {
+          "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+          "year": "2011",
+          "cited_by_count": 14506,
+          "topic": "Ion battery",
+          "url": "papers/https-openalex-org-w2089525884.html"
+        },
+        {
+          "title": "30 Years of Lithium‐Ion Batteries",
+          "year": "2018",
+          "cited_by_count": 5795,
+          "topic": "Ion battery",
+          "url": "papers/https-openalex-org-w2808025896.html"
+        },
+        {
+          "title": "Challenges in the development of advanced Li-ion batteries: a review",
+          "year": "2011",
+          "cited_by_count": 6607,
+          "topic": "Ion battery",
+          "url": "papers/https-openalex-org-w1998062017.html"
+        },
+        {
+          "title": "Sodium-ion batteries: present and future",
+          "year": "2017",
+          "cited_by_count": 4980,
+          "topic": "Ion battery",
+          "url": "papers/https-openalex-org-w2603442821.html"
+        },
+        {
+          "title": "Nano-sized transition-metal oxides as negative-electrode materials for lithium-ion batteries",
+          "year": "2000",
+          "cited_by_count": 7964,
+          "topic": "Ion battery",
+          "url": "papers/https-openalex-org-w1626854854.html"
+        },
+        {
+          "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+          "year": "2004",
+          "cited_by_count": 7215,
+          "topic": "Ion battery",
+          "url": "papers/https-openalex-org-w1989937017.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 13,
+      "papers": [
+        {
+          "title": "Materials for electrochemical capacitors",
+          "year": "2008",
+          "cited_by_count": 15921,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2053328406.html"
+        },
+        {
+          "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+          "year": "2013",
+          "cited_by_count": 9649,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2011899447.html"
+        },
+        {
+          "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+          "year": "2017",
+          "cited_by_count": 7089,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2574394697.html"
+        },
+        {
+          "title": "Towards greener and more sustainable batteries for electrical energy storage",
+          "year": "2014",
+          "cited_by_count": 7538,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2091875228.html"
+        },
+        {
+          "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+          "year": "2017",
+          "cited_by_count": 6024,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2575823937.html"
+        },
+        {
+          "title": "Graphene-Based Ultracapacitors",
+          "year": "2008",
+          "cited_by_count": 8271,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2018652376.html"
+        }
+      ]
+    },
+    {
+      "label": "Lithium metal",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Reviving the lithium metal anode for high-energy batteries",
+          "year": "2017",
+          "cited_by_count": 6471,
+          "topic": "Lithium metal",
+          "url": "papers/https-openalex-org-w2593815020.html"
+        },
+        {
+          "title": "Toward Safe Lithium Metal Anode in Rechargeable Batteries: A Review",
+          "year": "2017",
+          "cited_by_count": 5951,
+          "topic": "Lithium metal",
+          "url": "papers/https-openalex-org-w2742075475.html"
+        },
+        {
+          "title": "Pathways for practical high-energy long-cycling lithium metal batteries",
+          "year": "2019",
+          "cited_by_count": 3269,
+          "topic": "Lithium metal",
+          "url": "papers/https-openalex-org-w2916252188.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon fibers",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The chemistry of graphene oxide",
+          "year": "2009",
+          "cited_by_count": 11230,
+          "topic": "Carbon fibers",
+          "url": "papers/https-openalex-org-w2135479172.html"
+        },
+        {
+          "title": "Graphene and Graphene Oxide: Synthesis, Properties, and Applications",
+          "year": "2010",
+          "cited_by_count": 10373,
+          "topic": "Carbon fibers",
+          "url": "papers/https-openalex-org-w1976156302.html"
+        }
+      ]
+    },
+    {
+      "label": "Electric vehicle",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "High-performance lithium battery anodes using silicon nanowires",
+          "year": "2007",
+          "cited_by_count": 6574,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w2124043346.html"
+        },
+        {
+          "title": "Lithium batteries: Status, prospects and future",
+          "year": "2009",
+          "cited_by_count": 5038,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w1985013794.html"
+        }
+      ]
+    },
+    {
+      "label": "Ionic conductivity",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Lithium battery chemistries enabled by solid-state electrolytes",
+          "year": "2017",
+          "cited_by_count": 4435,
+          "topic": "Ionic conductivity",
+          "url": "papers/https-openalex-org-w2587767928.html"
+        },
+        {
+          "title": "A lithium superionic conductor",
+          "year": "2011",
+          "cited_by_count": 4776,
+          "topic": "Ionic conductivity",
+          "url": "papers/https-openalex-org-w2153511586.html"
+        }
+      ]
+    },
+    {
+      "label": "Rechargeable battery",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Issues and challenges facing rechargeable lithium batteries",
+          "year": "2001",
+          "cited_by_count": 20458,
+          "topic": "Rechargeable battery",
+          "url": "papers/https-openalex-org-w1949231392.html"
+        },
+        {
+          "title": "Challenges for Rechargeable Li Batteries",
+          "year": "2009",
+          "cited_by_count": 10631,
+          "topic": "Rechargeable battery",
+          "url": "papers/https-openalex-org-w3023435578.html"
+        }
+      ]
+    },
+    {
+      "label": "Energy storage",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Building better batteries",
+          "year": "2008",
+          "cited_by_count": 19130,
+          "topic": "Energy storage",
+          "url": "papers/https-openalex-org-w2006318126.html"
+        }
+      ]
+    },
+    {
+      "label": "Flow battery remaining",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Li–O2 and Li–S batteries with high energy storage",
+          "year": "2011",
+          "cited_by_count": 9287,
+          "topic": "Flow battery remaining",
+          "url": "papers/https-openalex-org-w2151207643.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2006318126",
+      "title": "Building better batteries",
+      "year": 2008,
+      "cited_by_count": 19130,
+      "adjusted_cited_by_count": 4508.98,
+      "primary_topic_id": "sg-flow-battery-energy-storage",
+      "primary_topic_label": "Energy storage",
+      "url": "/domains/battery-technology/papers/W2006318126"
+    },
+    {
+      "source_id": "https://openalex.org/W1949231392",
+      "title": "Issues and challenges facing rechargeable lithium batteries",
+      "year": 2001,
+      "cited_by_count": 20458,
+      "adjusted_cited_by_count": 4091.6,
+      "primary_topic_id": "sg-rechargeable-battery",
+      "primary_topic_label": "Rechargeable battery",
+      "url": "/domains/battery-technology/papers/W1949231392"
+    },
+    {
+      "source_id": "https://openalex.org/W2053328406",
+      "title": "Materials for electrochemical capacitors",
+      "year": 2008,
+      "cited_by_count": 15921,
+      "adjusted_cited_by_count": 3752.62,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2053328406"
+    },
+    {
+      "source_id": "https://openalex.org/W2089525884",
+      "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+      "year": 2011,
+      "cited_by_count": 14506,
+      "adjusted_cited_by_count": 3745.43,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2089525884"
+    },
+    {
+      "source_id": "https://openalex.org/W2135479172",
+      "title": "The chemistry of graphene oxide",
+      "year": 2009,
+      "cited_by_count": 11230,
+      "adjusted_cited_by_count": 2723.68,
+      "primary_topic_id": "sg-ion-battery-carbon-fibers",
+      "primary_topic_label": "Carbon fibers",
+      "url": "/domains/battery-technology/papers/W2135479172"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9649,
+      "adjusted_cited_by_count": 2676.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W1976156302",
+      "title": "Graphene and Graphene Oxide: Synthesis, Properties, and Applications",
+      "year": 2010,
+      "cited_by_count": 10373,
+      "adjusted_cited_by_count": 2593.25,
+      "primary_topic_id": "sg-ion-battery-carbon-fibers",
+      "primary_topic_label": "Carbon fibers",
+      "url": "/domains/battery-technology/papers/W1976156302"
+    },
+    {
+      "source_id": "https://openalex.org/W3023435578",
+      "title": "Challenges for Rechargeable Li Batteries",
+      "year": 2009,
+      "cited_by_count": 10631,
+      "adjusted_cited_by_count": 2578.4,
+      "primary_topic_id": "sg-rechargeable-battery",
+      "primary_topic_label": "Rechargeable battery",
+      "url": "/domains/battery-technology/papers/W3023435578"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9287,
+      "adjusted_cited_by_count": 2397.89,
+      "primary_topic_id": "sg-flow-battery-flow-battery-remaining",
+      "primary_topic_label": "Flow battery remaining",
+      "url": "/domains/battery-technology/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2574394697",
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "year": 2017,
+      "cited_by_count": 7089,
+      "adjusted_cited_by_count": 2363.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2574394697"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7538,
+      "adjusted_cited_by_count": 2176.03,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2593815020",
+      "title": "Reviving the lithium metal anode for high-energy batteries",
+      "year": 2017,
+      "cited_by_count": 6471,
+      "adjusted_cited_by_count": 2157.0,
+      "primary_topic_id": "sg-lithium-metal",
+      "primary_topic_label": "Lithium metal",
+      "url": "/domains/battery-technology/papers/W2593815020"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5795,
+      "adjusted_cited_by_count": 2048.84,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2575823937",
+      "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+      "year": 2017,
+      "cited_by_count": 6024,
+      "adjusted_cited_by_count": 2008.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2575823937"
+    },
+    {
+      "source_id": "https://openalex.org/W2742075475",
+      "title": "Toward Safe Lithium Metal Anode in Rechargeable Batteries: A Review",
+      "year": 2017,
+      "cited_by_count": 5951,
+      "adjusted_cited_by_count": 1983.67,
+      "primary_topic_id": "sg-lithium-metal",
+      "primary_topic_label": "Lithium metal",
+      "url": "/domains/battery-technology/papers/W2742075475"
+    },
+    {
+      "source_id": "https://openalex.org/W2018652376",
+      "title": "Graphene-Based Ultracapacitors",
+      "year": 2008,
+      "cited_by_count": 8271,
+      "adjusted_cited_by_count": 1949.49,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2018652376"
+    },
+    {
+      "source_id": "https://openalex.org/W2142841029",
+      "title": "Nanostructured materials for advanced energy conversion and storage devices",
+      "year": 2005,
+      "cited_by_count": 8729,
+      "adjusted_cited_by_count": 1904.82,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2142841029"
+    },
+    {
+      "source_id": "https://openalex.org/W1998062017",
+      "title": "Challenges in the development of advanced Li-ion batteries: a review",
+      "year": 2011,
+      "cited_by_count": 6607,
+      "adjusted_cited_by_count": 1705.92,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W1998062017"
+    },
+    {
+      "source_id": "https://openalex.org/W2603442821",
+      "title": "Sodium-ion batteries: present and future",
+      "year": 2017,
+      "cited_by_count": 4980,
+      "adjusted_cited_by_count": 1660.0,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2603442821"
+    },
+    {
+      "source_id": "https://openalex.org/W1626854854",
+      "title": "Nano-sized transition-metal oxides as negative-electrode materials for lithium-ion batteries",
+      "year": 2000,
+      "cited_by_count": 7964,
+      "adjusted_cited_by_count": 1561.87,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W1626854854"
+    },
+    {
+      "source_id": "https://openalex.org/W1989937017",
+      "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+      "year": 2004,
+      "cited_by_count": 7215,
+      "adjusted_cited_by_count": 1538.24,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W1989937017"
+    },
+    {
+      "source_id": "https://openalex.org/W2328134238",
+      "title": "Promise and reality of post-lithium-ion batteries with high energy densities",
+      "year": 2016,
+      "cited_by_count": 4859,
+      "adjusted_cited_by_count": 1536.55,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2328134238"
+    },
+    {
+      "source_id": "https://openalex.org/W2022299938",
+      "title": "Electrocatalyst approaches and challenges for automotive fuel cells",
+      "year": 2012,
+      "cited_by_count": 5707,
+      "adjusted_cited_by_count": 1525.26,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2022299938"
+    },
+    {
+      "source_id": "https://openalex.org/W2162677524",
+      "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+      "year": 2014,
+      "cited_by_count": 5254,
+      "adjusted_cited_by_count": 1516.7,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2162677524"
+    },
+    {
+      "source_id": "https://openalex.org/W2124043346",
+      "title": "High-performance lithium battery anodes using silicon nanowires",
+      "year": 2007,
+      "cited_by_count": 6574,
+      "adjusted_cited_by_count": 1508.18,
+      "primary_topic_id": "sg-ion-battery-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/battery-technology/papers/W2124043346"
+    },
+    {
+      "source_id": "https://openalex.org/W2587767928",
+      "title": "Lithium battery chemistries enabled by solid-state electrolytes",
+      "year": 2017,
+      "cited_by_count": 4435,
+      "adjusted_cited_by_count": 1478.33,
+      "primary_topic_id": "sg-ionic-conductivity",
+      "primary_topic_label": "Ionic conductivity",
+      "url": "/domains/battery-technology/papers/W2587767928"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4612,
+      "adjusted_cited_by_count": 1458.44,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W613060151",
+      "title": "Electrochemical Supercapacitors : Scientific Fundamentals and Technological Applications",
+      "year": 2013,
+      "cited_by_count": 5031,
+      "adjusted_cited_by_count": 1395.35,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W613060151"
+    },
+    {
+      "source_id": "https://openalex.org/W1970320842",
+      "title": "High-rate electrochemical energy storage through Li+ intercalation pseudocapacitance",
+      "year": 2013,
+      "cited_by_count": 4970,
+      "adjusted_cited_by_count": 1378.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W1970320842"
+    },
+    {
+      "source_id": "https://openalex.org/W2019903682",
+      "title": "Nanomaterials for Rechargeable Lithium Batteries",
+      "year": 2008,
+      "cited_by_count": 5841,
+      "adjusted_cited_by_count": 1376.74,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2019903682"
+    },
+    {
+      "source_id": "https://openalex.org/W2076968595",
+      "title": "A Perovskite Oxide Optimized for Oxygen Evolution Catalysis from Molecular Orbital Principles",
+      "year": 2011,
+      "cited_by_count": 5229,
+      "adjusted_cited_by_count": 1350.12,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2076968595"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3668,
+      "adjusted_cited_by_count": 1296.83,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2983762108",
+      "title": "Recycling lithium-ion batteries from electric vehicles",
+      "year": 2019,
+      "cited_by_count": 3418,
+      "adjusted_cited_by_count": 1291.88,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2983762108"
+    },
+    {
+      "source_id": "https://openalex.org/W2108376819",
+      "title": "Preparation and characterization of graphene oxide paper",
+      "year": 2007,
+      "cited_by_count": 5545,
+      "adjusted_cited_by_count": 1272.11,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2108376819"
+    },
+    {
+      "source_id": "https://openalex.org/W1972767018",
+      "title": "Lithium metal anodes for rechargeable batteries",
+      "year": 2013,
+      "cited_by_count": 4572,
+      "adjusted_cited_by_count": 1268.04,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W1972767018"
+    },
+    {
+      "source_id": "https://openalex.org/W2916252188",
+      "title": "Pathways for practical high-energy long-cycling lithium metal batteries",
+      "year": 2019,
+      "cited_by_count": 3269,
+      "adjusted_cited_by_count": 1235.57,
+      "primary_topic_id": "sg-lithium-metal",
+      "primary_topic_label": "Lithium metal",
+      "url": "/domains/battery-technology/papers/W2916252188"
+    },
+    {
+      "source_id": "https://openalex.org/W2153511586",
+      "title": "A lithium superionic conductor",
+      "year": 2011,
+      "cited_by_count": 4776,
+      "adjusted_cited_by_count": 1233.16,
+      "primary_topic_id": "sg-ionic-conductivity",
+      "primary_topic_label": "Ionic conductivity",
+      "url": "/domains/battery-technology/papers/W2153511586"
+    },
+    {
+      "source_id": "https://openalex.org/W1985013794",
+      "title": "Lithium batteries: Status, prospects and future",
+      "year": 2009,
+      "cited_by_count": 5038,
+      "adjusted_cited_by_count": 1221.89,
+      "primary_topic_id": "sg-ion-battery-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/battery-technology/papers/W1985013794"
+    },
+    {
+      "source_id": "https://openalex.org/W2274258295",
+      "title": "Recent Advances in Electrocatalysts for Oxygen Reduction Reaction",
+      "year": 2016,
+      "cited_by_count": 3792,
+      "adjusted_cited_by_count": 1199.14,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/battery-technology/papers/W2274258295"
+    },
+    {
+      "source_id": "https://openalex.org/W2060543343",
+      "title": "Sodium‐Ion Batteries",
+      "year": 2012,
+      "cited_by_count": 4403,
+      "adjusted_cited_by_count": 1176.75,
+      "primary_topic_id": "sg-ion-battery",
+      "primary_topic_label": "Ion battery",
+      "url": "/domains/battery-technology/papers/W2060543343"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2006318126",
+      "title": "Building better batteries",
+      "year": 2008,
+      "cited_by_count": 19130,
+      "adjusted_cited_by_count": 4508.98,
+      "url": "/domains/battery-technology/papers/W2006318126"
+    },
+    {
+      "source_id": "https://openalex.org/W1949231392",
+      "title": "Issues and challenges facing rechargeable lithium batteries",
+      "year": 2001,
+      "cited_by_count": 20458,
+      "adjusted_cited_by_count": 4091.6,
+      "url": "/domains/battery-technology/papers/W1949231392"
+    },
+    {
+      "source_id": "https://openalex.org/W2053328406",
+      "title": "Materials for electrochemical capacitors",
+      "year": 2008,
+      "cited_by_count": 15921,
+      "adjusted_cited_by_count": 3752.62,
+      "url": "/domains/battery-technology/papers/W2053328406"
+    },
+    {
+      "source_id": "https://openalex.org/W2089525884",
+      "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+      "year": 2011,
+      "cited_by_count": 14506,
+      "adjusted_cited_by_count": 3745.43,
+      "url": "/domains/battery-technology/papers/W2089525884"
+    },
+    {
+      "source_id": "https://openalex.org/W2135479172",
+      "title": "The chemistry of graphene oxide",
+      "year": 2009,
+      "cited_by_count": 11230,
+      "adjusted_cited_by_count": 2723.68,
+      "url": "/domains/battery-technology/papers/W2135479172"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9649,
+      "adjusted_cited_by_count": 2676.15,
+      "url": "/domains/battery-technology/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W1976156302",
+      "title": "Graphene and Graphene Oxide: Synthesis, Properties, and Applications",
+      "year": 2010,
+      "cited_by_count": 10373,
+      "adjusted_cited_by_count": 2593.25,
+      "url": "/domains/battery-technology/papers/W1976156302"
+    },
+    {
+      "source_id": "https://openalex.org/W3023435578",
+      "title": "Challenges for Rechargeable Li Batteries",
+      "year": 2009,
+      "cited_by_count": 10631,
+      "adjusted_cited_by_count": 2578.4,
+      "url": "/domains/battery-technology/papers/W3023435578"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9287,
+      "adjusted_cited_by_count": 2397.89,
+      "url": "/domains/battery-technology/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2574394697",
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "year": 2017,
+      "cited_by_count": 7089,
+      "adjusted_cited_by_count": 2363.0,
+      "url": "/domains/battery-technology/papers/W2574394697"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7538,
+      "adjusted_cited_by_count": 2176.03,
+      "url": "/domains/battery-technology/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2593815020",
+      "title": "Reviving the lithium metal anode for high-energy batteries",
+      "year": 2017,
+      "cited_by_count": 6471,
+      "adjusted_cited_by_count": 2157.0,
+      "url": "/domains/battery-technology/papers/W2593815020"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5795,
+      "adjusted_cited_by_count": 2048.84,
+      "url": "/domains/battery-technology/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2575823937",
+      "title": "Electrocatalysis for the oxygen evolution reaction: recent development and future perspectives",
+      "year": 2017,
+      "cited_by_count": 6024,
+      "adjusted_cited_by_count": 2008.0,
+      "url": "/domains/battery-technology/papers/W2575823937"
+    },
+    {
+      "source_id": "https://openalex.org/W2742075475",
+      "title": "Toward Safe Lithium Metal Anode in Rechargeable Batteries: A Review",
+      "year": 2017,
+      "cited_by_count": 5951,
+      "adjusted_cited_by_count": 1983.67,
+      "url": "/domains/battery-technology/papers/W2742075475"
+    },
+    {
+      "source_id": "https://openalex.org/W2018652376",
+      "title": "Graphene-Based Ultracapacitors",
+      "year": 2008,
+      "cited_by_count": 8271,
+      "adjusted_cited_by_count": 1949.49,
+      "url": "/domains/battery-technology/papers/W2018652376"
+    },
+    {
+      "source_id": "https://openalex.org/W2142841029",
+      "title": "Nanostructured materials for advanced energy conversion and storage devices",
+      "year": 2005,
+      "cited_by_count": 8729,
+      "adjusted_cited_by_count": 1904.82,
+      "url": "/domains/battery-technology/papers/W2142841029"
+    },
+    {
+      "source_id": "https://openalex.org/W1998062017",
+      "title": "Challenges in the development of advanced Li-ion batteries: a review",
+      "year": 2011,
+      "cited_by_count": 6607,
+      "adjusted_cited_by_count": 1705.92,
+      "url": "/domains/battery-technology/papers/W1998062017"
+    },
+    {
+      "source_id": "https://openalex.org/W2603442821",
+      "title": "Sodium-ion batteries: present and future",
+      "year": 2017,
+      "cited_by_count": 4980,
+      "adjusted_cited_by_count": 1660.0,
+      "url": "/domains/battery-technology/papers/W2603442821"
+    },
+    {
+      "source_id": "https://openalex.org/W1626854854",
+      "title": "Nano-sized transition-metal oxides as negative-electrode materials for lithium-ion batteries",
+      "year": 2000,
+      "cited_by_count": 7964,
+      "adjusted_cited_by_count": 1561.87,
+      "url": "/domains/battery-technology/papers/W1626854854"
+    },
+    {
+      "source_id": "https://openalex.org/W1989937017",
+      "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+      "year": 2004,
+      "cited_by_count": 7215,
+      "adjusted_cited_by_count": 1538.24,
+      "url": "/domains/battery-technology/papers/W1989937017"
+    },
+    {
+      "source_id": "https://openalex.org/W2328134238",
+      "title": "Promise and reality of post-lithium-ion batteries with high energy densities",
+      "year": 2016,
+      "cited_by_count": 4859,
+      "adjusted_cited_by_count": 1536.55,
+      "url": "/domains/battery-technology/papers/W2328134238"
+    },
+    {
+      "source_id": "https://openalex.org/W2022299938",
+      "title": "Electrocatalyst approaches and challenges for automotive fuel cells",
+      "year": 2012,
+      "cited_by_count": 5707,
+      "adjusted_cited_by_count": 1525.26,
+      "url": "/domains/battery-technology/papers/W2022299938"
+    },
+    {
+      "source_id": "https://openalex.org/W2162677524",
+      "title": "Pseudocapacitive oxide materials for high-rate electrochemical energy storage",
+      "year": 2014,
+      "cited_by_count": 5254,
+      "adjusted_cited_by_count": 1516.7,
+      "url": "/domains/battery-technology/papers/W2162677524"
+    },
+    {
+      "source_id": "https://openalex.org/W2124043346",
+      "title": "High-performance lithium battery anodes using silicon nanowires",
+      "year": 2007,
+      "cited_by_count": 6574,
+      "adjusted_cited_by_count": 1508.18,
+      "url": "/domains/battery-technology/papers/W2124043346"
+    },
+    {
+      "source_id": "https://openalex.org/W2587767928",
+      "title": "Lithium battery chemistries enabled by solid-state electrolytes",
+      "year": 2017,
+      "cited_by_count": 4435,
+      "adjusted_cited_by_count": 1478.33,
+      "url": "/domains/battery-technology/papers/W2587767928"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4612,
+      "adjusted_cited_by_count": 1458.44,
+      "url": "/domains/battery-technology/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W613060151",
+      "title": "Electrochemical Supercapacitors : Scientific Fundamentals and Technological Applications",
+      "year": 2013,
+      "cited_by_count": 5031,
+      "adjusted_cited_by_count": 1395.35,
+      "url": "/domains/battery-technology/papers/W613060151"
+    },
+    {
+      "source_id": "https://openalex.org/W1970320842",
+      "title": "High-rate electrochemical energy storage through Li+ intercalation pseudocapacitance",
+      "year": 2013,
+      "cited_by_count": 4970,
+      "adjusted_cited_by_count": 1378.43,
+      "url": "/domains/battery-technology/papers/W1970320842"
+    },
+    {
+      "source_id": "https://openalex.org/W2019903682",
+      "title": "Nanomaterials for Rechargeable Lithium Batteries",
+      "year": 2008,
+      "cited_by_count": 5841,
+      "adjusted_cited_by_count": 1376.74,
+      "url": "/domains/battery-technology/papers/W2019903682"
+    },
+    {
+      "source_id": "https://openalex.org/W2076968595",
+      "title": "A Perovskite Oxide Optimized for Oxygen Evolution Catalysis from Molecular Orbital Principles",
+      "year": 2011,
+      "cited_by_count": 5229,
+      "adjusted_cited_by_count": 1350.12,
+      "url": "/domains/battery-technology/papers/W2076968595"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3668,
+      "adjusted_cited_by_count": 1296.83,
+      "url": "/domains/battery-technology/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2983762108",
+      "title": "Recycling lithium-ion batteries from electric vehicles",
+      "year": 2019,
+      "cited_by_count": 3418,
+      "adjusted_cited_by_count": 1291.88,
+      "url": "/domains/battery-technology/papers/W2983762108"
+    },
+    {
+      "source_id": "https://openalex.org/W2108376819",
+      "title": "Preparation and characterization of graphene oxide paper",
+      "year": 2007,
+      "cited_by_count": 5545,
+      "adjusted_cited_by_count": 1272.11,
+      "url": "/domains/battery-technology/papers/W2108376819"
+    },
+    {
+      "source_id": "https://openalex.org/W1972767018",
+      "title": "Lithium metal anodes for rechargeable batteries",
+      "year": 2013,
+      "cited_by_count": 4572,
+      "adjusted_cited_by_count": 1268.04,
+      "url": "/domains/battery-technology/papers/W1972767018"
+    },
+    {
+      "source_id": "https://openalex.org/W2916252188",
+      "title": "Pathways for practical high-energy long-cycling lithium metal batteries",
+      "year": 2019,
+      "cited_by_count": 3269,
+      "adjusted_cited_by_count": 1235.57,
+      "url": "/domains/battery-technology/papers/W2916252188"
+    },
+    {
+      "source_id": "https://openalex.org/W2153511586",
+      "title": "A lithium superionic conductor",
+      "year": 2011,
+      "cited_by_count": 4776,
+      "adjusted_cited_by_count": 1233.16,
+      "url": "/domains/battery-technology/papers/W2153511586"
+    },
+    {
+      "source_id": "https://openalex.org/W1985013794",
+      "title": "Lithium batteries: Status, prospects and future",
+      "year": 2009,
+      "cited_by_count": 5038,
+      "adjusted_cited_by_count": 1221.89,
+      "url": "/domains/battery-technology/papers/W1985013794"
+    },
+    {
+      "source_id": "https://openalex.org/W2274258295",
+      "title": "Recent Advances in Electrocatalysts for Oxygen Reduction Reaction",
+      "year": 2016,
+      "cited_by_count": 3792,
+      "adjusted_cited_by_count": 1199.14,
+      "url": "/domains/battery-technology/papers/W2274258295"
+    },
+    {
+      "source_id": "https://openalex.org/W2060543343",
+      "title": "Sodium‐Ion Batteries",
+      "year": 2012,
+      "cited_by_count": 4403,
+      "adjusted_cited_by_count": 1176.75,
+      "url": "/domains/battery-technology/papers/W2060543343"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "ion",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 292
+    },
+    {
+      "label": "battery",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 264
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 262
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 237
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 210
+    },
+    {
+      "label": "electrode",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 206
+    },
+    {
+      "label": "storage",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 191
+    },
+    {
+      "label": "energy storage",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 186
+    },
+    {
+      "label": "lithium",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 166
+    },
+    {
+      "label": "power",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 148
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 133
+    },
+    {
+      "label": "electrochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "ion battery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 129
+    },
+    {
+      "label": "electrical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 126
+    },
+    {
+      "label": "chemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "lithium-ion battery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "electrolyte",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "chemical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "lithium ion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "metal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "electric",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 89
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "electrochemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "density",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "anode",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "charge",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "metallurgy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "advance",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "organic chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "cost",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "energy density",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "composite",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "engineering physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "supercapacitor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "process engineering",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "renewable energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "vehicle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "capacity retention",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "cathode",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 58
+    },
+    {
+      "label": "lithium-ion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 82
+    },
+    {
+      "label": "capacity",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9898,
+      "evidence_count": 57
+    },
+    {
+      "label": "oxide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 57
+    },
+    {
+      "label": "device",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 56
+    },
+    {
+      "label": "electric vehicle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 56
+    },
+    {
+      "label": "efficiency",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9892,
+      "evidence_count": 54
+    }
+  ],
+  "topic_year_counts": {
+    "lithium-ion battery": {
+      "2025": 41884,
+      "2024": 38066,
+      "2023": 35348,
+      "2022": 24180,
+      "2021": 20486,
+      "2020": 19251,
+      "2019": 16655,
+      "2018": 13944,
+      "2017": 12358,
+      "2016": 11665,
+      "2026": 11067,
+      "2015": 9687,
+      "2014": 8928,
+      "2013": 6759,
+      "2012": 5158,
+      "2011": 3857,
+      "2010": 2965,
+      "2009": 2137,
+      "2008": 1660,
+      "2007": 1596,
+      "2006": 1397,
+      "2005": 1117,
+      "2004": 912,
+      "2003": 831,
+      "2002": 814,
+      "2001": 584,
+      "2000": 544
+    },
+    "ionic conductivity": {
+      "2025": 33948,
+      "2023": 32981,
+      "2024": 32058,
+      "2022": 21388,
+      "2021": 18815,
+      "2020": 17082,
+      "2019": 14498,
+      "2018": 13172,
+      "2016": 13021,
+      "2017": 11827,
+      "2026": 9298,
+      "2015": 9246,
+      "2014": 8511,
+      "2013": 7219,
+      "2012": 6317,
+      "2011": 5503,
+      "2010": 4642,
+      "2009": 3892,
+      "2008": 3301,
+      "2007": 3030,
+      "2006": 2910,
+      "2005": 2377,
+      "2004": 2089,
+      "2003": 1808,
+      "2002": 1716,
+      "2000": 1617,
+      "2001": 1379
+    },
+    "lithium metal": {
+      "2023": 34076,
+      "2024": 33947,
+      "2025": 32875,
+      "2022": 21215,
+      "2021": 18189,
+      "2020": 16762,
+      "2019": 14030,
+      "2018": 11652,
+      "2017": 10311,
+      "2016": 9135,
+      "2026": 8465,
+      "2015": 7642,
+      "2014": 6574,
+      "2013": 5342,
+      "2012": 4497,
+      "2011": 3724,
+      "2010": 3066,
+      "2009": 2614,
+      "2008": 2202,
+      "2007": 2009,
+      "2006": 1801,
+      "2005": 1669,
+      "2004": 1397,
+      "2003": 1307,
+      "2002": 1250,
+      "2000": 1101,
+      "2001": 1087
+    },
+    "rechargeable battery": {
+      "2023": 17713,
+      "2024": 16891,
+      "2025": 15712,
+      "2022": 12420,
+      "2021": 10935,
+      "2020": 10678,
+      "2019": 8806,
+      "2018": 7720,
+      "2017": 6752,
+      "2016": 6360,
+      "2015": 5118,
+      "2014": 4693,
+      "2026": 4015,
+      "2013": 3878,
+      "2012": 3204,
+      "2011": 2543,
+      "2010": 2162,
+      "2009": 1677,
+      "2008": 1307,
+      "2007": 1178,
+      "2006": 1073,
+      "2005": 945,
+      "2002": 820,
+      "2003": 762,
+      "2004": 750,
+      "2000": 544,
+      "2001": 530
+    },
+    "flow battery": {
+      "2023": 51141,
+      "2025": 50160,
+      "2024": 49158,
+      "2022": 33516,
+      "2021": 29937,
+      "2020": 27871,
+      "2019": 23402,
+      "2018": 20195,
+      "2017": 17129,
+      "2016": 15534,
+      "2026": 13615,
+      "2015": 13471,
+      "2014": 12349,
+      "2013": 10229,
+      "2012": 8699,
+      "2011": 7269,
+      "2010": 6208,
+      "2009": 4922,
+      "2008": 3907,
+      "2007": 3587,
+      "2006": 2927,
+      "2005": 2615,
+      "2004": 2490,
+      "2003": 1884,
+      "2002": 1622,
+      "2000": 1370,
+      "2001": 1260
+    },
+    "ion battery": {
+      "2025": 66407,
+      "2024": 60839,
+      "2023": 56473,
+      "2022": 39777,
+      "2021": 33507,
+      "2020": 31006,
+      "2019": 26795,
+      "2018": 22556,
+      "2017": 19827,
+      "2016": 18398,
+      "2026": 17397,
+      "2015": 15485,
+      "2014": 14222,
+      "2013": 11208,
+      "2012": 8737,
+      "2011": 6854,
+      "2010": 5426,
+      "2009": 4055,
+      "2008": 3180,
+      "2007": 3000,
+      "2006": 2568,
+      "2005": 2122,
+      "2004": 1772,
+      "2003": 1616,
+      "2002": 1484,
+      "2000": 1120,
+      "2001": 1037
+    }
+  }
+}

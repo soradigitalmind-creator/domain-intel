@@ -1,17 +1,13 @@
 {
   "updated_at": "2026-04-03T11:33:24.389427Z",
-  "total_domains": 38,
+  "total_domains": 31,
   "categories": [
     {
       "label": "Life",
       "slug": "life",
       "description": "Includes biology, medicine, care, and living systems.",
-      "count": 14,
+      "count": 8,
       "domains": [
-        {
-          "slug": "biotechnology",
-          "title": "Biotechnology"
-        },
         {
           "slug": "cancer",
           "title": "Cancer"
@@ -25,20 +21,8 @@
           "title": "Cell Biology"
         },
         {
-          "slug": "computational-biology",
-          "title": "Computational Biology"
-        },
-        {
-          "slug": "epidemiology",
-          "title": "Epidemiology"
-        },
-        {
           "slug": "genetics",
           "title": "Genetics"
-        },
-        {
-          "slug": "geriatric-medicine",
-          "title": "Geriatric Medicine"
         },
         {
           "slug": "gerontology",
@@ -53,14 +37,6 @@
           "title": "Mental Health"
         },
         {
-          "slug": "microbiology",
-          "title": "Microbiology"
-        },
-        {
-          "slug": "molecular-biology",
-          "title": "Molecular Biology"
-        },
-        {
           "slug": "neuroscience",
           "title": "Neuroscience"
         }
@@ -70,7 +46,7 @@
       "label": "Earth",
       "slug": "earth",
       "description": "Includes climate, land, atmosphere, and planetary change.",
-      "count": 8,
+      "count": 6,
       "domains": [
         {
           "slug": "climate-change",
@@ -79,10 +55,6 @@
         {
           "slug": "ecology",
           "title": "Ecology"
-        },
-        {
-          "slug": "environmental-science",
-          "title": "Environmental Science"
         },
         {
           "slug": "geoscience",
@@ -99,10 +71,6 @@
         {
           "slug": "renewable-energy",
           "title": "Renewable Energy"
-        },
-        {
-          "slug": "water-resources",
-          "title": "Water Resources"
         }
       ]
     },
@@ -110,7 +78,7 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 8,
+      "count": 9,
       "domains": [
         {
           "slug": "artificial-intelligence",
@@ -119,6 +87,10 @@
         {
           "slug": "astrophysics",
           "title": "Astrophysics"
+        },
+        {
+          "slug": "battery-technology",
+          "title": "Battery Technology"
         },
         {
           "slug": "chemistry",
@@ -401,6 +373,31 @@
       },
       "abstraction_label": "A family of related Battery technologies, including advancements in battery material, advanced battery technology research, advanced battery material and technology.",
       "updated_at": "2026-04-08T12:39:45.623315Z"
+    },
+    {
+      "slug": "battery-technology",
+      "title": "Battery Technology",
+      "sources": 366,
+      "effective_papers": 259,
+      "subgenres": 43,
+      "parent_subgenres": 6,
+      "child_subgenres": 37,
+      "entities": 568,
+      "claims": 10,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 366,
+        "total_papers": 366,
+        "facet_counts": {
+          "none": 366
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning advanced battery technology research.",
+      "updated_at": "2026-04-12T04:21:44.849761Z"
     },
     {
       "slug": "batteryeducation",
