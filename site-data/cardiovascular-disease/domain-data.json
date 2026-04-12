@@ -1,12 +1,12 @@
 {
   "slug": "cardiovascular-disease",
   "title": "Cardiovascular Disease",
-  "updated_at": "2026-04-12T01:26:21.500999Z",
+  "updated_at": "2026-04-12T02:14:06.345754Z",
   "snapshot": {
     "papers": 539,
-    "topics": 4,
-    "subtopics": 38,
-    "entities": 1710,
+    "topics": 5,
+    "subtopics": 23,
+    "entities": 1711,
     "claims": 21
   },
   "overview": {
@@ -28,43 +28,161 @@
     "concept_type": "taxonomy"
   },
   "hierarchy": {
-    "root_topics": 4,
-    "descendant_topics": 38,
+    "root_topics": 5,
+    "descendant_topics": 23,
     "max_depth": 2,
-    "leaf_topics": 38
+    "leaf_topics": 23
   },
   "rising_topics": [
+    {
+      "id": "sg-risk-factor",
+      "label": "Risk factor",
+      "url": "/domains/cardiovascular-disease/topics/sg-risk-factor",
+      "trend": "rising",
+      "year_total": 10839319
+    },
+    {
+      "id": "sg-type-2",
+      "label": "Type 2 diabete",
+      "url": "/domains/cardiovascular-disease/topics/sg-type-2",
+      "trend": "rising",
+      "year_total": 11413
+    },
     {
       "id": "sg-coronary-heart-disease",
       "label": "Coronary heart disease",
       "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease",
       "trend": "rising",
       "year_total": 954914
-    },
-    {
-      "id": "sg-kidney-disease",
-      "label": "Kidney disease",
-      "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease",
-      "trend": "rising",
-      "year_total": 1788661
-    },
-    {
-      "id": "sg-cell-biology",
-      "label": "Cell biology",
-      "url": "/domains/cardiovascular-disease/topics/sg-cell-biology",
-      "trend": "rising",
-      "year_total": 2842308
     }
   ],
   "topic_branches": [
     {
+      "id": "sg-risk-factor",
+      "label": "Risk factor",
+      "url": "/domains/cardiovascular-disease/topics/sg-risk-factor",
+      "paper_count": 175,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "cardiovascular disease and adiposity",
+        "cardiovascular mortality",
+        "cardiovascular risk factors",
+        "diabete cardiovascular disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-factor-cardiovascular-disease-risk-factors",
+          "label": "Cardiovascular disease risk factors",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-cardiovascular-disease-risk-factors",
+          "paper_count": 97
+        },
+        {
+          "id": "sg-risk-factor-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-internal-medicine",
+          "paper_count": 48
+        },
+        {
+          "id": "sg-risk-factor-cancer-incidence-risk-factors",
+          "label": "Cancer incidence risk factors",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-cancer-incidence-risk-factors",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-risk-factor-atherosclerosis-risk-factors",
+          "label": "Atherosclerosis risk factors",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-atherosclerosis-risk-factors",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-risk-factor-statement-on-fatty-liver",
+          "label": "Statement on fatty liver",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-statement-on-fatty-liver",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-type-2",
+      "label": "Type 2 diabete",
+      "url": "/domains/cardiovascular-disease/topics/sg-type-2",
+      "paper_count": 139,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: internal medicine, endocrinology, diabete mellitus",
+      "tags": [
+        "cardiovascular disease and adiposity",
+        "diabete management",
+        "human physiology",
+        "hyperglycemia in 2 diabete"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-type-2-diabete-type-2-diabetes-mellitus",
+          "label": "Type 2 diabetes mellitus",
+          "url": "/domains/cardiovascular-disease/topics/sg-type-2-diabete-type-2-diabetes-mellitus",
+          "paper_count": 86
+        },
+        {
+          "id": "sg-type-2-diabete-position-statement",
+          "label": "Position statement",
+          "url": "/domains/cardiovascular-disease/topics/sg-type-2-diabete-position-statement",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-type-2-diabete-diabete-management",
+          "label": "Diabete management",
+          "url": "/domains/cardiovascular-disease/topics/sg-type-2-diabete-diabete-management",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-type-2-diabete-skeletal-muscle",
+          "label": "Skeletal muscle",
+          "url": "/domains/cardiovascular-disease/topics/sg-type-2-diabete-skeletal-muscle",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-type-2-diabete-glycated-hemoglobin",
+          "label": "Glycated hemoglobin",
+          "url": "/domains/cardiovascular-disease/topics/sg-type-2-diabete-glycated-hemoglobin",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4200026682",
+          "title": "IDF Diabetes Atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
+          "year": "2021",
+          "cited_by_count": 9306,
+          "url": "/domains/cardiovascular-disease/papers/W4200026682"
+        },
+        {
+          "source_id": "https://openalex.org/W2900756811",
+          "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+          "year": "2018",
+          "cited_by_count": 10875,
+          "url": "/domains/cardiovascular-disease/papers/W2900756811"
+        },
+        {
+          "source_id": "https://openalex.org/W2337454357",
+          "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+          "year": "1998",
+          "cited_by_count": 20002,
+          "url": "/domains/cardiovascular-disease/papers/W2337454357"
+        }
+      ]
+    },
+    {
       "id": "sg-coronary-heart-disease",
       "label": "Coronary heart disease",
       "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease",
-      "paper_count": 231,
-      "subtopic_count": 5,
+      "paper_count": 130,
+      "subtopic_count": 3,
       "trend": "rising",
-      "summary": "entities: internal medicine, cardiology, vascular",
+      "summary": "entities: internal medicine, disease, cardiology",
       "tags": [
         "coronary heart disease",
         "coronary heart disease pravastatin",
@@ -73,120 +191,25 @@
       ],
       "subtopics": [
         {
-          "id": "sg-risk-factor-cardiovascular-disease",
-          "label": "Cardiovascular disease",
-          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-cardiovascular-disease",
-          "paper_count": 102
+          "id": "sg-coronary-heart-disease-secondary-prevention",
+          "label": "Secondary prevention",
+          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-secondary-prevention",
+          "paper_count": 116
         },
         {
-          "id": "sg-coronary-heart-disease-myocardial-infarction",
-          "label": "Myocardial infarction",
-          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-myocardial-infarction",
-          "paper_count": 71
-        },
-        {
-          "id": "sg-coronary-heart-disease-secondary-prevention-of-coronary-heart-disease",
-          "label": "Secondary prevention of coronary heart disease",
-          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-secondary-prevention-of-coronary-heart-disease",
-          "paper_count": 38
-        },
-        {
-          "id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
-          "label": "Prevention of coronary heart disease",
-          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
-          "paper_count": 14
-        },
-        {
-          "id": "sg-risk-factor-cardiovascular-diseases",
-          "label": "Cardiovascular diseases",
-          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-cardiovascular-diseases",
-          "paper_count": 6
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2146264128",
-          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
-          "year": "2015",
-          "cited_by_count": 11793,
-          "url": "/domains/cardiovascular-disease/papers/W2146264128"
-        },
-        {
-          "source_id": "https://openalex.org/W2748400555",
-          "title": "Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease",
-          "year": "2017",
-          "cited_by_count": 8851,
-          "url": "/domains/cardiovascular-disease/papers/W2748400555"
-        },
-        {
-          "source_id": "https://openalex.org/W4401164724",
-          "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
-          "year": "2024",
-          "cited_by_count": 2574,
-          "url": "/domains/cardiovascular-disease/papers/W4401164724"
-        }
-      ]
-    },
-    {
-      "id": "sg-kidney-disease",
-      "label": "Kidney disease",
-      "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease",
-      "paper_count": 128,
-      "subtopic_count": 6,
-      "trend": "rising",
-      "summary": "entities: disease, internal medicine, chronic",
-      "tags": [
-        "chronic kidney disease",
-        "chronic kidney disease and diabete",
-        "kidney disease",
-        "kidney disease outcome"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-risk-factor-internal-medicine",
+          "id": "sg-coronary-heart-disease-internal-medicine",
           "label": "Internal medicine",
-          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-internal-medicine",
-          "paper_count": 49
+          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-internal-medicine",
+          "paper_count": 11
         },
         {
-          "id": "sg-kidney-disease-acute-kidney-injury",
-          "label": "Acute kidney injury",
-          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-acute-kidney-injury",
-          "paper_count": 28
-        },
-        {
-          "id": "sg-kidney-disease-internal-medicine",
-          "label": "Internal medicine",
-          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-internal-medicine",
-          "paper_count": 21
-        },
-        {
-          "id": "sg-kidney-disease-renal-function",
-          "label": "Renal function",
-          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-renal-function",
-          "paper_count": 16
-        },
-        {
-          "id": "sg-kidney-disease-chronic-kidney-disease",
-          "label": "Chronic kidney disease",
-          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-chronic-kidney-disease",
-          "paper_count": 13
-        },
-        {
-          "id": "sg-kidney-disease-cardiovascular-disease",
-          "label": "Cardiovascular disease",
-          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-cardiovascular-disease",
+          "id": "sg-coronary-heart-disease-coronary-disease",
+          "label": "Coronary disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-coronary-disease",
           "paper_count": 1
         }
       ],
       "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W3008028633",
-          "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
-          "year": "2020",
-          "cited_by_count": 17941,
-          "url": "/domains/cardiovascular-disease/papers/W3008028633"
-        },
         {
           "source_id": "https://openalex.org/W2127951128",
           "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
@@ -195,87 +218,18 @@
           "url": "/domains/cardiovascular-disease/papers/W2127951128"
         },
         {
-          "source_id": "https://openalex.org/W2475261460",
-          "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
-          "year": "2016",
-          "cited_by_count": 11735,
-          "url": "/domains/cardiovascular-disease/papers/W2475261460"
-        }
-      ]
-    },
-    {
-      "id": "sg-cell-biology",
-      "label": "Cell biology",
-      "url": "/domains/cardiovascular-disease/topics/sg-cell-biology",
-      "paper_count": 104,
-      "subtopic_count": 18,
-      "trend": "rising",
-      "summary": "entities: gene, cell biology, cell",
-      "tags": [
-        "cell biology",
-        "cell growth",
-        "cell migration",
-        "cell signaling"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-cell-biology-cell-signaling",
-          "label": "Cell signaling",
-          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-cell-signaling",
-          "paper_count": 39
+          "source_id": "https://openalex.org/W2324841714",
+          "title": "Atherosclerosis — An Inflammatory Disease",
+          "year": "1999",
+          "cited_by_count": 21642,
+          "url": "/domains/cardiovascular-disease/papers/W2324841714"
         },
         {
-          "id": "sg-cell-biology-cell-migration",
-          "label": "Cell migration",
-          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-cell-migration",
-          "paper_count": 22
-        },
-        {
-          "id": "sg-cell-biology-redox-biology-oxidative-stress",
-          "label": "Redox biology oxidative stress",
-          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-redox-biology-oxidative-stress",
-          "paper_count": 7
-        },
-        {
-          "id": "sg-cell-biology-extracellular-matrix",
-          "label": "Extracellular matrix",
-          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-extracellular-matrix",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-cell-biology-extracellular-vesicle",
-          "label": "Extracellular vesicle",
-          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-extracellular-vesicle",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-cell-biology-stem-cell",
-          "label": "Stem cell",
-          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-stem-cell",
-          "paper_count": 5
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2064815984",
-          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
-          "year": "2013",
-          "cited_by_count": 15565,
-          "url": "/domains/cardiovascular-disease/papers/W2064815984"
-        },
-        {
-          "source_id": "https://openalex.org/W3029661147",
-          "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+          "source_id": "https://openalex.org/W3046275966",
+          "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
           "year": "2020",
-          "cited_by_count": 9903,
-          "url": "/domains/cardiovascular-disease/papers/W3029661147"
-        },
-        {
-          "source_id": "https://openalex.org/W2126525177",
-          "title": "The Hallmarks of Aging",
-          "year": "2013",
-          "cited_by_count": 14569,
-          "url": "/domains/cardiovascular-disease/papers/W2126525177"
+          "cited_by_count": 9917,
+          "url": "/domains/cardiovascular-disease/papers/W3046275966"
         }
       ]
     },
@@ -283,10 +237,10 @@
       "id": "sg-heart-failure",
       "label": "Heart failure",
       "url": "/domains/cardiovascular-disease/topics/sg-heart-failure",
-      "paper_count": 76,
-      "subtopic_count": 9,
+      "paper_count": 73,
+      "subtopic_count": 8,
       "trend": "rising",
-      "summary": "entities: internal medicine, heart failure, cardiology",
+      "summary": "entities: heart failure, internal medicine, cardiology",
       "tags": [
         "cardiovascular disease and adiposity",
         "chronic heart failure",
@@ -295,43 +249,50 @@
       ],
       "subtopics": [
         {
-          "id": "sg-heart-failure-internal-medicine",
-          "label": "Internal medicine",
-          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-internal-medicine",
-          "paper_count": 22
-        },
-        {
           "id": "sg-heart-failure-heart-failure-treatment-and-management",
           "label": "Heart failure treatment and management",
           "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-heart-failure-treatment-and-management",
-          "paper_count": 21
-        },
-        {
-          "id": "sg-heart-failure-ejection-fraction-in-heart-failure",
-          "label": "Ejection fraction in heart failure",
-          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-ejection-fraction-in-heart-failure",
-          "paper_count": 15
-        },
-        {
-          "id": "sg-heart-failure-cardiac-resynchronization-therapy",
-          "label": "Cardiac resynchronization therapy",
-          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-cardiac-resynchronization-therapy",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-heart-failure-heart-failure-management",
-          "label": "Heart failure management",
-          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-heart-failure-management",
-          "paper_count": 4
+          "paper_count": 39
         },
         {
           "id": "sg-heart-failure-ace-inhibitors",
           "label": "ACE inhibitors",
           "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-ace-inhibitors",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-heart-failure-cardiac-resynchronization-therapy",
+          "label": "Cardiac resynchronization therapy",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-cardiac-resynchronization-therapy",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-heart-failure-acute-vs-chronic-heart-conditions",
+          "label": "Acute vs. chronic heart conditions",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-acute-vs-chronic-heart-conditions",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-heart-failure-obesity-paradox",
+          "label": "Obesity paradox",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-obesity-paradox",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-heart-failure-takotsubo-cardiomyopathy-associated-phenomena",
+          "label": "Takotsubo cardiomyopathy associated phenomena",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-takotsubo-cardiomyopathy-associated-phenomena",
           "paper_count": 3
         }
       ],
       "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2475261460",
+          "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
+          "year": "2016",
+          "cited_by_count": 11735,
+          "url": "/domains/cardiovascular-disease/papers/W2475261460"
+        },
         {
           "source_id": "https://openalex.org/W2397911846",
           "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
@@ -345,13 +306,58 @@
           "year": "2010",
           "cited_by_count": 14000,
           "url": "/domains/cardiovascular-disease/papers/W2520432709"
+        }
+      ]
+    },
+    {
+      "id": "sg-lipoproteins-cardiovascular-health",
+      "label": "Lipoproteins cardiovascular health",
+      "url": "/domains/cardiovascular-disease/topics/sg-lipoproteins-cardiovascular-health",
+      "paper_count": 22,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cardiovascular, vascular",
+      "tags": [
+        "atherosclerotic cardiovascular disease",
+        "cardiovascular disease atorvastatin",
+        "cardiovascular events",
+        "coronary heart disease pravastatin"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-lipoproteins-cardiovascular-health-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cardiovascular-disease/topics/sg-lipoproteins-cardiovascular-health-internal-medicine",
+          "paper_count": 17
         },
         {
-          "source_id": "https://openalex.org/W2162800060",
-          "title": "PhysioBank, PhysioToolkit, and PhysioNet",
-          "year": "2000",
-          "cited_by_count": 14255,
-          "url": "/domains/cardiovascular-disease/papers/W2162800060"
+          "id": "sg-lipoproteins-cardiovascular-health-cardiovascular-disease",
+          "label": "Cardiovascular disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-lipoproteins-cardiovascular-health-cardiovascular-disease",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3183857127",
+          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: <i>lipid modification to reduce cardiovascular risk</i>",
+          "year": "2019",
+          "cited_by_count": 8631,
+          "url": "/domains/cardiovascular-disease/papers/W3183857127"
+        },
+        {
+          "source_id": "https://openalex.org/W2145632027",
+          "title": "Chronic Kidney Disease and the Risks of Death, Cardiovascular Events, and Hospitalization",
+          "year": "2004",
+          "cited_by_count": 11275,
+          "url": "/domains/cardiovascular-disease/papers/W2145632027"
+        },
+        {
+          "source_id": "https://openalex.org/W2900034165",
+          "title": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines",
+          "year": "2019",
+          "cited_by_count": 6133,
+          "url": "/domains/cardiovascular-disease/papers/W2900034165"
         }
       ]
     }
@@ -359,7 +365,7 @@
   "paper_shelves": [
     {
       "label": "Others",
-      "paper_count": 23,
+      "paper_count": 25,
       "papers": [
         {
           "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
@@ -397,113 +403,100 @@
           "url": "papers/https-openalex-org-w2751884637.html"
         },
         {
-          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
-          "year": "2020",
-          "cited_by_count": 10591,
+          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+          "year": "2013",
+          "cited_by_count": 15565,
           "topic": "Others",
-          "url": "papers/https-openalex-org-w3113178943.html"
+          "url": "papers/https-openalex-org-w2064815984.html"
         }
       ]
     },
     {
-      "label": "Cell biology",
-      "paper_count": 7,
+      "label": "Type 2 diabete",
+      "paper_count": 5,
       "papers": [
-        {
-          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
-          "year": "2013",
-          "cited_by_count": 15565,
-          "topic": "Cell biology",
-          "url": "papers/https-openalex-org-w2064815984.html"
-        },
-        {
-          "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
-          "year": "2020",
-          "cited_by_count": 9903,
-          "topic": "Cell biology",
-          "url": "papers/https-openalex-org-w3029661147.html"
-        },
-        {
-          "title": "The Hallmarks of Aging",
-          "year": "2013",
-          "cited_by_count": 14569,
-          "topic": "Cell biology",
-          "url": "papers/https-openalex-org-w2126525177.html"
-        },
         {
           "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
           "year": "2018",
           "cited_by_count": 10875,
-          "topic": "Cell biology",
+          "topic": "Type 2 diabete",
           "url": "papers/https-openalex-org-w2900756811.html"
         },
         {
-          "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
-          "year": "2008",
-          "cited_by_count": 14695,
-          "topic": "Cell biology",
-          "url": "papers/https-openalex-org-w2133465414.html"
+          "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+          "year": "1998",
+          "cited_by_count": 20002,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2337454357.html"
         },
         {
-          "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
-          "year": "2024",
-          "cited_by_count": 3192,
-          "topic": "Cell biology",
-          "url": "papers/https-openalex-org-w4391649568.html"
-        }
-      ]
-    },
-    {
-      "label": "Prevention of coronary heart disease",
-      "paper_count": 3,
-      "papers": [
-        {
-          "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
-          "year": "2013",
-          "cited_by_count": 13658,
-          "topic": "Prevention of coronary heart disease",
-          "url": "papers/https-openalex-org-w2133416234.html"
+          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+          "year": "2015",
+          "cited_by_count": 11793,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2146264128.html"
         },
         {
-          "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+          "title": "Harmonizing the Metabolic Syndrome",
           "year": "2009",
-          "cited_by_count": 14494,
-          "topic": "Prevention of coronary heart disease",
-          "url": "papers/https-openalex-org-w2020155291.html"
+          "cited_by_count": 14481,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2143104968.html"
         },
         {
-          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: &lt;i&gt;lipid modification to reduce cardiovascular risk&lt;/i&gt;",
-          "year": "2019",
-          "cited_by_count": 8631,
-          "topic": "Prevention of coronary heart disease",
-          "url": "papers/https-openalex-org-w3183857127.html"
+          "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+          "year": "2006",
+          "cited_by_count": 14015,
+          "topic": "Type 2 diabete",
+          "url": "papers/https-openalex-org-w2165201727.html"
         }
       ]
     },
     {
-      "label": "Extracellular matrix",
-      "paper_count": 2,
+      "label": "Risk factor",
+      "paper_count": 4,
       "papers": [
         {
-          "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
           "year": "2020",
-          "cited_by_count": 10430,
-          "topic": "Extracellular matrix",
-          "url": "papers/https-openalex-org-w3108106255.html"
+          "cited_by_count": 10591,
+          "topic": "Risk factor",
+          "url": "papers/https-openalex-org-w3113178943.html"
         },
         {
-          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women&#x27;s Health Initiative Randomized Controlled Trial",
-          "year": "2002",
-          "cited_by_count": 15751,
-          "topic": "Extracellular matrix",
-          "url": "papers/https-openalex-org-w1593442063.html"
+          "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 9290,
+          "topic": "Risk factor",
+          "url": "papers/https-openalex-org-w3092861045.html"
+        },
+        {
+          "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2021",
+          "cited_by_count": 7251,
+          "topic": "Risk factor",
+          "url": "papers/https-openalex-org-w3197233575.html"
+        },
+        {
+          "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 11958,
+          "topic": "Risk factor",
+          "url": "papers/https-openalex-org-w2110052313.html"
         }
       ]
     },
     {
       "label": "Heart failure",
-      "paper_count": 2,
+      "paper_count": 3,
       "papers": [
+        {
+          "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
+          "year": "2016",
+          "cited_by_count": 11735,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w2475261460.html"
+        },
         {
           "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
           "year": "2016",
@@ -521,41 +514,41 @@
       ]
     },
     {
+      "label": "Acute vs. chronic heart conditions",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+          "year": "2018",
+          "cited_by_count": 10297,
+          "topic": "Acute vs. chronic heart conditions",
+          "url": "papers/https-openalex-org-w2888589263.html"
+        }
+      ]
+    },
+    {
       "label": "Coronary heart disease",
       "paper_count": 1,
       "papers": [
         {
-          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
-          "year": "2015",
-          "cited_by_count": 11793,
+          "title": "Atherosclerosis — An Inflammatory Disease",
+          "year": "1999",
+          "cited_by_count": 21642,
           "topic": "Coronary heart disease",
-          "url": "papers/https-openalex-org-w2146264128.html"
+          "url": "papers/https-openalex-org-w2324841714.html"
         }
       ]
     },
     {
-      "label": "Kidney disease",
+      "label": "Lipoproteins cardiovascular health",
       "paper_count": 1,
       "papers": [
         {
-          "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
-          "year": "2016",
-          "cited_by_count": 11735,
-          "topic": "Kidney disease",
-          "url": "papers/https-openalex-org-w2475261460.html"
-        }
-      ]
-    },
-    {
-      "label": "MAPK/ERK pathway",
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer&#x27;s disease",
-          "year": "2018",
-          "cited_by_count": 10001,
-          "topic": "MAPK/ERK pathway",
-          "url": "papers/https-openalex-org-w2798054687.html"
+          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: &lt;i&gt;lipid modification to reduce cardiovascular risk&lt;/i&gt;",
+          "year": "2019",
+          "cited_by_count": 8631,
+          "topic": "Lipoproteins cardiovascular health",
+          "url": "papers/https-openalex-org-w3183857127.html"
         }
       ]
     }
@@ -617,8 +610,8 @@
       "year": 2020,
       "cited_by_count": 10591,
       "adjusted_cited_by_count": 4323.76,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-risk-factor",
+      "primary_topic_label": "Risk factor",
       "url": "/domains/cardiovascular-disease/papers/W3113178943"
     },
     {
@@ -627,8 +620,8 @@
       "year": 2013,
       "cited_by_count": 15565,
       "adjusted_cited_by_count": 4316.95,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W2064815984"
     },
     {
@@ -647,8 +640,8 @@
       "year": 2020,
       "cited_by_count": 10430,
       "adjusted_cited_by_count": 4258.03,
-      "primary_topic_id": "sg-cell-biology-extracellular-matrix",
-      "primary_topic_label": "Extracellular matrix",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W3108106255"
     },
     {
@@ -657,8 +650,8 @@
       "year": 1999,
       "cited_by_count": 21642,
       "adjusted_cited_by_count": 4165.0,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-coronary-heart-disease",
+      "primary_topic_label": "Coronary heart disease",
       "url": "/domains/cardiovascular-disease/papers/W2324841714"
     },
     {
@@ -687,8 +680,8 @@
       "year": 2020,
       "cited_by_count": 9903,
       "adjusted_cited_by_count": 4042.88,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W3029661147"
     },
     {
@@ -697,8 +690,8 @@
       "year": 2013,
       "cited_by_count": 14569,
       "adjusted_cited_by_count": 4040.71,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W2126525177"
     },
     {
@@ -727,8 +720,8 @@
       "year": 2018,
       "cited_by_count": 10875,
       "adjusted_cited_by_count": 3844.89,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "sg-type-2",
+      "primary_topic_label": "Type 2 diabete",
       "url": "/domains/cardiovascular-disease/papers/W2900756811"
     },
     {
@@ -737,8 +730,8 @@
       "year": 2020,
       "cited_by_count": 9290,
       "adjusted_cited_by_count": 3792.63,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-risk-factor",
+      "primary_topic_label": "Risk factor",
       "url": "/domains/cardiovascular-disease/papers/W3092861045"
     },
     {
@@ -757,8 +750,8 @@
       "year": 2013,
       "cited_by_count": 13658,
       "adjusted_cited_by_count": 3788.05,
-      "primary_topic_id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
-      "primary_topic_label": "Prevention of coronary heart disease",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W2133416234"
     },
     {
@@ -767,8 +760,8 @@
       "year": 1998,
       "cited_by_count": 20002,
       "adjusted_cited_by_count": 3780.02,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-type-2",
+      "primary_topic_label": "Type 2 diabete",
       "url": "/domains/cardiovascular-disease/papers/W2337454357"
     },
     {
@@ -787,8 +780,8 @@
       "year": 2016,
       "cited_by_count": 11735,
       "adjusted_cited_by_count": 3710.93,
-      "primary_topic_id": "sg-kidney-disease",
-      "primary_topic_label": "Kidney disease",
+      "primary_topic_id": "sg-heart-failure",
+      "primary_topic_label": "Heart failure",
       "url": "/domains/cardiovascular-disease/papers/W2475261460"
     },
     {
@@ -797,8 +790,8 @@
       "year": 2018,
       "cited_by_count": 10297,
       "adjusted_cited_by_count": 3640.54,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-heart-failure-acute-vs-chronic-heart-conditions",
+      "primary_topic_label": "Acute vs. chronic heart conditions",
       "url": "/domains/cardiovascular-disease/papers/W2888589263"
     },
     {
@@ -817,8 +810,8 @@
       "year": 2015,
       "cited_by_count": 11793,
       "adjusted_cited_by_count": 3555.72,
-      "primary_topic_id": "sg-coronary-heart-disease",
-      "primary_topic_label": "Coronary heart disease",
+      "primary_topic_id": "sg-type-2",
+      "primary_topic_label": "Type 2 diabete",
       "url": "/domains/cardiovascular-disease/papers/W2146264128"
     },
     {
@@ -827,8 +820,8 @@
       "year": 2018,
       "cited_by_count": 10001,
       "adjusted_cited_by_count": 3535.89,
-      "primary_topic_id": "sg-cell-biology-mapk-erk-pathway",
-      "primary_topic_label": "MAPK/ERK pathway",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W2798054687"
     },
     {
@@ -837,8 +830,8 @@
       "year": 2009,
       "cited_by_count": 14494,
       "adjusted_cited_by_count": 3515.31,
-      "primary_topic_id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
-      "primary_topic_label": "Prevention of coronary heart disease",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W2020155291"
     },
     {
@@ -847,8 +840,8 @@
       "year": 2009,
       "cited_by_count": 14481,
       "adjusted_cited_by_count": 3512.16,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-type-2",
+      "primary_topic_label": "Type 2 diabete",
       "url": "/domains/cardiovascular-disease/papers/W2143104968"
     },
     {
@@ -877,8 +870,8 @@
       "year": 2008,
       "cited_by_count": 14695,
       "adjusted_cited_by_count": 3463.64,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W2133465414"
     },
     {
@@ -907,8 +900,8 @@
       "year": 2019,
       "cited_by_count": 8631,
       "adjusted_cited_by_count": 3262.21,
-      "primary_topic_id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
-      "primary_topic_label": "Prevention of coronary heart disease",
+      "primary_topic_id": "sg-lipoproteins-cardiovascular-health",
+      "primary_topic_label": "Lipoproteins cardiovascular health",
       "url": "/domains/cardiovascular-disease/papers/W3183857127"
     },
     {
@@ -917,8 +910,8 @@
       "year": 2021,
       "cited_by_count": 7251,
       "adjusted_cited_by_count": 3242.75,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-risk-factor",
+      "primary_topic_label": "Risk factor",
       "url": "/domains/cardiovascular-disease/papers/W3197233575"
     },
     {
@@ -927,8 +920,8 @@
       "year": 2002,
       "cited_by_count": 15751,
       "adjusted_cited_by_count": 3215.16,
-      "primary_topic_id": "sg-cell-biology-extracellular-matrix",
-      "primary_topic_label": "Extracellular matrix",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W1593442063"
     },
     {
@@ -937,8 +930,8 @@
       "year": 2012,
       "cited_by_count": 11958,
       "adjusted_cited_by_count": 3195.91,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-risk-factor",
+      "primary_topic_label": "Risk factor",
       "url": "/domains/cardiovascular-disease/papers/W2110052313"
     },
     {
@@ -947,8 +940,8 @@
       "year": 2024,
       "cited_by_count": 3192,
       "adjusted_cited_by_count": 3192.0,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/cardiovascular-disease/papers/W4391649568"
     },
     {
@@ -957,8 +950,8 @@
       "year": 2006,
       "cited_by_count": 14015,
       "adjusted_cited_by_count": 3133.85,
-      "primary_topic_id": "sg-cell-biology",
-      "primary_topic_label": "Cell biology",
+      "primary_topic_id": "sg-type-2",
+      "primary_topic_label": "Type 2 diabete",
       "url": "/domains/cardiovascular-disease/papers/W2165201727"
     }
   ],
@@ -1687,6 +1680,35 @@
     }
   ],
   "topic_year_counts": {
+    "type 2 diabete": {
+      "2023": 847,
+      "2024": 805,
+      "2022": 669,
+      "2025": 646,
+      "2020": 629,
+      "2021": 612,
+      "2018": 578,
+      "2019": 574,
+      "2017": 561,
+      "2016": 523,
+      "2013": 513,
+      "2015": 510,
+      "2014": 457,
+      "2009": 428,
+      "2010": 415,
+      "2012": 414,
+      "2011": 377,
+      "2007": 302,
+      "2008": 284,
+      "2006": 233,
+      "2002": 176,
+      "2005": 168,
+      "2004": 159,
+      "2003": 150,
+      "2001": 139,
+      "2000": 124,
+      "2026": 120
+    },
     "coronary heart disease": {
       "2023": 93181,
       "2024": 89007,
@@ -1716,64 +1738,6 @@
       "2001": 9099,
       "2000": 8260
     },
-    "cell biology": {
-      "2023": 301747,
-      "2024": 277804,
-      "2025": 254776,
-      "2022": 211553,
-      "2021": 198155,
-      "2020": 186894,
-      "2019": 156879,
-      "2018": 140746,
-      "2017": 128713,
-      "2016": 115690,
-      "2015": 106756,
-      "2014": 100630,
-      "2013": 93124,
-      "2012": 83659,
-      "2011": 70463,
-      "2026": 66857,
-      "2010": 58332,
-      "2009": 49216,
-      "2008": 42332,
-      "2007": 36333,
-      "2006": 31862,
-      "2005": 28358,
-      "2004": 25288,
-      "2003": 21779,
-      "2002": 19385,
-      "2001": 17727,
-      "2000": 17250
-    },
-    "kidney disease": {
-      "2023": 205233,
-      "2024": 198800,
-      "2025": 180518,
-      "2022": 149504,
-      "2021": 138585,
-      "2020": 125631,
-      "2019": 91084,
-      "2018": 79599,
-      "2017": 72633,
-      "2016": 64547,
-      "2015": 59186,
-      "2014": 54434,
-      "2013": 49633,
-      "2012": 44153,
-      "2026": 43491,
-      "2011": 36466,
-      "2009": 33969,
-      "2010": 30803,
-      "2008": 24386,
-      "2007": 19230,
-      "2006": 16966,
-      "2005": 15474,
-      "2004": 13944,
-      "2003": 12347,
-      "2002": 10313,
-      "2001": 8870,
-      "2000": 8862
-    },
     "heart failure": {
       "2023": 190359,
       "2024": 182134,
@@ -1802,6 +1766,64 @@
       "2002": 17797,
       "2000": 15912,
       "2001": 15887
+    },
+    "lipoproteins cardiovascular health": {
+      "2024": 32182,
+      "2023": 31875,
+      "2025": 28968,
+      "2022": 23062,
+      "2021": 19958,
+      "2020": 18208,
+      "2019": 14342,
+      "2018": 12541,
+      "2017": 11802,
+      "2016": 10539,
+      "2015": 9691,
+      "2014": 9071,
+      "2013": 8392,
+      "2012": 7339,
+      "2026": 6769,
+      "2011": 5845,
+      "2010": 4932,
+      "2009": 4382,
+      "2008": 3384,
+      "2007": 2968,
+      "2005": 2619,
+      "2006": 2471,
+      "2004": 1840,
+      "2003": 1721,
+      "2002": 1311,
+      "2001": 1100,
+      "2000": 960
+    },
+    "risk factor": {
+      "2025": 1234173,
+      "2024": 1174125,
+      "2023": 1172716,
+      "2022": 837704,
+      "2021": 777193,
+      "2020": 710448,
+      "2019": 560557,
+      "2018": 495426,
+      "2017": 444657,
+      "2016": 404160,
+      "2015": 369926,
+      "2014": 339488,
+      "2026": 313179,
+      "2013": 305163,
+      "2012": 269252,
+      "2011": 230794,
+      "2010": 198145,
+      "2009": 171273,
+      "2008": 146436,
+      "2007": 126016,
+      "2006": 114158,
+      "2005": 101385,
+      "2004": 89555,
+      "2003": 77066,
+      "2002": 64229,
+      "2001": 56907,
+      "2000": 55188
     }
   }
 }

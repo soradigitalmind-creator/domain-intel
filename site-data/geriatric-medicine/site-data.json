@@ -1,22 +1,22 @@
 {
   "slug": "geriatric-medicine",
   "title": "Geriatric Medicine",
-  "updated_at": "2026-04-12T01:20:54.309322Z",
+  "updated_at": "2026-04-12T02:09:01.184187Z",
   "snapshot": {
-    "papers": 850,
+    "papers": 871,
     "topics": 6,
-    "subtopics": 52,
-    "entities": 1718,
+    "subtopics": 58,
+    "entities": 1719,
     "claims": 12
   },
   "overview": {
     "source_ids": [],
     "partition_summary": {
       "overview_papers": 0,
-      "topical_papers": 954,
-      "total_papers": 954,
+      "topical_papers": 953,
+      "total_papers": 953,
       "facet_counts": {
-        "none": 954
+        "none": 953
       },
       "gemini_validation_enabled": false,
       "gemini_validation_ready": false,
@@ -29,9 +29,9 @@
   },
   "hierarchy": {
     "root_topics": 6,
-    "descendant_topics": 52,
+    "descendant_topics": 58,
     "max_depth": 2,
-    "leaf_topics": 52
+    "leaf_topics": 58
   },
   "rising_topics": [
     {
@@ -61,8 +61,8 @@
       "id": "sg-s-disease",
       "label": "S disease",
       "url": "/domains/geriatric-medicine/topics/sg-s-disease",
-      "paper_count": 234,
-      "subtopic_count": 11,
+      "paper_count": 220,
+      "subtopic_count": 16,
       "trend": "rising",
       "summary": "entities: disease, internal medicine, age",
       "tags": [
@@ -73,40 +73,40 @@
       ],
       "subtopics": [
         {
-          "id": "sg-s-disease-parkinsons-disease",
-          "label": "Parkinsons disease",
-          "url": "/domains/geriatric-medicine/topics/sg-s-disease-parkinsons-disease",
-          "paper_count": 82
-        },
-        {
-          "id": "sg-s-disease-alzheimer-s-disease-neuroimaging-initiative",
-          "label": "Alzheimer's Disease Neuroimaging Initiative",
-          "url": "/domains/geriatric-medicine/topics/sg-s-disease-alzheimer-s-disease-neuroimaging-initiative",
-          "paper_count": 62
-        },
-        {
           "id": "sg-s-disease-internal-medicine",
           "label": "Internal medicine",
           "url": "/domains/geriatric-medicine/topics/sg-s-disease-internal-medicine",
-          "paper_count": 42
+          "paper_count": 78
         },
         {
           "id": "sg-s-disease-cognitive-decline",
           "label": "Cognitive decline",
           "url": "/domains/geriatric-medicine/topics/sg-s-disease-cognitive-decline",
+          "paper_count": 40
+        },
+        {
+          "id": "sg-s-disease-covid-19",
+          "label": "COVID-19",
+          "url": "/domains/geriatric-medicine/topics/sg-s-disease-covid-19",
           "paper_count": 27
         },
         {
-          "id": "sg-s-disease-memory-impairment",
-          "label": "Memory impairment",
-          "url": "/domains/geriatric-medicine/topics/sg-s-disease-memory-impairment",
-          "paper_count": 5
+          "id": "sg-s-disease-neurodegenerative-disease",
+          "label": "Neurodegenerative disease",
+          "url": "/domains/geriatric-medicine/topics/sg-s-disease-neurodegenerative-disease",
+          "paper_count": 19
         },
         {
-          "id": "sg-s-disease-rem-sleep-behavior-disorder",
-          "label": "Rem sleep behavior disorder",
-          "url": "/domains/geriatric-medicine/topics/sg-s-disease-rem-sleep-behavior-disorder",
-          "paper_count": 5
+          "id": "sg-s-disease-alzheimer-s-disease-neuroimaging-initiative",
+          "label": "Alzheimer's Disease Neuroimaging Initiative",
+          "url": "/domains/geriatric-medicine/topics/sg-s-disease-alzheimer-s-disease-neuroimaging-initiative",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-s-disease-huntington-s-disease",
+          "label": "Huntington's disease",
+          "url": "/domains/geriatric-medicine/topics/sg-s-disease-huntington-s-disease",
+          "paper_count": 8
         }
       ],
       "featured_papers": [
@@ -137,8 +137,8 @@
       "id": "sg-health-care",
       "label": "Health care",
       "url": "/domains/geriatric-medicine/topics/sg-health-care",
-      "paper_count": 219,
-      "subtopic_count": 13,
+      "paper_count": 208,
+      "subtopic_count": 12,
       "trend": "rising",
       "summary": "entities: health, care, health care",
       "tags": [
@@ -152,37 +152,37 @@
           "id": "sg-health-care-clinical-judgement",
           "label": "Clinical judgement",
           "url": "/domains/geriatric-medicine/topics/sg-health-care-clinical-judgement",
-          "paper_count": 71
+          "paper_count": 75
         },
         {
-          "id": "sg-health-care-global-health-issues-in-aging",
-          "label": "Global health issues in aging",
-          "url": "/domains/geriatric-medicine/topics/sg-health-care-global-health-issues-in-aging",
+          "id": "sg-health-care-total-cost",
+          "label": "Total cost",
+          "url": "/domains/geriatric-medicine/topics/sg-health-care-total-cost",
           "paper_count": 22
+        },
+        {
+          "id": "sg-health-care-ageing-society",
+          "label": "Ageing society",
+          "url": "/domains/geriatric-medicine/topics/sg-health-care-ageing-society",
+          "paper_count": 18
         },
         {
           "id": "sg-health-care-family-medicine",
           "label": "Family medicine",
           "url": "/domains/geriatric-medicine/topics/sg-health-care-family-medicine",
-          "paper_count": 19
-        },
-        {
-          "id": "sg-health-care-economic-growth",
-          "label": "Economic growth",
-          "url": "/domains/geriatric-medicine/topics/sg-health-care-economic-growth",
-          "paper_count": 17
-        },
-        {
-          "id": "sg-health-care-health-professionals",
-          "label": "Health professionals",
-          "url": "/domains/geriatric-medicine/topics/sg-health-care-health-professionals",
-          "paper_count": 17
+          "paper_count": 15
         },
         {
           "id": "sg-health-care-medical-home",
           "label": "Medical home",
           "url": "/domains/geriatric-medicine/topics/sg-health-care-medical-home",
           "paper_count": 15
+        },
+        {
+          "id": "sg-health-care-wearable-technology",
+          "label": "Wearable technology",
+          "url": "/domains/geriatric-medicine/topics/sg-health-care-wearable-technology",
+          "paper_count": 13
         }
       ],
       "featured_papers": [
@@ -213,8 +213,8 @@
       "id": "sg-physical-medicine-rehabilitation",
       "label": "Physical medicine rehabilitation",
       "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation",
-      "paper_count": 194,
-      "subtopic_count": 12,
+      "paper_count": 204,
+      "subtopic_count": 13,
       "trend": "rising",
       "summary": "entities: internal medicine, physical therapy, age",
       "tags": [
@@ -228,37 +228,37 @@
           "id": "sg-physical-medicine-rehabilitation-physical-therapy",
           "label": "Physical therapy",
           "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-physical-therapy",
-          "paper_count": 86
+          "paper_count": 84
         },
         {
           "id": "sg-physical-medicine-rehabilitation-physical-activity",
           "label": "Physical activity",
           "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-physical-activity",
-          "paper_count": 36
+          "paper_count": 31
         },
         {
-          "id": "sg-physical-medicine-rehabilitation-clinical-guidelines-and-position-statements",
-          "label": "Clinical guidelines and position statements",
-          "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-clinical-guidelines-and-position-statements",
-          "paper_count": 16
+          "id": "sg-physical-medicine-rehabilitation-function-in-older-adults",
+          "label": "Function in older adults",
+          "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-function-in-older-adults",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-position-paper",
+          "label": "Position paper",
+          "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-position-paper",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-role-of-actigraphy",
+          "label": "Role of actigraphy",
+          "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-role-of-actigraphy",
+          "paper_count": 14
         },
         {
           "id": "sg-physical-medicine-rehabilitation-strength-training",
           "label": "Strength training",
           "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-strength-training",
-          "paper_count": 15
-        },
-        {
-          "id": "sg-physical-medicine-rehabilitation-functional-outcomes-in-older-adults",
-          "label": "Functional outcomes in older adults",
-          "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-functional-outcomes-in-older-adults",
-          "paper_count": 14
-        },
-        {
-          "id": "sg-physical-medicine-rehabilitation-physical-activity-and-exercise",
-          "label": "Physical activity and exercise",
-          "url": "/domains/geriatric-medicine/topics/sg-physical-medicine-rehabilitation-physical-activity-and-exercise",
-          "paper_count": 6
+          "paper_count": 10
         }
       ],
       "featured_papers": [
@@ -289,10 +289,10 @@
       "id": "sg-emergency-medicine",
       "label": "Emergency medicine",
       "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine",
-      "paper_count": 124,
-      "subtopic_count": 9,
+      "paper_count": 126,
+      "subtopic_count": 8,
       "trend": "rising",
-      "summary": "entities: intensive care medicine, internal medicine, emergency medicine",
+      "summary": "entities: internal medicine, intensive care medicine, emergency medicine",
       "tags": [
         "acute care",
         "delirium in older",
@@ -304,37 +304,37 @@
           "id": "sg-emergency-medicine-intensive-care-unit",
           "label": "Intensive care unit",
           "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-intensive-care-unit",
-          "paper_count": 41
-        },
-        {
-          "id": "sg-emergency-medicine-intensive-care-medicine",
-          "label": "Intensive care medicine",
-          "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-intensive-care-medicine",
-          "paper_count": 24
+          "paper_count": 56
         },
         {
           "id": "sg-emergency-medicine-emergency-department",
           "label": "Emergency department",
           "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-emergency-department",
-          "paper_count": 18
+          "paper_count": 22
         },
         {
-          "id": "sg-emergency-medicine-international-surviving-sepsis-campaign-guidelines",
-          "label": "International surviving sepsis campaign guidelines",
-          "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-international-surviving-sepsis-campaign-guidelines",
-          "paper_count": 10
-        },
-        {
-          "id": "sg-emergency-medicine-outcome-of-covid-19",
-          "label": "Outcome of covid-19",
-          "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-outcome-of-covid-19",
-          "paper_count": 8
+          "id": "sg-emergency-medicine-surviving-sepsis-campaign",
+          "label": "Surviving sepsis campaign",
+          "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-surviving-sepsis-campaign",
+          "paper_count": 11
         },
         {
           "id": "sg-emergency-medicine-trauma-hemostasis-coagulopathy-resuscitation",
           "label": "Trauma, hemostasis, coagulopathy, resuscitation",
           "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-trauma-hemostasis-coagulopathy-resuscitation",
-          "paper_count": 8
+          "paper_count": 11
+        },
+        {
+          "id": "sg-emergency-medicine-outcome-of-covid-19",
+          "label": "Outcome of covid-19",
+          "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-outcome-of-covid-19",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-emergency-medicine-hospital-readmission",
+          "label": "Hospital readmission",
+          "url": "/domains/geriatric-medicine/topics/sg-emergency-medicine-hospital-readmission",
+          "paper_count": 6
         }
       ],
       "featured_papers": [
@@ -353,11 +353,87 @@
           "url": "/domains/geriatric-medicine/papers/W2280404143"
         },
         {
-          "source_id": "https://openalex.org/W2897513125",
-          "title": "Sarcopenia: revised European consensus on definition and diagnosis",
-          "year": "2018",
-          "cited_by_count": 13476,
-          "url": "/domains/geriatric-medicine/papers/W2897513125"
+          "source_id": "https://openalex.org/W3008090866",
+          "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+          "year": "2020",
+          "cited_by_count": 10678,
+          "url": "/domains/geriatric-medicine/papers/W3008090866"
+        }
+      ]
+    },
+    {
+      "id": "sg-psychological-intervention",
+      "label": "Psychological intervention",
+      "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention",
+      "paper_count": 66,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: psychological intervention, intervention, psychiatry",
+      "tags": [
+        "falls in older",
+        "interventions to improve",
+        "polypharmacy older people",
+        "preventing falls in older"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-psychological-intervention-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention-intensive-care-medicine",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-psychological-intervention-psychological-interventions",
+          "label": "Psychological interventions",
+          "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention-psychological-interventions",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-psychological-intervention-psychological-resilience",
+          "label": "Psychological resilience",
+          "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention-psychological-resilience",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-psychological-intervention-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention-internal-medicine",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-psychological-intervention-interventions-for-polypharmacy",
+          "label": "Interventions for polypharmacy",
+          "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention-interventions-for-polypharmacy",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-psychological-intervention-interventions-to-improve-antibiotic-prescribing",
+          "label": "Interventions to improve antibiotic prescribing",
+          "url": "/domains/geriatric-medicine/topics/sg-psychological-intervention-interventions-to-improve-antibiotic-prescribing",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1247968195",
+          "title": "Grading quality of evidence and strength of recommendations",
+          "year": "2004",
+          "cited_by_count": 8388,
+          "url": "/domains/geriatric-medicine/papers/W1247968195"
+        },
+        {
+          "source_id": "https://openalex.org/W2168289525",
+          "title": "Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms",
+          "year": "2010",
+          "cited_by_count": 4509,
+          "url": "/domains/geriatric-medicine/papers/W2168289525"
+        },
+        {
+          "source_id": "https://openalex.org/W4226079456",
+          "title": "The clinician’s guide to prevention and treatment of osteoporosis",
+          "year": "2022",
+          "cited_by_count": 1261,
+          "url": "/domains/geriatric-medicine/papers/W4226079456"
         }
       ]
     },
@@ -365,8 +441,8 @@
       "id": "sg-quality-of-life",
       "label": "Quality of life",
       "url": "/domains/geriatric-medicine/topics/sg-quality-of-life",
-      "paper_count": 48,
-      "subtopic_count": 4,
+      "paper_count": 47,
+      "subtopic_count": 3,
       "trend": "rising",
       "summary": "entities: quality of life, quality, life",
       "tags": [
@@ -380,24 +456,18 @@
           "id": "sg-quality-of-life-internal-medicine",
           "label": "Internal medicine",
           "url": "/domains/geriatric-medicine/topics/sg-quality-of-life-internal-medicine",
-          "paper_count": 18
-        },
-        {
-          "id": "sg-quality-of-life-psychological-resilience",
-          "label": "Psychological resilience",
-          "url": "/domains/geriatric-medicine/topics/sg-quality-of-life-psychological-resilience",
-          "paper_count": 10
-        },
-        {
-          "id": "sg-quality-of-life-intensive-care-medicine",
-          "label": "Intensive care medicine",
-          "url": "/domains/geriatric-medicine/topics/sg-quality-of-life-intensive-care-medicine",
-          "paper_count": 9
+          "paper_count": 19
         },
         {
           "id": "sg-quality-of-life-management-of-depression",
           "label": "Management of depression",
           "url": "/domains/geriatric-medicine/topics/sg-quality-of-life-management-of-depression",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-quality-of-life-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/geriatric-medicine/topics/sg-quality-of-life-intensive-care-medicine",
           "paper_count": 9
         }
       ],
@@ -424,64 +494,6 @@
           "url": "/domains/geriatric-medicine/papers/W2148694444"
         }
       ]
-    },
-    {
-      "id": "sg-randomized-controlled-trial",
-      "label": "Randomized controlled trial",
-      "url": "/domains/geriatric-medicine/topics/sg-randomized-controlled-trial",
-      "paper_count": 31,
-      "subtopic_count": 3,
-      "trend": "rising",
-      "summary": "entities: randomized controlled trial, internal medicine, trial",
-      "tags": [
-        "falls in older",
-        "moderate alzheimers disease",
-        "older people randomized",
-        "preventing falls in older"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-randomized-controlled-trial-internal-medicine",
-          "label": "Internal medicine",
-          "url": "/domains/geriatric-medicine/topics/sg-randomized-controlled-trial-internal-medicine",
-          "paper_count": 15
-        },
-        {
-          "id": "sg-randomized-controlled-trial-randomized-trial",
-          "label": "Randomized trial",
-          "url": "/domains/geriatric-medicine/topics/sg-randomized-controlled-trial-randomized-trial",
-          "paper_count": 13
-        },
-        {
-          "id": "sg-randomized-controlled-trial-confidence-interval",
-          "label": "Confidence interval",
-          "url": "/domains/geriatric-medicine/topics/sg-randomized-controlled-trial-confidence-interval",
-          "paper_count": 3
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W3042270788",
-          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
-          "year": "2020",
-          "cited_by_count": 10013,
-          "url": "/domains/geriatric-medicine/papers/W3042270788"
-        },
-        {
-          "source_id": "https://openalex.org/W1593442063",
-          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
-          "year": "2002",
-          "cited_by_count": 15751,
-          "url": "/domains/geriatric-medicine/papers/W1593442063"
-        },
-        {
-          "source_id": "https://openalex.org/W2053322034",
-          "title": "Pharmaceuticals and personal care products in the environment: agents of subtle change?",
-          "year": "1999",
-          "cited_by_count": 4424,
-          "url": "/domains/geriatric-medicine/papers/W2053322034"
-        }
-      ]
     }
   ],
   "paper_shelves": [
@@ -497,11 +509,11 @@
           "url": "papers/https-openalex-org-w3009885589.html"
         },
         {
-          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
-          "year": "2020",
-          "cited_by_count": 23223,
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
           "topic": "Others",
-          "url": "papers/https-openalex-org-w3004280078.html"
+          "url": "papers/https-openalex-org-w2560367415.html"
         },
         {
           "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
@@ -525,25 +537,18 @@
           "url": "papers/https-openalex-org-w2572174216.html"
         },
         {
-          "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
           "year": "2018",
-          "cited_by_count": 13476,
+          "cited_by_count": 13844,
           "topic": "Others",
-          "url": "papers/https-openalex-org-w2897513125.html"
+          "url": "papers/https-openalex-org-w2912654919.html"
         }
       ]
     },
     {
       "label": "S disease",
-      "paper_count": 6,
+      "paper_count": 5,
       "papers": [
-        {
-          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
-          "year": "2020",
-          "cited_by_count": 30222,
-          "topic": "S disease",
-          "url": "papers/https-openalex-org-w3001897055.html"
-        },
         {
           "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
           "year": "2020",
@@ -582,6 +587,67 @@
       ]
     },
     {
+      "label": "COVID-19",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30222,
+          "topic": "COVID-19",
+          "url": "papers/https-openalex-org-w3001897055.html"
+        },
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23223,
+          "topic": "COVID-19",
+          "url": "papers/https-openalex-org-w3004280078.html"
+        },
+        {
+          "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+          "year": "2020",
+          "cited_by_count": 10132,
+          "topic": "COVID-19",
+          "url": "papers/https-openalex-org-w3012421327.html"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "year": "2020",
+          "cited_by_count": 10013,
+          "topic": "COVID-19",
+          "url": "papers/https-openalex-org-w3042270788.html"
+        }
+      ]
+    },
+    {
+      "label": "Acute care",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Corrigendum to: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: Developed by the Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC) With the special contribution of the Heart Failure Association (HFA) of the ESC.",
+          "year": "2021",
+          "cited_by_count": 19543,
+          "topic": "Acute care",
+          "url": "papers/https-openalex-org-w2427094903.html"
+        },
+        {
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2021",
+          "cited_by_count": 12381,
+          "topic": "Acute care",
+          "url": "papers/https-openalex-org-w3193598686.html"
+        },
+        {
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11403,
+          "topic": "Acute care",
+          "url": "papers/https-openalex-org-w2397911846.html"
+        }
+      ]
+    },
+    {
       "label": "Physical medicine rehabilitation",
       "paper_count": 3,
       "papers": [
@@ -605,53 +671,6 @@
           "cited_by_count": 27928,
           "topic": "Physical medicine rehabilitation",
           "url": "papers/https-openalex-org-w2156220037.html"
-        }
-      ]
-    },
-    {
-      "label": "Wearable technology in health care",
-      "paper_count": 3,
-      "papers": [
-        {
-          "title": "Older Adults&#x27; Reasons for Using Technology while Aging in Place",
-          "year": "2015",
-          "cited_by_count": 19737,
-          "topic": "Wearable technology in health care",
-          "url": "papers/https-openalex-org-w2167311298.html"
-        },
-        {
-          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
-          "year": "2018",
-          "cited_by_count": 13844,
-          "topic": "Wearable technology in health care",
-          "url": "papers/https-openalex-org-w2912654919.html"
-        },
-        {
-          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
-          "year": "2017",
-          "cited_by_count": 13447,
-          "topic": "Wearable technology in health care",
-          "url": "papers/https-openalex-org-w2751884637.html"
-        }
-      ]
-    },
-    {
-      "label": "Acute care",
-      "paper_count": 2,
-      "papers": [
-        {
-          "title": "Corrigendum to: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: Developed by the Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC) With the special contribution of the Heart Failure Association (HFA) of the ESC.",
-          "year": "2021",
-          "cited_by_count": 19543,
-          "topic": "Acute care",
-          "url": "papers/https-openalex-org-w2427094903.html"
-        },
-        {
-          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
-          "year": "2021",
-          "cited_by_count": 12381,
-          "topic": "Acute care",
-          "url": "papers/https-openalex-org-w3193598686.html"
         }
       ]
     },
@@ -696,41 +715,41 @@
       ]
     },
     {
-      "label": "Confidence interval",
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
-          "year": "2016",
-          "cited_by_count": 30917,
-          "topic": "Confidence interval",
-          "url": "papers/https-openalex-org-w2560367415.html"
-        }
-      ]
-    },
-    {
-      "label": "Global health issues in aging",
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "Capital in the Twenty-First Century",
-          "year": "2014",
-          "cited_by_count": 13335,
-          "topic": "Global health issues in aging",
-          "url": "papers/https-openalex-org-w2752384816.html"
-        }
-      ]
-    },
-    {
-      "label": "Hospital readmission",
+      "label": "Huntington&#x27;s disease",
       "paper_count": 1,
       "papers": [
         {
           "title": "The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest",
           "year": "2022",
           "cited_by_count": 8065,
-          "topic": "Hospital readmission",
+          "topic": "Huntington&#x27;s disease",
           "url": "papers/https-openalex-org-w4308834893.html"
+        }
+      ]
+    },
+    {
+      "label": "Integrated care",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Capital in the Twenty-First Century",
+          "year": "2014",
+          "cited_by_count": 13335,
+          "topic": "Integrated care",
+          "url": "papers/https-openalex-org-w2752384816.html"
+        }
+      ]
+    },
+    {
+      "label": "Intensive care unit",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+          "year": "1998",
+          "cited_by_count": 20002,
+          "topic": "Intensive care unit",
+          "url": "papers/https-openalex-org-w2337454357.html"
         }
       ]
     }
@@ -752,8 +771,8 @@
       "year": 2020,
       "cited_by_count": 30222,
       "adjusted_cited_by_count": 12338.08,
-      "primary_topic_id": "sg-s-disease",
-      "primary_topic_label": "S disease",
+      "primary_topic_id": "sg-s-disease-covid-19",
+      "primary_topic_label": "COVID-19",
       "url": "/domains/geriatric-medicine/papers/W3001897055"
     },
     {
@@ -772,8 +791,8 @@
       "year": 2016,
       "cited_by_count": 30917,
       "adjusted_cited_by_count": 9776.81,
-      "primary_topic_id": "sg-randomized-controlled-trial-confidence-interval",
-      "primary_topic_label": "Confidence interval",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/geriatric-medicine/papers/W2560367415"
     },
     {
@@ -782,8 +801,8 @@
       "year": 2020,
       "cited_by_count": 23223,
       "adjusted_cited_by_count": 9480.75,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-s-disease-covid-19",
+      "primary_topic_label": "COVID-19",
       "url": "/domains/geriatric-medicine/papers/W3004280078"
     },
     {
@@ -832,8 +851,8 @@
       "year": 2015,
       "cited_by_count": 19737,
       "adjusted_cited_by_count": 5950.93,
-      "primary_topic_id": "sg-health-care-wearable-technology-in-health-care",
-      "primary_topic_label": "Wearable technology in health care",
+      "primary_topic_id": "sg-health-care-wearable-technology",
+      "primary_topic_label": "Wearable technology",
       "url": "/domains/geriatric-medicine/papers/W2167311298"
     },
     {
@@ -892,8 +911,8 @@
       "year": 2018,
       "cited_by_count": 13844,
       "adjusted_cited_by_count": 4894.59,
-      "primary_topic_id": "sg-health-care-wearable-technology-in-health-care",
-      "primary_topic_label": "Wearable technology in health care",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/geriatric-medicine/papers/W2912654919"
     },
     {
@@ -915,16 +934,6 @@
       "primary_topic_id": "sg-physical-medicine-rehabilitation",
       "primary_topic_label": "Physical medicine rehabilitation",
       "url": "/domains/geriatric-medicine/papers/W2164059021"
-    },
-    {
-      "source_id": "https://openalex.org/W2897513125",
-      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
-      "year": 2018,
-      "cited_by_count": 13476,
-      "adjusted_cited_by_count": 4764.49,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/geriatric-medicine/papers/W2897513125"
     },
     {
       "source_id": "https://openalex.org/W2096287682",
@@ -952,8 +961,8 @@
       "year": 2017,
       "cited_by_count": 13447,
       "adjusted_cited_by_count": 4482.33,
-      "primary_topic_id": "sg-health-care-wearable-technology-in-health-care",
-      "primary_topic_label": "Wearable technology in health care",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/geriatric-medicine/papers/W2751884637"
     },
     {
@@ -1002,8 +1011,8 @@
       "year": 2020,
       "cited_by_count": 10132,
       "adjusted_cited_by_count": 4136.37,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-s-disease-covid-19",
+      "primary_topic_label": "COVID-19",
       "url": "/domains/geriatric-medicine/papers/W3012421327"
     },
     {
@@ -1012,8 +1021,8 @@
       "year": 2020,
       "cited_by_count": 10013,
       "adjusted_cited_by_count": 4087.79,
-      "primary_topic_id": "sg-randomized-controlled-trial",
-      "primary_topic_label": "Randomized controlled trial",
+      "primary_topic_id": "sg-s-disease-covid-19",
+      "primary_topic_label": "COVID-19",
       "url": "/domains/geriatric-medicine/papers/W3042270788"
     },
     {
@@ -1032,8 +1041,8 @@
       "year": 2022,
       "cited_by_count": 8065,
       "adjusted_cited_by_count": 4032.5,
-      "primary_topic_id": "sg-emergency-medicine-hospital-readmission",
-      "primary_topic_label": "Hospital readmission",
+      "primary_topic_id": "sg-s-disease-huntington-s-disease",
+      "primary_topic_label": "Huntington's disease",
       "url": "/domains/geriatric-medicine/papers/W4308834893"
     },
     {
@@ -1042,8 +1051,8 @@
       "year": 2014,
       "cited_by_count": 13335,
       "adjusted_cited_by_count": 3849.48,
-      "primary_topic_id": "sg-health-care-global-health-issues-in-aging",
-      "primary_topic_label": "Global health issues in aging",
+      "primary_topic_id": "sg-health-care-integrated-care",
+      "primary_topic_label": "Integrated care",
       "url": "/domains/geriatric-medicine/papers/W2752384816"
     },
     {
@@ -1052,8 +1061,8 @@
       "year": 2018,
       "cited_by_count": 10875,
       "adjusted_cited_by_count": 3844.89,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-physical-medicine-rehabilitation-position-paper",
+      "primary_topic_label": "Position paper",
       "url": "/domains/geriatric-medicine/papers/W2900756811"
     },
     {
@@ -1072,8 +1081,8 @@
       "year": 2012,
       "cited_by_count": 14186,
       "adjusted_cited_by_count": 3791.37,
-      "primary_topic_id": "sg-s-disease-rem-sleep-behavior-disorder",
-      "primary_topic_label": "Rem sleep behavior disorder",
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/geriatric-medicine/papers/W2125065061"
     },
     {
@@ -1122,8 +1131,8 @@
       "year": 2016,
       "cited_by_count": 11403,
       "adjusted_cited_by_count": 3605.95,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-health-care-acute-care",
+      "primary_topic_label": "Acute care",
       "url": "/domains/geriatric-medicine/papers/W2397911846"
     },
     {
@@ -1135,6 +1144,16 @@
       "primary_topic_id": "sg-s-disease",
       "primary_topic_label": "S disease",
       "url": "/domains/geriatric-medicine/papers/W3011610993"
+    },
+    {
+      "source_id": "https://openalex.org/W2146264128",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "year": 2015,
+      "cited_by_count": 11793,
+      "adjusted_cited_by_count": 3555.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/geriatric-medicine/papers/W2146264128"
     }
   ],
   "representative_papers": [
@@ -1283,14 +1302,6 @@
       "url": "/domains/geriatric-medicine/papers/W2164059021"
     },
     {
-      "source_id": "https://openalex.org/W2897513125",
-      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
-      "year": 2018,
-      "cited_by_count": 13476,
-      "adjusted_cited_by_count": 4764.49,
-      "url": "/domains/geriatric-medicine/papers/W2897513125"
-    },
-    {
       "source_id": "https://openalex.org/W2096287682",
       "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
       "year": 2005,
@@ -1457,6 +1468,14 @@
       "cited_by_count": 8717,
       "adjusted_cited_by_count": 3558.7,
       "url": "/domains/geriatric-medicine/papers/W3011610993"
+    },
+    {
+      "source_id": "https://openalex.org/W2146264128",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "year": 2015,
+      "cited_by_count": 11793,
+      "adjusted_cited_by_count": 3555.72,
+      "url": "/domains/geriatric-medicine/papers/W2146264128"
     }
   ],
   "role_profiles": [
@@ -1466,7 +1485,7 @@
       "topic_role": "domain_topic",
       "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 858
+      "evidence_count": 857
     },
     {
       "label": "disease",
@@ -1482,7 +1501,7 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 396
+      "evidence_count": 395
     },
     {
       "label": "care",
@@ -1490,7 +1509,7 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 339
+      "evidence_count": 338
     },
     {
       "label": "health",
@@ -1498,7 +1517,7 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 317
+      "evidence_count": 316
     },
     {
       "label": "patient",
@@ -1506,7 +1525,7 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 287
+      "evidence_count": 286
     },
     {
       "label": "clinical",
@@ -1530,7 +1549,7 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 217
+      "evidence_count": 216
     },
     {
       "label": "population",
@@ -1649,8 +1668,8 @@
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9869,
-      "evidence_count": 118
+      "confidence": 0.9868,
+      "evidence_count": 117
     },
     {
       "label": "cognitive",
@@ -1678,6 +1697,14 @@
     },
     {
       "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 111
+    },
+    {
+      "label": "factors",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
@@ -1801,7 +1828,7 @@
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9852,
+      "confidence": 0.9853,
       "evidence_count": 90
     },
     {
@@ -1851,14 +1878,6 @@
       "ui_role": "property_detail",
       "confidence": 0.9848,
       "evidence_count": 83
-    },
-    {
-      "label": "medical",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9847,
-      "evidence_count": 143
     }
   ],
   "topic_year_counts": {
@@ -1978,6 +1997,35 @@
       "2000": 4310,
       "2001": 4260
     },
+    "psychological intervention": {
+      "2025": 257013,
+      "2024": 211336,
+      "2023": 196102,
+      "2022": 138820,
+      "2021": 122697,
+      "2020": 107756,
+      "2019": 84004,
+      "2018": 71871,
+      "2026": 67597,
+      "2017": 64885,
+      "2016": 58003,
+      "2015": 52349,
+      "2014": 46087,
+      "2013": 40019,
+      "2012": 34510,
+      "2011": 28391,
+      "2010": 24804,
+      "2009": 21392,
+      "2008": 17386,
+      "2007": 14490,
+      "2006": 12346,
+      "2005": 10702,
+      "2004": 9158,
+      "2003": 7821,
+      "2000": 6557,
+      "2002": 6521,
+      "2001": 5803
+    },
     "quality of life": {
       "2023": 848728,
       "2024": 836644,
@@ -2006,35 +2054,6 @@
       "2002": 39443,
       "2000": 34779,
       "2001": 34145
-    },
-    "randomized controlled trial": {
-      "2023": 406671,
-      "2024": 400272,
-      "2025": 392843,
-      "2022": 288113,
-      "2021": 268343,
-      "2020": 248437,
-      "2019": 195887,
-      "2018": 170490,
-      "2017": 155960,
-      "2016": 139156,
-      "2015": 126792,
-      "2014": 113907,
-      "2026": 104152,
-      "2013": 102640,
-      "2012": 88771,
-      "2011": 74855,
-      "2010": 62936,
-      "2009": 54114,
-      "2008": 45705,
-      "2007": 39378,
-      "2006": 35471,
-      "2005": 31757,
-      "2004": 27617,
-      "2003": 22812,
-      "2002": 18313,
-      "2001": 16132,
-      "2000": 15840
     }
   }
 }

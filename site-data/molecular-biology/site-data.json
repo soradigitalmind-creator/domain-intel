@@ -1,22 +1,22 @@
 {
   "slug": "molecular-biology",
   "title": "Molecular Biology",
-  "updated_at": "2026-04-10T12:16:36.195458Z",
+  "updated_at": "2026-04-12T02:24:05.116719Z",
   "snapshot": {
-    "papers": 448,
-    "topics": 7,
-    "subtopics": 56,
-    "entities": 1133,
+    "papers": 740,
+    "topics": 5,
+    "subtopics": 58,
+    "entities": 2177,
     "claims": 5
   },
   "overview": {
     "source_ids": [],
     "partition_summary": {
       "overview_papers": 0,
-      "topical_papers": 524,
-      "total_papers": 524,
+      "topical_papers": 994,
+      "total_papers": 994,
       "facet_counts": {
-        "none": 524
+        "none": 994
       },
       "gemini_validation_enabled": false,
       "gemini_validation_ready": false,
@@ -28,10 +28,10 @@
     "concept_type": "taxonomy"
   },
   "hierarchy": {
-    "root_topics": 7,
-    "descendant_topics": 56,
+    "root_topics": 5,
+    "descendant_topics": 58,
     "max_depth": 2,
-    "leaf_topics": 56
+    "leaf_topics": 58
   },
   "rising_topics": [
     {
@@ -39,21 +39,21 @@
       "label": "Computational biology",
       "url": "/domains/molecular-biology/topics/sg-computational-biology",
       "trend": "rising",
-      "year_total": 876664
+      "year_total": 877896
     },
     {
       "id": "sg-cell-biology",
       "label": "Cell biology",
       "url": "/domains/molecular-biology/topics/sg-cell-biology",
       "trend": "rising",
-      "year_total": 2839687
+      "year_total": 2842308
     },
     {
-      "id": "sg-gene-expression",
-      "label": "Gene expression",
-      "url": "/domains/molecular-biology/topics/sg-gene-expression",
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/molecular-biology/topics/sg-data-mining",
       "trend": "rising",
-      "year_total": 4737806
+      "year_total": 1756798
     }
   ],
   "topic_branches": [
@@ -61,10 +61,10 @@
       "id": "sg-computational-biology",
       "label": "Computational biology",
       "url": "/domains/molecular-biology/topics/sg-computational-biology",
-      "paper_count": 231,
-      "subtopic_count": 19,
+      "paper_count": 341,
+      "subtopic_count": 17,
       "trend": "rising",
-      "summary": "",
+      "summary": "entities: computational biology, microbial, microbial natural products and biosynthesis",
       "tags": [
         "biology of cell",
         "computational biology",
@@ -73,109 +73,200 @@
       ],
       "subtopics": [
         {
-          "id": "sg-computational-biology-genome-projects",
-          "label": "Genome projects",
-          "url": "/domains/molecular-biology/topics/sg-computational-biology-genome-projects",
-          "paper_count": 48
+          "id": "sg-computational-biology-computational-genomics",
+          "label": "Computational genomics",
+          "url": "/domains/molecular-biology/topics/sg-computational-biology-computational-genomics",
+          "paper_count": 182
         },
         {
           "id": "sg-computational-biology-molecular-biology",
           "label": "Molecular biology",
           "url": "/domains/molecular-biology/topics/sg-computational-biology-molecular-biology",
-          "paper_count": 47
+          "paper_count": 41
         },
         {
-          "id": "sg-computational-biology-dna-sequencing",
-          "label": "Dna sequencing",
-          "url": "/domains/molecular-biology/topics/sg-computational-biology-dna-sequencing",
+          "id": "sg-computational-biology-drug-discovery",
+          "label": "Drug discovery",
+          "url": "/domains/molecular-biology/topics/sg-computational-biology-drug-discovery",
           "paper_count": 20
-        },
-        {
-          "id": "sg-computational-biology-sequence-alignment",
-          "label": "Sequence alignment",
-          "url": "/domains/molecular-biology/topics/sg-computational-biology-sequence-alignment",
-          "paper_count": 16
-        },
-        {
-          "id": "sg-computational-biology-gene-ontology",
-          "label": "Gene ontology",
-          "url": "/domains/molecular-biology/topics/sg-computational-biology-gene-ontology",
-          "paper_count": 15
         },
         {
           "id": "sg-computational-biology-protein-structure",
           "label": "Protein structure",
           "url": "/domains/molecular-biology/topics/sg-computational-biology-protein-structure",
-          "paper_count": 15
+          "paper_count": 19
+        },
+        {
+          "id": "sg-computational-biology-sequence-alignment",
+          "label": "Sequence alignment",
+          "url": "/domains/molecular-biology/topics/sg-computational-biology-sequence-alignment",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-computational-biology-information-resource",
+          "label": "Information resource",
+          "url": "/domains/molecular-biology/topics/sg-computational-biology-information-resource",
+          "paper_count": 12
         }
       ],
-      "featured_papers": []
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2126961173",
+          "title": "Folding DNA to create nanoscale shapes and patterns",
+          "year": "2006",
+          "cited_by_count": 7358,
+          "url": "/domains/molecular-biology/papers/W2126961173"
+        },
+        {
+          "source_id": "https://openalex.org/W2009156161",
+          "title": "Bioactive Microbial Metabolites",
+          "year": "2005",
+          "cited_by_count": 3137,
+          "url": "/domains/molecular-biology/papers/W2009156161"
+        }
+      ]
     },
     {
       "id": "sg-cell-biology",
       "label": "Cell biology",
       "url": "/domains/molecular-biology/topics/sg-cell-biology",
-      "paper_count": 98,
-      "subtopic_count": 10,
+      "paper_count": 290,
+      "subtopic_count": 24,
       "trend": "rising",
       "summary": "",
       "tags": [
         "cell biology",
-        "cell death",
         "developmental biology",
-        "molecular biology of cell"
+        "molecular biology of cell",
+        "molecular cell"
       ],
       "subtopics": [
         {
           "id": "sg-cell-biology-stem-cell",
           "label": "Stem cell",
           "url": "/domains/molecular-biology/topics/sg-cell-biology-stem-cell",
-          "paper_count": 46
+          "paper_count": 87
         },
         {
-          "id": "sg-cell-biology-cell-signaling",
-          "label": "Cell signaling",
-          "url": "/domains/molecular-biology/topics/sg-cell-biology-cell-signaling",
-          "paper_count": 24
+          "id": "sg-cell-biology-cell-type",
+          "label": "Cell type",
+          "url": "/domains/molecular-biology/topics/sg-cell-biology-cell-type",
+          "paper_count": 70
         },
         {
-          "id": "sg-cell-biology-cell-death",
-          "label": "Cell death",
-          "url": "/domains/molecular-biology/topics/sg-cell-biology-cell-death",
-          "paper_count": 11
+          "id": "sg-cell-biology-hepatic-stellate-cell",
+          "label": "Hepatic stellate cell",
+          "url": "/domains/molecular-biology/topics/sg-cell-biology-hepatic-stellate-cell",
+          "paper_count": 29
         },
         {
-          "id": "sg-cell-biology-innate-immunity",
-          "label": "Innate immunity",
-          "url": "/domains/molecular-biology/topics/sg-cell-biology-innate-immunity",
-          "paper_count": 6
+          "id": "sg-cell-biology-antigen-presenting-cell",
+          "label": "Antigen-presenting cell",
+          "url": "/domains/molecular-biology/topics/sg-cell-biology-antigen-presenting-cell",
+          "paper_count": 14
         },
         {
-          "id": "sg-cell-biology-transcription-factor",
-          "label": "Transcription factor",
-          "url": "/domains/molecular-biology/topics/sg-cell-biology-transcription-factor",
-          "paper_count": 4
+          "id": "sg-cell-biology-t-cell",
+          "label": "T cell",
+          "url": "/domains/molecular-biology/topics/sg-cell-biology-t-cell",
+          "paper_count": 13
         },
         {
-          "id": "sg-cell-biology-cell-growth",
-          "label": "Cell growth",
-          "url": "/domains/molecular-biology/topics/sg-cell-biology-cell-growth",
-          "paper_count": 2
+          "id": "sg-cell-biology-cell-migration",
+          "label": "Cell migration",
+          "url": "/domains/molecular-biology/topics/sg-cell-biology-cell-migration",
+          "paper_count": 9
         }
       ],
       "featured_papers": []
     },
     {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/molecular-biology/topics/sg-data-mining",
+      "paper_count": 49,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: data mining, data, gene",
+      "tags": [
+        "big data",
+        "biological data",
+        "data integration",
+        "data mining"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-data-mining-data-visualization",
+          "label": "Data visualization",
+          "url": "/domains/molecular-biology/topics/sg-data-mining-data-visualization",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-data-mining-data-integration",
+          "label": "Data integration",
+          "url": "/domains/molecular-biology/topics/sg-data-mining-data-integration",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-data-mining-big-data",
+          "label": "Big data",
+          "url": "/domains/molecular-biology/topics/sg-data-mining-big-data",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-data-mining-biological-data",
+          "label": "Biological data",
+          "url": "/domains/molecular-biology/topics/sg-data-mining-biological-data",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-data-mining-feature-selection",
+          "label": "Feature selection",
+          "url": "/domains/molecular-biology/topics/sg-data-mining-feature-selection",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-data-mining-multivariate-statistics",
+          "label": "Multivariate statistics",
+          "url": "/domains/molecular-biology/topics/sg-data-mining-multivariate-statistics",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2131271579",
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68195,
+          "url": "/domains/molecular-biology/papers/W2131271579"
+        },
+        {
+          "source_id": "https://openalex.org/W2141052558",
+          "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
+          "year": "2014",
+          "cited_by_count": 33883,
+          "url": "/domains/molecular-biology/papers/W2141052558"
+        },
+        {
+          "source_id": "https://openalex.org/W4251751280",
+          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+          "year": "2021",
+          "cited_by_count": 21099,
+          "url": "/domains/molecular-biology/papers/W4251751280"
+        }
+      ]
+    },
+    {
       "id": "sg-gene-expression",
       "label": "Gene expression",
       "url": "/domains/molecular-biology/topics/sg-gene-expression",
-      "paper_count": 37,
+      "paper_count": 42,
       "subtopic_count": 5,
       "trend": "rising",
-      "summary": "entities: gene, genetics, gene expression",
+      "summary": "entities: gene, gene expression, genetics",
       "tags": [
+        "2 gene expression",
         "digital gene expression",
-        "dna methylation",
         "encyclopedia of gene",
         "encyclopedia of gene genome"
       ],
@@ -184,31 +275,31 @@
           "id": "sg-gene-expression-gene-expression-profiling",
           "label": "Gene expression profiling",
           "url": "/domains/molecular-biology/topics/sg-gene-expression-gene-expression-profiling",
-          "paper_count": 17
+          "paper_count": 25
         },
         {
-          "id": "sg-gene-expression-dna-methylation",
-          "label": "Dna methylation",
-          "url": "/domains/molecular-biology/topics/sg-gene-expression-dna-methylation",
-          "paper_count": 15
+          "id": "sg-gene-expression-reporter-gene",
+          "label": "Reporter gene",
+          "url": "/domains/molecular-biology/topics/sg-gene-expression-reporter-gene",
+          "paper_count": 7
         },
         {
-          "id": "sg-gene-expression-gene-isoform",
-          "label": "Gene isoform",
-          "url": "/domains/molecular-biology/topics/sg-gene-expression-gene-isoform",
-          "paper_count": 2
+          "id": "sg-gene-expression-gene-knockin",
+          "label": "Gene knockin",
+          "url": "/domains/molecular-biology/topics/sg-gene-expression-gene-knockin",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-gene-expression-regulation-of-gene-expression",
+          "label": "Regulation of gene expression",
+          "url": "/domains/molecular-biology/topics/sg-gene-expression-regulation-of-gene-expression",
+          "paper_count": 3
         },
         {
           "id": "sg-gene-expression-microarray-techniques",
           "label": "Microarray techniques",
           "url": "/domains/molecular-biology/topics/sg-gene-expression-microarray-techniques",
           "paper_count": 2
-        },
-        {
-          "id": "sg-gene-expression-regulation-of-gene-expression",
-          "label": "Regulation of gene expression",
-          "url": "/domains/molecular-biology/topics/sg-gene-expression-regulation-of-gene-expression",
-          "paper_count": 1
         }
       ],
       "featured_papers": [
@@ -216,162 +307,22 @@
           "source_id": "https://openalex.org/W2107277218",
           "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
           "year": "2001",
-          "cited_by_count": 179008,
+          "cited_by_count": 179078,
           "url": "/domains/molecular-biology/papers/W2107277218"
         },
         {
           "source_id": "https://openalex.org/W2130410032",
           "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
           "year": "2005",
-          "cited_by_count": 55632,
+          "cited_by_count": 55662,
           "url": "/domains/molecular-biology/papers/W2130410032"
         },
         {
           "source_id": "https://openalex.org/W2114104545",
           "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
           "year": "2009",
-          "cited_by_count": 43839,
+          "cited_by_count": 43863,
           "url": "/domains/molecular-biology/papers/W2114104545"
-        }
-      ]
-    },
-    {
-      "id": "sg-data-mining",
-      "label": "Data mining",
-      "url": "/domains/molecular-biology/topics/sg-data-mining",
-      "paper_count": 28,
-      "subtopic_count": 6,
-      "trend": "rising",
-      "summary": "entities: data mining, data, tool",
-      "tags": [
-        "biological data",
-        "data integration",
-        "data mining",
-        "data visualization"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-data-mining-data-integration",
-          "label": "Data integration",
-          "url": "/domains/molecular-biology/topics/sg-data-mining-data-integration",
-          "paper_count": 8
-        },
-        {
-          "id": "sg-data-mining-data-visualization",
-          "label": "Data visualization",
-          "url": "/domains/molecular-biology/topics/sg-data-mining-data-visualization",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-data-mining-multivariate-statistics",
-          "label": "Multivariate statistics",
-          "url": "/domains/molecular-biology/topics/sg-data-mining-multivariate-statistics",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-data-mining-random-forest",
-          "label": "Random forest",
-          "url": "/domains/molecular-biology/topics/sg-data-mining-random-forest",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-data-mining-biological-data",
-          "label": "Biological data",
-          "url": "/domains/molecular-biology/topics/sg-data-mining-biological-data",
-          "paper_count": 4
-        },
-        {
-          "id": "sg-data-mining-support-vector-machine",
-          "label": "Support vector machine",
-          "url": "/domains/molecular-biology/topics/sg-data-mining-support-vector-machine",
-          "paper_count": 1
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2131271579",
-          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
-          "year": "2014",
-          "cited_by_count": 68145,
-          "url": "/domains/molecular-biology/papers/W2131271579"
-        },
-        {
-          "source_id": "https://openalex.org/W2158217645",
-          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
-          "year": "2008",
-          "cited_by_count": 37147,
-          "url": "/domains/molecular-biology/papers/W2158217645"
-        },
-        {
-          "source_id": "https://openalex.org/W2102619694",
-          "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
-          "year": "2010",
-          "cited_by_count": 29875,
-          "url": "/domains/molecular-biology/papers/W2102619694"
-        }
-      ]
-    },
-    {
-      "id": "sg-phylogenetic-tree",
-      "label": "Phylogenetic tree",
-      "url": "/domains/molecular-biology/topics/sg-phylogenetic-tree",
-      "paper_count": 19,
-      "subtopic_count": 4,
-      "trend": "rising",
-      "summary": "entities: phylogenetic tree, gene, genomics and phylogenetic studies",
-      "tags": [
-        "comparative biology",
-        "maximum likelihood",
-        "molecular evolution",
-        "molecular evolutionary"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-phylogenetic-tree-sequence-alignment",
-          "label": "Sequence alignment",
-          "url": "/domains/molecular-biology/topics/sg-phylogenetic-tree-sequence-alignment",
-          "paper_count": 6
-        },
-        {
-          "id": "sg-phylogenetic-tree-evolutionary-genetics",
-          "label": "Evolutionary genetics",
-          "url": "/domains/molecular-biology/topics/sg-phylogenetic-tree-evolutionary-genetics",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-phylogenetic-tree-maximum-likelihood",
-          "label": "Maximum likelihood",
-          "url": "/domains/molecular-biology/topics/sg-phylogenetic-tree-maximum-likelihood",
-          "paper_count": 4
-        },
-        {
-          "id": "sg-phylogenetic-tree-parallel-computing",
-          "label": "Parallel computing",
-          "url": "/domains/molecular-biology/topics/sg-phylogenetic-tree-parallel-computing",
-          "paper_count": 4
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2799524357",
-          "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
-          "year": "2018",
-          "cited_by_count": 38045,
-          "url": "/domains/molecular-biology/papers/W2799524357"
-        },
-        {
-          "source_id": "https://openalex.org/W2132632499",
-          "title": "MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods",
-          "year": "2011",
-          "cited_by_count": 40231,
-          "url": "/domains/molecular-biology/papers/W2132632499"
-        },
-        {
-          "source_id": "https://openalex.org/W2141052558",
-          "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
-          "year": "2014",
-          "cited_by_count": 33873,
-          "url": "/domains/molecular-biology/papers/W2141052558"
         }
       ]
     },
@@ -380,150 +331,68 @@
       "label": "Signal transduction",
       "url": "/domains/molecular-biology/topics/sg-signal-transduction",
       "paper_count": 18,
-      "subtopic_count": 6,
+      "subtopic_count": 5,
       "trend": "rising",
-      "summary": "entities: signal transduction, signal, gene",
+      "summary": "entities: signal, signal transduction, of the",
       "tags": [
+        "amp molecular biology",
         "cell and molecular biology",
         "molecular biology of plants",
-        "nf-κb signaling pathways",
-        "pi3k/akt/mtor signaling in cancer"
+        "nf-κb signaling pathways"
       ],
       "subtopics": [
+        {
+          "id": "sg-signal-transduction-signal-transducing-adaptor-protein",
+          "label": "Signal transducing adaptor protein",
+          "url": "/domains/molecular-biology/topics/sg-signal-transduction-signal-transducing-adaptor-protein",
+          "paper_count": 6
+        },
         {
           "id": "sg-signal-transduction-nf-b-signaling-pathways",
           "label": "Nf-κb signaling pathways",
           "url": "/domains/molecular-biology/topics/sg-signal-transduction-nf-b-signaling-pathways",
-          "paper_count": 7
-        },
-        {
-          "id": "sg-signal-transduction-molecular-biology",
-          "label": "Molecular biology",
-          "url": "/domains/molecular-biology/topics/sg-signal-transduction-molecular-biology",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-signal-transduction-hedgehog-signaling-pathway-studies",
-          "label": "Hedgehog signaling pathway studies",
-          "url": "/domains/molecular-biology/topics/sg-signal-transduction-hedgehog-signaling-pathway-studies",
-          "paper_count": 2
+          "paper_count": 4
         },
         {
           "id": "sg-signal-transduction-pi3k-akt-mtor-signaling-in-cancer",
           "label": "Pi3k/akt/mtor signaling in cancer",
           "url": "/domains/molecular-biology/topics/sg-signal-transduction-pi3k-akt-mtor-signaling-in-cancer",
-          "paper_count": 2
+          "paper_count": 4
         },
         {
-          "id": "sg-signal-transduction-fibroblast-growth-factor",
-          "label": "Fibroblast growth factor",
-          "url": "/domains/molecular-biology/topics/sg-signal-transduction-fibroblast-growth-factor",
-          "paper_count": 1
+          "id": "sg-signal-transduction-i-b-kinase",
+          "label": "Iκb kinase",
+          "url": "/domains/molecular-biology/topics/sg-signal-transduction-i-b-kinase",
+          "paper_count": 3
         },
         {
-          "id": "sg-signal-transduction-nf-b-signaling",
-          "label": "Nf-κb signaling",
-          "url": "/domains/molecular-biology/topics/sg-signal-transduction-nf-b-signaling",
+          "id": "sg-signal-transduction-hedgehog-signaling-pathway-studies",
+          "label": "Hedgehog signaling pathway studies",
+          "url": "/domains/molecular-biology/topics/sg-signal-transduction-hedgehog-signaling-pathway-studies",
           "paper_count": 1
         }
       ],
       "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2018289835",
-          "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
-          "year": "2013",
-          "cited_by_count": 47289,
-          "url": "/domains/molecular-biology/papers/W2018289835"
-        },
         {
           "source_id": "https://openalex.org/W2735527928",
           "title": "NF-κB signaling in inflammation",
           "year": "2017",
-          "cited_by_count": 7874,
+          "cited_by_count": 7878,
           "url": "/domains/molecular-biology/papers/W2735527928"
         },
         {
-          "source_id": "https://openalex.org/W2122341467",
-          "title": "How mitochondria produce reactive oxygen species",
-          "year": "2008",
-          "cited_by_count": 7900,
-          "url": "/domains/molecular-biology/papers/W2122341467"
-        }
-      ]
-    },
-    {
-      "id": "sg-human-genome",
-      "label": "Human genome",
-      "url": "/domains/molecular-biology/topics/sg-human-genome",
-      "paper_count": 17,
-      "subtopic_count": 6,
-      "trend": "rising",
-      "summary": "entities: gene, genetics, genome",
-      "tags": [
-        "1000 genome project",
-        "2,504 human genome",
-        "genome project",
-        "human genome"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-human-genome-1000-genome-project",
-          "label": "1000 genome project",
-          "url": "/domains/molecular-biology/topics/sg-human-genome-1000-genome-project",
-          "paper_count": 4
+          "source_id": "https://openalex.org/W2126547130",
+          "title": "Comprehensive molecular characterization of gastric adenocarcinoma",
+          "year": "2014",
+          "cited_by_count": 6417,
+          "url": "/domains/molecular-biology/papers/W2126547130"
         },
         {
-          "id": "sg-human-genome-human-and-mouse-genomes",
-          "label": "Human and mouse genomes",
-          "url": "/domains/molecular-biology/topics/sg-human-genome-human-and-mouse-genomes",
-          "paper_count": 4
-        },
-        {
-          "id": "sg-human-genome-human-genetic-variation",
-          "label": "Human genetic variation",
-          "url": "/domains/molecular-biology/topics/sg-human-genome-human-genetic-variation",
-          "paper_count": 4
-        },
-        {
-          "id": "sg-human-genome-dna-sequencing",
-          "label": "Dna sequencing",
-          "url": "/domains/molecular-biology/topics/sg-human-genome-dna-sequencing",
-          "paper_count": 3
-        },
-        {
-          "id": "sg-human-genome-circular-rna",
-          "label": "Circular rna",
-          "url": "/domains/molecular-biology/topics/sg-human-genome-circular-rna",
-          "paper_count": 1
-        },
-        {
-          "id": "sg-human-genome-molecular-biology",
-          "label": "Molecular biology",
-          "url": "/domains/molecular-biology/topics/sg-human-genome-molecular-biology",
-          "paper_count": 1
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2104549677",
-          "title": "A global reference for human genetic variation",
-          "year": "2015",
-          "cited_by_count": 19597,
-          "url": "/domains/molecular-biology/papers/W2104549677"
-        },
-        {
-          "source_id": "https://openalex.org/W2259938310",
-          "title": "An integrated encyclopedia of DNA elements in the human genome",
-          "year": "2012",
-          "cited_by_count": 19204,
-          "url": "/domains/molecular-biology/papers/W2259938310"
-        },
-        {
-          "source_id": "https://openalex.org/W2096791516",
-          "title": "An integrated map of genetic variation from 1,092 human genomes",
-          "year": "2012",
-          "cited_by_count": 8190,
-          "url": "/domains/molecular-biology/papers/W2096791516"
+          "source_id": "https://openalex.org/W4296816736",
+          "title": "Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research",
+          "year": "2010",
+          "cited_by_count": 7220,
+          "url": "/domains/molecular-biology/papers/W4296816736"
         }
       ]
     }
@@ -531,7 +400,7 @@
   "paper_shelves": [
     {
       "label": "Computational biology",
-      "paper_count": 16,
+      "paper_count": 14,
       "papers": [
         {
           "title": "Molecular Cloning: A Laboratory Manual",
@@ -543,78 +412,160 @@
         {
           "title": "Highly accurate protein structure prediction with AlphaFold",
           "year": "2021",
-          "cited_by_count": 43200,
+          "cited_by_count": 43250,
           "topic": "Computational biology",
           "url": "papers/https-openalex-org-w3177828909.html"
         },
         {
           "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
           "year": "1997",
-          "cited_by_count": 74204,
+          "cited_by_count": 74213,
           "topic": "Computational biology",
           "url": "papers/https-openalex-org-w2158714788.html"
         },
         {
+          "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
+          "year": "2018",
+          "cited_by_count": 38077,
+          "topic": "Computational biology",
+          "url": "papers/https-openalex-org-w2799524357.html"
+        },
+        {
           "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
           "year": "2015",
-          "cited_by_count": 41988,
+          "cited_by_count": 42031,
           "topic": "Computational biology",
           "url": "papers/https-openalex-org-w2146512944.html"
         },
         {
           "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
           "year": "2024",
-          "cited_by_count": 11909,
+          "cited_by_count": 11962,
           "topic": "Computational biology",
           "url": "papers/https-openalex-org-w4396721167.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31076,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3008827533.html"
+        },
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30222,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3001897055.html"
         },
         {
           "title": "VMD: Visual molecular dynamics",
           "year": "1996",
-          "cited_by_count": 65035,
-          "topic": "Computational biology",
+          "cited_by_count": 65080,
+          "topic": "Others",
           "url": "papers/https-openalex-org-w2029667189.html"
+        },
+        {
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 29020,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3009885589.html"
+        },
+        {
+          "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
+          "year": "2014",
+          "cited_by_count": 33883,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2141052558.html"
+        },
+        {
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2560367415.html"
+        }
+      ]
+    },
+    {
+      "label": "Data mining",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68195,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2131271579.html"
+        },
+        {
+          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+          "year": "2021",
+          "cited_by_count": 21099,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w4251751280.html"
+        },
+        {
+          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+          "year": "2008",
+          "cited_by_count": 37160,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2158217645.html"
+        },
+        {
+          "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+          "year": "2010",
+          "cited_by_count": 29893,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2102619694.html"
+        },
+        {
+          "title": "WGCNA: an R package for weighted correlation network analysis",
+          "year": "2008",
+          "cited_by_count": 28446,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w1966327575.html"
         }
       ]
     },
     {
       "label": "Gene expression",
-      "paper_count": 7,
+      "paper_count": 5,
       "papers": [
         {
           "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
           "year": "2001",
-          "cited_by_count": 179008,
+          "cited_by_count": 179078,
           "topic": "Gene expression",
           "url": "papers/https-openalex-org-w2107277218.html"
         },
         {
           "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
           "year": "2005",
-          "cited_by_count": 55632,
+          "cited_by_count": 55662,
           "topic": "Gene expression",
           "url": "papers/https-openalex-org-w2130410032.html"
         },
         {
           "title": "&lt;tt&gt;edgeR&lt;/tt&gt; : a Bioconductor package for differential expression analysis of digital gene expression data",
           "year": "2009",
-          "cited_by_count": 43839,
+          "cited_by_count": 43863,
           "topic": "Gene expression",
           "url": "papers/https-openalex-org-w2114104545.html"
         },
         {
           "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
           "year": "2000",
-          "cited_by_count": 38483,
+          "cited_by_count": 38508,
           "topic": "Gene expression",
           "url": "papers/https-openalex-org-w4294216483.html"
-        },
-        {
-          "title": "WGCNA: an R package for weighted correlation network analysis",
-          "year": "2008",
-          "cited_by_count": 28424,
-          "topic": "Gene expression",
-          "url": "papers/https-openalex-org-w1966327575.html"
         },
         {
           "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
@@ -626,129 +577,73 @@
       ]
     },
     {
-      "label": "Data mining",
-      "paper_count": 5,
-      "papers": [
-        {
-          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
-          "year": "2014",
-          "cited_by_count": 68145,
-          "topic": "Data mining",
-          "url": "papers/https-openalex-org-w2131271579.html"
-        },
-        {
-          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
-          "year": "2008",
-          "cited_by_count": 37147,
-          "topic": "Data mining",
-          "url": "papers/https-openalex-org-w2158217645.html"
-        },
-        {
-          "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
-          "year": "2010",
-          "cited_by_count": 29875,
-          "topic": "Data mining",
-          "url": "papers/https-openalex-org-w2102619694.html"
-        },
-        {
-          "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
-          "year": "2019",
-          "cited_by_count": 15273,
-          "topic": "Data mining",
-          "url": "papers/https-openalex-org-w2928665623.html"
-        },
-        {
-          "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
-          "year": "2010",
-          "cited_by_count": 18743,
-          "topic": "Data mining",
-          "url": "papers/https-openalex-org-w2111211467.html"
-        }
-      ]
-    },
-    {
-      "label": "Phylogenetic tree",
-      "paper_count": 5,
-      "papers": [
-        {
-          "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
-          "year": "2018",
-          "cited_by_count": 38045,
-          "topic": "Phylogenetic tree",
-          "url": "papers/https-openalex-org-w2799524357.html"
-        },
-        {
-          "title": "MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods",
-          "year": "2011",
-          "cited_by_count": 40231,
-          "topic": "Phylogenetic tree",
-          "url": "papers/https-openalex-org-w2132632499.html"
-        },
-        {
-          "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
-          "year": "2014",
-          "cited_by_count": 33873,
-          "topic": "Phylogenetic tree",
-          "url": "papers/https-openalex-org-w2141052558.html"
-        },
-        {
-          "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
-          "year": "2021",
-          "cited_by_count": 21061,
-          "topic": "Phylogenetic tree",
-          "url": "papers/https-openalex-org-w4251751280.html"
-        },
-        {
-          "title": "IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies",
-          "year": "2014",
-          "cited_by_count": 26786,
-          "topic": "Phylogenetic tree",
-          "url": "papers/https-openalex-org-w2111647009.html"
-        }
-      ]
-    },
-    {
-      "label": "Human genome",
+      "label": "Data visualization",
       "paper_count": 2,
       "papers": [
         {
-          "title": "A global reference for human genetic variation",
-          "year": "2015",
-          "cited_by_count": 19597,
-          "topic": "Human genome",
-          "url": "papers/https-openalex-org-w2104549677.html"
-        },
-        {
-          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "title": "NIH Image to ImageJ: 25 years of image analysis",
           "year": "2012",
-          "cited_by_count": 19204,
-          "topic": "Human genome",
-          "url": "papers/https-openalex-org-w2259938310.html"
-        }
-      ]
-    },
-    {
-      "label": "Dna sequencing",
-      "paper_count": 1,
-      "papers": [
+          "cited_by_count": 63879,
+          "topic": "Data visualization",
+          "url": "papers/https-openalex-org-w2099540110.html"
+        },
         {
           "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
           "year": "2011",
-          "cited_by_count": 34922,
-          "topic": "Dna sequencing",
+          "cited_by_count": 34956,
+          "topic": "Data visualization",
           "url": "papers/https-openalex-org-w2036897871.html"
         }
       ]
     },
     {
-      "label": "Others",
+      "label": "Antigen-presenting cell",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23223,
+          "topic": "Antigen-presenting cell",
+          "url": "papers/https-openalex-org-w3004280078.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell adhesion",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "DNA sequencing with chain-terminating inhibitors",
+          "year": "1977",
+          "cited_by_count": 69218,
+          "topic": "Cell adhesion",
+          "url": "papers/https-openalex-org-w2138270253.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell biology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+          "year": "1997",
+          "cited_by_count": 66556,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w1964184380.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell growth",
       "paper_count": 1,
       "papers": [
         {
           "title": "Short-Term Effects of Nose-Only Cigarette Smoke Exposure on Glutathione Redox Homeostasis, Cytochrome P450 1A1/2 and Respiratory Enzyme Activities in Mice Tissues",
           "year": "2013",
           "cited_by_count": 47289,
-          "topic": "Others",
+          "topic": "Cell growth",
           "url": "papers/https-openalex-org-w2018289835.html"
         }
       ]
@@ -760,35 +655,9 @@
         {
           "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
           "year": "1997",
-          "cited_by_count": 39146,
+          "cited_by_count": 39148,
           "topic": "Sequence alignment",
           "url": "papers/https-openalex-org-w2097382368.html"
-        }
-      ]
-    },
-    {
-      "label": "Stem cell",
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "Detecting the number of clusters of individuals using the software &lt;scp&gt;structure&lt;/scp&gt;: a simulation study",
-          "year": "2005",
-          "cited_by_count": 21901,
-          "topic": "Stem cell",
-          "url": "papers/https-openalex-org-w2161339576.html"
-        }
-      ]
-    },
-    {
-      "label": "Transcription factor",
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "NIH Image to ImageJ: 25 years of image analysis",
-          "year": "2012",
-          "cited_by_count": 63829,
-          "topic": "Transcription factor",
-          "url": "papers/https-openalex-org-w2099540110.html"
         }
       ]
     }
@@ -798,8 +667,8 @@
       "source_id": "https://openalex.org/W2107277218",
       "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
       "year": 2001,
-      "cited_by_count": 179008,
-      "adjusted_cited_by_count": 35801.6,
+      "cited_by_count": 179078,
+      "adjusted_cited_by_count": 35815.6,
       "primary_topic_id": "sg-gene-expression",
       "primary_topic_label": "Gene expression",
       "url": "/domains/molecular-biology/papers/W2107277218"
@@ -818,8 +687,8 @@
       "source_id": "https://openalex.org/W2131271579",
       "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
       "year": 2014,
-      "cited_by_count": 68145,
-      "adjusted_cited_by_count": 19671.77,
+      "cited_by_count": 68195,
+      "adjusted_cited_by_count": 19686.2,
       "primary_topic_id": "sg-data-mining",
       "primary_topic_label": "Data mining",
       "url": "/domains/molecular-biology/papers/W2131271579"
@@ -828,8 +697,8 @@
       "source_id": "https://openalex.org/W3177828909",
       "title": "Highly accurate protein structure prediction with AlphaFold",
       "year": 2021,
-      "cited_by_count": 43200,
-      "adjusted_cited_by_count": 19319.63,
+      "cited_by_count": 43250,
+      "adjusted_cited_by_count": 19341.99,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W3177828909"
@@ -838,18 +707,18 @@
       "source_id": "https://openalex.org/W2099540110",
       "title": "NIH Image to ImageJ: 25 years of image analysis",
       "year": 2012,
-      "cited_by_count": 63829,
-      "adjusted_cited_by_count": 17059.02,
-      "primary_topic_id": "sg-cell-biology-transcription-factor",
-      "primary_topic_label": "Transcription factor",
+      "cited_by_count": 63879,
+      "adjusted_cited_by_count": 17072.38,
+      "primary_topic_id": "sg-data-mining-data-visualization",
+      "primary_topic_label": "Data visualization",
       "url": "/domains/molecular-biology/papers/W2099540110"
     },
     {
       "source_id": "https://openalex.org/W2158714788",
       "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
       "year": 1997,
-      "cited_by_count": 74204,
-      "adjusted_cited_by_count": 13779.34,
+      "cited_by_count": 74213,
+      "adjusted_cited_by_count": 13781.01,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2158714788"
@@ -858,10 +727,10 @@
       "source_id": "https://openalex.org/W2799524357",
       "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
       "year": 2018,
-      "cited_by_count": 38045,
-      "adjusted_cited_by_count": 13450.94,
-      "primary_topic_id": "sg-phylogenetic-tree",
-      "primary_topic_label": "Phylogenetic tree",
+      "cited_by_count": 38077,
+      "adjusted_cited_by_count": 13462.25,
+      "primary_topic_id": "sg-computational-biology",
+      "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2799524357"
     },
     {
@@ -870,26 +739,56 @@
       "year": 2013,
       "cited_by_count": 47289,
       "adjusted_cited_by_count": 13115.61,
+      "primary_topic_id": "sg-cell-biology-cell-growth",
+      "primary_topic_label": "Cell growth",
+      "url": "/domains/molecular-biology/papers/W2018289835"
+    },
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31076,
+      "adjusted_cited_by_count": 12686.72,
       "primary_topic_id": "",
       "primary_topic_label": "",
-      "url": "/domains/molecular-biology/papers/W2018289835"
+      "url": "/domains/molecular-biology/papers/W3008827533"
     },
     {
       "source_id": "https://openalex.org/W2146512944",
       "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
       "year": 2015,
-      "cited_by_count": 41988,
-      "adjusted_cited_by_count": 12659.86,
+      "cited_by_count": 42031,
+      "adjusted_cited_by_count": 12672.82,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2146512944"
     },
     {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66556,
+      "adjusted_cited_by_count": 12359.14,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/molecular-biology/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30222,
+      "adjusted_cited_by_count": 12338.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/molecular-biology/papers/W3001897055"
+    },
+    {
       "source_id": "https://openalex.org/W2130410032",
       "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
       "year": 2005,
-      "cited_by_count": 55632,
-      "adjusted_cited_by_count": 12139.9,
+      "cited_by_count": 55662,
+      "adjusted_cited_by_count": 12146.44,
       "primary_topic_id": "sg-gene-expression",
       "primary_topic_label": "Gene expression",
       "url": "/domains/molecular-biology/papers/W2130410032"
@@ -898,8 +797,8 @@
       "source_id": "https://openalex.org/W4396721167",
       "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
       "year": 2024,
-      "cited_by_count": 11909,
-      "adjusted_cited_by_count": 11909.0,
+      "cited_by_count": 11962,
+      "adjusted_cited_by_count": 11962.0,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W4396721167"
@@ -908,18 +807,28 @@
       "source_id": "https://openalex.org/W2029667189",
       "title": "VMD: Visual molecular dynamics",
       "year": 1996,
-      "cited_by_count": 65035,
-      "adjusted_cited_by_count": 11873.71,
-      "primary_topic_id": "sg-computational-biology",
-      "primary_topic_label": "Computational biology",
+      "cited_by_count": 65080,
+      "adjusted_cited_by_count": 11881.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/molecular-biology/papers/W2029667189"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29020,
+      "adjusted_cited_by_count": 11847.37,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/molecular-biology/papers/W3009885589"
     },
     {
       "source_id": "https://openalex.org/W2159675211",
       "title": "Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks",
       "year": 2003,
-      "cited_by_count": 53290,
-      "adjusted_cited_by_count": 11111.73,
+      "cited_by_count": 53327,
+      "adjusted_cited_by_count": 11119.45,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2159675211"
@@ -928,8 +837,8 @@
       "source_id": "https://openalex.org/W2114104545",
       "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
       "year": 2009,
-      "cited_by_count": 43839,
-      "adjusted_cited_by_count": 10632.52,
+      "cited_by_count": 43863,
+      "adjusted_cited_by_count": 10638.34,
       "primary_topic_id": "sg-gene-expression",
       "primary_topic_label": "Gene expression",
       "url": "/domains/molecular-biology/papers/W2114104545"
@@ -938,48 +847,88 @@
       "source_id": "https://openalex.org/W2132632499",
       "title": "MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods",
       "year": 2011,
-      "cited_by_count": 40231,
-      "adjusted_cited_by_count": 10387.6,
-      "primary_topic_id": "sg-phylogenetic-tree",
-      "primary_topic_label": "Phylogenetic tree",
+      "cited_by_count": 40235,
+      "adjusted_cited_by_count": 10388.63,
+      "primary_topic_id": "sg-computational-biology",
+      "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2132632499"
+    },
+    {
+      "source_id": "https://openalex.org/W2138270253",
+      "title": "DNA sequencing with chain-terminating inhibitors",
+      "year": 1977,
+      "cited_by_count": 69218,
+      "adjusted_cited_by_count": 9888.29,
+      "primary_topic_id": "sg-cell-biology-cell-adhesion",
+      "primary_topic_label": "Cell adhesion",
+      "url": "/domains/molecular-biology/papers/W2138270253"
     },
     {
       "source_id": "https://openalex.org/W2141052558",
       "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
       "year": 2014,
-      "cited_by_count": 33873,
-      "adjusted_cited_by_count": 9778.29,
-      "primary_topic_id": "sg-phylogenetic-tree",
-      "primary_topic_label": "Phylogenetic tree",
+      "cited_by_count": 33883,
+      "adjusted_cited_by_count": 9781.18,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/molecular-biology/papers/W2141052558"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/molecular-biology/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23223,
+      "adjusted_cited_by_count": 9480.75,
+      "primary_topic_id": "sg-cell-biology-antigen-presenting-cell",
+      "primary_topic_label": "Antigen-presenting cell",
+      "url": "/domains/molecular-biology/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31305,
+      "adjusted_cited_by_count": 9438.81,
+      "primary_topic_id": "sg-computational-biology",
+      "primary_topic_label": "Computational biology",
+      "url": "/domains/molecular-biology/papers/W2051978340"
     },
     {
       "source_id": "https://openalex.org/W4251751280",
       "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
       "year": 2021,
-      "cited_by_count": 21061,
-      "adjusted_cited_by_count": 9418.77,
-      "primary_topic_id": "sg-phylogenetic-tree",
-      "primary_topic_label": "Phylogenetic tree",
+      "cited_by_count": 21099,
+      "adjusted_cited_by_count": 9435.76,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
       "url": "/domains/molecular-biology/papers/W4251751280"
     },
     {
       "source_id": "https://openalex.org/W2036897871",
       "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
       "year": 2011,
-      "cited_by_count": 34922,
-      "adjusted_cited_by_count": 9016.82,
-      "primary_topic_id": "sg-computational-biology-dna-sequencing",
-      "primary_topic_label": "Dna sequencing",
+      "cited_by_count": 34956,
+      "adjusted_cited_by_count": 9025.6,
+      "primary_topic_id": "sg-data-mining-data-visualization",
+      "primary_topic_label": "Data visualization",
       "url": "/domains/molecular-biology/papers/W2036897871"
     },
     {
       "source_id": "https://openalex.org/W2158217645",
       "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
       "year": 2008,
-      "cited_by_count": 37147,
-      "adjusted_cited_by_count": 8755.63,
+      "cited_by_count": 37160,
+      "adjusted_cited_by_count": 8758.7,
       "primary_topic_id": "sg-data-mining",
       "primary_topic_label": "Data mining",
       "url": "/domains/molecular-biology/papers/W2158217645"
@@ -988,8 +937,8 @@
       "source_id": "https://openalex.org/W2963276645",
       "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
       "year": 2019,
-      "cited_by_count": 23068,
-      "adjusted_cited_by_count": 8718.88,
+      "cited_by_count": 23098,
+      "adjusted_cited_by_count": 8730.22,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2963276645"
@@ -998,18 +947,28 @@
       "source_id": "https://openalex.org/W2103017472",
       "title": "Gene Ontology: tool for the unification of biology",
       "year": 2000,
-      "cited_by_count": 44085,
-      "adjusted_cited_by_count": 8645.78,
+      "cited_by_count": 44103,
+      "adjusted_cited_by_count": 8649.31,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2103017472"
     },
     {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27135,
+      "adjusted_cited_by_count": 8580.84,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/molecular-biology/papers/W2280404143"
+    },
+    {
       "source_id": "https://openalex.org/W2138207763",
       "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
       "year": 2013,
-      "cited_by_count": 28244,
-      "adjusted_cited_by_count": 7833.48,
+      "cited_by_count": 28270,
+      "adjusted_cited_by_count": 7840.69,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2138207763"
@@ -1018,18 +977,18 @@
       "source_id": "https://openalex.org/W2111647009",
       "title": "IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies",
       "year": 2014,
-      "cited_by_count": 26786,
-      "adjusted_cited_by_count": 7732.45,
-      "primary_topic_id": "sg-phylogenetic-tree",
-      "primary_topic_label": "Phylogenetic tree",
+      "cited_by_count": 26822,
+      "adjusted_cited_by_count": 7742.84,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
       "url": "/domains/molecular-biology/papers/W2111647009"
     },
     {
       "source_id": "https://openalex.org/W4294216483",
       "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
       "year": 2000,
-      "cited_by_count": 38483,
-      "adjusted_cited_by_count": 7547.14,
+      "cited_by_count": 38508,
+      "adjusted_cited_by_count": 7552.04,
       "primary_topic_id": "sg-gene-expression",
       "primary_topic_label": "Gene expression",
       "url": "/domains/molecular-biology/papers/W4294216483"
@@ -1038,18 +997,28 @@
       "source_id": "https://openalex.org/W2102619694",
       "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
       "year": 2010,
-      "cited_by_count": 29875,
-      "adjusted_cited_by_count": 7468.75,
+      "cited_by_count": 29893,
+      "adjusted_cited_by_count": 7473.25,
       "primary_topic_id": "sg-data-mining",
       "primary_topic_label": "Data mining",
       "url": "/domains/molecular-biology/papers/W2102619694"
     },
     {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14665,
+      "adjusted_cited_by_count": 7332.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/molecular-biology/papers/W4206677002"
+    },
+    {
       "source_id": "https://openalex.org/W2097382368",
       "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
       "year": 1997,
-      "cited_by_count": 39146,
-      "adjusted_cited_by_count": 7269.23,
+      "cited_by_count": 39148,
+      "adjusted_cited_by_count": 7269.6,
       "primary_topic_id": "sg-computational-biology-sequence-alignment",
       "primary_topic_label": "Sequence alignment",
       "url": "/domains/molecular-biology/papers/W2097382368"
@@ -1058,8 +1027,8 @@
       "source_id": "https://openalex.org/W2108244474",
       "title": "A new mathematical model for relative quantification in real-time RT-PCR",
       "year": 2001,
-      "cited_by_count": 34593,
-      "adjusted_cited_by_count": 6918.6,
+      "cited_by_count": 34598,
+      "adjusted_cited_by_count": 6919.6,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2108244474"
@@ -1068,18 +1037,18 @@
       "source_id": "https://openalex.org/W1966327575",
       "title": "WGCNA: an R package for weighted correlation network analysis",
       "year": 2008,
-      "cited_by_count": 28424,
-      "adjusted_cited_by_count": 6699.6,
-      "primary_topic_id": "sg-gene-expression",
-      "primary_topic_label": "Gene expression",
+      "cited_by_count": 28446,
+      "adjusted_cited_by_count": 6704.79,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
       "url": "/domains/molecular-biology/papers/W1966327575"
     },
     {
       "source_id": "https://openalex.org/W2900569176",
       "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
       "year": 2018,
-      "cited_by_count": 18895,
-      "adjusted_cited_by_count": 6680.39,
+      "cited_by_count": 18904,
+      "adjusted_cited_by_count": 6683.57,
       "primary_topic_id": "sg-computational-biology",
       "primary_topic_label": "Computational biology",
       "url": "/domains/molecular-biology/papers/W2900569176"
@@ -1093,106 +1062,6 @@
       "primary_topic_id": "sg-gene-expression",
       "primary_topic_label": "Gene expression",
       "url": "/domains/molecular-biology/papers/W2159482845"
-    },
-    {
-      "source_id": "https://openalex.org/W2114570899",
-      "title": "Analyzing real-time PCR data by the comparative CT method",
-      "year": 2008,
-      "cited_by_count": 26332,
-      "adjusted_cited_by_count": 6206.51,
-      "primary_topic_id": "sg-computational-biology",
-      "primary_topic_label": "Computational biology",
-      "url": "/domains/molecular-biology/papers/W2114570899"
-    },
-    {
-      "source_id": "https://openalex.org/W1999574084",
-      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
-      "year": 2011,
-      "cited_by_count": 23045,
-      "adjusted_cited_by_count": 5950.19,
-      "primary_topic_id": "sg-computational-biology",
-      "primary_topic_label": "Computational biology",
-      "url": "/domains/molecular-biology/papers/W1999574084"
-    },
-    {
-      "source_id": "https://openalex.org/W2104549677",
-      "title": "A global reference for human genetic variation",
-      "year": 2015,
-      "cited_by_count": 19597,
-      "adjusted_cited_by_count": 5908.72,
-      "primary_topic_id": "sg-human-genome",
-      "primary_topic_label": "Human genome",
-      "url": "/domains/molecular-biology/papers/W2104549677"
-    },
-    {
-      "source_id": "https://openalex.org/W2928665623",
-      "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
-      "year": 2019,
-      "cited_by_count": 15273,
-      "adjusted_cited_by_count": 5772.65,
-      "primary_topic_id": "sg-data-mining",
-      "primary_topic_label": "Data mining",
-      "url": "/domains/molecular-biology/papers/W2928665623"
-    },
-    {
-      "source_id": "https://openalex.org/W2259938310",
-      "title": "An integrated encyclopedia of DNA elements in the human genome",
-      "year": 2012,
-      "cited_by_count": 19204,
-      "adjusted_cited_by_count": 5132.48,
-      "primary_topic_id": "sg-human-genome",
-      "primary_topic_label": "Human genome",
-      "url": "/domains/molecular-biology/papers/W2259938310"
-    },
-    {
-      "source_id": "https://openalex.org/W2168909179",
-      "title": "Initial sequencing and analysis of the human genome",
-      "year": 2001,
-      "cited_by_count": 24468,
-      "adjusted_cited_by_count": 4893.6,
-      "primary_topic_id": "sg-computational-biology",
-      "primary_topic_label": "Computational biology",
-      "url": "/domains/molecular-biology/papers/W2168909179"
-    },
-    {
-      "source_id": "https://openalex.org/W2161339576",
-      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
-      "year": 2005,
-      "cited_by_count": 21901,
-      "adjusted_cited_by_count": 4779.19,
-      "primary_topic_id": "sg-cell-biology-stem-cell",
-      "primary_topic_label": "Stem cell",
-      "url": "/domains/molecular-biology/papers/W2161339576"
-    },
-    {
-      "source_id": "https://openalex.org/W2111211467",
-      "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
-      "year": 2010,
-      "cited_by_count": 18743,
-      "adjusted_cited_by_count": 4685.75,
-      "primary_topic_id": "sg-data-mining",
-      "primary_topic_label": "Data mining",
-      "url": "/domains/molecular-biology/papers/W2111211467"
-    },
-    {
-      "source_id": "https://openalex.org/W2804822363",
-      "title": "SWISS-MODEL: homology modelling of protein structures and complexes",
-      "year": 2018,
-      "cited_by_count": 13234,
-      "adjusted_cited_by_count": 4678.93,
-      "primary_topic_id": "sg-computational-biology",
-      "primary_topic_label": "Computational biology",
-      "url": "/domains/molecular-biology/papers/W2804822363"
-    },
-    {
-      "source_id": "https://openalex.org/W2159707944",
-      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
-      "year": 2013,
-      "cited_by_count": 16033,
-      "adjusted_cited_by_count": 4446.75,
-      "primary_topic_id": "sg-gene-expression",
-      "primary_topic_label": "Gene expression",
-      "url": "/domains/molecular-biology/papers/W2159707944"
     }
   ],
   "representative_papers": [
@@ -1200,8 +1069,8 @@
       "source_id": "https://openalex.org/W2107277218",
       "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
       "year": 2001,
-      "cited_by_count": 179008,
-      "adjusted_cited_by_count": 35801.6,
+      "cited_by_count": 179078,
+      "adjusted_cited_by_count": 35815.6,
       "url": "/domains/molecular-biology/papers/W2107277218"
     },
     {
@@ -1216,40 +1085,40 @@
       "source_id": "https://openalex.org/W2131271579",
       "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
       "year": 2014,
-      "cited_by_count": 68145,
-      "adjusted_cited_by_count": 19671.77,
+      "cited_by_count": 68195,
+      "adjusted_cited_by_count": 19686.2,
       "url": "/domains/molecular-biology/papers/W2131271579"
     },
     {
       "source_id": "https://openalex.org/W3177828909",
       "title": "Highly accurate protein structure prediction with AlphaFold",
       "year": 2021,
-      "cited_by_count": 43200,
-      "adjusted_cited_by_count": 19319.63,
+      "cited_by_count": 43250,
+      "adjusted_cited_by_count": 19341.99,
       "url": "/domains/molecular-biology/papers/W3177828909"
     },
     {
       "source_id": "https://openalex.org/W2099540110",
       "title": "NIH Image to ImageJ: 25 years of image analysis",
       "year": 2012,
-      "cited_by_count": 63829,
-      "adjusted_cited_by_count": 17059.02,
+      "cited_by_count": 63879,
+      "adjusted_cited_by_count": 17072.38,
       "url": "/domains/molecular-biology/papers/W2099540110"
     },
     {
       "source_id": "https://openalex.org/W2158714788",
       "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
       "year": 1997,
-      "cited_by_count": 74204,
-      "adjusted_cited_by_count": 13779.34,
+      "cited_by_count": 74213,
+      "adjusted_cited_by_count": 13781.01,
       "url": "/domains/molecular-biology/papers/W2158714788"
     },
     {
       "source_id": "https://openalex.org/W2799524357",
       "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
       "year": 2018,
-      "cited_by_count": 38045,
-      "adjusted_cited_by_count": 13450.94,
+      "cited_by_count": 38077,
+      "adjusted_cited_by_count": 13462.25,
       "url": "/domains/molecular-biology/papers/W2799524357"
     },
     {
@@ -1261,171 +1130,251 @@
       "url": "/domains/molecular-biology/papers/W2018289835"
     },
     {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31076,
+      "adjusted_cited_by_count": 12686.72,
+      "url": "/domains/molecular-biology/papers/W3008827533"
+    },
+    {
       "source_id": "https://openalex.org/W2146512944",
       "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
       "year": 2015,
-      "cited_by_count": 41988,
-      "adjusted_cited_by_count": 12659.86,
+      "cited_by_count": 42031,
+      "adjusted_cited_by_count": 12672.82,
       "url": "/domains/molecular-biology/papers/W2146512944"
+    },
+    {
+      "source_id": "https://openalex.org/W1964184380",
+      "title": "Mutation of the mouse klotho gene leads to a syndrome resembling ageing.",
+      "year": 1997,
+      "cited_by_count": 66556,
+      "adjusted_cited_by_count": 12359.14,
+      "url": "/domains/molecular-biology/papers/W1964184380"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30222,
+      "adjusted_cited_by_count": 12338.08,
+      "url": "/domains/molecular-biology/papers/W3001897055"
     },
     {
       "source_id": "https://openalex.org/W2130410032",
       "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
       "year": 2005,
-      "cited_by_count": 55632,
-      "adjusted_cited_by_count": 12139.9,
+      "cited_by_count": 55662,
+      "adjusted_cited_by_count": 12146.44,
       "url": "/domains/molecular-biology/papers/W2130410032"
     },
     {
       "source_id": "https://openalex.org/W4396721167",
       "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
       "year": 2024,
-      "cited_by_count": 11909,
-      "adjusted_cited_by_count": 11909.0,
+      "cited_by_count": 11962,
+      "adjusted_cited_by_count": 11962.0,
       "url": "/domains/molecular-biology/papers/W4396721167"
     },
     {
       "source_id": "https://openalex.org/W2029667189",
       "title": "VMD: Visual molecular dynamics",
       "year": 1996,
-      "cited_by_count": 65035,
-      "adjusted_cited_by_count": 11873.71,
+      "cited_by_count": 65080,
+      "adjusted_cited_by_count": 11881.93,
       "url": "/domains/molecular-biology/papers/W2029667189"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29020,
+      "adjusted_cited_by_count": 11847.37,
+      "url": "/domains/molecular-biology/papers/W3009885589"
     },
     {
       "source_id": "https://openalex.org/W2159675211",
       "title": "Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks",
       "year": 2003,
-      "cited_by_count": 53290,
-      "adjusted_cited_by_count": 11111.73,
+      "cited_by_count": 53327,
+      "adjusted_cited_by_count": 11119.45,
       "url": "/domains/molecular-biology/papers/W2159675211"
     },
     {
       "source_id": "https://openalex.org/W2114104545",
       "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
       "year": 2009,
-      "cited_by_count": 43839,
-      "adjusted_cited_by_count": 10632.52,
+      "cited_by_count": 43863,
+      "adjusted_cited_by_count": 10638.34,
       "url": "/domains/molecular-biology/papers/W2114104545"
     },
     {
       "source_id": "https://openalex.org/W2132632499",
       "title": "MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods",
       "year": 2011,
-      "cited_by_count": 40231,
-      "adjusted_cited_by_count": 10387.6,
+      "cited_by_count": 40235,
+      "adjusted_cited_by_count": 10388.63,
       "url": "/domains/molecular-biology/papers/W2132632499"
+    },
+    {
+      "source_id": "https://openalex.org/W2138270253",
+      "title": "DNA sequencing with chain-terminating inhibitors",
+      "year": 1977,
+      "cited_by_count": 69218,
+      "adjusted_cited_by_count": 9888.29,
+      "url": "/domains/molecular-biology/papers/W2138270253"
     },
     {
       "source_id": "https://openalex.org/W2141052558",
       "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
       "year": 2014,
-      "cited_by_count": 33873,
-      "adjusted_cited_by_count": 9778.29,
+      "cited_by_count": 33883,
+      "adjusted_cited_by_count": 9781.18,
       "url": "/domains/molecular-biology/papers/W2141052558"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "url": "/domains/molecular-biology/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23223,
+      "adjusted_cited_by_count": 9480.75,
+      "url": "/domains/molecular-biology/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31305,
+      "adjusted_cited_by_count": 9438.81,
+      "url": "/domains/molecular-biology/papers/W2051978340"
     },
     {
       "source_id": "https://openalex.org/W4251751280",
       "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
       "year": 2021,
-      "cited_by_count": 21061,
-      "adjusted_cited_by_count": 9418.77,
+      "cited_by_count": 21099,
+      "adjusted_cited_by_count": 9435.76,
       "url": "/domains/molecular-biology/papers/W4251751280"
     },
     {
       "source_id": "https://openalex.org/W2036897871",
       "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
       "year": 2011,
-      "cited_by_count": 34922,
-      "adjusted_cited_by_count": 9016.82,
+      "cited_by_count": 34956,
+      "adjusted_cited_by_count": 9025.6,
       "url": "/domains/molecular-biology/papers/W2036897871"
     },
     {
       "source_id": "https://openalex.org/W2158217645",
       "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
       "year": 2008,
-      "cited_by_count": 37147,
-      "adjusted_cited_by_count": 8755.63,
+      "cited_by_count": 37160,
+      "adjusted_cited_by_count": 8758.7,
       "url": "/domains/molecular-biology/papers/W2158217645"
     },
     {
       "source_id": "https://openalex.org/W2963276645",
       "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
       "year": 2019,
-      "cited_by_count": 23068,
-      "adjusted_cited_by_count": 8718.88,
+      "cited_by_count": 23098,
+      "adjusted_cited_by_count": 8730.22,
       "url": "/domains/molecular-biology/papers/W2963276645"
     },
     {
       "source_id": "https://openalex.org/W2103017472",
       "title": "Gene Ontology: tool for the unification of biology",
       "year": 2000,
-      "cited_by_count": 44085,
-      "adjusted_cited_by_count": 8645.78,
+      "cited_by_count": 44103,
+      "adjusted_cited_by_count": 8649.31,
       "url": "/domains/molecular-biology/papers/W2103017472"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27135,
+      "adjusted_cited_by_count": 8580.84,
+      "url": "/domains/molecular-biology/papers/W2280404143"
     },
     {
       "source_id": "https://openalex.org/W2138207763",
       "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
       "year": 2013,
-      "cited_by_count": 28244,
-      "adjusted_cited_by_count": 7833.48,
+      "cited_by_count": 28270,
+      "adjusted_cited_by_count": 7840.69,
       "url": "/domains/molecular-biology/papers/W2138207763"
     },
     {
       "source_id": "https://openalex.org/W2111647009",
       "title": "IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies",
       "year": 2014,
-      "cited_by_count": 26786,
-      "adjusted_cited_by_count": 7732.45,
+      "cited_by_count": 26822,
+      "adjusted_cited_by_count": 7742.84,
       "url": "/domains/molecular-biology/papers/W2111647009"
     },
     {
       "source_id": "https://openalex.org/W4294216483",
       "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
       "year": 2000,
-      "cited_by_count": 38483,
-      "adjusted_cited_by_count": 7547.14,
+      "cited_by_count": 38508,
+      "adjusted_cited_by_count": 7552.04,
       "url": "/domains/molecular-biology/papers/W4294216483"
     },
     {
       "source_id": "https://openalex.org/W2102619694",
       "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
       "year": 2010,
-      "cited_by_count": 29875,
-      "adjusted_cited_by_count": 7468.75,
+      "cited_by_count": 29893,
+      "adjusted_cited_by_count": 7473.25,
       "url": "/domains/molecular-biology/papers/W2102619694"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14665,
+      "adjusted_cited_by_count": 7332.5,
+      "url": "/domains/molecular-biology/papers/W4206677002"
     },
     {
       "source_id": "https://openalex.org/W2097382368",
       "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
       "year": 1997,
-      "cited_by_count": 39146,
-      "adjusted_cited_by_count": 7269.23,
+      "cited_by_count": 39148,
+      "adjusted_cited_by_count": 7269.6,
       "url": "/domains/molecular-biology/papers/W2097382368"
     },
     {
       "source_id": "https://openalex.org/W2108244474",
       "title": "A new mathematical model for relative quantification in real-time RT-PCR",
       "year": 2001,
-      "cited_by_count": 34593,
-      "adjusted_cited_by_count": 6918.6,
+      "cited_by_count": 34598,
+      "adjusted_cited_by_count": 6919.6,
       "url": "/domains/molecular-biology/papers/W2108244474"
     },
     {
       "source_id": "https://openalex.org/W1966327575",
       "title": "WGCNA: an R package for weighted correlation network analysis",
       "year": 2008,
-      "cited_by_count": 28424,
-      "adjusted_cited_by_count": 6699.6,
+      "cited_by_count": 28446,
+      "adjusted_cited_by_count": 6704.79,
       "url": "/domains/molecular-biology/papers/W1966327575"
     },
     {
       "source_id": "https://openalex.org/W2900569176",
       "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
       "year": 2018,
-      "cited_by_count": 18895,
-      "adjusted_cited_by_count": 6680.39,
+      "cited_by_count": 18904,
+      "adjusted_cited_by_count": 6683.57,
       "url": "/domains/molecular-biology/papers/W2900569176"
     },
     {
@@ -1435,86 +1384,6 @@
       "cited_by_count": 32352,
       "adjusted_cited_by_count": 6226.15,
       "url": "/domains/molecular-biology/papers/W2159482845"
-    },
-    {
-      "source_id": "https://openalex.org/W2114570899",
-      "title": "Analyzing real-time PCR data by the comparative CT method",
-      "year": 2008,
-      "cited_by_count": 26332,
-      "adjusted_cited_by_count": 6206.51,
-      "url": "/domains/molecular-biology/papers/W2114570899"
-    },
-    {
-      "source_id": "https://openalex.org/W1999574084",
-      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
-      "year": 2011,
-      "cited_by_count": 23045,
-      "adjusted_cited_by_count": 5950.19,
-      "url": "/domains/molecular-biology/papers/W1999574084"
-    },
-    {
-      "source_id": "https://openalex.org/W2104549677",
-      "title": "A global reference for human genetic variation",
-      "year": 2015,
-      "cited_by_count": 19597,
-      "adjusted_cited_by_count": 5908.72,
-      "url": "/domains/molecular-biology/papers/W2104549677"
-    },
-    {
-      "source_id": "https://openalex.org/W2928665623",
-      "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
-      "year": 2019,
-      "cited_by_count": 15273,
-      "adjusted_cited_by_count": 5772.65,
-      "url": "/domains/molecular-biology/papers/W2928665623"
-    },
-    {
-      "source_id": "https://openalex.org/W2259938310",
-      "title": "An integrated encyclopedia of DNA elements in the human genome",
-      "year": 2012,
-      "cited_by_count": 19204,
-      "adjusted_cited_by_count": 5132.48,
-      "url": "/domains/molecular-biology/papers/W2259938310"
-    },
-    {
-      "source_id": "https://openalex.org/W2168909179",
-      "title": "Initial sequencing and analysis of the human genome",
-      "year": 2001,
-      "cited_by_count": 24468,
-      "adjusted_cited_by_count": 4893.6,
-      "url": "/domains/molecular-biology/papers/W2168909179"
-    },
-    {
-      "source_id": "https://openalex.org/W2161339576",
-      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
-      "year": 2005,
-      "cited_by_count": 21901,
-      "adjusted_cited_by_count": 4779.19,
-      "url": "/domains/molecular-biology/papers/W2161339576"
-    },
-    {
-      "source_id": "https://openalex.org/W2111211467",
-      "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
-      "year": 2010,
-      "cited_by_count": 18743,
-      "adjusted_cited_by_count": 4685.75,
-      "url": "/domains/molecular-biology/papers/W2111211467"
-    },
-    {
-      "source_id": "https://openalex.org/W2804822363",
-      "title": "SWISS-MODEL: homology modelling of protein structures and complexes",
-      "year": 2018,
-      "cited_by_count": 13234,
-      "adjusted_cited_by_count": 4678.93,
-      "url": "/domains/molecular-biology/papers/W2804822363"
-    },
-    {
-      "source_id": "https://openalex.org/W2159707944",
-      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
-      "year": 2013,
-      "cited_by_count": 16033,
-      "adjusted_cited_by_count": 4446.75,
-      "url": "/domains/molecular-biology/papers/W2159707944"
     }
   ],
   "role_profiles": [
@@ -1524,7 +1393,7 @@
       "topic_role": "domain_topic",
       "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 476
+      "evidence_count": 749
     },
     {
       "label": "gene",
@@ -1532,23 +1401,7 @@
       "topic_role": "domain_topic",
       "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 375
-    },
-    {
-      "label": "genetics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 338
-    },
-    {
-      "label": "computational biology",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 279
+      "evidence_count": 573
     },
     {
       "label": "of the",
@@ -1556,55 +1409,23 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 269
+      "evidence_count": 507
     },
     {
-      "label": "computer science",
+      "label": "genetics",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 243
+      "evidence_count": 452
     },
     {
-      "label": "data",
+      "label": "computational biology",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 187
-    },
-    {
-      "label": "in the",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 172
-    },
-    {
-      "label": "genome",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 162
-    },
-    {
-      "label": "function",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 148
-    },
-    {
-      "label": "molecular",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 148
+      "evidence_count": 350
     },
     {
       "label": "cell",
@@ -1612,31 +1433,31 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 144
+      "evidence_count": 273
     },
     {
-      "label": "sequence",
+      "label": "data",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 130
+      "evidence_count": 269
     },
     {
-      "label": "bioinformatics",
+      "label": "function",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 123
+      "evidence_count": 239
     },
     {
-      "label": "protein",
+      "label": "to the",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 123
+      "evidence_count": 238
     },
     {
       "label": "stem",
@@ -1644,15 +1465,63 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 106
+      "evidence_count": 226
     },
     {
-      "label": "set",
+      "label": "molecular",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 103
+      "evidence_count": 224
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 216
+    },
+    {
+      "label": "genome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 192
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 181
+    },
+    {
+      "label": "sequence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 170
+    },
+    {
+      "label": "bioinformatics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 169
+    },
+    {
+      "label": "cell biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
     },
     {
       "label": "genetic",
@@ -1660,7 +1529,31 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 101
+      "evidence_count": 160
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 158
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 158
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 154
     },
     {
       "label": "rna",
@@ -1668,460 +1561,378 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 100
+      "evidence_count": 152
     },
     {
-      "label": "cell biology",
+      "label": "set",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9896,
-      "evidence_count": 91
-    },
-    {
-      "label": "tool",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9896,
-      "evidence_count": 91
+      "confidence": 0.9899,
+      "evidence_count": 149
     },
     {
       "label": "source",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9895,
-      "evidence_count": 90
-    },
-    {
-      "label": "human",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9892,
-      "evidence_count": 97
-    },
-    {
-      "label": "on the",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9892,
-      "evidence_count": 88
-    },
-    {
-      "label": "disease",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9885,
-      "evidence_count": 81
-    },
-    {
-      "label": "expression",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9884,
-      "evidence_count": 83
-    },
-    {
-      "label": "genomic",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9884,
-      "evidence_count": 80
+      "confidence": 0.9893,
+      "evidence_count": 140
     },
     {
       "label": "model",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9884,
-      "evidence_count": 80
-    },
-    {
-      "label": "information",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9883,
-      "evidence_count": 79
-    },
-    {
-      "label": "biological",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9882,
-      "evidence_count": 78
-    },
-    {
-      "label": "database",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.988,
-      "evidence_count": 76
-    },
-    {
-      "label": "dna",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9879,
-      "evidence_count": 95
-    },
-    {
-      "label": "development",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9877,
-      "evidence_count": 73
-    },
-    {
-      "label": "evolutionary biology",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9876,
-      "evidence_count": 72
+      "confidence": 0.9892,
+      "evidence_count": 138
     },
     {
       "label": "biochemistry",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9875,
-      "evidence_count": 71
-    },
-    {
-      "label": "artificial intelligence",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9874,
-      "evidence_count": 70
-    },
-    {
-      "label": "software",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9874,
-      "evidence_count": 70
-    },
-    {
-      "label": "cancer",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9871,
-      "evidence_count": 68
-    },
-    {
-      "label": "gene expression",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9871,
-      "evidence_count": 68
-    },
-    {
-      "label": "data mining",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.987,
-      "evidence_count": 67
-    },
-    {
-      "label": "functional",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.987,
-      "evidence_count": 67
-    },
-    {
-      "label": "pathway",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9869,
-      "evidence_count": 66
-    },
-    {
-      "label": "cellular",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9867,
-      "evidence_count": 64
-    },
-    {
-      "label": "evolution",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9867,
-      "evidence_count": 64
-    },
-    {
-      "label": "complex",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9866,
-      "evidence_count": 63
-    },
-    {
-      "label": "role",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9862,
-      "evidence_count": 59
-    },
-    {
-      "label": "sequencing",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9861,
-      "evidence_count": 63
-    },
-    {
-      "label": "annotation",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.9861,
-      "evidence_count": 58
-    },
-    {
-      "label": "of gene",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9861,
-      "evidence_count": 58
+      "confidence": 0.9891,
+      "evidence_count": 137
     },
     {
       "label": "cells",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.986,
-      "evidence_count": 57
+      "confidence": 0.9881,
+      "evidence_count": 121
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 120
+    },
+    {
+      "label": "expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 116
+    },
+    {
+      "label": "biological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 115
+    },
+    {
+      "label": "cellular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 113
+    },
+    {
+      "label": "mechanism",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 110
+    },
+    {
+      "label": "factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 109
+    },
+    {
+      "label": "complex",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 108
+    },
+    {
+      "label": "genomic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 108
+    },
+    {
+      "label": "response",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 101
+    },
+    {
+      "label": "database",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9865,
+      "evidence_count": 98
+    },
+    {
+      "label": "functional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 98
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9865,
+      "evidence_count": 98
+    },
+    {
+      "label": "pathway",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 97
+    },
+    {
+      "label": "evolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 96
+    },
+    {
+      "label": "dna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 113
+    },
+    {
+      "label": "analysis of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 91
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 89
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 88
+    },
+    {
+      "label": "gene expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 88
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 87
+    },
+    {
+      "label": "years",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 86
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 85
+    },
+    {
+      "label": "pathology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 84
     }
   ],
   "topic_year_counts": {
-    "gene expression": {
-      "2023": 433870,
-      "2024": 384194,
-      "2025": 358061,
-      "2022": 314779,
-      "2021": 302707,
-      "2020": 288992,
-      "2019": 240993,
-      "2018": 217888,
-      "2017": 208754,
-      "2016": 194996,
-      "2015": 183349,
-      "2014": 175151,
-      "2013": 166511,
-      "2012": 152870,
-      "2011": 139403,
-      "2010": 124011,
-      "2009": 111198,
-      "2008": 99983,
-      "2007": 90475,
-      "2026": 89219,
-      "2006": 85672,
-      "2005": 78604,
-      "2004": 74259,
-      "2003": 64829,
-      "2002": 56907,
-      "2001": 51361,
-      "2000": 48770
-    },
     "data mining": {
-      "2023": 213306,
-      "2024": 212704,
-      "2025": 204071,
-      "2022": 146808,
-      "2021": 131105,
-      "2020": 114792,
-      "2019": 95730,
-      "2018": 80873,
-      "2017": 67057,
-      "2016": 60439,
-      "2015": 54984,
-      "2026": 50759,
-      "2014": 48815,
-      "2013": 42901,
-      "2012": 37131,
-      "2011": 32401,
-      "2010": 27833,
+      "2023": 213335,
+      "2024": 212752,
+      "2025": 204285,
+      "2022": 147114,
+      "2021": 131288,
+      "2020": 114845,
+      "2019": 95768,
+      "2018": 80904,
+      "2017": 67065,
+      "2016": 60464,
+      "2015": 54983,
+      "2026": 51880,
+      "2014": 48828,
+      "2013": 42900,
+      "2012": 37148,
+      "2011": 32413,
+      "2010": 27840,
       "2009": 24665,
-      "2008": 20446,
-      "2007": 17565,
-      "2006": 16017,
-      "2005": 13543,
-      "2004": 11212,
-      "2003": 9484,
-      "2002": 8037,
-      "2001": 6040,
-      "2000": 5933
+      "2008": 20449,
+      "2007": 17578,
+      "2006": 16024,
+      "2005": 13548,
+      "2004": 11217,
+      "2003": 9488,
+      "2002": 8036,
+      "2001": 6047,
+      "2000": 5934
     },
-    "phylogenetic tree": {
-      "2023": 52109,
-      "2024": 46994,
-      "2025": 43084,
-      "2022": 36668,
-      "2021": 35291,
-      "2020": 33621,
-      "2019": 27923,
-      "2018": 24237,
-      "2017": 22895,
-      "2016": 21263,
-      "2015": 19801,
-      "2014": 17927,
-      "2013": 16595,
-      "2012": 14184,
-      "2011": 12325,
-      "2026": 10974,
-      "2010": 10485,
-      "2009": 9214,
-      "2008": 8024,
-      "2007": 6885,
-      "2006": 6444,
-      "2005": 5001,
-      "2004": 4826,
-      "2003": 3790,
-      "2002": 3216,
-      "2001": 2927,
-      "2000": 2621
+    "gene expression": {
+      "2023": 433851,
+      "2024": 384213,
+      "2025": 358307,
+      "2022": 315158,
+      "2021": 302926,
+      "2020": 289063,
+      "2019": 241056,
+      "2018": 217926,
+      "2017": 208786,
+      "2016": 195023,
+      "2015": 183375,
+      "2014": 175183,
+      "2013": 166512,
+      "2012": 152871,
+      "2011": 139420,
+      "2010": 124022,
+      "2009": 111210,
+      "2008": 99984,
+      "2026": 91053,
+      "2007": 90465,
+      "2006": 85676,
+      "2005": 78604,
+      "2004": 74263,
+      "2003": 64829,
+      "2002": 56911,
+      "2001": 51354,
+      "2000": 48771
     },
     "signal transduction": {
-      "2023": 72716,
-      "2024": 65204,
-      "2025": 57033,
-      "2022": 52353,
-      "2021": 50297,
-      "2020": 47581,
-      "2019": 39127,
-      "2017": 35592,
-      "2018": 35428,
-      "2016": 33863,
-      "2014": 33010,
-      "2015": 32820,
-      "2013": 32114,
-      "2012": 30244,
+      "2023": 72714,
+      "2024": 65214,
+      "2025": 57098,
+      "2022": 52481,
+      "2021": 50369,
+      "2020": 47593,
+      "2019": 39139,
+      "2017": 35607,
+      "2018": 35444,
+      "2016": 33878,
+      "2014": 33012,
+      "2015": 32830,
+      "2013": 32115,
+      "2012": 30242,
       "2011": 27484,
-      "2010": 24499,
+      "2010": 24502,
       "2009": 22290,
       "2008": 19930,
-      "2007": 18028,
-      "2006": 17282,
-      "2005": 15832,
-      "2004": 15426,
-      "2026": 14442,
-      "2003": 14300,
-      "2002": 13108,
-      "2001": 12009,
-      "2000": 11324
-    },
-    "human genome": {
-      "2023": 214733,
-      "2024": 193008,
-      "2025": 158506,
-      "2022": 150963,
-      "2021": 146625,
-      "2020": 138429,
-      "2019": 104538,
-      "2018": 90772,
-      "2017": 84132,
-      "2016": 76249,
-      "2015": 68473,
-      "2014": 63627,
-      "2013": 58243,
-      "2012": 51672,
-      "2011": 44709,
-      "2026": 39095,
-      "2010": 37483,
-      "2009": 31824,
-      "2008": 27784,
-      "2007": 23088,
-      "2006": 20988,
-      "2005": 18746,
-      "2004": 17249,
-      "2003": 14567,
-      "2002": 12313,
-      "2001": 10814,
-      "2000": 9791
+      "2007": 18023,
+      "2006": 17284,
+      "2005": 15837,
+      "2004": 15421,
+      "2026": 14717,
+      "2003": 14301,
+      "2002": 13110,
+      "2001": 12007,
+      "2000": 11325
     },
     "computational biology": {
-      "2023": 109165,
-      "2024": 104326,
-      "2025": 99383,
-      "2022": 70316,
-      "2021": 62727,
-      "2020": 57421,
-      "2019": 46479,
-      "2018": 41149,
-      "2017": 36000,
-      "2016": 31524,
-      "2026": 28773,
-      "2015": 28719,
-      "2014": 26449,
-      "2013": 24070,
-      "2012": 20786,
-      "2011": 17480,
-      "2010": 14766,
-      "2009": 11971,
-      "2008": 10190,
-      "2007": 8272,
-      "2006": 6828,
-      "2005": 5486,
+      "2023": 109152,
+      "2024": 104318,
+      "2025": 99535,
+      "2022": 70579,
+      "2021": 62856,
+      "2020": 57447,
+      "2019": 46505,
+      "2018": 41173,
+      "2017": 36010,
+      "2016": 31550,
+      "2026": 29345,
+      "2015": 28721,
+      "2014": 26448,
+      "2013": 24067,
+      "2012": 20790,
+      "2011": 17485,
+      "2010": 14765,
+      "2009": 11977,
+      "2008": 10192,
+      "2007": 8282,
+      "2006": 6830,
+      "2005": 5487,
       "2004": 4335,
-      "2003": 3489,
-      "2002": 2554,
-      "2001": 2071,
-      "2000": 1935
+      "2003": 3485,
+      "2002": 2553,
+      "2001": 2072,
+      "2000": 1937
     },
     "cell biology": {
-      "2023": 301767,
-      "2024": 277771,
-      "2025": 254463,
-      "2022": 211090,
-      "2021": 197913,
-      "2020": 186816,
-      "2019": 156812,
-      "2018": 140714,
-      "2017": 128694,
-      "2016": 115675,
-      "2015": 106733,
-      "2014": 100610,
-      "2013": 93116,
-      "2012": 83654,
-      "2011": 70445,
-      "2026": 65565,
-      "2010": 58331,
-      "2009": 49203,
-      "2008": 42327,
-      "2007": 36342,
-      "2006": 31867,
-      "2005": 28351,
-      "2004": 25287,
-      "2003": 21784,
-      "2002": 19380,
-      "2001": 17730,
-      "2000": 17247
+      "2023": 301747,
+      "2024": 277804,
+      "2025": 254776,
+      "2022": 211553,
+      "2021": 198155,
+      "2020": 186894,
+      "2019": 156879,
+      "2018": 140746,
+      "2017": 128713,
+      "2016": 115690,
+      "2015": 106756,
+      "2014": 100630,
+      "2013": 93124,
+      "2012": 83659,
+      "2011": 70463,
+      "2026": 66857,
+      "2010": 58332,
+      "2009": 49216,
+      "2008": 42332,
+      "2007": 36333,
+      "2006": 31862,
+      "2005": 28358,
+      "2004": 25288,
+      "2003": 21779,
+      "2002": 19385,
+      "2001": 17727,
+      "2000": 17250
     }
   }
 }
