@@ -1,22 +1,22 @@
 {
   "slug": "environmental-science",
   "title": "Environmental Science",
-  "updated_at": "2026-04-12T03:10:56.135074Z",
+  "updated_at": "2026-04-12T03:23:20.700228Z",
   "snapshot": {
-    "papers": 812,
-    "topics": 2,
-    "subtopics": 111,
-    "entities": 2308,
-    "claims": 24
+    "papers": 39,
+    "topics": 1,
+    "subtopics": 8,
+    "entities": 532,
+    "claims": 0
   },
   "overview": {
     "source_ids": [],
     "partition_summary": {
       "overview_papers": 0,
-      "topical_papers": 862,
-      "total_papers": 862,
+      "topical_papers": 138,
+      "total_papers": 138,
       "facet_counts": {
-        "none": 862
+        "none": 138
       },
       "gemini_validation_enabled": false,
       "gemini_validation_ready": false,
@@ -28,132 +28,71 @@
     "concept_type": "taxonomy"
   },
   "hierarchy": {
-    "root_topics": 2,
-    "descendant_topics": 111,
-    "max_depth": 4,
-    "leaf_topics": 76
+    "root_topics": 1,
+    "descendant_topics": 8,
+    "max_depth": 2,
+    "leaf_topics": 8
   },
   "rising_topics": [
     {
-      "id": "sg-environmental-chemistry",
-      "label": "Environmental chemistry",
-      "url": "/domains/environmental-science/topics/sg-environmental-chemistry",
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/environmental-science/topics/sg-climate-change",
       "trend": "rising",
-      "year_total": 1347558
-    },
-    {
-      "id": "sg-environmental-science",
-      "label": "Environmental science",
-      "url": "/domains/environmental-science/topics/sg-environmental-science",
-      "trend": "rising",
-      "year_total": 5825439
+      "year_total": 3766277
     }
   ],
   "topic_branches": [
     {
-      "id": "sg-environmental-chemistry",
-      "label": "Environmental chemistry",
-      "url": "/domains/environmental-science/topics/sg-environmental-chemistry",
-      "paper_count": 574,
-      "subtopic_count": 6,
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/environmental-science/topics/sg-climate-change",
+      "paper_count": 39,
+      "subtopic_count": 8,
       "trend": "rising",
       "summary": "",
       "tags": [
-        "environmental",
-        "environmental chemistry",
-        "environmental chemistry ecotoxicology",
-        "environmental engineering"
+        "climate change",
+        "climate change 2014",
+        "climate change and environmental impact",
+        "climate change policy and economics"
       ],
       "subtopics": [
         {
-          "id": "sg-environmental-chemistry-human-health",
-          "label": "Human health",
-          "url": "/domains/environmental-science/topics/sg-environmental-chemistry-human-health",
-          "paper_count": 216
-        },
-        {
-          "id": "sg-environmental-chemistry-public-health",
-          "label": "Public health",
-          "url": "/domains/environmental-science/topics/sg-environmental-chemistry-public-health",
-          "paper_count": 155
-        },
-        {
-          "id": "sg-environmental-chemistry-food-chain",
-          "label": "Food chain",
-          "url": "/domains/environmental-science/topics/sg-environmental-chemistry-food-chain",
-          "paper_count": 109
-        },
-        {
-          "id": "sg-environmental-chemistry-heavy-metals",
-          "label": "Heavy metals",
-          "url": "/domains/environmental-science/topics/sg-environmental-chemistry-heavy-metals",
-          "paper_count": 41
-        },
-        {
-          "id": "sg-environmental-chemistry-toxic-organic-pollutants-impact",
-          "label": "Toxic organic pollutants impact",
-          "url": "/domains/environmental-science/topics/sg-environmental-chemistry-toxic-organic-pollutants-impact",
-          "paper_count": 35
-        },
-        {
-          "id": "sg-environmental-chemistry-heavy-metal-exposure-toxicity",
-          "label": "Heavy metal exposure toxicity",
-          "url": "/domains/environmental-science/topics/sg-environmental-chemistry-heavy-metal-exposure-toxicity",
-          "paper_count": 18
-        }
-      ],
-      "featured_papers": []
-    },
-    {
-      "id": "sg-environmental-science",
-      "label": "Environmental science",
-      "url": "/domains/environmental-science/topics/sg-environmental-science",
-      "paper_count": 238,
-      "subtopic_count": 13,
-      "trend": "rising",
-      "summary": "",
-      "tags": [
-        "environmental and social impact assessments",
-        "environmental change",
-        "environmental education and sustainability",
-        "environmental impact assessment"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-environmental-science-impacts-adaptation",
-          "label": "Impacts, adaptation",
-          "url": "/domains/environmental-science/topics/sg-environmental-science-impacts-adaptation",
-          "paper_count": 82
-        },
-        {
-          "id": "sg-environmental-science-natural-resource-economics",
+          "id": "sg-environmental-and-resource-management-natural-resource-economics",
           "label": "Natural resource economics",
-          "url": "/domains/environmental-science/topics/sg-environmental-science-natural-resource-economics",
-          "paper_count": 35
+          "url": "/domains/environmental-science/topics/sg-environmental-and-resource-management-natural-resource-economics",
+          "paper_count": 8
         },
         {
-          "id": "sg-environmental-science-adaptive-management",
-          "label": "Adaptive management",
-          "url": "/domains/environmental-science/topics/sg-environmental-science-adaptive-management",
-          "paper_count": 31
+          "id": "sg-climate-change-effects-of-global-warming",
+          "label": "Effects of global warming",
+          "url": "/domains/environmental-science/topics/sg-climate-change-effects-of-global-warming",
+          "paper_count": 7
         },
         {
-          "id": "sg-environmental-science-invasive-species",
-          "label": "Invasive species",
-          "url": "/domains/environmental-science/topics/sg-environmental-science-invasive-species",
-          "paper_count": 23
+          "id": "sg-climate-change-political-economy-of-climate-change",
+          "label": "Political economy of climate change",
+          "url": "/domains/environmental-science/topics/sg-climate-change-political-economy-of-climate-change",
+          "paper_count": 7
         },
         {
-          "id": "sg-environmental-science-climate-change-mitigation",
+          "id": "sg-climate-change-sustainability-climate-change-governance",
+          "label": "Sustainability climate change governance",
+          "url": "/domains/environmental-science/topics/sg-climate-change-sustainability-climate-change-governance",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-climate-change-climate-change-mitigation",
           "label": "Climate change mitigation",
-          "url": "/domains/environmental-science/topics/sg-environmental-science-climate-change-mitigation",
-          "paper_count": 17
+          "url": "/domains/environmental-science/topics/sg-climate-change-climate-change-mitigation",
+          "paper_count": 4
         },
         {
-          "id": "sg-environmental-science-land-use-and-ecosystem-services",
-          "label": "Land use and ecosystem services",
-          "url": "/domains/environmental-science/topics/sg-environmental-science-land-use-and-ecosystem-services",
-          "paper_count": 14
+          "id": "sg-environmental-and-resource-management-sustainable-development",
+          "label": "Sustainable development",
+          "url": "/domains/environmental-science/topics/sg-environmental-and-resource-management-sustainable-development",
+          "paper_count": 4
         }
       ],
       "featured_papers": []
@@ -161,121 +100,212 @@
   ],
   "paper_shelves": [
     {
-      "label": "Environmental chemistry",
-      "paper_count": 30,
+      "label": "Others",
+      "paper_count": 15,
       "papers": [
         {
-          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
-          "year": "2019",
-          "cited_by_count": 23098,
-          "topic": "Environmental chemistry",
-          "url": "papers/https-openalex-org-w2963276645.html"
+          "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+          "year": "2009",
+          "cited_by_count": 14494,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2020155291.html"
         },
         {
-          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "title": "International Journal of Pharmaceutical Sciences and Research",
+          "year": "2025",
+          "cited_by_count": 2624,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4200178834.html"
+        },
+        {
+          "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
           "year": "2020",
-          "cited_by_count": 18590,
-          "topic": "Environmental chemistry",
-          "url": "papers/https-openalex-org-w3092849554.html"
+          "cited_by_count": 6365,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3005957464.html"
         },
         {
-          "title": "Lecture Notes in Computer Science 1205",
-          "year": "1999",
-          "cited_by_count": 38730,
-          "topic": "Environmental chemistry",
-          "url": "papers/https-openalex-org-w2561675875.html"
+          "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+          "year": "2020",
+          "cited_by_count": 6026,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3015197879.html"
         },
         {
-          "title": "Numerical optimization",
-          "year": "2021",
-          "cited_by_count": 14179,
-          "topic": "Environmental chemistry",
-          "url": "papers/https-openalex-org-w3029645440.html"
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "year": "2016",
+          "cited_by_count": 7756,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1617145133.html"
         },
         {
-          "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
-          "year": "1999",
-          "cited_by_count": 32352,
-          "topic": "Environmental chemistry",
-          "url": "papers/https-openalex-org-w2159482845.html"
-        },
-        {
-          "title": "&lt;i&gt;PHENIX&lt;/i&gt;: a comprehensive Python-based system for macromolecular structure solution",
-          "year": "2010",
-          "cited_by_count": 24290,
-          "topic": "Environmental chemistry",
-          "url": "papers/https-openalex-org-w2180229411.html"
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "year": "2016",
+          "cited_by_count": 7339,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2527824850.html"
         }
       ]
     },
     {
-      "label": "Environmental science",
-      "paper_count": 10,
+      "label": "Climate change",
+      "paper_count": 14,
       "papers": [
         {
-          "title": "The ERA5 global reanalysis",
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
           "year": "2020",
-          "cited_by_count": 28998,
-          "topic": "Environmental science",
-          "url": "papers/https-openalex-org-w3025949386.html"
-        },
-        {
-          "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
-          "year": "2013",
-          "cited_by_count": 21885,
-          "topic": "Environmental science",
-          "url": "papers/https-openalex-org-w2056279562.html"
-        },
-        {
-          "title": "Greedy function approximation: A gradient boosting machine.",
-          "year": "2001",
-          "cited_by_count": 27989,
-          "topic": "Environmental science",
-          "url": "papers/https-openalex-org-w1678356000.html"
+          "cited_by_count": 18590,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w3092849554.html"
         },
         {
           "title": "Climate change 2007: the physical science basis",
           "year": "2007",
           "cited_by_count": 23473,
-          "topic": "Environmental science",
+          "topic": "Climate change",
           "url": "papers/https-openalex-org-w2939474406.html"
         },
         {
           "title": "IOP Conference Series: Earth and Environmental Science",
           "year": "2020",
           "cited_by_count": 12783,
-          "topic": "Environmental science",
+          "topic": "Climate change",
           "url": "papers/https-openalex-org-w3208261418.html"
         },
         {
-          "title": "Detecting the number of clusters of individuals using the software &lt;scp&gt;structure&lt;/scp&gt;: a simulation study",
-          "year": "2005",
-          "cited_by_count": 21909,
-          "topic": "Environmental science",
-          "url": "papers/https-openalex-org-w2161339576.html"
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        },
+        {
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w75231382.html"
+        },
+        {
+          "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 9290,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w3092861045.html"
+        }
+      ]
+    },
+    {
+      "label": "Natural resource economics",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+          "year": "2006",
+          "cited_by_count": 11428,
+          "topic": "Natural resource economics",
+          "url": "papers/https-openalex-org-w2054931962.html"
+        },
+        {
+          "title": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
+          "year": "2024",
+          "cited_by_count": 2502,
+          "topic": "Natural resource economics",
+          "url": "papers/https-openalex-org-w4402557213.html"
+        },
+        {
+          "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 8337,
+          "topic": "Natural resource economics",
+          "url": "papers/https-openalex-org-w2108344016.html"
+        },
+        {
+          "title": "Chronic inflammation in the etiology of disease across the life span",
+          "year": "2019",
+          "cited_by_count": 4491,
+          "topic": "Natural resource economics",
+          "url": "papers/https-openalex-org-w2993908729.html"
+        },
+        {
+          "title": "Global physical activity levels: surveillance progress, pitfalls, and prospects",
+          "year": "2012",
+          "cited_by_count": 5796,
+          "topic": "Natural resource economics",
+          "url": "papers/https-openalex-org-w2114538920.html"
+        }
+      ]
+    },
+    {
+      "label": "Sustainable development",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Lecture Notes in Computer Science 1205",
+          "year": "1999",
+          "cited_by_count": 38730,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2561675875.html"
+        },
+        {
+          "title": "The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education",
+          "year": "2017",
+          "cited_by_count": 9796,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2623703952.html"
+        },
+        {
+          "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+          "year": "2018",
+          "cited_by_count": 6315,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2788640168.html"
+        },
+        {
+          "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+          "year": "2013",
+          "cited_by_count": 5704,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2153791616.html"
+        }
+      ]
+    },
+    {
+      "label": "Species distribution climate change",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23098,
+          "topic": "Species distribution climate change",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        }
+      ]
+    },
+    {
+      "label": "Sustainability climate change governance",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "International Journal of Current Microbiology and Applied Sciences",
+          "year": "2026",
+          "cited_by_count": 2914,
+          "topic": "Sustainability climate change governance",
+          "url": "papers/https-openalex-org-w1797125039.html"
         }
       ]
     }
   ],
   "paper_archive": [
     {
-      "source_id": "https://openalex.org/W3025949386",
-      "title": "The ERA5 global reanalysis",
-      "year": 2020,
-      "cited_by_count": 28998,
-      "adjusted_cited_by_count": 11838.38,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W3025949386"
-    },
-    {
       "source_id": "https://openalex.org/W2963276645",
       "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
       "year": 2019,
       "cited_by_count": 23098,
       "adjusted_cited_by_count": 8730.22,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
+      "primary_topic_id": "sg-climate-change-species-distribution-climate-change",
+      "primary_topic_label": "Species distribution climate change",
       "url": "/domains/environmental-science/papers/W2963276645"
     },
     {
@@ -284,8 +314,8 @@
       "year": 2020,
       "cited_by_count": 18590,
       "adjusted_cited_by_count": 7589.34,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
       "url": "/domains/environmental-science/papers/W3092849554"
     },
     {
@@ -294,149 +324,9 @@
       "year": 1999,
       "cited_by_count": 38730,
       "adjusted_cited_by_count": 7453.59,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
+      "primary_topic_id": "sg-environmental-and-resource-management-sustainable-development",
+      "primary_topic_label": "Sustainable development",
       "url": "/domains/environmental-science/papers/W2561675875"
-    },
-    {
-      "source_id": "https://openalex.org/W3029645440",
-      "title": "Numerical optimization",
-      "year": 2021,
-      "cited_by_count": 14179,
-      "adjusted_cited_by_count": 6341.04,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3029645440"
-    },
-    {
-      "source_id": "https://openalex.org/W2159482845",
-      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
-      "year": 1999,
-      "cited_by_count": 32352,
-      "adjusted_cited_by_count": 6226.15,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2159482845"
-    },
-    {
-      "source_id": "https://openalex.org/W2180229411",
-      "title": "<i>PHENIX</i>: a comprehensive Python-based system for macromolecular structure solution",
-      "year": 2010,
-      "cited_by_count": 24290,
-      "adjusted_cited_by_count": 6072.5,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2180229411"
-    },
-    {
-      "source_id": "https://openalex.org/W2056279562",
-      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
-      "year": 2013,
-      "cited_by_count": 21885,
-      "adjusted_cited_by_count": 6069.81,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W2056279562"
-    },
-    {
-      "source_id": "https://openalex.org/W1999574084",
-      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
-      "year": 2011,
-      "cited_by_count": 23057,
-      "adjusted_cited_by_count": 5953.29,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W1999574084"
-    },
-    {
-      "source_id": "https://openalex.org/W2167311298",
-      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
-      "year": 2015,
-      "cited_by_count": 19737,
-      "adjusted_cited_by_count": 5950.93,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2167311298"
-    },
-    {
-      "source_id": "https://openalex.org/W2104549677",
-      "title": "A global reference for human genetic variation",
-      "year": 2015,
-      "cited_by_count": 19611,
-      "adjusted_cited_by_count": 5912.94,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2104549677"
-    },
-    {
-      "source_id": "https://openalex.org/W2148080316",
-      "title": "Special Care Units and Traditional Care in Dementia: Relationship with Behavior, Cognition, Functional Status and Quality of Life - A Review",
-      "year": 2013,
-      "cited_by_count": 20659,
-      "adjusted_cited_by_count": 5729.78,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2148080316"
-    },
-    {
-      "source_id": "https://openalex.org/W1678356000",
-      "title": "Greedy function approximation: A gradient boosting machine.",
-      "year": 2001,
-      "cited_by_count": 27989,
-      "adjusted_cited_by_count": 5597.8,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W1678356000"
-    },
-    {
-      "source_id": "https://openalex.org/W3193598686",
-      "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
-      "year": 2021,
-      "cited_by_count": 12381,
-      "adjusted_cited_by_count": 5536.95,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3193598686"
-    },
-    {
-      "source_id": "https://openalex.org/W2124985265",
-      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
-      "year": 2009,
-      "cited_by_count": 22805,
-      "adjusted_cited_by_count": 5531.02,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2124985265"
-    },
-    {
-      "source_id": "https://openalex.org/W2165698076",
-      "title": "A Survey on Transfer Learning",
-      "year": 2009,
-      "cited_by_count": 22761,
-      "adjusted_cited_by_count": 5520.35,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2165698076"
-    },
-    {
-      "source_id": "https://openalex.org/W2142678478",
-      "title": "BLAST+: architecture and applications",
-      "year": 2009,
-      "cited_by_count": 22562,
-      "adjusted_cited_by_count": 5472.09,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2142678478"
-    },
-    {
-      "source_id": "https://openalex.org/W2302501749",
-      "title": "The FAIR Guiding Principles for scientific data management and stewardship",
-      "year": 2016,
-      "cited_by_count": 17082,
-      "adjusted_cited_by_count": 5401.8,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2302501749"
     },
     {
       "source_id": "https://openalex.org/W2939474406",
@@ -444,19 +334,9 @@
       "year": 2007,
       "cited_by_count": 23473,
       "adjusted_cited_by_count": 5385.08,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
       "url": "/domains/environmental-science/papers/W2939474406"
-    },
-    {
-      "source_id": "https://openalex.org/W3120106258",
-      "title": "Home visits: a strategy to improve newborn survival - Authors' reply",
-      "year": 2008,
-      "cited_by_count": 22522,
-      "adjusted_cited_by_count": 5308.49,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3120106258"
     },
     {
       "source_id": "https://openalex.org/W3208261418",
@@ -464,169 +344,9 @@
       "year": 2020,
       "cited_by_count": 12783,
       "adjusted_cited_by_count": 5218.64,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
       "url": "/domains/environmental-science/papers/W3208261418"
-    },
-    {
-      "source_id": "https://openalex.org/W2148603752",
-      "title": "Statistical Learning Theory",
-      "year": 1999,
-      "cited_by_count": 26954,
-      "adjusted_cited_by_count": 5187.3,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2148603752"
-    },
-    {
-      "source_id": "https://openalex.org/W2259938310",
-      "title": "An integrated encyclopedia of DNA elements in the human genome",
-      "year": 2012,
-      "cited_by_count": 19208,
-      "adjusted_cited_by_count": 5133.55,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2259938310"
-    },
-    {
-      "source_id": "https://openalex.org/W2912654919",
-      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
-      "year": 2018,
-      "cited_by_count": 13844,
-      "adjusted_cited_by_count": 4894.59,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2912654919"
-    },
-    {
-      "source_id": "https://openalex.org/W2168909179",
-      "title": "Initial sequencing and analysis of the human genome",
-      "year": 2001,
-      "cited_by_count": 24470,
-      "adjusted_cited_by_count": 4894.0,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2168909179"
-    },
-    {
-      "source_id": "https://openalex.org/W2149441684",
-      "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
-      "year": 2012,
-      "cited_by_count": 18174,
-      "adjusted_cited_by_count": 4857.21,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2149441684"
-    },
-    {
-      "source_id": "https://openalex.org/W2161339576",
-      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
-      "year": 2005,
-      "cited_by_count": 21909,
-      "adjusted_cited_by_count": 4780.94,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W2161339576"
-    },
-    {
-      "source_id": "https://openalex.org/W2751884637",
-      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
-      "year": 2017,
-      "cited_by_count": 13447,
-      "adjusted_cited_by_count": 4482.33,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2751884637"
-    },
-    {
-      "source_id": "https://openalex.org/W2122825543",
-      "title": "Regularization and Variable Selection Via the Elastic Net",
-      "year": 2005,
-      "cited_by_count": 20534,
-      "adjusted_cited_by_count": 4480.89,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2122825543"
-    },
-    {
-      "source_id": "https://openalex.org/W2159707944",
-      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
-      "year": 2013,
-      "cited_by_count": 16048,
-      "adjusted_cited_by_count": 4450.91,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W2159707944"
-    },
-    {
-      "source_id": "https://openalex.org/W3103145119",
-      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
-      "year": 2019,
-      "cited_by_count": 11583,
-      "adjusted_cited_by_count": 4377.96,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3103145119"
-    },
-    {
-      "source_id": "https://openalex.org/W2964344211",
-      "title": "CRC Handbook of Chemistry and Physics",
-      "year": 2016,
-      "cited_by_count": 13817,
-      "adjusted_cited_by_count": 4369.32,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W2964344211"
-    },
-    {
-      "source_id": "https://openalex.org/W3113178943",
-      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
-      "year": 2020,
-      "cited_by_count": 10591,
-      "adjusted_cited_by_count": 4323.76,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3113178943"
-    },
-    {
-      "source_id": "https://openalex.org/W2133990480",
-      "title": "The WEKA data mining software",
-      "year": 2009,
-      "cited_by_count": 17820,
-      "adjusted_cited_by_count": 4321.98,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W2133990480"
-    },
-    {
-      "source_id": "https://openalex.org/W3108106255",
-      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
-      "year": 2020,
-      "cited_by_count": 10430,
-      "adjusted_cited_by_count": 4258.03,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3108106255"
-    },
-    {
-      "source_id": "https://openalex.org/W4200026682",
-      "title": "IDF Diabetes Atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
-      "year": 2021,
-      "cited_by_count": 9306,
-      "adjusted_cited_by_count": 4161.77,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W4200026682"
-    },
-    {
-      "source_id": "https://openalex.org/W4382362038",
-      "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
-      "year": 2023,
-      "cited_by_count": 7190,
-      "adjusted_cited_by_count": 4151.15,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
-      "url": "/domains/environmental-science/papers/W4382362038"
     },
     {
       "source_id": "https://openalex.org/W1520428197",
@@ -634,41 +354,353 @@
       "year": 2007,
       "cited_by_count": 17676,
       "adjusted_cited_by_count": 4055.15,
-      "primary_topic_id": "sg-environmental-science",
-      "primary_topic_label": "Environmental science",
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
       "url": "/domains/environmental-science/papers/W1520428197"
     },
     {
-      "source_id": "https://openalex.org/W3029661147",
-      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
-      "year": 2020,
-      "cited_by_count": 9903,
-      "adjusted_cited_by_count": 4042.88,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W3029661147"
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W75231382"
     },
     {
-      "source_id": "https://openalex.org/W4394894573",
-      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9290,
+      "adjusted_cited_by_count": 3792.63,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2020155291",
+      "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "year": 2009,
+      "cited_by_count": 14494,
+      "adjusted_cited_by_count": 3515.31,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2020155291"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12096,
+      "adjusted_cited_by_count": 3491.81,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2623703952",
+      "title": "The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education",
+      "year": 2017,
+      "cited_by_count": 9796,
+      "adjusted_cited_by_count": 3265.33,
+      "primary_topic_id": "sg-environmental-and-resource-management-sustainable-development",
+      "primary_topic_label": "Sustainable development",
+      "url": "/domains/environmental-science/papers/W2623703952"
+    },
+    {
+      "source_id": "https://openalex.org/W1588713494",
+      "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 11231,
+      "adjusted_cited_by_count": 3242.11,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W1588713494"
+    },
+    {
+      "source_id": "https://openalex.org/W1797125039",
+      "title": "International Journal of Current Microbiology and Applied Sciences",
+      "year": 2026,
+      "cited_by_count": 2914,
+      "adjusted_cited_by_count": 2914.0,
+      "primary_topic_id": "sg-climate-change-sustainability-climate-change-governance",
+      "primary_topic_label": "Sustainability climate change governance",
+      "url": "/domains/environmental-science/papers/W1797125039"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W4200178834",
+      "title": "International Journal of Pharmaceutical Sciences and Research",
+      "year": 2025,
+      "cited_by_count": 2624,
+      "adjusted_cited_by_count": 2624.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W4200178834"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6365,
+      "adjusted_cited_by_count": 2598.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11428,
+      "adjusted_cited_by_count": 2555.38,
+      "primary_topic_id": "sg-environmental-and-resource-management-natural-resource-economics",
+      "primary_topic_label": "Natural resource economics",
+      "url": "/domains/environmental-science/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W4402557213",
+      "title": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
       "year": 2024,
-      "cited_by_count": 4034,
-      "adjusted_cited_by_count": 4034.0,
-      "primary_topic_id": "sg-environmental-chemistry",
-      "primary_topic_label": "Environmental chemistry",
-      "url": "/domains/environmental-science/papers/W4394894573"
+      "cited_by_count": 2502,
+      "adjusted_cited_by_count": 2502.0,
+      "primary_topic_id": "sg-environmental-and-resource-management-natural-resource-economics",
+      "primary_topic_label": "Natural resource economics",
+      "url": "/domains/environmental-science/papers/W4402557213"
+    },
+    {
+      "source_id": "https://openalex.org/W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "year": 2020,
+      "cited_by_count": 6026,
+      "adjusted_cited_by_count": 2460.1,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W3015197879"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7756,
+      "adjusted_cited_by_count": 2452.66,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7339,
+      "adjusted_cited_by_count": 2320.8,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W4381799391",
+      "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2023,
+      "cited_by_count": 3919,
+      "adjusted_cited_by_count": 2262.64,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W4381799391"
+    },
+    {
+      "source_id": "https://openalex.org/W2788640168",
+      "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+      "year": 2018,
+      "cited_by_count": 6315,
+      "adjusted_cited_by_count": 2232.69,
+      "primary_topic_id": "sg-environmental-and-resource-management-sustainable-development",
+      "primary_topic_label": "Sustainable development",
+      "url": "/domains/environmental-science/papers/W2788640168"
+    },
+    {
+      "source_id": "https://openalex.org/W2108344016",
+      "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 8337,
+      "adjusted_cited_by_count": 2228.16,
+      "primary_topic_id": "sg-environmental-and-resource-management-natural-resource-economics",
+      "primary_topic_label": "Natural resource economics",
+      "url": "/domains/environmental-science/papers/W2108344016"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6430,
+      "adjusted_cited_by_count": 2143.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2928467655",
+      "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2019,
+      "cited_by_count": 5618,
+      "adjusted_cited_by_count": 2123.4,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2928467655"
+    },
+    {
+      "source_id": "https://openalex.org/W2754967293",
+      "title": "Global, regional, and national burden of neurological disorders, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2019,
+      "cited_by_count": 5578,
+      "adjusted_cited_by_count": 2108.29,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2754967293"
+    },
+    {
+      "source_id": "https://openalex.org/W3007246056",
+      "title": "Environmental and Health Impacts of Air Pollution: A Review",
+      "year": 2020,
+      "cited_by_count": 4873,
+      "adjusted_cited_by_count": 1989.39,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W3007246056"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4969,
+      "adjusted_cited_by_count": 1756.81,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W2261645655",
+      "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+      "year": 2015,
+      "cited_by_count": 5813,
+      "adjusted_cited_by_count": 1752.69,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W2261645655"
+    },
+    {
+      "source_id": "https://openalex.org/W2554773181",
+      "title": "Cancer nanomedicine: progress, challenges and opportunities",
+      "year": 2016,
+      "cited_by_count": 5510,
+      "adjusted_cited_by_count": 1742.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W2554773181"
+    },
+    {
+      "source_id": "https://openalex.org/W2130509491",
+      "title": "Changes in the global value of ecosystem services",
+      "year": 2014,
+      "cited_by_count": 5980,
+      "adjusted_cited_by_count": 1726.28,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W2130509491"
+    },
+    {
+      "source_id": "https://openalex.org/W4293217384",
+      "title": "2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension",
+      "year": 2022,
+      "cited_by_count": 3418,
+      "adjusted_cited_by_count": 1709.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W4293217384"
+    },
+    {
+      "source_id": "https://openalex.org/W2993908729",
+      "title": "Chronic inflammation in the etiology of disease across the life span",
+      "year": 2019,
+      "cited_by_count": 4491,
+      "adjusted_cited_by_count": 1697.44,
+      "primary_topic_id": "sg-environmental-and-resource-management-natural-resource-economics",
+      "primary_topic_label": "Natural resource economics",
+      "url": "/domains/environmental-science/papers/W2993908729"
+    },
+    {
+      "source_id": "https://openalex.org/W2513922847",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "year": 2015,
+      "cited_by_count": 5302,
+      "adjusted_cited_by_count": 1598.61,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W2513922847"
+    },
+    {
+      "source_id": "https://openalex.org/W2153791616",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "year": 2013,
+      "cited_by_count": 5704,
+      "adjusted_cited_by_count": 1582.0,
+      "primary_topic_id": "sg-environmental-and-resource-management-sustainable-development",
+      "primary_topic_label": "Sustainable development",
+      "url": "/domains/environmental-science/papers/W2153791616"
+    },
+    {
+      "source_id": "https://openalex.org/W2114538920",
+      "title": "Global physical activity levels: surveillance progress, pitfalls, and prospects",
+      "year": 2012,
+      "cited_by_count": 5796,
+      "adjusted_cited_by_count": 1549.05,
+      "primary_topic_id": "sg-environmental-and-resource-management-natural-resource-economics",
+      "primary_topic_label": "Natural resource economics",
+      "url": "/domains/environmental-science/papers/W2114538920"
+    },
+    {
+      "source_id": "https://openalex.org/W4206481149",
+      "title": "Parkinson's disease",
+      "year": 2021,
+      "cited_by_count": 3411,
+      "adjusted_cited_by_count": 1525.45,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W4206481149"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6782,
+      "adjusted_cited_by_count": 1516.5,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/environmental-science/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W1994823455",
+      "title": "Autophagy fights disease through cellular self-digestion",
+      "year": 2008,
+      "cited_by_count": 6395,
+      "adjusted_cited_by_count": 1507.32,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/environmental-science/papers/W1994823455"
     }
   ],
   "representative_papers": [
     {
-      "source_id": "https://openalex.org/W3025949386",
-      "title": "The ERA5 global reanalysis",
-      "year": 2020,
-      "cited_by_count": 28998,
-      "adjusted_cited_by_count": 11838.38,
-      "url": "/domains/environmental-science/papers/W3025949386"
-    },
-    {
       "source_id": "https://openalex.org/W2963276645",
       "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
       "year": 2019,
@@ -693,132 +725,12 @@
       "url": "/domains/environmental-science/papers/W2561675875"
     },
     {
-      "source_id": "https://openalex.org/W3029645440",
-      "title": "Numerical optimization",
-      "year": 2021,
-      "cited_by_count": 14179,
-      "adjusted_cited_by_count": 6341.04,
-      "url": "/domains/environmental-science/papers/W3029645440"
-    },
-    {
-      "source_id": "https://openalex.org/W2159482845",
-      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
-      "year": 1999,
-      "cited_by_count": 32352,
-      "adjusted_cited_by_count": 6226.15,
-      "url": "/domains/environmental-science/papers/W2159482845"
-    },
-    {
-      "source_id": "https://openalex.org/W2180229411",
-      "title": "<i>PHENIX</i>: a comprehensive Python-based system for macromolecular structure solution",
-      "year": 2010,
-      "cited_by_count": 24290,
-      "adjusted_cited_by_count": 6072.5,
-      "url": "/domains/environmental-science/papers/W2180229411"
-    },
-    {
-      "source_id": "https://openalex.org/W2056279562",
-      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
-      "year": 2013,
-      "cited_by_count": 21885,
-      "adjusted_cited_by_count": 6069.81,
-      "url": "/domains/environmental-science/papers/W2056279562"
-    },
-    {
-      "source_id": "https://openalex.org/W1999574084",
-      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
-      "year": 2011,
-      "cited_by_count": 23057,
-      "adjusted_cited_by_count": 5953.29,
-      "url": "/domains/environmental-science/papers/W1999574084"
-    },
-    {
-      "source_id": "https://openalex.org/W2167311298",
-      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
-      "year": 2015,
-      "cited_by_count": 19737,
-      "adjusted_cited_by_count": 5950.93,
-      "url": "/domains/environmental-science/papers/W2167311298"
-    },
-    {
-      "source_id": "https://openalex.org/W2104549677",
-      "title": "A global reference for human genetic variation",
-      "year": 2015,
-      "cited_by_count": 19611,
-      "adjusted_cited_by_count": 5912.94,
-      "url": "/domains/environmental-science/papers/W2104549677"
-    },
-    {
-      "source_id": "https://openalex.org/W2148080316",
-      "title": "Special Care Units and Traditional Care in Dementia: Relationship with Behavior, Cognition, Functional Status and Quality of Life - A Review",
-      "year": 2013,
-      "cited_by_count": 20659,
-      "adjusted_cited_by_count": 5729.78,
-      "url": "/domains/environmental-science/papers/W2148080316"
-    },
-    {
-      "source_id": "https://openalex.org/W1678356000",
-      "title": "Greedy function approximation: A gradient boosting machine.",
-      "year": 2001,
-      "cited_by_count": 27989,
-      "adjusted_cited_by_count": 5597.8,
-      "url": "/domains/environmental-science/papers/W1678356000"
-    },
-    {
-      "source_id": "https://openalex.org/W3193598686",
-      "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
-      "year": 2021,
-      "cited_by_count": 12381,
-      "adjusted_cited_by_count": 5536.95,
-      "url": "/domains/environmental-science/papers/W3193598686"
-    },
-    {
-      "source_id": "https://openalex.org/W2124985265",
-      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
-      "year": 2009,
-      "cited_by_count": 22805,
-      "adjusted_cited_by_count": 5531.02,
-      "url": "/domains/environmental-science/papers/W2124985265"
-    },
-    {
-      "source_id": "https://openalex.org/W2165698076",
-      "title": "A Survey on Transfer Learning",
-      "year": 2009,
-      "cited_by_count": 22761,
-      "adjusted_cited_by_count": 5520.35,
-      "url": "/domains/environmental-science/papers/W2165698076"
-    },
-    {
-      "source_id": "https://openalex.org/W2142678478",
-      "title": "BLAST+: architecture and applications",
-      "year": 2009,
-      "cited_by_count": 22562,
-      "adjusted_cited_by_count": 5472.09,
-      "url": "/domains/environmental-science/papers/W2142678478"
-    },
-    {
-      "source_id": "https://openalex.org/W2302501749",
-      "title": "The FAIR Guiding Principles for scientific data management and stewardship",
-      "year": 2016,
-      "cited_by_count": 17082,
-      "adjusted_cited_by_count": 5401.8,
-      "url": "/domains/environmental-science/papers/W2302501749"
-    },
-    {
       "source_id": "https://openalex.org/W2939474406",
       "title": "Climate change 2007: the physical science basis",
       "year": 2007,
       "cited_by_count": 23473,
       "adjusted_cited_by_count": 5385.08,
       "url": "/domains/environmental-science/papers/W2939474406"
-    },
-    {
-      "source_id": "https://openalex.org/W3120106258",
-      "title": "Home visits: a strategy to improve newborn survival - Authors' reply",
-      "year": 2008,
-      "cited_by_count": 22522,
-      "adjusted_cited_by_count": 5308.49,
-      "url": "/domains/environmental-science/papers/W3120106258"
     },
     {
       "source_id": "https://openalex.org/W3208261418",
@@ -829,134 +741,6 @@
       "url": "/domains/environmental-science/papers/W3208261418"
     },
     {
-      "source_id": "https://openalex.org/W2148603752",
-      "title": "Statistical Learning Theory",
-      "year": 1999,
-      "cited_by_count": 26954,
-      "adjusted_cited_by_count": 5187.3,
-      "url": "/domains/environmental-science/papers/W2148603752"
-    },
-    {
-      "source_id": "https://openalex.org/W2259938310",
-      "title": "An integrated encyclopedia of DNA elements in the human genome",
-      "year": 2012,
-      "cited_by_count": 19208,
-      "adjusted_cited_by_count": 5133.55,
-      "url": "/domains/environmental-science/papers/W2259938310"
-    },
-    {
-      "source_id": "https://openalex.org/W2912654919",
-      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
-      "year": 2018,
-      "cited_by_count": 13844,
-      "adjusted_cited_by_count": 4894.59,
-      "url": "/domains/environmental-science/papers/W2912654919"
-    },
-    {
-      "source_id": "https://openalex.org/W2168909179",
-      "title": "Initial sequencing and analysis of the human genome",
-      "year": 2001,
-      "cited_by_count": 24470,
-      "adjusted_cited_by_count": 4894.0,
-      "url": "/domains/environmental-science/papers/W2168909179"
-    },
-    {
-      "source_id": "https://openalex.org/W2149441684",
-      "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
-      "year": 2012,
-      "cited_by_count": 18174,
-      "adjusted_cited_by_count": 4857.21,
-      "url": "/domains/environmental-science/papers/W2149441684"
-    },
-    {
-      "source_id": "https://openalex.org/W2161339576",
-      "title": "Detecting the number of clusters of individuals using the software <scp>structure</scp>: a simulation study",
-      "year": 2005,
-      "cited_by_count": 21909,
-      "adjusted_cited_by_count": 4780.94,
-      "url": "/domains/environmental-science/papers/W2161339576"
-    },
-    {
-      "source_id": "https://openalex.org/W2751884637",
-      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
-      "year": 2017,
-      "cited_by_count": 13447,
-      "adjusted_cited_by_count": 4482.33,
-      "url": "/domains/environmental-science/papers/W2751884637"
-    },
-    {
-      "source_id": "https://openalex.org/W2122825543",
-      "title": "Regularization and Variable Selection Via the Elastic Net",
-      "year": 2005,
-      "cited_by_count": 20534,
-      "adjusted_cited_by_count": 4480.89,
-      "url": "/domains/environmental-science/papers/W2122825543"
-    },
-    {
-      "source_id": "https://openalex.org/W2159707944",
-      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
-      "year": 2013,
-      "cited_by_count": 16048,
-      "adjusted_cited_by_count": 4450.91,
-      "url": "/domains/environmental-science/papers/W2159707944"
-    },
-    {
-      "source_id": "https://openalex.org/W3103145119",
-      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
-      "year": 2019,
-      "cited_by_count": 11583,
-      "adjusted_cited_by_count": 4377.96,
-      "url": "/domains/environmental-science/papers/W3103145119"
-    },
-    {
-      "source_id": "https://openalex.org/W2964344211",
-      "title": "CRC Handbook of Chemistry and Physics",
-      "year": 2016,
-      "cited_by_count": 13817,
-      "adjusted_cited_by_count": 4369.32,
-      "url": "/domains/environmental-science/papers/W2964344211"
-    },
-    {
-      "source_id": "https://openalex.org/W3113178943",
-      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
-      "year": 2020,
-      "cited_by_count": 10591,
-      "adjusted_cited_by_count": 4323.76,
-      "url": "/domains/environmental-science/papers/W3113178943"
-    },
-    {
-      "source_id": "https://openalex.org/W2133990480",
-      "title": "The WEKA data mining software",
-      "year": 2009,
-      "cited_by_count": 17820,
-      "adjusted_cited_by_count": 4321.98,
-      "url": "/domains/environmental-science/papers/W2133990480"
-    },
-    {
-      "source_id": "https://openalex.org/W3108106255",
-      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
-      "year": 2020,
-      "cited_by_count": 10430,
-      "adjusted_cited_by_count": 4258.03,
-      "url": "/domains/environmental-science/papers/W3108106255"
-    },
-    {
-      "source_id": "https://openalex.org/W4200026682",
-      "title": "IDF Diabetes Atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
-      "year": 2021,
-      "cited_by_count": 9306,
-      "adjusted_cited_by_count": 4161.77,
-      "url": "/domains/environmental-science/papers/W4200026682"
-    },
-    {
-      "source_id": "https://openalex.org/W4382362038",
-      "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
-      "year": 2023,
-      "cited_by_count": 7190,
-      "adjusted_cited_by_count": 4151.15,
-      "url": "/domains/environmental-science/papers/W4382362038"
-    },
-    {
       "source_id": "https://openalex.org/W1520428197",
       "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
       "year": 2007,
@@ -965,142 +749,310 @@
       "url": "/domains/environmental-science/papers/W1520428197"
     },
     {
-      "source_id": "https://openalex.org/W3029661147",
-      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
-      "year": 2020,
-      "cited_by_count": 9903,
-      "adjusted_cited_by_count": 4042.88,
-      "url": "/domains/environmental-science/papers/W3029661147"
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "url": "/domains/environmental-science/papers/W75231382"
     },
     {
-      "source_id": "https://openalex.org/W4394894573",
-      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9290,
+      "adjusted_cited_by_count": 3792.63,
+      "url": "/domains/environmental-science/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2020155291",
+      "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "year": 2009,
+      "cited_by_count": 14494,
+      "adjusted_cited_by_count": 3515.31,
+      "url": "/domains/environmental-science/papers/W2020155291"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12096,
+      "adjusted_cited_by_count": 3491.81,
+      "url": "/domains/environmental-science/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W2623703952",
+      "title": "The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education",
+      "year": 2017,
+      "cited_by_count": 9796,
+      "adjusted_cited_by_count": 3265.33,
+      "url": "/domains/environmental-science/papers/W2623703952"
+    },
+    {
+      "source_id": "https://openalex.org/W1588713494",
+      "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 11231,
+      "adjusted_cited_by_count": 3242.11,
+      "url": "/domains/environmental-science/papers/W1588713494"
+    },
+    {
+      "source_id": "https://openalex.org/W1797125039",
+      "title": "International Journal of Current Microbiology and Applied Sciences",
+      "year": 2026,
+      "cited_by_count": 2914,
+      "adjusted_cited_by_count": 2914.0,
+      "url": "/domains/environmental-science/papers/W1797125039"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "url": "/domains/environmental-science/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W4200178834",
+      "title": "International Journal of Pharmaceutical Sciences and Research",
+      "year": 2025,
+      "cited_by_count": 2624,
+      "adjusted_cited_by_count": 2624.0,
+      "url": "/domains/environmental-science/papers/W4200178834"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6365,
+      "adjusted_cited_by_count": 2598.5,
+      "url": "/domains/environmental-science/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11428,
+      "adjusted_cited_by_count": 2555.38,
+      "url": "/domains/environmental-science/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W4402557213",
+      "title": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
       "year": 2024,
-      "cited_by_count": 4034,
-      "adjusted_cited_by_count": 4034.0,
-      "url": "/domains/environmental-science/papers/W4394894573"
+      "cited_by_count": 2502,
+      "adjusted_cited_by_count": 2502.0,
+      "url": "/domains/environmental-science/papers/W4402557213"
+    },
+    {
+      "source_id": "https://openalex.org/W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "year": 2020,
+      "cited_by_count": 6026,
+      "adjusted_cited_by_count": 2460.1,
+      "url": "/domains/environmental-science/papers/W3015197879"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7756,
+      "adjusted_cited_by_count": 2452.66,
+      "url": "/domains/environmental-science/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7339,
+      "adjusted_cited_by_count": 2320.8,
+      "url": "/domains/environmental-science/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W4381799391",
+      "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2023,
+      "cited_by_count": 3919,
+      "adjusted_cited_by_count": 2262.64,
+      "url": "/domains/environmental-science/papers/W4381799391"
+    },
+    {
+      "source_id": "https://openalex.org/W2788640168",
+      "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+      "year": 2018,
+      "cited_by_count": 6315,
+      "adjusted_cited_by_count": 2232.69,
+      "url": "/domains/environmental-science/papers/W2788640168"
+    },
+    {
+      "source_id": "https://openalex.org/W2108344016",
+      "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 8337,
+      "adjusted_cited_by_count": 2228.16,
+      "url": "/domains/environmental-science/papers/W2108344016"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6430,
+      "adjusted_cited_by_count": 2143.33,
+      "url": "/domains/environmental-science/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2928467655",
+      "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2019,
+      "cited_by_count": 5618,
+      "adjusted_cited_by_count": 2123.4,
+      "url": "/domains/environmental-science/papers/W2928467655"
+    },
+    {
+      "source_id": "https://openalex.org/W2754967293",
+      "title": "Global, regional, and national burden of neurological disorders, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2019,
+      "cited_by_count": 5578,
+      "adjusted_cited_by_count": 2108.29,
+      "url": "/domains/environmental-science/papers/W2754967293"
+    },
+    {
+      "source_id": "https://openalex.org/W3007246056",
+      "title": "Environmental and Health Impacts of Air Pollution: A Review",
+      "year": 2020,
+      "cited_by_count": 4873,
+      "adjusted_cited_by_count": 1989.39,
+      "url": "/domains/environmental-science/papers/W3007246056"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4969,
+      "adjusted_cited_by_count": 1756.81,
+      "url": "/domains/environmental-science/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W2261645655",
+      "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+      "year": 2015,
+      "cited_by_count": 5813,
+      "adjusted_cited_by_count": 1752.69,
+      "url": "/domains/environmental-science/papers/W2261645655"
+    },
+    {
+      "source_id": "https://openalex.org/W2554773181",
+      "title": "Cancer nanomedicine: progress, challenges and opportunities",
+      "year": 2016,
+      "cited_by_count": 5510,
+      "adjusted_cited_by_count": 1742.41,
+      "url": "/domains/environmental-science/papers/W2554773181"
+    },
+    {
+      "source_id": "https://openalex.org/W2130509491",
+      "title": "Changes in the global value of ecosystem services",
+      "year": 2014,
+      "cited_by_count": 5980,
+      "adjusted_cited_by_count": 1726.28,
+      "url": "/domains/environmental-science/papers/W2130509491"
+    },
+    {
+      "source_id": "https://openalex.org/W4293217384",
+      "title": "2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension",
+      "year": 2022,
+      "cited_by_count": 3418,
+      "adjusted_cited_by_count": 1709.0,
+      "url": "/domains/environmental-science/papers/W4293217384"
+    },
+    {
+      "source_id": "https://openalex.org/W2993908729",
+      "title": "Chronic inflammation in the etiology of disease across the life span",
+      "year": 2019,
+      "cited_by_count": 4491,
+      "adjusted_cited_by_count": 1697.44,
+      "url": "/domains/environmental-science/papers/W2993908729"
+    },
+    {
+      "source_id": "https://openalex.org/W2513922847",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "year": 2015,
+      "cited_by_count": 5302,
+      "adjusted_cited_by_count": 1598.61,
+      "url": "/domains/environmental-science/papers/W2513922847"
+    },
+    {
+      "source_id": "https://openalex.org/W2153791616",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "year": 2013,
+      "cited_by_count": 5704,
+      "adjusted_cited_by_count": 1582.0,
+      "url": "/domains/environmental-science/papers/W2153791616"
+    },
+    {
+      "source_id": "https://openalex.org/W2114538920",
+      "title": "Global physical activity levels: surveillance progress, pitfalls, and prospects",
+      "year": 2012,
+      "cited_by_count": 5796,
+      "adjusted_cited_by_count": 1549.05,
+      "url": "/domains/environmental-science/papers/W2114538920"
+    },
+    {
+      "source_id": "https://openalex.org/W4206481149",
+      "title": "Parkinson's disease",
+      "year": 2021,
+      "cited_by_count": 3411,
+      "adjusted_cited_by_count": 1525.45,
+      "url": "/domains/environmental-science/papers/W4206481149"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6782,
+      "adjusted_cited_by_count": 1516.5,
+      "url": "/domains/environmental-science/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W1994823455",
+      "title": "Autophagy fights disease through cellular self-digestion",
+      "year": 2008,
+      "cited_by_count": 6395,
+      "adjusted_cited_by_count": 1507.32,
+      "url": "/domains/environmental-science/papers/W1994823455"
     }
   ],
   "role_profiles": [
-    {
-      "label": "of the",
-      "semantic_role": "entity_like",
-      "topic_role": "domain_topic",
-      "ui_role": "index",
-      "confidence": 0.99,
-      "evidence_count": 504
-    },
-    {
-      "label": "sea",
-      "semantic_role": "entity_like",
-      "topic_role": "domain_topic",
-      "ui_role": "index",
-      "confidence": 0.99,
-      "evidence_count": 393
-    },
-    {
-      "label": "use",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 375
-    },
-    {
-      "label": "gene",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 342
-    },
-    {
-      "label": "rate",
-      "semantic_role": "condition_like",
-      "topic_role": "detail_topic",
-      "ui_role": "property_detail",
-      "confidence": 0.99,
-      "evidence_count": 324
-    },
     {
       "label": "environmental",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 300
-    },
-    {
-      "label": "computer science",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 296
-    },
-    {
-      "label": "data",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 234
-    },
-    {
-      "label": "environment",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 181
-    },
-    {
-      "label": "disease",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 180
+      "evidence_count": 76
     },
     {
       "label": "global",
       "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 171
+      "evidence_count": 52
     },
     {
-      "label": "ecology",
+      "label": "disease",
       "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 166
+      "evidence_count": 49
     },
     {
-      "label": "model",
+      "label": "of the",
       "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 159
-    },
-    {
-      "label": "function",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 154
-    },
-    {
-      "label": "development",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 153
+      "evidence_count": 42
     },
     {
       "label": "health",
@@ -1108,7 +1060,39 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 150
+      "evidence_count": 39
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
     },
     {
       "label": "change",
@@ -1116,71 +1100,279 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 149
+      "evidence_count": 28
     },
     {
-      "label": "source",
+      "label": "in the",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 149
+      "evidence_count": 28
     },
     {
-      "label": "environmental science",
+      "label": "burden",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 146
+      "evidence_count": 27
     },
     {
-      "label": "human",
+      "label": "internal medicine",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 143
+      "evidence_count": 27
     },
     {
-      "label": "set",
+      "label": "the global",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 142
+      "evidence_count": 27
     },
     {
-      "label": "cell",
+      "label": "burden of",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 133
+      "evidence_count": 25
     },
     {
-      "label": "action",
+      "label": "climate",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 122
+      "evidence_count": 25
     },
     {
-      "label": "sequence",
+      "label": "climate change",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 103
+      "evidence_count": 24
     },
     {
-      "label": "information",
+      "label": "global burden",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 102
+      "evidence_count": 23
+    },
+    {
+      "label": "global burden of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 23
+    },
+    {
+      "label": "of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 23
+    },
+    {
+      "label": "burden of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "gate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "the global burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "bill",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 19
+    },
+    {
+      "label": "foundation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 19
+    },
+    {
+      "label": "a systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "a systematic analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "assessment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "bill melinda",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "bill melinda gate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "disease study",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "for the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "gate foundation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "melinda",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "melinda gate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "melinda gate foundation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "of disease study",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "regional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "systematic analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 17
     },
     {
       "label": "population",
@@ -1188,259 +1380,78 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 102
+      "evidence_count": 17
     },
     {
-      "label": "more than",
-      "semantic_role": "property_like",
-      "topic_role": "detail_topic",
-      "ui_role": "property_detail",
+      "label": "systematic analysis for",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
       "confidence": 0.99,
       "evidence_count": 17
     },
     {
-      "label": "world",
+      "label": "pathology",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9898,
-      "evidence_count": 99
+      "confidence": 0.99,
+      "evidence_count": 16
     },
     {
-      "label": "years",
+      "label": "geology",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9894,
-      "evidence_count": 95
+      "confidence": 0.99,
+      "evidence_count": 15
     },
     {
-      "label": "community",
+      "label": "to the",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9889,
-      "evidence_count": 90
+      "confidence": 0.99,
+      "evidence_count": 15
     },
     {
-      "label": "potential",
+      "label": "disease burden",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9888,
-      "evidence_count": 89
-    },
-    {
-      "label": "control",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9884,
-      "evidence_count": 85
-    },
-    {
-      "label": "genome",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.9882,
-      "evidence_count": 83
-    },
-    {
-      "label": "species",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9882,
-      "evidence_count": 83
-    },
-    {
-      "label": "impact",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9881,
-      "evidence_count": 82
-    },
-    {
-      "label": "scale",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.988,
-      "evidence_count": 81
-    },
-    {
-      "label": "climate",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9879,
-      "evidence_count": 89
-    },
-    {
-      "label": "knowledge",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9879,
-      "evidence_count": 80
-    },
-    {
-      "label": "national",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9879,
-      "evidence_count": 80
-    },
-    {
-      "label": "genetic",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9878,
-      "evidence_count": 79
-    },
-    {
-      "label": "life",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9876,
-      "evidence_count": 77
-    },
-    {
-      "label": "resource",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9875,
-      "evidence_count": 95
-    },
-    {
-      "label": "climate change",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.9874,
-      "evidence_count": 75
-    },
-    {
-      "label": "public",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9874,
-      "evidence_count": 75
-    },
-    {
-      "label": "activity",
-      "semantic_role": "property_like",
-      "topic_role": "detail_topic",
-      "ui_role": "property_detail",
-      "confidence": 0.9872,
-      "evidence_count": 73
-    },
-    {
-      "label": "artificial intelligence",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9872,
-      "evidence_count": 73
-    },
-    {
-      "label": "chemical",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9872,
-      "evidence_count": 73
-    },
-    {
-      "label": "project",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9872,
-      "evidence_count": 73
-    },
-    {
-      "label": "tool",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.987,
-      "evidence_count": 71
-    },
-    {
-      "label": "group",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9867,
-      "evidence_count": 68
+      "confidence": 0.99,
+      "evidence_count": 14
     }
   ],
   "topic_year_counts": {
-    "environmental chemistry": {
-      "2025": 160222,
-      "2023": 154521,
-      "2024": 152287,
-      "2022": 103835,
-      "2021": 93628,
-      "2020": 85909,
-      "2019": 73401,
-      "2018": 65881,
-      "2017": 58137,
-      "2016": 54056,
-      "2015": 46578,
-      "2026": 41931,
-      "2014": 41503,
-      "2013": 38128,
-      "2012": 32302,
-      "2011": 26168,
-      "2010": 21337,
-      "2009": 17773,
-      "2008": 14575,
-      "2007": 12454,
-      "2006": 11219,
-      "2005": 9580,
-      "2004": 8278,
-      "2003": 6984,
-      "2002": 6089,
-      "2000": 5578,
-      "2001": 5204
-    },
-    "environmental science": {
-      "2025": 744151,
-      "2023": 704134,
-      "2024": 697791,
-      "2022": 478194,
-      "2021": 418661,
-      "2020": 376579,
-      "2019": 304316,
-      "2018": 267586,
-      "2017": 230954,
-      "2016": 206501,
-      "2015": 184314,
-      "2026": 179475,
-      "2014": 165932,
-      "2013": 147010,
-      "2012": 124967,
-      "2011": 103920,
-      "2010": 87308,
-      "2009": 74599,
-      "2008": 60887,
-      "2007": 52058,
-      "2006": 45423,
-      "2005": 39211,
-      "2004": 33288,
-      "2003": 28785,
-      "2002": 24954,
-      "2000": 22536,
-      "2001": 21905
+    "climate change": {
+      "2025": 466814,
+      "2024": 415204,
+      "2023": 407342,
+      "2022": 293250,
+      "2021": 264964,
+      "2020": 237925,
+      "2019": 195639,
+      "2018": 172858,
+      "2017": 152419,
+      "2016": 141362,
+      "2015": 127789,
+      "2026": 118894,
+      "2014": 115982,
+      "2013": 106721,
+      "2012": 94343,
+      "2011": 81720,
+      "2010": 71729,
+      "2009": 61282,
+      "2008": 48027,
+      "2007": 39327,
+      "2006": 32041,
+      "2005": 27392,
+      "2004": 23648,
+      "2003": 20487,
+      "2002": 17558,
+      "2000": 15905,
+      "2001": 15655
     }
   }
 }
