@@ -1,22 +1,22 @@
 {
   "slug": "mathematics",
   "title": "Mathematics",
-  "updated_at": "2026-04-10T11:56:33.325194Z",
+  "updated_at": "2026-04-12T00:19:40.773266Z",
   "snapshot": {
-    "papers": 64,
-    "topics": 1,
-    "subtopics": 15,
-    "entities": 244,
-    "claims": 0
+    "papers": 720,
+    "topics": 6,
+    "subtopics": 45,
+    "entities": 2548,
+    "claims": 2
   },
   "overview": {
     "source_ids": [],
     "partition_summary": {
       "overview_papers": 0,
-      "topical_papers": 77,
-      "total_papers": 77,
+      "topical_papers": 893,
+      "total_papers": 893,
       "facet_counts": {
-        "none": 77
+        "none": 893
       },
       "gemini_validation_enabled": false,
       "gemini_validation_ready": false,
@@ -28,94 +28,454 @@
     "concept_type": "taxonomy"
   },
   "hierarchy": {
-    "root_topics": 1,
-    "descendant_topics": 15,
+    "root_topics": 6,
+    "descendant_topics": 45,
     "max_depth": 2,
-    "leaf_topics": 15
+    "leaf_topics": 45
   },
   "rising_topics": [
     {
-      "id": "sg-differential-equation",
-      "label": "Differential equations",
-      "url": "/domains/mathematics/topics/sg-differential-equation",
+      "id": "sg-mathematical-analysis",
+      "label": "Mathematical analysis",
+      "url": "/domains/mathematics/topics/sg-mathematical-analysis",
       "trend": "rising",
-      "year_total": 1957104
+      "year_total": 3791540
+    },
+    {
+      "id": "sg-mathematics-education",
+      "label": "Mathematics education",
+      "url": "/domains/mathematics/topics/sg-mathematics-education",
+      "trend": "rising",
+      "year_total": 1316595
+    },
+    {
+      "id": "sg-formulas-graphs-mathematical",
+      "label": "Formulas, graphs, mathematical",
+      "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical",
+      "trend": "rising",
+      "year_total": 333262
     }
   ],
   "topic_branches": [
     {
-      "id": "sg-differential-equation",
-      "label": "Differential equations",
-      "url": "/domains/mathematics/topics/sg-differential-equation",
-      "paper_count": 64,
-      "subtopic_count": 15,
+      "id": "sg-mathematical-analysis",
+      "label": "Mathematical analysis",
+      "url": "/domains/mathematics/topics/sg-mathematical-analysis",
+      "paper_count": 215,
+      "subtopic_count": 8,
       "trend": "rising",
-      "summary": "entities: of the, differential equation, differential equations",
+      "summary": "",
       "tags": [
-        "differential equation",
         "differential equations",
-        "ordinary differential",
-        "ordinary differential equation"
+        "equations of parabolic",
+        "mathematical analysis",
+        "partial differential"
       ],
       "subtopics": [
-        {
-          "id": "sg-applied-mathematics-mathematical-functions",
-          "label": "Mathematical functions",
-          "url": "/domains/mathematics/topics/sg-applied-mathematics-mathematical-functions",
-          "paper_count": 14
-        },
-        {
-          "id": "sg-differential-equations-partial-differential-equations",
-          "label": "Partial differential equations",
-          "url": "/domains/mathematics/topics/sg-differential-equations-partial-differential-equations",
-          "paper_count": 10
-        },
         {
           "id": "sg-mathematical-analysis-mathematical-functions-and-polynomials",
           "label": "Mathematical functions and polynomials",
           "url": "/domains/mathematics/topics/sg-mathematical-analysis-mathematical-functions-and-polynomials",
+          "paper_count": 70
+        },
+        {
+          "id": "sg-mathematical-analysis-computational-fluid-dynamics-and-aerodynamics",
+          "label": "Computational fluid dynamics and aerodynamics",
+          "url": "/domains/mathematics/topics/sg-mathematical-analysis-computational-fluid-dynamics-and-aerodynamics",
+          "paper_count": 52
+        },
+        {
+          "id": "sg-mathematical-analysis-lipschitz-continuity",
+          "label": "Lipschitz continuity",
+          "url": "/domains/mathematics/topics/sg-mathematical-analysis-lipschitz-continuity",
+          "paper_count": 43
+        },
+        {
+          "id": "sg-mathematical-analysis-compact-space",
+          "label": "Compact space",
+          "url": "/domains/mathematics/topics/sg-mathematical-analysis-compact-space",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-mathematical-analysis-partial-differential-equations",
+          "label": "Partial differential equations",
+          "url": "/domains/mathematics/topics/sg-mathematical-analysis-partial-differential-equations",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-mathematical-analysis-differential-equations",
+          "label": "Differential equations",
+          "url": "/domains/mathematics/topics/sg-mathematical-analysis-differential-equations",
+          "paper_count": 11
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-mathematics-education",
+      "label": "Mathematics education",
+      "url": "/domains/mathematics/topics/sg-mathematics-education",
+      "paper_count": 147,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: of the, to the, theory",
+      "tags": [
+        "graduate texts in mathematics",
+        "history and theory of mathematics",
+        "mathematics education",
+        "mathematics education and teaching techniques"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mathematics-education-diverse-educational-innovations-studies",
+          "label": "Diverse educational innovations studies",
+          "url": "/domains/mathematics/topics/sg-mathematics-education-diverse-educational-innovations-studies",
+          "paper_count": 54
+        },
+        {
+          "id": "sg-mathematics-education-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/mathematics/topics/sg-mathematics-education-cognitive-science",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-mathematics-education-matrice-in-mathematical-science",
+          "label": "Matrice in mathematical science",
+          "url": "/domains/mathematics/topics/sg-mathematics-education-matrice-in-mathematical-science",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-mathematics-education-formative-assessment",
+          "label": "Formative assessment",
+          "url": "/domains/mathematics/topics/sg-mathematics-education-formative-assessment",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-mathematics-education-cognitive-apprenticeship",
+          "label": "Cognitive apprenticeship",
+          "url": "/domains/mathematics/topics/sg-mathematics-education-cognitive-apprenticeship",
           "paper_count": 9
         },
         {
-          "id": "sg-applied-mathematics-mathematics-of-diffusion",
-          "label": "Mathematics of diffusion",
-          "url": "/domains/mathematics/topics/sg-applied-mathematics-mathematics-of-diffusion",
-          "paper_count": 6
-        },
-        {
-          "id": "sg-applied-mathematics-programming-language",
-          "label": "Programming language",
-          "url": "/domains/mathematics/topics/sg-applied-mathematics-programming-language",
-          "paper_count": 6
-        },
-        {
-          "id": "sg-mathematical-analysis-library-science",
+          "id": "sg-mathematics-education-library-science",
           "label": "Library science",
-          "url": "/domains/mathematics/topics/sg-mathematical-analysis-library-science",
-          "paper_count": 5
+          "url": "/domains/mathematics/topics/sg-mathematics-education-library-science",
+          "paper_count": 6
         }
       ],
       "featured_papers": [
         {
-          "source_id": "https://openalex.org/W2787959293",
-          "title": "Fractional Differential Equations",
-          "year": "2025",
-          "cited_by_count": 20501,
-          "url": "/domains/mathematics/papers/W2787959293"
-        },
-        {
-          "source_id": "https://openalex.org/W2296319761",
-          "title": "Convex Optimization",
-          "year": "2004",
-          "cited_by_count": 31259,
-          "url": "/domains/mathematics/papers/W2296319761"
-        },
-        {
-          "source_id": "https://openalex.org/W3141151088",
-          "title": "Ordinary Differential Equations",
+          "source_id": "https://openalex.org/W2163605009",
+          "title": "ImageNet classification with deep convolutional neural networks",
           "year": "2017",
-          "cited_by_count": 7323,
-          "url": "/domains/mathematics/papers/W3141151088"
+          "cited_by_count": 75670,
+          "url": "/domains/mathematics/papers/W2163605009"
+        },
+        {
+          "source_id": "https://openalex.org/W1951724000",
+          "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+          "year": "2015",
+          "cited_by_count": 83092,
+          "url": "/domains/mathematics/papers/W1951724000"
+        },
+        {
+          "source_id": "https://openalex.org/W2108244474",
+          "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+          "year": "2001",
+          "cited_by_count": 34598,
+          "url": "/domains/mathematics/papers/W2108244474"
+        }
+      ]
+    },
+    {
+      "id": "sg-formulas-graphs-mathematical",
+      "label": "Formulas, graphs, mathematical",
+      "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical",
+      "paper_count": 111,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: mathematical, gene, applied mathematics",
+      "tags": [
+        "applied mathematics",
+        "differential equations",
+        "formulas, graphs, mathematical",
+        "formulas, graphs, mathematical table"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-formulas-graphs-mathematical-basic-reproduction-number",
+          "label": "Basic reproduction number",
+          "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical-basic-reproduction-number",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-formulas-graphs-mathematical-fractional-differential-equations-solutions",
+          "label": "Fractional differential equations solutions",
+          "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical-fractional-differential-equations-solutions",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-formulas-graphs-mathematical-mathematical-functions-formulas",
+          "label": "Mathematical functions formulas",
+          "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical-mathematical-functions-formulas",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-formulas-graphs-mathematical-finite-element",
+          "label": "Finite element",
+          "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical-finite-element",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-formulas-graphs-mathematical-fractional-calculus",
+          "label": "Fractional calculus",
+          "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical-fractional-calculus",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-formulas-graphs-mathematical-ordinary-differential-equation",
+          "label": "Ordinary differential equation",
+          "url": "/domains/mathematics/topics/sg-formulas-graphs-mathematical-ordinary-differential-equation",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2786358356",
+          "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
+          "year": "2017",
+          "cited_by_count": 11875,
+          "url": "/domains/mathematics/papers/W2786358356"
+        },
+        {
+          "source_id": "https://openalex.org/W2100305481",
+          "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks",
+          "year": "2012",
+          "cited_by_count": 12824,
+          "url": "/domains/mathematics/papers/W2100305481"
+        },
+        {
+          "source_id": "https://openalex.org/W1975994995",
+          "title": "Distribution of the Estimators for Autoregressive Time Series with a Unit Root",
+          "year": "1979",
+          "cited_by_count": 22810,
+          "url": "/domains/mathematics/papers/W1975994995"
+        }
+      ]
+    },
+    {
+      "id": "sg-mathematical-optimization",
+      "label": "Mathematical optimization",
+      "url": "/domains/mathematics/topics/sg-mathematical-optimization",
+      "paper_count": 100,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: algorithm, of a, in the",
+      "tags": [
+        "constraint satisfaction and optimization",
+        "local optimum",
+        "mathematical optimization",
+        "multi-objective optimization"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mathematical-optimization-approximation-algorithms",
+          "label": "Approximation algorithms",
+          "url": "/domains/mathematics/topics/sg-mathematical-optimization-approximation-algorithms",
+          "paper_count": 34
+        },
+        {
+          "id": "sg-mathematical-optimization-optimization-problem",
+          "label": "Optimization problem",
+          "url": "/domains/mathematics/topics/sg-mathematical-optimization-optimization-problem",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-mathematical-optimization-optimization-algorithms",
+          "label": "Optimization algorithms",
+          "url": "/domains/mathematics/topics/sg-mathematical-optimization-optimization-algorithms",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-mathematical-optimization-linear-programming",
+          "label": "Linear programming",
+          "url": "/domains/mathematics/topics/sg-mathematical-optimization-linear-programming",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-mathematical-optimization-nonlinear-programming",
+          "label": "Nonlinear programming",
+          "url": "/domains/mathematics/topics/sg-mathematical-optimization-nonlinear-programming",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-mathematical-optimization-constraint-satisfaction-optimization",
+          "label": "Constraint satisfaction optimization",
+          "url": "/domains/mathematics/topics/sg-mathematical-optimization-constraint-satisfaction-optimization",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3003257820",
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36311,
+          "url": "/domains/mathematics/papers/W3003257820"
+        },
+        {
+          "source_id": "https://openalex.org/W3023540311",
+          "title": "Genetic algorithms in search, optimization, and machine learning",
+          "year": "1989",
+          "cited_by_count": 49332,
+          "url": "/domains/mathematics/papers/W3023540311"
+        },
+        {
+          "source_id": "https://openalex.org/W2230728100",
+          "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+          "year": "1965",
+          "cited_by_count": 62450,
+          "url": "/domains/mathematics/papers/W2230728100"
+        }
+      ]
+    },
+    {
+      "id": "sg-theoretical-computer-science",
+      "label": "Theoretical computer science",
+      "url": "/domains/mathematics/topics/sg-theoretical-computer-science",
+      "paper_count": 86,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: theoretical computer science, of the, network",
+      "tags": [
+        "betweenness centrality",
+        "flow network",
+        "parallel computing and optimization techniques",
+        "search algorithm"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-theoretical-computer-science-parallel-computing-optimization-techniques",
+          "label": "Parallel computing optimization techniques",
+          "url": "/domains/mathematics/topics/sg-theoretical-computer-science-parallel-computing-optimization-techniques",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-theoretical-computer-science-graph-neural-networks",
+          "label": "Graph neural networks",
+          "url": "/domains/mathematics/topics/sg-theoretical-computer-science-graph-neural-networks",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-theoretical-computer-science-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/mathematics/topics/sg-theoretical-computer-science-cognitive-science",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-theoretical-computer-science-artificial-neural-network",
+          "label": "Artificial neural network",
+          "url": "/domains/mathematics/topics/sg-theoretical-computer-science-artificial-neural-network",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-theoretical-computer-science-betweenness-centrality",
+          "label": "Betweenness centrality",
+          "url": "/domains/mathematics/topics/sg-theoretical-computer-science-betweenness-centrality",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-theoretical-computer-science-relational-database",
+          "label": "Relational database",
+          "url": "/domains/mathematics/topics/sg-theoretical-computer-science-relational-database",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2112796928",
+          "title": "Gradient-based learning applied to document recognition",
+          "year": "1998",
+          "cited_by_count": 57244,
+          "url": "/domains/mathematics/papers/W2112796928"
+        },
+        {
+          "source_id": "https://openalex.org/W1995875735",
+          "title": "A Mathematical Theory of Communication",
+          "year": "1948",
+          "cited_by_count": 79502,
+          "url": "/domains/mathematics/papers/W1995875735"
+        },
+        {
+          "source_id": "https://openalex.org/W3035965352",
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 21114,
+          "url": "/domains/mathematics/papers/W3035965352"
+        }
+      ]
+    },
+    {
+      "id": "sg-statistical-physics",
+      "label": "Statistical physics",
+      "url": "/domains/mathematics/topics/sg-statistical-physics",
+      "paper_count": 61,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: statistical physics, of the, model",
+      "tags": [
+        "chaos control and synchronization",
+        "dynamical systems",
+        "hybrid monte carlo",
+        "lagrangian coherent structure"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-statistical-physics-monte-carlo",
+          "label": "Monte carlo",
+          "url": "/domains/mathematics/topics/sg-statistical-physics-monte-carlo",
+          "paper_count": 35
+        },
+        {
+          "id": "sg-statistical-physics-molecular-dynamics",
+          "label": "Molecular dynamics",
+          "url": "/domains/mathematics/topics/sg-statistical-physics-molecular-dynamics",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-statistical-physics-chaos-control-synchronization",
+          "label": "Chaos control synchronization",
+          "url": "/domains/mathematics/topics/sg-statistical-physics-chaos-control-synchronization",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-statistical-physics-hybrid-monte-carlo",
+          "label": "Hybrid monte carlo",
+          "url": "/domains/mathematics/topics/sg-statistical-physics-hybrid-monte-carlo",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2096747776",
+          "title": "Effect of the damping function in dispersion corrected density functional theory",
+          "year": "2011",
+          "cited_by_count": 26114,
+          "url": "/domains/mathematics/papers/W2096747776"
+        },
+        {
+          "source_id": "https://openalex.org/W2035266068",
+          "title": "Molecular dynamics with coupling to an external bath",
+          "year": "1984",
+          "cited_by_count": 30634,
+          "url": "/domains/mathematics/papers/W2035266068"
+        },
+        {
+          "source_id": "https://openalex.org/W3103145119",
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2019",
+          "cited_by_count": 11583,
+          "url": "/domains/mathematics/papers/W3103145119"
         }
       ]
     }
@@ -123,192 +483,519 @@
   "paper_shelves": [
     {
       "label": "Others",
-      "paper_count": 25,
+      "paper_count": 6,
       "papers": [
+        {
+          "title": "MizAR 60 for Mizar 50",
+          "year": "2023",
+          "cited_by_count": 74790,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4385245566.html"
+        },
+        {
+          "title": "Deep learning",
+          "year": "2015",
+          "cited_by_count": 79615,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2919115771.html"
+        },
+        {
+          "title": "XGBoost",
+          "year": "2016",
+          "cited_by_count": 45897,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2295598076.html"
+        },
+        {
+          "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+          "year": "2001",
+          "cited_by_count": 34598,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2108244474.html"
+        },
+        {
+          "title": "WGCNA: an R package for weighted correlation network analysis",
+          "year": "2008",
+          "cited_by_count": 28446,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1966327575.html"
+        },
+        {
+          "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "year": "2015",
+          "cited_by_count": 16168,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2145150141.html"
+        }
+      ]
+    },
+    {
+      "label": "Basic reproduction number",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+          "year": "1997",
+          "cited_by_count": 74213,
+          "topic": "Basic reproduction number",
+          "url": "papers/https-openalex-org-w2158714788.html"
+        },
+        {
+          "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+          "year": "2013",
+          "cited_by_count": 28270,
+          "topic": "Basic reproduction number",
+          "url": "papers/https-openalex-org-w2138207763.html"
+        },
+        {
+          "title": "The CES-D Scale",
+          "year": "1977",
+          "cited_by_count": 52979,
+          "topic": "Basic reproduction number",
+          "url": "papers/https-openalex-org-w2112778345.html"
+        },
+        {
+          "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+          "year": "2009",
+          "cited_by_count": 22805,
+          "topic": "Basic reproduction number",
+          "url": "papers/https-openalex-org-w2124985265.html"
+        }
+      ]
+    },
+    {
+      "label": "Diverse educational innovations studies",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+          "year": "1965",
+          "cited_by_count": 62450,
+          "topic": "Diverse educational innovations studies",
+          "url": "papers/https-openalex-org-w2230728100.html"
+        },
+        {
+          "title": "&lt;i&gt;Planck&lt;/i&gt; 2018 results",
+          "year": "2020",
+          "cited_by_count": 13529,
+          "topic": "Diverse educational innovations studies",
+          "url": "papers/https-openalex-org-w4288079944.html"
+        },
+        {
+          "title": "&lt;i&gt;Phaser&lt;/i&gt;crystallographic software",
+          "year": "2007",
+          "cited_by_count": 20721,
+          "topic": "Diverse educational innovations studies",
+          "url": "papers/https-openalex-org-w2163341755.html"
+        },
+        {
+          "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
+          "year": "2010",
+          "cited_by_count": 18753,
+          "topic": "Diverse educational innovations studies",
+          "url": "papers/https-openalex-org-w2111211467.html"
+        }
+      ]
+    },
+    {
+      "label": "Theoretical computer science",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Gradient-based learning applied to document recognition",
+          "year": "1998",
+          "cited_by_count": 57244,
+          "topic": "Theoretical computer science",
+          "url": "papers/https-openalex-org-w2112796928.html"
+        },
+        {
+          "title": "A Mathematical Theory of Communication",
+          "year": "1948",
+          "cited_by_count": 79502,
+          "topic": "Theoretical computer science",
+          "url": "papers/https-openalex-org-w1995875735.html"
+        },
+        {
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 21114,
+          "topic": "Theoretical computer science",
+          "url": "papers/https-openalex-org-w3035965352.html"
+        },
+        {
+          "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+          "year": "2024",
+          "cited_by_count": 5365,
+          "topic": "Theoretical computer science",
+          "url": "papers/https-openalex-org-w4294558607.html"
+        }
+      ]
+    },
+    {
+      "label": "Mathematical optimization",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36311,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w3003257820.html"
+        },
         {
           "title": "Convex Optimization",
           "year": "2004",
           "cited_by_count": 31259,
-          "topic": "Others",
+          "topic": "Mathematical optimization",
           "url": "papers/https-openalex-org-w2296319761.html"
+        },
+        {
+          "title": "Grey Wolf Optimizer",
+          "year": "2014",
+          "cited_by_count": 17860,
+          "topic": "Mathematical optimization",
+          "url": "papers/https-openalex-org-w2061438946.html"
+        }
+      ]
+    },
+    {
+      "label": "Mathematics education",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Fitting Linear Mixed-Effects Models Using &lt;b&gt;lme4&lt;/b&gt;",
+          "year": "2015",
+          "cited_by_count": 83092,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w1951724000.html"
+        },
+        {
+          "title": "Greedy function approximation: A gradient boosting machine.",
+          "year": "2001",
+          "cited_by_count": 27989,
+          "topic": "Mathematics education",
+          "url": "papers/https-openalex-org-w1678356000.html"
         },
         {
           "title": "Handbook of Mathematical Functions",
           "year": "1966",
           "cited_by_count": 40903,
-          "topic": "Others",
+          "topic": "Mathematics education",
           "url": "papers/https-openalex-org-w2120062331.html"
-        },
-        {
-          "title": "Handbook of Mathematical Functions",
-          "year": "2018",
-          "cited_by_count": 9169,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w2986057930.html"
-        },
-        {
-          "title": "Lecture Notes in Mathematics",
-          "year": "2011",
-          "cited_by_count": 10176,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w4291439952.html"
-        },
-        {
-          "title": "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables",
-          "year": "1965",
-          "cited_by_count": 19120,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w4300223101.html"
-        },
-        {
-          "title": "Ten lectures on wavelets Contains lectures delivered at the CBMS conference organized in June 1990 by the Mathematics Dept. at the University of Lowell, Mass",
-          "year": "1992",
-          "cited_by_count": 13302,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w4255272544.html"
         }
       ]
     },
     {
-      "label": "Differential equations",
-      "paper_count": 6,
+      "label": "Artificial neural network",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Support-vector networks",
+          "year": "1995",
+          "cited_by_count": 40070,
+          "topic": "Artificial neural network",
+          "url": "papers/https-openalex-org-w4239510810.html"
+        },
+        {
+          "title": "Support-Vector Networks",
+          "year": "1995",
+          "cited_by_count": 32280,
+          "topic": "Artificial neural network",
+          "url": "papers/https-openalex-org-w2119821739.html"
+        }
+      ]
+    },
+    {
+      "label": "Fractional differential equations solutions",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Array programming with NumPy",
+          "year": "2020",
+          "cited_by_count": 18804,
+          "topic": "Fractional differential equations solutions",
+          "url": "papers/https-openalex-org-w3099878876.html"
+        },
+        {
+          "title": "Features and development of &lt;i&gt;Coot&lt;/i&gt;",
+          "year": "2010",
+          "cited_by_count": 29134,
+          "topic": "Fractional differential equations solutions",
+          "url": "papers/https-openalex-org-w2124026197.html"
+        }
+      ]
+    },
+    {
+      "label": "Mathematical analysis",
+      "paper_count": 2,
       "papers": [
         {
           "title": "Fractional Differential Equations",
           "year": "2025",
           "cited_by_count": 20501,
-          "topic": "Differential equations",
+          "topic": "Mathematical analysis",
           "url": "papers/https-openalex-org-w2787959293.html"
         },
         {
-          "title": "Ordinary Differential Equations",
-          "year": "2017",
-          "cited_by_count": 7323,
-          "topic": "Differential equations",
-          "url": "papers/https-openalex-org-w3141151088.html"
-        },
-        {
-          "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
-          "year": "2010",
-          "cited_by_count": 5586,
-          "topic": "Differential equations",
-          "url": "papers/https-openalex-org-w1545761024.html"
-        },
-        {
-          "title": "A Course of Modern Analysis",
-          "year": "1996",
-          "cited_by_count": 6999,
-          "topic": "Differential equations",
-          "url": "papers/https-openalex-org-w2039343706.html"
-        },
-        {
-          "title": "Inverse Acoustic and Electromagnetic Scattering Theory",
-          "year": "2012",
-          "cited_by_count": 4101,
-          "topic": "Differential equations",
-          "url": "papers/https-openalex-org-w1523113578.html"
-        },
-        {
-          "title": "Theory of Functional Differential Equations",
-          "year": "1977",
-          "cited_by_count": 6850,
-          "topic": "Differential equations",
-          "url": "papers/https-openalex-org-w2079871064.html"
-        }
-      ]
-    },
-    {
-      "label": "Partial differential equations",
-      "paper_count": 6,
-      "papers": [
-        {
-          "title": "Active learning increases student performance in science, engineering, and mathematics",
-          "year": "2014",
-          "cited_by_count": 8986,
-          "topic": "Partial differential equations",
-          "url": "papers/https-openalex-org-w2010593734.html"
-        },
-        {
-          "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
-          "year": "2020",
-          "cited_by_count": 4882,
-          "topic": "Partial differential equations",
-          "url": "papers/https-openalex-org-w3003573988.html"
-        },
-        {
-          "title": "Estimates of the severity of coronavirus disease 2019: a model-based analysis",
-          "year": "2020",
-          "cited_by_count": 4144,
-          "topic": "Partial differential equations",
-          "url": "papers/https-openalex-org-w3013967887.html"
-        },
-        {
-          "title": "National Council of Teachers of Mathematics",
-          "year": "1979",
-          "cited_by_count": 8530,
-          "topic": "Partial differential equations",
-          "url": "papers/https-openalex-org-w2899573755.html"
-        },
-        {
-          "title": "A contribution to the mathematical theory of epidemics",
-          "year": "1927",
-          "cited_by_count": 11877,
-          "topic": "Partial differential equations",
-          "url": "papers/https-openalex-org-w2148301044.html"
-        },
-        {
-          "title": "Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)",
-          "year": "2006",
-          "cited_by_count": 4060,
-          "topic": "Partial differential equations",
-          "url": "papers/https-openalex-org-w1536497620.html"
-        }
-      ]
-    },
-    {
-      "label": "Mathematical functions",
-      "paper_count": 2,
-      "papers": [
-        {
-          "title": "Graduate Texts in Mathematics",
-          "year": "2020",
-          "cited_by_count": 4542,
-          "topic": "Mathematical functions",
-          "url": "papers/https-openalex-org-w3039948875.html"
-        },
-        {
-          "title": "Categories for the Working Mathematician",
-          "year": "1971",
-          "cited_by_count": 9142,
-          "topic": "Mathematical functions",
-          "url": "papers/https-openalex-org-w2120713972.html"
+          "title": "A Computational Approach to Edge Detection",
+          "year": "1986",
+          "cited_by_count": 28853,
+          "topic": "Mathematical analysis",
+          "url": "papers/https-openalex-org-w2145023731.html"
         }
       ]
     },
     {
       "label": "Mathematical functions and polynomials",
-      "paper_count": 1,
+      "paper_count": 2,
       "papers": [
         {
-          "title": "Mathematical Problems in Engineering",
-          "year": "2022",
-          "cited_by_count": 4041,
+          "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+          "year": "2009",
+          "cited_by_count": 28408,
           "topic": "Mathematical functions and polynomials",
-          "url": "papers/https-openalex-org-w2473526392.html"
+          "url": "papers/https-openalex-org-w2120145199.html"
+        },
+        {
+          "title": "Methods for Dietary Fiber, Neutral Detergent Fiber, and Nonstarch Polysaccharides in Relation to Animal Nutrition",
+          "year": "1991",
+          "cited_by_count": 27812,
+          "topic": "Mathematical functions and polynomials",
+          "url": "papers/https-openalex-org-w1997087247.html"
         }
       ]
     }
   ],
   "paper_archive": [
     {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-formulas-graphs-mathematical",
+      "primary_topic_label": "Formulas, graphs, mathematical",
+      "url": "/domains/mathematics/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W4385245566",
+      "title": "MizAR 60 for Mizar 50",
+      "year": 2023,
+      "cited_by_count": 74790,
+      "adjusted_cited_by_count": 43180.03,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mathematics/papers/W4385245566"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75670,
+      "adjusted_cited_by_count": 25223.33,
+      "primary_topic_id": "sg-mathematical-optimization-optimization-problem",
+      "primary_topic_label": "Optimization problem",
+      "url": "/domains/mathematics/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W1951724000",
+      "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+      "year": 2015,
+      "cited_by_count": 83092,
+      "adjusted_cited_by_count": 25053.18,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/mathematics/papers/W1951724000"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79615,
+      "adjusted_cited_by_count": 24004.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mathematics/papers/W2919115771"
+    },
+    {
       "source_id": "https://openalex.org/W2787959293",
       "title": "Fractional Differential Equations",
       "year": 2025,
       "cited_by_count": 20501,
       "adjusted_cited_by_count": 20501.0,
-      "primary_topic_id": "sg-differential-equation",
-      "primary_topic_label": "Differential equations",
+      "primary_topic_id": "sg-mathematical-analysis",
+      "primary_topic_label": "Mathematical analysis",
       "url": "/domains/mathematics/papers/W2787959293"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36311,
+      "adjusted_cited_by_count": 14823.9,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/mathematics/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2295598076",
+      "title": "XGBoost",
+      "year": 2016,
+      "cited_by_count": 45897,
+      "adjusted_cited_by_count": 14513.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mathematics/papers/W2295598076"
+    },
+    {
+      "source_id": "https://openalex.org/W2158714788",
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+      "year": 1997,
+      "cited_by_count": 74213,
+      "adjusted_cited_by_count": 13781.01,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-basic-reproduction-number",
+      "primary_topic_label": "Basic reproduction number",
+      "url": "/domains/mathematics/papers/W2158714788"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57244,
+      "adjusted_cited_by_count": 10818.1,
+      "primary_topic_id": "sg-theoretical-computer-science",
+      "primary_topic_label": "Theoretical computer science",
+      "url": "/domains/mathematics/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W1995875735",
+      "title": "A Mathematical Theory of Communication",
+      "year": 1948,
+      "cited_by_count": 79502,
+      "adjusted_cited_by_count": 9001.83,
+      "primary_topic_id": "sg-theoretical-computer-science",
+      "primary_topic_label": "Theoretical computer science",
+      "url": "/domains/mathematics/papers/W1995875735"
+    },
+    {
+      "source_id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 21114,
+      "adjusted_cited_by_count": 8619.75,
+      "primary_topic_id": "sg-theoretical-computer-science",
+      "primary_topic_label": "Theoretical computer science",
+      "url": "/domains/mathematics/papers/W3035965352"
+    },
+    {
+      "source_id": "https://openalex.org/W3023540311",
+      "title": "Genetic algorithms in search, optimization, and machine learning",
+      "year": 1989,
+      "cited_by_count": 49332,
+      "adjusted_cited_by_count": 8110.13,
+      "primary_topic_id": "sg-mathematical-optimization-optimization-algorithms",
+      "primary_topic_label": "Optimization algorithms",
+      "url": "/domains/mathematics/papers/W3023540311"
+    },
+    {
+      "source_id": "https://openalex.org/W2230728100",
+      "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+      "year": 1965,
+      "cited_by_count": 62450,
+      "adjusted_cited_by_count": 7995.9,
+      "primary_topic_id": "sg-mathematics-education-diverse-educational-innovations-studies",
+      "primary_topic_label": "Diverse educational innovations studies",
+      "url": "/domains/mathematics/papers/W2230728100"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28270,
+      "adjusted_cited_by_count": 7840.69,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-basic-reproduction-number",
+      "primary_topic_label": "Basic reproduction number",
+      "url": "/domains/mathematics/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W3099878876",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 18804,
+      "adjusted_cited_by_count": 7676.7,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-fractional-differential-equations-solutions",
+      "primary_topic_label": "Fractional differential equations solutions",
+      "url": "/domains/mathematics/papers/W3099878876"
+    },
+    {
+      "source_id": "https://openalex.org/W2112778345",
+      "title": "The CES-D Scale",
+      "year": 1977,
+      "cited_by_count": 52979,
+      "adjusted_cited_by_count": 7568.43,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-basic-reproduction-number",
+      "primary_topic_label": "Basic reproduction number",
+      "url": "/domains/mathematics/papers/W2112778345"
+    },
+    {
+      "source_id": "https://openalex.org/W2124026197",
+      "title": "Features and development of <i>Coot</i>",
+      "year": 2010,
+      "cited_by_count": 29134,
+      "adjusted_cited_by_count": 7283.5,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-fractional-differential-equations-solutions",
+      "primary_topic_label": "Fractional differential equations solutions",
+      "url": "/domains/mathematics/papers/W2124026197"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40070,
+      "adjusted_cited_by_count": 7196.78,
+      "primary_topic_id": "sg-theoretical-computer-science-artificial-neural-network",
+      "primary_topic_label": "Artificial neural network",
+      "url": "/domains/mathematics/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W2108244474",
+      "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+      "year": 2001,
+      "cited_by_count": 34598,
+      "adjusted_cited_by_count": 6919.6,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mathematics/papers/W2108244474"
+    },
+    {
+      "source_id": "https://openalex.org/W2120145199",
+      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+      "year": 2009,
+      "cited_by_count": 28408,
+      "adjusted_cited_by_count": 6889.95,
+      "primary_topic_id": "sg-mathematical-analysis-mathematical-functions-and-polynomials",
+      "primary_topic_label": "Mathematical functions and polynomials",
+      "url": "/domains/mathematics/papers/W2120145199"
+    },
+    {
+      "source_id": "https://openalex.org/W2096747776",
+      "title": "Effect of the damping function in dispersion corrected density functional theory",
+      "year": 2011,
+      "cited_by_count": 26114,
+      "adjusted_cited_by_count": 6742.61,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/mathematics/papers/W2096747776"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28446,
+      "adjusted_cited_by_count": 6704.79,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mathematics/papers/W1966327575"
     },
     {
       "source_id": "https://openalex.org/W2296319761",
@@ -316,9 +1003,89 @@
       "year": 2004,
       "cited_by_count": 31259,
       "adjusted_cited_by_count": 6664.44,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
       "url": "/domains/mathematics/papers/W2296319761"
+    },
+    {
+      "source_id": "https://openalex.org/W2144846366",
+      "title": "Theory of games and economic behavior",
+      "year": 2019,
+      "cited_by_count": 16928,
+      "adjusted_cited_by_count": 6398.18,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-mathematical-functions-formulas",
+      "primary_topic_label": "Mathematical functions formulas",
+      "url": "/domains/mathematics/papers/W2144846366"
+    },
+    {
+      "source_id": "https://openalex.org/W1497256448",
+      "title": "Adaptation in Natural and Artificial Systems",
+      "year": 1992,
+      "cited_by_count": 35555,
+      "adjusted_cited_by_count": 6097.63,
+      "primary_topic_id": "sg-mathematical-optimization-optimization-algorithms",
+      "primary_topic_label": "Optimization algorithms",
+      "url": "/domains/mathematics/papers/W1497256448"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32280,
+      "adjusted_cited_by_count": 5797.66,
+      "primary_topic_id": "sg-theoretical-computer-science-artificial-neural-network",
+      "primary_topic_label": "Artificial neural network",
+      "url": "/domains/mathematics/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W1678356000",
+      "title": "Greedy function approximation: A gradient boosting machine.",
+      "year": 2001,
+      "cited_by_count": 27989,
+      "adjusted_cited_by_count": 5597.8,
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
+      "url": "/domains/mathematics/papers/W1678356000"
+    },
+    {
+      "source_id": "https://openalex.org/W2124985265",
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "year": 2009,
+      "cited_by_count": 22805,
+      "adjusted_cited_by_count": 5531.02,
+      "primary_topic_id": "sg-formulas-graphs-mathematical-basic-reproduction-number",
+      "primary_topic_label": "Basic reproduction number",
+      "url": "/domains/mathematics/papers/W2124985265"
+    },
+    {
+      "source_id": "https://openalex.org/W4288079944",
+      "title": "<i>Planck</i> 2018 results",
+      "year": 2020,
+      "cited_by_count": 13529,
+      "adjusted_cited_by_count": 5523.19,
+      "primary_topic_id": "sg-mathematics-education-diverse-educational-innovations-studies",
+      "primary_topic_label": "Diverse educational innovations studies",
+      "url": "/domains/mathematics/papers/W4288079944"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19402,
+      "adjusted_cited_by_count": 5381.15,
+      "primary_topic_id": "sg-mathematical-optimization-optimization-problem",
+      "primary_topic_label": "Optimization problem",
+      "url": "/domains/mathematics/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W4294558607",
+      "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+      "year": 2024,
+      "cited_by_count": 5365,
+      "adjusted_cited_by_count": 5365.0,
+      "primary_topic_id": "sg-theoretical-computer-science",
+      "primary_topic_label": "Theoretical computer science",
+      "url": "/domains/mathematics/papers/W4294558607"
     },
     {
       "source_id": "https://openalex.org/W2120062331",
@@ -326,389 +1093,265 @@
       "year": 1966,
       "cited_by_count": 40903,
       "adjusted_cited_by_count": 5280.55,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-mathematics-education",
+      "primary_topic_label": "Mathematics education",
       "url": "/domains/mathematics/papers/W2120062331"
     },
     {
-      "source_id": "https://openalex.org/W2986057930",
-      "title": "Handbook of Mathematical Functions",
-      "year": 2018,
-      "cited_by_count": 9169,
-      "adjusted_cited_by_count": 3241.73,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2986057930"
-    },
-    {
-      "source_id": "https://openalex.org/W4291439952",
-      "title": "Lecture Notes in Mathematics",
-      "year": 2011,
-      "cited_by_count": 10176,
-      "adjusted_cited_by_count": 2627.43,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W4291439952"
-    },
-    {
-      "source_id": "https://openalex.org/W2010593734",
-      "title": "Active learning increases student performance in science, engineering, and mathematics",
+      "source_id": "https://openalex.org/W2061438946",
+      "title": "Grey Wolf Optimizer",
       "year": 2014,
-      "cited_by_count": 8986,
-      "adjusted_cited_by_count": 2594.03,
-      "primary_topic_id": "sg-differential-equations-partial-differential-equations",
-      "primary_topic_label": "Partial differential equations",
-      "url": "/domains/mathematics/papers/W2010593734"
+      "cited_by_count": 17860,
+      "adjusted_cited_by_count": 5155.74,
+      "primary_topic_id": "sg-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/mathematics/papers/W2061438946"
     },
     {
-      "source_id": "https://openalex.org/W4300223101",
-      "title": "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables",
-      "year": 1965,
-      "cited_by_count": 19120,
-      "adjusted_cited_by_count": 2448.07,
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16168,
+      "adjusted_cited_by_count": 4874.84,
       "primary_topic_id": "",
       "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W4300223101"
+      "url": "/domains/mathematics/papers/W2145150141"
     },
     {
-      "source_id": "https://openalex.org/W3141151088",
-      "title": "Ordinary Differential Equations",
-      "year": 2017,
-      "cited_by_count": 7323,
-      "adjusted_cited_by_count": 2441.0,
-      "primary_topic_id": "sg-differential-equation",
-      "primary_topic_label": "Differential equations",
-      "url": "/domains/mathematics/papers/W3141151088"
+      "source_id": "https://openalex.org/W2163341755",
+      "title": "<i>Phaser</i>crystallographic software",
+      "year": 2007,
+      "cited_by_count": 20721,
+      "adjusted_cited_by_count": 4753.72,
+      "primary_topic_id": "sg-mathematics-education-diverse-educational-innovations-studies",
+      "primary_topic_label": "Diverse educational innovations studies",
+      "url": "/domains/mathematics/papers/W2163341755"
     },
     {
-      "source_id": "https://openalex.org/W4255272544",
-      "title": "Ten lectures on wavelets Contains lectures delivered at the CBMS conference organized in June 1990 by the Mathematics Dept. at the University of Lowell, Mass",
-      "year": 1992,
-      "cited_by_count": 13302,
-      "adjusted_cited_by_count": 2281.27,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W4255272544"
+      "source_id": "https://openalex.org/W2035266068",
+      "title": "Molecular dynamics with coupling to an external bath",
+      "year": 1984,
+      "cited_by_count": 30634,
+      "adjusted_cited_by_count": 4726.93,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/mathematics/papers/W2035266068"
     },
     {
-      "source_id": "https://openalex.org/W1591593323",
-      "title": "The mathematics of diffusion",
-      "year": 1956,
-      "cited_by_count": 18310,
-      "adjusted_cited_by_count": 2188.46,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W1591593323"
-    },
-    {
-      "source_id": "https://openalex.org/W2801179766",
-      "title": "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables",
-      "year": 1965,
-      "cited_by_count": 16498,
-      "adjusted_cited_by_count": 2112.35,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2801179766"
-    },
-    {
-      "source_id": "https://openalex.org/W2326565381",
-      "title": "The mathematics of diffusion",
-      "year": 1975,
-      "cited_by_count": 15047,
-      "adjusted_cited_by_count": 2107.0,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2326565381"
-    },
-    {
-      "source_id": "https://openalex.org/W3016843226",
-      "title": "Handbook of Mathematical Functions",
-      "year": 1972,
-      "cited_by_count": 15403,
-      "adjusted_cited_by_count": 2096.08,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W3016843226"
-    },
-    {
-      "source_id": "https://openalex.org/W2473526392",
-      "title": "Mathematical Problems in Engineering",
-      "year": 2022,
-      "cited_by_count": 4041,
-      "adjusted_cited_by_count": 2020.5,
+      "source_id": "https://openalex.org/W1997087247",
+      "title": "Methods for Dietary Fiber, Neutral Detergent Fiber, and Nonstarch Polysaccharides in Relation to Animal Nutrition",
+      "year": 1991,
+      "cited_by_count": 27812,
+      "adjusted_cited_by_count": 4701.09,
       "primary_topic_id": "sg-mathematical-analysis-mathematical-functions-and-polynomials",
       "primary_topic_label": "Mathematical functions and polynomials",
-      "url": "/domains/mathematics/papers/W2473526392"
+      "url": "/domains/mathematics/papers/W1997087247"
     },
     {
-      "source_id": "https://openalex.org/W3003573988",
-      "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
-      "year": 2020,
-      "cited_by_count": 4882,
-      "adjusted_cited_by_count": 1993.07,
-      "primary_topic_id": "sg-differential-equations-partial-differential-equations",
-      "primary_topic_label": "Partial differential equations",
-      "url": "/domains/mathematics/papers/W3003573988"
-    },
-    {
-      "source_id": "https://openalex.org/W3039948875",
-      "title": "Graduate Texts in Mathematics",
-      "year": 2020,
-      "cited_by_count": 4542,
-      "adjusted_cited_by_count": 1854.26,
-      "primary_topic_id": "sg-applied-mathematics-mathematical-functions",
-      "primary_topic_label": "Mathematical functions",
-      "url": "/domains/mathematics/papers/W3039948875"
-    },
-    {
-      "source_id": "https://openalex.org/W1551360398",
-      "title": "Optimization and Nonsmooth Analysis",
-      "year": 1990,
-      "cited_by_count": 10382,
-      "adjusted_cited_by_count": 1730.33,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W1551360398"
-    },
-    {
-      "source_id": "https://openalex.org/W3013967887",
-      "title": "Estimates of the severity of coronavirus disease 2019: a model-based analysis",
-      "year": 2020,
-      "cited_by_count": 4144,
-      "adjusted_cited_by_count": 1691.78,
-      "primary_topic_id": "sg-differential-equations-partial-differential-equations",
-      "primary_topic_label": "Partial differential equations",
-      "url": "/domains/mathematics/papers/W3013967887"
-    },
-    {
-      "source_id": "https://openalex.org/W1593038947",
-      "title": "Measure Theory and Fine Properties of Functions",
-      "year": 2018,
-      "cited_by_count": 4350,
-      "adjusted_cited_by_count": 1537.96,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W1593038947"
-    },
-    {
-      "source_id": "https://openalex.org/W1488877410",
-      "title": "Singular Integrals and Differentiability Properties of Functions.",
-      "year": 1971,
-      "cited_by_count": 10465,
-      "adjusted_cited_by_count": 1411.1,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W1488877410"
-    },
-    {
-      "source_id": "https://openalex.org/W1545761024",
-      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "source_id": "https://openalex.org/W2111211467",
+      "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
       "year": 2010,
-      "cited_by_count": 5586,
-      "adjusted_cited_by_count": 1396.5,
-      "primary_topic_id": "sg-differential-equation",
-      "primary_topic_label": "Differential equations",
-      "url": "/domains/mathematics/papers/W1545761024"
+      "cited_by_count": 18753,
+      "adjusted_cited_by_count": 4688.25,
+      "primary_topic_id": "sg-mathematics-education-diverse-educational-innovations-studies",
+      "primary_topic_label": "Diverse educational innovations studies",
+      "url": "/domains/mathematics/papers/W2111211467"
     },
     {
-      "source_id": "https://openalex.org/W2161728228",
-      "title": "The Mathematics of Infectious Diseases",
-      "year": 2000,
-      "cited_by_count": 6759,
-      "adjusted_cited_by_count": 1325.55,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2161728228"
-    },
-    {
-      "source_id": "https://openalex.org/W2489865376",
-      "title": "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics",
-      "year": 2018,
-      "cited_by_count": 3630,
-      "adjusted_cited_by_count": 1283.4,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2489865376"
-    },
-    {
-      "source_id": "https://openalex.org/W2039343706",
-      "title": "A Course of Modern Analysis",
-      "year": 1996,
-      "cited_by_count": 6999,
-      "adjusted_cited_by_count": 1277.84,
-      "primary_topic_id": "sg-differential-equation",
-      "primary_topic_label": "Differential equations",
-      "url": "/domains/mathematics/papers/W2039343706"
-    },
-    {
-      "source_id": "https://openalex.org/W2899573755",
-      "title": "National Council of Teachers of Mathematics",
-      "year": 1979,
-      "cited_by_count": 8530,
-      "adjusted_cited_by_count": 1244.23,
-      "primary_topic_id": "sg-differential-equations-partial-differential-equations",
-      "primary_topic_label": "Partial differential equations",
-      "url": "/domains/mathematics/papers/W2899573755"
-    },
-    {
-      "source_id": "https://openalex.org/W2120713972",
-      "title": "Categories for the Working Mathematician",
-      "year": 1971,
-      "cited_by_count": 9142,
-      "adjusted_cited_by_count": 1232.71,
-      "primary_topic_id": "sg-applied-mathematics-mathematical-functions",
-      "primary_topic_label": "Mathematical functions",
-      "url": "/domains/mathematics/papers/W2120713972"
-    },
-    {
-      "source_id": "https://openalex.org/W2914659449",
-      "title": "Enumerative Combinatorics",
-      "year": 1997,
-      "cited_by_count": 6479,
-      "adjusted_cited_by_count": 1203.12,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2914659449"
-    },
-    {
-      "source_id": "https://openalex.org/W2102591969",
-      "title": "NIST Handbook of Mathematical Functions",
-      "year": 2010,
-      "cited_by_count": 4775,
-      "adjusted_cited_by_count": 1193.75,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2102591969"
-    },
-    {
-      "source_id": "https://openalex.org/W2148301044",
-      "title": "A contribution to the mathematical theory of epidemics",
-      "year": 1927,
-      "cited_by_count": 11877,
-      "adjusted_cited_by_count": 1193.68,
-      "primary_topic_id": "sg-differential-equations-partial-differential-equations",
-      "primary_topic_label": "Partial differential equations",
-      "url": "/domains/mathematics/papers/W2148301044"
-    },
-    {
-      "source_id": "https://openalex.org/W2963641381",
-      "title": "New fractional derivatives with nonlocal and non-singular kernel: Theory and application to heat transfer model",
-      "year": 2016,
-      "cited_by_count": 3761,
-      "adjusted_cited_by_count": 1189.33,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2963641381"
-    },
-    {
-      "source_id": "https://openalex.org/W3043060850",
-      "title": "Graduate Texts in Mathematics",
-      "year": 1977,
-      "cited_by_count": 8047,
-      "adjusted_cited_by_count": 1149.57,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W3043060850"
-    },
-    {
-      "source_id": "https://openalex.org/W1999052699",
-      "title": "Adding It Up: Helping Children Learn Mathematics",
-      "year": 2013,
-      "cited_by_count": 4123,
-      "adjusted_cited_by_count": 1143.51,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W1999052699"
-    },
-    {
-      "source_id": "https://openalex.org/W1523113578",
-      "title": "Inverse Acoustic and Electromagnetic Scattering Theory",
-      "year": 2012,
-      "cited_by_count": 4101,
-      "adjusted_cited_by_count": 1096.04,
-      "primary_topic_id": "sg-differential-equation",
-      "primary_topic_label": "Differential equations",
-      "url": "/domains/mathematics/papers/W1523113578"
-    },
-    {
-      "source_id": "https://openalex.org/W1606328991",
-      "title": "Handbook of research on mathematics teaching and learning",
-      "year": 1992,
-      "cited_by_count": 6144,
-      "adjusted_cited_by_count": 1053.69,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W1606328991"
-    },
-    {
-      "source_id": "https://openalex.org/W2787523326",
-      "title": "Nonlinear programming: theory and algorithms",
-      "year": 1993,
-      "cited_by_count": 5839,
-      "adjusted_cited_by_count": 1016.44,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2787523326"
-    },
-    {
-      "source_id": "https://openalex.org/W2032121576",
-      "title": "Fractal Geometry: Mathematical Foundations and Applications.",
-      "year": 1990,
-      "cited_by_count": 6018,
-      "adjusted_cited_by_count": 1003.0,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2032121576"
-    },
-    {
-      "source_id": "https://openalex.org/W2072685235",
-      "title": "Linear and Quasi-linear Equations of Parabolic Type",
-      "year": 1968,
-      "cited_by_count": 7465,
-      "adjusted_cited_by_count": 980.2,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2072685235"
-    },
-    {
-      "source_id": "https://openalex.org/W2079871064",
-      "title": "Theory of Functional Differential Equations",
-      "year": 1977,
-      "cited_by_count": 6850,
-      "adjusted_cited_by_count": 978.57,
-      "primary_topic_id": "sg-differential-equation",
-      "primary_topic_label": "Differential equations",
-      "url": "/domains/mathematics/papers/W2079871064"
-    },
-    {
-      "source_id": "https://openalex.org/W2029538739",
-      "title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
-      "year": 2015,
-      "cited_by_count": 3171,
-      "adjusted_cited_by_count": 956.09,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/mathematics/papers/W2029538739"
-    },
-    {
-      "source_id": "https://openalex.org/W1536497620",
-      "title": "Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)",
-      "year": 2006,
-      "cited_by_count": 4060,
-      "adjusted_cited_by_count": 907.84,
-      "primary_topic_id": "sg-differential-equations-partial-differential-equations",
-      "primary_topic_label": "Partial differential equations",
-      "url": "/domains/mathematics/papers/W1536497620"
+      "source_id": "https://openalex.org/W2145023731",
+      "title": "A Computational Approach to Edge Detection",
+      "year": 1986,
+      "cited_by_count": 28853,
+      "adjusted_cited_by_count": 4562.06,
+      "primary_topic_id": "sg-mathematical-analysis",
+      "primary_topic_label": "Mathematical analysis",
+      "url": "/domains/mathematics/papers/W2145023731"
     }
   ],
   "representative_papers": [
     {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "url": "/domains/mathematics/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W4385245566",
+      "title": "MizAR 60 for Mizar 50",
+      "year": 2023,
+      "cited_by_count": 74790,
+      "adjusted_cited_by_count": 43180.03,
+      "url": "/domains/mathematics/papers/W4385245566"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75670,
+      "adjusted_cited_by_count": 25223.33,
+      "url": "/domains/mathematics/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W1951724000",
+      "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+      "year": 2015,
+      "cited_by_count": 83092,
+      "adjusted_cited_by_count": 25053.18,
+      "url": "/domains/mathematics/papers/W1951724000"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79615,
+      "adjusted_cited_by_count": 24004.83,
+      "url": "/domains/mathematics/papers/W2919115771"
+    },
+    {
       "source_id": "https://openalex.org/W2787959293",
       "title": "Fractional Differential Equations",
       "year": 2025,
       "cited_by_count": 20501,
       "adjusted_cited_by_count": 20501.0,
       "url": "/domains/mathematics/papers/W2787959293"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36311,
+      "adjusted_cited_by_count": 14823.9,
+      "url": "/domains/mathematics/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2295598076",
+      "title": "XGBoost",
+      "year": 2016,
+      "cited_by_count": 45897,
+      "adjusted_cited_by_count": 14513.91,
+      "url": "/domains/mathematics/papers/W2295598076"
+    },
+    {
+      "source_id": "https://openalex.org/W2158714788",
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+      "year": 1997,
+      "cited_by_count": 74213,
+      "adjusted_cited_by_count": 13781.01,
+      "url": "/domains/mathematics/papers/W2158714788"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57244,
+      "adjusted_cited_by_count": 10818.1,
+      "url": "/domains/mathematics/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W1995875735",
+      "title": "A Mathematical Theory of Communication",
+      "year": 1948,
+      "cited_by_count": 79502,
+      "adjusted_cited_by_count": 9001.83,
+      "url": "/domains/mathematics/papers/W1995875735"
+    },
+    {
+      "source_id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 21114,
+      "adjusted_cited_by_count": 8619.75,
+      "url": "/domains/mathematics/papers/W3035965352"
+    },
+    {
+      "source_id": "https://openalex.org/W3023540311",
+      "title": "Genetic algorithms in search, optimization, and machine learning",
+      "year": 1989,
+      "cited_by_count": 49332,
+      "adjusted_cited_by_count": 8110.13,
+      "url": "/domains/mathematics/papers/W3023540311"
+    },
+    {
+      "source_id": "https://openalex.org/W2230728100",
+      "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+      "year": 1965,
+      "cited_by_count": 62450,
+      "adjusted_cited_by_count": 7995.9,
+      "url": "/domains/mathematics/papers/W2230728100"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28270,
+      "adjusted_cited_by_count": 7840.69,
+      "url": "/domains/mathematics/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W3099878876",
+      "title": "Array programming with NumPy",
+      "year": 2020,
+      "cited_by_count": 18804,
+      "adjusted_cited_by_count": 7676.7,
+      "url": "/domains/mathematics/papers/W3099878876"
+    },
+    {
+      "source_id": "https://openalex.org/W2112778345",
+      "title": "The CES-D Scale",
+      "year": 1977,
+      "cited_by_count": 52979,
+      "adjusted_cited_by_count": 7568.43,
+      "url": "/domains/mathematics/papers/W2112778345"
+    },
+    {
+      "source_id": "https://openalex.org/W2124026197",
+      "title": "Features and development of <i>Coot</i>",
+      "year": 2010,
+      "cited_by_count": 29134,
+      "adjusted_cited_by_count": 7283.5,
+      "url": "/domains/mathematics/papers/W2124026197"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40070,
+      "adjusted_cited_by_count": 7196.78,
+      "url": "/domains/mathematics/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W2108244474",
+      "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+      "year": 2001,
+      "cited_by_count": 34598,
+      "adjusted_cited_by_count": 6919.6,
+      "url": "/domains/mathematics/papers/W2108244474"
+    },
+    {
+      "source_id": "https://openalex.org/W2120145199",
+      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+      "year": 2009,
+      "cited_by_count": 28408,
+      "adjusted_cited_by_count": 6889.95,
+      "url": "/domains/mathematics/papers/W2120145199"
+    },
+    {
+      "source_id": "https://openalex.org/W2096747776",
+      "title": "Effect of the damping function in dispersion corrected density functional theory",
+      "year": 2011,
+      "cited_by_count": 26114,
+      "adjusted_cited_by_count": 6742.61,
+      "url": "/domains/mathematics/papers/W2096747776"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28446,
+      "adjusted_cited_by_count": 6704.79,
+      "url": "/domains/mathematics/papers/W1966327575"
     },
     {
       "source_id": "https://openalex.org/W2296319761",
@@ -719,6 +1362,70 @@
       "url": "/domains/mathematics/papers/W2296319761"
     },
     {
+      "source_id": "https://openalex.org/W2144846366",
+      "title": "Theory of games and economic behavior",
+      "year": 2019,
+      "cited_by_count": 16928,
+      "adjusted_cited_by_count": 6398.18,
+      "url": "/domains/mathematics/papers/W2144846366"
+    },
+    {
+      "source_id": "https://openalex.org/W1497256448",
+      "title": "Adaptation in Natural and Artificial Systems",
+      "year": 1992,
+      "cited_by_count": 35555,
+      "adjusted_cited_by_count": 6097.63,
+      "url": "/domains/mathematics/papers/W1497256448"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32280,
+      "adjusted_cited_by_count": 5797.66,
+      "url": "/domains/mathematics/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W1678356000",
+      "title": "Greedy function approximation: A gradient boosting machine.",
+      "year": 2001,
+      "cited_by_count": 27989,
+      "adjusted_cited_by_count": 5597.8,
+      "url": "/domains/mathematics/papers/W1678356000"
+    },
+    {
+      "source_id": "https://openalex.org/W2124985265",
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "year": 2009,
+      "cited_by_count": 22805,
+      "adjusted_cited_by_count": 5531.02,
+      "url": "/domains/mathematics/papers/W2124985265"
+    },
+    {
+      "source_id": "https://openalex.org/W4288079944",
+      "title": "<i>Planck</i> 2018 results",
+      "year": 2020,
+      "cited_by_count": 13529,
+      "adjusted_cited_by_count": 5523.19,
+      "url": "/domains/mathematics/papers/W4288079944"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19402,
+      "adjusted_cited_by_count": 5381.15,
+      "url": "/domains/mathematics/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W4294558607",
+      "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+      "year": 2024,
+      "cited_by_count": 5365,
+      "adjusted_cited_by_count": 5365.0,
+      "url": "/domains/mathematics/papers/W4294558607"
+    },
+    {
       "source_id": "https://openalex.org/W2120062331",
       "title": "Handbook of Mathematical Functions",
       "year": 1966,
@@ -727,318 +1434,78 @@
       "url": "/domains/mathematics/papers/W2120062331"
     },
     {
-      "source_id": "https://openalex.org/W2986057930",
-      "title": "Handbook of Mathematical Functions",
-      "year": 2018,
-      "cited_by_count": 9169,
-      "adjusted_cited_by_count": 3241.73,
-      "url": "/domains/mathematics/papers/W2986057930"
-    },
-    {
-      "source_id": "https://openalex.org/W4291439952",
-      "title": "Lecture Notes in Mathematics",
-      "year": 2011,
-      "cited_by_count": 10176,
-      "adjusted_cited_by_count": 2627.43,
-      "url": "/domains/mathematics/papers/W4291439952"
-    },
-    {
-      "source_id": "https://openalex.org/W2010593734",
-      "title": "Active learning increases student performance in science, engineering, and mathematics",
+      "source_id": "https://openalex.org/W2061438946",
+      "title": "Grey Wolf Optimizer",
       "year": 2014,
-      "cited_by_count": 8986,
-      "adjusted_cited_by_count": 2594.03,
-      "url": "/domains/mathematics/papers/W2010593734"
+      "cited_by_count": 17860,
+      "adjusted_cited_by_count": 5155.74,
+      "url": "/domains/mathematics/papers/W2061438946"
     },
     {
-      "source_id": "https://openalex.org/W4300223101",
-      "title": "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables",
-      "year": 1965,
-      "cited_by_count": 19120,
-      "adjusted_cited_by_count": 2448.07,
-      "url": "/domains/mathematics/papers/W4300223101"
-    },
-    {
-      "source_id": "https://openalex.org/W3141151088",
-      "title": "Ordinary Differential Equations",
-      "year": 2017,
-      "cited_by_count": 7323,
-      "adjusted_cited_by_count": 2441.0,
-      "url": "/domains/mathematics/papers/W3141151088"
-    },
-    {
-      "source_id": "https://openalex.org/W4255272544",
-      "title": "Ten lectures on wavelets Contains lectures delivered at the CBMS conference organized in June 1990 by the Mathematics Dept. at the University of Lowell, Mass",
-      "year": 1992,
-      "cited_by_count": 13302,
-      "adjusted_cited_by_count": 2281.27,
-      "url": "/domains/mathematics/papers/W4255272544"
-    },
-    {
-      "source_id": "https://openalex.org/W1591593323",
-      "title": "The mathematics of diffusion",
-      "year": 1956,
-      "cited_by_count": 18310,
-      "adjusted_cited_by_count": 2188.46,
-      "url": "/domains/mathematics/papers/W1591593323"
-    },
-    {
-      "source_id": "https://openalex.org/W2801179766",
-      "title": "Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables",
-      "year": 1965,
-      "cited_by_count": 16498,
-      "adjusted_cited_by_count": 2112.35,
-      "url": "/domains/mathematics/papers/W2801179766"
-    },
-    {
-      "source_id": "https://openalex.org/W2326565381",
-      "title": "The mathematics of diffusion",
-      "year": 1975,
-      "cited_by_count": 15047,
-      "adjusted_cited_by_count": 2107.0,
-      "url": "/domains/mathematics/papers/W2326565381"
-    },
-    {
-      "source_id": "https://openalex.org/W3016843226",
-      "title": "Handbook of Mathematical Functions",
-      "year": 1972,
-      "cited_by_count": 15403,
-      "adjusted_cited_by_count": 2096.08,
-      "url": "/domains/mathematics/papers/W3016843226"
-    },
-    {
-      "source_id": "https://openalex.org/W2473526392",
-      "title": "Mathematical Problems in Engineering",
-      "year": 2022,
-      "cited_by_count": 4041,
-      "adjusted_cited_by_count": 2020.5,
-      "url": "/domains/mathematics/papers/W2473526392"
-    },
-    {
-      "source_id": "https://openalex.org/W3003573988",
-      "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
-      "year": 2020,
-      "cited_by_count": 4882,
-      "adjusted_cited_by_count": 1993.07,
-      "url": "/domains/mathematics/papers/W3003573988"
-    },
-    {
-      "source_id": "https://openalex.org/W3039948875",
-      "title": "Graduate Texts in Mathematics",
-      "year": 2020,
-      "cited_by_count": 4542,
-      "adjusted_cited_by_count": 1854.26,
-      "url": "/domains/mathematics/papers/W3039948875"
-    },
-    {
-      "source_id": "https://openalex.org/W1551360398",
-      "title": "Optimization and Nonsmooth Analysis",
-      "year": 1990,
-      "cited_by_count": 10382,
-      "adjusted_cited_by_count": 1730.33,
-      "url": "/domains/mathematics/papers/W1551360398"
-    },
-    {
-      "source_id": "https://openalex.org/W3013967887",
-      "title": "Estimates of the severity of coronavirus disease 2019: a model-based analysis",
-      "year": 2020,
-      "cited_by_count": 4144,
-      "adjusted_cited_by_count": 1691.78,
-      "url": "/domains/mathematics/papers/W3013967887"
-    },
-    {
-      "source_id": "https://openalex.org/W1593038947",
-      "title": "Measure Theory and Fine Properties of Functions",
-      "year": 2018,
-      "cited_by_count": 4350,
-      "adjusted_cited_by_count": 1537.96,
-      "url": "/domains/mathematics/papers/W1593038947"
-    },
-    {
-      "source_id": "https://openalex.org/W1488877410",
-      "title": "Singular Integrals and Differentiability Properties of Functions.",
-      "year": 1971,
-      "cited_by_count": 10465,
-      "adjusted_cited_by_count": 1411.1,
-      "url": "/domains/mathematics/papers/W1488877410"
-    },
-    {
-      "source_id": "https://openalex.org/W1545761024",
-      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
-      "year": 2010,
-      "cited_by_count": 5586,
-      "adjusted_cited_by_count": 1396.5,
-      "url": "/domains/mathematics/papers/W1545761024"
-    },
-    {
-      "source_id": "https://openalex.org/W2161728228",
-      "title": "The Mathematics of Infectious Diseases",
-      "year": 2000,
-      "cited_by_count": 6759,
-      "adjusted_cited_by_count": 1325.55,
-      "url": "/domains/mathematics/papers/W2161728228"
-    },
-    {
-      "source_id": "https://openalex.org/W2489865376",
-      "title": "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics",
-      "year": 2018,
-      "cited_by_count": 3630,
-      "adjusted_cited_by_count": 1283.4,
-      "url": "/domains/mathematics/papers/W2489865376"
-    },
-    {
-      "source_id": "https://openalex.org/W2039343706",
-      "title": "A Course of Modern Analysis",
-      "year": 1996,
-      "cited_by_count": 6999,
-      "adjusted_cited_by_count": 1277.84,
-      "url": "/domains/mathematics/papers/W2039343706"
-    },
-    {
-      "source_id": "https://openalex.org/W2899573755",
-      "title": "National Council of Teachers of Mathematics",
-      "year": 1979,
-      "cited_by_count": 8530,
-      "adjusted_cited_by_count": 1244.23,
-      "url": "/domains/mathematics/papers/W2899573755"
-    },
-    {
-      "source_id": "https://openalex.org/W2120713972",
-      "title": "Categories for the Working Mathematician",
-      "year": 1971,
-      "cited_by_count": 9142,
-      "adjusted_cited_by_count": 1232.71,
-      "url": "/domains/mathematics/papers/W2120713972"
-    },
-    {
-      "source_id": "https://openalex.org/W2914659449",
-      "title": "Enumerative Combinatorics",
-      "year": 1997,
-      "cited_by_count": 6479,
-      "adjusted_cited_by_count": 1203.12,
-      "url": "/domains/mathematics/papers/W2914659449"
-    },
-    {
-      "source_id": "https://openalex.org/W2102591969",
-      "title": "NIST Handbook of Mathematical Functions",
-      "year": 2010,
-      "cited_by_count": 4775,
-      "adjusted_cited_by_count": 1193.75,
-      "url": "/domains/mathematics/papers/W2102591969"
-    },
-    {
-      "source_id": "https://openalex.org/W2148301044",
-      "title": "A contribution to the mathematical theory of epidemics",
-      "year": 1927,
-      "cited_by_count": 11877,
-      "adjusted_cited_by_count": 1193.68,
-      "url": "/domains/mathematics/papers/W2148301044"
-    },
-    {
-      "source_id": "https://openalex.org/W2963641381",
-      "title": "New fractional derivatives with nonlocal and non-singular kernel: Theory and application to heat transfer model",
-      "year": 2016,
-      "cited_by_count": 3761,
-      "adjusted_cited_by_count": 1189.33,
-      "url": "/domains/mathematics/papers/W2963641381"
-    },
-    {
-      "source_id": "https://openalex.org/W3043060850",
-      "title": "Graduate Texts in Mathematics",
-      "year": 1977,
-      "cited_by_count": 8047,
-      "adjusted_cited_by_count": 1149.57,
-      "url": "/domains/mathematics/papers/W3043060850"
-    },
-    {
-      "source_id": "https://openalex.org/W1999052699",
-      "title": "Adding It Up: Helping Children Learn Mathematics",
-      "year": 2013,
-      "cited_by_count": 4123,
-      "adjusted_cited_by_count": 1143.51,
-      "url": "/domains/mathematics/papers/W1999052699"
-    },
-    {
-      "source_id": "https://openalex.org/W1523113578",
-      "title": "Inverse Acoustic and Electromagnetic Scattering Theory",
-      "year": 2012,
-      "cited_by_count": 4101,
-      "adjusted_cited_by_count": 1096.04,
-      "url": "/domains/mathematics/papers/W1523113578"
-    },
-    {
-      "source_id": "https://openalex.org/W1606328991",
-      "title": "Handbook of research on mathematics teaching and learning",
-      "year": 1992,
-      "cited_by_count": 6144,
-      "adjusted_cited_by_count": 1053.69,
-      "url": "/domains/mathematics/papers/W1606328991"
-    },
-    {
-      "source_id": "https://openalex.org/W2787523326",
-      "title": "Nonlinear programming: theory and algorithms",
-      "year": 1993,
-      "cited_by_count": 5839,
-      "adjusted_cited_by_count": 1016.44,
-      "url": "/domains/mathematics/papers/W2787523326"
-    },
-    {
-      "source_id": "https://openalex.org/W2032121576",
-      "title": "Fractal Geometry: Mathematical Foundations and Applications.",
-      "year": 1990,
-      "cited_by_count": 6018,
-      "adjusted_cited_by_count": 1003.0,
-      "url": "/domains/mathematics/papers/W2032121576"
-    },
-    {
-      "source_id": "https://openalex.org/W2072685235",
-      "title": "Linear and Quasi-linear Equations of Parabolic Type",
-      "year": 1968,
-      "cited_by_count": 7465,
-      "adjusted_cited_by_count": 980.2,
-      "url": "/domains/mathematics/papers/W2072685235"
-    },
-    {
-      "source_id": "https://openalex.org/W2079871064",
-      "title": "Theory of Functional Differential Equations",
-      "year": 1977,
-      "cited_by_count": 6850,
-      "adjusted_cited_by_count": 978.57,
-      "url": "/domains/mathematics/papers/W2079871064"
-    },
-    {
-      "source_id": "https://openalex.org/W2029538739",
-      "title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
       "year": 2015,
-      "cited_by_count": 3171,
-      "adjusted_cited_by_count": 956.09,
-      "url": "/domains/mathematics/papers/W2029538739"
+      "cited_by_count": 16168,
+      "adjusted_cited_by_count": 4874.84,
+      "url": "/domains/mathematics/papers/W2145150141"
     },
     {
-      "source_id": "https://openalex.org/W1536497620",
-      "title": "Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)",
-      "year": 2006,
-      "cited_by_count": 4060,
-      "adjusted_cited_by_count": 907.84,
-      "url": "/domains/mathematics/papers/W1536497620"
+      "source_id": "https://openalex.org/W2163341755",
+      "title": "<i>Phaser</i>crystallographic software",
+      "year": 2007,
+      "cited_by_count": 20721,
+      "adjusted_cited_by_count": 4753.72,
+      "url": "/domains/mathematics/papers/W2163341755"
+    },
+    {
+      "source_id": "https://openalex.org/W2035266068",
+      "title": "Molecular dynamics with coupling to an external bath",
+      "year": 1984,
+      "cited_by_count": 30634,
+      "adjusted_cited_by_count": 4726.93,
+      "url": "/domains/mathematics/papers/W2035266068"
+    },
+    {
+      "source_id": "https://openalex.org/W1997087247",
+      "title": "Methods for Dietary Fiber, Neutral Detergent Fiber, and Nonstarch Polysaccharides in Relation to Animal Nutrition",
+      "year": 1991,
+      "cited_by_count": 27812,
+      "adjusted_cited_by_count": 4701.09,
+      "url": "/domains/mathematics/papers/W1997087247"
+    },
+    {
+      "source_id": "https://openalex.org/W2111211467",
+      "title": "New Algorithms and Methods to Estimate Maximum-Likelihood Phylogenies: Assessing the Performance of PhyML 3.0",
+      "year": 2010,
+      "cited_by_count": 18753,
+      "adjusted_cited_by_count": 4688.25,
+      "url": "/domains/mathematics/papers/W2111211467"
+    },
+    {
+      "source_id": "https://openalex.org/W2145023731",
+      "title": "A Computational Approach to Edge Detection",
+      "year": 1986,
+      "cited_by_count": 28853,
+      "adjusted_cited_by_count": 4562.06,
+      "url": "/domains/mathematics/papers/W2145023731"
     }
   ],
   "role_profiles": [
-    {
-      "label": "mathematics",
-      "semantic_role": "entity_like",
-      "topic_role": "domain_topic",
-      "ui_role": "index",
-      "confidence": 0.99,
-      "evidence_count": 61
-    },
     {
       "label": "computer science",
       "semantic_role": "entity_like",
       "topic_role": "domain_topic",
       "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 48
+      "evidence_count": 592
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 434
     },
     {
       "label": "mathematical",
@@ -1046,15 +1513,23 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 45
+      "evidence_count": 298
     },
     {
-      "label": "of the",
+      "label": "of a",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 33
+      "evidence_count": 284
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 280
     },
     {
       "label": "theory",
@@ -1062,55 +1537,55 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 23
+      "evidence_count": 261
     },
     {
-      "label": "calculus",
+      "label": "artificial intelligence",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 22
+      "evidence_count": 249
     },
     {
-      "label": "functions",
+      "label": "gene",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 19
+      "evidence_count": 243
     },
     {
-      "label": "mathematical analysis",
+      "label": "data",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 19
+      "evidence_count": 228
     },
     {
-      "label": "on the",
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 224
+    },
+    {
+      "label": "in a",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 18
+      "evidence_count": 211
     },
     {
-      "label": "mathematics education",
+      "label": "over",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 17
-    },
-    {
-      "label": "applied mathematics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 16
+      "evidence_count": 208
     },
     {
       "label": "to the",
@@ -1118,342 +1593,479 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 15
+      "evidence_count": 204
     },
     {
-      "label": "pure mathematics",
+      "label": "algorithm",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 13
+      "evidence_count": 198
     },
     {
-      "label": "of mathematical",
+      "label": "model",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9898,
-      "evidence_count": 12
+      "confidence": 0.99,
+      "evidence_count": 192
     },
     {
-      "label": "of mathematics",
+      "label": "on the",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.989,
-      "evidence_count": 11
+      "confidence": 0.99,
+      "evidence_count": 188
     },
     {
-      "label": "differential equation",
+      "label": "search",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 151
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 127
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 125
+    },
+    {
+      "label": "linear",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 108
+    },
+    {
+      "label": "general",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 102
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 102
+    },
+    {
+      "label": "number",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 98
+    },
+    {
+      "label": "test",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.9882,
-      "evidence_count": 10
-    },
-    {
-      "label": "differential equations",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9882,
-      "evidence_count": 10
-    },
-    {
-      "label": "handbook of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9874,
-      "evidence_count": 9
-    },
-    {
-      "label": "property of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9874,
-      "evidence_count": 9
+      "evidence_count": 97
     },
     {
       "label": "theory of",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9874,
-      "evidence_count": 9
+      "confidence": 0.9882,
+      "evidence_count": 97
     },
     {
-      "label": "artificial intelligence",
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 95
+    },
+    {
+      "label": "dynamic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 87
+    },
+    {
+      "label": "concept",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 86
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 85
+    },
+    {
+      "label": "simple",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 85
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 85
+    },
+    {
+      "label": "graph",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 84
+    },
+    {
+      "label": "measure",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 84
+    },
+    {
+      "label": "quantum mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 84
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 84
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 125
+    },
+    {
+      "label": "equation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 80
+    },
+    {
+      "label": "network",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.9866,
-      "evidence_count": 8
+      "evidence_count": 78
     },
     {
-      "label": "handbook of mathematical",
+      "label": "property",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9857,
-      "evidence_count": 7
+      "confidence": 0.9866,
+      "evidence_count": 78
     },
     {
-      "label": "mathematical functions",
+      "label": "computation",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9857,
-      "evidence_count": 7
+      "confidence": 0.9865,
+      "evidence_count": 77
     },
     {
-      "label": "of mathematical functions",
+      "label": "mathematical analysis",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9857,
-      "evidence_count": 7
-    },
-    {
-      "label": "the mathematics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9857,
-      "evidence_count": 7
-    },
-    {
-      "label": "applied",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9849,
-      "evidence_count": 18
-    },
-    {
-      "label": "mathematics of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9849,
-      "evidence_count": 6
-    },
-    {
-      "label": "statistical physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9849,
-      "evidence_count": 6
-    },
-    {
-      "label": "the mathematics of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9849,
-      "evidence_count": 6
-    },
-    {
-      "label": "mathematical optimization",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9841,
-      "evidence_count": 5
-    },
-    {
-      "label": "nonlinear system",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9841,
-      "evidence_count": 5
-    },
-    {
-      "label": "theoretical physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9841,
-      "evidence_count": 5
-    },
-    {
-      "label": "discrete mathematics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9833,
-      "evidence_count": 4
-    },
-    {
-      "label": "library science",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9833,
-      "evidence_count": 4
-    },
-    {
-      "label": "partial differential",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9833,
-      "evidence_count": 4
+      "confidence": 0.9862,
+      "evidence_count": 74
     },
     {
       "label": "computer",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9825,
-      "evidence_count": 48
+      "confidence": 0.9861,
+      "evidence_count": 599
     },
     {
-      "label": "functions with",
+      "label": "statistical",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9825,
-      "evidence_count": 4
+      "confidence": 0.9858,
+      "evidence_count": 107
     },
     {
-      "label": "convex optimization",
+      "label": "analysis of",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9825,
-      "evidence_count": 3
+      "confidence": 0.9858,
+      "evidence_count": 69
     },
     {
-      "label": "coronavirus disease 2019",
+      "label": "change",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9825,
-      "evidence_count": 3
+      "confidence": 0.9857,
+      "evidence_count": 68
     },
     {
-      "label": "dynamical systems",
+      "label": "design",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9816,
-      "evidence_count": 3
+      "confidence": 0.9855,
+      "evidence_count": 65
     },
     {
-      "label": "dental",
+      "label": "standard",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9808,
-      "evidence_count": 18
+      "confidence": 0.9855,
+      "evidence_count": 65
     },
     {
-      "label": "coronavirus disease",
+      "label": "theoretical",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9808,
-      "evidence_count": 3
-    },
-    {
-      "label": "disease 2019",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9808,
-      "evidence_count": 3
-    },
-    {
-      "label": "calculus dental",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 18
-    },
-    {
-      "label": "a field",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 4
-    },
-    {
-      "label": "algebra over",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 4
-    },
-    {
-      "label": "algebra over a",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 4
-    },
-    {
-      "label": "over a",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 4
-    },
-    {
-      "label": "over a field",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 4
-    },
-    {
-      "label": "subject documents",
-      "semantic_role": "entity_like",
-      "topic_role": "detail_topic",
-      "ui_role": "entity_detail",
-      "confidence": 0.98,
-      "evidence_count": 4
+      "confidence": 0.9854,
+      "evidence_count": 135
     }
   ],
   "topic_year_counts": {
-    "differential equations": {
-      "2023": 197581,
-      "2024": 186267,
-      "2025": 157012,
-      "2022": 127667,
-      "2021": 122155,
-      "2020": 115090,
-      "2019": 100336,
-      "2018": 91365,
-      "2017": 83521,
-      "2016": 79680,
-      "2015": 75169,
-      "2014": 72331,
-      "2013": 66925,
-      "2012": 59083,
-      "2011": 53706,
-      "2026": 48489,
-      "2010": 46827,
-      "2009": 42213,
-      "2008": 36909,
-      "2007": 34302,
-      "2006": 30980,
-      "2005": 27555,
-      "2004": 24657,
-      "2003": 22414,
-      "2002": 21174,
-      "2001": 16998,
-      "2000": 16698
+    "mathematics education": {
+      "2023": 156192,
+      "2024": 156124,
+      "2025": 153717,
+      "2022": 111501,
+      "2021": 96976,
+      "2020": 92982,
+      "2019": 71719,
+      "2018": 62095,
+      "2017": 51874,
+      "2016": 47070,
+      "2015": 44091,
+      "2014": 37843,
+      "2026": 34498,
+      "2013": 34051,
+      "2012": 28317,
+      "2011": 24090,
+      "2010": 20358,
+      "2009": 17357,
+      "2008": 14350,
+      "2007": 12163,
+      "2006": 10478,
+      "2005": 8954,
+      "2004": 7756,
+      "2003": 6387,
+      "2002": 5896,
+      "2000": 5051,
+      "2001": 4705
+    },
+    "formulas, graphs, mathematical": {
+      "2024": 44357,
+      "2023": 43181,
+      "2025": 34096,
+      "2022": 24709,
+      "2021": 21870,
+      "2020": 19639,
+      "2019": 16614,
+      "2018": 14796,
+      "2017": 12780,
+      "2016": 11991,
+      "2015": 11234,
+      "2014": 10182,
+      "2026": 9724,
+      "2013": 9137,
+      "2012": 7997,
+      "2011": 6811,
+      "2010": 6204,
+      "2009": 5170,
+      "2008": 4409,
+      "2007": 3749,
+      "2006": 3162,
+      "2005": 2791,
+      "2004": 2359,
+      "2003": 1971,
+      "2002": 1587,
+      "2000": 1419,
+      "2001": 1323
+    },
+    "mathematical optimization": {
+      "2024": 225046,
+      "2023": 216772,
+      "2025": 214231,
+      "2022": 134088,
+      "2021": 118470,
+      "2020": 104300,
+      "2019": 85737,
+      "2018": 73380,
+      "2026": 64003,
+      "2017": 62003,
+      "2016": 55944,
+      "2015": 50469,
+      "2014": 46019,
+      "2013": 41141,
+      "2012": 34823,
+      "2011": 29771,
+      "2010": 25090,
+      "2009": 21010,
+      "2008": 17316,
+      "2007": 14833,
+      "2006": 12724,
+      "2005": 10414,
+      "2004": 8671,
+      "2003": 7111,
+      "2002": 6005,
+      "2000": 4901,
+      "2001": 4615
+    },
+    "theoretical computer science": {
+      "2024": 196335,
+      "2023": 194490,
+      "2025": 194020,
+      "2022": 127486,
+      "2021": 113352,
+      "2020": 103499,
+      "2019": 88928,
+      "2018": 79891,
+      "2017": 68429,
+      "2016": 62830,
+      "2015": 57525,
+      "2026": 53680,
+      "2014": 52040,
+      "2013": 45728,
+      "2012": 39817,
+      "2011": 34476,
+      "2010": 29530,
+      "2009": 26085,
+      "2008": 21151,
+      "2007": 18811,
+      "2006": 16040,
+      "2005": 13954,
+      "2004": 11903,
+      "2003": 9900,
+      "2002": 8283,
+      "2000": 7824,
+      "2001": 7186
+    },
+    "statistical physics": {
+      "2023": 120328,
+      "2024": 115621,
+      "2025": 103163,
+      "2022": 71454,
+      "2021": 64594,
+      "2020": 57858,
+      "2019": 49143,
+      "2018": 44670,
+      "2017": 39500,
+      "2016": 37169,
+      "2026": 36935,
+      "2015": 33378,
+      "2014": 29900,
+      "2013": 27019,
+      "2012": 23247,
+      "2011": 20566,
+      "2010": 17216,
+      "2009": 14669,
+      "2008": 12617,
+      "2007": 11098,
+      "2006": 10095,
+      "2005": 8501,
+      "2004": 7444,
+      "2003": 6447,
+      "2002": 5623,
+      "2001": 4840,
+      "2000": 4741
+    },
+    "mathematical analysis": {
+      "2023": 440927,
+      "2024": 423601,
+      "2025": 384074,
+      "2022": 289286,
+      "2021": 265255,
+      "2020": 244661,
+      "2019": 202875,
+      "2018": 178498,
+      "2017": 154738,
+      "2016": 142171,
+      "2015": 132363,
+      "2014": 121549,
+      "2026": 113524,
+      "2013": 109361,
+      "2012": 93819,
+      "2011": 81589,
+      "2010": 70123,
+      "2009": 59716,
+      "2008": 50892,
+      "2007": 44567,
+      "2006": 39650,
+      "2005": 33849,
+      "2004": 29364,
+      "2003": 25290,
+      "2002": 22734,
+      "2000": 18618,
+      "2001": 18446
     }
   }
 }

@@ -1,22 +1,22 @@
 {
   "slug": "physics",
   "title": "Physics",
-  "updated_at": "2026-04-10T12:09:16.809035Z",
+  "updated_at": "2026-04-12T00:23:39.877257Z",
   "snapshot": {
-    "papers": 315,
-    "topics": 7,
-    "subtopics": 51,
-    "entities": 1100,
-    "claims": 15
+    "papers": 893,
+    "topics": 12,
+    "subtopics": 280,
+    "entities": 2338,
+    "claims": 21
   },
   "overview": {
     "source_ids": [],
     "partition_summary": {
       "overview_papers": 0,
-      "topical_papers": 427,
-      "total_papers": 427,
+      "topical_papers": 925,
+      "total_papers": 925,
       "facet_counts": {
-        "none": 427
+        "none": 925
       },
       "gemini_validation_enabled": false,
       "gemini_validation_ready": false,
@@ -28,41 +28,117 @@
     "concept_type": "taxonomy"
   },
   "hierarchy": {
-    "root_topics": 7,
-    "descendant_topics": 51,
-    "max_depth": 2,
-    "leaf_topics": 51
+    "root_topics": 12,
+    "descendant_topics": 280,
+    "max_depth": 4,
+    "leaf_topics": 193
   },
   "rising_topics": [
+    {
+      "id": "sg-quantum-mechanics",
+      "label": "Quantum mechanics",
+      "url": "/domains/physics/topics/sg-quantum-mechanics",
+      "trend": "rising",
+      "year_total": 348127
+    },
     {
       "id": "sg-statistical-physics",
       "label": "Statistical physics",
       "url": "/domains/physics/topics/sg-statistical-physics",
       "trend": "rising",
-      "year_total": 975892
+      "year_total": 977836
     },
     {
-      "id": "sg-particle-physics",
-      "label": "Particle physics",
-      "url": "/domains/physics/topics/sg-particle-physics",
+      "id": "sg-field-theory",
+      "label": "Field theory",
+      "url": "/domains/physics/topics/sg-field-theory",
       "trend": "rising",
-      "year_total": 1038144
-    },
-    {
-      "id": "sg-mathematical-physics",
-      "label": "Mathematical physics",
-      "url": "/domains/physics/topics/sg-mathematical-physics",
-      "trend": "rising",
-      "year_total": 1092463
+      "year_total": 5987516
     }
   ],
   "topic_branches": [
     {
+      "id": "sg-quantum-mechanics",
+      "label": "Quantum mechanics",
+      "url": "/domains/physics/topics/sg-quantum-mechanics",
+      "paper_count": 168,
+      "subtopic_count": 21,
+      "trend": "rising",
+      "summary": "entities: of the, in the, of a",
+      "tags": [
+        "classical physics",
+        "mechanics physics",
+        "modern physics",
+        "molecular physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-quantum-mechanics-quantum-electrodynamics",
+          "label": "Quantum electrodynamics",
+          "url": "/domains/physics/topics/sg-quantum-mechanics-quantum-electrodynamics",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-entanglement",
+          "label": "Quantum entanglement",
+          "url": "/domains/physics/topics/sg-quantum-mechanics-quantum-entanglement",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-dissipation",
+          "label": "Quantum dissipation",
+          "url": "/domains/physics/topics/sg-quantum-mechanics-quantum-dissipation",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-optics-and-atomic-physics",
+          "label": "Quantum optics and atomic physics",
+          "url": "/domains/physics/topics/sg-quantum-mechanics-quantum-optics-and-atomic-physics",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-quantum-mechanics-phase-transition",
+          "label": "Phase transition",
+          "url": "/domains/physics/topics/sg-quantum-mechanics-phase-transition",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-optics",
+          "label": "Quantum optics",
+          "url": "/domains/physics/topics/sg-quantum-mechanics-quantum-optics",
+          "paper_count": 10
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2132905138",
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2014",
+          "cited_by_count": 57798,
+          "url": "/domains/physics/papers/W2132905138"
+        },
+        {
+          "source_id": "https://openalex.org/W3003257820",
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36311,
+          "url": "/domains/physics/papers/W3003257820"
+        },
+        {
+          "source_id": "https://openalex.org/W4288079944",
+          "title": "<i>Planck</i> 2018 results",
+          "year": "2020",
+          "cited_by_count": 13529,
+          "url": "/domains/physics/papers/W4288079944"
+        }
+      ]
+    },
+    {
       "id": "sg-statistical-physics",
       "label": "Statistical physics",
       "url": "/domains/physics/topics/sg-statistical-physics",
-      "paper_count": 105,
-      "subtopic_count": 20,
+      "paper_count": 155,
+      "subtopic_count": 6,
       "trend": "rising",
       "summary": "entities: statistical physics, of the, in the",
       "tags": [
@@ -73,266 +149,56 @@
       ],
       "subtopics": [
         {
-          "id": "sg-statistical-physics-statistical-mechanics-entropy",
-          "label": "Statistical mechanics entropy",
-          "url": "/domains/physics/topics/sg-statistical-physics-statistical-mechanics-entropy",
+          "id": "sg-statistical-physics-statistical-mechanics-and-entropy",
+          "label": "Statistical mechanics and entropy",
+          "url": "/domains/physics/topics/sg-statistical-physics-statistical-mechanics-and-entropy",
+          "paper_count": 71
+        },
+        {
+          "id": "sg-statistical-physics-statistical-inference",
+          "label": "Statistical inference",
+          "url": "/domains/physics/topics/sg-statistical-physics-statistical-inference",
           "paper_count": 22
         },
         {
-          "id": "sg-statistical-physics-density-matrix",
-          "label": "Density matrix",
-          "url": "/domains/physics/topics/sg-statistical-physics-density-matrix",
-          "paper_count": 21
+          "id": "sg-statistical-physics-nonlinear-dynamical-systems",
+          "label": "Nonlinear dynamical systems",
+          "url": "/domains/physics/topics/sg-statistical-physics-nonlinear-dynamical-systems",
+          "paper_count": 18
         },
         {
-          "id": "sg-statistical-physics-condensed-matter",
-          "label": "Condensed matter",
-          "url": "/domains/physics/topics/sg-statistical-physics-condensed-matter",
-          "paper_count": 9
+          "id": "sg-statistical-physics-statistical-model",
+          "label": "Statistical model",
+          "url": "/domains/physics/topics/sg-statistical-physics-statistical-model",
+          "paper_count": 15
         },
         {
-          "id": "sg-statistical-physics-electronic-structure",
-          "label": "Electronic structure",
-          "url": "/domains/physics/topics/sg-statistical-physics-electronic-structure",
-          "paper_count": 8
-        },
-        {
-          "id": "sg-statistical-physics-chaos-control-synchronization",
-          "label": "Chaos control synchronization",
-          "url": "/domains/physics/topics/sg-statistical-physics-chaos-control-synchronization",
+          "id": "sg-statistical-physics-stochastic-physics-chemistry",
+          "label": "Stochastic physics, chemistry",
+          "url": "/domains/physics/topics/sg-statistical-physics-stochastic-physics-chemistry",
           "paper_count": 7
         },
         {
-          "id": "sg-statistical-physics-preferential-attachment",
-          "label": "Preferential attachment",
-          "url": "/domains/physics/topics/sg-statistical-physics-preferential-attachment",
+          "id": "sg-statistical-physics-concepts-in-polymer",
+          "label": "Concepts in polymer",
+          "url": "/domains/physics/topics/sg-statistical-physics-concepts-in-polymer",
           "paper_count": 6
         }
       ],
       "featured_papers": [
         {
-          "source_id": "https://openalex.org/W2008620264",
-          "title": "Emergence of Scaling in Random Networks",
-          "year": "1999",
-          "cited_by_count": 36107,
-          "url": "/domains/physics/papers/W2008620264"
+          "source_id": "https://openalex.org/W2041902442",
+          "title": "Computer Simulation of Liquids",
+          "year": "2017",
+          "cited_by_count": 20864,
+          "url": "/domains/physics/papers/W2041902442"
         },
         {
-          "source_id": "https://openalex.org/W2035266068",
-          "title": "Molecular dynamics with coupling to an external bath",
-          "year": "1984",
-          "cited_by_count": 30621,
-          "url": "/domains/physics/papers/W2035266068"
-        },
-        {
-          "source_id": "https://openalex.org/W1540380506",
-          "title": "Phase Transitions and Critical Phenomena",
-          "year": "2016",
-          "cited_by_count": 11279,
-          "url": "/domains/physics/papers/W1540380506"
-        }
-      ]
-    },
-    {
-      "id": "sg-mathematical-physics",
-      "label": "Mathematical physics",
-      "url": "/domains/physics/topics/sg-mathematical-physics",
-      "paper_count": 51,
-      "subtopic_count": 4,
-      "trend": "rising",
-      "summary": "entities: of the, field, in the",
-      "tags": [
-        "black hole and theoretical physics",
-        "calculus in physics",
-        "differential equation",
-        "fractional calculus in physics"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-mathematical-physics-pure-mathematics",
-          "label": "Pure mathematics",
-          "url": "/domains/physics/topics/sg-mathematical-physics-pure-mathematics",
-          "paper_count": 18
-        },
-        {
-          "id": "sg-mathematical-physics-quantum-electrodynamics",
-          "label": "Quantum electrodynamics",
-          "url": "/domains/physics/topics/sg-mathematical-physics-quantum-electrodynamics",
-          "paper_count": 17
-        },
-        {
-          "id": "sg-mathematical-physics-atomic-physics",
-          "label": "Atomic physics",
-          "url": "/domains/physics/topics/sg-mathematical-physics-atomic-physics",
-          "paper_count": 7
-        },
-        {
-          "id": "sg-mathematical-physics-differential-equation",
-          "label": "Differential equation",
-          "url": "/domains/physics/topics/sg-mathematical-physics-differential-equation",
-          "paper_count": 4
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2230728100",
-          "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
-          "year": "1965",
-          "cited_by_count": 62425,
-          "url": "/domains/physics/papers/W2230728100"
-        },
-        {
-          "source_id": "https://openalex.org/W2899283552",
-          "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
-          "year": "2018",
-          "cited_by_count": 15249,
-          "url": "/domains/physics/papers/W2899283552"
-        },
-        {
-          "source_id": "https://openalex.org/W3147289055",
-          "title": "Physics of Semiconductor Devices",
-          "year": "2002",
-          "cited_by_count": 14030,
-          "url": "/domains/physics/papers/W3147289055"
-        }
-      ]
-    },
-    {
-      "id": "sg-particle-physics",
-      "label": "Particle physics",
-      "url": "/domains/physics/topics/sg-particle-physics",
-      "paper_count": 51,
-      "subtopic_count": 8,
-      "trend": "rising",
-      "summary": "entities: particle physics, of the, particle",
-      "tags": [
-        "elementary particle",
-        "elementary particle physics",
-        "model of elementary particle",
-        "particle physics"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-particle-physics-standard-model",
-          "label": "Standard model",
-          "url": "/domains/physics/topics/sg-particle-physics-standard-model",
-          "paper_count": 26
-        },
-        {
-          "id": "sg-particle-physics-particle-physics",
-          "label": "Particle physics",
-          "url": "/domains/physics/topics/sg-particle-physics-particle-physics",
-          "paper_count": 11
-        },
-        {
-          "id": "sg-particle-physics-large-hadron-collider",
-          "label": "Large hadron collider",
-          "url": "/domains/physics/topics/sg-particle-physics-large-hadron-collider",
-          "paper_count": 4
-        },
-        {
-          "id": "sg-particle-physics-unified-field-theory",
-          "label": "Unified field theory",
-          "url": "/domains/physics/topics/sg-particle-physics-unified-field-theory",
-          "paper_count": 3
-        },
-        {
-          "id": "sg-particle-physics-gauge-boson",
-          "label": "Gauge boson",
-          "url": "/domains/physics/topics/sg-particle-physics-gauge-boson",
-          "paper_count": 2
-        },
-        {
-          "id": "sg-particle-physics-supersymmetry-breaking",
-          "label": "Supersymmetry breaking",
-          "url": "/domains/physics/topics/sg-particle-physics-supersymmetry-breaking",
-          "paper_count": 2
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W4288079944",
-          "title": "<i>Planck</i> 2018 results",
-          "year": "2020",
-          "cited_by_count": 13517,
-          "url": "/domains/physics/papers/W4288079944"
-        },
-        {
-          "source_id": "https://openalex.org/W1858542512",
-          "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
-          "year": "2012",
-          "cited_by_count": 10633,
-          "url": "/domains/physics/papers/W1858542512"
-        },
-        {
-          "source_id": "https://openalex.org/W2167727518",
-          "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
-          "year": "2012",
-          "cited_by_count": 9894,
-          "url": "/domains/physics/papers/W2167727518"
-        }
-      ]
-    },
-    {
-      "id": "sg-nuclear-physics",
-      "label": "Nuclear physics",
-      "url": "/domains/physics/topics/sg-nuclear-physics",
-      "paper_count": 48,
-      "subtopic_count": 5,
-      "trend": "rising",
-      "summary": "entities: of the, nuclear physics, in the",
-      "tags": [
-        "elementary particle",
-        "nuclear physics",
-        "physics controlled",
-        "plasma physics"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-nuclear-physics-atomic-physics",
-          "label": "Atomic physics",
-          "url": "/domains/physics/topics/sg-nuclear-physics-atomic-physics",
-          "paper_count": 28
-        },
-        {
-          "id": "sg-nuclear-physics-nuclear-fusion",
-          "label": "Nuclear fusion",
-          "url": "/domains/physics/topics/sg-nuclear-physics-nuclear-fusion",
-          "paper_count": 9
-        },
-        {
-          "id": "sg-nuclear-physics-orbital-angular-momentum-of-light",
-          "label": "Orbital angular momentum of light",
-          "url": "/domains/physics/topics/sg-nuclear-physics-orbital-angular-momentum-of-light",
-          "paper_count": 3
-        },
-        {
-          "id": "sg-nuclear-physics-neutrino-oscillation",
-          "label": "Neutrino oscillation",
-          "url": "/domains/physics/topics/sg-nuclear-physics-neutrino-oscillation",
-          "paper_count": 2
-        },
-        {
-          "id": "sg-nuclear-physics-compact-muon-solenoid",
-          "label": "Compact muon solenoid",
-          "url": "/domains/physics/topics/sg-nuclear-physics-compact-muon-solenoid",
-          "paper_count": 1
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W3105982350",
-          "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
-          "year": "2019",
-          "cited_by_count": 8265,
-          "url": "/domains/physics/papers/W3105982350"
-        },
-        {
-          "source_id": "https://openalex.org/W2790756470",
-          "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
-          "year": "2018",
-          "cited_by_count": 8245,
-          "url": "/domains/physics/papers/W2790756470"
+          "source_id": "https://openalex.org/W2162800060",
+          "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+          "year": "2000",
+          "cited_by_count": 14255,
+          "url": "/domains/physics/papers/W2162800060"
         },
         {
           "source_id": "https://openalex.org/W2056722718",
@@ -344,55 +210,195 @@
       ]
     },
     {
-      "id": "sg-cosmology-gravitation-theory",
-      "label": "Cosmology gravitation theory",
-      "url": "/domains/physics/topics/sg-cosmology-gravitation-theory",
-      "paper_count": 32,
+      "id": "sg-field-theory",
+      "label": "Field theory",
+      "url": "/domains/physics/topics/sg-field-theory",
+      "paper_count": 87,
       "subtopic_count": 6,
       "trend": "rising",
-      "summary": "entities: of the, in the, gravitation",
+      "summary": "entities: field theory, of the, in the",
       "tags": [
-        "big bang",
-        "cosmological constant",
-        "cosmology and gravitation theory",
-        "dark fluid"
+        "black hole and theoretical physics",
+        "classical physics",
+        "field theory",
+        "semiclassical physics"
       ],
       "subtopics": [
         {
-          "id": "sg-cosmology-gravitation-theory-general-relativity",
-          "label": "General relativity",
-          "url": "/domains/physics/topics/sg-cosmology-gravitation-theory-general-relativity",
+          "id": "sg-field-theory-molecular-force-field",
+          "label": "Molecular force field",
+          "url": "/domains/physics/topics/sg-field-theory-molecular-force-field",
+          "paper_count": 36
+        },
+        {
+          "id": "sg-field-theory-quantum-field-theory",
+          "label": "Quantum field theory",
+          "url": "/domains/physics/topics/sg-field-theory-quantum-field-theory",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-field-theory-climate-change",
+          "label": "Climate change",
+          "url": "/domains/physics/topics/sg-field-theory-climate-change",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-field-theory-mathematical-physics",
+          "label": "Mathematical physics",
+          "url": "/domains/physics/topics/sg-field-theory-mathematical-physics",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-field-theory-scalar-field",
+          "label": "Scalar field",
+          "url": "/domains/physics/topics/sg-field-theory-scalar-field",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-field-theory-conformal-field-theory",
+          "label": "Conformal field theory",
+          "url": "/domains/physics/topics/sg-field-theory-conformal-field-theory",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2790756470",
+          "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
+          "year": "2018",
+          "cited_by_count": 8245,
+          "url": "/domains/physics/papers/W2790756470"
+        },
+        {
+          "source_id": "https://openalex.org/W2166073443",
+          "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+          "year": "2010",
+          "cited_by_count": 11138,
+          "url": "/domains/physics/papers/W2166073443"
+        },
+        {
+          "source_id": "https://openalex.org/W3168436232",
+          "title": "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings",
+          "year": "2021",
+          "cited_by_count": 6117,
+          "url": "/domains/physics/papers/W3168436232"
+        }
+      ]
+    },
+    {
+      "id": "sg-theoretical-physics",
+      "label": "Theoretical physics",
+      "url": "/domains/physics/topics/sg-theoretical-physics",
+      "paper_count": 77,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: theoretical physics, of the, quantum mechanics",
+      "tags": [
+        "black hole and theoretical physics",
+        "classical physics",
+        "dynamical in mechanics physics",
+        "mechanics physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-theoretical-physics-pure-mathematics",
+          "label": "Pure mathematics",
+          "url": "/domains/physics/topics/sg-theoretical-physics-pure-mathematics",
+          "paper_count": 55
+        },
+        {
+          "id": "sg-theoretical-physics-mathematical-physics",
+          "label": "Mathematical physics",
+          "url": "/domains/physics/topics/sg-theoretical-physics-mathematical-physics",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-theoretical-physics-differential-equations",
+          "label": "Differential equations",
+          "url": "/domains/physics/topics/sg-theoretical-physics-differential-equations",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-theoretical-physics-massless-particle",
+          "label": "Massless particle",
+          "url": "/domains/physics/topics/sg-theoretical-physics-massless-particle",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2014935324",
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39196,
+          "url": "/domains/physics/papers/W2014935324"
+        },
+        {
+          "source_id": "https://openalex.org/W2964344211",
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2016",
+          "cited_by_count": 13817,
+          "url": "/domains/physics/papers/W2964344211"
+        },
+        {
+          "source_id": "https://openalex.org/W2990961515",
+          "title": "Quantum Computation and Quantum Information",
+          "year": "2012",
+          "cited_by_count": 8314,
+          "url": "/domains/physics/papers/W2990961515"
+        }
+      ]
+    },
+    {
+      "id": "sg-black-hole",
+      "label": "Black hole",
+      "url": "/domains/physics/topics/sg-black-hole",
+      "paper_count": 74,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: of a, of the, in the",
+      "tags": [
+        "binary black hole",
+        "binary black hole coalescence",
+        "black hole",
+        "black hole and theoretical physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-black-hole-black-hole-thermodynamics",
+          "label": "Black hole thermodynamics",
+          "url": "/domains/physics/topics/sg-black-hole-black-hole-thermodynamics",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-black-hole-binary-black-hole",
+          "label": "Binary black hole",
+          "url": "/domains/physics/topics/sg-black-hole-binary-black-hole",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-black-hole-supermassive-black-hole",
+          "label": "Supermassive black hole",
+          "url": "/domains/physics/topics/sg-black-hole-supermassive-black-hole",
           "paper_count": 15
         },
         {
-          "id": "sg-cosmology-gravitation-theory-lambda-cdm-model",
-          "label": "Lambda-cdm model",
-          "url": "/domains/physics/topics/sg-cosmology-gravitation-theory-lambda-cdm-model",
-          "paper_count": 7
+          "id": "sg-black-hole-climate-change",
+          "label": "Climate change",
+          "url": "/domains/physics/topics/sg-black-hole-climate-change",
+          "paper_count": 8
         },
         {
-          "id": "sg-cosmology-gravitation-theory-big-bang",
-          "label": "Big bang",
-          "url": "/domains/physics/topics/sg-cosmology-gravitation-theory-big-bang",
-          "paper_count": 4
+          "id": "sg-black-hole-differential-equations",
+          "label": "Differential equations",
+          "url": "/domains/physics/topics/sg-black-hole-differential-equations",
+          "paper_count": 6
         },
         {
-          "id": "sg-cosmology-gravitation-theory-binary-black-hole",
-          "label": "Binary black hole",
-          "url": "/domains/physics/topics/sg-cosmology-gravitation-theory-binary-black-hole",
-          "paper_count": 4
-        },
-        {
-          "id": "sg-cosmology-gravitation-theory-black-hole",
-          "label": "Black hole",
-          "url": "/domains/physics/topics/sg-cosmology-gravitation-theory-black-hole",
-          "paper_count": 1
-        },
-        {
-          "id": "sg-cosmology-gravitation-theory-scalar-field",
-          "label": "Scalar field",
-          "url": "/domains/physics/topics/sg-cosmology-gravitation-theory-scalar-field",
-          "paper_count": 1
+          "id": "sg-black-hole-stellar-black-hole",
+          "label": "Stellar black hole",
+          "url": "/domains/physics/topics/sg-black-hole-stellar-black-hole",
+          "paper_count": 2
         }
       ],
       "featured_papers": [
@@ -400,7 +406,7 @@
           "source_id": "https://openalex.org/W2252795400",
           "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
           "year": "2016",
-          "cited_by_count": 13992,
+          "cited_by_count": 13999,
           "url": "/domains/physics/papers/W2252795400"
         },
         {
@@ -411,58 +417,180 @@
           "url": "/domains/physics/papers/W2990714382"
         },
         {
-          "source_id": "https://openalex.org/W4292875581",
-          "title": "<i>Planck</i>2015 results",
-          "year": "2016",
-          "cited_by_count": 10530,
-          "url": "/domains/physics/papers/W4292875581"
+          "source_id": "https://openalex.org/W2982169647",
+          "title": "Quantum supremacy using a programmable superconducting processor",
+          "year": "2019",
+          "cited_by_count": 6819,
+          "url": "/domains/physics/papers/W2982169647"
         }
       ]
     },
     {
-      "id": "sg-dark-matter",
-      "label": "Dark matter",
-      "url": "/domains/physics/topics/sg-dark-matter",
-      "paper_count": 18,
+      "id": "sg-magnetic-resonance",
+      "label": "Magnetic resonance",
+      "url": "/domains/physics/topics/sg-magnetic-resonance",
+      "paper_count": 72,
       "subtopic_count": 5,
       "trend": "rising",
-      "summary": "entities: of the, in the, galaxy",
+      "summary": "entities: magnetic resonance, in a, of the",
       "tags": [
-        "astroparticle physics",
-        "correlation function",
-        "dark galaxy",
-        "dark matter"
+        "biofield effects and biophysics",
+        "classical physics",
+        "magnetic property of thin films",
+        "magnetic resonance"
       ],
       "subtopics": [
         {
-          "id": "sg-dark-matter-galaxy-formation-evolution-phenomena",
-          "label": "Galaxy formation, evolution, phenomena",
-          "url": "/domains/physics/topics/sg-dark-matter-galaxy-formation-evolution-phenomena",
-          "paper_count": 7
+          "id": "sg-magnetic-resonance-magnetic-semiconductor",
+          "label": "Magnetic semiconductor",
+          "url": "/domains/physics/topics/sg-magnetic-resonance-magnetic-semiconductor",
+          "paper_count": 41
         },
         {
-          "id": "sg-dark-matter-dark-galaxy",
-          "label": "Dark galaxy",
-          "url": "/domains/physics/topics/sg-dark-matter-dark-galaxy",
+          "id": "sg-magnetic-resonance-magnetic-property-of-thin-films",
+          "label": "Magnetic property of thin films",
+          "url": "/domains/physics/topics/sg-magnetic-resonance-magnetic-property-of-thin-films",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-magnetic-resonance-image-processing",
+          "label": "Image processing",
+          "url": "/domains/physics/topics/sg-magnetic-resonance-image-processing",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-magnetic-resonance-transcranial-magnetic-stimulation-studies",
+          "label": "Transcranial magnetic stimulation studies",
+          "url": "/domains/physics/topics/sg-magnetic-resonance-transcranial-magnetic-stimulation-studies",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-magnetic-resonance-climate-change",
+          "label": "Climate change",
+          "url": "/domains/physics/topics/sg-magnetic-resonance-climate-change",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2038533471",
+          "title": "Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis",
+          "year": "1980",
+          "cited_by_count": 20551,
+          "url": "/domains/physics/papers/W2038533471"
+        },
+        {
+          "source_id": "https://openalex.org/W3015391807",
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7255,
+          "url": "/domains/physics/papers/W3015391807"
+        },
+        {
+          "source_id": "https://openalex.org/W2164599981",
+          "title": "Situated Cognition and the Culture of Learning",
+          "year": "1989",
+          "cited_by_count": 12898,
+          "url": "/domains/physics/papers/W2164599981"
+        }
+      ]
+    },
+    {
+      "id": "sg-electronic-structure",
+      "label": "Electronic structure",
+      "url": "/domains/physics/topics/sg-electronic-structure",
+      "paper_count": 63,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: electron, electronic structure, of the",
+      "tags": [
+        "chemical physics",
+        "electronic structure",
+        "molecular physics",
+        "semiclassical physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-electronic-structure-band-gap",
+          "label": "Band gap",
+          "url": "/domains/physics/topics/sg-electronic-structure-band-gap",
           "paper_count": 6
         },
         {
-          "id": "sg-dark-matter-dark-matter-and-cosmic-phenomena",
-          "label": "Dark matter and cosmic phenomena",
-          "url": "/domains/physics/topics/sg-dark-matter-dark-matter-and-cosmic-phenomena",
-          "paper_count": 3
+          "id": "sg-electronic-structure-atomic-physics",
+          "label": "Atomic physics",
+          "url": "/domains/physics/topics/sg-electronic-structure-atomic-physics",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2096421416",
+          "title": "Van der Waals heterostructures",
+          "year": "2013",
+          "cited_by_count": 10538,
+          "url": "/domains/physics/papers/W2096421416"
         },
         {
-          "id": "sg-dark-matter-black-hole",
-          "label": "Black hole",
-          "url": "/domains/physics/topics/sg-dark-matter-black-hole",
-          "paper_count": 1
+          "source_id": "https://openalex.org/W1963721320",
+          "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX<sub>3</sub>, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+          "year": "2015",
+          "cited_by_count": 8806,
+          "url": "/domains/physics/papers/W1963721320"
         },
         {
-          "id": "sg-dark-matter-cold-dark-matter",
-          "label": "Cold dark matter",
-          "url": "/domains/physics/topics/sg-dark-matter-cold-dark-matter",
-          "paper_count": 1
+          "source_id": "https://openalex.org/W2757803490",
+          "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
+          "year": "2017",
+          "cited_by_count": 7244,
+          "url": "/domains/physics/papers/W2757803490"
+        }
+      ]
+    },
+    {
+      "id": "sg-nuclear-physics",
+      "label": "Nuclear physics",
+      "url": "/domains/physics/topics/sg-nuclear-physics",
+      "paper_count": 54,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: nuclear physics, of the, particle physics",
+      "tags": [
+        "atomic and molecular physics",
+        "model of elementary particle",
+        "nuclear physics",
+        "physics controlled"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-nuclear-physics-nuclear-fusion",
+          "label": "Nuclear fusion",
+          "url": "/domains/physics/topics/sg-nuclear-physics-nuclear-fusion",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-nuclear-physics-neutrino-oscillation",
+          "label": "Neutrino oscillation",
+          "url": "/domains/physics/topics/sg-nuclear-physics-neutrino-oscillation",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-nuclear-physics-atomic-physics",
+          "label": "Atomic physics",
+          "url": "/domains/physics/topics/sg-nuclear-physics-atomic-physics",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-nuclear-physics-compact-muon-solenoid",
+          "label": "Compact muon solenoid",
+          "url": "/domains/physics/topics/sg-nuclear-physics-compact-muon-solenoid",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-nuclear-physics-differential-equations",
+          "label": "Differential equations",
+          "url": "/domains/physics/topics/sg-nuclear-physics-differential-equations",
+          "paper_count": 5
         }
       ],
       "featured_papers": [
@@ -470,123 +598,431 @@
           "source_id": "https://openalex.org/W2963002078",
           "title": "Review of Particle Physics",
           "year": "2022",
-          "cited_by_count": 6170,
+          "cited_by_count": 6173,
           "url": "/domains/physics/papers/W2963002078"
         },
         {
-          "source_id": "https://openalex.org/W4401211033",
-          "title": "Review of Particle Physics",
-          "year": "2024",
-          "cited_by_count": 2520,
-          "url": "/domains/physics/papers/W4401211033"
+          "source_id": "https://openalex.org/W1858542512",
+          "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+          "year": "2012",
+          "cited_by_count": 10634,
+          "url": "/domains/physics/papers/W1858542512"
         },
         {
-          "source_id": "https://openalex.org/W3108284800",
-          "title": "Review of Particle Physics",
-          "year": "2020",
-          "cited_by_count": 5171,
-          "url": "/domains/physics/papers/W3108284800"
+          "source_id": "https://openalex.org/W2167727518",
+          "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+          "year": "2012",
+          "cited_by_count": 9895,
+          "url": "/domains/physics/papers/W2167727518"
         }
       ]
     },
     {
-      "id": "sg-dark-energy",
-      "label": "Dark energy",
-      "url": "/domains/physics/topics/sg-dark-energy",
-      "paper_count": 10,
-      "subtopic_count": 3,
+      "id": "sg-general-relativity",
+      "label": "General relativity",
+      "url": "/domains/physics/topics/sg-general-relativity",
+      "paper_count": 52,
+      "subtopic_count": 2,
       "trend": "rising",
-      "summary": "entities: dark energy, of the, cosmic microwave background",
+      "summary": "entities: general relativity, of the, of a",
       "tags": [
-        "astroparticle physics",
-        "correlation function",
-        "dark energy",
-        "dark fluid"
+        "atmospheric physics",
+        "binary black hole coalescence",
+        "black hole coalescence",
+        "classical physics"
       ],
       "subtopics": [
         {
-          "id": "sg-dark-energy-cosmic-microwave",
-          "label": "Cosmic microwave",
-          "url": "/domains/physics/topics/sg-dark-energy-cosmic-microwave",
-          "paper_count": 6
+          "id": "sg-general-relativity-climate-change",
+          "label": "Climate change",
+          "url": "/domains/physics/topics/sg-general-relativity-climate-change",
+          "paper_count": 12
         },
         {
-          "id": "sg-dark-energy-cosmic-microwave-background",
-          "label": "Cosmic microwave background",
-          "url": "/domains/physics/topics/sg-dark-energy-cosmic-microwave-background",
-          "paper_count": 1
-        },
-        {
-          "id": "sg-dark-energy-dark-fluid",
-          "label": "Dark fluid",
-          "url": "/domains/physics/topics/sg-dark-energy-dark-fluid",
-          "paper_count": 1
+          "id": "sg-general-relativity-mathematical-physics",
+          "label": "Mathematical physics",
+          "url": "/domains/physics/topics/sg-general-relativity-mathematical-physics",
+          "paper_count": 9
         }
       ],
       "featured_papers": [
         {
-          "source_id": "https://openalex.org/W2150697053",
-          "title": "The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: two new functionals and systematic testing of four M06-class functionals and 12 other functionals",
+          "source_id": "https://openalex.org/W3152893301",
+          "title": "Graph neural networks: A review of methods and applications",
+          "year": "2020",
+          "cited_by_count": 5290,
+          "url": "/domains/physics/papers/W3152893301"
+        },
+        {
+          "source_id": "https://openalex.org/W3168997536",
+          "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+          "year": "2021",
+          "cited_by_count": 4618,
+          "url": "/domains/physics/papers/W3168997536"
+        },
+        {
+          "source_id": "https://openalex.org/W2047205370",
+          "title": "<scp>WSXM</scp>: A software for scanning probe microscopy and a tool for nanotechnology",
           "year": "2007",
-          "cited_by_count": 29504,
-          "url": "/domains/physics/papers/W2150697053"
+          "cited_by_count": 7626,
+          "url": "/domains/physics/papers/W2047205370"
+        }
+      ]
+    },
+    {
+      "id": "sg-condensed-matter-physics",
+      "label": "Condensed matter physics",
+      "url": "/domains/physics/topics/sg-condensed-matter-physics",
+      "paper_count": 40,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: nanotechnology, optoelectronics, condensed matter physics",
+      "tags": [
+        "condensed matter physics",
+        "physics of crystals",
+        "physics of superconductivity and magnetism",
+        "semiclassical physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-condensed-matter-physics-amorphous-semiconductors",
+          "label": "Amorphous semiconductors",
+          "url": "/domains/physics/topics/sg-condensed-matter-physics-amorphous-semiconductors",
+          "paper_count": 13
         },
         {
-          "source_id": "https://openalex.org/W1909359706",
-          "title": "Planck 2015 results",
-          "year": "2016",
-          "cited_by_count": 5466,
-          "url": "/domains/physics/papers/W1909359706"
+          "id": "sg-condensed-matter-physics-condensed-matter-physics-i",
+          "label": "Condensed matter physics</i>",
+          "url": "/domains/physics/topics/sg-condensed-matter-physics-condensed-matter-physics-i",
+          "paper_count": 11
         },
         {
-          "source_id": "https://openalex.org/W2160253850",
-          "title": "FIVE-YEAR<i>WILKINSON MICROWAVE ANISOTROPY PROBE</i>OBSERVATIONS: COSMOLOGICAL INTERPRETATION",
-          "year": "2009",
-          "cited_by_count": 5703,
-          "url": "/domains/physics/papers/W2160253850"
+          "id": "sg-condensed-matter-physics-van-der-waals-force",
+          "label": "Van der waals force",
+          "url": "/domains/physics/topics/sg-condensed-matter-physics-van-der-waals-force",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-condensed-matter-physics-semiconductor-device",
+          "label": "Semiconductor device",
+          "url": "/domains/physics/topics/sg-condensed-matter-physics-semiconductor-device",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-condensed-matter-physics-physics-of-semiconductor",
+          "label": "Physics of semiconductor",
+          "url": "/domains/physics/topics/sg-condensed-matter-physics-physics-of-semiconductor",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-condensed-matter-physics-state-of-matter",
+          "label": "State of matter",
+          "url": "/domains/physics/topics/sg-condensed-matter-physics-state-of-matter",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3021238137",
+          "title": "The Physics of Semiconductor Devices",
+          "year": "2024",
+          "cited_by_count": 4051,
+          "url": "/domains/physics/papers/W3021238137"
+        },
+        {
+          "source_id": "https://openalex.org/W2793369479",
+          "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+          "year": "2018",
+          "cited_by_count": 8107,
+          "url": "/domains/physics/papers/W2793369479"
+        },
+        {
+          "source_id": "https://openalex.org/W2490765418",
+          "title": "Physics of Semiconductor Devices",
+          "year": "2006",
+          "cited_by_count": 12701,
+          "url": "/domains/physics/papers/W2490765418"
+        }
+      ]
+    },
+    {
+      "id": "sg-classical-mechanics",
+      "label": "Classical mechanics",
+      "url": "/domains/physics/topics/sg-classical-mechanics",
+      "paper_count": 27,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: of the, classical mechanics, laws of physics",
+      "tags": [
+        "atomic and molecular physics",
+        "classical mechanics",
+        "dynamical in mechanics physics",
+        "gravitational physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-classical-mechanics-gravitational-singularity",
+          "label": "Gravitational singularity",
+          "url": "/domains/physics/topics/sg-classical-mechanics-gravitational-singularity",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-classical-mechanics-differential-equations",
+          "label": "Differential equations",
+          "url": "/domains/physics/topics/sg-classical-mechanics-differential-equations",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-classical-mechanics-mathematical-physics",
+          "label": "Mathematical physics",
+          "url": "/domains/physics/topics/sg-classical-mechanics-mathematical-physics",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2126479355",
+          "title": "Mathematical Methods of Classical Mechanics",
+          "year": "1989",
+          "cited_by_count": 9167,
+          "url": "/domains/physics/papers/W2126479355"
+        },
+        {
+          "source_id": "https://openalex.org/W2029403139",
+          "title": "The Large Scale Structure of Space-Time",
+          "year": "1973",
+          "cited_by_count": 10308,
+          "url": "/domains/physics/papers/W2029403139"
+        },
+        {
+          "source_id": "https://openalex.org/W2150312211",
+          "title": "Flocks, herds and schools: A distributed behavioral model",
+          "year": "1987",
+          "cited_by_count": 7716,
+          "url": "/domains/physics/papers/W2150312211"
+        }
+      ]
+    },
+    {
+      "id": "sg-particle-physics",
+      "label": "Particle physics",
+      "url": "/domains/physics/topics/sg-particle-physics",
+      "paper_count": 24,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: theory, of the, model",
+      "tags": [
+        "astroparticle physics",
+        "elementary particle physics",
+        "model of elementary particle",
+        "modern physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-particle-physics-standard-model",
+          "label": "Standard Model",
+          "url": "/domains/physics/topics/sg-particle-physics-standard-model",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-particle-physics-climate-change",
+          "label": "Climate change",
+          "url": "/domains/physics/topics/sg-particle-physics-climate-change",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-particle-physics-elementary-particle-models",
+          "label": "Elementary particle models",
+          "url": "/domains/physics/topics/sg-particle-physics-elementary-particle-models",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-particle-physics-mathematical-physics",
+          "label": "Mathematical physics",
+          "url": "/domains/physics/topics/sg-particle-physics-mathematical-physics",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4401211033",
+          "title": "Review of Particle Physics",
+          "year": "2024",
+          "cited_by_count": 2527,
+          "url": "/domains/physics/papers/W4401211033"
+        },
+        {
+          "source_id": "https://openalex.org/W1991113069",
+          "title": "Fronts propagating with curvature-dependent speed: Algorithms based on Hamilton-Jacobi formulations",
+          "year": "1988",
+          "cited_by_count": 13820,
+          "url": "/domains/physics/papers/W1991113069"
+        },
+        {
+          "source_id": "https://openalex.org/W2110999179",
+          "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
+          "year": "2014",
+          "cited_by_count": 7352,
+          "url": "/domains/physics/papers/W2110999179"
         }
       ]
     }
   ],
   "paper_shelves": [
     {
-      "label": "Statistical physics",
-      "paper_count": 8,
+      "label": "Field theory",
+      "paper_count": 7,
       "papers": [
         {
-          "title": "Emergence of Scaling in Random Networks",
-          "year": "1999",
-          "cited_by_count": 36107,
-          "topic": "Statistical physics",
-          "url": "papers/https-openalex-org-w2008620264.html"
+          "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
+          "year": "2018",
+          "cited_by_count": 8245,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w2790756470.html"
         },
         {
-          "title": "Molecular dynamics with coupling to an external bath",
-          "year": "1984",
-          "cited_by_count": 30621,
-          "topic": "Statistical physics",
-          "url": "papers/https-openalex-org-w2035266068.html"
+          "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+          "year": "2010",
+          "cited_by_count": 11138,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w2166073443.html"
         },
         {
-          "title": "Phase Transitions and Critical Phenomena",
+          "title": "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings",
+          "year": "2021",
+          "cited_by_count": 6117,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w3168436232.html"
+        },
+        {
+          "title": "Physics-informed machine learning",
+          "year": "2021",
+          "cited_by_count": 5913,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w3163993681.html"
+        },
+        {
+          "title": "Graphene and Graphene Oxide: Synthesis, Properties, and Applications",
+          "year": "2010",
+          "cited_by_count": 10373,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w1976156302.html"
+        },
+        {
+          "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+          "year": "2023",
+          "cited_by_count": 4432,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w4323655724.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum mechanics",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "CRC Handbook of Chemistry and Physics",
+          "year": "2014",
+          "cited_by_count": 57798,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w2132905138.html"
+        },
+        {
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36311,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w3003257820.html"
+        },
+        {
+          "title": "&lt;i&gt;Planck&lt;/i&gt; 2018 results",
+          "year": "2020",
+          "cited_by_count": 13529,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w4288079944.html"
+        },
+        {
+          "title": "&lt;i&gt;Gaia&lt;/i&gt; Data Release 2",
+          "year": "2018",
+          "cited_by_count": 8579,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w2798336535.html"
+        },
+        {
+          "title": "Physics of Semiconductor Devices",
+          "year": "2002",
+          "cited_by_count": 14030,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w3147289055.html"
+        },
+        {
+          "title": "Quantum Computing in the NISQ era and beyond",
+          "year": "2018",
+          "cited_by_count": 7892,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w2781738013.html"
+        }
+      ]
+    },
+    {
+      "label": "Black hole",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
           "year": "2016",
-          "cited_by_count": 11279,
-          "topic": "Statistical physics",
-          "url": "papers/https-openalex-org-w1540380506.html"
+          "cited_by_count": 13999,
+          "topic": "Black hole",
+          "url": "papers/https-openalex-org-w2252795400.html"
         },
         {
-          "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
-          "year": "1999",
-          "cited_by_count": 18502,
-          "topic": "Statistical physics",
-          "url": "papers/https-openalex-org-w2008423326.html"
+          "title": "Journal of Physics: Conference Series",
+          "year": "2013",
+          "cited_by_count": 15702,
+          "topic": "Black hole",
+          "url": "papers/https-openalex-org-w2990714382.html"
         },
         {
-          "title": "Measurements of Ω and Λ from 42 High‐Redshift Supernovae",
-          "year": "1999",
-          "cited_by_count": 17736,
+          "title": "Quantum supremacy using a programmable superconducting processor",
+          "year": "2019",
+          "cited_by_count": 6819,
+          "topic": "Black hole",
+          "url": "papers/https-openalex-org-w2982169647.html"
+        },
+        {
+          "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+          "year": "2010",
+          "cited_by_count": 9998,
+          "topic": "Black hole",
+          "url": "papers/https-openalex-org-w2146687568.html"
+        },
+        {
+          "title": "Structural absorption by barbule microstructures of super black bird of paradise feathers",
+          "year": "2017",
+          "cited_by_count": 7480,
+          "topic": "Black hole",
+          "url": "papers/https-openalex-org-w2777639606.html"
+        }
+      ]
+    },
+    {
+      "label": "Statistical physics",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Computer Simulation of Liquids",
+          "year": "2017",
+          "cited_by_count": 20864,
           "topic": "Statistical physics",
-          "url": "papers/https-openalex-org-w1853767801.html"
+          "url": "papers/https-openalex-org-w2041902442.html"
+        },
+        {
+          "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+          "year": "2000",
+          "cited_by_count": 14255,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w2162800060.html"
         },
         {
           "title": "Introduction to Solid State Physics",
@@ -594,263 +1030,168 @@
           "cited_by_count": 22420,
           "topic": "Statistical physics",
           "url": "papers/https-openalex-org-w2056722718.html"
+        },
+        {
+          "title": "Data clustering",
+          "year": "1999",
+          "cited_by_count": 13100,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w1992419399.html"
+        },
+        {
+          "title": "Power-law distributions in empirical data",
+          "year": "2018",
+          "cited_by_count": 6793,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w3103362336.html"
         }
       ]
     },
     {
-      "label": "Particle physics",
-      "paper_count": 7,
+      "label": "Condensed matter physics",
+      "paper_count": 4,
       "papers": [
         {
-          "title": "&lt;i&gt;Planck&lt;/i&gt; 2018 results",
-          "year": "2020",
-          "cited_by_count": 13517,
-          "topic": "Particle physics",
-          "url": "papers/https-openalex-org-w4288079944.html"
+          "title": "The Physics of Semiconductor Devices",
+          "year": "2024",
+          "cited_by_count": 4051,
+          "topic": "Condensed matter physics",
+          "url": "papers/https-openalex-org-w3021238137.html"
+        },
+        {
+          "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+          "year": "2018",
+          "cited_by_count": 8107,
+          "topic": "Condensed matter physics",
+          "url": "papers/https-openalex-org-w2793369479.html"
+        },
+        {
+          "title": "Physics of Semiconductor Devices",
+          "year": "2006",
+          "cited_by_count": 12701,
+          "topic": "Condensed matter physics",
+          "url": "papers/https-openalex-org-w2490765418.html"
+        },
+        {
+          "title": "Inorganic Chemistry: Principles of Structure and Reactivity",
+          "year": "2024",
+          "cited_by_count": 2395,
+          "topic": "Condensed matter physics",
+          "url": "papers/https-openalex-org-w4403733501.html"
+        }
+      ]
+    },
+    {
+      "label": "Nuclear physics",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Review of Particle Physics",
+          "year": "2022",
+          "cited_by_count": 6173,
+          "topic": "Nuclear physics",
+          "url": "papers/https-openalex-org-w2963002078.html"
         },
         {
           "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
           "year": "2012",
-          "cited_by_count": 10633,
-          "topic": "Particle physics",
+          "cited_by_count": 10634,
+          "topic": "Nuclear physics",
           "url": "papers/https-openalex-org-w1858542512.html"
         },
         {
           "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
           "year": "2012",
-          "cited_by_count": 9894,
-          "topic": "Particle physics",
+          "cited_by_count": 9895,
+          "topic": "Nuclear physics",
           "url": "papers/https-openalex-org-w2167727518.html"
         },
         {
           "title": "Review of Particle Physics",
           "year": "2018",
           "cited_by_count": 7187,
-          "topic": "Particle physics",
+          "topic": "Nuclear physics",
           "url": "papers/https-openalex-org-w2899140785.html"
-        },
-        {
-          "title": "Review of Particle Physics",
-          "year": "2016",
-          "cited_by_count": 7382,
-          "topic": "Particle physics",
-          "url": "papers/https-openalex-org-w3084106382.html"
-        },
-        {
-          "title": "The Chemical Composition of the Sun",
-          "year": "2009",
-          "cited_by_count": 9239,
-          "topic": "Particle physics",
-          "url": "papers/https-openalex-org-w2899497983.html"
         }
       ]
     },
     {
       "label": "Electronic structure",
-      "paper_count": 6,
-      "papers": [
-        {
-          "title": "CRC Handbook of Chemistry and Physics",
-          "year": "2014",
-          "cited_by_count": 57796,
-          "topic": "Electronic structure",
-          "url": "papers/https-openalex-org-w2132905138.html"
-        },
-        {
-          "title": "CRC Handbook of Chemistry and Physics",
-          "year": "2016",
-          "cited_by_count": 13816,
-          "topic": "Electronic structure",
-          "url": "papers/https-openalex-org-w2964344211.html"
-        },
-        {
-          "title": "The Physics of Semiconductor Devices",
-          "year": "2024",
-          "cited_by_count": 4051,
-          "topic": "Electronic structure",
-          "url": "papers/https-openalex-org-w3021238137.html"
-        },
-        {
-          "title": "Unconventional superconductivity in magic-angle graphene superlattices",
-          "year": "2018",
-          "cited_by_count": 8101,
-          "topic": "Electronic structure",
-          "url": "papers/https-openalex-org-w2793369479.html"
-        },
-        {
-          "title": "Physics of Semiconductor Devices",
-          "year": "2002",
-          "cited_by_count": 14030,
-          "topic": "Electronic structure",
-          "url": "papers/https-openalex-org-w3147289055.html"
-        },
-        {
-          "title": "Physics of Semiconductor Devices",
-          "year": "2006",
-          "cited_by_count": 12699,
-          "topic": "Electronic structure",
-          "url": "papers/https-openalex-org-w2490765418.html"
-        }
-      ]
-    },
-    {
-      "label": "Cosmology gravitation theory",
       "paper_count": 3,
       "papers": [
         {
-          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
-          "year": "2016",
-          "cited_by_count": 13992,
-          "topic": "Cosmology gravitation theory",
-          "url": "papers/https-openalex-org-w2252795400.html"
-        },
-        {
-          "title": "Journal of Physics: Conference Series",
+          "title": "Van der Waals heterostructures",
           "year": "2013",
-          "cited_by_count": 15702,
-          "topic": "Cosmology gravitation theory",
-          "url": "papers/https-openalex-org-w2990714382.html"
+          "cited_by_count": 10538,
+          "topic": "Electronic structure",
+          "url": "papers/https-openalex-org-w2096421416.html"
         },
         {
-          "title": "&lt;i&gt;Planck&lt;/i&gt;2015 results",
-          "year": "2016",
-          "cited_by_count": 10530,
-          "topic": "Cosmology gravitation theory",
-          "url": "papers/https-openalex-org-w4292875581.html"
-        }
-      ]
-    },
-    {
-      "label": "Mathematical physics",
-      "paper_count": 3,
-      "papers": [
-        {
-          "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
-          "year": "1965",
-          "cited_by_count": 62425,
-          "topic": "Mathematical physics",
-          "url": "papers/https-openalex-org-w2230728100.html"
-        },
-        {
-          "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
-          "year": "2018",
-          "cited_by_count": 15249,
-          "topic": "Mathematical physics",
-          "url": "papers/https-openalex-org-w2899283552.html"
-        },
-        {
-          "title": "Inhibited Spontaneous Emission in Solid-State Physics and Electronics",
-          "year": "1987",
-          "cited_by_count": 13889,
-          "topic": "Mathematical physics",
-          "url": "papers/https-openalex-org-w2075689277.html"
-        }
-      ]
-    },
-    {
-      "label": "Others",
-      "paper_count": 3,
-      "papers": [
-        {
-          "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
-          "year": "2017",
-          "cited_by_count": 9434,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w2765081049.html"
-        },
-        {
-          "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
-          "year": "2018",
-          "cited_by_count": 8245,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w2790756470.html"
-        },
-        {
-          "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
-          "year": "2022",
-          "cited_by_count": 4253,
-          "topic": "Others",
-          "url": "papers/https-openalex-org-w4293212596.html"
-        }
-      ]
-    },
-    {
-      "label": "Quantum electrodynamics",
-      "paper_count": 3,
-      "papers": [
-        {
-          "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
-          "year": "2019",
-          "cited_by_count": 8265,
-          "topic": "Quantum electrodynamics",
-          "url": "papers/https-openalex-org-w3105982350.html"
+          "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX&lt;sub&gt;3&lt;/sub&gt;, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+          "year": "2015",
+          "cited_by_count": 8806,
+          "topic": "Electronic structure",
+          "url": "papers/https-openalex-org-w1963721320.html"
         },
         {
           "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
           "year": "2017",
-          "cited_by_count": 7233,
-          "topic": "Quantum electrodynamics",
+          "cited_by_count": 7244,
+          "topic": "Electronic structure",
           "url": "papers/https-openalex-org-w2757803490.html"
+        }
+      ]
+    },
+    {
+      "label": "Magnetic resonance",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis",
+          "year": "1980",
+          "cited_by_count": 20551,
+          "topic": "Magnetic resonance",
+          "url": "papers/https-openalex-org-w2038533471.html"
         },
         {
-          "title": "The&lt;i&gt;Gaia&lt;/i&gt;mission",
+          "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+          "year": "2020",
+          "cited_by_count": 7255,
+          "topic": "Magnetic resonance",
+          "url": "papers/https-openalex-org-w3015391807.html"
+        }
+      ]
+    },
+    {
+      "label": "Theoretical physics",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39196,
+          "topic": "Theoretical physics",
+          "url": "papers/https-openalex-org-w2014935324.html"
+        },
+        {
+          "title": "CRC Handbook of Chemistry and Physics",
           "year": "2016",
-          "cited_by_count": 6831,
-          "topic": "Quantum electrodynamics",
-          "url": "papers/https-openalex-org-w147232447.html"
+          "cited_by_count": 13817,
+          "topic": "Theoretical physics",
+          "url": "papers/https-openalex-org-w2964344211.html"
         }
       ]
     },
     {
-      "label": "Dark matter",
-      "paper_count": 2,
-      "papers": [
-        {
-          "title": "Review of Particle Physics",
-          "year": "2022",
-          "cited_by_count": 6170,
-          "topic": "Dark matter",
-          "url": "papers/https-openalex-org-w2963002078.html"
-        },
-        {
-          "title": "Review of Particle Physics",
-          "year": "2024",
-          "cited_by_count": 2520,
-          "topic": "Dark matter",
-          "url": "papers/https-openalex-org-w4401211033.html"
-        }
-      ]
-    },
-    {
-      "label": "Power law",
-      "paper_count": 2,
-      "papers": [
-        {
-          "title": "Community structure in social and biological networks",
-          "year": "2002",
-          "cited_by_count": 15554,
-          "topic": "Power law",
-          "url": "papers/https-openalex-org-w1971421925.html"
-        },
-        {
-          "title": "Physics-informed machine learning",
-          "year": "2021",
-          "cited_by_count": 5896,
-          "topic": "Power law",
-          "url": "papers/https-openalex-org-w3163993681.html"
-        }
-      ]
-    },
-    {
-      "label": "Dark energy",
+      "label": "Particle physics",
       "paper_count": 1,
       "papers": [
         {
-          "title": "The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: two new functionals and systematic testing of four M06-class functionals and 12 other functionals",
-          "year": "2007",
-          "cited_by_count": 29504,
-          "topic": "Dark energy",
-          "url": "papers/https-openalex-org-w2150697053.html"
+          "title": "Review of Particle Physics",
+          "year": "2024",
+          "cited_by_count": 2527,
+          "topic": "Particle physics",
+          "url": "papers/https-openalex-org-w4401211033.html"
         }
       ]
     }
@@ -860,100 +1201,70 @@
       "source_id": "https://openalex.org/W2132905138",
       "title": "CRC Handbook of Chemistry and Physics",
       "year": 2014,
-      "cited_by_count": 57796,
-      "adjusted_cited_by_count": 16684.27,
-      "primary_topic_id": "sg-statistical-physics-electronic-structure",
-      "primary_topic_label": "Electronic structure",
+      "cited_by_count": 57798,
+      "adjusted_cited_by_count": 16684.85,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
       "url": "/domains/physics/papers/W2132905138"
     },
     {
-      "source_id": "https://openalex.org/W2230728100",
-      "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
-      "year": 1965,
-      "cited_by_count": 62425,
-      "adjusted_cited_by_count": 7992.7,
-      "primary_topic_id": "sg-mathematical-physics",
-      "primary_topic_label": "Mathematical physics",
-      "url": "/domains/physics/papers/W2230728100"
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36311,
+      "adjusted_cited_by_count": 14823.9,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/physics/papers/W3003257820"
     },
     {
-      "source_id": "https://openalex.org/W2008620264",
-      "title": "Emergence of Scaling in Random Networks",
-      "year": 1999,
-      "cited_by_count": 36107,
-      "adjusted_cited_by_count": 6948.8,
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39196,
+      "adjusted_cited_by_count": 8992.18,
+      "primary_topic_id": "sg-theoretical-physics",
+      "primary_topic_label": "Theoretical physics",
+      "url": "/domains/physics/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2041902442",
+      "title": "Computer Simulation of Liquids",
+      "year": 2017,
+      "cited_by_count": 20864,
+      "adjusted_cited_by_count": 6954.67,
       "primary_topic_id": "sg-statistical-physics",
       "primary_topic_label": "Statistical physics",
-      "url": "/domains/physics/papers/W2008620264"
-    },
-    {
-      "source_id": "https://openalex.org/W2120145199",
-      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
-      "year": 2009,
-      "cited_by_count": 28395,
-      "adjusted_cited_by_count": 6886.8,
-      "primary_topic_id": "sg-particle-physics-large-hadron-collider",
-      "primary_topic_label": "Large hadron collider",
-      "url": "/domains/physics/papers/W2120145199"
-    },
-    {
-      "source_id": "https://openalex.org/W2150697053",
-      "title": "The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: two new functionals and systematic testing of four M06-class functionals and 12 other functionals",
-      "year": 2007,
-      "cited_by_count": 29504,
-      "adjusted_cited_by_count": 6768.68,
-      "primary_topic_id": "sg-dark-energy",
-      "primary_topic_label": "Dark energy",
-      "url": "/domains/physics/papers/W2150697053"
+      "url": "/domains/physics/papers/W2041902442"
     },
     {
       "source_id": "https://openalex.org/W4288079944",
       "title": "<i>Planck</i> 2018 results",
       "year": 2020,
-      "cited_by_count": 13517,
-      "adjusted_cited_by_count": 5518.29,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
+      "cited_by_count": 13529,
+      "adjusted_cited_by_count": 5523.19,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
       "url": "/domains/physics/papers/W4288079944"
-    },
-    {
-      "source_id": "https://openalex.org/W2899283552",
-      "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
-      "year": 2018,
-      "cited_by_count": 15249,
-      "adjusted_cited_by_count": 5391.34,
-      "primary_topic_id": "sg-mathematical-physics",
-      "primary_topic_label": "Mathematical physics",
-      "url": "/domains/physics/papers/W2899283552"
-    },
-    {
-      "source_id": "https://openalex.org/W2035266068",
-      "title": "Molecular dynamics with coupling to an external bath",
-      "year": 1984,
-      "cited_by_count": 30621,
-      "adjusted_cited_by_count": 4724.92,
-      "primary_topic_id": "sg-statistical-physics",
-      "primary_topic_label": "Statistical physics",
-      "url": "/domains/physics/papers/W2035266068"
     },
     {
       "source_id": "https://openalex.org/W2252795400",
       "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
       "year": 2016,
-      "cited_by_count": 13992,
-      "adjusted_cited_by_count": 4424.66,
-      "primary_topic_id": "sg-cosmology-gravitation-theory",
-      "primary_topic_label": "Cosmology gravitation theory",
+      "cited_by_count": 13999,
+      "adjusted_cited_by_count": 4426.87,
+      "primary_topic_id": "sg-black-hole",
+      "primary_topic_label": "Black hole",
       "url": "/domains/physics/papers/W2252795400"
     },
     {
       "source_id": "https://openalex.org/W2964344211",
       "title": "CRC Handbook of Chemistry and Physics",
       "year": 2016,
-      "cited_by_count": 13816,
-      "adjusted_cited_by_count": 4369.0,
-      "primary_topic_id": "sg-statistical-physics-electronic-structure",
-      "primary_topic_label": "Electronic structure",
+      "cited_by_count": 13817,
+      "adjusted_cited_by_count": 4369.32,
+      "primary_topic_id": "sg-theoretical-physics",
+      "primary_topic_label": "Theoretical physics",
       "url": "/domains/physics/papers/W2964344211"
     },
     {
@@ -962,8 +1273,8 @@
       "year": 2013,
       "cited_by_count": 15702,
       "adjusted_cited_by_count": 4354.95,
-      "primary_topic_id": "sg-cosmology-gravitation-theory",
-      "primary_topic_label": "Cosmology gravitation theory",
+      "primary_topic_id": "sg-black-hole",
+      "primary_topic_label": "Black hole",
       "url": "/domains/physics/papers/W2990714382"
     },
     {
@@ -972,99 +1283,59 @@
       "year": 2024,
       "cited_by_count": 4051,
       "adjusted_cited_by_count": 4051.0,
-      "primary_topic_id": "sg-statistical-physics-electronic-structure",
-      "primary_topic_label": "Electronic structure",
+      "primary_topic_id": "sg-condensed-matter-physics",
+      "primary_topic_label": "Condensed matter physics",
       "url": "/domains/physics/papers/W3021238137"
-    },
-    {
-      "source_id": "https://openalex.org/W1540380506",
-      "title": "Phase Transitions and Critical Phenomena",
-      "year": 2016,
-      "cited_by_count": 11279,
-      "adjusted_cited_by_count": 3566.73,
-      "primary_topic_id": "sg-statistical-physics",
-      "primary_topic_label": "Statistical physics",
-      "url": "/domains/physics/papers/W1540380506"
-    },
-    {
-      "source_id": "https://openalex.org/W2008423326",
-      "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
-      "year": 1999,
-      "cited_by_count": 18502,
-      "adjusted_cited_by_count": 3560.71,
-      "primary_topic_id": "sg-statistical-physics",
-      "primary_topic_label": "Statistical physics",
-      "url": "/domains/physics/papers/W2008423326"
-    },
-    {
-      "source_id": "https://openalex.org/W1853767801",
-      "title": "Measurements of Ω and Λ from 42 High‐Redshift Supernovae",
-      "year": 1999,
-      "cited_by_count": 17736,
-      "adjusted_cited_by_count": 3413.29,
-      "primary_topic_id": "sg-statistical-physics",
-      "primary_topic_label": "Statistical physics",
-      "url": "/domains/physics/papers/W1853767801"
-    },
-    {
-      "source_id": "https://openalex.org/W4292875581",
-      "title": "<i>Planck</i>2015 results",
-      "year": 2016,
-      "cited_by_count": 10530,
-      "adjusted_cited_by_count": 3329.88,
-      "primary_topic_id": "sg-cosmology-gravitation-theory",
-      "primary_topic_label": "Cosmology gravitation theory",
-      "url": "/domains/physics/papers/W4292875581"
-    },
-    {
-      "source_id": "https://openalex.org/W1971421925",
-      "title": "Community structure in social and biological networks",
-      "year": 2002,
-      "cited_by_count": 15554,
-      "adjusted_cited_by_count": 3174.95,
-      "primary_topic_id": "sg-statistical-physics-power-law",
-      "primary_topic_label": "Power law",
-      "url": "/domains/physics/papers/W1971421925"
-    },
-    {
-      "source_id": "https://openalex.org/W2765081049",
-      "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
-      "year": 2017,
-      "cited_by_count": 9434,
-      "adjusted_cited_by_count": 3144.67,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/physics/papers/W2765081049"
-    },
-    {
-      "source_id": "https://openalex.org/W3105982350",
-      "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
-      "year": 2019,
-      "cited_by_count": 8265,
-      "adjusted_cited_by_count": 3123.88,
-      "primary_topic_id": "sg-mathematical-physics-quantum-electrodynamics",
-      "primary_topic_label": "Quantum electrodynamics",
-      "url": "/domains/physics/papers/W3105982350"
     },
     {
       "source_id": "https://openalex.org/W2963002078",
       "title": "Review of Particle Physics",
       "year": 2022,
-      "cited_by_count": 6170,
-      "adjusted_cited_by_count": 3085.0,
-      "primary_topic_id": "sg-dark-matter",
-      "primary_topic_label": "Dark matter",
+      "cited_by_count": 6173,
+      "adjusted_cited_by_count": 3086.5,
+      "primary_topic_id": "sg-nuclear-physics",
+      "primary_topic_label": "Nuclear physics",
       "url": "/domains/physics/papers/W2963002078"
     },
     {
       "source_id": "https://openalex.org/W2798336535",
       "title": "<i>Gaia</i> Data Release 2",
       "year": 2018,
-      "cited_by_count": 8577,
-      "adjusted_cited_by_count": 3032.43,
-      "primary_topic_id": "sg-cosmology-gravitation-theory-lambda-cdm-model",
-      "primary_topic_label": "Lambda-cdm model",
+      "cited_by_count": 8579,
+      "adjusted_cited_by_count": 3033.13,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
       "url": "/domains/physics/papers/W2798336535"
+    },
+    {
+      "source_id": "https://openalex.org/W2038533471",
+      "title": "Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis",
+      "year": 1980,
+      "cited_by_count": 20551,
+      "adjusted_cited_by_count": 3030.08,
+      "primary_topic_id": "sg-magnetic-resonance",
+      "primary_topic_label": "Magnetic resonance",
+      "url": "/domains/physics/papers/W2038533471"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7255,
+      "adjusted_cited_by_count": 2961.84,
+      "primary_topic_id": "sg-magnetic-resonance",
+      "primary_topic_label": "Magnetic resonance",
+      "url": "/domains/physics/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2096421416",
+      "title": "Van der Waals heterostructures",
+      "year": 2013,
+      "cited_by_count": 10538,
+      "adjusted_cited_by_count": 2922.72,
+      "primary_topic_id": "sg-electronic-structure",
+      "primary_topic_label": "Electronic structure",
+      "url": "/domains/physics/papers/W2096421416"
     },
     {
       "source_id": "https://openalex.org/W2790756470",
@@ -1072,18 +1343,18 @@
       "year": 2018,
       "cited_by_count": 8245,
       "adjusted_cited_by_count": 2915.05,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
       "url": "/domains/physics/papers/W2790756470"
     },
     {
       "source_id": "https://openalex.org/W2793369479",
       "title": "Unconventional superconductivity in magic-angle graphene superlattices",
       "year": 2018,
-      "cited_by_count": 8101,
-      "adjusted_cited_by_count": 2864.14,
-      "primary_topic_id": "sg-statistical-physics-electronic-structure",
-      "primary_topic_label": "Electronic structure",
+      "cited_by_count": 8107,
+      "adjusted_cited_by_count": 2866.26,
+      "primary_topic_id": "sg-condensed-matter-physics",
+      "primary_topic_label": "Condensed matter physics",
       "url": "/domains/physics/papers/W2793369479"
     },
     {
@@ -1092,29 +1363,69 @@
       "year": 2002,
       "cited_by_count": 14030,
       "adjusted_cited_by_count": 2863.86,
-      "primary_topic_id": "sg-statistical-physics-electronic-structure",
-      "primary_topic_label": "Electronic structure",
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
       "url": "/domains/physics/papers/W3147289055"
     },
     {
       "source_id": "https://openalex.org/W1858542512",
       "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
       "year": 2012,
-      "cited_by_count": 10633,
-      "adjusted_cited_by_count": 2841.79,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
+      "cited_by_count": 10634,
+      "adjusted_cited_by_count": 2842.06,
+      "primary_topic_id": "sg-nuclear-physics",
+      "primary_topic_label": "Nuclear physics",
       "url": "/domains/physics/papers/W1858542512"
     },
     {
       "source_id": "https://openalex.org/W2490765418",
       "title": "Physics of Semiconductor Devices",
       "year": 2006,
-      "cited_by_count": 12699,
-      "adjusted_cited_by_count": 2839.58,
-      "primary_topic_id": "sg-statistical-physics-electronic-structure",
-      "primary_topic_label": "Electronic structure",
+      "cited_by_count": 12701,
+      "adjusted_cited_by_count": 2840.03,
+      "primary_topic_id": "sg-condensed-matter-physics",
+      "primary_topic_label": "Condensed matter physics",
       "url": "/domains/physics/papers/W2490765418"
+    },
+    {
+      "source_id": "https://openalex.org/W2162800060",
+      "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+      "year": 2000,
+      "cited_by_count": 14255,
+      "adjusted_cited_by_count": 2795.64,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/physics/papers/W2162800060"
+    },
+    {
+      "source_id": "https://openalex.org/W2781738013",
+      "title": "Quantum Computing in the NISQ era and beyond",
+      "year": 2018,
+      "cited_by_count": 7892,
+      "adjusted_cited_by_count": 2790.24,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/physics/papers/W2781738013"
+    },
+    {
+      "source_id": "https://openalex.org/W2166073443",
+      "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+      "year": 2010,
+      "cited_by_count": 11138,
+      "adjusted_cited_by_count": 2784.5,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/physics/papers/W2166073443"
+    },
+    {
+      "source_id": "https://openalex.org/W3168436232",
+      "title": "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings",
+      "year": 2021,
+      "cited_by_count": 6117,
+      "adjusted_cited_by_count": 2735.61,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/physics/papers/W3168436232"
     },
     {
       "source_id": "https://openalex.org/W2056722718",
@@ -1127,24 +1438,64 @@
       "url": "/domains/physics/papers/W2056722718"
     },
     {
+      "source_id": "https://openalex.org/W1963721320",
+      "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX<sub>3</sub>, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+      "year": 2015,
+      "cited_by_count": 8806,
+      "adjusted_cited_by_count": 2655.11,
+      "primary_topic_id": "sg-electronic-structure",
+      "primary_topic_label": "Electronic structure",
+      "url": "/domains/physics/papers/W1963721320"
+    },
+    {
       "source_id": "https://openalex.org/W2167727518",
       "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
       "year": 2012,
-      "cited_by_count": 9894,
-      "adjusted_cited_by_count": 2644.28,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
+      "cited_by_count": 9895,
+      "adjusted_cited_by_count": 2644.55,
+      "primary_topic_id": "sg-nuclear-physics",
+      "primary_topic_label": "Nuclear physics",
       "url": "/domains/physics/papers/W2167727518"
     },
     {
       "source_id": "https://openalex.org/W3163993681",
       "title": "Physics-informed machine learning",
       "year": 2021,
-      "cited_by_count": 5896,
-      "adjusted_cited_by_count": 2636.77,
-      "primary_topic_id": "sg-statistical-physics-power-law",
-      "primary_topic_label": "Power law",
+      "cited_by_count": 5913,
+      "adjusted_cited_by_count": 2644.37,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
       "url": "/domains/physics/papers/W3163993681"
+    },
+    {
+      "source_id": "https://openalex.org/W1976156302",
+      "title": "Graphene and Graphene Oxide: Synthesis, Properties, and Applications",
+      "year": 2010,
+      "cited_by_count": 10373,
+      "adjusted_cited_by_count": 2593.25,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/physics/papers/W1976156302"
+    },
+    {
+      "source_id": "https://openalex.org/W2982169647",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "year": 2019,
+      "cited_by_count": 6819,
+      "adjusted_cited_by_count": 2577.34,
+      "primary_topic_id": "sg-black-hole",
+      "primary_topic_label": "Black hole",
+      "url": "/domains/physics/papers/W2982169647"
+    },
+    {
+      "source_id": "https://openalex.org/W4323655724",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "year": 2023,
+      "cited_by_count": 4432,
+      "adjusted_cited_by_count": 2558.82,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/physics/papers/W4323655724"
     },
     {
       "source_id": "https://openalex.org/W2899140785",
@@ -1152,28 +1503,68 @@
       "year": 2018,
       "cited_by_count": 7187,
       "adjusted_cited_by_count": 2540.99,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
+      "primary_topic_id": "sg-nuclear-physics",
+      "primary_topic_label": "Nuclear physics",
       "url": "/domains/physics/papers/W2899140785"
     },
     {
       "source_id": "https://openalex.org/W4401211033",
       "title": "Review of Particle Physics",
       "year": 2024,
-      "cited_by_count": 2520,
-      "adjusted_cited_by_count": 2520.0,
-      "primary_topic_id": "sg-dark-matter",
-      "primary_topic_label": "Dark matter",
+      "cited_by_count": 2527,
+      "adjusted_cited_by_count": 2527.0,
+      "primary_topic_id": "sg-particle-physics",
+      "primary_topic_label": "Particle physics",
       "url": "/domains/physics/papers/W4401211033"
+    },
+    {
+      "source_id": "https://openalex.org/W1992419399",
+      "title": "Data clustering",
+      "year": 1999,
+      "cited_by_count": 13100,
+      "adjusted_cited_by_count": 2521.1,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/physics/papers/W1992419399"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9998,
+      "adjusted_cited_by_count": 2499.5,
+      "primary_topic_id": "sg-black-hole",
+      "primary_topic_label": "Black hole",
+      "url": "/domains/physics/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W2777639606",
+      "title": "Structural absorption by barbule microstructures of super black bird of paradise feathers",
+      "year": 2017,
+      "cited_by_count": 7480,
+      "adjusted_cited_by_count": 2493.33,
+      "primary_topic_id": "sg-black-hole",
+      "primary_topic_label": "Black hole",
+      "url": "/domains/physics/papers/W2777639606"
+    },
+    {
+      "source_id": "https://openalex.org/W2969718750",
+      "title": "Toward understanding the origin and evolution of cellular organisms",
+      "year": 2019,
+      "cited_by_count": 6462,
+      "adjusted_cited_by_count": 2442.41,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/physics/papers/W2969718750"
     },
     {
       "source_id": "https://openalex.org/W2757803490",
       "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
       "year": 2017,
-      "cited_by_count": 7233,
-      "adjusted_cited_by_count": 2411.0,
-      "primary_topic_id": "sg-mathematical-physics-quantum-electrodynamics",
-      "primary_topic_label": "Quantum electrodynamics",
+      "cited_by_count": 7244,
+      "adjusted_cited_by_count": 2414.67,
+      "primary_topic_id": "sg-electronic-structure",
+      "primary_topic_label": "Electronic structure",
       "url": "/domains/physics/papers/W2757803490"
     },
     {
@@ -1187,74 +1578,24 @@
       "url": "/domains/physics/papers/W3103362336"
     },
     {
-      "source_id": "https://openalex.org/W3084106382",
-      "title": "Review of Particle Physics",
-      "year": 2016,
-      "cited_by_count": 7382,
-      "adjusted_cited_by_count": 2334.39,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
-      "url": "/domains/physics/papers/W3084106382"
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17438,
+      "adjusted_cited_by_count": 2395.29,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/physics/papers/W2011303397"
     },
     {
-      "source_id": "https://openalex.org/W4213343138",
-      "title": "Physical Chemistry Chemical Physics",
+      "source_id": "https://openalex.org/W4403733501",
+      "title": "Inorganic Chemistry: Principles of Structure and Reactivity",
       "year": 2024,
-      "cited_by_count": 2267,
-      "adjusted_cited_by_count": 2267.0,
-      "primary_topic_id": "sg-statistical-physics",
-      "primary_topic_label": "Statistical physics",
-      "url": "/domains/physics/papers/W4213343138"
-    },
-    {
-      "source_id": "https://openalex.org/W2899497983",
-      "title": "The Chemical Composition of the Sun",
-      "year": 2009,
-      "cited_by_count": 9239,
-      "adjusted_cited_by_count": 2240.79,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
-      "url": "/domains/physics/papers/W2899497983"
-    },
-    {
-      "source_id": "https://openalex.org/W2075689277",
-      "title": "Inhibited Spontaneous Emission in Solid-State Physics and Electronics",
-      "year": 1987,
-      "cited_by_count": 13889,
-      "adjusted_cited_by_count": 2224.02,
-      "primary_topic_id": "sg-mathematical-physics",
-      "primary_topic_label": "Mathematical physics",
-      "url": "/domains/physics/papers/W2075689277"
-    },
-    {
-      "source_id": "https://openalex.org/W147232447",
-      "title": "The<i>Gaia</i>mission",
-      "year": 2016,
-      "cited_by_count": 6831,
-      "adjusted_cited_by_count": 2160.15,
-      "primary_topic_id": "sg-mathematical-physics-quantum-electrodynamics",
-      "primary_topic_label": "Quantum electrodynamics",
-      "url": "/domains/physics/papers/W147232447"
-    },
-    {
-      "source_id": "https://openalex.org/W4293212596",
-      "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
-      "year": 2022,
-      "cited_by_count": 4253,
-      "adjusted_cited_by_count": 2126.5,
-      "primary_topic_id": "",
-      "primary_topic_label": "",
-      "url": "/domains/physics/papers/W4293212596"
-    },
-    {
-      "source_id": "https://openalex.org/W2110999179",
-      "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
-      "year": 2014,
-      "cited_by_count": 7352,
-      "adjusted_cited_by_count": 2122.34,
-      "primary_topic_id": "sg-particle-physics",
-      "primary_topic_label": "Particle physics",
-      "url": "/domains/physics/papers/W2110999179"
+      "cited_by_count": 2395,
+      "adjusted_cited_by_count": 2395.0,
+      "primary_topic_id": "sg-condensed-matter-physics",
+      "primary_topic_label": "Condensed matter physics",
+      "url": "/domains/physics/papers/W4403733501"
     }
   ],
   "representative_papers": [
@@ -1262,80 +1603,56 @@
       "source_id": "https://openalex.org/W2132905138",
       "title": "CRC Handbook of Chemistry and Physics",
       "year": 2014,
-      "cited_by_count": 57796,
-      "adjusted_cited_by_count": 16684.27,
+      "cited_by_count": 57798,
+      "adjusted_cited_by_count": 16684.85,
       "url": "/domains/physics/papers/W2132905138"
     },
     {
-      "source_id": "https://openalex.org/W2230728100",
-      "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
-      "year": 1965,
-      "cited_by_count": 62425,
-      "adjusted_cited_by_count": 7992.7,
-      "url": "/domains/physics/papers/W2230728100"
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36311,
+      "adjusted_cited_by_count": 14823.9,
+      "url": "/domains/physics/papers/W3003257820"
     },
     {
-      "source_id": "https://openalex.org/W2008620264",
-      "title": "Emergence of Scaling in Random Networks",
-      "year": 1999,
-      "cited_by_count": 36107,
-      "adjusted_cited_by_count": 6948.8,
-      "url": "/domains/physics/papers/W2008620264"
-    },
-    {
-      "source_id": "https://openalex.org/W2120145199",
-      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
-      "year": 2009,
-      "cited_by_count": 28395,
-      "adjusted_cited_by_count": 6886.8,
-      "url": "/domains/physics/papers/W2120145199"
-    },
-    {
-      "source_id": "https://openalex.org/W2150697053",
-      "title": "The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: two new functionals and systematic testing of four M06-class functionals and 12 other functionals",
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
       "year": 2007,
-      "cited_by_count": 29504,
-      "adjusted_cited_by_count": 6768.68,
-      "url": "/domains/physics/papers/W2150697053"
+      "cited_by_count": 39196,
+      "adjusted_cited_by_count": 8992.18,
+      "url": "/domains/physics/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2041902442",
+      "title": "Computer Simulation of Liquids",
+      "year": 2017,
+      "cited_by_count": 20864,
+      "adjusted_cited_by_count": 6954.67,
+      "url": "/domains/physics/papers/W2041902442"
     },
     {
       "source_id": "https://openalex.org/W4288079944",
       "title": "<i>Planck</i> 2018 results",
       "year": 2020,
-      "cited_by_count": 13517,
-      "adjusted_cited_by_count": 5518.29,
+      "cited_by_count": 13529,
+      "adjusted_cited_by_count": 5523.19,
       "url": "/domains/physics/papers/W4288079944"
-    },
-    {
-      "source_id": "https://openalex.org/W2899283552",
-      "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
-      "year": 2018,
-      "cited_by_count": 15249,
-      "adjusted_cited_by_count": 5391.34,
-      "url": "/domains/physics/papers/W2899283552"
-    },
-    {
-      "source_id": "https://openalex.org/W2035266068",
-      "title": "Molecular dynamics with coupling to an external bath",
-      "year": 1984,
-      "cited_by_count": 30621,
-      "adjusted_cited_by_count": 4724.92,
-      "url": "/domains/physics/papers/W2035266068"
     },
     {
       "source_id": "https://openalex.org/W2252795400",
       "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
       "year": 2016,
-      "cited_by_count": 13992,
-      "adjusted_cited_by_count": 4424.66,
+      "cited_by_count": 13999,
+      "adjusted_cited_by_count": 4426.87,
       "url": "/domains/physics/papers/W2252795400"
     },
     {
       "source_id": "https://openalex.org/W2964344211",
       "title": "CRC Handbook of Chemistry and Physics",
       "year": 2016,
-      "cited_by_count": 13816,
-      "adjusted_cited_by_count": 4369.0,
+      "cited_by_count": 13817,
+      "adjusted_cited_by_count": 4369.32,
       "url": "/domains/physics/papers/W2964344211"
     },
     {
@@ -1355,76 +1672,44 @@
       "url": "/domains/physics/papers/W3021238137"
     },
     {
-      "source_id": "https://openalex.org/W1540380506",
-      "title": "Phase Transitions and Critical Phenomena",
-      "year": 2016,
-      "cited_by_count": 11279,
-      "adjusted_cited_by_count": 3566.73,
-      "url": "/domains/physics/papers/W1540380506"
-    },
-    {
-      "source_id": "https://openalex.org/W2008423326",
-      "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
-      "year": 1999,
-      "cited_by_count": 18502,
-      "adjusted_cited_by_count": 3560.71,
-      "url": "/domains/physics/papers/W2008423326"
-    },
-    {
-      "source_id": "https://openalex.org/W1853767801",
-      "title": "Measurements of Ω and Λ from 42 High‐Redshift Supernovae",
-      "year": 1999,
-      "cited_by_count": 17736,
-      "adjusted_cited_by_count": 3413.29,
-      "url": "/domains/physics/papers/W1853767801"
-    },
-    {
-      "source_id": "https://openalex.org/W4292875581",
-      "title": "<i>Planck</i>2015 results",
-      "year": 2016,
-      "cited_by_count": 10530,
-      "adjusted_cited_by_count": 3329.88,
-      "url": "/domains/physics/papers/W4292875581"
-    },
-    {
-      "source_id": "https://openalex.org/W1971421925",
-      "title": "Community structure in social and biological networks",
-      "year": 2002,
-      "cited_by_count": 15554,
-      "adjusted_cited_by_count": 3174.95,
-      "url": "/domains/physics/papers/W1971421925"
-    },
-    {
-      "source_id": "https://openalex.org/W2765081049",
-      "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
-      "year": 2017,
-      "cited_by_count": 9434,
-      "adjusted_cited_by_count": 3144.67,
-      "url": "/domains/physics/papers/W2765081049"
-    },
-    {
-      "source_id": "https://openalex.org/W3105982350",
-      "title": "Double-slit photoelectron interference in strong-field ionization of the neon dimer",
-      "year": 2019,
-      "cited_by_count": 8265,
-      "adjusted_cited_by_count": 3123.88,
-      "url": "/domains/physics/papers/W3105982350"
-    },
-    {
       "source_id": "https://openalex.org/W2963002078",
       "title": "Review of Particle Physics",
       "year": 2022,
-      "cited_by_count": 6170,
-      "adjusted_cited_by_count": 3085.0,
+      "cited_by_count": 6173,
+      "adjusted_cited_by_count": 3086.5,
       "url": "/domains/physics/papers/W2963002078"
     },
     {
       "source_id": "https://openalex.org/W2798336535",
       "title": "<i>Gaia</i> Data Release 2",
       "year": 2018,
-      "cited_by_count": 8577,
-      "adjusted_cited_by_count": 3032.43,
+      "cited_by_count": 8579,
+      "adjusted_cited_by_count": 3033.13,
       "url": "/domains/physics/papers/W2798336535"
+    },
+    {
+      "source_id": "https://openalex.org/W2038533471",
+      "title": "Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis",
+      "year": 1980,
+      "cited_by_count": 20551,
+      "adjusted_cited_by_count": 3030.08,
+      "url": "/domains/physics/papers/W2038533471"
+    },
+    {
+      "source_id": "https://openalex.org/W3015391807",
+      "title": "The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)",
+      "year": 2020,
+      "cited_by_count": 7255,
+      "adjusted_cited_by_count": 2961.84,
+      "url": "/domains/physics/papers/W3015391807"
+    },
+    {
+      "source_id": "https://openalex.org/W2096421416",
+      "title": "Van der Waals heterostructures",
+      "year": 2013,
+      "cited_by_count": 10538,
+      "adjusted_cited_by_count": 2922.72,
+      "url": "/domains/physics/papers/W2096421416"
     },
     {
       "source_id": "https://openalex.org/W2790756470",
@@ -1438,8 +1723,8 @@
       "source_id": "https://openalex.org/W2793369479",
       "title": "Unconventional superconductivity in magic-angle graphene superlattices",
       "year": 2018,
-      "cited_by_count": 8101,
-      "adjusted_cited_by_count": 2864.14,
+      "cited_by_count": 8107,
+      "adjusted_cited_by_count": 2866.26,
       "url": "/domains/physics/papers/W2793369479"
     },
     {
@@ -1454,17 +1739,49 @@
       "source_id": "https://openalex.org/W1858542512",
       "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
       "year": 2012,
-      "cited_by_count": 10633,
-      "adjusted_cited_by_count": 2841.79,
+      "cited_by_count": 10634,
+      "adjusted_cited_by_count": 2842.06,
       "url": "/domains/physics/papers/W1858542512"
     },
     {
       "source_id": "https://openalex.org/W2490765418",
       "title": "Physics of Semiconductor Devices",
       "year": 2006,
-      "cited_by_count": 12699,
-      "adjusted_cited_by_count": 2839.58,
+      "cited_by_count": 12701,
+      "adjusted_cited_by_count": 2840.03,
       "url": "/domains/physics/papers/W2490765418"
+    },
+    {
+      "source_id": "https://openalex.org/W2162800060",
+      "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+      "year": 2000,
+      "cited_by_count": 14255,
+      "adjusted_cited_by_count": 2795.64,
+      "url": "/domains/physics/papers/W2162800060"
+    },
+    {
+      "source_id": "https://openalex.org/W2781738013",
+      "title": "Quantum Computing in the NISQ era and beyond",
+      "year": 2018,
+      "cited_by_count": 7892,
+      "adjusted_cited_by_count": 2790.24,
+      "url": "/domains/physics/papers/W2781738013"
+    },
+    {
+      "source_id": "https://openalex.org/W2166073443",
+      "title": "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data",
+      "year": 2010,
+      "cited_by_count": 11138,
+      "adjusted_cited_by_count": 2784.5,
+      "url": "/domains/physics/papers/W2166073443"
+    },
+    {
+      "source_id": "https://openalex.org/W3168436232",
+      "title": "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings",
+      "year": 2021,
+      "cited_by_count": 6117,
+      "adjusted_cited_by_count": 2735.61,
+      "url": "/domains/physics/papers/W3168436232"
     },
     {
       "source_id": "https://openalex.org/W2056722718",
@@ -1475,20 +1792,52 @@
       "url": "/domains/physics/papers/W2056722718"
     },
     {
+      "source_id": "https://openalex.org/W1963721320",
+      "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX<sub>3</sub>, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+      "year": 2015,
+      "cited_by_count": 8806,
+      "adjusted_cited_by_count": 2655.11,
+      "url": "/domains/physics/papers/W1963721320"
+    },
+    {
       "source_id": "https://openalex.org/W2167727518",
       "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
       "year": 2012,
-      "cited_by_count": 9894,
-      "adjusted_cited_by_count": 2644.28,
+      "cited_by_count": 9895,
+      "adjusted_cited_by_count": 2644.55,
       "url": "/domains/physics/papers/W2167727518"
     },
     {
       "source_id": "https://openalex.org/W3163993681",
       "title": "Physics-informed machine learning",
       "year": 2021,
-      "cited_by_count": 5896,
-      "adjusted_cited_by_count": 2636.77,
+      "cited_by_count": 5913,
+      "adjusted_cited_by_count": 2644.37,
       "url": "/domains/physics/papers/W3163993681"
+    },
+    {
+      "source_id": "https://openalex.org/W1976156302",
+      "title": "Graphene and Graphene Oxide: Synthesis, Properties, and Applications",
+      "year": 2010,
+      "cited_by_count": 10373,
+      "adjusted_cited_by_count": 2593.25,
+      "url": "/domains/physics/papers/W1976156302"
+    },
+    {
+      "source_id": "https://openalex.org/W2982169647",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "year": 2019,
+      "cited_by_count": 6819,
+      "adjusted_cited_by_count": 2577.34,
+      "url": "/domains/physics/papers/W2982169647"
+    },
+    {
+      "source_id": "https://openalex.org/W4323655724",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "year": 2023,
+      "cited_by_count": 4432,
+      "adjusted_cited_by_count": 2558.82,
+      "url": "/domains/physics/papers/W4323655724"
     },
     {
       "source_id": "https://openalex.org/W2899140785",
@@ -1502,16 +1851,48 @@
       "source_id": "https://openalex.org/W4401211033",
       "title": "Review of Particle Physics",
       "year": 2024,
-      "cited_by_count": 2520,
-      "adjusted_cited_by_count": 2520.0,
+      "cited_by_count": 2527,
+      "adjusted_cited_by_count": 2527.0,
       "url": "/domains/physics/papers/W4401211033"
+    },
+    {
+      "source_id": "https://openalex.org/W1992419399",
+      "title": "Data clustering",
+      "year": 1999,
+      "cited_by_count": 13100,
+      "adjusted_cited_by_count": 2521.1,
+      "url": "/domains/physics/papers/W1992419399"
+    },
+    {
+      "source_id": "https://openalex.org/W2146687568",
+      "title": "IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP",
+      "year": 2010,
+      "cited_by_count": 9998,
+      "adjusted_cited_by_count": 2499.5,
+      "url": "/domains/physics/papers/W2146687568"
+    },
+    {
+      "source_id": "https://openalex.org/W2777639606",
+      "title": "Structural absorption by barbule microstructures of super black bird of paradise feathers",
+      "year": 2017,
+      "cited_by_count": 7480,
+      "adjusted_cited_by_count": 2493.33,
+      "url": "/domains/physics/papers/W2777639606"
+    },
+    {
+      "source_id": "https://openalex.org/W2969718750",
+      "title": "Toward understanding the origin and evolution of cellular organisms",
+      "year": 2019,
+      "cited_by_count": 6462,
+      "adjusted_cited_by_count": 2442.41,
+      "url": "/domains/physics/papers/W2969718750"
     },
     {
       "source_id": "https://openalex.org/W2757803490",
       "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
       "year": 2017,
-      "cited_by_count": 7233,
-      "adjusted_cited_by_count": 2411.0,
+      "cited_by_count": 7244,
+      "adjusted_cited_by_count": 2414.67,
       "url": "/domains/physics/papers/W2757803490"
     },
     {
@@ -1523,86 +1904,30 @@
       "url": "/domains/physics/papers/W3103362336"
     },
     {
-      "source_id": "https://openalex.org/W3084106382",
-      "title": "Review of Particle Physics",
-      "year": 2016,
-      "cited_by_count": 7382,
-      "adjusted_cited_by_count": 2334.39,
-      "url": "/domains/physics/papers/W3084106382"
+      "source_id": "https://openalex.org/W2011303397",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": 1973,
+      "cited_by_count": 17438,
+      "adjusted_cited_by_count": 2395.29,
+      "url": "/domains/physics/papers/W2011303397"
     },
     {
-      "source_id": "https://openalex.org/W4213343138",
-      "title": "Physical Chemistry Chemical Physics",
+      "source_id": "https://openalex.org/W4403733501",
+      "title": "Inorganic Chemistry: Principles of Structure and Reactivity",
       "year": 2024,
-      "cited_by_count": 2267,
-      "adjusted_cited_by_count": 2267.0,
-      "url": "/domains/physics/papers/W4213343138"
-    },
-    {
-      "source_id": "https://openalex.org/W2899497983",
-      "title": "The Chemical Composition of the Sun",
-      "year": 2009,
-      "cited_by_count": 9239,
-      "adjusted_cited_by_count": 2240.79,
-      "url": "/domains/physics/papers/W2899497983"
-    },
-    {
-      "source_id": "https://openalex.org/W2075689277",
-      "title": "Inhibited Spontaneous Emission in Solid-State Physics and Electronics",
-      "year": 1987,
-      "cited_by_count": 13889,
-      "adjusted_cited_by_count": 2224.02,
-      "url": "/domains/physics/papers/W2075689277"
-    },
-    {
-      "source_id": "https://openalex.org/W147232447",
-      "title": "The<i>Gaia</i>mission",
-      "year": 2016,
-      "cited_by_count": 6831,
-      "adjusted_cited_by_count": 2160.15,
-      "url": "/domains/physics/papers/W147232447"
-    },
-    {
-      "source_id": "https://openalex.org/W4293212596",
-      "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
-      "year": 2022,
-      "cited_by_count": 4253,
-      "adjusted_cited_by_count": 2126.5,
-      "url": "/domains/physics/papers/W4293212596"
-    },
-    {
-      "source_id": "https://openalex.org/W2110999179",
-      "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
-      "year": 2014,
-      "cited_by_count": 7352,
-      "adjusted_cited_by_count": 2122.34,
-      "url": "/domains/physics/papers/W2110999179"
+      "cited_by_count": 2395,
+      "adjusted_cited_by_count": 2395.0,
+      "url": "/domains/physics/papers/W4403733501"
     }
   ],
   "role_profiles": [
-    {
-      "label": "physics",
-      "semantic_role": "entity_like",
-      "topic_role": "domain_topic",
-      "ui_role": "index",
-      "confidence": 0.99,
-      "evidence_count": 368
-    },
     {
       "label": "of the",
       "semantic_role": "entity_like",
       "topic_role": "domain_topic",
       "ui_role": "index",
       "confidence": 0.99,
-      "evidence_count": 253
-    },
-    {
-      "label": "quantum",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 193
+      "evidence_count": 525
     },
     {
       "label": "in the",
@@ -1610,15 +1935,15 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 186
+      "evidence_count": 375
     },
     {
-      "label": "quantum mechanics",
+      "label": "use",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 170
+      "evidence_count": 303
     },
     {
       "label": "of a",
@@ -1626,47 +1951,15 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 134
+      "evidence_count": 290
     },
     {
-      "label": "theory",
+      "label": "quantum",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 130
-    },
-    {
-      "label": "on the",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 118
-    },
-    {
-      "label": "theoretical physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 114
-    },
-    {
-      "label": "over",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 113
-    },
-    {
-      "label": "field",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 107
+      "evidence_count": 256
     },
     {
       "label": "in a",
@@ -1674,15 +1967,23 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 103
+      "evidence_count": 242
     },
     {
-      "label": "computer science",
+      "label": "quantum mechanics",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 102
+      "evidence_count": 226
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 218
     },
     {
       "label": "model",
@@ -1690,7 +1991,47 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 88
+      "evidence_count": 212
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 212
+    },
+    {
+      "label": "field theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 193
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 177
+    },
+    {
+      "label": "search",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 173
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 171
     },
     {
       "label": "property",
@@ -1698,31 +2039,7 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 86
-    },
-    {
-      "label": "statistical physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 86
-    },
-    {
-      "label": "work",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.99,
-      "evidence_count": 78
-    },
-    {
-      "label": "time",
-      "semantic_role": "condition_like",
-      "topic_role": "detail_topic",
-      "ui_role": "property_detail",
-      "confidence": 0.99,
-      "evidence_count": 76
+      "evidence_count": 159
     },
     {
       "label": "at the",
@@ -1730,7 +2047,55 @@
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
       "confidence": 0.99,
-      "evidence_count": 74
+      "evidence_count": 156
+    },
+    {
+      "label": "theoretical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 144
+    },
+    {
+      "label": "statistical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "physical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 118
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "formation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 115
+    },
+    {
+      "label": "electron",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
     },
     {
       "label": "new measurements",
@@ -1741,7 +2106,7 @@
       "evidence_count": 10
     },
     {
-      "label": "on measured parameters",
+      "label": "- prl retrospective",
       "semantic_role": "property_like",
       "topic_role": "detail_topic",
       "ui_role": "property_detail",
@@ -1749,441 +2114,562 @@
       "evidence_count": 4
     },
     {
-      "label": "first",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9895,
-      "evidence_count": 70
-    },
-    {
-      "label": "data",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9894,
-      "evidence_count": 69
-    },
-    {
-      "label": "physical",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.989,
-      "evidence_count": 66
-    },
-    {
-      "label": "astrophysics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9888,
-      "evidence_count": 65
-    },
-    {
-      "label": "energy",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9886,
-      "evidence_count": 63
-    },
-    {
-      "label": "wave",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9886,
-      "evidence_count": 63
-    },
-    {
-      "label": "general",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9884,
-      "evidence_count": 62
-    },
-    {
-      "label": "particle",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9883,
-      "evidence_count": 73
-    },
-    {
-      "label": "physics and",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9883,
-      "evidence_count": 61
-    },
-    {
-      "label": "electron",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.988,
-      "evidence_count": 59
-    },
-    {
-      "label": "property of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.988,
-      "evidence_count": 59
-    },
-    {
-      "label": "well",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.988,
-      "evidence_count": 59
-    },
-    {
-      "label": "particle physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9879,
-      "evidence_count": 59
-    },
-    {
-      "label": "material science",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9876,
-      "evidence_count": 56
-    },
-    {
-      "label": "condensed matter physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9875,
-      "evidence_count": 55
-    },
-    {
-      "label": "observation",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9873,
-      "evidence_count": 54
+      "label": "published inissue",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
     },
     {
       "label": "dynamics",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9872,
-      "evidence_count": 53
+      "confidence": 0.9899,
+      "evidence_count": 111
     },
     {
-      "label": "formation",
+      "label": "energy",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9871,
-      "evidence_count": 52
+      "confidence": 0.9894,
+      "evidence_count": 105
     },
     {
-      "label": "function",
+      "label": "general relativity",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9869,
-      "evidence_count": 51
+      "confidence": 0.9894,
+      "evidence_count": 105
+    },
+    {
+      "label": "condensed matter physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 101
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 101
+    },
+    {
+      "label": "property of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 95
+    },
+    {
+      "label": "algorithms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 94
     },
     {
       "label": "optics",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9868,
-      "evidence_count": 52
+      "confidence": 0.9882,
+      "evidence_count": 95
     },
     {
-      "label": "astronomy",
+      "label": "development",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9868,
-      "evidence_count": 50
+      "confidence": 0.9882,
+      "evidence_count": 92
     },
     {
-      "label": "mass",
+      "label": "climate change",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9868,
-      "evidence_count": 50
+      "confidence": 0.9881,
+      "evidence_count": 91
     },
     {
-      "label": "theoretical",
+      "label": "wave",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9867,
-      "evidence_count": 144
-    },
-    {
-      "label": "magnetic",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9867,
-      "evidence_count": 49
-    },
-    {
-      "label": "nuclear physics",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9867,
-      "evidence_count": 49
-    },
-    {
-      "label": "matter",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9864,
-      "evidence_count": 90
-    },
-    {
-      "label": "theory of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9864,
-      "evidence_count": 47
-    },
-    {
-      "label": "physics of",
-      "semantic_role": "entity_like",
-      "topic_role": "bridge_topic",
-      "ui_role": "subgenre",
-      "confidence": 0.9861,
-      "evidence_count": 45
+      "confidence": 0.9881,
+      "evidence_count": 91
     },
     {
       "label": "scale",
       "semantic_role": "entity_like",
       "topic_role": "bridge_topic",
       "ui_role": "subgenre",
-      "confidence": 0.9857,
-      "evidence_count": 42
+      "confidence": 0.9881,
+      "evidence_count": 90
+    },
+    {
+      "label": "based on",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 88
+    },
+    {
+      "label": "particle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 90
+    },
+    {
+      "label": "physics and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 87
+    },
+    {
+      "label": "theoretical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 192
+    },
+    {
+      "label": "light",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 81
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 78
+    },
+    {
+      "label": "order",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 77
+    },
+    {
+      "label": "phase",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 77
+    },
+    {
+      "label": "theory of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 77
+    },
+    {
+      "label": "mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 280
+    },
+    {
+      "label": "magnetic resonance",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 76
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 73
+    },
+    {
+      "label": "mathematical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 72
     }
   ],
   "topic_year_counts": {
+    "quantum mechanics": {
+      "2023": 39627,
+      "2024": 38276,
+      "2025": 37456,
+      "2026": 21376,
+      "2022": 21082,
+      "2021": 19502,
+      "2020": 17840,
+      "2019": 15587,
+      "2018": 14256,
+      "2017": 12975,
+      "2016": 12227,
+      "2015": 11582,
+      "2014": 10674,
+      "2013": 9603,
+      "2012": 8767,
+      "2011": 7761,
+      "2010": 6666,
+      "2009": 6330,
+      "2008": 5515,
+      "2007": 5171,
+      "2006": 4746,
+      "2005": 4434,
+      "2004": 3984,
+      "2003": 3515,
+      "2002": 3347,
+      "2001": 2969,
+      "2000": 2859
+    },
     "statistical physics": {
       "2023": 120328,
       "2024": 115621,
-      "2025": 102997,
-      "2022": 71075,
-      "2021": 64446,
-      "2020": 57817,
-      "2019": 49114,
-      "2018": 44642,
-      "2017": 39470,
-      "2016": 37129,
-      "2026": 35952,
-      "2015": 33340,
-      "2014": 29890,
-      "2013": 27015,
-      "2012": 23243,
-      "2011": 20564,
-      "2010": 17215,
+      "2025": 103163,
+      "2022": 71454,
+      "2021": 64594,
+      "2020": 57858,
+      "2019": 49143,
+      "2018": 44670,
+      "2017": 39500,
+      "2016": 37169,
+      "2026": 36935,
+      "2015": 33378,
+      "2014": 29900,
+      "2013": 27019,
+      "2012": 23247,
+      "2011": 20566,
+      "2010": 17216,
       "2009": 14669,
-      "2008": 12596,
-      "2007": 11103,
-      "2006": 10082,
-      "2005": 8491,
-      "2004": 7449,
-      "2003": 6446,
+      "2008": 12617,
+      "2007": 11098,
+      "2006": 10095,
+      "2005": 8501,
+      "2004": 7444,
+      "2003": 6447,
       "2002": 5623,
-      "2001": 4835,
-      "2000": 4740
+      "2001": 4840,
+      "2000": 4741
     },
-    "particle physics": {
-      "2023": 121561,
-      "2024": 112317,
-      "2025": 93353,
-      "2022": 69128,
-      "2021": 64917,
-      "2020": 58651,
-      "2019": 54465,
-      "2018": 49870,
-      "2017": 45659,
-      "2016": 43000,
-      "2026": 40389,
-      "2015": 38726,
-      "2014": 34623,
-      "2013": 31563,
-      "2012": 27990,
-      "2011": 24388,
-      "2010": 20344,
-      "2009": 17267,
-      "2008": 15078,
-      "2007": 13736,
-      "2006": 12100,
-      "2005": 10771,
-      "2004": 9294,
-      "2003": 8384,
-      "2002": 7709,
-      "2001": 6600,
-      "2000": 6261
+    "field theory": {
+      "2023": 656547,
+      "2024": 622222,
+      "2025": 591937,
+      "2022": 438624,
+      "2021": 400464,
+      "2020": 369597,
+      "2019": 321962,
+      "2018": 287437,
+      "2017": 254850,
+      "2016": 237433,
+      "2015": 218774,
+      "2014": 197212,
+      "2013": 177894,
+      "2026": 171044,
+      "2012": 155465,
+      "2011": 136625,
+      "2010": 120064,
+      "2009": 105262,
+      "2008": 89981,
+      "2007": 79572,
+      "2006": 70698,
+      "2005": 61884,
+      "2004": 54970,
+      "2003": 48191,
+      "2002": 43271,
+      "2000": 38321,
+      "2001": 37215
     },
-    "mathematical physics": {
-      "2023": 139384,
-      "2024": 133919,
-      "2025": 114463,
-      "2022": 80632,
-      "2021": 72010,
-      "2020": 66024,
-      "2019": 54208,
-      "2018": 49343,
-      "2026": 43751,
-      "2017": 42255,
-      "2016": 38977,
-      "2015": 35663,
-      "2014": 32870,
-      "2013": 29996,
-      "2012": 25815,
-      "2011": 22154,
-      "2010": 18917,
-      "2009": 15908,
-      "2008": 13660,
-      "2007": 12033,
-      "2006": 10407,
-      "2005": 9036,
-      "2004": 7865,
-      "2003": 6818,
-      "2002": 5931,
-      "2001": 5299,
-      "2000": 5125
+    "theoretical physics": {
+      "2023": 146603,
+      "2024": 142812,
+      "2025": 129453,
+      "2022": 82538,
+      "2021": 75383,
+      "2020": 68276,
+      "2019": 60048,
+      "2018": 55428,
+      "2026": 51108,
+      "2017": 49736,
+      "2016": 46784,
+      "2015": 42492,
+      "2014": 38220,
+      "2013": 34448,
+      "2012": 30277,
+      "2011": 26685,
+      "2010": 22688,
+      "2009": 19432,
+      "2008": 16692,
+      "2007": 15102,
+      "2006": 13214,
+      "2005": 11315,
+      "2004": 9959,
+      "2003": 8716,
+      "2002": 7594,
+      "2001": 6768,
+      "2000": 6571
+    },
+    "black hole": {
+      "2023": 71560,
+      "2024": 63856,
+      "2025": 58240,
+      "2019": 44978,
+      "2022": 44667,
+      "2021": 43262,
+      "2020": 40040,
+      "2018": 37779,
+      "2017": 31270,
+      "2016": 30183,
+      "2015": 27316,
+      "2026": 26213,
+      "2014": 24659,
+      "2013": 22243,
+      "2012": 19871,
+      "2011": 17465,
+      "2010": 15653,
+      "2009": 14221,
+      "2008": 12043,
+      "2007": 10915,
+      "2006": 10276,
+      "2005": 8594,
+      "2004": 7951,
+      "2003": 6810,
+      "2002": 6004,
+      "2001": 5616,
+      "2000": 5327
+    },
+    "magnetic resonance": {
+      "2023": 201547,
+      "2024": 193962,
+      "2025": 169442,
+      "2022": 143353,
+      "2021": 135056,
+      "2020": 123965,
+      "2019": 105608,
+      "2018": 96695,
+      "2017": 90715,
+      "2016": 84723,
+      "2015": 79704,
+      "2014": 77577,
+      "2013": 72097,
+      "2012": 60935,
+      "2011": 54822,
+      "2010": 54039,
+      "2026": 45435,
+      "2009": 44681,
+      "2008": 40364,
+      "2006": 35412,
+      "2007": 32786,
+      "2005": 27039,
+      "2004": 24212,
+      "2003": 21185,
+      "2002": 19386,
+      "2001": 17233,
+      "2000": 16422
+    },
+    "electronic structure": {
+      "2023": 337098,
+      "2025": 330572,
+      "2024": 328552,
+      "2022": 228264,
+      "2021": 207523,
+      "2020": 196241,
+      "2019": 161744,
+      "2018": 139805,
+      "2017": 124626,
+      "2016": 115515,
+      "2015": 105592,
+      "2014": 99416,
+      "2026": 91606,
+      "2013": 84979,
+      "2012": 74703,
+      "2011": 66381,
+      "2010": 57530,
+      "2009": 50549,
+      "2008": 44362,
+      "2007": 39266,
+      "2006": 35811,
+      "2005": 32033,
+      "2004": 26863,
+      "2003": 23800,
+      "2002": 21447,
+      "2001": 17618,
+      "2000": 17605
     },
     "nuclear physics": {
-      "2023": 54250,
-      "2024": 51732,
-      "2025": 38822,
-      "2022": 31074,
-      "2021": 29303,
-      "2020": 27145,
-      "2019": 25212,
-      "2018": 23282,
-      "2017": 21640,
-      "2016": 20468,
-      "2015": 18320,
-      "2014": 16543,
-      "2013": 15305,
-      "2012": 13883,
-      "2026": 13834,
-      "2011": 12124,
-      "2010": 10181,
-      "2009": 8690,
-      "2008": 7429,
-      "2007": 6649,
-      "2006": 5999,
-      "2005": 5229,
-      "2004": 4547,
-      "2003": 4215,
-      "2002": 3936,
-      "2001": 3344,
-      "2000": 3195
+      "2023": 54287,
+      "2024": 51754,
+      "2025": 38904,
+      "2022": 31270,
+      "2021": 29378,
+      "2020": 27157,
+      "2019": 25226,
+      "2018": 23290,
+      "2017": 21661,
+      "2016": 20482,
+      "2015": 18329,
+      "2014": 16564,
+      "2013": 15316,
+      "2026": 14181,
+      "2012": 13884,
+      "2011": 12127,
+      "2010": 10175,
+      "2009": 8695,
+      "2008": 7442,
+      "2007": 6652,
+      "2006": 6011,
+      "2005": 5232,
+      "2004": 4554,
+      "2003": 4214,
+      "2002": 3934,
+      "2001": 3346,
+      "2000": 3196
     },
-    "cosmology gravitation theory": {
-      "2023": 12290,
-      "2024": 11876,
-      "2025": 11833,
-      "2026": 7789,
-      "2022": 5222,
-      "2021": 4828,
-      "2020": 4157,
-      "2019": 3963,
-      "2018": 3625,
-      "2017": 3080,
-      "2016": 2956,
-      "2015": 2716,
-      "2014": 2465,
-      "2013": 1832,
-      "2012": 1595,
-      "2011": 1483,
-      "2010": 1279,
-      "2009": 1180,
-      "2008": 1020,
-      "2007": 908,
-      "2006": 787,
-      "2005": 740,
-      "2004": 737,
-      "2003": 589,
-      "2001": 567,
-      "2002": 526,
-      "2000": 488
+    "general relativity": {
+      "2025": 20753,
+      "2023": 19928,
+      "2024": 18752,
+      "2026": 14835,
+      "2022": 10733,
+      "2021": 10602,
+      "2020": 9518,
+      "2019": 9013,
+      "2018": 8387,
+      "2017": 7646,
+      "2016": 7386,
+      "2015": 6924,
+      "2014": 6088,
+      "2013": 5537,
+      "2012": 5011,
+      "2011": 4566,
+      "2010": 4027,
+      "2009": 3811,
+      "2008": 3359,
+      "2007": 3019,
+      "2006": 2781,
+      "2005": 2465,
+      "2004": 2039,
+      "2003": 1832,
+      "2002": 1644,
+      "2001": 1572,
+      "2000": 1564
     },
-    "dark matter": {
-      "2023": 114767,
-      "2024": 105380,
-      "2025": 100988,
-      "2022": 76769,
-      "2021": 72838,
-      "2020": 68330,
-      "2019": 61472,
-      "2018": 55290,
-      "2017": 51660,
-      "2016": 47610,
-      "2015": 43404,
-      "2014": 39166,
-      "2026": 37291,
-      "2013": 35011,
-      "2012": 30936,
-      "2011": 26781,
-      "2010": 23715,
-      "2009": 21131,
-      "2008": 17447,
-      "2007": 15295,
-      "2006": 13555,
-      "2005": 11716,
-      "2004": 10451,
-      "2003": 8659,
-      "2002": 7419,
-      "2000": 7165,
-      "2001": 6782
+    "condensed matter physics": {
+      "2023": 24960,
+      "2024": 23681,
+      "2025": 17272,
+      "2022": 12185,
+      "2021": 11599,
+      "2020": 10805,
+      "2019": 9674,
+      "2018": 8934,
+      "2017": 8373,
+      "2016": 7544,
+      "2015": 7373,
+      "2026": 7095,
+      "2014": 6011,
+      "2013": 5337,
+      "2012": 4865,
+      "2011": 4115,
+      "2010": 3433,
+      "2009": 2937,
+      "2008": 2516,
+      "2007": 2162,
+      "2006": 1821,
+      "2005": 1610,
+      "2004": 1338,
+      "2003": 1155,
+      "2002": 996,
+      "2001": 932,
+      "2000": 906
     },
-    "dark energy": {
-      "2023": 158186,
-      "2024": 148037,
-      "2025": 137324,
-      "2022": 99863,
-      "2021": 90907,
-      "2020": 83641,
-      "2019": 73458,
-      "2018": 65058,
-      "2017": 61001,
-      "2016": 55418,
-      "2015": 50125,
-      "2026": 46638,
-      "2014": 44665,
-      "2013": 39534,
-      "2012": 34187,
-      "2011": 29385,
-      "2010": 25420,
-      "2009": 21733,
-      "2008": 18301,
-      "2007": 15971,
-      "2006": 14332,
-      "2005": 11701,
-      "2004": 10505,
-      "2003": 8765,
-      "2002": 7616,
-      "2000": 6876,
-      "2001": 6389
+    "classical mechanics": {
+      "2023": 49139,
+      "2024": 45560,
+      "2025": 40935,
+      "2022": 26678,
+      "2021": 25488,
+      "2020": 22979,
+      "2019": 20652,
+      "2018": 18955,
+      "2026": 18490,
+      "2017": 16932,
+      "2016": 16237,
+      "2015": 14695,
+      "2014": 13921,
+      "2013": 12356,
+      "2012": 10844,
+      "2011": 9625,
+      "2010": 8023,
+      "2009": 7225,
+      "2008": 6432,
+      "2007": 5641,
+      "2006": 5041,
+      "2005": 4370,
+      "2004": 3977,
+      "2003": 3276,
+      "2002": 3018,
+      "2000": 2691,
+      "2001": 2652
+    },
+    "particle physics": {
+      "2023": 121550,
+      "2024": 112331,
+      "2025": 93510,
+      "2022": 69461,
+      "2021": 65080,
+      "2020": 58705,
+      "2019": 54476,
+      "2018": 49896,
+      "2017": 45690,
+      "2016": 43042,
+      "2026": 41307,
+      "2015": 38762,
+      "2014": 34620,
+      "2013": 31573,
+      "2012": 27988,
+      "2011": 24391,
+      "2010": 20350,
+      "2009": 17273,
+      "2008": 15089,
+      "2007": 13737,
+      "2006": 12118,
+      "2005": 10779,
+      "2004": 9293,
+      "2003": 8384,
+      "2002": 7699,
+      "2001": 6604,
+      "2000": 6262
     }
   }
 }
