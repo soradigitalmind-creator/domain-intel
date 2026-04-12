@@ -1,0 +1,2015 @@
+{
+  "slug": "sensors",
+  "title": "Sensors",
+  "updated_at": "2026-04-12T04:37:10.057671Z",
+  "snapshot": {
+    "papers": 240,
+    "topics": 5,
+    "subtopics": 39,
+    "entities": 1053,
+    "claims": 2
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 349,
+      "total_papers": 349,
+      "facet_counts": {
+        "none": 349
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 39,
+    "max_depth": 2,
+    "leaf_topics": 39
+  },
+  "rising_topics": [
+    {
+      "id": "sg-wireless-sensor-network",
+      "label": "Wireless sensor network",
+      "url": "/domains/sensors/topics/sg-wireless-sensor-network",
+      "trend": "rising",
+      "year_total": 526753
+    },
+    {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/sensors/topics/sg-data-mining",
+      "trend": "rising",
+      "year_total": 1752462
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/sensors/topics/sg-pattern-recognition",
+      "trend": "rising",
+      "year_total": 2804927
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-wireless-sensor-network",
+      "label": "Wireless sensor network",
+      "url": "/domains/sensors/topics/sg-wireless-sensor-network",
+      "paper_count": 84,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "entities: network, sensor, wireless",
+      "tags": [
+        "energy efficient wireless sensor networks",
+        "mobile wireless sensor network",
+        "sensor networks",
+        "sensor node"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-wireless-sensor-network-sensor-web",
+          "label": "Sensor web",
+          "url": "/domains/sensors/topics/sg-wireless-sensor-network-sensor-web",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-wireless-sensor-network-geographic-routing",
+          "label": "Geographic routing",
+          "url": "/domains/sensors/topics/sg-wireless-sensor-network-geographic-routing",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-wireless-sensor-network-wireless-communication-technology",
+          "label": "Wireless communication technology",
+          "url": "/domains/sensors/topics/sg-wireless-sensor-network-wireless-communication-technology",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-wireless-sensor-network-innovative-energy-harvesting-technology",
+          "label": "Innovative energy harvesting technology",
+          "url": "/domains/sensors/topics/sg-wireless-sensor-network-innovative-energy-harvesting-technology",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-wireless-sensor-network-wireless-ad-hoc-networking",
+          "label": "Wireless ad hoc networking",
+          "url": "/domains/sensors/topics/sg-wireless-sensor-network-wireless-ad-hoc-networking",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-wireless-sensor-network-wireless-sensor",
+          "label": "Wireless sensor",
+          "url": "/domains/sensors/topics/sg-wireless-sensor-network-wireless-sensor",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2105103777",
+          "title": "The Internet of Things: A survey",
+          "year": "2010",
+          "cited_by_count": 15161,
+          "url": "/domains/sensors/papers/W2105103777"
+        },
+        {
+          "source_id": "https://openalex.org/W2168452204",
+          "title": "Wireless sensor networks: a survey",
+          "year": "2002",
+          "cited_by_count": 17314,
+          "url": "/domains/sensors/papers/W2168452204"
+        },
+        {
+          "source_id": "https://openalex.org/W2111619626",
+          "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+          "year": "2013",
+          "cited_by_count": 11828,
+          "url": "/domains/sensors/papers/W2111619626"
+        }
+      ]
+    },
+    {
+      "id": "sg-data-mining",
+      "label": "Data mining",
+      "url": "/domains/sensors/topics/sg-data-mining",
+      "paper_count": 45,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: of the, data, in the",
+      "tags": [
+        "big data",
+        "big data analytics",
+        "data mining",
+        "data stream mining"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-data-mining-big-data-analytics",
+          "label": "Big data analytics",
+          "url": "/domains/sensors/topics/sg-data-mining-big-data-analytics",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-data-mining-remote-sensing",
+          "label": "Remote sensing",
+          "url": "/domains/sensors/topics/sg-data-mining-remote-sensing",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-data-mining-data-stream-mining-techniques",
+          "label": "Data stream mining techniques",
+          "url": "/domains/sensors/topics/sg-data-mining-data-stream-mining-techniques",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-data-mining-learning-to-machine",
+          "label": "Learning to machine",
+          "url": "/domains/sensors/topics/sg-data-mining-learning-to-machine",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-data-mining-data-mining-techniques-and-directions",
+          "label": "Data mining techniques and directions",
+          "url": "/domains/sensors/topics/sg-data-mining-data-mining-techniques-and-directions",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-data-mining-data-stream-mining",
+          "label": "Data stream mining",
+          "url": "/domains/sensors/topics/sg-data-mining-data-stream-mining",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1992419399",
+          "title": "Data clustering",
+          "year": "1999",
+          "cited_by_count": 13096,
+          "url": "/domains/sensors/papers/W1992419399"
+        },
+        {
+          "source_id": "https://openalex.org/W2134295053",
+          "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+          "year": "2015",
+          "cited_by_count": 8160,
+          "url": "/domains/sensors/papers/W2134295053"
+        },
+        {
+          "source_id": "https://openalex.org/W2395579298",
+          "title": "A survey of transfer learning",
+          "year": "2016",
+          "cited_by_count": 6021,
+          "url": "/domains/sensors/papers/W2395579298"
+        }
+      ]
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/sensors/topics/sg-pattern-recognition",
+      "paper_count": 43,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: of the, data, image",
+      "tags": [
+        "bounding overwatch",
+        "convolutional neural",
+        "convolutional neural network",
+        "face and expression recognition"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-pattern-recognition-object-detection",
+          "label": "Object detection",
+          "url": "/domains/sensors/topics/sg-pattern-recognition-object-detection",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-pattern-recognition-rgb-color-model",
+          "label": "Rgb color model",
+          "url": "/domains/sensors/topics/sg-pattern-recognition-rgb-color-model",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-pattern-recognition-blind-source-separation-techniques",
+          "label": "Blind source separation techniques",
+          "url": "/domains/sensors/topics/sg-pattern-recognition-blind-source-separation-techniques",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-pattern-recognition-face-and-expression-recognition",
+          "label": "Face and expression recognition",
+          "url": "/domains/sensors/topics/sg-pattern-recognition-face-and-expression-recognition",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-pattern-recognition-feature-extraction",
+          "label": "Feature extraction",
+          "url": "/domains/sensors/topics/sg-pattern-recognition-feature-extraction",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-pattern-recognition-occupancy-grid-mapping",
+          "label": "Occupancy grid mapping",
+          "url": "/domains/sensors/topics/sg-pattern-recognition-occupancy-grid-mapping",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2124985265",
+          "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+          "year": "2009",
+          "cited_by_count": 22792,
+          "url": "/domains/sensors/papers/W2124985265"
+        },
+        {
+          "source_id": "https://openalex.org/W2115579991",
+          "title": "Vision meets robotics: The KITTI dataset",
+          "year": "2013",
+          "cited_by_count": 9518,
+          "url": "/domains/sensors/papers/W2115579991"
+        },
+        {
+          "source_id": "https://openalex.org/W1992419399",
+          "title": "Data clustering",
+          "year": "1999",
+          "cited_by_count": 13096,
+          "url": "/domains/sensors/papers/W1992419399"
+        }
+      ]
+    },
+    {
+      "id": "sg-embedded-system",
+      "label": "Embedded system",
+      "url": "/domains/sensors/topics/sg-embedded-system",
+      "paper_count": 42,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: sensor, sensors, in the",
+      "tags": [
+        "control reconfiguration",
+        "embedded operating system",
+        "embedded system",
+        "networked sensors"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-embedded-system-wearable-technology",
+          "label": "Wearable technology",
+          "url": "/domains/sensors/topics/sg-embedded-system-wearable-technology",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-embedded-system-human-computer-interaction",
+          "label": "Human-computer interaction",
+          "url": "/domains/sensors/topics/sg-embedded-system-human-computer-interaction",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-embedded-system-programming-language",
+          "label": "Programming language",
+          "url": "/domains/sensors/topics/sg-embedded-system-programming-language",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-embedded-system-control-reconfiguration",
+          "label": "Control reconfiguration",
+          "url": "/domains/sensors/topics/sg-embedded-system-control-reconfiguration",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-embedded-system-software-engineering",
+          "label": "Software engineering",
+          "url": "/domains/sensors/topics/sg-embedded-system-software-engineering",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-embedded-system-context-aware-activity-recognition",
+          "label": "Context-aware activity recognition",
+          "url": "/domains/sensors/topics/sg-embedded-system-context-aware-activity-recognition",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2008854521",
+          "title": "Sensitivity and False Alarm Rate of a Fall Sensor in Long-Term Fall Detection in the Elderly",
+          "year": "2014",
+          "cited_by_count": 18958,
+          "url": "/domains/sensors/papers/W2008854521"
+        },
+        {
+          "source_id": "https://openalex.org/W2266175888",
+          "title": "Fully integrated wearable sensor arrays for multiplexed in situ perspiration analysis",
+          "year": "2016",
+          "cited_by_count": 4818,
+          "url": "/domains/sensors/papers/W2266175888"
+        },
+        {
+          "source_id": "https://openalex.org/W2745859992",
+          "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+          "year": "2018",
+          "cited_by_count": 4292,
+          "url": "/domains/sensors/papers/W2745859992"
+        }
+      ]
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/sensors/topics/sg-neural-network",
+      "paper_count": 26,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: network, neural, neural network",
+      "tags": [
+        "artificial neural",
+        "artificial neural network",
+        "convolutional neural",
+        "convolutional neural network"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-network-artificial-neural-networks",
+          "label": "Artificial neural networks",
+          "url": "/domains/sensors/topics/sg-neural-network-artificial-neural-networks",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-neural-network-convolutional-neural-networks",
+          "label": "Convolutional neural networks",
+          "url": "/domains/sensors/topics/sg-neural-network-convolutional-neural-networks",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-neural-network-recurrent-neural-network",
+          "label": "Recurrent neural network",
+          "url": "/domains/sensors/topics/sg-neural-network-recurrent-neural-network",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-neural-network-recurrent-neural-networks",
+          "label": "Recurrent neural networks",
+          "url": "/domains/sensors/topics/sg-neural-network-recurrent-neural-networks",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-neural-network-neural-networks",
+          "label": "Neural networks",
+          "url": "/domains/sensors/topics/sg-neural-network-neural-networks",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4293584584",
+          "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+          "year": "2024",
+          "cited_by_count": 14276,
+          "url": "/domains/sensors/papers/W4293584584"
+        },
+        {
+          "source_id": "https://openalex.org/W3168997536",
+          "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+          "year": "2021",
+          "cited_by_count": 4599,
+          "url": "/domains/sensors/papers/W3168997536"
+        },
+        {
+          "source_id": "https://openalex.org/W2155653793",
+          "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+          "year": "1997",
+          "cited_by_count": 7144,
+          "url": "/domains/sensors/papers/W2155653793"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Wireless sensor network",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "The Internet of Things: A survey",
+          "year": "2010",
+          "cited_by_count": 15161,
+          "topic": "Wireless sensor network",
+          "url": "papers/https-openalex-org-w2105103777.html"
+        },
+        {
+          "title": "Wireless sensor networks: a survey",
+          "year": "2002",
+          "cited_by_count": 17314,
+          "topic": "Wireless sensor network",
+          "url": "papers/https-openalex-org-w2168452204.html"
+        },
+        {
+          "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+          "year": "2013",
+          "cited_by_count": 11828,
+          "topic": "Wireless sensor network",
+          "url": "papers/https-openalex-org-w2111619626.html"
+        },
+        {
+          "title": "Energy-efficient communication protocol for wireless microsensor networks",
+          "year": "2005",
+          "cited_by_count": 14074,
+          "topic": "Wireless sensor network",
+          "url": "papers/https-openalex-org-w2106335692.html"
+        },
+        {
+          "title": "A survey on sensor networks",
+          "year": "2002",
+          "cited_by_count": 13651,
+          "topic": "Wireless sensor network",
+          "url": "papers/https-openalex-org-w2130403046.html"
+        },
+        {
+          "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+          "year": "2003",
+          "cited_by_count": 8387,
+          "topic": "Wireless sensor network",
+          "url": "papers/https-openalex-org-w2165744313.html"
+        }
+      ]
+    },
+    {
+      "label": "Pattern recognition",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+          "year": "2009",
+          "cited_by_count": 22792,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2124985265.html"
+        },
+        {
+          "title": "Vision meets robotics: The KITTI dataset",
+          "year": "2013",
+          "cited_by_count": 9518,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2115579991.html"
+        },
+        {
+          "title": "Data clustering",
+          "year": "1999",
+          "cited_by_count": 13096,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w1992419399.html"
+        },
+        {
+          "title": "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition",
+          "year": "2018",
+          "cited_by_count": 4712,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2963076818.html"
+        },
+        {
+          "title": "3D ShapeNets: A deep representation for volumetric shapes",
+          "year": "2015",
+          "cited_by_count": 4594,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w1920022804.html"
+        },
+        {
+          "title": "Image registration methods: a survey",
+          "year": "2003",
+          "cited_by_count": 6362,
+          "topic": "Pattern recognition",
+          "url": "papers/https-openalex-org-w2147555557.html"
+        }
+      ]
+    },
+    {
+      "label": "Data mining",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+          "year": "2015",
+          "cited_by_count": 8160,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2134295053.html"
+        },
+        {
+          "title": "A survey of transfer learning",
+          "year": "2016",
+          "cited_by_count": 6021,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2395579298.html"
+        },
+        {
+          "title": "A review on genetic algorithm: past, present, and future",
+          "year": "2020",
+          "cited_by_count": 4281,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w3094704314.html"
+        },
+        {
+          "title": "Quantum machine learning",
+          "year": "2017",
+          "cited_by_count": 4227,
+          "topic": "Data mining",
+          "url": "papers/https-openalex-org-w2559394418.html"
+        }
+      ]
+    },
+    {
+      "label": "Embedded system",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Sensitivity and False Alarm Rate of a Fall Sensor in Long-Term Fall Detection in the Elderly",
+          "year": "2014",
+          "cited_by_count": 18958,
+          "topic": "Embedded system",
+          "url": "papers/https-openalex-org-w2008854521.html"
+        },
+        {
+          "title": "Fully integrated wearable sensor arrays for multiplexed in situ perspiration analysis",
+          "year": "2016",
+          "cited_by_count": 4818,
+          "topic": "Embedded system",
+          "url": "papers/https-openalex-org-w2266175888.html"
+        },
+        {
+          "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+          "year": "2018",
+          "cited_by_count": 4292,
+          "topic": "Embedded system",
+          "url": "papers/https-openalex-org-w2745859992.html"
+        },
+        {
+          "title": "Development of recommendations for SEMG sensors and sensor placement procedures",
+          "year": "2000",
+          "cited_by_count": 6779,
+          "topic": "Embedded system",
+          "url": "papers/https-openalex-org-w2000439420.html"
+        }
+      ]
+    },
+    {
+      "label": "Software engineering",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+          "year": "2021",
+          "cited_by_count": 5599,
+          "topic": "Software engineering",
+          "url": "papers/https-openalex-org-w3177318507.html"
+        },
+        {
+          "title": "Advances and Open Problems in Federated Learning",
+          "year": "2020",
+          "cited_by_count": 4391,
+          "topic": "Software engineering",
+          "url": "papers/https-openalex-org-w2995022099.html"
+        },
+        {
+          "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+          "year": "2019",
+          "cited_by_count": 4357,
+          "topic": "Software engineering",
+          "url": "papers/https-openalex-org-w2978346165.html"
+        },
+        {
+          "title": "Metal Additive Manufacturing: A Review",
+          "year": "2014",
+          "cited_by_count": 5668,
+          "topic": "Software engineering",
+          "url": "papers/https-openalex-org-w2098459033.html"
+        }
+      ]
+    },
+    {
+      "label": "Context-aware activity recognition",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Internet of Things for Smart Cities",
+          "year": "2014",
+          "cited_by_count": 6020,
+          "topic": "Context-aware activity recognition",
+          "url": "papers/https-openalex-org-w2058401212.html"
+        },
+        {
+          "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+          "year": "2022",
+          "cited_by_count": 2962,
+          "topic": "Context-aware activity recognition",
+          "url": "papers/https-openalex-org-w3194620979.html"
+        },
+        {
+          "title": "Human-Computer Interaction",
+          "year": "2013",
+          "cited_by_count": 4820,
+          "topic": "Context-aware activity recognition",
+          "url": "papers/https-openalex-org-w2752491485.html"
+        }
+      ]
+    },
+    {
+      "label": "Neural network",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+          "year": "2024",
+          "cited_by_count": 14276,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w4293584584.html"
+        },
+        {
+          "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+          "year": "2021",
+          "cited_by_count": 4599,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w3168997536.html"
+        },
+        {
+          "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+          "year": "1997",
+          "cited_by_count": 7144,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2155653793.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Metal–Organic Framework Materials as Chemical Sensors",
+          "year": "2011",
+          "cited_by_count": 7035,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2002799357.html"
+        },
+        {
+          "title": "Nonaqueous Liquid Electrolytes for Lithium-Based Rechargeable Batteries",
+          "year": "2004",
+          "cited_by_count": 7133,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2169211003.html"
+        },
+        {
+          "title": "Electrolytes and Interphases in Li-Ion Batteries and Beyond",
+          "year": "2014",
+          "cited_by_count": 5156,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2331458798.html"
+        }
+      ]
+    },
+    {
+      "label": "Innovative energy harvesting technology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Fog computing and its role in the internet of things",
+          "year": "2012",
+          "cited_by_count": 5916,
+          "topic": "Innovative energy harvesting technology",
+          "url": "papers/https-openalex-org-w2114623221.html"
+        }
+      ]
+    },
+    {
+      "label": "Wireless sensor",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+          "year": "2021",
+          "cited_by_count": 3636,
+          "topic": "Wireless sensor",
+          "url": "papers/https-openalex-org-w3043971245.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W4293584584",
+      "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+      "year": 2024,
+      "cited_by_count": 14276,
+      "adjusted_cited_by_count": 14276.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/sensors/papers/W4293584584"
+    },
+    {
+      "source_id": "https://openalex.org/W2124985265",
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "year": 2009,
+      "cited_by_count": 22792,
+      "adjusted_cited_by_count": 5527.87,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/sensors/papers/W2124985265"
+    },
+    {
+      "source_id": "https://openalex.org/W2008854521",
+      "title": "Sensitivity and False Alarm Rate of a Fall Sensor in Long-Term Fall Detection in the Elderly",
+      "year": 2014,
+      "cited_by_count": 18958,
+      "adjusted_cited_by_count": 5472.7,
+      "primary_topic_id": "sg-embedded-system",
+      "primary_topic_label": "Embedded system",
+      "url": "/domains/sensors/papers/W2008854521"
+    },
+    {
+      "source_id": "https://openalex.org/W2105103777",
+      "title": "The Internet of Things: A survey",
+      "year": 2010,
+      "cited_by_count": 15161,
+      "adjusted_cited_by_count": 3790.25,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2105103777"
+    },
+    {
+      "source_id": "https://openalex.org/W2168452204",
+      "title": "Wireless sensor networks: a survey",
+      "year": 2002,
+      "cited_by_count": 17314,
+      "adjusted_cited_by_count": 3534.21,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2168452204"
+    },
+    {
+      "source_id": "https://openalex.org/W2111619626",
+      "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+      "year": 2013,
+      "cited_by_count": 11828,
+      "adjusted_cited_by_count": 3280.5,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2111619626"
+    },
+    {
+      "source_id": "https://openalex.org/W2106335692",
+      "title": "Energy-efficient communication protocol for wireless microsensor networks",
+      "year": 2005,
+      "cited_by_count": 14074,
+      "adjusted_cited_by_count": 3071.2,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2106335692"
+    },
+    {
+      "source_id": "https://openalex.org/W2130403046",
+      "title": "A survey on sensor networks",
+      "year": 2002,
+      "cited_by_count": 13651,
+      "adjusted_cited_by_count": 2786.5,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2130403046"
+    },
+    {
+      "source_id": "https://openalex.org/W2115579991",
+      "title": "Vision meets robotics: The KITTI dataset",
+      "year": 2013,
+      "cited_by_count": 9518,
+      "adjusted_cited_by_count": 2639.82,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/sensors/papers/W2115579991"
+    },
+    {
+      "source_id": "https://openalex.org/W1992419399",
+      "title": "Data clustering",
+      "year": 1999,
+      "cited_by_count": 13096,
+      "adjusted_cited_by_count": 2520.33,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/sensors/papers/W1992419399"
+    },
+    {
+      "source_id": "https://openalex.org/W3177318507",
+      "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+      "year": 2021,
+      "cited_by_count": 5599,
+      "adjusted_cited_by_count": 2503.95,
+      "primary_topic_id": "sg-embedded-system-software-engineering",
+      "primary_topic_label": "Software engineering",
+      "url": "/domains/sensors/papers/W3177318507"
+    },
+    {
+      "source_id": "https://openalex.org/W2134295053",
+      "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+      "year": 2015,
+      "cited_by_count": 8160,
+      "adjusted_cited_by_count": 2460.33,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/sensors/papers/W2134295053"
+    },
+    {
+      "source_id": "https://openalex.org/W3168997536",
+      "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+      "year": 2021,
+      "cited_by_count": 4599,
+      "adjusted_cited_by_count": 2056.74,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/sensors/papers/W3168997536"
+    },
+    {
+      "source_id": "https://openalex.org/W2395579298",
+      "title": "A survey of transfer learning",
+      "year": 2016,
+      "cited_by_count": 6021,
+      "adjusted_cited_by_count": 1904.01,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/sensors/papers/W2395579298"
+    },
+    {
+      "source_id": "https://openalex.org/W2002799357",
+      "title": "Metal–Organic Framework Materials as Chemical Sensors",
+      "year": 2011,
+      "cited_by_count": 7035,
+      "adjusted_cited_by_count": 1816.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sensors/papers/W2002799357"
+    },
+    {
+      "source_id": "https://openalex.org/W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "year": 2020,
+      "cited_by_count": 4391,
+      "adjusted_cited_by_count": 1792.62,
+      "primary_topic_id": "sg-embedded-system-software-engineering",
+      "primary_topic_label": "Software engineering",
+      "url": "/domains/sensors/papers/W2995022099"
+    },
+    {
+      "source_id": "https://openalex.org/W2165744313",
+      "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+      "year": 2003,
+      "cited_by_count": 8387,
+      "adjusted_cited_by_count": 1748.81,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2165744313"
+    },
+    {
+      "source_id": "https://openalex.org/W3094704314",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "year": 2020,
+      "cited_by_count": 4281,
+      "adjusted_cited_by_count": 1747.71,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/sensors/papers/W3094704314"
+    },
+    {
+      "source_id": "https://openalex.org/W2058401212",
+      "title": "Internet of Things for Smart Cities",
+      "year": 2014,
+      "cited_by_count": 6020,
+      "adjusted_cited_by_count": 1737.82,
+      "primary_topic_id": "sg-embedded-system-context-aware-activity-recognition",
+      "primary_topic_label": "Context-aware activity recognition",
+      "url": "/domains/sensors/papers/W2058401212"
+    },
+    {
+      "source_id": "https://openalex.org/W3038067977",
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by_count": 8261,
+      "adjusted_cited_by_count": 1686.27,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W3038067977"
+    },
+    {
+      "source_id": "https://openalex.org/W2963076818",
+      "title": "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition",
+      "year": 2018,
+      "cited_by_count": 4712,
+      "adjusted_cited_by_count": 1665.94,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/sensors/papers/W2963076818"
+    },
+    {
+      "source_id": "https://openalex.org/W2978346165",
+      "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+      "year": 2019,
+      "cited_by_count": 4357,
+      "adjusted_cited_by_count": 1646.79,
+      "primary_topic_id": "sg-embedded-system-software-engineering",
+      "primary_topic_label": "Software engineering",
+      "url": "/domains/sensors/papers/W2978346165"
+    },
+    {
+      "source_id": "https://openalex.org/W2098459033",
+      "title": "Metal Additive Manufacturing: A Review",
+      "year": 2014,
+      "cited_by_count": 5668,
+      "adjusted_cited_by_count": 1636.21,
+      "primary_topic_id": "sg-embedded-system-software-engineering",
+      "primary_topic_label": "Software engineering",
+      "url": "/domains/sensors/papers/W2098459033"
+    },
+    {
+      "source_id": "https://openalex.org/W3043971245",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "year": 2021,
+      "cited_by_count": 3636,
+      "adjusted_cited_by_count": 1626.07,
+      "primary_topic_id": "sg-wireless-sensor-network-wireless-sensor",
+      "primary_topic_label": "Wireless sensor",
+      "url": "/domains/sensors/papers/W3043971245"
+    },
+    {
+      "source_id": "https://openalex.org/W2114623221",
+      "title": "Fog computing and its role in the internet of things",
+      "year": 2012,
+      "cited_by_count": 5916,
+      "adjusted_cited_by_count": 1581.12,
+      "primary_topic_id": "sg-wireless-sensor-network-innovative-energy-harvesting-technology",
+      "primary_topic_label": "Innovative energy harvesting technology",
+      "url": "/domains/sensors/papers/W2114623221"
+    },
+    {
+      "source_id": "https://openalex.org/W2266175888",
+      "title": "Fully integrated wearable sensor arrays for multiplexed in situ perspiration analysis",
+      "year": 2016,
+      "cited_by_count": 4818,
+      "adjusted_cited_by_count": 1523.59,
+      "primary_topic_id": "sg-embedded-system",
+      "primary_topic_label": "Embedded system",
+      "url": "/domains/sensors/papers/W2266175888"
+    },
+    {
+      "source_id": "https://openalex.org/W2169211003",
+      "title": "Nonaqueous Liquid Electrolytes for Lithium-Based Rechargeable Batteries",
+      "year": 2004,
+      "cited_by_count": 7133,
+      "adjusted_cited_by_count": 1520.76,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sensors/papers/W2169211003"
+    },
+    {
+      "source_id": "https://openalex.org/W2745859992",
+      "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+      "year": 2018,
+      "cited_by_count": 4292,
+      "adjusted_cited_by_count": 1517.45,
+      "primary_topic_id": "sg-embedded-system",
+      "primary_topic_label": "Embedded system",
+      "url": "/domains/sensors/papers/W2745859992"
+    },
+    {
+      "source_id": "https://openalex.org/W2331458798",
+      "title": "Electrolytes and Interphases in Li-Ion Batteries and Beyond",
+      "year": 2014,
+      "cited_by_count": 5156,
+      "adjusted_cited_by_count": 1488.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sensors/papers/W2331458798"
+    },
+    {
+      "source_id": "https://openalex.org/W3194620979",
+      "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+      "year": 2022,
+      "cited_by_count": 2962,
+      "adjusted_cited_by_count": 1481.0,
+      "primary_topic_id": "sg-embedded-system-context-aware-activity-recognition",
+      "primary_topic_label": "Context-aware activity recognition",
+      "url": "/domains/sensors/papers/W3194620979"
+    },
+    {
+      "source_id": "https://openalex.org/W2170239483",
+      "title": "Wireless sensor network survey",
+      "year": 2008,
+      "cited_by_count": 6179,
+      "adjusted_cited_by_count": 1456.4,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2170239483"
+    },
+    {
+      "source_id": "https://openalex.org/W2038194220",
+      "title": "Internet of Things in Industries: A Survey",
+      "year": 2014,
+      "cited_by_count": 4987,
+      "adjusted_cited_by_count": 1439.62,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2038194220"
+    },
+    {
+      "source_id": "https://openalex.org/W2559394418",
+      "title": "Quantum machine learning",
+      "year": 2017,
+      "cited_by_count": 4227,
+      "adjusted_cited_by_count": 1409.0,
+      "primary_topic_id": "sg-data-mining",
+      "primary_topic_label": "Data mining",
+      "url": "/domains/sensors/papers/W2559394418"
+    },
+    {
+      "source_id": "https://openalex.org/W1920022804",
+      "title": "3D ShapeNets: A deep representation for volumetric shapes",
+      "year": 2015,
+      "cited_by_count": 4594,
+      "adjusted_cited_by_count": 1385.14,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/sensors/papers/W1920022804"
+    },
+    {
+      "source_id": "https://openalex.org/W2160830391",
+      "title": "Multilevel inverters: a survey of topologies, controls, and applications",
+      "year": 2002,
+      "cited_by_count": 6635,
+      "adjusted_cited_by_count": 1354.36,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W2160830391"
+    },
+    {
+      "source_id": "https://openalex.org/W1531532259",
+      "title": "Estimation with Applications to Tracking and Navigation",
+      "year": 2002,
+      "cited_by_count": 6586,
+      "adjusted_cited_by_count": 1344.36,
+      "primary_topic_id": "sg-wireless-sensor-network",
+      "primary_topic_label": "Wireless sensor network",
+      "url": "/domains/sensors/papers/W1531532259"
+    },
+    {
+      "source_id": "https://openalex.org/W2752491485",
+      "title": "Human-Computer Interaction",
+      "year": 2013,
+      "cited_by_count": 4820,
+      "adjusted_cited_by_count": 1336.83,
+      "primary_topic_id": "sg-embedded-system-context-aware-activity-recognition",
+      "primary_topic_label": "Context-aware activity recognition",
+      "url": "/domains/sensors/papers/W2752491485"
+    },
+    {
+      "source_id": "https://openalex.org/W2000439420",
+      "title": "Development of recommendations for SEMG sensors and sensor placement procedures",
+      "year": 2000,
+      "cited_by_count": 6779,
+      "adjusted_cited_by_count": 1329.47,
+      "primary_topic_id": "sg-embedded-system",
+      "primary_topic_label": "Embedded system",
+      "url": "/domains/sensors/papers/W2000439420"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7144,
+      "adjusted_cited_by_count": 1326.61,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/sensors/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W2147555557",
+      "title": "Image registration methods: a survey",
+      "year": 2003,
+      "cited_by_count": 6362,
+      "adjusted_cited_by_count": 1326.57,
+      "primary_topic_id": "sg-pattern-recognition",
+      "primary_topic_label": "Pattern recognition",
+      "url": "/domains/sensors/papers/W2147555557"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W4293584584",
+      "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+      "year": 2024,
+      "cited_by_count": 14276,
+      "adjusted_cited_by_count": 14276.0,
+      "url": "/domains/sensors/papers/W4293584584"
+    },
+    {
+      "source_id": "https://openalex.org/W2124985265",
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "year": 2009,
+      "cited_by_count": 22792,
+      "adjusted_cited_by_count": 5527.87,
+      "url": "/domains/sensors/papers/W2124985265"
+    },
+    {
+      "source_id": "https://openalex.org/W2008854521",
+      "title": "Sensitivity and False Alarm Rate of a Fall Sensor in Long-Term Fall Detection in the Elderly",
+      "year": 2014,
+      "cited_by_count": 18958,
+      "adjusted_cited_by_count": 5472.7,
+      "url": "/domains/sensors/papers/W2008854521"
+    },
+    {
+      "source_id": "https://openalex.org/W2105103777",
+      "title": "The Internet of Things: A survey",
+      "year": 2010,
+      "cited_by_count": 15161,
+      "adjusted_cited_by_count": 3790.25,
+      "url": "/domains/sensors/papers/W2105103777"
+    },
+    {
+      "source_id": "https://openalex.org/W2168452204",
+      "title": "Wireless sensor networks: a survey",
+      "year": 2002,
+      "cited_by_count": 17314,
+      "adjusted_cited_by_count": 3534.21,
+      "url": "/domains/sensors/papers/W2168452204"
+    },
+    {
+      "source_id": "https://openalex.org/W2111619626",
+      "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+      "year": 2013,
+      "cited_by_count": 11828,
+      "adjusted_cited_by_count": 3280.5,
+      "url": "/domains/sensors/papers/W2111619626"
+    },
+    {
+      "source_id": "https://openalex.org/W2106335692",
+      "title": "Energy-efficient communication protocol for wireless microsensor networks",
+      "year": 2005,
+      "cited_by_count": 14074,
+      "adjusted_cited_by_count": 3071.2,
+      "url": "/domains/sensors/papers/W2106335692"
+    },
+    {
+      "source_id": "https://openalex.org/W2130403046",
+      "title": "A survey on sensor networks",
+      "year": 2002,
+      "cited_by_count": 13651,
+      "adjusted_cited_by_count": 2786.5,
+      "url": "/domains/sensors/papers/W2130403046"
+    },
+    {
+      "source_id": "https://openalex.org/W2115579991",
+      "title": "Vision meets robotics: The KITTI dataset",
+      "year": 2013,
+      "cited_by_count": 9518,
+      "adjusted_cited_by_count": 2639.82,
+      "url": "/domains/sensors/papers/W2115579991"
+    },
+    {
+      "source_id": "https://openalex.org/W1992419399",
+      "title": "Data clustering",
+      "year": 1999,
+      "cited_by_count": 13096,
+      "adjusted_cited_by_count": 2520.33,
+      "url": "/domains/sensors/papers/W1992419399"
+    },
+    {
+      "source_id": "https://openalex.org/W3177318507",
+      "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+      "year": 2021,
+      "cited_by_count": 5599,
+      "adjusted_cited_by_count": 2503.95,
+      "url": "/domains/sensors/papers/W3177318507"
+    },
+    {
+      "source_id": "https://openalex.org/W2134295053",
+      "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+      "year": 2015,
+      "cited_by_count": 8160,
+      "adjusted_cited_by_count": 2460.33,
+      "url": "/domains/sensors/papers/W2134295053"
+    },
+    {
+      "source_id": "https://openalex.org/W3168997536",
+      "title": "A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects",
+      "year": 2021,
+      "cited_by_count": 4599,
+      "adjusted_cited_by_count": 2056.74,
+      "url": "/domains/sensors/papers/W3168997536"
+    },
+    {
+      "source_id": "https://openalex.org/W2395579298",
+      "title": "A survey of transfer learning",
+      "year": 2016,
+      "cited_by_count": 6021,
+      "adjusted_cited_by_count": 1904.01,
+      "url": "/domains/sensors/papers/W2395579298"
+    },
+    {
+      "source_id": "https://openalex.org/W2002799357",
+      "title": "Metal–Organic Framework Materials as Chemical Sensors",
+      "year": 2011,
+      "cited_by_count": 7035,
+      "adjusted_cited_by_count": 1816.43,
+      "url": "/domains/sensors/papers/W2002799357"
+    },
+    {
+      "source_id": "https://openalex.org/W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "year": 2020,
+      "cited_by_count": 4391,
+      "adjusted_cited_by_count": 1792.62,
+      "url": "/domains/sensors/papers/W2995022099"
+    },
+    {
+      "source_id": "https://openalex.org/W2165744313",
+      "title": "Coordination of groups of mobile autonomous agents using nearest neighbor rules",
+      "year": 2003,
+      "cited_by_count": 8387,
+      "adjusted_cited_by_count": 1748.81,
+      "url": "/domains/sensors/papers/W2165744313"
+    },
+    {
+      "source_id": "https://openalex.org/W3094704314",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "year": 2020,
+      "cited_by_count": 4281,
+      "adjusted_cited_by_count": 1747.71,
+      "url": "/domains/sensors/papers/W3094704314"
+    },
+    {
+      "source_id": "https://openalex.org/W2058401212",
+      "title": "Internet of Things for Smart Cities",
+      "year": 2014,
+      "cited_by_count": 6020,
+      "adjusted_cited_by_count": 1737.82,
+      "url": "/domains/sensors/papers/W2058401212"
+    },
+    {
+      "source_id": "https://openalex.org/W3038067977",
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by_count": 8261,
+      "adjusted_cited_by_count": 1686.27,
+      "url": "/domains/sensors/papers/W3038067977"
+    },
+    {
+      "source_id": "https://openalex.org/W2963076818",
+      "title": "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition",
+      "year": 2018,
+      "cited_by_count": 4712,
+      "adjusted_cited_by_count": 1665.94,
+      "url": "/domains/sensors/papers/W2963076818"
+    },
+    {
+      "source_id": "https://openalex.org/W2978346165",
+      "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+      "year": 2019,
+      "cited_by_count": 4357,
+      "adjusted_cited_by_count": 1646.79,
+      "url": "/domains/sensors/papers/W2978346165"
+    },
+    {
+      "source_id": "https://openalex.org/W2098459033",
+      "title": "Metal Additive Manufacturing: A Review",
+      "year": 2014,
+      "cited_by_count": 5668,
+      "adjusted_cited_by_count": 1636.21,
+      "url": "/domains/sensors/papers/W2098459033"
+    },
+    {
+      "source_id": "https://openalex.org/W3043971245",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "year": 2021,
+      "cited_by_count": 3636,
+      "adjusted_cited_by_count": 1626.07,
+      "url": "/domains/sensors/papers/W3043971245"
+    },
+    {
+      "source_id": "https://openalex.org/W2114623221",
+      "title": "Fog computing and its role in the internet of things",
+      "year": 2012,
+      "cited_by_count": 5916,
+      "adjusted_cited_by_count": 1581.12,
+      "url": "/domains/sensors/papers/W2114623221"
+    },
+    {
+      "source_id": "https://openalex.org/W2266175888",
+      "title": "Fully integrated wearable sensor arrays for multiplexed in situ perspiration analysis",
+      "year": 2016,
+      "cited_by_count": 4818,
+      "adjusted_cited_by_count": 1523.59,
+      "url": "/domains/sensors/papers/W2266175888"
+    },
+    {
+      "source_id": "https://openalex.org/W2169211003",
+      "title": "Nonaqueous Liquid Electrolytes for Lithium-Based Rechargeable Batteries",
+      "year": 2004,
+      "cited_by_count": 7133,
+      "adjusted_cited_by_count": 1520.76,
+      "url": "/domains/sensors/papers/W2169211003"
+    },
+    {
+      "source_id": "https://openalex.org/W2745859992",
+      "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+      "year": 2018,
+      "cited_by_count": 4292,
+      "adjusted_cited_by_count": 1517.45,
+      "url": "/domains/sensors/papers/W2745859992"
+    },
+    {
+      "source_id": "https://openalex.org/W2331458798",
+      "title": "Electrolytes and Interphases in Li-Ion Batteries and Beyond",
+      "year": 2014,
+      "cited_by_count": 5156,
+      "adjusted_cited_by_count": 1488.41,
+      "url": "/domains/sensors/papers/W2331458798"
+    },
+    {
+      "source_id": "https://openalex.org/W3194620979",
+      "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+      "year": 2022,
+      "cited_by_count": 2962,
+      "adjusted_cited_by_count": 1481.0,
+      "url": "/domains/sensors/papers/W3194620979"
+    },
+    {
+      "source_id": "https://openalex.org/W2170239483",
+      "title": "Wireless sensor network survey",
+      "year": 2008,
+      "cited_by_count": 6179,
+      "adjusted_cited_by_count": 1456.4,
+      "url": "/domains/sensors/papers/W2170239483"
+    },
+    {
+      "source_id": "https://openalex.org/W2038194220",
+      "title": "Internet of Things in Industries: A Survey",
+      "year": 2014,
+      "cited_by_count": 4987,
+      "adjusted_cited_by_count": 1439.62,
+      "url": "/domains/sensors/papers/W2038194220"
+    },
+    {
+      "source_id": "https://openalex.org/W2559394418",
+      "title": "Quantum machine learning",
+      "year": 2017,
+      "cited_by_count": 4227,
+      "adjusted_cited_by_count": 1409.0,
+      "url": "/domains/sensors/papers/W2559394418"
+    },
+    {
+      "source_id": "https://openalex.org/W1920022804",
+      "title": "3D ShapeNets: A deep representation for volumetric shapes",
+      "year": 2015,
+      "cited_by_count": 4594,
+      "adjusted_cited_by_count": 1385.14,
+      "url": "/domains/sensors/papers/W1920022804"
+    },
+    {
+      "source_id": "https://openalex.org/W2160830391",
+      "title": "Multilevel inverters: a survey of topologies, controls, and applications",
+      "year": 2002,
+      "cited_by_count": 6635,
+      "adjusted_cited_by_count": 1354.36,
+      "url": "/domains/sensors/papers/W2160830391"
+    },
+    {
+      "source_id": "https://openalex.org/W1531532259",
+      "title": "Estimation with Applications to Tracking and Navigation",
+      "year": 2002,
+      "cited_by_count": 6586,
+      "adjusted_cited_by_count": 1344.36,
+      "url": "/domains/sensors/papers/W1531532259"
+    },
+    {
+      "source_id": "https://openalex.org/W2752491485",
+      "title": "Human-Computer Interaction",
+      "year": 2013,
+      "cited_by_count": 4820,
+      "adjusted_cited_by_count": 1336.83,
+      "url": "/domains/sensors/papers/W2752491485"
+    },
+    {
+      "source_id": "https://openalex.org/W2000439420",
+      "title": "Development of recommendations for SEMG sensors and sensor placement procedures",
+      "year": 2000,
+      "cited_by_count": 6779,
+      "adjusted_cited_by_count": 1329.47,
+      "url": "/domains/sensors/papers/W2000439420"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7144,
+      "adjusted_cited_by_count": 1326.61,
+      "url": "/domains/sensors/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W2147555557",
+      "title": "Image registration methods: a survey",
+      "year": 2003,
+      "cited_by_count": 6362,
+      "adjusted_cited_by_count": 1326.57,
+      "url": "/domains/sensors/papers/W2147555557"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 287
+    },
+    {
+      "label": "sensor",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 207
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 174
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 138
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 127
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "sensors",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 99
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "one",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "telecommunications",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "wireless",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "computer network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 73
+    },
+    {
+      "label": "algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "published online",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 10
+    },
+    {
+      "label": "publication history received",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 7
+    },
+    {
+      "label": "published inissue",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "wireless sensor network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 57
+    },
+    {
+      "label": "sensor network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 56
+    },
+    {
+      "label": "communication",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 51
+    },
+    {
+      "label": "power",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 51
+    },
+    {
+      "label": "techniques",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 50
+    },
+    {
+      "label": "device",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 48
+    },
+    {
+      "label": "detection",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 46
+    },
+    {
+      "label": "sensing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 46
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 46
+    },
+    {
+      "label": "survey",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 46
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 45
+    },
+    {
+      "label": "based on",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 44
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 44
+    },
+    {
+      "label": "world wide web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 44
+    },
+    {
+      "label": "sensor networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 48
+    },
+    {
+      "label": "computer vision",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 42
+    },
+    {
+      "label": "class",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 41
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 41
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 57
+    },
+    {
+      "label": "processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 42
+    },
+    {
+      "label": "image",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 38
+    }
+  ],
+  "topic_year_counts": {
+    "wireless sensor network": {
+      "2023": 54123,
+      "2024": 49189,
+      "2025": 46076,
+      "2022": 41742,
+      "2021": 36870,
+      "2020": 33116,
+      "2019": 30132,
+      "2018": 26146,
+      "2017": 22516,
+      "2016": 21718,
+      "2015": 20866,
+      "2014": 20834,
+      "2013": 19329,
+      "2012": 17806,
+      "2011": 15515,
+      "2010": 14663,
+      "2009": 12172,
+      "2026": 10466,
+      "2008": 10205,
+      "2007": 8326,
+      "2006": 6239,
+      "2005": 3962,
+      "2004": 2164,
+      "2003": 1241,
+      "2002": 675,
+      "2001": 359,
+      "2000": 303
+    },
+    "data mining": {
+      "2023": 213293,
+      "2024": 212654,
+      "2025": 203983,
+      "2022": 146759,
+      "2021": 130977,
+      "2020": 114667,
+      "2019": 95621,
+      "2018": 80792,
+      "2017": 67002,
+      "2016": 60433,
+      "2015": 54948,
+      "2026": 49387,
+      "2014": 48804,
+      "2013": 42886,
+      "2012": 37134,
+      "2011": 32399,
+      "2010": 27823,
+      "2009": 24660,
+      "2008": 20431,
+      "2007": 17557,
+      "2006": 16011,
+      "2005": 13545,
+      "2004": 11207,
+      "2003": 9486,
+      "2002": 8030,
+      "2001": 6040,
+      "2000": 5933
+    },
+    "pattern recognition": {
+      "2025": 345167,
+      "2024": 321680,
+      "2023": 309897,
+      "2022": 195817,
+      "2021": 179378,
+      "2020": 164661,
+      "2019": 139368,
+      "2018": 121008,
+      "2017": 107990,
+      "2016": 99469,
+      "2026": 97857,
+      "2015": 92944,
+      "2014": 86449,
+      "2013": 79486,
+      "2012": 70840,
+      "2011": 61291,
+      "2010": 53769,
+      "2009": 47751,
+      "2008": 39952,
+      "2007": 35033,
+      "2006": 31091,
+      "2005": 27389,
+      "2004": 24002,
+      "2003": 21108,
+      "2002": 19719,
+      "2000": 16229,
+      "2001": 15582
+    },
+    "embedded system": {
+      "2025": 453799,
+      "2023": 397081,
+      "2024": 386734,
+      "2022": 255344,
+      "2021": 236996,
+      "2020": 217454,
+      "2019": 184423,
+      "2018": 161418,
+      "2026": 148490,
+      "2017": 143975,
+      "2016": 131880,
+      "2015": 120448,
+      "2014": 110401,
+      "2013": 100089,
+      "2012": 88465,
+      "2011": 77242,
+      "2010": 68581,
+      "2009": 59097,
+      "2008": 51459,
+      "2007": 44567,
+      "2006": 39566,
+      "2005": 34557,
+      "2004": 29104,
+      "2003": 25064,
+      "2002": 22092,
+      "2001": 16656,
+      "2000": 16433
+    },
+    "neural network": {
+      "2025": 492585,
+      "2024": 488921,
+      "2023": 461455,
+      "2022": 316261,
+      "2021": 274960,
+      "2020": 227303,
+      "2026": 192415,
+      "2019": 179904,
+      "2018": 137087,
+      "2017": 101087,
+      "2016": 80496,
+      "2015": 69420,
+      "2014": 63407,
+      "2013": 58542,
+      "2012": 52157,
+      "2011": 47030,
+      "2010": 41612,
+      "2009": 37705,
+      "2008": 32994,
+      "2007": 29552,
+      "2006": 28892,
+      "2002": 26113,
+      "2005": 25081,
+      "2003": 20960,
+      "2004": 20589,
+      "2001": 12863,
+      "2000": 12209
+    }
+  }
+}
