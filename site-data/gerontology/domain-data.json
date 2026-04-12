@@ -1,0 +1,2587 @@
+{
+  "slug": "gerontology",
+  "title": "Gerontology",
+  "updated_at": "2026-04-12T01:15:44.904109Z",
+  "snapshot": {
+    "papers": 934,
+    "topics": 11,
+    "subtopics": 71,
+    "entities": 1851,
+    "claims": 11
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 962,
+      "total_papers": 962,
+      "facet_counts": {
+        "none": 962
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning aging and gerontology research.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 11,
+    "descendant_topics": 71,
+    "max_depth": 2,
+    "leaf_topics": 71
+  },
+  "rising_topics": [
+    {
+      "id": "sg-s-disease",
+      "label": "Diseases in aging",
+      "url": "/domains/gerontology/topics/sg-s-disease",
+      "trend": "rising",
+      "year_total": 7328108
+    },
+    {
+      "id": "sg-cognitive-decline",
+      "label": "Cognitive decline",
+      "url": "/domains/gerontology/topics/sg-cognitive-decline",
+      "trend": "rising",
+      "year_total": 972638
+    },
+    {
+      "id": "sg-immune-system",
+      "label": "Immune system",
+      "url": "/domains/gerontology/topics/sg-immune-system",
+      "trend": "rising",
+      "year_total": 3079303
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-s-disease",
+      "label": "Diseases in aging",
+      "url": "/domains/gerontology/topics/sg-s-disease",
+      "paper_count": 128,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: disease, age, internal medicine",
+      "tags": [
+        "alzheimers disease",
+        "alzheimers disease inhibition",
+        "infectious disease",
+        "mechanisms in alzheimers disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-diseases-in-aging-alzheimers-disease",
+          "label": "Alzheimers disease",
+          "url": "/domains/gerontology/topics/sg-diseases-in-aging-alzheimers-disease",
+          "paper_count": 60
+        },
+        {
+          "id": "sg-diseases-in-aging-parkinsons-disease",
+          "label": "Parkinsons disease",
+          "url": "/domains/gerontology/topics/sg-diseases-in-aging-parkinsons-disease",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-diseases-in-aging-infectious-disease",
+          "label": "Infectious disease",
+          "url": "/domains/gerontology/topics/sg-diseases-in-aging-infectious-disease",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-diseases-in-aging-diffusion-mri-in-aging",
+          "label": "Diffusion MRI in aging",
+          "url": "/domains/gerontology/topics/sg-diseases-in-aging-diffusion-mri-in-aging",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-diseases-in-aging-fmri-in-aging",
+          "label": "FMRI in aging",
+          "url": "/domains/gerontology/topics/sg-diseases-in-aging-fmri-in-aging",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-diseases-in-aging-grey-matter-changes-in-aging",
+          "label": "Grey matter changes in aging",
+          "url": "/domains/gerontology/topics/sg-diseases-in-aging-grey-matter-changes-in-aging",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3008827533",
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31076,
+          "url": "/domains/gerontology/papers/W3008827533"
+        },
+        {
+          "source_id": "https://openalex.org/W3001897055",
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30222,
+          "url": "/domains/gerontology/papers/W3001897055"
+        },
+        {
+          "source_id": "https://openalex.org/W3004280078",
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23223,
+          "url": "/domains/gerontology/papers/W3004280078"
+        }
+      ]
+    },
+    {
+      "id": "sg-cognitive-decline",
+      "label": "Cognitive decline",
+      "url": "/domains/gerontology/topics/sg-cognitive-decline",
+      "paper_count": 107,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: age, gerontology, aging",
+      "tags": [
+        "aging cognitive decline",
+        "cognitive decline",
+        "cognitive decline criteria",
+        "cognitive decline dementia"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cognitive-decline-biological-age-and-cognitive-decline",
+          "label": "Biological age and cognitive decline",
+          "url": "/domains/gerontology/topics/sg-cognitive-decline-biological-age-and-cognitive-decline",
+          "paper_count": 72
+        },
+        {
+          "id": "sg-cognitive-decline-hearing-aids-and-cognitive-decline",
+          "label": "Hearing aids and cognitive decline",
+          "url": "/domains/gerontology/topics/sg-cognitive-decline-hearing-aids-and-cognitive-decline",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-cognitive-decline-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/gerontology/topics/sg-cognitive-decline-internal-medicine",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-cognitive-decline-health-environment-and-cognitive-aging",
+          "label": "Health, environment, and cognitive aging",
+          "url": "/domains/gerontology/topics/sg-cognitive-decline-health-environment-and-cognitive-aging",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cognitive-decline-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/gerontology/topics/sg-cognitive-decline-environmental-health",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cognitive-decline-trail-making-test-and-cognitive-decline",
+          "label": "Trail Making Test and cognitive decline",
+          "url": "/domains/gerontology/topics/sg-cognitive-decline-trail-making-test-and-cognitive-decline",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2582743722",
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352952,
+          "url": "/domains/gerontology/papers/W2582743722"
+        },
+        {
+          "source_id": "https://openalex.org/W2897513125",
+          "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+          "year": "2018",
+          "cited_by_count": 13476,
+          "url": "/domains/gerontology/papers/W2897513125"
+        },
+        {
+          "source_id": "https://openalex.org/W2990714382",
+          "title": "Journal of Physics: Conference Series",
+          "year": "2013",
+          "cited_by_count": 15702,
+          "url": "/domains/gerontology/papers/W2990714382"
+        }
+      ]
+    },
+    {
+      "id": "sg-immune-system",
+      "label": "Immune system",
+      "url": "/domains/gerontology/topics/sg-immune-system",
+      "paper_count": 103,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: cell, age, immunology",
+      "tags": [
+        "acquired immune system",
+        "immune checkpoint",
+        "immune system",
+        "innate immune system"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-immune-system-t-cell",
+          "label": "T cell",
+          "url": "/domains/gerontology/topics/sg-immune-system-t-cell",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-immune-system-sexual-dimorphism",
+          "label": "Sexual dimorphism",
+          "url": "/domains/gerontology/topics/sg-immune-system-sexual-dimorphism",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-immune-system-innate-immune-system",
+          "label": "Innate immune system",
+          "url": "/domains/gerontology/topics/sg-immune-system-innate-immune-system",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-immune-system-t-cell-receptor",
+          "label": "T-cell receptor",
+          "url": "/domains/gerontology/topics/sg-immune-system-t-cell-receptor",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-immune-system-t-cell-and-b-cell-immunology",
+          "label": "T cell and B cell immunology",
+          "url": "/domains/gerontology/topics/sg-immune-system-t-cell-and-b-cell-immunology",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-immune-system-pattern-recognition-receptor",
+          "label": "Pattern recognition receptor",
+          "url": "/domains/gerontology/topics/sg-immune-system-pattern-recognition-receptor",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1951724000",
+          "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+          "year": "2015",
+          "cited_by_count": 83092,
+          "url": "/domains/gerontology/papers/W1951724000"
+        },
+        {
+          "source_id": "https://openalex.org/W2560367415",
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "url": "/domains/gerontology/papers/W2560367415"
+        },
+        {
+          "source_id": "https://openalex.org/W3164692211",
+          "title": "Integrated analysis of multimodal single-cell data",
+          "year": "2021",
+          "cited_by_count": 15373,
+          "url": "/domains/gerontology/papers/W3164692211"
+        }
+      ]
+    },
+    {
+      "id": "sg-health-disparity-outcome",
+      "label": "Health disparity outcome",
+      "url": "/domains/gerontology/topics/sg-health-disparity-outcome",
+      "paper_count": 98,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: social, gerontology, health",
+      "tags": [
+        "educational attainment",
+        "health disparity and outcome",
+        "social connectedness",
+        "social engagement"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-health-disparity-outcome-social-support",
+          "label": "Social support",
+          "url": "/domains/gerontology/topics/sg-health-disparity-outcome-social-support",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-health-disparity-outcome-educational-attainment",
+          "label": "Educational attainment",
+          "url": "/domains/gerontology/topics/sg-health-disparity-outcome-educational-attainment",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-health-disparity-outcome-social-isolation-and-loneliness",
+          "label": "Social isolation and loneliness",
+          "url": "/domains/gerontology/topics/sg-health-disparity-outcome-social-isolation-and-loneliness",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-health-disparity-outcome-social-engagement",
+          "label": "Social engagement",
+          "url": "/domains/gerontology/topics/sg-health-disparity-outcome-social-engagement",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-health-disparity-outcome-social-relationships",
+          "label": "Social relationships",
+          "url": "/domains/gerontology/topics/sg-health-disparity-outcome-social-relationships",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-health-disparity-outcome-social-connectedness",
+          "label": "Social connectedness",
+          "url": "/domains/gerontology/topics/sg-health-disparity-outcome-social-connectedness",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2030966943",
+          "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+          "year": "1985",
+          "cited_by_count": 41225,
+          "url": "/domains/gerontology/papers/W2030966943"
+        },
+        {
+          "source_id": "https://openalex.org/W4238251256",
+          "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+          "year": "2001",
+          "cited_by_count": 25871,
+          "url": "/domains/gerontology/papers/W4238251256"
+        },
+        {
+          "source_id": "https://openalex.org/W4394894573",
+          "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": "2024",
+          "cited_by_count": 4034,
+          "url": "/domains/gerontology/papers/W4394894573"
+        }
+      ]
+    },
+    {
+      "id": "sg-physical-medicine-rehabilitation",
+      "label": "Physical medicine rehabilitation",
+      "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation",
+      "paper_count": 97,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: physical therapy, internal medicine, gerontology",
+      "tags": [
+        "balance, gait, and falls prevention",
+        "cognitive rehabilitation therapy",
+        "force platform",
+        "gait training"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-physical-medicine-rehabilitation-balance-gait-and-falls-prevention",
+          "label": "Balance, gait, and falls prevention",
+          "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation-balance-gait-and-falls-prevention",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-energy-balance",
+          "label": "Energy balance",
+          "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation-energy-balance",
+          "paper_count": 37
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-gait-training",
+          "label": "Gait training",
+          "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation-gait-training",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-cognitive-rehabilitation-therapy",
+          "label": "Cognitive rehabilitation therapy",
+          "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation-cognitive-rehabilitation-therapy",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-cardiorespiratory-fitness",
+          "label": "Cardiorespiratory fitness",
+          "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation-cardiorespiratory-fitness",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-physical-medicine-rehabilitation-force-platform-analysis",
+          "label": "Force platform analysis",
+          "url": "/domains/gerontology/topics/sg-physical-medicine-rehabilitation-force-platform-analysis",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3108106255",
+          "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "year": "2020",
+          "cited_by_count": 10430,
+          "url": "/domains/gerontology/papers/W3108106255"
+        },
+        {
+          "source_id": "https://openalex.org/W2102902846",
+          "title": "Sarcopenia: European consensus on definition and diagnosis",
+          "year": "2010",
+          "cited_by_count": 11614,
+          "url": "/domains/gerontology/papers/W2102902846"
+        },
+        {
+          "source_id": "https://openalex.org/W3021842026",
+          "title": "European Guidelines on cardiovascular disease prevention in clinical practice (version 2012): The Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts) * Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)",
+          "year": "2012",
+          "cited_by_count": 8511,
+          "url": "/domains/gerontology/papers/W3021842026"
+        }
+      ]
+    },
+    {
+      "id": "sg-cognitive-psychology",
+      "label": "Cognitive psychology",
+      "url": "/domains/gerontology/topics/sg-cognitive-psychology",
+      "paper_count": 86,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: cognitive psychology, cognition, work",
+      "tags": [
+        "autobiographical memory",
+        "cognitive psychology",
+        "identity, memory, and therapy",
+        "memory processes and influence"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cognitive-psychology-neural-dynamics-brain-function",
+          "label": "Neural dynamics brain function",
+          "url": "/domains/gerontology/topics/sg-cognitive-psychology-neural-dynamics-brain-function",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-cognitive-psychology-behavioral-economics",
+          "label": "Behavioral economics",
+          "url": "/domains/gerontology/topics/sg-cognitive-psychology-behavioral-economics",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-cognitive-psychology-neural-and-behavioral-studies",
+          "label": "Neural and behavioral studies",
+          "url": "/domains/gerontology/topics/sg-cognitive-psychology-neural-and-behavioral-studies",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-cognitive-psychology-decision-making-behavioral-economics",
+          "label": "Decision-making behavioral economics",
+          "url": "/domains/gerontology/topics/sg-cognitive-psychology-decision-making-behavioral-economics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cognitive-psychology-semantic-memory",
+          "label": "Semantic memory",
+          "url": "/domains/gerontology/topics/sg-cognitive-psychology-semantic-memory",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cognitive-psychology-memory-span",
+          "label": "Memory span",
+          "url": "/domains/gerontology/topics/sg-cognitive-psychology-memory-span",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2152207030",
+          "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+          "year": "2013",
+          "cited_by_count": 47732,
+          "url": "/domains/gerontology/papers/W2152207030"
+        },
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31305,
+          "url": "/domains/gerontology/papers/W2051978340"
+        },
+        {
+          "source_id": "https://openalex.org/W2119821739",
+          "title": "Support-Vector Networks",
+          "year": "1995",
+          "cited_by_count": 32280,
+          "url": "/domains/gerontology/papers/W2119821739"
+        }
+      ]
+    },
+    {
+      "id": "sg-diabete-mellitus",
+      "label": "Diabete mellitus",
+      "url": "/domains/gerontology/topics/sg-diabete-mellitus",
+      "paper_count": 85,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: internal medicine, endocrinology, disease",
+      "tags": [
+        "diabete mellitus",
+        "diabete mellitus dementia",
+        "glucagon-like peptide-1",
+        "glucose homeostasis"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-diabete-mellitus-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/gerontology/topics/sg-diabete-mellitus-internal-medicine",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-diabete-mellitus-type-2-diabete",
+          "label": "Type 2 diabete",
+          "url": "/domains/gerontology/topics/sg-diabete-mellitus-type-2-diabete",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-diabete-mellitus-glucagon-like-peptide-1",
+          "label": "Glucagon-like peptide-1",
+          "url": "/domains/gerontology/topics/sg-diabete-mellitus-glucagon-like-peptide-1",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-diabete-mellitus-pancreatic-function-in-diabetes",
+          "label": "Pancreatic function in diabetes",
+          "url": "/domains/gerontology/topics/sg-diabete-mellitus-pancreatic-function-in-diabetes",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-diabete-mellitus-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/gerontology/topics/sg-diabete-mellitus-environmental-health",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-diabete-mellitus-glucose-homeostasis",
+          "label": "Glucose homeostasis",
+          "url": "/domains/gerontology/topics/sg-diabete-mellitus-glucose-homeostasis",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4392145873",
+          "title": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+          "year": "2024",
+          "cited_by_count": 23812,
+          "url": "/domains/gerontology/papers/W4392145873"
+        },
+        {
+          "source_id": "https://openalex.org/W3009885589",
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 29020,
+          "url": "/domains/gerontology/papers/W3009885589"
+        },
+        {
+          "source_id": "https://openalex.org/W2096287682",
+          "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+          "year": "2005",
+          "cited_by_count": 21322,
+          "url": "/domains/gerontology/papers/W2096287682"
+        }
+      ]
+    },
+    {
+      "id": "sg-psychological-intervention",
+      "label": "Psychological intervention",
+      "url": "/domains/gerontology/topics/sg-psychological-intervention",
+      "paper_count": 73,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: psychological intervention, intervention, psychiatry",
+      "tags": [
+        "chronic condition",
+        "frailty syndrome",
+        "polypharmacy older people",
+        "psychological intervention"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-psychological-intervention-self-care",
+          "label": "Self care",
+          "url": "/domains/gerontology/topics/sg-psychological-intervention-self-care",
+          "paper_count": 39
+        },
+        {
+          "id": "sg-psychological-intervention-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/gerontology/topics/sg-psychological-intervention-environmental-health",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-psychological-intervention-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/gerontology/topics/sg-psychological-intervention-internal-medicine",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-psychological-intervention-chronic-condition",
+          "label": "Chronic condition",
+          "url": "/domains/gerontology/topics/sg-psychological-intervention-chronic-condition",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-psychological-intervention-frailty-syndrome",
+          "label": "Frailty syndrome",
+          "url": "/domains/gerontology/topics/sg-psychological-intervention-frailty-syndrome",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2531269403",
+          "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+          "year": "2016",
+          "cited_by_count": 18195,
+          "url": "/domains/gerontology/papers/W2531269403"
+        },
+        {
+          "source_id": "https://openalex.org/W3046275966",
+          "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+          "year": "2020",
+          "cited_by_count": 9917,
+          "url": "/domains/gerontology/papers/W3046275966"
+        },
+        {
+          "source_id": "https://openalex.org/W2888589263",
+          "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+          "year": "2018",
+          "cited_by_count": 10297,
+          "url": "/domains/gerontology/papers/W2888589263"
+        }
+      ]
+    },
+    {
+      "id": "sg-mental-health",
+      "label": "Mental health",
+      "url": "/domains/gerontology/topics/sg-mental-health",
+      "paper_count": 60,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: health, mental, mental health",
+      "tags": [
+        "clinical gerontology",
+        "clinical gerontology guide",
+        "gerontology guide",
+        "gerontology guide to assessment"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mental-health-stress-and-burnout-in-healthcare-professionals",
+          "label": "Stress and burnout in healthcare professionals",
+          "url": "/domains/gerontology/topics/sg-mental-health-stress-and-burnout-in-healthcare-professionals",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-mental-health-physical-health-in-older-adults",
+          "label": "Physical health in older adults",
+          "url": "/domains/gerontology/topics/sg-mental-health-physical-health-in-older-adults",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-mental-health-health-psychology-in-older-adults",
+          "label": "Health psychology in older adults",
+          "url": "/domains/gerontology/topics/sg-mental-health-health-psychology-in-older-adults",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-mental-health-mental-illness",
+          "label": "Mental illness",
+          "url": "/domains/gerontology/topics/sg-mental-health-mental-illness",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-mental-health-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/gerontology/topics/sg-mental-health-environmental-health",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-mental-health-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/gerontology/topics/sg-mental-health-intensive-care-medicine",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2075950485",
+          "title": "Scoping studies: towards a methodological framework",
+          "year": "2005",
+          "cited_by_count": 34161,
+          "url": "/domains/gerontology/papers/W2075950485"
+        },
+        {
+          "source_id": "https://openalex.org/W2167311298",
+          "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+          "year": "2015",
+          "cited_by_count": 19737,
+          "url": "/domains/gerontology/papers/W2167311298"
+        },
+        {
+          "source_id": "https://openalex.org/W3193598686",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2021",
+          "cited_by_count": 12381,
+          "url": "/domains/gerontology/papers/W3193598686"
+        }
+      ]
+    },
+    {
+      "id": "sg-risk-factor",
+      "label": "Risk factors",
+      "url": "/domains/gerontology/topics/sg-risk-factor",
+      "paper_count": 49,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: disease, burden, burden of",
+      "tags": [
+        "attributable risk",
+        "coronary heart disease",
+        "heart disease",
+        "risk factor"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-factors-attributable-risk",
+          "label": "Attributable risk",
+          "url": "/domains/gerontology/topics/sg-risk-factors-attributable-risk",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-risk-factor-disease-burden",
+          "label": "Disease burden",
+          "url": "/domains/gerontology/topics/sg-risk-factor-disease-burden",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-risk-factors-coronary-heart-disease",
+          "label": "Coronary heart disease",
+          "url": "/domains/gerontology/topics/sg-risk-factors-coronary-heart-disease",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-risk-factor-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/gerontology/topics/sg-risk-factor-environmental-health",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3092849554",
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18590,
+          "url": "/domains/gerontology/papers/W3092849554"
+        },
+        {
+          "source_id": "https://openalex.org/W3120106258",
+          "title": "Home visits: a strategy to improve newborn survival - Authors' reply",
+          "year": "2008",
+          "cited_by_count": 22522,
+          "url": "/domains/gerontology/papers/W3120106258"
+        },
+        {
+          "source_id": "https://openalex.org/W2912654919",
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13844,
+          "url": "/domains/gerontology/papers/W2912654919"
+        }
+      ]
+    },
+    {
+      "id": "sg-older-people",
+      "label": "Older people",
+      "url": "/domains/gerontology/topics/sg-older-people",
+      "paper_count": 48,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: older people, people, older",
+      "tags": [
+        "mobility-limited older people",
+        "older people",
+        "older people consented",
+        "older people dementia"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-older-people-active-ageing",
+          "label": "Active ageing",
+          "url": "/domains/gerontology/topics/sg-older-people-active-ageing",
+          "paper_count": 33
+        },
+        {
+          "id": "sg-older-people-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/gerontology/topics/sg-older-people-internal-medicine",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-older-people-economic-growth",
+          "label": "Economic growth",
+          "url": "/domains/gerontology/topics/sg-older-people-economic-growth",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2039735127",
+          "title": "Evidence-Based Recommendations for Optimal Dietary Protein Intake in Older People: A Position Paper From the PROT-AGE Study Group",
+          "year": "2013",
+          "cited_by_count": 2382,
+          "url": "/domains/gerontology/papers/W2039735127"
+        },
+        {
+          "source_id": "https://openalex.org/W3032592468",
+          "title": "The World Health Organization (WHO) approach to healthy ageing",
+          "year": "2020",
+          "cited_by_count": 1586,
+          "url": "/domains/gerontology/papers/W3032592468"
+        },
+        {
+          "source_id": "https://openalex.org/W2112157145",
+          "title": "The Meaning of \"Aging in Place\" to Older People",
+          "year": "2011",
+          "cited_by_count": 1831,
+          "url": "/domains/gerontology/papers/W2112157145"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Fitting Linear Mixed-Effects Models Using &lt;b&gt;lme4&lt;/b&gt;",
+          "year": "2015",
+          "cited_by_count": 83092,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1951724000.html"
+        },
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31305,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+          "year": "2016",
+          "cited_by_count": 27135,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2280404143.html"
+        },
+        {
+          "title": "La certeza de lo impredecible: Cultura Educación y Sociedad en tiempos de COVID19",
+          "year": "2020",
+          "cited_by_count": 19284,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3165656738.html"
+        },
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18590,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3092849554.html"
+        },
+        {
+          "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+          "year": "1985",
+          "cited_by_count": 41225,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2030966943.html"
+        }
+      ]
+    },
+    {
+      "label": "Diseases in aging",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31076,
+          "topic": "Diseases in aging",
+          "url": "papers/https-openalex-org-w3008827533.html"
+        },
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": "2020",
+          "cited_by_count": 30222,
+          "topic": "Diseases in aging",
+          "url": "papers/https-openalex-org-w3001897055.html"
+        },
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": "2020",
+          "cited_by_count": 23223,
+          "topic": "Diseases in aging",
+          "url": "papers/https-openalex-org-w3004280078.html"
+        },
+        {
+          "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+          "year": "2022",
+          "cited_by_count": 14665,
+          "topic": "Diseases in aging",
+          "url": "papers/https-openalex-org-w4206677002.html"
+        },
+        {
+          "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+          "year": "2020",
+          "cited_by_count": 17941,
+          "topic": "Diseases in aging",
+          "url": "papers/https-openalex-org-w3008028633.html"
+        },
+        {
+          "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+          "year": "2020",
+          "cited_by_count": 15323,
+          "topic": "Diseases in aging",
+          "url": "papers/https-openalex-org-w3111255098.html"
+        }
+      ]
+    },
+    {
+      "label": "Biological age and cognitive decline",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352952,
+          "topic": "Biological age and cognitive decline",
+          "url": "papers/https-openalex-org-w2582743722.html"
+        },
+        {
+          "title": "Support-Vector Networks",
+          "year": "1995",
+          "cited_by_count": 32280,
+          "topic": "Biological age and cognitive decline",
+          "url": "papers/https-openalex-org-w2119821739.html"
+        },
+        {
+          "title": "Special Care Units and Traditional Care in Dementia: Relationship with Behavior, Cognition, Functional Status and Quality of Life - A Review",
+          "year": "2013",
+          "cited_by_count": 20659,
+          "topic": "Biological age and cognitive decline",
+          "url": "papers/https-openalex-org-w2148080316.html"
+        },
+        {
+          "title": "Journal of Physics: Conference Series",
+          "year": "2013",
+          "cited_by_count": 15702,
+          "topic": "Biological age and cognitive decline",
+          "url": "papers/https-openalex-org-w2990714382.html"
+        }
+      ]
+    },
+    {
+      "label": "Immune system",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+          "year": "2016",
+          "cited_by_count": 30917,
+          "topic": "Immune system",
+          "url": "papers/https-openalex-org-w2560367415.html"
+        },
+        {
+          "title": "Integrated analysis of multimodal single-cell data",
+          "year": "2021",
+          "cited_by_count": 15373,
+          "topic": "Immune system",
+          "url": "papers/https-openalex-org-w3164692211.html"
+        },
+        {
+          "title": "Frailty in Older Adults: Evidence for a Phenotype",
+          "year": "2001",
+          "cited_by_count": 24014,
+          "topic": "Immune system",
+          "url": "papers/https-openalex-org-w2164059021.html"
+        }
+      ]
+    },
+    {
+      "label": "Mental health",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Scoping studies: towards a methodological framework",
+          "year": "2005",
+          "cited_by_count": 34161,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2075950485.html"
+        },
+        {
+          "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+          "year": "2000",
+          "cited_by_count": 27308,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2141846678.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13447,
+          "topic": "Mental health",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        }
+      ]
+    },
+    {
+      "label": "Diabete mellitus",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+          "year": "2024",
+          "cited_by_count": 23812,
+          "topic": "Diabete mellitus",
+          "url": "papers/https-openalex-org-w4392145873.html"
+        },
+        {
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 29020,
+          "topic": "Diabete mellitus",
+          "url": "papers/https-openalex-org-w3009885589.html"
+        }
+      ]
+    },
+    {
+      "label": "Innate immune system",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19208,
+          "topic": "Innate immune system",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24470,
+          "topic": "Innate immune system",
+          "url": "papers/https-openalex-org-w2168909179.html"
+        }
+      ]
+    },
+    {
+      "label": "Internal medicine",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2021",
+          "cited_by_count": 12381,
+          "topic": "Internal medicine",
+          "url": "papers/https-openalex-org-w3193598686.html"
+        },
+        {
+          "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+          "year": "2005",
+          "cited_by_count": 21322,
+          "topic": "Internal medicine",
+          "url": "papers/https-openalex-org-w2096287682.html"
+        }
+      ]
+    },
+    {
+      "label": "Risk factors",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Home visits: a strategy to improve newborn survival - Authors&#x27; reply",
+          "year": "2008",
+          "cited_by_count": 22522,
+          "topic": "Risk factors",
+          "url": "papers/https-openalex-org-w3120106258.html"
+        },
+        {
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+          "year": "2020",
+          "cited_by_count": 10591,
+          "topic": "Risk factors",
+          "url": "papers/https-openalex-org-w3113178943.html"
+        }
+      ]
+    },
+    {
+      "label": "Cognitive psychology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+          "year": "2013",
+          "cited_by_count": 47732,
+          "topic": "Cognitive psychology",
+          "url": "papers/https-openalex-org-w2152207030.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "primary_topic_id": "sg-cognitive-decline-biological-age-and-cognitive-decline",
+      "primary_topic_label": "Biological age and cognitive decline",
+      "url": "/domains/gerontology/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W1951724000",
+      "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+      "year": 2015,
+      "cited_by_count": 83092,
+      "adjusted_cited_by_count": 25053.18,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W1951724000"
+    },
+    {
+      "source_id": "https://openalex.org/W4392145873",
+      "title": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+      "year": 2024,
+      "cited_by_count": 23812,
+      "adjusted_cited_by_count": 23812.0,
+      "primary_topic_id": "sg-diabete-mellitus",
+      "primary_topic_label": "Diabete mellitus",
+      "url": "/domains/gerontology/papers/W4392145873"
+    },
+    {
+      "source_id": "https://openalex.org/W2152207030",
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+      "year": 2013,
+      "cited_by_count": 47732,
+      "adjusted_cited_by_count": 13238.47,
+      "primary_topic_id": "sg-cognitive-psychology",
+      "primary_topic_label": "Cognitive psychology",
+      "url": "/domains/gerontology/papers/W2152207030"
+    },
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31076,
+      "adjusted_cited_by_count": 12686.72,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30222,
+      "adjusted_cited_by_count": 12338.08,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29020,
+      "adjusted_cited_by_count": 11847.37,
+      "primary_topic_id": "sg-diabete-mellitus",
+      "primary_topic_label": "Diabete mellitus",
+      "url": "/domains/gerontology/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Immune system",
+      "url": "/domains/gerontology/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23223,
+      "adjusted_cited_by_count": 9480.75,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31305,
+      "adjusted_cited_by_count": 9438.81,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21132,
+      "adjusted_cited_by_count": 8627.1,
+      "primary_topic_id": "sg-cognitive-psychology-semantic-memory",
+      "primary_topic_label": "Semantic memory",
+      "url": "/domains/gerontology/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27135,
+      "adjusted_cited_by_count": 8580.84,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W3165656738",
+      "title": "La certeza de lo impredecible: Cultura Educación y Sociedad en tiempos de COVID19",
+      "year": 2020,
+      "cited_by_count": 19284,
+      "adjusted_cited_by_count": 7872.66,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W3165656738"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18590,
+      "adjusted_cited_by_count": 7589.34,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W2075950485",
+      "title": "Scoping studies: towards a methodological framework",
+      "year": 2005,
+      "cited_by_count": 34161,
+      "adjusted_cited_by_count": 7454.54,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/gerontology/papers/W2075950485"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14665,
+      "adjusted_cited_by_count": 7332.5,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W3008028633",
+      "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+      "year": 2020,
+      "cited_by_count": 17941,
+      "adjusted_cited_by_count": 7324.38,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W3008028633"
+    },
+    {
+      "source_id": "https://openalex.org/W3164692211",
+      "title": "Integrated analysis of multimodal single-cell data",
+      "year": 2021,
+      "cited_by_count": 15373,
+      "adjusted_cited_by_count": 6875.01,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Immune system",
+      "url": "/domains/gerontology/papers/W3164692211"
+    },
+    {
+      "source_id": "https://openalex.org/W2030966943",
+      "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+      "year": 1985,
+      "cited_by_count": 41225,
+      "adjusted_cited_by_count": 6438.26,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W2030966943"
+    },
+    {
+      "source_id": "https://openalex.org/W3111255098",
+      "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+      "year": 2020,
+      "cited_by_count": 15323,
+      "adjusted_cited_by_count": 6255.59,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W3111255098"
+    },
+    {
+      "source_id": "https://openalex.org/W2167311298",
+      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+      "year": 2015,
+      "cited_by_count": 19737,
+      "adjusted_cited_by_count": 5950.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W2167311298"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32280,
+      "adjusted_cited_by_count": 5797.66,
+      "primary_topic_id": "sg-cognitive-decline-biological-age-and-cognitive-decline",
+      "primary_topic_label": "Biological age and cognitive decline",
+      "url": "/domains/gerontology/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W2531269403",
+      "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+      "year": 2016,
+      "cited_by_count": 18195,
+      "adjusted_cited_by_count": 5753.76,
+      "primary_topic_id": "sg-psychological-intervention",
+      "primary_topic_label": "Psychological intervention",
+      "url": "/domains/gerontology/papers/W2531269403"
+    },
+    {
+      "source_id": "https://openalex.org/W2148080316",
+      "title": "Special Care Units and Traditional Care in Dementia: Relationship with Behavior, Cognition, Functional Status and Quality of Life - A Review",
+      "year": 2013,
+      "cited_by_count": 20659,
+      "adjusted_cited_by_count": 5729.78,
+      "primary_topic_id": "sg-cognitive-decline-biological-age-and-cognitive-decline",
+      "primary_topic_label": "Biological age and cognitive decline",
+      "url": "/domains/gerontology/papers/W2148080316"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28423,
+      "adjusted_cited_by_count": 5574.21,
+      "primary_topic_id": "sg-immune-system-immune-checkpoint-inhibitors",
+      "primary_topic_label": "Immune checkpoint inhibitors",
+      "url": "/domains/gerontology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W3193598686",
+      "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2021,
+      "cited_by_count": 12381,
+      "adjusted_cited_by_count": 5536.95,
+      "primary_topic_id": "sg-cognitive-decline-internal-medicine",
+      "primary_topic_label": "Internal medicine",
+      "url": "/domains/gerontology/papers/W3193598686"
+    },
+    {
+      "source_id": "https://openalex.org/W2141846678",
+      "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+      "year": 2000,
+      "cited_by_count": 27308,
+      "adjusted_cited_by_count": 5355.54,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/gerontology/papers/W2141846678"
+    },
+    {
+      "source_id": "https://openalex.org/W3120106258",
+      "title": "Home visits: a strategy to improve newborn survival - Authors' reply",
+      "year": 2008,
+      "cited_by_count": 22522,
+      "adjusted_cited_by_count": 5308.49,
+      "primary_topic_id": "sg-risk-factor",
+      "primary_topic_label": "Risk factors",
+      "url": "/domains/gerontology/papers/W3120106258"
+    },
+    {
+      "source_id": "https://openalex.org/W4238251256",
+      "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+      "year": 2001,
+      "cited_by_count": 25871,
+      "adjusted_cited_by_count": 5174.2,
+      "primary_topic_id": "sg-health-disparity-outcome-social-support",
+      "primary_topic_label": "Social support",
+      "url": "/domains/gerontology/papers/W4238251256"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19208,
+      "adjusted_cited_by_count": 5133.55,
+      "primary_topic_id": "sg-immune-system-innate-immune-system",
+      "primary_topic_label": "Innate immune system",
+      "url": "/domains/gerontology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13844,
+      "adjusted_cited_by_count": 4894.59,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24470,
+      "adjusted_cited_by_count": 4894.0,
+      "primary_topic_id": "sg-immune-system-innate-immune-system",
+      "primary_topic_label": "Innate immune system",
+      "url": "/domains/gerontology/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16168,
+      "adjusted_cited_by_count": 4874.84,
+      "primary_topic_id": "sg-mental-health-family-medicine",
+      "primary_topic_label": "Family medicine",
+      "url": "/domains/gerontology/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2115017507",
+      "title": "The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease",
+      "year": 2011,
+      "cited_by_count": 18603,
+      "adjusted_cited_by_count": 4803.27,
+      "primary_topic_id": "sg-s-disease",
+      "primary_topic_label": "Diseases in aging",
+      "url": "/domains/gerontology/papers/W2115017507"
+    },
+    {
+      "source_id": "https://openalex.org/W2164059021",
+      "title": "Frailty in Older Adults: Evidence for a Phenotype",
+      "year": 2001,
+      "cited_by_count": 24014,
+      "adjusted_cited_by_count": 4802.8,
+      "primary_topic_id": "sg-immune-system",
+      "primary_topic_label": "Immune system",
+      "url": "/domains/gerontology/papers/W2164059021"
+    },
+    {
+      "source_id": "https://openalex.org/W2897513125",
+      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+      "year": 2018,
+      "cited_by_count": 13476,
+      "adjusted_cited_by_count": 4764.49,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/gerontology/papers/W2897513125"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21322,
+      "adjusted_cited_by_count": 4652.84,
+      "primary_topic_id": "sg-cognitive-decline-internal-medicine",
+      "primary_topic_label": "Internal medicine",
+      "url": "/domains/gerontology/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13447,
+      "adjusted_cited_by_count": 4482.33,
+      "primary_topic_id": "sg-mental-health",
+      "primary_topic_label": "Mental health",
+      "url": "/domains/gerontology/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2990714382",
+      "title": "Journal of Physics: Conference Series",
+      "year": 2013,
+      "cited_by_count": 15702,
+      "adjusted_cited_by_count": 4354.95,
+      "primary_topic_id": "sg-cognitive-decline-biological-age-and-cognitive-decline",
+      "primary_topic_label": "Biological age and cognitive decline",
+      "url": "/domains/gerontology/papers/W2990714382"
+    },
+    {
+      "source_id": "https://openalex.org/W3113178943",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+      "year": 2020,
+      "cited_by_count": 10591,
+      "adjusted_cited_by_count": 4323.76,
+      "primary_topic_id": "sg-risk-factor",
+      "primary_topic_label": "Risk factors",
+      "url": "/domains/gerontology/papers/W3113178943"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352952,
+      "adjusted_cited_by_count": 69219.58,
+      "url": "/domains/gerontology/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W1951724000",
+      "title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+      "year": 2015,
+      "cited_by_count": 83092,
+      "adjusted_cited_by_count": 25053.18,
+      "url": "/domains/gerontology/papers/W1951724000"
+    },
+    {
+      "source_id": "https://openalex.org/W4392145873",
+      "title": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+      "year": 2024,
+      "cited_by_count": 23812,
+      "adjusted_cited_by_count": 23812.0,
+      "url": "/domains/gerontology/papers/W4392145873"
+    },
+    {
+      "source_id": "https://openalex.org/W2152207030",
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0",
+      "year": 2013,
+      "cited_by_count": 47732,
+      "adjusted_cited_by_count": 13238.47,
+      "url": "/domains/gerontology/papers/W2152207030"
+    },
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31076,
+      "adjusted_cited_by_count": 12686.72,
+      "url": "/domains/gerontology/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W3001897055",
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "year": 2020,
+      "cited_by_count": 30222,
+      "adjusted_cited_by_count": 12338.08,
+      "url": "/domains/gerontology/papers/W3001897055"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29020,
+      "adjusted_cited_by_count": 11847.37,
+      "url": "/domains/gerontology/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2560367415",
+      "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
+      "year": 2016,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 9776.81,
+      "url": "/domains/gerontology/papers/W2560367415"
+    },
+    {
+      "source_id": "https://openalex.org/W3004280078",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "year": 2020,
+      "cited_by_count": 23223,
+      "adjusted_cited_by_count": 9480.75,
+      "url": "/domains/gerontology/papers/W3004280078"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31305,
+      "adjusted_cited_by_count": 9438.81,
+      "url": "/domains/gerontology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21132,
+      "adjusted_cited_by_count": 8627.1,
+      "url": "/domains/gerontology/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W2280404143",
+      "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+      "year": 2016,
+      "cited_by_count": 27135,
+      "adjusted_cited_by_count": 8580.84,
+      "url": "/domains/gerontology/papers/W2280404143"
+    },
+    {
+      "source_id": "https://openalex.org/W3165656738",
+      "title": "La certeza de lo impredecible: Cultura Educación y Sociedad en tiempos de COVID19",
+      "year": 2020,
+      "cited_by_count": 19284,
+      "adjusted_cited_by_count": 7872.66,
+      "url": "/domains/gerontology/papers/W3165656738"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18590,
+      "adjusted_cited_by_count": 7589.34,
+      "url": "/domains/gerontology/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W2075950485",
+      "title": "Scoping studies: towards a methodological framework",
+      "year": 2005,
+      "cited_by_count": 34161,
+      "adjusted_cited_by_count": 7454.54,
+      "url": "/domains/gerontology/papers/W2075950485"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14665,
+      "adjusted_cited_by_count": 7332.5,
+      "url": "/domains/gerontology/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W3008028633",
+      "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+      "year": 2020,
+      "cited_by_count": 17941,
+      "adjusted_cited_by_count": 7324.38,
+      "url": "/domains/gerontology/papers/W3008028633"
+    },
+    {
+      "source_id": "https://openalex.org/W3164692211",
+      "title": "Integrated analysis of multimodal single-cell data",
+      "year": 2021,
+      "cited_by_count": 15373,
+      "adjusted_cited_by_count": 6875.01,
+      "url": "/domains/gerontology/papers/W3164692211"
+    },
+    {
+      "source_id": "https://openalex.org/W2030966943",
+      "title": "CONFIDENCE LIMITS ON PHYLOGENIES: AN APPROACH USING THE BOOTSTRAP",
+      "year": 1985,
+      "cited_by_count": 41225,
+      "adjusted_cited_by_count": 6438.26,
+      "url": "/domains/gerontology/papers/W2030966943"
+    },
+    {
+      "source_id": "https://openalex.org/W3111255098",
+      "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+      "year": 2020,
+      "cited_by_count": 15323,
+      "adjusted_cited_by_count": 6255.59,
+      "url": "/domains/gerontology/papers/W3111255098"
+    },
+    {
+      "source_id": "https://openalex.org/W2167311298",
+      "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+      "year": 2015,
+      "cited_by_count": 19737,
+      "adjusted_cited_by_count": 5950.93,
+      "url": "/domains/gerontology/papers/W2167311298"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32280,
+      "adjusted_cited_by_count": 5797.66,
+      "url": "/domains/gerontology/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W2531269403",
+      "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+      "year": 2016,
+      "cited_by_count": 18195,
+      "adjusted_cited_by_count": 5753.76,
+      "url": "/domains/gerontology/papers/W2531269403"
+    },
+    {
+      "source_id": "https://openalex.org/W2148080316",
+      "title": "Special Care Units and Traditional Care in Dementia: Relationship with Behavior, Cognition, Functional Status and Quality of Life - A Review",
+      "year": 2013,
+      "cited_by_count": 20659,
+      "adjusted_cited_by_count": 5729.78,
+      "url": "/domains/gerontology/papers/W2148080316"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28423,
+      "adjusted_cited_by_count": 5574.21,
+      "url": "/domains/gerontology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W3193598686",
+      "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2021,
+      "cited_by_count": 12381,
+      "adjusted_cited_by_count": 5536.95,
+      "url": "/domains/gerontology/papers/W3193598686"
+    },
+    {
+      "source_id": "https://openalex.org/W2141846678",
+      "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+      "year": 2000,
+      "cited_by_count": 27308,
+      "adjusted_cited_by_count": 5355.54,
+      "url": "/domains/gerontology/papers/W2141846678"
+    },
+    {
+      "source_id": "https://openalex.org/W3120106258",
+      "title": "Home visits: a strategy to improve newborn survival - Authors' reply",
+      "year": 2008,
+      "cited_by_count": 22522,
+      "adjusted_cited_by_count": 5308.49,
+      "url": "/domains/gerontology/papers/W3120106258"
+    },
+    {
+      "source_id": "https://openalex.org/W4238251256",
+      "title": "Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)",
+      "year": 2001,
+      "cited_by_count": 25871,
+      "adjusted_cited_by_count": 5174.2,
+      "url": "/domains/gerontology/papers/W4238251256"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19208,
+      "adjusted_cited_by_count": 5133.55,
+      "url": "/domains/gerontology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13844,
+      "adjusted_cited_by_count": 4894.59,
+      "url": "/domains/gerontology/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24470,
+      "adjusted_cited_by_count": 4894.0,
+      "url": "/domains/gerontology/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2145150141",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "year": 2015,
+      "cited_by_count": 16168,
+      "adjusted_cited_by_count": 4874.84,
+      "url": "/domains/gerontology/papers/W2145150141"
+    },
+    {
+      "source_id": "https://openalex.org/W2115017507",
+      "title": "The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease",
+      "year": 2011,
+      "cited_by_count": 18603,
+      "adjusted_cited_by_count": 4803.27,
+      "url": "/domains/gerontology/papers/W2115017507"
+    },
+    {
+      "source_id": "https://openalex.org/W2164059021",
+      "title": "Frailty in Older Adults: Evidence for a Phenotype",
+      "year": 2001,
+      "cited_by_count": 24014,
+      "adjusted_cited_by_count": 4802.8,
+      "url": "/domains/gerontology/papers/W2164059021"
+    },
+    {
+      "source_id": "https://openalex.org/W2897513125",
+      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+      "year": 2018,
+      "cited_by_count": 13476,
+      "adjusted_cited_by_count": 4764.49,
+      "url": "/domains/gerontology/papers/W2897513125"
+    },
+    {
+      "source_id": "https://openalex.org/W2096287682",
+      "title": "Radiotherapy plus Concomitant and Adjuvant Temozolomide for Glioblastoma",
+      "year": 2005,
+      "cited_by_count": 21322,
+      "adjusted_cited_by_count": 4652.84,
+      "url": "/domains/gerontology/papers/W2096287682"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13447,
+      "adjusted_cited_by_count": 4482.33,
+      "url": "/domains/gerontology/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2990714382",
+      "title": "Journal of Physics: Conference Series",
+      "year": 2013,
+      "cited_by_count": 15702,
+      "adjusted_cited_by_count": 4354.95,
+      "url": "/domains/gerontology/papers/W2990714382"
+    },
+    {
+      "source_id": "https://openalex.org/W3113178943",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+      "year": 2020,
+      "cited_by_count": 10591,
+      "adjusted_cited_by_count": 4323.76,
+      "url": "/domains/gerontology/papers/W3113178943"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "age",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 421
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 341
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 306
+    },
+    {
+      "label": "gerontology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 286
+    },
+    {
+      "label": "aging",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 256
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 256
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 217
+    },
+    {
+      "label": "ros",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 217
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 212
+    },
+    {
+      "label": "life",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 192
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 177
+    },
+    {
+      "label": "older",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 173
+    },
+    {
+      "label": "factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 171
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 160
+    },
+    {
+      "label": "adult",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 155
+    },
+    {
+      "label": "evidence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 147
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 142
+    },
+    {
+      "label": "cause",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 140
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 172
+    },
+    {
+      "label": "pathology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 130
+    },
+    {
+      "label": "care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 166
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 129
+    },
+    {
+      "label": "measure",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 125
+    },
+    {
+      "label": "mental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 125
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 124
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 122
+    },
+    {
+      "label": "intervention",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 118
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 117
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 117
+    },
+    {
+      "label": "people",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 115
+    },
+    {
+      "label": "physical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 155
+    },
+    {
+      "label": "activity",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9872,
+      "evidence_count": 104
+    },
+    {
+      "label": "cognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 103
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9871,
+      "evidence_count": 102
+    },
+    {
+      "label": "years",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 101
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 96
+    },
+    {
+      "label": "cognitive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 116
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 96
+    },
+    {
+      "label": "support",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 94
+    },
+    {
+      "label": "dementia",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 91
+    },
+    {
+      "label": "stress",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 91
+    },
+    {
+      "label": "decline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 84
+    },
+    {
+      "label": "older adults",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 84
+    },
+    {
+      "label": "s disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 84
+    },
+    {
+      "label": "chronic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 83
+    },
+    {
+      "label": "national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 83
+    },
+    {
+      "label": "quality",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 83
+    },
+    {
+      "label": "healthcare",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 80
+    },
+    {
+      "label": "association",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 77
+    }
+  ],
+  "topic_year_counts": {
+    "diseases in aging": {
+      "2023": 809289,
+      "2024": 761563,
+      "2025": 690849,
+      "2022": 604372,
+      "2021": 574628,
+      "2020": 514295,
+      "2019": 389506,
+      "2018": 342477,
+      "2017": 311028,
+      "2016": 279815,
+      "2015": 255734,
+      "2014": 236334,
+      "2013": 213633,
+      "2012": 186547,
+      "2026": 166125,
+      "2011": 157532,
+      "2010": 132946,
+      "2009": 114824,
+      "2008": 99058,
+      "2007": 85608,
+      "2006": 78558,
+      "2005": 71599,
+      "2004": 66039,
+      "2003": 55284,
+      "2002": 46192,
+      "2001": 42337,
+      "2000": 41936
+    },
+    "cognitive decline": {
+      "2025": 134944,
+      "2024": 113870,
+      "2023": 104645,
+      "2022": 71257,
+      "2021": 64450,
+      "2020": 59635,
+      "2019": 50434,
+      "2018": 43486,
+      "2017": 40243,
+      "2026": 37216,
+      "2016": 36012,
+      "2015": 32361,
+      "2014": 29125,
+      "2013": 25680,
+      "2012": 22116,
+      "2011": 18643,
+      "2010": 15945,
+      "2009": 13864,
+      "2008": 11515,
+      "2007": 9209,
+      "2006": 8505,
+      "2005": 7090,
+      "2004": 6049,
+      "2003": 4853,
+      "2002": 4165,
+      "2000": 3881,
+      "2001": 3445
+    },
+    "immune system": {
+      "2023": 353736,
+      "2024": 335220,
+      "2025": 313955,
+      "2022": 254892,
+      "2021": 238877,
+      "2020": 213005,
+      "2019": 153103,
+      "2018": 134718,
+      "2017": 123476,
+      "2016": 111497,
+      "2015": 100721,
+      "2014": 94407,
+      "2013": 85574,
+      "2026": 80307,
+      "2012": 76862,
+      "2011": 64921,
+      "2010": 54724,
+      "2009": 47252,
+      "2008": 40376,
+      "2007": 35092,
+      "2006": 31818,
+      "2005": 29284,
+      "2004": 25962,
+      "2003": 23449,
+      "2002": 20506,
+      "2000": 17842,
+      "2001": 17727
+    },
+    "health disparity outcome": {
+      "2025": 141021,
+      "2024": 124870,
+      "2023": 95089,
+      "2022": 54635,
+      "2021": 46930,
+      "2020": 41587,
+      "2026": 34308,
+      "2019": 30427,
+      "2018": 25562,
+      "2017": 22812,
+      "2016": 20089,
+      "2015": 18370,
+      "2014": 16322,
+      "2013": 14186,
+      "2012": 12514,
+      "2011": 10298,
+      "2010": 8931,
+      "2009": 7541,
+      "2008": 5959,
+      "2007": 4938,
+      "2006": 4175,
+      "2005": 3437,
+      "2004": 3256,
+      "2003": 2337,
+      "2002": 1862,
+      "2000": 1690,
+      "2001": 1663
+    },
+    "physical medicine rehabilitation": {
+      "2024": 54553,
+      "2025": 53732,
+      "2023": 51981,
+      "2022": 36801,
+      "2021": 31511,
+      "2020": 28193,
+      "2019": 23155,
+      "2018": 19979,
+      "2017": 17430,
+      "2016": 15412,
+      "2015": 13710,
+      "2026": 12396,
+      "2014": 12013,
+      "2013": 10618,
+      "2012": 9203,
+      "2011": 7419,
+      "2010": 6095,
+      "2009": 5128,
+      "2008": 4102,
+      "2007": 3532,
+      "2006": 3104,
+      "2005": 2750,
+      "2004": 2682,
+      "2003": 2028,
+      "2000": 1793,
+      "2002": 1771,
+      "2001": 1543
+    },
+    "cognitive psychology": {
+      "2025": 192857,
+      "2023": 170317,
+      "2024": 168303,
+      "2022": 122477,
+      "2021": 108688,
+      "2020": 97461,
+      "2019": 82715,
+      "2018": 72016,
+      "2017": 64906,
+      "2016": 57934,
+      "2015": 52773,
+      "2026": 49041,
+      "2014": 45710,
+      "2013": 40505,
+      "2012": 34465,
+      "2011": 29011,
+      "2010": 25441,
+      "2009": 21951,
+      "2008": 17545,
+      "2007": 15272,
+      "2006": 12815,
+      "2005": 10846,
+      "2004": 9228,
+      "2003": 7730,
+      "2002": 6321,
+      "2000": 6177,
+      "2001": 5788
+    },
+    "diabete mellitus": {
+      "2023": 878,
+      "2024": 793,
+      "2022": 706,
+      "2025": 656,
+      "2020": 577,
+      "2021": 559,
+      "2019": 491,
+      "2018": 465,
+      "2017": 461,
+      "2013": 434,
+      "2016": 422,
+      "2015": 398,
+      "2014": 350,
+      "2012": 335,
+      "2011": 300,
+      "2010": 297,
+      "2009": 294,
+      "2008": 244,
+      "2007": 226,
+      "2006": 185,
+      "2005": 153,
+      "2002": 138,
+      "2026": 134,
+      "2003": 125,
+      "2004": 117,
+      "2001": 113,
+      "2000": 97
+    },
+    "psychological intervention": {
+      "2025": 257013,
+      "2024": 211336,
+      "2023": 196102,
+      "2022": 138820,
+      "2021": 122697,
+      "2020": 107756,
+      "2019": 84004,
+      "2018": 71871,
+      "2026": 67597,
+      "2017": 64885,
+      "2016": 58003,
+      "2015": 52349,
+      "2014": 46087,
+      "2013": 40019,
+      "2012": 34510,
+      "2011": 28391,
+      "2010": 24804,
+      "2009": 21392,
+      "2008": 17386,
+      "2007": 14490,
+      "2006": 12346,
+      "2005": 10702,
+      "2004": 9158,
+      "2003": 7821,
+      "2000": 6557,
+      "2002": 6521,
+      "2001": 5803
+    },
+    "mental health": {
+      "2025": 427408,
+      "2024": 406728,
+      "2023": 398819,
+      "2022": 296315,
+      "2021": 265895,
+      "2020": 229506,
+      "2019": 171986,
+      "2018": 148702,
+      "2017": 132528,
+      "2016": 119107,
+      "2015": 107398,
+      "2026": 102209,
+      "2014": 96255,
+      "2013": 85614,
+      "2012": 74197,
+      "2011": 63340,
+      "2010": 55070,
+      "2009": 48657,
+      "2008": 40546,
+      "2007": 35484,
+      "2006": 31299,
+      "2005": 27280,
+      "2004": 23808,
+      "2003": 20212,
+      "2002": 18037,
+      "2000": 15802,
+      "2001": 15671
+    },
+    "risk factors": {
+      "2025": 1234173,
+      "2024": 1174125,
+      "2023": 1172716,
+      "2022": 837704,
+      "2021": 777193,
+      "2020": 710448,
+      "2019": 560557,
+      "2018": 495426,
+      "2017": 444657,
+      "2016": 404160,
+      "2015": 369926,
+      "2014": 339488,
+      "2026": 313179,
+      "2013": 305163,
+      "2012": 269252,
+      "2011": 230794,
+      "2010": 198145,
+      "2009": 171273,
+      "2008": 146436,
+      "2007": 126016,
+      "2006": 114158,
+      "2005": 101385,
+      "2004": 89555,
+      "2003": 77066,
+      "2002": 64229,
+      "2001": 56907,
+      "2000": 55188
+    },
+    "older people": {
+      "2023": 502842,
+      "2024": 446605,
+      "2025": 398037,
+      "2022": 344134,
+      "2021": 315214,
+      "2020": 292685,
+      "2019": 235103,
+      "2018": 209330,
+      "2017": 190294,
+      "2016": 173007,
+      "2015": 159612,
+      "2014": 144459,
+      "2013": 128631,
+      "2012": 113188,
+      "2011": 98540,
+      "2026": 87144,
+      "2010": 86174,
+      "2009": 76591,
+      "2008": 63763,
+      "2007": 55853,
+      "2006": 49575,
+      "2005": 43797,
+      "2004": 38412,
+      "2003": 32567,
+      "2002": 28250,
+      "2000": 26285,
+      "2001": 25415
+    }
+  }
+}

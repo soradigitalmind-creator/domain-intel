@@ -1,0 +1,1807 @@
+{
+  "slug": "cardiovascular-disease",
+  "title": "Cardiovascular Disease",
+  "updated_at": "2026-04-12T01:26:21.500999Z",
+  "snapshot": {
+    "papers": 539,
+    "topics": 4,
+    "subtopics": 38,
+    "entities": 1710,
+    "claims": 21
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 924,
+      "total_papers": 924,
+      "facet_counts": {
+        "none": 924
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 38,
+    "max_depth": 2,
+    "leaf_topics": 38
+  },
+  "rising_topics": [
+    {
+      "id": "sg-coronary-heart-disease",
+      "label": "Coronary heart disease",
+      "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease",
+      "trend": "rising",
+      "year_total": 954914
+    },
+    {
+      "id": "sg-kidney-disease",
+      "label": "Kidney disease",
+      "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease",
+      "trend": "rising",
+      "year_total": 1788661
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/topics/sg-cell-biology",
+      "trend": "rising",
+      "year_total": 2842308
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-coronary-heart-disease",
+      "label": "Coronary heart disease",
+      "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease",
+      "paper_count": 231,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: internal medicine, cardiology, vascular",
+      "tags": [
+        "coronary heart disease",
+        "coronary heart disease pravastatin",
+        "diabete cardiovascular",
+        "diabete cardiovascular disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-factor-cardiovascular-disease",
+          "label": "Cardiovascular disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-cardiovascular-disease",
+          "paper_count": 102
+        },
+        {
+          "id": "sg-coronary-heart-disease-myocardial-infarction",
+          "label": "Myocardial infarction",
+          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-myocardial-infarction",
+          "paper_count": 71
+        },
+        {
+          "id": "sg-coronary-heart-disease-secondary-prevention-of-coronary-heart-disease",
+          "label": "Secondary prevention of coronary heart disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-secondary-prevention-of-coronary-heart-disease",
+          "paper_count": 38
+        },
+        {
+          "id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
+          "label": "Prevention of coronary heart disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-risk-factor-cardiovascular-diseases",
+          "label": "Cardiovascular diseases",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-cardiovascular-diseases",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2146264128",
+          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+          "year": "2015",
+          "cited_by_count": 11793,
+          "url": "/domains/cardiovascular-disease/papers/W2146264128"
+        },
+        {
+          "source_id": "https://openalex.org/W2748400555",
+          "title": "Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease",
+          "year": "2017",
+          "cited_by_count": 8851,
+          "url": "/domains/cardiovascular-disease/papers/W2748400555"
+        },
+        {
+          "source_id": "https://openalex.org/W4401164724",
+          "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+          "year": "2024",
+          "cited_by_count": 2574,
+          "url": "/domains/cardiovascular-disease/papers/W4401164724"
+        }
+      ]
+    },
+    {
+      "id": "sg-kidney-disease",
+      "label": "Kidney disease",
+      "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease",
+      "paper_count": 128,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: disease, internal medicine, chronic",
+      "tags": [
+        "chronic kidney disease",
+        "chronic kidney disease and diabete",
+        "kidney disease",
+        "kidney disease outcome"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-factor-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cardiovascular-disease/topics/sg-risk-factor-internal-medicine",
+          "paper_count": 49
+        },
+        {
+          "id": "sg-kidney-disease-acute-kidney-injury",
+          "label": "Acute kidney injury",
+          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-acute-kidney-injury",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-kidney-disease-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-internal-medicine",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-kidney-disease-renal-function",
+          "label": "Renal function",
+          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-renal-function",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-kidney-disease-chronic-kidney-disease",
+          "label": "Chronic kidney disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-chronic-kidney-disease",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-kidney-disease-cardiovascular-disease",
+          "label": "Cardiovascular disease",
+          "url": "/domains/cardiovascular-disease/topics/sg-kidney-disease-cardiovascular-disease",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3008028633",
+          "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+          "year": "2020",
+          "cited_by_count": 17941,
+          "url": "/domains/cardiovascular-disease/papers/W3008028633"
+        },
+        {
+          "source_id": "https://openalex.org/W2127951128",
+          "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+          "year": "2012",
+          "cited_by_count": 16073,
+          "url": "/domains/cardiovascular-disease/papers/W2127951128"
+        },
+        {
+          "source_id": "https://openalex.org/W2475261460",
+          "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
+          "year": "2016",
+          "cited_by_count": 11735,
+          "url": "/domains/cardiovascular-disease/papers/W2475261460"
+        }
+      ]
+    },
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/topics/sg-cell-biology",
+      "paper_count": 104,
+      "subtopic_count": 18,
+      "trend": "rising",
+      "summary": "entities: gene, cell biology, cell",
+      "tags": [
+        "cell biology",
+        "cell growth",
+        "cell migration",
+        "cell signaling"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cell-biology-cell-signaling",
+          "label": "Cell signaling",
+          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-cell-signaling",
+          "paper_count": 39
+        },
+        {
+          "id": "sg-cell-biology-cell-migration",
+          "label": "Cell migration",
+          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-cell-migration",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-cell-biology-redox-biology-oxidative-stress",
+          "label": "Redox biology oxidative stress",
+          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-redox-biology-oxidative-stress",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cell-biology-extracellular-matrix",
+          "label": "Extracellular matrix",
+          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-extracellular-matrix",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cell-biology-extracellular-vesicle",
+          "label": "Extracellular vesicle",
+          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-extracellular-vesicle",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cell-biology-stem-cell",
+          "label": "Stem cell",
+          "url": "/domains/cardiovascular-disease/topics/sg-cell-biology-stem-cell",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2064815984",
+          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+          "year": "2013",
+          "cited_by_count": 15565,
+          "url": "/domains/cardiovascular-disease/papers/W2064815984"
+        },
+        {
+          "source_id": "https://openalex.org/W3029661147",
+          "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+          "year": "2020",
+          "cited_by_count": 9903,
+          "url": "/domains/cardiovascular-disease/papers/W3029661147"
+        },
+        {
+          "source_id": "https://openalex.org/W2126525177",
+          "title": "The Hallmarks of Aging",
+          "year": "2013",
+          "cited_by_count": 14569,
+          "url": "/domains/cardiovascular-disease/papers/W2126525177"
+        }
+      ]
+    },
+    {
+      "id": "sg-heart-failure",
+      "label": "Heart failure",
+      "url": "/domains/cardiovascular-disease/topics/sg-heart-failure",
+      "paper_count": 76,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: internal medicine, heart failure, cardiology",
+      "tags": [
+        "cardiovascular disease and adiposity",
+        "chronic heart failure",
+        "congestive heart failure",
+        "diabete cardiovascular disease"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-heart-failure-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-internal-medicine",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-heart-failure-heart-failure-treatment-and-management",
+          "label": "Heart failure treatment and management",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-heart-failure-treatment-and-management",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-heart-failure-ejection-fraction-in-heart-failure",
+          "label": "Ejection fraction in heart failure",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-ejection-fraction-in-heart-failure",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-heart-failure-cardiac-resynchronization-therapy",
+          "label": "Cardiac resynchronization therapy",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-cardiac-resynchronization-therapy",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-heart-failure-heart-failure-management",
+          "label": "Heart failure management",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-heart-failure-management",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-heart-failure-ace-inhibitors",
+          "label": "ACE inhibitors",
+          "url": "/domains/cardiovascular-disease/topics/sg-heart-failure-ace-inhibitors",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2397911846",
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11403,
+          "url": "/domains/cardiovascular-disease/papers/W2397911846"
+        },
+        {
+          "source_id": "https://openalex.org/W2520432709",
+          "title": "Diagnosis and Classification of Diabetes Mellitus",
+          "year": "2010",
+          "cited_by_count": 14000,
+          "url": "/domains/cardiovascular-disease/papers/W2520432709"
+        },
+        {
+          "source_id": "https://openalex.org/W2162800060",
+          "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+          "year": "2000",
+          "cited_by_count": 14255,
+          "url": "/domains/cardiovascular-disease/papers/W2162800060"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 23,
+      "papers": [
+        {
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": "2020",
+          "cited_by_count": 31076,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3008827533.html"
+        },
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18590,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3092849554.html"
+        },
+        {
+          "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+          "year": "2020",
+          "cited_by_count": 17941,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3008028633.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13844,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13447,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        },
+        {
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+          "year": "2020",
+          "cited_by_count": 10591,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3113178943.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell biology",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+          "year": "2013",
+          "cited_by_count": 15565,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2064815984.html"
+        },
+        {
+          "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+          "year": "2020",
+          "cited_by_count": 9903,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w3029661147.html"
+        },
+        {
+          "title": "The Hallmarks of Aging",
+          "year": "2013",
+          "cited_by_count": 14569,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2126525177.html"
+        },
+        {
+          "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+          "year": "2018",
+          "cited_by_count": 10875,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2900756811.html"
+        },
+        {
+          "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+          "year": "2008",
+          "cited_by_count": 14695,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2133465414.html"
+        },
+        {
+          "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+          "year": "2024",
+          "cited_by_count": 3192,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w4391649568.html"
+        }
+      ]
+    },
+    {
+      "label": "Prevention of coronary heart disease",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+          "year": "2013",
+          "cited_by_count": 13658,
+          "topic": "Prevention of coronary heart disease",
+          "url": "papers/https-openalex-org-w2133416234.html"
+        },
+        {
+          "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+          "year": "2009",
+          "cited_by_count": 14494,
+          "topic": "Prevention of coronary heart disease",
+          "url": "papers/https-openalex-org-w2020155291.html"
+        },
+        {
+          "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: &lt;i&gt;lipid modification to reduce cardiovascular risk&lt;/i&gt;",
+          "year": "2019",
+          "cited_by_count": 8631,
+          "topic": "Prevention of coronary heart disease",
+          "url": "papers/https-openalex-org-w3183857127.html"
+        }
+      ]
+    },
+    {
+      "label": "Extracellular matrix",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "year": "2020",
+          "cited_by_count": 10430,
+          "topic": "Extracellular matrix",
+          "url": "papers/https-openalex-org-w3108106255.html"
+        },
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women&#x27;s Health Initiative Randomized Controlled Trial",
+          "year": "2002",
+          "cited_by_count": 15751,
+          "topic": "Extracellular matrix",
+          "url": "papers/https-openalex-org-w1593442063.html"
+        }
+      ]
+    },
+    {
+      "label": "Heart failure",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+          "year": "2016",
+          "cited_by_count": 11403,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w2397911846.html"
+        },
+        {
+          "title": "Diagnosis and Classification of Diabetes Mellitus",
+          "year": "2010",
+          "cited_by_count": 14000,
+          "topic": "Heart failure",
+          "url": "papers/https-openalex-org-w2520432709.html"
+        }
+      ]
+    },
+    {
+      "label": "Coronary heart disease",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+          "year": "2015",
+          "cited_by_count": 11793,
+          "topic": "Coronary heart disease",
+          "url": "papers/https-openalex-org-w2146264128.html"
+        }
+      ]
+    },
+    {
+      "label": "Kidney disease",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
+          "year": "2016",
+          "cited_by_count": 11735,
+          "topic": "Kidney disease",
+          "url": "papers/https-openalex-org-w2475261460.html"
+        }
+      ]
+    },
+    {
+      "label": "MAPK/ERK pathway",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer&#x27;s disease",
+          "year": "2018",
+          "cited_by_count": 10001,
+          "topic": "MAPK/ERK pathway",
+          "url": "papers/https-openalex-org-w2798054687.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31076,
+      "adjusted_cited_by_count": 12686.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18590,
+      "adjusted_cited_by_count": 7589.34,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W3008028633",
+      "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+      "year": 2020,
+      "cited_by_count": 17941,
+      "adjusted_cited_by_count": 7324.38,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3008028633"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13844,
+      "adjusted_cited_by_count": 4894.59,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13447,
+      "adjusted_cited_by_count": 4482.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W3113178943",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+      "year": 2020,
+      "cited_by_count": 10591,
+      "adjusted_cited_by_count": 4323.76,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3113178943"
+    },
+    {
+      "source_id": "https://openalex.org/W2064815984",
+      "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+      "year": 2013,
+      "cited_by_count": 15565,
+      "adjusted_cited_by_count": 4316.95,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W2064815984"
+    },
+    {
+      "source_id": "https://openalex.org/W2127951128",
+      "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+      "year": 2012,
+      "cited_by_count": 16073,
+      "adjusted_cited_by_count": 4295.69,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2127951128"
+    },
+    {
+      "source_id": "https://openalex.org/W3108106255",
+      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+      "year": 2020,
+      "cited_by_count": 10430,
+      "adjusted_cited_by_count": 4258.03,
+      "primary_topic_id": "sg-cell-biology-extracellular-matrix",
+      "primary_topic_label": "Extracellular matrix",
+      "url": "/domains/cardiovascular-disease/papers/W3108106255"
+    },
+    {
+      "source_id": "https://openalex.org/W2324841714",
+      "title": "Atherosclerosis — An Inflammatory Disease",
+      "year": 1999,
+      "cited_by_count": 21642,
+      "adjusted_cited_by_count": 4165.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2324841714"
+    },
+    {
+      "source_id": "https://openalex.org/W4200026682",
+      "title": "IDF Diabetes Atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
+      "year": 2021,
+      "cited_by_count": 9306,
+      "adjusted_cited_by_count": 4161.77,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W4200026682"
+    },
+    {
+      "source_id": "https://openalex.org/W3046275966",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by_count": 9917,
+      "adjusted_cited_by_count": 4048.6,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3046275966"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9903,
+      "adjusted_cited_by_count": 4042.88,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W2126525177",
+      "title": "The Hallmarks of Aging",
+      "year": 2013,
+      "cited_by_count": 14569,
+      "adjusted_cited_by_count": 4040.71,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W2126525177"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4034,
+      "adjusted_cited_by_count": 4034.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W3082188176",
+      "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+      "year": 2020,
+      "cited_by_count": 9748,
+      "adjusted_cited_by_count": 3979.6,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3082188176"
+    },
+    {
+      "source_id": "https://openalex.org/W2900756811",
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "year": 2018,
+      "cited_by_count": 10875,
+      "adjusted_cited_by_count": 3844.89,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W2900756811"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9290,
+      "adjusted_cited_by_count": 3792.63,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14186,
+      "adjusted_cited_by_count": 3791.37,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2133416234",
+      "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+      "year": 2013,
+      "cited_by_count": 13658,
+      "adjusted_cited_by_count": 3788.05,
+      "primary_topic_id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
+      "primary_topic_label": "Prevention of coronary heart disease",
+      "url": "/domains/cardiovascular-disease/papers/W2133416234"
+    },
+    {
+      "source_id": "https://openalex.org/W2337454357",
+      "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+      "year": 1998,
+      "cited_by_count": 20002,
+      "adjusted_cited_by_count": 3780.02,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2337454357"
+    },
+    {
+      "source_id": "https://openalex.org/W2097995306",
+      "title": "Improved Survival with Ipilimumab in Patients with Metastatic Melanoma",
+      "year": 2010,
+      "cited_by_count": 15051,
+      "adjusted_cited_by_count": 3762.75,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2097995306"
+    },
+    {
+      "source_id": "https://openalex.org/W2475261460",
+      "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
+      "year": 2016,
+      "cited_by_count": 11735,
+      "adjusted_cited_by_count": 3710.93,
+      "primary_topic_id": "sg-kidney-disease",
+      "primary_topic_label": "Kidney disease",
+      "url": "/domains/cardiovascular-disease/papers/W2475261460"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10297,
+      "adjusted_cited_by_count": 3640.54,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2397911846",
+      "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2016,
+      "cited_by_count": 11403,
+      "adjusted_cited_by_count": 3605.95,
+      "primary_topic_id": "sg-heart-failure",
+      "primary_topic_label": "Heart failure",
+      "url": "/domains/cardiovascular-disease/papers/W2397911846"
+    },
+    {
+      "source_id": "https://openalex.org/W2146264128",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "year": 2015,
+      "cited_by_count": 11793,
+      "adjusted_cited_by_count": 3555.72,
+      "primary_topic_id": "sg-coronary-heart-disease",
+      "primary_topic_label": "Coronary heart disease",
+      "url": "/domains/cardiovascular-disease/papers/W2146264128"
+    },
+    {
+      "source_id": "https://openalex.org/W2798054687",
+      "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by_count": 10001,
+      "adjusted_cited_by_count": 3535.89,
+      "primary_topic_id": "sg-cell-biology-mapk-erk-pathway",
+      "primary_topic_label": "MAPK/ERK pathway",
+      "url": "/domains/cardiovascular-disease/papers/W2798054687"
+    },
+    {
+      "source_id": "https://openalex.org/W2020155291",
+      "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "year": 2009,
+      "cited_by_count": 14494,
+      "adjusted_cited_by_count": 3515.31,
+      "primary_topic_id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
+      "primary_topic_label": "Prevention of coronary heart disease",
+      "url": "/domains/cardiovascular-disease/papers/W2020155291"
+    },
+    {
+      "source_id": "https://openalex.org/W2143104968",
+      "title": "Harmonizing the Metabolic Syndrome",
+      "year": 2009,
+      "cited_by_count": 14481,
+      "adjusted_cited_by_count": 3512.16,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2143104968"
+    },
+    {
+      "source_id": "https://openalex.org/W2520432709",
+      "title": "Diagnosis and Classification of Diabetes Mellitus",
+      "year": 2010,
+      "cited_by_count": 14000,
+      "adjusted_cited_by_count": 3500.0,
+      "primary_topic_id": "sg-heart-failure",
+      "primary_topic_label": "Heart failure",
+      "url": "/domains/cardiovascular-disease/papers/W2520432709"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12015,
+      "adjusted_cited_by_count": 3468.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2133465414",
+      "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+      "year": 2008,
+      "cited_by_count": 14695,
+      "adjusted_cited_by_count": 3463.64,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W2133465414"
+    },
+    {
+      "source_id": "https://openalex.org/W2136608905",
+      "title": "The behaviour change wheel: A new method for characterising and designing behaviour change interventions",
+      "year": 2011,
+      "cited_by_count": 13170,
+      "adjusted_cited_by_count": 3400.48,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2136608905"
+    },
+    {
+      "source_id": "https://openalex.org/W2895486342",
+      "title": "The UK Biobank resource with deep phenotyping and genomic data",
+      "year": 2018,
+      "cited_by_count": 9455,
+      "adjusted_cited_by_count": 3342.85,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2895486342"
+    },
+    {
+      "source_id": "https://openalex.org/W3183857127",
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: <i>lipid modification to reduce cardiovascular risk</i>",
+      "year": 2019,
+      "cited_by_count": 8631,
+      "adjusted_cited_by_count": 3262.21,
+      "primary_topic_id": "sg-coronary-heart-disease-prevention-of-coronary-heart-disease",
+      "primary_topic_label": "Prevention of coronary heart disease",
+      "url": "/domains/cardiovascular-disease/papers/W3183857127"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7251,
+      "adjusted_cited_by_count": 3242.75,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W1593442063",
+      "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+      "year": 2002,
+      "cited_by_count": 15751,
+      "adjusted_cited_by_count": 3215.16,
+      "primary_topic_id": "sg-cell-biology-extracellular-matrix",
+      "primary_topic_label": "Extracellular matrix",
+      "url": "/domains/cardiovascular-disease/papers/W1593442063"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11958,
+      "adjusted_cited_by_count": 3195.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cardiovascular-disease/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W4391649568",
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "year": 2024,
+      "cited_by_count": 3192,
+      "adjusted_cited_by_count": 3192.0,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W4391649568"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14015,
+      "adjusted_cited_by_count": 3133.85,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/cardiovascular-disease/papers/W2165201727"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3008827533",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "year": 2020,
+      "cited_by_count": 31076,
+      "adjusted_cited_by_count": 12686.72,
+      "url": "/domains/cardiovascular-disease/papers/W3008827533"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18590,
+      "adjusted_cited_by_count": 7589.34,
+      "url": "/domains/cardiovascular-disease/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W3008028633",
+      "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China",
+      "year": 2020,
+      "cited_by_count": 17941,
+      "adjusted_cited_by_count": 7324.38,
+      "url": "/domains/cardiovascular-disease/papers/W3008028633"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13844,
+      "adjusted_cited_by_count": 4894.59,
+      "url": "/domains/cardiovascular-disease/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13447,
+      "adjusted_cited_by_count": 4482.33,
+      "url": "/domains/cardiovascular-disease/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W3113178943",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+      "year": 2020,
+      "cited_by_count": 10591,
+      "adjusted_cited_by_count": 4323.76,
+      "url": "/domains/cardiovascular-disease/papers/W3113178943"
+    },
+    {
+      "source_id": "https://openalex.org/W2064815984",
+      "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+      "year": 2013,
+      "cited_by_count": 15565,
+      "adjusted_cited_by_count": 4316.95,
+      "url": "/domains/cardiovascular-disease/papers/W2064815984"
+    },
+    {
+      "source_id": "https://openalex.org/W2127951128",
+      "title": "Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease",
+      "year": 2012,
+      "cited_by_count": 16073,
+      "adjusted_cited_by_count": 4295.69,
+      "url": "/domains/cardiovascular-disease/papers/W2127951128"
+    },
+    {
+      "source_id": "https://openalex.org/W3108106255",
+      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+      "year": 2020,
+      "cited_by_count": 10430,
+      "adjusted_cited_by_count": 4258.03,
+      "url": "/domains/cardiovascular-disease/papers/W3108106255"
+    },
+    {
+      "source_id": "https://openalex.org/W2324841714",
+      "title": "Atherosclerosis — An Inflammatory Disease",
+      "year": 1999,
+      "cited_by_count": 21642,
+      "adjusted_cited_by_count": 4165.0,
+      "url": "/domains/cardiovascular-disease/papers/W2324841714"
+    },
+    {
+      "source_id": "https://openalex.org/W4200026682",
+      "title": "IDF Diabetes Atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
+      "year": 2021,
+      "cited_by_count": 9306,
+      "adjusted_cited_by_count": 4161.77,
+      "url": "/domains/cardiovascular-disease/papers/W4200026682"
+    },
+    {
+      "source_id": "https://openalex.org/W3046275966",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by_count": 9917,
+      "adjusted_cited_by_count": 4048.6,
+      "url": "/domains/cardiovascular-disease/papers/W3046275966"
+    },
+    {
+      "source_id": "https://openalex.org/W3029661147",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "year": 2020,
+      "cited_by_count": 9903,
+      "adjusted_cited_by_count": 4042.88,
+      "url": "/domains/cardiovascular-disease/papers/W3029661147"
+    },
+    {
+      "source_id": "https://openalex.org/W2126525177",
+      "title": "The Hallmarks of Aging",
+      "year": 2013,
+      "cited_by_count": 14569,
+      "adjusted_cited_by_count": 4040.71,
+      "url": "/domains/cardiovascular-disease/papers/W2126525177"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4034,
+      "adjusted_cited_by_count": 4034.0,
+      "url": "/domains/cardiovascular-disease/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W3082188176",
+      "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+      "year": 2020,
+      "cited_by_count": 9748,
+      "adjusted_cited_by_count": 3979.6,
+      "url": "/domains/cardiovascular-disease/papers/W3082188176"
+    },
+    {
+      "source_id": "https://openalex.org/W2900756811",
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "year": 2018,
+      "cited_by_count": 10875,
+      "adjusted_cited_by_count": 3844.89,
+      "url": "/domains/cardiovascular-disease/papers/W2900756811"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9290,
+      "adjusted_cited_by_count": 3792.63,
+      "url": "/domains/cardiovascular-disease/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14186,
+      "adjusted_cited_by_count": 3791.37,
+      "url": "/domains/cardiovascular-disease/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2133416234",
+      "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+      "year": 2013,
+      "cited_by_count": 13658,
+      "adjusted_cited_by_count": 3788.05,
+      "url": "/domains/cardiovascular-disease/papers/W2133416234"
+    },
+    {
+      "source_id": "https://openalex.org/W2337454357",
+      "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33)",
+      "year": 1998,
+      "cited_by_count": 20002,
+      "adjusted_cited_by_count": 3780.02,
+      "url": "/domains/cardiovascular-disease/papers/W2337454357"
+    },
+    {
+      "source_id": "https://openalex.org/W2097995306",
+      "title": "Improved Survival with Ipilimumab in Patients with Metastatic Melanoma",
+      "year": 2010,
+      "cited_by_count": 15051,
+      "adjusted_cited_by_count": 3762.75,
+      "url": "/domains/cardiovascular-disease/papers/W2097995306"
+    },
+    {
+      "source_id": "https://openalex.org/W2475261460",
+      "title": "Should We STOP Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers in Advanced Kidney Disease?",
+      "year": 2016,
+      "cited_by_count": 11735,
+      "adjusted_cited_by_count": 3710.93,
+      "url": "/domains/cardiovascular-disease/papers/W2475261460"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10297,
+      "adjusted_cited_by_count": 3640.54,
+      "url": "/domains/cardiovascular-disease/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2397911846",
+      "title": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+      "year": 2016,
+      "cited_by_count": 11403,
+      "adjusted_cited_by_count": 3605.95,
+      "url": "/domains/cardiovascular-disease/papers/W2397911846"
+    },
+    {
+      "source_id": "https://openalex.org/W2146264128",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "year": 2015,
+      "cited_by_count": 11793,
+      "adjusted_cited_by_count": 3555.72,
+      "url": "/domains/cardiovascular-disease/papers/W2146264128"
+    },
+    {
+      "source_id": "https://openalex.org/W2798054687",
+      "title": "NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by_count": 10001,
+      "adjusted_cited_by_count": 3535.89,
+      "url": "/domains/cardiovascular-disease/papers/W2798054687"
+    },
+    {
+      "source_id": "https://openalex.org/W2020155291",
+      "title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "year": 2009,
+      "cited_by_count": 14494,
+      "adjusted_cited_by_count": 3515.31,
+      "url": "/domains/cardiovascular-disease/papers/W2020155291"
+    },
+    {
+      "source_id": "https://openalex.org/W2143104968",
+      "title": "Harmonizing the Metabolic Syndrome",
+      "year": 2009,
+      "cited_by_count": 14481,
+      "adjusted_cited_by_count": 3512.16,
+      "url": "/domains/cardiovascular-disease/papers/W2143104968"
+    },
+    {
+      "source_id": "https://openalex.org/W2520432709",
+      "title": "Diagnosis and Classification of Diabetes Mellitus",
+      "year": 2010,
+      "cited_by_count": 14000,
+      "adjusted_cited_by_count": 3500.0,
+      "url": "/domains/cardiovascular-disease/papers/W2520432709"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12015,
+      "adjusted_cited_by_count": 3468.43,
+      "url": "/domains/cardiovascular-disease/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2133465414",
+      "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+      "year": 2008,
+      "cited_by_count": 14695,
+      "adjusted_cited_by_count": 3463.64,
+      "url": "/domains/cardiovascular-disease/papers/W2133465414"
+    },
+    {
+      "source_id": "https://openalex.org/W2136608905",
+      "title": "The behaviour change wheel: A new method for characterising and designing behaviour change interventions",
+      "year": 2011,
+      "cited_by_count": 13170,
+      "adjusted_cited_by_count": 3400.48,
+      "url": "/domains/cardiovascular-disease/papers/W2136608905"
+    },
+    {
+      "source_id": "https://openalex.org/W2895486342",
+      "title": "The UK Biobank resource with deep phenotyping and genomic data",
+      "year": 2018,
+      "cited_by_count": 9455,
+      "adjusted_cited_by_count": 3342.85,
+      "url": "/domains/cardiovascular-disease/papers/W2895486342"
+    },
+    {
+      "source_id": "https://openalex.org/W3183857127",
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: <i>lipid modification to reduce cardiovascular risk</i>",
+      "year": 2019,
+      "cited_by_count": 8631,
+      "adjusted_cited_by_count": 3262.21,
+      "url": "/domains/cardiovascular-disease/papers/W3183857127"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7251,
+      "adjusted_cited_by_count": 3242.75,
+      "url": "/domains/cardiovascular-disease/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W1593442063",
+      "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+      "year": 2002,
+      "cited_by_count": 15751,
+      "adjusted_cited_by_count": 3215.16,
+      "url": "/domains/cardiovascular-disease/papers/W1593442063"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11958,
+      "adjusted_cited_by_count": 3195.91,
+      "url": "/domains/cardiovascular-disease/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W4391649568",
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "year": 2024,
+      "cited_by_count": 3192,
+      "adjusted_cited_by_count": 3192.0,
+      "url": "/domains/cardiovascular-disease/papers/W4391649568"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14015,
+      "adjusted_cited_by_count": 3133.85,
+      "url": "/domains/cardiovascular-disease/papers/W2165201727"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 804
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 479
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 298
+    },
+    {
+      "label": "vascular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 266
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 253
+    },
+    {
+      "label": "cardiovascular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 237
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 236
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 205
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 195
+    },
+    {
+      "label": "cardiology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 181
+    },
+    {
+      "label": "more than",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 11
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 157
+    },
+    {
+      "label": "diabete mellitus",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.989,
+      "evidence_count": 145
+    },
+    {
+      "label": "factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 145
+    },
+    {
+      "label": "cardiovascular disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 144
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 131
+    },
+    {
+      "label": "care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 228
+    },
+    {
+      "label": "heart",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 127
+    },
+    {
+      "label": "guideline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 116
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 116
+    },
+    {
+      "label": "death",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 109
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 106
+    },
+    {
+      "label": "chronic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 105
+    },
+    {
+      "label": "national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 105
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 103
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 102
+    },
+    {
+      "label": "mortality",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 102
+    },
+    {
+      "label": "years",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 99
+    },
+    {
+      "label": "life",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 97
+    },
+    {
+      "label": "outcome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 95
+    },
+    {
+      "label": "prevention",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 93
+    },
+    {
+      "label": "therapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 110
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 91
+    },
+    {
+      "label": "management of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 91
+    },
+    {
+      "label": "risk factor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 88
+    },
+    {
+      "label": "obesity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 87
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9853,
+      "evidence_count": 86
+    },
+    {
+      "label": "myocardial infarction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9853,
+      "evidence_count": 85
+    },
+    {
+      "label": "association",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 84
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 84
+    },
+    {
+      "label": "activity",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9849,
+      "evidence_count": 79
+    },
+    {
+      "label": "heart failure",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9845,
+      "evidence_count": 73
+    },
+    {
+      "label": "incidence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9845,
+      "evidence_count": 72
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9845,
+      "evidence_count": 72
+    },
+    {
+      "label": "medical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9844,
+      "evidence_count": 130
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9844,
+      "evidence_count": 70
+    },
+    {
+      "label": "trial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9844,
+      "evidence_count": 70
+    },
+    {
+      "label": "type 2 diabete",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9842,
+      "evidence_count": 67
+    },
+    {
+      "label": "surgery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9841,
+      "evidence_count": 70
+    },
+    {
+      "label": "blood pressure",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9841,
+      "evidence_count": 66
+    }
+  ],
+  "topic_year_counts": {
+    "coronary heart disease": {
+      "2023": 93181,
+      "2024": 89007,
+      "2025": 75465,
+      "2022": 69234,
+      "2021": 65863,
+      "2020": 61869,
+      "2019": 47474,
+      "2018": 43486,
+      "2017": 40550,
+      "2016": 37314,
+      "2015": 36099,
+      "2014": 34096,
+      "2013": 32538,
+      "2012": 29024,
+      "2011": 25293,
+      "2010": 22478,
+      "2009": 20024,
+      "2008": 17489,
+      "2026": 17434,
+      "2007": 15857,
+      "2006": 14635,
+      "2005": 14259,
+      "2004": 12740,
+      "2003": 12156,
+      "2002": 9990,
+      "2001": 9099,
+      "2000": 8260
+    },
+    "cell biology": {
+      "2023": 301747,
+      "2024": 277804,
+      "2025": 254776,
+      "2022": 211553,
+      "2021": 198155,
+      "2020": 186894,
+      "2019": 156879,
+      "2018": 140746,
+      "2017": 128713,
+      "2016": 115690,
+      "2015": 106756,
+      "2014": 100630,
+      "2013": 93124,
+      "2012": 83659,
+      "2011": 70463,
+      "2026": 66857,
+      "2010": 58332,
+      "2009": 49216,
+      "2008": 42332,
+      "2007": 36333,
+      "2006": 31862,
+      "2005": 28358,
+      "2004": 25288,
+      "2003": 21779,
+      "2002": 19385,
+      "2001": 17727,
+      "2000": 17250
+    },
+    "kidney disease": {
+      "2023": 205233,
+      "2024": 198800,
+      "2025": 180518,
+      "2022": 149504,
+      "2021": 138585,
+      "2020": 125631,
+      "2019": 91084,
+      "2018": 79599,
+      "2017": 72633,
+      "2016": 64547,
+      "2015": 59186,
+      "2014": 54434,
+      "2013": 49633,
+      "2012": 44153,
+      "2026": 43491,
+      "2011": 36466,
+      "2009": 33969,
+      "2010": 30803,
+      "2008": 24386,
+      "2007": 19230,
+      "2006": 16966,
+      "2005": 15474,
+      "2004": 13944,
+      "2003": 12347,
+      "2002": 10313,
+      "2001": 8870,
+      "2000": 8862
+    },
+    "heart failure": {
+      "2023": 190359,
+      "2024": 182134,
+      "2025": 172019,
+      "2022": 141870,
+      "2021": 135288,
+      "2020": 130070,
+      "2019": 104050,
+      "2018": 94375,
+      "2017": 88407,
+      "2016": 82149,
+      "2015": 76000,
+      "2014": 71962,
+      "2013": 67219,
+      "2012": 59927,
+      "2011": 52819,
+      "2010": 45785,
+      "2026": 42594,
+      "2009": 41525,
+      "2008": 35865,
+      "2007": 32581,
+      "2006": 29379,
+      "2005": 27908,
+      "2004": 24225,
+      "2003": 22365,
+      "2002": 17797,
+      "2000": 15912,
+      "2001": 15887
+    }
+  }
+}
