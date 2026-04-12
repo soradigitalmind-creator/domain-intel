@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-03T11:33:24.389427Z",
-  "total_domains": 32,
+  "updated_at": "2026-04-06T14:10:31.692483Z",
+  "total_domains": 31,
   "categories": [
     {
       "label": "Life",
@@ -78,7 +78,7 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 10,
+      "count": 9,
       "domains": [
         {
           "slug": "artificial-intelligence",
@@ -115,10 +115,6 @@
         {
           "slug": "robotics",
           "title": "Robotics"
-        },
-        {
-          "slug": "sensors",
-          "title": "Sensors"
         }
       ]
     },
@@ -164,56 +160,6 @@
     }
   ],
   "domains": [
-    {
-      "slug": "aging",
-      "title": "Aging",
-      "sources": 508,
-      "effective_papers": 426,
-      "subgenres": 43,
-      "parent_subgenres": 5,
-      "child_subgenres": 38,
-      "entities": 1293,
-      "claims": 18,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 508,
-        "total_papers": 508,
-        "facet_counts": {
-          "none": 508
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-09T16:17:53.342462Z"
-    },
-    {
-      "slug": "applied-mathematics",
-      "title": "Applied Mathematics",
-      "sources": 195,
-      "effective_papers": 158,
-      "subgenres": 30,
-      "parent_subgenres": 3,
-      "child_subgenres": 27,
-      "entities": 679,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 195,
-        "total_papers": 195,
-        "facet_counts": {
-          "none": 195
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning applied mathematics.",
-      "updated_at": "2026-04-10T11:53:55.231301Z"
-    },
     {
       "slug": "artificial-intelligence",
       "title": "Artificial Intelligence",
@@ -379,106 +325,6 @@
       "updated_at": "2026-04-08T12:39:45.623315Z"
     },
     {
-      "slug": "battery-technology",
-      "title": "Battery Technology",
-      "sources": 366,
-      "effective_papers": 259,
-      "subgenres": 43,
-      "parent_subgenres": 6,
-      "child_subgenres": 37,
-      "entities": 568,
-      "claims": 10,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 366,
-        "total_papers": 366,
-        "facet_counts": {
-          "none": 366
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning advanced battery technology research.",
-      "updated_at": "2026-04-12T04:21:44.849761Z"
-    },
-    {
-      "slug": "batteryeducation",
-      "title": "BatteryEducation",
-      "sources": 19,
-      "effective_papers": 0,
-      "subgenres": 0,
-      "parent_subgenres": 0,
-      "child_subgenres": 0,
-      "entities": 89,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 19,
-        "total_papers": 19,
-        "facet_counts": {
-          "none": 19
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-06T14:12:18.546573Z"
-    },
-    {
-      "slug": "biotechnology",
-      "title": "Biotechnology",
-      "sources": 608,
-      "effective_papers": 429,
-      "subgenres": 55,
-      "parent_subgenres": 5,
-      "child_subgenres": 50,
-      "entities": 1376,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 608,
-        "total_papers": 608,
-        "facet_counts": {
-          "none": 608
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-05T01:28:35.950793Z"
-    },
-    {
-      "slug": "business",
-      "title": "Business",
-      "sources": 324,
-      "effective_papers": 324,
-      "subgenres": 175,
-      "parent_subgenres": 12,
-      "child_subgenres": 163,
-      "entities": 708,
-      "claims": 2,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 324,
-        "total_papers": 324,
-        "facet_counts": {
-          "none": 324
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning international business, business strategy and innovation, business model.",
-      "updated_at": "2026-04-06T14:15:38.792217Z"
-    },
-    {
       "slug": "business-management",
       "title": "Business Management",
       "sources": 374,
@@ -527,56 +373,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning lung cancer, breast cancer, colorectal cancer.",
       "updated_at": "2026-04-09T15:46:38.233993Z"
-    },
-    {
-      "slug": "cancergenetics",
-      "title": "CancerGenetics",
-      "sources": 556,
-      "effective_papers": 545,
-      "subgenres": 247,
-      "parent_subgenres": 12,
-      "child_subgenres": 235,
-      "entities": 1083,
-      "claims": 11,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 556,
-        "total_papers": 556,
-        "facet_counts": {
-          "none": 556
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-05T01:32:13.848246Z"
-    },
-    {
-      "slug": "cardiology",
-      "title": "Cardiology",
-      "sources": 956,
-      "effective_papers": 679,
-      "subgenres": 56,
-      "parent_subgenres": 4,
-      "child_subgenres": 52,
-      "entities": 1504,
-      "claims": 9,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 956,
-        "total_papers": 956,
-        "facet_counts": {
-          "none": 956
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-12T02:19:16.818050Z"
     },
     {
       "slug": "cardiovascular-disease",
@@ -710,56 +506,6 @@
       "updated_at": "2026-04-07T12:12:08.295047Z"
     },
     {
-      "slug": "computational-biology",
-      "title": "Computational Biology",
-      "sources": 980,
-      "effective_papers": 632,
-      "subgenres": 50,
-      "parent_subgenres": 5,
-      "child_subgenres": 45,
-      "entities": 2022,
-      "claims": 6,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 980,
-        "total_papers": 980,
-        "facet_counts": {
-          "none": 980
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning computational biology.",
-      "updated_at": "2026-04-12T01:37:40.456370Z"
-    },
-    {
-      "slug": "decision-sciences",
-      "title": "Decision Sciences",
-      "sources": 237,
-      "effective_papers": 207,
-      "subgenres": 42,
-      "parent_subgenres": 5,
-      "child_subgenres": 37,
-      "entities": 724,
-      "claims": 4,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 237,
-        "total_papers": 237,
-        "facet_counts": {
-          "none": 237
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-06T14:26:14.360350Z"
-    },
-    {
       "slug": "ecology",
       "title": "Ecology",
       "sources": 463,
@@ -835,81 +581,6 @@
       "updated_at": "2026-04-08T12:44:13.693220Z"
     },
     {
-      "slug": "energy",
-      "title": "Energy",
-      "sources": 270,
-      "effective_papers": 242,
-      "subgenres": 43,
-      "parent_subgenres": 5,
-      "child_subgenres": 38,
-      "entities": 871,
-      "claims": 13,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 270,
-        "total_papers": 270,
-        "facet_counts": {
-          "none": 270
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning energy storage, energy conversion efficiency.",
-      "updated_at": "2026-04-07T12:15:57.392265Z"
-    },
-    {
-      "slug": "environmental-science",
-      "title": "Environmental Science",
-      "sources": 138,
-      "effective_papers": 39,
-      "subgenres": 9,
-      "parent_subgenres": 1,
-      "child_subgenres": 8,
-      "entities": 532,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 138,
-        "total_papers": 138,
-        "facet_counts": {
-          "none": 138
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning environmental science.",
-      "updated_at": "2026-04-12T03:23:20.718304Z"
-    },
-    {
-      "slug": "epidemiology",
-      "title": "Epidemiology",
-      "sources": 558,
-      "effective_papers": 399,
-      "subgenres": 41,
-      "parent_subgenres": 5,
-      "child_subgenres": 36,
-      "entities": 1191,
-      "claims": 24,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 558,
-        "total_papers": 558,
-        "facet_counts": {
-          "none": 558
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning genetic associations and epidemiology, strengthening the reporting of observational studies in epidemiology.",
-      "updated_at": "2026-04-09T16:05:00.106524Z"
-    },
-    {
       "slug": "finance",
       "title": "Finance",
       "sources": 320,
@@ -983,31 +654,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
       "updated_at": "2026-04-05T01:36:15.151412Z"
-    },
-    {
-      "slug": "geriatric-medicine",
-      "title": "Geriatric Medicine",
-      "sources": 953,
-      "effective_papers": 871,
-      "subgenres": 64,
-      "parent_subgenres": 6,
-      "child_subgenres": 58,
-      "entities": 1719,
-      "claims": 12,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 953,
-        "total_papers": 953,
-        "facet_counts": {
-          "none": 953
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-12T02:09:01.321325Z"
     },
     {
       "slug": "gerontology",
@@ -1315,81 +961,6 @@
       "updated_at": "2026-04-12T01:32:31.174929Z"
     },
     {
-      "slug": "meteorology",
-      "title": "Meteorology",
-      "sources": 769,
-      "effective_papers": 764,
-      "subgenres": 410,
-      "parent_subgenres": 10,
-      "child_subgenres": 400,
-      "entities": 1152,
-      "claims": 28,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 769,
-        "total_papers": 769,
-        "facet_counts": {
-          "none": 769
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning mesoscale meteorology.",
-      "updated_at": "2026-04-07T12:02:50.287448Z"
-    },
-    {
-      "slug": "microbiology",
-      "title": "Microbiology",
-      "sources": 626,
-      "effective_papers": 480,
-      "subgenres": 42,
-      "parent_subgenres": 6,
-      "child_subgenres": 36,
-      "entities": 1330,
-      "claims": 5,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 626,
-        "total_papers": 626,
-        "facet_counts": {
-          "none": 626
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning clinical microbiology.",
-      "updated_at": "2026-04-05T01:48:53.705011Z"
-    },
-    {
-      "slug": "molecular-biology",
-      "title": "Molecular Biology",
-      "sources": 198,
-      "effective_papers": 193,
-      "subgenres": 56,
-      "parent_subgenres": 6,
-      "child_subgenres": 50,
-      "entities": 625,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 198,
-        "total_papers": 198,
-        "facet_counts": {
-          "none": 198
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning molecular biology techniques and applications.",
-      "updated_at": "2026-04-12T03:20:16.250044Z"
-    },
-    {
       "slug": "nanotechnology",
       "title": "Nanotechnology",
       "sources": 668,
@@ -1515,56 +1086,6 @@
       "updated_at": "2026-04-12T00:23:40.005822Z"
     },
     {
-      "slug": "power-generation",
-      "title": "Power Generation",
-      "sources": 251,
-      "effective_papers": 217,
-      "subgenres": 45,
-      "parent_subgenres": 5,
-      "child_subgenres": 40,
-      "entities": 699,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 251,
-        "total_papers": 251,
-        "facet_counts": {
-          "none": 251
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-07T12:18:27.587946Z"
-    },
-    {
-      "slug": "psychiatry",
-      "title": "Psychiatry",
-      "sources": 350,
-      "effective_papers": 200,
-      "subgenres": 48,
-      "parent_subgenres": 5,
-      "child_subgenres": 43,
-      "entities": 798,
-      "claims": 8,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 350,
-        "total_papers": 350,
-        "facet_counts": {
-          "none": 350
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-09T16:13:54.823368Z"
-    },
-    {
       "slug": "psychology",
       "title": "Psychology",
       "sources": 363,
@@ -1638,106 +1159,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning reinforcement learning in robotics, soft robotics, robotics and sensor-based localization.",
       "updated_at": "2026-04-06T14:10:31.692483Z"
-    },
-    {
-      "slug": "sensors",
-      "title": "Sensors",
-      "sources": 349,
-      "effective_papers": 240,
-      "subgenres": 44,
-      "parent_subgenres": 5,
-      "child_subgenres": 39,
-      "entities": 1053,
-      "claims": 2,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 349,
-        "total_papers": 349,
-        "facet_counts": {
-          "none": 349
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-06T13:58:13.598744Z"
-    },
-    {
-      "slug": "social-sciences",
-      "title": "Social Sciences",
-      "sources": 197,
-      "effective_papers": 197,
-      "subgenres": 38,
-      "parent_subgenres": 8,
-      "child_subgenres": 30,
-      "entities": 536,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 197,
-        "total_papers": 197,
-        "facet_counts": {
-          "none": 197
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning social science.",
-      "updated_at": "2026-04-11T11:51:42.204995Z"
-    },
-    {
-      "slug": "statistics",
-      "title": "Statistics",
-      "sources": 285,
-      "effective_papers": 248,
-      "subgenres": 54,
-      "parent_subgenres": 8,
-      "child_subgenres": 46,
-      "entities": 789,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 285,
-        "total_papers": 285,
-        "facet_counts": {
-          "none": 285
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning nonparametric statistics, multivariate statistics, descriptive statistics.",
-      "updated_at": "2026-04-10T12:00:01.408135Z"
-    },
-    {
-      "slug": "water-resources",
-      "title": "Water Resources",
-      "sources": 424,
-      "effective_papers": 430,
-      "subgenres": 56,
-      "parent_subgenres": 10,
-      "child_subgenres": 46,
-      "entities": 981,
-      "claims": 3,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 424,
-        "total_papers": 424,
-        "facet_counts": {
-          "none": 424
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning water resource, water resource management and optimization.",
-      "updated_at": "2026-04-03T11:33:24.389427Z"
     }
   ]
 }
