@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-06T14:10:31.692483Z",
-  "total_domains": 32,
+  "total_domains": 33,
   "categories": [
     {
       "label": "Life",
@@ -126,7 +126,7 @@
       "label": "Society",
       "slug": "society",
       "description": "Includes markets, behavior, institutions, and collective life.",
-      "count": 8,
+      "count": 9,
       "domains": [
         {
           "slug": "business-management",
@@ -151,6 +151,10 @@
         {
           "slug": "marketing",
           "title": "Marketing"
+        },
+        {
+          "slug": "music",
+          "title": "Music"
         },
         {
           "slug": "philosophy",
@@ -988,6 +992,34 @@
       },
       "abstraction_label": "A family of related Mental Health technologies, including covid-19 and mental health, mental health, environmental health.",
       "updated_at": "2026-04-12T01:32:31.174929Z"
+    },
+    {
+      "slug": "music",
+      "title": "Music",
+      "sources": 121,
+      "effective_papers": 96,
+      "subgenres": 71,
+      "parent_subgenres": 5,
+      "child_subgenres": 66,
+      "entities": 323,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 121,
+        "total_papers": 121,
+        "facet_counts": {
+          "methods": 1,
+          "none": 118,
+          "overview": 2
+        },
+        "gemini_validation_enabled": true,
+        "gemini_validation_ready": true,
+        "title_phrase_candidates": 3,
+        "overview_min_papers": 6
+      },
+      "abstraction_label": "A family of related Music technologies, including neuroscience and music perception, music and audio processing, music psychology.",
+      "updated_at": "2026-04-15T09:54:18.383473Z"
     },
     {
       "slug": "nanotechnology",

@@ -1,0 +1,1941 @@
+{
+  "slug": "music",
+  "title": "Music",
+  "updated_at": "2026-04-15T09:54:18.335787Z",
+  "snapshot": {
+    "papers": 96,
+    "topics": 5,
+    "subtopics": 66,
+    "entities": 323,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 121,
+      "total_papers": 121,
+      "facet_counts": {
+        "methods": 1,
+        "none": 118,
+        "overview": 2
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 3,
+      "overview_min_papers": 6
+    }
+  },
+  "abstraction": {
+    "label": "A family of related Music technologies, including neuroscience and music perception, music and audio processing, music psychology.",
+    "concept_type": "family_system"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 66,
+    "max_depth": 4,
+    "leaf_topics": 52
+  },
+  "rising_topics": [
+    {
+      "id": "sg-music-psychology",
+      "label": "Music psychology",
+      "url": "/domains/music/topics/sg-music-psychology",
+      "trend": "rising",
+      "year_total": 294662
+    },
+    {
+      "id": "sg-popular-music",
+      "label": "Popular music",
+      "url": "/domains/music/topics/sg-popular-music",
+      "trend": "rising",
+      "year_total": 417916
+    },
+    {
+      "id": "sg-music-therapy",
+      "label": "Music therapy",
+      "url": "/domains/music/topics/sg-music-therapy",
+      "trend": "rising",
+      "year_total": 159746
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-music-psychology",
+      "label": "Music psychology",
+      "url": "/domains/music/topics/sg-music-psychology",
+      "paper_count": 39,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: music, musical, of the",
+      "tags": [
+        "music and emotion",
+        "music psychology",
+        "psychology of music"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-music-psychology-musical-expression",
+          "label": "Musical expression",
+          "url": "/domains/music/topics/sg-music-psychology-musical-expression",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-music-psychology-music-emotion",
+          "label": "Music emotion",
+          "url": "/domains/music/topics/sg-music-psychology-music-emotion",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cognitive-psychology-consumer-retail-behavior-studies",
+          "label": "Consumer retail behavior studies",
+          "url": "/domains/music/topics/sg-cognitive-psychology-consumer-retail-behavior-studies",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-music-psychology-visual-arts",
+          "label": "Visual arts",
+          "url": "/domains/music/topics/sg-music-psychology-visual-arts",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cognitive-psychology-educational-psychology",
+          "label": "Educational psychology",
+          "url": "/domains/music/topics/sg-cognitive-psychology-educational-psychology",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-music-psychology-phonetics-and-phonology",
+          "label": "Phonetics and phonology",
+          "url": "/domains/music/topics/sg-music-psychology-phonetics-and-phonology",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2191779130",
+          "title": "librosa: Audio and Music Signal Analysis in Python",
+          "year": "2015",
+          "cited_by_count": 2859,
+          "url": "/domains/music/papers/W2191779130"
+        },
+        {
+          "source_id": "https://openalex.org/W2023723978",
+          "title": "A Generative Theory of Tonal Music",
+          "year": "1984",
+          "cited_by_count": 3793,
+          "url": "/domains/music/papers/W2023723978"
+        },
+        {
+          "source_id": "https://openalex.org/W2149755721",
+          "title": "MUSIC, maximum likelihood, and Cramer-Rao bound",
+          "year": "1989",
+          "cited_by_count": 2751,
+          "url": "/domains/music/papers/W2149755721"
+        }
+      ]
+    },
+    {
+      "id": "sg-popular-music",
+      "label": "Popular music",
+      "url": "/domains/music/topics/sg-popular-music",
+      "paper_count": 25,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: music, visual arts, history",
+      "tags": [
+        "black music",
+        "music history and culture",
+        "music musicians",
+        "music preference"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-popular-music-visual-arts",
+          "label": "Visual arts",
+          "url": "/domains/music/topics/sg-popular-music-visual-arts",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-cognitive-psychology-everyday-life",
+          "label": "Everyday life",
+          "url": "/domains/music/topics/sg-cognitive-psychology-everyday-life",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-popular-music-noise-rap",
+          "label": "Noise rap",
+          "url": "/domains/music/topics/sg-popular-music-noise-rap",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-popular-music-call-response",
+          "label": "Call response",
+          "url": "/domains/music/topics/sg-popular-music-call-response",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-popular-music-informal-learning",
+          "label": "Informal learning",
+          "url": "/domains/music/topics/sg-popular-music-informal-learning",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-popular-music-library-science",
+          "label": "Library science",
+          "url": "/domains/music/topics/sg-popular-music-library-science",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2006090347",
+          "title": "The New Grove dictionary of music and musicians",
+          "year": "2001",
+          "cited_by_count": 2595,
+          "url": "/domains/music/papers/W2006090347"
+        },
+        {
+          "source_id": "https://openalex.org/W574409990",
+          "title": "Music as social life: the politics of participation",
+          "year": "2009",
+          "cited_by_count": 1563,
+          "url": "/domains/music/papers/W574409990"
+        },
+        {
+          "source_id": "https://openalex.org/W2053366617",
+          "title": "Club cultures: music, media and subcultural capital",
+          "year": "1996",
+          "cited_by_count": 1953,
+          "url": "/domains/music/papers/W2053366617"
+        }
+      ]
+    },
+    {
+      "id": "sg-music-therapy",
+      "label": "Music therapy",
+      "url": "/domains/music/topics/sg-music-therapy",
+      "paper_count": 16,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: music, psychiatry, music the",
+      "tags": [
+        "music brain",
+        "music interventions",
+        "music interventions systematic",
+        "music perception"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-music-therapy-music-therapy-in-family-medicine",
+          "label": "Music therapy in family medicine",
+          "url": "/domains/music/topics/sg-music-therapy-music-therapy-in-family-medicine",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-music-therapy-mental-health",
+          "label": "Mental health",
+          "url": "/domains/music/topics/sg-music-therapy-mental-health",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-music-therapy-music-therapy-as-psychological-intervention",
+          "label": "Music therapy as psychological intervention",
+          "url": "/domains/music/topics/sg-music-therapy-music-therapy-as-psychological-intervention",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-music-therapy-family-medicine",
+          "label": "Family medicine",
+          "url": "/domains/music/topics/sg-music-therapy-family-medicine",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-music-therapy-music-therapy-in-internal-medicine",
+          "label": "Music therapy in internal medicine",
+          "url": "/domains/music/topics/sg-music-therapy-music-therapy-in-internal-medicine",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-music-therapy-music-therapy-in-physical-therapy",
+          "label": "Music therapy in physical therapy",
+          "url": "/domains/music/topics/sg-music-therapy-music-therapy-in-physical-therapy",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2289545039",
+          "title": "Mental Health Smartphone Apps: Review and Evidence-Based Recommendations for Future Developments",
+          "year": "2016",
+          "cited_by_count": 963,
+          "url": "/domains/music/papers/W2289545039"
+        },
+        {
+          "source_id": "https://openalex.org/W4233641204",
+          "title": "Impact of Social Isolation Due to COVID-19 on Health in Older People: Mental and Physical Effects and Recommendations",
+          "year": "2020",
+          "cited_by_count": 704,
+          "url": "/domains/music/papers/W4233641204"
+        },
+        {
+          "source_id": "https://openalex.org/W2013188446",
+          "title": "The neurochemistry of music",
+          "year": "2013",
+          "cited_by_count": 985,
+          "url": "/domains/music/papers/W2013188446"
+        }
+      ]
+    },
+    {
+      "id": "sg-neuroscience-music-perception",
+      "label": "Neuroscience music perception",
+      "url": "/domains/music/topics/sg-neuroscience-music-perception",
+      "paper_count": 12,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: music, of a, neuroscience and music perception",
+      "tags": [
+        "auditory cortex",
+        "cognitive neuroscience of music",
+        "music processing",
+        "music training"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neuroscience-music-perception-auditory-cortex",
+          "label": "Auditory cortex",
+          "url": "/domains/music/topics/sg-neuroscience-music-perception-auditory-cortex",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-neuroscience-music-perception-emotional-responses",
+          "label": "Emotional responses",
+          "url": "/domains/music/topics/sg-neuroscience-music-perception-emotional-responses",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-neuroscience-music-perception-auditory-perception",
+          "label": "Auditory perception",
+          "url": "/domains/music/topics/sg-neuroscience-music-perception-auditory-perception",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-neuroscience-music-perception-functional-magnetic-resonance-imaging",
+          "label": "Functional magnetic resonance imaging",
+          "url": "/domains/music/topics/sg-neuroscience-music-perception-functional-magnetic-resonance-imaging",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-neuroscience-music-perception-prefrontal-cortex",
+          "label": "Prefrontal cortex",
+          "url": "/domains/music/topics/sg-neuroscience-music-perception-prefrontal-cortex",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2151422895",
+          "title": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion",
+          "year": "2001",
+          "cited_by_count": 2803,
+          "url": "/domains/music/papers/W2151422895"
+        },
+        {
+          "source_id": "https://openalex.org/W2081131754",
+          "title": "When the brain plays music: auditory–motor interactions in music perception and production",
+          "year": "2007",
+          "cited_by_count": 1704,
+          "url": "/domains/music/papers/W2081131754"
+        },
+        {
+          "source_id": "https://openalex.org/W2151116952",
+          "title": "Structure and function of auditory cortex: music and speech",
+          "year": "2002",
+          "cited_by_count": 1599,
+          "url": "/domains/music/papers/W2151116952"
+        }
+      ]
+    },
+    {
+      "id": "sg-music-education",
+      "label": "Music education",
+      "url": "/domains/music/topics/sg-music-education",
+      "paper_count": 4,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: in music, music, of the",
+      "tags": [
+        "cognitive neuroscience of music",
+        "diverse music education insights",
+        "music education",
+        "music geography"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-music-education-musical-composition",
+          "label": "Musical composition",
+          "url": "/domains/music/topics/sg-music-education-musical-composition",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-music-education-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/music/topics/sg-music-education-cognitive-science",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1521253151",
+          "title": "Oxford Handbook of Music Psychology",
+          "year": "2012",
+          "cited_by_count": 1124,
+          "url": "/domains/music/papers/W1521253151"
+        },
+        {
+          "source_id": "https://openalex.org/W2017727824",
+          "title": "Computer‐Mediated Collaborative Learning: Theory and Practice",
+          "year": "1997",
+          "cited_by_count": 987,
+          "url": "/domains/music/papers/W2017727824"
+        },
+        {
+          "source_id": "https://openalex.org/W2795725132",
+          "title": "Music Matters: A New Philosophy of Music Education",
+          "year": "1996",
+          "cited_by_count": 830,
+          "url": "/domains/music/papers/W2795725132"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Music psychology",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "librosa: Audio and Music Signal Analysis in Python",
+          "year": "2015",
+          "cited_by_count": 2859,
+          "topic": "Music psychology",
+          "url": "papers/https-openalex-org-w2191779130.html"
+        },
+        {
+          "title": "A Generative Theory of Tonal Music",
+          "year": "1984",
+          "cited_by_count": 3793,
+          "topic": "Music psychology",
+          "url": "papers/https-openalex-org-w2023723978.html"
+        },
+        {
+          "title": "MUSIC, maximum likelihood, and Cramer-Rao bound",
+          "year": "1989",
+          "cited_by_count": 2751,
+          "topic": "Music psychology",
+          "url": "papers/https-openalex-org-w2149755721.html"
+        },
+        {
+          "title": "YIN, a fundamental frequency estimator for speech and music",
+          "year": "2002",
+          "cited_by_count": 1890,
+          "topic": "Music psychology",
+          "url": "papers/https-openalex-org-w2091425152.html"
+        },
+        {
+          "title": "Communication of emotions in vocal expression and music performance: Different channels, same code?",
+          "year": "2003",
+          "cited_by_count": 1767,
+          "topic": "Music psychology",
+          "url": "papers/https-openalex-org-w2072206615.html"
+        },
+        {
+          "title": "Information Retrieval for Music and Motion",
+          "year": "2007",
+          "cited_by_count": 1299,
+          "topic": "Music psychology",
+          "url": "papers/https-openalex-org-w170732776.html"
+        }
+      ]
+    },
+    {
+      "label": "Neuroscience music perception",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion",
+          "year": "2001",
+          "cited_by_count": 2803,
+          "topic": "Neuroscience music perception",
+          "url": "papers/https-openalex-org-w2151422895.html"
+        },
+        {
+          "title": "When the brain plays music: auditory–motor interactions in music perception and production",
+          "year": "2007",
+          "cited_by_count": 1704,
+          "topic": "Neuroscience music perception",
+          "url": "papers/https-openalex-org-w2081131754.html"
+        },
+        {
+          "title": "Structure and function of auditory cortex: music and speech",
+          "year": "2002",
+          "cited_by_count": 1599,
+          "topic": "Neuroscience music perception",
+          "url": "papers/https-openalex-org-w2151116952.html"
+        },
+        {
+          "title": "Emotions evoked by the sound of music: Characterization, classification, and measurement.",
+          "year": "2008",
+          "cited_by_count": 1216,
+          "topic": "Neuroscience music perception",
+          "url": "papers/https-openalex-org-w2164480306.html"
+        },
+        {
+          "title": "Music training for the development of auditory skills",
+          "year": "2010",
+          "cited_by_count": 1088,
+          "topic": "Neuroscience music perception",
+          "url": "papers/https-openalex-org-w2115826198.html"
+        },
+        {
+          "title": "Nonnegative Matrix Factorization with the Itakura-Saito Divergence: With Application to Music Analysis",
+          "year": "2008",
+          "cited_by_count": 1113,
+          "topic": "Neuroscience music perception",
+          "url": "papers/https-openalex-org-w2039844283.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+          "year": "2011",
+          "cited_by_count": 1787,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2126819724.html"
+        },
+        {
+          "title": "Music, Language, and the Brain",
+          "year": "2007",
+          "cited_by_count": 1949,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2566129194.html"
+        },
+        {
+          "title": "Sweet anticipation: music and the psychology of expectation",
+          "year": "2007",
+          "cited_by_count": 1871,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1655784964.html"
+        },
+        {
+          "title": "Emotional responses to music: The need to consider underlying mechanisms",
+          "year": "2008",
+          "cited_by_count": 1820,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2144198023.html"
+        },
+        {
+          "title": "Brain correlates of music-evoked emotions",
+          "year": "2014",
+          "cited_by_count": 1394,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2085281696.html"
+        },
+        {
+          "title": "The do re mi&#x27;s of everyday life: The structure and personality correlates of music preferences.",
+          "year": "2003",
+          "cited_by_count": 1549,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2111621157.html"
+        }
+      ]
+    },
+    {
+      "label": "Popular music",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "The New Grove dictionary of music and musicians",
+          "year": "2001",
+          "cited_by_count": 2595,
+          "topic": "Popular music",
+          "url": "papers/https-openalex-org-w2006090347.html"
+        },
+        {
+          "title": "Music as social life: the politics of participation",
+          "year": "2009",
+          "cited_by_count": 1563,
+          "topic": "Popular music",
+          "url": "papers/https-openalex-org-w574409990.html"
+        },
+        {
+          "title": "Club cultures: music, media and subcultural capital",
+          "year": "1996",
+          "cited_by_count": 1953,
+          "topic": "Popular music",
+          "url": "papers/https-openalex-org-w2053366617.html"
+        },
+        {
+          "title": "Club Cultures: Music, Media and Subcultural Capital",
+          "year": "1997",
+          "cited_by_count": 1516,
+          "topic": "Popular music",
+          "url": "papers/https-openalex-org-w4302063896.html"
+        },
+        {
+          "title": "Digital Game-Based Learning: It&#x27;s Not Just the Digital Natives Who Are Restless.",
+          "year": "2006",
+          "cited_by_count": 1181,
+          "topic": "Popular music",
+          "url": "papers/https-openalex-org-w144955030.html"
+        },
+        {
+          "title": "Black Noise: Rap Music and Black Culture in Contemporary America.",
+          "year": "1995",
+          "cited_by_count": 1448,
+          "topic": "Popular music",
+          "url": "papers/https-openalex-org-w2086922406.html"
+        }
+      ]
+    },
+    {
+      "label": "Music therapy",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Mental Health Smartphone Apps: Review and Evidence-Based Recommendations for Future Developments",
+          "year": "2016",
+          "cited_by_count": 963,
+          "topic": "Music therapy",
+          "url": "papers/https-openalex-org-w2289545039.html"
+        },
+        {
+          "title": "Impact of Social Isolation Due to COVID-19 on Health in Older People: Mental and Physical Effects and Recommendations",
+          "year": "2020",
+          "cited_by_count": 704,
+          "topic": "Music therapy",
+          "url": "papers/https-openalex-org-w4233641204.html"
+        },
+        {
+          "title": "The neurochemistry of music",
+          "year": "2013",
+          "cited_by_count": 985,
+          "topic": "Music therapy",
+          "url": "papers/https-openalex-org-w2013188446.html"
+        },
+        {
+          "title": "Opportunities and Challenges for Smartphone Applications in Supporting Health Behavior change: Qualitative Study",
+          "year": "2013",
+          "cited_by_count": 962,
+          "topic": "Music therapy",
+          "url": "papers/https-openalex-org-w2091230101.html"
+        },
+        {
+          "title": "Therapeutic Songwriting in Music Therapy",
+          "year": "2008",
+          "cited_by_count": 1121,
+          "topic": "Music therapy",
+          "url": "papers/https-openalex-org-w1535685610.html"
+        },
+        {
+          "title": "Music therapy for depression",
+          "year": "2017",
+          "cited_by_count": 791,
+          "topic": "Music therapy",
+          "url": "papers/https-openalex-org-w1525475793.html"
+        }
+      ]
+    },
+    {
+      "label": "Music education",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Oxford Handbook of Music Psychology",
+          "year": "2012",
+          "cited_by_count": 1124,
+          "topic": "Music education",
+          "url": "papers/https-openalex-org-w1521253151.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2191779130",
+      "title": "librosa: Audio and Music Signal Analysis in Python",
+      "year": 2015,
+      "cited_by_count": 2859,
+      "adjusted_cited_by_count": 862.02,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2191779130"
+    },
+    {
+      "source_id": "https://openalex.org/W2023723978",
+      "title": "A Generative Theory of Tonal Music",
+      "year": 1984,
+      "cited_by_count": 3793,
+      "adjusted_cited_by_count": 585.27,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2023723978"
+    },
+    {
+      "source_id": "https://openalex.org/W2151422895",
+      "title": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion",
+      "year": 2001,
+      "cited_by_count": 2803,
+      "adjusted_cited_by_count": 560.6,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2151422895"
+    },
+    {
+      "source_id": "https://openalex.org/W2006090347",
+      "title": "The New Grove dictionary of music and musicians",
+      "year": 2001,
+      "cited_by_count": 2595,
+      "adjusted_cited_by_count": 519.0,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W2006090347"
+    },
+    {
+      "source_id": "https://openalex.org/W2126819724",
+      "title": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+      "year": 2011,
+      "cited_by_count": 1787,
+      "adjusted_cited_by_count": 461.4,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2126819724"
+    },
+    {
+      "source_id": "https://openalex.org/W2149755721",
+      "title": "MUSIC, maximum likelihood, and Cramer-Rao bound",
+      "year": 1989,
+      "cited_by_count": 2751,
+      "adjusted_cited_by_count": 452.26,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2149755721"
+    },
+    {
+      "source_id": "https://openalex.org/W2566129194",
+      "title": "Music, Language, and the Brain",
+      "year": 2007,
+      "cited_by_count": 1949,
+      "adjusted_cited_by_count": 447.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2566129194"
+    },
+    {
+      "source_id": "https://openalex.org/W1655784964",
+      "title": "Sweet anticipation: music and the psychology of expectation",
+      "year": 2007,
+      "cited_by_count": 1871,
+      "adjusted_cited_by_count": 429.24,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W1655784964"
+    },
+    {
+      "source_id": "https://openalex.org/W2144198023",
+      "title": "Emotional responses to music: The need to consider underlying mechanisms",
+      "year": 2008,
+      "cited_by_count": 1820,
+      "adjusted_cited_by_count": 428.98,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2144198023"
+    },
+    {
+      "source_id": "https://openalex.org/W2085281696",
+      "title": "Brain correlates of music-evoked emotions",
+      "year": 2014,
+      "cited_by_count": 1394,
+      "adjusted_cited_by_count": 402.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2085281696"
+    },
+    {
+      "source_id": "https://openalex.org/W2081131754",
+      "title": "When the brain plays music: auditory–motor interactions in music perception and production",
+      "year": 2007,
+      "cited_by_count": 1704,
+      "adjusted_cited_by_count": 390.92,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2081131754"
+    },
+    {
+      "source_id": "https://openalex.org/W2091425152",
+      "title": "YIN, a fundamental frequency estimator for speech and music",
+      "year": 2002,
+      "cited_by_count": 1890,
+      "adjusted_cited_by_count": 385.79,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2091425152"
+    },
+    {
+      "source_id": "https://openalex.org/W574409990",
+      "title": "Music as social life: the politics of participation",
+      "year": 2009,
+      "cited_by_count": 1563,
+      "adjusted_cited_by_count": 379.08,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W574409990"
+    },
+    {
+      "source_id": "https://openalex.org/W2072206615",
+      "title": "Communication of emotions in vocal expression and music performance: Different channels, same code?",
+      "year": 2003,
+      "cited_by_count": 1767,
+      "adjusted_cited_by_count": 368.44,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2072206615"
+    },
+    {
+      "source_id": "https://openalex.org/W2053366617",
+      "title": "Club cultures: music, media and subcultural capital",
+      "year": 1996,
+      "cited_by_count": 1953,
+      "adjusted_cited_by_count": 356.57,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W2053366617"
+    },
+    {
+      "source_id": "https://openalex.org/W2151116952",
+      "title": "Structure and function of auditory cortex: music and speech",
+      "year": 2002,
+      "cited_by_count": 1599,
+      "adjusted_cited_by_count": 326.39,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2151116952"
+    },
+    {
+      "source_id": "https://openalex.org/W2111621157",
+      "title": "The do re mi's of everyday life: The structure and personality correlates of music preferences.",
+      "year": 2003,
+      "cited_by_count": 1549,
+      "adjusted_cited_by_count": 322.99,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2111621157"
+    },
+    {
+      "source_id": "https://openalex.org/W2289545039",
+      "title": "Mental Health Smartphone Apps: Review and Evidence-Based Recommendations for Future Developments",
+      "year": 2016,
+      "cited_by_count": 963,
+      "adjusted_cited_by_count": 304.53,
+      "primary_topic_id": "sg-music-therapy",
+      "primary_topic_label": "Music therapy",
+      "url": "/domains/music/papers/W2289545039"
+    },
+    {
+      "source_id": "https://openalex.org/W1521253151",
+      "title": "Oxford Handbook of Music Psychology",
+      "year": 2012,
+      "cited_by_count": 1124,
+      "adjusted_cited_by_count": 300.4,
+      "primary_topic_id": "sg-music-education",
+      "primary_topic_label": "Music education",
+      "url": "/domains/music/papers/W1521253151"
+    },
+    {
+      "source_id": "https://openalex.org/W170732776",
+      "title": "Information Retrieval for Music and Motion",
+      "year": 2007,
+      "cited_by_count": 1299,
+      "adjusted_cited_by_count": 298.01,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W170732776"
+    },
+    {
+      "source_id": "https://openalex.org/W4233641204",
+      "title": "Impact of Social Isolation Due to COVID-19 on Health in Older People: Mental and Physical Effects and Recommendations",
+      "year": 2020,
+      "cited_by_count": 704,
+      "adjusted_cited_by_count": 287.41,
+      "primary_topic_id": "sg-music-therapy",
+      "primary_topic_label": "Music therapy",
+      "url": "/domains/music/papers/W4233641204"
+    },
+    {
+      "source_id": "https://openalex.org/W2164480306",
+      "title": "Emotions evoked by the sound of music: Characterization, classification, and measurement.",
+      "year": 2008,
+      "cited_by_count": 1216,
+      "adjusted_cited_by_count": 286.61,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2164480306"
+    },
+    {
+      "source_id": "https://openalex.org/W4302063896",
+      "title": "Club Cultures: Music, Media and Subcultural Capital",
+      "year": 1997,
+      "cited_by_count": 1516,
+      "adjusted_cited_by_count": 281.51,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W4302063896"
+    },
+    {
+      "source_id": "https://openalex.org/W2086361624",
+      "title": "Music in Everyday Life",
+      "year": 2000,
+      "cited_by_count": 1429,
+      "adjusted_cited_by_count": 280.25,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2086361624"
+    },
+    {
+      "source_id": "https://openalex.org/W2137028279",
+      "title": "Deep content-based music recommendation",
+      "year": 2013,
+      "cited_by_count": 1008,
+      "adjusted_cited_by_count": 279.57,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W2137028279"
+    },
+    {
+      "source_id": "https://openalex.org/W2219249508",
+      "title": "MUSAN: A Music, Speech, and Noise Corpus",
+      "year": 2015,
+      "cited_by_count": 922,
+      "adjusted_cited_by_count": 277.99,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2219249508"
+    },
+    {
+      "source_id": "https://openalex.org/W2013188446",
+      "title": "The neurochemistry of music",
+      "year": 2013,
+      "cited_by_count": 985,
+      "adjusted_cited_by_count": 273.19,
+      "primary_topic_id": "sg-music-therapy",
+      "primary_topic_label": "Music therapy",
+      "url": "/domains/music/papers/W2013188446"
+    },
+    {
+      "source_id": "https://openalex.org/W2115826198",
+      "title": "Music training for the development of auditory skills",
+      "year": 2010,
+      "cited_by_count": 1088,
+      "adjusted_cited_by_count": 272.0,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2115826198"
+    },
+    {
+      "source_id": "https://openalex.org/W1694080526",
+      "title": "Music and emotion: theory and research",
+      "year": 2002,
+      "cited_by_count": 1308,
+      "adjusted_cited_by_count": 266.99,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W1694080526"
+    },
+    {
+      "source_id": "https://openalex.org/W2091230101",
+      "title": "Opportunities and Challenges for Smartphone Applications in Supporting Health Behavior change: Qualitative Study",
+      "year": 2013,
+      "cited_by_count": 962,
+      "adjusted_cited_by_count": 266.81,
+      "primary_topic_id": "sg-music-therapy",
+      "primary_topic_label": "Music therapy",
+      "url": "/domains/music/papers/W2091230101"
+    },
+    {
+      "source_id": "https://openalex.org/W1535685610",
+      "title": "Therapeutic Songwriting in Music Therapy",
+      "year": 2008,
+      "cited_by_count": 1121,
+      "adjusted_cited_by_count": 264.22,
+      "primary_topic_id": "sg-music-therapy",
+      "primary_topic_label": "Music therapy",
+      "url": "/domains/music/papers/W1535685610"
+    },
+    {
+      "source_id": "https://openalex.org/W144955030",
+      "title": "Digital Game-Based Learning: It's Not Just the Digital Natives Who Are Restless.",
+      "year": 2006,
+      "cited_by_count": 1181,
+      "adjusted_cited_by_count": 264.08,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W144955030"
+    },
+    {
+      "source_id": "https://openalex.org/W1525475793",
+      "title": "Music therapy for depression",
+      "year": 2017,
+      "cited_by_count": 791,
+      "adjusted_cited_by_count": 263.67,
+      "primary_topic_id": "sg-music-therapy",
+      "primary_topic_label": "Music therapy",
+      "url": "/domains/music/papers/W1525475793"
+    },
+    {
+      "source_id": "https://openalex.org/W2039844283",
+      "title": "Nonnegative Matrix Factorization with the Itakura-Saito Divergence: With Application to Music Analysis",
+      "year": 2008,
+      "cited_by_count": 1113,
+      "adjusted_cited_by_count": 262.34,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2039844283"
+    },
+    {
+      "source_id": "https://openalex.org/W2086922406",
+      "title": "Black Noise: Rap Music and Black Culture in Contemporary America.",
+      "year": 1995,
+      "cited_by_count": 1448,
+      "adjusted_cited_by_count": 260.07,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W2086922406"
+    },
+    {
+      "source_id": "https://openalex.org/W4299451408",
+      "title": "Handbook of music and emotion: theory, research, applications",
+      "year": 2010,
+      "cited_by_count": 1032,
+      "adjusted_cited_by_count": 258.0,
+      "primary_topic_id": "sg-music-psychology",
+      "primary_topic_label": "Music psychology",
+      "url": "/domains/music/papers/W4299451408"
+    },
+    {
+      "source_id": "https://openalex.org/W2323599019",
+      "title": "Noise: The Political Economy of Music",
+      "year": 1986,
+      "cited_by_count": 1621,
+      "adjusted_cited_by_count": 256.3,
+      "primary_topic_id": "sg-popular-music",
+      "primary_topic_label": "Popular music",
+      "url": "/domains/music/papers/W2323599019"
+    },
+    {
+      "source_id": "https://openalex.org/W2056263517",
+      "title": "Language, music, syntax and the brain",
+      "year": 2003,
+      "cited_by_count": 1228,
+      "adjusted_cited_by_count": 256.06,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/music/papers/W2056263517"
+    },
+    {
+      "source_id": "https://openalex.org/W2132889650",
+      "title": "EEG-Based Emotion Recognition in Music Listening",
+      "year": 2010,
+      "cited_by_count": 1021,
+      "adjusted_cited_by_count": 255.25,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2132889650"
+    },
+    {
+      "source_id": "https://openalex.org/W2164368909",
+      "title": "Emotion recognition based on physiological changes in music listening",
+      "year": 2008,
+      "cited_by_count": 1063,
+      "adjusted_cited_by_count": 250.55,
+      "primary_topic_id": "sg-neuroscience-music-perception",
+      "primary_topic_label": "Neuroscience music perception",
+      "url": "/domains/music/papers/W2164368909"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2191779130",
+      "title": "librosa: Audio and Music Signal Analysis in Python",
+      "year": 2015,
+      "cited_by_count": 2859,
+      "adjusted_cited_by_count": 862.02,
+      "url": "/domains/music/papers/W2191779130"
+    },
+    {
+      "source_id": "https://openalex.org/W2023723978",
+      "title": "A Generative Theory of Tonal Music",
+      "year": 1984,
+      "cited_by_count": 3793,
+      "adjusted_cited_by_count": 585.27,
+      "url": "/domains/music/papers/W2023723978"
+    },
+    {
+      "source_id": "https://openalex.org/W2151422895",
+      "title": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion",
+      "year": 2001,
+      "cited_by_count": 2803,
+      "adjusted_cited_by_count": 560.6,
+      "url": "/domains/music/papers/W2151422895"
+    },
+    {
+      "source_id": "https://openalex.org/W2006090347",
+      "title": "The New Grove dictionary of music and musicians",
+      "year": 2001,
+      "cited_by_count": 2595,
+      "adjusted_cited_by_count": 519.0,
+      "url": "/domains/music/papers/W2006090347"
+    },
+    {
+      "source_id": "https://openalex.org/W2126819724",
+      "title": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+      "year": 2011,
+      "cited_by_count": 1787,
+      "adjusted_cited_by_count": 461.4,
+      "url": "/domains/music/papers/W2126819724"
+    },
+    {
+      "source_id": "https://openalex.org/W2149755721",
+      "title": "MUSIC, maximum likelihood, and Cramer-Rao bound",
+      "year": 1989,
+      "cited_by_count": 2751,
+      "adjusted_cited_by_count": 452.26,
+      "url": "/domains/music/papers/W2149755721"
+    },
+    {
+      "source_id": "https://openalex.org/W2566129194",
+      "title": "Music, Language, and the Brain",
+      "year": 2007,
+      "cited_by_count": 1949,
+      "adjusted_cited_by_count": 447.13,
+      "url": "/domains/music/papers/W2566129194"
+    },
+    {
+      "source_id": "https://openalex.org/W1655784964",
+      "title": "Sweet anticipation: music and the psychology of expectation",
+      "year": 2007,
+      "cited_by_count": 1871,
+      "adjusted_cited_by_count": 429.24,
+      "url": "/domains/music/papers/W1655784964"
+    },
+    {
+      "source_id": "https://openalex.org/W2144198023",
+      "title": "Emotional responses to music: The need to consider underlying mechanisms",
+      "year": 2008,
+      "cited_by_count": 1820,
+      "adjusted_cited_by_count": 428.98,
+      "url": "/domains/music/papers/W2144198023"
+    },
+    {
+      "source_id": "https://openalex.org/W2085281696",
+      "title": "Brain correlates of music-evoked emotions",
+      "year": 2014,
+      "cited_by_count": 1394,
+      "adjusted_cited_by_count": 402.41,
+      "url": "/domains/music/papers/W2085281696"
+    },
+    {
+      "source_id": "https://openalex.org/W2081131754",
+      "title": "When the brain plays music: auditory–motor interactions in music perception and production",
+      "year": 2007,
+      "cited_by_count": 1704,
+      "adjusted_cited_by_count": 390.92,
+      "url": "/domains/music/papers/W2081131754"
+    },
+    {
+      "source_id": "https://openalex.org/W2091425152",
+      "title": "YIN, a fundamental frequency estimator for speech and music",
+      "year": 2002,
+      "cited_by_count": 1890,
+      "adjusted_cited_by_count": 385.79,
+      "url": "/domains/music/papers/W2091425152"
+    },
+    {
+      "source_id": "https://openalex.org/W574409990",
+      "title": "Music as social life: the politics of participation",
+      "year": 2009,
+      "cited_by_count": 1563,
+      "adjusted_cited_by_count": 379.08,
+      "url": "/domains/music/papers/W574409990"
+    },
+    {
+      "source_id": "https://openalex.org/W2072206615",
+      "title": "Communication of emotions in vocal expression and music performance: Different channels, same code?",
+      "year": 2003,
+      "cited_by_count": 1767,
+      "adjusted_cited_by_count": 368.44,
+      "url": "/domains/music/papers/W2072206615"
+    },
+    {
+      "source_id": "https://openalex.org/W2053366617",
+      "title": "Club cultures: music, media and subcultural capital",
+      "year": 1996,
+      "cited_by_count": 1953,
+      "adjusted_cited_by_count": 356.57,
+      "url": "/domains/music/papers/W2053366617"
+    },
+    {
+      "source_id": "https://openalex.org/W2151116952",
+      "title": "Structure and function of auditory cortex: music and speech",
+      "year": 2002,
+      "cited_by_count": 1599,
+      "adjusted_cited_by_count": 326.39,
+      "url": "/domains/music/papers/W2151116952"
+    },
+    {
+      "source_id": "https://openalex.org/W2111621157",
+      "title": "The do re mi's of everyday life: The structure and personality correlates of music preferences.",
+      "year": 2003,
+      "cited_by_count": 1549,
+      "adjusted_cited_by_count": 322.99,
+      "url": "/domains/music/papers/W2111621157"
+    },
+    {
+      "source_id": "https://openalex.org/W2289545039",
+      "title": "Mental Health Smartphone Apps: Review and Evidence-Based Recommendations for Future Developments",
+      "year": 2016,
+      "cited_by_count": 963,
+      "adjusted_cited_by_count": 304.53,
+      "url": "/domains/music/papers/W2289545039"
+    },
+    {
+      "source_id": "https://openalex.org/W1521253151",
+      "title": "Oxford Handbook of Music Psychology",
+      "year": 2012,
+      "cited_by_count": 1124,
+      "adjusted_cited_by_count": 300.4,
+      "url": "/domains/music/papers/W1521253151"
+    },
+    {
+      "source_id": "https://openalex.org/W170732776",
+      "title": "Information Retrieval for Music and Motion",
+      "year": 2007,
+      "cited_by_count": 1299,
+      "adjusted_cited_by_count": 298.01,
+      "url": "/domains/music/papers/W170732776"
+    },
+    {
+      "source_id": "https://openalex.org/W4233641204",
+      "title": "Impact of Social Isolation Due to COVID-19 on Health in Older People: Mental and Physical Effects and Recommendations",
+      "year": 2020,
+      "cited_by_count": 704,
+      "adjusted_cited_by_count": 287.41,
+      "url": "/domains/music/papers/W4233641204"
+    },
+    {
+      "source_id": "https://openalex.org/W2164480306",
+      "title": "Emotions evoked by the sound of music: Characterization, classification, and measurement.",
+      "year": 2008,
+      "cited_by_count": 1216,
+      "adjusted_cited_by_count": 286.61,
+      "url": "/domains/music/papers/W2164480306"
+    },
+    {
+      "source_id": "https://openalex.org/W4302063896",
+      "title": "Club Cultures: Music, Media and Subcultural Capital",
+      "year": 1997,
+      "cited_by_count": 1516,
+      "adjusted_cited_by_count": 281.51,
+      "url": "/domains/music/papers/W4302063896"
+    },
+    {
+      "source_id": "https://openalex.org/W2086361624",
+      "title": "Music in Everyday Life",
+      "year": 2000,
+      "cited_by_count": 1429,
+      "adjusted_cited_by_count": 280.25,
+      "url": "/domains/music/papers/W2086361624"
+    },
+    {
+      "source_id": "https://openalex.org/W2137028279",
+      "title": "Deep content-based music recommendation",
+      "year": 2013,
+      "cited_by_count": 1008,
+      "adjusted_cited_by_count": 279.57,
+      "url": "/domains/music/papers/W2137028279"
+    },
+    {
+      "source_id": "https://openalex.org/W2219249508",
+      "title": "MUSAN: A Music, Speech, and Noise Corpus",
+      "year": 2015,
+      "cited_by_count": 922,
+      "adjusted_cited_by_count": 277.99,
+      "url": "/domains/music/papers/W2219249508"
+    },
+    {
+      "source_id": "https://openalex.org/W2013188446",
+      "title": "The neurochemistry of music",
+      "year": 2013,
+      "cited_by_count": 985,
+      "adjusted_cited_by_count": 273.19,
+      "url": "/domains/music/papers/W2013188446"
+    },
+    {
+      "source_id": "https://openalex.org/W2115826198",
+      "title": "Music training for the development of auditory skills",
+      "year": 2010,
+      "cited_by_count": 1088,
+      "adjusted_cited_by_count": 272.0,
+      "url": "/domains/music/papers/W2115826198"
+    },
+    {
+      "source_id": "https://openalex.org/W1694080526",
+      "title": "Music and emotion: theory and research",
+      "year": 2002,
+      "cited_by_count": 1308,
+      "adjusted_cited_by_count": 266.99,
+      "url": "/domains/music/papers/W1694080526"
+    },
+    {
+      "source_id": "https://openalex.org/W2091230101",
+      "title": "Opportunities and Challenges for Smartphone Applications in Supporting Health Behavior change: Qualitative Study",
+      "year": 2013,
+      "cited_by_count": 962,
+      "adjusted_cited_by_count": 266.81,
+      "url": "/domains/music/papers/W2091230101"
+    },
+    {
+      "source_id": "https://openalex.org/W1535685610",
+      "title": "Therapeutic Songwriting in Music Therapy",
+      "year": 2008,
+      "cited_by_count": 1121,
+      "adjusted_cited_by_count": 264.22,
+      "url": "/domains/music/papers/W1535685610"
+    },
+    {
+      "source_id": "https://openalex.org/W144955030",
+      "title": "Digital Game-Based Learning: It's Not Just the Digital Natives Who Are Restless.",
+      "year": 2006,
+      "cited_by_count": 1181,
+      "adjusted_cited_by_count": 264.08,
+      "url": "/domains/music/papers/W144955030"
+    },
+    {
+      "source_id": "https://openalex.org/W1525475793",
+      "title": "Music therapy for depression",
+      "year": 2017,
+      "cited_by_count": 791,
+      "adjusted_cited_by_count": 263.67,
+      "url": "/domains/music/papers/W1525475793"
+    },
+    {
+      "source_id": "https://openalex.org/W2039844283",
+      "title": "Nonnegative Matrix Factorization with the Itakura-Saito Divergence: With Application to Music Analysis",
+      "year": 2008,
+      "cited_by_count": 1113,
+      "adjusted_cited_by_count": 262.34,
+      "url": "/domains/music/papers/W2039844283"
+    },
+    {
+      "source_id": "https://openalex.org/W2086922406",
+      "title": "Black Noise: Rap Music and Black Culture in Contemporary America.",
+      "year": 1995,
+      "cited_by_count": 1448,
+      "adjusted_cited_by_count": 260.07,
+      "url": "/domains/music/papers/W2086922406"
+    },
+    {
+      "source_id": "https://openalex.org/W4299451408",
+      "title": "Handbook of music and emotion: theory, research, applications",
+      "year": 2010,
+      "cited_by_count": 1032,
+      "adjusted_cited_by_count": 258.0,
+      "url": "/domains/music/papers/W4299451408"
+    },
+    {
+      "source_id": "https://openalex.org/W2323599019",
+      "title": "Noise: The Political Economy of Music",
+      "year": 1986,
+      "cited_by_count": 1621,
+      "adjusted_cited_by_count": 256.3,
+      "url": "/domains/music/papers/W2323599019"
+    },
+    {
+      "source_id": "https://openalex.org/W2056263517",
+      "title": "Language, music, syntax and the brain",
+      "year": 2003,
+      "cited_by_count": 1228,
+      "adjusted_cited_by_count": 256.06,
+      "url": "/domains/music/papers/W2056263517"
+    },
+    {
+      "source_id": "https://openalex.org/W2132889650",
+      "title": "EEG-Based Emotion Recognition in Music Listening",
+      "year": 2010,
+      "cited_by_count": 1021,
+      "adjusted_cited_by_count": 255.25,
+      "url": "/domains/music/papers/W2132889650"
+    },
+    {
+      "source_id": "https://openalex.org/W2164368909",
+      "title": "Emotion recognition based on physiological changes in music listening",
+      "year": 2008,
+      "cited_by_count": 1063,
+      "adjusted_cited_by_count": 250.55,
+      "url": "/domains/music/papers/W2164368909"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "music",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 96
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "art",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "of music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "musical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "cognitive psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 33
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 30
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "music and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "communication",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "neuroscience",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "emotion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 24
+    },
+    {
+      "label": "visual arts",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 23
+    },
+    {
+      "label": "social psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 22
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "brain",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "the music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "aesthetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "cognitive science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "cognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 19
+    },
+    {
+      "label": "literature",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 19
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 19
+    },
+    {
+      "label": "language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 20
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 18
+    },
+    {
+      "label": "and music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 17
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 17
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 30
+    },
+    {
+      "label": "history",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 23
+    },
+    {
+      "label": "in music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 15
+    },
+    {
+      "label": "music psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 15
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 16
+    },
+    {
+      "label": "music and emotion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 14
+    },
+    {
+      "label": "to music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 14
+    },
+    {
+      "label": "music education",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 13
+    },
+    {
+      "label": "music history",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 12
+    },
+    {
+      "label": "music in",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 12
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 12
+    },
+    {
+      "label": "speech recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 11
+    },
+    {
+      "label": "for music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 10
+    },
+    {
+      "label": "cognitive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9847,
+      "evidence_count": 43
+    },
+    {
+      "label": "active listening",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9847,
+      "evidence_count": 9
+    },
+    {
+      "label": "popular music",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9847,
+      "evidence_count": 9
+    },
+    {
+      "label": "music therapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 8
+    },
+    {
+      "label": "the brain",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 8
+    },
+    {
+      "label": "and emotion",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 14
+    },
+    {
+      "label": "developmental psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 7
+    },
+    {
+      "label": "mental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 7
+    },
+    {
+      "label": "of music and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 7
+    }
+  ],
+  "topic_year_counts": {
+    "music psychology": {
+      "2024": 31992,
+      "2023": 31265,
+      "2025": 30707,
+      "2022": 22484,
+      "2021": 20156,
+      "2020": 18351,
+      "2019": 16751,
+      "2018": 15257,
+      "2017": 13830,
+      "2016": 12392,
+      "2015": 11688,
+      "2014": 10011,
+      "2013": 8927,
+      "2012": 7597,
+      "2026": 6777,
+      "2011": 6629,
+      "2010": 5532,
+      "2009": 5078,
+      "2008": 3990,
+      "2007": 3280,
+      "2006": 2678,
+      "2005": 2287,
+      "2004": 1904,
+      "2003": 1552,
+      "2002": 1241,
+      "2000": 1233,
+      "2001": 1073
+    },
+    "popular music": {
+      "2023": 37496,
+      "2024": 36350,
+      "2025": 30494,
+      "2022": 27402,
+      "2021": 27090,
+      "2020": 25573,
+      "2019": 24425,
+      "2018": 22883,
+      "2017": 21219,
+      "2016": 20035,
+      "2015": 18324,
+      "2014": 17208,
+      "2013": 15774,
+      "2012": 13778,
+      "2011": 12129,
+      "2010": 10890,
+      "2009": 9820,
+      "2008": 8109,
+      "2007": 6756,
+      "2026": 5726,
+      "2006": 5600,
+      "2005": 4935,
+      "2004": 4392,
+      "2003": 3547,
+      "2002": 2854,
+      "2000": 2604,
+      "2001": 2503
+    },
+    "music therapy": {
+      "2024": 18480,
+      "2025": 17222,
+      "2023": 16937,
+      "2022": 11850,
+      "2021": 10831,
+      "2020": 9999,
+      "2019": 8614,
+      "2018": 8080,
+      "2017": 7197,
+      "2016": 6670,
+      "2015": 6164,
+      "2014": 5361,
+      "2013": 4541,
+      "2026": 3970,
+      "2012": 3941,
+      "2011": 3398,
+      "2010": 2890,
+      "2009": 2660,
+      "2008": 2122,
+      "2007": 1769,
+      "2006": 1471,
+      "2005": 1255,
+      "2004": 1111,
+      "2003": 947,
+      "2002": 829,
+      "2000": 723,
+      "2001": 714
+    },
+    "neuroscience music perception": {
+      "2023": 6309,
+      "2024": 6045,
+      "2025": 5953,
+      "2022": 4493,
+      "2021": 3825,
+      "2020": 3409,
+      "2019": 3116,
+      "2018": 2773,
+      "2017": 2523,
+      "2016": 2266,
+      "2015": 2066,
+      "2014": 1919,
+      "2013": 1554,
+      "2026": 1441,
+      "2012": 1288,
+      "2011": 992,
+      "2010": 710,
+      "2009": 613,
+      "2008": 446,
+      "2007": 349,
+      "2006": 257,
+      "2005": 199,
+      "2004": 152,
+      "2003": 122,
+      "2002": 104,
+      "2001": 65,
+      "2000": 62
+    },
+    "music education": {
+      "2024": 57857,
+      "2023": 57765,
+      "2025": 57166,
+      "2022": 42436,
+      "2021": 38258,
+      "2020": 35982,
+      "2019": 32774,
+      "2018": 29246,
+      "2017": 26411,
+      "2016": 24624,
+      "2015": 22891,
+      "2014": 20370,
+      "2013": 18457,
+      "2012": 15878,
+      "2011": 14031,
+      "2026": 12278,
+      "2010": 12262,
+      "2009": 11125,
+      "2008": 8923,
+      "2007": 7617,
+      "2006": 6140,
+      "2005": 5584,
+      "2004": 4850,
+      "2003": 3936,
+      "2002": 3204,
+      "2000": 2963,
+      "2001": 2798
+    }
+  }
+}
