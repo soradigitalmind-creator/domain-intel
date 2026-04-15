@@ -1,0 +1,2155 @@
+{
+  "slug": "soil",
+  "title": "Soil",
+  "updated_at": "2026-04-15T15:30:15.173278Z",
+  "snapshot": {
+    "papers": 206,
+    "topics": 9,
+    "subtopics": 18,
+    "entities": 686,
+    "claims": 2
+  },
+  "overview": {
+    "source_ids": [
+      "https://openalex.org/W1580906881",
+      "https://openalex.org/W2018459257",
+      "https://openalex.org/W2018841491",
+      "https://openalex.org/W2099196698",
+      "https://openalex.org/W2153509701",
+      "https://openalex.org/W2888459204",
+      "https://openalex.org/W2940827091"
+    ],
+    "partition_summary": {
+      "overview_papers": 7,
+      "topical_papers": 332,
+      "total_papers": 339,
+      "facet_counts": {
+        "benchmark": 1,
+        "none": 332,
+        "outlook": 1,
+        "overview": 5
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 7,
+      "overview_min_papers": 6
+    }
+  },
+  "abstraction": {
+    "label": "A family of related Soil technologies, including soil water, soil science, soil carbon and nitrogen dynamics.",
+    "concept_type": "family_system"
+  },
+  "hierarchy": {
+    "root_topics": 9,
+    "descendant_topics": 18,
+    "max_depth": 2,
+    "leaf_topics": 22
+  },
+  "rising_topics": [
+    {
+      "id": "sg-soil-fertility",
+      "label": "Soil fertility",
+      "url": "/domains/soil/topics/sg-soil-fertility",
+      "trend": "rising",
+      "year_total": 377981
+    },
+    {
+      "id": "sg-soil-microbiology",
+      "label": "Soil microbiology",
+      "url": "/domains/soil/topics/sg-soil-microbiology",
+      "trend": "rising",
+      "year_total": 355169
+    },
+    {
+      "id": "sg-soil-mechanics",
+      "label": "Soil mechanics",
+      "url": "/domains/soil/topics/sg-soil-mechanics",
+      "trend": "rising",
+      "year_total": 156983
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-overview",
+      "label": "Overview",
+      "url": "/domains/soil/topics/sg-overview",
+      "paper_count": 7,
+      "subtopic_count": 0,
+      "trend": "stable",
+      "summary": "entities: of the, geology, soil",
+      "tags": [
+        "overview",
+        "survey",
+        "perspective",
+        "roadmap"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2940827091",
+          "title": "Soil taxonomy—a basic system of soil classification for making and interpreting soil surveys",
+          "year": "2001",
+          "cited_by_count": 5459,
+          "url": "/domains/soil/papers/W2940827091"
+        },
+        {
+          "source_id": "https://openalex.org/W2018459257",
+          "title": "An Earth-system perspective of the global nitrogen cycle",
+          "year": "2008",
+          "cited_by_count": 3558,
+          "url": "/domains/soil/papers/W2018459257"
+        },
+        {
+          "source_id": "https://openalex.org/W2888459204",
+          "title": "Flavonoids and Other Phenolic Compounds from Medicinal Plants for Pharmaceutical and Medical Aspects: An Overview",
+          "year": "2018",
+          "cited_by_count": 1888,
+          "url": "/domains/soil/papers/W2888459204"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-fertility",
+      "label": "Soil fertility",
+      "url": "/domains/soil/topics/sg-soil-fertility",
+      "paper_count": 43,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: soil, soil water, soil science",
+      "tags": [
+        "agronomic soil fertility",
+        "crop yield and soil fertility",
+        "soil biodiversity",
+        "soil fertility"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-carbon-sequestration-soil-organic",
+          "label": "Soil organic",
+          "url": "/domains/soil/topics/sg-carbon-sequestration-soil-organic",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-soil-fertility-soil-science",
+          "label": "Soil science",
+          "url": "/domains/soil/topics/sg-soil-fertility-soil-science",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-soil-water-organic-matter",
+          "label": "Organic matter",
+          "url": "/domains/soil/topics/sg-soil-water-organic-matter",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-soil-fertility-human-health",
+          "label": "Human health",
+          "url": "/domains/soil/topics/sg-soil-fertility-human-health",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-soil-fertility-global-climate-change",
+          "label": "Global climate change",
+          "url": "/domains/soil/topics/sg-soil-fertility-global-climate-change",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2013874115",
+          "title": "Phytoremediation of heavy metals—Concepts and applications",
+          "year": "2013",
+          "cited_by_count": 3760,
+          "url": "/domains/soil/papers/W2013874115"
+        },
+        {
+          "source_id": "https://openalex.org/W2792709023",
+          "title": "Soil quality – A critical review",
+          "year": "2018",
+          "cited_by_count": 2642,
+          "url": "/domains/soil/papers/W2792709023"
+        },
+        {
+          "source_id": "https://openalex.org/W3130094023",
+          "title": "Climate warming enhances microbial network complexity and stability",
+          "year": "2021",
+          "cited_by_count": 2035,
+          "url": "/domains/soil/papers/W3130094023"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-microbiology",
+      "label": "Soil microbiology",
+      "url": "/domains/soil/topics/sg-soil-microbiology",
+      "paper_count": 34,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: ecology, soil, microbiology",
+      "tags": [
+        "applied soil microbiology",
+        "soil bacteria",
+        "soil bacterial",
+        "soil bacterial community"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-microbiology-microbial-community",
+          "label": "Microbial community",
+          "url": "/domains/soil/topics/sg-soil-microbiology-microbial-community",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-soil-water-nitrogen-cycle",
+          "label": "Nitrogen cycle",
+          "url": "/domains/soil/topics/sg-soil-water-nitrogen-cycle",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-soil-microbiology-soil-microbial",
+          "label": "Soil microbial",
+          "url": "/domains/soil/topics/sg-soil-microbiology-soil-microbial",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2166171121",
+          "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+          "year": "2012",
+          "cited_by_count": 8994,
+          "url": "/domains/soil/papers/W2166171121"
+        },
+        {
+          "source_id": "https://openalex.org/W2154736508",
+          "title": "The diversity and biogeography of soil bacterial communities",
+          "year": "2006",
+          "cited_by_count": 5590,
+          "url": "/domains/soil/papers/W2154736508"
+        },
+        {
+          "source_id": "https://openalex.org/W2118269781",
+          "title": "The unseen majority: soil microbes as drivers of plant diversity and productivity in terrestrial ecosystems",
+          "year": "2007",
+          "cited_by_count": 4913,
+          "url": "/domains/soil/papers/W2118269781"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-mechanics",
+      "label": "Soil mechanics",
+      "url": "/domains/soil/topics/sg-soil-mechanics",
+      "paper_count": 33,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: soil, geology, soil science",
+      "tags": [
+        "geotechnical engineering",
+        "geotechnical engineering and soil mechanics",
+        "mechanics in engineering",
+        "methods of soil"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-mechanics-soil-science",
+          "label": "Soil science",
+          "url": "/domains/soil/topics/sg-soil-mechanics-soil-science",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-soil-water-geotechnical-engineering",
+          "label": "Geotechnical engineering",
+          "url": "/domains/soil/topics/sg-soil-water-geotechnical-engineering",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-soil-mechanics-soil-behavior",
+          "label": "Soil behavior",
+          "url": "/domains/soil/topics/sg-soil-mechanics-soil-behavior",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-soil-mechanics-mechanics-in-engineering",
+          "label": "Mechanics in engineering",
+          "url": "/domains/soil/topics/sg-soil-mechanics-mechanics-in-engineering",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-soil-water-earth-science",
+          "label": "Earth science",
+          "url": "/domains/soil/topics/sg-soil-water-earth-science",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-soil-mechanics-remote-sensing",
+          "label": "Remote sensing",
+          "url": "/domains/soil/topics/sg-soil-mechanics-remote-sensing",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1693096119",
+          "title": "Fundamentals of Soil Behavior",
+          "year": "2025",
+          "cited_by_count": 3007,
+          "url": "/domains/soil/papers/W1693096119"
+        },
+        {
+          "source_id": "https://openalex.org/W1512952934",
+          "title": "Methods of soil analysis. Part 2. Chemical and microbiological properties.",
+          "year": "1982",
+          "cited_by_count": 12992,
+          "url": "/domains/soil/papers/W1512952934"
+        },
+        {
+          "source_id": "https://openalex.org/W2063623478",
+          "title": "Red and photographic infrared linear combinations for monitoring vegetation",
+          "year": "1979",
+          "cited_by_count": 11191,
+          "url": "/domains/soil/papers/W2063623478"
+        }
+      ]
+    },
+    {
+      "id": "sg-carbon-sequestration-carbon-fibers",
+      "label": "Carbon fibers",
+      "url": "/domains/soil/topics/sg-carbon-sequestration-carbon-fibers",
+      "paper_count": 23,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: soil, soil science, soil water",
+      "tags": [
+        "carbon",
+        "carbon fibers",
+        "environmental science",
+        "soil"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2083857556",
+          "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+          "year": "2006",
+          "cited_by_count": 6785,
+          "url": "/domains/soil/papers/W2083857556"
+        },
+        {
+          "source_id": "https://openalex.org/W2901065930",
+          "title": "Trace Elements in Soils and Plants",
+          "year": "2000",
+          "cited_by_count": 4980,
+          "url": "/domains/soil/papers/W2901065930"
+        },
+        {
+          "source_id": "https://openalex.org/W2157462758",
+          "title": "Soil carbon sequestration to mitigate climate change",
+          "year": "2004",
+          "cited_by_count": 3780,
+          "url": "/domains/soil/papers/W2157462758"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-texture",
+      "label": "Soil texture",
+      "url": "/domains/soil/topics/sg-soil-texture",
+      "paper_count": 21,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: soil, soil science, soil water",
+      "tags": [
+        "controlling soil",
+        "factors controlling soil",
+        "gridded soil information",
+        "soil hydraulic"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-texture-soil-science",
+          "label": "Soil science",
+          "url": "/domains/soil/topics/sg-soil-texture-soil-science",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-soil-texture-geotechnical-engineering",
+          "label": "Geotechnical engineering",
+          "url": "/domains/soil/topics/sg-soil-texture-geotechnical-engineering",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2222702172",
+          "title": "World Reference Base for Soil Resources. International soil classification system for naming soils and creating legends for soil maps",
+          "year": "2024",
+          "cited_by_count": 1965,
+          "url": "/domains/soil/papers/W2222702172"
+        },
+        {
+          "source_id": "https://openalex.org/W2131920195",
+          "title": "World Reference Base for Soil Resources",
+          "year": "2005",
+          "cited_by_count": 7304,
+          "url": "/domains/soil/papers/W2131920195"
+        },
+        {
+          "source_id": "https://openalex.org/W2588003345",
+          "title": "SoilGrids250m: Global gridded soil information based on machine learning",
+          "year": "2017",
+          "cited_by_count": 4537,
+          "url": "/domains/soil/papers/W2588003345"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-contamination",
+      "label": "Soil pollution",
+      "url": "/domains/soil/topics/sg-soil-contamination",
+      "paper_count": 20,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: heavy metals, soil water, soil",
+      "tags": [
+        "agricultural soil",
+        "agricultural soil plants",
+        "health risk",
+        "health risk assessment"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-contamination-heavy-metals-in-environment",
+          "label": "Heavy metals in environment",
+          "url": "/domains/soil/topics/sg-soil-contamination-heavy-metals-in-environment",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-soil-contamination-environmental-protection",
+          "label": "Environmental protection",
+          "url": "/domains/soil/topics/sg-soil-contamination-environmental-protection",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1549552139",
+          "title": "Trace Elements in Soils and Plants",
+          "year": "2010",
+          "cited_by_count": 11752,
+          "url": "/domains/soil/papers/W1549552139"
+        },
+        {
+          "source_id": "https://openalex.org/W2162774880",
+          "title": "Development of a DTPA Soil Test for Zinc, Iron, Manganese, and Copper",
+          "year": "1978",
+          "cited_by_count": 9658,
+          "url": "/domains/soil/papers/W2162774880"
+        },
+        {
+          "source_id": "https://openalex.org/W2031720269",
+          "title": "Biochar as a sorbent for contaminant management in soil and water: A review",
+          "year": "2013",
+          "cited_by_count": 4343,
+          "url": "/domains/soil/papers/W2031720269"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-water-organic-carbon",
+      "label": "Organic carbon",
+      "url": "/domains/soil/topics/sg-soil-water-organic-carbon",
+      "paper_count": 13,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: soil, soil science, soil water",
+      "tags": [
+        "organic carbon",
+        "carbon",
+        "organic",
+        "soil"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1642724957",
+          "title": "Total Carbon, Organic Carbon, and Organic Matter",
+          "year": "1996",
+          "cited_by_count": 10278,
+          "url": "/domains/soil/papers/W1642724957"
+        },
+        {
+          "source_id": "https://openalex.org/W2144189317",
+          "title": "Soil Carbon Sequestration Impacts on Global Climate Change and Food Security",
+          "year": "2004",
+          "cited_by_count": 7935,
+          "url": "/domains/soil/papers/W2144189317"
+        },
+        {
+          "source_id": "https://openalex.org/W2104005424",
+          "title": "Soil structure and management: a review",
+          "year": "2004",
+          "cited_by_count": 4231,
+          "url": "/domains/soil/papers/W2104005424"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-water-carbon-cycle",
+      "label": "Carbon cycle",
+      "url": "/domains/soil/topics/sg-soil-water-carbon-cycle",
+      "paper_count": 12,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: ecology, soil carbon and nitrogen dynamics, soil",
+      "tags": [
+        "carbon cycle",
+        "carbon",
+        "ecology",
+        "ecosystems"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2004256739",
+          "title": "An extraction method for measuring soil microbial biomass C",
+          "year": "1987",
+          "cited_by_count": 12502,
+          "url": "/domains/soil/papers/W2004256739"
+        },
+        {
+          "source_id": "https://openalex.org/W2736456658",
+          "title": "The importance of anabolism in microbial control over soil carbon storage",
+          "year": "2017",
+          "cited_by_count": 2852,
+          "url": "/domains/soil/papers/W2736456658"
+        },
+        {
+          "source_id": "https://openalex.org/W2157994386",
+          "title": "Chloroform fumigation and the release of soil nitrogen: A rapid direct extraction method to measure microbial biomass nitrogen in soil",
+          "year": "1985",
+          "cited_by_count": 5669,
+          "url": "/domains/soil/papers/W2157994386"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 18,
+      "papers": [
+        {
+          "title": "Mineral Nutrition of Higher Plants",
+          "year": "1995",
+          "cited_by_count": 19283,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1542649433.html"
+        },
+        {
+          "title": "AN EXAMINATION OF THE DEGTJAREFF METHOD FOR DETERMINING SOIL ORGANIC MATTER, AND A PROPOSED MODIFICATION OF THE CHROMIC ACID TITRATION METHOD",
+          "year": "1934",
+          "cited_by_count": 21239,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2091160252.html"
+        },
+        {
+          "title": "An extraction method for measuring soil microbial biomass C",
+          "year": "1987",
+          "cited_by_count": 12502,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2004256739.html"
+        },
+        {
+          "title": "Science and technology for water purification in the coming decades",
+          "year": "2008",
+          "cited_by_count": 8230,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2012270576.html"
+        },
+        {
+          "title": "Total Carbon, Organic Carbon, and Organic Matter",
+          "year": "1996",
+          "cited_by_count": 10278,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1642724957.html"
+        },
+        {
+          "title": "Abiotic Stress Signaling and Responses in Plants",
+          "year": "2016",
+          "cited_by_count": 5605,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2527891094.html"
+        }
+      ]
+    },
+    {
+      "label": "Soil mechanics",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Fundamentals of Soil Behavior",
+          "year": "2025",
+          "cited_by_count": 3007,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w1693096119.html"
+        },
+        {
+          "title": "Methods of soil analysis. Part 2. Chemical and microbiological properties.",
+          "year": "1982",
+          "cited_by_count": 12992,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w1512952934.html"
+        },
+        {
+          "title": "Red and photographic infrared linear combinations for monitoring vegetation",
+          "year": "1979",
+          "cited_by_count": 11191,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w2063623478.html"
+        },
+        {
+          "title": "Methods of soil analysis. Part 3 - chemical methods.",
+          "year": "1996",
+          "cited_by_count": 8557,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w1550918981.html"
+        },
+        {
+          "title": "soil mechanics in engineering practice",
+          "year": "2014",
+          "cited_by_count": 4980,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w1490066004.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon fibers",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Soil Chemical Analysis",
+          "year": "2014",
+          "cited_by_count": 11720,
+          "topic": "Carbon fibers",
+          "url": "papers/https-openalex-org-w1512608287.html"
+        },
+        {
+          "title": "Microplastics in freshwater and terrestrial environments: Evaluating the current understanding to identify the knowledge gaps and future research priorities",
+          "year": "2017",
+          "cited_by_count": 3540,
+          "topic": "Carbon fibers",
+          "url": "papers/https-openalex-org-w2583342343.html"
+        },
+        {
+          "title": "Marschner&#x27;s Mineral Nutrition of Higher Plants",
+          "year": "2012",
+          "cited_by_count": 4344,
+          "topic": "Carbon fibers",
+          "url": "papers/https-openalex-org-w262869635.html"
+        }
+      ]
+    },
+    {
+      "label": "Soil pollution",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Trace Elements in Soils and Plants",
+          "year": "2010",
+          "cited_by_count": 11752,
+          "topic": "Soil pollution",
+          "url": "papers/https-openalex-org-w1549552139.html"
+        },
+        {
+          "title": "Development of a DTPA Soil Test for Zinc, Iron, Manganese, and Copper",
+          "year": "1978",
+          "cited_by_count": 9658,
+          "topic": "Soil pollution",
+          "url": "papers/https-openalex-org-w2162774880.html"
+        },
+        {
+          "title": "Biochar as a sorbent for contaminant management in soil and water: A review",
+          "year": "2013",
+          "cited_by_count": 4343,
+          "topic": "Soil pollution",
+          "url": "papers/https-openalex-org-w2031720269.html"
+        }
+      ]
+    },
+    {
+      "label": "Soil texture",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "World Reference Base for Soil Resources. International soil classification system for naming soils and creating legends for soil maps",
+          "year": "2024",
+          "cited_by_count": 1965,
+          "topic": "Soil texture",
+          "url": "papers/https-openalex-org-w2222702172.html"
+        },
+        {
+          "title": "World Reference Base for Soil Resources",
+          "year": "2005",
+          "cited_by_count": 7304,
+          "topic": "Soil texture",
+          "url": "papers/https-openalex-org-w2131920195.html"
+        },
+        {
+          "title": "SoilGrids250m: Global gridded soil information based on machine learning",
+          "year": "2017",
+          "cited_by_count": 4537,
+          "topic": "Soil texture",
+          "url": "papers/https-openalex-org-w2588003345.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental protection",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2019",
+          "cited_by_count": 5622,
+          "topic": "Environmental protection",
+          "url": "papers/https-openalex-org-w2928467655.html"
+        },
+        {
+          "title": "Heavy Metal Toxicity and the Environment",
+          "year": "2012",
+          "cited_by_count": 6889,
+          "topic": "Environmental protection",
+          "url": "papers/https-openalex-org-w2228338508.html"
+        }
+      ]
+    },
+    {
+      "label": "Soil microbiology",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The diversity and biogeography of soil bacterial communities",
+          "year": "2006",
+          "cited_by_count": 5590,
+          "topic": "Soil microbiology",
+          "url": "papers/https-openalex-org-w2154736508.html"
+        },
+        {
+          "title": "The unseen majority: soil microbes as drivers of plant diversity and productivity in terrestrial ecosystems",
+          "year": "2007",
+          "cited_by_count": 4913,
+          "topic": "Soil microbiology",
+          "url": "papers/https-openalex-org-w2118269781.html"
+        }
+      ]
+    },
+    {
+      "label": "Soil science",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Increasing drought under global warming in observations and models",
+          "year": "2012",
+          "cited_by_count": 4645,
+          "topic": "Soil science",
+          "url": "papers/https-openalex-org-w2169245074.html"
+        },
+        {
+          "title": "Keys to Soil Taxonomy",
+          "year": "2010",
+          "cited_by_count": 4956,
+          "topic": "Soil science",
+          "url": "papers/https-openalex-org-w2890624634.html"
+        }
+      ]
+    },
+    {
+      "label": "Heavy metals in environment",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Estimation of Available Phosphorus in Soils by Extraction with Sodium Bicarbonate",
+          "year": "2018",
+          "cited_by_count": 10627,
+          "topic": "Heavy metals in environment",
+          "url": "papers/https-openalex-org-w330676098.html"
+        }
+      ]
+    },
+    {
+      "label": "Microbial community",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+          "year": "2012",
+          "cited_by_count": 8994,
+          "topic": "Microbial community",
+          "url": "papers/https-openalex-org-w2166171121.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W330676098",
+      "title": "Estimation of Available Phosphorus in Soils by Extraction with Sodium Bicarbonate",
+      "year": 2018,
+      "cited_by_count": 10627,
+      "adjusted_cited_by_count": 3757.21,
+      "primary_topic_id": "sg-soil-contamination-heavy-metals-in-environment",
+      "primary_topic_label": "Heavy metals in environment",
+      "url": "/domains/soil/papers/W330676098"
+    },
+    {
+      "source_id": "https://openalex.org/W1542649433",
+      "title": "Mineral Nutrition of Higher Plants",
+      "year": 1995,
+      "cited_by_count": 19283,
+      "adjusted_cited_by_count": 3463.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W1542649433"
+    },
+    {
+      "source_id": "https://openalex.org/W1512608287",
+      "title": "Soil Chemical Analysis",
+      "year": 2014,
+      "cited_by_count": 11720,
+      "adjusted_cited_by_count": 3383.27,
+      "primary_topic_id": "sg-carbon-sequestration-carbon-fibers",
+      "primary_topic_label": "Carbon fibers",
+      "url": "/domains/soil/papers/W1512608287"
+    },
+    {
+      "source_id": "https://openalex.org/W1693096119",
+      "title": "Fundamentals of Soil Behavior",
+      "year": 2025,
+      "cited_by_count": 3007,
+      "adjusted_cited_by_count": 3007.0,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/soil/papers/W1693096119"
+    },
+    {
+      "source_id": "https://openalex.org/W1549552139",
+      "title": "Trace Elements in Soils and Plants",
+      "year": 2010,
+      "cited_by_count": 11752,
+      "adjusted_cited_by_count": 2938.0,
+      "primary_topic_id": "sg-soil-contamination",
+      "primary_topic_label": "Soil pollution",
+      "url": "/domains/soil/papers/W1549552139"
+    },
+    {
+      "source_id": "https://openalex.org/W2166171121",
+      "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+      "year": 2012,
+      "cited_by_count": 8994,
+      "adjusted_cited_by_count": 2403.75,
+      "primary_topic_id": "sg-soil-microbiology-microbial-community",
+      "primary_topic_label": "Microbial community",
+      "url": "/domains/soil/papers/W2166171121"
+    },
+    {
+      "source_id": "https://openalex.org/W2091160252",
+      "title": "AN EXAMINATION OF THE DEGTJAREFF METHOD FOR DETERMINING SOIL ORGANIC MATTER, AND A PROPOSED MODIFICATION OF THE CHROMIC ACID TITRATION METHOD",
+      "year": 1934,
+      "cited_by_count": 21239,
+      "adjusted_cited_by_count": 2214.32,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2091160252"
+    },
+    {
+      "source_id": "https://openalex.org/W2928467655",
+      "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2019,
+      "cited_by_count": 5622,
+      "adjusted_cited_by_count": 2124.92,
+      "primary_topic_id": "sg-soil-contamination-environmental-protection",
+      "primary_topic_label": "Environmental protection",
+      "url": "/domains/soil/papers/W2928467655"
+    },
+    {
+      "source_id": "https://openalex.org/W2004256739",
+      "title": "An extraction method for measuring soil microbial biomass C",
+      "year": 1987,
+      "cited_by_count": 12502,
+      "adjusted_cited_by_count": 2001.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2004256739"
+    },
+    {
+      "source_id": "https://openalex.org/W2222702172",
+      "title": "World Reference Base for Soil Resources. International soil classification system for naming soils and creating legends for soil maps",
+      "year": 2024,
+      "cited_by_count": 1965,
+      "adjusted_cited_by_count": 1965.0,
+      "primary_topic_id": "sg-soil-texture",
+      "primary_topic_label": "Soil texture",
+      "url": "/domains/soil/papers/W2222702172"
+    },
+    {
+      "source_id": "https://openalex.org/W1512952934",
+      "title": "Methods of soil analysis. Part 2. Chemical and microbiological properties.",
+      "year": 1982,
+      "cited_by_count": 12992,
+      "adjusted_cited_by_count": 1958.62,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/soil/papers/W1512952934"
+    },
+    {
+      "source_id": "https://openalex.org/W2012270576",
+      "title": "Science and technology for water purification in the coming decades",
+      "year": 2008,
+      "cited_by_count": 8230,
+      "adjusted_cited_by_count": 1939.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2012270576"
+    },
+    {
+      "source_id": "https://openalex.org/W1642724957",
+      "title": "Total Carbon, Organic Carbon, and Organic Matter",
+      "year": 1996,
+      "cited_by_count": 10278,
+      "adjusted_cited_by_count": 1876.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W1642724957"
+    },
+    {
+      "source_id": "https://openalex.org/W2228338508",
+      "title": "Heavy Metal Toxicity and the Environment",
+      "year": 2012,
+      "cited_by_count": 6889,
+      "adjusted_cited_by_count": 1841.16,
+      "primary_topic_id": "sg-soil-contamination-environmental-protection",
+      "primary_topic_label": "Environmental protection",
+      "url": "/domains/soil/papers/W2228338508"
+    },
+    {
+      "source_id": "https://openalex.org/W2527891094",
+      "title": "Abiotic Stress Signaling and Responses in Plants",
+      "year": 2016,
+      "cited_by_count": 5605,
+      "adjusted_cited_by_count": 1772.46,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2527891094"
+    },
+    {
+      "source_id": "https://openalex.org/W2144189317",
+      "title": "Soil Carbon Sequestration Impacts on Global Climate Change and Food Security",
+      "year": 2004,
+      "cited_by_count": 7935,
+      "adjusted_cited_by_count": 1691.75,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2144189317"
+    },
+    {
+      "source_id": "https://openalex.org/W2063623478",
+      "title": "Red and photographic infrared linear combinations for monitoring vegetation",
+      "year": 1979,
+      "cited_by_count": 11191,
+      "adjusted_cited_by_count": 1632.38,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/soil/papers/W2063623478"
+    },
+    {
+      "source_id": "https://openalex.org/W2131920195",
+      "title": "World Reference Base for Soil Resources",
+      "year": 2005,
+      "cited_by_count": 7304,
+      "adjusted_cited_by_count": 1593.86,
+      "primary_topic_id": "sg-soil-texture",
+      "primary_topic_label": "Soil texture",
+      "url": "/domains/soil/papers/W2131920195"
+    },
+    {
+      "source_id": "https://openalex.org/W1550918981",
+      "title": "Methods of soil analysis. Part 3 - chemical methods.",
+      "year": 1996,
+      "cited_by_count": 8557,
+      "adjusted_cited_by_count": 1562.29,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/soil/papers/W1550918981"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6785,
+      "adjusted_cited_by_count": 1517.17,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2588003345",
+      "title": "SoilGrids250m: Global gridded soil information based on machine learning",
+      "year": 2017,
+      "cited_by_count": 4537,
+      "adjusted_cited_by_count": 1512.33,
+      "primary_topic_id": "sg-soil-texture",
+      "primary_topic_label": "Soil texture",
+      "url": "/domains/soil/papers/W2588003345"
+    },
+    {
+      "source_id": "https://openalex.org/W2132484323",
+      "title": "Persistence of soil organic matter as an ecosystem property",
+      "year": 2011,
+      "cited_by_count": 5835,
+      "adjusted_cited_by_count": 1506.59,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2132484323"
+    },
+    {
+      "source_id": "https://openalex.org/W2478908224",
+      "title": "Soil Sampling and Methods of Analysis",
+      "year": 2007,
+      "cited_by_count": 6407,
+      "adjusted_cited_by_count": 1469.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2478908224"
+    },
+    {
+      "source_id": "https://openalex.org/W1490066004",
+      "title": "soil mechanics in engineering practice",
+      "year": 2014,
+      "cited_by_count": 4980,
+      "adjusted_cited_by_count": 1437.6,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/soil/papers/W1490066004"
+    },
+    {
+      "source_id": "https://openalex.org/W2162774880",
+      "title": "Development of a DTPA Soil Test for Zinc, Iron, Manganese, and Copper",
+      "year": 1978,
+      "cited_by_count": 9658,
+      "adjusted_cited_by_count": 1394.01,
+      "primary_topic_id": "sg-soil-contamination",
+      "primary_topic_label": "Soil pollution",
+      "url": "/domains/soil/papers/W2162774880"
+    },
+    {
+      "source_id": "https://openalex.org/W2017387862",
+      "title": "The rhizosphere microbiome and plant health",
+      "year": 2012,
+      "cited_by_count": 5190,
+      "adjusted_cited_by_count": 1387.09,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2017387862"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979033",
+      "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+      "year": 2010,
+      "cited_by_count": 5468,
+      "adjusted_cited_by_count": 1367.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2028979033"
+    },
+    {
+      "source_id": "https://openalex.org/W2154736508",
+      "title": "The diversity and biogeography of soil bacterial communities",
+      "year": 2006,
+      "cited_by_count": 5590,
+      "adjusted_cited_by_count": 1249.96,
+      "primary_topic_id": "sg-soil-microbiology",
+      "primary_topic_label": "Soil microbiology",
+      "url": "/domains/soil/papers/W2154736508"
+    },
+    {
+      "source_id": "https://openalex.org/W2169245074",
+      "title": "Increasing drought under global warming in observations and models",
+      "year": 2012,
+      "cited_by_count": 4645,
+      "adjusted_cited_by_count": 1241.43,
+      "primary_topic_id": "sg-soil-texture-soil-science",
+      "primary_topic_label": "Soil science",
+      "url": "/domains/soil/papers/W2169245074"
+    },
+    {
+      "source_id": "https://openalex.org/W2148583852",
+      "title": "Biochar effects on soil biota – A review",
+      "year": 2011,
+      "cited_by_count": 4804,
+      "adjusted_cited_by_count": 1240.39,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2148583852"
+    },
+    {
+      "source_id": "https://openalex.org/W2200817828",
+      "title": "The contentious nature of soil organic matter",
+      "year": 2015,
+      "cited_by_count": 4111,
+      "adjusted_cited_by_count": 1239.51,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2200817828"
+    },
+    {
+      "source_id": "https://openalex.org/W2890624634",
+      "title": "Keys to Soil Taxonomy",
+      "year": 2010,
+      "cited_by_count": 4956,
+      "adjusted_cited_by_count": 1239.0,
+      "primary_topic_id": "sg-soil-texture-soil-science",
+      "primary_topic_label": "Soil science",
+      "url": "/domains/soil/papers/W2890624634"
+    },
+    {
+      "source_id": "https://openalex.org/W1964217023",
+      "title": "A soil-adjusted vegetation index (SAVI)",
+      "year": 1988,
+      "cited_by_count": 7551,
+      "adjusted_cited_by_count": 1224.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W1964217023"
+    },
+    {
+      "source_id": "https://openalex.org/W1978617972",
+      "title": "NDWI—A normalized difference water index for remote sensing of vegetation liquid water from space",
+      "year": 1996,
+      "cited_by_count": 6626,
+      "adjusted_cited_by_count": 1209.74,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W1978617972"
+    },
+    {
+      "source_id": "https://openalex.org/W2031720269",
+      "title": "Biochar as a sorbent for contaminant management in soil and water: A review",
+      "year": 2013,
+      "cited_by_count": 4343,
+      "adjusted_cited_by_count": 1204.53,
+      "primary_topic_id": "sg-soil-contamination",
+      "primary_topic_label": "Soil pollution",
+      "url": "/domains/soil/papers/W2031720269"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5610,
+      "adjusted_cited_by_count": 1196.06,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2583342343",
+      "title": "Microplastics in freshwater and terrestrial environments: Evaluating the current understanding to identify the knowledge gaps and future research priorities",
+      "year": 2017,
+      "cited_by_count": 3540,
+      "adjusted_cited_by_count": 1180.0,
+      "primary_topic_id": "sg-carbon-sequestration-carbon-fibers",
+      "primary_topic_label": "Carbon fibers",
+      "url": "/domains/soil/papers/W2583342343"
+    },
+    {
+      "source_id": "https://openalex.org/W262869635",
+      "title": "Marschner's Mineral Nutrition of Higher Plants",
+      "year": 2012,
+      "cited_by_count": 4344,
+      "adjusted_cited_by_count": 1160.98,
+      "primary_topic_id": "sg-carbon-sequestration-carbon-fibers",
+      "primary_topic_label": "Carbon fibers",
+      "url": "/domains/soil/papers/W262869635"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3471,
+      "adjusted_cited_by_count": 1157.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/soil/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2118269781",
+      "title": "The unseen majority: soil microbes as drivers of plant diversity and productivity in terrestrial ecosystems",
+      "year": 2007,
+      "cited_by_count": 4913,
+      "adjusted_cited_by_count": 1127.12,
+      "primary_topic_id": "sg-soil-microbiology",
+      "primary_topic_label": "Soil microbiology",
+      "url": "/domains/soil/papers/W2118269781"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W330676098",
+      "title": "Estimation of Available Phosphorus in Soils by Extraction with Sodium Bicarbonate",
+      "year": 2018,
+      "cited_by_count": 10627,
+      "adjusted_cited_by_count": 3757.21,
+      "url": "/domains/soil/papers/W330676098"
+    },
+    {
+      "source_id": "https://openalex.org/W1542649433",
+      "title": "Mineral Nutrition of Higher Plants",
+      "year": 1995,
+      "cited_by_count": 19283,
+      "adjusted_cited_by_count": 3463.33,
+      "url": "/domains/soil/papers/W1542649433"
+    },
+    {
+      "source_id": "https://openalex.org/W1512608287",
+      "title": "Soil Chemical Analysis",
+      "year": 2014,
+      "cited_by_count": 11720,
+      "adjusted_cited_by_count": 3383.27,
+      "url": "/domains/soil/papers/W1512608287"
+    },
+    {
+      "source_id": "https://openalex.org/W1693096119",
+      "title": "Fundamentals of Soil Behavior",
+      "year": 2025,
+      "cited_by_count": 3007,
+      "adjusted_cited_by_count": 3007.0,
+      "url": "/domains/soil/papers/W1693096119"
+    },
+    {
+      "source_id": "https://openalex.org/W1549552139",
+      "title": "Trace Elements in Soils and Plants",
+      "year": 2010,
+      "cited_by_count": 11752,
+      "adjusted_cited_by_count": 2938.0,
+      "url": "/domains/soil/papers/W1549552139"
+    },
+    {
+      "source_id": "https://openalex.org/W2166171121",
+      "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+      "year": 2012,
+      "cited_by_count": 8994,
+      "adjusted_cited_by_count": 2403.75,
+      "url": "/domains/soil/papers/W2166171121"
+    },
+    {
+      "source_id": "https://openalex.org/W2091160252",
+      "title": "AN EXAMINATION OF THE DEGTJAREFF METHOD FOR DETERMINING SOIL ORGANIC MATTER, AND A PROPOSED MODIFICATION OF THE CHROMIC ACID TITRATION METHOD",
+      "year": 1934,
+      "cited_by_count": 21239,
+      "adjusted_cited_by_count": 2214.32,
+      "url": "/domains/soil/papers/W2091160252"
+    },
+    {
+      "source_id": "https://openalex.org/W2928467655",
+      "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2019,
+      "cited_by_count": 5622,
+      "adjusted_cited_by_count": 2124.92,
+      "url": "/domains/soil/papers/W2928467655"
+    },
+    {
+      "source_id": "https://openalex.org/W2004256739",
+      "title": "An extraction method for measuring soil microbial biomass C",
+      "year": 1987,
+      "cited_by_count": 12502,
+      "adjusted_cited_by_count": 2001.92,
+      "url": "/domains/soil/papers/W2004256739"
+    },
+    {
+      "source_id": "https://openalex.org/W2222702172",
+      "title": "World Reference Base for Soil Resources. International soil classification system for naming soils and creating legends for soil maps",
+      "year": 2024,
+      "cited_by_count": 1965,
+      "adjusted_cited_by_count": 1965.0,
+      "url": "/domains/soil/papers/W2222702172"
+    },
+    {
+      "source_id": "https://openalex.org/W1512952934",
+      "title": "Methods of soil analysis. Part 2. Chemical and microbiological properties.",
+      "year": 1982,
+      "cited_by_count": 12992,
+      "adjusted_cited_by_count": 1958.62,
+      "url": "/domains/soil/papers/W1512952934"
+    },
+    {
+      "source_id": "https://openalex.org/W2012270576",
+      "title": "Science and technology for water purification in the coming decades",
+      "year": 2008,
+      "cited_by_count": 8230,
+      "adjusted_cited_by_count": 1939.83,
+      "url": "/domains/soil/papers/W2012270576"
+    },
+    {
+      "source_id": "https://openalex.org/W1642724957",
+      "title": "Total Carbon, Organic Carbon, and Organic Matter",
+      "year": 1996,
+      "cited_by_count": 10278,
+      "adjusted_cited_by_count": 1876.5,
+      "url": "/domains/soil/papers/W1642724957"
+    },
+    {
+      "source_id": "https://openalex.org/W2228338508",
+      "title": "Heavy Metal Toxicity and the Environment",
+      "year": 2012,
+      "cited_by_count": 6889,
+      "adjusted_cited_by_count": 1841.16,
+      "url": "/domains/soil/papers/W2228338508"
+    },
+    {
+      "source_id": "https://openalex.org/W2527891094",
+      "title": "Abiotic Stress Signaling and Responses in Plants",
+      "year": 2016,
+      "cited_by_count": 5605,
+      "adjusted_cited_by_count": 1772.46,
+      "url": "/domains/soil/papers/W2527891094"
+    },
+    {
+      "source_id": "https://openalex.org/W2144189317",
+      "title": "Soil Carbon Sequestration Impacts on Global Climate Change and Food Security",
+      "year": 2004,
+      "cited_by_count": 7935,
+      "adjusted_cited_by_count": 1691.75,
+      "url": "/domains/soil/papers/W2144189317"
+    },
+    {
+      "source_id": "https://openalex.org/W2063623478",
+      "title": "Red and photographic infrared linear combinations for monitoring vegetation",
+      "year": 1979,
+      "cited_by_count": 11191,
+      "adjusted_cited_by_count": 1632.38,
+      "url": "/domains/soil/papers/W2063623478"
+    },
+    {
+      "source_id": "https://openalex.org/W2131920195",
+      "title": "World Reference Base for Soil Resources",
+      "year": 2005,
+      "cited_by_count": 7304,
+      "adjusted_cited_by_count": 1593.86,
+      "url": "/domains/soil/papers/W2131920195"
+    },
+    {
+      "source_id": "https://openalex.org/W1550918981",
+      "title": "Methods of soil analysis. Part 3 - chemical methods.",
+      "year": 1996,
+      "cited_by_count": 8557,
+      "adjusted_cited_by_count": 1562.29,
+      "url": "/domains/soil/papers/W1550918981"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6785,
+      "adjusted_cited_by_count": 1517.17,
+      "url": "/domains/soil/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2588003345",
+      "title": "SoilGrids250m: Global gridded soil information based on machine learning",
+      "year": 2017,
+      "cited_by_count": 4537,
+      "adjusted_cited_by_count": 1512.33,
+      "url": "/domains/soil/papers/W2588003345"
+    },
+    {
+      "source_id": "https://openalex.org/W2132484323",
+      "title": "Persistence of soil organic matter as an ecosystem property",
+      "year": 2011,
+      "cited_by_count": 5835,
+      "adjusted_cited_by_count": 1506.59,
+      "url": "/domains/soil/papers/W2132484323"
+    },
+    {
+      "source_id": "https://openalex.org/W2478908224",
+      "title": "Soil Sampling and Methods of Analysis",
+      "year": 2007,
+      "cited_by_count": 6407,
+      "adjusted_cited_by_count": 1469.87,
+      "url": "/domains/soil/papers/W2478908224"
+    },
+    {
+      "source_id": "https://openalex.org/W1490066004",
+      "title": "soil mechanics in engineering practice",
+      "year": 2014,
+      "cited_by_count": 4980,
+      "adjusted_cited_by_count": 1437.6,
+      "url": "/domains/soil/papers/W1490066004"
+    },
+    {
+      "source_id": "https://openalex.org/W2162774880",
+      "title": "Development of a DTPA Soil Test for Zinc, Iron, Manganese, and Copper",
+      "year": 1978,
+      "cited_by_count": 9658,
+      "adjusted_cited_by_count": 1394.01,
+      "url": "/domains/soil/papers/W2162774880"
+    },
+    {
+      "source_id": "https://openalex.org/W2017387862",
+      "title": "The rhizosphere microbiome and plant health",
+      "year": 2012,
+      "cited_by_count": 5190,
+      "adjusted_cited_by_count": 1387.09,
+      "url": "/domains/soil/papers/W2017387862"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979033",
+      "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+      "year": 2010,
+      "cited_by_count": 5468,
+      "adjusted_cited_by_count": 1367.0,
+      "url": "/domains/soil/papers/W2028979033"
+    },
+    {
+      "source_id": "https://openalex.org/W2154736508",
+      "title": "The diversity and biogeography of soil bacterial communities",
+      "year": 2006,
+      "cited_by_count": 5590,
+      "adjusted_cited_by_count": 1249.96,
+      "url": "/domains/soil/papers/W2154736508"
+    },
+    {
+      "source_id": "https://openalex.org/W2169245074",
+      "title": "Increasing drought under global warming in observations and models",
+      "year": 2012,
+      "cited_by_count": 4645,
+      "adjusted_cited_by_count": 1241.43,
+      "url": "/domains/soil/papers/W2169245074"
+    },
+    {
+      "source_id": "https://openalex.org/W2148583852",
+      "title": "Biochar effects on soil biota – A review",
+      "year": 2011,
+      "cited_by_count": 4804,
+      "adjusted_cited_by_count": 1240.39,
+      "url": "/domains/soil/papers/W2148583852"
+    },
+    {
+      "source_id": "https://openalex.org/W2200817828",
+      "title": "The contentious nature of soil organic matter",
+      "year": 2015,
+      "cited_by_count": 4111,
+      "adjusted_cited_by_count": 1239.51,
+      "url": "/domains/soil/papers/W2200817828"
+    },
+    {
+      "source_id": "https://openalex.org/W2890624634",
+      "title": "Keys to Soil Taxonomy",
+      "year": 2010,
+      "cited_by_count": 4956,
+      "adjusted_cited_by_count": 1239.0,
+      "url": "/domains/soil/papers/W2890624634"
+    },
+    {
+      "source_id": "https://openalex.org/W1964217023",
+      "title": "A soil-adjusted vegetation index (SAVI)",
+      "year": 1988,
+      "cited_by_count": 7551,
+      "adjusted_cited_by_count": 1224.93,
+      "url": "/domains/soil/papers/W1964217023"
+    },
+    {
+      "source_id": "https://openalex.org/W1978617972",
+      "title": "NDWI—A normalized difference water index for remote sensing of vegetation liquid water from space",
+      "year": 1996,
+      "cited_by_count": 6626,
+      "adjusted_cited_by_count": 1209.74,
+      "url": "/domains/soil/papers/W1978617972"
+    },
+    {
+      "source_id": "https://openalex.org/W2031720269",
+      "title": "Biochar as a sorbent for contaminant management in soil and water: A review",
+      "year": 2013,
+      "cited_by_count": 4343,
+      "adjusted_cited_by_count": 1204.53,
+      "url": "/domains/soil/papers/W2031720269"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5610,
+      "adjusted_cited_by_count": 1196.06,
+      "url": "/domains/soil/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2583342343",
+      "title": "Microplastics in freshwater and terrestrial environments: Evaluating the current understanding to identify the knowledge gaps and future research priorities",
+      "year": 2017,
+      "cited_by_count": 3540,
+      "adjusted_cited_by_count": 1180.0,
+      "url": "/domains/soil/papers/W2583342343"
+    },
+    {
+      "source_id": "https://openalex.org/W262869635",
+      "title": "Marschner's Mineral Nutrition of Higher Plants",
+      "year": 2012,
+      "cited_by_count": 4344,
+      "adjusted_cited_by_count": 1160.98,
+      "url": "/domains/soil/papers/W262869635"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3471,
+      "adjusted_cited_by_count": 1157.0,
+      "url": "/domains/soil/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2118269781",
+      "title": "The unseen majority: soil microbes as drivers of plant diversity and productivity in terrestrial ecosystems",
+      "year": 2007,
+      "cited_by_count": 4913,
+      "adjusted_cited_by_count": 1127.12,
+      "url": "/domains/soil/papers/W2118269781"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 247
+    },
+    {
+      "label": "soil",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 240
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 176
+    },
+    {
+      "label": "soil water",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 160
+    },
+    {
+      "label": "soil science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 104
+    },
+    {
+      "label": "geology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "of soil",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "environmental chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "organic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "soils",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "microbiology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "plant",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "ecosystems",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "agronomy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 182
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 54
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 43
+    },
+    {
+      "label": "land use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 43
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 42
+    },
+    {
+      "label": "the soil",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 42
+    },
+    {
+      "label": "soil organic matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 41
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 52
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 40
+    },
+    {
+      "label": "agriculture",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 39
+    },
+    {
+      "label": "organic matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 49
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 37
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 36
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 35
+    },
+    {
+      "label": "matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 51
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 32
+    },
+    {
+      "label": "soil carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 32
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 31
+    },
+    {
+      "label": "botany",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 30
+    },
+    {
+      "label": "human health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 30
+    },
+    {
+      "label": "soil organic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 44
+    },
+    {
+      "label": "nitrogen cycle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 29
+    },
+    {
+      "label": "organic chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 29
+    },
+    {
+      "label": "plants",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 29
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 29
+    },
+    {
+      "label": "nutrient",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 28
+    },
+    {
+      "label": "atmospheric science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 27
+    },
+    {
+      "label": "biodiversity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 27
+    },
+    {
+      "label": "estimate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 27
+    }
+  ],
+  "topic_year_counts": {
+    "soil microbiology": {
+      "2023": 41269,
+      "2024": 39782,
+      "2025": 39177,
+      "2022": 28939,
+      "2021": 26292,
+      "2020": 24476,
+      "2019": 19787,
+      "2018": 17431,
+      "2017": 15644,
+      "2016": 13532,
+      "2015": 12150,
+      "2014": 10814,
+      "2013": 9643,
+      "2026": 9627,
+      "2012": 8249,
+      "2011": 6543,
+      "2010": 5443,
+      "2009": 4710,
+      "2008": 3874,
+      "2007": 3596,
+      "2006": 2734,
+      "2004": 2489,
+      "2005": 2450,
+      "2003": 2088,
+      "2002": 1578,
+      "2001": 1442,
+      "2000": 1410
+    },
+    "soil mechanics": {
+      "2023": 17768,
+      "2024": 15950,
+      "2025": 15123,
+      "2022": 12214,
+      "2021": 12035,
+      "2020": 10313,
+      "2019": 9127,
+      "2018": 7977,
+      "2017": 6701,
+      "2016": 6457,
+      "2015": 5747,
+      "2014": 4937,
+      "2013": 4423,
+      "2026": 3984,
+      "2012": 3629,
+      "2011": 3227,
+      "2010": 2889,
+      "2009": 2478,
+      "2007": 2133,
+      "2008": 2047,
+      "2006": 1573,
+      "2005": 1463,
+      "2004": 1201,
+      "2003": 1030,
+      "2002": 904,
+      "2000": 864,
+      "2001": 789
+    },
+    "soil fertility": {
+      "2025": 45471,
+      "2024": 39613,
+      "2023": 38688,
+      "2022": 27572,
+      "2021": 25845,
+      "2020": 24444,
+      "2019": 20091,
+      "2018": 17678,
+      "2017": 15672,
+      "2016": 13910,
+      "2015": 12420,
+      "2014": 11561,
+      "2026": 11244,
+      "2013": 10424,
+      "2012": 9185,
+      "2011": 7932,
+      "2010": 6959,
+      "2009": 6169,
+      "2008": 5138,
+      "2007": 4533,
+      "2006": 4305,
+      "2005": 3952,
+      "2004": 3289,
+      "2001": 3231,
+      "2003": 3015,
+      "2000": 2971,
+      "2002": 2669
+    },
+    "soil texture": {
+      "2025": 38231,
+      "2023": 35118,
+      "2024": 33667,
+      "2022": 25431,
+      "2021": 23045,
+      "2020": 21358,
+      "2019": 17957,
+      "2018": 15986,
+      "2017": 14264,
+      "2016": 12935,
+      "2015": 11367,
+      "2026": 10351,
+      "2014": 10176,
+      "2013": 9333,
+      "2012": 8174,
+      "2011": 6823,
+      "2010": 6208,
+      "2009": 5447,
+      "2008": 4465,
+      "2007": 4007,
+      "2006": 3909,
+      "2005": 3671,
+      "2004": 3166,
+      "2000": 2624,
+      "2003": 2534,
+      "2001": 2442,
+      "2002": 2215
+    },
+    "soil pollution": {
+      "2025": 77173,
+      "2023": 76263,
+      "2024": 74822,
+      "2022": 53580,
+      "2021": 46511,
+      "2020": 39619,
+      "2019": 32994,
+      "2018": 28956,
+      "2017": 24651,
+      "2016": 22270,
+      "2015": 20276,
+      "2014": 19174,
+      "2026": 18667,
+      "2013": 17669,
+      "2012": 15171,
+      "2011": 12998,
+      "2010": 11309,
+      "2009": 9979,
+      "2008": 8167,
+      "2007": 7162,
+      "2006": 6562,
+      "2005": 5971,
+      "2004": 4849,
+      "2003": 4147,
+      "2002": 3703,
+      "2000": 3518,
+      "2001": 3360
+    },
+    "carbon fibers": {
+      "2023": 77034,
+      "2024": 74141,
+      "2025": 71725,
+      "2022": 50808,
+      "2021": 44544,
+      "2020": 39616,
+      "2019": 34114,
+      "2018": 29675,
+      "2017": 25885,
+      "2016": 23217,
+      "2015": 20838,
+      "2026": 18725,
+      "2014": 18616,
+      "2013": 16822,
+      "2012": 14519,
+      "2011": 12385,
+      "2010": 10164,
+      "2009": 8581,
+      "2008": 7586,
+      "2007": 6573,
+      "2006": 5976,
+      "2005": 5196,
+      "2004": 4362,
+      "2003": 3800,
+      "2000": 3499,
+      "2002": 3469,
+      "2001": 3182
+    },
+    "organic carbon": {
+      "2023": 192172,
+      "2024": 182699,
+      "2025": 181057,
+      "2022": 131557,
+      "2021": 116810,
+      "2020": 106705,
+      "2019": 90120,
+      "2018": 80400,
+      "2017": 71912,
+      "2016": 64343,
+      "2015": 59029,
+      "2014": 53299,
+      "2026": 49165,
+      "2013": 48255,
+      "2012": 42113,
+      "2011": 36797,
+      "2010": 30748,
+      "2009": 26452,
+      "2008": 22206,
+      "2007": 19198,
+      "2006": 17537,
+      "2005": 15501,
+      "2004": 13706,
+      "2003": 11912,
+      "2002": 10180,
+      "2001": 10041,
+      "2000": 9692
+    },
+    "carbon cycle": {
+      "2025": 212168,
+      "2023": 205418,
+      "2024": 201779,
+      "2022": 138287,
+      "2021": 122598,
+      "2020": 111011,
+      "2019": 92928,
+      "2018": 82763,
+      "2017": 74488,
+      "2016": 67099,
+      "2026": 60060,
+      "2015": 59813,
+      "2014": 54048,
+      "2013": 48335,
+      "2012": 41491,
+      "2011": 35278,
+      "2010": 29839,
+      "2009": 24939,
+      "2008": 20785,
+      "2007": 17481,
+      "2006": 15629,
+      "2005": 13727,
+      "2004": 11777,
+      "2003": 10566,
+      "2002": 8812,
+      "2000": 8143,
+      "2001": 8059
+    }
+  }
+}

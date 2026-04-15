@@ -1,0 +1,2186 @@
+{
+  "slug": "automotive",
+  "title": "Automotive",
+  "updated_at": "2026-04-15T15:41:46.834115Z",
+  "snapshot": {
+    "papers": 297,
+    "topics": 7,
+    "subtopics": 48,
+    "entities": 741,
+    "claims": 3
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 304,
+      "total_papers": 304,
+      "facet_counts": {
+        "none": 304
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning automotive industry, automotive engineering.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 7,
+    "descendant_topics": 48,
+    "max_depth": 2,
+    "leaf_topics": 48
+  },
+  "rising_topics": [
+    {
+      "id": "sg-automotive-engineering",
+      "label": "Automotive engineering",
+      "url": "/domains/automotive/topics/sg-automotive-engineering",
+      "trend": "rising",
+      "year_total": 301477
+    },
+    {
+      "id": "sg-composite-material",
+      "label": "Composite material",
+      "url": "/domains/automotive/topics/sg-composite-material",
+      "trend": "rising",
+      "year_total": 2155231
+    },
+    {
+      "id": "sg-lithium-ion-battery",
+      "label": "Lithium-ion battery",
+      "url": "/domains/automotive/topics/sg-lithium-ion-battery",
+      "trend": "rising",
+      "year_total": 294395
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-automotive-engineering",
+      "label": "Automotive engineering",
+      "url": "/domains/automotive/topics/sg-automotive-engineering",
+      "paper_count": 82,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "automotive",
+        "automotive control",
+        "automotive electronics",
+        "automotive engine"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-automotive-engineering-ion-battery",
+          "label": "Ion battery",
+          "url": "/domains/automotive/topics/sg-automotive-engineering-ion-battery",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-automotive-engineering-nitrogen-oxide",
+          "label": "Nitrogen oxide",
+          "url": "/domains/automotive/topics/sg-automotive-engineering-nitrogen-oxide",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-automotive-engineering-aerospace-engineering",
+          "label": "Aerospace engineering",
+          "url": "/domains/automotive/topics/sg-automotive-engineering-aerospace-engineering",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-automotive-engineering-state-of-health",
+          "label": "State of health",
+          "url": "/domains/automotive/topics/sg-automotive-engineering-state-of-health",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-automotive-engineering-chain-management",
+          "label": "Chain management",
+          "url": "/domains/automotive/topics/sg-automotive-engineering-chain-management",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-automotive-engineering-supply-chain-risk-management",
+          "label": "Supply chain risk management",
+          "url": "/domains/automotive/topics/sg-automotive-engineering-supply-chain-risk-management",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-composite-material",
+      "label": "Composite material",
+      "url": "/domains/automotive/topics/sg-composite-material",
+      "paper_count": 67,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: composite material, ion battery, nanotechnology",
+      "tags": [
+        "composite automotive",
+        "composite material",
+        "composite number",
+        "fiber reinforced polymer composite"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-composite-material-fiber-reinforced-composite",
+          "label": "Fiber-reinforced composite",
+          "url": "/domains/automotive/topics/sg-composite-material-fiber-reinforced-composite",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-composite-material-carbon-nanotube-in-composite",
+          "label": "Carbon nanotube in composite",
+          "url": "/domains/automotive/topics/sg-composite-material-carbon-nanotube-in-composite",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-composite-material-mechanical-property",
+          "label": "Mechanical property",
+          "url": "/domains/automotive/topics/sg-composite-material-mechanical-property",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-composite-material-polymer-nanocomposite",
+          "label": "Polymer nanocomposite",
+          "url": "/domains/automotive/topics/sg-composite-material-polymer-nanocomposite",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-composite-material-thermosetting-polymer",
+          "label": "Thermosetting polymer",
+          "url": "/domains/automotive/topics/sg-composite-material-thermosetting-polymer",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-composite-material-polymer-composite-material",
+          "label": "Polymer composite material",
+          "url": "/domains/automotive/topics/sg-composite-material-polymer-composite-material",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2101977779",
+          "title": "Graphene-based composite materials",
+          "year": "2006",
+          "cited_by_count": 12741,
+          "url": "/domains/automotive/papers/W2101977779"
+        },
+        {
+          "source_id": "https://openalex.org/W2574394697",
+          "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+          "year": "2017",
+          "cited_by_count": 7091,
+          "url": "/domains/automotive/papers/W2574394697"
+        },
+        {
+          "source_id": "https://openalex.org/W2009901571",
+          "title": "Nitrogen-Doped Carbon Nanotube Arrays with High Electrocatalytic Activity for Oxygen Reduction",
+          "year": "2009",
+          "cited_by_count": 7125,
+          "url": "/domains/automotive/papers/W2009901571"
+        }
+      ]
+    },
+    {
+      "id": "sg-lithium-ion-battery",
+      "label": "Lithium-ion battery",
+      "url": "/domains/automotive/topics/sg-lithium-ion-battery",
+      "paper_count": 43,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: ion battery, lithium-ion battery, battery",
+      "tags": [
+        "lithium-ion battery",
+        "lithium-ion battery electric",
+        "lithium-ion battery electric vehicle",
+        "lithium-ion battery without"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-lithium-ion-battery-lithium-ion-battery-overview",
+          "label": "Lithium-ion battery overview",
+          "url": "/domains/automotive/topics/sg-lithium-ion-battery-lithium-ion-battery-overview",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-lithium-ion-battery-battery-storage",
+          "label": "Battery storage",
+          "url": "/domains/automotive/topics/sg-lithium-ion-battery-battery-storage",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-lithium-ion-battery-advanced-battery-technology",
+          "label": "Advanced battery technology",
+          "url": "/domains/automotive/topics/sg-lithium-ion-battery-advanced-battery-technology",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-lithium-ion-battery-reliability-engineering",
+          "label": "Reliability engineering",
+          "url": "/domains/automotive/topics/sg-lithium-ion-battery-reliability-engineering",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-lithium-ion-battery-lithium-battery",
+          "label": "Lithium battery",
+          "url": "/domains/automotive/topics/sg-lithium-ion-battery-lithium-battery",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-lithium-ion-battery-nanoarchitecture-lithium-ion-battery",
+          "label": "Nanoarchitecture lithium-ion battery",
+          "url": "/domains/automotive/topics/sg-lithium-ion-battery-nanoarchitecture-lithium-ion-battery",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1949231392",
+          "title": "Issues and challenges facing rechargeable lithium batteries",
+          "year": "2001",
+          "cited_by_count": 20463,
+          "url": "/domains/automotive/papers/W1949231392"
+        },
+        {
+          "source_id": "https://openalex.org/W2151207643",
+          "title": "Li–O2 and Li–S batteries with high energy storage",
+          "year": "2011",
+          "cited_by_count": 9287,
+          "url": "/domains/automotive/papers/W2151207643"
+        },
+        {
+          "source_id": "https://openalex.org/W2593815020",
+          "title": "Reviving the lithium metal anode for high-energy batteries",
+          "year": "2017",
+          "cited_by_count": 6474,
+          "url": "/domains/automotive/papers/W2593815020"
+        }
+      ]
+    },
+    {
+      "id": "sg-fuel-cell",
+      "label": "Fuel cell",
+      "url": "/domains/automotive/topics/sg-fuel-cell",
+      "paper_count": 41,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: fuel cell, cells, ion battery",
+      "tags": [
+        "automotive electronics",
+        "fuel cell",
+        "fuel cells and related material",
+        "hydrogen fuel"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-fuel-cell-exchange-membrane-fuel-cells",
+          "label": "Exchange membrane fuel cells",
+          "url": "/domains/automotive/topics/sg-fuel-cell-exchange-membrane-fuel-cells",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-fuel-cell-hydrogen-fuel",
+          "label": "Hydrogen fuel",
+          "url": "/domains/automotive/topics/sg-fuel-cell-hydrogen-fuel",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-fuel-cell-hydrogen-production",
+          "label": "Hydrogen production",
+          "url": "/domains/automotive/topics/sg-fuel-cell-hydrogen-production",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-fuel-cell-fuel-cell-materials",
+          "label": "Fuel cell materials",
+          "url": "/domains/automotive/topics/sg-fuel-cell-fuel-cell-materials",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-fuel-cell-fuel-cells",
+          "label": "Fuel cells",
+          "url": "/domains/automotive/topics/sg-fuel-cell-fuel-cells",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-fuel-cell-energy-carrier",
+          "label": "Energy carrier",
+          "url": "/domains/automotive/topics/sg-fuel-cell-energy-carrier",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1989937017",
+          "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+          "year": "2004",
+          "cited_by_count": 7218,
+          "url": "/domains/automotive/papers/W1989937017"
+        },
+        {
+          "source_id": "https://openalex.org/W2022299938",
+          "title": "Electrocatalyst approaches and challenges for automotive fuel cells",
+          "year": "2012",
+          "cited_by_count": 5712,
+          "url": "/domains/automotive/papers/W2022299938"
+        },
+        {
+          "source_id": "https://openalex.org/W1970377394",
+          "title": "Microbial Fuel Cells:  Methodology and Technology",
+          "year": "2006",
+          "cited_by_count": 5937,
+          "url": "/domains/automotive/papers/W1970377394"
+        }
+      ]
+    },
+    {
+      "id": "sg-additive-manufacturing",
+      "label": "Additive manufacturing",
+      "url": "/domains/automotive/topics/sg-additive-manufacturing",
+      "paper_count": 29,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: additive manufacturing, additive manufacturing and 3d printing technology, ion battery",
+      "tags": [
+        "3d printing",
+        "additive manufacturing",
+        "additive manufacturing case",
+        "additive manufacturing next-generation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-additive-manufacturing-ion-battery",
+          "label": "Ion battery",
+          "url": "/domains/automotive/topics/sg-additive-manufacturing-ion-battery",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-additive-manufacturing-additive-manufacturing-materials-and-processes",
+          "label": "Additive manufacturing materials and processes",
+          "url": "/domains/automotive/topics/sg-additive-manufacturing-additive-manufacturing-materials-and-processes",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-additive-manufacturing-industrial-organization",
+          "label": "Industrial organization",
+          "url": "/domains/automotive/topics/sg-additive-manufacturing-industrial-organization",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-additive-manufacturing-3d-printing-in-automotive",
+          "label": "3D printing in automotive",
+          "url": "/domains/automotive/topics/sg-additive-manufacturing-3d-printing-in-automotive",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-additive-manufacturing-computer-integrated-manufacturing",
+          "label": "Computer-integrated manufacturing",
+          "url": "/domains/automotive/topics/sg-additive-manufacturing-computer-integrated-manufacturing",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2758567842",
+          "title": "3D printing of high-strength aluminium alloys",
+          "year": "2017",
+          "cited_by_count": 2803,
+          "url": "/domains/automotive/papers/W2758567842"
+        },
+        {
+          "source_id": "https://openalex.org/W2418453408",
+          "title": "Additive Manufacturing Technologies",
+          "year": "2014",
+          "cited_by_count": 3015,
+          "url": "/domains/automotive/papers/W2418453408"
+        },
+        {
+          "source_id": "https://openalex.org/W2967464127",
+          "title": "An Overview on 3D Printing Technology: Technological, Materials, and Applications",
+          "year": "2019",
+          "cited_by_count": 1924,
+          "url": "/domains/automotive/papers/W2967464127"
+        }
+      ]
+    },
+    {
+      "id": "sg-electric-vehicle",
+      "label": "Electric vehicle",
+      "url": "/domains/automotive/topics/sg-electric-vehicle",
+      "paper_count": 20,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: electric vehicle, ion battery, vehicle",
+      "tags": [
+        "automotive electronics",
+        "battery electric vehicle",
+        "electric vehicle",
+        "electric vehicle battery"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-electric-vehicle-battery-electric-vehicle",
+          "label": "Battery electric vehicle",
+          "url": "/domains/automotive/topics/sg-electric-vehicle-battery-electric-vehicle",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-electric-vehicle-ion-battery",
+          "label": "Ion battery",
+          "url": "/domains/automotive/topics/sg-electric-vehicle-ion-battery",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-electric-vehicle-state-of-charge",
+          "label": "State of charge",
+          "url": "/domains/automotive/topics/sg-electric-vehicle-state-of-charge",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-electric-vehicle-electric-and-hybrid-vehicle-technology",
+          "label": "Electric and hybrid vehicle technology",
+          "url": "/domains/automotive/topics/sg-electric-vehicle-electric-and-hybrid-vehicle-technology",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-electric-vehicle-sustainable-energy",
+          "label": "Sustainable energy",
+          "url": "/domains/automotive/topics/sg-electric-vehicle-sustainable-energy",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2089525884",
+          "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+          "year": "2011",
+          "cited_by_count": 14517,
+          "url": "/domains/automotive/papers/W2089525884"
+        },
+        {
+          "source_id": "https://openalex.org/W2091875228",
+          "title": "Towards greener and more sustainable batteries for electrical energy storage",
+          "year": "2014",
+          "cited_by_count": 7540,
+          "url": "/domains/automotive/papers/W2091875228"
+        },
+        {
+          "source_id": "https://openalex.org/W1998062017",
+          "title": "Challenges in the development of advanced Li-ion batteries: a review",
+          "year": "2011",
+          "cited_by_count": 6610,
+          "url": "/domains/automotive/papers/W1998062017"
+        }
+      ]
+    },
+    {
+      "id": "sg-control-management",
+      "label": "Automotive control systems",
+      "url": "/domains/automotive/topics/sg-control-management",
+      "paper_count": 15,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: control management, ion battery, control theory",
+      "tags": [
+        "automotive control",
+        "automotive engine",
+        "control engineering",
+        "control management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-automotive-control-systems-control-optimization",
+          "label": "Control optimization",
+          "url": "/domains/automotive/topics/sg-automotive-control-systems-control-optimization",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-automotive-control-systems-vehicle-dynamics-control",
+          "label": "Vehicle dynamics control",
+          "url": "/domains/automotive/topics/sg-automotive-control-systems-vehicle-dynamics-control",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-control-management-ion-battery",
+          "label": "Ion battery",
+          "url": "/domains/automotive/topics/sg-control-management-ion-battery",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1487127700",
+          "title": "Applied Nonlinear Control",
+          "year": "1991",
+          "cited_by_count": 18992,
+          "url": "/domains/automotive/papers/W1487127700"
+        },
+        {
+          "source_id": "https://openalex.org/W1544016679",
+          "title": "Vehicle Dynamics and Control",
+          "year": "2011",
+          "cited_by_count": 4281,
+          "url": "/domains/automotive/papers/W1544016679"
+        },
+        {
+          "source_id": "https://openalex.org/W3041149780",
+          "title": "Engineering Design: A Systematic Approach",
+          "year": "1963",
+          "cited_by_count": 4120,
+          "url": "/domains/automotive/papers/W3041149780"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Fuel cell",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+          "year": "2004",
+          "cited_by_count": 7218,
+          "topic": "Fuel cell",
+          "url": "papers/https-openalex-org-w1989937017.html"
+        },
+        {
+          "title": "Electrocatalyst approaches and challenges for automotive fuel cells",
+          "year": "2012",
+          "cited_by_count": 5712,
+          "topic": "Fuel cell",
+          "url": "papers/https-openalex-org-w2022299938.html"
+        },
+        {
+          "title": "Microbial Fuel Cells:  Methodology and Technology",
+          "year": "2006",
+          "cited_by_count": 5937,
+          "topic": "Fuel cell",
+          "url": "papers/https-openalex-org-w1970377394.html"
+        },
+        {
+          "title": "The role of hydrogen and fuel cells in the global energy system",
+          "year": "2018",
+          "cited_by_count": 3672,
+          "topic": "Fuel cell",
+          "url": "papers/https-openalex-org-w2905218447.html"
+        },
+        {
+          "title": "Activity benchmarks and requirements for Pt, Pt-alloy, and non-Pt oxygen reduction catalysts for PEMFCs",
+          "year": "2004",
+          "cited_by_count": 4783,
+          "topic": "Fuel cell",
+          "url": "papers/https-openalex-org-w2074207002.html"
+        },
+        {
+          "title": "High-Performance Electrocatalysts for Oxygen Reduction Derived from Polyaniline, Iron, and Cobalt",
+          "year": "2011",
+          "cited_by_count": 3935,
+          "topic": "Fuel cell",
+          "url": "papers/https-openalex-org-w2085020302.html"
+        }
+      ]
+    },
+    {
+      "label": "Lithium-ion battery",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Issues and challenges facing rechargeable lithium batteries",
+          "year": "2001",
+          "cited_by_count": 20463,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w1949231392.html"
+        },
+        {
+          "title": "Reviving the lithium metal anode for high-energy batteries",
+          "year": "2017",
+          "cited_by_count": 6474,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2593815020.html"
+        },
+        {
+          "title": "30 Years of Lithium‐Ion Batteries",
+          "year": "2018",
+          "cited_by_count": 5797,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2808025896.html"
+        },
+        {
+          "title": "Nanostructured materials for advanced energy conversion and storage devices",
+          "year": "2005",
+          "cited_by_count": 8731,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2142841029.html"
+        },
+        {
+          "title": "Nanomaterials for Rechargeable Lithium Batteries",
+          "year": "2008",
+          "cited_by_count": 5841,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w2019903682.html"
+        },
+        {
+          "title": "Lithium batteries: Status, prospects and future",
+          "year": "2009",
+          "cited_by_count": 5040,
+          "topic": "Lithium-ion battery",
+          "url": "papers/https-openalex-org-w1985013794.html"
+        }
+      ]
+    },
+    {
+      "label": "Composite material",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Graphene-based composite materials",
+          "year": "2006",
+          "cited_by_count": 12741,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2101977779.html"
+        },
+        {
+          "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+          "year": "2017",
+          "cited_by_count": 7091,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2574394697.html"
+        },
+        {
+          "title": "Nitrogen-Doped Carbon Nanotube Arrays with High Electrocatalytic Activity for Oxygen Reduction",
+          "year": "2009",
+          "cited_by_count": 7125,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2009901571.html"
+        },
+        {
+          "title": "High-performance lithium battery anodes using silicon nanowires",
+          "year": "2007",
+          "cited_by_count": 6577,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2124043346.html"
+        },
+        {
+          "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+          "year": "2003",
+          "cited_by_count": 6700,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2078270919.html"
+        },
+        {
+          "title": "Exceptionally high Young&#x27;s modulus observed for individual carbon nanotubes",
+          "year": "1996",
+          "cited_by_count": 5379,
+          "topic": "Composite material",
+          "url": "papers/https-openalex-org-w2006941567.html"
+        }
+      ]
+    },
+    {
+      "label": "Automotive engineering",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Performance and cost of materials for lithium-based rechargeable automotive batteries",
+          "year": "2018",
+          "cited_by_count": 3085,
+          "topic": "Automotive engineering",
+          "url": "papers/https-openalex-org-w2796568833.html"
+        },
+        {
+          "title": "A review of shape memory alloy research, applications and opportunities",
+          "year": "2013",
+          "cited_by_count": 3911,
+          "topic": "Automotive engineering",
+          "url": "papers/https-openalex-org-w1973565005.html"
+        },
+        {
+          "title": "Analysis of Cylinder Comp Product Quality Control with Proposed Improvements at PT. Jakarta Automotive",
+          "year": "2024",
+          "cited_by_count": 960,
+          "topic": "Automotive engineering",
+          "url": "papers/https-openalex-org-w4400928626.html"
+        },
+        {
+          "title": "A Survey of Motion Planning and Control Techniques for Self-Driving Urban Vehicles",
+          "year": "2016",
+          "cited_by_count": 2461,
+          "topic": "Automotive engineering",
+          "url": "papers/https-openalex-org-w2343568200.html"
+        },
+        {
+          "title": "An Illustrated User Guide to the World Input–Output Database: the Case of Global Automotive Production",
+          "year": "2015",
+          "cited_by_count": 2407,
+          "topic": "Automotive engineering",
+          "url": "papers/https-openalex-org-w2166001406.html"
+        }
+      ]
+    },
+    {
+      "label": "Electric vehicle",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+          "year": "2011",
+          "cited_by_count": 14517,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w2089525884.html"
+        },
+        {
+          "title": "Towards greener and more sustainable batteries for electrical energy storage",
+          "year": "2014",
+          "cited_by_count": 7540,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w2091875228.html"
+        },
+        {
+          "title": "Challenges in the development of advanced Li-ion batteries: a review",
+          "year": "2011",
+          "cited_by_count": 6610,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w1998062017.html"
+        },
+        {
+          "title": "The path towards sustainable energy",
+          "year": "2016",
+          "cited_by_count": 4617,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w2564178799.html"
+        },
+        {
+          "title": "Recycling lithium-ion batteries from electric vehicles",
+          "year": "2019",
+          "cited_by_count": 3424,
+          "topic": "Electric vehicle",
+          "url": "papers/https-openalex-org-w2983762108.html"
+        }
+      ]
+    },
+    {
+      "label": "Additive manufacturing",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "3D printing of high-strength aluminium alloys",
+          "year": "2017",
+          "cited_by_count": 2803,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2758567842.html"
+        },
+        {
+          "title": "Additive Manufacturing Technologies",
+          "year": "2014",
+          "cited_by_count": 3015,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2418453408.html"
+        },
+        {
+          "title": "An Overview on 3D Printing Technology: Technological, Materials, and Applications",
+          "year": "2019",
+          "cited_by_count": 1924,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2967464127.html"
+        }
+      ]
+    },
+    {
+      "label": "Automotive control systems",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Applied Nonlinear Control",
+          "year": "1991",
+          "cited_by_count": 18992,
+          "topic": "Automotive control systems",
+          "url": "papers/https-openalex-org-w1487127700.html"
+        },
+        {
+          "title": "Vehicle Dynamics and Control",
+          "year": "2011",
+          "cited_by_count": 4281,
+          "topic": "Automotive control systems",
+          "url": "papers/https-openalex-org-w1544016679.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon nanotube in composite",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Emerging applications of stimuli-responsive polymer materials",
+          "year": "2010",
+          "cited_by_count": 5597,
+          "topic": "Carbon nanotube in composite",
+          "url": "papers/https-openalex-org-w2141947008.html"
+        }
+      ]
+    },
+    {
+      "label": "Hydrogen fuel",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Li–O2 and Li–S batteries with high energy storage",
+          "year": "2011",
+          "cited_by_count": 9287,
+          "topic": "Hydrogen fuel",
+          "url": "papers/https-openalex-org-w2151207643.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+          "year": "2011",
+          "cited_by_count": 5427,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2146278879.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W1949231392",
+      "title": "Issues and challenges facing rechargeable lithium batteries",
+      "year": 2001,
+      "cited_by_count": 20463,
+      "adjusted_cited_by_count": 4092.6,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W1949231392"
+    },
+    {
+      "source_id": "https://openalex.org/W2089525884",
+      "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+      "year": 2011,
+      "cited_by_count": 14517,
+      "adjusted_cited_by_count": 3748.27,
+      "primary_topic_id": "sg-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/automotive/papers/W2089525884"
+    },
+    {
+      "source_id": "https://openalex.org/W1487127700",
+      "title": "Applied Nonlinear Control",
+      "year": 1991,
+      "cited_by_count": 18992,
+      "adjusted_cited_by_count": 3210.23,
+      "primary_topic_id": "sg-control-management",
+      "primary_topic_label": "Automotive control systems",
+      "url": "/domains/automotive/papers/W1487127700"
+    },
+    {
+      "source_id": "https://openalex.org/W2101977779",
+      "title": "Graphene-based composite materials",
+      "year": 2006,
+      "cited_by_count": 12741,
+      "adjusted_cited_by_count": 2848.97,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/automotive/papers/W2101977779"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9287,
+      "adjusted_cited_by_count": 2397.89,
+      "primary_topic_id": "sg-fuel-cell-hydrogen-fuel",
+      "primary_topic_label": "Hydrogen fuel",
+      "url": "/domains/automotive/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2574394697",
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "year": 2017,
+      "cited_by_count": 7091,
+      "adjusted_cited_by_count": 2363.67,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/automotive/papers/W2574394697"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7540,
+      "adjusted_cited_by_count": 2176.61,
+      "primary_topic_id": "sg-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/automotive/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2593815020",
+      "title": "Reviving the lithium metal anode for high-energy batteries",
+      "year": 2017,
+      "cited_by_count": 6474,
+      "adjusted_cited_by_count": 2158.0,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W2593815020"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5797,
+      "adjusted_cited_by_count": 2049.55,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2142841029",
+      "title": "Nanostructured materials for advanced energy conversion and storage devices",
+      "year": 2005,
+      "cited_by_count": 8731,
+      "adjusted_cited_by_count": 1905.26,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W2142841029"
+    },
+    {
+      "source_id": "https://openalex.org/W2009901571",
+      "title": "Nitrogen-Doped Carbon Nanotube Arrays with High Electrocatalytic Activity for Oxygen Reduction",
+      "year": 2009,
+      "cited_by_count": 7125,
+      "adjusted_cited_by_count": 1728.07,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/automotive/papers/W2009901571"
+    },
+    {
+      "source_id": "https://openalex.org/W1998062017",
+      "title": "Challenges in the development of advanced Li-ion batteries: a review",
+      "year": 2011,
+      "cited_by_count": 6610,
+      "adjusted_cited_by_count": 1706.69,
+      "primary_topic_id": "sg-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/automotive/papers/W1998062017"
+    },
+    {
+      "source_id": "https://openalex.org/W1989937017",
+      "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+      "year": 2004,
+      "cited_by_count": 7218,
+      "adjusted_cited_by_count": 1538.88,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W1989937017"
+    },
+    {
+      "source_id": "https://openalex.org/W2022299938",
+      "title": "Electrocatalyst approaches and challenges for automotive fuel cells",
+      "year": 2012,
+      "cited_by_count": 5712,
+      "adjusted_cited_by_count": 1526.6,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W2022299938"
+    },
+    {
+      "source_id": "https://openalex.org/W2124043346",
+      "title": "High-performance lithium battery anodes using silicon nanowires",
+      "year": 2007,
+      "cited_by_count": 6577,
+      "adjusted_cited_by_count": 1508.87,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/automotive/papers/W2124043346"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4617,
+      "adjusted_cited_by_count": 1460.02,
+      "primary_topic_id": "sg-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/automotive/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2146278879",
+      "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+      "year": 2011,
+      "cited_by_count": 5427,
+      "adjusted_cited_by_count": 1401.25,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/automotive/papers/W2146278879"
+    },
+    {
+      "source_id": "https://openalex.org/W2141947008",
+      "title": "Emerging applications of stimuli-responsive polymer materials",
+      "year": 2010,
+      "cited_by_count": 5597,
+      "adjusted_cited_by_count": 1399.25,
+      "primary_topic_id": "sg-composite-material-carbon-nanotube-in-composite",
+      "primary_topic_label": "Carbon nanotube in composite",
+      "url": "/domains/automotive/papers/W2141947008"
+    },
+    {
+      "source_id": "https://openalex.org/W2078270919",
+      "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+      "year": 2003,
+      "cited_by_count": 6700,
+      "adjusted_cited_by_count": 1397.05,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/automotive/papers/W2078270919"
+    },
+    {
+      "source_id": "https://openalex.org/W2019903682",
+      "title": "Nanomaterials for Rechargeable Lithium Batteries",
+      "year": 2008,
+      "cited_by_count": 5841,
+      "adjusted_cited_by_count": 1376.74,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W2019903682"
+    },
+    {
+      "source_id": "https://openalex.org/W1970377394",
+      "title": "Microbial Fuel Cells:  Methodology and Technology",
+      "year": 2006,
+      "cited_by_count": 5937,
+      "adjusted_cited_by_count": 1327.55,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W1970377394"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3672,
+      "adjusted_cited_by_count": 1298.25,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2983762108",
+      "title": "Recycling lithium-ion batteries from electric vehicles",
+      "year": 2019,
+      "cited_by_count": 3424,
+      "adjusted_cited_by_count": 1294.15,
+      "primary_topic_id": "sg-electric-vehicle",
+      "primary_topic_label": "Electric vehicle",
+      "url": "/domains/automotive/papers/W2983762108"
+    },
+    {
+      "source_id": "https://openalex.org/W1985013794",
+      "title": "Lithium batteries: Status, prospects and future",
+      "year": 2009,
+      "cited_by_count": 5040,
+      "adjusted_cited_by_count": 1222.38,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W1985013794"
+    },
+    {
+      "source_id": "https://openalex.org/W1544016679",
+      "title": "Vehicle Dynamics and Control",
+      "year": 2011,
+      "cited_by_count": 4281,
+      "adjusted_cited_by_count": 1105.35,
+      "primary_topic_id": "sg-control-management",
+      "primary_topic_label": "Automotive control systems",
+      "url": "/domains/automotive/papers/W1544016679"
+    },
+    {
+      "source_id": "https://openalex.org/W2796568833",
+      "title": "Performance and cost of materials for lithium-based rechargeable automotive batteries",
+      "year": 2018,
+      "cited_by_count": 3085,
+      "adjusted_cited_by_count": 1090.71,
+      "primary_topic_id": "sg-automotive-engineering",
+      "primary_topic_label": "Automotive engineering",
+      "url": "/domains/automotive/papers/W2796568833"
+    },
+    {
+      "source_id": "https://openalex.org/W1973565005",
+      "title": "A review of shape memory alloy research, applications and opportunities",
+      "year": 2013,
+      "cited_by_count": 3911,
+      "adjusted_cited_by_count": 1084.72,
+      "primary_topic_id": "sg-automotive-engineering",
+      "primary_topic_label": "Automotive engineering",
+      "url": "/domains/automotive/papers/W1973565005"
+    },
+    {
+      "source_id": "https://openalex.org/W3013252775",
+      "title": "A reflection on lithium-ion battery cathode chemistry",
+      "year": 2020,
+      "cited_by_count": 2599,
+      "adjusted_cited_by_count": 1061.04,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W3013252775"
+    },
+    {
+      "source_id": "https://openalex.org/W2074207002",
+      "title": "Activity benchmarks and requirements for Pt, Pt-alloy, and non-Pt oxygen reduction catalysts for PEMFCs",
+      "year": 2004,
+      "cited_by_count": 4783,
+      "adjusted_cited_by_count": 1019.74,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W2074207002"
+    },
+    {
+      "source_id": "https://openalex.org/W2085020302",
+      "title": "High-Performance Electrocatalysts for Oxygen Reduction Derived from Polyaniline, Iron, and Cobalt",
+      "year": 2011,
+      "cited_by_count": 3935,
+      "adjusted_cited_by_count": 1016.01,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W2085020302"
+    },
+    {
+      "source_id": "https://openalex.org/W2924382816",
+      "title": "Data-driven prediction of battery cycle life before capacity degradation",
+      "year": 2019,
+      "cited_by_count": 2680,
+      "adjusted_cited_by_count": 1012.94,
+      "primary_topic_id": "sg-lithium-ion-battery",
+      "primary_topic_label": "Lithium-ion battery",
+      "url": "/domains/automotive/papers/W2924382816"
+    },
+    {
+      "source_id": "https://openalex.org/W2152103620",
+      "title": "Improved Oxygen Reduction Activity on Pt <sub>3</sub> Ni(111) via Increased Surface Site Availability",
+      "year": 2007,
+      "cited_by_count": 4313,
+      "adjusted_cited_by_count": 989.47,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W2152103620"
+    },
+    {
+      "source_id": "https://openalex.org/W2798241172",
+      "title": "Batteries and fuel cells for emerging electric vehicle markets",
+      "year": 2018,
+      "cited_by_count": 2785,
+      "adjusted_cited_by_count": 984.65,
+      "primary_topic_id": "sg-fuel-cell",
+      "primary_topic_label": "Fuel cell",
+      "url": "/domains/automotive/papers/W2798241172"
+    },
+    {
+      "source_id": "https://openalex.org/W2006941567",
+      "title": "Exceptionally high Young's modulus observed for individual carbon nanotubes",
+      "year": 1996,
+      "cited_by_count": 5379,
+      "adjusted_cited_by_count": 982.07,
+      "primary_topic_id": "sg-composite-material",
+      "primary_topic_label": "Composite material",
+      "url": "/domains/automotive/papers/W2006941567"
+    },
+    {
+      "source_id": "https://openalex.org/W4400928626",
+      "title": "Analysis of Cylinder Comp Product Quality Control with Proposed Improvements at PT. Jakarta Automotive",
+      "year": 2024,
+      "cited_by_count": 960,
+      "adjusted_cited_by_count": 960.0,
+      "primary_topic_id": "sg-automotive-engineering",
+      "primary_topic_label": "Automotive engineering",
+      "url": "/domains/automotive/papers/W4400928626"
+    },
+    {
+      "source_id": "https://openalex.org/W2758567842",
+      "title": "3D printing of high-strength aluminium alloys",
+      "year": 2017,
+      "cited_by_count": 2803,
+      "adjusted_cited_by_count": 934.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/automotive/papers/W2758567842"
+    },
+    {
+      "source_id": "https://openalex.org/W2418453408",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2014,
+      "cited_by_count": 3015,
+      "adjusted_cited_by_count": 870.36,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/automotive/papers/W2418453408"
+    },
+    {
+      "source_id": "https://openalex.org/W2343568200",
+      "title": "A Survey of Motion Planning and Control Techniques for Self-Driving Urban Vehicles",
+      "year": 2016,
+      "cited_by_count": 2461,
+      "adjusted_cited_by_count": 778.24,
+      "primary_topic_id": "sg-automotive-engineering",
+      "primary_topic_label": "Automotive engineering",
+      "url": "/domains/automotive/papers/W2343568200"
+    },
+    {
+      "source_id": "https://openalex.org/W2967464127",
+      "title": "An Overview on 3D Printing Technology: Technological, Materials, and Applications",
+      "year": 2019,
+      "cited_by_count": 1924,
+      "adjusted_cited_by_count": 727.2,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/automotive/papers/W2967464127"
+    },
+    {
+      "source_id": "https://openalex.org/W2166001406",
+      "title": "An Illustrated User Guide to the World Input–Output Database: the Case of Global Automotive Production",
+      "year": 2015,
+      "cited_by_count": 2407,
+      "adjusted_cited_by_count": 725.74,
+      "primary_topic_id": "sg-automotive-engineering",
+      "primary_topic_label": "Automotive engineering",
+      "url": "/domains/automotive/papers/W2166001406"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W1949231392",
+      "title": "Issues and challenges facing rechargeable lithium batteries",
+      "year": 2001,
+      "cited_by_count": 20463,
+      "adjusted_cited_by_count": 4092.6,
+      "url": "/domains/automotive/papers/W1949231392"
+    },
+    {
+      "source_id": "https://openalex.org/W2089525884",
+      "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+      "year": 2011,
+      "cited_by_count": 14517,
+      "adjusted_cited_by_count": 3748.27,
+      "url": "/domains/automotive/papers/W2089525884"
+    },
+    {
+      "source_id": "https://openalex.org/W1487127700",
+      "title": "Applied Nonlinear Control",
+      "year": 1991,
+      "cited_by_count": 18992,
+      "adjusted_cited_by_count": 3210.23,
+      "url": "/domains/automotive/papers/W1487127700"
+    },
+    {
+      "source_id": "https://openalex.org/W2101977779",
+      "title": "Graphene-based composite materials",
+      "year": 2006,
+      "cited_by_count": 12741,
+      "adjusted_cited_by_count": 2848.97,
+      "url": "/domains/automotive/papers/W2101977779"
+    },
+    {
+      "source_id": "https://openalex.org/W2151207643",
+      "title": "Li–O2 and Li–S batteries with high energy storage",
+      "year": 2011,
+      "cited_by_count": 9287,
+      "adjusted_cited_by_count": 2397.89,
+      "url": "/domains/automotive/papers/W2151207643"
+    },
+    {
+      "source_id": "https://openalex.org/W2574394697",
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "year": 2017,
+      "cited_by_count": 7091,
+      "adjusted_cited_by_count": 2363.67,
+      "url": "/domains/automotive/papers/W2574394697"
+    },
+    {
+      "source_id": "https://openalex.org/W2091875228",
+      "title": "Towards greener and more sustainable batteries for electrical energy storage",
+      "year": 2014,
+      "cited_by_count": 7540,
+      "adjusted_cited_by_count": 2176.61,
+      "url": "/domains/automotive/papers/W2091875228"
+    },
+    {
+      "source_id": "https://openalex.org/W2593815020",
+      "title": "Reviving the lithium metal anode for high-energy batteries",
+      "year": 2017,
+      "cited_by_count": 6474,
+      "adjusted_cited_by_count": 2158.0,
+      "url": "/domains/automotive/papers/W2593815020"
+    },
+    {
+      "source_id": "https://openalex.org/W2808025896",
+      "title": "30 Years of Lithium‐Ion Batteries",
+      "year": 2018,
+      "cited_by_count": 5797,
+      "adjusted_cited_by_count": 2049.55,
+      "url": "/domains/automotive/papers/W2808025896"
+    },
+    {
+      "source_id": "https://openalex.org/W2142841029",
+      "title": "Nanostructured materials for advanced energy conversion and storage devices",
+      "year": 2005,
+      "cited_by_count": 8731,
+      "adjusted_cited_by_count": 1905.26,
+      "url": "/domains/automotive/papers/W2142841029"
+    },
+    {
+      "source_id": "https://openalex.org/W2009901571",
+      "title": "Nitrogen-Doped Carbon Nanotube Arrays with High Electrocatalytic Activity for Oxygen Reduction",
+      "year": 2009,
+      "cited_by_count": 7125,
+      "adjusted_cited_by_count": 1728.07,
+      "url": "/domains/automotive/papers/W2009901571"
+    },
+    {
+      "source_id": "https://openalex.org/W1998062017",
+      "title": "Challenges in the development of advanced Li-ion batteries: a review",
+      "year": 2011,
+      "cited_by_count": 6610,
+      "adjusted_cited_by_count": 1706.69,
+      "url": "/domains/automotive/papers/W1998062017"
+    },
+    {
+      "source_id": "https://openalex.org/W1989937017",
+      "title": "What Are Batteries, Fuel Cells, and Supercapacitors?",
+      "year": 2004,
+      "cited_by_count": 7218,
+      "adjusted_cited_by_count": 1538.88,
+      "url": "/domains/automotive/papers/W1989937017"
+    },
+    {
+      "source_id": "https://openalex.org/W2022299938",
+      "title": "Electrocatalyst approaches and challenges for automotive fuel cells",
+      "year": 2012,
+      "cited_by_count": 5712,
+      "adjusted_cited_by_count": 1526.6,
+      "url": "/domains/automotive/papers/W2022299938"
+    },
+    {
+      "source_id": "https://openalex.org/W2124043346",
+      "title": "High-performance lithium battery anodes using silicon nanowires",
+      "year": 2007,
+      "cited_by_count": 6577,
+      "adjusted_cited_by_count": 1508.87,
+      "url": "/domains/automotive/papers/W2124043346"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4617,
+      "adjusted_cited_by_count": 1460.02,
+      "url": "/domains/automotive/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2146278879",
+      "title": "Co3O4 nanocrystals on graphene as a synergistic catalyst for oxygen reduction reaction",
+      "year": 2011,
+      "cited_by_count": 5427,
+      "adjusted_cited_by_count": 1401.25,
+      "url": "/domains/automotive/papers/W2146278879"
+    },
+    {
+      "source_id": "https://openalex.org/W2141947008",
+      "title": "Emerging applications of stimuli-responsive polymer materials",
+      "year": 2010,
+      "cited_by_count": 5597,
+      "adjusted_cited_by_count": 1399.25,
+      "url": "/domains/automotive/papers/W2141947008"
+    },
+    {
+      "source_id": "https://openalex.org/W2078270919",
+      "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+      "year": 2003,
+      "cited_by_count": 6700,
+      "adjusted_cited_by_count": 1397.05,
+      "url": "/domains/automotive/papers/W2078270919"
+    },
+    {
+      "source_id": "https://openalex.org/W2019903682",
+      "title": "Nanomaterials for Rechargeable Lithium Batteries",
+      "year": 2008,
+      "cited_by_count": 5841,
+      "adjusted_cited_by_count": 1376.74,
+      "url": "/domains/automotive/papers/W2019903682"
+    },
+    {
+      "source_id": "https://openalex.org/W1970377394",
+      "title": "Microbial Fuel Cells:  Methodology and Technology",
+      "year": 2006,
+      "cited_by_count": 5937,
+      "adjusted_cited_by_count": 1327.55,
+      "url": "/domains/automotive/papers/W1970377394"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3672,
+      "adjusted_cited_by_count": 1298.25,
+      "url": "/domains/automotive/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2983762108",
+      "title": "Recycling lithium-ion batteries from electric vehicles",
+      "year": 2019,
+      "cited_by_count": 3424,
+      "adjusted_cited_by_count": 1294.15,
+      "url": "/domains/automotive/papers/W2983762108"
+    },
+    {
+      "source_id": "https://openalex.org/W1985013794",
+      "title": "Lithium batteries: Status, prospects and future",
+      "year": 2009,
+      "cited_by_count": 5040,
+      "adjusted_cited_by_count": 1222.38,
+      "url": "/domains/automotive/papers/W1985013794"
+    },
+    {
+      "source_id": "https://openalex.org/W1544016679",
+      "title": "Vehicle Dynamics and Control",
+      "year": 2011,
+      "cited_by_count": 4281,
+      "adjusted_cited_by_count": 1105.35,
+      "url": "/domains/automotive/papers/W1544016679"
+    },
+    {
+      "source_id": "https://openalex.org/W2796568833",
+      "title": "Performance and cost of materials for lithium-based rechargeable automotive batteries",
+      "year": 2018,
+      "cited_by_count": 3085,
+      "adjusted_cited_by_count": 1090.71,
+      "url": "/domains/automotive/papers/W2796568833"
+    },
+    {
+      "source_id": "https://openalex.org/W1973565005",
+      "title": "A review of shape memory alloy research, applications and opportunities",
+      "year": 2013,
+      "cited_by_count": 3911,
+      "adjusted_cited_by_count": 1084.72,
+      "url": "/domains/automotive/papers/W1973565005"
+    },
+    {
+      "source_id": "https://openalex.org/W3013252775",
+      "title": "A reflection on lithium-ion battery cathode chemistry",
+      "year": 2020,
+      "cited_by_count": 2599,
+      "adjusted_cited_by_count": 1061.04,
+      "url": "/domains/automotive/papers/W3013252775"
+    },
+    {
+      "source_id": "https://openalex.org/W2074207002",
+      "title": "Activity benchmarks and requirements for Pt, Pt-alloy, and non-Pt oxygen reduction catalysts for PEMFCs",
+      "year": 2004,
+      "cited_by_count": 4783,
+      "adjusted_cited_by_count": 1019.74,
+      "url": "/domains/automotive/papers/W2074207002"
+    },
+    {
+      "source_id": "https://openalex.org/W2085020302",
+      "title": "High-Performance Electrocatalysts for Oxygen Reduction Derived from Polyaniline, Iron, and Cobalt",
+      "year": 2011,
+      "cited_by_count": 3935,
+      "adjusted_cited_by_count": 1016.01,
+      "url": "/domains/automotive/papers/W2085020302"
+    },
+    {
+      "source_id": "https://openalex.org/W2924382816",
+      "title": "Data-driven prediction of battery cycle life before capacity degradation",
+      "year": 2019,
+      "cited_by_count": 2680,
+      "adjusted_cited_by_count": 1012.94,
+      "url": "/domains/automotive/papers/W2924382816"
+    },
+    {
+      "source_id": "https://openalex.org/W2152103620",
+      "title": "Improved Oxygen Reduction Activity on Pt <sub>3</sub> Ni(111) via Increased Surface Site Availability",
+      "year": 2007,
+      "cited_by_count": 4313,
+      "adjusted_cited_by_count": 989.47,
+      "url": "/domains/automotive/papers/W2152103620"
+    },
+    {
+      "source_id": "https://openalex.org/W2798241172",
+      "title": "Batteries and fuel cells for emerging electric vehicle markets",
+      "year": 2018,
+      "cited_by_count": 2785,
+      "adjusted_cited_by_count": 984.65,
+      "url": "/domains/automotive/papers/W2798241172"
+    },
+    {
+      "source_id": "https://openalex.org/W2006941567",
+      "title": "Exceptionally high Young's modulus observed for individual carbon nanotubes",
+      "year": 1996,
+      "cited_by_count": 5379,
+      "adjusted_cited_by_count": 982.07,
+      "url": "/domains/automotive/papers/W2006941567"
+    },
+    {
+      "source_id": "https://openalex.org/W4400928626",
+      "title": "Analysis of Cylinder Comp Product Quality Control with Proposed Improvements at PT. Jakarta Automotive",
+      "year": 2024,
+      "cited_by_count": 960,
+      "adjusted_cited_by_count": 960.0,
+      "url": "/domains/automotive/papers/W4400928626"
+    },
+    {
+      "source_id": "https://openalex.org/W2758567842",
+      "title": "3D printing of high-strength aluminium alloys",
+      "year": 2017,
+      "cited_by_count": 2803,
+      "adjusted_cited_by_count": 934.33,
+      "url": "/domains/automotive/papers/W2758567842"
+    },
+    {
+      "source_id": "https://openalex.org/W2418453408",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2014,
+      "cited_by_count": 3015,
+      "adjusted_cited_by_count": 870.36,
+      "url": "/domains/automotive/papers/W2418453408"
+    },
+    {
+      "source_id": "https://openalex.org/W2343568200",
+      "title": "A Survey of Motion Planning and Control Techniques for Self-Driving Urban Vehicles",
+      "year": 2016,
+      "cited_by_count": 2461,
+      "adjusted_cited_by_count": 778.24,
+      "url": "/domains/automotive/papers/W2343568200"
+    },
+    {
+      "source_id": "https://openalex.org/W2967464127",
+      "title": "An Overview on 3D Printing Technology: Technological, Materials, and Applications",
+      "year": 2019,
+      "cited_by_count": 1924,
+      "adjusted_cited_by_count": 727.2,
+      "url": "/domains/automotive/papers/W2967464127"
+    },
+    {
+      "source_id": "https://openalex.org/W2166001406",
+      "title": "An Illustrated User Guide to the World Input–Output Database: the Case of Global Automotive Production",
+      "year": 2015,
+      "cited_by_count": 2407,
+      "adjusted_cited_by_count": 725.74,
+      "url": "/domains/automotive/papers/W2166001406"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "ion battery",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 210
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 157
+    },
+    {
+      "label": "automotive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "automotive industry",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "composite material",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 73
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "power",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "electrical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "battery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "automotive engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "mechanical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "chemical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "vehicle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "fuel cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "cells",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "development of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "electrode",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "organic chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "aerospace engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "lithium-ion battery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "electric vehicle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "metallurgy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 40
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 40
+    },
+    {
+      "label": "manufacturing engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 39
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 39
+    },
+    {
+      "label": "catalysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 38
+    },
+    {
+      "label": "process engineering",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 38
+    },
+    {
+      "label": "production",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 37
+    },
+    {
+      "label": "additive manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 33
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 32
+    },
+    {
+      "label": "metal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 32
+    },
+    {
+      "label": "control management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 31
+    },
+    {
+      "label": "electrochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 31
+    },
+    {
+      "label": "marketing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 31
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 31
+    },
+    {
+      "label": "polymer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 35
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 30
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 30
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 30
+    },
+    {
+      "label": "waste management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 30
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 33
+    },
+    {
+      "label": "energy storage",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 29
+    },
+    {
+      "label": "industrial organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 29
+    },
+    {
+      "label": "supply chain",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 28
+    }
+  ],
+  "topic_year_counts": {
+    "composite material": {
+      "2025": 250104,
+      "2023": 248942,
+      "2024": 240203,
+      "2022": 176843,
+      "2021": 152603,
+      "2020": 133607,
+      "2019": 114034,
+      "2018": 99455,
+      "2017": 86948,
+      "2016": 76945,
+      "2026": 73965,
+      "2015": 70555,
+      "2014": 63728,
+      "2013": 56661,
+      "2012": 49135,
+      "2011": 42749,
+      "2010": 35384,
+      "2009": 29894,
+      "2008": 26686,
+      "2007": 23562,
+      "2006": 21165,
+      "2005": 18126,
+      "2004": 15636,
+      "2003": 14060,
+      "2002": 12811,
+      "2001": 10817,
+      "2000": 10613
+    },
+    "lithium-ion battery": {
+      "2025": 41954,
+      "2024": 38082,
+      "2023": 35343,
+      "2022": 24201,
+      "2021": 20498,
+      "2020": 19265,
+      "2019": 16669,
+      "2018": 13948,
+      "2017": 12366,
+      "2016": 11666,
+      "2026": 11440,
+      "2015": 9689,
+      "2014": 8932,
+      "2013": 6758,
+      "2012": 5163,
+      "2011": 3858,
+      "2010": 2965,
+      "2009": 2138,
+      "2008": 1666,
+      "2007": 1598,
+      "2006": 1396,
+      "2005": 1117,
+      "2004": 912,
+      "2003": 829,
+      "2002": 816,
+      "2001": 583,
+      "2000": 543
+    },
+    "fuel cell": {
+      "2023": 100466,
+      "2024": 95920,
+      "2025": 90504,
+      "2022": 68591,
+      "2021": 63348,
+      "2020": 58757,
+      "2019": 50614,
+      "2018": 46060,
+      "2017": 42636,
+      "2016": 38997,
+      "2015": 36414,
+      "2014": 33008,
+      "2013": 30286,
+      "2012": 26861,
+      "2011": 24549,
+      "2026": 24052,
+      "2010": 21605,
+      "2009": 18840,
+      "2008": 15801,
+      "2007": 13860,
+      "2006": 12757,
+      "2005": 10259,
+      "2004": 9005,
+      "2003": 7120,
+      "2002": 5579,
+      "2000": 4543,
+      "2001": 4486
+    },
+    "additive manufacturing": {
+      "2025": 71651,
+      "2024": 69352,
+      "2023": 69098,
+      "2022": 46346,
+      "2021": 40005,
+      "2020": 33892,
+      "2019": 27748,
+      "2018": 22851,
+      "2026": 19828,
+      "2017": 18152,
+      "2016": 14956,
+      "2015": 12410,
+      "2014": 10016,
+      "2013": 8460,
+      "2012": 6920,
+      "2011": 5776,
+      "2010": 4697,
+      "2009": 3905,
+      "2008": 3294,
+      "2007": 2924,
+      "2006": 2371,
+      "2005": 2301,
+      "2004": 1830,
+      "2002": 1635,
+      "2003": 1550,
+      "2000": 1242,
+      "2001": 1116
+    },
+    "electric vehicle": {
+      "2025": 78687,
+      "2024": 75488,
+      "2023": 72343,
+      "2022": 49309,
+      "2021": 43775,
+      "2020": 39377,
+      "2019": 33011,
+      "2018": 27735,
+      "2017": 23276,
+      "2016": 20871,
+      "2026": 20147,
+      "2015": 19113,
+      "2014": 17506,
+      "2013": 15397,
+      "2012": 13608,
+      "2011": 11000,
+      "2010": 8948,
+      "2009": 6847,
+      "2008": 5520,
+      "2007": 4616,
+      "2006": 4355,
+      "2005": 3696,
+      "2004": 2987,
+      "2002": 2885,
+      "2003": 2847,
+      "2000": 2114,
+      "2001": 1984
+    },
+    "automotive control systems": {
+      "2025": 39227,
+      "2023": 38997,
+      "2024": 38395,
+      "2022": 25393,
+      "2021": 22708,
+      "2020": 21496,
+      "2019": 17807,
+      "2018": 15922,
+      "2017": 13309,
+      "2016": 11560,
+      "2015": 10298,
+      "2026": 10120,
+      "2014": 9278,
+      "2013": 8259,
+      "2012": 7051,
+      "2011": 6329,
+      "2010": 5371,
+      "2009": 4424,
+      "2008": 3864,
+      "2007": 3347,
+      "2006": 2848,
+      "2005": 2495,
+      "2004": 2170,
+      "2003": 1788,
+      "2002": 1670,
+      "2001": 1318,
+      "2000": 1249
+    },
+    "automotive engineering": {
+      "2025": 37436,
+      "2023": 37191,
+      "2024": 36989,
+      "2022": 24129,
+      "2021": 21621,
+      "2020": 20653,
+      "2019": 16691,
+      "2018": 14902,
+      "2017": 12190,
+      "2016": 10536,
+      "2015": 9521,
+      "2026": 9325,
+      "2014": 8177,
+      "2013": 7238,
+      "2012": 6043,
+      "2011": 5258,
+      "2010": 4322,
+      "2009": 3536,
+      "2008": 3139,
+      "2007": 2623,
+      "2006": 2123,
+      "2005": 1801,
+      "2004": 1595,
+      "2003": 1416,
+      "2002": 1116,
+      "2001": 997,
+      "2000": 909
+    }
+  }
+}

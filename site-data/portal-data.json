@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-06T14:10:31.692483Z",
-  "total_domains": 33,
+  "updated_at": "2026-04-15T15:33:39.102841Z",
+  "total_domains": 39,
   "categories": [
     {
       "label": "Life",
@@ -50,7 +50,7 @@
       "label": "Earth",
       "slug": "earth",
       "description": "Includes climate, land, atmosphere, and planetary change.",
-      "count": 6,
+      "count": 8,
       "domains": [
         {
           "slug": "climate-change",
@@ -73,8 +73,16 @@
           "title": "Oceanography"
         },
         {
+          "slug": "paleontology",
+          "title": "Paleontology"
+        },
+        {
           "slug": "renewable-energy",
           "title": "Renewable Energy"
+        },
+        {
+          "slug": "soil",
+          "title": "Soil"
         }
       ]
     },
@@ -82,8 +90,12 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 9,
+      "count": 12,
       "domains": [
+        {
+          "slug": "aerospace-engineering",
+          "title": "Aerospace Engineering"
+        },
         {
           "slug": "artificial-intelligence",
           "title": "Artificial Intelligence"
@@ -91,6 +103,10 @@
         {
           "slug": "astrophysics",
           "title": "Astrophysics"
+        },
+        {
+          "slug": "automotive",
+          "title": "Automotive"
         },
         {
           "slug": "battery",
@@ -119,6 +135,10 @@
         {
           "slug": "robotics",
           "title": "Robotics"
+        },
+        {
+          "slug": "statistics",
+          "title": "Statistics"
         }
       ]
     },
@@ -168,6 +188,31 @@
     }
   ],
   "domains": [
+    {
+      "slug": "aerospace-engineering",
+      "title": "Aerospace Engineering",
+      "sources": 282,
+      "effective_papers": 292,
+      "subgenres": 65,
+      "parent_subgenres": 9,
+      "child_subgenres": 56,
+      "entities": 711,
+      "claims": 2,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 282,
+        "total_papers": 282,
+        "facet_counts": {
+          "none": 282
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning aerospace engineering.",
+      "updated_at": "2026-04-15T15:37:41.797806Z"
+    },
     {
       "slug": "agriculture",
       "title": "Agriculture",
@@ -312,6 +357,31 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning astrophysics and star formation studies, astrophysics and cosmic phenomena.",
       "updated_at": "2026-04-10T12:05:23.134725Z"
+    },
+    {
+      "slug": "automotive",
+      "title": "Automotive",
+      "sources": 304,
+      "effective_papers": 297,
+      "subgenres": 55,
+      "parent_subgenres": 7,
+      "child_subgenres": 48,
+      "entities": 741,
+      "claims": 3,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 304,
+        "total_papers": 304,
+        "facet_counts": {
+          "none": 304
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning automotive industry, automotive engineering.",
+      "updated_at": "2026-04-15T15:41:46.913078Z"
     },
     {
       "slug": "battery",
@@ -1097,6 +1167,58 @@
       "updated_at": "2026-04-07T12:07:40.928874Z"
     },
     {
+      "slug": "optics",
+      "title": "Optics",
+      "sources": 210,
+      "effective_papers": 0,
+      "subgenres": 0,
+      "parent_subgenres": 0,
+      "child_subgenres": 0,
+      "entities": 575,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 210,
+        "total_papers": 210,
+        "facet_counts": {
+          "none": 210
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning quantum optics, physical optics, nonlinear optics.",
+      "updated_at": "2026-04-15T15:22:43.357579Z"
+    },
+    {
+      "slug": "paleontology",
+      "title": "Paleontology",
+      "sources": 204,
+      "effective_papers": 174,
+      "subgenres": 41,
+      "parent_subgenres": 7,
+      "child_subgenres": 34,
+      "entities": 381,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 204,
+        "total_papers": 204,
+        "facet_counts": {
+          "none": 199,
+          "overview": 5
+        },
+        "gemini_validation_enabled": true,
+        "gemini_validation_ready": true,
+        "title_phrase_candidates": 5,
+        "overview_min_papers": 6
+      },
+      "abstraction_label": "A family of related Paleontology technologies, including vertebrate paleontology, evolution and paleontology studies, paleontology and stratigraphy of fossils.",
+      "updated_at": "2026-04-15T15:26:28.145126Z"
+    },
+    {
       "slug": "philosophy",
       "title": "Philosophy",
       "sources": 209,
@@ -1220,6 +1342,68 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning reinforcement learning in robotics, soft robotics, robotics and sensor-based localization.",
       "updated_at": "2026-04-06T14:10:31.692483Z"
+    },
+    {
+      "slug": "soil",
+      "title": "Soil",
+      "sources": 339,
+      "effective_papers": 199,
+      "subgenres": 27,
+      "parent_subgenres": 8,
+      "child_subgenres": 18,
+      "entities": 686,
+      "claims": 2,
+      "overview_source_ids": [
+        "https://openalex.org/W1580906881",
+        "https://openalex.org/W2018459257",
+        "https://openalex.org/W2018841491",
+        "https://openalex.org/W2099196698",
+        "https://openalex.org/W2153509701",
+        "https://openalex.org/W2888459204",
+        "https://openalex.org/W2940827091"
+      ],
+      "overview_partition_summary": {
+        "overview_papers": 7,
+        "topical_papers": 332,
+        "total_papers": 339,
+        "facet_counts": {
+          "benchmark": 1,
+          "none": 332,
+          "outlook": 1,
+          "overview": 5
+        },
+        "gemini_validation_enabled": true,
+        "gemini_validation_ready": true,
+        "title_phrase_candidates": 7,
+        "overview_min_papers": 6
+      },
+      "abstraction_label": "A family of related Soil technologies, including soil water, soil science, soil carbon and nitrogen dynamics.",
+      "updated_at": "2026-04-15T15:30:15.259948Z"
+    },
+    {
+      "slug": "statistics",
+      "title": "Statistics",
+      "sources": 74,
+      "effective_papers": 0,
+      "subgenres": 12,
+      "parent_subgenres": 0,
+      "child_subgenres": 12,
+      "entities": 299,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 74,
+        "total_papers": 74,
+        "facet_counts": {
+          "none": 74
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning nonparametric statistics, multivariate statistics, descriptive statistics.",
+      "updated_at": "2026-04-15T15:33:39.102841Z"
     }
   ]
 }

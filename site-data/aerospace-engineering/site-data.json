@@ -1,0 +1,2326 @@
+{
+  "slug": "aerospace-engineering",
+  "title": "Aerospace Engineering",
+  "updated_at": "2026-04-15T15:37:41.733205Z",
+  "snapshot": {
+    "papers": 292,
+    "topics": 9,
+    "subtopics": 56,
+    "entities": 711,
+    "claims": 2
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 282,
+      "total_papers": 282,
+      "facet_counts": {
+        "none": 282
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning aerospace engineering.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 9,
+    "descendant_topics": 56,
+    "max_depth": 2,
+    "leaf_topics": 56
+  },
+  "rising_topics": [
+    {
+      "id": "sg-systems-engineering",
+      "label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/topics/sg-systems-engineering",
+      "trend": "rising",
+      "year_total": 5920877
+    },
+    {
+      "id": "sg-additive-manufacturing",
+      "label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing",
+      "trend": "rising",
+      "year_total": 504326
+    },
+    {
+      "id": "sg-structural-engineering",
+      "label": "Structural engineering",
+      "url": "/domains/aerospace-engineering/topics/sg-structural-engineering",
+      "trend": "rising",
+      "year_total": 2233025
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-additive-manufacturing",
+      "label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing",
+      "paper_count": 59,
+      "subtopic_count": 12,
+      "trend": "rising",
+      "summary": "entities: manufacturing, additive manufacturing, additive manufacturing and 3d printing technology",
+      "tags": [
+        "additive manufacturing",
+        "additive manufacturing material and processes",
+        "additive manufacturing of metallic",
+        "arc additive manufacturing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-additive-manufacturing-3d-printing",
+          "label": "3d printing",
+          "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing-3d-printing",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-additive-manufacturing-flexural-strength",
+          "label": "Flexural strength",
+          "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing-flexural-strength",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-additive-manufacturing-polymer-additive",
+          "label": "Polymer additive",
+          "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing-polymer-additive",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-additive-manufacturing-metal-additive-manufacturing",
+          "label": "Metal additive manufacturing",
+          "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing-metal-additive-manufacturing",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-additive-manufacturing-renewable-energy",
+          "label": "Renewable energy",
+          "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing-renewable-energy",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-additive-manufacturing-design-additive",
+          "label": "Design additive",
+          "url": "/domains/aerospace-engineering/topics/sg-additive-manufacturing-design-additive",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2793435880",
+          "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+          "year": "2018",
+          "cited_by_count": 7815,
+          "url": "/domains/aerospace-engineering/papers/W2793435880"
+        },
+        {
+          "source_id": "https://openalex.org/W2762367303",
+          "title": "Additive manufacturing of metallic components – Process, structure and properties",
+          "year": "2017",
+          "cited_by_count": 7912,
+          "url": "/domains/aerospace-engineering/papers/W2762367303"
+        },
+        {
+          "source_id": "https://openalex.org/W2098459033",
+          "title": "Metal Additive Manufacturing: A Review",
+          "year": "2014",
+          "cited_by_count": 5681,
+          "url": "/domains/aerospace-engineering/papers/W2098459033"
+        }
+      ]
+    },
+    {
+      "id": "sg-systems-engineering",
+      "label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/topics/sg-systems-engineering",
+      "paper_count": 59,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: systems engineering, of the, of a",
+      "tags": [
+        "aerospace design",
+        "aerospace design optimization",
+        "construction engineering",
+        "engineering management"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-systems-engineering-multidisciplinary-systems-engineering",
+          "label": "Multidisciplinary systems engineering",
+          "url": "/domains/aerospace-engineering/topics/sg-systems-engineering-multidisciplinary-systems-engineering",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-systems-engineering-data-mining",
+          "label": "Data mining",
+          "url": "/domains/aerospace-engineering/topics/sg-systems-engineering-data-mining",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-systems-engineering-health-care",
+          "label": "Health care",
+          "url": "/domains/aerospace-engineering/topics/sg-systems-engineering-health-care",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-systems-engineering-aerospace-systems-engineering",
+          "label": "Aerospace systems engineering",
+          "url": "/domains/aerospace-engineering/topics/sg-systems-engineering-aerospace-systems-engineering",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-systems-engineering-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/aerospace-engineering/topics/sg-systems-engineering-field-mathematics",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-systems-engineering-big-data",
+          "label": "Big data",
+          "url": "/domains/aerospace-engineering/topics/sg-systems-engineering-big-data",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1570448133",
+          "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+          "year": "2011",
+          "cited_by_count": 25709,
+          "url": "/domains/aerospace-engineering/papers/W1570448133"
+        },
+        {
+          "source_id": "https://openalex.org/W2165698076",
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22768,
+          "url": "/domains/aerospace-engineering/papers/W2165698076"
+        },
+        {
+          "source_id": "https://openalex.org/W1554944419",
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2013",
+          "cited_by_count": 19403,
+          "url": "/domains/aerospace-engineering/papers/W1554944419"
+        }
+      ]
+    },
+    {
+      "id": "sg-structural-engineering",
+      "label": "Structural engineering",
+      "url": "/domains/aerospace-engineering/topics/sg-structural-engineering",
+      "paper_count": 38,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: structural engineering, structural, composite material",
+      "tags": [
+        "finite element method",
+        "mechanical behavior of composite",
+        "numerical methods in engineering",
+        "structural engineering"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-structural-engineering-finite-element",
+          "label": "Finite element",
+          "url": "/domains/aerospace-engineering/topics/sg-structural-engineering-finite-element",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-structural-engineering-structural-health-monitoring-techniques",
+          "label": "Structural health monitoring techniques",
+          "url": "/domains/aerospace-engineering/topics/sg-structural-engineering-structural-health-monitoring-techniques",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-structural-engineering-structural-health-monitoring-methods",
+          "label": "Structural health monitoring methods",
+          "url": "/domains/aerospace-engineering/topics/sg-structural-engineering-structural-health-monitoring-methods",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-structural-engineering-mechanical-behavior-of-composite",
+          "label": "Mechanical behavior of composite",
+          "url": "/domains/aerospace-engineering/topics/sg-structural-engineering-mechanical-behavior-of-composite",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-structural-engineering-structural-integrity",
+          "label": "Structural integrity",
+          "url": "/domains/aerospace-engineering/topics/sg-structural-engineering-structural-integrity",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-structural-engineering-vibration-control",
+          "label": "Vibration control",
+          "url": "/domains/aerospace-engineering/topics/sg-structural-engineering-vibration-control",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2230487954",
+          "title": "Topological design and additive manufacturing of porous metals for bone scaffolds and orthopaedic implants: A review",
+          "year": "2016",
+          "cited_by_count": 2061,
+          "url": "/domains/aerospace-engineering/papers/W2230487954"
+        },
+        {
+          "source_id": "https://openalex.org/W2027456229",
+          "title": "An introduction to structural health monitoring",
+          "year": "2006",
+          "cited_by_count": 2441,
+          "url": "/domains/aerospace-engineering/papers/W2027456229"
+        },
+        {
+          "source_id": "https://openalex.org/W4390650730",
+          "title": "Deep learning models for digital image processing: a review",
+          "year": "2024",
+          "cited_by_count": 478,
+          "url": "/domains/aerospace-engineering/papers/W4390650730"
+        }
+      ]
+    },
+    {
+      "id": "sg-polymer-composite",
+      "label": "Polymer composite",
+      "url": "/domains/aerospace-engineering/topics/sg-polymer-composite",
+      "paper_count": 35,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: composite material, polymer, composite number",
+      "tags": [
+        "fiber-reinforced composite",
+        "natural fiber",
+        "polymer composite",
+        "polymer composite and self-healing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-polymer-composite-fiber-reinforced-polymer-composite",
+          "label": "Fiber-reinforced polymer composite",
+          "url": "/domains/aerospace-engineering/topics/sg-polymer-composite-fiber-reinforced-polymer-composite",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-polymer-composite-carbon-nanotube",
+          "label": "Carbon nanotube",
+          "url": "/domains/aerospace-engineering/topics/sg-polymer-composite-carbon-nanotube",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-polymer-composite-natural-fiber-reinforced-composite",
+          "label": "Natural fiber reinforced composite",
+          "url": "/domains/aerospace-engineering/topics/sg-polymer-composite-natural-fiber-reinforced-composite",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-polymer-composite-matrix-composite",
+          "label": "Matrix composite",
+          "url": "/domains/aerospace-engineering/topics/sg-polymer-composite-matrix-composite",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-polymer-composite-polymer-composite-self-healing",
+          "label": "Polymer composite self-healing",
+          "url": "/domains/aerospace-engineering/topics/sg-polymer-composite-polymer-composite-self-healing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-polymer-composite-environmentally-friendly",
+          "label": "Environmentally friendly",
+          "url": "/domains/aerospace-engineering/topics/sg-polymer-composite-environmentally-friendly",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2101977779",
+          "title": "Graphene-based composite materials",
+          "year": "2006",
+          "cited_by_count": 12741,
+          "url": "/domains/aerospace-engineering/papers/W2101977779"
+        },
+        {
+          "source_id": "https://openalex.org/W2055823675",
+          "title": "Advances in the science and technology of carbon nanotubes and their composites: a review",
+          "year": "2001",
+          "cited_by_count": 4933,
+          "url": "/domains/aerospace-engineering/papers/W2055823675"
+        },
+        {
+          "source_id": "https://openalex.org/W1458577565",
+          "title": "A review of recent developments in natural fibre composites and their mechanical performance",
+          "year": "2015",
+          "cited_by_count": 3196,
+          "url": "/domains/aerospace-engineering/papers/W1458577565"
+        }
+      ]
+    },
+    {
+      "id": "sg-reliability-engineering",
+      "label": "Reliability engineering",
+      "url": "/domains/aerospace-engineering/topics/sg-reliability-engineering",
+      "paper_count": 27,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: aerospace engineering, aerospace, of a",
+      "tags": [
+        "aerospace engineering",
+        "engineering safer",
+        "engineering safer world",
+        "fault detection and control systems"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-reliability-engineering-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/aerospace-engineering/topics/sg-reliability-engineering-field-mathematics",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-reliability-engineering-industrial-engineering",
+          "label": "Industrial engineering",
+          "url": "/domains/aerospace-engineering/topics/sg-reliability-engineering-industrial-engineering",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W642120166",
+          "title": "Engineering a safer world: systems thinking applied to safety",
+          "year": "2012",
+          "cited_by_count": 1589,
+          "url": "/domains/aerospace-engineering/papers/W642120166"
+        },
+        {
+          "source_id": "https://openalex.org/W1974961323",
+          "title": "Aerodynamic design via control theory",
+          "year": "1988",
+          "cited_by_count": 1887,
+          "url": "/domains/aerospace-engineering/papers/W1974961323"
+        },
+        {
+          "source_id": "https://openalex.org/W3207642814",
+          "title": "Prognostics and Health Management (PHM): Where are we and where do we (need to) go in theory and practice",
+          "year": "2021",
+          "cited_by_count": 626,
+          "url": "/domains/aerospace-engineering/papers/W3207642814"
+        }
+      ]
+    },
+    {
+      "id": "sg-control-engineering",
+      "label": "Control engineering",
+      "url": "/domains/aerospace-engineering/topics/sg-control-engineering",
+      "paper_count": 23,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: control, control engineering, control theory",
+      "tags": [
+        "adaptive control of nonlinear systems",
+        "aerospace engineering and control systems",
+        "attitude control",
+        "control engineering"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-control-engineering-modern-control",
+          "label": "Modern control",
+          "url": "/domains/aerospace-engineering/topics/sg-control-engineering-modern-control",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-control-engineering-mathematical-optimization",
+          "label": "Mathematical optimization",
+          "url": "/domains/aerospace-engineering/topics/sg-control-engineering-mathematical-optimization",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-control-engineering-adaptive-control-of-nonlinear-systems",
+          "label": "Adaptive control of nonlinear systems",
+          "url": "/domains/aerospace-engineering/topics/sg-control-engineering-adaptive-control-of-nonlinear-systems",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-control-engineering-aerospace-engineering",
+          "label": "Aerospace engineering",
+          "url": "/domains/aerospace-engineering/topics/sg-control-engineering-aerospace-engineering",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-control-engineering-attitude-control",
+          "label": "Attitude control",
+          "url": "/domains/aerospace-engineering/topics/sg-control-engineering-attitude-control",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-control-engineering-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/aerospace-engineering/topics/sg-control-engineering-field-mathematics",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3210839039",
+          "title": "Linear Matrix Inequalities in System and Control Theory",
+          "year": "1994",
+          "cited_by_count": 21450,
+          "url": "/domains/aerospace-engineering/papers/W3210839039"
+        },
+        {
+          "source_id": "https://openalex.org/W2536620281",
+          "title": "YALMIP : a toolbox for modeling and optimization in MATLAB",
+          "year": "2005",
+          "cited_by_count": 9192,
+          "url": "/domains/aerospace-engineering/papers/W2536620281"
+        },
+        {
+          "source_id": "https://openalex.org/W2119717200",
+          "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+          "year": "1992",
+          "cited_by_count": 7429,
+          "url": "/domains/aerospace-engineering/papers/W2119717200"
+        }
+      ]
+    },
+    {
+      "id": "sg-titanium-alloy",
+      "label": "Titanium alloy",
+      "url": "/domains/aerospace-engineering/topics/sg-titanium-alloy",
+      "paper_count": 20,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: metallurgy, alloys, composite material",
+      "tags": [
+        "aerospace material",
+        "alloys aerospace engineering",
+        "titanium alloy",
+        "titanium alloys microstructure and property"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-titanium-alloy-titanium-alloys-microstructure-and-property",
+          "label": "Titanium alloys microstructure and property",
+          "url": "/domains/aerospace-engineering/topics/sg-titanium-alloy-titanium-alloys-microstructure-and-property",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-titanium-alloy-titanium-aluminide",
+          "label": "Titanium aluminide",
+          "url": "/domains/aerospace-engineering/topics/sg-titanium-alloy-titanium-aluminide",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-titanium-alloy-tool-wear",
+          "label": "Tool wear",
+          "url": "/domains/aerospace-engineering/topics/sg-titanium-alloy-tool-wear",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-titanium-alloy-high-strength-titanium-alloys",
+          "label": "High-strength titanium alloys",
+          "url": "/domains/aerospace-engineering/topics/sg-titanium-alloy-high-strength-titanium-alloys",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-titanium-alloy-specific-strength",
+          "label": "Specific strength",
+          "url": "/domains/aerospace-engineering/topics/sg-titanium-alloy-specific-strength",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2085554530",
+          "title": "Tribology: friction and wear of engineering materials",
+          "year": "1992",
+          "cited_by_count": 3113,
+          "url": "/domains/aerospace-engineering/papers/W2085554530"
+        },
+        {
+          "source_id": "https://openalex.org/W2003747466",
+          "title": "Precipitation and Hardening in Magnesium Alloys",
+          "year": "2012",
+          "cited_by_count": 1631,
+          "url": "/domains/aerospace-engineering/papers/W2003747466"
+        },
+        {
+          "source_id": "https://openalex.org/W2053094271",
+          "title": "An overview on the use of titanium in the aerospace industry",
+          "year": "1996",
+          "cited_by_count": 2355,
+          "url": "/domains/aerospace-engineering/papers/W2053094271"
+        }
+      ]
+    },
+    {
+      "id": "sg-mechanical-property",
+      "label": "Mechanical property",
+      "url": "/domains/aerospace-engineering/topics/sg-mechanical-property",
+      "paper_count": 16,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: composite material, mechanical, property",
+      "tags": [
+        "mechanical property",
+        "mechanical property fracture",
+        "microstructure mechanical property",
+        "physical mechanical property"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-mechanical-property-composite-number",
+          "label": "Composite number",
+          "url": "/domains/aerospace-engineering/topics/sg-mechanical-property-composite-number",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-mechanical-property-fused-deposition-modeling-mechanical-properties",
+          "label": "Fused deposition modeling (mechanical properties)",
+          "url": "/domains/aerospace-engineering/topics/sg-mechanical-property-fused-deposition-modeling-mechanical-properties",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-mechanical-property-3d-printing",
+          "label": "3d printing",
+          "url": "/domains/aerospace-engineering/topics/sg-mechanical-property-3d-printing",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2141947008",
+          "title": "Emerging applications of stimuli-responsive polymer materials",
+          "year": "2010",
+          "cited_by_count": 5597,
+          "url": "/domains/aerospace-engineering/papers/W2141947008"
+        },
+        {
+          "source_id": "https://openalex.org/W2078270919",
+          "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+          "year": "2003",
+          "cited_by_count": 6700,
+          "url": "/domains/aerospace-engineering/papers/W2078270919"
+        },
+        {
+          "source_id": "https://openalex.org/W2472329501",
+          "title": "Physical and mechanical properties of PLA, and their functions in widespread applications — A comprehensive review",
+          "year": "2016",
+          "cited_by_count": 3125,
+          "url": "/domains/aerospace-engineering/papers/W2472329501"
+        }
+      ]
+    },
+    {
+      "id": "sg-laser-melting",
+      "label": "Laser melting",
+      "url": "/domains/aerospace-engineering/topics/sg-laser-melting",
+      "paper_count": 15,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: additive manufacturing material and processes, laser melting, microstructure",
+      "tags": [
+        "additive manufacturing material and processes",
+        "fusion additive manufacturing",
+        "laser melting",
+        "selective laser"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-laser-melting-selective-laser-melting",
+          "label": "Selective laser melting",
+          "url": "/domains/aerospace-engineering/topics/sg-laser-melting-selective-laser-melting",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-laser-melting-by-selective-laser",
+          "label": "By selective laser",
+          "url": "/domains/aerospace-engineering/topics/sg-laser-melting-by-selective-laser",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-laser-melting-formation-mechanisms",
+          "label": "Formation mechanisms",
+          "url": "/domains/aerospace-engineering/topics/sg-laser-melting-formation-mechanisms",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2553221934",
+          "title": "3D printing of polymer matrix composites: A review and prospective",
+          "year": "2016",
+          "cited_by_count": 3202,
+          "url": "/domains/aerospace-engineering/papers/W2553221934"
+        },
+        {
+          "source_id": "https://openalex.org/W2279780730",
+          "title": "Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones",
+          "year": "2016",
+          "cited_by_count": 2594,
+          "url": "/domains/aerospace-engineering/papers/W2279780730"
+        },
+        {
+          "source_id": "https://openalex.org/W2014734472",
+          "title": "A study of the microstructural evolution during selective laser melting of Ti–6Al–4V",
+          "year": "2010",
+          "cited_by_count": 2842,
+          "url": "/domains/aerospace-engineering/papers/W2014734472"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Additive manufacturing",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+          "year": "2018",
+          "cited_by_count": 7815,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2793435880.html"
+        },
+        {
+          "title": "Additive manufacturing of metallic components – Process, structure and properties",
+          "year": "2017",
+          "cited_by_count": 7912,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2762367303.html"
+        },
+        {
+          "title": "Metal Additive Manufacturing: A Review",
+          "year": "2014",
+          "cited_by_count": 5681,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2098459033.html"
+        },
+        {
+          "title": "The path towards sustainable energy",
+          "year": "2016",
+          "cited_by_count": 4617,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2564178799.html"
+        },
+        {
+          "title": "Additive manufacturing of metals",
+          "year": "2016",
+          "cited_by_count": 4457,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2503161491.html"
+        },
+        {
+          "title": "3D printing of polymer matrix composites: A review and prospective",
+          "year": "2016",
+          "cited_by_count": 3202,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2553221934.html"
+        }
+      ]
+    },
+    {
+      "label": "Systems engineering",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+          "year": "2011",
+          "cited_by_count": 25709,
+          "topic": "Systems engineering",
+          "url": "papers/https-openalex-org-w1570448133.html"
+        },
+        {
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22768,
+          "topic": "Systems engineering",
+          "url": "papers/https-openalex-org-w2165698076.html"
+        },
+        {
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2013",
+          "cited_by_count": 19403,
+          "topic": "Systems engineering",
+          "url": "papers/https-openalex-org-w1554944419.html"
+        },
+        {
+          "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+          "year": "2019",
+          "cited_by_count": 8460,
+          "topic": "Systems engineering",
+          "url": "papers/https-openalex-org-w2981731882.html"
+        },
+        {
+          "title": "Applications of machine learning to machine fault diagnosis: A review and roadmap",
+          "year": "2020",
+          "cited_by_count": 2593,
+          "topic": "Systems engineering",
+          "url": "papers/https-openalex-org-w2998506103.html"
+        },
+        {
+          "title": "Machine Learning for Fluid Mechanics",
+          "year": "2019",
+          "cited_by_count": 2483,
+          "topic": "Systems engineering",
+          "url": "papers/https-openalex-org-w2973119841.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Understanding digital transformation: A review and a research agenda",
+          "year": "2019",
+          "cited_by_count": 5803,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912800036.html"
+        },
+        {
+          "title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+          "year": "2018",
+          "cited_by_count": 2796,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2904649625.html"
+        },
+        {
+          "title": "The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes",
+          "year": "2019",
+          "cited_by_count": 2360,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2940549837.html"
+        },
+        {
+          "title": "Digital Transformation Strategies",
+          "year": "2015",
+          "cited_by_count": 2712,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2136904762.html"
+        }
+      ]
+    },
+    {
+      "label": "3d printing",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Emerging applications of stimuli-responsive polymer materials",
+          "year": "2010",
+          "cited_by_count": 5597,
+          "topic": "3d printing",
+          "url": "papers/https-openalex-org-w2141947008.html"
+        },
+        {
+          "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+          "year": "2003",
+          "cited_by_count": 6700,
+          "topic": "3d printing",
+          "url": "papers/https-openalex-org-w2078270919.html"
+        }
+      ]
+    },
+    {
+      "label": "Control engineering",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "YALMIP : a toolbox for modeling and optimization in MATLAB",
+          "year": "2005",
+          "cited_by_count": 9192,
+          "topic": "Control engineering",
+          "url": "papers/https-openalex-org-w2536620281.html"
+        },
+        {
+          "title": "Modern Control Engineering",
+          "year": "1971",
+          "cited_by_count": 6331,
+          "topic": "Control engineering",
+          "url": "papers/https-openalex-org-w2076420009.html"
+        }
+      ]
+    },
+    {
+      "label": "Design additive",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Simulation Modeling and Analysis.",
+          "year": "1983",
+          "cited_by_count": 8919,
+          "topic": "Design additive",
+          "url": "papers/https-openalex-org-w2140481308.html"
+        },
+        {
+          "title": "Microwave Engineering",
+          "year": "1990",
+          "cited_by_count": 8040,
+          "topic": "Design additive",
+          "url": "papers/https-openalex-org-w2798875205.html"
+        }
+      ]
+    },
+    {
+      "label": "Mechanical property",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Physical and mechanical properties of PLA, and their functions in widespread applications — A comprehensive review",
+          "year": "2016",
+          "cited_by_count": 3125,
+          "topic": "Mechanical property",
+          "url": "papers/https-openalex-org-w2472329501.html"
+        },
+        {
+          "title": "Exceptionally high Young&#x27;s modulus observed for individual carbon nanotubes",
+          "year": "1996",
+          "cited_by_count": 5379,
+          "topic": "Mechanical property",
+          "url": "papers/https-openalex-org-w2006941567.html"
+        }
+      ]
+    },
+    {
+      "label": "Polymer composite",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "A review of recent developments in natural fibre composites and their mechanical performance",
+          "year": "2015",
+          "cited_by_count": 3196,
+          "topic": "Polymer composite",
+          "url": "papers/https-openalex-org-w1458577565.html"
+        },
+        {
+          "title": "Composites reinforced with cellulose based fibres",
+          "year": "1999",
+          "cited_by_count": 4503,
+          "topic": "Polymer composite",
+          "url": "papers/https-openalex-org-w2044892884.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon nanotube",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Graphene-based composite materials",
+          "year": "2006",
+          "cited_by_count": 12741,
+          "topic": "Carbon nanotube",
+          "url": "papers/https-openalex-org-w2101977779.html"
+        }
+      ]
+    },
+    {
+      "label": "Composite number",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Advances in the science and technology of carbon nanotubes and their composites: a review",
+          "year": "2001",
+          "cited_by_count": 4933,
+          "topic": "Composite number",
+          "url": "papers/https-openalex-org-w2055823675.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22768,
+      "adjusted_cited_by_count": 5522.05,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19403,
+      "adjusted_cited_by_count": 5381.42,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W3210839039",
+      "title": "Linear Matrix Inequalities in System and Control Theory",
+      "year": 1994,
+      "cited_by_count": 21450,
+      "adjusted_cited_by_count": 3791.86,
+      "primary_topic_id": "sg-control-engineering-modern-control",
+      "primary_topic_label": "Modern control",
+      "url": "/domains/aerospace-engineering/papers/W3210839039"
+    },
+    {
+      "source_id": "https://openalex.org/W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "cited_by_count": 8460,
+      "adjusted_cited_by_count": 3197.58,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W2981731882"
+    },
+    {
+      "source_id": "https://openalex.org/W2101977779",
+      "title": "Graphene-based composite materials",
+      "year": 2006,
+      "cited_by_count": 12741,
+      "adjusted_cited_by_count": 2848.97,
+      "primary_topic_id": "sg-polymer-composite-carbon-nanotube",
+      "primary_topic_label": "Carbon nanotube",
+      "url": "/domains/aerospace-engineering/papers/W2101977779"
+    },
+    {
+      "source_id": "https://openalex.org/W2793435880",
+      "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+      "year": 2018,
+      "cited_by_count": 7815,
+      "adjusted_cited_by_count": 2763.02,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2793435880"
+    },
+    {
+      "source_id": "https://openalex.org/W2762367303",
+      "title": "Additive manufacturing of metallic components – Process, structure and properties",
+      "year": 2017,
+      "cited_by_count": 7912,
+      "adjusted_cited_by_count": 2637.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2762367303"
+    },
+    {
+      "source_id": "https://openalex.org/W2912800036",
+      "title": "Understanding digital transformation: A review and a research agenda",
+      "year": 2019,
+      "cited_by_count": 5803,
+      "adjusted_cited_by_count": 2193.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/aerospace-engineering/papers/W2912800036"
+    },
+    {
+      "source_id": "https://openalex.org/W2536620281",
+      "title": "YALMIP : a toolbox for modeling and optimization in MATLAB",
+      "year": 2005,
+      "cited_by_count": 9192,
+      "adjusted_cited_by_count": 2005.86,
+      "primary_topic_id": "sg-control-engineering",
+      "primary_topic_label": "Control engineering",
+      "url": "/domains/aerospace-engineering/papers/W2536620281"
+    },
+    {
+      "source_id": "https://openalex.org/W2098459033",
+      "title": "Metal Additive Manufacturing: A Review",
+      "year": 2014,
+      "cited_by_count": 5681,
+      "adjusted_cited_by_count": 1639.96,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2098459033"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4617,
+      "adjusted_cited_by_count": 1460.02,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2503161491",
+      "title": "Additive manufacturing of metals",
+      "year": 2016,
+      "cited_by_count": 4457,
+      "adjusted_cited_by_count": 1409.43,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2503161491"
+    },
+    {
+      "source_id": "https://openalex.org/W2141947008",
+      "title": "Emerging applications of stimuli-responsive polymer materials",
+      "year": 2010,
+      "cited_by_count": 5597,
+      "adjusted_cited_by_count": 1399.25,
+      "primary_topic_id": "sg-mechanical-property-3d-printing",
+      "primary_topic_label": "3d printing",
+      "url": "/domains/aerospace-engineering/papers/W2141947008"
+    },
+    {
+      "source_id": "https://openalex.org/W2078270919",
+      "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+      "year": 2003,
+      "cited_by_count": 6700,
+      "adjusted_cited_by_count": 1397.05,
+      "primary_topic_id": "sg-mechanical-property-3d-printing",
+      "primary_topic_label": "3d printing",
+      "url": "/domains/aerospace-engineering/papers/W2078270919"
+    },
+    {
+      "source_id": "https://openalex.org/W2140481308",
+      "title": "Simulation Modeling and Analysis.",
+      "year": 1983,
+      "cited_by_count": 8919,
+      "adjusted_cited_by_count": 1360.13,
+      "primary_topic_id": "sg-additive-manufacturing-design-additive",
+      "primary_topic_label": "Design additive",
+      "url": "/domains/aerospace-engineering/papers/W2140481308"
+    },
+    {
+      "source_id": "https://openalex.org/W2798875205",
+      "title": "Microwave Engineering",
+      "year": 1990,
+      "cited_by_count": 8040,
+      "adjusted_cited_by_count": 1340.0,
+      "primary_topic_id": "sg-additive-manufacturing-design-additive",
+      "primary_topic_label": "Design additive",
+      "url": "/domains/aerospace-engineering/papers/W2798875205"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7154,
+      "adjusted_cited_by_count": 1328.46,
+      "primary_topic_id": "sg-additive-manufacturing-polymer-additive",
+      "primary_topic_label": "Polymer additive",
+      "url": "/domains/aerospace-engineering/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W2119717200",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "year": 1992,
+      "cited_by_count": 7429,
+      "adjusted_cited_by_count": 1274.06,
+      "primary_topic_id": "sg-control-engineering-mathematical-optimization",
+      "primary_topic_label": "Mathematical optimization",
+      "url": "/domains/aerospace-engineering/papers/W2119717200"
+    },
+    {
+      "source_id": "https://openalex.org/W2998506103",
+      "title": "Applications of machine learning to machine fault diagnosis: A review and roadmap",
+      "year": 2020,
+      "cited_by_count": 2593,
+      "adjusted_cited_by_count": 1058.59,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W2998506103"
+    },
+    {
+      "source_id": "https://openalex.org/W2553221934",
+      "title": "3D printing of polymer matrix composites: A review and prospective",
+      "year": 2016,
+      "cited_by_count": 3202,
+      "adjusted_cited_by_count": 1012.56,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2553221934"
+    },
+    {
+      "source_id": "https://openalex.org/W2904649625",
+      "title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+      "year": 2018,
+      "cited_by_count": 2796,
+      "adjusted_cited_by_count": 988.54,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/aerospace-engineering/papers/W2904649625"
+    },
+    {
+      "source_id": "https://openalex.org/W2472329501",
+      "title": "Physical and mechanical properties of PLA, and their functions in widespread applications — A comprehensive review",
+      "year": 2016,
+      "cited_by_count": 3125,
+      "adjusted_cited_by_count": 988.21,
+      "primary_topic_id": "sg-mechanical-property",
+      "primary_topic_label": "Mechanical property",
+      "url": "/domains/aerospace-engineering/papers/W2472329501"
+    },
+    {
+      "source_id": "https://openalex.org/W2055823675",
+      "title": "Advances in the science and technology of carbon nanotubes and their composites: a review",
+      "year": 2001,
+      "cited_by_count": 4933,
+      "adjusted_cited_by_count": 986.6,
+      "primary_topic_id": "sg-mechanical-property-composite-number",
+      "primary_topic_label": "Composite number",
+      "url": "/domains/aerospace-engineering/papers/W2055823675"
+    },
+    {
+      "source_id": "https://openalex.org/W2006941567",
+      "title": "Exceptionally high Young's modulus observed for individual carbon nanotubes",
+      "year": 1996,
+      "cited_by_count": 5379,
+      "adjusted_cited_by_count": 982.07,
+      "primary_topic_id": "sg-mechanical-property",
+      "primary_topic_label": "Mechanical property",
+      "url": "/domains/aerospace-engineering/papers/W2006941567"
+    },
+    {
+      "source_id": "https://openalex.org/W1458577565",
+      "title": "A review of recent developments in natural fibre composites and their mechanical performance",
+      "year": 2015,
+      "cited_by_count": 3196,
+      "adjusted_cited_by_count": 963.63,
+      "primary_topic_id": "sg-polymer-composite",
+      "primary_topic_label": "Polymer composite",
+      "url": "/domains/aerospace-engineering/papers/W1458577565"
+    },
+    {
+      "source_id": "https://openalex.org/W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "year": 2019,
+      "cited_by_count": 2483,
+      "adjusted_cited_by_count": 938.49,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W2973119841"
+    },
+    {
+      "source_id": "https://openalex.org/W2982936646",
+      "title": "Digital Twin: Enabling Technologies, Challenges and Open Research",
+      "year": 2020,
+      "cited_by_count": 2297,
+      "adjusted_cited_by_count": 937.75,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W2982936646"
+    },
+    {
+      "source_id": "https://openalex.org/W2758567842",
+      "title": "3D printing of high-strength aluminium alloys",
+      "year": 2017,
+      "cited_by_count": 2803,
+      "adjusted_cited_by_count": 934.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2758567842"
+    },
+    {
+      "source_id": "https://openalex.org/W2940549837",
+      "title": "The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes",
+      "year": 2019,
+      "cited_by_count": 2360,
+      "adjusted_cited_by_count": 892.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/aerospace-engineering/papers/W2940549837"
+    },
+    {
+      "source_id": "https://openalex.org/W2418453408",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2014,
+      "cited_by_count": 3015,
+      "adjusted_cited_by_count": 870.36,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2418453408"
+    },
+    {
+      "source_id": "https://openalex.org/W2044892884",
+      "title": "Composites reinforced with cellulose based fibres",
+      "year": 1999,
+      "cited_by_count": 4503,
+      "adjusted_cited_by_count": 866.6,
+      "primary_topic_id": "sg-polymer-composite",
+      "primary_topic_label": "Polymer composite",
+      "url": "/domains/aerospace-engineering/papers/W2044892884"
+    },
+    {
+      "source_id": "https://openalex.org/W2076420009",
+      "title": "Modern Control Engineering",
+      "year": 1971,
+      "cited_by_count": 6331,
+      "adjusted_cited_by_count": 853.67,
+      "primary_topic_id": "sg-control-engineering",
+      "primary_topic_label": "Control engineering",
+      "url": "/domains/aerospace-engineering/papers/W2076420009"
+    },
+    {
+      "source_id": "https://openalex.org/W2279780730",
+      "title": "Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones",
+      "year": 2016,
+      "cited_by_count": 2594,
+      "adjusted_cited_by_count": 820.29,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2279780730"
+    },
+    {
+      "source_id": "https://openalex.org/W2136904762",
+      "title": "Digital Transformation Strategies",
+      "year": 2015,
+      "cited_by_count": 2712,
+      "adjusted_cited_by_count": 817.7,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/aerospace-engineering/papers/W2136904762"
+    },
+    {
+      "source_id": "https://openalex.org/W3148181069",
+      "title": "Classification Based on Decision Tree Algorithm for Machine Learning",
+      "year": 2021,
+      "cited_by_count": 1765,
+      "adjusted_cited_by_count": 789.33,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W3148181069"
+    },
+    {
+      "source_id": "https://openalex.org/W2080574972",
+      "title": "The status, challenges, and future of additive manufacturing in engineering",
+      "year": 2015,
+      "cited_by_count": 2535,
+      "adjusted_cited_by_count": 764.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2080574972"
+    },
+    {
+      "source_id": "https://openalex.org/W1586219442",
+      "title": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing",
+      "year": 2009,
+      "cited_by_count": 3000,
+      "adjusted_cited_by_count": 727.61,
+      "primary_topic_id": "sg-systems-engineering",
+      "primary_topic_label": "Systems engineering",
+      "url": "/domains/aerospace-engineering/papers/W1586219442"
+    },
+    {
+      "source_id": "https://openalex.org/W2014734472",
+      "title": "A study of the microstructural evolution during selective laser melting of Ti–6Al–4V",
+      "year": 2010,
+      "cited_by_count": 2842,
+      "adjusted_cited_by_count": 710.5,
+      "primary_topic_id": "sg-laser-melting",
+      "primary_topic_label": "Laser melting",
+      "url": "/domains/aerospace-engineering/papers/W2014734472"
+    },
+    {
+      "source_id": "https://openalex.org/W2741574707",
+      "title": "Additive manufacturing: scientific and technological challenges, market uptake and opportunities",
+      "year": 2017,
+      "cited_by_count": 2024,
+      "adjusted_cited_by_count": 674.67,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/aerospace-engineering/papers/W2741574707"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "url": "/domains/aerospace-engineering/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22768,
+      "adjusted_cited_by_count": 5522.05,
+      "url": "/domains/aerospace-engineering/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19403,
+      "adjusted_cited_by_count": 5381.42,
+      "url": "/domains/aerospace-engineering/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W3210839039",
+      "title": "Linear Matrix Inequalities in System and Control Theory",
+      "year": 1994,
+      "cited_by_count": 21450,
+      "adjusted_cited_by_count": 3791.86,
+      "url": "/domains/aerospace-engineering/papers/W3210839039"
+    },
+    {
+      "source_id": "https://openalex.org/W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "cited_by_count": 8460,
+      "adjusted_cited_by_count": 3197.58,
+      "url": "/domains/aerospace-engineering/papers/W2981731882"
+    },
+    {
+      "source_id": "https://openalex.org/W2101977779",
+      "title": "Graphene-based composite materials",
+      "year": 2006,
+      "cited_by_count": 12741,
+      "adjusted_cited_by_count": 2848.97,
+      "url": "/domains/aerospace-engineering/papers/W2101977779"
+    },
+    {
+      "source_id": "https://openalex.org/W2793435880",
+      "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+      "year": 2018,
+      "cited_by_count": 7815,
+      "adjusted_cited_by_count": 2763.02,
+      "url": "/domains/aerospace-engineering/papers/W2793435880"
+    },
+    {
+      "source_id": "https://openalex.org/W2762367303",
+      "title": "Additive manufacturing of metallic components – Process, structure and properties",
+      "year": 2017,
+      "cited_by_count": 7912,
+      "adjusted_cited_by_count": 2637.33,
+      "url": "/domains/aerospace-engineering/papers/W2762367303"
+    },
+    {
+      "source_id": "https://openalex.org/W2912800036",
+      "title": "Understanding digital transformation: A review and a research agenda",
+      "year": 2019,
+      "cited_by_count": 5803,
+      "adjusted_cited_by_count": 2193.33,
+      "url": "/domains/aerospace-engineering/papers/W2912800036"
+    },
+    {
+      "source_id": "https://openalex.org/W2536620281",
+      "title": "YALMIP : a toolbox for modeling and optimization in MATLAB",
+      "year": 2005,
+      "cited_by_count": 9192,
+      "adjusted_cited_by_count": 2005.86,
+      "url": "/domains/aerospace-engineering/papers/W2536620281"
+    },
+    {
+      "source_id": "https://openalex.org/W2098459033",
+      "title": "Metal Additive Manufacturing: A Review",
+      "year": 2014,
+      "cited_by_count": 5681,
+      "adjusted_cited_by_count": 1639.96,
+      "url": "/domains/aerospace-engineering/papers/W2098459033"
+    },
+    {
+      "source_id": "https://openalex.org/W2564178799",
+      "title": "The path towards sustainable energy",
+      "year": 2016,
+      "cited_by_count": 4617,
+      "adjusted_cited_by_count": 1460.02,
+      "url": "/domains/aerospace-engineering/papers/W2564178799"
+    },
+    {
+      "source_id": "https://openalex.org/W2503161491",
+      "title": "Additive manufacturing of metals",
+      "year": 2016,
+      "cited_by_count": 4457,
+      "adjusted_cited_by_count": 1409.43,
+      "url": "/domains/aerospace-engineering/papers/W2503161491"
+    },
+    {
+      "source_id": "https://openalex.org/W2141947008",
+      "title": "Emerging applications of stimuli-responsive polymer materials",
+      "year": 2010,
+      "cited_by_count": 5597,
+      "adjusted_cited_by_count": 1399.25,
+      "url": "/domains/aerospace-engineering/papers/W2141947008"
+    },
+    {
+      "source_id": "https://openalex.org/W2078270919",
+      "title": "Polymer/layered silicate nanocomposites: a review from preparation to processing",
+      "year": 2003,
+      "cited_by_count": 6700,
+      "adjusted_cited_by_count": 1397.05,
+      "url": "/domains/aerospace-engineering/papers/W2078270919"
+    },
+    {
+      "source_id": "https://openalex.org/W2140481308",
+      "title": "Simulation Modeling and Analysis.",
+      "year": 1983,
+      "cited_by_count": 8919,
+      "adjusted_cited_by_count": 1360.13,
+      "url": "/domains/aerospace-engineering/papers/W2140481308"
+    },
+    {
+      "source_id": "https://openalex.org/W2798875205",
+      "title": "Microwave Engineering",
+      "year": 1990,
+      "cited_by_count": 8040,
+      "adjusted_cited_by_count": 1340.0,
+      "url": "/domains/aerospace-engineering/papers/W2798875205"
+    },
+    {
+      "source_id": "https://openalex.org/W2155653793",
+      "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+      "year": 1997,
+      "cited_by_count": 7154,
+      "adjusted_cited_by_count": 1328.46,
+      "url": "/domains/aerospace-engineering/papers/W2155653793"
+    },
+    {
+      "source_id": "https://openalex.org/W2119717200",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "year": 1992,
+      "cited_by_count": 7429,
+      "adjusted_cited_by_count": 1274.06,
+      "url": "/domains/aerospace-engineering/papers/W2119717200"
+    },
+    {
+      "source_id": "https://openalex.org/W2998506103",
+      "title": "Applications of machine learning to machine fault diagnosis: A review and roadmap",
+      "year": 2020,
+      "cited_by_count": 2593,
+      "adjusted_cited_by_count": 1058.59,
+      "url": "/domains/aerospace-engineering/papers/W2998506103"
+    },
+    {
+      "source_id": "https://openalex.org/W2553221934",
+      "title": "3D printing of polymer matrix composites: A review and prospective",
+      "year": 2016,
+      "cited_by_count": 3202,
+      "adjusted_cited_by_count": 1012.56,
+      "url": "/domains/aerospace-engineering/papers/W2553221934"
+    },
+    {
+      "source_id": "https://openalex.org/W2904649625",
+      "title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+      "year": 2018,
+      "cited_by_count": 2796,
+      "adjusted_cited_by_count": 988.54,
+      "url": "/domains/aerospace-engineering/papers/W2904649625"
+    },
+    {
+      "source_id": "https://openalex.org/W2472329501",
+      "title": "Physical and mechanical properties of PLA, and their functions in widespread applications — A comprehensive review",
+      "year": 2016,
+      "cited_by_count": 3125,
+      "adjusted_cited_by_count": 988.21,
+      "url": "/domains/aerospace-engineering/papers/W2472329501"
+    },
+    {
+      "source_id": "https://openalex.org/W2055823675",
+      "title": "Advances in the science and technology of carbon nanotubes and their composites: a review",
+      "year": 2001,
+      "cited_by_count": 4933,
+      "adjusted_cited_by_count": 986.6,
+      "url": "/domains/aerospace-engineering/papers/W2055823675"
+    },
+    {
+      "source_id": "https://openalex.org/W2006941567",
+      "title": "Exceptionally high Young's modulus observed for individual carbon nanotubes",
+      "year": 1996,
+      "cited_by_count": 5379,
+      "adjusted_cited_by_count": 982.07,
+      "url": "/domains/aerospace-engineering/papers/W2006941567"
+    },
+    {
+      "source_id": "https://openalex.org/W1458577565",
+      "title": "A review of recent developments in natural fibre composites and their mechanical performance",
+      "year": 2015,
+      "cited_by_count": 3196,
+      "adjusted_cited_by_count": 963.63,
+      "url": "/domains/aerospace-engineering/papers/W1458577565"
+    },
+    {
+      "source_id": "https://openalex.org/W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "year": 2019,
+      "cited_by_count": 2483,
+      "adjusted_cited_by_count": 938.49,
+      "url": "/domains/aerospace-engineering/papers/W2973119841"
+    },
+    {
+      "source_id": "https://openalex.org/W2982936646",
+      "title": "Digital Twin: Enabling Technologies, Challenges and Open Research",
+      "year": 2020,
+      "cited_by_count": 2297,
+      "adjusted_cited_by_count": 937.75,
+      "url": "/domains/aerospace-engineering/papers/W2982936646"
+    },
+    {
+      "source_id": "https://openalex.org/W2758567842",
+      "title": "3D printing of high-strength aluminium alloys",
+      "year": 2017,
+      "cited_by_count": 2803,
+      "adjusted_cited_by_count": 934.33,
+      "url": "/domains/aerospace-engineering/papers/W2758567842"
+    },
+    {
+      "source_id": "https://openalex.org/W2940549837",
+      "title": "The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes",
+      "year": 2019,
+      "cited_by_count": 2360,
+      "adjusted_cited_by_count": 892.0,
+      "url": "/domains/aerospace-engineering/papers/W2940549837"
+    },
+    {
+      "source_id": "https://openalex.org/W2418453408",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2014,
+      "cited_by_count": 3015,
+      "adjusted_cited_by_count": 870.36,
+      "url": "/domains/aerospace-engineering/papers/W2418453408"
+    },
+    {
+      "source_id": "https://openalex.org/W2044892884",
+      "title": "Composites reinforced with cellulose based fibres",
+      "year": 1999,
+      "cited_by_count": 4503,
+      "adjusted_cited_by_count": 866.6,
+      "url": "/domains/aerospace-engineering/papers/W2044892884"
+    },
+    {
+      "source_id": "https://openalex.org/W2076420009",
+      "title": "Modern Control Engineering",
+      "year": 1971,
+      "cited_by_count": 6331,
+      "adjusted_cited_by_count": 853.67,
+      "url": "/domains/aerospace-engineering/papers/W2076420009"
+    },
+    {
+      "source_id": "https://openalex.org/W2279780730",
+      "title": "Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones",
+      "year": 2016,
+      "cited_by_count": 2594,
+      "adjusted_cited_by_count": 820.29,
+      "url": "/domains/aerospace-engineering/papers/W2279780730"
+    },
+    {
+      "source_id": "https://openalex.org/W2136904762",
+      "title": "Digital Transformation Strategies",
+      "year": 2015,
+      "cited_by_count": 2712,
+      "adjusted_cited_by_count": 817.7,
+      "url": "/domains/aerospace-engineering/papers/W2136904762"
+    },
+    {
+      "source_id": "https://openalex.org/W3148181069",
+      "title": "Classification Based on Decision Tree Algorithm for Machine Learning",
+      "year": 2021,
+      "cited_by_count": 1765,
+      "adjusted_cited_by_count": 789.33,
+      "url": "/domains/aerospace-engineering/papers/W3148181069"
+    },
+    {
+      "source_id": "https://openalex.org/W2080574972",
+      "title": "The status, challenges, and future of additive manufacturing in engineering",
+      "year": 2015,
+      "cited_by_count": 2535,
+      "adjusted_cited_by_count": 764.33,
+      "url": "/domains/aerospace-engineering/papers/W2080574972"
+    },
+    {
+      "source_id": "https://openalex.org/W1586219442",
+      "title": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing",
+      "year": 2009,
+      "cited_by_count": 3000,
+      "adjusted_cited_by_count": 727.61,
+      "url": "/domains/aerospace-engineering/papers/W1586219442"
+    },
+    {
+      "source_id": "https://openalex.org/W2014734472",
+      "title": "A study of the microstructural evolution during selective laser melting of Ti–6Al–4V",
+      "year": 2010,
+      "cited_by_count": 2842,
+      "adjusted_cited_by_count": 710.5,
+      "url": "/domains/aerospace-engineering/papers/W2014734472"
+    },
+    {
+      "source_id": "https://openalex.org/W2741574707",
+      "title": "Additive manufacturing: scientific and technological challenges, market uptake and opportunities",
+      "year": 2017,
+      "cited_by_count": 2024,
+      "adjusted_cited_by_count": 674.67,
+      "url": "/domains/aerospace-engineering/papers/W2741574707"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 171
+    },
+    {
+      "label": "engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 170
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 137
+    },
+    {
+      "label": "composite material",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "mechanical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "aerospace",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "mechanical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 65
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "aerospace engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "additive manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "manufacturing engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "field mathematics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "polymer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "metallurgy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "such",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "provide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "systems engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "composite number",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 36
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 36
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 34
+    },
+    {
+      "label": "alloys",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 33
+    },
+    {
+      "label": "microstructure",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 33
+    },
+    {
+      "label": "techniques",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 33
+    },
+    {
+      "label": "such as",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 32
+    },
+    {
+      "label": "this paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 31
+    },
+    {
+      "label": "structural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 43
+    },
+    {
+      "label": "overview",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 29
+    },
+    {
+      "label": "potential",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 28
+    },
+    {
+      "label": "digital manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 26
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 26
+    },
+    {
+      "label": "industrial engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 25
+    },
+    {
+      "label": "mechanical property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 24
+    },
+    {
+      "label": "structural engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 24
+    },
+    {
+      "label": "property of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 23
+    },
+    {
+      "label": "production",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 24
+    },
+    {
+      "label": "3d printing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 22
+    },
+    {
+      "label": "a review of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 22
+    }
+  ],
+  "topic_year_counts": {
+    "systems engineering": {
+      "2023": 699003,
+      "2025": 683858,
+      "2024": 677020,
+      "2022": 468194,
+      "2021": 418600,
+      "2020": 390313,
+      "2019": 316478,
+      "2018": 279355,
+      "2017": 238441,
+      "2016": 216020,
+      "2015": 198468,
+      "2026": 197869,
+      "2014": 174391,
+      "2013": 156398,
+      "2012": 133934,
+      "2011": 112593,
+      "2010": 94756,
+      "2009": 79688,
+      "2008": 68694,
+      "2007": 60481,
+      "2006": 53693,
+      "2005": 46282,
+      "2004": 39322,
+      "2003": 35021,
+      "2002": 32680,
+      "2000": 25043,
+      "2001": 24282
+    },
+    "additive manufacturing": {
+      "2025": 71651,
+      "2024": 69352,
+      "2023": 69098,
+      "2022": 46346,
+      "2021": 40005,
+      "2020": 33892,
+      "2019": 27748,
+      "2018": 22851,
+      "2026": 19828,
+      "2017": 18152,
+      "2016": 14956,
+      "2015": 12410,
+      "2014": 10016,
+      "2013": 8460,
+      "2012": 6920,
+      "2011": 5776,
+      "2010": 4697,
+      "2009": 3905,
+      "2008": 3294,
+      "2007": 2924,
+      "2006": 2371,
+      "2005": 2301,
+      "2004": 1830,
+      "2002": 1635,
+      "2003": 1550,
+      "2000": 1242,
+      "2001": 1116
+    },
+    "structural engineering": {
+      "2025": 316274,
+      "2023": 268374,
+      "2024": 267447,
+      "2022": 173666,
+      "2021": 154057,
+      "2020": 137967,
+      "2019": 114061,
+      "2026": 106752,
+      "2018": 98775,
+      "2017": 85038,
+      "2016": 75628,
+      "2015": 68088,
+      "2014": 58996,
+      "2013": 52155,
+      "2012": 44078,
+      "2011": 36987,
+      "2010": 30909,
+      "2009": 26042,
+      "2008": 22415,
+      "2007": 19041,
+      "2006": 16583,
+      "2005": 14335,
+      "2004": 11760,
+      "2003": 10086,
+      "2002": 8735,
+      "2000": 7445,
+      "2001": 7331
+    },
+    "polymer composite": {
+      "2023": 101054,
+      "2024": 94156,
+      "2025": 91000,
+      "2022": 70784,
+      "2021": 58880,
+      "2020": 50606,
+      "2019": 44068,
+      "2018": 38529,
+      "2017": 33216,
+      "2016": 28820,
+      "2015": 25922,
+      "2026": 25320,
+      "2014": 23361,
+      "2013": 20675,
+      "2012": 18376,
+      "2011": 15889,
+      "2010": 12695,
+      "2009": 10814,
+      "2008": 9694,
+      "2007": 8444,
+      "2006": 7403,
+      "2005": 6168,
+      "2004": 5501,
+      "2003": 4610,
+      "2002": 4010,
+      "2001": 3438,
+      "2000": 3183
+    },
+    "reliability engineering": {
+      "2025": 235277,
+      "2024": 188293,
+      "2023": 161678,
+      "2022": 100865,
+      "2021": 87632,
+      "2020": 78564,
+      "2026": 70602,
+      "2019": 62935,
+      "2018": 53970,
+      "2017": 44657,
+      "2016": 40481,
+      "2015": 36767,
+      "2014": 31610,
+      "2013": 27367,
+      "2012": 23384,
+      "2011": 18977,
+      "2010": 15996,
+      "2009": 13402,
+      "2008": 11133,
+      "2007": 9596,
+      "2006": 8679,
+      "2005": 7161,
+      "2004": 5904,
+      "2003": 5184,
+      "2002": 4622,
+      "2000": 3804,
+      "2001": 3447
+    },
+    "control engineering": {
+      "2023": 554461,
+      "2025": 534201,
+      "2024": 531258,
+      "2022": 372870,
+      "2021": 333320,
+      "2020": 308644,
+      "2019": 249951,
+      "2018": 219039,
+      "2017": 186751,
+      "2016": 168426,
+      "2026": 157073,
+      "2015": 153297,
+      "2014": 133551,
+      "2013": 119285,
+      "2012": 101404,
+      "2011": 85273,
+      "2010": 71613,
+      "2009": 59264,
+      "2008": 50595,
+      "2007": 44221,
+      "2006": 38862,
+      "2005": 33145,
+      "2004": 28123,
+      "2003": 24450,
+      "2002": 21781,
+      "2000": 18046,
+      "2001": 17102
+    },
+    "titanium alloy": {
+      "2023": 25048,
+      "2024": 23127,
+      "2025": 22032,
+      "2022": 17756,
+      "2021": 15804,
+      "2020": 14574,
+      "2019": 12593,
+      "2018": 11283,
+      "2017": 9638,
+      "2016": 8833,
+      "2015": 7994,
+      "2014": 6748,
+      "2013": 6245,
+      "2026": 5612,
+      "2012": 5393,
+      "2011": 4703,
+      "2010": 4158,
+      "2009": 3372,
+      "2008": 3203,
+      "2007": 2939,
+      "2006": 2551,
+      "2005": 2375,
+      "2004": 2023,
+      "2003": 1790,
+      "2002": 1585,
+      "2001": 1447,
+      "2000": 1305
+    },
+    "mechanical property": {
+      "2023": 352182,
+      "2024": 340530,
+      "2025": 339219,
+      "2022": 238768,
+      "2021": 221380,
+      "2020": 204263,
+      "2019": 178026,
+      "2018": 160395,
+      "2017": 142310,
+      "2016": 129107,
+      "2015": 119980,
+      "2014": 110004,
+      "2013": 100778,
+      "2026": 95704,
+      "2012": 89701,
+      "2011": 79283,
+      "2010": 67498,
+      "2009": 57872,
+      "2008": 52032,
+      "2007": 46199,
+      "2006": 40994,
+      "2005": 36150,
+      "2004": 31231,
+      "2003": 27398,
+      "2002": 24173,
+      "2001": 20504,
+      "2000": 19914
+    },
+    "laser melting": {
+      "2023": 23391,
+      "2024": 21242,
+      "2025": 18743,
+      "2022": 15769,
+      "2021": 14887,
+      "2020": 13572,
+      "2019": 11906,
+      "2018": 10780,
+      "2017": 9008,
+      "2016": 8265,
+      "2015": 7129,
+      "2014": 6197,
+      "2013": 5498,
+      "2026": 4772,
+      "2012": 4749,
+      "2011": 4126,
+      "2010": 3505,
+      "2009": 2924,
+      "2008": 2539,
+      "2007": 2256,
+      "2006": 2044,
+      "2005": 1888,
+      "2004": 1617,
+      "2003": 1314,
+      "2002": 1132,
+      "2001": 943,
+      "2000": 899
+    }
+  }
+}

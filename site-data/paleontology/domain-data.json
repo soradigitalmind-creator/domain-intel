@@ -1,0 +1,2052 @@
+{
+  "slug": "paleontology",
+  "title": "Paleontology",
+  "updated_at": "2026-04-15T15:26:28.083566Z",
+  "snapshot": {
+    "papers": 174,
+    "topics": 7,
+    "subtopics": 34,
+    "entities": 381,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 204,
+      "total_papers": 204,
+      "facet_counts": {
+        "none": 199,
+        "overview": 5
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 5,
+      "overview_min_papers": 6
+    }
+  },
+  "abstraction": {
+    "label": "A family of related Paleontology technologies, including vertebrate paleontology, evolution and paleontology studies, paleontology and stratigraphy of fossils.",
+    "concept_type": "family_system"
+  },
+  "hierarchy": {
+    "root_topics": 7,
+    "descendant_topics": 34,
+    "max_depth": 2,
+    "leaf_topics": 34
+  },
+  "rising_topics": [
+    {
+      "id": "sg-molecular-clock",
+      "label": "Molecular clock",
+      "url": "/domains/paleontology/topics/sg-molecular-clock",
+      "trend": "rising",
+      "year_total": 172568
+    },
+    {
+      "id": "sg-transposable-element",
+      "label": "Transposable element",
+      "url": "/domains/paleontology/topics/sg-transposable-element",
+      "trend": "rising",
+      "year_total": 224112
+    },
+    {
+      "id": "sg-vertebrate-paleontology",
+      "label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/topics/sg-vertebrate-paleontology",
+      "trend": "rising",
+      "year_total": 26616
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-molecular-clock",
+      "label": "Molecular clock",
+      "url": "/domains/paleontology/topics/sg-molecular-clock",
+      "paper_count": 48,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: evolutionary biology, gene, genetics",
+      "tags": [
+        "mitochondrial dna",
+        "molecular clock",
+        "molecular clock dating",
+        "molecular evolution"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-phylogenetic-tree-molecular-phylogenetics",
+          "label": "Molecular phylogenetics",
+          "url": "/domains/paleontology/topics/sg-phylogenetic-tree-molecular-phylogenetics",
+          "paper_count": 31
+        },
+        {
+          "id": "sg-molecular-clock-genomics-and-phylogenetic-studies",
+          "label": "Genomics and phylogenetic studies",
+          "url": "/domains/paleontology/topics/sg-molecular-clock-genomics-and-phylogenetic-studies",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-phylogenetic-tree-adaptive-radiation",
+          "label": "Adaptive radiation",
+          "url": "/domains/paleontology/topics/sg-phylogenetic-tree-adaptive-radiation",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-molecular-clock-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/paleontology/topics/sg-molecular-clock-evolutionary-biology",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-molecular-clock-nuclear-gene",
+          "label": "Nuclear gene",
+          "url": "/domains/paleontology/topics/sg-molecular-clock-nuclear-gene",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-molecular-clock-paleontological-estimate",
+          "label": "Paleontological estimate",
+          "url": "/domains/paleontology/topics/sg-molecular-clock-paleontological-estimate",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2061352595",
+          "title": "Paleontological Evidence to Date the Tree of Life",
+          "year": "2006",
+          "cited_by_count": 918,
+          "url": "/domains/paleontology/papers/W2061352595"
+        },
+        {
+          "source_id": "https://openalex.org/W1977964679",
+          "title": "A mitochondrial genome sequence of a hominin from Sima de los Huesos",
+          "year": "2013",
+          "cited_by_count": 518,
+          "url": "/domains/paleontology/papers/W1977964679"
+        },
+        {
+          "source_id": "https://openalex.org/W2062220010",
+          "title": "The modern molecular clock",
+          "year": "2003",
+          "cited_by_count": 625,
+          "url": "/domains/paleontology/papers/W2062220010"
+        }
+      ]
+    },
+    {
+      "id": "sg-transposable-element",
+      "label": "Transposable element",
+      "url": "/domains/paleontology/topics/sg-transposable-element",
+      "paper_count": 42,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: gene, genetics, genome",
+      "tags": [
+        "chromosomal and genetic variations",
+        "genome evolution",
+        "genome size",
+        "impact of transposable"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-phylogenetic-tree-environmental-change",
+          "label": "Environmental change",
+          "url": "/domains/paleontology/topics/sg-phylogenetic-tree-environmental-change",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-transposable-element-transposable-elements",
+          "label": "Transposable elements",
+          "url": "/domains/paleontology/topics/sg-transposable-element-transposable-elements",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-transposable-element-genome-evolution-by-transposable-elements",
+          "label": "Genome evolution by transposable elements",
+          "url": "/domains/paleontology/topics/sg-transposable-element-genome-evolution-by-transposable-elements",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-phylogenetic-tree-sister-group",
+          "label": "Sister group",
+          "url": "/domains/paleontology/topics/sg-phylogenetic-tree-sister-group",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-phylogenetic-tree-biological-dispersal",
+          "label": "Biological dispersal",
+          "url": "/domains/paleontology/topics/sg-phylogenetic-tree-biological-dispersal",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-transposable-element-genome-sequence",
+          "label": "Genome sequence",
+          "url": "/domains/paleontology/topics/sg-transposable-element-genome-sequence",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2075436975",
+          "title": "The Arabidopsis lyrata genome sequence and the basis of rapid genome size change",
+          "year": "2011",
+          "cited_by_count": 926,
+          "url": "/domains/paleontology/papers/W2075436975"
+        },
+        {
+          "source_id": "https://openalex.org/W1490914592",
+          "title": "The paleontology of intergene retrotransposons of maize",
+          "year": "1998",
+          "cited_by_count": 1014,
+          "url": "/domains/paleontology/papers/W1490914592"
+        },
+        {
+          "source_id": "https://openalex.org/W2232237847",
+          "title": "The Sinocyclocheilus cavefish genome provides insights into cave adaptation",
+          "year": "2016",
+          "cited_by_count": 401,
+          "url": "/domains/paleontology/papers/W2232237847"
+        }
+      ]
+    },
+    {
+      "id": "sg-vertebrate-paleontology",
+      "label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/topics/sg-vertebrate-paleontology",
+      "paper_count": 41,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: paleontology, geology, evolution",
+      "tags": [
+        "invertebrate paleontology",
+        "paleontology evolution",
+        "treatise on invertebrate",
+        "treatise on invertebrate paleontology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-vertebrate-paleontology-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/paleontology/topics/sg-vertebrate-paleontology-evolutionary-biology",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-vertebrate-paleontology-geological-and-geochemical-analysis",
+          "label": "Geological and geochemical analysis",
+          "url": "/domains/paleontology/topics/sg-vertebrate-paleontology-geological-and-geochemical-analysis",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-vertebrate-paleontology-abiotic-component",
+          "label": "Abiotic component",
+          "url": "/domains/paleontology/topics/sg-vertebrate-paleontology-abiotic-component",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-vertebrate-paleontology-la-venta-colombia",
+          "label": "La venta, colombia",
+          "url": "/domains/paleontology/topics/sg-vertebrate-paleontology-la-venta-colombia",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-phylogenetic-tree-mediterranean-climate",
+          "label": "Mediterranean climate",
+          "url": "/domains/paleontology/topics/sg-phylogenetic-tree-mediterranean-climate",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-vertebrate-paleontology-neotropics-miocene-fauna",
+          "label": "Neotropics miocene fauna",
+          "url": "/domains/paleontology/topics/sg-vertebrate-paleontology-neotropics-miocene-fauna",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2797434816",
+          "title": "Treatise on Invertebrate Paleontology",
+          "year": "1950",
+          "cited_by_count": 3650,
+          "url": "/domains/paleontology/papers/W2797434816"
+        },
+        {
+          "source_id": "https://openalex.org/W2107648648",
+          "title": "Vertebrate Paleontology and Evolution",
+          "year": "1988",
+          "cited_by_count": 1679,
+          "url": "/domains/paleontology/papers/W2107648648"
+        },
+        {
+          "source_id": "https://openalex.org/W3009764212",
+          "title": "Functional morphology in vertebrate paleontology",
+          "year": "1995",
+          "cited_by_count": 1169,
+          "url": "/domains/paleontology/papers/W3009764212"
+        }
+      ]
+    },
+    {
+      "id": "sg-biological-evolution",
+      "label": "Biological evolution studies",
+      "url": "/domains/paleontology/topics/sg-biological-evolution",
+      "paper_count": 21,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: evolution, evolutionary biology, paleontology",
+      "tags": [
+        "biological evolution",
+        "evolution and genetic dynamics",
+        "findings on paleontology",
+        "genetics, paleontology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-biological-evolution-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/paleontology/topics/sg-biological-evolution-evolutionary-biology",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-biological-evolution-studies-homo-erectus-evolution",
+          "label": "Homo erectus evolution",
+          "url": "/domains/paleontology/topics/sg-biological-evolution-studies-homo-erectus-evolution",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-biological-evolution-studies-evolution-science-education",
+          "label": "Evolution science education",
+          "url": "/domains/paleontology/topics/sg-biological-evolution-studies-evolution-science-education",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-biological-evolution-studies-homo-sapiens-evolution",
+          "label": "Homo sapiens evolution",
+          "url": "/domains/paleontology/topics/sg-biological-evolution-studies-homo-sapiens-evolution",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W75231382",
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "url": "/domains/paleontology/papers/W75231382"
+        },
+        {
+          "source_id": "https://openalex.org/W2113525598",
+          "title": "Best Practices for Justifying Fossil Calibrations",
+          "year": "2011",
+          "cited_by_count": 774,
+          "url": "/domains/paleontology/papers/W2113525598"
+        },
+        {
+          "source_id": "https://openalex.org/W1980704858",
+          "title": "Genetic and Fossil Evidence for the Origin of Modern Humans",
+          "year": "1988",
+          "cited_by_count": 951,
+          "url": "/domains/paleontology/papers/W1980704858"
+        }
+      ]
+    },
+    {
+      "id": "sg-fossil-record",
+      "label": "Fossil record studies",
+      "url": "/domains/paleontology/topics/sg-fossil-record",
+      "paper_count": 13,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: paleontology, geology, search",
+      "tags": [
+        "fossil record",
+        "fossil record full",
+        "fossil record implications",
+        "geologic record"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-fossil-record-studies-geologic-record",
+          "label": "Geologic record",
+          "url": "/domains/paleontology/topics/sg-fossil-record-studies-geologic-record",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-fossil-record-studies-pleistocene-hominins-and-archaeology",
+          "label": "Pleistocene hominins and archaeology",
+          "url": "/domains/paleontology/topics/sg-fossil-record-studies-pleistocene-hominins-and-archaeology",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-fossil-record-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/paleontology/topics/sg-fossil-record-evolutionary-biology",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2113525598",
+          "title": "Best Practices for Justifying Fossil Calibrations",
+          "year": "2011",
+          "cited_by_count": 774,
+          "url": "/domains/paleontology/papers/W2113525598"
+        },
+        {
+          "source_id": "https://openalex.org/W2005541915",
+          "title": "Hydrocarbon seep and hydrothermal vent paleoenvironments and paleontology: Past developments and future research directions",
+          "year": "2005",
+          "cited_by_count": 563,
+          "url": "/domains/paleontology/papers/W2005541915"
+        },
+        {
+          "source_id": "https://openalex.org/W2040609066",
+          "title": "Pelagic Fishing at 42,000 Years Before the Present and the Maritime Skills of Modern Humans",
+          "year": "2011",
+          "cited_by_count": 403,
+          "url": "/domains/paleontology/papers/W2040609066"
+        }
+      ]
+    },
+    {
+      "id": "sg-paleontology-stratigraphy-of-fossils",
+      "label": "Paleontology stratigraphy of fossils",
+      "url": "/domains/paleontology/topics/sg-paleontology-stratigraphy-of-fossils",
+      "paper_count": 5,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: geology, paleontology, paleontology and stratigraphy of fossils",
+      "tags": [
+        "cambrian stratigraphy paleontology",
+        "extinction event",
+        "paleontology and stratigraphy of fossils",
+        "sedimentary rock"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-paleontology-stratigraphy-of-fossils-anoxic-event",
+          "label": "Anoxic event",
+          "url": "/domains/paleontology/topics/sg-paleontology-stratigraphy-of-fossils-anoxic-event",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-paleontology-stratigraphy-of-fossils-extinction-event",
+          "label": "Extinction event",
+          "url": "/domains/paleontology/topics/sg-paleontology-stratigraphy-of-fossils-extinction-event",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-paleontology-stratigraphy-of-fossils-author-on-gsw",
+          "label": "Author on gsw",
+          "url": "/domains/paleontology/topics/sg-paleontology-stratigraphy-of-fossils-author-on-gsw",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2056542719",
+          "title": "Eocene continental climates and latitudinal temperature gradients",
+          "year": "1995",
+          "cited_by_count": 543,
+          "url": "/domains/paleontology/papers/W2056542719"
+        },
+        {
+          "source_id": "https://openalex.org/W2071016525",
+          "title": "Advances in Cambrian stratigraphy and paleontology: Integrating correlation techniques, paleobiology, taphonomy and paleoenvironmental reconstruction",
+          "year": "2006",
+          "cited_by_count": 378,
+          "url": "/domains/paleontology/papers/W2071016525"
+        },
+        {
+          "source_id": "https://openalex.org/W2100451784",
+          "title": "Synchrony between Early Jurassic extinction, oceanic anoxic event, and the Karoo-Ferrar flood basalt volcanism",
+          "year": "2000",
+          "cited_by_count": 334,
+          "url": "/domains/paleontology/papers/W2100451784"
+        }
+      ]
+    },
+    {
+      "id": "sg-structural-basin",
+      "label": "Structural basin analysis",
+      "url": "/domains/paleontology/topics/sg-structural-basin",
+      "paper_count": 4,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: geology, evolution, paleontology",
+      "tags": [
+        "late miocene",
+        "middle miocene disruption",
+        "sedimentary depositional environment",
+        "sedimentary rock"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-structural-basin-analysis-late-miocene-structural-basin",
+          "label": "Late Miocene structural basin",
+          "url": "/domains/paleontology/topics/sg-structural-basin-analysis-late-miocene-structural-basin",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-structural-basin-analysis-middle-miocene-structural-basin-disruption",
+          "label": "Middle Miocene structural basin disruption",
+          "url": "/domains/paleontology/topics/sg-structural-basin-analysis-middle-miocene-structural-basin-disruption",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2055639221",
+          "title": "The Late Miocene paleogeography of the Amazon Basin and the evolution of the Amazon River system",
+          "year": "2010",
+          "cited_by_count": 403,
+          "url": "/domains/paleontology/papers/W2055639221"
+        },
+        {
+          "source_id": "https://openalex.org/W119980067",
+          "title": "Sediment-Mediated Biological Disturbance and the Evolution of Marine Benthos",
+          "year": "1983",
+          "cited_by_count": 333,
+          "url": "/domains/paleontology/papers/W119980067"
+        },
+        {
+          "source_id": "https://openalex.org/W2604241912",
+          "title": "Development as an evolutionary process",
+          "year": "1987",
+          "cited_by_count": 316,
+          "url": "/domains/paleontology/papers/W2604241912"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 24,
+      "papers": [
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+          "year": "2017",
+          "cited_by_count": 3471,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2598701004.html"
+        },
+        {
+          "title": "Impacts of climate change on the future of biodiversity",
+          "year": "2012",
+          "cited_by_count": 4088,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2154433795.html"
+        },
+        {
+          "title": "Towards an Integrated Framework for Assessing the Vulnerability of Species to Climate Change",
+          "year": "2008",
+          "cited_by_count": 1176,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2158321278.html"
+        },
+        {
+          "title": "Paleontological Journal",
+          "year": "2013",
+          "cited_by_count": 991,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4254303512.html"
+        },
+        {
+          "title": "Rapid responses of British butterflies to opposing forces of climate and habitat change",
+          "year": "2001",
+          "cited_by_count": 1325,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1620630482.html"
+        }
+      ]
+    },
+    {
+      "label": "Vertebrate paleontology",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Treatise on Invertebrate Paleontology",
+          "year": "1950",
+          "cited_by_count": 3650,
+          "topic": "Vertebrate paleontology",
+          "url": "papers/https-openalex-org-w2797434816.html"
+        },
+        {
+          "title": "Vertebrate Paleontology and Evolution",
+          "year": "1988",
+          "cited_by_count": 1679,
+          "topic": "Vertebrate paleontology",
+          "url": "papers/https-openalex-org-w2107648648.html"
+        },
+        {
+          "title": "Functional morphology in vertebrate paleontology",
+          "year": "1995",
+          "cited_by_count": 1169,
+          "topic": "Vertebrate paleontology",
+          "url": "papers/https-openalex-org-w3009764212.html"
+        },
+        {
+          "title": "Vertebrate Paleontology",
+          "year": "1967",
+          "cited_by_count": 1212,
+          "topic": "Vertebrate paleontology",
+          "url": "papers/https-openalex-org-w4254168175.html"
+        },
+        {
+          "title": "Treatise on Invertebrate Paleontology",
+          "year": "1972",
+          "cited_by_count": 1105,
+          "topic": "Vertebrate paleontology",
+          "url": "papers/https-openalex-org-w2053265086.html"
+        },
+        {
+          "title": "Vertebrate paleontology and evolution",
+          "year": "1988",
+          "cited_by_count": 780,
+          "topic": "Vertebrate paleontology",
+          "url": "papers/https-openalex-org-w2075585505.html"
+        }
+      ]
+    },
+    {
+      "label": "Biological evolution studies",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "topic": "Biological evolution studies",
+          "url": "papers/https-openalex-org-w75231382.html"
+        },
+        {
+          "title": "Genetic and Fossil Evidence for the Origin of Modern Humans",
+          "year": "1988",
+          "cited_by_count": 951,
+          "topic": "Biological evolution studies",
+          "url": "papers/https-openalex-org-w1980704858.html"
+        },
+        {
+          "title": "A mitochondrial genome sequence of a hominin from Sima de los Huesos",
+          "year": "2013",
+          "cited_by_count": 518,
+          "topic": "Biological evolution studies",
+          "url": "papers/https-openalex-org-w1977964679.html"
+        }
+      ]
+    },
+    {
+      "label": "Evolutionary biology",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Phylogeography: The History and Formation of Species",
+          "year": "2001",
+          "cited_by_count": 1150,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w4256620417.html"
+        },
+        {
+          "title": "Experimental evolution",
+          "year": "2012",
+          "cited_by_count": 845,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w4211156702.html"
+        }
+      ]
+    },
+    {
+      "label": "Molecular clock",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Paleontological Evidence to Date the Tree of Life",
+          "year": "2006",
+          "cited_by_count": 918,
+          "topic": "Molecular clock",
+          "url": "papers/https-openalex-org-w2061352595.html"
+        },
+        {
+          "title": "The modern molecular clock",
+          "year": "2003",
+          "cited_by_count": 625,
+          "topic": "Molecular clock",
+          "url": "papers/https-openalex-org-w2062220010.html"
+        }
+      ]
+    },
+    {
+      "label": "Transposable element",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The Arabidopsis lyrata genome sequence and the basis of rapid genome size change",
+          "year": "2011",
+          "cited_by_count": 926,
+          "topic": "Transposable element",
+          "url": "papers/https-openalex-org-w2075436975.html"
+        },
+        {
+          "title": "The paleontology of intergene retrotransposons of maize",
+          "year": "1998",
+          "cited_by_count": 1014,
+          "topic": "Transposable element",
+          "url": "papers/https-openalex-org-w1490914592.html"
+        }
+      ]
+    },
+    {
+      "label": "Fossil record studies",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Best Practices for Justifying Fossil Calibrations",
+          "year": "2011",
+          "cited_by_count": 774,
+          "topic": "Fossil record studies",
+          "url": "papers/https-openalex-org-w2113525598.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "primary_topic_id": "sg-biological-evolution",
+      "primary_topic_label": "Biological evolution studies",
+      "url": "/domains/paleontology/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3471,
+      "adjusted_cited_by_count": 1157.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2154433795",
+      "title": "Impacts of climate change on the future of biodiversity",
+      "year": 2012,
+      "cited_by_count": 4088,
+      "adjusted_cited_by_count": 1092.56,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2154433795"
+    },
+    {
+      "source_id": "https://openalex.org/W2797434816",
+      "title": "Treatise on Invertebrate Paleontology",
+      "year": 1950,
+      "cited_by_count": 3650,
+      "adjusted_cited_by_count": 418.68,
+      "primary_topic_id": "sg-vertebrate-paleontology",
+      "primary_topic_label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/papers/W2797434816"
+    },
+    {
+      "source_id": "https://openalex.org/W2158321278",
+      "title": "Towards an Integrated Framework for Assessing the Vulnerability of Species to Climate Change",
+      "year": 2008,
+      "cited_by_count": 1176,
+      "adjusted_cited_by_count": 277.19,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2158321278"
+    },
+    {
+      "source_id": "https://openalex.org/W4254303512",
+      "title": "Paleontological Journal",
+      "year": 2013,
+      "cited_by_count": 991,
+      "adjusted_cited_by_count": 274.85,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W4254303512"
+    },
+    {
+      "source_id": "https://openalex.org/W2107648648",
+      "title": "Vertebrate Paleontology and Evolution",
+      "year": 1988,
+      "cited_by_count": 1679,
+      "adjusted_cited_by_count": 272.37,
+      "primary_topic_id": "sg-vertebrate-paleontology",
+      "primary_topic_label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/papers/W2107648648"
+    },
+    {
+      "source_id": "https://openalex.org/W1620630482",
+      "title": "Rapid responses of British butterflies to opposing forces of climate and habitat change",
+      "year": 2001,
+      "cited_by_count": 1325,
+      "adjusted_cited_by_count": 265.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W1620630482"
+    },
+    {
+      "source_id": "https://openalex.org/W2604655634",
+      "title": "Climate Change in Continental Isotopic Records",
+      "year": 1993,
+      "cited_by_count": 1443,
+      "adjusted_cited_by_count": 251.19,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2604655634"
+    },
+    {
+      "source_id": "https://openalex.org/W2075436975",
+      "title": "The Arabidopsis lyrata genome sequence and the basis of rapid genome size change",
+      "year": 2011,
+      "cited_by_count": 926,
+      "adjusted_cited_by_count": 239.09,
+      "primary_topic_id": "sg-transposable-element",
+      "primary_topic_label": "Transposable element",
+      "url": "/domains/paleontology/papers/W2075436975"
+    },
+    {
+      "source_id": "https://openalex.org/W4256620417",
+      "title": "Phylogeography: The History and Formation of Species",
+      "year": 2001,
+      "cited_by_count": 1150,
+      "adjusted_cited_by_count": 230.0,
+      "primary_topic_id": "sg-molecular-clock-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/paleontology/papers/W4256620417"
+    },
+    {
+      "source_id": "https://openalex.org/W4211156702",
+      "title": "Experimental evolution",
+      "year": 2012,
+      "cited_by_count": 845,
+      "adjusted_cited_by_count": 225.84,
+      "primary_topic_id": "sg-vertebrate-paleontology-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/paleontology/papers/W4211156702"
+    },
+    {
+      "source_id": "https://openalex.org/W4206165612",
+      "title": "Bulletins of American Paleontology",
+      "year": 2018,
+      "cited_by_count": 631,
+      "adjusted_cited_by_count": 223.09,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W4206165612"
+    },
+    {
+      "source_id": "https://openalex.org/W2012006993",
+      "title": "On the origin of mitosing cells",
+      "year": 1967,
+      "cited_by_count": 1704,
+      "adjusted_cited_by_count": 221.84,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2012006993"
+    },
+    {
+      "source_id": "https://openalex.org/W3120704587",
+      "title": "Insects and recent climate change",
+      "year": 2021,
+      "cited_by_count": 472,
+      "adjusted_cited_by_count": 211.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W3120704587"
+    },
+    {
+      "source_id": "https://openalex.org/W3009764212",
+      "title": "Functional morphology in vertebrate paleontology",
+      "year": 1995,
+      "cited_by_count": 1169,
+      "adjusted_cited_by_count": 209.96,
+      "primary_topic_id": "sg-vertebrate-paleontology",
+      "primary_topic_label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/papers/W3009764212"
+    },
+    {
+      "source_id": "https://openalex.org/W2061352595",
+      "title": "Paleontological Evidence to Date the Tree of Life",
+      "year": 2006,
+      "cited_by_count": 918,
+      "adjusted_cited_by_count": 205.27,
+      "primary_topic_id": "sg-molecular-clock",
+      "primary_topic_label": "Molecular clock",
+      "url": "/domains/paleontology/papers/W2061352595"
+    },
+    {
+      "source_id": "https://openalex.org/W2113525598",
+      "title": "Best Practices for Justifying Fossil Calibrations",
+      "year": 2011,
+      "cited_by_count": 774,
+      "adjusted_cited_by_count": 199.85,
+      "primary_topic_id": "sg-fossil-record",
+      "primary_topic_label": "Fossil record studies",
+      "url": "/domains/paleontology/papers/W2113525598"
+    },
+    {
+      "source_id": "https://openalex.org/W2104143313",
+      "title": "The evolution of the language faculty: Clarifications and implications",
+      "year": 2005,
+      "cited_by_count": 904,
+      "adjusted_cited_by_count": 197.27,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2104143313"
+    },
+    {
+      "source_id": "https://openalex.org/W1518075277",
+      "title": "Origin and Evolution of Tropical Rain Forests",
+      "year": 2000,
+      "cited_by_count": 994,
+      "adjusted_cited_by_count": 194.94,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W1518075277"
+    },
+    {
+      "source_id": "https://openalex.org/W1490914592",
+      "title": "The paleontology of intergene retrotransposons of maize",
+      "year": 1998,
+      "cited_by_count": 1014,
+      "adjusted_cited_by_count": 191.63,
+      "primary_topic_id": "sg-transposable-element",
+      "primary_topic_label": "Transposable element",
+      "url": "/domains/paleontology/papers/W1490914592"
+    },
+    {
+      "source_id": "https://openalex.org/W2054715003",
+      "title": "Rates of speciation and morphological evolution are correlated across the largest vertebrate radiation",
+      "year": 2013,
+      "cited_by_count": 682,
+      "adjusted_cited_by_count": 189.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2054715003"
+    },
+    {
+      "source_id": "https://openalex.org/W2499516979",
+      "title": "Managing Climate Change Refugia for Climate Adaptation",
+      "year": 2016,
+      "cited_by_count": 534,
+      "adjusted_cited_by_count": 168.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2499516979"
+    },
+    {
+      "source_id": "https://openalex.org/W4254168175",
+      "title": "Vertebrate Paleontology",
+      "year": 1967,
+      "cited_by_count": 1212,
+      "adjusted_cited_by_count": 157.79,
+      "primary_topic_id": "sg-vertebrate-paleontology",
+      "primary_topic_label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/papers/W4254168175"
+    },
+    {
+      "source_id": "https://openalex.org/W1980704858",
+      "title": "Genetic and Fossil Evidence for the Origin of Modern Humans",
+      "year": 1988,
+      "cited_by_count": 951,
+      "adjusted_cited_by_count": 154.27,
+      "primary_topic_id": "sg-biological-evolution",
+      "primary_topic_label": "Biological evolution studies",
+      "url": "/domains/paleontology/papers/W1980704858"
+    },
+    {
+      "source_id": "https://openalex.org/W2053265086",
+      "title": "Treatise on Invertebrate Paleontology",
+      "year": 1972,
+      "cited_by_count": 1105,
+      "adjusted_cited_by_count": 150.37,
+      "primary_topic_id": "sg-vertebrate-paleontology",
+      "primary_topic_label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/papers/W2053265086"
+    },
+    {
+      "source_id": "https://openalex.org/W1970353442",
+      "title": "Shifting Baselines, Local Impacts, and Global Change on Coral Reefs",
+      "year": 2008,
+      "cited_by_count": 636,
+      "adjusted_cited_by_count": 149.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W1970353442"
+    },
+    {
+      "source_id": "https://openalex.org/W1563549865",
+      "title": "paleotree: an R package for paleontological and phylogenetic analyses of evolution",
+      "year": 2012,
+      "cited_by_count": 558,
+      "adjusted_cited_by_count": 149.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W1563549865"
+    },
+    {
+      "source_id": "https://openalex.org/W2163377164",
+      "title": "EXTINCTION RATES SHOULD NOT BE ESTIMATED FROM MOLECULAR PHYLOGENIES",
+      "year": 2009,
+      "cited_by_count": 600,
+      "adjusted_cited_by_count": 145.52,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2163377164"
+    },
+    {
+      "source_id": "https://openalex.org/W1977964679",
+      "title": "A mitochondrial genome sequence of a hominin from Sima de los Huesos",
+      "year": 2013,
+      "cited_by_count": 518,
+      "adjusted_cited_by_count": 143.67,
+      "primary_topic_id": "sg-biological-evolution",
+      "primary_topic_label": "Biological evolution studies",
+      "url": "/domains/paleontology/papers/W1977964679"
+    },
+    {
+      "source_id": "https://openalex.org/W1598005605",
+      "title": "History of Insects",
+      "year": 2002,
+      "cited_by_count": 668,
+      "adjusted_cited_by_count": 136.35,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W1598005605"
+    },
+    {
+      "source_id": "https://openalex.org/W2044886350",
+      "title": "A glimpse on the pattern of rodent diversification: a phylogenetic approach",
+      "year": 2012,
+      "cited_by_count": 504,
+      "adjusted_cited_by_count": 134.7,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2044886350"
+    },
+    {
+      "source_id": "https://openalex.org/W2058972628",
+      "title": "Benthic foraminiferal dissolved-oxygen index and dissolved-oxygen levels in the modern ocean",
+      "year": 1994,
+      "cited_by_count": 746,
+      "adjusted_cited_by_count": 131.88,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2058972628"
+    },
+    {
+      "source_id": "https://openalex.org/W2062220010",
+      "title": "The modern molecular clock",
+      "year": 2003,
+      "cited_by_count": 625,
+      "adjusted_cited_by_count": 130.32,
+      "primary_topic_id": "sg-molecular-clock",
+      "primary_topic_label": "Molecular clock",
+      "url": "/domains/paleontology/papers/W2062220010"
+    },
+    {
+      "source_id": "https://openalex.org/W1508251117",
+      "title": "Paleolimnology: the history and evolution of lake systems",
+      "year": 2004,
+      "cited_by_count": 607,
+      "adjusted_cited_by_count": 129.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W1508251117"
+    },
+    {
+      "source_id": "https://openalex.org/W2069917590",
+      "title": "Interactive effects of metal pollution and temperature on metabolism in aquatic ectotherms: implications of global climate change",
+      "year": 2008,
+      "cited_by_count": 549,
+      "adjusted_cited_by_count": 129.4,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2069917590"
+    },
+    {
+      "source_id": "https://openalex.org/W2006467490",
+      "title": "The Derived FOXP2 Variant of Modern Humans Was Shared with Neandertals",
+      "year": 2007,
+      "cited_by_count": 553,
+      "adjusted_cited_by_count": 126.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2006467490"
+    },
+    {
+      "source_id": "https://openalex.org/W2232237847",
+      "title": "The Sinocyclocheilus cavefish genome provides insights into cave adaptation",
+      "year": 2016,
+      "cited_by_count": 401,
+      "adjusted_cited_by_count": 126.81,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/paleontology/papers/W2232237847"
+    },
+    {
+      "source_id": "https://openalex.org/W2075585505",
+      "title": "Vertebrate paleontology and evolution",
+      "year": 1988,
+      "cited_by_count": 780,
+      "adjusted_cited_by_count": 126.53,
+      "primary_topic_id": "sg-vertebrate-paleontology",
+      "primary_topic_label": "Vertebrate paleontology",
+      "url": "/domains/paleontology/papers/W2075585505"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/paleontology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "url": "/domains/paleontology/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3471,
+      "adjusted_cited_by_count": 1157.0,
+      "url": "/domains/paleontology/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2154433795",
+      "title": "Impacts of climate change on the future of biodiversity",
+      "year": 2012,
+      "cited_by_count": 4088,
+      "adjusted_cited_by_count": 1092.56,
+      "url": "/domains/paleontology/papers/W2154433795"
+    },
+    {
+      "source_id": "https://openalex.org/W2797434816",
+      "title": "Treatise on Invertebrate Paleontology",
+      "year": 1950,
+      "cited_by_count": 3650,
+      "adjusted_cited_by_count": 418.68,
+      "url": "/domains/paleontology/papers/W2797434816"
+    },
+    {
+      "source_id": "https://openalex.org/W2158321278",
+      "title": "Towards an Integrated Framework for Assessing the Vulnerability of Species to Climate Change",
+      "year": 2008,
+      "cited_by_count": 1176,
+      "adjusted_cited_by_count": 277.19,
+      "url": "/domains/paleontology/papers/W2158321278"
+    },
+    {
+      "source_id": "https://openalex.org/W4254303512",
+      "title": "Paleontological Journal",
+      "year": 2013,
+      "cited_by_count": 991,
+      "adjusted_cited_by_count": 274.85,
+      "url": "/domains/paleontology/papers/W4254303512"
+    },
+    {
+      "source_id": "https://openalex.org/W2107648648",
+      "title": "Vertebrate Paleontology and Evolution",
+      "year": 1988,
+      "cited_by_count": 1679,
+      "adjusted_cited_by_count": 272.37,
+      "url": "/domains/paleontology/papers/W2107648648"
+    },
+    {
+      "source_id": "https://openalex.org/W1620630482",
+      "title": "Rapid responses of British butterflies to opposing forces of climate and habitat change",
+      "year": 2001,
+      "cited_by_count": 1325,
+      "adjusted_cited_by_count": 265.0,
+      "url": "/domains/paleontology/papers/W1620630482"
+    },
+    {
+      "source_id": "https://openalex.org/W2604655634",
+      "title": "Climate Change in Continental Isotopic Records",
+      "year": 1993,
+      "cited_by_count": 1443,
+      "adjusted_cited_by_count": 251.19,
+      "url": "/domains/paleontology/papers/W2604655634"
+    },
+    {
+      "source_id": "https://openalex.org/W2075436975",
+      "title": "The Arabidopsis lyrata genome sequence and the basis of rapid genome size change",
+      "year": 2011,
+      "cited_by_count": 926,
+      "adjusted_cited_by_count": 239.09,
+      "url": "/domains/paleontology/papers/W2075436975"
+    },
+    {
+      "source_id": "https://openalex.org/W4256620417",
+      "title": "Phylogeography: The History and Formation of Species",
+      "year": 2001,
+      "cited_by_count": 1150,
+      "adjusted_cited_by_count": 230.0,
+      "url": "/domains/paleontology/papers/W4256620417"
+    },
+    {
+      "source_id": "https://openalex.org/W4211156702",
+      "title": "Experimental evolution",
+      "year": 2012,
+      "cited_by_count": 845,
+      "adjusted_cited_by_count": 225.84,
+      "url": "/domains/paleontology/papers/W4211156702"
+    },
+    {
+      "source_id": "https://openalex.org/W4206165612",
+      "title": "Bulletins of American Paleontology",
+      "year": 2018,
+      "cited_by_count": 631,
+      "adjusted_cited_by_count": 223.09,
+      "url": "/domains/paleontology/papers/W4206165612"
+    },
+    {
+      "source_id": "https://openalex.org/W2012006993",
+      "title": "On the origin of mitosing cells",
+      "year": 1967,
+      "cited_by_count": 1704,
+      "adjusted_cited_by_count": 221.84,
+      "url": "/domains/paleontology/papers/W2012006993"
+    },
+    {
+      "source_id": "https://openalex.org/W3120704587",
+      "title": "Insects and recent climate change",
+      "year": 2021,
+      "cited_by_count": 472,
+      "adjusted_cited_by_count": 211.08,
+      "url": "/domains/paleontology/papers/W3120704587"
+    },
+    {
+      "source_id": "https://openalex.org/W3009764212",
+      "title": "Functional morphology in vertebrate paleontology",
+      "year": 1995,
+      "cited_by_count": 1169,
+      "adjusted_cited_by_count": 209.96,
+      "url": "/domains/paleontology/papers/W3009764212"
+    },
+    {
+      "source_id": "https://openalex.org/W2061352595",
+      "title": "Paleontological Evidence to Date the Tree of Life",
+      "year": 2006,
+      "cited_by_count": 918,
+      "adjusted_cited_by_count": 205.27,
+      "url": "/domains/paleontology/papers/W2061352595"
+    },
+    {
+      "source_id": "https://openalex.org/W2113525598",
+      "title": "Best Practices for Justifying Fossil Calibrations",
+      "year": 2011,
+      "cited_by_count": 774,
+      "adjusted_cited_by_count": 199.85,
+      "url": "/domains/paleontology/papers/W2113525598"
+    },
+    {
+      "source_id": "https://openalex.org/W2104143313",
+      "title": "The evolution of the language faculty: Clarifications and implications",
+      "year": 2005,
+      "cited_by_count": 904,
+      "adjusted_cited_by_count": 197.27,
+      "url": "/domains/paleontology/papers/W2104143313"
+    },
+    {
+      "source_id": "https://openalex.org/W1518075277",
+      "title": "Origin and Evolution of Tropical Rain Forests",
+      "year": 2000,
+      "cited_by_count": 994,
+      "adjusted_cited_by_count": 194.94,
+      "url": "/domains/paleontology/papers/W1518075277"
+    },
+    {
+      "source_id": "https://openalex.org/W1490914592",
+      "title": "The paleontology of intergene retrotransposons of maize",
+      "year": 1998,
+      "cited_by_count": 1014,
+      "adjusted_cited_by_count": 191.63,
+      "url": "/domains/paleontology/papers/W1490914592"
+    },
+    {
+      "source_id": "https://openalex.org/W2054715003",
+      "title": "Rates of speciation and morphological evolution are correlated across the largest vertebrate radiation",
+      "year": 2013,
+      "cited_by_count": 682,
+      "adjusted_cited_by_count": 189.15,
+      "url": "/domains/paleontology/papers/W2054715003"
+    },
+    {
+      "source_id": "https://openalex.org/W2499516979",
+      "title": "Managing Climate Change Refugia for Climate Adaptation",
+      "year": 2016,
+      "cited_by_count": 534,
+      "adjusted_cited_by_count": 168.87,
+      "url": "/domains/paleontology/papers/W2499516979"
+    },
+    {
+      "source_id": "https://openalex.org/W4254168175",
+      "title": "Vertebrate Paleontology",
+      "year": 1967,
+      "cited_by_count": 1212,
+      "adjusted_cited_by_count": 157.79,
+      "url": "/domains/paleontology/papers/W4254168175"
+    },
+    {
+      "source_id": "https://openalex.org/W1980704858",
+      "title": "Genetic and Fossil Evidence for the Origin of Modern Humans",
+      "year": 1988,
+      "cited_by_count": 951,
+      "adjusted_cited_by_count": 154.27,
+      "url": "/domains/paleontology/papers/W1980704858"
+    },
+    {
+      "source_id": "https://openalex.org/W2053265086",
+      "title": "Treatise on Invertebrate Paleontology",
+      "year": 1972,
+      "cited_by_count": 1105,
+      "adjusted_cited_by_count": 150.37,
+      "url": "/domains/paleontology/papers/W2053265086"
+    },
+    {
+      "source_id": "https://openalex.org/W1970353442",
+      "title": "Shifting Baselines, Local Impacts, and Global Change on Coral Reefs",
+      "year": 2008,
+      "cited_by_count": 636,
+      "adjusted_cited_by_count": 149.91,
+      "url": "/domains/paleontology/papers/W1970353442"
+    },
+    {
+      "source_id": "https://openalex.org/W1563549865",
+      "title": "paleotree: an R package for paleontological and phylogenetic analyses of evolution",
+      "year": 2012,
+      "cited_by_count": 558,
+      "adjusted_cited_by_count": 149.13,
+      "url": "/domains/paleontology/papers/W1563549865"
+    },
+    {
+      "source_id": "https://openalex.org/W2163377164",
+      "title": "EXTINCTION RATES SHOULD NOT BE ESTIMATED FROM MOLECULAR PHYLOGENIES",
+      "year": 2009,
+      "cited_by_count": 600,
+      "adjusted_cited_by_count": 145.52,
+      "url": "/domains/paleontology/papers/W2163377164"
+    },
+    {
+      "source_id": "https://openalex.org/W1977964679",
+      "title": "A mitochondrial genome sequence of a hominin from Sima de los Huesos",
+      "year": 2013,
+      "cited_by_count": 518,
+      "adjusted_cited_by_count": 143.67,
+      "url": "/domains/paleontology/papers/W1977964679"
+    },
+    {
+      "source_id": "https://openalex.org/W1598005605",
+      "title": "History of Insects",
+      "year": 2002,
+      "cited_by_count": 668,
+      "adjusted_cited_by_count": 136.35,
+      "url": "/domains/paleontology/papers/W1598005605"
+    },
+    {
+      "source_id": "https://openalex.org/W2044886350",
+      "title": "A glimpse on the pattern of rodent diversification: a phylogenetic approach",
+      "year": 2012,
+      "cited_by_count": 504,
+      "adjusted_cited_by_count": 134.7,
+      "url": "/domains/paleontology/papers/W2044886350"
+    },
+    {
+      "source_id": "https://openalex.org/W2058972628",
+      "title": "Benthic foraminiferal dissolved-oxygen index and dissolved-oxygen levels in the modern ocean",
+      "year": 1994,
+      "cited_by_count": 746,
+      "adjusted_cited_by_count": 131.88,
+      "url": "/domains/paleontology/papers/W2058972628"
+    },
+    {
+      "source_id": "https://openalex.org/W2062220010",
+      "title": "The modern molecular clock",
+      "year": 2003,
+      "cited_by_count": 625,
+      "adjusted_cited_by_count": 130.32,
+      "url": "/domains/paleontology/papers/W2062220010"
+    },
+    {
+      "source_id": "https://openalex.org/W1508251117",
+      "title": "Paleolimnology: the history and evolution of lake systems",
+      "year": 2004,
+      "cited_by_count": 607,
+      "adjusted_cited_by_count": 129.41,
+      "url": "/domains/paleontology/papers/W1508251117"
+    },
+    {
+      "source_id": "https://openalex.org/W2069917590",
+      "title": "Interactive effects of metal pollution and temperature on metabolism in aquatic ectotherms: implications of global climate change",
+      "year": 2008,
+      "cited_by_count": 549,
+      "adjusted_cited_by_count": 129.4,
+      "url": "/domains/paleontology/papers/W2069917590"
+    },
+    {
+      "source_id": "https://openalex.org/W2006467490",
+      "title": "The Derived FOXP2 Variant of Modern Humans Was Shared with Neandertals",
+      "year": 2007,
+      "cited_by_count": 553,
+      "adjusted_cited_by_count": 126.87,
+      "url": "/domains/paleontology/papers/W2006467490"
+    },
+    {
+      "source_id": "https://openalex.org/W2232237847",
+      "title": "The Sinocyclocheilus cavefish genome provides insights into cave adaptation",
+      "year": 2016,
+      "cited_by_count": 401,
+      "adjusted_cited_by_count": 126.81,
+      "url": "/domains/paleontology/papers/W2232237847"
+    },
+    {
+      "source_id": "https://openalex.org/W2075585505",
+      "title": "Vertebrate paleontology and evolution",
+      "year": 1988,
+      "cited_by_count": 780,
+      "adjusted_cited_by_count": 126.53,
+      "url": "/domains/paleontology/papers/W2075585505"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "paleontology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 110
+    },
+    {
+      "label": "evolutionary biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "geology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "evolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "history",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "zoology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "phylogenetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "archaeology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "genetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "fossil",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "phylogenetic tree",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 33
+    },
+    {
+      "label": "search",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 33
+    },
+    {
+      "label": "evolution of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9891,
+      "evidence_count": 27
+    },
+    {
+      "label": "phylogenetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 36
+    },
+    {
+      "label": "author",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9888,
+      "evidence_count": 26
+    },
+    {
+      "label": "works",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 26
+    },
+    {
+      "label": "biology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.9887,
+      "evidence_count": 148
+    },
+    {
+      "label": "record",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 26
+    },
+    {
+      "label": "article",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9884,
+      "evidence_count": 25
+    },
+    {
+      "label": "oceanography",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 25
+    },
+    {
+      "label": "evolutionary",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 97
+    },
+    {
+      "label": "molecular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 29
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 29
+    },
+    {
+      "label": "author on",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "by this",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "by this author",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "for other works",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "google",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "google scholar",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "other works",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "other works by",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "paleontological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "scholar",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "search for",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "search for other",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "this author",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "this author on",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "works by",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    },
+    {
+      "label": "works by this",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 24
+    }
+  ],
+  "topic_year_counts": {
+    "vertebrate paleontology": {
+      "2023": 2298,
+      "2024": 1898,
+      "2021": 1697,
+      "2025": 1690,
+      "2018": 1644,
+      "2022": 1635,
+      "2020": 1620,
+      "2017": 1488,
+      "2019": 1413,
+      "2016": 1369,
+      "2015": 1303,
+      "2014": 1084,
+      "2013": 1040,
+      "2012": 854,
+      "2011": 797,
+      "2010": 664,
+      "2009": 594,
+      "2008": 499,
+      "2007": 435,
+      "2026": 435,
+      "2006": 386,
+      "2005": 368,
+      "2004": 341,
+      "2003": 311,
+      "2002": 283,
+      "2000": 239,
+      "2001": 231
+    },
+    "biological evolution studies": {
+      "2023": 203122,
+      "2024": 191442,
+      "2025": 181405,
+      "2022": 136903,
+      "2021": 127609,
+      "2020": 117344,
+      "2019": 96442,
+      "2018": 85126,
+      "2017": 77405,
+      "2016": 70161,
+      "2015": 63503,
+      "2014": 59340,
+      "2013": 53186,
+      "2026": 51651,
+      "2012": 46641,
+      "2011": 38801,
+      "2010": 32358,
+      "2009": 27902,
+      "2008": 23012,
+      "2007": 19607,
+      "2006": 16775,
+      "2005": 14408,
+      "2004": 12368,
+      "2003": 10154,
+      "2002": 8581,
+      "2000": 8285,
+      "2001": 7466
+    },
+    "transposable element": {
+      "2023": 24144,
+      "2024": 22571,
+      "2025": 16860,
+      "2022": 15208,
+      "2021": 14469,
+      "2020": 13809,
+      "2019": 12740,
+      "2018": 11010,
+      "2017": 9920,
+      "2016": 9232,
+      "2015": 8778,
+      "2014": 8201,
+      "2013": 7582,
+      "2012": 6678,
+      "2011": 6016,
+      "2010": 5159,
+      "2026": 5076,
+      "2009": 4729,
+      "2008": 3907,
+      "2007": 3440,
+      "2006": 2946,
+      "2005": 2637,
+      "2004": 2326,
+      "2003": 2049,
+      "2002": 1683,
+      "2000": 1477,
+      "2001": 1465
+    },
+    "molecular clock": {
+      "2023": 18401,
+      "2024": 17367,
+      "2025": 15663,
+      "2022": 12108,
+      "2021": 11472,
+      "2020": 10902,
+      "2019": 9054,
+      "2018": 8149,
+      "2017": 7796,
+      "2016": 6934,
+      "2015": 6556,
+      "2014": 6139,
+      "2013": 5543,
+      "2012": 4952,
+      "2026": 4637,
+      "2011": 4327,
+      "2010": 3627,
+      "2009": 3113,
+      "2008": 2785,
+      "2007": 2467,
+      "2006": 2093,
+      "2004": 2012,
+      "2005": 1806,
+      "2003": 1498,
+      "2002": 1143,
+      "2001": 1069,
+      "2000": 955
+    },
+    "fossil record studies": {
+      "2023": 33865,
+      "2025": 32972,
+      "2024": 32015,
+      "2022": 22316,
+      "2021": 21342,
+      "2020": 19239,
+      "2019": 16562,
+      "2018": 14972,
+      "2017": 14029,
+      "2016": 12688,
+      "2015": 11757,
+      "2014": 10430,
+      "2013": 9676,
+      "2012": 8550,
+      "2026": 8523,
+      "2011": 7302,
+      "2010": 6195,
+      "2009": 5191,
+      "2008": 4327,
+      "2007": 3725,
+      "2006": 3182,
+      "2005": 2661,
+      "2004": 2454,
+      "2003": 2182,
+      "2000": 1803,
+      "2002": 1755,
+      "2001": 1646
+    },
+    "paleontology stratigraphy of fossils": {
+      "2023": 1634,
+      "2021": 1308,
+      "2024": 1236,
+      "2022": 1144,
+      "2020": 1132,
+      "2025": 1111,
+      "2019": 1023,
+      "2015": 993,
+      "2017": 951,
+      "2018": 942,
+      "2016": 908,
+      "2014": 744,
+      "2013": 713,
+      "2012": 595,
+      "2011": 527,
+      "2010": 485,
+      "2009": 413,
+      "2007": 378,
+      "2008": 368,
+      "2006": 278,
+      "2005": 264,
+      "2003": 240,
+      "2026": 240,
+      "2004": 221,
+      "2002": 174,
+      "2000": 167,
+      "2001": 160
+    },
+    "structural basin analysis": {
+      "2025": 34215,
+      "2023": 30552,
+      "2024": 28250,
+      "2022": 21316,
+      "2021": 19399,
+      "2020": 16700,
+      "2019": 14600,
+      "2018": 13070,
+      "2017": 11619,
+      "2026": 11496,
+      "2016": 10841,
+      "2015": 9898,
+      "2014": 8848,
+      "2013": 7947,
+      "2012": 6985,
+      "2011": 5761,
+      "2010": 5080,
+      "2009": 4449,
+      "2008": 3757,
+      "2007": 3424,
+      "2006": 2922,
+      "2005": 2541,
+      "2004": 2212,
+      "2003": 2094,
+      "2002": 1697,
+      "2000": 1689,
+      "2001": 1471
+    }
+  }
+}
