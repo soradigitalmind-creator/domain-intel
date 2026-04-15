@@ -1,13 +1,17 @@
 {
   "updated_at": "2026-04-06T14:10:31.692483Z",
-  "total_domains": 31,
+  "total_domains": 32,
   "categories": [
     {
       "label": "Life",
       "slug": "life",
       "description": "Includes biology, medicine, care, and living systems.",
-      "count": 8,
+      "count": 9,
       "domains": [
+        {
+          "slug": "agriculture",
+          "title": "Agriculture"
+        },
         {
           "slug": "cancer",
           "title": "Cancer"
@@ -160,6 +164,31 @@
     }
   ],
   "domains": [
+    {
+      "slug": "agriculture",
+      "title": "Agriculture",
+      "sources": 164,
+      "effective_papers": 89,
+      "subgenres": 36,
+      "parent_subgenres": 4,
+      "child_subgenres": 32,
+      "entities": 526,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 164,
+        "total_papers": 164,
+        "facet_counts": {
+          "none": 164
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning agriculture sustainability and environmental impact.",
+      "updated_at": "2026-04-15T09:42:44.207065Z"
+    },
     {
       "slug": "artificial-intelligence",
       "title": "Artificial Intelligence",

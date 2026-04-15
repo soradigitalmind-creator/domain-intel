@@ -1,0 +1,1849 @@
+{
+  "slug": "agriculture",
+  "title": "Agriculture",
+  "updated_at": "2026-04-15T09:42:44.153025Z",
+  "snapshot": {
+    "papers": 89,
+    "topics": 4,
+    "subtopics": 32,
+    "entities": 526,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 164,
+      "total_papers": 164,
+      "facet_counts": {
+        "none": 164
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning agriculture sustainability and environmental impact.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 32,
+    "max_depth": 2,
+    "leaf_topics": 32
+  },
+  "rising_topics": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/agriculture/topics/sg-climate-change",
+      "trend": "rising",
+      "year_total": 3772098
+    },
+    {
+      "id": "sg-carbon-sequestration",
+      "label": "Carbon sequestration",
+      "url": "/domains/agriculture/topics/sg-carbon-sequestration",
+      "trend": "rising",
+      "year_total": 267433
+    },
+    {
+      "id": "sg-food-security",
+      "label": "Food security",
+      "url": "/domains/agriculture/topics/sg-food-security",
+      "trend": "rising",
+      "year_total": 1279024
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/agriculture/topics/sg-climate-change",
+      "paper_count": 37,
+      "subtopic_count": 16,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "climate change",
+        "climate change food",
+        "climate change impacts on agriculture",
+        "global climate"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-climate-change-health-impacts",
+          "label": "Climate change health impacts",
+          "url": "/domains/agriculture/topics/sg-climate-change-climate-change-health-impacts",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-climate-change-water-resources",
+          "label": "Water resources",
+          "url": "/domains/agriculture/topics/sg-climate-change-water-resources",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-climate-change-climate-change-policy-and-economics",
+          "label": "Climate change policy and economics",
+          "url": "/domains/agriculture/topics/sg-climate-change-climate-change-policy-and-economics",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-climate-change-climate-extreme",
+          "label": "Climate extreme",
+          "url": "/domains/agriculture/topics/sg-climate-change-climate-extreme",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-climate-change-non-linear-temperature-effects",
+          "label": "Non-linear temperature effects",
+          "url": "/domains/agriculture/topics/sg-climate-change-non-linear-temperature-effects",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-climate-change-changing-climate",
+          "label": "Changing climate",
+          "url": "/domains/agriculture/topics/sg-climate-change-changing-climate",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-carbon-sequestration",
+      "label": "Carbon sequestration",
+      "url": "/domains/agriculture/topics/sg-carbon-sequestration",
+      "paper_count": 22,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: ecology, carbon sequestration, carbon dioxide",
+      "tags": [
+        "atmospheric carbon cycle",
+        "carbon dioxide",
+        "carbon sequestration",
+        "carbon sequestration impacts"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-carbon-soil-organic-matter",
+          "label": "Soil organic matter",
+          "url": "/domains/agriculture/topics/sg-soil-carbon-soil-organic-matter",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-carbon-sequestration-carbon-cycle",
+          "label": "Carbon cycle",
+          "url": "/domains/agriculture/topics/sg-carbon-sequestration-carbon-cycle",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-carbon-sequestration-soil-organic-carbon",
+          "label": "Soil organic carbon",
+          "url": "/domains/agriculture/topics/sg-carbon-sequestration-soil-organic-carbon",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-soil-carbon-organic-matter",
+          "label": "Organic matter",
+          "url": "/domains/agriculture/topics/sg-soil-carbon-organic-matter",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-soil-carbon-carbon-dioxide",
+          "label": "Carbon dioxide",
+          "url": "/domains/agriculture/topics/sg-soil-carbon-carbon-dioxide",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-carbon-sequestration-carbon-dioxide-capture",
+          "label": "Carbon dioxide capture",
+          "url": "/domains/agriculture/topics/sg-carbon-sequestration-carbon-dioxide-capture",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W262869635",
+          "title": "Marschner's Mineral Nutrition of Higher Plants",
+          "year": "2012",
+          "cited_by_count": 4344,
+          "url": "/domains/agriculture/papers/W262869635"
+        },
+        {
+          "source_id": "https://openalex.org/W2018459257",
+          "title": "An Earth-system perspective of the global nitrogen cycle",
+          "year": "2008",
+          "cited_by_count": 3556,
+          "url": "/domains/agriculture/papers/W2018459257"
+        },
+        {
+          "source_id": "https://openalex.org/W2988278250",
+          "title": "The technological and economic prospects for CO2 utilization and removal",
+          "year": "2019",
+          "cited_by_count": 2211,
+          "url": "/domains/agriculture/papers/W2988278250"
+        }
+      ]
+    },
+    {
+      "id": "sg-food-security",
+      "label": "Food security",
+      "url": "/domains/agriculture/topics/sg-food-security",
+      "paper_count": 21,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: agriculture, ecology, food security",
+      "tags": [
+        "agriculture sustainability and environmental impact",
+        "climate change food",
+        "food security",
+        "food systems"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-food-security-global-food-security",
+          "label": "Global food security",
+          "url": "/domains/agriculture/topics/sg-food-security-global-food-security",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-food-security-food-waste",
+          "label": "Food waste",
+          "url": "/domains/agriculture/topics/sg-food-security-food-waste",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-food-security-food-processing",
+          "label": "Food processing",
+          "url": "/domains/agriculture/topics/sg-food-security-food-processing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-food-security-nutrient-management",
+          "label": "Nutrient management",
+          "url": "/domains/agriculture/topics/sg-food-security-nutrient-management",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-food-security-food-security-food",
+          "label": "Food security food",
+          "url": "/domains/agriculture/topics/sg-food-security-food-security-food",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2909678677",
+          "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+          "year": "2019",
+          "cited_by_count": 10180,
+          "url": "/domains/agriculture/papers/W2909678677"
+        },
+        {
+          "source_id": "https://openalex.org/W2013414890",
+          "title": "Global food demand and the sustainable intensification of agriculture",
+          "year": "2011",
+          "cited_by_count": 7365,
+          "url": "/domains/agriculture/papers/W2013414890"
+        },
+        {
+          "source_id": "https://openalex.org/W2122266551",
+          "title": "Agricultural sustainability and intensive production practices",
+          "year": "2002",
+          "cited_by_count": 7653,
+          "url": "/domains/agriculture/papers/W2122266551"
+        }
+      ]
+    },
+    {
+      "id": "sg-agricultural-productivity",
+      "label": "Agricultural productivity",
+      "url": "/domains/agriculture/topics/sg-agricultural-productivity",
+      "paper_count": 9,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: agriculture, ecology, agricultural productivity",
+      "tags": [
+        "agricultural land",
+        "agricultural productivity",
+        "agriculture confronted",
+        "agriculture confronted pollinator"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-agricultural-productivity-agricultural-economics-and-policy",
+          "label": "Agricultural economics and policy",
+          "url": "/domains/agriculture/topics/sg-agricultural-productivity-agricultural-economics-and-policy",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-agricultural-productivity-renewable-resource",
+          "label": "Renewable resource",
+          "url": "/domains/agriculture/topics/sg-agricultural-productivity-renewable-resource",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-agricultural-productivity-agricultural-policy",
+          "label": "Agricultural policy",
+          "url": "/domains/agriculture/topics/sg-agricultural-productivity-agricultural-policy",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2190546151",
+          "title": "Managing nitrogen for sustainable development",
+          "year": "2015",
+          "cited_by_count": 2792,
+          "url": "/domains/agriculture/papers/W2190546151"
+        },
+        {
+          "source_id": "https://openalex.org/W2186066651",
+          "title": "World agriculture towards 2030/2050: the 2012 revision",
+          "year": "2012",
+          "cited_by_count": 3142,
+          "url": "/domains/agriculture/papers/W2186066651"
+        },
+        {
+          "source_id": "https://openalex.org/W2115943082",
+          "title": "Economic valuation of the vulnerability of world agriculture confronted with pollinator decline",
+          "year": "2008",
+          "cited_by_count": 2873,
+          "url": "/domains/agriculture/papers/W2115943082"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 11,
+      "papers": [
+        {
+          "title": "Food and Agriculture Organization of the United Nations",
+          "year": "2022",
+          "cited_by_count": 5418,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w189916372.html"
+        },
+        {
+          "title": "Soil Carbon Sequestration Impacts on Global Climate Change and Food Security",
+          "year": "2004",
+          "cited_by_count": 7931,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2144189317.html"
+        },
+        {
+          "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+          "year": "2006",
+          "cited_by_count": 6784,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2083857556.html"
+        },
+        {
+          "title": "Deep learning in agriculture: A survey",
+          "year": "2018",
+          "cited_by_count": 4282,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2790979755.html"
+        },
+        {
+          "title": "The contentious nature of soil organic matter",
+          "year": "2015",
+          "cited_by_count": 4107,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2200817828.html"
+        },
+        {
+          "title": "Biodiesel production: a review1Journal Series #12109, Agricultural Research Division, Institute of Agriculture and Natural Resources, University of Nebraska–Lincoln.1",
+          "year": "1999",
+          "cited_by_count": 5202,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1531931873.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate change",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Climate Change 2023 Synthesis Report",
+          "year": "2024",
+          "cited_by_count": 2376,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w1650569836.html"
+        },
+        {
+          "title": "The global burden of pathogens and pests on major food crops",
+          "year": "2019",
+          "cited_by_count": 3710,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2913500366.html"
+        },
+        {
+          "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+          "year": "2010",
+          "cited_by_count": 5468,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2028979033.html"
+        },
+        {
+          "title": "The Global Land Data Assimilation System",
+          "year": "2004",
+          "cited_by_count": 5608,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2119132330.html"
+        },
+        {
+          "title": "Influence of extreme weather disasters on global crop production",
+          "year": "2016",
+          "cited_by_count": 3617,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2227280755.html"
+        },
+        {
+          "title": "China and India lead in greening of the world through land-use management",
+          "year": "2019",
+          "cited_by_count": 2808,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2912077313.html"
+        }
+      ]
+    },
+    {
+      "label": "Food security",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+          "year": "2019",
+          "cited_by_count": 10180,
+          "topic": "Food security",
+          "url": "papers/https-openalex-org-w2909678677.html"
+        },
+        {
+          "title": "Global food demand and the sustainable intensification of agriculture",
+          "year": "2011",
+          "cited_by_count": 7365,
+          "topic": "Food security",
+          "url": "papers/https-openalex-org-w2013414890.html"
+        },
+        {
+          "title": "Agricultural sustainability and intensive production practices",
+          "year": "2002",
+          "cited_by_count": 7653,
+          "topic": "Food security",
+          "url": "papers/https-openalex-org-w2122266551.html"
+        },
+        {
+          "title": "Food systems are responsible for a third of global anthropogenic GHG emissions",
+          "year": "2021",
+          "cited_by_count": 2774,
+          "topic": "Food security",
+          "url": "papers/https-openalex-org-w3135170646.html"
+        },
+        {
+          "title": "The story of phosphorus: Global food security and food for thought",
+          "year": "2009",
+          "cited_by_count": 5052,
+          "topic": "Food security",
+          "url": "papers/https-openalex-org-w2126320505.html"
+        },
+        {
+          "title": "Global diets link environmental sustainability and human health",
+          "year": "2014",
+          "cited_by_count": 3231,
+          "topic": "Food security",
+          "url": "papers/https-openalex-org-w2037561382.html"
+        }
+      ]
+    },
+    {
+      "label": "Plant phenotypic plasticity",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Abiotic Stress Signaling and Responses in Plants",
+          "year": "2016",
+          "cited_by_count": 5603,
+          "topic": "Plant phenotypic plasticity",
+          "url": "papers/https-openalex-org-w2527891094.html"
+        },
+        {
+          "title": "Genome sequence of the palaeopolyploid soybean",
+          "year": "2010",
+          "cited_by_count": 4548,
+          "topic": "Plant phenotypic plasticity",
+          "url": "papers/https-openalex-org-w2012986985.html"
+        },
+        {
+          "title": "Heat tolerance in plants: An overview",
+          "year": "2007",
+          "cited_by_count": 3915,
+          "topic": "Plant phenotypic plasticity",
+          "url": "papers/https-openalex-org-w2115921954.html"
+        },
+        {
+          "title": "Plant immunity: towards an integrated view of plant–pathogen interactions",
+          "year": "2010",
+          "cited_by_count": 3438,
+          "topic": "Plant phenotypic plasticity",
+          "url": "papers/https-openalex-org-w2010854320.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate change policy and economics",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Marschner&#x27;s Mineral Nutrition of Higher Plants",
+          "year": "2012",
+          "cited_by_count": 4344,
+          "topic": "Climate change policy and economics",
+          "url": "papers/https-openalex-org-w262869635.html"
+        },
+        {
+          "title": "Abiotic stress responses in plants",
+          "year": "2021",
+          "cited_by_count": 1978,
+          "topic": "Climate change policy and economics",
+          "url": "papers/https-openalex-org-w3199730086.html"
+        },
+        {
+          "title": "Impact of pesticides use in agriculture: their benefits and hazards",
+          "year": "2009",
+          "cited_by_count": 3459,
+          "topic": "Climate change policy and economics",
+          "url": "papers/https-openalex-org-w2158809385.html"
+        }
+      ]
+    },
+    {
+      "label": "Agricultural productivity",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Managing nitrogen for sustainable development",
+          "year": "2015",
+          "cited_by_count": 2792,
+          "topic": "Agricultural productivity",
+          "url": "papers/https-openalex-org-w2190546151.html"
+        },
+        {
+          "title": "World agriculture towards 2030/2050: the 2012 revision",
+          "year": "2012",
+          "cited_by_count": 3142,
+          "topic": "Agricultural productivity",
+          "url": "papers/https-openalex-org-w2186066651.html"
+        }
+      ]
+    },
+    {
+      "label": "Climate change health impacts",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Global mortality associated with 33 bacterial pathogens in 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2022",
+          "cited_by_count": 1985,
+          "topic": "Climate change health impacts",
+          "url": "papers/https-openalex-org-w4309503005.html"
+        },
+        {
+          "title": "Infectious disease in an era of global change",
+          "year": "2021",
+          "cited_by_count": 1896,
+          "topic": "Climate change health impacts",
+          "url": "papers/https-openalex-org-w3205480029.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon sequestration",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "An Earth-system perspective of the global nitrogen cycle",
+          "year": "2008",
+          "cited_by_count": 3556,
+          "topic": "Carbon sequestration",
+          "url": "papers/https-openalex-org-w2018459257.html"
+        }
+      ]
+    },
+    {
+      "label": "Food security food",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Agriculture Development, Pesticide Application and Its Impact on the Environment",
+          "year": "2021",
+          "cited_by_count": 2403,
+          "topic": "Food security food",
+          "url": "papers/https-openalex-org-w3125960586.html"
+        }
+      ]
+    },
+    {
+      "label": "Water resources",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Machine Learning in Agriculture: A Review",
+          "year": "2018",
+          "cited_by_count": 2854,
+          "topic": "Water resources",
+          "url": "papers/https-openalex-org-w2885770726.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10180,
+      "adjusted_cited_by_count": 3847.68,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security",
+      "url": "/domains/agriculture/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W189916372",
+      "title": "Food and Agriculture Organization of the United Nations",
+      "year": 2022,
+      "cited_by_count": 5418,
+      "adjusted_cited_by_count": 2709.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W189916372"
+    },
+    {
+      "source_id": "https://openalex.org/W1650569836",
+      "title": "Climate Change 2023 Synthesis Report",
+      "year": 2024,
+      "cited_by_count": 2376,
+      "adjusted_cited_by_count": 2376.0,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W1650569836"
+    },
+    {
+      "source_id": "https://openalex.org/W2013414890",
+      "title": "Global food demand and the sustainable intensification of agriculture",
+      "year": 2011,
+      "cited_by_count": 7365,
+      "adjusted_cited_by_count": 1901.63,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security",
+      "url": "/domains/agriculture/papers/W2013414890"
+    },
+    {
+      "source_id": "https://openalex.org/W2527891094",
+      "title": "Abiotic Stress Signaling and Responses in Plants",
+      "year": 2016,
+      "cited_by_count": 5603,
+      "adjusted_cited_by_count": 1771.82,
+      "primary_topic_id": "sg-climate-change-plant-phenotypic-plasticity",
+      "primary_topic_label": "Plant phenotypic plasticity",
+      "url": "/domains/agriculture/papers/W2527891094"
+    },
+    {
+      "source_id": "https://openalex.org/W2144189317",
+      "title": "Soil Carbon Sequestration Impacts on Global Climate Change and Food Security",
+      "year": 2004,
+      "cited_by_count": 7931,
+      "adjusted_cited_by_count": 1690.89,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W2144189317"
+    },
+    {
+      "source_id": "https://openalex.org/W2122266551",
+      "title": "Agricultural sustainability and intensive production practices",
+      "year": 2002,
+      "cited_by_count": 7653,
+      "adjusted_cited_by_count": 1562.16,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security",
+      "url": "/domains/agriculture/papers/W2122266551"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6784,
+      "adjusted_cited_by_count": 1516.95,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2790979755",
+      "title": "Deep learning in agriculture: A survey",
+      "year": 2018,
+      "cited_by_count": 4282,
+      "adjusted_cited_by_count": 1513.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W2790979755"
+    },
+    {
+      "source_id": "https://openalex.org/W2913500366",
+      "title": "The global burden of pathogens and pests on major food crops",
+      "year": 2019,
+      "cited_by_count": 3710,
+      "adjusted_cited_by_count": 1402.25,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2913500366"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979033",
+      "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+      "year": 2010,
+      "cited_by_count": 5468,
+      "adjusted_cited_by_count": 1367.0,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2028979033"
+    },
+    {
+      "source_id": "https://openalex.org/W3135170646",
+      "title": "Food systems are responsible for a third of global anthropogenic GHG emissions",
+      "year": 2021,
+      "cited_by_count": 2774,
+      "adjusted_cited_by_count": 1240.57,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security",
+      "url": "/domains/agriculture/papers/W3135170646"
+    },
+    {
+      "source_id": "https://openalex.org/W2200817828",
+      "title": "The contentious nature of soil organic matter",
+      "year": 2015,
+      "cited_by_count": 4107,
+      "adjusted_cited_by_count": 1238.31,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W2200817828"
+    },
+    {
+      "source_id": "https://openalex.org/W2126320505",
+      "title": "The story of phosphorus: Global food security and food for thought",
+      "year": 2009,
+      "cited_by_count": 5052,
+      "adjusted_cited_by_count": 1225.29,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security",
+      "url": "/domains/agriculture/papers/W2126320505"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5608,
+      "adjusted_cited_by_count": 1195.63,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W262869635",
+      "title": "Marschner's Mineral Nutrition of Higher Plants",
+      "year": 2012,
+      "cited_by_count": 4344,
+      "adjusted_cited_by_count": 1160.98,
+      "primary_topic_id": "sg-climate-change-climate-change-policy-and-economics",
+      "primary_topic_label": "Climate change policy and economics",
+      "url": "/domains/agriculture/papers/W262869635"
+    },
+    {
+      "source_id": "https://openalex.org/W2227280755",
+      "title": "Influence of extreme weather disasters on global crop production",
+      "year": 2016,
+      "cited_by_count": 3617,
+      "adjusted_cited_by_count": 1143.8,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2227280755"
+    },
+    {
+      "source_id": "https://openalex.org/W2012986985",
+      "title": "Genome sequence of the palaeopolyploid soybean",
+      "year": 2010,
+      "cited_by_count": 4548,
+      "adjusted_cited_by_count": 1137.0,
+      "primary_topic_id": "sg-climate-change-plant-phenotypic-plasticity",
+      "primary_topic_label": "Plant phenotypic plasticity",
+      "url": "/domains/agriculture/papers/W2012986985"
+    },
+    {
+      "source_id": "https://openalex.org/W3125960586",
+      "title": "Agriculture Development, Pesticide Application and Its Impact on the Environment",
+      "year": 2021,
+      "cited_by_count": 2403,
+      "adjusted_cited_by_count": 1074.65,
+      "primary_topic_id": "sg-food-security-food-security-food",
+      "primary_topic_label": "Food security food",
+      "url": "/domains/agriculture/papers/W3125960586"
+    },
+    {
+      "source_id": "https://openalex.org/W2912077313",
+      "title": "China and India lead in greening of the world through land-use management",
+      "year": 2019,
+      "cited_by_count": 2808,
+      "adjusted_cited_by_count": 1061.32,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2912077313"
+    },
+    {
+      "source_id": "https://openalex.org/W4226404192",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "year": 2022,
+      "cited_by_count": 2065,
+      "adjusted_cited_by_count": 1032.5,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W4226404192"
+    },
+    {
+      "source_id": "https://openalex.org/W2885770726",
+      "title": "Machine Learning in Agriculture: A Review",
+      "year": 2018,
+      "cited_by_count": 2854,
+      "adjusted_cited_by_count": 1009.04,
+      "primary_topic_id": "sg-climate-change-water-resources",
+      "primary_topic_label": "Water resources",
+      "url": "/domains/agriculture/papers/W2885770726"
+    },
+    {
+      "source_id": "https://openalex.org/W1531931873",
+      "title": "Biodiesel production: a review1Journal Series #12109, Agricultural Research Division, Institute of Agriculture and Natural Resources, University of Nebraska–Lincoln.1",
+      "year": 1999,
+      "cited_by_count": 5202,
+      "adjusted_cited_by_count": 1001.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W1531931873"
+    },
+    {
+      "source_id": "https://openalex.org/W4309503005",
+      "title": "Global mortality associated with 33 bacterial pathogens in 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2022,
+      "cited_by_count": 1985,
+      "adjusted_cited_by_count": 992.5,
+      "primary_topic_id": "sg-climate-change-climate-change-health-impacts",
+      "primary_topic_label": "Climate change health impacts",
+      "url": "/domains/agriculture/papers/W4309503005"
+    },
+    {
+      "source_id": "https://openalex.org/W2090345409",
+      "title": "Heavy metals, occurrence and toxicity for plants: a review",
+      "year": 2010,
+      "cited_by_count": 3847,
+      "adjusted_cited_by_count": 961.75,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W2090345409"
+    },
+    {
+      "source_id": "https://openalex.org/W1622878345",
+      "title": "The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context",
+      "year": 2015,
+      "cited_by_count": 3108,
+      "adjusted_cited_by_count": 937.1,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W1622878345"
+    },
+    {
+      "source_id": "https://openalex.org/W3130661498",
+      "title": "Heavy Metals and Pesticides Toxicity in Agricultural Soil and Plants: Ecological Risks and Human Health Implications",
+      "year": 2021,
+      "cited_by_count": 2095,
+      "adjusted_cited_by_count": 936.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W3130661498"
+    },
+    {
+      "source_id": "https://openalex.org/W2037561382",
+      "title": "Global diets link environmental sustainability and human health",
+      "year": 2014,
+      "cited_by_count": 3231,
+      "adjusted_cited_by_count": 932.71,
+      "primary_topic_id": "sg-food-security",
+      "primary_topic_label": "Food security",
+      "url": "/domains/agriculture/papers/W2037561382"
+    },
+    {
+      "source_id": "https://openalex.org/W2115921954",
+      "title": "Heat tolerance in plants: An overview",
+      "year": 2007,
+      "cited_by_count": 3915,
+      "adjusted_cited_by_count": 898.16,
+      "primary_topic_id": "sg-climate-change-plant-phenotypic-plasticity",
+      "primary_topic_label": "Plant phenotypic plasticity",
+      "url": "/domains/agriculture/papers/W2115921954"
+    },
+    {
+      "source_id": "https://openalex.org/W3199730086",
+      "title": "Abiotic stress responses in plants",
+      "year": 2021,
+      "cited_by_count": 1978,
+      "adjusted_cited_by_count": 884.59,
+      "primary_topic_id": "sg-climate-change-climate-change-policy-and-economics",
+      "primary_topic_label": "Climate change policy and economics",
+      "url": "/domains/agriculture/papers/W3199730086"
+    },
+    {
+      "source_id": "https://openalex.org/W1992109042",
+      "title": "Economic Reform and the Process of Global Integration",
+      "year": 1995,
+      "cited_by_count": 4903,
+      "adjusted_cited_by_count": 880.6,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W1992109042"
+    },
+    {
+      "source_id": "https://openalex.org/W2887136521",
+      "title": "Structure and function of the global topsoil microbiome",
+      "year": 2018,
+      "cited_by_count": 2434,
+      "adjusted_cited_by_count": 860.55,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/agriculture/papers/W2887136521"
+    },
+    {
+      "source_id": "https://openalex.org/W2010854320",
+      "title": "Plant immunity: towards an integrated view of plant–pathogen interactions",
+      "year": 2010,
+      "cited_by_count": 3438,
+      "adjusted_cited_by_count": 859.5,
+      "primary_topic_id": "sg-climate-change-plant-phenotypic-plasticity",
+      "primary_topic_label": "Plant phenotypic plasticity",
+      "url": "/domains/agriculture/papers/W2010854320"
+    },
+    {
+      "source_id": "https://openalex.org/W2158535548",
+      "title": "The impacts of climate change on water resources and agriculture in China",
+      "year": 2010,
+      "cited_by_count": 3407,
+      "adjusted_cited_by_count": 851.75,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2158535548"
+    },
+    {
+      "source_id": "https://openalex.org/W3205480029",
+      "title": "Infectious disease in an era of global change",
+      "year": 2021,
+      "cited_by_count": 1896,
+      "adjusted_cited_by_count": 847.92,
+      "primary_topic_id": "sg-climate-change-climate-change-health-impacts",
+      "primary_topic_label": "Climate change health impacts",
+      "url": "/domains/agriculture/papers/W3205480029"
+    },
+    {
+      "source_id": "https://openalex.org/W2190546151",
+      "title": "Managing nitrogen for sustainable development",
+      "year": 2015,
+      "cited_by_count": 2792,
+      "adjusted_cited_by_count": 841.82,
+      "primary_topic_id": "sg-agricultural-productivity",
+      "primary_topic_label": "Agricultural productivity",
+      "url": "/domains/agriculture/papers/W2190546151"
+    },
+    {
+      "source_id": "https://openalex.org/W2186066651",
+      "title": "World agriculture towards 2030/2050: the 2012 revision",
+      "year": 2012,
+      "cited_by_count": 3142,
+      "adjusted_cited_by_count": 839.73,
+      "primary_topic_id": "sg-agricultural-productivity",
+      "primary_topic_label": "Agricultural productivity",
+      "url": "/domains/agriculture/papers/W2186066651"
+    },
+    {
+      "source_id": "https://openalex.org/W2158809385",
+      "title": "Impact of pesticides use in agriculture: their benefits and hazards",
+      "year": 2009,
+      "cited_by_count": 3459,
+      "adjusted_cited_by_count": 838.93,
+      "primary_topic_id": "sg-climate-change-climate-change-policy-and-economics",
+      "primary_topic_label": "Climate change policy and economics",
+      "url": "/domains/agriculture/papers/W2158809385"
+    },
+    {
+      "source_id": "https://openalex.org/W2018459257",
+      "title": "An Earth-system perspective of the global nitrogen cycle",
+      "year": 2008,
+      "cited_by_count": 3556,
+      "adjusted_cited_by_count": 838.16,
+      "primary_topic_id": "sg-carbon-sequestration",
+      "primary_topic_label": "Carbon sequestration",
+      "url": "/domains/agriculture/papers/W2018459257"
+    },
+    {
+      "source_id": "https://openalex.org/W2175751433",
+      "title": "Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health",
+      "year": 2015,
+      "cited_by_count": 2774,
+      "adjusted_cited_by_count": 836.39,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/agriculture/papers/W2175751433"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2909678677",
+      "title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+      "year": 2019,
+      "cited_by_count": 10180,
+      "adjusted_cited_by_count": 3847.68,
+      "url": "/domains/agriculture/papers/W2909678677"
+    },
+    {
+      "source_id": "https://openalex.org/W189916372",
+      "title": "Food and Agriculture Organization of the United Nations",
+      "year": 2022,
+      "cited_by_count": 5418,
+      "adjusted_cited_by_count": 2709.0,
+      "url": "/domains/agriculture/papers/W189916372"
+    },
+    {
+      "source_id": "https://openalex.org/W1650569836",
+      "title": "Climate Change 2023 Synthesis Report",
+      "year": 2024,
+      "cited_by_count": 2376,
+      "adjusted_cited_by_count": 2376.0,
+      "url": "/domains/agriculture/papers/W1650569836"
+    },
+    {
+      "source_id": "https://openalex.org/W2013414890",
+      "title": "Global food demand and the sustainable intensification of agriculture",
+      "year": 2011,
+      "cited_by_count": 7365,
+      "adjusted_cited_by_count": 1901.63,
+      "url": "/domains/agriculture/papers/W2013414890"
+    },
+    {
+      "source_id": "https://openalex.org/W2527891094",
+      "title": "Abiotic Stress Signaling and Responses in Plants",
+      "year": 2016,
+      "cited_by_count": 5603,
+      "adjusted_cited_by_count": 1771.82,
+      "url": "/domains/agriculture/papers/W2527891094"
+    },
+    {
+      "source_id": "https://openalex.org/W2144189317",
+      "title": "Soil Carbon Sequestration Impacts on Global Climate Change and Food Security",
+      "year": 2004,
+      "cited_by_count": 7931,
+      "adjusted_cited_by_count": 1690.89,
+      "url": "/domains/agriculture/papers/W2144189317"
+    },
+    {
+      "source_id": "https://openalex.org/W2122266551",
+      "title": "Agricultural sustainability and intensive production practices",
+      "year": 2002,
+      "cited_by_count": 7653,
+      "adjusted_cited_by_count": 1562.16,
+      "url": "/domains/agriculture/papers/W2122266551"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6784,
+      "adjusted_cited_by_count": 1516.95,
+      "url": "/domains/agriculture/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2790979755",
+      "title": "Deep learning in agriculture: A survey",
+      "year": 2018,
+      "cited_by_count": 4282,
+      "adjusted_cited_by_count": 1513.92,
+      "url": "/domains/agriculture/papers/W2790979755"
+    },
+    {
+      "source_id": "https://openalex.org/W2913500366",
+      "title": "The global burden of pathogens and pests on major food crops",
+      "year": 2019,
+      "cited_by_count": 3710,
+      "adjusted_cited_by_count": 1402.25,
+      "url": "/domains/agriculture/papers/W2913500366"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979033",
+      "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+      "year": 2010,
+      "cited_by_count": 5468,
+      "adjusted_cited_by_count": 1367.0,
+      "url": "/domains/agriculture/papers/W2028979033"
+    },
+    {
+      "source_id": "https://openalex.org/W3135170646",
+      "title": "Food systems are responsible for a third of global anthropogenic GHG emissions",
+      "year": 2021,
+      "cited_by_count": 2774,
+      "adjusted_cited_by_count": 1240.57,
+      "url": "/domains/agriculture/papers/W3135170646"
+    },
+    {
+      "source_id": "https://openalex.org/W2200817828",
+      "title": "The contentious nature of soil organic matter",
+      "year": 2015,
+      "cited_by_count": 4107,
+      "adjusted_cited_by_count": 1238.31,
+      "url": "/domains/agriculture/papers/W2200817828"
+    },
+    {
+      "source_id": "https://openalex.org/W2126320505",
+      "title": "The story of phosphorus: Global food security and food for thought",
+      "year": 2009,
+      "cited_by_count": 5052,
+      "adjusted_cited_by_count": 1225.29,
+      "url": "/domains/agriculture/papers/W2126320505"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5608,
+      "adjusted_cited_by_count": 1195.63,
+      "url": "/domains/agriculture/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W262869635",
+      "title": "Marschner's Mineral Nutrition of Higher Plants",
+      "year": 2012,
+      "cited_by_count": 4344,
+      "adjusted_cited_by_count": 1160.98,
+      "url": "/domains/agriculture/papers/W262869635"
+    },
+    {
+      "source_id": "https://openalex.org/W2227280755",
+      "title": "Influence of extreme weather disasters on global crop production",
+      "year": 2016,
+      "cited_by_count": 3617,
+      "adjusted_cited_by_count": 1143.8,
+      "url": "/domains/agriculture/papers/W2227280755"
+    },
+    {
+      "source_id": "https://openalex.org/W2012986985",
+      "title": "Genome sequence of the palaeopolyploid soybean",
+      "year": 2010,
+      "cited_by_count": 4548,
+      "adjusted_cited_by_count": 1137.0,
+      "url": "/domains/agriculture/papers/W2012986985"
+    },
+    {
+      "source_id": "https://openalex.org/W3125960586",
+      "title": "Agriculture Development, Pesticide Application and Its Impact on the Environment",
+      "year": 2021,
+      "cited_by_count": 2403,
+      "adjusted_cited_by_count": 1074.65,
+      "url": "/domains/agriculture/papers/W3125960586"
+    },
+    {
+      "source_id": "https://openalex.org/W2912077313",
+      "title": "China and India lead in greening of the world through land-use management",
+      "year": 2019,
+      "cited_by_count": 2808,
+      "adjusted_cited_by_count": 1061.32,
+      "url": "/domains/agriculture/papers/W2912077313"
+    },
+    {
+      "source_id": "https://openalex.org/W4226404192",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "year": 2022,
+      "cited_by_count": 2065,
+      "adjusted_cited_by_count": 1032.5,
+      "url": "/domains/agriculture/papers/W4226404192"
+    },
+    {
+      "source_id": "https://openalex.org/W2885770726",
+      "title": "Machine Learning in Agriculture: A Review",
+      "year": 2018,
+      "cited_by_count": 2854,
+      "adjusted_cited_by_count": 1009.04,
+      "url": "/domains/agriculture/papers/W2885770726"
+    },
+    {
+      "source_id": "https://openalex.org/W1531931873",
+      "title": "Biodiesel production: a review1Journal Series #12109, Agricultural Research Division, Institute of Agriculture and Natural Resources, University of Nebraska–Lincoln.1",
+      "year": 1999,
+      "cited_by_count": 5202,
+      "adjusted_cited_by_count": 1001.13,
+      "url": "/domains/agriculture/papers/W1531931873"
+    },
+    {
+      "source_id": "https://openalex.org/W4309503005",
+      "title": "Global mortality associated with 33 bacterial pathogens in 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2022,
+      "cited_by_count": 1985,
+      "adjusted_cited_by_count": 992.5,
+      "url": "/domains/agriculture/papers/W4309503005"
+    },
+    {
+      "source_id": "https://openalex.org/W2090345409",
+      "title": "Heavy metals, occurrence and toxicity for plants: a review",
+      "year": 2010,
+      "cited_by_count": 3847,
+      "adjusted_cited_by_count": 961.75,
+      "url": "/domains/agriculture/papers/W2090345409"
+    },
+    {
+      "source_id": "https://openalex.org/W1622878345",
+      "title": "The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context",
+      "year": 2015,
+      "cited_by_count": 3108,
+      "adjusted_cited_by_count": 937.1,
+      "url": "/domains/agriculture/papers/W1622878345"
+    },
+    {
+      "source_id": "https://openalex.org/W3130661498",
+      "title": "Heavy Metals and Pesticides Toxicity in Agricultural Soil and Plants: Ecological Risks and Human Health Implications",
+      "year": 2021,
+      "cited_by_count": 2095,
+      "adjusted_cited_by_count": 936.91,
+      "url": "/domains/agriculture/papers/W3130661498"
+    },
+    {
+      "source_id": "https://openalex.org/W2037561382",
+      "title": "Global diets link environmental sustainability and human health",
+      "year": 2014,
+      "cited_by_count": 3231,
+      "adjusted_cited_by_count": 932.71,
+      "url": "/domains/agriculture/papers/W2037561382"
+    },
+    {
+      "source_id": "https://openalex.org/W2115921954",
+      "title": "Heat tolerance in plants: An overview",
+      "year": 2007,
+      "cited_by_count": 3915,
+      "adjusted_cited_by_count": 898.16,
+      "url": "/domains/agriculture/papers/W2115921954"
+    },
+    {
+      "source_id": "https://openalex.org/W3199730086",
+      "title": "Abiotic stress responses in plants",
+      "year": 2021,
+      "cited_by_count": 1978,
+      "adjusted_cited_by_count": 884.59,
+      "url": "/domains/agriculture/papers/W3199730086"
+    },
+    {
+      "source_id": "https://openalex.org/W1992109042",
+      "title": "Economic Reform and the Process of Global Integration",
+      "year": 1995,
+      "cited_by_count": 4903,
+      "adjusted_cited_by_count": 880.6,
+      "url": "/domains/agriculture/papers/W1992109042"
+    },
+    {
+      "source_id": "https://openalex.org/W2887136521",
+      "title": "Structure and function of the global topsoil microbiome",
+      "year": 2018,
+      "cited_by_count": 2434,
+      "adjusted_cited_by_count": 860.55,
+      "url": "/domains/agriculture/papers/W2887136521"
+    },
+    {
+      "source_id": "https://openalex.org/W2010854320",
+      "title": "Plant immunity: towards an integrated view of plant–pathogen interactions",
+      "year": 2010,
+      "cited_by_count": 3438,
+      "adjusted_cited_by_count": 859.5,
+      "url": "/domains/agriculture/papers/W2010854320"
+    },
+    {
+      "source_id": "https://openalex.org/W2158535548",
+      "title": "The impacts of climate change on water resources and agriculture in China",
+      "year": 2010,
+      "cited_by_count": 3407,
+      "adjusted_cited_by_count": 851.75,
+      "url": "/domains/agriculture/papers/W2158535548"
+    },
+    {
+      "source_id": "https://openalex.org/W3205480029",
+      "title": "Infectious disease in an era of global change",
+      "year": 2021,
+      "cited_by_count": 1896,
+      "adjusted_cited_by_count": 847.92,
+      "url": "/domains/agriculture/papers/W3205480029"
+    },
+    {
+      "source_id": "https://openalex.org/W2190546151",
+      "title": "Managing nitrogen for sustainable development",
+      "year": 2015,
+      "cited_by_count": 2792,
+      "adjusted_cited_by_count": 841.82,
+      "url": "/domains/agriculture/papers/W2190546151"
+    },
+    {
+      "source_id": "https://openalex.org/W2186066651",
+      "title": "World agriculture towards 2030/2050: the 2012 revision",
+      "year": 2012,
+      "cited_by_count": 3142,
+      "adjusted_cited_by_count": 839.73,
+      "url": "/domains/agriculture/papers/W2186066651"
+    },
+    {
+      "source_id": "https://openalex.org/W2158809385",
+      "title": "Impact of pesticides use in agriculture: their benefits and hazards",
+      "year": 2009,
+      "cited_by_count": 3459,
+      "adjusted_cited_by_count": 838.93,
+      "url": "/domains/agriculture/papers/W2158809385"
+    },
+    {
+      "source_id": "https://openalex.org/W2018459257",
+      "title": "An Earth-system perspective of the global nitrogen cycle",
+      "year": 2008,
+      "cited_by_count": 3556,
+      "adjusted_cited_by_count": 838.16,
+      "url": "/domains/agriculture/papers/W2018459257"
+    },
+    {
+      "source_id": "https://openalex.org/W2175751433",
+      "title": "Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health",
+      "year": 2015,
+      "cited_by_count": 2774,
+      "adjusted_cited_by_count": 836.39,
+      "url": "/domains/agriculture/papers/W2175751433"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "agriculture",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 79
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "food",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 33
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "natural resource economics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 30
+    },
+    {
+      "label": "plant",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "production",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "soil",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "crop",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 24
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 24
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 22
+    },
+    {
+      "label": "agronomy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "food security",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 21
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "environmental resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "greenhouse gas",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "soil water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "agroforestry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 17
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 46
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9894,
+      "evidence_count": 17
+    },
+    {
+      "label": "economic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 20
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 18
+    },
+    {
+      "label": "agricultural economics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 15
+    },
+    {
+      "label": "soil science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 15
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 15
+    },
+    {
+      "label": "resource",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 43
+    },
+    {
+      "label": "agricultural productivity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 13
+    },
+    {
+      "label": "environmental chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 13
+    },
+    {
+      "label": "waste management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 13
+    },
+    {
+      "label": "global warming",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 12
+    },
+    {
+      "label": "carbon dioxide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 11
+    },
+    {
+      "label": "environmental planning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 11
+    },
+    {
+      "label": "of global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 11
+    },
+    {
+      "label": "public health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 11
+    },
+    {
+      "label": "organic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 19
+    }
+  ],
+  "topic_year_counts": {
+    "food security": {
+      "2025": 167471,
+      "2024": 150944,
+      "2023": 146272,
+      "2022": 104606,
+      "2021": 92815,
+      "2020": 81347,
+      "2019": 65340,
+      "2018": 57186,
+      "2017": 49261,
+      "2016": 44767,
+      "2026": 41287,
+      "2015": 40578,
+      "2014": 37469,
+      "2013": 32363,
+      "2012": 27854,
+      "2011": 23618,
+      "2010": 20424,
+      "2009": 18016,
+      "2008": 14415,
+      "2007": 11859,
+      "2006": 10692,
+      "2005": 9293,
+      "2004": 7913,
+      "2003": 6982,
+      "2002": 5949,
+      "2000": 5291,
+      "2001": 5012
+    },
+    "agricultural productivity": {
+      "2025": 143896,
+      "2024": 125803,
+      "2023": 118865,
+      "2022": 83533,
+      "2021": 75541,
+      "2020": 69568,
+      "2019": 56829,
+      "2018": 50583,
+      "2017": 43608,
+      "2016": 38232,
+      "2026": 35371,
+      "2015": 34180,
+      "2014": 30274,
+      "2013": 27291,
+      "2012": 23277,
+      "2011": 19982,
+      "2010": 16925,
+      "2009": 15258,
+      "2008": 12375,
+      "2007": 10814,
+      "2006": 10219,
+      "2005": 9060,
+      "2004": 7979,
+      "2003": 7044,
+      "2001": 6464,
+      "2002": 6023,
+      "2000": 5936
+    },
+    "carbon sequestration": {
+      "2025": 37993,
+      "2024": 31000,
+      "2023": 29359,
+      "2022": 19821,
+      "2021": 17157,
+      "2020": 14963,
+      "2019": 12231,
+      "2018": 11238,
+      "2026": 11129,
+      "2017": 10231,
+      "2016": 9700,
+      "2015": 8496,
+      "2014": 8397,
+      "2013": 7810,
+      "2012": 6761,
+      "2011": 5754,
+      "2010": 4956,
+      "2009": 4287,
+      "2008": 3227,
+      "2007": 2791,
+      "2006": 2128,
+      "2005": 2041,
+      "2004": 1720,
+      "2003": 1432,
+      "2002": 1104,
+      "2001": 946,
+      "2000": 761
+    },
+    "climate change": {
+      "2025": 467494,
+      "2024": 415429,
+      "2023": 407372,
+      "2022": 293468,
+      "2021": 265179,
+      "2020": 238125,
+      "2019": 195750,
+      "2018": 172964,
+      "2017": 152495,
+      "2016": 141455,
+      "2015": 127841,
+      "2026": 122004,
+      "2014": 116052,
+      "2013": 106767,
+      "2012": 94404,
+      "2011": 81771,
+      "2010": 71762,
+      "2009": 61304,
+      "2008": 48055,
+      "2007": 39367,
+      "2006": 32100,
+      "2005": 27449,
+      "2004": 23681,
+      "2003": 20575,
+      "2002": 17642,
+      "2000": 15910,
+      "2001": 15683
+    }
+  }
+}
