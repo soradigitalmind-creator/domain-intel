@@ -258,8 +258,14 @@ function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
   const topics = rootTopics
     .map((topic) => {
       const children = subgenres.filter((t) => t.parent_id === topic.subgenre_id);
+      // Effective paper count: root own papers + all descendant papers (deduped).
+      // Concentrated roots may have 0 own paper_ids after demotion to children.
+      const effectivePaperIds = [...new Set([
+        ...topic.paper_ids,
+        ...children.flatMap((c) => c.paper_ids),
+      ])];
       const trendScore = computeTrendScore(topicYearCounts?.[topic.label]);
-      const featuredPapers = topic.paper_ids
+      const featuredPapers = effectivePaperIds
         .map((id) => mapTopicPaper(id, sourceById, assignmentById))
         .filter(Boolean)
         .sort((a, b) => b.cited_by_count - a.cited_by_count)
@@ -269,7 +275,7 @@ function buildTopicsIndexData(slug, bundle, siteDomainData, domainSummary, maps)
         subgenre_id: topic.subgenre_id,
         label: capitalizeFirst(topic.label),
         summary: sanitizeTopicSummary(topic.summary),
-        paperCount: topic.paper_ids.length,
+        paperCount: effectivePaperIds.length,
         subtopicCount: children.length,
         tags: topic.member_terms.slice(0, 4),
         trendScore,
@@ -376,10 +382,14 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
     currentParentId = parent.parent_id;
   }
 
-  // Children of current topic
+  // Children of current topic — include descendant papers in count
   const children = subgenres
     .filter((t) => t.parent_id === topic.subgenre_id)
-    .map((c) => ({ subgenre_id: c.subgenre_id, label: capitalizeFirst(c.label), paperCount: c.paper_ids.length }));
+    .map((c) => {
+      const grandKids = subgenres.filter((t) => t.parent_id === c.subgenre_id);
+      const effectiveIds = new Set([...c.paper_ids, ...grandKids.flatMap((g) => g.paper_ids)]);
+      return { subgenre_id: c.subgenre_id, label: capitalizeFirst(c.label), paperCount: effectiveIds.size };
+    });
 
   // Grandchildren keyed by child id (for display in child cards)
   const grandchildren = {};
@@ -406,11 +416,13 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
       }
       const union = selfFp.size + otherFp.size - intersection;
       const similarity = union > 0 ? Math.round((intersection / union) * 100) : 0;
+      const tChildren = subgenres.filter((c) => c.parent_id === t.subgenre_id);
+      const tEffective = new Set([...t.paper_ids, ...tChildren.flatMap((c) => c.paper_ids)]);
       return {
         subgenre_id: t.subgenre_id,
         label: capitalizeFirst(t.label),
-        paperCount: t.paper_ids.length,
-        subtopicCount: subgenres.filter((c) => c.parent_id === t.subgenre_id).length,
+        paperCount: tEffective.size,
+        subtopicCount: tChildren.length,
         similarity,
       };
     })
