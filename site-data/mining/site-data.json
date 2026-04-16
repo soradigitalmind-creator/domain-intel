@@ -1,11 +1,11 @@
 {
   "slug": "mining",
   "title": "Mining",
-  "updated_at": "2026-04-16T10:02:38.857988Z",
+  "updated_at": "2026-04-16T10:42:16.405801Z",
   "snapshot": {
     "papers": 185,
     "topics": 9,
-    "subtopics": 135,
+    "subtopics": 128,
     "entities": 447,
     "claims": 0
   },
@@ -29,9 +29,9 @@
   },
   "hierarchy": {
     "root_topics": 9,
-    "descendant_topics": 135,
+    "descendant_topics": 128,
     "max_depth": 4,
-    "leaf_topics": 105
+    "leaf_topics": 100
   },
   "rising_topics": [
     {
@@ -49,11 +49,11 @@
       "year_total": 1019590
     },
     {
-      "id": "sg-pattern-recognition",
-      "label": "Pattern recognition",
-      "url": "/domains/mining/topics/sg-pattern-recognition",
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/mining/topics/sg-neural-network",
       "trend": "rising",
-      "year_total": 2820910
+      "year_total": 3550319
     }
   ],
   "topic_branches": [
@@ -62,7 +62,7 @@
       "label": "Data mining",
       "url": "/domains/mining/topics/sg-data-mining",
       "paper_count": 83,
-      "subtopic_count": 32,
+      "subtopic_count": 31,
       "trend": "rising",
       "summary": "entities: data mining, bluetooth, human mobility and location-based analysis",
       "tags": [
@@ -137,7 +137,7 @@
       "id": "sg-information-retrieval",
       "label": "Information retrieval",
       "url": "/domains/mining/topics/sg-information-retrieval",
-      "paper_count": 26,
+      "paper_count": 22,
       "subtopic_count": 2,
       "trend": "rising",
       "summary": "entities: information retrieval, a survey, data mining",
@@ -170,70 +170,18 @@
           "url": "/domains/mining/papers/W2140190241"
         },
         {
-          "source_id": "https://openalex.org/W2474747771",
-          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
-          "year": "2016",
-          "cited_by_count": 5236,
-          "url": "/domains/mining/papers/W2474747771"
+          "source_id": "https://openalex.org/W1974116356",
+          "title": "High-throughput functional annotation and data mining with the Blast2GO suite",
+          "year": "2008",
+          "cited_by_count": 4632,
+          "url": "/domains/mining/papers/W1974116356"
         },
         {
-          "source_id": "https://openalex.org/W2064853889",
-          "title": "Mining frequent patterns without candidate generation",
-          "year": "2000",
-          "cited_by_count": 6332,
-          "url": "/domains/mining/papers/W2064853889"
-        }
-      ]
-    },
-    {
-      "id": "sg-pattern-recognition",
-      "label": "Pattern recognition",
-      "url": "/domains/mining/topics/sg-pattern-recognition",
-      "paper_count": 17,
-      "subtopic_count": 2,
-      "trend": "rising",
-      "summary": "entities: pattern recognition, a survey, data mining",
-      "tags": [
-        "convolutional neural network",
-        "face and expression recognition",
-        "machine fault diagnosis techniques",
-        "machine learning and data classification"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-pattern-recognition-data-data",
-          "label": "Data data",
-          "url": "/domains/mining/topics/sg-pattern-recognition-data-data",
-          "paper_count": 15
-        },
-        {
-          "id": "sg-pattern-recognition-data-data-mining",
-          "label": "Data data mining",
-          "url": "/domains/mining/topics/sg-pattern-recognition-data-data-mining",
-          "paper_count": 12
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2988916019",
-          "title": "Deep Learning for Generic Object Detection: A Survey",
-          "year": "2019",
-          "cited_by_count": 2716,
-          "url": "/domains/mining/papers/W2988916019"
-        },
-        {
-          "source_id": "https://openalex.org/W2179352600",
-          "title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
-          "year": "2014",
-          "cited_by_count": 3143,
-          "url": "/domains/mining/papers/W2179352600"
-        },
-        {
-          "source_id": "https://openalex.org/W3023211159",
-          "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
-          "year": "2020",
-          "cited_by_count": 2199,
-          "url": "/domains/mining/papers/W3023211159"
+          "source_id": "https://openalex.org/W2088794999",
+          "title": "Gradient boosting machines, a tutorial",
+          "year": "2013",
+          "cited_by_count": 3624,
+          "url": "/domains/mining/papers/W2088794999"
         }
       ]
     },
@@ -298,6 +246,116 @@
           "year": "2016",
           "cited_by_count": 3305,
           "url": "/domains/mining/papers/W2512971201"
+        }
+      ]
+    },
+    {
+      "id": "sg-pattern-recognition",
+      "label": "Pattern recognition",
+      "url": "/domains/mining/topics/sg-pattern-recognition",
+      "paper_count": 16,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: pattern recognition, a survey, data mining",
+      "tags": [
+        "convolutional neural network",
+        "face and expression recognition",
+        "machine fault diagnosis techniques",
+        "machine learning and data classification"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-pattern-recognition-data-data-mining",
+          "label": "Data data mining",
+          "url": "/domains/mining/topics/sg-pattern-recognition-data-data-mining",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-pattern-recognition-support-vector",
+          "label": "Support vector",
+          "url": "/domains/mining/topics/sg-pattern-recognition-support-vector",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2988916019",
+          "title": "Deep Learning for Generic Object Detection: A Survey",
+          "year": "2019",
+          "cited_by_count": 2716,
+          "url": "/domains/mining/papers/W2988916019"
+        },
+        {
+          "source_id": "https://openalex.org/W2179352600",
+          "title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "year": "2014",
+          "cited_by_count": 3143,
+          "url": "/domains/mining/papers/W2179352600"
+        },
+        {
+          "source_id": "https://openalex.org/W3023211159",
+          "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+          "year": "2020",
+          "cited_by_count": 2199,
+          "url": "/domains/mining/papers/W3023211159"
+        }
+      ]
+    },
+    {
+      "id": "sg-association-rule",
+      "label": "Association rule",
+      "url": "/domains/mining/topics/sg-association-rule",
+      "paper_count": 12,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: association rule, a survey, data mining",
+      "tags": [
+        "algorithms mining association rule",
+        "association rule",
+        "association rule between",
+        "association rule between sets"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-association-rule-algorithms-mining",
+          "label": "Algorithms mining",
+          "url": "/domains/mining/topics/sg-association-rule-algorithms-mining",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-association-rule-association-rule-learning",
+          "label": "Association rule learning",
+          "url": "/domains/mining/topics/sg-association-rule-association-rule-learning",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-association-rule-mining-association",
+          "label": "Mining association",
+          "url": "/domains/mining/topics/sg-association-rule-mining-association",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2166559705",
+          "title": "Mining association rules between sets of items in large databases",
+          "year": "1993",
+          "cited_by_count": 14767,
+          "url": "/domains/mining/papers/W2166559705"
+        },
+        {
+          "source_id": "https://openalex.org/W1484413656",
+          "title": "Fast algorithms for mining association rules",
+          "year": "1998",
+          "cited_by_count": 10753,
+          "url": "/domains/mining/papers/W1484413656"
+        },
+        {
+          "source_id": "https://openalex.org/W2474747771",
+          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+          "year": "2016",
+          "cited_by_count": 5236,
+          "url": "/domains/mining/papers/W2474747771"
         }
       ]
     },
@@ -470,64 +528,6 @@
       ]
     },
     {
-      "id": "sg-association-rule",
-      "label": "Association rule",
-      "url": "/domains/mining/topics/sg-association-rule",
-      "paper_count": 7,
-      "subtopic_count": 3,
-      "trend": "rising",
-      "summary": "entities: association rule, a survey, clustering algorithm",
-      "tags": [
-        "algorithms mining association rule",
-        "association rule",
-        "association rule between",
-        "association rule between sets"
-      ],
-      "subtopics": [
-        {
-          "id": "sg-association-rule-algorithms-mining",
-          "label": "Algorithms mining",
-          "url": "/domains/mining/topics/sg-association-rule-algorithms-mining",
-          "paper_count": 6
-        },
-        {
-          "id": "sg-association-rule-association-rule-learning",
-          "label": "Association rule learning",
-          "url": "/domains/mining/topics/sg-association-rule-association-rule-learning",
-          "paper_count": 5
-        },
-        {
-          "id": "sg-association-rule-mining-association",
-          "label": "Mining association",
-          "url": "/domains/mining/topics/sg-association-rule-mining-association",
-          "paper_count": 5
-        }
-      ],
-      "featured_papers": [
-        {
-          "source_id": "https://openalex.org/W2166559705",
-          "title": "Mining association rules between sets of items in large databases",
-          "year": "1993",
-          "cited_by_count": 14767,
-          "url": "/domains/mining/papers/W2166559705"
-        },
-        {
-          "source_id": "https://openalex.org/W1484413656",
-          "title": "Fast algorithms for mining association rules",
-          "year": "1998",
-          "cited_by_count": 10753,
-          "url": "/domains/mining/papers/W1484413656"
-        },
-        {
-          "source_id": "https://openalex.org/W2142827986",
-          "title": "Top 10 algorithms in data mining",
-          "year": "2007",
-          "cited_by_count": 5653,
-          "url": "/domains/mining/papers/W2142827986"
-        }
-      ]
-    },
-    {
       "id": "sg-text-mining",
       "label": "Text mining",
       "url": "/domains/mining/topics/sg-text-mining",
@@ -636,8 +636,56 @@
       ]
     },
     {
+      "label": "Association rule",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Mining association rules between sets of items in large databases",
+          "year": "1993",
+          "cited_by_count": 14767,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w2166559705.html"
+        },
+        {
+          "title": "Fast algorithms for mining association rules",
+          "year": "1998",
+          "cited_by_count": 10753,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w1484413656.html"
+        },
+        {
+          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+          "year": "2016",
+          "cited_by_count": 5236,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w2474747771.html"
+        },
+        {
+          "title": "Top 10 algorithms in data mining",
+          "year": "2007",
+          "cited_by_count": 5653,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w2142827986.html"
+        },
+        {
+          "title": "Mining frequent patterns without candidate generation",
+          "year": "2000",
+          "cited_by_count": 6332,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w2064853889.html"
+        },
+        {
+          "title": "A cross-population atlas of genetic associations for 220 human phenotypes",
+          "year": "2021",
+          "cited_by_count": 2311,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w3202209876.html"
+        }
+      ]
+    },
+    {
       "label": "Information retrieval",
-      "paper_count": 7,
+      "paper_count": 5,
       "papers": [
         {
           "title": "Data mining: concepts and techniques",
@@ -645,20 +693,6 @@
           "cited_by_count": 28872,
           "topic": "Information retrieval",
           "url": "papers/https-openalex-org-w2140190241.html"
-        },
-        {
-          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
-          "year": "2016",
-          "cited_by_count": 5236,
-          "topic": "Information retrieval",
-          "url": "papers/https-openalex-org-w2474747771.html"
-        },
-        {
-          "title": "Mining frequent patterns without candidate generation",
-          "year": "2000",
-          "cited_by_count": 6332,
-          "topic": "Information retrieval",
-          "url": "papers/https-openalex-org-w2064853889.html"
         },
         {
           "title": "High-throughput functional annotation and data mining with the Blast2GO suite",
@@ -680,40 +714,13 @@
           "cited_by_count": 3315,
           "topic": "Information retrieval",
           "url": "papers/https-openalex-org-w4205947740.html"
-        }
-      ]
-    },
-    {
-      "label": "Association rule",
-      "paper_count": 4,
-      "papers": [
-        {
-          "title": "Mining association rules between sets of items in large databases",
-          "year": "1993",
-          "cited_by_count": 14767,
-          "topic": "Association rule",
-          "url": "papers/https-openalex-org-w2166559705.html"
         },
         {
-          "title": "Fast algorithms for mining association rules",
-          "year": "1998",
-          "cited_by_count": 10753,
-          "topic": "Association rule",
-          "url": "papers/https-openalex-org-w1484413656.html"
-        },
-        {
-          "title": "Top 10 algorithms in data mining",
-          "year": "2007",
-          "cited_by_count": 5653,
-          "topic": "Association rule",
-          "url": "papers/https-openalex-org-w2142827986.html"
-        },
-        {
-          "title": "A cross-population atlas of genetic associations for 220 human phenotypes",
-          "year": "2021",
-          "cited_by_count": 2311,
-          "topic": "Association rule",
-          "url": "papers/https-openalex-org-w3202209876.html"
+          "title": "Machine Learning for Fluid Mechanics",
+          "year": "2019",
+          "cited_by_count": 2483,
+          "topic": "Information retrieval",
+          "url": "papers/https-openalex-org-w2973119841.html"
         }
       ]
     },
@@ -969,8 +976,8 @@
       "year": 2016,
       "cited_by_count": 5236,
       "adjusted_cited_by_count": 1655.77,
-      "primary_topic_id": "sg-information-retrieval",
-      "primary_topic_label": "Information retrieval",
+      "primary_topic_id": "sg-association-rule",
+      "primary_topic_label": "Association rule",
       "url": "/domains/mining/papers/W2474747771"
     },
     {
@@ -1019,8 +1026,8 @@
       "year": 2000,
       "cited_by_count": 6332,
       "adjusted_cited_by_count": 1241.81,
-      "primary_topic_id": "sg-information-retrieval",
-      "primary_topic_label": "Information retrieval",
+      "primary_topic_id": "sg-association-rule",
+      "primary_topic_label": "Association rule",
       "url": "/domains/mining/papers/W2064853889"
     },
     {
@@ -1988,6 +1995,35 @@
       "2000": 6507,
       "2001": 6189
     },
+    "neural network": {
+      "2025": 494265,
+      "2024": 489240,
+      "2023": 461638,
+      "2022": 317079,
+      "2021": 275653,
+      "2020": 227653,
+      "2026": 205881,
+      "2019": 180208,
+      "2018": 137309,
+      "2017": 101217,
+      "2016": 80570,
+      "2015": 69501,
+      "2014": 63453,
+      "2013": 58595,
+      "2012": 52196,
+      "2011": 47070,
+      "2010": 41660,
+      "2009": 37745,
+      "2008": 33023,
+      "2007": 29582,
+      "2006": 28913,
+      "2002": 26119,
+      "2005": 25093,
+      "2003": 20970,
+      "2004": 20599,
+      "2001": 12873,
+      "2000": 12214
+    },
     "pattern recognition": {
       "2025": 346627,
       "2024": 322110,
@@ -2017,34 +2053,34 @@
       "2000": 16246,
       "2001": 15620
     },
-    "neural network": {
-      "2025": 494265,
-      "2024": 489240,
-      "2023": 461638,
-      "2022": 317079,
-      "2021": 275653,
-      "2020": 227653,
-      "2026": 205881,
-      "2019": 180208,
-      "2018": 137309,
-      "2017": 101217,
-      "2016": 80570,
-      "2015": 69501,
-      "2014": 63453,
-      "2013": 58595,
-      "2012": 52196,
-      "2011": 47070,
-      "2010": 41660,
-      "2009": 37745,
-      "2008": 33023,
-      "2007": 29582,
-      "2006": 28913,
-      "2002": 26119,
-      "2005": 25093,
-      "2003": 20970,
-      "2004": 20599,
-      "2001": 12873,
-      "2000": 12214
+    "association rule": {
+      "2023": 306666,
+      "2024": 289094,
+      "2025": 278878,
+      "2022": 201032,
+      "2021": 188918,
+      "2020": 179237,
+      "2019": 151619,
+      "2018": 135759,
+      "2017": 123866,
+      "2016": 114606,
+      "2015": 108165,
+      "2014": 99096,
+      "2013": 89308,
+      "2012": 79269,
+      "2026": 72670,
+      "2011": 70198,
+      "2010": 62519,
+      "2009": 56500,
+      "2008": 47763,
+      "2007": 41654,
+      "2006": 37034,
+      "2005": 33435,
+      "2004": 29063,
+      "2003": 26069,
+      "2002": 22242,
+      "2000": 19767,
+      "2001": 19690
     },
     "opinion mining": {
       "2023": 61572,
@@ -2132,35 +2168,6 @@
       "2002": 54511,
       "2001": 44231,
       "2000": 43034
-    },
-    "association rule": {
-      "2023": 306666,
-      "2024": 289094,
-      "2025": 278878,
-      "2022": 201032,
-      "2021": 188918,
-      "2020": 179237,
-      "2019": 151619,
-      "2018": 135759,
-      "2017": 123866,
-      "2016": 114606,
-      "2015": 108165,
-      "2014": 99096,
-      "2013": 89308,
-      "2012": 79269,
-      "2026": 72670,
-      "2011": 70198,
-      "2010": 62519,
-      "2009": 56500,
-      "2008": 47763,
-      "2007": 41654,
-      "2006": 37034,
-      "2005": 33435,
-      "2004": 29063,
-      "2003": 26069,
-      "2002": 22242,
-      "2000": 19767,
-      "2001": 19690
     },
     "text mining": {
       "2024": 82800,
