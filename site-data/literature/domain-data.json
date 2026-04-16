@@ -1,0 +1,1215 @@
+{
+  "slug": "literature",
+  "title": "Literature",
+  "updated_at": "2026-04-16T10:25:18.499613Z",
+  "snapshot": {
+    "papers": 0,
+    "topics": 0,
+    "subtopics": 25,
+    "entities": 395,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 92,
+      "total_papers": 92,
+      "facet_counts": {
+        "none": 92
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 0,
+    "descendant_topics": 25,
+    "max_depth": 3,
+    "leaf_topics": 20
+  },
+  "rising_topics": [],
+  "topic_branches": [],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 40,
+      "papers": [
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18611,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3092849554.html"
+        },
+        {
+          "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+          "year": "2022",
+          "cited_by_count": 14704,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4206677002.html"
+        },
+        {
+          "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+          "year": "2024",
+          "cited_by_count": 6914,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4392777592.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13852,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13452,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        },
+        {
+          "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": "2020",
+          "cited_by_count": 9756,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3082188176.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18611,
+      "adjusted_cited_by_count": 7597.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14704,
+      "adjusted_cited_by_count": 7352.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W4392777592",
+      "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+      "year": 2024,
+      "cited_by_count": 6914,
+      "adjusted_cited_by_count": 6914.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W4392777592"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13852,
+      "adjusted_cited_by_count": 4897.42,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13452,
+      "adjusted_cited_by_count": 4484.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W3082188176",
+      "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+      "year": 2020,
+      "cited_by_count": 9756,
+      "adjusted_cited_by_count": 3982.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3082188176"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9296,
+      "adjusted_cited_by_count": 3795.08,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10301,
+      "adjusted_cited_by_count": 3641.95,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12017,
+      "adjusted_cited_by_count": 3469.01,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7268,
+      "adjusted_cited_by_count": 3250.35,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11958,
+      "adjusted_cited_by_count": 3195.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W1976770755",
+      "title": "Using the framework method for the analysis of qualitative data in multi-disciplinary health research",
+      "year": 2013,
+      "cited_by_count": 10955,
+      "adjusted_cited_by_count": 3038.37,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W1976770755"
+    },
+    {
+      "source_id": "https://openalex.org/W2133589238",
+      "title": "Heart rate variability: Standards of measurement, physiological interpretation, and clinical use",
+      "year": 1996,
+      "cited_by_count": 15230,
+      "adjusted_cited_by_count": 2780.6,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2133589238"
+    },
+    {
+      "source_id": "https://openalex.org/W2131222241",
+      "title": "The global distribution and burden of dengue",
+      "year": 2013,
+      "cited_by_count": 10022,
+      "adjusted_cited_by_count": 2779.6,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2131222241"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6376,
+      "adjusted_cited_by_count": 2602.99,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11432,
+      "adjusted_cited_by_count": 2556.27,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "year": 2020,
+      "cited_by_count": 6028,
+      "adjusted_cited_by_count": 2460.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3015197879"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7757,
+      "adjusted_cited_by_count": 2452.98,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W3195842247",
+      "title": "2021 ESC/EACTS Guidelines for the management of valvular heart disease",
+      "year": 2021,
+      "cited_by_count": 5288,
+      "adjusted_cited_by_count": 2364.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3195842247"
+    },
+    {
+      "source_id": "https://openalex.org/W3203310594",
+      "title": "Global prevalence and burden of depressive and anxiety disorders in 204 countries and territories in 2020 due to the COVID-19 pandemic",
+      "year": 2021,
+      "cited_by_count": 5215,
+      "adjusted_cited_by_count": 2332.22,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3203310594"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7341,
+      "adjusted_cited_by_count": 2321.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W3021842026",
+      "title": "European Guidelines on cardiovascular disease prevention in clinical practice (version 2012): The Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts) * Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)",
+      "year": 2012,
+      "cited_by_count": 8511,
+      "adjusted_cited_by_count": 2274.66,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3021842026"
+    },
+    {
+      "source_id": "https://openalex.org/W3016555942",
+      "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016",
+      "year": 2017,
+      "cited_by_count": 6708,
+      "adjusted_cited_by_count": 2236.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3016555942"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6436,
+      "adjusted_cited_by_count": 2145.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2928467655",
+      "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2019,
+      "cited_by_count": 5622,
+      "adjusted_cited_by_count": 2124.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2928467655"
+    },
+    {
+      "source_id": "https://openalex.org/W2171165037",
+      "title": "Guidelines for the Early Management of Patients With Acute Ischemic Stroke",
+      "year": 2013,
+      "cited_by_count": 7641,
+      "adjusted_cited_by_count": 2119.23,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2171165037"
+    },
+    {
+      "source_id": "https://openalex.org/W3202964273",
+      "title": "Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021",
+      "year": 2021,
+      "cited_by_count": 4735,
+      "adjusted_cited_by_count": 2117.56,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3202964273"
+    },
+    {
+      "source_id": "https://openalex.org/W2614986146",
+      "title": "Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 6658,
+      "adjusted_cited_by_count": 2105.44,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2614986146"
+    },
+    {
+      "source_id": "https://openalex.org/W2121394112",
+      "title": "2014 AHA/ACC/HRS Guideline for the Management of Patients With Atrial Fibrillation",
+      "year": 2014,
+      "cited_by_count": 7146,
+      "adjusted_cited_by_count": 2062.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2121394112"
+    },
+    {
+      "source_id": "https://openalex.org/W2442246762",
+      "title": "Surviving Sepsis Campaign: International Guidelines for Management of Severe Sepsis and Septic Shock, 2012",
+      "year": 2013,
+      "cited_by_count": 7325,
+      "adjusted_cited_by_count": 2031.59,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2442246762"
+    },
+    {
+      "source_id": "https://openalex.org/W1482498493",
+      "title": "Foundations of Clinical Research: Applications to Practice,",
+      "year": 2002,
+      "cited_by_count": 9568,
+      "adjusted_cited_by_count": 1953.06,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W1482498493"
+    },
+    {
+      "source_id": "https://openalex.org/W2098082628",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases and injuries in 188 countries, 1990–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2015,
+      "cited_by_count": 6473,
+      "adjusted_cited_by_count": 1951.68,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2098082628"
+    },
+    {
+      "source_id": "https://openalex.org/W2127435093",
+      "title": "Global trends in emerging infectious diseases",
+      "year": 2008,
+      "cited_by_count": 8165,
+      "adjusted_cited_by_count": 1924.51,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2127435093"
+    },
+    {
+      "source_id": "https://openalex.org/W2036954961",
+      "title": "Global causes of maternal death: a WHO systematic analysis",
+      "year": 2014,
+      "cited_by_count": 6502,
+      "adjusted_cited_by_count": 1876.97,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2036954961"
+    },
+    {
+      "source_id": "https://openalex.org/W3083241614",
+      "title": "Gut microbiota in human metabolic health and disease",
+      "year": 2020,
+      "cited_by_count": 4393,
+      "adjusted_cited_by_count": 1793.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W3083241614"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4971,
+      "adjusted_cited_by_count": 1757.51,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W2219978888",
+      "title": "Signet-Ring Cell Carcinoma of the Colon: A Case Report and Review of the Literature",
+      "year": 2015,
+      "cited_by_count": 5275,
+      "adjusted_cited_by_count": 1590.47,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2219978888"
+    },
+    {
+      "source_id": "https://openalex.org/W2054330426",
+      "title": "International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS)",
+      "year": 2006,
+      "cited_by_count": 7073,
+      "adjusted_cited_by_count": 1581.57,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2054330426"
+    },
+    {
+      "source_id": "https://openalex.org/W2114538920",
+      "title": "Global physical activity levels: surveillance progress, pitfalls, and prospects",
+      "year": 2012,
+      "cited_by_count": 5798,
+      "adjusted_cited_by_count": 1549.58,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2114538920"
+    },
+    {
+      "source_id": "https://openalex.org/W2280783985",
+      "title": "A clinical approach to diagnosis of autoimmune encephalitis",
+      "year": 2016,
+      "cited_by_count": 4290,
+      "adjusted_cited_by_count": 1356.62,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/literature/papers/W2280783985"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18611,
+      "adjusted_cited_by_count": 7597.91,
+      "url": "/domains/literature/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14704,
+      "adjusted_cited_by_count": 7352.0,
+      "url": "/domains/literature/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W4392777592",
+      "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+      "year": 2024,
+      "cited_by_count": 6914,
+      "adjusted_cited_by_count": 6914.0,
+      "url": "/domains/literature/papers/W4392777592"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13852,
+      "adjusted_cited_by_count": 4897.42,
+      "url": "/domains/literature/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13452,
+      "adjusted_cited_by_count": 4484.0,
+      "url": "/domains/literature/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W3082188176",
+      "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+      "year": 2020,
+      "cited_by_count": 9756,
+      "adjusted_cited_by_count": 3982.87,
+      "url": "/domains/literature/papers/W3082188176"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9296,
+      "adjusted_cited_by_count": 3795.08,
+      "url": "/domains/literature/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2888589263",
+      "title": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+      "year": 2018,
+      "cited_by_count": 10301,
+      "adjusted_cited_by_count": 3641.95,
+      "url": "/domains/literature/papers/W2888589263"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12017,
+      "adjusted_cited_by_count": 3469.01,
+      "url": "/domains/literature/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7268,
+      "adjusted_cited_by_count": 3250.35,
+      "url": "/domains/literature/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11958,
+      "adjusted_cited_by_count": 3195.91,
+      "url": "/domains/literature/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W1976770755",
+      "title": "Using the framework method for the analysis of qualitative data in multi-disciplinary health research",
+      "year": 2013,
+      "cited_by_count": 10955,
+      "adjusted_cited_by_count": 3038.37,
+      "url": "/domains/literature/papers/W1976770755"
+    },
+    {
+      "source_id": "https://openalex.org/W2133589238",
+      "title": "Heart rate variability: Standards of measurement, physiological interpretation, and clinical use",
+      "year": 1996,
+      "cited_by_count": 15230,
+      "adjusted_cited_by_count": 2780.6,
+      "url": "/domains/literature/papers/W2133589238"
+    },
+    {
+      "source_id": "https://openalex.org/W2131222241",
+      "title": "The global distribution and burden of dengue",
+      "year": 2013,
+      "cited_by_count": 10022,
+      "adjusted_cited_by_count": 2779.6,
+      "url": "/domains/literature/papers/W2131222241"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6376,
+      "adjusted_cited_by_count": 2602.99,
+      "url": "/domains/literature/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11432,
+      "adjusted_cited_by_count": 2556.27,
+      "url": "/domains/literature/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "year": 2020,
+      "cited_by_count": 6028,
+      "adjusted_cited_by_count": 2460.92,
+      "url": "/domains/literature/papers/W3015197879"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7757,
+      "adjusted_cited_by_count": 2452.98,
+      "url": "/domains/literature/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W3195842247",
+      "title": "2021 ESC/EACTS Guidelines for the management of valvular heart disease",
+      "year": 2021,
+      "cited_by_count": 5288,
+      "adjusted_cited_by_count": 2364.87,
+      "url": "/domains/literature/papers/W3195842247"
+    },
+    {
+      "source_id": "https://openalex.org/W3203310594",
+      "title": "Global prevalence and burden of depressive and anxiety disorders in 204 countries and territories in 2020 due to the COVID-19 pandemic",
+      "year": 2021,
+      "cited_by_count": 5215,
+      "adjusted_cited_by_count": 2332.22,
+      "url": "/domains/literature/papers/W3203310594"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7341,
+      "adjusted_cited_by_count": 2321.43,
+      "url": "/domains/literature/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W3021842026",
+      "title": "European Guidelines on cardiovascular disease prevention in clinical practice (version 2012): The Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts) * Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)",
+      "year": 2012,
+      "cited_by_count": 8511,
+      "adjusted_cited_by_count": 2274.66,
+      "url": "/domains/literature/papers/W3021842026"
+    },
+    {
+      "source_id": "https://openalex.org/W3016555942",
+      "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016",
+      "year": 2017,
+      "cited_by_count": 6708,
+      "adjusted_cited_by_count": 2236.0,
+      "url": "/domains/literature/papers/W3016555942"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6436,
+      "adjusted_cited_by_count": 2145.33,
+      "url": "/domains/literature/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2928467655",
+      "title": "Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2019,
+      "cited_by_count": 5622,
+      "adjusted_cited_by_count": 2124.92,
+      "url": "/domains/literature/papers/W2928467655"
+    },
+    {
+      "source_id": "https://openalex.org/W2171165037",
+      "title": "Guidelines for the Early Management of Patients With Acute Ischemic Stroke",
+      "year": 2013,
+      "cited_by_count": 7641,
+      "adjusted_cited_by_count": 2119.23,
+      "url": "/domains/literature/papers/W2171165037"
+    },
+    {
+      "source_id": "https://openalex.org/W3202964273",
+      "title": "Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021",
+      "year": 2021,
+      "cited_by_count": 4735,
+      "adjusted_cited_by_count": 2117.56,
+      "url": "/domains/literature/papers/W3202964273"
+    },
+    {
+      "source_id": "https://openalex.org/W2614986146",
+      "title": "Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 6658,
+      "adjusted_cited_by_count": 2105.44,
+      "url": "/domains/literature/papers/W2614986146"
+    },
+    {
+      "source_id": "https://openalex.org/W2121394112",
+      "title": "2014 AHA/ACC/HRS Guideline for the Management of Patients With Atrial Fibrillation",
+      "year": 2014,
+      "cited_by_count": 7146,
+      "adjusted_cited_by_count": 2062.87,
+      "url": "/domains/literature/papers/W2121394112"
+    },
+    {
+      "source_id": "https://openalex.org/W2442246762",
+      "title": "Surviving Sepsis Campaign: International Guidelines for Management of Severe Sepsis and Septic Shock, 2012",
+      "year": 2013,
+      "cited_by_count": 7325,
+      "adjusted_cited_by_count": 2031.59,
+      "url": "/domains/literature/papers/W2442246762"
+    },
+    {
+      "source_id": "https://openalex.org/W1482498493",
+      "title": "Foundations of Clinical Research: Applications to Practice,",
+      "year": 2002,
+      "cited_by_count": 9568,
+      "adjusted_cited_by_count": 1953.06,
+      "url": "/domains/literature/papers/W1482498493"
+    },
+    {
+      "source_id": "https://openalex.org/W2098082628",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases and injuries in 188 countries, 1990–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2015,
+      "cited_by_count": 6473,
+      "adjusted_cited_by_count": 1951.68,
+      "url": "/domains/literature/papers/W2098082628"
+    },
+    {
+      "source_id": "https://openalex.org/W2127435093",
+      "title": "Global trends in emerging infectious diseases",
+      "year": 2008,
+      "cited_by_count": 8165,
+      "adjusted_cited_by_count": 1924.51,
+      "url": "/domains/literature/papers/W2127435093"
+    },
+    {
+      "source_id": "https://openalex.org/W2036954961",
+      "title": "Global causes of maternal death: a WHO systematic analysis",
+      "year": 2014,
+      "cited_by_count": 6502,
+      "adjusted_cited_by_count": 1876.97,
+      "url": "/domains/literature/papers/W2036954961"
+    },
+    {
+      "source_id": "https://openalex.org/W3083241614",
+      "title": "Gut microbiota in human metabolic health and disease",
+      "year": 2020,
+      "cited_by_count": 4393,
+      "adjusted_cited_by_count": 1793.43,
+      "url": "/domains/literature/papers/W3083241614"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4971,
+      "adjusted_cited_by_count": 1757.51,
+      "url": "/domains/literature/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W2219978888",
+      "title": "Signet-Ring Cell Carcinoma of the Colon: A Case Report and Review of the Literature",
+      "year": 2015,
+      "cited_by_count": 5275,
+      "adjusted_cited_by_count": 1590.47,
+      "url": "/domains/literature/papers/W2219978888"
+    },
+    {
+      "source_id": "https://openalex.org/W2054330426",
+      "title": "International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS)",
+      "year": 2006,
+      "cited_by_count": 7073,
+      "adjusted_cited_by_count": 1581.57,
+      "url": "/domains/literature/papers/W2054330426"
+    },
+    {
+      "source_id": "https://openalex.org/W2114538920",
+      "title": "Global physical activity levels: surveillance progress, pitfalls, and prospects",
+      "year": 2012,
+      "cited_by_count": 5798,
+      "adjusted_cited_by_count": 1549.58,
+      "url": "/domains/literature/papers/W2114538920"
+    },
+    {
+      "source_id": "https://openalex.org/W2280783985",
+      "title": "A clinical approach to diagnosis of autoimmune encephalitis",
+      "year": 2016,
+      "cited_by_count": 4290,
+      "adjusted_cited_by_count": 1356.62,
+      "url": "/domains/literature/papers/W2280783985"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 28
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 24
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 22
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 22
+    },
+    {
+      "label": "burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "burden of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 20
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 19
+    },
+    {
+      "label": "systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 19
+    },
+    {
+      "label": "literature",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "a systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 17
+    },
+    {
+      "label": "burden of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "global burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "global burden of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "guideline",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "intensive care medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "systematic analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 16
+    },
+    {
+      "label": "a systematic analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 15
+    },
+    {
+      "label": "the global burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 15
+    },
+    {
+      "label": "disease study",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "for the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "gate foundation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "melinda gate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "melinda gate foundation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "of disease study",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "systematic analysis for",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 14
+    },
+    {
+      "label": "bill melinda",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 13
+    },
+    {
+      "label": "bill melinda gate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 13
+    },
+    {
+      "label": "guideline for",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 13
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 12
+    },
+    {
+      "label": "management of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 11
+    },
+    {
+      "label": "public health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 11
+    },
+    {
+      "label": "and national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 10
+    },
+    {
+      "label": "disease burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 10
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 16
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 8
+    },
+    {
+      "label": "guideline for the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 8
+    },
+    {
+      "label": "family medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 7
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 7
+    },
+    {
+      "label": "the literature",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 7
+    },
+    {
+      "label": "care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 21
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 7
+    },
+    {
+      "label": "and injury",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 6
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 6
+    }
+  ],
+  "topic_year_counts": {}
+}

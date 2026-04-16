@@ -1,0 +1,2096 @@
+{
+  "slug": "mechanics",
+  "title": "Mechanics",
+  "updated_at": "2026-04-16T10:10:04.007051Z",
+  "snapshot": {
+    "papers": 274,
+    "topics": 7,
+    "subtopics": 46,
+    "entities": 841,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 318,
+      "total_papers": 318,
+      "facet_counts": {
+        "none": 318
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning quantum mechanics, classical mechanics, statistical mechanics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 7,
+    "descendant_topics": 46,
+    "max_depth": 2,
+    "leaf_topics": 46
+  },
+  "rising_topics": [
+    {
+      "id": "sg-quantum-mechanics",
+      "label": "Quantum mechanics",
+      "url": "/domains/mechanics/topics/sg-quantum-mechanics",
+      "trend": "rising",
+      "year_total": 349362
+    },
+    {
+      "id": "sg-statistical-mechanics",
+      "label": "Statistical mechanics",
+      "url": "/domains/mechanics/topics/sg-statistical-mechanics",
+      "trend": "rising",
+      "year_total": 591943
+    },
+    {
+      "id": "sg-fluid-mechanics",
+      "label": "Fluid mechanics",
+      "url": "/domains/mechanics/topics/sg-fluid-mechanics",
+      "trend": "rising",
+      "year_total": 460205
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-quantum-mechanics",
+      "label": "Quantum mechanics",
+      "url": "/domains/mechanics/topics/sg-quantum-mechanics",
+      "paper_count": 101,
+      "subtopic_count": 29,
+      "trend": "rising",
+      "summary": "entities: quantum mechanics, quantum, mechanics",
+      "tags": [
+        "interpretations of quantum mechanics",
+        "modern quantum mechanics",
+        "quantum mechanics",
+        "quantum mechanics and non-hermitian physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-classical-mechanics-equations-of-motion",
+          "label": "Equations of motion",
+          "url": "/domains/mechanics/topics/sg-classical-mechanics-equations-of-motion",
+          "paper_count": 25
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-classical-electrodynamics",
+          "label": "Quantum classical electrodynamics",
+          "url": "/domains/mechanics/topics/sg-quantum-mechanics-quantum-classical-electrodynamics",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-dissipation",
+          "label": "Quantum dissipation",
+          "url": "/domains/mechanics/topics/sg-quantum-mechanics-quantum-dissipation",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-field",
+          "label": "Quantum field",
+          "url": "/domains/mechanics/topics/sg-quantum-mechanics-quantum-field",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-quantum-mechanics-density-matrix",
+          "label": "Density matrix",
+          "url": "/domains/mechanics/topics/sg-quantum-mechanics-density-matrix",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-quantum-mechanics-quantum-computer",
+          "label": "Quantum computer",
+          "url": "/domains/mechanics/topics/sg-quantum-mechanics-quantum-computer",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1597773817",
+          "title": "Atoms in molecules : a quantum theory",
+          "year": "1990",
+          "cited_by_count": 11757,
+          "url": "/domains/mechanics/papers/W1597773817"
+        },
+        {
+          "source_id": "https://openalex.org/W2798456356",
+          "title": "Quantum Mechanics",
+          "year": "1961",
+          "cited_by_count": 15669,
+          "url": "/domains/mechanics/papers/W2798456356"
+        },
+        {
+          "source_id": "https://openalex.org/W2137852732",
+          "title": "Mathematical Foundations of Quantum Mechanics",
+          "year": "2018",
+          "cited_by_count": 4726,
+          "url": "/domains/mechanics/papers/W2137852732"
+        }
+      ]
+    },
+    {
+      "id": "sg-statistical-mechanics",
+      "label": "Statistical mechanics",
+      "url": "/domains/mechanics/topics/sg-statistical-mechanics",
+      "paper_count": 56,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: statistical mechanics, mechanics, statistical",
+      "tags": [
+        "models in statistical mechanics",
+        "nonequilibrium statistical mechanics",
+        "quantum statistical mechanics",
+        "statistical mechanics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-statistical-mechanics-statistical-physics",
+          "label": "Statistical physics",
+          "url": "/domains/mechanics/topics/sg-statistical-mechanics-statistical-physics",
+          "paper_count": 35
+        },
+        {
+          "id": "sg-classical-mechanics-statistical-physics",
+          "label": "Statistical physics",
+          "url": "/domains/mechanics/topics/sg-classical-mechanics-statistical-physics",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-statistical-mechanics-modern-statistical-mechanics-i",
+          "label": "Modern statistical mechanics</i>",
+          "url": "/domains/mechanics/topics/sg-statistical-mechanics-modern-statistical-mechanics-i",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-statistical-mechanics-statistical-mechanics-thermodynamics",
+          "label": "Statistical mechanics thermodynamics",
+          "url": "/domains/mechanics/topics/sg-statistical-mechanics-statistical-mechanics-thermodynamics",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2124637492",
+          "title": "Statistical mechanics of complex networks",
+          "year": "2002",
+          "cited_by_count": 20524,
+          "url": "/domains/mechanics/papers/W2124637492"
+        },
+        {
+          "source_id": "https://openalex.org/W2032558547",
+          "title": "Information Theory and Statistical Mechanics",
+          "year": "1957",
+          "cited_by_count": 12821,
+          "url": "/domains/mechanics/papers/W2032558547"
+        },
+        {
+          "source_id": "https://openalex.org/W1530042113",
+          "title": "Exactly Solved Models in Statistical Mechanics",
+          "year": "1985",
+          "cited_by_count": 5820,
+          "url": "/domains/mechanics/papers/W1530042113"
+        }
+      ]
+    },
+    {
+      "id": "sg-fluid-mechanics",
+      "label": "Fluid mechanics",
+      "url": "/domains/mechanics/topics/sg-fluid-mechanics",
+      "paper_count": 29,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: mechanics, fluid mechanics, fluid",
+      "tags": [
+        "computational fluid mechanics",
+        "experimental fluid mechanics",
+        "fluid dynamics",
+        "fluid mechanics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-fluid-mechanics-fluid-dynamics",
+          "label": "Fluid dynamics",
+          "url": "/domains/mechanics/topics/sg-fluid-mechanics-fluid-dynamics",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-fluid-mechanics-boundary-value",
+          "label": "Boundary value",
+          "url": "/domains/mechanics/topics/sg-fluid-mechanics-boundary-value",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-fluid-mechanics-statistical-physics",
+          "label": "Statistical physics",
+          "url": "/domains/mechanics/topics/sg-fluid-mechanics-statistical-physics",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2884430236",
+          "title": "Machine learning for molecular and materials science",
+          "year": "2018",
+          "cited_by_count": 4342,
+          "url": "/domains/mechanics/papers/W2884430236"
+        },
+        {
+          "source_id": "https://openalex.org/W2004152688",
+          "title": "Computational Fluid Mechanics and Heat Transfer",
+          "year": "2016",
+          "cited_by_count": 3691,
+          "url": "/domains/mechanics/papers/W2004152688"
+        },
+        {
+          "source_id": "https://openalex.org/W2110187357",
+          "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+          "year": "1998",
+          "cited_by_count": 5152,
+          "url": "/domains/mechanics/papers/W2110187357"
+        }
+      ]
+    },
+    {
+      "id": "sg-molecular-mechanics",
+      "label": "Molecular mechanics",
+      "url": "/domains/mechanics/topics/sg-molecular-mechanics",
+      "paper_count": 26,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: molecular, molecular dynamics, dynamics",
+      "tags": [
+        "dihedral angle",
+        "dynamics simulations",
+        "field molecular mechanics",
+        "force field molecular"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-molecular-mechanics-molecular-dynamics-simulations",
+          "label": "Molecular dynamics simulations",
+          "url": "/domains/mechanics/topics/sg-molecular-mechanics-molecular-dynamics-simulations",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-molecular-mechanics-programming-language",
+          "label": "Programming language",
+          "url": "/domains/mechanics/topics/sg-molecular-mechanics-programming-language",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-molecular-mechanics-statistical-physics",
+          "label": "Statistical physics",
+          "url": "/domains/mechanics/topics/sg-molecular-mechanics-statistical-physics",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2019465613",
+          "title": "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+          "year": "1995",
+          "cited_by_count": 44036,
+          "url": "/domains/mechanics/papers/W2019465613"
+        },
+        {
+          "source_id": "https://openalex.org/W2035266068",
+          "title": "Molecular dynamics with coupling to an external bath",
+          "year": "1984",
+          "cited_by_count": 30648,
+          "url": "/domains/mechanics/papers/W2035266068"
+        },
+        {
+          "source_id": "https://openalex.org/W2030971064",
+          "title": "UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations",
+          "year": "1992",
+          "cited_by_count": 10237,
+          "url": "/domains/mechanics/papers/W2030971064"
+        }
+      ]
+    },
+    {
+      "id": "sg-fracture-mechanics",
+      "label": "Fracture mechanics",
+      "url": "/domains/mechanics/topics/sg-fracture-mechanics",
+      "paper_count": 21,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: mechanics, composite material, fracture mechanics",
+      "tags": [
+        "deformation fracture mechanics",
+        "fatigue and fracture mechanics",
+        "fracture mechanics",
+        "fracture mechanics of engineering"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-fracture-mechanics-fracture-toughness",
+          "label": "Fracture toughness",
+          "url": "/domains/mechanics/topics/sg-fracture-mechanics-fracture-toughness",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-fracture-mechanics-geotechnical-engineering",
+          "label": "Geotechnical engineering",
+          "url": "/domains/mechanics/topics/sg-fracture-mechanics-geotechnical-engineering",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-fracture-mechanics-engineering-mechanics",
+          "label": "Engineering mechanics",
+          "url": "/domains/mechanics/topics/sg-fracture-mechanics-engineering-mechanics",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1513751997",
+          "title": "Fracture Mechanics",
+          "year": "2017",
+          "cited_by_count": 4639,
+          "url": "/domains/mechanics/papers/W1513751997"
+        },
+        {
+          "source_id": "https://openalex.org/W2082508622",
+          "title": "Analysis of crack formation and crack growth in concrete by means of fracture mechanics and finite elements",
+          "year": "1976",
+          "cited_by_count": 6658,
+          "url": "/domains/mechanics/papers/W2082508622"
+        },
+        {
+          "source_id": "https://openalex.org/W2064248772",
+          "title": "Nanobeam Mechanics: Elasticity, Strength, and Toughness of Nanorods and Nanotubes",
+          "year": "1997",
+          "cited_by_count": 4772,
+          "url": "/domains/mechanics/papers/W2064248772"
+        }
+      ]
+    },
+    {
+      "id": "sg-soil-mechanics",
+      "label": "Soil mechanics",
+      "url": "/domains/mechanics/topics/sg-soil-mechanics",
+      "paper_count": 21,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: mechanics, geology, geotechnical engineering",
+      "tags": [
+        "geotechnical engineering",
+        "geotechnical engineering and soil mechanics",
+        "rock mechanics",
+        "soil mechanics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soil-mechanics-soil-science",
+          "label": "Soil science",
+          "url": "/domains/mechanics/topics/sg-soil-mechanics-soil-science",
+          "paper_count": 20
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1490066004",
+          "title": "soil mechanics in engineering practice",
+          "year": "2014",
+          "cited_by_count": 4980,
+          "url": "/domains/mechanics/papers/W1490066004"
+        },
+        {
+          "source_id": "https://openalex.org/W1977727715",
+          "title": "Theoretical Soil Mechanics",
+          "year": "1943",
+          "cited_by_count": 8490,
+          "url": "/domains/mechanics/papers/W1977727715"
+        },
+        {
+          "source_id": "https://openalex.org/W2009420010",
+          "title": "Fundamentals of rock mechanics",
+          "year": "1974",
+          "cited_by_count": 4929,
+          "url": "/domains/mechanics/papers/W2009420010"
+        }
+      ]
+    },
+    {
+      "id": "sg-continuum-mechanics",
+      "label": "Continuum mechanics",
+      "url": "/domains/mechanics/topics/sg-continuum-mechanics",
+      "paper_count": 20,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: mechanics, continuum mechanics, continuum",
+      "tags": [
+        "composite material mechanics",
+        "computational continuum mechanics",
+        "continuum damage mechanics",
+        "continuum mechanics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-continuum-mechanics-finite-element",
+          "label": "Finite element",
+          "url": "/domains/mechanics/topics/sg-continuum-mechanics-finite-element",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-classical-mechanics-non-linear-field-theory",
+          "label": "Non-linear field theory",
+          "url": "/domains/mechanics/topics/sg-classical-mechanics-non-linear-field-theory",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-continuum-mechanics-nonlinear-mechanics",
+          "label": "Nonlinear mechanics",
+          "url": "/domains/mechanics/topics/sg-continuum-mechanics-nonlinear-mechanics",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3163993681",
+          "title": "Physics-informed machine learning",
+          "year": "2021",
+          "cited_by_count": 5939,
+          "url": "/domains/mechanics/papers/W3163993681"
+        },
+        {
+          "source_id": "https://openalex.org/W2110187357",
+          "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+          "year": "1998",
+          "cited_by_count": 5152,
+          "url": "/domains/mechanics/papers/W2110187357"
+        },
+        {
+          "source_id": "https://openalex.org/W2089092903",
+          "title": "<i>Mechanics of Solid Materials</i>",
+          "year": "1993",
+          "cited_by_count": 3334,
+          "url": "/domains/mechanics/papers/W2089092903"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Molecular mechanics",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+          "year": "1995",
+          "cited_by_count": 44036,
+          "topic": "Molecular mechanics",
+          "url": "papers/https-openalex-org-w2019465613.html"
+        },
+        {
+          "title": "Molecular dynamics with coupling to an external bath",
+          "year": "1984",
+          "cited_by_count": 30648,
+          "topic": "Molecular mechanics",
+          "url": "papers/https-openalex-org-w2035266068.html"
+        },
+        {
+          "title": "UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations",
+          "year": "1992",
+          "cited_by_count": 10237,
+          "topic": "Molecular mechanics",
+          "url": "papers/https-openalex-org-w2030971064.html"
+        },
+        {
+          "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations",
+          "year": "2020",
+          "cited_by_count": 3873,
+          "topic": "Molecular mechanics",
+          "url": "papers/https-openalex-org-w3027308092.html"
+        },
+        {
+          "title": "Settle: An analytical version of the SHAKE and RATTLE algorithm for rigid water models",
+          "year": "1992",
+          "cited_by_count": 7476,
+          "topic": "Molecular mechanics",
+          "url": "papers/https-openalex-org-w2103945336.html"
+        },
+        {
+          "title": "CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data",
+          "year": "2013",
+          "cited_by_count": 4355,
+          "topic": "Molecular mechanics",
+          "url": "papers/https-openalex-org-w2109154308.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "&lt;i&gt;Ab initio&lt;/i&gt;molecular dynamics for liquid metals",
+          "year": "1993",
+          "cited_by_count": 44183,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2079105963.html"
+        },
+        {
+          "title": "Numerical integration of the cartesian equations of motion of a system with constraints: molecular dynamics of n-alkanes",
+          "year": "1977",
+          "cited_by_count": 21293,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2106140689.html"
+        },
+        {
+          "title": "Machine learning for molecular and materials science",
+          "year": "2018",
+          "cited_by_count": 4342,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2884430236.html"
+        },
+        {
+          "title": "Mathematical Methods of Classical Mechanics",
+          "year": "1989",
+          "cited_by_count": 9167,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2126479355.html"
+        },
+        {
+          "title": "Quantum Mechanics and Path Integrals",
+          "year": "1966",
+          "cited_by_count": 9741,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1552736770.html"
+        },
+        {
+          "title": "Contact Mechanics",
+          "year": "1985",
+          "cited_by_count": 7574,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w179372779.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum mechanics",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Atoms in molecules : a quantum theory",
+          "year": "1990",
+          "cited_by_count": 11757,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w1597773817.html"
+        },
+        {
+          "title": "Quantum Mechanics",
+          "year": "1961",
+          "cited_by_count": 15669,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w2798456356.html"
+        },
+        {
+          "title": "Mathematical Foundations of Quantum Mechanics",
+          "year": "2018",
+          "cited_by_count": 4726,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w2137852732.html"
+        },
+        {
+          "title": "Modern Quantum Mechanics",
+          "year": "2020",
+          "cited_by_count": 3696,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w1500256440.html"
+        },
+        {
+          "title": "Statistical mechanics of chain molecules",
+          "year": "1969",
+          "cited_by_count": 6449,
+          "topic": "Quantum mechanics",
+          "url": "papers/https-openalex-org-w1999479012.html"
+        }
+      ]
+    },
+    {
+      "label": "Fluid mechanics",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Computational Fluid Mechanics and Heat Transfer",
+          "year": "2016",
+          "cited_by_count": 3691,
+          "topic": "Fluid mechanics",
+          "url": "papers/https-openalex-org-w2004152688.html"
+        },
+        {
+          "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+          "year": "1998",
+          "cited_by_count": 5152,
+          "topic": "Fluid mechanics",
+          "url": "papers/https-openalex-org-w2110187357.html"
+        },
+        {
+          "title": "Machine Learning for Fluid Mechanics",
+          "year": "2019",
+          "cited_by_count": 2483,
+          "topic": "Fluid mechanics",
+          "url": "papers/https-openalex-org-w2973119841.html"
+        }
+      ]
+    },
+    {
+      "label": "Fracture mechanics",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Fracture Mechanics",
+          "year": "2017",
+          "cited_by_count": 4639,
+          "topic": "Fracture mechanics",
+          "url": "papers/https-openalex-org-w1513751997.html"
+        },
+        {
+          "title": "Analysis of crack formation and crack growth in concrete by means of fracture mechanics and finite elements",
+          "year": "1976",
+          "cited_by_count": 6658,
+          "topic": "Fracture mechanics",
+          "url": "papers/https-openalex-org-w2082508622.html"
+        },
+        {
+          "title": "Nanobeam Mechanics: Elasticity, Strength, and Toughness of Nanorods and Nanotubes",
+          "year": "1997",
+          "cited_by_count": 4772,
+          "topic": "Fracture mechanics",
+          "url": "papers/https-openalex-org-w2064248772.html"
+        }
+      ]
+    },
+    {
+      "label": "Statistical mechanics",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Statistical mechanics of complex networks",
+          "year": "2002",
+          "cited_by_count": 20524,
+          "topic": "Statistical mechanics",
+          "url": "papers/https-openalex-org-w2124637492.html"
+        },
+        {
+          "title": "Information Theory and Statistical Mechanics",
+          "year": "1957",
+          "cited_by_count": 12821,
+          "topic": "Statistical mechanics",
+          "url": "papers/https-openalex-org-w2032558547.html"
+        },
+        {
+          "title": "Exactly Solved Models in Statistical Mechanics",
+          "year": "1985",
+          "cited_by_count": 5820,
+          "topic": "Statistical mechanics",
+          "url": "papers/https-openalex-org-w1530042113.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum classical electrodynamics",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Materials and Mechanics for Stretchable Electronics",
+          "year": "2010",
+          "cited_by_count": 4835,
+          "topic": "Quantum classical electrodynamics",
+          "url": "papers/https-openalex-org-w2157426451.html"
+        },
+        {
+          "title": "Mechanics of laminated composite plates and shells : theory and analysis",
+          "year": "2004",
+          "cited_by_count": 4655,
+          "topic": "Quantum classical electrodynamics",
+          "url": "papers/https-openalex-org-w639581896.html"
+        }
+      ]
+    },
+    {
+      "label": "Soil mechanics",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "soil mechanics in engineering practice",
+          "year": "2014",
+          "cited_by_count": 4980,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w1490066004.html"
+        },
+        {
+          "title": "Theoretical Soil Mechanics",
+          "year": "1943",
+          "cited_by_count": 8490,
+          "topic": "Soil mechanics",
+          "url": "papers/https-openalex-org-w1977727715.html"
+        }
+      ]
+    },
+    {
+      "label": "Continuum mechanics",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Physics-informed machine learning",
+          "year": "2021",
+          "cited_by_count": 5939,
+          "topic": "Continuum mechanics",
+          "url": "papers/https-openalex-org-w3163993681.html"
+        }
+      ]
+    },
+    {
+      "label": "Open quantum",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Applied Mechanics and Materials",
+          "year": "2026",
+          "cited_by_count": 2583,
+          "topic": "Open quantum",
+          "url": "papers/https-openalex-org-w4235929402.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2019465613",
+      "title": "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+      "year": 1995,
+      "cited_by_count": 44036,
+      "adjusted_cited_by_count": 7909.1,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2019465613"
+    },
+    {
+      "source_id": "https://openalex.org/W2079105963",
+      "title": "<i>Ab initio</i>molecular dynamics for liquid metals",
+      "year": 1993,
+      "cited_by_count": 44183,
+      "adjusted_cited_by_count": 7691.27,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W2079105963"
+    },
+    {
+      "source_id": "https://openalex.org/W2035266068",
+      "title": "Molecular dynamics with coupling to an external bath",
+      "year": 1984,
+      "cited_by_count": 30648,
+      "adjusted_cited_by_count": 4729.09,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2035266068"
+    },
+    {
+      "source_id": "https://openalex.org/W2124637492",
+      "title": "Statistical mechanics of complex networks",
+      "year": 2002,
+      "cited_by_count": 20524,
+      "adjusted_cited_by_count": 4189.44,
+      "primary_topic_id": "sg-statistical-mechanics",
+      "primary_topic_label": "Statistical mechanics",
+      "url": "/domains/mechanics/papers/W2124637492"
+    },
+    {
+      "source_id": "https://openalex.org/W2106140689",
+      "title": "Numerical integration of the cartesian equations of motion of a system with constraints: molecular dynamics of n-alkanes",
+      "year": 1977,
+      "cited_by_count": 21293,
+      "adjusted_cited_by_count": 3041.86,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W2106140689"
+    },
+    {
+      "source_id": "https://openalex.org/W3163993681",
+      "title": "Physics-informed machine learning",
+      "year": 2021,
+      "cited_by_count": 5939,
+      "adjusted_cited_by_count": 2656.0,
+      "primary_topic_id": "sg-continuum-mechanics",
+      "primary_topic_label": "Continuum mechanics",
+      "url": "/domains/mechanics/papers/W3163993681"
+    },
+    {
+      "source_id": "https://openalex.org/W4235929402",
+      "title": "Applied Mechanics and Materials",
+      "year": 2026,
+      "cited_by_count": 2583,
+      "adjusted_cited_by_count": 2583.0,
+      "primary_topic_id": "sg-quantum-mechanics-open-quantum",
+      "primary_topic_label": "Open quantum",
+      "url": "/domains/mechanics/papers/W4235929402"
+    },
+    {
+      "source_id": "https://openalex.org/W1597773817",
+      "title": "Atoms in molecules : a quantum theory",
+      "year": 1990,
+      "cited_by_count": 11757,
+      "adjusted_cited_by_count": 1959.5,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/mechanics/papers/W1597773817"
+    },
+    {
+      "source_id": "https://openalex.org/W2798456356",
+      "title": "Quantum Mechanics",
+      "year": 1961,
+      "cited_by_count": 15669,
+      "adjusted_cited_by_count": 1943.5,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/mechanics/papers/W2798456356"
+    },
+    {
+      "source_id": "https://openalex.org/W2030971064",
+      "title": "UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations",
+      "year": 1992,
+      "cited_by_count": 10237,
+      "adjusted_cited_by_count": 1755.63,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2030971064"
+    },
+    {
+      "source_id": "https://openalex.org/W2137852732",
+      "title": "Mathematical Foundations of Quantum Mechanics",
+      "year": 2018,
+      "cited_by_count": 4726,
+      "adjusted_cited_by_count": 1670.89,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/mechanics/papers/W2137852732"
+    },
+    {
+      "source_id": "https://openalex.org/W3027308092",
+      "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations",
+      "year": 2020,
+      "cited_by_count": 3873,
+      "adjusted_cited_by_count": 1581.15,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W3027308092"
+    },
+    {
+      "source_id": "https://openalex.org/W1513751997",
+      "title": "Fracture Mechanics",
+      "year": 2017,
+      "cited_by_count": 4639,
+      "adjusted_cited_by_count": 1546.33,
+      "primary_topic_id": "sg-fracture-mechanics",
+      "primary_topic_label": "Fracture mechanics",
+      "url": "/domains/mechanics/papers/W1513751997"
+    },
+    {
+      "source_id": "https://openalex.org/W2032558547",
+      "title": "Information Theory and Statistical Mechanics",
+      "year": 1957,
+      "cited_by_count": 12821,
+      "adjusted_cited_by_count": 1543.47,
+      "primary_topic_id": "sg-statistical-mechanics",
+      "primary_topic_label": "Statistical mechanics",
+      "url": "/domains/mechanics/papers/W2032558547"
+    },
+    {
+      "source_id": "https://openalex.org/W2884430236",
+      "title": "Machine learning for molecular and materials science",
+      "year": 2018,
+      "cited_by_count": 4342,
+      "adjusted_cited_by_count": 1535.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W2884430236"
+    },
+    {
+      "source_id": "https://openalex.org/W1500256440",
+      "title": "Modern Quantum Mechanics",
+      "year": 2020,
+      "cited_by_count": 3696,
+      "adjusted_cited_by_count": 1508.89,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/mechanics/papers/W1500256440"
+    },
+    {
+      "source_id": "https://openalex.org/W2126479355",
+      "title": "Mathematical Methods of Classical Mechanics",
+      "year": 1989,
+      "cited_by_count": 9167,
+      "adjusted_cited_by_count": 1507.05,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W2126479355"
+    },
+    {
+      "source_id": "https://openalex.org/W1490066004",
+      "title": "soil mechanics in engineering practice",
+      "year": 2014,
+      "cited_by_count": 4980,
+      "adjusted_cited_by_count": 1437.6,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/mechanics/papers/W1490066004"
+    },
+    {
+      "source_id": "https://openalex.org/W2103945336",
+      "title": "Settle: An analytical version of the SHAKE and RATTLE algorithm for rigid water models",
+      "year": 1992,
+      "cited_by_count": 7476,
+      "adjusted_cited_by_count": 1282.12,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2103945336"
+    },
+    {
+      "source_id": "https://openalex.org/W1552736770",
+      "title": "Quantum Mechanics and Path Integrals",
+      "year": 1966,
+      "cited_by_count": 9741,
+      "adjusted_cited_by_count": 1257.56,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W1552736770"
+    },
+    {
+      "source_id": "https://openalex.org/W2157426451",
+      "title": "Materials and Mechanics for Stretchable Electronics",
+      "year": 2010,
+      "cited_by_count": 4835,
+      "adjusted_cited_by_count": 1208.75,
+      "primary_topic_id": "sg-quantum-mechanics-quantum-classical-electrodynamics",
+      "primary_topic_label": "Quantum classical electrodynamics",
+      "url": "/domains/mechanics/papers/W2157426451"
+    },
+    {
+      "source_id": "https://openalex.org/W2109154308",
+      "title": "CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data",
+      "year": 2013,
+      "cited_by_count": 4355,
+      "adjusted_cited_by_count": 1207.86,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2109154308"
+    },
+    {
+      "source_id": "https://openalex.org/W179372779",
+      "title": "Contact Mechanics",
+      "year": 1985,
+      "cited_by_count": 7574,
+      "adjusted_cited_by_count": 1182.86,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W179372779"
+    },
+    {
+      "source_id": "https://openalex.org/W2004152688",
+      "title": "Computational Fluid Mechanics and Heat Transfer",
+      "year": 2016,
+      "cited_by_count": 3691,
+      "adjusted_cited_by_count": 1167.2,
+      "primary_topic_id": "sg-fluid-mechanics",
+      "primary_topic_label": "Fluid mechanics",
+      "url": "/domains/mechanics/papers/W2004152688"
+    },
+    {
+      "source_id": "https://openalex.org/W3038698521",
+      "title": "Classical Mechanics",
+      "year": 1951,
+      "cited_by_count": 9889,
+      "adjusted_cited_by_count": 1141.88,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W3038698521"
+    },
+    {
+      "source_id": "https://openalex.org/W2008785686",
+      "title": "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
+      "year": 1998,
+      "cited_by_count": 5835,
+      "adjusted_cited_by_count": 1102.71,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W2008785686"
+    },
+    {
+      "source_id": "https://openalex.org/W1594759473",
+      "title": "Infinite-Dimensional Dynamical Systems in Mechanics and Physics",
+      "year": 1997,
+      "cited_by_count": 5434,
+      "adjusted_cited_by_count": 1009.07,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W1594759473"
+    },
+    {
+      "source_id": "https://openalex.org/W639581896",
+      "title": "Mechanics of laminated composite plates and shells : theory and analysis",
+      "year": 2004,
+      "cited_by_count": 4655,
+      "adjusted_cited_by_count": 992.45,
+      "primary_topic_id": "sg-quantum-mechanics-quantum-classical-electrodynamics",
+      "primary_topic_label": "Quantum classical electrodynamics",
+      "url": "/domains/mechanics/papers/W639581896"
+    },
+    {
+      "source_id": "https://openalex.org/W2110187357",
+      "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+      "year": 1998,
+      "cited_by_count": 5152,
+      "adjusted_cited_by_count": 973.64,
+      "primary_topic_id": "sg-fluid-mechanics",
+      "primary_topic_label": "Fluid mechanics",
+      "url": "/domains/mechanics/papers/W2110187357"
+    },
+    {
+      "source_id": "https://openalex.org/W1633869374",
+      "title": "Turbulence and the dynamics of coherent structures. I. Coherent structures",
+      "year": 1987,
+      "cited_by_count": 6005,
+      "adjusted_cited_by_count": 961.57,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mechanics/papers/W1633869374"
+    },
+    {
+      "source_id": "https://openalex.org/W1975580333",
+      "title": "Calculating Structures and Free Energies of Complex Molecules:  Combining Molecular Mechanics and Continuum Models",
+      "year": 2000,
+      "cited_by_count": 4885,
+      "adjusted_cited_by_count": 958.03,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W1975580333"
+    },
+    {
+      "source_id": "https://openalex.org/W2082508622",
+      "title": "Analysis of crack formation and crack growth in concrete by means of fracture mechanics and finite elements",
+      "year": 1976,
+      "cited_by_count": 6658,
+      "adjusted_cited_by_count": 941.58,
+      "primary_topic_id": "sg-fracture-mechanics",
+      "primary_topic_label": "Fracture mechanics",
+      "url": "/domains/mechanics/papers/W2082508622"
+    },
+    {
+      "source_id": "https://openalex.org/W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "year": 2019,
+      "cited_by_count": 2483,
+      "adjusted_cited_by_count": 938.49,
+      "primary_topic_id": "sg-fluid-mechanics",
+      "primary_topic_label": "Fluid mechanics",
+      "url": "/domains/mechanics/papers/W2973119841"
+    },
+    {
+      "source_id": "https://openalex.org/W1977727715",
+      "title": "Theoretical Soil Mechanics",
+      "year": 1943,
+      "cited_by_count": 8490,
+      "adjusted_cited_by_count": 931.9,
+      "primary_topic_id": "sg-soil-mechanics",
+      "primary_topic_label": "Soil mechanics",
+      "url": "/domains/mechanics/papers/W1977727715"
+    },
+    {
+      "source_id": "https://openalex.org/W2069123478",
+      "title": "A point‐charge force field for molecular mechanics simulations of proteins based on condensed‐phase quantum mechanical calculations",
+      "year": 2003,
+      "cited_by_count": 4464,
+      "adjusted_cited_by_count": 930.81,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2069123478"
+    },
+    {
+      "source_id": "https://openalex.org/W1530042113",
+      "title": "Exactly Solved Models in Statistical Mechanics",
+      "year": 1985,
+      "cited_by_count": 5820,
+      "adjusted_cited_by_count": 908.93,
+      "primary_topic_id": "sg-statistical-mechanics",
+      "primary_topic_label": "Statistical mechanics",
+      "url": "/domains/mechanics/papers/W1530042113"
+    },
+    {
+      "source_id": "https://openalex.org/W2949223833",
+      "title": "OpenMM 7: Rapid development of high performance algorithms for molecular dynamics",
+      "year": 2017,
+      "cited_by_count": 2696,
+      "adjusted_cited_by_count": 898.67,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2949223833"
+    },
+    {
+      "source_id": "https://openalex.org/W2064248772",
+      "title": "Nanobeam Mechanics: Elasticity, Strength, and Toughness of Nanorods and Nanotubes",
+      "year": 1997,
+      "cited_by_count": 4772,
+      "adjusted_cited_by_count": 886.14,
+      "primary_topic_id": "sg-fracture-mechanics",
+      "primary_topic_label": "Fracture mechanics",
+      "url": "/domains/mechanics/papers/W2064248772"
+    },
+    {
+      "source_id": "https://openalex.org/W2060079863",
+      "title": "Structure and Dynamics of the TIP3P, SPC, and SPC/E Water Models at 298 K",
+      "year": 2001,
+      "cited_by_count": 4374,
+      "adjusted_cited_by_count": 874.8,
+      "primary_topic_id": "sg-molecular-mechanics",
+      "primary_topic_label": "Molecular mechanics",
+      "url": "/domains/mechanics/papers/W2060079863"
+    },
+    {
+      "source_id": "https://openalex.org/W1999479012",
+      "title": "Statistical mechanics of chain molecules",
+      "year": 1969,
+      "cited_by_count": 6449,
+      "adjusted_cited_by_count": 854.19,
+      "primary_topic_id": "sg-quantum-mechanics",
+      "primary_topic_label": "Quantum mechanics",
+      "url": "/domains/mechanics/papers/W1999479012"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2019465613",
+      "title": "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+      "year": 1995,
+      "cited_by_count": 44036,
+      "adjusted_cited_by_count": 7909.1,
+      "url": "/domains/mechanics/papers/W2019465613"
+    },
+    {
+      "source_id": "https://openalex.org/W2079105963",
+      "title": "<i>Ab initio</i>molecular dynamics for liquid metals",
+      "year": 1993,
+      "cited_by_count": 44183,
+      "adjusted_cited_by_count": 7691.27,
+      "url": "/domains/mechanics/papers/W2079105963"
+    },
+    {
+      "source_id": "https://openalex.org/W2035266068",
+      "title": "Molecular dynamics with coupling to an external bath",
+      "year": 1984,
+      "cited_by_count": 30648,
+      "adjusted_cited_by_count": 4729.09,
+      "url": "/domains/mechanics/papers/W2035266068"
+    },
+    {
+      "source_id": "https://openalex.org/W2124637492",
+      "title": "Statistical mechanics of complex networks",
+      "year": 2002,
+      "cited_by_count": 20524,
+      "adjusted_cited_by_count": 4189.44,
+      "url": "/domains/mechanics/papers/W2124637492"
+    },
+    {
+      "source_id": "https://openalex.org/W2106140689",
+      "title": "Numerical integration of the cartesian equations of motion of a system with constraints: molecular dynamics of n-alkanes",
+      "year": 1977,
+      "cited_by_count": 21293,
+      "adjusted_cited_by_count": 3041.86,
+      "url": "/domains/mechanics/papers/W2106140689"
+    },
+    {
+      "source_id": "https://openalex.org/W3163993681",
+      "title": "Physics-informed machine learning",
+      "year": 2021,
+      "cited_by_count": 5939,
+      "adjusted_cited_by_count": 2656.0,
+      "url": "/domains/mechanics/papers/W3163993681"
+    },
+    {
+      "source_id": "https://openalex.org/W4235929402",
+      "title": "Applied Mechanics and Materials",
+      "year": 2026,
+      "cited_by_count": 2583,
+      "adjusted_cited_by_count": 2583.0,
+      "url": "/domains/mechanics/papers/W4235929402"
+    },
+    {
+      "source_id": "https://openalex.org/W1597773817",
+      "title": "Atoms in molecules : a quantum theory",
+      "year": 1990,
+      "cited_by_count": 11757,
+      "adjusted_cited_by_count": 1959.5,
+      "url": "/domains/mechanics/papers/W1597773817"
+    },
+    {
+      "source_id": "https://openalex.org/W2798456356",
+      "title": "Quantum Mechanics",
+      "year": 1961,
+      "cited_by_count": 15669,
+      "adjusted_cited_by_count": 1943.5,
+      "url": "/domains/mechanics/papers/W2798456356"
+    },
+    {
+      "source_id": "https://openalex.org/W2030971064",
+      "title": "UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations",
+      "year": 1992,
+      "cited_by_count": 10237,
+      "adjusted_cited_by_count": 1755.63,
+      "url": "/domains/mechanics/papers/W2030971064"
+    },
+    {
+      "source_id": "https://openalex.org/W2137852732",
+      "title": "Mathematical Foundations of Quantum Mechanics",
+      "year": 2018,
+      "cited_by_count": 4726,
+      "adjusted_cited_by_count": 1670.89,
+      "url": "/domains/mechanics/papers/W2137852732"
+    },
+    {
+      "source_id": "https://openalex.org/W3027308092",
+      "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations",
+      "year": 2020,
+      "cited_by_count": 3873,
+      "adjusted_cited_by_count": 1581.15,
+      "url": "/domains/mechanics/papers/W3027308092"
+    },
+    {
+      "source_id": "https://openalex.org/W1513751997",
+      "title": "Fracture Mechanics",
+      "year": 2017,
+      "cited_by_count": 4639,
+      "adjusted_cited_by_count": 1546.33,
+      "url": "/domains/mechanics/papers/W1513751997"
+    },
+    {
+      "source_id": "https://openalex.org/W2032558547",
+      "title": "Information Theory and Statistical Mechanics",
+      "year": 1957,
+      "cited_by_count": 12821,
+      "adjusted_cited_by_count": 1543.47,
+      "url": "/domains/mechanics/papers/W2032558547"
+    },
+    {
+      "source_id": "https://openalex.org/W2884430236",
+      "title": "Machine learning for molecular and materials science",
+      "year": 2018,
+      "cited_by_count": 4342,
+      "adjusted_cited_by_count": 1535.13,
+      "url": "/domains/mechanics/papers/W2884430236"
+    },
+    {
+      "source_id": "https://openalex.org/W1500256440",
+      "title": "Modern Quantum Mechanics",
+      "year": 2020,
+      "cited_by_count": 3696,
+      "adjusted_cited_by_count": 1508.89,
+      "url": "/domains/mechanics/papers/W1500256440"
+    },
+    {
+      "source_id": "https://openalex.org/W2126479355",
+      "title": "Mathematical Methods of Classical Mechanics",
+      "year": 1989,
+      "cited_by_count": 9167,
+      "adjusted_cited_by_count": 1507.05,
+      "url": "/domains/mechanics/papers/W2126479355"
+    },
+    {
+      "source_id": "https://openalex.org/W1490066004",
+      "title": "soil mechanics in engineering practice",
+      "year": 2014,
+      "cited_by_count": 4980,
+      "adjusted_cited_by_count": 1437.6,
+      "url": "/domains/mechanics/papers/W1490066004"
+    },
+    {
+      "source_id": "https://openalex.org/W2103945336",
+      "title": "Settle: An analytical version of the SHAKE and RATTLE algorithm for rigid water models",
+      "year": 1992,
+      "cited_by_count": 7476,
+      "adjusted_cited_by_count": 1282.12,
+      "url": "/domains/mechanics/papers/W2103945336"
+    },
+    {
+      "source_id": "https://openalex.org/W1552736770",
+      "title": "Quantum Mechanics and Path Integrals",
+      "year": 1966,
+      "cited_by_count": 9741,
+      "adjusted_cited_by_count": 1257.56,
+      "url": "/domains/mechanics/papers/W1552736770"
+    },
+    {
+      "source_id": "https://openalex.org/W2157426451",
+      "title": "Materials and Mechanics for Stretchable Electronics",
+      "year": 2010,
+      "cited_by_count": 4835,
+      "adjusted_cited_by_count": 1208.75,
+      "url": "/domains/mechanics/papers/W2157426451"
+    },
+    {
+      "source_id": "https://openalex.org/W2109154308",
+      "title": "CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data",
+      "year": 2013,
+      "cited_by_count": 4355,
+      "adjusted_cited_by_count": 1207.86,
+      "url": "/domains/mechanics/papers/W2109154308"
+    },
+    {
+      "source_id": "https://openalex.org/W179372779",
+      "title": "Contact Mechanics",
+      "year": 1985,
+      "cited_by_count": 7574,
+      "adjusted_cited_by_count": 1182.86,
+      "url": "/domains/mechanics/papers/W179372779"
+    },
+    {
+      "source_id": "https://openalex.org/W2004152688",
+      "title": "Computational Fluid Mechanics and Heat Transfer",
+      "year": 2016,
+      "cited_by_count": 3691,
+      "adjusted_cited_by_count": 1167.2,
+      "url": "/domains/mechanics/papers/W2004152688"
+    },
+    {
+      "source_id": "https://openalex.org/W3038698521",
+      "title": "Classical Mechanics",
+      "year": 1951,
+      "cited_by_count": 9889,
+      "adjusted_cited_by_count": 1141.88,
+      "url": "/domains/mechanics/papers/W3038698521"
+    },
+    {
+      "source_id": "https://openalex.org/W2008785686",
+      "title": "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
+      "year": 1998,
+      "cited_by_count": 5835,
+      "adjusted_cited_by_count": 1102.71,
+      "url": "/domains/mechanics/papers/W2008785686"
+    },
+    {
+      "source_id": "https://openalex.org/W1594759473",
+      "title": "Infinite-Dimensional Dynamical Systems in Mechanics and Physics",
+      "year": 1997,
+      "cited_by_count": 5434,
+      "adjusted_cited_by_count": 1009.07,
+      "url": "/domains/mechanics/papers/W1594759473"
+    },
+    {
+      "source_id": "https://openalex.org/W639581896",
+      "title": "Mechanics of laminated composite plates and shells : theory and analysis",
+      "year": 2004,
+      "cited_by_count": 4655,
+      "adjusted_cited_by_count": 992.45,
+      "url": "/domains/mechanics/papers/W639581896"
+    },
+    {
+      "source_id": "https://openalex.org/W2110187357",
+      "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+      "year": 1998,
+      "cited_by_count": 5152,
+      "adjusted_cited_by_count": 973.64,
+      "url": "/domains/mechanics/papers/W2110187357"
+    },
+    {
+      "source_id": "https://openalex.org/W1633869374",
+      "title": "Turbulence and the dynamics of coherent structures. I. Coherent structures",
+      "year": 1987,
+      "cited_by_count": 6005,
+      "adjusted_cited_by_count": 961.57,
+      "url": "/domains/mechanics/papers/W1633869374"
+    },
+    {
+      "source_id": "https://openalex.org/W1975580333",
+      "title": "Calculating Structures and Free Energies of Complex Molecules:  Combining Molecular Mechanics and Continuum Models",
+      "year": 2000,
+      "cited_by_count": 4885,
+      "adjusted_cited_by_count": 958.03,
+      "url": "/domains/mechanics/papers/W1975580333"
+    },
+    {
+      "source_id": "https://openalex.org/W2082508622",
+      "title": "Analysis of crack formation and crack growth in concrete by means of fracture mechanics and finite elements",
+      "year": 1976,
+      "cited_by_count": 6658,
+      "adjusted_cited_by_count": 941.58,
+      "url": "/domains/mechanics/papers/W2082508622"
+    },
+    {
+      "source_id": "https://openalex.org/W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "year": 2019,
+      "cited_by_count": 2483,
+      "adjusted_cited_by_count": 938.49,
+      "url": "/domains/mechanics/papers/W2973119841"
+    },
+    {
+      "source_id": "https://openalex.org/W1977727715",
+      "title": "Theoretical Soil Mechanics",
+      "year": 1943,
+      "cited_by_count": 8490,
+      "adjusted_cited_by_count": 931.9,
+      "url": "/domains/mechanics/papers/W1977727715"
+    },
+    {
+      "source_id": "https://openalex.org/W2069123478",
+      "title": "A point‐charge force field for molecular mechanics simulations of proteins based on condensed‐phase quantum mechanical calculations",
+      "year": 2003,
+      "cited_by_count": 4464,
+      "adjusted_cited_by_count": 930.81,
+      "url": "/domains/mechanics/papers/W2069123478"
+    },
+    {
+      "source_id": "https://openalex.org/W1530042113",
+      "title": "Exactly Solved Models in Statistical Mechanics",
+      "year": 1985,
+      "cited_by_count": 5820,
+      "adjusted_cited_by_count": 908.93,
+      "url": "/domains/mechanics/papers/W1530042113"
+    },
+    {
+      "source_id": "https://openalex.org/W2949223833",
+      "title": "OpenMM 7: Rapid development of high performance algorithms for molecular dynamics",
+      "year": 2017,
+      "cited_by_count": 2696,
+      "adjusted_cited_by_count": 898.67,
+      "url": "/domains/mechanics/papers/W2949223833"
+    },
+    {
+      "source_id": "https://openalex.org/W2064248772",
+      "title": "Nanobeam Mechanics: Elasticity, Strength, and Toughness of Nanorods and Nanotubes",
+      "year": 1997,
+      "cited_by_count": 4772,
+      "adjusted_cited_by_count": 886.14,
+      "url": "/domains/mechanics/papers/W2064248772"
+    },
+    {
+      "source_id": "https://openalex.org/W2060079863",
+      "title": "Structure and Dynamics of the TIP3P, SPC, and SPC/E Water Models at 298 K",
+      "year": 2001,
+      "cited_by_count": 4374,
+      "adjusted_cited_by_count": 874.8,
+      "url": "/domains/mechanics/papers/W2060079863"
+    },
+    {
+      "source_id": "https://openalex.org/W1999479012",
+      "title": "Statistical mechanics of chain molecules",
+      "year": 1969,
+      "cited_by_count": 6449,
+      "adjusted_cited_by_count": 854.19,
+      "url": "/domains/mechanics/papers/W1999479012"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 283
+    },
+    {
+      "label": "physics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 259
+    },
+    {
+      "label": "quantum",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 145
+    },
+    {
+      "label": "quantum mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "classical mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "statistical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "dynamics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "theoretical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 65
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "one",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "mechanics of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 51
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 51
+    },
+    {
+      "label": "statistical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 104
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 50
+    },
+    {
+      "label": "statistical mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 58
+    },
+    {
+      "label": "molecular",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 46
+    },
+    {
+      "label": "theory of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 45
+    },
+    {
+      "label": "thermodynamics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 46
+    },
+    {
+      "label": "fluid",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 42
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 41
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 39
+    },
+    {
+      "label": "composite material",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 39
+    },
+    {
+      "label": "mechanics and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 40
+    },
+    {
+      "label": "force",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 36
+    },
+    {
+      "label": "book",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 35
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 35
+    },
+    {
+      "label": "mathematical analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 36
+    },
+    {
+      "label": "equation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 32
+    },
+    {
+      "label": "first",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 32
+    },
+    {
+      "label": "introduction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 32
+    },
+    {
+      "label": "more",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 32
+    },
+    {
+      "label": "of quantum",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 32
+    },
+    {
+      "label": "fluid mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 31
+    },
+    {
+      "label": "general",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 31
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 30
+    },
+    {
+      "label": "molecule",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 30
+    },
+    {
+      "label": "geometry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 33
+    },
+    {
+      "label": "molecular dynamics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 29
+    },
+    {
+      "label": "example",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9854,
+      "evidence_count": 28
+    },
+    {
+      "label": "mathematical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 69
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 27
+    }
+  ],
+  "topic_year_counts": {
+    "quantum mechanics": {
+      "2023": 39635,
+      "2024": 38286,
+      "2025": 37568,
+      "2026": 22298,
+      "2022": 21100,
+      "2021": 19521,
+      "2020": 17861,
+      "2019": 15596,
+      "2018": 14266,
+      "2017": 12991,
+      "2016": 12246,
+      "2015": 11589,
+      "2014": 10687,
+      "2013": 9609,
+      "2012": 8762,
+      "2011": 7763,
+      "2010": 6676,
+      "2009": 6333,
+      "2008": 5519,
+      "2007": 5183,
+      "2006": 4753,
+      "2005": 4436,
+      "2004": 3990,
+      "2003": 3518,
+      "2002": 3351,
+      "2001": 2968,
+      "2000": 2857
+    },
+    "statistical mechanics": {
+      "2023": 68811,
+      "2024": 65304,
+      "2025": 60596,
+      "2022": 42165,
+      "2021": 39623,
+      "2020": 36794,
+      "2019": 30959,
+      "2018": 27883,
+      "2017": 24709,
+      "2016": 22879,
+      "2026": 22517,
+      "2015": 21068,
+      "2014": 18621,
+      "2013": 16594,
+      "2012": 13983,
+      "2011": 12371,
+      "2010": 10532,
+      "2009": 9203,
+      "2008": 8013,
+      "2007": 7189,
+      "2006": 6296,
+      "2005": 5552,
+      "2004": 5231,
+      "2003": 4223,
+      "2002": 3947,
+      "2000": 3488,
+      "2001": 3392
+    },
+    "fluid mechanics": {
+      "2023": 50190,
+      "2024": 47408,
+      "2025": 40298,
+      "2022": 31736,
+      "2021": 30258,
+      "2020": 29236,
+      "2019": 24628,
+      "2018": 22809,
+      "2017": 20608,
+      "2016": 19344,
+      "2015": 17366,
+      "2014": 16320,
+      "2013": 14592,
+      "2026": 13706,
+      "2012": 12820,
+      "2011": 11148,
+      "2010": 9370,
+      "2009": 7922,
+      "2008": 7038,
+      "2007": 6453,
+      "2006": 5556,
+      "2005": 4626,
+      "2004": 4274,
+      "2003": 3565,
+      "2002": 3266,
+      "2001": 2928,
+      "2000": 2740
+    },
+    "molecular mechanics": {
+      "2023": 38908,
+      "2024": 36120,
+      "2025": 30853,
+      "2022": 23892,
+      "2021": 22266,
+      "2020": 20668,
+      "2019": 17650,
+      "2018": 15696,
+      "2017": 14319,
+      "2016": 13384,
+      "2015": 12125,
+      "2014": 11222,
+      "2026": 10380,
+      "2013": 10089,
+      "2012": 9026,
+      "2011": 7929,
+      "2010": 6501,
+      "2009": 5765,
+      "2008": 5153,
+      "2007": 4475,
+      "2006": 3856,
+      "2005": 3382,
+      "2004": 3273,
+      "2003": 2637,
+      "2002": 2418,
+      "2001": 2202,
+      "2000": 1945
+    },
+    "soil mechanics": {
+      "2023": 17768,
+      "2024": 15950,
+      "2025": 15123,
+      "2022": 12214,
+      "2021": 12035,
+      "2020": 10313,
+      "2019": 9127,
+      "2018": 7977,
+      "2017": 6701,
+      "2016": 6457,
+      "2015": 5747,
+      "2014": 4937,
+      "2013": 4423,
+      "2026": 3984,
+      "2012": 3629,
+      "2011": 3227,
+      "2010": 2889,
+      "2009": 2478,
+      "2007": 2133,
+      "2008": 2047,
+      "2006": 1573,
+      "2005": 1463,
+      "2004": 1201,
+      "2003": 1030,
+      "2002": 904,
+      "2000": 864,
+      "2001": 789
+    },
+    "fracture mechanics": {
+      "2023": 23692,
+      "2025": 21437,
+      "2024": 21169,
+      "2022": 16581,
+      "2021": 16326,
+      "2020": 14661,
+      "2019": 13270,
+      "2018": 12247,
+      "2017": 10530,
+      "2016": 10165,
+      "2015": 9056,
+      "2014": 7903,
+      "2013": 7696,
+      "2026": 6586,
+      "2012": 6150,
+      "2011": 5602,
+      "2010": 4816,
+      "2009": 4200,
+      "2008": 3815,
+      "2007": 3669,
+      "2006": 3310,
+      "2004": 2794,
+      "2005": 2719,
+      "2003": 2328,
+      "2002": 2007,
+      "2001": 1886,
+      "2000": 1794
+    },
+    "continuum mechanics": {
+      "2023": 19506,
+      "2024": 17640,
+      "2025": 14813,
+      "2022": 11616,
+      "2021": 11543,
+      "2020": 10937,
+      "2019": 10078,
+      "2018": 9292,
+      "2017": 8790,
+      "2016": 8286,
+      "2015": 7574,
+      "2014": 6750,
+      "2013": 6375,
+      "2026": 6114,
+      "2012": 5403,
+      "2011": 4825,
+      "2010": 4313,
+      "2009": 3631,
+      "2008": 3242,
+      "2007": 2875,
+      "2006": 2629,
+      "2005": 2365,
+      "2004": 1884,
+      "2003": 1764,
+      "2002": 1460,
+      "2001": 1301,
+      "2000": 1208
+    }
+  }
+}
