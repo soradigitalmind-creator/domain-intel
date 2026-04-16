@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-15T15:30:15.259948Z",
-  "total_domains": 48,
+  "total_domains": 40,
   "categories": [
     {
       "label": "Life",
@@ -90,7 +90,7 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 16,
+      "count": 13,
       "domains": [
         {
           "slug": "aerospace-engineering",
@@ -113,16 +113,8 @@
           "title": "Battery"
         },
         {
-          "slug": "biomedical",
-          "title": "Biomedical"
-        },
-        {
           "slug": "chemistry",
           "title": "Chemistry"
-        },
-        {
-          "slug": "environment",
-          "title": "Environment"
         },
         {
           "slug": "machine-learning",
@@ -145,10 +137,6 @@
           "title": "Nanotechnology"
         },
         {
-          "slug": "nuclear",
-          "title": "Nuclear"
-        },
-        {
           "slug": "physics",
           "title": "Physics"
         },
@@ -162,19 +150,11 @@
       "label": "Society",
       "slug": "society",
       "description": "Includes markets, behavior, institutions, and collective life.",
-      "count": 14,
+      "count": 9,
       "domains": [
-        {
-          "slug": "art",
-          "title": "Art"
-        },
         {
           "slug": "business-management",
           "title": "Business Management"
-        },
-        {
-          "slug": "defense",
-          "title": "Defense"
         },
         {
           "slug": "economics",
@@ -189,20 +169,8 @@
           "title": "Finance"
         },
         {
-          "slug": "history",
-          "title": "History"
-        },
-        {
-          "slug": "law",
-          "title": "Law"
-        },
-        {
           "slug": "linguistics",
           "title": "Linguistics"
-        },
-        {
-          "slug": "literature",
-          "title": "Literature"
         },
         {
           "slug": "marketing",
@@ -273,31 +241,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning agriculture sustainability and environmental impact.",
       "updated_at": "2026-04-15T09:42:44.207065Z"
-    },
-    {
-      "slug": "art",
-      "title": "Art",
-      "sources": 225,
-      "effective_papers": 179,
-      "subgenres": 42,
-      "parent_subgenres": 7,
-      "child_subgenres": 35,
-      "entities": 575,
-      "claims": 2,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 225,
-        "total_papers": 225,
-        "facet_counts": {
-          "none": 225
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning artificial intelligence, artificial neural network.",
-      "updated_at": "2026-04-16T10:17:04.327438Z"
     },
     {
       "slug": "artificial-intelligence",
@@ -489,31 +432,6 @@
       "updated_at": "2026-04-08T12:39:45.623315Z"
     },
     {
-      "slug": "biomedical",
-      "title": "Biomedical",
-      "sources": 196,
-      "effective_papers": 63,
-      "subgenres": 12,
-      "parent_subgenres": 2,
-      "child_subgenres": 10,
-      "entities": 598,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 196,
-        "total_papers": 196,
-        "facet_counts": {
-          "none": 196
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-16T10:13:26.503152Z"
-    },
-    {
       "slug": "business-management",
       "title": "Business Management",
       "sources": 374,
@@ -695,31 +613,6 @@
       "updated_at": "2026-04-07T12:12:08.295047Z"
     },
     {
-      "slug": "defense",
-      "title": "Defense",
-      "sources": 230,
-      "effective_papers": 38,
-      "subgenres": 8,
-      "parent_subgenres": 1,
-      "child_subgenres": 7,
-      "entities": 572,
-      "claims": 2,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 230,
-        "total_papers": 230,
-        "facet_counts": {
-          "none": 230
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning plant defense against herbivory.",
-      "updated_at": "2026-04-16T10:28:28.604211Z"
-    },
-    {
       "slug": "ecology",
       "title": "Ecology",
       "sources": 463,
@@ -793,31 +686,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning mathematics education, national cholesterol education program.",
       "updated_at": "2026-04-08T12:44:13.693220Z"
-    },
-    {
-      "slug": "environment",
-      "title": "Environment",
-      "sources": 87,
-      "effective_papers": 0,
-      "subgenres": 0,
-      "parent_subgenres": 0,
-      "child_subgenres": 0,
-      "entities": 393,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 87,
-        "total_papers": 87,
-        "facet_counts": {
-          "none": 87
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning environmental science, environmental health.",
-      "updated_at": "2026-04-16T09:59:35.003369Z"
     },
     {
       "slug": "finance",
@@ -920,31 +788,6 @@
       "updated_at": "2026-04-12T01:15:45.030752Z"
     },
     {
-      "slug": "history",
-      "title": "History",
-      "sources": 278,
-      "effective_papers": 78,
-      "subgenres": 20,
-      "parent_subgenres": 1,
-      "child_subgenres": 19,
-      "entities": 688,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 278,
-        "total_papers": 278,
-        "facet_counts": {
-          "none": 278
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning history and advancements in chemistry.",
-      "updated_at": "2026-04-16T10:22:52.924675Z"
-    },
-    {
       "slug": "hydrology",
       "title": "Hydrology",
       "sources": 868,
@@ -995,31 +838,6 @@
       "updated_at": "2026-04-09T16:10:01.149559Z"
     },
     {
-      "slug": "law",
-      "title": "Law",
-      "sources": 45,
-      "effective_papers": 0,
-      "subgenres": 0,
-      "parent_subgenres": 0,
-      "child_subgenres": 0,
-      "entities": 234,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 45,
-        "total_papers": 45,
-        "facet_counts": {
-          "none": 45
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning power law, conservation law, hubble law.",
-      "updated_at": "2026-04-16T10:19:39.223471Z"
-    },
-    {
       "slug": "linguistics",
       "title": "Linguistics",
       "sources": 250,
@@ -1043,31 +861,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning applied linguistics, computational linguistics, cognitive linguistics.",
       "updated_at": "2026-04-06T14:32:22.018672Z"
-    },
-    {
-      "slug": "literature",
-      "title": "Literature",
-      "sources": 92,
-      "effective_papers": 0,
-      "subgenres": 25,
-      "parent_subgenres": 0,
-      "child_subgenres": 25,
-      "entities": 395,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 92,
-        "total_papers": 92,
-        "facet_counts": {
-          "none": 92
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
-      "updated_at": "2026-04-16T10:25:18.510583Z"
     },
     {
       "slug": "machine-learning",
@@ -1401,31 +1194,6 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning affective neuroscience.",
       "updated_at": "2026-04-05T01:55:51.595566Z"
-    },
-    {
-      "slug": "nuclear",
-      "title": "Nuclear",
-      "sources": 221,
-      "effective_papers": 86,
-      "subgenres": 27,
-      "parent_subgenres": 2,
-      "child_subgenres": 25,
-      "entities": 816,
-      "claims": 0,
-      "overview_source_ids": [],
-      "overview_partition_summary": {
-        "overview_papers": 0,
-        "topical_papers": 221,
-        "total_papers": 221,
-        "facet_counts": {
-          "none": 221
-        },
-        "gemini_validation_enabled": false,
-        "gemini_validation_ready": false,
-        "title_phrase_candidates": 0
-      },
-      "abstraction_label": "A taxonomy-style research map spanning nuclear physics.",
-      "updated_at": "2026-04-16T10:06:08.443139Z"
     },
     {
       "slug": "oceanography",
