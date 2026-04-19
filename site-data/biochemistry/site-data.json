@@ -1,0 +1,1947 @@
+{
+  "slug": "biochemistry",
+  "title": "Biochemistry",
+  "updated_at": "2026-04-19T09:32:37.718587Z",
+  "snapshot": {
+    "papers": 164,
+    "topics": 5,
+    "subtopics": 39,
+    "entities": 663,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 242,
+      "total_papers": 242,
+      "facet_counts": {
+        "none": 242
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 39,
+    "max_depth": 2,
+    "leaf_topics": 39
+  },
+  "rising_topics": [
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/biochemistry/topics/sg-cell-biology",
+      "trend": "rising",
+      "year_total": 2852500
+    },
+    {
+      "id": "sg-signal-transduction",
+      "label": "Signal transduction",
+      "url": "/domains/biochemistry/topics/sg-signal-transduction",
+      "trend": "rising",
+      "year_total": 846160
+    },
+    {
+      "id": "sg-oxidative-stress",
+      "label": "Oxidative stress",
+      "url": "/domains/biochemistry/topics/sg-oxidative-stress",
+      "trend": "rising",
+      "year_total": 2335048
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-cell-biology",
+      "label": "Cell biology",
+      "url": "/domains/biochemistry/topics/sg-cell-biology",
+      "paper_count": 75,
+      "subtopic_count": 18,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "abiotic component",
+        "abiotic stress",
+        "cancer cell",
+        "cell biology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cell-biology-transcription-factor",
+          "label": "Transcription factor",
+          "url": "/domains/biochemistry/topics/sg-cell-biology-transcription-factor",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-cell-biology-gene-expression",
+          "label": "Gene expression",
+          "url": "/domains/biochemistry/topics/sg-cell-biology-gene-expression",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-cell-biology-human-genome",
+          "label": "Human genome",
+          "url": "/domains/biochemistry/topics/sg-cell-biology-human-genome",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cell-biology-remodelling-extracellular-matrix",
+          "label": "Remodelling extracellular matrix",
+          "url": "/domains/biochemistry/topics/sg-cell-biology-remodelling-extracellular-matrix",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-cell-biology-rna-splicing",
+          "label": "Rna splicing",
+          "url": "/domains/biochemistry/topics/sg-cell-biology-rna-splicing",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cell-biology-stress-responses",
+          "label": "Stress responses",
+          "url": "/domains/biochemistry/topics/sg-cell-biology-stress-responses",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-signal-transduction",
+      "label": "Signal transduction",
+      "url": "/domains/biochemistry/topics/sg-signal-transduction",
+      "paper_count": 38,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: biochemistry, chem, of the",
+      "tags": [
+        "abiotic component",
+        "abiotic stress",
+        "biosynthesis, signal transduction",
+        "cell signaling"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-signal-transduction-biology-of-plants",
+          "label": "Biology of plants",
+          "url": "/domains/biochemistry/topics/sg-signal-transduction-biology-of-plants",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-signal-transduction-plant-abiotic-stress",
+          "label": "Plant abiotic stress",
+          "url": "/domains/biochemistry/topics/sg-signal-transduction-plant-abiotic-stress",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-signal-transduction-drosophila-melanogaster",
+          "label": "Drosophila melanogaster",
+          "url": "/domains/biochemistry/topics/sg-signal-transduction-drosophila-melanogaster",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-signal-transduction-innate-immune",
+          "label": "Innate immune",
+          "url": "/domains/biochemistry/topics/sg-signal-transduction-innate-immune",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-signal-transduction-by-small-molecule-hormone",
+          "label": "By small-molecule hormone",
+          "url": "/domains/biochemistry/topics/sg-signal-transduction-by-small-molecule-hormone",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2148284063",
+          "title": "Ab Initio Calculation of Vibrational Absorption and Circular Dichroism Spectra Using Density Functional Force Fields",
+          "year": "1994",
+          "cited_by_count": 22765,
+          "url": "/domains/biochemistry/papers/W2148284063"
+        },
+        {
+          "source_id": "https://openalex.org/W613851713",
+          "title": "Comprehensive Molecular Insect Science",
+          "year": "2025",
+          "cited_by_count": 1713,
+          "url": "/domains/biochemistry/papers/W613851713"
+        },
+        {
+          "source_id": "https://openalex.org/W2046857879",
+          "title": "A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species",
+          "year": "1980",
+          "cited_by_count": 8888,
+          "url": "/domains/biochemistry/papers/W2046857879"
+        }
+      ]
+    },
+    {
+      "id": "sg-oxidative-stress",
+      "label": "Oxidative stress",
+      "url": "/domains/biochemistry/topics/sg-oxidative-stress",
+      "paper_count": 27,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: biochemistry, oxidative stress, reactive",
+      "tags": [
+        "oxidative damage",
+        "oxidative stress",
+        "reactive nitrogen species",
+        "redox biology and oxidative stress"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-oxidative-stress-oxidative-stress-mechanisms",
+          "label": "Oxidative stress mechanisms",
+          "url": "/domains/biochemistry/topics/sg-oxidative-stress-oxidative-stress-mechanisms",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-oxidative-stress-redox-biology-oxidative-stress",
+          "label": "Redox biology oxidative stress",
+          "url": "/domains/biochemistry/topics/sg-oxidative-stress-redox-biology-oxidative-stress",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-oxidative-stress-human-health",
+          "label": "Human health",
+          "url": "/domains/biochemistry/topics/sg-oxidative-stress-human-health",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-oxidative-stress-vitamin-c-antioxidants",
+          "label": "Vitamin c antioxidants",
+          "url": "/domains/biochemistry/topics/sg-oxidative-stress-vitamin-c-antioxidants",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-oxidative-stress-genomics-phytochemicals-oxidative-stress",
+          "label": "Genomics, phytochemicals, oxidative stress",
+          "url": "/domains/biochemistry/topics/sg-oxidative-stress-genomics-phytochemicals-oxidative-stress",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-oxidative-stress-nadph-oxidase",
+          "label": "Nadph oxidase",
+          "url": "/domains/biochemistry/topics/sg-oxidative-stress-nadph-oxidase",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2165201727",
+          "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+          "year": "2006",
+          "cited_by_count": 14024,
+          "url": "/domains/biochemistry/papers/W2165201727"
+        },
+        {
+          "source_id": "https://openalex.org/W2740695644",
+          "title": "Oxidative Stress: Harms and Benefits for Human Health",
+          "year": "2017",
+          "cited_by_count": 4543,
+          "url": "/domains/biochemistry/papers/W2740695644"
+        },
+        {
+          "source_id": "https://openalex.org/W2799986334",
+          "title": "Oxidative stress, aging, and diseases",
+          "year": "2018",
+          "cited_by_count": 3811,
+          "url": "/domains/biochemistry/papers/W2799986334"
+        }
+      ]
+    },
+    {
+      "id": "sg-oxidative-phosphorylation",
+      "label": "Oxidative phosphorylation",
+      "url": "/domains/biochemistry/topics/sg-oxidative-phosphorylation",
+      "paper_count": 16,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: biochemistry, disease, pathology",
+      "tags": [
+        "biochemistry physiology",
+        "metabolism biochemistry",
+        "metabolism biochemistry physiology",
+        "oxidative damage"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-oxidative-phosphorylation-alzheimer-s-disease-treatments",
+          "label": "Alzheimer's disease treatments",
+          "url": "/domains/biochemistry/topics/sg-oxidative-phosphorylation-alzheimer-s-disease-treatments",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-oxidative-phosphorylation-burden-of-disease",
+          "label": "Burden of disease",
+          "url": "/domains/biochemistry/topics/sg-oxidative-phosphorylation-burden-of-disease",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-oxidative-phosphorylation-oxidative-damage",
+          "label": "Oxidative damage",
+          "url": "/domains/biochemistry/topics/sg-oxidative-phosphorylation-oxidative-damage",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-oxidative-phosphorylation-pentose-phosphate-pathway",
+          "label": "Pentose phosphate pathway",
+          "url": "/domains/biochemistry/topics/sg-oxidative-phosphorylation-pentose-phosphate-pathway",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-oxidative-phosphorylation-mitochondrial-function-pathology",
+          "label": "Mitochondrial function pathology",
+          "url": "/domains/biochemistry/topics/sg-oxidative-phosphorylation-mitochondrial-function-pathology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2156220037",
+          "title": "Clinical diagnosis of Alzheimer's disease",
+          "year": "1984",
+          "cited_by_count": 27932,
+          "url": "/domains/biochemistry/papers/W2156220037"
+        },
+        {
+          "source_id": "https://openalex.org/W2122341467",
+          "title": "How mitochondria produce reactive oxygen species",
+          "year": "2008",
+          "cited_by_count": 7915,
+          "url": "/domains/biochemistry/papers/W2122341467"
+        },
+        {
+          "source_id": "https://openalex.org/W4392791500",
+          "title": "Global, regional, and national burden of disorders affecting the nervous system, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": "2024",
+          "cited_by_count": 1538,
+          "url": "/domains/biochemistry/papers/W4392791500"
+        }
+      ]
+    },
+    {
+      "id": "sg-programmed-cell-death",
+      "label": "Programmed cell death",
+      "url": "/domains/biochemistry/topics/sg-programmed-cell-death",
+      "paper_count": 8,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: cell, apoptosis, cell biology",
+      "tags": [
+        "cancer cell",
+        "cell death mechanisms and regulation",
+        "cell death recommendations",
+        "ferroptosis and cancer prognosis"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-programmed-cell-death-ferroptosis-in-cancer-prognosis",
+          "label": "Ferroptosis in cancer prognosis",
+          "url": "/domains/biochemistry/topics/sg-programmed-cell-death-ferroptosis-in-cancer-prognosis",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-programmed-cell-death-cell-death-mechanisms-regulation",
+          "label": "Cell death mechanisms regulation",
+          "url": "/domains/biochemistry/topics/sg-programmed-cell-death-cell-death-mechanisms-regulation",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-programmed-cell-death-endoplasmic-reticulum-stress-and-disease",
+          "label": "Endoplasmic reticulum stress and disease",
+          "url": "/domains/biochemistry/topics/sg-programmed-cell-death-endoplasmic-reticulum-stress-and-disease",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-programmed-cell-death-reactive-oxygen-species",
+          "label": "Reactive oxygen species",
+          "url": "/domains/biochemistry/topics/sg-programmed-cell-death-reactive-oxygen-species",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1997183854",
+          "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+          "year": "2012",
+          "cited_by_count": 17493,
+          "url": "/domains/biochemistry/papers/W1997183854"
+        },
+        {
+          "source_id": "https://openalex.org/W1745634660",
+          "title": "The biochemistry of apoptosis",
+          "year": "2000",
+          "cited_by_count": 7313,
+          "url": "/domains/biochemistry/papers/W1745634660"
+        },
+        {
+          "source_id": "https://openalex.org/W2265062179",
+          "title": "Ferroptosis: process and function",
+          "year": "2016",
+          "cited_by_count": 3702,
+          "url": "/domains/biochemistry/papers/W2265062179"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Cell biology",
+      "paper_count": 13,
+      "papers": [
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31402,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28439,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        },
+        {
+          "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+          "year": "2007",
+          "cited_by_count": 20064,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2138977668.html"
+        },
+        {
+          "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+          "year": "2015",
+          "cited_by_count": 14057,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2214074259.html"
+        },
+        {
+          "title": "Molecular portraits of human breast tumours",
+          "year": "2000",
+          "cited_by_count": 16213,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2097255042.html"
+        },
+        {
+          "title": "REACTIVE OXYGEN SPECIES: Metabolism, Oxidative Stress, and Signal Transduction",
+          "year": "2004",
+          "cited_by_count": 11481,
+          "topic": "Cell biology",
+          "url": "papers/https-openalex-org-w2139328007.html"
+        }
+      ]
+    },
+    {
+      "label": "Oxidative stress",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+          "year": "2006",
+          "cited_by_count": 14024,
+          "topic": "Oxidative stress",
+          "url": "papers/https-openalex-org-w2165201727.html"
+        },
+        {
+          "title": "Oxidative Stress: Harms and Benefits for Human Health",
+          "year": "2017",
+          "cited_by_count": 4543,
+          "topic": "Oxidative stress",
+          "url": "papers/https-openalex-org-w2740695644.html"
+        },
+        {
+          "title": "Oxidative stress, aging, and diseases",
+          "year": "2018",
+          "cited_by_count": 3811,
+          "topic": "Oxidative stress",
+          "url": "papers/https-openalex-org-w2799986334.html"
+        },
+        {
+          "title": "Oxidative Stress and Antioxidant Defense",
+          "year": "2012",
+          "cited_by_count": 4829,
+          "topic": "Oxidative stress",
+          "url": "papers/https-openalex-org-w2128473487.html"
+        },
+        {
+          "title": "Targeting oxidative stress in disease: promise and limitations of antioxidant therapy",
+          "year": "2021",
+          "cited_by_count": 2627,
+          "topic": "Oxidative stress",
+          "url": "papers/https-openalex-org-w3173948537.html"
+        }
+      ]
+    },
+    {
+      "label": "Cell polarity",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Honeycomb Carbon: A Review of Graphene",
+          "year": "2009",
+          "cited_by_count": 6936,
+          "topic": "Cell polarity",
+          "url": "papers/https-openalex-org-w2057330747.html"
+        },
+        {
+          "title": "Chemistry and Properties of Nanocrystals of Different Shapes",
+          "year": "2005",
+          "cited_by_count": 7143,
+          "topic": "Cell polarity",
+          "url": "papers/https-openalex-org-w1980495221.html"
+        },
+        {
+          "title": "Atomic Layer Deposition: An Overview",
+          "year": "2009",
+          "cited_by_count": 5601,
+          "topic": "Cell polarity",
+          "url": "papers/https-openalex-org-w2158932701.html"
+        },
+        {
+          "title": "Electrophoretic analysis of the major polypeptides of the human erythrocyte membrane",
+          "year": "1971",
+          "cited_by_count": 8558,
+          "topic": "Cell polarity",
+          "url": "papers/https-openalex-org-w2073879684.html"
+        }
+      ]
+    },
+    {
+      "label": "Human genome",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19222,
+          "topic": "Human genome",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "The Human Microbiome Project",
+          "year": "2007",
+          "cited_by_count": 6036,
+          "topic": "Human genome",
+          "url": "papers/https-openalex-org-w2131186249.html"
+        },
+        {
+          "title": "Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project",
+          "year": "2007",
+          "cited_by_count": 5243,
+          "topic": "Human genome",
+          "url": "papers/https-openalex-org-w2102304447.html"
+        }
+      ]
+    },
+    {
+      "label": "Programmed cell death",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+          "year": "2012",
+          "cited_by_count": 17493,
+          "topic": "Programmed cell death",
+          "url": "papers/https-openalex-org-w1997183854.html"
+        },
+        {
+          "title": "The biochemistry of apoptosis",
+          "year": "2000",
+          "cited_by_count": 7313,
+          "topic": "Programmed cell death",
+          "url": "papers/https-openalex-org-w1745634660.html"
+        },
+        {
+          "title": "Ferroptosis: process and function",
+          "year": "2016",
+          "cited_by_count": 3702,
+          "topic": "Programmed cell death",
+          "url": "papers/https-openalex-org-w2265062179.html"
+        }
+      ]
+    },
+    {
+      "label": "Remodelling extracellular matrix",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 4974,
+          "topic": "Remodelling extracellular matrix",
+          "url": "papers/https-openalex-org-w2899773405.html"
+        },
+        {
+          "title": "Global, regional, and national burden of disorders affecting the nervous system, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": "2024",
+          "cited_by_count": 1538,
+          "topic": "Remodelling extracellular matrix",
+          "url": "papers/https-openalex-org-w4392791500.html"
+        },
+        {
+          "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+          "year": "2020",
+          "cited_by_count": 2933,
+          "topic": "Remodelling extracellular matrix",
+          "url": "papers/https-openalex-org-w3110220146.html"
+        }
+      ]
+    },
+    {
+      "label": "Biology of plants",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Colorimetric Method for Determination of Sugars and Related Substances",
+          "year": "1956",
+          "cited_by_count": 51360,
+          "topic": "Biology of plants",
+          "url": "papers/https-openalex-org-w1968834637.html"
+        },
+        {
+          "title": "Smoothing and Differentiation of Data by Simplified Least Squares Procedures.",
+          "year": "1964",
+          "cited_by_count": 20969,
+          "topic": "Biology of plants",
+          "url": "papers/https-openalex-org-w2109606373.html"
+        }
+      ]
+    },
+    {
+      "label": "Oxidative phosphorylation",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Clinical diagnosis of Alzheimer&#x27;s disease",
+          "year": "1984",
+          "cited_by_count": 27932,
+          "topic": "Oxidative phosphorylation",
+          "url": "papers/https-openalex-org-w2156220037.html"
+        },
+        {
+          "title": "How mitochondria produce reactive oxygen species",
+          "year": "2008",
+          "cited_by_count": 7915,
+          "topic": "Oxidative phosphorylation",
+          "url": "papers/https-openalex-org-w2122341467.html"
+        }
+      ]
+    },
+    {
+      "label": "Plant abiotic stress",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Comprehensive Molecular Insect Science",
+          "year": "2025",
+          "cited_by_count": 1713,
+          "topic": "Plant abiotic stress",
+          "url": "papers/https-openalex-org-w613851713.html"
+        },
+        {
+          "title": "A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species",
+          "year": "1980",
+          "cited_by_count": 8888,
+          "topic": "Plant abiotic stress",
+          "url": "papers/https-openalex-org-w2046857879.html"
+        }
+      ]
+    },
+    {
+      "label": "Gene expression",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Long non-coding RNAs: definitions, functions, challenges and recommendations",
+          "year": "2023",
+          "cited_by_count": 2115,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w4313488537.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31402,
+      "adjusted_cited_by_count": 9468.06,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W1968834637",
+      "title": "Colorimetric Method for Determination of Sugars and Related Substances",
+      "year": 1956,
+      "cited_by_count": 51360,
+      "adjusted_cited_by_count": 6138.69,
+      "primary_topic_id": "sg-signal-transduction-biology-of-plants",
+      "primary_topic_label": "Biology of plants",
+      "url": "/domains/biochemistry/papers/W1968834637"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28439,
+      "adjusted_cited_by_count": 5577.35,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19222,
+      "adjusted_cited_by_count": 5137.3,
+      "primary_topic_id": "sg-cell-biology-human-genome",
+      "primary_topic_label": "Human genome",
+      "url": "/domains/biochemistry/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W1997183854",
+      "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+      "year": 2012,
+      "cited_by_count": 17493,
+      "adjusted_cited_by_count": 4675.2,
+      "primary_topic_id": "sg-programmed-cell-death",
+      "primary_topic_label": "Programmed cell death",
+      "url": "/domains/biochemistry/papers/W1997183854"
+    },
+    {
+      "source_id": "https://openalex.org/W2138977668",
+      "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+      "year": 2007,
+      "cited_by_count": 20064,
+      "adjusted_cited_by_count": 4603.0,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2138977668"
+    },
+    {
+      "source_id": "https://openalex.org/W2156220037",
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by_count": 27932,
+      "adjusted_cited_by_count": 4310.0,
+      "primary_topic_id": "sg-oxidative-phosphorylation",
+      "primary_topic_label": "Oxidative phosphorylation",
+      "url": "/domains/biochemistry/papers/W2156220037"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 14057,
+      "adjusted_cited_by_count": 4238.34,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W2148284063",
+      "title": "Ab Initio Calculation of Vibrational Absorption and Circular Dichroism Spectra Using Density Functional Force Fields",
+      "year": 1994,
+      "cited_by_count": 22765,
+      "adjusted_cited_by_count": 4024.32,
+      "primary_topic_id": "sg-cell-biology-rna-splicing",
+      "primary_topic_label": "Rna splicing",
+      "url": "/domains/biochemistry/papers/W2148284063"
+    },
+    {
+      "source_id": "https://openalex.org/W2097255042",
+      "title": "Molecular portraits of human breast tumours",
+      "year": 2000,
+      "cited_by_count": 16213,
+      "adjusted_cited_by_count": 3179.63,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2097255042"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14024,
+      "adjusted_cited_by_count": 3135.86,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress",
+      "url": "/domains/biochemistry/papers/W2165201727"
+    },
+    {
+      "source_id": "https://openalex.org/W2109606373",
+      "title": "Smoothing and Differentiation of Data by Simplified Least Squares Procedures.",
+      "year": 1964,
+      "cited_by_count": 20969,
+      "adjusted_cited_by_count": 2663.07,
+      "primary_topic_id": "sg-signal-transduction-biology-of-plants",
+      "primary_topic_label": "Biology of plants",
+      "url": "/domains/biochemistry/papers/W2109606373"
+    },
+    {
+      "source_id": "https://openalex.org/W2139328007",
+      "title": "REACTIVE OXYGEN SPECIES: Metabolism, Oxidative Stress, and Signal Transduction",
+      "year": 2004,
+      "cited_by_count": 11481,
+      "adjusted_cited_by_count": 2447.76,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2139328007"
+    },
+    {
+      "source_id": "https://openalex.org/W2590568317",
+      "title": "Biomolecular condensates: organizers of cellular biochemistry",
+      "year": 2017,
+      "cited_by_count": 6203,
+      "adjusted_cited_by_count": 2067.67,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2590568317"
+    },
+    {
+      "source_id": "https://openalex.org/W3115880421",
+      "title": "Gene regulation by long non-coding RNAs and its biological functions",
+      "year": 2020,
+      "cited_by_count": 4972,
+      "adjusted_cited_by_count": 2029.81,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W3115880421"
+    },
+    {
+      "source_id": "https://openalex.org/W2122341467",
+      "title": "How mitochondria produce reactive oxygen species",
+      "year": 2008,
+      "cited_by_count": 7915,
+      "adjusted_cited_by_count": 1865.58,
+      "primary_topic_id": "sg-oxidative-phosphorylation",
+      "primary_topic_label": "Oxidative phosphorylation",
+      "url": "/domains/biochemistry/papers/W2122341467"
+    },
+    {
+      "source_id": "https://openalex.org/W3083241614",
+      "title": "Gut microbiota in human metabolic health and disease",
+      "year": 2020,
+      "cited_by_count": 4400,
+      "adjusted_cited_by_count": 1796.29,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W3083241614"
+    },
+    {
+      "source_id": "https://openalex.org/W2044437167",
+      "title": "Biochemistry and molecular cell biology of diabetic complications",
+      "year": 2001,
+      "cited_by_count": 8981,
+      "adjusted_cited_by_count": 1796.2,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2044437167"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4974,
+      "adjusted_cited_by_count": 1758.57,
+      "primary_topic_id": "sg-cell-biology-remodelling-extracellular-matrix",
+      "primary_topic_label": "Remodelling extracellular matrix",
+      "url": "/domains/biochemistry/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W613851713",
+      "title": "Comprehensive Molecular Insect Science",
+      "year": 2025,
+      "cited_by_count": 1713,
+      "adjusted_cited_by_count": 1713.0,
+      "primary_topic_id": "sg-signal-transduction-plant-abiotic-stress",
+      "primary_topic_label": "Plant abiotic stress",
+      "url": "/domains/biochemistry/papers/W613851713"
+    },
+    {
+      "source_id": "https://openalex.org/W2057330747",
+      "title": "Honeycomb Carbon: A Review of Graphene",
+      "year": 2009,
+      "cited_by_count": 6936,
+      "adjusted_cited_by_count": 1682.23,
+      "primary_topic_id": "sg-cell-biology-cell-polarity",
+      "primary_topic_label": "Cell polarity",
+      "url": "/domains/biochemistry/papers/W2057330747"
+    },
+    {
+      "source_id": "https://openalex.org/W1980495221",
+      "title": "Chemistry and Properties of Nanocrystals of Different Shapes",
+      "year": 2005,
+      "cited_by_count": 7143,
+      "adjusted_cited_by_count": 1558.73,
+      "primary_topic_id": "sg-cell-biology-cell-polarity",
+      "primary_topic_label": "Cell polarity",
+      "url": "/domains/biochemistry/papers/W1980495221"
+    },
+    {
+      "source_id": "https://openalex.org/W4392791500",
+      "title": "Global, regional, and national burden of disorders affecting the nervous system, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 1538,
+      "adjusted_cited_by_count": 1538.0,
+      "primary_topic_id": "sg-cell-biology-remodelling-extracellular-matrix",
+      "primary_topic_label": "Remodelling extracellular matrix",
+      "url": "/domains/biochemistry/papers/W4392791500"
+    },
+    {
+      "source_id": "https://openalex.org/W2740695644",
+      "title": "Oxidative Stress: Harms and Benefits for Human Health",
+      "year": 2017,
+      "cited_by_count": 4543,
+      "adjusted_cited_by_count": 1514.33,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress",
+      "url": "/domains/biochemistry/papers/W2740695644"
+    },
+    {
+      "source_id": "https://openalex.org/W2041493424",
+      "title": "Reactive Oxygen Species, Oxidative Damage, and Antioxidative Defense Mechanism in Plants under Stressful Conditions",
+      "year": 2012,
+      "cited_by_count": 5380,
+      "adjusted_cited_by_count": 1437.87,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W2041493424"
+    },
+    {
+      "source_id": "https://openalex.org/W1745634660",
+      "title": "The biochemistry of apoptosis",
+      "year": 2000,
+      "cited_by_count": 7313,
+      "adjusted_cited_by_count": 1434.2,
+      "primary_topic_id": "sg-programmed-cell-death",
+      "primary_topic_label": "Programmed cell death",
+      "url": "/domains/biochemistry/papers/W1745634660"
+    },
+    {
+      "source_id": "https://openalex.org/W4205379795",
+      "title": "PROTAC targeted protein degraders: the past is prologue",
+      "year": 2022,
+      "cited_by_count": 2868,
+      "adjusted_cited_by_count": 1434.0,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W4205379795"
+    },
+    {
+      "source_id": "https://openalex.org/W2131186249",
+      "title": "The Human Microbiome Project",
+      "year": 2007,
+      "cited_by_count": 6036,
+      "adjusted_cited_by_count": 1384.75,
+      "primary_topic_id": "sg-cell-biology-human-genome",
+      "primary_topic_label": "Human genome",
+      "url": "/domains/biochemistry/papers/W2131186249"
+    },
+    {
+      "source_id": "https://openalex.org/W2158932701",
+      "title": "Atomic Layer Deposition: An Overview",
+      "year": 2009,
+      "cited_by_count": 5601,
+      "adjusted_cited_by_count": 1358.44,
+      "primary_topic_id": "sg-cell-biology-cell-polarity",
+      "primary_topic_label": "Cell polarity",
+      "url": "/domains/biochemistry/papers/W2158932701"
+    },
+    {
+      "source_id": "https://openalex.org/W2799986334",
+      "title": "Oxidative stress, aging, and diseases",
+      "year": 2018,
+      "cited_by_count": 3811,
+      "adjusted_cited_by_count": 1347.39,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress",
+      "url": "/domains/biochemistry/papers/W2799986334"
+    },
+    {
+      "source_id": "https://openalex.org/W2046857879",
+      "title": "A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species",
+      "year": 1980,
+      "cited_by_count": 8888,
+      "adjusted_cited_by_count": 1310.46,
+      "primary_topic_id": "sg-signal-transduction-plant-abiotic-stress",
+      "primary_topic_label": "Plant abiotic stress",
+      "url": "/domains/biochemistry/papers/W2046857879"
+    },
+    {
+      "source_id": "https://openalex.org/W2128473487",
+      "title": "Oxidative Stress and Antioxidant Defense",
+      "year": 2012,
+      "cited_by_count": 4829,
+      "adjusted_cited_by_count": 1290.6,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress",
+      "url": "/domains/biochemistry/papers/W2128473487"
+    },
+    {
+      "source_id": "https://openalex.org/W1965498876",
+      "title": "Remodelling the extracellular matrix in development and disease",
+      "year": 2014,
+      "cited_by_count": 4256,
+      "adjusted_cited_by_count": 1228.6,
+      "primary_topic_id": "sg-cell-biology",
+      "primary_topic_label": "Cell biology",
+      "url": "/domains/biochemistry/papers/W1965498876"
+    },
+    {
+      "source_id": "https://openalex.org/W4313488537",
+      "title": "Long non-coding RNAs: definitions, functions, challenges and recommendations",
+      "year": 2023,
+      "cited_by_count": 2115,
+      "adjusted_cited_by_count": 1221.1,
+      "primary_topic_id": "sg-cell-biology-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/biochemistry/papers/W4313488537"
+    },
+    {
+      "source_id": "https://openalex.org/W2102304447",
+      "title": "Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project",
+      "year": 2007,
+      "cited_by_count": 5243,
+      "adjusted_cited_by_count": 1202.83,
+      "primary_topic_id": "sg-cell-biology-human-genome",
+      "primary_topic_label": "Human genome",
+      "url": "/domains/biochemistry/papers/W2102304447"
+    },
+    {
+      "source_id": "https://openalex.org/W3110220146",
+      "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+      "year": 2020,
+      "cited_by_count": 2933,
+      "adjusted_cited_by_count": 1197.39,
+      "primary_topic_id": "sg-cell-biology-remodelling-extracellular-matrix",
+      "primary_topic_label": "Remodelling extracellular matrix",
+      "url": "/domains/biochemistry/papers/W3110220146"
+    },
+    {
+      "source_id": "https://openalex.org/W2138297714",
+      "title": "Erlotinib in Previously Treated Non–Small-Cell Lung Cancer",
+      "year": 2005,
+      "cited_by_count": 5442,
+      "adjusted_cited_by_count": 1187.54,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/biochemistry/papers/W2138297714"
+    },
+    {
+      "source_id": "https://openalex.org/W3173948537",
+      "title": "Targeting oxidative stress in disease: promise and limitations of antioxidant therapy",
+      "year": 2021,
+      "cited_by_count": 2627,
+      "adjusted_cited_by_count": 1174.83,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress",
+      "url": "/domains/biochemistry/papers/W3173948537"
+    },
+    {
+      "source_id": "https://openalex.org/W2265062179",
+      "title": "Ferroptosis: process and function",
+      "year": 2016,
+      "cited_by_count": 3702,
+      "adjusted_cited_by_count": 1170.68,
+      "primary_topic_id": "sg-programmed-cell-death",
+      "primary_topic_label": "Programmed cell death",
+      "url": "/domains/biochemistry/papers/W2265062179"
+    },
+    {
+      "source_id": "https://openalex.org/W2073879684",
+      "title": "Electrophoretic analysis of the major polypeptides of the human erythrocyte membrane",
+      "year": 1971,
+      "cited_by_count": 8558,
+      "adjusted_cited_by_count": 1153.96,
+      "primary_topic_id": "sg-cell-biology-cell-polarity",
+      "primary_topic_label": "Cell polarity",
+      "url": "/domains/biochemistry/papers/W2073879684"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31402,
+      "adjusted_cited_by_count": 9468.06,
+      "url": "/domains/biochemistry/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W1968834637",
+      "title": "Colorimetric Method for Determination of Sugars and Related Substances",
+      "year": 1956,
+      "cited_by_count": 51360,
+      "adjusted_cited_by_count": 6138.69,
+      "url": "/domains/biochemistry/papers/W1968834637"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28439,
+      "adjusted_cited_by_count": 5577.35,
+      "url": "/domains/biochemistry/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19222,
+      "adjusted_cited_by_count": 5137.3,
+      "url": "/domains/biochemistry/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W1997183854",
+      "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+      "year": 2012,
+      "cited_by_count": 17493,
+      "adjusted_cited_by_count": 4675.2,
+      "url": "/domains/biochemistry/papers/W1997183854"
+    },
+    {
+      "source_id": "https://openalex.org/W2138977668",
+      "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+      "year": 2007,
+      "cited_by_count": 20064,
+      "adjusted_cited_by_count": 4603.0,
+      "url": "/domains/biochemistry/papers/W2138977668"
+    },
+    {
+      "source_id": "https://openalex.org/W2156220037",
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by_count": 27932,
+      "adjusted_cited_by_count": 4310.0,
+      "url": "/domains/biochemistry/papers/W2156220037"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 14057,
+      "adjusted_cited_by_count": 4238.34,
+      "url": "/domains/biochemistry/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W2148284063",
+      "title": "Ab Initio Calculation of Vibrational Absorption and Circular Dichroism Spectra Using Density Functional Force Fields",
+      "year": 1994,
+      "cited_by_count": 22765,
+      "adjusted_cited_by_count": 4024.32,
+      "url": "/domains/biochemistry/papers/W2148284063"
+    },
+    {
+      "source_id": "https://openalex.org/W2097255042",
+      "title": "Molecular portraits of human breast tumours",
+      "year": 2000,
+      "cited_by_count": 16213,
+      "adjusted_cited_by_count": 3179.63,
+      "url": "/domains/biochemistry/papers/W2097255042"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14024,
+      "adjusted_cited_by_count": 3135.86,
+      "url": "/domains/biochemistry/papers/W2165201727"
+    },
+    {
+      "source_id": "https://openalex.org/W2109606373",
+      "title": "Smoothing and Differentiation of Data by Simplified Least Squares Procedures.",
+      "year": 1964,
+      "cited_by_count": 20969,
+      "adjusted_cited_by_count": 2663.07,
+      "url": "/domains/biochemistry/papers/W2109606373"
+    },
+    {
+      "source_id": "https://openalex.org/W2139328007",
+      "title": "REACTIVE OXYGEN SPECIES: Metabolism, Oxidative Stress, and Signal Transduction",
+      "year": 2004,
+      "cited_by_count": 11481,
+      "adjusted_cited_by_count": 2447.76,
+      "url": "/domains/biochemistry/papers/W2139328007"
+    },
+    {
+      "source_id": "https://openalex.org/W2590568317",
+      "title": "Biomolecular condensates: organizers of cellular biochemistry",
+      "year": 2017,
+      "cited_by_count": 6203,
+      "adjusted_cited_by_count": 2067.67,
+      "url": "/domains/biochemistry/papers/W2590568317"
+    },
+    {
+      "source_id": "https://openalex.org/W3115880421",
+      "title": "Gene regulation by long non-coding RNAs and its biological functions",
+      "year": 2020,
+      "cited_by_count": 4972,
+      "adjusted_cited_by_count": 2029.81,
+      "url": "/domains/biochemistry/papers/W3115880421"
+    },
+    {
+      "source_id": "https://openalex.org/W2122341467",
+      "title": "How mitochondria produce reactive oxygen species",
+      "year": 2008,
+      "cited_by_count": 7915,
+      "adjusted_cited_by_count": 1865.58,
+      "url": "/domains/biochemistry/papers/W2122341467"
+    },
+    {
+      "source_id": "https://openalex.org/W3083241614",
+      "title": "Gut microbiota in human metabolic health and disease",
+      "year": 2020,
+      "cited_by_count": 4400,
+      "adjusted_cited_by_count": 1796.29,
+      "url": "/domains/biochemistry/papers/W3083241614"
+    },
+    {
+      "source_id": "https://openalex.org/W2044437167",
+      "title": "Biochemistry and molecular cell biology of diabetic complications",
+      "year": 2001,
+      "cited_by_count": 8981,
+      "adjusted_cited_by_count": 1796.2,
+      "url": "/domains/biochemistry/papers/W2044437167"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4974,
+      "adjusted_cited_by_count": 1758.57,
+      "url": "/domains/biochemistry/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W613851713",
+      "title": "Comprehensive Molecular Insect Science",
+      "year": 2025,
+      "cited_by_count": 1713,
+      "adjusted_cited_by_count": 1713.0,
+      "url": "/domains/biochemistry/papers/W613851713"
+    },
+    {
+      "source_id": "https://openalex.org/W2057330747",
+      "title": "Honeycomb Carbon: A Review of Graphene",
+      "year": 2009,
+      "cited_by_count": 6936,
+      "adjusted_cited_by_count": 1682.23,
+      "url": "/domains/biochemistry/papers/W2057330747"
+    },
+    {
+      "source_id": "https://openalex.org/W1980495221",
+      "title": "Chemistry and Properties of Nanocrystals of Different Shapes",
+      "year": 2005,
+      "cited_by_count": 7143,
+      "adjusted_cited_by_count": 1558.73,
+      "url": "/domains/biochemistry/papers/W1980495221"
+    },
+    {
+      "source_id": "https://openalex.org/W4392791500",
+      "title": "Global, regional, and national burden of disorders affecting the nervous system, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 1538,
+      "adjusted_cited_by_count": 1538.0,
+      "url": "/domains/biochemistry/papers/W4392791500"
+    },
+    {
+      "source_id": "https://openalex.org/W2740695644",
+      "title": "Oxidative Stress: Harms and Benefits for Human Health",
+      "year": 2017,
+      "cited_by_count": 4543,
+      "adjusted_cited_by_count": 1514.33,
+      "url": "/domains/biochemistry/papers/W2740695644"
+    },
+    {
+      "source_id": "https://openalex.org/W2041493424",
+      "title": "Reactive Oxygen Species, Oxidative Damage, and Antioxidative Defense Mechanism in Plants under Stressful Conditions",
+      "year": 2012,
+      "cited_by_count": 5380,
+      "adjusted_cited_by_count": 1437.87,
+      "url": "/domains/biochemistry/papers/W2041493424"
+    },
+    {
+      "source_id": "https://openalex.org/W1745634660",
+      "title": "The biochemistry of apoptosis",
+      "year": 2000,
+      "cited_by_count": 7313,
+      "adjusted_cited_by_count": 1434.2,
+      "url": "/domains/biochemistry/papers/W1745634660"
+    },
+    {
+      "source_id": "https://openalex.org/W4205379795",
+      "title": "PROTAC targeted protein degraders: the past is prologue",
+      "year": 2022,
+      "cited_by_count": 2868,
+      "adjusted_cited_by_count": 1434.0,
+      "url": "/domains/biochemistry/papers/W4205379795"
+    },
+    {
+      "source_id": "https://openalex.org/W2131186249",
+      "title": "The Human Microbiome Project",
+      "year": 2007,
+      "cited_by_count": 6036,
+      "adjusted_cited_by_count": 1384.75,
+      "url": "/domains/biochemistry/papers/W2131186249"
+    },
+    {
+      "source_id": "https://openalex.org/W2158932701",
+      "title": "Atomic Layer Deposition: An Overview",
+      "year": 2009,
+      "cited_by_count": 5601,
+      "adjusted_cited_by_count": 1358.44,
+      "url": "/domains/biochemistry/papers/W2158932701"
+    },
+    {
+      "source_id": "https://openalex.org/W2799986334",
+      "title": "Oxidative stress, aging, and diseases",
+      "year": 2018,
+      "cited_by_count": 3811,
+      "adjusted_cited_by_count": 1347.39,
+      "url": "/domains/biochemistry/papers/W2799986334"
+    },
+    {
+      "source_id": "https://openalex.org/W2046857879",
+      "title": "A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species",
+      "year": 1980,
+      "cited_by_count": 8888,
+      "adjusted_cited_by_count": 1310.46,
+      "url": "/domains/biochemistry/papers/W2046857879"
+    },
+    {
+      "source_id": "https://openalex.org/W2128473487",
+      "title": "Oxidative Stress and Antioxidant Defense",
+      "year": 2012,
+      "cited_by_count": 4829,
+      "adjusted_cited_by_count": 1290.6,
+      "url": "/domains/biochemistry/papers/W2128473487"
+    },
+    {
+      "source_id": "https://openalex.org/W1965498876",
+      "title": "Remodelling the extracellular matrix in development and disease",
+      "year": 2014,
+      "cited_by_count": 4256,
+      "adjusted_cited_by_count": 1228.6,
+      "url": "/domains/biochemistry/papers/W1965498876"
+    },
+    {
+      "source_id": "https://openalex.org/W4313488537",
+      "title": "Long non-coding RNAs: definitions, functions, challenges and recommendations",
+      "year": 2023,
+      "cited_by_count": 2115,
+      "adjusted_cited_by_count": 1221.1,
+      "url": "/domains/biochemistry/papers/W4313488537"
+    },
+    {
+      "source_id": "https://openalex.org/W2102304447",
+      "title": "Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project",
+      "year": 2007,
+      "cited_by_count": 5243,
+      "adjusted_cited_by_count": 1202.83,
+      "url": "/domains/biochemistry/papers/W2102304447"
+    },
+    {
+      "source_id": "https://openalex.org/W3110220146",
+      "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+      "year": 2020,
+      "cited_by_count": 2933,
+      "adjusted_cited_by_count": 1197.39,
+      "url": "/domains/biochemistry/papers/W3110220146"
+    },
+    {
+      "source_id": "https://openalex.org/W2138297714",
+      "title": "Erlotinib in Previously Treated Non–Small-Cell Lung Cancer",
+      "year": 2005,
+      "cited_by_count": 5442,
+      "adjusted_cited_by_count": 1187.54,
+      "url": "/domains/biochemistry/papers/W2138297714"
+    },
+    {
+      "source_id": "https://openalex.org/W3173948537",
+      "title": "Targeting oxidative stress in disease: promise and limitations of antioxidant therapy",
+      "year": 2021,
+      "cited_by_count": 2627,
+      "adjusted_cited_by_count": 1174.83,
+      "url": "/domains/biochemistry/papers/W3173948537"
+    },
+    {
+      "source_id": "https://openalex.org/W2265062179",
+      "title": "Ferroptosis: process and function",
+      "year": 2016,
+      "cited_by_count": 3702,
+      "adjusted_cited_by_count": 1170.68,
+      "url": "/domains/biochemistry/papers/W2265062179"
+    },
+    {
+      "source_id": "https://openalex.org/W2073879684",
+      "title": "Electrophoretic analysis of the major polypeptides of the human erythrocyte membrane",
+      "year": 1971,
+      "cited_by_count": 8558,
+      "adjusted_cited_by_count": 1153.96,
+      "url": "/domains/biochemistry/papers/W2073879684"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "biochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "chem",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 104
+    },
+    {
+      "label": "ros",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "cell biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "date",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "media",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "about",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 58
+    },
+    {
+      "label": "history",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "citation",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "return",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "doi",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "doi.org",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "about these",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "about these metricsarticle",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "advertisement",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "advertisement return",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "advertisement return to",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "are the counter-compliant",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "cite this",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "counter-compliant sum",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "counter-compliant sum of",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "inissue",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "metricsarticle views",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "metricsarticle views are",
+      "semantic_role": "entity_like",
+      "topic_role": "subtopic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "of full",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "return to",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "sum of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "sum of full",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "the counter-compliant",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "the counter-compliant sum",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "these metricsarticle",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "these metricsarticle views",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "views are",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "views are the",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "permissionsarticle",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "icon",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "reuse",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "reuse permissionsarticle",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "pubs.acs.org",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "computational biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "social media",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 46
+    }
+  ],
+  "topic_year_counts": {
+    "signal transduction": {
+      "2023": 72730,
+      "2024": 65245,
+      "2025": 57326,
+      "2022": 52538,
+      "2021": 50433,
+      "2020": 47656,
+      "2019": 39176,
+      "2017": 35625,
+      "2018": 35481,
+      "2016": 33927,
+      "2014": 33032,
+      "2015": 32852,
+      "2013": 32135,
+      "2012": 30274,
+      "2011": 27522,
+      "2010": 24517,
+      "2009": 22302,
+      "2008": 19936,
+      "2007": 18039,
+      "2006": 17289,
+      "2026": 16102,
+      "2005": 15841,
+      "2004": 15426,
+      "2003": 14304,
+      "2002": 13109,
+      "2001": 12016,
+      "2000": 11327
+    },
+    "oxidative stress": {
+      "2025": 265796,
+      "2023": 253023,
+      "2024": 248847,
+      "2022": 181270,
+      "2021": 161531,
+      "2020": 144852,
+      "2019": 119760,
+      "2018": 106237,
+      "2017": 98096,
+      "2016": 87119,
+      "2015": 79739,
+      "2026": 79043,
+      "2014": 74734,
+      "2013": 67637,
+      "2012": 60170,
+      "2011": 50736,
+      "2010": 43216,
+      "2009": 36508,
+      "2008": 31750,
+      "2007": 27238,
+      "2006": 24628,
+      "2005": 21585,
+      "2004": 18984,
+      "2003": 16393,
+      "2002": 13508,
+      "2001": 11455,
+      "2000": 11193
+    },
+    "oxidative phosphorylation": {
+      "2023": 60466,
+      "2024": 55384,
+      "2025": 50750,
+      "2022": 43430,
+      "2021": 40323,
+      "2020": 36000,
+      "2019": 29323,
+      "2018": 26273,
+      "2017": 25373,
+      "2016": 22453,
+      "2015": 20854,
+      "2014": 19645,
+      "2013": 18308,
+      "2012": 16637,
+      "2026": 14919,
+      "2011": 13726,
+      "2010": 11639,
+      "2009": 9689,
+      "2008": 8313,
+      "2007": 6874,
+      "2006": 6100,
+      "2005": 5882,
+      "2004": 4691,
+      "2003": 4365,
+      "2002": 3782,
+      "2001": 3124,
+      "2000": 2834
+    },
+    "programmed cell death": {
+      "2023": 154172,
+      "2024": 143614,
+      "2025": 119311,
+      "2022": 108313,
+      "2021": 101397,
+      "2020": 92467,
+      "2019": 71534,
+      "2018": 62767,
+      "2017": 58236,
+      "2016": 51988,
+      "2015": 47431,
+      "2014": 43667,
+      "2013": 40057,
+      "2012": 35468,
+      "2026": 32669,
+      "2011": 29650,
+      "2010": 24756,
+      "2009": 21247,
+      "2008": 17742,
+      "2007": 15460,
+      "2006": 13906,
+      "2005": 11978,
+      "2004": 11085,
+      "2003": 9663,
+      "2002": 8067,
+      "2000": 7566,
+      "2001": 7404
+    },
+    "cell biology": {
+      "2023": 301801,
+      "2024": 278122,
+      "2025": 255882,
+      "2022": 211895,
+      "2021": 198445,
+      "2020": 187175,
+      "2019": 157069,
+      "2018": 140970,
+      "2017": 128907,
+      "2016": 115877,
+      "2015": 106889,
+      "2014": 100710,
+      "2013": 93190,
+      "2012": 83767,
+      "2026": 73006,
+      "2011": 70562,
+      "2010": 58394,
+      "2009": 49270,
+      "2008": 42380,
+      "2007": 36390,
+      "2006": 31891,
+      "2005": 28391,
+      "2004": 25310,
+      "2003": 21799,
+      "2002": 19403,
+      "2001": 17737,
+      "2000": 17268
+    }
+  }
+}

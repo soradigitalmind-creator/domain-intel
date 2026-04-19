@@ -1,0 +1,1885 @@
+{
+  "slug": "toxicology",
+  "title": "Toxicology",
+  "updated_at": "2026-04-19T09:38:41.732505Z",
+  "snapshot": {
+    "papers": 207,
+    "topics": 5,
+    "subtopics": 30,
+    "entities": 717,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 290,
+      "total_papers": 290,
+      "facet_counts": {
+        "none": 290
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 30,
+    "max_depth": 2,
+    "leaf_topics": 30
+  },
+  "rising_topics": [
+    {
+      "id": "sg-environmental-toxicology",
+      "label": "Environmental toxicology",
+      "url": "/domains/toxicology/topics/sg-environmental-toxicology",
+      "trend": "rising",
+      "year_total": 412619
+    },
+    {
+      "id": "sg-oxidative-stress",
+      "label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/topics/sg-oxidative-stress",
+      "trend": "rising",
+      "year_total": 360756
+    },
+    {
+      "id": "sg-heavy-metals",
+      "label": "Heavy metals",
+      "url": "/domains/toxicology/topics/sg-heavy-metals",
+      "trend": "rising",
+      "year_total": 1228258
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-environmental-toxicology",
+      "label": "Environmental toxicology",
+      "url": "/domains/toxicology/topics/sg-environmental-toxicology",
+      "paper_count": 88,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "aquatic toxicology",
+        "biomedical environmental toxicology",
+        "environmental contamination toxicology",
+        "environmental science toxicology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-environmental-toxicology-toxic-organic-pollutants-impact",
+          "label": "Toxic organic pollutants impact",
+          "url": "/domains/toxicology/topics/sg-environmental-toxicology-toxic-organic-pollutants-impact",
+          "paper_count": 54
+        },
+        {
+          "id": "sg-environmental-toxicology-toxicology-of-nanoparticle",
+          "label": "Toxicology of nanoparticle",
+          "url": "/domains/toxicology/topics/sg-environmental-toxicology-toxicology-of-nanoparticle",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-environmental-toxicology-human-disease",
+          "label": "Human disease",
+          "url": "/domains/toxicology/topics/sg-environmental-toxicology-human-disease",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-environmental-toxicology-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/toxicology/topics/sg-environmental-toxicology-internal-medicine",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-environmental-toxicology-reactive-oxygen-species",
+          "label": "Reactive oxygen species",
+          "url": "/domains/toxicology/topics/sg-environmental-toxicology-reactive-oxygen-species",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-oxidative-stress",
+      "label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/topics/sg-oxidative-stress",
+      "paper_count": 45,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: biochemistry, oxidative stress, oxidative",
+      "tags": [
+        "oxidative stress",
+        "oxidative stress inflammation",
+        "role of oxidative stress"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-oxidative-stress-and-redox-signaling-free-radicals-antioxidants",
+          "label": "Free radicals antioxidants",
+          "url": "/domains/toxicology/topics/sg-oxidative-stress-and-redox-signaling-free-radicals-antioxidants",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-oxidative-stress-and-redox-signaling-oxidative-damage",
+          "label": "Oxidative damage",
+          "url": "/domains/toxicology/topics/sg-oxidative-stress-and-redox-signaling-oxidative-damage",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-oxidative-stress-and-redox-signaling-plant-stress-responses-and-tolerance",
+          "label": "Plant stress responses and tolerance",
+          "url": "/domains/toxicology/topics/sg-oxidative-stress-and-redox-signaling-plant-stress-responses-and-tolerance",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-oxidative-stress-and-redox-signaling-alzheimer-s-disease",
+          "label": "Alzheimer's disease",
+          "url": "/domains/toxicology/topics/sg-oxidative-stress-and-redox-signaling-alzheimer-s-disease",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-oxidative-stress-and-redox-signaling-genomics-and-phytochemicals-in-oxidative-stress",
+          "label": "Genomics and phytochemicals in oxidative stress",
+          "url": "/domains/toxicology/topics/sg-oxidative-stress-and-redox-signaling-genomics-and-phytochemicals-in-oxidative-stress",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-oxidative-stress-and-redox-signaling-vitamin-c-and-antioxidants",
+          "label": "Vitamin C and antioxidants",
+          "url": "/domains/toxicology/topics/sg-oxidative-stress-and-redox-signaling-vitamin-c-and-antioxidants",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2259938310",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19222,
+          "url": "/domains/toxicology/papers/W2259938310"
+        },
+        {
+          "source_id": "https://openalex.org/W2156220037",
+          "title": "Clinical diagnosis of Alzheimer's disease",
+          "year": "1984",
+          "cited_by_count": 27932,
+          "url": "/domains/toxicology/papers/W2156220037"
+        },
+        {
+          "source_id": "https://openalex.org/W2010094123",
+          "title": "Free radicals in biology and medicine",
+          "year": "1991",
+          "cited_by_count": 17239,
+          "url": "/domains/toxicology/papers/W2010094123"
+        }
+      ]
+    },
+    {
+      "id": "sg-heavy-metals",
+      "label": "Heavy metals",
+      "url": "/domains/toxicology/topics/sg-heavy-metals",
+      "paper_count": 41,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: in the, environment, of the",
+      "tags": [
+        "hazardous heavy metals",
+        "heavy metals",
+        "heavy metals in environment",
+        "heavy metals soil"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-heavy-metals-heavy-metals-in-the-environment",
+          "label": "Heavy metals in the environment",
+          "url": "/domains/toxicology/topics/sg-heavy-metals-heavy-metals-in-the-environment",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-heavy-metals-heavy-metals-in-aquatic-environments",
+          "label": "Heavy metals in aquatic environments",
+          "url": "/domains/toxicology/topics/sg-heavy-metals-heavy-metals-in-aquatic-environments",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-heavy-metals-food-chain",
+          "label": "Food chain",
+          "url": "/domains/toxicology/topics/sg-heavy-metals-food-chain",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-heavy-metals-phytoextraction-of-heavy-metals",
+          "label": "Phytoextraction of heavy metals",
+          "url": "/domains/toxicology/topics/sg-heavy-metals-phytoextraction-of-heavy-metals",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-heavy-metals-remediation-of-heavy-metal-contamination",
+          "label": "Remediation of heavy metal contamination",
+          "url": "/domains/toxicology/topics/sg-heavy-metals-remediation-of-heavy-metal-contamination",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2113536011",
+          "title": "Removal of heavy metal ions from wastewaters: A review",
+          "year": "2010",
+          "cited_by_count": 8465,
+          "url": "/domains/toxicology/papers/W2113536011"
+        },
+        {
+          "source_id": "https://openalex.org/W2164526292",
+          "title": "Microplastics in the marine environment",
+          "year": "2011",
+          "cited_by_count": 7633,
+          "url": "/domains/toxicology/papers/W2164526292"
+        },
+        {
+          "source_id": "https://openalex.org/W2159727241",
+          "title": "Toxicity, mechanism and health effects of some heavy metals",
+          "year": "2014",
+          "cited_by_count": 6117,
+          "url": "/domains/toxicology/papers/W2159727241"
+        }
+      ]
+    },
+    {
+      "id": "sg-risk-assessment",
+      "label": "Risk assessment",
+      "url": "/domains/toxicology/topics/sg-risk-assessment",
+      "paper_count": 25,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: risk assessment, environmental health, assessment",
+      "tags": [
+        "assessment of 84",
+        "assessment of 84 behavioural",
+        "comparative risk assessment",
+        "exposure assessment"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-assessment-health-risk-assessment",
+          "label": "Health risk assessment",
+          "url": "/domains/toxicology/topics/sg-risk-assessment-health-risk-assessment",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-risk-assessment-exposure-assessment",
+          "label": "Exposure assessment",
+          "url": "/domains/toxicology/topics/sg-risk-assessment-exposure-assessment",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-risk-assessment-risk-factor",
+          "label": "Risk factor",
+          "url": "/domains/toxicology/topics/sg-risk-assessment-risk-factor",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-risk-assessment-health-risk",
+          "label": "Health risk",
+          "url": "/domains/toxicology/topics/sg-risk-assessment-health-risk",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-risk-assessment-reference-dose",
+          "label": "Reference dose",
+          "url": "/domains/toxicology/topics/sg-risk-assessment-reference-dose",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-risk-assessment-relative-risk",
+          "label": "Relative risk",
+          "url": "/domains/toxicology/topics/sg-risk-assessment-relative-risk",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3092861045",
+          "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 9319,
+          "url": "/domains/toxicology/papers/W3092861045"
+        },
+        {
+          "source_id": "https://openalex.org/W2110052313",
+          "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 11959,
+          "url": "/domains/toxicology/papers/W2110052313"
+        },
+        {
+          "source_id": "https://openalex.org/W1617145133",
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "year": "2016",
+          "cited_by_count": 7760,
+          "url": "/domains/toxicology/papers/W1617145133"
+        }
+      ]
+    },
+    {
+      "id": "sg-dna-damage",
+      "label": "Dna damage and repair",
+      "url": "/domains/toxicology/topics/sg-dna-damage",
+      "paper_count": 8,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: biochemistry, dna damage, cell",
+      "tags": [
+        "comet assay",
+        "dna damage",
+        "male infertility",
+        "mitochondrial ros"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-dna-damage-reactive-oxygen",
+          "label": "Reactive oxygen",
+          "url": "/domains/toxicology/topics/sg-dna-damage-reactive-oxygen",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-dna-damage-and-repair-comet-assay",
+          "label": "Comet assay",
+          "url": "/domains/toxicology/topics/sg-dna-damage-and-repair-comet-assay",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-dna-damage-and-repair-mitochondrial-reactive-oxygen-species",
+          "label": "Mitochondrial reactive oxygen species",
+          "url": "/domains/toxicology/topics/sg-dna-damage-and-repair-mitochondrial-reactive-oxygen-species",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160834915",
+          "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+          "year": "2012",
+          "cited_by_count": 12561,
+          "url": "/domains/toxicology/papers/W2160834915"
+        },
+        {
+          "source_id": "https://openalex.org/W2165201727",
+          "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+          "year": "2006",
+          "cited_by_count": 14024,
+          "url": "/domains/toxicology/papers/W2165201727"
+        },
+        {
+          "source_id": "https://openalex.org/W3157638995",
+          "title": "The Chemistry of Reactive Oxygen Species (ROS) Revisited: Outlining Their Role in Biological Macromolecules (DNA, Lipids and Proteins) and Induced Pathologies",
+          "year": "2021",
+          "cited_by_count": 2481,
+          "url": "/domains/toxicology/papers/W3157638995"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 21,
+      "papers": [
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18650,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3092849554.html"
+        },
+        {
+          "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+          "year": "2022",
+          "cited_by_count": 14758,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4206677002.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13865,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13461,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        },
+        {
+          "title": "Clinical diagnosis of Alzheimer&#x27;s disease",
+          "year": "1984",
+          "cited_by_count": 27932,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2156220037.html"
+        },
+        {
+          "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": "2024",
+          "cited_by_count": 4082,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4394894573.html"
+        }
+      ]
+    },
+    {
+      "label": "Oxidative stress and redox signaling",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19222,
+          "topic": "Oxidative stress and redox signaling",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "Free radicals in biology and medicine",
+          "year": "1991",
+          "cited_by_count": 17239,
+          "topic": "Oxidative stress and redox signaling",
+          "url": "papers/https-openalex-org-w2010094123.html"
+        },
+        {
+          "title": "Reactive oxygen species and antioxidant machinery in abiotic stress tolerance in crop plants",
+          "year": "2010",
+          "cited_by_count": 11341,
+          "topic": "Oxidative stress and redox signaling",
+          "url": "papers/https-openalex-org-w2126386203.html"
+        },
+        {
+          "title": "REACTIVE OXYGEN SPECIES: Metabolism, Oxidative Stress, and Signal Transduction",
+          "year": "2004",
+          "cited_by_count": 11481,
+          "topic": "Oxidative stress and redox signaling",
+          "url": "papers/https-openalex-org-w2139328007.html"
+        },
+        {
+          "title": "PGC-1α-responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes",
+          "year": "2003",
+          "cited_by_count": 10513,
+          "topic": "Oxidative stress and redox signaling",
+          "url": "papers/https-openalex-org-w2123106337.html"
+        },
+        {
+          "title": "Oxidative stress, antioxidants and stress tolerance",
+          "year": "2002",
+          "cited_by_count": 10652,
+          "topic": "Oxidative stress and redox signaling",
+          "url": "papers/https-openalex-org-w2154140763.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental toxicology",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Engineering precision nanoparticles for drug delivery",
+          "year": "2020",
+          "cited_by_count": 7062,
+          "topic": "Environmental toxicology",
+          "url": "papers/https-openalex-org-w3109746568.html"
+        },
+        {
+          "title": "Alginate: Properties and biomedical applications",
+          "year": "2011",
+          "cited_by_count": 7653,
+          "topic": "Environmental toxicology",
+          "url": "papers/https-openalex-org-w1971500643.html"
+        },
+        {
+          "title": "Heavy Metal Toxicity and the Environment",
+          "year": "2012",
+          "cited_by_count": 6895,
+          "topic": "Environmental toxicology",
+          "url": "papers/https-openalex-org-w2228338508.html"
+        }
+      ]
+    },
+    {
+      "label": "Risk assessment",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 9319,
+          "topic": "Risk assessment",
+          "url": "papers/https-openalex-org-w3092861045.html"
+        },
+        {
+          "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 11959,
+          "topic": "Risk assessment",
+          "url": "papers/https-openalex-org-w2110052313.html"
+        },
+        {
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "year": "2016",
+          "cited_by_count": 7760,
+          "topic": "Risk assessment",
+          "url": "papers/https-openalex-org-w1617145133.html"
+        }
+      ]
+    },
+    {
+      "label": "Heavy metals",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Removal of heavy metal ions from wastewaters: A review",
+          "year": "2010",
+          "cited_by_count": 8465,
+          "topic": "Heavy metals",
+          "url": "papers/https-openalex-org-w2113536011.html"
+        },
+        {
+          "title": "Toxicity, mechanism and health effects of some heavy metals",
+          "year": "2014",
+          "cited_by_count": 6117,
+          "topic": "Heavy metals",
+          "url": "papers/https-openalex-org-w2159727241.html"
+        }
+      ]
+    },
+    {
+      "label": "Dna damage and repair",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+          "year": "2006",
+          "cited_by_count": 14024,
+          "topic": "Dna damage and repair",
+          "url": "papers/https-openalex-org-w2165201727.html"
+        }
+      ]
+    },
+    {
+      "label": "Health risk assessment",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28439,
+          "topic": "Health risk assessment",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        }
+      ]
+    },
+    {
+      "label": "Heavy metals in the environment",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Microplastics in the marine environment",
+          "year": "2011",
+          "cited_by_count": 7633,
+          "topic": "Heavy metals in the environment",
+          "url": "papers/https-openalex-org-w2164526292.html"
+        }
+      ]
+    },
+    {
+      "label": "Internal medicine",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+          "year": "2012",
+          "cited_by_count": 12561,
+          "topic": "Internal medicine",
+          "url": "papers/https-openalex-org-w2160834915.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18650,
+      "adjusted_cited_by_count": 7613.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14758,
+      "adjusted_cited_by_count": 7379.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28439,
+      "adjusted_cited_by_count": 5577.35,
+      "primary_topic_id": "sg-risk-assessment-health-risk-assessment",
+      "primary_topic_label": "Health risk assessment",
+      "url": "/domains/toxicology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19222,
+      "adjusted_cited_by_count": 5137.3,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13865,
+      "adjusted_cited_by_count": 4902.02,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 4487.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2156220037",
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by_count": 27932,
+      "adjusted_cited_by_count": 4310.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2156220037"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4082,
+      "adjusted_cited_by_count": 4082.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9319,
+      "adjusted_cited_by_count": 3804.47,
+      "primary_topic_id": "sg-risk-assessment",
+      "primary_topic_label": "Risk assessment",
+      "url": "/domains/toxicology/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14195,
+      "adjusted_cited_by_count": 3793.77,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12020,
+      "adjusted_cited_by_count": 3469.88,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2160834915",
+      "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+      "year": 2012,
+      "cited_by_count": 12561,
+      "adjusted_cited_by_count": 3357.07,
+      "primary_topic_id": "sg-environmental-toxicology-internal-medicine",
+      "primary_topic_label": "Internal medicine",
+      "url": "/domains/toxicology/papers/W2160834915"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7295,
+      "adjusted_cited_by_count": 3262.42,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11959,
+      "adjusted_cited_by_count": 3196.18,
+      "primary_topic_id": "sg-risk-assessment",
+      "primary_topic_label": "Risk assessment",
+      "url": "/domains/toxicology/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14024,
+      "adjusted_cited_by_count": 3135.86,
+      "primary_topic_id": "sg-dna-damage",
+      "primary_topic_label": "Dna damage and repair",
+      "url": "/domains/toxicology/papers/W2165201727"
+    },
+    {
+      "source_id": "https://openalex.org/W2899736836",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 8588,
+      "adjusted_cited_by_count": 3036.32,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2899736836"
+    },
+    {
+      "source_id": "https://openalex.org/W2010094123",
+      "title": "Free radicals in biology and medicine",
+      "year": 1991,
+      "cited_by_count": 17239,
+      "adjusted_cited_by_count": 2913.92,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2010094123"
+    },
+    {
+      "source_id": "https://openalex.org/W3109746568",
+      "title": "Engineering precision nanoparticles for drug delivery",
+      "year": 2020,
+      "cited_by_count": 7062,
+      "adjusted_cited_by_count": 2883.05,
+      "primary_topic_id": "sg-environmental-toxicology",
+      "primary_topic_label": "Environmental toxicology",
+      "url": "/domains/toxicology/papers/W3109746568"
+    },
+    {
+      "source_id": "https://openalex.org/W2126386203",
+      "title": "Reactive oxygen species and antioxidant machinery in abiotic stress tolerance in crop plants",
+      "year": 2010,
+      "cited_by_count": 11341,
+      "adjusted_cited_by_count": 2835.25,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2126386203"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6393,
+      "adjusted_cited_by_count": 2609.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11434,
+      "adjusted_cited_by_count": 2556.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7760,
+      "adjusted_cited_by_count": 2453.93,
+      "primary_topic_id": "sg-risk-assessment",
+      "primary_topic_label": "Risk assessment",
+      "url": "/domains/toxicology/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W2139328007",
+      "title": "REACTIVE OXYGEN SPECIES: Metabolism, Oxidative Stress, and Signal Transduction",
+      "year": 2004,
+      "cited_by_count": 11481,
+      "adjusted_cited_by_count": 2447.76,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2139328007"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7343,
+      "adjusted_cited_by_count": 2322.06,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W4393858312",
+      "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 2311,
+      "adjusted_cited_by_count": 2311.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W4393858312"
+    },
+    {
+      "source_id": "https://openalex.org/W4381799391",
+      "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2023,
+      "cited_by_count": 3959,
+      "adjusted_cited_by_count": 2285.73,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W4381799391"
+    },
+    {
+      "source_id": "https://openalex.org/W2108344016",
+      "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 8343,
+      "adjusted_cited_by_count": 2229.76,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2108344016"
+    },
+    {
+      "source_id": "https://openalex.org/W2123106337",
+      "title": "PGC-1α-responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes",
+      "year": 2003,
+      "cited_by_count": 10513,
+      "adjusted_cited_by_count": 2192.11,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2123106337"
+    },
+    {
+      "source_id": "https://openalex.org/W2154140763",
+      "title": "Oxidative stress, antioxidants and stress tolerance",
+      "year": 2002,
+      "cited_by_count": 10652,
+      "adjusted_cited_by_count": 2174.33,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2154140763"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6448,
+      "adjusted_cited_by_count": 2149.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2113536011",
+      "title": "Removal of heavy metal ions from wastewaters: A review",
+      "year": 2010,
+      "cited_by_count": 8465,
+      "adjusted_cited_by_count": 2116.25,
+      "primary_topic_id": "sg-heavy-metals",
+      "primary_topic_label": "Heavy metals",
+      "url": "/domains/toxicology/papers/W2113536011"
+    },
+    {
+      "source_id": "https://openalex.org/W2754967293",
+      "title": "Global, regional, and national burden of neurological disorders, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2019,
+      "cited_by_count": 5590,
+      "adjusted_cited_by_count": 2112.82,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2754967293"
+    },
+    {
+      "source_id": "https://openalex.org/W2143426320",
+      "title": "Gene Selection for Cancer Classification using Support Vector Machines",
+      "year": 2002,
+      "cited_by_count": 9729,
+      "adjusted_cited_by_count": 1985.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2143426320"
+    },
+    {
+      "source_id": "https://openalex.org/W1971500643",
+      "title": "Alginate: Properties and biomedical applications",
+      "year": 2011,
+      "cited_by_count": 7653,
+      "adjusted_cited_by_count": 1976.0,
+      "primary_topic_id": "sg-environmental-toxicology",
+      "primary_topic_label": "Environmental toxicology",
+      "url": "/domains/toxicology/papers/W1971500643"
+    },
+    {
+      "source_id": "https://openalex.org/W2164526292",
+      "title": "Microplastics in the marine environment",
+      "year": 2011,
+      "cited_by_count": 7633,
+      "adjusted_cited_by_count": 1970.83,
+      "primary_topic_id": "sg-heavy-metals-heavy-metals-in-the-environment",
+      "primary_topic_label": "Heavy metals in the environment",
+      "url": "/domains/toxicology/papers/W2164526292"
+    },
+    {
+      "source_id": "https://openalex.org/W2102085111",
+      "title": "Stem cells, cancer, and cancer stem cells",
+      "year": 2001,
+      "cited_by_count": 9687,
+      "adjusted_cited_by_count": 1937.4,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2102085111"
+    },
+    {
+      "source_id": "https://openalex.org/W2228338508",
+      "title": "Heavy Metal Toxicity and the Environment",
+      "year": 2012,
+      "cited_by_count": 6895,
+      "adjusted_cited_by_count": 1842.77,
+      "primary_topic_id": "sg-environmental-toxicology",
+      "primary_topic_label": "Environmental toxicology",
+      "url": "/domains/toxicology/papers/W2228338508"
+    },
+    {
+      "source_id": "https://openalex.org/W2101861123",
+      "title": "Oxidants, oxidative stress and the biology of ageing",
+      "year": 2000,
+      "cited_by_count": 9291,
+      "adjusted_cited_by_count": 1822.12,
+      "primary_topic_id": "sg-oxidative-stress",
+      "primary_topic_label": "Oxidative stress and redox signaling",
+      "url": "/domains/toxicology/papers/W2101861123"
+    },
+    {
+      "source_id": "https://openalex.org/W2044437167",
+      "title": "Biochemistry and molecular cell biology of diabetic complications",
+      "year": 2001,
+      "cited_by_count": 8981,
+      "adjusted_cited_by_count": 1796.2,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/toxicology/papers/W2044437167"
+    },
+    {
+      "source_id": "https://openalex.org/W2159727241",
+      "title": "Toxicity, mechanism and health effects of some heavy metals",
+      "year": 2014,
+      "cited_by_count": 6117,
+      "adjusted_cited_by_count": 1765.83,
+      "primary_topic_id": "sg-heavy-metals",
+      "primary_topic_label": "Heavy metals",
+      "url": "/domains/toxicology/papers/W2159727241"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18650,
+      "adjusted_cited_by_count": 7613.83,
+      "url": "/domains/toxicology/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14758,
+      "adjusted_cited_by_count": 7379.0,
+      "url": "/domains/toxicology/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28439,
+      "adjusted_cited_by_count": 5577.35,
+      "url": "/domains/toxicology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19222,
+      "adjusted_cited_by_count": 5137.3,
+      "url": "/domains/toxicology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13865,
+      "adjusted_cited_by_count": 4902.02,
+      "url": "/domains/toxicology/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 4487.0,
+      "url": "/domains/toxicology/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2156220037",
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by_count": 27932,
+      "adjusted_cited_by_count": 4310.0,
+      "url": "/domains/toxicology/papers/W2156220037"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4082,
+      "adjusted_cited_by_count": 4082.0,
+      "url": "/domains/toxicology/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W3092861045",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 9319,
+      "adjusted_cited_by_count": 3804.47,
+      "url": "/domains/toxicology/papers/W3092861045"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14195,
+      "adjusted_cited_by_count": 3793.77,
+      "url": "/domains/toxicology/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12020,
+      "adjusted_cited_by_count": 3469.88,
+      "url": "/domains/toxicology/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2160834915",
+      "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+      "year": 2012,
+      "cited_by_count": 12561,
+      "adjusted_cited_by_count": 3357.07,
+      "url": "/domains/toxicology/papers/W2160834915"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7295,
+      "adjusted_cited_by_count": 3262.42,
+      "url": "/domains/toxicology/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11959,
+      "adjusted_cited_by_count": 3196.18,
+      "url": "/domains/toxicology/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14024,
+      "adjusted_cited_by_count": 3135.86,
+      "url": "/domains/toxicology/papers/W2165201727"
+    },
+    {
+      "source_id": "https://openalex.org/W2899736836",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 8588,
+      "adjusted_cited_by_count": 3036.32,
+      "url": "/domains/toxicology/papers/W2899736836"
+    },
+    {
+      "source_id": "https://openalex.org/W2010094123",
+      "title": "Free radicals in biology and medicine",
+      "year": 1991,
+      "cited_by_count": 17239,
+      "adjusted_cited_by_count": 2913.92,
+      "url": "/domains/toxicology/papers/W2010094123"
+    },
+    {
+      "source_id": "https://openalex.org/W3109746568",
+      "title": "Engineering precision nanoparticles for drug delivery",
+      "year": 2020,
+      "cited_by_count": 7062,
+      "adjusted_cited_by_count": 2883.05,
+      "url": "/domains/toxicology/papers/W3109746568"
+    },
+    {
+      "source_id": "https://openalex.org/W2126386203",
+      "title": "Reactive oxygen species and antioxidant machinery in abiotic stress tolerance in crop plants",
+      "year": 2010,
+      "cited_by_count": 11341,
+      "adjusted_cited_by_count": 2835.25,
+      "url": "/domains/toxicology/papers/W2126386203"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6393,
+      "adjusted_cited_by_count": 2609.93,
+      "url": "/domains/toxicology/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11434,
+      "adjusted_cited_by_count": 2556.72,
+      "url": "/domains/toxicology/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7760,
+      "adjusted_cited_by_count": 2453.93,
+      "url": "/domains/toxicology/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W2139328007",
+      "title": "REACTIVE OXYGEN SPECIES: Metabolism, Oxidative Stress, and Signal Transduction",
+      "year": 2004,
+      "cited_by_count": 11481,
+      "adjusted_cited_by_count": 2447.76,
+      "url": "/domains/toxicology/papers/W2139328007"
+    },
+    {
+      "source_id": "https://openalex.org/W2527824850",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7343,
+      "adjusted_cited_by_count": 2322.06,
+      "url": "/domains/toxicology/papers/W2527824850"
+    },
+    {
+      "source_id": "https://openalex.org/W4393858312",
+      "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 2311,
+      "adjusted_cited_by_count": 2311.0,
+      "url": "/domains/toxicology/papers/W4393858312"
+    },
+    {
+      "source_id": "https://openalex.org/W4381799391",
+      "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2023,
+      "cited_by_count": 3959,
+      "adjusted_cited_by_count": 2285.73,
+      "url": "/domains/toxicology/papers/W4381799391"
+    },
+    {
+      "source_id": "https://openalex.org/W2108344016",
+      "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 8343,
+      "adjusted_cited_by_count": 2229.76,
+      "url": "/domains/toxicology/papers/W2108344016"
+    },
+    {
+      "source_id": "https://openalex.org/W2123106337",
+      "title": "PGC-1α-responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes",
+      "year": 2003,
+      "cited_by_count": 10513,
+      "adjusted_cited_by_count": 2192.11,
+      "url": "/domains/toxicology/papers/W2123106337"
+    },
+    {
+      "source_id": "https://openalex.org/W2154140763",
+      "title": "Oxidative stress, antioxidants and stress tolerance",
+      "year": 2002,
+      "cited_by_count": 10652,
+      "adjusted_cited_by_count": 2174.33,
+      "url": "/domains/toxicology/papers/W2154140763"
+    },
+    {
+      "source_id": "https://openalex.org/W2607350314",
+      "title": "Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015",
+      "year": 2017,
+      "cited_by_count": 6448,
+      "adjusted_cited_by_count": 2149.33,
+      "url": "/domains/toxicology/papers/W2607350314"
+    },
+    {
+      "source_id": "https://openalex.org/W2113536011",
+      "title": "Removal of heavy metal ions from wastewaters: A review",
+      "year": 2010,
+      "cited_by_count": 8465,
+      "adjusted_cited_by_count": 2116.25,
+      "url": "/domains/toxicology/papers/W2113536011"
+    },
+    {
+      "source_id": "https://openalex.org/W2754967293",
+      "title": "Global, regional, and national burden of neurological disorders, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2019,
+      "cited_by_count": 5590,
+      "adjusted_cited_by_count": 2112.82,
+      "url": "/domains/toxicology/papers/W2754967293"
+    },
+    {
+      "source_id": "https://openalex.org/W2143426320",
+      "title": "Gene Selection for Cancer Classification using Support Vector Machines",
+      "year": 2002,
+      "cited_by_count": 9729,
+      "adjusted_cited_by_count": 1985.92,
+      "url": "/domains/toxicology/papers/W2143426320"
+    },
+    {
+      "source_id": "https://openalex.org/W1971500643",
+      "title": "Alginate: Properties and biomedical applications",
+      "year": 2011,
+      "cited_by_count": 7653,
+      "adjusted_cited_by_count": 1976.0,
+      "url": "/domains/toxicology/papers/W1971500643"
+    },
+    {
+      "source_id": "https://openalex.org/W2164526292",
+      "title": "Microplastics in the marine environment",
+      "year": 2011,
+      "cited_by_count": 7633,
+      "adjusted_cited_by_count": 1970.83,
+      "url": "/domains/toxicology/papers/W2164526292"
+    },
+    {
+      "source_id": "https://openalex.org/W2102085111",
+      "title": "Stem cells, cancer, and cancer stem cells",
+      "year": 2001,
+      "cited_by_count": 9687,
+      "adjusted_cited_by_count": 1937.4,
+      "url": "/domains/toxicology/papers/W2102085111"
+    },
+    {
+      "source_id": "https://openalex.org/W2228338508",
+      "title": "Heavy Metal Toxicity and the Environment",
+      "year": 2012,
+      "cited_by_count": 6895,
+      "adjusted_cited_by_count": 1842.77,
+      "url": "/domains/toxicology/papers/W2228338508"
+    },
+    {
+      "source_id": "https://openalex.org/W2101861123",
+      "title": "Oxidants, oxidative stress and the biology of ageing",
+      "year": 2000,
+      "cited_by_count": 9291,
+      "adjusted_cited_by_count": 1822.12,
+      "url": "/domains/toxicology/papers/W2101861123"
+    },
+    {
+      "source_id": "https://openalex.org/W2044437167",
+      "title": "Biochemistry and molecular cell biology of diabetic complications",
+      "year": 2001,
+      "cited_by_count": 8981,
+      "adjusted_cited_by_count": 1796.2,
+      "url": "/domains/toxicology/papers/W2044437167"
+    },
+    {
+      "source_id": "https://openalex.org/W2159727241",
+      "title": "Toxicity, mechanism and health effects of some heavy metals",
+      "year": 2014,
+      "cited_by_count": 6117,
+      "adjusted_cited_by_count": 1765.83,
+      "url": "/domains/toxicology/papers/W2159727241"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 165
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 131
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 96
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 94
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 79
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "toxicology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "biochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "toxicity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "environment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "environmental chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "oxidative stress",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "stress",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "cause",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "oxidative",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "oxygen",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "pathology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "reactive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "reactive oxygen species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "oxygen species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "reactive oxygen",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "pharmacology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "burden of",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "global burden",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "global burden of",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "mechanisms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "chemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "exposure",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "the global burden",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "burden of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 38
+    }
+  ],
+  "topic_year_counts": {
+    "oxidative stress and redox signaling": {
+      "2023": 44665,
+      "2025": 44238,
+      "2024": 43187,
+      "2022": 30831,
+      "2021": 27228,
+      "2020": 22837,
+      "2019": 18296,
+      "2018": 15785,
+      "2026": 14976,
+      "2017": 14644,
+      "2016": 12852,
+      "2015": 11520,
+      "2014": 10641,
+      "2013": 9304,
+      "2012": 8051,
+      "2011": 6208,
+      "2010": 5154,
+      "2009": 4103,
+      "2008": 3391,
+      "2007": 2735,
+      "2006": 2360,
+      "2005": 1841,
+      "2004": 1627,
+      "2003": 1387,
+      "2002": 1100,
+      "2001": 945,
+      "2000": 850
+    },
+    "heavy metals": {
+      "2023": 126429,
+      "2025": 123298,
+      "2024": 122981,
+      "2022": 89164,
+      "2021": 80895,
+      "2020": 74349,
+      "2019": 64957,
+      "2018": 57965,
+      "2017": 52734,
+      "2016": 48354,
+      "2015": 44626,
+      "2014": 41930,
+      "2013": 38162,
+      "2026": 34431,
+      "2012": 34010,
+      "2011": 29377,
+      "2010": 25979,
+      "2009": 22866,
+      "2008": 19290,
+      "2007": 17094,
+      "2006": 15807,
+      "2005": 13630,
+      "2004": 12348,
+      "2003": 10863,
+      "2002": 9601,
+      "2000": 8757,
+      "2001": 8361
+    },
+    "risk assessment": {
+      "2025": 904565,
+      "2024": 809232,
+      "2023": 776001,
+      "2022": 538167,
+      "2021": 493196,
+      "2020": 445292,
+      "2019": 347753,
+      "2018": 302328,
+      "2026": 273623,
+      "2017": 269080,
+      "2016": 247673,
+      "2015": 218689,
+      "2014": 196287,
+      "2013": 172721,
+      "2012": 150397,
+      "2011": 126216,
+      "2010": 107215,
+      "2009": 92174,
+      "2008": 76880,
+      "2007": 66188,
+      "2006": 58842,
+      "2005": 52099,
+      "2004": 44811,
+      "2003": 39139,
+      "2002": 32107,
+      "2001": 27648,
+      "2000": 27431
+    },
+    "dna damage and repair": {
+      "2023": 56918,
+      "2024": 53839,
+      "2025": 48903,
+      "2022": 38503,
+      "2021": 35265,
+      "2020": 31599,
+      "2019": 25884,
+      "2018": 22966,
+      "2017": 21678,
+      "2016": 19407,
+      "2015": 17975,
+      "2014": 16804,
+      "2013": 15571,
+      "2012": 14247,
+      "2026": 13731,
+      "2011": 12065,
+      "2010": 10122,
+      "2009": 8466,
+      "2008": 7225,
+      "2007": 6361,
+      "2006": 5664,
+      "2005": 5488,
+      "2004": 4562,
+      "2003": 4075,
+      "2002": 3580,
+      "2001": 3153,
+      "2000": 3031
+    },
+    "environmental toxicology": {
+      "2025": 48235,
+      "2023": 45653,
+      "2024": 43965,
+      "2022": 32077,
+      "2021": 28445,
+      "2020": 25877,
+      "2019": 22084,
+      "2018": 19958,
+      "2017": 17440,
+      "2016": 16546,
+      "2015": 14040,
+      "2014": 13268,
+      "2026": 13063,
+      "2013": 11988,
+      "2012": 10803,
+      "2011": 8480,
+      "2010": 6790,
+      "2009": 6082,
+      "2008": 4913,
+      "2007": 4132,
+      "2006": 3597,
+      "2004": 3162,
+      "2005": 3035,
+      "2003": 2501,
+      "2000": 2388,
+      "2002": 2157,
+      "2001": 1940
+    }
+  }
+}

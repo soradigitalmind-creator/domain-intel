@@ -1,0 +1,1672 @@
+{
+  "slug": "sociology",
+  "title": "Sociology",
+  "updated_at": "2026-04-19T09:41:26.452037Z",
+  "snapshot": {
+    "papers": 137,
+    "topics": 3,
+    "subtopics": 60,
+    "entities": 373,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 168,
+      "total_papers": 168,
+      "facet_counts": {
+        "none": 168
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning economic sociology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 3,
+    "descendant_topics": 60,
+    "max_depth": 4,
+    "leaf_topics": 47
+  },
+  "rising_topics": [
+    {
+      "id": "sg-sociology-of-knowledge",
+      "label": "Sociology of knowledge",
+      "url": "/domains/sociology/topics/sg-sociology-of-knowledge",
+      "trend": "rising",
+      "year_total": 959464
+    },
+    {
+      "id": "sg-gender-studies",
+      "label": "Gender studies",
+      "url": "/domains/sociology/topics/sg-gender-studies",
+      "trend": "rising",
+      "year_total": 4726727
+    },
+    {
+      "id": "sg-economic-sociology",
+      "label": "Economic sociology",
+      "url": "/domains/sociology/topics/sg-economic-sociology",
+      "trend": "rising",
+      "year_total": 935468
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-sociology-of-knowledge",
+      "label": "Sociology of knowledge",
+      "url": "/domains/sociology/topics/sg-sociology-of-knowledge",
+      "paper_count": 82,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: download, internet privacy, journal of",
+      "tags": [
+        "construction of reality treatise",
+        "medicine of sociology",
+        "reality treatise in sociology",
+        "social construction of reality"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sociological-theory-sociological-imagination",
+          "label": "Sociological imagination",
+          "url": "/domains/sociology/topics/sg-sociological-theory-sociological-imagination",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-sociology-of-knowledge-public-health",
+          "label": "Public health",
+          "url": "/domains/sociology/topics/sg-sociology-of-knowledge-public-health",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-sociology-of-knowledge-sociology-of-the-medical-profession",
+          "label": "Sociology of the medical profession",
+          "url": "/domains/sociology/topics/sg-sociology-of-knowledge-sociology-of-the-medical-profession",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-sociology-of-knowledge-empirical-investigations",
+          "label": "Empirical investigations",
+          "url": "/domains/sociology/topics/sg-sociology-of-knowledge-empirical-investigations",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-sociology-of-knowledge-political-economy-and-marxism",
+          "label": "Political economy and Marxism",
+          "url": "/domains/sociology/topics/sg-sociology-of-knowledge-political-economy-and-marxism",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-sociology-of-knowledge-e-government-and-public-service",
+          "label": "E-government and public service",
+          "url": "/domains/sociology/topics/sg-sociology-of-knowledge-e-government-and-public-service",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4249210852",
+          "title": "The American Journal of Sociology",
+          "year": "1939",
+          "cited_by_count": 1914,
+          "url": "/domains/sociology/papers/W4249210852"
+        }
+      ]
+    },
+    {
+      "id": "sg-gender-studies",
+      "label": "Gender studies",
+      "url": "/domains/sociology/topics/sg-gender-studies",
+      "paper_count": 28,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: epistemology, social, sociology of",
+      "tags": [
+        "everyday world as problematic",
+        "feminist sociology",
+        "gender studies",
+        "industrial sociology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gender-studies-everyday-life",
+          "label": "Everyday life",
+          "url": "/domains/sociology/topics/sg-gender-studies-everyday-life",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-gender-studies-gender-roles-and-identity",
+          "label": "Gender roles and identity",
+          "url": "/domains/sociology/topics/sg-gender-studies-gender-roles-and-identity",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-gender-studies-gender-politics-and-representation",
+          "label": "Gender politics and representation",
+          "url": "/domains/sociology/topics/sg-gender-studies-gender-politics-and-representation",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-gender-studies-positive-economics",
+          "label": "Positive economics",
+          "url": "/domains/sociology/topics/sg-gender-studies-positive-economics",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-gender-studies-gender-diversity-and-inequality",
+          "label": "Gender diversity and inequality",
+          "url": "/domains/sociology/topics/sg-gender-studies-gender-diversity-and-inequality",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1960351623",
+          "title": "Evolution and the Theory of Games",
+          "year": "1988",
+          "cited_by_count": 8014,
+          "url": "/domains/sociology/papers/W1960351623"
+        },
+        {
+          "source_id": "https://openalex.org/W1704903455",
+          "title": "Suicide: A study in sociology.",
+          "year": "2004",
+          "cited_by_count": 3979,
+          "url": "/domains/sociology/papers/W1704903455"
+        },
+        {
+          "source_id": "https://openalex.org/W595886575",
+          "title": "Sociology and Social Research",
+          "year": "1981",
+          "cited_by_count": 5074,
+          "url": "/domains/sociology/papers/W595886575"
+        }
+      ]
+    },
+    {
+      "id": "sg-economic-sociology",
+      "label": "Economic sociology",
+      "url": "/domains/sociology/topics/sg-economic-sociology",
+      "paper_count": 27,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: social, economic, work",
+      "tags": [
+        "economic",
+        "economic sociology",
+        "economic theory and institutions",
+        "interpretive sociology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-economic-sociology-russia-soviet-political-economy",
+          "label": "Russia soviet political economy",
+          "url": "/domains/sociology/topics/sg-economic-sociology-russia-soviet-political-economy",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-economic-sociology-positive-economics",
+          "label": "Positive economics",
+          "url": "/domains/sociology/topics/sg-economic-sociology-positive-economics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-economic-sociology-economy-society",
+          "label": "Economy society",
+          "url": "/domains/sociology/topics/sg-economic-sociology-economy-society",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-economic-sociology-outline-of-interpretive",
+          "label": "Outline of interpretive",
+          "url": "/domains/sociology/topics/sg-economic-sociology-outline-of-interpretive",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-economic-sociology-institutional-economics-in-economic-sociology",
+          "label": "Institutional economics in economic sociology",
+          "url": "/domains/sociology/topics/sg-economic-sociology-institutional-economics-in-economic-sociology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2085491458",
+          "title": "Social Capital in the Creation of Human Capital",
+          "year": "2000",
+          "cited_by_count": 21836,
+          "url": "/domains/sociology/papers/W2085491458"
+        },
+        {
+          "source_id": "https://openalex.org/W2115059495",
+          "title": "Social Capital: Its Origins and Applications in Modern Sociology",
+          "year": "1998",
+          "cited_by_count": 11866,
+          "url": "/domains/sociology/papers/W2115059495"
+        },
+        {
+          "source_id": "https://openalex.org/W1981759308",
+          "title": "An Invitation to Reflexive Sociology.",
+          "year": "1993",
+          "cited_by_count": 9364,
+          "url": "/domains/sociology/papers/W1981759308"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Sociology of knowledge",
+      "paper_count": 14,
+      "papers": [
+        {
+          "title": "Handbook of Theory and Research for the Sociology of Education.",
+          "year": "1987",
+          "cited_by_count": 15201,
+          "topic": "Sociology of knowledge",
+          "url": "papers/https-openalex-org-w1528074835.html"
+        },
+        {
+          "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge.",
+          "year": "1967",
+          "cited_by_count": 16591,
+          "topic": "Sociology of knowledge",
+          "url": "papers/https-openalex-org-w2073506374.html"
+        },
+        {
+          "title": "Social Relationships and Mortality Risk: A Meta-analytic Review",
+          "year": "2010",
+          "cited_by_count": 7071,
+          "topic": "Sociology of knowledge",
+          "url": "papers/https-openalex-org-w2003490123.html"
+        },
+        {
+          "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 4974,
+          "topic": "Sociology of knowledge",
+          "url": "papers/https-openalex-org-w2899773405.html"
+        },
+        {
+          "title": "An Invitation of Reflexive Sociology",
+          "year": "1993",
+          "cited_by_count": 8442,
+          "topic": "Sociology of knowledge",
+          "url": "papers/https-openalex-org-w4229864114.html"
+        },
+        {
+          "title": "Social Conditions As Fundamental Causes of Disease",
+          "year": "1995",
+          "cited_by_count": 5533,
+          "topic": "Sociology of knowledge",
+          "url": "papers/https-openalex-org-w4245198606.html"
+        }
+      ]
+    },
+    {
+      "label": "Economic sociology",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Social Capital in the Creation of Human Capital",
+          "year": "2000",
+          "cited_by_count": 21836,
+          "topic": "Economic sociology",
+          "url": "papers/https-openalex-org-w2085491458.html"
+        },
+        {
+          "title": "Social Capital: Its Origins and Applications in Modern Sociology",
+          "year": "1998",
+          "cited_by_count": 11866,
+          "topic": "Economic sociology",
+          "url": "papers/https-openalex-org-w2115059495.html"
+        },
+        {
+          "title": "An Invitation to Reflexive Sociology.",
+          "year": "1993",
+          "cited_by_count": 9364,
+          "topic": "Economic sociology",
+          "url": "papers/https-openalex-org-w1981759308.html"
+        },
+        {
+          "title": "Economy and Society: An Outline of Interpretive Sociology",
+          "year": "2002",
+          "cited_by_count": 6908,
+          "topic": "Economic sociology",
+          "url": "papers/https-openalex-org-w2165468268.html"
+        },
+        {
+          "title": "Sociological Paradigms and Organisational Analysis: Elements of the Sociology of Corporate Life",
+          "year": "2021",
+          "cited_by_count": 2234,
+          "topic": "Economic sociology",
+          "url": "papers/https-openalex-org-w1979572581.html"
+        },
+        {
+          "title": "Social and Economic Networks",
+          "year": "2010",
+          "cited_by_count": 3732,
+          "topic": "Economic sociology",
+          "url": "papers/https-openalex-org-w1533368239.html"
+        }
+      ]
+    },
+    {
+      "label": "Gender studies",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Evolution and the Theory of Games",
+          "year": "1988",
+          "cited_by_count": 8014,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w1960351623.html"
+        },
+        {
+          "title": "Suicide: A study in sociology.",
+          "year": "2004",
+          "cited_by_count": 3979,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w1704903455.html"
+        },
+        {
+          "title": "Sociology and Social Research",
+          "year": "1981",
+          "cited_by_count": 5074,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w595886575.html"
+        },
+        {
+          "title": "Indexical order and the dialectics of sociolinguistic life",
+          "year": "2003",
+          "cited_by_count": 3592,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w2113756706.html"
+        },
+        {
+          "title": "Manifesto for a Relational Sociology",
+          "year": "1997",
+          "cited_by_count": 3701,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w1979851745.html"
+        },
+        {
+          "title": "The Emergence and Development of Life Course Theory",
+          "year": "2003",
+          "cited_by_count": 3032,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w2343715481.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "A Social Psychologist Discovers Chicago Sociology",
+          "year": "1989",
+          "cited_by_count": 7194,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2325428950.html"
+        },
+        {
+          "title": "The Social System",
+          "year": "1951",
+          "cited_by_count": 8744,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2151621121.html"
+        },
+        {
+          "title": "From Max Weber: Essays in Sociology",
+          "year": "2014",
+          "cited_by_count": 3422,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1594501748.html"
+        },
+        {
+          "title": "Sociological Paradigms and Organizational Analysis.",
+          "year": "1983",
+          "cited_by_count": 5644,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2332433940.html"
+        },
+        {
+          "title": "Ghostly Matters: Haunting and the Sociological Imagination",
+          "year": "1999",
+          "cited_by_count": 4362,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2026406546.html"
+        },
+        {
+          "title": "Participation and Democratic Theory",
+          "year": "1970",
+          "cited_by_count": 6055,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1515568215.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2085491458",
+      "title": "Social Capital in the Creation of Human Capital",
+      "year": 2000,
+      "cited_by_count": 21836,
+      "adjusted_cited_by_count": 4282.39,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2085491458"
+    },
+    {
+      "source_id": "https://openalex.org/W1528074835",
+      "title": "Handbook of Theory and Research for the Sociology of Education.",
+      "year": 1987,
+      "cited_by_count": 15201,
+      "adjusted_cited_by_count": 2434.11,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W1528074835"
+    },
+    {
+      "source_id": "https://openalex.org/W2115059495",
+      "title": "Social Capital: Its Origins and Applications in Modern Sociology",
+      "year": 1998,
+      "cited_by_count": 11866,
+      "adjusted_cited_by_count": 2242.46,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2115059495"
+    },
+    {
+      "source_id": "https://openalex.org/W2073506374",
+      "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge.",
+      "year": 1967,
+      "cited_by_count": 16591,
+      "adjusted_cited_by_count": 2159.96,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2073506374"
+    },
+    {
+      "source_id": "https://openalex.org/W2003490123",
+      "title": "Social Relationships and Mortality Risk: A Meta-analytic Review",
+      "year": 2010,
+      "cited_by_count": 7071,
+      "adjusted_cited_by_count": 1767.75,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2003490123"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4974,
+      "adjusted_cited_by_count": 1758.57,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W1981759308",
+      "title": "An Invitation to Reflexive Sociology.",
+      "year": 1993,
+      "cited_by_count": 9364,
+      "adjusted_cited_by_count": 1630.06,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W1981759308"
+    },
+    {
+      "source_id": "https://openalex.org/W4229864114",
+      "title": "An Invitation of Reflexive Sociology",
+      "year": 1993,
+      "cited_by_count": 8442,
+      "adjusted_cited_by_count": 1469.56,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W4229864114"
+    },
+    {
+      "source_id": "https://openalex.org/W2165468268",
+      "title": "Economy and Society: An Outline of Interpretive Sociology",
+      "year": 2002,
+      "cited_by_count": 6908,
+      "adjusted_cited_by_count": 1410.09,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2165468268"
+    },
+    {
+      "source_id": "https://openalex.org/W1960351623",
+      "title": "Evolution and the Theory of Games",
+      "year": 1988,
+      "cited_by_count": 8014,
+      "adjusted_cited_by_count": 1300.04,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W1960351623"
+    },
+    {
+      "source_id": "https://openalex.org/W2325428950",
+      "title": "A Social Psychologist Discovers Chicago Sociology",
+      "year": 1989,
+      "cited_by_count": 7194,
+      "adjusted_cited_by_count": 1182.69,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W2325428950"
+    },
+    {
+      "source_id": "https://openalex.org/W2151621121",
+      "title": "The Social System",
+      "year": 1951,
+      "cited_by_count": 8744,
+      "adjusted_cited_by_count": 1009.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W2151621121"
+    },
+    {
+      "source_id": "https://openalex.org/W1979572581",
+      "title": "Sociological Paradigms and Organisational Analysis: Elements of the Sociology of Corporate Life",
+      "year": 2021,
+      "cited_by_count": 2234,
+      "adjusted_cited_by_count": 999.08,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W1979572581"
+    },
+    {
+      "source_id": "https://openalex.org/W4245198606",
+      "title": "Social Conditions As Fundamental Causes of Disease",
+      "year": 1995,
+      "cited_by_count": 5533,
+      "adjusted_cited_by_count": 993.76,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W4245198606"
+    },
+    {
+      "source_id": "https://openalex.org/W1594501748",
+      "title": "From Max Weber: Essays in Sociology",
+      "year": 2014,
+      "cited_by_count": 3422,
+      "adjusted_cited_by_count": 987.85,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W1594501748"
+    },
+    {
+      "source_id": "https://openalex.org/W1533368239",
+      "title": "Social and Economic Networks",
+      "year": 2010,
+      "cited_by_count": 3732,
+      "adjusted_cited_by_count": 933.0,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W1533368239"
+    },
+    {
+      "source_id": "https://openalex.org/W2049812561",
+      "title": "Economy and Society: An Outline of Interpretive Sociology",
+      "year": 1969,
+      "cited_by_count": 6854,
+      "adjusted_cited_by_count": 907.83,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2049812561"
+    },
+    {
+      "source_id": "https://openalex.org/W2101498657",
+      "title": "Modernization, Cultural Change, and the Persistence of Traditional Values",
+      "year": 2000,
+      "cited_by_count": 4558,
+      "adjusted_cited_by_count": 893.9,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2101498657"
+    },
+    {
+      "source_id": "https://openalex.org/W2738372003",
+      "title": "Annual Review of Sociology",
+      "year": 2017,
+      "cited_by_count": 2650,
+      "adjusted_cited_by_count": 883.33,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2738372003"
+    },
+    {
+      "source_id": "https://openalex.org/W2132406025",
+      "title": "Racial Differences in Physical and Mental Health",
+      "year": 1997,
+      "cited_by_count": 4647,
+      "adjusted_cited_by_count": 862.93,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2132406025"
+    },
+    {
+      "source_id": "https://openalex.org/W2332433940",
+      "title": "Sociological Paradigms and Organizational Analysis.",
+      "year": 1983,
+      "cited_by_count": 5644,
+      "adjusted_cited_by_count": 860.7,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W2332433940"
+    },
+    {
+      "source_id": "https://openalex.org/W1704903455",
+      "title": "Suicide: A study in sociology.",
+      "year": 2004,
+      "cited_by_count": 3979,
+      "adjusted_cited_by_count": 848.33,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W1704903455"
+    },
+    {
+      "source_id": "https://openalex.org/W2026406546",
+      "title": "Ghostly Matters: Haunting and the Sociological Imagination",
+      "year": 1999,
+      "cited_by_count": 4362,
+      "adjusted_cited_by_count": 839.47,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W2026406546"
+    },
+    {
+      "source_id": "https://openalex.org/W2109745229",
+      "title": "Social Capital: Implications for Development Theory, Research, and Policy",
+      "year": 2000,
+      "cited_by_count": 4238,
+      "adjusted_cited_by_count": 831.14,
+      "primary_topic_id": "sg-economic-sociology",
+      "primary_topic_label": "Economic sociology",
+      "url": "/domains/sociology/papers/W2109745229"
+    },
+    {
+      "source_id": "https://openalex.org/W1515568215",
+      "title": "Participation and Democratic Theory",
+      "year": 1970,
+      "cited_by_count": 6055,
+      "adjusted_cited_by_count": 809.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W1515568215"
+    },
+    {
+      "source_id": "https://openalex.org/W1598829572",
+      "title": "Social Science Research: Principles, Methods and Practices",
+      "year": 2019,
+      "cited_by_count": 2049,
+      "adjusted_cited_by_count": 774.45,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W1598829572"
+    },
+    {
+      "source_id": "https://openalex.org/W595886575",
+      "title": "Sociology and Social Research",
+      "year": 1981,
+      "cited_by_count": 5074,
+      "adjusted_cited_by_count": 756.39,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W595886575"
+    },
+    {
+      "source_id": "https://openalex.org/W2113756706",
+      "title": "Indexical order and the dialectics of sociolinguistic life",
+      "year": 2003,
+      "cited_by_count": 3592,
+      "adjusted_cited_by_count": 748.98,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W2113756706"
+    },
+    {
+      "source_id": "https://openalex.org/W2528385426",
+      "title": "Global, regional, and national disability-adjusted life-years (DALYs) for 315 diseases and injuries and healthy life expectancy (HALE), 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 2220,
+      "adjusted_cited_by_count": 702.03,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2528385426"
+    },
+    {
+      "source_id": "https://openalex.org/W1967288024",
+      "title": "The Rules of Sociological Method",
+      "year": 1982,
+      "cited_by_count": 4622,
+      "adjusted_cited_by_count": 696.79,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W1967288024"
+    },
+    {
+      "source_id": "https://openalex.org/W1979851745",
+      "title": "Manifesto for a Relational Sociology",
+      "year": 1997,
+      "cited_by_count": 3701,
+      "adjusted_cited_by_count": 687.26,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W1979851745"
+    },
+    {
+      "source_id": "https://openalex.org/W4255290071",
+      "title": "Cultural Reproduction and Social Reproduction",
+      "year": 2018,
+      "cited_by_count": 1794,
+      "adjusted_cited_by_count": 634.27,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W4255290071"
+    },
+    {
+      "source_id": "https://openalex.org/W2343715481",
+      "title": "The Emergence and Development of Life Course Theory",
+      "year": 2003,
+      "cited_by_count": 3032,
+      "adjusted_cited_by_count": 632.22,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W2343715481"
+    },
+    {
+      "source_id": "https://openalex.org/W2958481062",
+      "title": "Guidance on how to develop complex interventions to improve health and healthcare",
+      "year": 2019,
+      "cited_by_count": 1664,
+      "adjusted_cited_by_count": 628.93,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2958481062"
+    },
+    {
+      "source_id": "https://openalex.org/W2157282578",
+      "title": "Outsiders; studies in the sociology of deviance",
+      "year": 1963,
+      "cited_by_count": 4731,
+      "adjusted_cited_by_count": 596.05,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/sociology/papers/W2157282578"
+    },
+    {
+      "source_id": "https://openalex.org/W2067328260",
+      "title": "Social Exchange Theory",
+      "year": 2006,
+      "cited_by_count": 2649,
+      "adjusted_cited_by_count": 592.33,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W2067328260"
+    },
+    {
+      "source_id": "https://openalex.org/W1999997471",
+      "title": "Functions of innovation systems: A new approach for analysing technological change",
+      "year": 2006,
+      "cited_by_count": 2646,
+      "adjusted_cited_by_count": 591.66,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W1999997471"
+    },
+    {
+      "source_id": "https://openalex.org/W2004113883",
+      "title": "Are there social limits to adaptation to climate change?",
+      "year": 2008,
+      "cited_by_count": 2452,
+      "adjusted_cited_by_count": 577.94,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/sociology/papers/W2004113883"
+    },
+    {
+      "source_id": "https://openalex.org/W2123828906",
+      "title": "A life course approach to chronic disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives",
+      "year": 2002,
+      "cited_by_count": 2802,
+      "adjusted_cited_by_count": 571.96,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2123828906"
+    },
+    {
+      "source_id": "https://openalex.org/W2313211529",
+      "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
+      "year": 1968,
+      "cited_by_count": 4345,
+      "adjusted_cited_by_count": 570.53,
+      "primary_topic_id": "sg-sociology-of-knowledge",
+      "primary_topic_label": "Sociology of knowledge",
+      "url": "/domains/sociology/papers/W2313211529"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2085491458",
+      "title": "Social Capital in the Creation of Human Capital",
+      "year": 2000,
+      "cited_by_count": 21836,
+      "adjusted_cited_by_count": 4282.39,
+      "url": "/domains/sociology/papers/W2085491458"
+    },
+    {
+      "source_id": "https://openalex.org/W1528074835",
+      "title": "Handbook of Theory and Research for the Sociology of Education.",
+      "year": 1987,
+      "cited_by_count": 15201,
+      "adjusted_cited_by_count": 2434.11,
+      "url": "/domains/sociology/papers/W1528074835"
+    },
+    {
+      "source_id": "https://openalex.org/W2115059495",
+      "title": "Social Capital: Its Origins and Applications in Modern Sociology",
+      "year": 1998,
+      "cited_by_count": 11866,
+      "adjusted_cited_by_count": 2242.46,
+      "url": "/domains/sociology/papers/W2115059495"
+    },
+    {
+      "source_id": "https://openalex.org/W2073506374",
+      "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge.",
+      "year": 1967,
+      "cited_by_count": 16591,
+      "adjusted_cited_by_count": 2159.96,
+      "url": "/domains/sociology/papers/W2073506374"
+    },
+    {
+      "source_id": "https://openalex.org/W2003490123",
+      "title": "Social Relationships and Mortality Risk: A Meta-analytic Review",
+      "year": 2010,
+      "cited_by_count": 7071,
+      "adjusted_cited_by_count": 1767.75,
+      "url": "/domains/sociology/papers/W2003490123"
+    },
+    {
+      "source_id": "https://openalex.org/W2899773405",
+      "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 4974,
+      "adjusted_cited_by_count": 1758.57,
+      "url": "/domains/sociology/papers/W2899773405"
+    },
+    {
+      "source_id": "https://openalex.org/W1981759308",
+      "title": "An Invitation to Reflexive Sociology.",
+      "year": 1993,
+      "cited_by_count": 9364,
+      "adjusted_cited_by_count": 1630.06,
+      "url": "/domains/sociology/papers/W1981759308"
+    },
+    {
+      "source_id": "https://openalex.org/W4229864114",
+      "title": "An Invitation of Reflexive Sociology",
+      "year": 1993,
+      "cited_by_count": 8442,
+      "adjusted_cited_by_count": 1469.56,
+      "url": "/domains/sociology/papers/W4229864114"
+    },
+    {
+      "source_id": "https://openalex.org/W2165468268",
+      "title": "Economy and Society: An Outline of Interpretive Sociology",
+      "year": 2002,
+      "cited_by_count": 6908,
+      "adjusted_cited_by_count": 1410.09,
+      "url": "/domains/sociology/papers/W2165468268"
+    },
+    {
+      "source_id": "https://openalex.org/W1960351623",
+      "title": "Evolution and the Theory of Games",
+      "year": 1988,
+      "cited_by_count": 8014,
+      "adjusted_cited_by_count": 1300.04,
+      "url": "/domains/sociology/papers/W1960351623"
+    },
+    {
+      "source_id": "https://openalex.org/W2325428950",
+      "title": "A Social Psychologist Discovers Chicago Sociology",
+      "year": 1989,
+      "cited_by_count": 7194,
+      "adjusted_cited_by_count": 1182.69,
+      "url": "/domains/sociology/papers/W2325428950"
+    },
+    {
+      "source_id": "https://openalex.org/W2151621121",
+      "title": "The Social System",
+      "year": 1951,
+      "cited_by_count": 8744,
+      "adjusted_cited_by_count": 1009.67,
+      "url": "/domains/sociology/papers/W2151621121"
+    },
+    {
+      "source_id": "https://openalex.org/W1979572581",
+      "title": "Sociological Paradigms and Organisational Analysis: Elements of the Sociology of Corporate Life",
+      "year": 2021,
+      "cited_by_count": 2234,
+      "adjusted_cited_by_count": 999.08,
+      "url": "/domains/sociology/papers/W1979572581"
+    },
+    {
+      "source_id": "https://openalex.org/W4245198606",
+      "title": "Social Conditions As Fundamental Causes of Disease",
+      "year": 1995,
+      "cited_by_count": 5533,
+      "adjusted_cited_by_count": 993.76,
+      "url": "/domains/sociology/papers/W4245198606"
+    },
+    {
+      "source_id": "https://openalex.org/W1594501748",
+      "title": "From Max Weber: Essays in Sociology",
+      "year": 2014,
+      "cited_by_count": 3422,
+      "adjusted_cited_by_count": 987.85,
+      "url": "/domains/sociology/papers/W1594501748"
+    },
+    {
+      "source_id": "https://openalex.org/W1533368239",
+      "title": "Social and Economic Networks",
+      "year": 2010,
+      "cited_by_count": 3732,
+      "adjusted_cited_by_count": 933.0,
+      "url": "/domains/sociology/papers/W1533368239"
+    },
+    {
+      "source_id": "https://openalex.org/W2049812561",
+      "title": "Economy and Society: An Outline of Interpretive Sociology",
+      "year": 1969,
+      "cited_by_count": 6854,
+      "adjusted_cited_by_count": 907.83,
+      "url": "/domains/sociology/papers/W2049812561"
+    },
+    {
+      "source_id": "https://openalex.org/W2101498657",
+      "title": "Modernization, Cultural Change, and the Persistence of Traditional Values",
+      "year": 2000,
+      "cited_by_count": 4558,
+      "adjusted_cited_by_count": 893.9,
+      "url": "/domains/sociology/papers/W2101498657"
+    },
+    {
+      "source_id": "https://openalex.org/W2738372003",
+      "title": "Annual Review of Sociology",
+      "year": 2017,
+      "cited_by_count": 2650,
+      "adjusted_cited_by_count": 883.33,
+      "url": "/domains/sociology/papers/W2738372003"
+    },
+    {
+      "source_id": "https://openalex.org/W2132406025",
+      "title": "Racial Differences in Physical and Mental Health",
+      "year": 1997,
+      "cited_by_count": 4647,
+      "adjusted_cited_by_count": 862.93,
+      "url": "/domains/sociology/papers/W2132406025"
+    },
+    {
+      "source_id": "https://openalex.org/W2332433940",
+      "title": "Sociological Paradigms and Organizational Analysis.",
+      "year": 1983,
+      "cited_by_count": 5644,
+      "adjusted_cited_by_count": 860.7,
+      "url": "/domains/sociology/papers/W2332433940"
+    },
+    {
+      "source_id": "https://openalex.org/W1704903455",
+      "title": "Suicide: A study in sociology.",
+      "year": 2004,
+      "cited_by_count": 3979,
+      "adjusted_cited_by_count": 848.33,
+      "url": "/domains/sociology/papers/W1704903455"
+    },
+    {
+      "source_id": "https://openalex.org/W2026406546",
+      "title": "Ghostly Matters: Haunting and the Sociological Imagination",
+      "year": 1999,
+      "cited_by_count": 4362,
+      "adjusted_cited_by_count": 839.47,
+      "url": "/domains/sociology/papers/W2026406546"
+    },
+    {
+      "source_id": "https://openalex.org/W2109745229",
+      "title": "Social Capital: Implications for Development Theory, Research, and Policy",
+      "year": 2000,
+      "cited_by_count": 4238,
+      "adjusted_cited_by_count": 831.14,
+      "url": "/domains/sociology/papers/W2109745229"
+    },
+    {
+      "source_id": "https://openalex.org/W1515568215",
+      "title": "Participation and Democratic Theory",
+      "year": 1970,
+      "cited_by_count": 6055,
+      "adjusted_cited_by_count": 809.13,
+      "url": "/domains/sociology/papers/W1515568215"
+    },
+    {
+      "source_id": "https://openalex.org/W1598829572",
+      "title": "Social Science Research: Principles, Methods and Practices",
+      "year": 2019,
+      "cited_by_count": 2049,
+      "adjusted_cited_by_count": 774.45,
+      "url": "/domains/sociology/papers/W1598829572"
+    },
+    {
+      "source_id": "https://openalex.org/W595886575",
+      "title": "Sociology and Social Research",
+      "year": 1981,
+      "cited_by_count": 5074,
+      "adjusted_cited_by_count": 756.39,
+      "url": "/domains/sociology/papers/W595886575"
+    },
+    {
+      "source_id": "https://openalex.org/W2113756706",
+      "title": "Indexical order and the dialectics of sociolinguistic life",
+      "year": 2003,
+      "cited_by_count": 3592,
+      "adjusted_cited_by_count": 748.98,
+      "url": "/domains/sociology/papers/W2113756706"
+    },
+    {
+      "source_id": "https://openalex.org/W2528385426",
+      "title": "Global, regional, and national disability-adjusted life-years (DALYs) for 315 diseases and injuries and healthy life expectancy (HALE), 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 2220,
+      "adjusted_cited_by_count": 702.03,
+      "url": "/domains/sociology/papers/W2528385426"
+    },
+    {
+      "source_id": "https://openalex.org/W1967288024",
+      "title": "The Rules of Sociological Method",
+      "year": 1982,
+      "cited_by_count": 4622,
+      "adjusted_cited_by_count": 696.79,
+      "url": "/domains/sociology/papers/W1967288024"
+    },
+    {
+      "source_id": "https://openalex.org/W1979851745",
+      "title": "Manifesto for a Relational Sociology",
+      "year": 1997,
+      "cited_by_count": 3701,
+      "adjusted_cited_by_count": 687.26,
+      "url": "/domains/sociology/papers/W1979851745"
+    },
+    {
+      "source_id": "https://openalex.org/W4255290071",
+      "title": "Cultural Reproduction and Social Reproduction",
+      "year": 2018,
+      "cited_by_count": 1794,
+      "adjusted_cited_by_count": 634.27,
+      "url": "/domains/sociology/papers/W4255290071"
+    },
+    {
+      "source_id": "https://openalex.org/W2343715481",
+      "title": "The Emergence and Development of Life Course Theory",
+      "year": 2003,
+      "cited_by_count": 3032,
+      "adjusted_cited_by_count": 632.22,
+      "url": "/domains/sociology/papers/W2343715481"
+    },
+    {
+      "source_id": "https://openalex.org/W2958481062",
+      "title": "Guidance on how to develop complex interventions to improve health and healthcare",
+      "year": 2019,
+      "cited_by_count": 1664,
+      "adjusted_cited_by_count": 628.93,
+      "url": "/domains/sociology/papers/W2958481062"
+    },
+    {
+      "source_id": "https://openalex.org/W2157282578",
+      "title": "Outsiders; studies in the sociology of deviance",
+      "year": 1963,
+      "cited_by_count": 4731,
+      "adjusted_cited_by_count": 596.05,
+      "url": "/domains/sociology/papers/W2157282578"
+    },
+    {
+      "source_id": "https://openalex.org/W2067328260",
+      "title": "Social Exchange Theory",
+      "year": 2006,
+      "cited_by_count": 2649,
+      "adjusted_cited_by_count": 592.33,
+      "url": "/domains/sociology/papers/W2067328260"
+    },
+    {
+      "source_id": "https://openalex.org/W1999997471",
+      "title": "Functions of innovation systems: A new approach for analysing technological change",
+      "year": 2006,
+      "cited_by_count": 2646,
+      "adjusted_cited_by_count": 591.66,
+      "url": "/domains/sociology/papers/W1999997471"
+    },
+    {
+      "source_id": "https://openalex.org/W2004113883",
+      "title": "Are there social limits to adaptation to climate change?",
+      "year": 2008,
+      "cited_by_count": 2452,
+      "adjusted_cited_by_count": 577.94,
+      "url": "/domains/sociology/papers/W2004113883"
+    },
+    {
+      "source_id": "https://openalex.org/W2123828906",
+      "title": "A life course approach to chronic disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives",
+      "year": 2002,
+      "cited_by_count": 2802,
+      "adjusted_cited_by_count": 571.96,
+      "url": "/domains/sociology/papers/W2123828906"
+    },
+    {
+      "source_id": "https://openalex.org/W2313211529",
+      "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
+      "year": 1968,
+      "cited_by_count": 4345,
+      "adjusted_cited_by_count": 570.53,
+      "url": "/domains/sociology/papers/W2313211529"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 132
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 112
+    },
+    {
+      "label": "social science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "epistemology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "sociology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "sociological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "the sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "the sociology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "how",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 28
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 25
+    },
+    {
+      "label": "social psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 22
+    },
+    {
+      "label": "politics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 21
+    },
+    {
+      "label": "of social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 20
+    },
+    {
+      "label": "the social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 20
+    },
+    {
+      "label": "life",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 19
+    },
+    {
+      "label": "knowledge",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 21
+    },
+    {
+      "label": "economic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 20
+    },
+    {
+      "label": "society",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 16
+    },
+    {
+      "label": "theory of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9857,
+      "evidence_count": 15
+    },
+    {
+      "label": "and social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9853,
+      "evidence_count": 14
+    },
+    {
+      "label": "in the sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9853,
+      "evidence_count": 14
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9849,
+      "evidence_count": 20
+    },
+    {
+      "label": "positive economics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9845,
+      "evidence_count": 12
+    },
+    {
+      "label": "political",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 50
+    },
+    {
+      "label": "of knowledge",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 12
+    },
+    {
+      "label": "in sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 11
+    },
+    {
+      "label": "of sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 11
+    },
+    {
+      "label": "public health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 11
+    },
+    {
+      "label": "sociological theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 11
+    },
+    {
+      "label": "book",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9841,
+      "evidence_count": 24
+    },
+    {
+      "label": "public",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 17
+    },
+    {
+      "label": "theory and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 12
+    },
+    {
+      "label": "economic sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 10
+    },
+    {
+      "label": "study of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 10
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 16
+    },
+    {
+      "label": "gender studies",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 9
+    },
+    {
+      "label": "journal of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 9
+    },
+    {
+      "label": "of science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 9
+    },
+    {
+      "label": "sociology of knowledge",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 9
+    },
+    {
+      "label": "sociology and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 9
+    },
+    {
+      "label": "introduction to",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 8
+    },
+    {
+      "label": "management science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 8
+    }
+  ],
+  "topic_year_counts": {
+    "gender studies": {
+      "2025": 518267,
+      "2023": 513297,
+      "2024": 504886,
+      "2022": 381215,
+      "2021": 349491,
+      "2020": 317796,
+      "2019": 256860,
+      "2018": 225077,
+      "2017": 203126,
+      "2016": 183189,
+      "2015": 166544,
+      "2014": 151816,
+      "2013": 134817,
+      "2026": 127989,
+      "2012": 115462,
+      "2011": 98479,
+      "2010": 83812,
+      "2009": 72148,
+      "2008": 60828,
+      "2007": 51738,
+      "2006": 44692,
+      "2005": 38550,
+      "2004": 33493,
+      "2003": 28582,
+      "2002": 23462,
+      "2001": 20943,
+      "2000": 20168
+    },
+    "economic sociology": {
+      "2023": 94810,
+      "2025": 92326,
+      "2024": 91405,
+      "2022": 69694,
+      "2021": 66400,
+      "2020": 61366,
+      "2019": 53624,
+      "2018": 48247,
+      "2017": 43449,
+      "2016": 39628,
+      "2015": 36060,
+      "2014": 32332,
+      "2013": 28092,
+      "2012": 24419,
+      "2026": 22878,
+      "2011": 21384,
+      "2010": 19296,
+      "2009": 16845,
+      "2008": 13842,
+      "2007": 11796,
+      "2006": 10302,
+      "2005": 8478,
+      "2004": 7369,
+      "2003": 6170,
+      "2002": 5517,
+      "2000": 5044,
+      "2001": 4695
+    },
+    "sociology of knowledge": {
+      "2023": 99608,
+      "2024": 94720,
+      "2025": 93167,
+      "2022": 72005,
+      "2021": 67897,
+      "2020": 63338,
+      "2019": 55196,
+      "2018": 49726,
+      "2017": 44711,
+      "2016": 40766,
+      "2015": 37488,
+      "2014": 33432,
+      "2013": 29045,
+      "2012": 25079,
+      "2026": 22560,
+      "2011": 21883,
+      "2010": 19681,
+      "2009": 17254,
+      "2008": 13944,
+      "2007": 11958,
+      "2006": 10093,
+      "2005": 8286,
+      "2004": 7072,
+      "2003": 5890,
+      "2002": 5156,
+      "2000": 4961,
+      "2001": 4548
+    }
+  }
+}

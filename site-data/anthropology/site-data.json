@@ -1,0 +1,1668 @@
+{
+  "slug": "anthropology",
+  "title": "Anthropology",
+  "updated_at": "2026-04-19T09:43:39.406884Z",
+  "snapshot": {
+    "papers": 116,
+    "topics": 3,
+    "subtopics": 29,
+    "entities": 307,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 137,
+      "total_papers": 137,
+      "facet_counts": {
+        "none": 137
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning anthropology ethics, history, culture.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 3,
+    "descendant_topics": 29,
+    "max_depth": 2,
+    "leaf_topics": 29
+  },
+  "rising_topics": [
+    {
+      "id": "sg-cultural-anthropology",
+      "label": "Cultural anthropology",
+      "url": "/domains/anthropology/topics/sg-cultural-anthropology",
+      "trend": "rising",
+      "year_total": 547763
+    },
+    {
+      "id": "sg-biological-anthropology",
+      "label": "Biological anthropology",
+      "url": "/domains/anthropology/topics/sg-biological-anthropology",
+      "trend": "rising",
+      "year_total": 181026
+    },
+    {
+      "id": "sg-gender-studies",
+      "label": "Gender studies",
+      "url": "/domains/anthropology/topics/sg-gender-studies",
+      "trend": "rising",
+      "year_total": 4726727
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-cultural-anthropology",
+      "label": "Cultural anthropology",
+      "url": "/domains/anthropology/topics/sg-cultural-anthropology",
+      "paper_count": 63,
+      "subtopic_count": 17,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "anthropology as cultural critique",
+        "anthropology of art",
+        "cultural anthropology",
+        "insights cultural anthropology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cultural-anthropology-anthropology-of-art",
+          "label": "Anthropology of art",
+          "url": "/domains/anthropology/topics/sg-cultural-anthropology-anthropology-of-art",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-cultural-anthropology-cultural-psychology",
+          "label": "Cultural psychology",
+          "url": "/domains/anthropology/topics/sg-cultural-anthropology-cultural-psychology",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cultural-anthropology-health-care",
+          "label": "Health care",
+          "url": "/domains/anthropology/topics/sg-cultural-anthropology-health-care",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cultural-anthropology-person-anthropology-philosophy",
+          "label": "Person anthropology, philosophy",
+          "url": "/domains/anthropology/topics/sg-cultural-anthropology-person-anthropology-philosophy",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cultural-anthropology-anthropology-of-visual-arts",
+          "label": "Anthropology of visual arts",
+          "url": "/domains/anthropology/topics/sg-cultural-anthropology-anthropology-of-visual-arts",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cultural-anthropology-cognitive-science",
+          "label": "Cognitive science",
+          "url": "/domains/anthropology/topics/sg-cultural-anthropology-cognitive-science",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-biological-anthropology",
+      "label": "Biological anthropology",
+      "url": "/domains/anthropology/topics/sg-biological-anthropology",
+      "paper_count": 30,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: eccrine sweat, eccrine sweat gland, endocrinology",
+      "tags": [
+        "anthropology as cultural",
+        "anthropology makes",
+        "biological anthropology",
+        "dental anthropology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-biological-anthropology-evolutionary-biology",
+          "label": "Evolutionary biology",
+          "url": "/domains/anthropology/topics/sg-biological-anthropology-evolutionary-biology",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-biological-anthropology-human-science",
+          "label": "Human science",
+          "url": "/domains/anthropology/topics/sg-biological-anthropology-human-science",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-biological-anthropology-pacific-and-southeast-asian-studies",
+          "label": "Pacific and Southeast Asian studies",
+          "url": "/domains/anthropology/topics/sg-biological-anthropology-pacific-and-southeast-asian-studies",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-biological-anthropology-vietnamese-history-and-culture-studies",
+          "label": "Vietnamese history and culture studies",
+          "url": "/domains/anthropology/topics/sg-biological-anthropology-vietnamese-history-and-culture-studies",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-biological-anthropology-cuban-history-and-society",
+          "label": "Cuban history and society",
+          "url": "/domains/anthropology/topics/sg-biological-anthropology-cuban-history-and-society",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-biological-anthropology-human-skeleton",
+          "label": "Human skeleton",
+          "url": "/domains/anthropology/topics/sg-biological-anthropology-human-skeleton",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4250988464",
+          "title": "American Journal of Physical Anthropology",
+          "year": "2006",
+          "cited_by_count": 2702,
+          "url": "/domains/anthropology/papers/W4250988464"
+        }
+      ]
+    },
+    {
+      "id": "sg-gender-studies",
+      "label": "Gender studies",
+      "url": "/domains/anthropology/topics/sg-gender-studies",
+      "paper_count": 23,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: anthropology of, history, politics",
+      "tags": [
+        "anthropology of globalization",
+        "gender studies",
+        "history of science and medicine",
+        "migration, ethnicity, and economy"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gender-studies-migration-ethnicity-and-economy",
+          "label": "Migration, ethnicity, and economy",
+          "url": "/domains/anthropology/topics/sg-gender-studies-migration-ethnicity-and-economy",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-gender-studies-development-ethics-society",
+          "label": "Development, ethics, society",
+          "url": "/domains/anthropology/topics/sg-gender-studies-development-ethics-society",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-gender-studies-critical-race-theory-in-education",
+          "label": "Critical race theory in education",
+          "url": "/domains/anthropology/topics/sg-gender-studies-critical-race-theory-in-education",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-gender-studies-fictive-kinship",
+          "label": "Fictive kinship",
+          "url": "/domains/anthropology/topics/sg-gender-studies-fictive-kinship",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-gender-studies-australian-history-society",
+          "label": "Australian history society",
+          "url": "/domains/anthropology/topics/sg-gender-studies-australian-history-society",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2075410304",
+          "title": "Non-places: Introduction to an anthropology of supermodernity",
+          "year": "1996",
+          "cited_by_count": 2560,
+          "url": "/domains/anthropology/papers/W2075410304"
+        },
+        {
+          "source_id": "https://openalex.org/W2326327955",
+          "title": "Toward an Anthropology of Women.",
+          "year": "1976",
+          "cited_by_count": 2894,
+          "url": "/domains/anthropology/papers/W2326327955"
+        },
+        {
+          "source_id": "https://openalex.org/W4236604077",
+          "title": "Non-Places: Introduction to an Anthropology of Supermodernity.",
+          "year": "1996",
+          "cited_by_count": 1979,
+          "url": "/domains/anthropology/papers/W4236604077"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Cultural anthropology",
+      "paper_count": 22,
+      "papers": [
+        {
+          "title": "The Politics and Poetics of Infrastructure",
+          "year": "2013",
+          "cited_by_count": 3723,
+          "topic": "Cultural anthropology",
+          "url": "papers/https-openalex-org-w2126644472.html"
+        },
+        {
+          "title": "Local Knowledge: Further Essays In Interpretive Anthropology",
+          "year": "1983",
+          "cited_by_count": 5084,
+          "topic": "Cultural anthropology",
+          "url": "papers/https-openalex-org-w1575465981.html"
+        },
+        {
+          "title": "An Anthropology of Structural Violence",
+          "year": "2004",
+          "cited_by_count": 2117,
+          "topic": "Cultural anthropology",
+          "url": "papers/https-openalex-org-w1566125242.html"
+        },
+        {
+          "title": "Theory in Anthropology since the Sixties",
+          "year": "1984",
+          "cited_by_count": 2817,
+          "topic": "Cultural anthropology",
+          "url": "papers/https-openalex-org-w2097379326.html"
+        },
+        {
+          "title": "Global Assemblages: Technology, Politics, and Ethics as Anthropological Problems",
+          "year": "2006",
+          "cited_by_count": 1933,
+          "topic": "Cultural anthropology",
+          "url": "papers/https-openalex-org-w1934690894.html"
+        },
+        {
+          "title": "Poetics and Performances as Critical Perspectives on Language and Social Life",
+          "year": "1990",
+          "cited_by_count": 2549,
+          "topic": "Cultural anthropology",
+          "url": "papers/https-openalex-org-w2118438955.html"
+        }
+      ]
+    },
+    {
+      "label": "Biological anthropology",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Time and the Other: How Anthropology Makes Its Object",
+          "year": "1983",
+          "cited_by_count": 6658,
+          "topic": "Biological anthropology",
+          "url": "papers/https-openalex-org-w1586405747.html"
+        },
+        {
+          "title": "American Journal of Physical Anthropology",
+          "year": "2006",
+          "cited_by_count": 2702,
+          "topic": "Biological anthropology",
+          "url": "papers/https-openalex-org-w4250988464.html"
+        },
+        {
+          "title": "Anthropology as Cultural Critique: An Experimental Moment in the Human Sciences",
+          "year": "1987",
+          "cited_by_count": 3672,
+          "topic": "Biological anthropology",
+          "url": "papers/https-openalex-org-w1979731710.html"
+        },
+        {
+          "title": "Anthropology in the Margins of the State",
+          "year": "2005",
+          "cited_by_count": 2075,
+          "topic": "Biological anthropology",
+          "url": "papers/https-openalex-org-w1941740647.html"
+        },
+        {
+          "title": "Advances in dental anthropology",
+          "year": "1991",
+          "cited_by_count": 1826,
+          "topic": "Biological anthropology",
+          "url": "papers/https-openalex-org-w1596319114.html"
+        },
+        {
+          "title": "Does evolutionary theory need a rethink?",
+          "year": "2014",
+          "cited_by_count": 1060,
+          "topic": "Biological anthropology",
+          "url": "papers/https-openalex-org-w1991285543.html"
+        }
+      ]
+    },
+    {
+      "label": "Anthropology of art",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Europe and the People without History",
+          "year": "1984",
+          "cited_by_count": 3818,
+          "topic": "Anthropology of art",
+          "url": "papers/https-openalex-org-w2146751695.html"
+        },
+        {
+          "title": "Risk and Blame: Essays in Cultural Theory",
+          "year": "1994",
+          "cited_by_count": 2238,
+          "topic": "Anthropology of art",
+          "url": "papers/https-openalex-org-w2031532171.html"
+        },
+        {
+          "title": "Recapturing anthropology: working in the present",
+          "year": "1992",
+          "cited_by_count": 2127,
+          "topic": "Anthropology of art",
+          "url": "papers/https-openalex-org-w2513812005.html"
+        },
+        {
+          "title": "The Anthropology of the state: a reader",
+          "year": "2007",
+          "cited_by_count": 1407,
+          "topic": "Anthropology of art",
+          "url": "papers/https-openalex-org-w654970580.html"
+        }
+      ]
+    },
+    {
+      "label": "Development, ethics, society",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Non-places: Introduction to an anthropology of supermodernity",
+          "year": "1996",
+          "cited_by_count": 2560,
+          "topic": "Development, ethics, society",
+          "url": "papers/https-openalex-org-w2075410304.html"
+        },
+        {
+          "title": "Toward an Anthropology of Women.",
+          "year": "1976",
+          "cited_by_count": 2894,
+          "topic": "Development, ethics, society",
+          "url": "papers/https-openalex-org-w2326327955.html"
+        },
+        {
+          "title": "Non-Places: Introduction to an Anthropology of Supermodernity.",
+          "year": "1996",
+          "cited_by_count": 1979,
+          "topic": "Development, ethics, society",
+          "url": "papers/https-openalex-org-w4236604077.html"
+        },
+        {
+          "title": "An Inquiry into Modes of Existence: An Anthropology of the Moderns",
+          "year": "2014",
+          "cited_by_count": 1167,
+          "topic": "Development, ethics, society",
+          "url": "papers/https-openalex-org-w2278828879.html"
+        }
+      ]
+    },
+    {
+      "label": "Human science",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Structural Anthropology",
+          "year": "2021",
+          "cited_by_count": 1273,
+          "topic": "Human science",
+          "url": "papers/https-openalex-org-w4212953939.html"
+        },
+        {
+          "title": "Rethinking Anthropology",
+          "year": "2021",
+          "cited_by_count": 864,
+          "topic": "Human science",
+          "url": "papers/https-openalex-org-w4255383049.html"
+        },
+        {
+          "title": "Reinventing Anthropology",
+          "year": "1974",
+          "cited_by_count": 2128,
+          "topic": "Human science",
+          "url": "papers/https-openalex-org-w4248555376.html"
+        }
+      ]
+    },
+    {
+      "label": "Gender studies",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Communities of Practice and Social Learning Systems: the Career of a Concept",
+          "year": "2010",
+          "cited_by_count": 1298,
+          "topic": "Gender studies",
+          "url": "papers/https-openalex-org-w1600250904.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2126644472",
+      "title": "The Politics and Poetics of Infrastructure",
+      "year": 2013,
+      "cited_by_count": 3723,
+      "adjusted_cited_by_count": 1032.57,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2126644472"
+    },
+    {
+      "source_id": "https://openalex.org/W1586405747",
+      "title": "Time and the Other: How Anthropology Makes Its Object",
+      "year": 1983,
+      "cited_by_count": 6658,
+      "adjusted_cited_by_count": 1015.34,
+      "primary_topic_id": "sg-biological-anthropology",
+      "primary_topic_label": "Biological anthropology",
+      "url": "/domains/anthropology/papers/W1586405747"
+    },
+    {
+      "source_id": "https://openalex.org/W1575465981",
+      "title": "Local Knowledge: Further Essays In Interpretive Anthropology",
+      "year": 1983,
+      "cited_by_count": 5084,
+      "adjusted_cited_by_count": 775.3,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1575465981"
+    },
+    {
+      "source_id": "https://openalex.org/W4250988464",
+      "title": "American Journal of Physical Anthropology",
+      "year": 2006,
+      "cited_by_count": 2702,
+      "adjusted_cited_by_count": 604.19,
+      "primary_topic_id": "sg-biological-anthropology",
+      "primary_topic_label": "Biological anthropology",
+      "url": "/domains/anthropology/papers/W4250988464"
+    },
+    {
+      "source_id": "https://openalex.org/W2146751695",
+      "title": "Europe and the People without History",
+      "year": 1984,
+      "cited_by_count": 3818,
+      "adjusted_cited_by_count": 589.13,
+      "primary_topic_id": "sg-cultural-anthropology-anthropology-of-art",
+      "primary_topic_label": "Anthropology of art",
+      "url": "/domains/anthropology/papers/W2146751695"
+    },
+    {
+      "source_id": "https://openalex.org/W1979731710",
+      "title": "Anthropology as Cultural Critique: An Experimental Moment in the Human Sciences",
+      "year": 1987,
+      "cited_by_count": 3672,
+      "adjusted_cited_by_count": 587.99,
+      "primary_topic_id": "sg-biological-anthropology",
+      "primary_topic_label": "Biological anthropology",
+      "url": "/domains/anthropology/papers/W1979731710"
+    },
+    {
+      "source_id": "https://openalex.org/W4212953939",
+      "title": "Structural Anthropology",
+      "year": 2021,
+      "cited_by_count": 1273,
+      "adjusted_cited_by_count": 569.3,
+      "primary_topic_id": "sg-biological-anthropology-human-science",
+      "primary_topic_label": "Human science",
+      "url": "/domains/anthropology/papers/W4212953939"
+    },
+    {
+      "source_id": "https://openalex.org/W2075410304",
+      "title": "Non-places: Introduction to an anthropology of supermodernity",
+      "year": 1996,
+      "cited_by_count": 2560,
+      "adjusted_cited_by_count": 467.39,
+      "primary_topic_id": "sg-gender-studies-development-ethics-society",
+      "primary_topic_label": "Development, ethics, society",
+      "url": "/domains/anthropology/papers/W2075410304"
+    },
+    {
+      "source_id": "https://openalex.org/W1941740647",
+      "title": "Anthropology in the Margins of the State",
+      "year": 2005,
+      "cited_by_count": 2075,
+      "adjusted_cited_by_count": 452.8,
+      "primary_topic_id": "sg-biological-anthropology",
+      "primary_topic_label": "Biological anthropology",
+      "url": "/domains/anthropology/papers/W1941740647"
+    },
+    {
+      "source_id": "https://openalex.org/W1566125242",
+      "title": "An Anthropology of Structural Violence",
+      "year": 2004,
+      "cited_by_count": 2117,
+      "adjusted_cited_by_count": 451.35,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1566125242"
+    },
+    {
+      "source_id": "https://openalex.org/W2097379326",
+      "title": "Theory in Anthropology since the Sixties",
+      "year": 1984,
+      "cited_by_count": 2817,
+      "adjusted_cited_by_count": 434.67,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2097379326"
+    },
+    {
+      "source_id": "https://openalex.org/W1934690894",
+      "title": "Global Assemblages: Technology, Politics, and Ethics as Anthropological Problems",
+      "year": 2006,
+      "cited_by_count": 1933,
+      "adjusted_cited_by_count": 432.23,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1934690894"
+    },
+    {
+      "source_id": "https://openalex.org/W2118438955",
+      "title": "Poetics and Performances as Critical Perspectives on Language and Social Life",
+      "year": 1990,
+      "cited_by_count": 2549,
+      "adjusted_cited_by_count": 424.83,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2118438955"
+    },
+    {
+      "source_id": "https://openalex.org/W2326327955",
+      "title": "Toward an Anthropology of Women.",
+      "year": 1976,
+      "cited_by_count": 2894,
+      "adjusted_cited_by_count": 409.27,
+      "primary_topic_id": "sg-gender-studies-development-ethics-society",
+      "primary_topic_label": "Development, ethics, society",
+      "url": "/domains/anthropology/papers/W2326327955"
+    },
+    {
+      "source_id": "https://openalex.org/W2115067809",
+      "title": "The Mindful Body: A Prolegomenon to Future Work in Medical Anthropology",
+      "year": 1987,
+      "cited_by_count": 2494,
+      "adjusted_cited_by_count": 399.36,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2115067809"
+    },
+    {
+      "source_id": "https://openalex.org/W2810968011",
+      "title": "Cultural tourism: A review of recent research and trends",
+      "year": 2018,
+      "cited_by_count": 1121,
+      "adjusted_cited_by_count": 396.33,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2810968011"
+    },
+    {
+      "source_id": "https://openalex.org/W2031532171",
+      "title": "Risk and Blame: Essays in Cultural Theory",
+      "year": 1994,
+      "cited_by_count": 2238,
+      "adjusted_cited_by_count": 395.63,
+      "primary_topic_id": "sg-cultural-anthropology-anthropology-of-art",
+      "primary_topic_label": "Anthropology of art",
+      "url": "/domains/anthropology/papers/W2031532171"
+    },
+    {
+      "source_id": "https://openalex.org/W1563921893",
+      "title": "The Anthropology of Performance",
+      "year": 1986,
+      "cited_by_count": 2474,
+      "adjusted_cited_by_count": 391.17,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1563921893"
+    },
+    {
+      "source_id": "https://openalex.org/W4255383049",
+      "title": "Rethinking Anthropology",
+      "year": 2021,
+      "cited_by_count": 864,
+      "adjusted_cited_by_count": 386.39,
+      "primary_topic_id": "sg-biological-anthropology-human-science",
+      "primary_topic_label": "Human science",
+      "url": "/domains/anthropology/papers/W4255383049"
+    },
+    {
+      "source_id": "https://openalex.org/W2738625345",
+      "title": "Human occupation of northern Australia by 65,000 years ago",
+      "year": 2017,
+      "cited_by_count": 1148,
+      "adjusted_cited_by_count": 382.67,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2738625345"
+    },
+    {
+      "source_id": "https://openalex.org/W2321640267",
+      "title": "Art and Agency: An Anthropological Theory",
+      "year": 1999,
+      "cited_by_count": 1938,
+      "adjusted_cited_by_count": 372.97,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2321640267"
+    },
+    {
+      "source_id": "https://openalex.org/W2513812005",
+      "title": "Recapturing anthropology: working in the present",
+      "year": 1992,
+      "cited_by_count": 2127,
+      "adjusted_cited_by_count": 364.78,
+      "primary_topic_id": "sg-cultural-anthropology-anthropology-of-art",
+      "primary_topic_label": "Anthropology of art",
+      "url": "/domains/anthropology/papers/W2513812005"
+    },
+    {
+      "source_id": "https://openalex.org/W4236604077",
+      "title": "Non-Places: Introduction to an Anthropology of Supermodernity.",
+      "year": 1996,
+      "cited_by_count": 1979,
+      "adjusted_cited_by_count": 361.31,
+      "primary_topic_id": "sg-gender-studies-development-ethics-society",
+      "primary_topic_label": "Development, ethics, society",
+      "url": "/domains/anthropology/papers/W4236604077"
+    },
+    {
+      "source_id": "https://openalex.org/W2011749199",
+      "title": "What are we doing here? Analyzing fifteen years of energy scholarship and proposing a social science research agenda",
+      "year": 2014,
+      "cited_by_count": 1251,
+      "adjusted_cited_by_count": 361.13,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2011749199"
+    },
+    {
+      "source_id": "https://openalex.org/W2804207405",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "year": 2018,
+      "cited_by_count": 1010,
+      "adjusted_cited_by_count": 357.09,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2804207405"
+    },
+    {
+      "source_id": "https://openalex.org/W2760942449",
+      "title": "Human mobility: Models and applications",
+      "year": 2018,
+      "cited_by_count": 1006,
+      "adjusted_cited_by_count": 355.67,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2760942449"
+    },
+    {
+      "source_id": "https://openalex.org/W2475465122",
+      "title": "Toward An Anthropological Theory of Value",
+      "year": 2001,
+      "cited_by_count": 1760,
+      "adjusted_cited_by_count": 352.0,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2475465122"
+    },
+    {
+      "source_id": "https://openalex.org/W2085418212",
+      "title": "The vulnerable observer: anthropology that breaks your heart",
+      "year": 1997,
+      "cited_by_count": 1884,
+      "adjusted_cited_by_count": 349.85,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2085418212"
+    },
+    {
+      "source_id": "https://openalex.org/W2278828879",
+      "title": "An Inquiry into Modes of Existence: An Anthropology of the Moderns",
+      "year": 2014,
+      "cited_by_count": 1167,
+      "adjusted_cited_by_count": 336.88,
+      "primary_topic_id": "sg-gender-studies-development-ethics-society",
+      "primary_topic_label": "Development, ethics, society",
+      "url": "/domains/anthropology/papers/W2278828879"
+    },
+    {
+      "source_id": "https://openalex.org/W2103702476",
+      "title": "Social learning strategies",
+      "year": 2004,
+      "cited_by_count": 1573,
+      "adjusted_cited_by_count": 335.36,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2103702476"
+    },
+    {
+      "source_id": "https://openalex.org/W1660984842",
+      "title": "Beyond the suffering subject: toward an anthropology of the good",
+      "year": 2013,
+      "cited_by_count": 1199,
+      "adjusted_cited_by_count": 332.54,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1660984842"
+    },
+    {
+      "source_id": "https://openalex.org/W2158499134",
+      "title": "Culture sits in places: reflections on globalism and subaltern strategies of localization",
+      "year": 2001,
+      "cited_by_count": 1631,
+      "adjusted_cited_by_count": 326.2,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W2158499134"
+    },
+    {
+      "source_id": "https://openalex.org/W1600250904",
+      "title": "Communities of Practice and Social Learning Systems: the Career of a Concept",
+      "year": 2010,
+      "cited_by_count": 1298,
+      "adjusted_cited_by_count": 324.5,
+      "primary_topic_id": "sg-gender-studies",
+      "primary_topic_label": "Gender studies",
+      "url": "/domains/anthropology/papers/W1600250904"
+    },
+    {
+      "source_id": "https://openalex.org/W654970580",
+      "title": "The Anthropology of the state: a reader",
+      "year": 2007,
+      "cited_by_count": 1407,
+      "adjusted_cited_by_count": 322.79,
+      "primary_topic_id": "sg-cultural-anthropology-anthropology-of-art",
+      "primary_topic_label": "Anthropology of art",
+      "url": "/domains/anthropology/papers/W654970580"
+    },
+    {
+      "source_id": "https://openalex.org/W1593582017",
+      "title": "Making: Anthropology, Archaeology, Art and Architecture",
+      "year": 2013,
+      "cited_by_count": 1126,
+      "adjusted_cited_by_count": 312.3,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1593582017"
+    },
+    {
+      "source_id": "https://openalex.org/W1596319114",
+      "title": "Advances in dental anthropology",
+      "year": 1991,
+      "cited_by_count": 1826,
+      "adjusted_cited_by_count": 308.65,
+      "primary_topic_id": "sg-biological-anthropology",
+      "primary_topic_label": "Biological anthropology",
+      "url": "/domains/anthropology/papers/W1596319114"
+    },
+    {
+      "source_id": "https://openalex.org/W1991285543",
+      "title": "Does evolutionary theory need a rethink?",
+      "year": 2014,
+      "cited_by_count": 1060,
+      "adjusted_cited_by_count": 306.0,
+      "primary_topic_id": "sg-biological-anthropology",
+      "primary_topic_label": "Biological anthropology",
+      "url": "/domains/anthropology/papers/W1991285543"
+    },
+    {
+      "source_id": "https://openalex.org/W4248555376",
+      "title": "Reinventing Anthropology",
+      "year": 1974,
+      "cited_by_count": 2128,
+      "adjusted_cited_by_count": 295.1,
+      "primary_topic_id": "sg-biological-anthropology-human-science",
+      "primary_topic_label": "Human science",
+      "url": "/domains/anthropology/papers/W4248555376"
+    },
+    {
+      "source_id": "https://openalex.org/W1994986993",
+      "title": "Think Practically and Look Locally: Language and Gender as Community-Based Practice",
+      "year": 1992,
+      "cited_by_count": 1720,
+      "adjusted_cited_by_count": 294.98,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1994986993"
+    },
+    {
+      "source_id": "https://openalex.org/W1483728582",
+      "title": "The anthropology of experience",
+      "year": 1986,
+      "cited_by_count": 1841,
+      "adjusted_cited_by_count": 291.09,
+      "primary_topic_id": "sg-cultural-anthropology",
+      "primary_topic_label": "Cultural anthropology",
+      "url": "/domains/anthropology/papers/W1483728582"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2126644472",
+      "title": "The Politics and Poetics of Infrastructure",
+      "year": 2013,
+      "cited_by_count": 3723,
+      "adjusted_cited_by_count": 1032.57,
+      "url": "/domains/anthropology/papers/W2126644472"
+    },
+    {
+      "source_id": "https://openalex.org/W1586405747",
+      "title": "Time and the Other: How Anthropology Makes Its Object",
+      "year": 1983,
+      "cited_by_count": 6658,
+      "adjusted_cited_by_count": 1015.34,
+      "url": "/domains/anthropology/papers/W1586405747"
+    },
+    {
+      "source_id": "https://openalex.org/W1575465981",
+      "title": "Local Knowledge: Further Essays In Interpretive Anthropology",
+      "year": 1983,
+      "cited_by_count": 5084,
+      "adjusted_cited_by_count": 775.3,
+      "url": "/domains/anthropology/papers/W1575465981"
+    },
+    {
+      "source_id": "https://openalex.org/W4250988464",
+      "title": "American Journal of Physical Anthropology",
+      "year": 2006,
+      "cited_by_count": 2702,
+      "adjusted_cited_by_count": 604.19,
+      "url": "/domains/anthropology/papers/W4250988464"
+    },
+    {
+      "source_id": "https://openalex.org/W2146751695",
+      "title": "Europe and the People without History",
+      "year": 1984,
+      "cited_by_count": 3818,
+      "adjusted_cited_by_count": 589.13,
+      "url": "/domains/anthropology/papers/W2146751695"
+    },
+    {
+      "source_id": "https://openalex.org/W1979731710",
+      "title": "Anthropology as Cultural Critique: An Experimental Moment in the Human Sciences",
+      "year": 1987,
+      "cited_by_count": 3672,
+      "adjusted_cited_by_count": 587.99,
+      "url": "/domains/anthropology/papers/W1979731710"
+    },
+    {
+      "source_id": "https://openalex.org/W4212953939",
+      "title": "Structural Anthropology",
+      "year": 2021,
+      "cited_by_count": 1273,
+      "adjusted_cited_by_count": 569.3,
+      "url": "/domains/anthropology/papers/W4212953939"
+    },
+    {
+      "source_id": "https://openalex.org/W2075410304",
+      "title": "Non-places: Introduction to an anthropology of supermodernity",
+      "year": 1996,
+      "cited_by_count": 2560,
+      "adjusted_cited_by_count": 467.39,
+      "url": "/domains/anthropology/papers/W2075410304"
+    },
+    {
+      "source_id": "https://openalex.org/W1941740647",
+      "title": "Anthropology in the Margins of the State",
+      "year": 2005,
+      "cited_by_count": 2075,
+      "adjusted_cited_by_count": 452.8,
+      "url": "/domains/anthropology/papers/W1941740647"
+    },
+    {
+      "source_id": "https://openalex.org/W1566125242",
+      "title": "An Anthropology of Structural Violence",
+      "year": 2004,
+      "cited_by_count": 2117,
+      "adjusted_cited_by_count": 451.35,
+      "url": "/domains/anthropology/papers/W1566125242"
+    },
+    {
+      "source_id": "https://openalex.org/W2097379326",
+      "title": "Theory in Anthropology since the Sixties",
+      "year": 1984,
+      "cited_by_count": 2817,
+      "adjusted_cited_by_count": 434.67,
+      "url": "/domains/anthropology/papers/W2097379326"
+    },
+    {
+      "source_id": "https://openalex.org/W1934690894",
+      "title": "Global Assemblages: Technology, Politics, and Ethics as Anthropological Problems",
+      "year": 2006,
+      "cited_by_count": 1933,
+      "adjusted_cited_by_count": 432.23,
+      "url": "/domains/anthropology/papers/W1934690894"
+    },
+    {
+      "source_id": "https://openalex.org/W2118438955",
+      "title": "Poetics and Performances as Critical Perspectives on Language and Social Life",
+      "year": 1990,
+      "cited_by_count": 2549,
+      "adjusted_cited_by_count": 424.83,
+      "url": "/domains/anthropology/papers/W2118438955"
+    },
+    {
+      "source_id": "https://openalex.org/W2326327955",
+      "title": "Toward an Anthropology of Women.",
+      "year": 1976,
+      "cited_by_count": 2894,
+      "adjusted_cited_by_count": 409.27,
+      "url": "/domains/anthropology/papers/W2326327955"
+    },
+    {
+      "source_id": "https://openalex.org/W2115067809",
+      "title": "The Mindful Body: A Prolegomenon to Future Work in Medical Anthropology",
+      "year": 1987,
+      "cited_by_count": 2494,
+      "adjusted_cited_by_count": 399.36,
+      "url": "/domains/anthropology/papers/W2115067809"
+    },
+    {
+      "source_id": "https://openalex.org/W2810968011",
+      "title": "Cultural tourism: A review of recent research and trends",
+      "year": 2018,
+      "cited_by_count": 1121,
+      "adjusted_cited_by_count": 396.33,
+      "url": "/domains/anthropology/papers/W2810968011"
+    },
+    {
+      "source_id": "https://openalex.org/W2031532171",
+      "title": "Risk and Blame: Essays in Cultural Theory",
+      "year": 1994,
+      "cited_by_count": 2238,
+      "adjusted_cited_by_count": 395.63,
+      "url": "/domains/anthropology/papers/W2031532171"
+    },
+    {
+      "source_id": "https://openalex.org/W1563921893",
+      "title": "The Anthropology of Performance",
+      "year": 1986,
+      "cited_by_count": 2474,
+      "adjusted_cited_by_count": 391.17,
+      "url": "/domains/anthropology/papers/W1563921893"
+    },
+    {
+      "source_id": "https://openalex.org/W4255383049",
+      "title": "Rethinking Anthropology",
+      "year": 2021,
+      "cited_by_count": 864,
+      "adjusted_cited_by_count": 386.39,
+      "url": "/domains/anthropology/papers/W4255383049"
+    },
+    {
+      "source_id": "https://openalex.org/W2738625345",
+      "title": "Human occupation of northern Australia by 65,000 years ago",
+      "year": 2017,
+      "cited_by_count": 1148,
+      "adjusted_cited_by_count": 382.67,
+      "url": "/domains/anthropology/papers/W2738625345"
+    },
+    {
+      "source_id": "https://openalex.org/W2321640267",
+      "title": "Art and Agency: An Anthropological Theory",
+      "year": 1999,
+      "cited_by_count": 1938,
+      "adjusted_cited_by_count": 372.97,
+      "url": "/domains/anthropology/papers/W2321640267"
+    },
+    {
+      "source_id": "https://openalex.org/W2513812005",
+      "title": "Recapturing anthropology: working in the present",
+      "year": 1992,
+      "cited_by_count": 2127,
+      "adjusted_cited_by_count": 364.78,
+      "url": "/domains/anthropology/papers/W2513812005"
+    },
+    {
+      "source_id": "https://openalex.org/W4236604077",
+      "title": "Non-Places: Introduction to an Anthropology of Supermodernity.",
+      "year": 1996,
+      "cited_by_count": 1979,
+      "adjusted_cited_by_count": 361.31,
+      "url": "/domains/anthropology/papers/W4236604077"
+    },
+    {
+      "source_id": "https://openalex.org/W2011749199",
+      "title": "What are we doing here? Analyzing fifteen years of energy scholarship and proposing a social science research agenda",
+      "year": 2014,
+      "cited_by_count": 1251,
+      "adjusted_cited_by_count": 361.13,
+      "url": "/domains/anthropology/papers/W2011749199"
+    },
+    {
+      "source_id": "https://openalex.org/W2804207405",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "year": 2018,
+      "cited_by_count": 1010,
+      "adjusted_cited_by_count": 357.09,
+      "url": "/domains/anthropology/papers/W2804207405"
+    },
+    {
+      "source_id": "https://openalex.org/W2760942449",
+      "title": "Human mobility: Models and applications",
+      "year": 2018,
+      "cited_by_count": 1006,
+      "adjusted_cited_by_count": 355.67,
+      "url": "/domains/anthropology/papers/W2760942449"
+    },
+    {
+      "source_id": "https://openalex.org/W2475465122",
+      "title": "Toward An Anthropological Theory of Value",
+      "year": 2001,
+      "cited_by_count": 1760,
+      "adjusted_cited_by_count": 352.0,
+      "url": "/domains/anthropology/papers/W2475465122"
+    },
+    {
+      "source_id": "https://openalex.org/W2085418212",
+      "title": "The vulnerable observer: anthropology that breaks your heart",
+      "year": 1997,
+      "cited_by_count": 1884,
+      "adjusted_cited_by_count": 349.85,
+      "url": "/domains/anthropology/papers/W2085418212"
+    },
+    {
+      "source_id": "https://openalex.org/W2278828879",
+      "title": "An Inquiry into Modes of Existence: An Anthropology of the Moderns",
+      "year": 2014,
+      "cited_by_count": 1167,
+      "adjusted_cited_by_count": 336.88,
+      "url": "/domains/anthropology/papers/W2278828879"
+    },
+    {
+      "source_id": "https://openalex.org/W2103702476",
+      "title": "Social learning strategies",
+      "year": 2004,
+      "cited_by_count": 1573,
+      "adjusted_cited_by_count": 335.36,
+      "url": "/domains/anthropology/papers/W2103702476"
+    },
+    {
+      "source_id": "https://openalex.org/W1660984842",
+      "title": "Beyond the suffering subject: toward an anthropology of the good",
+      "year": 2013,
+      "cited_by_count": 1199,
+      "adjusted_cited_by_count": 332.54,
+      "url": "/domains/anthropology/papers/W1660984842"
+    },
+    {
+      "source_id": "https://openalex.org/W2158499134",
+      "title": "Culture sits in places: reflections on globalism and subaltern strategies of localization",
+      "year": 2001,
+      "cited_by_count": 1631,
+      "adjusted_cited_by_count": 326.2,
+      "url": "/domains/anthropology/papers/W2158499134"
+    },
+    {
+      "source_id": "https://openalex.org/W1600250904",
+      "title": "Communities of Practice and Social Learning Systems: the Career of a Concept",
+      "year": 2010,
+      "cited_by_count": 1298,
+      "adjusted_cited_by_count": 324.5,
+      "url": "/domains/anthropology/papers/W1600250904"
+    },
+    {
+      "source_id": "https://openalex.org/W654970580",
+      "title": "The Anthropology of the state: a reader",
+      "year": 2007,
+      "cited_by_count": 1407,
+      "adjusted_cited_by_count": 322.79,
+      "url": "/domains/anthropology/papers/W654970580"
+    },
+    {
+      "source_id": "https://openalex.org/W1593582017",
+      "title": "Making: Anthropology, Archaeology, Art and Architecture",
+      "year": 2013,
+      "cited_by_count": 1126,
+      "adjusted_cited_by_count": 312.3,
+      "url": "/domains/anthropology/papers/W1593582017"
+    },
+    {
+      "source_id": "https://openalex.org/W1596319114",
+      "title": "Advances in dental anthropology",
+      "year": 1991,
+      "cited_by_count": 1826,
+      "adjusted_cited_by_count": 308.65,
+      "url": "/domains/anthropology/papers/W1596319114"
+    },
+    {
+      "source_id": "https://openalex.org/W1991285543",
+      "title": "Does evolutionary theory need a rethink?",
+      "year": 2014,
+      "cited_by_count": 1060,
+      "adjusted_cited_by_count": 306.0,
+      "url": "/domains/anthropology/papers/W1991285543"
+    },
+    {
+      "source_id": "https://openalex.org/W4248555376",
+      "title": "Reinventing Anthropology",
+      "year": 1974,
+      "cited_by_count": 2128,
+      "adjusted_cited_by_count": 295.1,
+      "url": "/domains/anthropology/papers/W4248555376"
+    },
+    {
+      "source_id": "https://openalex.org/W1994986993",
+      "title": "Think Practically and Look Locally: Language and Gender as Community-Based Practice",
+      "year": 1992,
+      "cited_by_count": 1720,
+      "adjusted_cited_by_count": 294.98,
+      "url": "/domains/anthropology/papers/W1994986993"
+    },
+    {
+      "source_id": "https://openalex.org/W1483728582",
+      "title": "The anthropology of experience",
+      "year": 1986,
+      "cited_by_count": 1841,
+      "adjusted_cited_by_count": 291.09,
+      "url": "/domains/anthropology/papers/W1483728582"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "sociology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 118
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "history",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "cultural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "epistemology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 36
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 34
+    },
+    {
+      "label": "anthropology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "art",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "culture",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 30
+    },
+    {
+      "label": "anthropological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 28
+    },
+    {
+      "label": "social science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 24
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 20
+    },
+    {
+      "label": "politics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 20
+    },
+    {
+      "label": "cultural anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 19
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 19
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 17
+    },
+    {
+      "label": "the anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 17
+    },
+    {
+      "label": "the anthropology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 17
+    },
+    {
+      "label": "an anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9847,
+      "evidence_count": 11
+    },
+    {
+      "label": "political",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 36
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 11
+    },
+    {
+      "label": "biological anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 10
+    },
+    {
+      "label": "theory of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9842,
+      "evidence_count": 10
+    },
+    {
+      "label": "anthropology and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 10
+    },
+    {
+      "label": "art history",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 9
+    },
+    {
+      "label": "gender studies",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 9
+    },
+    {
+      "label": "of anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 9
+    },
+    {
+      "label": "of culture",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 9
+    },
+    {
+      "label": "social psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9838,
+      "evidence_count": 9
+    },
+    {
+      "label": "and social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 8
+    },
+    {
+      "label": "applied anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 8
+    },
+    {
+      "label": "cognitive science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 8
+    },
+    {
+      "label": "of cultural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9834,
+      "evidence_count": 8
+    },
+    {
+      "label": "cognitive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 15
+    },
+    {
+      "label": "an anthropological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 7
+    },
+    {
+      "label": "an anthropology of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 7
+    },
+    {
+      "label": "anthropology of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 7
+    },
+    {
+      "label": "sociocultural anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 7
+    },
+    {
+      "label": "theory and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 7
+    },
+    {
+      "label": "anthropological theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9825,
+      "evidence_count": 6
+    },
+    {
+      "label": "anthropology of art",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9825,
+      "evidence_count": 6
+    },
+    {
+      "label": "environmental ethics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9825,
+      "evidence_count": 6
+    },
+    {
+      "label": "medical anthropology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9825,
+      "evidence_count": 6
+    },
+    {
+      "label": "the human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9825,
+      "evidence_count": 6
+    }
+  ],
+  "topic_year_counts": {
+    "gender studies": {
+      "2025": 518267,
+      "2023": 513297,
+      "2024": 504886,
+      "2022": 381215,
+      "2021": 349491,
+      "2020": 317796,
+      "2019": 256860,
+      "2018": 225077,
+      "2017": 203126,
+      "2016": 183189,
+      "2015": 166544,
+      "2014": 151816,
+      "2013": 134817,
+      "2026": 127989,
+      "2012": 115462,
+      "2011": 98479,
+      "2010": 83812,
+      "2009": 72148,
+      "2008": 60828,
+      "2007": 51738,
+      "2006": 44692,
+      "2005": 38550,
+      "2004": 33493,
+      "2003": 28582,
+      "2002": 23462,
+      "2001": 20943,
+      "2000": 20168
+    },
+    "biological anthropology": {
+      "2023": 17221,
+      "2024": 15935,
+      "2025": 15270,
+      "2022": 12228,
+      "2021": 12117,
+      "2020": 11663,
+      "2019": 10699,
+      "2018": 10048,
+      "2017": 8802,
+      "2016": 8113,
+      "2015": 7536,
+      "2014": 7035,
+      "2013": 6268,
+      "2012": 5526,
+      "2011": 4937,
+      "2010": 4107,
+      "2009": 3869,
+      "2026": 3849,
+      "2008": 2977,
+      "2007": 2456,
+      "2006": 2239,
+      "2005": 1853,
+      "2004": 1536,
+      "2003": 1419,
+      "2002": 1196,
+      "2000": 1064,
+      "2001": 1063
+    },
+    "cultural anthropology": {
+      "2023": 50064,
+      "2025": 49036,
+      "2024": 46894,
+      "2022": 36950,
+      "2021": 36884,
+      "2020": 35603,
+      "2019": 32186,
+      "2018": 30015,
+      "2017": 26896,
+      "2016": 25352,
+      "2015": 23151,
+      "2014": 20742,
+      "2013": 18265,
+      "2012": 16130,
+      "2011": 14295,
+      "2010": 12380,
+      "2026": 11297,
+      "2009": 11204,
+      "2008": 9490,
+      "2007": 7986,
+      "2006": 6810,
+      "2005": 5790,
+      "2004": 5008,
+      "2003": 4410,
+      "2002": 3821,
+      "2000": 3570,
+      "2001": 3534
+    }
+  }
+}

@@ -1,0 +1,2407 @@
+{
+  "slug": "immunology",
+  "title": "Immunology",
+  "updated_at": "2026-04-19T09:29:39.307208Z",
+  "snapshot": {
+    "papers": 309,
+    "topics": 10,
+    "subtopics": 53,
+    "entities": 715,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 339,
+      "total_papers": 339,
+      "facet_counts": {
+        "none": 339
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning clinical immunology, t-cell and b-cell immunology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 53,
+    "max_depth": 2,
+    "leaf_topics": 53
+  },
+  "rising_topics": [
+    {
+      "id": "sg-innate-immune",
+      "label": "Innate immune",
+      "url": "/domains/immunology/topics/sg-innate-immune",
+      "trend": "rising",
+      "year_total": 865765
+    },
+    {
+      "id": "sg-infectious-disease",
+      "label": "Infectious disease",
+      "url": "/domains/immunology/topics/sg-infectious-disease",
+      "trend": "rising",
+      "year_total": 1902617
+    },
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/immunology/topics/sg-cancer-research",
+      "trend": "rising",
+      "year_total": 4290799
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-innate-immune",
+      "label": "Innate immune",
+      "url": "/domains/immunology/topics/sg-innate-immune",
+      "paper_count": 75,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: immunology, innate immune system, immunity",
+      "tags": [
+        "acquired immune system",
+        "human immunology",
+        "immune response and inflammation",
+        "immunology immunopathology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-innate-immune-pattern-recognition-receptor",
+          "label": "Pattern recognition receptor",
+          "url": "/domains/immunology/topics/sg-innate-immune-pattern-recognition-receptor",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-innate-immune-interferon-and-immune-responses",
+          "label": "Interferon and immune responses",
+          "url": "/domains/immunology/topics/sg-innate-immune-interferon-and-immune-responses",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-innate-immune-immune-cell-function-and-interaction",
+          "label": "Immune cell function and interaction",
+          "url": "/domains/immunology/topics/sg-innate-immune-immune-cell-function-and-interaction",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-innate-immune-pathogen-associated-molecular-pattern",
+          "label": "Pathogen-associated molecular pattern",
+          "url": "/domains/immunology/topics/sg-innate-immune-pathogen-associated-molecular-pattern",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-innate-immune-proinflammatory-cytokine",
+          "label": "Proinflammatory cytokine",
+          "url": "/domains/immunology/topics/sg-innate-immune-proinflammatory-cytokine",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-innate-immune-immune-response-and-inflammation",
+          "label": "Immune response and inflammation",
+          "url": "/domains/immunology/topics/sg-innate-immune-immune-response-and-inflammation",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1661544713",
+          "title": "Dendritic cells and the control of immunity",
+          "year": "1998",
+          "cited_by_count": 14282,
+          "url": "/domains/immunology/papers/W1661544713"
+        },
+        {
+          "source_id": "https://openalex.org/W1995744610",
+          "title": "Pathogen Recognition and Innate Immunity",
+          "year": "2006",
+          "cited_by_count": 11762,
+          "url": "/domains/immunology/papers/W1995744610"
+        },
+        {
+          "source_id": "https://openalex.org/W2109491705",
+          "title": "The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors",
+          "year": "2010",
+          "cited_by_count": 8980,
+          "url": "/domains/immunology/papers/W2109491705"
+        }
+      ]
+    },
+    {
+      "id": "sg-infectious-disease",
+      "label": "Infectious disease",
+      "url": "/domains/immunology/topics/sg-infectious-disease",
+      "paper_count": 62,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: disease, infectious disease, coronavirus disease 2019",
+      "tags": [
+        "coronavirus outbreak",
+        "infectious disease",
+        "s disease",
+        "t cell responses"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-infectious-disease-signaling-pathways-in-infectious-disease",
+          "label": "Signaling pathways in infectious disease",
+          "url": "/domains/immunology/topics/sg-infectious-disease-signaling-pathways-in-infectious-disease",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-infectious-disease-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/immunology/topics/sg-infectious-disease-environmental-health",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-infectious-disease-emerging-infectious-disease",
+          "label": "Emerging infectious disease",
+          "url": "/domains/immunology/topics/sg-infectious-disease-emerging-infectious-disease",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-infectious-disease-antibiotic-resistance",
+          "label": "Antibiotic resistance",
+          "url": "/domains/immunology/topics/sg-infectious-disease-antibiotic-resistance",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-infectious-disease-cytokine-storm",
+          "label": "Cytokine storm",
+          "url": "/domains/immunology/topics/sg-infectious-disease-cytokine-storm",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-infectious-disease-mathematical-modelling-of-infectious-disease",
+          "label": "Mathematical modelling of infectious disease",
+          "url": "/domains/immunology/topics/sg-infectious-disease-mathematical-modelling-of-infectious-disease",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3092849554",
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18650,
+          "url": "/domains/immunology/papers/W3092849554"
+        },
+        {
+          "source_id": "https://openalex.org/W4206677002",
+          "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+          "year": "2022",
+          "cited_by_count": 14758,
+          "url": "/domains/immunology/papers/W4206677002"
+        },
+        {
+          "source_id": "https://openalex.org/W2912654919",
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13865,
+          "url": "/domains/immunology/papers/W2912654919"
+        }
+      ]
+    },
+    {
+      "id": "sg-cancer-research",
+      "label": "Cancer research",
+      "url": "/domains/immunology/topics/sg-cancer-research",
+      "paper_count": 55,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "entities: cancer, cancer research, cell",
+      "tags": [
+        "cancer cell",
+        "cancer immunology",
+        "cancer immunotherapy and biomarkers",
+        "cancer research"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-research-stromal-cell",
+          "label": "Stromal cell",
+          "url": "/domains/immunology/topics/sg-cancer-research-stromal-cell",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-cancer-research-immune-checkpoint",
+          "label": "Immune checkpoint",
+          "url": "/domains/immunology/topics/sg-cancer-research-immune-checkpoint",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-cancer-research-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/immunology/topics/sg-cancer-research-internal-medicine",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-cancer-research-programmed-cell-death",
+          "label": "Programmed cell death",
+          "url": "/domains/immunology/topics/sg-cancer-research-programmed-cell-death",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-cancer-research-cell-death-mechanisms-and-regulation",
+          "label": "Cell death mechanisms and regulation",
+          "url": "/domains/immunology/topics/sg-cancer-research-cell-death-mechanisms-and-regulation",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cancer-research-microsatellite-instability",
+          "label": "Microsatellite instability",
+          "url": "/domains/immunology/topics/sg-cancer-research-microsatellite-instability",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2034269086",
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28439,
+          "url": "/domains/immunology/papers/W2034269086"
+        },
+        {
+          "source_id": "https://openalex.org/W2259938310",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19222,
+          "url": "/domains/immunology/papers/W2259938310"
+        },
+        {
+          "source_id": "https://openalex.org/W1997183854",
+          "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+          "year": "2012",
+          "cited_by_count": 17493,
+          "url": "/domains/immunology/papers/W1997183854"
+        }
+      ]
+    },
+    {
+      "id": "sg-clinical-immunology",
+      "label": "Clinical immunology",
+      "url": "/domains/immunology/topics/sg-clinical-immunology",
+      "paper_count": 34,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: immunology, innate immune system, cell",
+      "tags": [
+        "allergy clinical immunology",
+        "cellular immunology",
+        "cellular molecular immunology",
+        "clinical immunology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-clinical-immunology-cell-biology",
+          "label": "Cell biology",
+          "url": "/domains/immunology/topics/sg-clinical-immunology-cell-biology",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-clinical-immunology-intensive-care-medicine",
+          "label": "Intensive care medicine",
+          "url": "/domains/immunology/topics/sg-clinical-immunology-intensive-care-medicine",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-clinical-immunology-allergy",
+          "label": "Allergy",
+          "url": "/domains/immunology/topics/sg-clinical-immunology-allergy",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1965037168",
+          "title": "Inflammation and cancer",
+          "year": "2002",
+          "cited_by_count": 15022,
+          "url": "/domains/immunology/papers/W1965037168"
+        },
+        {
+          "source_id": "https://openalex.org/W1602460865",
+          "title": "Current Protocols in Immunology",
+          "year": "2018",
+          "cited_by_count": 3577,
+          "url": "/domains/immunology/papers/W1602460865"
+        },
+        {
+          "source_id": "https://openalex.org/W3011483298",
+          "title": "SARS-CoV-2 entry factors are highly expressed in nasal epithelial cells together with innate immune genes",
+          "year": "2020",
+          "cited_by_count": 2718,
+          "url": "/domains/immunology/papers/W3011483298"
+        }
+      ]
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/immunology/topics/sg-gene-expression",
+      "paper_count": 21,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: gene expression, gene, cell",
+      "tags": [
+        "amino acid",
+        "cell type",
+        "digital gene expression",
+        "expression quantitative trait loci"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gene-expression-single-cell-spatial-transcriptomics",
+          "label": "Single-cell spatial transcriptomics",
+          "url": "/domains/immunology/topics/sg-gene-expression-single-cell-spatial-transcriptomics",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-gene-expression-regulation-of-gene-expression",
+          "label": "Regulation of gene expression",
+          "url": "/domains/immunology/topics/sg-gene-expression-regulation-of-gene-expression",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-gene-expression-renal-cell-carcinoma",
+          "label": "Renal cell carcinoma",
+          "url": "/domains/immunology/topics/sg-gene-expression-renal-cell-carcinoma",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-gene-expression-gene-expression-and-cancer-classification",
+          "label": "Gene expression and cancer classification",
+          "url": "/domains/immunology/topics/sg-gene-expression-gene-expression-and-cancer-classification",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-gene-expression-gene-expression-profiling",
+          "label": "Gene expression profiling",
+          "url": "/domains/immunology/topics/sg-gene-expression-gene-expression-profiling",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2107277218",
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 179332,
+          "url": "/domains/immunology/papers/W2107277218"
+        },
+        {
+          "source_id": "https://openalex.org/W2114104545",
+          "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43943,
+          "url": "/domains/immunology/papers/W2114104545"
+        },
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31402,
+          "url": "/domains/immunology/papers/W2051978340"
+        }
+      ]
+    },
+    {
+      "id": "sg-cancer-immunotherapy",
+      "label": "Cancer immunotherapy",
+      "url": "/domains/immunology/topics/sg-cancer-immunotherapy",
+      "paper_count": 17,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: immunology, internal medicine, cancer",
+      "tags": [
+        "cancer immunology",
+        "cancer immunology immunotherapy",
+        "cancer immunotherapy",
+        "cancer immunotherapy and biomarkers"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cancer-immunotherapy-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/immunology/topics/sg-cancer-immunotherapy-internal-medicine",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-cancer-immunotherapy-cancer-vaccine",
+          "label": "Cancer vaccine",
+          "url": "/domains/immunology/topics/sg-cancer-immunotherapy-cancer-vaccine",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cancer-immunotherapy-chimeric-antigen-receptor",
+          "label": "Chimeric antigen receptor",
+          "url": "/domains/immunology/topics/sg-cancer-immunotherapy-chimeric-antigen-receptor",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160691650",
+          "title": "Early Goal-Directed Therapy in the Treatment of Severe Sepsis and Septic Shock",
+          "year": "2001",
+          "cited_by_count": 10739,
+          "url": "/domains/immunology/papers/W2160691650"
+        },
+        {
+          "source_id": "https://openalex.org/W3028523516",
+          "title": "A guide to cancer immunotherapy: from T cell basic science to clinical practice",
+          "year": "2020",
+          "cited_by_count": 4052,
+          "url": "/domains/immunology/papers/W3028523516"
+        },
+        {
+          "source_id": "https://openalex.org/W2567564314",
+          "title": "Atezolizumab versus docetaxel in patients with previously treated non-small-cell lung cancer (OAK): a phase 3, open-label, multicentre randomised controlled trial",
+          "year": "2016",
+          "cited_by_count": 4742,
+          "url": "/domains/immunology/papers/W2567564314"
+        }
+      ]
+    },
+    {
+      "id": "sg-t-cell",
+      "label": "T cell",
+      "url": "/domains/immunology/topics/sg-t-cell",
+      "paper_count": 16,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: cell, cells, t cell",
+      "tags": [
+        "cd8+ t cells",
+        "dendritic cell",
+        "regulatory t cells",
+        "t cell"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-t-cell-dendritic-cell-biology",
+          "label": "Dendritic cell biology",
+          "url": "/domains/immunology/topics/sg-t-cell-dendritic-cell-biology",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-t-cell-antigen-presentation",
+          "label": "Antigen presentation",
+          "url": "/domains/immunology/topics/sg-t-cell-antigen-presentation",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-t-cell-il-2-receptor",
+          "label": "Il-2 receptor",
+          "url": "/domains/immunology/topics/sg-t-cell-il-2-receptor",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-t-cell-psoriasis-treatment-pathogenesis",
+          "label": "Psoriasis treatment pathogenesis",
+          "url": "/domains/immunology/topics/sg-t-cell-psoriasis-treatment-pathogenesis",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-t-cell-car-t-cell-therapy",
+          "label": "Car-t cell therapy",
+          "url": "/domains/immunology/topics/sg-t-cell-car-t-cell-therapy",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-t-cell-innate-lymphoid-cell-biology",
+          "label": "Innate lymphoid cell biology",
+          "url": "/domains/immunology/topics/sg-t-cell-innate-lymphoid-cell-biology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3087683890",
+          "title": "Cytotoxic CD8+ T cells in cancer and cancer immunotherapy",
+          "year": "2020",
+          "cited_by_count": 1633,
+          "url": "/domains/immunology/papers/W3087683890"
+        },
+        {
+          "source_id": "https://openalex.org/W3082438395",
+          "title": "Broad and strong memory CD4+ and CD8+ T cells induced by SARS-CoV-2 in UK convalescent individuals following COVID-19",
+          "year": "2020",
+          "cited_by_count": 1366,
+          "url": "/domains/immunology/papers/W3082438395"
+        },
+        {
+          "source_id": "https://openalex.org/W2113291839",
+          "title": "IMMUNOLOGY OF MULTIPLE SCLEROSIS",
+          "year": "2005",
+          "cited_by_count": 2147,
+          "url": "/domains/immunology/papers/W2113291839"
+        }
+      ]
+    },
+    {
+      "id": "sg-immune-responses",
+      "label": "Immune response",
+      "url": "/domains/immunology/topics/sg-immune-responses",
+      "paper_count": 15,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: immunology, innate immune system, immunotherapy and immune responses",
+      "tags": [
+        "concomitant immune responses",
+        "dysfunctional immune responses",
+        "human immunology",
+        "immune responses"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-immune-response-gut-microbiota-and-immune-response",
+          "label": "Gut microbiota and immune response",
+          "url": "/domains/immunology/topics/sg-immune-response-gut-microbiota-and-immune-response",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-immune-responses-cell-biology",
+          "label": "Cell biology",
+          "url": "/domains/immunology/topics/sg-immune-responses-cell-biology",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-immune-responses-internal-medicine",
+          "label": "Internal medicine",
+          "url": "/domains/immunology/topics/sg-immune-responses-internal-medicine",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-immune-response-immune-response-signal-transduction",
+          "label": "Immune response signal transduction",
+          "url": "/domains/immunology/topics/sg-immune-response-immune-response-signal-transduction",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2166562121",
+          "title": "Diet rapidly and reproducibly alters the human gut microbiome",
+          "year": "2013",
+          "cited_by_count": 10036,
+          "url": "/domains/immunology/papers/W2166562121"
+        },
+        {
+          "source_id": "https://openalex.org/W2167062509",
+          "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+          "year": "2006",
+          "cited_by_count": 12305,
+          "url": "/domains/immunology/papers/W2167062509"
+        },
+        {
+          "source_id": "https://openalex.org/W2787902098",
+          "title": "Environment dominates over host genetics in shaping human gut microbiota",
+          "year": "2018",
+          "cited_by_count": 2921,
+          "url": "/domains/immunology/papers/W2787902098"
+        }
+      ]
+    },
+    {
+      "id": "sg-cytotoxic-t-cell",
+      "label": "Cytotoxic t cell",
+      "url": "/domains/immunology/topics/sg-cytotoxic-t-cell",
+      "paper_count": 11,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: immunology, cell, cells",
+      "tags": [
+        "cd8+ t cells",
+        "cytotoxic t cell",
+        "interleukin 21",
+        "natural killer cell"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cytotoxic-t-cell-cell-biology",
+          "label": "Cell biology",
+          "url": "/domains/immunology/topics/sg-cytotoxic-t-cell-cell-biology",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-cytotoxic-t-cell-interleukin-21",
+          "label": "Interleukin 21",
+          "url": "/domains/immunology/topics/sg-cytotoxic-t-cell-interleukin-21",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cytotoxic-t-cell-monoclonal-antibody",
+          "label": "Monoclonal antibody",
+          "url": "/domains/immunology/topics/sg-cytotoxic-t-cell-monoclonal-antibody",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-cytotoxic-t-cell-natural-killer-cell",
+          "label": "Natural killer cell",
+          "url": "/domains/immunology/topics/sg-cytotoxic-t-cell-natural-killer-cell",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2138977668",
+          "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+          "year": "2007",
+          "cited_by_count": 20064,
+          "url": "/domains/immunology/papers/W2138977668"
+        },
+        {
+          "source_id": "https://openalex.org/W1594700207",
+          "title": "Antibodies, a laboratory manual",
+          "year": "1989",
+          "cited_by_count": 12466,
+          "url": "/domains/immunology/papers/W1594700207"
+        },
+        {
+          "source_id": "https://openalex.org/W2073300038",
+          "title": "Functions of natural killer cells",
+          "year": "2008",
+          "cited_by_count": 3791,
+          "url": "/domains/immunology/papers/W2073300038"
+        }
+      ]
+    },
+    {
+      "id": "sg-tumor-microenvironment",
+      "label": "Tumor microenvironment",
+      "url": "/domains/immunology/topics/sg-tumor-microenvironment",
+      "paper_count": 3,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: immunology, innate immune system, microenvironment",
+      "tags": [
+        "macrophage in tumor",
+        "tumor immune microenvironment",
+        "tumor microenvironment",
+        "tumor microenvironment expect"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-tumor-microenvironment-tumor-associated-macrophage",
+          "label": "Tumor-associated macrophage",
+          "url": "/domains/immunology/topics/sg-tumor-microenvironment-tumor-associated-macrophage",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-tumor-microenvironment-tumor-immune-microenvironment",
+          "label": "Tumor immune microenvironment",
+          "url": "/domains/immunology/topics/sg-tumor-microenvironment-tumor-immune-microenvironment",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2801309958",
+          "title": "Understanding the tumor immune microenvironment (TIME) for effective therapy",
+          "year": "2018",
+          "cited_by_count": 5806,
+          "url": "/domains/immunology/papers/W2801309958"
+        },
+        {
+          "source_id": "https://openalex.org/W3106806530",
+          "title": "Tumor-Associated Macrophages in Tumor Immunity",
+          "year": "2020",
+          "cited_by_count": 1808,
+          "url": "/domains/immunology/papers/W3106806530"
+        },
+        {
+          "source_id": "https://openalex.org/W2960078024",
+          "title": "Tumor-associated macrophages in tumor metastasis: biological roles and clinical therapeutic applications",
+          "year": "2019",
+          "cited_by_count": 1417,
+          "url": "/domains/immunology/papers/W2960078024"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 14,
+      "papers": [
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 18650,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3092849554.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 13865,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2912654919.html"
+        },
+        {
+          "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+          "year": "2012",
+          "cited_by_count": 17493,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1997183854.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 13461,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2751884637.html"
+        },
+        {
+          "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": "2024",
+          "cited_by_count": 4082,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4394894573.html"
+        },
+        {
+          "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": "2021",
+          "cited_by_count": 7295,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3197233575.html"
+        }
+      ]
+    },
+    {
+      "label": "Single-cell spatial transcriptomics",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31402,
+          "topic": "Single-cell spatial transcriptomics",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        },
+        {
+          "title": "The Hallmarks of Cancer",
+          "year": "2000",
+          "cited_by_count": 28439,
+          "topic": "Single-cell spatial transcriptomics",
+          "url": "papers/https-openalex-org-w2034269086.html"
+        },
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19222,
+          "topic": "Single-cell spatial transcriptomics",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+          "year": "2015",
+          "cited_by_count": 14057,
+          "topic": "Single-cell spatial transcriptomics",
+          "url": "papers/https-openalex-org-w2214074259.html"
+        }
+      ]
+    },
+    {
+      "label": "Gene expression",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 179332,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2107277218.html"
+        },
+        {
+          "title": "&lt;tt&gt;edgeR&lt;/tt&gt; : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43943,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2114104545.html"
+        },
+        {
+          "title": "Inferring tumour purity and stromal and immune cell admixture from expression data",
+          "year": "2013",
+          "cited_by_count": 10599,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2130430382.html"
+        }
+      ]
+    },
+    {
+      "label": "Innate immune",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Dendritic cells and the control of immunity",
+          "year": "1998",
+          "cited_by_count": 14282,
+          "topic": "Innate immune",
+          "url": "papers/https-openalex-org-w1661544713.html"
+        },
+        {
+          "title": "Pathogen Recognition and Innate Immunity",
+          "year": "2006",
+          "cited_by_count": 11762,
+          "topic": "Innate immune",
+          "url": "papers/https-openalex-org-w1995744610.html"
+        },
+        {
+          "title": "The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors",
+          "year": "2010",
+          "cited_by_count": 8980,
+          "topic": "Innate immune",
+          "url": "papers/https-openalex-org-w2109491705.html"
+        }
+      ]
+    },
+    {
+      "label": "Allergy",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": "2020",
+          "cited_by_count": 29034,
+          "topic": "Allergy",
+          "url": "papers/https-openalex-org-w3009885589.html"
+        },
+        {
+          "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+          "year": "2020",
+          "cited_by_count": 21139,
+          "topic": "Allergy",
+          "url": "papers/https-openalex-org-w3005079553.html"
+        }
+      ]
+    },
+    {
+      "label": "Antibiotic resistance",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+          "year": "2012",
+          "cited_by_count": 14195,
+          "topic": "Antibiotic resistance",
+          "url": "papers/https-openalex-org-w2125065061.html"
+        },
+        {
+          "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+          "year": "2018",
+          "cited_by_count": 8588,
+          "topic": "Antibiotic resistance",
+          "url": "papers/https-openalex-org-w2899736836.html"
+        }
+      ]
+    },
+    {
+      "label": "Cancer research",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The blockade of immune checkpoints in cancer immunotherapy",
+          "year": "2012",
+          "cited_by_count": 13609,
+          "topic": "Cancer research",
+          "url": "papers/https-openalex-org-w2066671159.html"
+        },
+        {
+          "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+          "year": "2012",
+          "cited_by_count": 12561,
+          "topic": "Cancer research",
+          "url": "papers/https-openalex-org-w2160834915.html"
+        }
+      ]
+    },
+    {
+      "label": "Colorectal cancer",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+          "year": "2014",
+          "cited_by_count": 12020,
+          "topic": "Colorectal cancer",
+          "url": "papers/https-openalex-org-w2163710303.html"
+        },
+        {
+          "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
+          "year": "2018",
+          "cited_by_count": 6050,
+          "topic": "Colorectal cancer",
+          "url": "papers/https-openalex-org-w2787553551.html"
+        }
+      ]
+    },
+    {
+      "label": "Immune response",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Diet rapidly and reproducibly alters the human gut microbiome",
+          "year": "2013",
+          "cited_by_count": 10036,
+          "topic": "Immune response",
+          "url": "papers/https-openalex-org-w2166562121.html"
+        },
+        {
+          "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+          "year": "2006",
+          "cited_by_count": 12305,
+          "topic": "Immune response",
+          "url": "papers/https-openalex-org-w2167062509.html"
+        }
+      ]
+    },
+    {
+      "label": "Programmed cell death",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+          "year": "2007",
+          "cited_by_count": 20064,
+          "topic": "Programmed cell death",
+          "url": "papers/https-openalex-org-w2138977668.html"
+        },
+        {
+          "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+          "year": "2006",
+          "cited_by_count": 14024,
+          "topic": "Programmed cell death",
+          "url": "papers/https-openalex-org-w2165201727.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 179332,
+      "adjusted_cited_by_count": 35866.4,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/immunology/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29034,
+      "adjusted_cited_by_count": 11853.08,
+      "primary_topic_id": "sg-clinical-immunology-allergy",
+      "primary_topic_label": "Allergy",
+      "url": "/domains/immunology/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43943,
+      "adjusted_cited_by_count": 10657.74,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/immunology/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31402,
+      "adjusted_cited_by_count": 9468.06,
+      "primary_topic_id": "sg-gene-expression-single-cell-spatial-transcriptomics",
+      "primary_topic_label": "Single-cell spatial transcriptomics",
+      "url": "/domains/immunology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21139,
+      "adjusted_cited_by_count": 8629.96,
+      "primary_topic_id": "sg-clinical-immunology-allergy",
+      "primary_topic_label": "Allergy",
+      "url": "/domains/immunology/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18650,
+      "adjusted_cited_by_count": 7613.83,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14758,
+      "adjusted_cited_by_count": 7379.0,
+      "primary_topic_id": "sg-infectious-disease",
+      "primary_topic_label": "Infectious disease",
+      "url": "/domains/immunology/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28439,
+      "adjusted_cited_by_count": 5577.35,
+      "primary_topic_id": "sg-gene-expression-single-cell-spatial-transcriptomics",
+      "primary_topic_label": "Single-cell spatial transcriptomics",
+      "url": "/domains/immunology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19222,
+      "adjusted_cited_by_count": 5137.3,
+      "primary_topic_id": "sg-gene-expression-single-cell-spatial-transcriptomics",
+      "primary_topic_label": "Single-cell spatial transcriptomics",
+      "url": "/domains/immunology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13865,
+      "adjusted_cited_by_count": 4902.02,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W1997183854",
+      "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+      "year": 2012,
+      "cited_by_count": 17493,
+      "adjusted_cited_by_count": 4675.2,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W1997183854"
+    },
+    {
+      "source_id": "https://openalex.org/W2138977668",
+      "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+      "year": 2007,
+      "cited_by_count": 20064,
+      "adjusted_cited_by_count": 4603.0,
+      "primary_topic_id": "sg-cancer-research-programmed-cell-death",
+      "primary_topic_label": "Programmed cell death",
+      "url": "/domains/immunology/papers/W2138977668"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 4487.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 14057,
+      "adjusted_cited_by_count": 4238.34,
+      "primary_topic_id": "sg-gene-expression-single-cell-spatial-transcriptomics",
+      "primary_topic_label": "Single-cell spatial transcriptomics",
+      "url": "/domains/immunology/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4082,
+      "adjusted_cited_by_count": 4082.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14195,
+      "adjusted_cited_by_count": 3793.77,
+      "primary_topic_id": "sg-infectious-disease-antibiotic-resistance",
+      "primary_topic_label": "Antibiotic resistance",
+      "url": "/domains/immunology/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2066671159",
+      "title": "The blockade of immune checkpoints in cancer immunotherapy",
+      "year": 2012,
+      "cited_by_count": 13609,
+      "adjusted_cited_by_count": 3637.16,
+      "primary_topic_id": "sg-cancer-research",
+      "primary_topic_label": "Cancer research",
+      "url": "/domains/immunology/papers/W2066671159"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12020,
+      "adjusted_cited_by_count": 3469.88,
+      "primary_topic_id": "sg-cancer-research-colorectal-cancer",
+      "primary_topic_label": "Colorectal cancer",
+      "url": "/domains/immunology/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2160834915",
+      "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+      "year": 2012,
+      "cited_by_count": 12561,
+      "adjusted_cited_by_count": 3357.07,
+      "primary_topic_id": "sg-cancer-research",
+      "primary_topic_label": "Cancer research",
+      "url": "/domains/immunology/papers/W2160834915"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7295,
+      "adjusted_cited_by_count": 3262.42,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11959,
+      "adjusted_cited_by_count": 3196.18,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14024,
+      "adjusted_cited_by_count": 3135.86,
+      "primary_topic_id": "sg-cancer-research-programmed-cell-death",
+      "primary_topic_label": "Programmed cell death",
+      "url": "/domains/immunology/papers/W2165201727"
+    },
+    {
+      "source_id": "https://openalex.org/W1965037168",
+      "title": "Inflammation and cancer",
+      "year": 2002,
+      "cited_by_count": 15022,
+      "adjusted_cited_by_count": 3066.35,
+      "primary_topic_id": "sg-clinical-immunology",
+      "primary_topic_label": "Clinical immunology",
+      "url": "/domains/immunology/papers/W1965037168"
+    },
+    {
+      "source_id": "https://openalex.org/W2899736836",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 8588,
+      "adjusted_cited_by_count": 3036.32,
+      "primary_topic_id": "sg-infectious-disease-antibiotic-resistance",
+      "primary_topic_label": "Antibiotic resistance",
+      "url": "/domains/immunology/papers/W2899736836"
+    },
+    {
+      "source_id": "https://openalex.org/W2130430382",
+      "title": "Inferring tumour purity and stromal and immune cell admixture from expression data",
+      "year": 2013,
+      "cited_by_count": 10599,
+      "adjusted_cited_by_count": 2939.63,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/immunology/papers/W2130430382"
+    },
+    {
+      "source_id": "https://openalex.org/W2166562121",
+      "title": "Diet rapidly and reproducibly alters the human gut microbiome",
+      "year": 2013,
+      "cited_by_count": 10036,
+      "adjusted_cited_by_count": 2783.49,
+      "primary_topic_id": "sg-immune-responses",
+      "primary_topic_label": "Immune response",
+      "url": "/domains/immunology/papers/W2166562121"
+    },
+    {
+      "source_id": "https://openalex.org/W2167062509",
+      "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+      "year": 2006,
+      "cited_by_count": 12305,
+      "adjusted_cited_by_count": 2751.48,
+      "primary_topic_id": "sg-immune-responses",
+      "primary_topic_label": "Immune response",
+      "url": "/domains/immunology/papers/W2167062509"
+    },
+    {
+      "source_id": "https://openalex.org/W1661544713",
+      "title": "Dendritic cells and the control of immunity",
+      "year": 1998,
+      "cited_by_count": 14282,
+      "adjusted_cited_by_count": 2699.04,
+      "primary_topic_id": "sg-innate-immune",
+      "primary_topic_label": "Innate immune",
+      "url": "/domains/immunology/papers/W1661544713"
+    },
+    {
+      "source_id": "https://openalex.org/W1995744610",
+      "title": "Pathogen Recognition and Innate Immunity",
+      "year": 2006,
+      "cited_by_count": 11762,
+      "adjusted_cited_by_count": 2630.06,
+      "primary_topic_id": "sg-innate-immune",
+      "primary_topic_label": "Innate immune",
+      "url": "/domains/immunology/papers/W1995744610"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6393,
+      "adjusted_cited_by_count": 2609.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11434,
+      "adjusted_cited_by_count": 2556.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7760,
+      "adjusted_cited_by_count": 2453.93,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W4393858312",
+      "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 2311,
+      "adjusted_cited_by_count": 2311.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W4393858312"
+    },
+    {
+      "source_id": "https://openalex.org/W4381799391",
+      "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2023,
+      "cited_by_count": 3959,
+      "adjusted_cited_by_count": 2285.73,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W4381799391"
+    },
+    {
+      "source_id": "https://openalex.org/W2109491705",
+      "title": "The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors",
+      "year": 2010,
+      "cited_by_count": 8980,
+      "adjusted_cited_by_count": 2245.0,
+      "primary_topic_id": "sg-innate-immune",
+      "primary_topic_label": "Innate immune",
+      "url": "/domains/immunology/papers/W2109491705"
+    },
+    {
+      "source_id": "https://openalex.org/W2160691650",
+      "title": "Early Goal-Directed Therapy in the Treatment of Severe Sepsis and Septic Shock",
+      "year": 2001,
+      "cited_by_count": 10739,
+      "adjusted_cited_by_count": 2147.8,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W2160691650"
+    },
+    {
+      "source_id": "https://openalex.org/W2787553551",
+      "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
+      "year": 2018,
+      "cited_by_count": 6050,
+      "adjusted_cited_by_count": 2139.0,
+      "primary_topic_id": "sg-cancer-research-colorectal-cancer",
+      "primary_topic_label": "Colorectal cancer",
+      "url": "/domains/immunology/papers/W2787553551"
+    },
+    {
+      "source_id": "https://openalex.org/W2754967293",
+      "title": "Global, regional, and national burden of neurological disorders, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2019,
+      "cited_by_count": 5590,
+      "adjusted_cited_by_count": 2112.82,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/immunology/papers/W2754967293"
+    },
+    {
+      "source_id": "https://openalex.org/W2801309958",
+      "title": "Understanding the tumor immune microenvironment (TIME) for effective therapy",
+      "year": 2018,
+      "cited_by_count": 5806,
+      "adjusted_cited_by_count": 2052.73,
+      "primary_topic_id": "sg-tumor-microenvironment",
+      "primary_topic_label": "Tumor microenvironment",
+      "url": "/domains/immunology/papers/W2801309958"
+    },
+    {
+      "source_id": "https://openalex.org/W1594700207",
+      "title": "Antibodies, a laboratory manual",
+      "year": 1989,
+      "cited_by_count": 12466,
+      "adjusted_cited_by_count": 2049.4,
+      "primary_topic_id": "sg-cytotoxic-t-cell",
+      "primary_topic_label": "Cytotoxic t cell",
+      "url": "/domains/immunology/papers/W1594700207"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 179332,
+      "adjusted_cited_by_count": 35866.4,
+      "url": "/domains/immunology/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W3009885589",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "year": 2020,
+      "cited_by_count": 29034,
+      "adjusted_cited_by_count": 11853.08,
+      "url": "/domains/immunology/papers/W3009885589"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43943,
+      "adjusted_cited_by_count": 10657.74,
+      "url": "/domains/immunology/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31402,
+      "adjusted_cited_by_count": 9468.06,
+      "url": "/domains/immunology/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W3005079553",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+      "year": 2020,
+      "cited_by_count": 21139,
+      "adjusted_cited_by_count": 8629.96,
+      "url": "/domains/immunology/papers/W3005079553"
+    },
+    {
+      "source_id": "https://openalex.org/W3092849554",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 18650,
+      "adjusted_cited_by_count": 7613.83,
+      "url": "/domains/immunology/papers/W3092849554"
+    },
+    {
+      "source_id": "https://openalex.org/W4206677002",
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "year": 2022,
+      "cited_by_count": 14758,
+      "adjusted_cited_by_count": 7379.0,
+      "url": "/domains/immunology/papers/W4206677002"
+    },
+    {
+      "source_id": "https://openalex.org/W2034269086",
+      "title": "The Hallmarks of Cancer",
+      "year": 2000,
+      "cited_by_count": 28439,
+      "adjusted_cited_by_count": 5577.35,
+      "url": "/domains/immunology/papers/W2034269086"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19222,
+      "adjusted_cited_by_count": 5137.3,
+      "url": "/domains/immunology/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2912654919",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 13865,
+      "adjusted_cited_by_count": 4902.02,
+      "url": "/domains/immunology/papers/W2912654919"
+    },
+    {
+      "source_id": "https://openalex.org/W1997183854",
+      "title": "Ferroptosis: An Iron-Dependent Form of Nonapoptotic Cell Death",
+      "year": 2012,
+      "cited_by_count": 17493,
+      "adjusted_cited_by_count": 4675.2,
+      "url": "/domains/immunology/papers/W1997183854"
+    },
+    {
+      "source_id": "https://openalex.org/W2138977668",
+      "title": "Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors",
+      "year": 2007,
+      "cited_by_count": 20064,
+      "adjusted_cited_by_count": 4603.0,
+      "url": "/domains/immunology/papers/W2138977668"
+    },
+    {
+      "source_id": "https://openalex.org/W2751884637",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 13461,
+      "adjusted_cited_by_count": 4487.0,
+      "url": "/domains/immunology/papers/W2751884637"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 14057,
+      "adjusted_cited_by_count": 4238.34,
+      "url": "/domains/immunology/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W4394894573",
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 4082,
+      "adjusted_cited_by_count": 4082.0,
+      "url": "/domains/immunology/papers/W4394894573"
+    },
+    {
+      "source_id": "https://openalex.org/W2125065061",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 14195,
+      "adjusted_cited_by_count": 3793.77,
+      "url": "/domains/immunology/papers/W2125065061"
+    },
+    {
+      "source_id": "https://openalex.org/W2066671159",
+      "title": "The blockade of immune checkpoints in cancer immunotherapy",
+      "year": 2012,
+      "cited_by_count": 13609,
+      "adjusted_cited_by_count": 3637.16,
+      "url": "/domains/immunology/papers/W2066671159"
+    },
+    {
+      "source_id": "https://openalex.org/W2163710303",
+      "title": "Global, regional, and national prevalence of overweight and obesity in children and adults during 1980–2013: a systematic analysis for the Global Burden of Disease Study 2013",
+      "year": 2014,
+      "cited_by_count": 12020,
+      "adjusted_cited_by_count": 3469.88,
+      "url": "/domains/immunology/papers/W2163710303"
+    },
+    {
+      "source_id": "https://openalex.org/W2160834915",
+      "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+      "year": 2012,
+      "cited_by_count": 12561,
+      "adjusted_cited_by_count": 3357.07,
+      "url": "/domains/immunology/papers/W2160834915"
+    },
+    {
+      "source_id": "https://openalex.org/W3197233575",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 7295,
+      "adjusted_cited_by_count": 3262.42,
+      "url": "/domains/immunology/papers/W3197233575"
+    },
+    {
+      "source_id": "https://openalex.org/W2110052313",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "year": 2012,
+      "cited_by_count": 11959,
+      "adjusted_cited_by_count": 3196.18,
+      "url": "/domains/immunology/papers/W2110052313"
+    },
+    {
+      "source_id": "https://openalex.org/W2165201727",
+      "title": "Free radicals and antioxidants in normal physiological functions and human disease",
+      "year": 2006,
+      "cited_by_count": 14024,
+      "adjusted_cited_by_count": 3135.86,
+      "url": "/domains/immunology/papers/W2165201727"
+    },
+    {
+      "source_id": "https://openalex.org/W1965037168",
+      "title": "Inflammation and cancer",
+      "year": 2002,
+      "cited_by_count": 15022,
+      "adjusted_cited_by_count": 3066.35,
+      "url": "/domains/immunology/papers/W1965037168"
+    },
+    {
+      "source_id": "https://openalex.org/W2899736836",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 8588,
+      "adjusted_cited_by_count": 3036.32,
+      "url": "/domains/immunology/papers/W2899736836"
+    },
+    {
+      "source_id": "https://openalex.org/W2130430382",
+      "title": "Inferring tumour purity and stromal and immune cell admixture from expression data",
+      "year": 2013,
+      "cited_by_count": 10599,
+      "adjusted_cited_by_count": 2939.63,
+      "url": "/domains/immunology/papers/W2130430382"
+    },
+    {
+      "source_id": "https://openalex.org/W2166562121",
+      "title": "Diet rapidly and reproducibly alters the human gut microbiome",
+      "year": 2013,
+      "cited_by_count": 10036,
+      "adjusted_cited_by_count": 2783.49,
+      "url": "/domains/immunology/papers/W2166562121"
+    },
+    {
+      "source_id": "https://openalex.org/W2167062509",
+      "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+      "year": 2006,
+      "cited_by_count": 12305,
+      "adjusted_cited_by_count": 2751.48,
+      "url": "/domains/immunology/papers/W2167062509"
+    },
+    {
+      "source_id": "https://openalex.org/W1661544713",
+      "title": "Dendritic cells and the control of immunity",
+      "year": 1998,
+      "cited_by_count": 14282,
+      "adjusted_cited_by_count": 2699.04,
+      "url": "/domains/immunology/papers/W1661544713"
+    },
+    {
+      "source_id": "https://openalex.org/W1995744610",
+      "title": "Pathogen Recognition and Innate Immunity",
+      "year": 2006,
+      "cited_by_count": 11762,
+      "adjusted_cited_by_count": 2630.06,
+      "url": "/domains/immunology/papers/W1995744610"
+    },
+    {
+      "source_id": "https://openalex.org/W3005957464",
+      "title": "Global, regional, and national burden of chronic kidney disease, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2020,
+      "cited_by_count": 6393,
+      "adjusted_cited_by_count": 2609.93,
+      "url": "/domains/immunology/papers/W3005957464"
+    },
+    {
+      "source_id": "https://openalex.org/W2054931962",
+      "title": "Projections of Global Mortality and Burden of Disease from 2002 to 2030",
+      "year": 2006,
+      "cited_by_count": 11434,
+      "adjusted_cited_by_count": 2556.72,
+      "url": "/domains/immunology/papers/W2054931962"
+    },
+    {
+      "source_id": "https://openalex.org/W1617145133",
+      "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 7760,
+      "adjusted_cited_by_count": 2453.93,
+      "url": "/domains/immunology/papers/W1617145133"
+    },
+    {
+      "source_id": "https://openalex.org/W4393858312",
+      "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2024,
+      "cited_by_count": 2311,
+      "adjusted_cited_by_count": 2311.0,
+      "url": "/domains/immunology/papers/W4393858312"
+    },
+    {
+      "source_id": "https://openalex.org/W4381799391",
+      "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "year": 2023,
+      "cited_by_count": 3959,
+      "adjusted_cited_by_count": 2285.73,
+      "url": "/domains/immunology/papers/W4381799391"
+    },
+    {
+      "source_id": "https://openalex.org/W2109491705",
+      "title": "The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors",
+      "year": 2010,
+      "cited_by_count": 8980,
+      "adjusted_cited_by_count": 2245.0,
+      "url": "/domains/immunology/papers/W2109491705"
+    },
+    {
+      "source_id": "https://openalex.org/W2160691650",
+      "title": "Early Goal-Directed Therapy in the Treatment of Severe Sepsis and Septic Shock",
+      "year": 2001,
+      "cited_by_count": 10739,
+      "adjusted_cited_by_count": 2147.8,
+      "url": "/domains/immunology/papers/W2160691650"
+    },
+    {
+      "source_id": "https://openalex.org/W2787553551",
+      "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
+      "year": 2018,
+      "cited_by_count": 6050,
+      "adjusted_cited_by_count": 2139.0,
+      "url": "/domains/immunology/papers/W2787553551"
+    },
+    {
+      "source_id": "https://openalex.org/W2754967293",
+      "title": "Global, regional, and national burden of neurological disorders, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2019,
+      "cited_by_count": 5590,
+      "adjusted_cited_by_count": 2112.82,
+      "url": "/domains/immunology/papers/W2754967293"
+    },
+    {
+      "source_id": "https://openalex.org/W2801309958",
+      "title": "Understanding the tumor immune microenvironment (TIME) for effective therapy",
+      "year": 2018,
+      "cited_by_count": 5806,
+      "adjusted_cited_by_count": 2052.73,
+      "url": "/domains/immunology/papers/W2801309958"
+    },
+    {
+      "source_id": "https://openalex.org/W1594700207",
+      "title": "Antibodies, a laboratory manual",
+      "year": 1989,
+      "cited_by_count": 12466,
+      "adjusted_cited_by_count": 2049.4,
+      "url": "/domains/immunology/papers/W1594700207"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "immunology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 229
+    },
+    {
+      "label": "biology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 223
+    },
+    {
+      "label": "innate immune system",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 166
+    },
+    {
+      "label": "disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 152
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 128
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 102
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "cancer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "cells",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "cell biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "pathology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "immunity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "inflammation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "response",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "cancer research",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "t cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "immunotherapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "computational biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 45
+    },
+    {
+      "label": "role",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 45
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 44
+    },
+    {
+      "label": "therapy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 44
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9892,
+      "evidence_count": 42
+    },
+    {
+      "label": "clinical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 42
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 39
+    },
+    {
+      "label": "infectious disease",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 38
+    },
+    {
+      "label": "diseases",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 37
+    },
+    {
+      "label": "of disease",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9881,
+      "evidence_count": 37
+    },
+    {
+      "label": "responses",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 37
+    },
+    {
+      "label": "mechanisms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 36
+    },
+    {
+      "label": "systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9879,
+      "evidence_count": 36
+    },
+    {
+      "label": "inflammatory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9876,
+      "evidence_count": 35
+    },
+    {
+      "label": "cytokine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 35
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 34
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9874,
+      "evidence_count": 34
+    },
+    {
+      "label": "the global burden",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 33
+    },
+    {
+      "label": "therapeutic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 33
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 33
+    },
+    {
+      "label": "tumor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 39
+    },
+    {
+      "label": "receptor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 37
+    },
+    {
+      "label": "a systematic analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.987,
+      "evidence_count": 32
+    },
+    {
+      "label": "acquired immune system",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 32
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 32
+    },
+    {
+      "label": "systematic analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.987,
+      "evidence_count": 32
+    },
+    {
+      "label": "virology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 32
+    },
+    {
+      "label": "disease study",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9868,
+      "evidence_count": 31
+    }
+  ],
+  "topic_year_counts": {
+    "innate immune": {
+      "2023": 97018,
+      "2024": 88265,
+      "2025": 78231,
+      "2022": 71056,
+      "2021": 68384,
+      "2020": 62074,
+      "2019": 45011,
+      "2018": 40078,
+      "2017": 37775,
+      "2016": 34103,
+      "2015": 31080,
+      "2014": 29898,
+      "2013": 26995,
+      "2012": 24345,
+      "2026": 22742,
+      "2011": 20312,
+      "2010": 16741,
+      "2009": 14134,
+      "2008": 12401,
+      "2007": 9922,
+      "2006": 8590,
+      "2005": 7546,
+      "2004": 5936,
+      "2003": 5004,
+      "2002": 3515,
+      "2001": 2518,
+      "2000": 2091
+    },
+    "infectious disease": {
+      "2023": 211005,
+      "2024": 192919,
+      "2025": 171393,
+      "2022": 166582,
+      "2021": 166128,
+      "2020": 157069,
+      "2019": 91633,
+      "2018": 80996,
+      "2017": 74038,
+      "2016": 66904,
+      "2015": 61703,
+      "2014": 59035,
+      "2013": 52877,
+      "2012": 47051,
+      "2026": 46880,
+      "2011": 40236,
+      "2010": 34361,
+      "2009": 29681,
+      "2008": 25814,
+      "2007": 21585,
+      "2006": 19762,
+      "2005": 18408,
+      "2004": 16966,
+      "2003": 15075,
+      "2002": 12503,
+      "2001": 11134,
+      "2000": 10879
+    },
+    "cancer research": {
+      "2023": 506030,
+      "2024": 489837,
+      "2025": 433643,
+      "2022": 354275,
+      "2021": 319322,
+      "2020": 291452,
+      "2019": 236156,
+      "2018": 199537,
+      "2017": 181163,
+      "2016": 162515,
+      "2015": 147124,
+      "2014": 131784,
+      "2013": 120041,
+      "2026": 115310,
+      "2012": 106240,
+      "2011": 88747,
+      "2010": 75815,
+      "2009": 58358,
+      "2008": 49816,
+      "2007": 42279,
+      "2006": 37293,
+      "2005": 33410,
+      "2004": 29737,
+      "2003": 24279,
+      "2002": 20706,
+      "2001": 18470,
+      "2000": 17460
+    },
+    "clinical immunology": {
+      "2023": 64898,
+      "2025": 60819,
+      "2024": 60788,
+      "2022": 49726,
+      "2021": 45522,
+      "2020": 40940,
+      "2019": 30425,
+      "2018": 27179,
+      "2017": 24638,
+      "2016": 21849,
+      "2015": 18922,
+      "2014": 17615,
+      "2026": 17122,
+      "2013": 16217,
+      "2012": 14558,
+      "2011": 11568,
+      "2010": 9245,
+      "2009": 7593,
+      "2008": 6488,
+      "2007": 5695,
+      "2006": 4999,
+      "2005": 4860,
+      "2003": 4158,
+      "2004": 4072,
+      "2002": 3743,
+      "2000": 3211,
+      "2001": 3014
+    },
+    "gene expression": {
+      "2023": 433907,
+      "2024": 384417,
+      "2025": 359422,
+      "2022": 315467,
+      "2021": 303224,
+      "2020": 289338,
+      "2019": 241239,
+      "2018": 218113,
+      "2017": 208945,
+      "2016": 195167,
+      "2015": 183415,
+      "2014": 175266,
+      "2013": 166608,
+      "2012": 153002,
+      "2011": 139536,
+      "2010": 124085,
+      "2009": 111254,
+      "2008": 100025,
+      "2026": 99263,
+      "2007": 90524,
+      "2006": 85694,
+      "2005": 78641,
+      "2004": 74297,
+      "2003": 64854,
+      "2002": 56930,
+      "2001": 51365,
+      "2000": 48784
+    },
+    "cancer immunotherapy": {
+      "2023": 80916,
+      "2024": 79886,
+      "2025": 77494,
+      "2022": 52077,
+      "2021": 44727,
+      "2020": 36355,
+      "2019": 26787,
+      "2026": 22419,
+      "2018": 20048,
+      "2017": 16238,
+      "2016": 12931,
+      "2015": 9848,
+      "2014": 8108,
+      "2013": 7155,
+      "2012": 6314,
+      "2011": 5137,
+      "2010": 4438,
+      "2009": 3639,
+      "2008": 3327,
+      "2007": 2934,
+      "2006": 2637,
+      "2005": 2479,
+      "2004": 2303,
+      "2003": 1810,
+      "2002": 1608,
+      "2001": 1356,
+      "2000": 1307
+    },
+    "t cell": {
+      "2023": 1028452,
+      "2024": 919682,
+      "2025": 804775,
+      "2022": 699851,
+      "2021": 655729,
+      "2020": 614338,
+      "2019": 500160,
+      "2018": 447460,
+      "2017": 415974,
+      "2016": 380238,
+      "2015": 352636,
+      "2014": 329010,
+      "2013": 302010,
+      "2012": 270328,
+      "2011": 236779,
+      "2026": 219983,
+      "2010": 201836,
+      "2009": 178093,
+      "2008": 155849,
+      "2007": 138306,
+      "2006": 125210,
+      "2005": 116104,
+      "2004": 104875,
+      "2003": 92346,
+      "2002": 82147,
+      "2001": 74215,
+      "2000": 71493
+    },
+    "immune response": {
+      "2023": 357369,
+      "2024": 338135,
+      "2025": 332594,
+      "2022": 259408,
+      "2021": 244416,
+      "2020": 216524,
+      "2019": 156257,
+      "2018": 137169,
+      "2017": 126659,
+      "2016": 114002,
+      "2015": 104178,
+      "2014": 98645,
+      "2026": 92940,
+      "2013": 90053,
+      "2012": 81938,
+      "2011": 70193,
+      "2010": 60040,
+      "2009": 52625,
+      "2008": 45880,
+      "2007": 40428,
+      "2006": 36745,
+      "2005": 34100,
+      "2004": 30557,
+      "2003": 27657,
+      "2002": 23867,
+      "2001": 21249,
+      "2000": 21019
+    },
+    "cytotoxic t cell": {
+      "2023": 127628,
+      "2024": 115404,
+      "2025": 104394,
+      "2022": 87885,
+      "2021": 80476,
+      "2020": 71863,
+      "2019": 56114,
+      "2018": 50013,
+      "2017": 47358,
+      "2016": 41617,
+      "2015": 37572,
+      "2014": 35135,
+      "2013": 32171,
+      "2026": 29404,
+      "2012": 28981,
+      "2011": 24199,
+      "2010": 20083,
+      "2009": 17083,
+      "2008": 14599,
+      "2007": 12547,
+      "2006": 11363,
+      "2005": 10954,
+      "2004": 9741,
+      "2003": 8920,
+      "2002": 7848,
+      "2000": 7165,
+      "2001": 7150
+    },
+    "tumor microenvironment": {
+      "2023": 84658,
+      "2025": 83262,
+      "2024": 79999,
+      "2022": 55593,
+      "2021": 47843,
+      "2020": 38660,
+      "2019": 29443,
+      "2026": 26061,
+      "2018": 23663,
+      "2017": 21104,
+      "2016": 18411,
+      "2015": 16065,
+      "2014": 13381,
+      "2013": 11958,
+      "2012": 10053,
+      "2011": 8208,
+      "2010": 6452,
+      "2009": 4967,
+      "2008": 3998,
+      "2007": 3301,
+      "2006": 2440,
+      "2005": 2242,
+      "2004": 1806,
+      "2003": 1378,
+      "2002": 1093,
+      "2001": 899,
+      "2000": 855
+    }
+  }
+}
