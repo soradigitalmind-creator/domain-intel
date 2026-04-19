@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-15T15:30:15.259948Z",
-  "total_domains": 39,
+  "total_domains": 40,
   "categories": [
     {
       "label": "Life",
@@ -90,7 +90,7 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 12,
+      "count": 13,
       "domains": [
         {
           "slug": "aerospace-engineering",
@@ -127,6 +127,10 @@
         {
           "slug": "mechanics",
           "title": "Mechanics"
+        },
+        {
+          "slug": "mining",
+          "title": "Mining"
         },
         {
           "slug": "nanotechnology",
@@ -1087,6 +1091,31 @@
       },
       "abstraction_label": "A family of related Mental Health technologies, including covid-19 and mental health, mental health, environmental health.",
       "updated_at": "2026-04-12T01:32:31.174929Z"
+    },
+    {
+      "slug": "mining",
+      "title": "Mining",
+      "sources": 187,
+      "effective_papers": 190,
+      "subgenres": 44,
+      "parent_subgenres": 7,
+      "child_subgenres": 37,
+      "entities": 451,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 187,
+        "total_papers": 187,
+        "facet_counts": {
+          "none": 187
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning data mining, sentiment analysis and opinion mining, data mining algorithms and applications.",
+      "updated_at": "2026-04-19T09:06:48.878216Z"
     },
     {
       "slug": "music",

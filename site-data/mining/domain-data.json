@@ -1,0 +1,2088 @@
+{
+  "slug": "mining",
+  "title": "Mining",
+  "updated_at": "2026-04-19T09:06:48.819074Z",
+  "snapshot": {
+    "papers": 190,
+    "topics": 7,
+    "subtopics": 37,
+    "entities": 451,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 187,
+      "total_papers": 187,
+      "facet_counts": {
+        "none": 187
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning data mining, sentiment analysis and opinion mining, data mining algorithms and applications.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 7,
+    "descendant_topics": 37,
+    "max_depth": 2,
+    "leaf_topics": 37
+  },
+  "rising_topics": [
+    {
+      "id": "sg-clustering-algorithm",
+      "label": "Clustering algorithm",
+      "url": "/domains/mining/topics/sg-clustering-algorithm",
+      "trend": "rising",
+      "year_total": 1860083
+    },
+    {
+      "id": "sg-information-retrieval",
+      "label": "Information retrieval",
+      "url": "/domains/mining/topics/sg-information-retrieval",
+      "trend": "rising",
+      "year_total": 1022612
+    },
+    {
+      "id": "sg-knowledge-discovery",
+      "label": "Knowledge discovery",
+      "url": "/domains/mining/topics/sg-knowledge-discovery",
+      "trend": "rising",
+      "year_total": 1901103
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-clustering-algorithm",
+      "label": "Clustering algorithm",
+      "url": "/domains/mining/topics/sg-clustering-algorithm",
+      "paper_count": 75,
+      "subtopic_count": 18,
+      "trend": "rising",
+      "summary": "entities: data mining, clustering algorithm, hash function",
+      "tags": [
+        "algorithm mining",
+        "algorithms mining",
+        "algorithms mining association",
+        "algorithms mining association rule"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-clustering-algorithm-artificial-intelligence-in-healthcare",
+          "label": "Artificial intelligence in healthcare",
+          "url": "/domains/mining/topics/sg-clustering-algorithm-artificial-intelligence-in-healthcare",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-clustering-algorithm-data-stream-clustering",
+          "label": "Data stream clustering",
+          "url": "/domains/mining/topics/sg-clustering-algorithm-data-stream-clustering",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-clustering-algorithm-paper-we",
+          "label": "Paper we",
+          "url": "/domains/mining/topics/sg-clustering-algorithm-paper-we",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-clustering-algorithm-mining-sequential-patterns",
+          "label": "Mining sequential patterns",
+          "url": "/domains/mining/topics/sg-clustering-algorithm-mining-sequential-patterns",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-clustering-algorithm-functional-brain-connectivity-studies",
+          "label": "Functional brain connectivity studies",
+          "url": "/domains/mining/topics/sg-clustering-algorithm-functional-brain-connectivity-studies",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-clustering-algorithm-gene-expression-data",
+          "label": "Gene expression data",
+          "url": "/domains/mining/topics/sg-clustering-algorithm-gene-expression-data",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2966207845",
+          "title": "Data Mining",
+          "year": "2008",
+          "cited_by_count": 9162,
+          "url": "/domains/mining/papers/W2966207845"
+        },
+        {
+          "source_id": "https://openalex.org/W2123504579",
+          "title": "Data mining",
+          "year": "2002",
+          "cited_by_count": 5165,
+          "url": "/domains/mining/papers/W2123504579"
+        },
+        {
+          "source_id": "https://openalex.org/W2482589566",
+          "title": "An Introduction to Data Mining",
+          "year": "2006",
+          "cited_by_count": 4583,
+          "url": "/domains/mining/papers/W2482589566"
+        }
+      ]
+    },
+    {
+      "id": "sg-information-retrieval",
+      "label": "Information retrieval",
+      "url": "/domains/mining/topics/sg-information-retrieval",
+      "paper_count": 30,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: information retrieval, data mining, a survey",
+      "tags": [
+        "information retrieval",
+        "mining association rule between",
+        "mining sentiment",
+        "opinion mining sentiment"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-information-retrieval-knowledge-management",
+          "label": "Knowledge management",
+          "url": "/domains/mining/topics/sg-information-retrieval-knowledge-management",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-information-retrieval-software-engineering",
+          "label": "Software engineering",
+          "url": "/domains/mining/topics/sg-information-retrieval-software-engineering",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-information-retrieval-language-processing",
+          "label": "Language processing",
+          "url": "/domains/mining/topics/sg-information-retrieval-language-processing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-information-retrieval-data-warehouse",
+          "label": "Data warehouse",
+          "url": "/domains/mining/topics/sg-information-retrieval-data-warehouse",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2140190241",
+          "title": "Data mining: concepts and techniques",
+          "year": "2012",
+          "cited_by_count": 28872,
+          "url": "/domains/mining/papers/W2140190241"
+        },
+        {
+          "source_id": "https://openalex.org/W1974116356",
+          "title": "High-throughput functional annotation and data mining with the Blast2GO suite",
+          "year": "2008",
+          "cited_by_count": 4640,
+          "url": "/domains/mining/papers/W1974116356"
+        },
+        {
+          "source_id": "https://openalex.org/W2088794999",
+          "title": "Gradient boosting machines, a tutorial",
+          "year": "2013",
+          "cited_by_count": 3637,
+          "url": "/domains/mining/papers/W2088794999"
+        }
+      ]
+    },
+    {
+      "id": "sg-knowledge-discovery",
+      "label": "Knowledge discovery",
+      "url": "/domains/mining/topics/sg-knowledge-discovery",
+      "paper_count": 28,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: knowledge discovery, data mining, a survey",
+      "tags": [
+        "data mining knowledge discovery",
+        "knowledge discovery",
+        "knowledge discovery data",
+        "knowledge discovery data mining"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-knowledge-discovery-pattern-discovery",
+          "label": "Pattern discovery",
+          "url": "/domains/mining/topics/sg-knowledge-discovery-pattern-discovery",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-knowledge-discovery-knowledge-extraction",
+          "label": "Knowledge extraction",
+          "url": "/domains/mining/topics/sg-knowledge-discovery-knowledge-extraction",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-knowledge-discovery-consensus-clustering",
+          "label": "Consensus clustering",
+          "url": "/domains/mining/topics/sg-knowledge-discovery-consensus-clustering",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2140190241",
+          "title": "Data mining: concepts and techniques",
+          "year": "2012",
+          "cited_by_count": 28872,
+          "url": "/domains/mining/papers/W2140190241"
+        },
+        {
+          "source_id": "https://openalex.org/W2474747771",
+          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+          "year": "2016",
+          "cited_by_count": 5250,
+          "url": "/domains/mining/papers/W2474747771"
+        },
+        {
+          "source_id": "https://openalex.org/W4205947740",
+          "title": "Deep Learning: Methods and Applications",
+          "year": "2014",
+          "cited_by_count": 3317,
+          "url": "/domains/mining/papers/W4205947740"
+        }
+      ]
+    },
+    {
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/mining/topics/sg-neural-network",
+      "paper_count": 22,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: data mining, network, networks",
+      "tags": [
+        "artificial neural network",
+        "convolutional neural network",
+        "networks text classification",
+        "neural network"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-network-deep-neural-networks",
+          "label": "Deep neural networks",
+          "url": "/domains/mining/topics/sg-neural-network-deep-neural-networks",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-neural-network-convolutional-neural-network",
+          "label": "Convolutional neural network",
+          "url": "/domains/mining/topics/sg-neural-network-convolutional-neural-network",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-neural-network-graph-convolutional-networks",
+          "label": "Graph convolutional networks",
+          "url": "/domains/mining/topics/sg-neural-network-graph-convolutional-networks",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-neural-network-support-vector",
+          "label": "Support vector",
+          "url": "/domains/mining/topics/sg-neural-network-support-vector",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-neural-network-mining-inference",
+          "label": "Mining, inference",
+          "url": "/domains/mining/topics/sg-neural-network-mining-inference",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1570448133",
+          "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+          "year": "2011",
+          "cited_by_count": 25709,
+          "url": "/domains/mining/papers/W1570448133"
+        },
+        {
+          "source_id": "https://openalex.org/W1554944419",
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2013",
+          "cited_by_count": 19404,
+          "url": "/domains/mining/papers/W1554944419"
+        },
+        {
+          "source_id": "https://openalex.org/W2171033594",
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2010",
+          "cited_by_count": 12785,
+          "url": "/domains/mining/papers/W2171033594"
+        }
+      ]
+    },
+    {
+      "id": "sg-text-mining",
+      "label": "Text mining",
+      "url": "/domains/mining/topics/sg-text-mining",
+      "paper_count": 13,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: data mining, a survey, natural language processing",
+      "tags": [
+        "natural language processing",
+        "networks text classification",
+        "sentiment analysis and opinion mining",
+        "text classification"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-text-mining-topic-modeling",
+          "label": "Topic modeling",
+          "url": "/domains/mining/topics/sg-text-mining-topic-modeling",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-text-mining-language-processing",
+          "label": "Language processing",
+          "url": "/domains/mining/topics/sg-text-mining-language-processing",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2911489562",
+          "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+          "year": "2019",
+          "cited_by_count": 6759,
+          "url": "/domains/mining/papers/W2911489562"
+        },
+        {
+          "source_id": "https://openalex.org/W2747680751",
+          "title": "Natural language processing: state of the art, current trends and challenges",
+          "year": "2022",
+          "cited_by_count": 1678,
+          "url": "/domains/mining/papers/W2747680751"
+        },
+        {
+          "source_id": "https://openalex.org/W2958089299",
+          "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+          "year": "2020",
+          "cited_by_count": 2054,
+          "url": "/domains/mining/papers/W2958089299"
+        }
+      ]
+    },
+    {
+      "id": "sg-association-rule",
+      "label": "Association rule",
+      "url": "/domains/mining/topics/sg-association-rule",
+      "paper_count": 11,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: a survey, association rule, data mining",
+      "tags": [
+        "algorithms mining association rule",
+        "association rule",
+        "association rule between",
+        "association rule between sets"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-association-rule-algorithms-mining",
+          "label": "Algorithms mining",
+          "url": "/domains/mining/topics/sg-association-rule-algorithms-mining",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-association-rule-mining-association",
+          "label": "Mining association",
+          "url": "/domains/mining/topics/sg-association-rule-mining-association",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-association-rule-association-rule-learning",
+          "label": "Association rule learning",
+          "url": "/domains/mining/topics/sg-association-rule-association-rule-learning",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2166559705",
+          "title": "Mining association rules between sets of items in large databases",
+          "year": "1993",
+          "cited_by_count": 14770,
+          "url": "/domains/mining/papers/W2166559705"
+        },
+        {
+          "source_id": "https://openalex.org/W1484413656",
+          "title": "Fast algorithms for mining association rules",
+          "year": "1998",
+          "cited_by_count": 10754,
+          "url": "/domains/mining/papers/W1484413656"
+        },
+        {
+          "source_id": "https://openalex.org/W2474747771",
+          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+          "year": "2016",
+          "cited_by_count": 5250,
+          "url": "/domains/mining/papers/W2474747771"
+        }
+      ]
+    },
+    {
+      "id": "sg-opinion-mining",
+      "label": "Opinion mining",
+      "url": "/domains/mining/topics/sg-opinion-mining",
+      "paper_count": 11,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: data mining, sentiment analysis, sentiment analysis and opinion mining",
+      "tags": [
+        "mining sentiment",
+        "opinion mining",
+        "opinion mining sentiment",
+        "sentiment analysis and opinion mining"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-opinion-mining-knowledge-extraction",
+          "label": "Knowledge extraction",
+          "url": "/domains/mining/topics/sg-opinion-mining-knowledge-extraction",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-opinion-mining-lexical-resource",
+          "label": "Lexical resource",
+          "url": "/domains/mining/topics/sg-opinion-mining-lexical-resource",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160660844",
+          "title": "Mining and summarizing customer reviews",
+          "year": "2004",
+          "cited_by_count": 7674,
+          "url": "/domains/mining/papers/W2160660844"
+        },
+        {
+          "source_id": "https://openalex.org/W2097726431",
+          "title": "Opinion Mining and Sentiment Analysis",
+          "year": "2008",
+          "cited_by_count": 6766,
+          "url": "/domains/mining/papers/W2097726431"
+        },
+        {
+          "source_id": "https://openalex.org/W4205184193",
+          "title": "Opinion Mining and Sentiment Analysis",
+          "year": "2008",
+          "cited_by_count": 6125,
+          "url": "/domains/mining/papers/W4205184193"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Clustering algorithm",
+      "paper_count": 14,
+      "papers": [
+        {
+          "title": "The WEKA data mining software",
+          "year": "2009",
+          "cited_by_count": 17822,
+          "topic": "Clustering algorithm",
+          "url": "papers/https-openalex-org-w2133990480.html"
+        },
+        {
+          "title": "Data Mining",
+          "year": "2008",
+          "cited_by_count": 9162,
+          "topic": "Clustering algorithm",
+          "url": "papers/https-openalex-org-w2966207845.html"
+        },
+        {
+          "title": "Fast algorithms for mining association rules",
+          "year": "1998",
+          "cited_by_count": 10754,
+          "topic": "Clustering algorithm",
+          "url": "papers/https-openalex-org-w1484413656.html"
+        },
+        {
+          "title": "TBtools-II: A “one for all, all for one” bioinformatics platform for biological big-data mining",
+          "year": "2023",
+          "cited_by_count": 3177,
+          "topic": "Clustering algorithm",
+          "url": "papers/https-openalex-org-w4386968677.html"
+        },
+        {
+          "title": "Fast Algorithms for Mining Association Rules in Large Databases",
+          "year": "1994",
+          "cited_by_count": 9384,
+          "topic": "Clustering algorithm",
+          "url": "papers/https-openalex-org-w1506285740.html"
+        },
+        {
+          "title": "Top 10 algorithms in data mining",
+          "year": "2007",
+          "cited_by_count": 5655,
+          "topic": "Clustering algorithm",
+          "url": "papers/https-openalex-org-w2142827986.html"
+        }
+      ]
+    },
+    {
+      "label": "Neural network",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+          "year": "2011",
+          "cited_by_count": 25709,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w1570448133.html"
+        },
+        {
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2013",
+          "cited_by_count": 19404,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w1554944419.html"
+        },
+        {
+          "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+          "year": "2010",
+          "cited_by_count": 12785,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2171033594.html"
+        },
+        {
+          "title": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+          "year": "2016",
+          "cited_by_count": 6521,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2914874661.html"
+        },
+        {
+          "title": "Introduction to Data Mining",
+          "year": "2008",
+          "cited_by_count": 7032,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w1565377632.html"
+        },
+        {
+          "title": "Deep Neural Networks for YouTube Recommendations",
+          "year": "2016",
+          "cited_by_count": 3308,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2512971201.html"
+        }
+      ]
+    },
+    {
+      "label": "Knowledge discovery",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Data mining: concepts and techniques",
+          "year": "2012",
+          "cited_by_count": 28872,
+          "topic": "Knowledge discovery",
+          "url": "papers/https-openalex-org-w2140190241.html"
+        },
+        {
+          "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+          "year": "2016",
+          "cited_by_count": 5250,
+          "topic": "Knowledge discovery",
+          "url": "papers/https-openalex-org-w2474747771.html"
+        },
+        {
+          "title": "Deep Learning: Methods and Applications",
+          "year": "2014",
+          "cited_by_count": 3317,
+          "topic": "Knowledge discovery",
+          "url": "papers/https-openalex-org-w4205947740.html"
+        },
+        {
+          "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
+          "year": "2015",
+          "cited_by_count": 3123,
+          "topic": "Knowledge discovery",
+          "url": "papers/https-openalex-org-w1019830208.html"
+        },
+        {
+          "title": "Machine Learning for Fluid Mechanics",
+          "year": "2019",
+          "cited_by_count": 2491,
+          "topic": "Knowledge discovery",
+          "url": "papers/https-openalex-org-w2973119841.html"
+        }
+      ]
+    },
+    {
+      "label": "Opinion mining",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Mining and summarizing customer reviews",
+          "year": "2004",
+          "cited_by_count": 7674,
+          "topic": "Opinion mining",
+          "url": "papers/https-openalex-org-w2160660844.html"
+        },
+        {
+          "title": "Opinion Mining and Sentiment Analysis",
+          "year": "2008",
+          "cited_by_count": 6766,
+          "topic": "Opinion mining",
+          "url": "papers/https-openalex-org-w2097726431.html"
+        },
+        {
+          "title": "Opinion Mining and Sentiment Analysis",
+          "year": "2008",
+          "cited_by_count": 6125,
+          "topic": "Opinion mining",
+          "url": "papers/https-openalex-org-w4205184193.html"
+        },
+        {
+          "title": "Sentiment Analysis and Opinion Mining",
+          "year": "2017",
+          "cited_by_count": 3327,
+          "topic": "Opinion mining",
+          "url": "papers/https-openalex-org-w2108646579.html"
+        }
+      ]
+    },
+    {
+      "label": "Information retrieval",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "High-throughput functional annotation and data mining with the Blast2GO suite",
+          "year": "2008",
+          "cited_by_count": 4640,
+          "topic": "Information retrieval",
+          "url": "papers/https-openalex-org-w1974116356.html"
+        },
+        {
+          "title": "Gradient boosting machines, a tutorial",
+          "year": "2013",
+          "cited_by_count": 3637,
+          "topic": "Information retrieval",
+          "url": "papers/https-openalex-org-w2088794999.html"
+        },
+        {
+          "title": "Ensemble deep learning: A review",
+          "year": "2022",
+          "cited_by_count": 1952,
+          "topic": "Information retrieval",
+          "url": "papers/https-openalex-org-w3149839747.html"
+        }
+      ]
+    },
+    {
+      "label": "Association rule",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Mining association rules between sets of items in large databases",
+          "year": "1993",
+          "cited_by_count": 14770,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w2166559705.html"
+        },
+        {
+          "title": "A cross-population atlas of genetic associations for 220 human phenotypes",
+          "year": "2021",
+          "cited_by_count": 2318,
+          "topic": "Association rule",
+          "url": "papers/https-openalex-org-w3202209876.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline",
+          "year": "2019",
+          "cited_by_count": 3092,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2942829220.html"
+        },
+        {
+          "title": "Global variation in copy number in the human genome",
+          "year": "2006",
+          "cited_by_count": 4355,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2155707112.html"
+        }
+      ]
+    },
+    {
+      "label": "Association rule learning",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Machine Learning in Agriculture: A Review",
+          "year": "2018",
+          "cited_by_count": 2865,
+          "topic": "Association rule learning",
+          "url": "papers/https-openalex-org-w2885770726.html"
+        }
+      ]
+    },
+    {
+      "label": "Text mining",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+          "year": "2019",
+          "cited_by_count": 6759,
+          "topic": "Text mining",
+          "url": "papers/https-openalex-org-w2911489562.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2140190241",
+      "title": "Data mining: concepts and techniques",
+      "year": 2012,
+      "cited_by_count": 28872,
+      "adjusted_cited_by_count": 7716.37,
+      "primary_topic_id": "sg-knowledge-discovery",
+      "primary_topic_label": "Knowledge discovery",
+      "url": "/domains/mining/papers/W2140190241"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19404,
+      "adjusted_cited_by_count": 5381.7,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W2133990480",
+      "title": "The WEKA data mining software",
+      "year": 2009,
+      "cited_by_count": 17822,
+      "adjusted_cited_by_count": 4322.47,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2133990480"
+    },
+    {
+      "source_id": "https://openalex.org/W2171033594",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2010,
+      "cited_by_count": 12785,
+      "adjusted_cited_by_count": 3196.25,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W2171033594"
+    },
+    {
+      "source_id": "https://openalex.org/W2166559705",
+      "title": "Mining association rules between sets of items in large databases",
+      "year": 1993,
+      "cited_by_count": 14770,
+      "adjusted_cited_by_count": 2571.13,
+      "primary_topic_id": "sg-association-rule",
+      "primary_topic_label": "Association rule",
+      "url": "/domains/mining/papers/W2166559705"
+    },
+    {
+      "source_id": "https://openalex.org/W2911489562",
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "year": 2019,
+      "cited_by_count": 6759,
+      "adjusted_cited_by_count": 2554.66,
+      "primary_topic_id": "sg-text-mining",
+      "primary_topic_label": "Text mining",
+      "url": "/domains/mining/papers/W2911489562"
+    },
+    {
+      "source_id": "https://openalex.org/W2966207845",
+      "title": "Data Mining",
+      "year": 2008,
+      "cited_by_count": 9162,
+      "adjusted_cited_by_count": 2159.5,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2966207845"
+    },
+    {
+      "source_id": "https://openalex.org/W2914874661",
+      "title": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+      "year": 2016,
+      "cited_by_count": 6521,
+      "adjusted_cited_by_count": 2062.12,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W2914874661"
+    },
+    {
+      "source_id": "https://openalex.org/W1484413656",
+      "title": "Fast algorithms for mining association rules",
+      "year": 1998,
+      "cited_by_count": 10754,
+      "adjusted_cited_by_count": 2032.31,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W1484413656"
+    },
+    {
+      "source_id": "https://openalex.org/W4386968677",
+      "title": "TBtools-II: A “one for all, all for one” bioinformatics platform for biological big-data mining",
+      "year": 2023,
+      "cited_by_count": 3177,
+      "adjusted_cited_by_count": 1834.24,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W4386968677"
+    },
+    {
+      "source_id": "https://openalex.org/W2474747771",
+      "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+      "year": 2016,
+      "cited_by_count": 5250,
+      "adjusted_cited_by_count": 1660.2,
+      "primary_topic_id": "sg-knowledge-discovery",
+      "primary_topic_label": "Knowledge discovery",
+      "url": "/domains/mining/papers/W2474747771"
+    },
+    {
+      "source_id": "https://openalex.org/W1506285740",
+      "title": "Fast Algorithms for Mining Association Rules in Large Databases",
+      "year": 1994,
+      "cited_by_count": 9384,
+      "adjusted_cited_by_count": 1658.87,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W1506285740"
+    },
+    {
+      "source_id": "https://openalex.org/W1565377632",
+      "title": "Introduction to Data Mining",
+      "year": 2008,
+      "cited_by_count": 7032,
+      "adjusted_cited_by_count": 1657.46,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W1565377632"
+    },
+    {
+      "source_id": "https://openalex.org/W2160660844",
+      "title": "Mining and summarizing customer reviews",
+      "year": 2004,
+      "cited_by_count": 7674,
+      "adjusted_cited_by_count": 1636.1,
+      "primary_topic_id": "sg-opinion-mining",
+      "primary_topic_label": "Opinion mining",
+      "url": "/domains/mining/papers/W2160660844"
+    },
+    {
+      "source_id": "https://openalex.org/W2097726431",
+      "title": "Opinion Mining and Sentiment Analysis",
+      "year": 2008,
+      "cited_by_count": 6766,
+      "adjusted_cited_by_count": 1594.76,
+      "primary_topic_id": "sg-opinion-mining",
+      "primary_topic_label": "Opinion mining",
+      "url": "/domains/mining/papers/W2097726431"
+    },
+    {
+      "source_id": "https://openalex.org/W4205184193",
+      "title": "Opinion Mining and Sentiment Analysis",
+      "year": 2008,
+      "cited_by_count": 6125,
+      "adjusted_cited_by_count": 1443.68,
+      "primary_topic_id": "sg-opinion-mining",
+      "primary_topic_label": "Opinion mining",
+      "url": "/domains/mining/papers/W4205184193"
+    },
+    {
+      "source_id": "https://openalex.org/W2142827986",
+      "title": "Top 10 algorithms in data mining",
+      "year": 2007,
+      "cited_by_count": 5655,
+      "adjusted_cited_by_count": 1297.35,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2142827986"
+    },
+    {
+      "source_id": "https://openalex.org/W2064853889",
+      "title": "Mining frequent patterns without candidate generation",
+      "year": 2000,
+      "cited_by_count": 6332,
+      "adjusted_cited_by_count": 1241.81,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2064853889"
+    },
+    {
+      "source_id": "https://openalex.org/W2942829220",
+      "title": "antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline",
+      "year": 2019,
+      "cited_by_count": 3092,
+      "adjusted_cited_by_count": 1168.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mining/papers/W2942829220"
+    },
+    {
+      "source_id": "https://openalex.org/W2108646579",
+      "title": "Sentiment Analysis and Opinion Mining",
+      "year": 2017,
+      "cited_by_count": 3327,
+      "adjusted_cited_by_count": 1109.0,
+      "primary_topic_id": "sg-opinion-mining",
+      "primary_topic_label": "Opinion mining",
+      "url": "/domains/mining/papers/W2108646579"
+    },
+    {
+      "source_id": "https://openalex.org/W1974116356",
+      "title": "High-throughput functional annotation and data mining with the Blast2GO suite",
+      "year": 2008,
+      "cited_by_count": 4640,
+      "adjusted_cited_by_count": 1093.66,
+      "primary_topic_id": "sg-information-retrieval",
+      "primary_topic_label": "Information retrieval",
+      "url": "/domains/mining/papers/W1974116356"
+    },
+    {
+      "source_id": "https://openalex.org/W2123504579",
+      "title": "Data mining",
+      "year": 2002,
+      "cited_by_count": 5165,
+      "adjusted_cited_by_count": 1054.3,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2123504579"
+    },
+    {
+      "source_id": "https://openalex.org/W2158454296",
+      "title": "Mining sequential patterns",
+      "year": 2002,
+      "cited_by_count": 5132,
+      "adjusted_cited_by_count": 1047.57,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2158454296"
+    },
+    {
+      "source_id": "https://openalex.org/W2512971201",
+      "title": "Deep Neural Networks for YouTube Recommendations",
+      "year": 2016,
+      "cited_by_count": 3308,
+      "adjusted_cited_by_count": 1046.08,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W2512971201"
+    },
+    {
+      "source_id": "https://openalex.org/W3202209876",
+      "title": "A cross-population atlas of genetic associations for 220 human phenotypes",
+      "year": 2021,
+      "cited_by_count": 2318,
+      "adjusted_cited_by_count": 1036.64,
+      "primary_topic_id": "sg-association-rule",
+      "primary_topic_label": "Association rule",
+      "url": "/domains/mining/papers/W3202209876"
+    },
+    {
+      "source_id": "https://openalex.org/W2936503027",
+      "title": "Survey on deep learning with class imbalance",
+      "year": 2019,
+      "cited_by_count": 2733,
+      "adjusted_cited_by_count": 1032.98,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W2936503027"
+    },
+    {
+      "source_id": "https://openalex.org/W2988916019",
+      "title": "Deep Learning for Generic Object Detection: A Survey",
+      "year": 2019,
+      "cited_by_count": 2720,
+      "adjusted_cited_by_count": 1028.06,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/mining/papers/W2988916019"
+    },
+    {
+      "source_id": "https://openalex.org/W2482589566",
+      "title": "An Introduction to Data Mining",
+      "year": 2006,
+      "cited_by_count": 4583,
+      "adjusted_cited_by_count": 1024.79,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2482589566"
+    },
+    {
+      "source_id": "https://openalex.org/W2124757386",
+      "title": "Large-scale automated synthesis of human functional neuroimaging data",
+      "year": 2011,
+      "cited_by_count": 3965,
+      "adjusted_cited_by_count": 1023.76,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W2124757386"
+    },
+    {
+      "source_id": "https://openalex.org/W2885770726",
+      "title": "Machine Learning in Agriculture: A Review",
+      "year": 2018,
+      "cited_by_count": 2865,
+      "adjusted_cited_by_count": 1012.93,
+      "primary_topic_id": "sg-association-rule-association-rule-learning",
+      "primary_topic_label": "Association rule learning",
+      "url": "/domains/mining/papers/W2885770726"
+    },
+    {
+      "source_id": "https://openalex.org/W2088794999",
+      "title": "Gradient boosting machines, a tutorial",
+      "year": 2013,
+      "cited_by_count": 3637,
+      "adjusted_cited_by_count": 1008.72,
+      "primary_topic_id": "sg-information-retrieval",
+      "primary_topic_label": "Information retrieval",
+      "url": "/domains/mining/papers/W2088794999"
+    },
+    {
+      "source_id": "https://openalex.org/W208128215",
+      "title": "Data Mining - Concepts and Techniques.",
+      "year": 2002,
+      "cited_by_count": 4884,
+      "adjusted_cited_by_count": 996.94,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W208128215"
+    },
+    {
+      "source_id": "https://openalex.org/W4400134761",
+      "title": "Machine Learning Algorithms - A Review",
+      "year": 2020,
+      "cited_by_count": 2415,
+      "adjusted_cited_by_count": 985.92,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W4400134761"
+    },
+    {
+      "source_id": "https://openalex.org/W3149839747",
+      "title": "Ensemble deep learning: A review",
+      "year": 2022,
+      "cited_by_count": 1952,
+      "adjusted_cited_by_count": 976.0,
+      "primary_topic_id": "sg-information-retrieval",
+      "primary_topic_label": "Information retrieval",
+      "url": "/domains/mining/papers/W3149839747"
+    },
+    {
+      "source_id": "https://openalex.org/W2155707112",
+      "title": "Global variation in copy number in the human genome",
+      "year": 2006,
+      "cited_by_count": 4355,
+      "adjusted_cited_by_count": 973.81,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/mining/papers/W2155707112"
+    },
+    {
+      "source_id": "https://openalex.org/W4205947740",
+      "title": "Deep Learning: Methods and Applications",
+      "year": 2014,
+      "cited_by_count": 3317,
+      "adjusted_cited_by_count": 957.54,
+      "primary_topic_id": "sg-knowledge-discovery",
+      "primary_topic_label": "Knowledge discovery",
+      "url": "/domains/mining/papers/W4205947740"
+    },
+    {
+      "source_id": "https://openalex.org/W3012501605",
+      "title": "The future of digital health with federated learning",
+      "year": 2020,
+      "cited_by_count": 2323,
+      "adjusted_cited_by_count": 948.36,
+      "primary_topic_id": "sg-clustering-algorithm",
+      "primary_topic_label": "Clustering algorithm",
+      "url": "/domains/mining/papers/W3012501605"
+    },
+    {
+      "source_id": "https://openalex.org/W1019830208",
+      "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
+      "year": 2015,
+      "cited_by_count": 3123,
+      "adjusted_cited_by_count": 941.62,
+      "primary_topic_id": "sg-knowledge-discovery",
+      "primary_topic_label": "Knowledge discovery",
+      "url": "/domains/mining/papers/W1019830208"
+    },
+    {
+      "source_id": "https://openalex.org/W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "year": 2019,
+      "cited_by_count": 2491,
+      "adjusted_cited_by_count": 941.51,
+      "primary_topic_id": "sg-knowledge-discovery",
+      "primary_topic_label": "Knowledge discovery",
+      "url": "/domains/mining/papers/W2973119841"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2140190241",
+      "title": "Data mining: concepts and techniques",
+      "year": 2012,
+      "cited_by_count": 28872,
+      "adjusted_cited_by_count": 7716.37,
+      "url": "/domains/mining/papers/W2140190241"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "url": "/domains/mining/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19404,
+      "adjusted_cited_by_count": 5381.7,
+      "url": "/domains/mining/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W2133990480",
+      "title": "The WEKA data mining software",
+      "year": 2009,
+      "cited_by_count": 17822,
+      "adjusted_cited_by_count": 4322.47,
+      "url": "/domains/mining/papers/W2133990480"
+    },
+    {
+      "source_id": "https://openalex.org/W2171033594",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2010,
+      "cited_by_count": 12785,
+      "adjusted_cited_by_count": 3196.25,
+      "url": "/domains/mining/papers/W2171033594"
+    },
+    {
+      "source_id": "https://openalex.org/W2166559705",
+      "title": "Mining association rules between sets of items in large databases",
+      "year": 1993,
+      "cited_by_count": 14770,
+      "adjusted_cited_by_count": 2571.13,
+      "url": "/domains/mining/papers/W2166559705"
+    },
+    {
+      "source_id": "https://openalex.org/W2911489562",
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "year": 2019,
+      "cited_by_count": 6759,
+      "adjusted_cited_by_count": 2554.66,
+      "url": "/domains/mining/papers/W2911489562"
+    },
+    {
+      "source_id": "https://openalex.org/W2966207845",
+      "title": "Data Mining",
+      "year": 2008,
+      "cited_by_count": 9162,
+      "adjusted_cited_by_count": 2159.5,
+      "url": "/domains/mining/papers/W2966207845"
+    },
+    {
+      "source_id": "https://openalex.org/W2914874661",
+      "title": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+      "year": 2016,
+      "cited_by_count": 6521,
+      "adjusted_cited_by_count": 2062.12,
+      "url": "/domains/mining/papers/W2914874661"
+    },
+    {
+      "source_id": "https://openalex.org/W1484413656",
+      "title": "Fast algorithms for mining association rules",
+      "year": 1998,
+      "cited_by_count": 10754,
+      "adjusted_cited_by_count": 2032.31,
+      "url": "/domains/mining/papers/W1484413656"
+    },
+    {
+      "source_id": "https://openalex.org/W4386968677",
+      "title": "TBtools-II: A “one for all, all for one” bioinformatics platform for biological big-data mining",
+      "year": 2023,
+      "cited_by_count": 3177,
+      "adjusted_cited_by_count": 1834.24,
+      "url": "/domains/mining/papers/W4386968677"
+    },
+    {
+      "source_id": "https://openalex.org/W2474747771",
+      "title": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses",
+      "year": 2016,
+      "cited_by_count": 5250,
+      "adjusted_cited_by_count": 1660.2,
+      "url": "/domains/mining/papers/W2474747771"
+    },
+    {
+      "source_id": "https://openalex.org/W1506285740",
+      "title": "Fast Algorithms for Mining Association Rules in Large Databases",
+      "year": 1994,
+      "cited_by_count": 9384,
+      "adjusted_cited_by_count": 1658.87,
+      "url": "/domains/mining/papers/W1506285740"
+    },
+    {
+      "source_id": "https://openalex.org/W1565377632",
+      "title": "Introduction to Data Mining",
+      "year": 2008,
+      "cited_by_count": 7032,
+      "adjusted_cited_by_count": 1657.46,
+      "url": "/domains/mining/papers/W1565377632"
+    },
+    {
+      "source_id": "https://openalex.org/W2160660844",
+      "title": "Mining and summarizing customer reviews",
+      "year": 2004,
+      "cited_by_count": 7674,
+      "adjusted_cited_by_count": 1636.1,
+      "url": "/domains/mining/papers/W2160660844"
+    },
+    {
+      "source_id": "https://openalex.org/W2097726431",
+      "title": "Opinion Mining and Sentiment Analysis",
+      "year": 2008,
+      "cited_by_count": 6766,
+      "adjusted_cited_by_count": 1594.76,
+      "url": "/domains/mining/papers/W2097726431"
+    },
+    {
+      "source_id": "https://openalex.org/W4205184193",
+      "title": "Opinion Mining and Sentiment Analysis",
+      "year": 2008,
+      "cited_by_count": 6125,
+      "adjusted_cited_by_count": 1443.68,
+      "url": "/domains/mining/papers/W4205184193"
+    },
+    {
+      "source_id": "https://openalex.org/W2142827986",
+      "title": "Top 10 algorithms in data mining",
+      "year": 2007,
+      "cited_by_count": 5655,
+      "adjusted_cited_by_count": 1297.35,
+      "url": "/domains/mining/papers/W2142827986"
+    },
+    {
+      "source_id": "https://openalex.org/W2064853889",
+      "title": "Mining frequent patterns without candidate generation",
+      "year": 2000,
+      "cited_by_count": 6332,
+      "adjusted_cited_by_count": 1241.81,
+      "url": "/domains/mining/papers/W2064853889"
+    },
+    {
+      "source_id": "https://openalex.org/W2942829220",
+      "title": "antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline",
+      "year": 2019,
+      "cited_by_count": 3092,
+      "adjusted_cited_by_count": 1168.67,
+      "url": "/domains/mining/papers/W2942829220"
+    },
+    {
+      "source_id": "https://openalex.org/W2108646579",
+      "title": "Sentiment Analysis and Opinion Mining",
+      "year": 2017,
+      "cited_by_count": 3327,
+      "adjusted_cited_by_count": 1109.0,
+      "url": "/domains/mining/papers/W2108646579"
+    },
+    {
+      "source_id": "https://openalex.org/W1974116356",
+      "title": "High-throughput functional annotation and data mining with the Blast2GO suite",
+      "year": 2008,
+      "cited_by_count": 4640,
+      "adjusted_cited_by_count": 1093.66,
+      "url": "/domains/mining/papers/W1974116356"
+    },
+    {
+      "source_id": "https://openalex.org/W2123504579",
+      "title": "Data mining",
+      "year": 2002,
+      "cited_by_count": 5165,
+      "adjusted_cited_by_count": 1054.3,
+      "url": "/domains/mining/papers/W2123504579"
+    },
+    {
+      "source_id": "https://openalex.org/W2158454296",
+      "title": "Mining sequential patterns",
+      "year": 2002,
+      "cited_by_count": 5132,
+      "adjusted_cited_by_count": 1047.57,
+      "url": "/domains/mining/papers/W2158454296"
+    },
+    {
+      "source_id": "https://openalex.org/W2512971201",
+      "title": "Deep Neural Networks for YouTube Recommendations",
+      "year": 2016,
+      "cited_by_count": 3308,
+      "adjusted_cited_by_count": 1046.08,
+      "url": "/domains/mining/papers/W2512971201"
+    },
+    {
+      "source_id": "https://openalex.org/W3202209876",
+      "title": "A cross-population atlas of genetic associations for 220 human phenotypes",
+      "year": 2021,
+      "cited_by_count": 2318,
+      "adjusted_cited_by_count": 1036.64,
+      "url": "/domains/mining/papers/W3202209876"
+    },
+    {
+      "source_id": "https://openalex.org/W2936503027",
+      "title": "Survey on deep learning with class imbalance",
+      "year": 2019,
+      "cited_by_count": 2733,
+      "adjusted_cited_by_count": 1032.98,
+      "url": "/domains/mining/papers/W2936503027"
+    },
+    {
+      "source_id": "https://openalex.org/W2988916019",
+      "title": "Deep Learning for Generic Object Detection: A Survey",
+      "year": 2019,
+      "cited_by_count": 2720,
+      "adjusted_cited_by_count": 1028.06,
+      "url": "/domains/mining/papers/W2988916019"
+    },
+    {
+      "source_id": "https://openalex.org/W2482589566",
+      "title": "An Introduction to Data Mining",
+      "year": 2006,
+      "cited_by_count": 4583,
+      "adjusted_cited_by_count": 1024.79,
+      "url": "/domains/mining/papers/W2482589566"
+    },
+    {
+      "source_id": "https://openalex.org/W2124757386",
+      "title": "Large-scale automated synthesis of human functional neuroimaging data",
+      "year": 2011,
+      "cited_by_count": 3965,
+      "adjusted_cited_by_count": 1023.76,
+      "url": "/domains/mining/papers/W2124757386"
+    },
+    {
+      "source_id": "https://openalex.org/W2885770726",
+      "title": "Machine Learning in Agriculture: A Review",
+      "year": 2018,
+      "cited_by_count": 2865,
+      "adjusted_cited_by_count": 1012.93,
+      "url": "/domains/mining/papers/W2885770726"
+    },
+    {
+      "source_id": "https://openalex.org/W2088794999",
+      "title": "Gradient boosting machines, a tutorial",
+      "year": 2013,
+      "cited_by_count": 3637,
+      "adjusted_cited_by_count": 1008.72,
+      "url": "/domains/mining/papers/W2088794999"
+    },
+    {
+      "source_id": "https://openalex.org/W208128215",
+      "title": "Data Mining - Concepts and Techniques.",
+      "year": 2002,
+      "cited_by_count": 4884,
+      "adjusted_cited_by_count": 996.94,
+      "url": "/domains/mining/papers/W208128215"
+    },
+    {
+      "source_id": "https://openalex.org/W4400134761",
+      "title": "Machine Learning Algorithms - A Review",
+      "year": 2020,
+      "cited_by_count": 2415,
+      "adjusted_cited_by_count": 985.92,
+      "url": "/domains/mining/papers/W4400134761"
+    },
+    {
+      "source_id": "https://openalex.org/W3149839747",
+      "title": "Ensemble deep learning: A review",
+      "year": 2022,
+      "cited_by_count": 1952,
+      "adjusted_cited_by_count": 976.0,
+      "url": "/domains/mining/papers/W3149839747"
+    },
+    {
+      "source_id": "https://openalex.org/W2155707112",
+      "title": "Global variation in copy number in the human genome",
+      "year": 2006,
+      "cited_by_count": 4355,
+      "adjusted_cited_by_count": 973.81,
+      "url": "/domains/mining/papers/W2155707112"
+    },
+    {
+      "source_id": "https://openalex.org/W4205947740",
+      "title": "Deep Learning: Methods and Applications",
+      "year": 2014,
+      "cited_by_count": 3317,
+      "adjusted_cited_by_count": 957.54,
+      "url": "/domains/mining/papers/W4205947740"
+    },
+    {
+      "source_id": "https://openalex.org/W3012501605",
+      "title": "The future of digital health with federated learning",
+      "year": 2020,
+      "cited_by_count": 2323,
+      "adjusted_cited_by_count": 948.36,
+      "url": "/domains/mining/papers/W3012501605"
+    },
+    {
+      "source_id": "https://openalex.org/W1019830208",
+      "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
+      "year": 2015,
+      "cited_by_count": 3123,
+      "adjusted_cited_by_count": 941.62,
+      "url": "/domains/mining/papers/W1019830208"
+    },
+    {
+      "source_id": "https://openalex.org/W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "year": 2019,
+      "cited_by_count": 2491,
+      "adjusted_cited_by_count": 941.51,
+      "url": "/domains/mining/papers/W2973119841"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 181
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 151
+    },
+    {
+      "label": "a survey",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "clustering algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "information retrieval",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "knowledge discovery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "techniques",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "this paper",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9899,
+      "evidence_count": 36
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 33
+    },
+    {
+      "label": "one",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 33
+    },
+    {
+      "label": "provide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 32
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 30
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 29
+    },
+    {
+      "label": "of data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 29
+    },
+    {
+      "label": "text",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 27
+    },
+    {
+      "label": "such",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 26
+    },
+    {
+      "label": "survey",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 26
+    },
+    {
+      "label": "pattern",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 31
+    },
+    {
+      "label": "number",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 24
+    },
+    {
+      "label": "deep learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 23
+    },
+    {
+      "label": "most",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 23
+    },
+    {
+      "label": "networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 23
+    },
+    {
+      "label": "world wide web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 23
+    },
+    {
+      "label": "pattern recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 22
+    },
+    {
+      "label": "knowledge extraction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 20
+    },
+    {
+      "label": "such as",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 20
+    },
+    {
+      "label": "neural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 19
+    },
+    {
+      "label": "support",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 20
+    },
+    {
+      "label": "association rule",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 18
+    },
+    {
+      "label": "neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.985,
+      "evidence_count": 18
+    },
+    {
+      "label": "processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9847,
+      "evidence_count": 23
+    },
+    {
+      "label": "neural networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9847,
+      "evidence_count": 17
+    },
+    {
+      "label": "natural language processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9839,
+      "evidence_count": 14
+    },
+    {
+      "label": "web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 25
+    },
+    {
+      "label": "natural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 19
+    },
+    {
+      "label": "rule",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 15
+    },
+    {
+      "label": "data clustering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9833,
+      "evidence_count": 12
+    },
+    {
+      "label": "of data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9833,
+      "evidence_count": 12
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 27
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 26
+    },
+    {
+      "label": "artificial neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 11
+    },
+    {
+      "label": "sentiment analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.983,
+      "evidence_count": 11
+    }
+  ],
+  "topic_year_counts": {
+    "information retrieval": {
+      "2024": 115571,
+      "2025": 114032,
+      "2023": 108388,
+      "2022": 71277,
+      "2021": 63993,
+      "2020": 57868,
+      "2019": 51203,
+      "2018": 44128,
+      "2026": 40262,
+      "2017": 39109,
+      "2016": 36585,
+      "2015": 33912,
+      "2014": 31683,
+      "2013": 29210,
+      "2012": 25912,
+      "2011": 23176,
+      "2010": 20592,
+      "2009": 18624,
+      "2008": 16406,
+      "2007": 14979,
+      "2006": 13268,
+      "2005": 11804,
+      "2004": 10464,
+      "2003": 8792,
+      "2002": 8672,
+      "2000": 6505,
+      "2001": 6197
+    },
+    "knowledge discovery": {
+      "2023": 219839,
+      "2024": 218279,
+      "2025": 190670,
+      "2022": 141908,
+      "2021": 131904,
+      "2020": 121969,
+      "2019": 102142,
+      "2018": 90503,
+      "2017": 80700,
+      "2016": 73913,
+      "2015": 67987,
+      "2014": 61064,
+      "2013": 54926,
+      "2026": 54764,
+      "2012": 48354,
+      "2011": 41368,
+      "2010": 35488,
+      "2009": 31090,
+      "2008": 25590,
+      "2007": 21789,
+      "2006": 18644,
+      "2005": 15985,
+      "2004": 14088,
+      "2003": 11519,
+      "2002": 9611,
+      "2000": 8977,
+      "2001": 8032
+    },
+    "neural network": {
+      "2025": 495314,
+      "2024": 489328,
+      "2023": 461675,
+      "2022": 317201,
+      "2021": 275801,
+      "2020": 227778,
+      "2026": 213783,
+      "2019": 180315,
+      "2018": 137411,
+      "2017": 101304,
+      "2016": 80640,
+      "2015": 69529,
+      "2014": 63469,
+      "2013": 58618,
+      "2012": 52220,
+      "2011": 47101,
+      "2010": 41677,
+      "2009": 37752,
+      "2008": 33033,
+      "2007": 29591,
+      "2006": 28914,
+      "2002": 26120,
+      "2005": 25102,
+      "2003": 20976,
+      "2004": 20603,
+      "2001": 12875,
+      "2000": 12214
+    },
+    "text mining": {
+      "2024": 82818,
+      "2025": 82664,
+      "2023": 73339,
+      "2022": 47714,
+      "2021": 41245,
+      "2020": 36351,
+      "2019": 29302,
+      "2018": 24924,
+      "2026": 24816,
+      "2017": 21137,
+      "2016": 18932,
+      "2015": 16925,
+      "2014": 14430,
+      "2013": 12401,
+      "2012": 10682,
+      "2011": 9707,
+      "2010": 7704,
+      "2009": 6867,
+      "2008": 5600,
+      "2007": 4651,
+      "2006": 4198,
+      "2005": 3478,
+      "2004": 2813,
+      "2003": 2330,
+      "2002": 1959,
+      "2000": 1580,
+      "2001": 1483
+    },
+    "opinion mining": {
+      "2023": 61573,
+      "2024": 59068,
+      "2025": 58721,
+      "2022": 28343,
+      "2021": 24918,
+      "2020": 22184,
+      "2019": 18362,
+      "2018": 16399,
+      "2026": 15731,
+      "2017": 13570,
+      "2016": 12353,
+      "2015": 11069,
+      "2014": 9760,
+      "2013": 8309,
+      "2012": 7048,
+      "2011": 6113,
+      "2010": 5177,
+      "2009": 4449,
+      "2008": 3425,
+      "2007": 2891,
+      "2006": 2619,
+      "2005": 2176,
+      "2004": 1883,
+      "2003": 1672,
+      "2002": 1407,
+      "2000": 1279,
+      "2001": 1177
+    },
+    "association rule": {
+      "2023": 306733,
+      "2024": 289275,
+      "2025": 279631,
+      "2022": 201237,
+      "2021": 189169,
+      "2020": 179550,
+      "2019": 151938,
+      "2018": 136020,
+      "2017": 124118,
+      "2016": 114799,
+      "2015": 108334,
+      "2014": 99224,
+      "2013": 89377,
+      "2012": 79328,
+      "2026": 76286,
+      "2011": 70257,
+      "2010": 62564,
+      "2009": 56541,
+      "2008": 47804,
+      "2007": 41712,
+      "2006": 37091,
+      "2005": 33475,
+      "2004": 29090,
+      "2003": 26099,
+      "2002": 22250,
+      "2000": 19772,
+      "2001": 19713
+    },
+    "clustering algorithm": {
+      "2023": 223590,
+      "2024": 216281,
+      "2025": 206528,
+      "2022": 150116,
+      "2021": 135478,
+      "2020": 120279,
+      "2019": 99571,
+      "2018": 84619,
+      "2017": 73114,
+      "2016": 66672,
+      "2026": 65451,
+      "2015": 61090,
+      "2014": 55065,
+      "2013": 49200,
+      "2012": 42640,
+      "2011": 36238,
+      "2010": 31715,
+      "2009": 27117,
+      "2008": 23137,
+      "2007": 19590,
+      "2006": 17618,
+      "2005": 14406,
+      "2004": 11758,
+      "2003": 9467,
+      "2002": 8685,
+      "2001": 5386,
+      "2000": 5272
+    }
+  }
+}
