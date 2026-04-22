@@ -1,0 +1,2364 @@
+{
+  "slug": "semiconductor",
+  "title": "Semiconductor",
+  "updated_at": "2026-04-22T10:56:28.222688Z",
+  "snapshot": {
+    "papers": 386,
+    "topics": 10,
+    "subtopics": 170,
+    "entities": 810,
+    "claims": 3
+  },
+  "overview": {
+    "source_ids": [
+      "https://openalex.org/W2029699094",
+      "https://openalex.org/W2040697085",
+      "https://openalex.org/W2053286983",
+      "https://openalex.org/W2063132420",
+      "https://openalex.org/W2071615649",
+      "https://openalex.org/W2168172378"
+    ],
+    "partition_summary": {
+      "overview_papers": 6,
+      "topical_papers": 393,
+      "total_papers": 399,
+      "facet_counts": {
+        "none": 393,
+        "overview": 6
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 7,
+      "overview_min_papers": 6
+    }
+  },
+  "abstraction": {
+    "label": "A family of related Semiconductor technologies, including advancements in semiconductor device and circuit design, semiconductor device, semiconductor material and device.",
+    "concept_type": "family_system"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 170,
+    "max_depth": 4,
+    "leaf_topics": 127
+  },
+  "rising_topics": [
+    {
+      "id": "sg-band-gap",
+      "label": "Band gap",
+      "url": "/domains/semiconductor/topics/sg-band-gap",
+      "trend": "rising",
+      "year_total": 1105427
+    },
+    {
+      "id": "sg-solar-cell",
+      "label": "Solar cells",
+      "url": "/domains/semiconductor/topics/sg-solar-cell",
+      "trend": "rising",
+      "year_total": 827478
+    },
+    {
+      "id": "sg-semiconductor-quantum-dots",
+      "label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots",
+      "trend": "rising",
+      "year_total": 142496
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-overview",
+      "label": "Overview",
+      "url": "/domains/semiconductor/topics/sg-overview",
+      "paper_count": 6,
+      "subtopic_count": 0,
+      "trend": "stable",
+      "summary": "entities: nanotechnology, semiconductor, optoelectronics",
+      "tags": [
+        "overview",
+        "survey",
+        "perspective",
+        "roadmap"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2029699094",
+          "title": "A Survey of Wide Bandgap Power Semiconductor Devices",
+          "year": "2013",
+          "cited_by_count": 2474,
+          "url": "/domains/semiconductor/papers/W2029699094"
+        },
+        {
+          "source_id": "https://openalex.org/W2063132420",
+          "title": "An overview of semiconductor photocatalysis",
+          "year": "1997",
+          "cited_by_count": 3634,
+          "url": "/domains/semiconductor/papers/W2063132420"
+        },
+        {
+          "source_id": "https://openalex.org/W2168172378",
+          "title": "Perspectives on the Physical Chemistry of Semiconductor Nanocrystals",
+          "year": "1996",
+          "cited_by_count": 3565,
+          "url": "/domains/semiconductor/papers/W2168172378"
+        }
+      ]
+    },
+    {
+      "id": "sg-band-gap",
+      "label": "Band gap",
+      "url": "/domains/semiconductor/topics/sg-band-gap",
+      "paper_count": 102,
+      "subtopic_count": 12,
+      "trend": "rising",
+      "summary": "entities: semiconductor, optoelectronics, nanotechnology",
+      "tags": [
+        "2d semiconductor",
+        "band gap",
+        "band gap energy",
+        "compound semiconductor"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-band-gap-electric-power-generation",
+          "label": "Electric power generation",
+          "url": "/domains/semiconductor/topics/sg-band-gap-electric-power-generation",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-band-gap-electron-mobility",
+          "label": "Electron mobility",
+          "url": "/domains/semiconductor/topics/sg-band-gap-electron-mobility",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-band-gap-electronic-band-structure",
+          "label": "Electronic band structure",
+          "url": "/domains/semiconductor/topics/sg-band-gap-electronic-band-structure",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-band-gap-silicon-carbide",
+          "label": "Silicon carbide",
+          "url": "/domains/semiconductor/topics/sg-band-gap-silicon-carbide",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-band-gap-hall-effect",
+          "label": "Hall effect",
+          "url": "/domains/semiconductor/topics/sg-band-gap-hall-effect",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-band-gap-black-phosphorus",
+          "label": "Black phosphorus",
+          "url": "/domains/semiconductor/topics/sg-band-gap-black-phosphorus",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2105685140",
+          "title": "The electronic properties of graphene",
+          "year": "2009",
+          "cited_by_count": 24439,
+          "url": "/domains/semiconductor/papers/W2105685140"
+        },
+        {
+          "source_id": "https://openalex.org/W2125284466",
+          "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+          "year": "2005",
+          "cited_by_count": 21348,
+          "url": "/domains/semiconductor/papers/W2125284466"
+        },
+        {
+          "source_id": "https://openalex.org/W2021994802",
+          "title": "Single-layer MoS2 transistors",
+          "year": "2011",
+          "cited_by_count": 14680,
+          "url": "/domains/semiconductor/papers/W2021994802"
+        }
+      ]
+    },
+    {
+      "id": "sg-solar-cell",
+      "label": "Solar cells",
+      "url": "/domains/semiconductor/topics/sg-solar-cell",
+      "paper_count": 78,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "entities: optoelectronics, nanotechnology, solar",
+      "tags": [
+        "chalcogenide semiconductor thin films",
+        "dye-sensitized solar cells",
+        "perovskite solar",
+        "perovskite solar cells"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-solar-cells-organic-solar",
+          "label": "Organic solar",
+          "url": "/domains/semiconductor/topics/sg-solar-cells-organic-solar",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-solar-cells-perovskite-solar-cell",
+          "label": "Perovskite solar cell",
+          "url": "/domains/semiconductor/topics/sg-solar-cells-perovskite-solar-cell",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-solar-cells-tio2-photocatalysis-solar-cells",
+          "label": "Tio2 photocatalysis solar cells",
+          "url": "/domains/semiconductor/topics/sg-solar-cells-tio2-photocatalysis-solar-cells",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-solar-cells-plastic-solar",
+          "label": "Plastic solar",
+          "url": "/domains/semiconductor/topics/sg-solar-cells-plastic-solar",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-solar-cells-dye-sensitized-solar",
+          "label": "Dye-sensitized solar",
+          "url": "/domains/semiconductor/topics/sg-solar-cells-dye-sensitized-solar",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-solar-cells-solar-cell-efficiency",
+          "label": "Solar cell efficiency",
+          "url": "/domains/semiconductor/topics/sg-solar-cells-solar-cell-efficiency",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2057327293",
+          "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+          "year": "2009",
+          "cited_by_count": 22316,
+          "url": "/domains/semiconductor/papers/W2057327293"
+        },
+        {
+          "source_id": "https://openalex.org/W2042492216",
+          "title": "Electrochemical Photolysis of Water at a Semiconductor Electrode",
+          "year": "1972",
+          "cited_by_count": 33349,
+          "url": "/domains/semiconductor/papers/W2042492216"
+        },
+        {
+          "source_id": "https://openalex.org/W2150399639",
+          "title": "A metal-free polymeric photocatalyst for hydrogen production from water under visible light",
+          "year": "2008",
+          "cited_by_count": 12235,
+          "url": "/domains/semiconductor/papers/W2150399639"
+        }
+      ]
+    },
+    {
+      "id": "sg-semiconductor-quantum-dots",
+      "label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots",
+      "paper_count": 60,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: semiconductor, nanotechnology, quantum dot",
+      "tags": [
+        "cancer cell",
+        "cells. semiconductor nanocrystals",
+        "coupled quantum dots",
+        "quantum dot"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-semiconductor-quantum-dots-optical-electronic-property",
+          "label": "Optical electronic property",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots-optical-electronic-property",
+          "paper_count": 29
+        },
+        {
+          "id": "sg-semiconductor-quantum-dots-cadmium-sulfide-quantum-dots",
+          "label": "Cadmium sulfide quantum dots",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots-cadmium-sulfide-quantum-dots",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-semiconductor-quantum-dots-carbon-quantum-dots",
+          "label": "Carbon quantum dots",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots-carbon-quantum-dots",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-semiconductor-quantum-dots-coupled-quantum-dots",
+          "label": "Coupled quantum dots",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots-coupled-quantum-dots",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-semiconductor-quantum-dots-nanocrystal-quantum-dots",
+          "label": "Nanocrystal quantum dots",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots-nanocrystal-quantum-dots",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-semiconductor-quantum-dots-quantum-dot-bioconjugates",
+          "label": "Quantum dot bioconjugates",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-quantum-dots-quantum-dot-bioconjugates",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2014935324",
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39237,
+          "url": "/domains/semiconductor/papers/W2014935324"
+        },
+        {
+          "source_id": "https://openalex.org/W2110540540",
+          "title": "Environmental Applications of Semiconductor Photocatalysis",
+          "year": "1995",
+          "cited_by_count": 18236,
+          "url": "/domains/semiconductor/papers/W2110540540"
+        },
+        {
+          "source_id": "https://openalex.org/W2154321074",
+          "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+          "year": "2005",
+          "cited_by_count": 7704,
+          "url": "/domains/semiconductor/papers/W2154321074"
+        }
+      ]
+    },
+    {
+      "id": "sg-semiconductor-device",
+      "label": "Semiconductor device",
+      "url": "/domains/semiconductor/topics/sg-semiconductor-device",
+      "paper_count": 57,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: optoelectronics, semiconductor, nanotechnology",
+      "tags": [
+        "physics of semiconductor",
+        "physics of semiconductor device",
+        "power semiconductor",
+        "power semiconductor device"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-semiconductor-device-density-functional-theory",
+          "label": "Density functional theory",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-device-density-functional-theory",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-semiconductor-device-electronic-structure",
+          "label": "Electronic structure",
+          "url": "/domains/semiconductor/topics/sg-semiconductor-device-electronic-structure",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2007395042",
+          "title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+          "year": "1996",
+          "cited_by_count": 73350,
+          "url": "/domains/semiconductor/papers/W2007395042"
+        },
+        {
+          "source_id": "https://openalex.org/W2115786064",
+          "title": "Electronics and optoelectronics of two-dimensional transition metal dichalcogenides",
+          "year": "2012",
+          "cited_by_count": 15946,
+          "url": "/domains/semiconductor/papers/W2115786064"
+        },
+        {
+          "source_id": "https://openalex.org/W3021238137",
+          "title": "The Physics of Semiconductor Devices",
+          "year": "2024",
+          "cited_by_count": 4051,
+          "url": "/domains/semiconductor/papers/W3021238137"
+        }
+      ]
+    },
+    {
+      "id": "sg-organic-semiconductor",
+      "label": "Organic semiconductor",
+      "url": "/domains/semiconductor/topics/sg-organic-semiconductor",
+      "paper_count": 34,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: semiconductor, nanotechnology, optoelectronics",
+      "tags": [
+        "molecule organic semiconductors",
+        "organic electronics",
+        "organic field-effect transistor",
+        "organic semiconductor"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-organic-semiconductor-organic-electronics",
+          "label": "Organic electronics",
+          "url": "/domains/semiconductor/topics/sg-organic-semiconductor-organic-electronics",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-organic-semiconductor-organic-electronics-and-photovoltaics",
+          "label": "Organic electronics and photovoltaics",
+          "url": "/domains/semiconductor/topics/sg-organic-semiconductor-organic-electronics-and-photovoltaics",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-organic-semiconductor-organic-light-emitting-diodes",
+          "label": "Organic light-emitting diodes",
+          "url": "/domains/semiconductor/topics/sg-organic-semiconductor-organic-light-emitting-diodes",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-organic-semiconductor-organic-semiconductors",
+          "label": "Organic semiconductors",
+          "url": "/domains/semiconductor/topics/sg-organic-semiconductor-organic-semiconductors",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-organic-semiconductor-conjugated-polymers",
+          "label": "Conjugated polymers",
+          "url": "/domains/semiconductor/topics/sg-organic-semiconductor-conjugated-polymers",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-organic-semiconductor-enhanced-organic-semiconductors",
+          "label": "Enhanced organic semiconductors",
+          "url": "/domains/semiconductor/topics/sg-organic-semiconductor-enhanced-organic-semiconductors",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2011899447",
+          "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+          "year": "2013",
+          "cited_by_count": 9667,
+          "url": "/domains/semiconductor/papers/W2011899447"
+        },
+        {
+          "source_id": "https://openalex.org/W2627001981",
+          "title": "2D transition metal dichalcogenides",
+          "year": "2017",
+          "cited_by_count": 5762,
+          "url": "/domains/semiconductor/papers/W2627001981"
+        },
+        {
+          "source_id": "https://openalex.org/W1999589524",
+          "title": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+          "year": "2004",
+          "cited_by_count": 7340,
+          "url": "/domains/semiconductor/papers/W1999589524"
+        }
+      ]
+    },
+    {
+      "id": "sg-light-emitting-diode",
+      "label": "Light-emitting diode",
+      "url": "/domains/semiconductor/topics/sg-light-emitting-diode",
+      "paper_count": 24,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: optoelectronics, light, nanotechnology",
+      "tags": [
+        "bright light-emitting diode",
+        "gan-based semiconductor device and material",
+        "light emission",
+        "light-emitting diode"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-light-emitting-diode-light-emission",
+          "label": "Light emission",
+          "url": "/domains/semiconductor/topics/sg-light-emitting-diode-light-emission",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-light-emitting-diode-cadmium-selenide-nanocrystals",
+          "label": "Cadmium selenide nanocrystals",
+          "url": "/domains/semiconductor/topics/sg-light-emitting-diode-cadmium-selenide-nanocrystals",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-light-emitting-diode-perovskite-light-emitting",
+          "label": "Perovskite light-emitting",
+          "url": "/domains/semiconductor/topics/sg-light-emitting-diode-perovskite-light-emitting",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-light-emitting-diode-phosphorescent-organic-light-emitting-diode",
+          "label": "Phosphorescent organic light-emitting diode",
+          "url": "/domains/semiconductor/topics/sg-light-emitting-diode-phosphorescent-organic-light-emitting-diode",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-light-emitting-diode-solid-state-lighting",
+          "label": "Solid-state lighting",
+          "url": "/domains/semiconductor/topics/sg-light-emitting-diode-solid-state-lighting",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2150702843",
+          "title": "Highly efficient organic light-emitting diodes from delayed fluorescence",
+          "year": "2012",
+          "cited_by_count": 7951,
+          "url": "/domains/semiconductor/papers/W2150702843"
+        },
+        {
+          "source_id": "https://openalex.org/W3023854223",
+          "title": "Light-emitting diodes based on conjugated polymers",
+          "year": "1990",
+          "cited_by_count": 11338,
+          "url": "/domains/semiconductor/papers/W3023854223"
+        },
+        {
+          "source_id": "https://openalex.org/W2025669689",
+          "title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+          "year": "1993",
+          "cited_by_count": 9119,
+          "url": "/domains/semiconductor/papers/W2025669689"
+        }
+      ]
+    },
+    {
+      "id": "sg-transition-metal",
+      "label": "Transition metals",
+      "url": "/domains/semiconductor/topics/sg-transition-metal",
+      "paper_count": 12,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: semiconductor, metal, electron",
+      "tags": [
+        "functionalized transition metal",
+        "monolayer transition metal",
+        "transition metal",
+        "transition metal complexes"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-transition-metals-mxene-and-max-phase-materials",
+          "label": "MXene and MAX phase materials",
+          "url": "/domains/semiconductor/topics/sg-transition-metals-mxene-and-max-phase-materials",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-transition-metals-exfoliation-joint",
+          "label": "Exfoliation joint",
+          "url": "/domains/semiconductor/topics/sg-transition-metals-exfoliation-joint",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-transition-metal-density-functional-theory",
+          "label": "Density functional theory",
+          "url": "/domains/semiconductor/topics/sg-transition-metal-density-functional-theory",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-transition-metal-electronic-property",
+          "label": "Electronic property",
+          "url": "/domains/semiconductor/topics/sg-transition-metal-electronic-property",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-transition-metals-two-dimensional-transition-metals",
+          "label": "Two-dimensional transition metals",
+          "url": "/domains/semiconductor/topics/sg-transition-metals-two-dimensional-transition-metals",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2043365391",
+          "title": "Electronic properties of two-dimensional systems",
+          "year": "1982",
+          "cited_by_count": 7397,
+          "url": "/domains/semiconductor/papers/W2043365391"
+        },
+        {
+          "source_id": "https://openalex.org/W2899246795",
+          "title": "‘Green’ synthesis of metals and their oxide nanoparticles: applications for environmental remediation",
+          "year": "2018",
+          "cited_by_count": 2514,
+          "url": "/domains/semiconductor/papers/W2899246795"
+        },
+        {
+          "source_id": "https://openalex.org/W2157609259",
+          "title": "Optical properties of metallic films for vertical-cavity optoelectronic devices",
+          "year": "1998",
+          "cited_by_count": 4200,
+          "url": "/domains/semiconductor/papers/W2157609259"
+        }
+      ]
+    },
+    {
+      "id": "sg-field-effect-transistor",
+      "label": "Field-effect transistors",
+      "url": "/domains/semiconductor/topics/sg-field-effect-transistor",
+      "paper_count": 8,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: optoelectronics, semiconductor, nanotechnology",
+      "tags": [
+        "2d semiconductor",
+        "carbon nanotube field-effect transistor",
+        "field-effect transistor",
+        "integrated circuit"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-field-effect-transistors-subthreshold-slope",
+          "label": "Subthreshold slope",
+          "url": "/domains/semiconductor/topics/sg-field-effect-transistors-subthreshold-slope",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-field-effect-transistor-electron-mobility",
+          "label": "Electron mobility",
+          "url": "/domains/semiconductor/topics/sg-field-effect-transistor-electron-mobility",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-field-effect-transistors-integrated-circuits",
+          "label": "Integrated circuits",
+          "url": "/domains/semiconductor/topics/sg-field-effect-transistors-integrated-circuits",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-field-effect-transistors-optical-properties-of-carbon-nanotubes",
+          "label": "Optical properties of carbon nanotubes",
+          "url": "/domains/semiconductor/topics/sg-field-effect-transistors-optical-properties-of-carbon-nanotubes",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W378256193",
+          "title": "Amorphous and Liquid Semiconductors",
+          "year": "1974",
+          "cited_by_count": 6351,
+          "url": "/domains/semiconductor/papers/W378256193"
+        },
+        {
+          "source_id": "https://openalex.org/W2032197740",
+          "title": "Tunnel field-effect transistors as energy-efficient electronic switches",
+          "year": "2011",
+          "cited_by_count": 2874,
+          "url": "/domains/semiconductor/papers/W2032197740"
+        },
+        {
+          "source_id": "https://openalex.org/W2119378720",
+          "title": "Nanowire transistors without junctions",
+          "year": "2010",
+          "cited_by_count": 2350,
+          "url": "/domains/semiconductor/papers/W2119378720"
+        }
+      ]
+    },
+    {
+      "id": "sg-thin-film",
+      "label": "Thin films",
+      "url": "/domains/semiconductor/topics/sg-thin-film",
+      "paper_count": 5,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: thin film, nanotechnology, film",
+      "tags": [
+        "chalcogenide semiconductor thin films",
+        "oxide semiconductor",
+        "perovskite solar",
+        "planar-heterojunction solar cells"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-thin-films-thin-films",
+          "label": "Thin films",
+          "url": "/domains/semiconductor/topics/sg-thin-films-thin-films",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-thin-film-molecular-beam-epitaxy",
+          "label": "Molecular beam epitaxy",
+          "url": "/domains/semiconductor/topics/sg-thin-film-molecular-beam-epitaxy",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-thin-film-topological-insulator",
+          "label": "Topological insulator",
+          "url": "/domains/semiconductor/topics/sg-thin-film-topological-insulator",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1965741196",
+          "title": "Generic New Platform for Topological Quantum Computation Using Semiconductor Heterostructures",
+          "year": "2010",
+          "cited_by_count": 1926,
+          "url": "/domains/semiconductor/papers/W1965741196"
+        },
+        {
+          "source_id": "https://openalex.org/W2031985211",
+          "title": "Germanene: a novel two-dimensional germanium allotrope akin to graphene and silicene",
+          "year": "2014",
+          "cited_by_count": 1579,
+          "url": "/domains/semiconductor/papers/W2031985211"
+        },
+        {
+          "source_id": "https://openalex.org/W2119751781",
+          "title": "Crossover of the three-dimensional topological insulator Bi2Se3 to the two-dimensional limit",
+          "year": "2010",
+          "cited_by_count": 1444,
+          "url": "/domains/semiconductor/papers/W2119751781"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Band gap",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "The electronic properties of graphene",
+          "year": "2009",
+          "cited_by_count": 24439,
+          "topic": "Band gap",
+          "url": "papers/https-openalex-org-w2105685140.html"
+        },
+        {
+          "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+          "year": "2005",
+          "cited_by_count": 21348,
+          "topic": "Band gap",
+          "url": "papers/https-openalex-org-w2125284466.html"
+        },
+        {
+          "title": "Single-layer MoS2 transistors",
+          "year": "2011",
+          "cited_by_count": 14680,
+          "topic": "Band gap",
+          "url": "papers/https-openalex-org-w2021994802.html"
+        },
+        {
+          "title": "Atomically Thin &lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt; &lt;mml:msub&gt; &lt;mml:mi&gt;MoS&lt;/mml:mi&gt; &lt;mml:mn&gt;2&lt;/mml:mn&gt; &lt;/mml:msub&gt; &lt;/mml:math&gt; : A New Direct-Gap Semiconductor",
+          "year": "2010",
+          "cited_by_count": 15019,
+          "topic": "Band gap",
+          "url": "papers/https-openalex-org-w2017871657.html"
+        },
+        {
+          "title": "Experimental observation of the quantum Hall effect and Berry&#x27;s phase in graphene",
+          "year": "2005",
+          "cited_by_count": 13392,
+          "topic": "Band gap",
+          "url": "papers/https-openalex-org-w2118492507.html"
+        },
+        {
+          "title": "Semiconductor Clusters, Nanocrystals, and Quantum Dots",
+          "year": "1996",
+          "cited_by_count": 11367,
+          "topic": "Band gap",
+          "url": "papers/https-openalex-org-w2123605247.html"
+        }
+      ]
+    },
+    {
+      "label": "Solar cells",
+      "paper_count": 10,
+      "papers": [
+        {
+          "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+          "year": "2009",
+          "cited_by_count": 22316,
+          "topic": "Solar cells",
+          "url": "papers/https-openalex-org-w2057327293.html"
+        },
+        {
+          "title": "Electrochemical Photolysis of Water at a Semiconductor Electrode",
+          "year": "1972",
+          "cited_by_count": 33349,
+          "topic": "Solar cells",
+          "url": "papers/https-openalex-org-w2042492216.html"
+        },
+        {
+          "title": "A metal-free polymeric photocatalyst for hydrogen production from water under visible light",
+          "year": "2008",
+          "cited_by_count": 12235,
+          "topic": "Solar cells",
+          "url": "papers/https-openalex-org-w2150399639.html"
+        },
+        {
+          "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX&lt;sub&gt;3&lt;/sub&gt;, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+          "year": "2015",
+          "cited_by_count": 8833,
+          "topic": "Solar cells",
+          "url": "papers/https-openalex-org-w1963721320.html"
+        },
+        {
+          "title": "Efficient planar heterojunction perovskite solar cells by vapour deposition",
+          "year": "2013",
+          "cited_by_count": 7862,
+          "topic": "Solar cells",
+          "url": "papers/https-openalex-org-w2144574847.html"
+        },
+        {
+          "title": "Single-Junction Organic Solar Cell with over 15% Efficiency Using Fused-Ring Acceptor with Electron-Deficient Core",
+          "year": "2019",
+          "cited_by_count": 5619,
+          "topic": "Solar cells",
+          "url": "papers/https-openalex-org-w2909990379.html"
+        }
+      ]
+    },
+    {
+      "label": "Semiconductor device",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+          "year": "1996",
+          "cited_by_count": 73350,
+          "topic": "Semiconductor device",
+          "url": "papers/https-openalex-org-w2007395042.html"
+        },
+        {
+          "title": "Electronics and optoelectronics of two-dimensional transition metal dichalcogenides",
+          "year": "2012",
+          "cited_by_count": 15946,
+          "topic": "Semiconductor device",
+          "url": "papers/https-openalex-org-w2115786064.html"
+        },
+        {
+          "title": "The Physics of Semiconductor Devices",
+          "year": "2024",
+          "cited_by_count": 4051,
+          "topic": "Semiconductor device",
+          "url": "papers/https-openalex-org-w3021238137.html"
+        },
+        {
+          "title": "Physics of Semiconductor Devices",
+          "year": "2002",
+          "cited_by_count": 14030,
+          "topic": "Semiconductor device",
+          "url": "papers/https-openalex-org-w3147289055.html"
+        },
+        {
+          "title": "Physics of Semiconductor Devices",
+          "year": "2006",
+          "cited_by_count": 12713,
+          "topic": "Semiconductor device",
+          "url": "papers/https-openalex-org-w2490765418.html"
+        },
+        {
+          "title": "Carbon Nanotubes--the Route Toward Applications",
+          "year": "2002",
+          "cited_by_count": 10189,
+          "topic": "Semiconductor device",
+          "url": "papers/https-openalex-org-w2094963548.html"
+        }
+      ]
+    },
+    {
+      "label": "Semiconductor quantum dots",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39237,
+          "topic": "Semiconductor quantum dots",
+          "url": "papers/https-openalex-org-w2014935324.html"
+        },
+        {
+          "title": "Environmental Applications of Semiconductor Photocatalysis",
+          "year": "1995",
+          "cited_by_count": 18236,
+          "topic": "Semiconductor quantum dots",
+          "url": "papers/https-openalex-org-w2110540540.html"
+        },
+        {
+          "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+          "year": "2005",
+          "cited_by_count": 7704,
+          "topic": "Semiconductor quantum dots",
+          "url": "papers/https-openalex-org-w2154321074.html"
+        },
+        {
+          "title": "Semiconductor Nanocrystals as Fluorescent Biological Labels",
+          "year": "1998",
+          "cited_by_count": 8569,
+          "topic": "Semiconductor quantum dots",
+          "url": "papers/https-openalex-org-w2062485439.html"
+        },
+        {
+          "title": "Carbon quantum dots and their applications",
+          "year": "2014",
+          "cited_by_count": 4763,
+          "topic": "Semiconductor quantum dots",
+          "url": "papers/https-openalex-org-w2136693699.html"
+        },
+        {
+          "title": "Quantum Dot Bioconjugates for Ultrasensitive Nonisotopic Detection",
+          "year": "1998",
+          "cited_by_count": 7231,
+          "topic": "Semiconductor quantum dots",
+          "url": "papers/https-openalex-org-w2094437628.html"
+        }
+      ]
+    },
+    {
+      "label": "Light-emitting diode",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Highly efficient organic light-emitting diodes from delayed fluorescence",
+          "year": "2012",
+          "cited_by_count": 7951,
+          "topic": "Light-emitting diode",
+          "url": "papers/https-openalex-org-w2150702843.html"
+        },
+        {
+          "title": "Light-emitting diodes based on conjugated polymers",
+          "year": "1990",
+          "cited_by_count": 11338,
+          "topic": "Light-emitting diode",
+          "url": "papers/https-openalex-org-w3023854223.html"
+        },
+        {
+          "title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+          "year": "1993",
+          "cited_by_count": 9119,
+          "topic": "Light-emitting diode",
+          "url": "papers/https-openalex-org-w2025669689.html"
+        }
+      ]
+    },
+    {
+      "label": "Organic semiconductor",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+          "year": "2013",
+          "cited_by_count": 9667,
+          "topic": "Organic semiconductor",
+          "url": "papers/https-openalex-org-w2011899447.html"
+        },
+        {
+          "title": "2D transition metal dichalcogenides",
+          "year": "2017",
+          "cited_by_count": 5762,
+          "topic": "Organic semiconductor",
+          "url": "papers/https-openalex-org-w2627001981.html"
+        },
+        {
+          "title": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+          "year": "2004",
+          "cited_by_count": 7340,
+          "topic": "Organic semiconductor",
+          "url": "papers/https-openalex-org-w1999589524.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2007395042",
+      "title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+      "year": 1996,
+      "cited_by_count": 73350,
+      "adjusted_cited_by_count": 13391.82,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W2007395042"
+    },
+    {
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39237,
+      "adjusted_cited_by_count": 9001.59,
+      "primary_topic_id": "sg-semiconductor-quantum-dots",
+      "primary_topic_label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2105685140",
+      "title": "The electronic properties of graphene",
+      "year": 2009,
+      "cited_by_count": 24439,
+      "adjusted_cited_by_count": 5927.33,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2105685140"
+    },
+    {
+      "source_id": "https://openalex.org/W2057327293",
+      "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+      "year": 2009,
+      "cited_by_count": 22316,
+      "adjusted_cited_by_count": 5412.43,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2057327293"
+    },
+    {
+      "source_id": "https://openalex.org/W2125284466",
+      "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+      "year": 2005,
+      "cited_by_count": 21348,
+      "adjusted_cited_by_count": 4658.52,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2125284466"
+    },
+    {
+      "source_id": "https://openalex.org/W2042492216",
+      "title": "Electrochemical Photolysis of Water at a Semiconductor Electrode",
+      "year": 1972,
+      "cited_by_count": 33349,
+      "adjusted_cited_by_count": 4538.22,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2042492216"
+    },
+    {
+      "source_id": "https://openalex.org/W2115786064",
+      "title": "Electronics and optoelectronics of two-dimensional transition metal dichalcogenides",
+      "year": 2012,
+      "cited_by_count": 15946,
+      "adjusted_cited_by_count": 4261.75,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W2115786064"
+    },
+    {
+      "source_id": "https://openalex.org/W3021238137",
+      "title": "The Physics of Semiconductor Devices",
+      "year": 2024,
+      "cited_by_count": 4051,
+      "adjusted_cited_by_count": 4051.0,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W3021238137"
+    },
+    {
+      "source_id": "https://openalex.org/W2021994802",
+      "title": "Single-layer MoS2 transistors",
+      "year": 2011,
+      "cited_by_count": 14680,
+      "adjusted_cited_by_count": 3790.36,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2021994802"
+    },
+    {
+      "source_id": "https://openalex.org/W2017871657",
+      "title": "Atomically Thin <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mi>MoS</mml:mi> <mml:mn>2</mml:mn> </mml:msub> </mml:math> : A New Direct-Gap Semiconductor",
+      "year": 2010,
+      "cited_by_count": 15019,
+      "adjusted_cited_by_count": 3754.75,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2017871657"
+    },
+    {
+      "source_id": "https://openalex.org/W2110540540",
+      "title": "Environmental Applications of Semiconductor Photocatalysis",
+      "year": 1995,
+      "cited_by_count": 18236,
+      "adjusted_cited_by_count": 3275.28,
+      "primary_topic_id": "sg-semiconductor-quantum-dots",
+      "primary_topic_label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/papers/W2110540540"
+    },
+    {
+      "source_id": "https://openalex.org/W2118492507",
+      "title": "Experimental observation of the quantum Hall effect and Berry's phase in graphene",
+      "year": 2005,
+      "cited_by_count": 13392,
+      "adjusted_cited_by_count": 2922.37,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2118492507"
+    },
+    {
+      "source_id": "https://openalex.org/W2150399639",
+      "title": "A metal-free polymeric photocatalyst for hydrogen production from water under visible light",
+      "year": 2008,
+      "cited_by_count": 12235,
+      "adjusted_cited_by_count": 2883.82,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2150399639"
+    },
+    {
+      "source_id": "https://openalex.org/W3147289055",
+      "title": "Physics of Semiconductor Devices",
+      "year": 2002,
+      "cited_by_count": 14030,
+      "adjusted_cited_by_count": 2863.86,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W3147289055"
+    },
+    {
+      "source_id": "https://openalex.org/W2490765418",
+      "title": "Physics of Semiconductor Devices",
+      "year": 2006,
+      "cited_by_count": 12713,
+      "adjusted_cited_by_count": 2842.71,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W2490765418"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9667,
+      "adjusted_cited_by_count": 2681.14,
+      "primary_topic_id": "sg-organic-semiconductor",
+      "primary_topic_label": "Organic semiconductor",
+      "url": "/domains/semiconductor/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W1963721320",
+      "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX<sub>3</sub>, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+      "year": 2015,
+      "cited_by_count": 8833,
+      "adjusted_cited_by_count": 2663.25,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W1963721320"
+    },
+    {
+      "source_id": "https://openalex.org/W2144574847",
+      "title": "Efficient planar heterojunction perovskite solar cells by vapour deposition",
+      "year": 2013,
+      "cited_by_count": 7862,
+      "adjusted_cited_by_count": 2180.53,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2144574847"
+    },
+    {
+      "source_id": "https://openalex.org/W2150702843",
+      "title": "Highly efficient organic light-emitting diodes from delayed fluorescence",
+      "year": 2012,
+      "cited_by_count": 7951,
+      "adjusted_cited_by_count": 2124.99,
+      "primary_topic_id": "sg-light-emitting-diode",
+      "primary_topic_label": "Light-emitting diode",
+      "url": "/domains/semiconductor/papers/W2150702843"
+    },
+    {
+      "source_id": "https://openalex.org/W2909990379",
+      "title": "Single-Junction Organic Solar Cell with over 15% Efficiency Using Fused-Ring Acceptor with Electron-Deficient Core",
+      "year": 2019,
+      "cited_by_count": 5619,
+      "adjusted_cited_by_count": 2123.78,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2909990379"
+    },
+    {
+      "source_id": "https://openalex.org/W2094963548",
+      "title": "Carbon Nanotubes--the Route Toward Applications",
+      "year": 2002,
+      "cited_by_count": 10189,
+      "adjusted_cited_by_count": 2079.82,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W2094963548"
+    },
+    {
+      "source_id": "https://openalex.org/W2123605247",
+      "title": "Semiconductor Clusters, Nanocrystals, and Quantum Dots",
+      "year": 1996,
+      "cited_by_count": 11367,
+      "adjusted_cited_by_count": 2075.32,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2123605247"
+    },
+    {
+      "source_id": "https://openalex.org/W2627001981",
+      "title": "2D transition metal dichalcogenides",
+      "year": 2017,
+      "cited_by_count": 5762,
+      "adjusted_cited_by_count": 1920.67,
+      "primary_topic_id": "sg-organic-semiconductor",
+      "primary_topic_label": "Organic semiconductor",
+      "url": "/domains/semiconductor/papers/W2627001981"
+    },
+    {
+      "source_id": "https://openalex.org/W3023854223",
+      "title": "Light-emitting diodes based on conjugated polymers",
+      "year": 1990,
+      "cited_by_count": 11338,
+      "adjusted_cited_by_count": 1889.67,
+      "primary_topic_id": "sg-light-emitting-diode",
+      "primary_topic_label": "Light-emitting diode",
+      "url": "/domains/semiconductor/papers/W3023854223"
+    },
+    {
+      "source_id": "https://openalex.org/W2150315430",
+      "title": "Phosphorene: An Unexplored 2D Semiconductor with a High Hole Mobility",
+      "year": 2014,
+      "cited_by_count": 6412,
+      "adjusted_cited_by_count": 1850.98,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2150315430"
+    },
+    {
+      "source_id": "https://openalex.org/W2071134066",
+      "title": "Polymer Photovoltaic Cells: Enhanced Efficiencies via a Network of Internal Donor-Acceptor Heterojunctions",
+      "year": 1995,
+      "cited_by_count": 10278,
+      "adjusted_cited_by_count": 1845.98,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2071134066"
+    },
+    {
+      "source_id": "https://openalex.org/W2787584289",
+      "title": "Correlated insulator behaviour at half-filling in magic-angle graphene superlattices",
+      "year": 2018,
+      "cited_by_count": 4793,
+      "adjusted_cited_by_count": 1694.58,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W2787584289"
+    },
+    {
+      "source_id": "https://openalex.org/W2154321074",
+      "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+      "year": 2005,
+      "cited_by_count": 7704,
+      "adjusted_cited_by_count": 1681.15,
+      "primary_topic_id": "sg-semiconductor-quantum-dots",
+      "primary_topic_label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/papers/W2154321074"
+    },
+    {
+      "source_id": "https://openalex.org/W2902386805",
+      "title": "How To Correctly Determine the Band Gap Energy of Modified Semiconductor Photocatalysts Based on UV–Vis Spectra",
+      "year": 2018,
+      "cited_by_count": 4646,
+      "adjusted_cited_by_count": 1642.61,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2902386805"
+    },
+    {
+      "source_id": "https://openalex.org/W2062485439",
+      "title": "Semiconductor Nanocrystals as Fluorescent Biological Labels",
+      "year": 1998,
+      "cited_by_count": 8569,
+      "adjusted_cited_by_count": 1619.39,
+      "primary_topic_id": "sg-semiconductor-quantum-dots",
+      "primary_topic_label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/papers/W2062485439"
+    },
+    {
+      "source_id": "https://openalex.org/W3027308092",
+      "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations",
+      "year": 2020,
+      "cited_by_count": 3902,
+      "adjusted_cited_by_count": 1592.98,
+      "primary_topic_id": "sg-semiconductor-device",
+      "primary_topic_label": "Semiconductor device",
+      "url": "/domains/semiconductor/papers/W3027308092"
+    },
+    {
+      "source_id": "https://openalex.org/W1677747913",
+      "title": "Design and synthesis of an exceptionally stable and highly porous metal-organic framework",
+      "year": 1999,
+      "cited_by_count": 8273,
+      "adjusted_cited_by_count": 1592.14,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W1677747913"
+    },
+    {
+      "source_id": "https://openalex.org/W2025669689",
+      "title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+      "year": 1993,
+      "cited_by_count": 9119,
+      "adjusted_cited_by_count": 1587.41,
+      "primary_topic_id": "sg-light-emitting-diode",
+      "primary_topic_label": "Light-emitting diode",
+      "url": "/domains/semiconductor/papers/W2025669689"
+    },
+    {
+      "source_id": "https://openalex.org/W1999589524",
+      "title": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+      "year": 2004,
+      "cited_by_count": 7340,
+      "adjusted_cited_by_count": 1564.89,
+      "primary_topic_id": "sg-organic-semiconductor",
+      "primary_topic_label": "Organic semiconductor",
+      "url": "/domains/semiconductor/papers/W1999589524"
+    },
+    {
+      "source_id": "https://openalex.org/W2032843489",
+      "title": "Zener Model Description of Ferromagnetism in Zinc-Blende Magnetic Semiconductors",
+      "year": 2000,
+      "cited_by_count": 7677,
+      "adjusted_cited_by_count": 1505.58,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W2032843489"
+    },
+    {
+      "source_id": "https://openalex.org/W2136693699",
+      "title": "Carbon quantum dots and their applications",
+      "year": 2014,
+      "cited_by_count": 4763,
+      "adjusted_cited_by_count": 1374.96,
+      "primary_topic_id": "sg-semiconductor-quantum-dots",
+      "primary_topic_label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/papers/W2136693699"
+    },
+    {
+      "source_id": "https://openalex.org/W1969314684",
+      "title": "Ultrasensitive photodetectors based on monolayer MoS2",
+      "year": 2013,
+      "cited_by_count": 4952,
+      "adjusted_cited_by_count": 1373.44,
+      "primary_topic_id": "sg-band-gap",
+      "primary_topic_label": "Band gap",
+      "url": "/domains/semiconductor/papers/W1969314684"
+    },
+    {
+      "source_id": "https://openalex.org/W2094437628",
+      "title": "Quantum Dot Bioconjugates for Ultrasensitive Nonisotopic Detection",
+      "year": 1998,
+      "cited_by_count": 7231,
+      "adjusted_cited_by_count": 1366.53,
+      "primary_topic_id": "sg-semiconductor-quantum-dots",
+      "primary_topic_label": "Semiconductor quantum dots",
+      "url": "/domains/semiconductor/papers/W2094437628"
+    },
+    {
+      "source_id": "https://openalex.org/W3147596910",
+      "title": "Pseudo-halide anion engineering for α-FAPbI3 perovskite solar cells",
+      "year": 2021,
+      "cited_by_count": 3011,
+      "adjusted_cited_by_count": 1346.56,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W3147596910"
+    },
+    {
+      "source_id": "https://openalex.org/W2131491403",
+      "title": "Recent developments in photocatalytic water treatment technology: A review",
+      "year": 2010,
+      "cited_by_count": 5158,
+      "adjusted_cited_by_count": 1289.5,
+      "primary_topic_id": "sg-solar-cell",
+      "primary_topic_label": "Solar cells",
+      "url": "/domains/semiconductor/papers/W2131491403"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2007395042",
+      "title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+      "year": 1996,
+      "cited_by_count": 73350,
+      "adjusted_cited_by_count": 13391.82,
+      "url": "/domains/semiconductor/papers/W2007395042"
+    },
+    {
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39237,
+      "adjusted_cited_by_count": 9001.59,
+      "url": "/domains/semiconductor/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2105685140",
+      "title": "The electronic properties of graphene",
+      "year": 2009,
+      "cited_by_count": 24439,
+      "adjusted_cited_by_count": 5927.33,
+      "url": "/domains/semiconductor/papers/W2105685140"
+    },
+    {
+      "source_id": "https://openalex.org/W2057327293",
+      "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+      "year": 2009,
+      "cited_by_count": 22316,
+      "adjusted_cited_by_count": 5412.43,
+      "url": "/domains/semiconductor/papers/W2057327293"
+    },
+    {
+      "source_id": "https://openalex.org/W2125284466",
+      "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+      "year": 2005,
+      "cited_by_count": 21348,
+      "adjusted_cited_by_count": 4658.52,
+      "url": "/domains/semiconductor/papers/W2125284466"
+    },
+    {
+      "source_id": "https://openalex.org/W2042492216",
+      "title": "Electrochemical Photolysis of Water at a Semiconductor Electrode",
+      "year": 1972,
+      "cited_by_count": 33349,
+      "adjusted_cited_by_count": 4538.22,
+      "url": "/domains/semiconductor/papers/W2042492216"
+    },
+    {
+      "source_id": "https://openalex.org/W2115786064",
+      "title": "Electronics and optoelectronics of two-dimensional transition metal dichalcogenides",
+      "year": 2012,
+      "cited_by_count": 15946,
+      "adjusted_cited_by_count": 4261.75,
+      "url": "/domains/semiconductor/papers/W2115786064"
+    },
+    {
+      "source_id": "https://openalex.org/W3021238137",
+      "title": "The Physics of Semiconductor Devices",
+      "year": 2024,
+      "cited_by_count": 4051,
+      "adjusted_cited_by_count": 4051.0,
+      "url": "/domains/semiconductor/papers/W3021238137"
+    },
+    {
+      "source_id": "https://openalex.org/W2021994802",
+      "title": "Single-layer MoS2 transistors",
+      "year": 2011,
+      "cited_by_count": 14680,
+      "adjusted_cited_by_count": 3790.36,
+      "url": "/domains/semiconductor/papers/W2021994802"
+    },
+    {
+      "source_id": "https://openalex.org/W2017871657",
+      "title": "Atomically Thin <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mi>MoS</mml:mi> <mml:mn>2</mml:mn> </mml:msub> </mml:math> : A New Direct-Gap Semiconductor",
+      "year": 2010,
+      "cited_by_count": 15019,
+      "adjusted_cited_by_count": 3754.75,
+      "url": "/domains/semiconductor/papers/W2017871657"
+    },
+    {
+      "source_id": "https://openalex.org/W2110540540",
+      "title": "Environmental Applications of Semiconductor Photocatalysis",
+      "year": 1995,
+      "cited_by_count": 18236,
+      "adjusted_cited_by_count": 3275.28,
+      "url": "/domains/semiconductor/papers/W2110540540"
+    },
+    {
+      "source_id": "https://openalex.org/W2118492507",
+      "title": "Experimental observation of the quantum Hall effect and Berry's phase in graphene",
+      "year": 2005,
+      "cited_by_count": 13392,
+      "adjusted_cited_by_count": 2922.37,
+      "url": "/domains/semiconductor/papers/W2118492507"
+    },
+    {
+      "source_id": "https://openalex.org/W2150399639",
+      "title": "A metal-free polymeric photocatalyst for hydrogen production from water under visible light",
+      "year": 2008,
+      "cited_by_count": 12235,
+      "adjusted_cited_by_count": 2883.82,
+      "url": "/domains/semiconductor/papers/W2150399639"
+    },
+    {
+      "source_id": "https://openalex.org/W3147289055",
+      "title": "Physics of Semiconductor Devices",
+      "year": 2002,
+      "cited_by_count": 14030,
+      "adjusted_cited_by_count": 2863.86,
+      "url": "/domains/semiconductor/papers/W3147289055"
+    },
+    {
+      "source_id": "https://openalex.org/W2490765418",
+      "title": "Physics of Semiconductor Devices",
+      "year": 2006,
+      "cited_by_count": 12713,
+      "adjusted_cited_by_count": 2842.71,
+      "url": "/domains/semiconductor/papers/W2490765418"
+    },
+    {
+      "source_id": "https://openalex.org/W2011899447",
+      "title": "The chemistry of two-dimensional layered transition metal dichalcogenide nanosheets",
+      "year": 2013,
+      "cited_by_count": 9667,
+      "adjusted_cited_by_count": 2681.14,
+      "url": "/domains/semiconductor/papers/W2011899447"
+    },
+    {
+      "source_id": "https://openalex.org/W1963721320",
+      "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX<sub>3</sub>, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+      "year": 2015,
+      "cited_by_count": 8833,
+      "adjusted_cited_by_count": 2663.25,
+      "url": "/domains/semiconductor/papers/W1963721320"
+    },
+    {
+      "source_id": "https://openalex.org/W2144574847",
+      "title": "Efficient planar heterojunction perovskite solar cells by vapour deposition",
+      "year": 2013,
+      "cited_by_count": 7862,
+      "adjusted_cited_by_count": 2180.53,
+      "url": "/domains/semiconductor/papers/W2144574847"
+    },
+    {
+      "source_id": "https://openalex.org/W2150702843",
+      "title": "Highly efficient organic light-emitting diodes from delayed fluorescence",
+      "year": 2012,
+      "cited_by_count": 7951,
+      "adjusted_cited_by_count": 2124.99,
+      "url": "/domains/semiconductor/papers/W2150702843"
+    },
+    {
+      "source_id": "https://openalex.org/W2909990379",
+      "title": "Single-Junction Organic Solar Cell with over 15% Efficiency Using Fused-Ring Acceptor with Electron-Deficient Core",
+      "year": 2019,
+      "cited_by_count": 5619,
+      "adjusted_cited_by_count": 2123.78,
+      "url": "/domains/semiconductor/papers/W2909990379"
+    },
+    {
+      "source_id": "https://openalex.org/W2094963548",
+      "title": "Carbon Nanotubes--the Route Toward Applications",
+      "year": 2002,
+      "cited_by_count": 10189,
+      "adjusted_cited_by_count": 2079.82,
+      "url": "/domains/semiconductor/papers/W2094963548"
+    },
+    {
+      "source_id": "https://openalex.org/W2123605247",
+      "title": "Semiconductor Clusters, Nanocrystals, and Quantum Dots",
+      "year": 1996,
+      "cited_by_count": 11367,
+      "adjusted_cited_by_count": 2075.32,
+      "url": "/domains/semiconductor/papers/W2123605247"
+    },
+    {
+      "source_id": "https://openalex.org/W2627001981",
+      "title": "2D transition metal dichalcogenides",
+      "year": 2017,
+      "cited_by_count": 5762,
+      "adjusted_cited_by_count": 1920.67,
+      "url": "/domains/semiconductor/papers/W2627001981"
+    },
+    {
+      "source_id": "https://openalex.org/W3023854223",
+      "title": "Light-emitting diodes based on conjugated polymers",
+      "year": 1990,
+      "cited_by_count": 11338,
+      "adjusted_cited_by_count": 1889.67,
+      "url": "/domains/semiconductor/papers/W3023854223"
+    },
+    {
+      "source_id": "https://openalex.org/W2150315430",
+      "title": "Phosphorene: An Unexplored 2D Semiconductor with a High Hole Mobility",
+      "year": 2014,
+      "cited_by_count": 6412,
+      "adjusted_cited_by_count": 1850.98,
+      "url": "/domains/semiconductor/papers/W2150315430"
+    },
+    {
+      "source_id": "https://openalex.org/W2071134066",
+      "title": "Polymer Photovoltaic Cells: Enhanced Efficiencies via a Network of Internal Donor-Acceptor Heterojunctions",
+      "year": 1995,
+      "cited_by_count": 10278,
+      "adjusted_cited_by_count": 1845.98,
+      "url": "/domains/semiconductor/papers/W2071134066"
+    },
+    {
+      "source_id": "https://openalex.org/W2787584289",
+      "title": "Correlated insulator behaviour at half-filling in magic-angle graphene superlattices",
+      "year": 2018,
+      "cited_by_count": 4793,
+      "adjusted_cited_by_count": 1694.58,
+      "url": "/domains/semiconductor/papers/W2787584289"
+    },
+    {
+      "source_id": "https://openalex.org/W2154321074",
+      "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+      "year": 2005,
+      "cited_by_count": 7704,
+      "adjusted_cited_by_count": 1681.15,
+      "url": "/domains/semiconductor/papers/W2154321074"
+    },
+    {
+      "source_id": "https://openalex.org/W2902386805",
+      "title": "How To Correctly Determine the Band Gap Energy of Modified Semiconductor Photocatalysts Based on UV–Vis Spectra",
+      "year": 2018,
+      "cited_by_count": 4646,
+      "adjusted_cited_by_count": 1642.61,
+      "url": "/domains/semiconductor/papers/W2902386805"
+    },
+    {
+      "source_id": "https://openalex.org/W2062485439",
+      "title": "Semiconductor Nanocrystals as Fluorescent Biological Labels",
+      "year": 1998,
+      "cited_by_count": 8569,
+      "adjusted_cited_by_count": 1619.39,
+      "url": "/domains/semiconductor/papers/W2062485439"
+    },
+    {
+      "source_id": "https://openalex.org/W3027308092",
+      "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations",
+      "year": 2020,
+      "cited_by_count": 3902,
+      "adjusted_cited_by_count": 1592.98,
+      "url": "/domains/semiconductor/papers/W3027308092"
+    },
+    {
+      "source_id": "https://openalex.org/W1677747913",
+      "title": "Design and synthesis of an exceptionally stable and highly porous metal-organic framework",
+      "year": 1999,
+      "cited_by_count": 8273,
+      "adjusted_cited_by_count": 1592.14,
+      "url": "/domains/semiconductor/papers/W1677747913"
+    },
+    {
+      "source_id": "https://openalex.org/W2025669689",
+      "title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+      "year": 1993,
+      "cited_by_count": 9119,
+      "adjusted_cited_by_count": 1587.41,
+      "url": "/domains/semiconductor/papers/W2025669689"
+    },
+    {
+      "source_id": "https://openalex.org/W1999589524",
+      "title": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+      "year": 2004,
+      "cited_by_count": 7340,
+      "adjusted_cited_by_count": 1564.89,
+      "url": "/domains/semiconductor/papers/W1999589524"
+    },
+    {
+      "source_id": "https://openalex.org/W2032843489",
+      "title": "Zener Model Description of Ferromagnetism in Zinc-Blende Magnetic Semiconductors",
+      "year": 2000,
+      "cited_by_count": 7677,
+      "adjusted_cited_by_count": 1505.58,
+      "url": "/domains/semiconductor/papers/W2032843489"
+    },
+    {
+      "source_id": "https://openalex.org/W2136693699",
+      "title": "Carbon quantum dots and their applications",
+      "year": 2014,
+      "cited_by_count": 4763,
+      "adjusted_cited_by_count": 1374.96,
+      "url": "/domains/semiconductor/papers/W2136693699"
+    },
+    {
+      "source_id": "https://openalex.org/W1969314684",
+      "title": "Ultrasensitive photodetectors based on monolayer MoS2",
+      "year": 2013,
+      "cited_by_count": 4952,
+      "adjusted_cited_by_count": 1373.44,
+      "url": "/domains/semiconductor/papers/W1969314684"
+    },
+    {
+      "source_id": "https://openalex.org/W2094437628",
+      "title": "Quantum Dot Bioconjugates for Ultrasensitive Nonisotopic Detection",
+      "year": 1998,
+      "cited_by_count": 7231,
+      "adjusted_cited_by_count": 1366.53,
+      "url": "/domains/semiconductor/papers/W2094437628"
+    },
+    {
+      "source_id": "https://openalex.org/W3147596910",
+      "title": "Pseudo-halide anion engineering for α-FAPbI3 perovskite solar cells",
+      "year": 2021,
+      "cited_by_count": 3011,
+      "adjusted_cited_by_count": 1346.56,
+      "url": "/domains/semiconductor/papers/W3147596910"
+    },
+    {
+      "source_id": "https://openalex.org/W2131491403",
+      "title": "Recent developments in photocatalytic water treatment technology: A review",
+      "year": 2010,
+      "cited_by_count": 5158,
+      "adjusted_cited_by_count": 1289.5,
+      "url": "/domains/semiconductor/papers/W2131491403"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 338
+    },
+    {
+      "label": "optoelectronics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 288
+    },
+    {
+      "label": "semiconductor",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 283
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 262
+    },
+    {
+      "label": "quantum",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 134
+    },
+    {
+      "label": "electron",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 118
+    },
+    {
+      "label": "condensed matter physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 107
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "quantum mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "semiconductors",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 79
+    },
+    {
+      "label": "electrical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "band gap",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "optics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "metal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 72
+    },
+    {
+      "label": "device",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "light",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "electronic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "layer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 68
+    },
+    {
+      "label": "history published online",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 5
+    },
+    {
+      "label": "published inissue",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 4
+    },
+    {
+      "label": "solar",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 68
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 65
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 65
+    },
+    {
+      "label": "band",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 67
+    },
+    {
+      "label": "engineering physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 64
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 64
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 75
+    },
+    {
+      "label": "crystal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 61
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 60
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 54
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 50
+    },
+    {
+      "label": "catalysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 49
+    },
+    {
+      "label": "solar cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 49
+    },
+    {
+      "label": "thin",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 49
+    },
+    {
+      "label": "graphene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 48
+    },
+    {
+      "label": "optical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 50
+    },
+    {
+      "label": "quantum dot",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 46
+    },
+    {
+      "label": "transistor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 45
+    },
+    {
+      "label": "voltage",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9867,
+      "evidence_count": 45
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 44
+    },
+    {
+      "label": "solar cells",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 44
+    },
+    {
+      "label": "efficiency",
+      "semantic_role": "property_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9864,
+      "evidence_count": 58
+    },
+    {
+      "label": "of semiconductor",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 43
+    },
+    {
+      "label": "single",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 43
+    },
+    {
+      "label": "chemical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 64
+    },
+    {
+      "label": "oxide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9859,
+      "evidence_count": 40
+    },
+    {
+      "label": "direct",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 39
+    },
+    {
+      "label": "photocatalysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 39
+    }
+  ],
+  "topic_year_counts": {
+    "band gap": {
+      "2023": 112155,
+      "2025": 111252,
+      "2024": 108695,
+      "2022": 71979,
+      "2021": 67640,
+      "2020": 63937,
+      "2019": 58337,
+      "2018": 53616,
+      "2017": 49969,
+      "2016": 45751,
+      "2015": 42469,
+      "2026": 41847,
+      "2014": 38561,
+      "2013": 34967,
+      "2012": 30711,
+      "2011": 26989,
+      "2010": 23253,
+      "2009": 20081,
+      "2008": 17650,
+      "2007": 15456,
+      "2006": 14353,
+      "2005": 12457,
+      "2004": 10769,
+      "2003": 9495,
+      "2002": 8780,
+      "2001": 7269,
+      "2000": 6989
+    },
+    "solar cells": {
+      "2023": 83964,
+      "2024": 80545,
+      "2025": 76503,
+      "2022": 59426,
+      "2021": 55072,
+      "2020": 51468,
+      "2019": 46766,
+      "2018": 43797,
+      "2017": 39831,
+      "2016": 37108,
+      "2015": 35008,
+      "2014": 32770,
+      "2013": 29555,
+      "2012": 25764,
+      "2011": 21752,
+      "2026": 20871,
+      "2010": 17615,
+      "2009": 13435,
+      "2008": 10865,
+      "2007": 8101,
+      "2006": 7648,
+      "2005": 6574,
+      "2004": 5483,
+      "2003": 5319,
+      "2002": 5317,
+      "2000": 3684,
+      "2001": 3237
+    },
+    "semiconductor quantum dots": {
+      "2023": 17636,
+      "2024": 15787,
+      "2025": 11885,
+      "2022": 9841,
+      "2021": 8783,
+      "2020": 8252,
+      "2019": 7367,
+      "2018": 6836,
+      "2017": 6368,
+      "2016": 5783,
+      "2015": 5479,
+      "2014": 4795,
+      "2013": 4310,
+      "2012": 3897,
+      "2026": 3897,
+      "2011": 3439,
+      "2010": 2992,
+      "2009": 2522,
+      "2008": 2300,
+      "2007": 2091,
+      "2006": 1903,
+      "2005": 1542,
+      "2004": 1283,
+      "2003": 1114,
+      "2002": 985,
+      "2001": 705,
+      "2000": 704
+    },
+    "semiconductor device": {
+      "2023": 55184,
+      "2024": 51761,
+      "2025": 45602,
+      "2022": 35834,
+      "2021": 33009,
+      "2020": 31209,
+      "2019": 28163,
+      "2018": 25640,
+      "2017": 23586,
+      "2016": 21952,
+      "2015": 20987,
+      "2014": 18465,
+      "2013": 16419,
+      "2012": 14540,
+      "2026": 13900,
+      "2011": 12982,
+      "2010": 11348,
+      "2009": 9538,
+      "2008": 8791,
+      "2007": 7924,
+      "2006": 7364,
+      "2005": 6580,
+      "2002": 6012,
+      "2004": 5640,
+      "2003": 5516,
+      "2000": 3470,
+      "2001": 3428
+    },
+    "organic semiconductor": {
+      "2023": 29898,
+      "2024": 27643,
+      "2025": 23970,
+      "2022": 18671,
+      "2021": 16735,
+      "2020": 14830,
+      "2019": 13471,
+      "2018": 12151,
+      "2017": 11091,
+      "2016": 10075,
+      "2015": 9268,
+      "2014": 8239,
+      "2026": 7345,
+      "2013": 7173,
+      "2012": 6465,
+      "2011": 5366,
+      "2010": 4316,
+      "2009": 3780,
+      "2008": 3154,
+      "2007": 2796,
+      "2006": 2448,
+      "2005": 2058,
+      "2004": 1637,
+      "2003": 1381,
+      "2002": 1132,
+      "2001": 874,
+      "2000": 859
+    },
+    "light-emitting diode": {
+      "2023": 29560,
+      "2024": 27394,
+      "2025": 23028,
+      "2022": 20461,
+      "2021": 20061,
+      "2020": 18662,
+      "2019": 17499,
+      "2018": 15926,
+      "2017": 14772,
+      "2016": 13468,
+      "2015": 12886,
+      "2014": 11672,
+      "2013": 10603,
+      "2012": 9672,
+      "2011": 8495,
+      "2010": 7334,
+      "2009": 6270,
+      "2026": 6224,
+      "2008": 5690,
+      "2007": 4900,
+      "2006": 4244,
+      "2005": 3931,
+      "2004": 3089,
+      "2003": 2510,
+      "2002": 2315,
+      "2000": 1951,
+      "2001": 1828
+    },
+    "transition metals": {
+      "2023": 154077,
+      "2024": 152799,
+      "2025": 148407,
+      "2022": 98671,
+      "2021": 89098,
+      "2020": 82331,
+      "2019": 71635,
+      "2018": 63613,
+      "2017": 58604,
+      "2016": 53185,
+      "2015": 47636,
+      "2026": 46322,
+      "2014": 42237,
+      "2013": 37390,
+      "2012": 32802,
+      "2011": 29224,
+      "2010": 25089,
+      "2009": 22174,
+      "2008": 19740,
+      "2007": 17603,
+      "2006": 16595,
+      "2005": 15483,
+      "2004": 13274,
+      "2003": 11513,
+      "2002": 10707,
+      "2001": 9665,
+      "2000": 9553
+    },
+    "field-effect transistors": {
+      "2023": 20306,
+      "2024": 18802,
+      "2025": 15902,
+      "2022": 13613,
+      "2021": 13596,
+      "2020": 13041,
+      "2019": 12055,
+      "2018": 11174,
+      "2017": 10366,
+      "2016": 10266,
+      "2015": 9413,
+      "2014": 8844,
+      "2013": 7817,
+      "2012": 7205,
+      "2011": 6714,
+      "2010": 5809,
+      "2009": 4885,
+      "2026": 4594,
+      "2008": 4413,
+      "2007": 3713,
+      "2006": 3399,
+      "2005": 2952,
+      "2004": 2400,
+      "2003": 2063,
+      "2002": 1821,
+      "2000": 1490,
+      "2001": 1257
+    },
+    "thin films": {
+      "2023": 109457,
+      "2024": 99702,
+      "2025": 89700,
+      "2022": 75294,
+      "2021": 72812,
+      "2020": 70982,
+      "2019": 67584,
+      "2018": 64051,
+      "2017": 60954,
+      "2016": 59161,
+      "2015": 56988,
+      "2014": 53241,
+      "2013": 49997,
+      "2012": 45970,
+      "2011": 42972,
+      "2010": 38113,
+      "2009": 34549,
+      "2008": 31754,
+      "2007": 30611,
+      "2006": 29127,
+      "2026": 27446,
+      "2005": 26029,
+      "2004": 23788,
+      "2003": 22641,
+      "2002": 22206,
+      "2001": 17388,
+      "2000": 17115
+    }
+  }
+}

@@ -1,0 +1,2451 @@
+{
+  "slug": "meteorology",
+  "title": "Meteorology",
+  "updated_at": "2026-04-22T10:45:31.025558Z",
+  "snapshot": {
+    "papers": 281,
+    "topics": 10,
+    "subtopics": 256,
+    "entities": 632,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 284,
+      "total_papers": 284,
+      "facet_counts": {
+        "none": 284
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning mesoscale meteorology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 256,
+    "max_depth": 4,
+    "leaf_topics": 181
+  },
+  "rising_topics": [
+    {
+      "id": "sg-climate-model",
+      "label": "Climate modeling",
+      "url": "/domains/meteorology/topics/sg-climate-model",
+      "trend": "rising",
+      "year_total": 2941954
+    },
+    {
+      "id": "sg-remote-sensing",
+      "label": "Remote sensing",
+      "url": "/domains/meteorology/topics/sg-remote-sensing",
+      "trend": "rising",
+      "year_total": 1521221
+    },
+    {
+      "id": "sg-global-warming",
+      "label": "Global warming",
+      "url": "/domains/meteorology/topics/sg-global-warming",
+      "trend": "rising",
+      "year_total": 1379296
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-climate-model",
+      "label": "Climate modeling",
+      "url": "/domains/meteorology/topics/sg-climate-model",
+      "paper_count": 73,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: climate change, climate, climatology",
+      "tags": [
+        "circulation model",
+        "climate change projections",
+        "climate model",
+        "climate models"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-modeling-radiative-forcing",
+          "label": "Radiative forcing",
+          "url": "/domains/meteorology/topics/sg-climate-modeling-radiative-forcing",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-climate-modeling-climate-commitment",
+          "label": "Climate commitment",
+          "url": "/domains/meteorology/topics/sg-climate-modeling-climate-commitment",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-climate-modeling-atmospheric-model",
+          "label": "Atmospheric model",
+          "url": "/domains/meteorology/topics/sg-climate-modeling-atmospheric-model",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-climate-modeling-climate-change-environmental-impact",
+          "label": "Climate change environmental impact",
+          "url": "/domains/meteorology/topics/sg-climate-modeling-climate-change-environmental-impact",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-climate-modeling-atmospheric-aerosols-clouds",
+          "label": "Atmospheric aerosols clouds",
+          "url": "/domains/meteorology/topics/sg-climate-modeling-atmospheric-aerosols-clouds",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-climate-modeling-ensemble-average",
+          "label": "Ensemble average",
+          "url": "/domains/meteorology/topics/sg-climate-modeling-ensemble-average",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W75231382",
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "url": "/domains/meteorology/papers/W75231382"
+        },
+        {
+          "source_id": "https://openalex.org/W4385118605",
+          "title": "IPCC, 2023: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland.",
+          "year": "2023",
+          "cited_by_count": 2860,
+          "url": "/domains/meteorology/papers/W4385118605"
+        },
+        {
+          "source_id": "https://openalex.org/W2513922847",
+          "title": "Climate Change 2014 - Synthesis Report",
+          "year": "2015",
+          "cited_by_count": 5304,
+          "url": "/domains/meteorology/papers/W2513922847"
+        }
+      ]
+    },
+    {
+      "id": "sg-remote-sensing",
+      "label": "Remote sensing",
+      "url": "/domains/meteorology/topics/sg-remote-sensing",
+      "paper_count": 42,
+      "subtopic_count": 11,
+      "trend": "rising",
+      "summary": "entities: meteorology, geology, data",
+      "tags": [
+        "atmospheric radiative transfer code",
+        "gps meteorology",
+        "meteorology remote sensing",
+        "remote sensing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-remote-sensing-atmospheric-radiative-transfer-code",
+          "label": "Atmospheric radiative transfer code",
+          "url": "/domains/meteorology/topics/sg-remote-sensing-atmospheric-radiative-transfer-code",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-remote-sensing-radiative-transfer",
+          "label": "Radiative transfer",
+          "url": "/domains/meteorology/topics/sg-remote-sensing-radiative-transfer",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-remote-sensing-data-assimilation",
+          "label": "Data assimilation",
+          "url": "/domains/meteorology/topics/sg-remote-sensing-data-assimilation",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-remote-sensing-geographic-information-systems",
+          "label": "Geographic information systems",
+          "url": "/domains/meteorology/topics/sg-remote-sensing-geographic-information-systems",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-remote-sensing-soil-moisture-remote-sensing",
+          "label": "Soil moisture remote sensing",
+          "url": "/domains/meteorology/topics/sg-remote-sensing-soil-moisture-remote-sensing",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-remote-sensing-leaf-area-index",
+          "label": "Leaf area index",
+          "url": "/domains/meteorology/topics/sg-remote-sensing-leaf-area-index",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2089433206",
+          "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+          "year": "1998",
+          "cited_by_count": 8480,
+          "url": "/domains/meteorology/papers/W2089433206"
+        },
+        {
+          "source_id": "https://openalex.org/W2119132330",
+          "title": "The Global Land Data Assimilation System",
+          "year": "2004",
+          "cited_by_count": 5622,
+          "url": "/domains/meteorology/papers/W2119132330"
+        },
+        {
+          "source_id": "https://openalex.org/W2738516213",
+          "title": "Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons",
+          "year": "2017",
+          "cited_by_count": 3226,
+          "url": "/domains/meteorology/papers/W2738516213"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-warming",
+      "label": "Global warming",
+      "url": "/domains/meteorology/topics/sg-global-warming",
+      "paper_count": 37,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: climate change, climate, change",
+      "tags": [
+        "effects of global warming",
+        "global climate change",
+        "global warming",
+        "global warming standardized"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-warming-effects-of-global-warming",
+          "label": "Effects of global warming",
+          "url": "/domains/meteorology/topics/sg-global-warming-effects-of-global-warming",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-global-warming-ecological-forecasting",
+          "label": "Ecological forecasting",
+          "url": "/domains/meteorology/topics/sg-global-warming-ecological-forecasting",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-global-warming-extreme-precipitation-increases",
+          "label": "Extreme precipitation increases",
+          "url": "/domains/meteorology/topics/sg-global-warming-extreme-precipitation-increases",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-global-warming-human-health",
+          "label": "Human health",
+          "url": "/domains/meteorology/topics/sg-global-warming-human-health",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-global-warming-plant-responses-to-elevated-co2",
+          "label": "Plant responses to elevated co2",
+          "url": "/domains/meteorology/topics/sg-global-warming-plant-responses-to-elevated-co2",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2939474406",
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "url": "/domains/meteorology/papers/W2939474406"
+        },
+        {
+          "source_id": "https://openalex.org/W4382362038",
+          "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+          "year": "2023",
+          "cited_by_count": 7238,
+          "url": "/domains/meteorology/papers/W4382362038"
+        },
+        {
+          "source_id": "https://openalex.org/W2077968790",
+          "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+          "year": "2009",
+          "cited_by_count": 8820,
+          "url": "/domains/meteorology/papers/W2077968790"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-climate",
+      "label": "Global climate",
+      "url": "/domains/meteorology/topics/sg-global-climate",
+      "paper_count": 30,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: climatology, geology, climate variability and models",
+      "tags": [
+        "climate system",
+        "earth system science",
+        "global climate",
+        "global climate change"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-climate-climate-models",
+          "label": "Climate models",
+          "url": "/domains/meteorology/topics/sg-global-climate-climate-models",
+          "paper_count": 22
+        },
+        {
+          "id": "sg-global-climate-working-group-i",
+          "label": "Working group i",
+          "url": "/domains/meteorology/topics/sg-global-climate-working-group-i",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-global-climate-climate-change",
+          "label": "Climate change",
+          "url": "/domains/meteorology/topics/sg-global-climate-climate-change",
+          "paper_count": 19
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1520428197",
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "url": "/domains/meteorology/papers/W1520428197"
+        },
+        {
+          "source_id": "https://openalex.org/W2073298425",
+          "title": "The Global Precipitation Measurement Mission",
+          "year": "2013",
+          "cited_by_count": 2758,
+          "url": "/domains/meteorology/papers/W2073298425"
+        },
+        {
+          "source_id": "https://openalex.org/W2887293259",
+          "title": "An Ensemble Version of the E‐OBS Temperature and Precipitation Data Sets",
+          "year": "2018",
+          "cited_by_count": 1826,
+          "url": "/domains/meteorology/papers/W2887293259"
+        }
+      ]
+    },
+    {
+      "id": "sg-air-pollution",
+      "label": "Air pollution",
+      "url": "/domains/meteorology/topics/sg-air-pollution",
+      "paper_count": 21,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: air, air pollution, meteorology",
+      "tags": [
+        "air pollution",
+        "air pollution covid-19",
+        "air pollution exposure",
+        "air pollution to climate"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-air-pollution-air-pollutants",
+          "label": "Air pollutants",
+          "url": "/domains/meteorology/topics/sg-air-pollution-air-pollutants",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-air-pollution-air-quality-and-health-impacts",
+          "label": "Air quality and health impacts",
+          "url": "/domains/meteorology/topics/sg-air-pollution-air-quality-and-health-impacts",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-air-pollution-pollution-exposure",
+          "label": "Pollution exposure",
+          "url": "/domains/meteorology/topics/sg-air-pollution-pollution-exposure",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-air-pollution-exposure-to-air",
+          "label": "Exposure to air",
+          "url": "/domains/meteorology/topics/sg-air-pollution-exposure-to-air",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-air-pollution-ambient-air-quality",
+          "label": "Ambient air quality",
+          "url": "/domains/meteorology/topics/sg-air-pollution-ambient-air-quality",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-air-pollution-global-air-quality",
+          "label": "Global air quality",
+          "url": "/domains/meteorology/topics/sg-air-pollution-global-air-quality",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4213327538",
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12102,
+          "url": "/domains/meteorology/papers/W4213327538"
+        },
+        {
+          "source_id": "https://openalex.org/W1667277804",
+          "title": "An Introduction to Boundary Layer Meteorology",
+          "year": "1988",
+          "cited_by_count": 10495,
+          "url": "/domains/meteorology/papers/W1667277804"
+        },
+        {
+          "source_id": "https://openalex.org/W1621450917",
+          "title": "Special report on emissions scenarios",
+          "year": "2000",
+          "cited_by_count": 3406,
+          "url": "/domains/meteorology/papers/W1621450917"
+        }
+      ]
+    },
+    {
+      "id": "sg-atmospheric-chemistry",
+      "label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/topics/sg-atmospheric-chemistry",
+      "paper_count": 21,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: meteorology, atmospheric chemistry and aerosols, atmospheric science",
+      "tags": [
+        "air pollution to climate",
+        "atmospheric chemistry",
+        "atmospheric chemistry and aerosols",
+        "atmospheric chemistry physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-atmospheric-chemistry-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/meteorology/topics/sg-atmospheric-chemistry-atmospheric-science",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-atmospheric-chemistry-climate-change",
+          "label": "Climate change",
+          "url": "/domains/meteorology/topics/sg-atmospheric-chemistry-climate-change",
+          "paper_count": 12
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1588713494",
+          "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+          "year": "2014",
+          "cited_by_count": 11235,
+          "url": "/domains/meteorology/papers/W1588713494"
+        },
+        {
+          "source_id": "https://openalex.org/W2020729558",
+          "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+          "year": "1998",
+          "cited_by_count": 9001,
+          "url": "/domains/meteorology/papers/W2020729558"
+        },
+        {
+          "source_id": "https://openalex.org/W4246438352",
+          "title": "Climate Change 2014: Mitigation of Climate Change",
+          "year": "2015",
+          "cited_by_count": 4657,
+          "url": "/domains/meteorology/papers/W4246438352"
+        }
+      ]
+    },
+    {
+      "id": "sg-land-use",
+      "label": "Land use",
+      "url": "/domains/meteorology/topics/sg-land-use",
+      "paper_count": 17,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: meteorology, land, geology",
+      "tags": [
+        "global land",
+        "global land evapotranspiration",
+        "land cover",
+        "land surface fluxes"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-land-use-land-cover",
+          "label": "Land cover",
+          "url": "/domains/meteorology/topics/sg-land-use-land-cover",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-land-use-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/meteorology/topics/sg-land-use-atmospheric-science",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-land-use-climate-change",
+          "label": "Climate change",
+          "url": "/domains/meteorology/topics/sg-land-use-climate-change",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-land-use-urban-climate",
+          "label": "Urban climate",
+          "url": "/domains/meteorology/topics/sg-land-use-urban-climate",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2112776483",
+          "title": "Very high resolution interpolated climate surfaces for global land areas",
+          "year": "2005",
+          "cited_by_count": 20045,
+          "url": "/domains/meteorology/papers/W2112776483"
+        },
+        {
+          "source_id": "https://openalex.org/W2117779820",
+          "title": "An improved method of constructing a database of monthly climate observations and associated high-resolution grids",
+          "year": "2005",
+          "cited_by_count": 4010,
+          "url": "/domains/meteorology/papers/W2117779820"
+        },
+        {
+          "source_id": "https://openalex.org/W1975768883",
+          "title": "Improvements to a MODIS global terrestrial evapotranspiration algorithm",
+          "year": "2011",
+          "cited_by_count": 2780,
+          "url": "/domains/meteorology/papers/W1975768883"
+        }
+      ]
+    },
+    {
+      "id": "sg-global-change",
+      "label": "Global environmental change",
+      "url": "/domains/meteorology/topics/sg-global-change",
+      "paper_count": 14,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: change, climate change, climate",
+      "tags": [
+        "climate change disruptions",
+        "climate change impacts",
+        "effects of global",
+        "global change"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-global-change-climate-change",
+          "label": "Climate change",
+          "url": "/domains/meteorology/topics/sg-global-change-climate-change",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-global-environmental-change-effects-of-global-change",
+          "label": "Effects of global change",
+          "url": "/domains/meteorology/topics/sg-global-environmental-change-effects-of-global-change",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-global-change-environmental-resource-management",
+          "label": "Environmental resource management",
+          "url": "/domains/meteorology/topics/sg-global-change-environmental-resource-management",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-global-environmental-change-global-water-cycle",
+          "label": "Global water cycle",
+          "url": "/domains/meteorology/topics/sg-global-environmental-change-global-water-cycle",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2006165291",
+          "title": "Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century",
+          "year": "2003",
+          "cited_by_count": 11195,
+          "url": "/domains/meteorology/papers/W2006165291"
+        },
+        {
+          "source_id": "https://openalex.org/W2800299140",
+          "title": "Future climate risk from compound events",
+          "year": "2018",
+          "cited_by_count": 2260,
+          "url": "/domains/meteorology/papers/W2800299140"
+        },
+        {
+          "source_id": "https://openalex.org/W3192714106",
+          "title": "Future global urban water scarcity and potential solutions",
+          "year": "2021",
+          "cited_by_count": 1637,
+          "url": "/domains/meteorology/papers/W3192714106"
+        }
+      ]
+    },
+    {
+      "id": "sg-greenhouse-gas",
+      "label": "Greenhouse gas",
+      "url": "/domains/meteorology/topics/sg-greenhouse-gas",
+      "paper_count": 14,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: carbon, climate change, geology",
+      "tags": [
+        "carbon cycle",
+        "carbon dioxide",
+        "climate change carbon",
+        "global climate change"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-greenhouse-gas-climate-change",
+          "label": "Climate change",
+          "url": "/domains/meteorology/topics/sg-greenhouse-gas-climate-change",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-greenhouse-gas-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/meteorology/topics/sg-greenhouse-gas-atmospheric-science",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-greenhouse-gas-carbon-dioxide",
+          "label": "Carbon dioxide",
+          "url": "/domains/meteorology/topics/sg-greenhouse-gas-carbon-dioxide",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-greenhouse-gas-carbon-sink",
+          "label": "Carbon sink",
+          "url": "/domains/meteorology/topics/sg-greenhouse-gas-carbon-sink",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1522296012",
+          "title": "Climate Change 2001: The Scientific Basis",
+          "year": "2002",
+          "cited_by_count": 12982,
+          "url": "/domains/meteorology/papers/W1522296012"
+        },
+        {
+          "source_id": "https://openalex.org/W2113297575",
+          "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+          "year": "2005",
+          "cited_by_count": 4658,
+          "url": "/domains/meteorology/papers/W2113297575"
+        },
+        {
+          "source_id": "https://openalex.org/W3026582775",
+          "title": "Temporary reduction in daily global CO2 emissions during the COVID-19 forced confinement",
+          "year": "2020",
+          "cited_by_count": 2270,
+          "url": "/domains/meteorology/papers/W3026582775"
+        }
+      ]
+    },
+    {
+      "id": "sg-model-intercomparison",
+      "label": "Model intercomparison",
+      "url": "/domains/meteorology/topics/sg-model-intercomparison",
+      "paper_count": 12,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: model, climatology, intercomparison project",
+      "tags": [
+        "circulation model",
+        "coupled model",
+        "coupled model echam5/mpi-om",
+        "coupled model intercomparison"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-model-intercomparison-climate-change",
+          "label": "Climate change",
+          "url": "/domains/meteorology/topics/sg-model-intercomparison-climate-change",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-model-intercomparison-coupled-model-intercomparison-project",
+          "label": "Coupled model intercomparison project",
+          "url": "/domains/meteorology/topics/sg-model-intercomparison-coupled-model-intercomparison-project",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-model-intercomparison-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/meteorology/topics/sg-model-intercomparison-atmospheric-science",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2024966118",
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14697,
+          "url": "/domains/meteorology/papers/W2024966118"
+        },
+        {
+          "source_id": "https://openalex.org/W1989668498",
+          "title": "NCEP–DOE AMIP-II Reanalysis (R-2)",
+          "year": "2002",
+          "cited_by_count": 5406,
+          "url": "/domains/meteorology/papers/W1989668498"
+        },
+        {
+          "source_id": "https://openalex.org/W2998500935",
+          "title": "Causes of Higher Climate Sensitivity in CMIP6 Models",
+          "year": "2020",
+          "cited_by_count": 1768,
+          "url": "/domains/meteorology/papers/W2998500935"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Climate modeling",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "topic": "Climate modeling",
+          "url": "papers/https-openalex-org-w75231382.html"
+        },
+        {
+          "title": "IPCC, 2023: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland.",
+          "year": "2023",
+          "cited_by_count": 2860,
+          "topic": "Climate modeling",
+          "url": "papers/https-openalex-org-w4385118605.html"
+        },
+        {
+          "title": "Climate Change 2014 - Synthesis Report",
+          "year": "2015",
+          "cited_by_count": 5304,
+          "topic": "Climate modeling",
+          "url": "papers/https-openalex-org-w2513922847.html"
+        },
+        {
+          "title": "Climatologies at high resolution for the earth’s land surface areas",
+          "year": "2017",
+          "cited_by_count": 3914,
+          "topic": "Climate modeling",
+          "url": "papers/https-openalex-org-w2463201722.html"
+        },
+        {
+          "title": "Climatologies at high resolution for the earth’s land surface areas",
+          "year": "2017",
+          "cited_by_count": 3814,
+          "topic": "Climate modeling",
+          "url": "papers/https-openalex-org-w3104895181.html"
+        },
+        {
+          "title": "Impact of anthropogenic climate change on wildfire across western US forests",
+          "year": "2016",
+          "cited_by_count": 2927,
+          "topic": "Climate modeling",
+          "url": "papers/https-openalex-org-w2530960585.html"
+        }
+      ]
+    },
+    {
+      "label": "Global warming",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+          "year": "2023",
+          "cited_by_count": 7238,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w4382362038.html"
+        },
+        {
+          "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+          "year": "2009",
+          "cited_by_count": 8820,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w2077968790.html"
+        },
+        {
+          "title": "Ecological responses to recent climate change",
+          "year": "2002",
+          "cited_by_count": 9888,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w2024649846.html"
+        },
+        {
+          "title": "Climate change 2013 : the physical science basis : Working Group I contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2013",
+          "cited_by_count": 4657,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w1608013130.html"
+        },
+        {
+          "title": "Global warming and recurrent mass bleaching of corals",
+          "year": "2017",
+          "cited_by_count": 3307,
+          "topic": "Global warming",
+          "url": "papers/https-openalex-org-w2596630349.html"
+        }
+      ]
+    },
+    {
+      "label": "Atmospheric chemistry and physics",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+          "year": "2014",
+          "cited_by_count": 11235,
+          "topic": "Atmospheric chemistry and physics",
+          "url": "papers/https-openalex-org-w1588713494.html"
+        },
+        {
+          "title": "&lt;i&gt;Atmospheric Chemistry and Physics: From Air Pollution to Climate Change&lt;/i&gt;",
+          "year": "1998",
+          "cited_by_count": 9001,
+          "topic": "Atmospheric chemistry and physics",
+          "url": "papers/https-openalex-org-w2020729558.html"
+        },
+        {
+          "title": "Climate Change 2014: Mitigation of Climate Change",
+          "year": "2015",
+          "cited_by_count": 4657,
+          "topic": "Atmospheric chemistry and physics",
+          "url": "papers/https-openalex-org-w4246438352.html"
+        },
+        {
+          "title": "Climate Change 2014: Impacts, Adaptation and Vulnerability",
+          "year": "2014",
+          "cited_by_count": 4084,
+          "topic": "Atmospheric chemistry and physics",
+          "url": "papers/https-openalex-org-w2530121532.html"
+        },
+        {
+          "title": "Atmospheric chemistry and physics: from air pollution to climate change",
+          "year": "1998",
+          "cited_by_count": 5172,
+          "topic": "Atmospheric chemistry and physics",
+          "url": "papers/https-openalex-org-w2558874786.html"
+        },
+        {
+          "title": "Organic aerosol and global climate modelling: a review",
+          "year": "2005",
+          "cited_by_count": 3714,
+          "topic": "Atmospheric chemistry and physics",
+          "url": "papers/https-openalex-org-w2127510753.html"
+        }
+      ]
+    },
+    {
+      "label": "Greenhouse gas",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Climate Change 2001: The Scientific Basis",
+          "year": "2002",
+          "cited_by_count": 12982,
+          "topic": "Greenhouse gas",
+          "url": "papers/https-openalex-org-w1522296012.html"
+        },
+        {
+          "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+          "year": "2005",
+          "cited_by_count": 4658,
+          "topic": "Greenhouse gas",
+          "url": "papers/https-openalex-org-w2113297575.html"
+        },
+        {
+          "title": "Temporary reduction in daily global CO2 emissions during the COVID-19 forced confinement",
+          "year": "2020",
+          "cited_by_count": 2270,
+          "topic": "Greenhouse gas",
+          "url": "papers/https-openalex-org-w3026582775.html"
+        },
+        {
+          "title": "Europe-wide reduction in primary productivity caused by the heat and drought in 2003",
+          "year": "2005",
+          "cited_by_count": 4168,
+          "topic": "Greenhouse gas",
+          "url": "papers/https-openalex-org-w2165037481.html"
+        },
+        {
+          "title": "Atmospheric transport and deposition of microplastics in a remote mountain catchment",
+          "year": "2019",
+          "cited_by_count": 2249,
+          "topic": "Greenhouse gas",
+          "url": "papers/https-openalex-org-w2936566509.html"
+        }
+      ]
+    },
+    {
+      "label": "Remote sensing",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+          "year": "1998",
+          "cited_by_count": 8480,
+          "topic": "Remote sensing",
+          "url": "papers/https-openalex-org-w2089433206.html"
+        },
+        {
+          "title": "The Global Land Data Assimilation System",
+          "year": "2004",
+          "cited_by_count": 5622,
+          "topic": "Remote sensing",
+          "url": "papers/https-openalex-org-w2119132330.html"
+        },
+        {
+          "title": "Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons",
+          "year": "2017",
+          "cited_by_count": 3226,
+          "topic": "Remote sensing",
+          "url": "papers/https-openalex-org-w2738516213.html"
+        },
+        {
+          "title": "On the Assessment of Surface Heat Flux and Evaporation Using Large-Scale Parameters",
+          "year": "1972",
+          "cited_by_count": 6656,
+          "topic": "Remote sensing",
+          "url": "papers/https-openalex-org-w2172396214.html"
+        }
+      ]
+    },
+    {
+      "label": "Air pollution",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Climate Change 2013 – The Physical Science Basis",
+          "year": "2014",
+          "cited_by_count": 12102,
+          "topic": "Air pollution",
+          "url": "papers/https-openalex-org-w4213327538.html"
+        },
+        {
+          "title": "An Introduction to Boundary Layer Meteorology",
+          "year": "1988",
+          "cited_by_count": 10495,
+          "topic": "Air pollution",
+          "url": "papers/https-openalex-org-w1667277804.html"
+        }
+      ]
+    },
+    {
+      "label": "Global environmental change",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century",
+          "year": "2003",
+          "cited_by_count": 11195,
+          "topic": "Global environmental change",
+          "url": "papers/https-openalex-org-w2006165291.html"
+        },
+        {
+          "title": "Future climate risk from compound events",
+          "year": "2018",
+          "cited_by_count": 2260,
+          "topic": "Global environmental change",
+          "url": "papers/https-openalex-org-w2800299140.html"
+        }
+      ]
+    },
+    {
+      "label": "Land use",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Very high resolution interpolated climate surfaces for global land areas",
+          "year": "2005",
+          "cited_by_count": 20045,
+          "topic": "Land use",
+          "url": "papers/https-openalex-org-w2112776483.html"
+        },
+        {
+          "title": "An improved method of constructing a database of monthly climate observations and associated high-resolution grids",
+          "year": "2005",
+          "cited_by_count": 4010,
+          "topic": "Land use",
+          "url": "papers/https-openalex-org-w2117779820.html"
+        }
+      ]
+    },
+    {
+      "label": "Model intercomparison",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "An Overview of CMIP5 and the Experiment Design",
+          "year": "2011",
+          "cited_by_count": 14697,
+          "topic": "Model intercomparison",
+          "url": "papers/https-openalex-org-w2024966118.html"
+        },
+        {
+          "title": "NCEP–DOE AMIP-II Reanalysis (R-2)",
+          "year": "2002",
+          "cited_by_count": 5406,
+          "topic": "Model intercomparison",
+          "url": "papers/https-openalex-org-w1989668498.html"
+        }
+      ]
+    },
+    {
+      "label": "Global climate",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+          "year": "2007",
+          "cited_by_count": 17676,
+          "topic": "Global climate",
+          "url": "papers/https-openalex-org-w1520428197.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2112776483",
+      "title": "Very high resolution interpolated climate surfaces for global land areas",
+      "year": 2005,
+      "cited_by_count": 20045,
+      "adjusted_cited_by_count": 4374.18,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use",
+      "url": "/domains/meteorology/papers/W2112776483"
+    },
+    {
+      "source_id": "https://openalex.org/W4382362038",
+      "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+      "year": 2023,
+      "cited_by_count": 7238,
+      "adjusted_cited_by_count": 4178.86,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W4382362038"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "primary_topic_id": "sg-global-climate",
+      "primary_topic_label": "Global climate",
+      "url": "/domains/meteorology/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14697,
+      "adjusted_cited_by_count": 3794.75,
+      "primary_topic_id": "sg-model-intercomparison",
+      "primary_topic_label": "Model intercomparison",
+      "url": "/domains/meteorology/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12102,
+      "adjusted_cited_by_count": 3493.55,
+      "primary_topic_id": "sg-air-pollution",
+      "primary_topic_label": "Air pollution",
+      "url": "/domains/meteorology/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W1588713494",
+      "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 11235,
+      "adjusted_cited_by_count": 3243.27,
+      "primary_topic_id": "sg-atmospheric-chemistry",
+      "primary_topic_label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/papers/W1588713494"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "primary_topic_id": "sg-greenhouse-gas",
+      "primary_topic_label": "Greenhouse gas",
+      "url": "/domains/meteorology/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W2006165291",
+      "title": "Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century",
+      "year": 2003,
+      "cited_by_count": 11195,
+      "adjusted_cited_by_count": 2334.32,
+      "primary_topic_id": "sg-global-change",
+      "primary_topic_label": "Global environmental change",
+      "url": "/domains/meteorology/papers/W2006165291"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8820,
+      "adjusted_cited_by_count": 2139.16,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9888,
+      "adjusted_cited_by_count": 2018.38,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W1667277804",
+      "title": "An Introduction to Boundary Layer Meteorology",
+      "year": 1988,
+      "cited_by_count": 10495,
+      "adjusted_cited_by_count": 1702.51,
+      "primary_topic_id": "sg-air-pollution",
+      "primary_topic_label": "Air pollution",
+      "url": "/domains/meteorology/papers/W1667277804"
+    },
+    {
+      "source_id": "https://openalex.org/W2020729558",
+      "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+      "year": 1998,
+      "cited_by_count": 9001,
+      "adjusted_cited_by_count": 1701.03,
+      "primary_topic_id": "sg-atmospheric-chemistry",
+      "primary_topic_label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/papers/W2020729558"
+    },
+    {
+      "source_id": "https://openalex.org/W4385118605",
+      "title": "IPCC, 2023: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland.",
+      "year": 2023,
+      "cited_by_count": 2860,
+      "adjusted_cited_by_count": 1651.22,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W4385118605"
+    },
+    {
+      "source_id": "https://openalex.org/W2089433206",
+      "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+      "year": 1998,
+      "cited_by_count": 8480,
+      "adjusted_cited_by_count": 1602.57,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing",
+      "url": "/domains/meteorology/papers/W2089433206"
+    },
+    {
+      "source_id": "https://openalex.org/W2513922847",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "year": 2015,
+      "cited_by_count": 5304,
+      "adjusted_cited_by_count": 1599.22,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W2513922847"
+    },
+    {
+      "source_id": "https://openalex.org/W4246438352",
+      "title": "Climate Change 2014: Mitigation of Climate Change",
+      "year": 2015,
+      "cited_by_count": 4657,
+      "adjusted_cited_by_count": 1404.14,
+      "primary_topic_id": "sg-atmospheric-chemistry",
+      "primary_topic_label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/papers/W4246438352"
+    },
+    {
+      "source_id": "https://openalex.org/W2463201722",
+      "title": "Climatologies at high resolution for the earth’s land surface areas",
+      "year": 2017,
+      "cited_by_count": 3914,
+      "adjusted_cited_by_count": 1304.67,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W2463201722"
+    },
+    {
+      "source_id": "https://openalex.org/W1608013130",
+      "title": "Climate change 2013 : the physical science basis : Working Group I contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2013,
+      "cited_by_count": 4657,
+      "adjusted_cited_by_count": 1291.62,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W1608013130"
+    },
+    {
+      "source_id": "https://openalex.org/W3104895181",
+      "title": "Climatologies at high resolution for the earth’s land surface areas",
+      "year": 2017,
+      "cited_by_count": 3814,
+      "adjusted_cited_by_count": 1271.33,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W3104895181"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5622,
+      "adjusted_cited_by_count": 1198.61,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing",
+      "url": "/domains/meteorology/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2530121532",
+      "title": "Climate Change 2014: Impacts, Adaptation and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 4084,
+      "adjusted_cited_by_count": 1178.95,
+      "primary_topic_id": "sg-atmospheric-chemistry",
+      "primary_topic_label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/papers/W2530121532"
+    },
+    {
+      "source_id": "https://openalex.org/W1989668498",
+      "title": "NCEP–DOE AMIP-II Reanalysis (R-2)",
+      "year": 2002,
+      "cited_by_count": 5406,
+      "adjusted_cited_by_count": 1103.5,
+      "primary_topic_id": "sg-model-intercomparison",
+      "primary_topic_label": "Model intercomparison",
+      "url": "/domains/meteorology/papers/W1989668498"
+    },
+    {
+      "source_id": "https://openalex.org/W2596630349",
+      "title": "Global warming and recurrent mass bleaching of corals",
+      "year": 2017,
+      "cited_by_count": 3307,
+      "adjusted_cited_by_count": 1102.33,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W2596630349"
+    },
+    {
+      "source_id": "https://openalex.org/W2738516213",
+      "title": "Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons",
+      "year": 2017,
+      "cited_by_count": 3226,
+      "adjusted_cited_by_count": 1075.33,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing",
+      "url": "/domains/meteorology/papers/W2738516213"
+    },
+    {
+      "source_id": "https://openalex.org/W2113297575",
+      "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+      "year": 2005,
+      "cited_by_count": 4658,
+      "adjusted_cited_by_count": 1016.46,
+      "primary_topic_id": "sg-greenhouse-gas",
+      "primary_topic_label": "Greenhouse gas",
+      "url": "/domains/meteorology/papers/W2113297575"
+    },
+    {
+      "source_id": "https://openalex.org/W2558874786",
+      "title": "Atmospheric chemistry and physics: from air pollution to climate change",
+      "year": 1998,
+      "cited_by_count": 5172,
+      "adjusted_cited_by_count": 977.42,
+      "primary_topic_id": "sg-atmospheric-chemistry",
+      "primary_topic_label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/papers/W2558874786"
+    },
+    {
+      "source_id": "https://openalex.org/W3026582775",
+      "title": "Temporary reduction in daily global CO2 emissions during the COVID-19 forced confinement",
+      "year": 2020,
+      "cited_by_count": 2270,
+      "adjusted_cited_by_count": 926.72,
+      "primary_topic_id": "sg-greenhouse-gas",
+      "primary_topic_label": "Greenhouse gas",
+      "url": "/domains/meteorology/papers/W3026582775"
+    },
+    {
+      "source_id": "https://openalex.org/W2530960585",
+      "title": "Impact of anthropogenic climate change on wildfire across western US forests",
+      "year": 2016,
+      "cited_by_count": 2927,
+      "adjusted_cited_by_count": 925.6,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W2530960585"
+    },
+    {
+      "source_id": "https://openalex.org/W4382358979",
+      "title": "Summary for Policymakers",
+      "year": 2023,
+      "cited_by_count": 1591,
+      "adjusted_cited_by_count": 918.56,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W4382358979"
+    },
+    {
+      "source_id": "https://openalex.org/W2165037481",
+      "title": "Europe-wide reduction in primary productivity caused by the heat and drought in 2003",
+      "year": 2005,
+      "cited_by_count": 4168,
+      "adjusted_cited_by_count": 909.53,
+      "primary_topic_id": "sg-greenhouse-gas",
+      "primary_topic_label": "Greenhouse gas",
+      "url": "/domains/meteorology/papers/W2165037481"
+    },
+    {
+      "source_id": "https://openalex.org/W2172396214",
+      "title": "On the Assessment of Surface Heat Flux and Evaporation Using Large-Scale Parameters",
+      "year": 1972,
+      "cited_by_count": 6656,
+      "adjusted_cited_by_count": 905.77,
+      "primary_topic_id": "sg-remote-sensing",
+      "primary_topic_label": "Remote sensing",
+      "url": "/domains/meteorology/papers/W2172396214"
+    },
+    {
+      "source_id": "https://openalex.org/W2117779820",
+      "title": "An improved method of constructing a database of monthly climate observations and associated high-resolution grids",
+      "year": 2005,
+      "cited_by_count": 4010,
+      "adjusted_cited_by_count": 875.05,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use",
+      "url": "/domains/meteorology/papers/W2117779820"
+    },
+    {
+      "source_id": "https://openalex.org/W2165301409",
+      "title": "Drought under global warming: a review",
+      "year": 2010,
+      "cited_by_count": 3458,
+      "adjusted_cited_by_count": 864.5,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W2165301409"
+    },
+    {
+      "source_id": "https://openalex.org/W2936566509",
+      "title": "Atmospheric transport and deposition of microplastics in a remote mountain catchment",
+      "year": 2019,
+      "cited_by_count": 2249,
+      "adjusted_cited_by_count": 850.04,
+      "primary_topic_id": "sg-greenhouse-gas",
+      "primary_topic_label": "Greenhouse gas",
+      "url": "/domains/meteorology/papers/W2936566509"
+    },
+    {
+      "source_id": "https://openalex.org/W2127510753",
+      "title": "Organic aerosol and global climate modelling: a review",
+      "year": 2005,
+      "cited_by_count": 3714,
+      "adjusted_cited_by_count": 810.46,
+      "primary_topic_id": "sg-atmospheric-chemistry",
+      "primary_topic_label": "Atmospheric chemistry and physics",
+      "url": "/domains/meteorology/papers/W2127510753"
+    },
+    {
+      "source_id": "https://openalex.org/W2800299140",
+      "title": "Future climate risk from compound events",
+      "year": 2018,
+      "cited_by_count": 2260,
+      "adjusted_cited_by_count": 799.03,
+      "primary_topic_id": "sg-global-change",
+      "primary_topic_label": "Global environmental change",
+      "url": "/domains/meteorology/papers/W2800299140"
+    },
+    {
+      "source_id": "https://openalex.org/W4307402605",
+      "title": "The 2022 report of the Lancet Countdown on health and climate change: health at the mercy of fossil fuels",
+      "year": 2022,
+      "cited_by_count": 1565,
+      "adjusted_cited_by_count": 782.5,
+      "primary_topic_id": "sg-global-warming",
+      "primary_topic_label": "Global warming",
+      "url": "/domains/meteorology/papers/W4307402605"
+    },
+    {
+      "source_id": "https://openalex.org/W2115247641",
+      "title": "The Community Earth System Model: A Framework for Collaborative Research",
+      "year": 2013,
+      "cited_by_count": 2804,
+      "adjusted_cited_by_count": 777.69,
+      "primary_topic_id": "sg-climate-model",
+      "primary_topic_label": "Climate modeling",
+      "url": "/domains/meteorology/papers/W2115247641"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/meteorology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2112776483",
+      "title": "Very high resolution interpolated climate surfaces for global land areas",
+      "year": 2005,
+      "cited_by_count": 20045,
+      "adjusted_cited_by_count": 4374.18,
+      "url": "/domains/meteorology/papers/W2112776483"
+    },
+    {
+      "source_id": "https://openalex.org/W4382362038",
+      "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+      "year": 2023,
+      "cited_by_count": 7238,
+      "adjusted_cited_by_count": 4178.86,
+      "url": "/domains/meteorology/papers/W4382362038"
+    },
+    {
+      "source_id": "https://openalex.org/W1520428197",
+      "title": "Climate change 2007 : the physical science basis : contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2007,
+      "cited_by_count": 17676,
+      "adjusted_cited_by_count": 4055.15,
+      "url": "/domains/meteorology/papers/W1520428197"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "url": "/domains/meteorology/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W2024966118",
+      "title": "An Overview of CMIP5 and the Experiment Design",
+      "year": 2011,
+      "cited_by_count": 14697,
+      "adjusted_cited_by_count": 3794.75,
+      "url": "/domains/meteorology/papers/W2024966118"
+    },
+    {
+      "source_id": "https://openalex.org/W4213327538",
+      "title": "Climate Change 2013 – The Physical Science Basis",
+      "year": 2014,
+      "cited_by_count": 12102,
+      "adjusted_cited_by_count": 3493.55,
+      "url": "/domains/meteorology/papers/W4213327538"
+    },
+    {
+      "source_id": "https://openalex.org/W1588713494",
+      "title": "Climate Change 2014 Impacts, Adaptation, and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 11235,
+      "adjusted_cited_by_count": 3243.27,
+      "url": "/domains/meteorology/papers/W1588713494"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "url": "/domains/meteorology/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W2006165291",
+      "title": "Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century",
+      "year": 2003,
+      "cited_by_count": 11195,
+      "adjusted_cited_by_count": 2334.32,
+      "url": "/domains/meteorology/papers/W2006165291"
+    },
+    {
+      "source_id": "https://openalex.org/W2077968790",
+      "title": "A Multiscalar Drought Index Sensitive to Global Warming: The Standardized Precipitation Evapotranspiration Index",
+      "year": 2009,
+      "cited_by_count": 8820,
+      "adjusted_cited_by_count": 2139.16,
+      "url": "/domains/meteorology/papers/W2077968790"
+    },
+    {
+      "source_id": "https://openalex.org/W2024649846",
+      "title": "Ecological responses to recent climate change",
+      "year": 2002,
+      "cited_by_count": 9888,
+      "adjusted_cited_by_count": 2018.38,
+      "url": "/domains/meteorology/papers/W2024649846"
+    },
+    {
+      "source_id": "https://openalex.org/W1667277804",
+      "title": "An Introduction to Boundary Layer Meteorology",
+      "year": 1988,
+      "cited_by_count": 10495,
+      "adjusted_cited_by_count": 1702.51,
+      "url": "/domains/meteorology/papers/W1667277804"
+    },
+    {
+      "source_id": "https://openalex.org/W2020729558",
+      "title": "<i>Atmospheric Chemistry and Physics: From Air Pollution to Climate Change</i>",
+      "year": 1998,
+      "cited_by_count": 9001,
+      "adjusted_cited_by_count": 1701.03,
+      "url": "/domains/meteorology/papers/W2020729558"
+    },
+    {
+      "source_id": "https://openalex.org/W4385118605",
+      "title": "IPCC, 2023: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland.",
+      "year": 2023,
+      "cited_by_count": 2860,
+      "adjusted_cited_by_count": 1651.22,
+      "url": "/domains/meteorology/papers/W4385118605"
+    },
+    {
+      "source_id": "https://openalex.org/W2089433206",
+      "title": "AERONET—A Federated Instrument Network and Data Archive for Aerosol Characterization",
+      "year": 1998,
+      "cited_by_count": 8480,
+      "adjusted_cited_by_count": 1602.57,
+      "url": "/domains/meteorology/papers/W2089433206"
+    },
+    {
+      "source_id": "https://openalex.org/W2513922847",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "year": 2015,
+      "cited_by_count": 5304,
+      "adjusted_cited_by_count": 1599.22,
+      "url": "/domains/meteorology/papers/W2513922847"
+    },
+    {
+      "source_id": "https://openalex.org/W4246438352",
+      "title": "Climate Change 2014: Mitigation of Climate Change",
+      "year": 2015,
+      "cited_by_count": 4657,
+      "adjusted_cited_by_count": 1404.14,
+      "url": "/domains/meteorology/papers/W4246438352"
+    },
+    {
+      "source_id": "https://openalex.org/W2463201722",
+      "title": "Climatologies at high resolution for the earth’s land surface areas",
+      "year": 2017,
+      "cited_by_count": 3914,
+      "adjusted_cited_by_count": 1304.67,
+      "url": "/domains/meteorology/papers/W2463201722"
+    },
+    {
+      "source_id": "https://openalex.org/W1608013130",
+      "title": "Climate change 2013 : the physical science basis : Working Group I contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "year": 2013,
+      "cited_by_count": 4657,
+      "adjusted_cited_by_count": 1291.62,
+      "url": "/domains/meteorology/papers/W1608013130"
+    },
+    {
+      "source_id": "https://openalex.org/W3104895181",
+      "title": "Climatologies at high resolution for the earth’s land surface areas",
+      "year": 2017,
+      "cited_by_count": 3814,
+      "adjusted_cited_by_count": 1271.33,
+      "url": "/domains/meteorology/papers/W3104895181"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5622,
+      "adjusted_cited_by_count": 1198.61,
+      "url": "/domains/meteorology/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2530121532",
+      "title": "Climate Change 2014: Impacts, Adaptation and Vulnerability",
+      "year": 2014,
+      "cited_by_count": 4084,
+      "adjusted_cited_by_count": 1178.95,
+      "url": "/domains/meteorology/papers/W2530121532"
+    },
+    {
+      "source_id": "https://openalex.org/W1989668498",
+      "title": "NCEP–DOE AMIP-II Reanalysis (R-2)",
+      "year": 2002,
+      "cited_by_count": 5406,
+      "adjusted_cited_by_count": 1103.5,
+      "url": "/domains/meteorology/papers/W1989668498"
+    },
+    {
+      "source_id": "https://openalex.org/W2596630349",
+      "title": "Global warming and recurrent mass bleaching of corals",
+      "year": 2017,
+      "cited_by_count": 3307,
+      "adjusted_cited_by_count": 1102.33,
+      "url": "/domains/meteorology/papers/W2596630349"
+    },
+    {
+      "source_id": "https://openalex.org/W2738516213",
+      "title": "Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons",
+      "year": 2017,
+      "cited_by_count": 3226,
+      "adjusted_cited_by_count": 1075.33,
+      "url": "/domains/meteorology/papers/W2738516213"
+    },
+    {
+      "source_id": "https://openalex.org/W2113297575",
+      "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+      "year": 2005,
+      "cited_by_count": 4658,
+      "adjusted_cited_by_count": 1016.46,
+      "url": "/domains/meteorology/papers/W2113297575"
+    },
+    {
+      "source_id": "https://openalex.org/W2558874786",
+      "title": "Atmospheric chemistry and physics: from air pollution to climate change",
+      "year": 1998,
+      "cited_by_count": 5172,
+      "adjusted_cited_by_count": 977.42,
+      "url": "/domains/meteorology/papers/W2558874786"
+    },
+    {
+      "source_id": "https://openalex.org/W3026582775",
+      "title": "Temporary reduction in daily global CO2 emissions during the COVID-19 forced confinement",
+      "year": 2020,
+      "cited_by_count": 2270,
+      "adjusted_cited_by_count": 926.72,
+      "url": "/domains/meteorology/papers/W3026582775"
+    },
+    {
+      "source_id": "https://openalex.org/W2530960585",
+      "title": "Impact of anthropogenic climate change on wildfire across western US forests",
+      "year": 2016,
+      "cited_by_count": 2927,
+      "adjusted_cited_by_count": 925.6,
+      "url": "/domains/meteorology/papers/W2530960585"
+    },
+    {
+      "source_id": "https://openalex.org/W4382358979",
+      "title": "Summary for Policymakers",
+      "year": 2023,
+      "cited_by_count": 1591,
+      "adjusted_cited_by_count": 918.56,
+      "url": "/domains/meteorology/papers/W4382358979"
+    },
+    {
+      "source_id": "https://openalex.org/W2165037481",
+      "title": "Europe-wide reduction in primary productivity caused by the heat and drought in 2003",
+      "year": 2005,
+      "cited_by_count": 4168,
+      "adjusted_cited_by_count": 909.53,
+      "url": "/domains/meteorology/papers/W2165037481"
+    },
+    {
+      "source_id": "https://openalex.org/W2172396214",
+      "title": "On the Assessment of Surface Heat Flux and Evaporation Using Large-Scale Parameters",
+      "year": 1972,
+      "cited_by_count": 6656,
+      "adjusted_cited_by_count": 905.77,
+      "url": "/domains/meteorology/papers/W2172396214"
+    },
+    {
+      "source_id": "https://openalex.org/W2117779820",
+      "title": "An improved method of constructing a database of monthly climate observations and associated high-resolution grids",
+      "year": 2005,
+      "cited_by_count": 4010,
+      "adjusted_cited_by_count": 875.05,
+      "url": "/domains/meteorology/papers/W2117779820"
+    },
+    {
+      "source_id": "https://openalex.org/W2165301409",
+      "title": "Drought under global warming: a review",
+      "year": 2010,
+      "cited_by_count": 3458,
+      "adjusted_cited_by_count": 864.5,
+      "url": "/domains/meteorology/papers/W2165301409"
+    },
+    {
+      "source_id": "https://openalex.org/W2936566509",
+      "title": "Atmospheric transport and deposition of microplastics in a remote mountain catchment",
+      "year": 2019,
+      "cited_by_count": 2249,
+      "adjusted_cited_by_count": 850.04,
+      "url": "/domains/meteorology/papers/W2936566509"
+    },
+    {
+      "source_id": "https://openalex.org/W2127510753",
+      "title": "Organic aerosol and global climate modelling: a review",
+      "year": 2005,
+      "cited_by_count": 3714,
+      "adjusted_cited_by_count": 810.46,
+      "url": "/domains/meteorology/papers/W2127510753"
+    },
+    {
+      "source_id": "https://openalex.org/W2800299140",
+      "title": "Future climate risk from compound events",
+      "year": 2018,
+      "cited_by_count": 2260,
+      "adjusted_cited_by_count": 799.03,
+      "url": "/domains/meteorology/papers/W2800299140"
+    },
+    {
+      "source_id": "https://openalex.org/W4307402605",
+      "title": "The 2022 report of the Lancet Countdown on health and climate change: health at the mercy of fossil fuels",
+      "year": 2022,
+      "cited_by_count": 1565,
+      "adjusted_cited_by_count": 782.5,
+      "url": "/domains/meteorology/papers/W4307402605"
+    },
+    {
+      "source_id": "https://openalex.org/W2115247641",
+      "title": "The Community Earth System Model: A Framework for Collaborative Research",
+      "year": 2013,
+      "cited_by_count": 2804,
+      "adjusted_cited_by_count": 777.69,
+      "url": "/domains/meteorology/papers/W2115247641"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 237
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 183
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 177
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 169
+    },
+    {
+      "label": "geology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 167
+    },
+    {
+      "label": "meteorology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 162
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 156
+    },
+    {
+      "label": "climatology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 150
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "atmospheric",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 118
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 114
+    },
+    {
+      "label": "over",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 97
+    },
+    {
+      "label": "atmospheric science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "sea",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "temperature",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "climate model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "scale",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "land",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "precipitation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "oceanography",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "impact",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "abstract",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "air",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "ice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "assessment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "global warming",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "project",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 46
+    },
+    {
+      "label": "meteorological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 45
+    },
+    {
+      "label": "atmosphere",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 44
+    },
+    {
+      "label": "regional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 44
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 43
+    },
+    {
+      "label": "of climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 41
+    },
+    {
+      "label": "observations",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 39
+    },
+    {
+      "label": "unit",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 39
+    },
+    {
+      "label": "environmental resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 38
+    }
+  ],
+  "topic_year_counts": {
+    "climate modeling": {
+      "2025": 388551,
+      "2024": 329395,
+      "2023": 327602,
+      "2022": 230105,
+      "2021": 207242,
+      "2020": 184793,
+      "2019": 150734,
+      "2018": 132126,
+      "2026": 115891,
+      "2017": 115679,
+      "2016": 106819,
+      "2015": 94806,
+      "2014": 85459,
+      "2013": 77895,
+      "2012": 67348,
+      "2011": 57808,
+      "2010": 49597,
+      "2009": 42207,
+      "2008": 34294,
+      "2007": 28368,
+      "2006": 24429,
+      "2005": 20928,
+      "2004": 18262,
+      "2003": 15413,
+      "2002": 13045,
+      "2000": 11910,
+      "2001": 11248
+    },
+    "remote sensing": {
+      "2025": 172799,
+      "2023": 165451,
+      "2024": 162212,
+      "2022": 120062,
+      "2021": 106944,
+      "2020": 91751,
+      "2019": 76257,
+      "2018": 67564,
+      "2017": 57592,
+      "2016": 54820,
+      "2026": 51741,
+      "2015": 48920,
+      "2014": 45592,
+      "2013": 42149,
+      "2012": 37946,
+      "2011": 33239,
+      "2010": 29393,
+      "2009": 26532,
+      "2008": 22264,
+      "2007": 19533,
+      "2006": 17535,
+      "2005": 15876,
+      "2004": 14005,
+      "2003": 12389,
+      "2002": 11337,
+      "2000": 8756,
+      "2001": 8562
+    },
+    "global warming": {
+      "2023": 154915,
+      "2025": 153650,
+      "2024": 150153,
+      "2022": 108291,
+      "2021": 98936,
+      "2020": 88948,
+      "2019": 72820,
+      "2018": 64295,
+      "2017": 56867,
+      "2016": 51987,
+      "2015": 46778,
+      "2026": 45202,
+      "2014": 43213,
+      "2013": 39421,
+      "2012": 34565,
+      "2011": 29919,
+      "2010": 26098,
+      "2009": 22948,
+      "2008": 18795,
+      "2007": 15284,
+      "2006": 12024,
+      "2005": 10578,
+      "2004": 8378,
+      "2003": 7388,
+      "2002": 6301,
+      "2000": 5909,
+      "2001": 5633
+    },
+    "global climate": {
+      "2025": 369258,
+      "2024": 313134,
+      "2023": 303130,
+      "2022": 208911,
+      "2021": 186600,
+      "2020": 163693,
+      "2019": 129773,
+      "2018": 112978,
+      "2026": 103668,
+      "2017": 98439,
+      "2016": 89413,
+      "2015": 78650,
+      "2014": 71028,
+      "2013": 64509,
+      "2012": 55821,
+      "2011": 47839,
+      "2010": 41099,
+      "2009": 34612,
+      "2008": 27480,
+      "2007": 22306,
+      "2006": 17895,
+      "2005": 15406,
+      "2004": 13012,
+      "2003": 11270,
+      "2002": 9434,
+      "2000": 8147,
+      "2001": 8067
+    },
+    "air pollution": {
+      "2023": 119123,
+      "2025": 117825,
+      "2024": 115837,
+      "2022": 86645,
+      "2021": 78247,
+      "2020": 68560,
+      "2019": 56073,
+      "2018": 48772,
+      "2017": 40934,
+      "2016": 36610,
+      "2015": 32760,
+      "2026": 30639,
+      "2014": 30223,
+      "2013": 27719,
+      "2012": 23631,
+      "2011": 21042,
+      "2010": 18284,
+      "2009": 15907,
+      "2008": 13551,
+      "2007": 11995,
+      "2006": 11102,
+      "2005": 9657,
+      "2004": 8574,
+      "2003": 7644,
+      "2002": 6836,
+      "2000": 6215,
+      "2001": 5784
+    },
+    "atmospheric chemistry and physics": {
+      "2023": 14311,
+      "2025": 13761,
+      "2024": 13189,
+      "2021": 9468,
+      "2022": 9376,
+      "2020": 8759,
+      "2018": 8422,
+      "2019": 8257,
+      "2017": 6904,
+      "2016": 6091,
+      "2015": 5306,
+      "2013": 4855,
+      "2014": 4846,
+      "2026": 4301,
+      "2012": 4228,
+      "2011": 3680,
+      "2010": 3102,
+      "2009": 2573,
+      "2008": 2139,
+      "2007": 1857,
+      "2006": 1474,
+      "2005": 1365,
+      "2004": 1067,
+      "2003": 977,
+      "2002": 809,
+      "2000": 708,
+      "2001": 657
+    },
+    "land use": {
+      "2023": 383581,
+      "2025": 361398,
+      "2024": 358035,
+      "2022": 284833,
+      "2021": 270709,
+      "2020": 251545,
+      "2019": 218064,
+      "2018": 197825,
+      "2017": 175055,
+      "2016": 164972,
+      "2015": 151378,
+      "2014": 140719,
+      "2013": 129674,
+      "2012": 114786,
+      "2011": 101793,
+      "2026": 100589,
+      "2010": 90166,
+      "2009": 80171,
+      "2008": 69716,
+      "2007": 61523,
+      "2006": 54960,
+      "2005": 48984,
+      "2004": 42934,
+      "2003": 38757,
+      "2002": 33996,
+      "2001": 29764,
+      "2000": 29557
+    },
+    "global environmental change": {
+      "2025": 523539,
+      "2024": 468647,
+      "2023": 453959,
+      "2022": 303588,
+      "2021": 266420,
+      "2020": 233558,
+      "2019": 184384,
+      "2018": 159168,
+      "2026": 144527,
+      "2017": 137955,
+      "2016": 123511,
+      "2015": 108987,
+      "2014": 98281,
+      "2013": 86748,
+      "2012": 74353,
+      "2011": 61753,
+      "2010": 52056,
+      "2009": 43831,
+      "2008": 35271,
+      "2007": 29478,
+      "2006": 24610,
+      "2005": 21264,
+      "2004": 17335,
+      "2003": 14878,
+      "2002": 12336,
+      "2000": 10679,
+      "2001": 10349
+    },
+    "greenhouse gas": {
+      "2025": 110527,
+      "2024": 103822,
+      "2023": 99998,
+      "2022": 67417,
+      "2021": 59992,
+      "2020": 51642,
+      "2019": 42013,
+      "2018": 37061,
+      "2017": 33073,
+      "2016": 30289,
+      "2026": 29805,
+      "2015": 27362,
+      "2014": 25194,
+      "2013": 23054,
+      "2012": 20597,
+      "2011": 18083,
+      "2010": 15534,
+      "2009": 12577,
+      "2008": 10168,
+      "2007": 7663,
+      "2006": 6557,
+      "2005": 5506,
+      "2004": 4636,
+      "2003": 4125,
+      "2000": 3354,
+      "2002": 3255,
+      "2001": 2956
+    },
+    "model intercomparison": {
+      "2023": 11901,
+      "2025": 11387,
+      "2024": 10319,
+      "2022": 9401,
+      "2021": 9176,
+      "2020": 7812,
+      "2019": 6690,
+      "2018": 6564,
+      "2017": 5187,
+      "2016": 5091,
+      "2015": 4443,
+      "2014": 4153,
+      "2013": 3967,
+      "2026": 3546,
+      "2012": 3167,
+      "2011": 2668,
+      "2010": 2208,
+      "2009": 1977,
+      "2008": 1787,
+      "2007": 1439,
+      "2006": 1243,
+      "2005": 1103,
+      "2004": 840,
+      "2003": 839,
+      "2002": 728,
+      "2000": 619,
+      "2001": 544
+    }
+  }
+}

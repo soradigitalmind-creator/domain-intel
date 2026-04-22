@@ -75,6 +75,47 @@
     "updated_at": "2026-04-19T09:43:39.450041Z"
   },
   {
+    "slug": "archaeology",
+    "title": "Archaeology",
+    "sources": 194,
+    "effective_papers": 178,
+    "subgenres": 82,
+    "parent_subgenres": 10,
+    "child_subgenres": 71,
+    "entities": 373,
+    "claims": 0,
+    "overview_source_ids": [
+      "https://openalex.org/W1589617432",
+      "https://openalex.org/W1974808297",
+      "https://openalex.org/W1986632066",
+      "https://openalex.org/W2001932294",
+      "https://openalex.org/W2038513492",
+      "https://openalex.org/W2058035594",
+      "https://openalex.org/W2128186385",
+      "https://openalex.org/W2157274504",
+      "https://openalex.org/W2265704083",
+      "https://openalex.org/W2568421887",
+      "https://openalex.org/W2771287391",
+      "https://openalex.org/W2797859563"
+    ],
+    "overview_partition_summary": {
+      "overview_papers": 12,
+      "topical_papers": 182,
+      "total_papers": 194,
+      "facet_counts": {
+        "methods": 2,
+        "none": 182,
+        "overview": 10
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 12,
+      "overview_min_papers": 6
+    },
+    "abstraction_label": "A family of related Archaeology technologies, including pleistocene-era hominins and archaeology, archaeology and ancient environmental studies, forensic anthropology and bioarchaeology studies.",
+    "updated_at": "2026-04-22T11:07:00.879345Z"
+  },
+  {
     "slug": "art",
     "title": "Art",
     "sources": 225,
@@ -314,6 +355,31 @@
     "updated_at": "2026-04-19T09:32:37.791550Z"
   },
   {
+    "slug": "bioinformatics",
+    "title": "Bioinformatics",
+    "sources": 279,
+    "effective_papers": 226,
+    "subgenres": 47,
+    "parent_subgenres": 5,
+    "child_subgenres": 42,
+    "entities": 580,
+    "claims": 0,
+    "overview_source_ids": [],
+    "overview_partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 279,
+      "total_papers": 279,
+      "facet_counts": {
+        "none": 279
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    },
+    "abstraction_label": "A taxonomy-style research map spanning bioinformatics and genomic networks.",
+    "updated_at": "2026-04-22T11:04:24.347062Z"
+  },
+  {
     "slug": "biomedical",
     "title": "Biomedical",
     "sources": 196,
@@ -518,6 +584,31 @@
     },
     "abstraction_label": "A family of related Climate Change technologies, including species distribution and climate change, climate change, climate change and environmental impact.",
     "updated_at": "2026-04-07T12:12:08.295047Z"
+  },
+  {
+    "slug": "cybersecurity",
+    "title": "Cybersecurity",
+    "sources": 572,
+    "effective_papers": 283,
+    "subgenres": 31,
+    "parent_subgenres": 4,
+    "child_subgenres": 27,
+    "entities": 891,
+    "claims": 0,
+    "overview_source_ids": [],
+    "overview_partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 572,
+      "total_papers": 572,
+      "facet_counts": {
+        "none": 572
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    },
+    "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+    "updated_at": "2026-04-22T11:00:52.397907Z"
   },
   {
     "slug": "defense",
@@ -970,6 +1061,31 @@
     "updated_at": "2026-04-06T14:06:24.407801Z"
   },
   {
+    "slug": "manufacturing",
+    "title": "Manufacturing",
+    "sources": 90,
+    "effective_papers": 78,
+    "subgenres": 24,
+    "parent_subgenres": 3,
+    "child_subgenres": 21,
+    "entities": 304,
+    "claims": 0,
+    "overview_source_ids": [],
+    "overview_partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 90,
+      "total_papers": 90,
+      "facet_counts": {
+        "none": 90
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    },
+    "abstraction_label": "A taxonomy-style research map spanning manufacturing engineering, additive manufacturing and 3d printing technology.",
+    "updated_at": "2026-04-22T10:51:17.895483Z"
+  },
+  {
     "slug": "marketing",
     "title": "Marketing",
     "sources": 413,
@@ -1173,6 +1289,31 @@
     },
     "abstraction_label": "A family of related Mental Health technologies, including covid-19 and mental health, mental health, environmental health.",
     "updated_at": "2026-04-12T01:32:31.174929Z"
+  },
+  {
+    "slug": "meteorology",
+    "title": "Meteorology",
+    "sources": 284,
+    "effective_papers": 281,
+    "subgenres": 266,
+    "parent_subgenres": 10,
+    "child_subgenres": 256,
+    "entities": 632,
+    "claims": 0,
+    "overview_source_ids": [],
+    "overview_partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 284,
+      "total_papers": 284,
+      "facet_counts": {
+        "none": 284
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    },
+    "abstraction_label": "A taxonomy-style research map spanning mesoscale meteorology.",
+    "updated_at": "2026-04-22T10:45:31.101231Z"
   },
   {
     "slug": "mining",
@@ -1503,6 +1644,40 @@
     },
     "abstraction_label": "A taxonomy-style research map spanning reinforcement learning in robotics, soft robotics, robotics and sensor-based localization.",
     "updated_at": "2026-04-06T14:10:31.692483Z"
+  },
+  {
+    "slug": "semiconductor",
+    "title": "Semiconductor",
+    "sources": 399,
+    "effective_papers": 380,
+    "subgenres": 180,
+    "parent_subgenres": 9,
+    "child_subgenres": 170,
+    "entities": 810,
+    "claims": 3,
+    "overview_source_ids": [
+      "https://openalex.org/W2029699094",
+      "https://openalex.org/W2040697085",
+      "https://openalex.org/W2053286983",
+      "https://openalex.org/W2063132420",
+      "https://openalex.org/W2071615649",
+      "https://openalex.org/W2168172378"
+    ],
+    "overview_partition_summary": {
+      "overview_papers": 6,
+      "topical_papers": 393,
+      "total_papers": 399,
+      "facet_counts": {
+        "none": 393,
+        "overview": 6
+      },
+      "gemini_validation_enabled": true,
+      "gemini_validation_ready": true,
+      "title_phrase_candidates": 7,
+      "overview_min_papers": 6
+    },
+    "abstraction_label": "A family of related Semiconductor technologies, including advancements in semiconductor device and circuit design, semiconductor device, semiconductor material and device.",
+    "updated_at": "2026-04-22T10:56:28.309747Z"
   },
   {
     "slug": "sociology",

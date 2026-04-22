@@ -1,0 +1,1737 @@
+{
+  "slug": "cybersecurity",
+  "title": "Cybersecurity",
+  "updated_at": "2026-04-22T11:00:52.287094Z",
+  "snapshot": {
+    "papers": 283,
+    "topics": 4,
+    "subtopics": 27,
+    "entities": 891,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 572,
+      "total_papers": 572,
+      "facet_counts": {
+        "none": 572
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 27,
+    "max_depth": 2,
+    "leaf_topics": 27
+  },
+  "rising_topics": [
+    {
+      "id": "sg-edge-computing",
+      "label": "Edge computing",
+      "url": "/domains/cybersecurity/topics/sg-edge-computing",
+      "trend": "rising",
+      "year_total": 1642508
+    },
+    {
+      "id": "sg-critical-infrastructure",
+      "label": "Critical infrastructure",
+      "url": "/domains/cybersecurity/topics/sg-critical-infrastructure",
+      "trend": "rising",
+      "year_total": 1865270
+    },
+    {
+      "id": "sg-risk-analysis",
+      "label": "Risk analysis",
+      "url": "/domains/cybersecurity/topics/sg-risk-analysis",
+      "trend": "rising",
+      "year_total": 11404104
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-edge-computing",
+      "label": "Edge computing",
+      "url": "/domains/cybersecurity/topics/sg-edge-computing",
+      "paper_count": 87,
+      "subtopic_count": 15,
+      "trend": "rising",
+      "summary": "entities: edge computing, use, in the",
+      "tags": [
+        "artificial intelligence in cybersecurity",
+        "blockchain cybersecurity",
+        "edge computing",
+        "edge device"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-edge-computing-cyber-security",
+          "label": "Cyber security",
+          "url": "/domains/cybersecurity/topics/sg-edge-computing-cyber-security",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-edge-computing-health-care",
+          "label": "Health care",
+          "url": "/domains/cybersecurity/topics/sg-edge-computing-health-care",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-edge-computing-federated-learning",
+          "label": "Federated learning",
+          "url": "/domains/cybersecurity/topics/sg-edge-computing-federated-learning",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-cyber-physical-system-digital-transformation",
+          "label": "Digital transformation",
+          "url": "/domains/cybersecurity/topics/sg-cyber-physical-system-digital-transformation",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-edge-computing-fog-computing-for-edge",
+          "label": "Fog computing for edge",
+          "url": "/domains/cybersecurity/topics/sg-edge-computing-fog-computing-for-edge",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-edge-computing-knowledge-base-for-edge",
+          "label": "Knowledge base for edge",
+          "url": "/domains/cybersecurity/topics/sg-edge-computing-knowledge-base-for-edge",
+          "paper_count": 6
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3023540311",
+          "title": "Genetic algorithms in search, optimization, and machine learning",
+          "year": "1989",
+          "cited_by_count": 49332,
+          "url": "/domains/cybersecurity/papers/W3023540311"
+        },
+        {
+          "source_id": "https://openalex.org/W2165698076",
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22803,
+          "url": "/domains/cybersecurity/papers/W2165698076"
+        },
+        {
+          "source_id": "https://openalex.org/W3140854437",
+          "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+          "year": "2021",
+          "cited_by_count": 7297,
+          "url": "/domains/cybersecurity/papers/W3140854437"
+        }
+      ]
+    },
+    {
+      "id": "sg-critical-infrastructure",
+      "label": "Critical infrastructure",
+      "url": "/domains/cybersecurity/topics/sg-critical-infrastructure",
+      "paper_count": 86,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: data, critical infrastructure, of the",
+      "tags": [
+        "critical infrastructure",
+        "critical infrastructure cybersecurity",
+        "critical infrastructure protection",
+        "cybersecurity cyberwar"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-critical-infrastructure-cyber-security",
+          "label": "Cyber security",
+          "url": "/domains/cybersecurity/topics/sg-critical-infrastructure-cyber-security",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-critical-infrastructure-data-mining",
+          "label": "Data mining",
+          "url": "/domains/cybersecurity/topics/sg-critical-infrastructure-data-mining",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-critical-infrastructure-critical-infrastructure-protection",
+          "label": "Critical infrastructure protection",
+          "url": "/domains/cybersecurity/topics/sg-critical-infrastructure-critical-infrastructure-protection",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-critical-infrastructure-machine-learning-for-network-security",
+          "label": "Machine learning for network security",
+          "url": "/domains/cybersecurity/topics/sg-critical-infrastructure-machine-learning-for-network-security",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-critical-infrastructure-framework-for-improving-critical-infrastructure",
+          "label": "Framework for improving critical infrastructure",
+          "url": "/domains/cybersecurity/topics/sg-critical-infrastructure-framework-for-improving-critical-infrastructure",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2395579298",
+          "title": "A survey of transfer learning",
+          "year": "2016",
+          "cited_by_count": 6057,
+          "url": "/domains/cybersecurity/papers/W2395579298"
+        },
+        {
+          "source_id": "https://openalex.org/W2789828921",
+          "title": "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization",
+          "year": "2018",
+          "cited_by_count": 4079,
+          "url": "/domains/cybersecurity/papers/W2789828921"
+        },
+        {
+          "source_id": "https://openalex.org/W2038194220",
+          "title": "Internet of Things in Industries: A Survey",
+          "year": "2014",
+          "cited_by_count": 4991,
+          "url": "/domains/cybersecurity/papers/W2038194220"
+        }
+      ]
+    },
+    {
+      "id": "sg-risk-analysis",
+      "label": "Risk analysis",
+      "url": "/domains/cybersecurity/topics/sg-risk-analysis",
+      "paper_count": 69,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: risk analysis, of the, in the",
+      "tags": [
+        "critical infrastructure cybersecurity",
+        "cyber security risk",
+        "cybersecurity issues",
+        "cybersecurity risk"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-risk-analysis-cyber-security",
+          "label": "Cyber security",
+          "url": "/domains/cybersecurity/topics/sg-risk-analysis-cyber-security",
+          "paper_count": 32
+        },
+        {
+          "id": "sg-risk-analysis-supply-chain",
+          "label": "Supply chain",
+          "url": "/domains/cybersecurity/topics/sg-risk-analysis-supply-chain",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-risk-analysis-risk-assessment",
+          "label": "Risk assessment",
+          "url": "/domains/cybersecurity/topics/sg-risk-analysis-risk-assessment",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-risk-analysis-humanitarian-logistics",
+          "label": "Humanitarian logistics",
+          "url": "/domains/cybersecurity/topics/sg-risk-analysis-humanitarian-logistics",
+          "paper_count": 9
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2912800036",
+          "title": "Understanding digital transformation: A review and a research agenda",
+          "year": "2019",
+          "cited_by_count": 5834,
+          "url": "/domains/cybersecurity/papers/W2912800036"
+        },
+        {
+          "source_id": "https://openalex.org/W2904649625",
+          "title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+          "year": "2018",
+          "cited_by_count": 2811,
+          "url": "/domains/cybersecurity/papers/W2904649625"
+        },
+        {
+          "source_id": "https://openalex.org/W2773929027",
+          "title": "1 Blockchain’s roles in meeting key supply chain management objectives",
+          "year": "2017",
+          "cited_by_count": 2025,
+          "url": "/domains/cybersecurity/papers/W2773929027"
+        }
+      ]
+    },
+    {
+      "id": "sg-smart-city",
+      "label": "Smart city",
+      "url": "/domains/cybersecurity/topics/sg-smart-city",
+      "paper_count": 41,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: smart city, of the, smart",
+      "tags": [
+        "artificial intelligence in cybersecurity",
+        "cybersecurity, data privacy",
+        "federated learning",
+        "intelligence in cybersecurity"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-smart-city-smart-cities",
+          "label": "Smart cities",
+          "url": "/domains/cybersecurity/topics/sg-smart-city-smart-cities",
+          "paper_count": 30
+        },
+        {
+          "id": "sg-smart-city-cyber-security",
+          "label": "Cyber security",
+          "url": "/domains/cybersecurity/topics/sg-smart-city-cyber-security",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-smart-city-emerging-technology",
+          "label": "Emerging technology",
+          "url": "/domains/cybersecurity/topics/sg-smart-city-emerging-technology",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2995022099",
+          "title": "Advances and Open Problems in Federated Learning",
+          "year": "2020",
+          "cited_by_count": 4447,
+          "url": "/domains/cybersecurity/papers/W2995022099"
+        },
+        {
+          "source_id": "https://openalex.org/W2058401212",
+          "title": "Internet of Things for Smart Cities",
+          "year": "2014",
+          "cited_by_count": 6033,
+          "url": "/domains/cybersecurity/papers/W2058401212"
+        },
+        {
+          "source_id": "https://openalex.org/W2969625533",
+          "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+          "year": "2019",
+          "cited_by_count": 3874,
+          "url": "/domains/cybersecurity/papers/W2969625533"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 27,
+      "papers": [
+        {
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352953,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2582743722.html"
+        },
+        {
+          "title": "ImageNet classification with deep convolutional neural networks",
+          "year": "2017",
+          "cited_by_count": 75671,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2163605009.html"
+        },
+        {
+          "title": "Scikit-learn: Machine Learning in Python",
+          "year": "2012",
+          "cited_by_count": 63562,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2101234009.html"
+        },
+        {
+          "title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "year": "2014",
+          "cited_by_count": 34246,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2095705004.html"
+        },
+        {
+          "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+          "year": "2011",
+          "cited_by_count": 25709,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1570448133.html"
+        },
+        {
+          "title": "Neural Networks: A Comprehensive Foundation",
+          "year": "1998",
+          "cited_by_count": 29833,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2124776405.html"
+        }
+      ]
+    },
+    {
+      "label": "Edge computing",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Genetic algorithms in search, optimization, and machine learning",
+          "year": "1989",
+          "cited_by_count": 49332,
+          "topic": "Edge computing",
+          "url": "papers/https-openalex-org-w3023540311.html"
+        },
+        {
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22803,
+          "topic": "Edge computing",
+          "url": "papers/https-openalex-org-w2165698076.html"
+        },
+        {
+          "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+          "year": "2021",
+          "cited_by_count": 7297,
+          "topic": "Edge computing",
+          "url": "papers/https-openalex-org-w3140854437.html"
+        },
+        {
+          "title": "The NIST definition of cloud computing",
+          "year": "2011",
+          "cited_by_count": 11581,
+          "topic": "Edge computing",
+          "url": "papers/https-openalex-org-w2275530856.html"
+        },
+        {
+          "title": "A view of cloud computing",
+          "year": "2010",
+          "cited_by_count": 8925,
+          "topic": "Edge computing",
+          "url": "papers/https-openalex-org-w2114296561.html"
+        },
+        {
+          "title": "Fog computing and its role in the internet of things",
+          "year": "2012",
+          "cited_by_count": 5923,
+          "topic": "Edge computing",
+          "url": "papers/https-openalex-org-w2114623221.html"
+        }
+      ]
+    },
+    {
+      "label": "Smart city",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Advances and Open Problems in Federated Learning",
+          "year": "2020",
+          "cited_by_count": 4447,
+          "topic": "Smart city",
+          "url": "papers/https-openalex-org-w2995022099.html"
+        },
+        {
+          "title": "Internet of Things for Smart Cities",
+          "year": "2014",
+          "cited_by_count": 6033,
+          "topic": "Smart city",
+          "url": "papers/https-openalex-org-w2058401212.html"
+        },
+        {
+          "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+          "year": "2019",
+          "cited_by_count": 3874,
+          "topic": "Smart city",
+          "url": "papers/https-openalex-org-w2969625533.html"
+        }
+      ]
+    },
+    {
+      "label": "Critical infrastructure protection",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Industry 4.0",
+          "year": "2014",
+          "cited_by_count": 4034,
+          "topic": "Critical infrastructure protection",
+          "url": "papers/https-openalex-org-w2070665593.html"
+        }
+      ]
+    },
+    {
+      "label": "Emerging technology",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Blockchains and Smart Contracts for the Internet of Things",
+          "year": "2016",
+          "cited_by_count": 4362,
+          "topic": "Emerging technology",
+          "url": "papers/https-openalex-org-w2392113277.html"
+        }
+      ]
+    },
+    {
+      "label": "Fog computing for edge",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Cloud computing and emerging IT platforms: Vision, hype, and reality for delivering computing as the 5th utility",
+          "year": "2008",
+          "cited_by_count": 5889,
+          "topic": "Fog computing for edge",
+          "url": "papers/https-openalex-org-w1977367431.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352953,
+      "adjusted_cited_by_count": 69219.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75671,
+      "adjusted_cited_by_count": 25223.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W2101234009",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "year": 2012,
+      "cited_by_count": 63562,
+      "adjusted_cited_by_count": 16987.66,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2101234009"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34246,
+      "adjusted_cited_by_count": 9885.97,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W3023540311",
+      "title": "Genetic algorithms in search, optimization, and machine learning",
+      "year": 1989,
+      "cited_by_count": 49332,
+      "adjusted_cited_by_count": 8110.13,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W3023540311"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2124776405",
+      "title": "Neural Networks: A Comprehensive Foundation",
+      "year": 1998,
+      "cited_by_count": 29833,
+      "adjusted_cited_by_count": 5637.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2124776405"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22803,
+      "adjusted_cited_by_count": 5530.54,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19404,
+      "adjusted_cited_by_count": 5381.7,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W2954996726",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "year": 2019,
+      "cited_by_count": 11991,
+      "adjusted_cited_by_count": 4532.17,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2954996726"
+    },
+    {
+      "source_id": "https://openalex.org/W2111619626",
+      "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+      "year": 2013,
+      "cited_by_count": 11846,
+      "adjusted_cited_by_count": 3285.49,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2111619626"
+    },
+    {
+      "source_id": "https://openalex.org/W3140854437",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "year": 2021,
+      "cited_by_count": 7297,
+      "adjusted_cited_by_count": 3263.32,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W3140854437"
+    },
+    {
+      "source_id": "https://openalex.org/W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "cited_by_count": 8508,
+      "adjusted_cited_by_count": 3215.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2981731882"
+    },
+    {
+      "source_id": "https://openalex.org/W2275530856",
+      "title": "The NIST definition of cloud computing",
+      "year": 2011,
+      "cited_by_count": 11581,
+      "adjusted_cited_by_count": 2990.2,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W2275530856"
+    },
+    {
+      "source_id": "https://openalex.org/W3163993681",
+      "title": "Physics-informed machine learning",
+      "year": 2021,
+      "cited_by_count": 6000,
+      "adjusted_cited_by_count": 2683.28,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W3163993681"
+    },
+    {
+      "source_id": "https://openalex.org/W2122646361",
+      "title": "Anomaly detection",
+      "year": 2009,
+      "cited_by_count": 10911,
+      "adjusted_cited_by_count": 2646.31,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2122646361"
+    },
+    {
+      "source_id": "https://openalex.org/W2114296561",
+      "title": "A view of cloud computing",
+      "year": 2010,
+      "cited_by_count": 8925,
+      "adjusted_cited_by_count": 2231.25,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W2114296561"
+    },
+    {
+      "source_id": "https://openalex.org/W2912800036",
+      "title": "Understanding digital transformation: A review and a research agenda",
+      "year": 2019,
+      "cited_by_count": 5834,
+      "adjusted_cited_by_count": 2205.04,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2912800036"
+    },
+    {
+      "source_id": "https://openalex.org/W3135028703",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 4908,
+      "adjusted_cited_by_count": 2194.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W3135028703"
+    },
+    {
+      "source_id": "https://openalex.org/W2395579298",
+      "title": "A survey of transfer learning",
+      "year": 2016,
+      "cited_by_count": 6057,
+      "adjusted_cited_by_count": 1915.39,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2395579298"
+    },
+    {
+      "source_id": "https://openalex.org/W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "year": 2020,
+      "cited_by_count": 4447,
+      "adjusted_cited_by_count": 1815.48,
+      "primary_topic_id": "sg-smart-city",
+      "primary_topic_label": "Smart city",
+      "url": "/domains/cybersecurity/papers/W2995022099"
+    },
+    {
+      "source_id": "https://openalex.org/W2058401212",
+      "title": "Internet of Things for Smart Cities",
+      "year": 2014,
+      "cited_by_count": 6033,
+      "adjusted_cited_by_count": 1741.58,
+      "primary_topic_id": "sg-smart-city",
+      "primary_topic_label": "Smart city",
+      "url": "/domains/cybersecurity/papers/W2058401212"
+    },
+    {
+      "source_id": "https://openalex.org/W2114623221",
+      "title": "Fog computing and its role in the internet of things",
+      "year": 2012,
+      "cited_by_count": 5923,
+      "adjusted_cited_by_count": 1582.99,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W2114623221"
+    },
+    {
+      "source_id": "https://openalex.org/W2969625533",
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "year": 2019,
+      "cited_by_count": 3874,
+      "adjusted_cited_by_count": 1464.23,
+      "primary_topic_id": "sg-smart-city",
+      "primary_topic_label": "Smart city",
+      "url": "/domains/cybersecurity/papers/W2969625533"
+    },
+    {
+      "source_id": "https://openalex.org/W2789828921",
+      "title": "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization",
+      "year": 2018,
+      "cited_by_count": 4079,
+      "adjusted_cited_by_count": 1442.14,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2789828921"
+    },
+    {
+      "source_id": "https://openalex.org/W2038194220",
+      "title": "Internet of Things in Industries: A Survey",
+      "year": 2014,
+      "cited_by_count": 4991,
+      "adjusted_cited_by_count": 1440.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2038194220"
+    },
+    {
+      "source_id": "https://openalex.org/W2754529701",
+      "title": "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+      "year": 2017,
+      "cited_by_count": 4252,
+      "adjusted_cited_by_count": 1417.33,
+      "primary_topic_id": "sg-edge-computing",
+      "primary_topic_label": "Edge computing",
+      "url": "/domains/cybersecurity/papers/W2754529701"
+    },
+    {
+      "source_id": "https://openalex.org/W1977367431",
+      "title": "Cloud computing and emerging IT platforms: Vision, hype, and reality for delivering computing as the 5th utility",
+      "year": 2008,
+      "cited_by_count": 5889,
+      "adjusted_cited_by_count": 1388.05,
+      "primary_topic_id": "sg-edge-computing-fog-computing-for-edge",
+      "primary_topic_label": "Fog computing for edge",
+      "url": "/domains/cybersecurity/papers/W1977367431"
+    },
+    {
+      "source_id": "https://openalex.org/W2392113277",
+      "title": "Blockchains and Smart Contracts for the Internet of Things",
+      "year": 2016,
+      "cited_by_count": 4362,
+      "adjusted_cited_by_count": 1379.39,
+      "primary_topic_id": "sg-smart-city-emerging-technology",
+      "primary_topic_label": "Emerging technology",
+      "url": "/domains/cybersecurity/papers/W2392113277"
+    },
+    {
+      "source_id": "https://openalex.org/W2029608738",
+      "title": "A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems",
+      "year": 2014,
+      "cited_by_count": 4717,
+      "adjusted_cited_by_count": 1361.68,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2029608738"
+    },
+    {
+      "source_id": "https://openalex.org/W3017131514",
+      "title": "Artificial Intelligence in Education: A Review",
+      "year": 2020,
+      "cited_by_count": 3257,
+      "adjusted_cited_by_count": 1329.66,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W3017131514"
+    },
+    {
+      "source_id": "https://openalex.org/W2070665593",
+      "title": "Industry 4.0",
+      "year": 2014,
+      "cited_by_count": 4034,
+      "adjusted_cited_by_count": 1164.52,
+      "primary_topic_id": "sg-critical-infrastructure-critical-infrastructure-protection",
+      "primary_topic_label": "Critical infrastructure protection",
+      "url": "/domains/cybersecurity/papers/W2070665593"
+    },
+    {
+      "source_id": "https://openalex.org/W2119144962",
+      "title": "Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding",
+      "year": 2015,
+      "cited_by_count": 3532,
+      "adjusted_cited_by_count": 1064.94,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2119144962"
+    },
+    {
+      "source_id": "https://openalex.org/W3194730353",
+      "title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 2355,
+      "adjusted_cited_by_count": 1053.19,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W3194730353"
+    },
+    {
+      "source_id": "https://openalex.org/W4288039037",
+      "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+      "year": 2022,
+      "cited_by_count": 2090,
+      "adjusted_cited_by_count": 1045.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W4288039037"
+    },
+    {
+      "source_id": "https://openalex.org/W2296509296",
+      "title": "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)",
+      "year": 2015,
+      "cited_by_count": 3464,
+      "adjusted_cited_by_count": 1044.44,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2296509296"
+    },
+    {
+      "source_id": "https://openalex.org/W2088794999",
+      "title": "Gradient boosting machines, a tutorial",
+      "year": 2013,
+      "cited_by_count": 3643,
+      "adjusted_cited_by_count": 1010.39,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2088794999"
+    },
+    {
+      "source_id": "https://openalex.org/W2904649625",
+      "title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+      "year": 2018,
+      "cited_by_count": 2811,
+      "adjusted_cited_by_count": 993.84,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2904649625"
+    },
+    {
+      "source_id": "https://openalex.org/W2606213502",
+      "title": "Industry 4.0: A survey on technologies, applications and open research issues",
+      "year": 2017,
+      "cited_by_count": 2904,
+      "adjusted_cited_by_count": 968.0,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2606213502"
+    },
+    {
+      "source_id": "https://openalex.org/W2119046642",
+      "title": "Internet of things: Vision, applications and research challenges",
+      "year": 2012,
+      "cited_by_count": 3539,
+      "adjusted_cited_by_count": 945.84,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/cybersecurity/papers/W2119046642"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352953,
+      "adjusted_cited_by_count": 69219.78,
+      "url": "/domains/cybersecurity/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75671,
+      "adjusted_cited_by_count": 25223.67,
+      "url": "/domains/cybersecurity/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W2101234009",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "year": 2012,
+      "cited_by_count": 63562,
+      "adjusted_cited_by_count": 16987.66,
+      "url": "/domains/cybersecurity/papers/W2101234009"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34246,
+      "adjusted_cited_by_count": 9885.97,
+      "url": "/domains/cybersecurity/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W3023540311",
+      "title": "Genetic algorithms in search, optimization, and machine learning",
+      "year": 1989,
+      "cited_by_count": 49332,
+      "adjusted_cited_by_count": 8110.13,
+      "url": "/domains/cybersecurity/papers/W3023540311"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "url": "/domains/cybersecurity/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2124776405",
+      "title": "Neural Networks: A Comprehensive Foundation",
+      "year": 1998,
+      "cited_by_count": 29833,
+      "adjusted_cited_by_count": 5637.91,
+      "url": "/domains/cybersecurity/papers/W2124776405"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22803,
+      "adjusted_cited_by_count": 5530.54,
+      "url": "/domains/cybersecurity/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W1554944419",
+      "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "year": 2013,
+      "cited_by_count": 19404,
+      "adjusted_cited_by_count": 5381.7,
+      "url": "/domains/cybersecurity/papers/W1554944419"
+    },
+    {
+      "source_id": "https://openalex.org/W2954996726",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "year": 2019,
+      "cited_by_count": 11991,
+      "adjusted_cited_by_count": 4532.17,
+      "url": "/domains/cybersecurity/papers/W2954996726"
+    },
+    {
+      "source_id": "https://openalex.org/W2111619626",
+      "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+      "year": 2013,
+      "cited_by_count": 11846,
+      "adjusted_cited_by_count": 3285.49,
+      "url": "/domains/cybersecurity/papers/W2111619626"
+    },
+    {
+      "source_id": "https://openalex.org/W3140854437",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "year": 2021,
+      "cited_by_count": 7297,
+      "adjusted_cited_by_count": 3263.32,
+      "url": "/domains/cybersecurity/papers/W3140854437"
+    },
+    {
+      "source_id": "https://openalex.org/W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "cited_by_count": 8508,
+      "adjusted_cited_by_count": 3215.72,
+      "url": "/domains/cybersecurity/papers/W2981731882"
+    },
+    {
+      "source_id": "https://openalex.org/W2275530856",
+      "title": "The NIST definition of cloud computing",
+      "year": 2011,
+      "cited_by_count": 11581,
+      "adjusted_cited_by_count": 2990.2,
+      "url": "/domains/cybersecurity/papers/W2275530856"
+    },
+    {
+      "source_id": "https://openalex.org/W3163993681",
+      "title": "Physics-informed machine learning",
+      "year": 2021,
+      "cited_by_count": 6000,
+      "adjusted_cited_by_count": 2683.28,
+      "url": "/domains/cybersecurity/papers/W3163993681"
+    },
+    {
+      "source_id": "https://openalex.org/W2122646361",
+      "title": "Anomaly detection",
+      "year": 2009,
+      "cited_by_count": 10911,
+      "adjusted_cited_by_count": 2646.31,
+      "url": "/domains/cybersecurity/papers/W2122646361"
+    },
+    {
+      "source_id": "https://openalex.org/W2114296561",
+      "title": "A view of cloud computing",
+      "year": 2010,
+      "cited_by_count": 8925,
+      "adjusted_cited_by_count": 2231.25,
+      "url": "/domains/cybersecurity/papers/W2114296561"
+    },
+    {
+      "source_id": "https://openalex.org/W2912800036",
+      "title": "Understanding digital transformation: A review and a research agenda",
+      "year": 2019,
+      "cited_by_count": 5834,
+      "adjusted_cited_by_count": 2205.04,
+      "url": "/domains/cybersecurity/papers/W2912800036"
+    },
+    {
+      "source_id": "https://openalex.org/W3135028703",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 4908,
+      "adjusted_cited_by_count": 2194.92,
+      "url": "/domains/cybersecurity/papers/W3135028703"
+    },
+    {
+      "source_id": "https://openalex.org/W2395579298",
+      "title": "A survey of transfer learning",
+      "year": 2016,
+      "cited_by_count": 6057,
+      "adjusted_cited_by_count": 1915.39,
+      "url": "/domains/cybersecurity/papers/W2395579298"
+    },
+    {
+      "source_id": "https://openalex.org/W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "year": 2020,
+      "cited_by_count": 4447,
+      "adjusted_cited_by_count": 1815.48,
+      "url": "/domains/cybersecurity/papers/W2995022099"
+    },
+    {
+      "source_id": "https://openalex.org/W2058401212",
+      "title": "Internet of Things for Smart Cities",
+      "year": 2014,
+      "cited_by_count": 6033,
+      "adjusted_cited_by_count": 1741.58,
+      "url": "/domains/cybersecurity/papers/W2058401212"
+    },
+    {
+      "source_id": "https://openalex.org/W2114623221",
+      "title": "Fog computing and its role in the internet of things",
+      "year": 2012,
+      "cited_by_count": 5923,
+      "adjusted_cited_by_count": 1582.99,
+      "url": "/domains/cybersecurity/papers/W2114623221"
+    },
+    {
+      "source_id": "https://openalex.org/W2969625533",
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "year": 2019,
+      "cited_by_count": 3874,
+      "adjusted_cited_by_count": 1464.23,
+      "url": "/domains/cybersecurity/papers/W2969625533"
+    },
+    {
+      "source_id": "https://openalex.org/W2789828921",
+      "title": "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization",
+      "year": 2018,
+      "cited_by_count": 4079,
+      "adjusted_cited_by_count": 1442.14,
+      "url": "/domains/cybersecurity/papers/W2789828921"
+    },
+    {
+      "source_id": "https://openalex.org/W2038194220",
+      "title": "Internet of Things in Industries: A Survey",
+      "year": 2014,
+      "cited_by_count": 4991,
+      "adjusted_cited_by_count": 1440.78,
+      "url": "/domains/cybersecurity/papers/W2038194220"
+    },
+    {
+      "source_id": "https://openalex.org/W2754529701",
+      "title": "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+      "year": 2017,
+      "cited_by_count": 4252,
+      "adjusted_cited_by_count": 1417.33,
+      "url": "/domains/cybersecurity/papers/W2754529701"
+    },
+    {
+      "source_id": "https://openalex.org/W1977367431",
+      "title": "Cloud computing and emerging IT platforms: Vision, hype, and reality for delivering computing as the 5th utility",
+      "year": 2008,
+      "cited_by_count": 5889,
+      "adjusted_cited_by_count": 1388.05,
+      "url": "/domains/cybersecurity/papers/W1977367431"
+    },
+    {
+      "source_id": "https://openalex.org/W2392113277",
+      "title": "Blockchains and Smart Contracts for the Internet of Things",
+      "year": 2016,
+      "cited_by_count": 4362,
+      "adjusted_cited_by_count": 1379.39,
+      "url": "/domains/cybersecurity/papers/W2392113277"
+    },
+    {
+      "source_id": "https://openalex.org/W2029608738",
+      "title": "A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems",
+      "year": 2014,
+      "cited_by_count": 4717,
+      "adjusted_cited_by_count": 1361.68,
+      "url": "/domains/cybersecurity/papers/W2029608738"
+    },
+    {
+      "source_id": "https://openalex.org/W3017131514",
+      "title": "Artificial Intelligence in Education: A Review",
+      "year": 2020,
+      "cited_by_count": 3257,
+      "adjusted_cited_by_count": 1329.66,
+      "url": "/domains/cybersecurity/papers/W3017131514"
+    },
+    {
+      "source_id": "https://openalex.org/W2070665593",
+      "title": "Industry 4.0",
+      "year": 2014,
+      "cited_by_count": 4034,
+      "adjusted_cited_by_count": 1164.52,
+      "url": "/domains/cybersecurity/papers/W2070665593"
+    },
+    {
+      "source_id": "https://openalex.org/W2119144962",
+      "title": "Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding",
+      "year": 2015,
+      "cited_by_count": 3532,
+      "adjusted_cited_by_count": 1064.94,
+      "url": "/domains/cybersecurity/papers/W2119144962"
+    },
+    {
+      "source_id": "https://openalex.org/W3194730353",
+      "title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions",
+      "year": 2021,
+      "cited_by_count": 2355,
+      "adjusted_cited_by_count": 1053.19,
+      "url": "/domains/cybersecurity/papers/W3194730353"
+    },
+    {
+      "source_id": "https://openalex.org/W4288039037",
+      "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+      "year": 2022,
+      "cited_by_count": 2090,
+      "adjusted_cited_by_count": 1045.0,
+      "url": "/domains/cybersecurity/papers/W4288039037"
+    },
+    {
+      "source_id": "https://openalex.org/W2296509296",
+      "title": "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)",
+      "year": 2015,
+      "cited_by_count": 3464,
+      "adjusted_cited_by_count": 1044.44,
+      "url": "/domains/cybersecurity/papers/W2296509296"
+    },
+    {
+      "source_id": "https://openalex.org/W2088794999",
+      "title": "Gradient boosting machines, a tutorial",
+      "year": 2013,
+      "cited_by_count": 3643,
+      "adjusted_cited_by_count": 1010.39,
+      "url": "/domains/cybersecurity/papers/W2088794999"
+    },
+    {
+      "source_id": "https://openalex.org/W2904649625",
+      "title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+      "year": 2018,
+      "cited_by_count": 2811,
+      "adjusted_cited_by_count": 993.84,
+      "url": "/domains/cybersecurity/papers/W2904649625"
+    },
+    {
+      "source_id": "https://openalex.org/W2606213502",
+      "title": "Industry 4.0: A survey on technologies, applications and open research issues",
+      "year": 2017,
+      "cited_by_count": 2904,
+      "adjusted_cited_by_count": 968.0,
+      "url": "/domains/cybersecurity/papers/W2606213502"
+    },
+    {
+      "source_id": "https://openalex.org/W2119046642",
+      "title": "Internet of things: Vision, applications and research challenges",
+      "year": 2012,
+      "cited_by_count": 3539,
+      "adjusted_cited_by_count": 945.84,
+      "url": "/domains/cybersecurity/papers/W2119046642"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 550
+    },
+    {
+      "label": "security",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 328
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 316
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 315
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 295
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 285
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 284
+    },
+    {
+      "label": "internet",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 214
+    },
+    {
+      "label": "learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 203
+    },
+    {
+      "label": "cyber security",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 201
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 194
+    },
+    {
+      "label": "machine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 182
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 177
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 176
+    },
+    {
+      "label": "detection",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 152
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 152
+    },
+    {
+      "label": "survey",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 148
+    },
+    {
+      "label": "the internet",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 145
+    },
+    {
+      "label": "attack",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 144
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 141
+    },
+    {
+      "label": "internet of",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 137
+    },
+    {
+      "label": "internet of things",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 137
+    },
+    {
+      "label": "things",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 135
+    },
+    {
+      "label": "of things",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.99,
+      "evidence_count": 132
+    },
+    {
+      "label": "deep learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 123
+    },
+    {
+      "label": "information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "smart",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 116
+    },
+    {
+      "label": "based on",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 114
+    },
+    {
+      "label": "networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 110
+    },
+    {
+      "label": "health care",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 107
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 106
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 106
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9889,
+      "evidence_count": 98
+    },
+    {
+      "label": "intrusion",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9887,
+      "evidence_count": 96
+    },
+    {
+      "label": "intrusion detection system",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9882,
+      "evidence_count": 90
+    },
+    {
+      "label": "through",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 89
+    },
+    {
+      "label": "intrusion detection",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9879,
+      "evidence_count": 93
+    },
+    {
+      "label": "digital transformation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 87
+    },
+    {
+      "label": "issues",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 86
+    },
+    {
+      "label": "supply chain management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 81
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 148
+    },
+    {
+      "label": "design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 77
+    },
+    {
+      "label": "emerging technology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 77
+    },
+    {
+      "label": "privacy",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9868,
+      "evidence_count": 86
+    },
+    {
+      "label": "use of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 75
+    },
+    {
+      "label": "concept",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 74
+    },
+    {
+      "label": "device",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 74
+    },
+    {
+      "label": "review of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 74
+    },
+    {
+      "label": "the internet of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 74
+    },
+    {
+      "label": "algorithms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 71
+    }
+  ],
+  "topic_year_counts": {
+    "critical infrastructure": {
+      "2025": 354715,
+      "2024": 235760,
+      "2023": 197825,
+      "2022": 129373,
+      "2021": 116319,
+      "2026": 115835,
+      "2020": 102957,
+      "2019": 82240,
+      "2018": 71338,
+      "2017": 61595,
+      "2016": 56278,
+      "2015": 49860,
+      "2014": 45034,
+      "2013": 39333,
+      "2012": 33902,
+      "2011": 29203,
+      "2010": 25227,
+      "2009": 21793,
+      "2008": 18034,
+      "2007": 15526,
+      "2006": 14119,
+      "2005": 11783,
+      "2004": 10088,
+      "2003": 8695,
+      "2002": 7266,
+      "2000": 5695,
+      "2001": 5477
+    },
+    "edge computing": {
+      "2024": 220809,
+      "2023": 214863,
+      "2025": 211665,
+      "2022": 127841,
+      "2021": 113423,
+      "2020": 97717,
+      "2019": 80924,
+      "2026": 71008,
+      "2018": 67896,
+      "2017": 58127,
+      "2016": 52643,
+      "2015": 47455,
+      "2014": 42478,
+      "2013": 37680,
+      "2012": 32266,
+      "2011": 27369,
+      "2010": 23915,
+      "2009": 20086,
+      "2008": 17150,
+      "2007": 15162,
+      "2006": 13191,
+      "2005": 11662,
+      "2004": 9514,
+      "2003": 8378,
+      "2002": 7588,
+      "2000": 5948,
+      "2001": 5750
+    },
+    "risk analysis": {
+      "2025": 1411088,
+      "2024": 1295425,
+      "2023": 1286766,
+      "2022": 902827,
+      "2021": 829388,
+      "2020": 749716,
+      "2019": 586230,
+      "2018": 511889,
+      "2017": 452846,
+      "2026": 419606,
+      "2016": 410301,
+      "2015": 370207,
+      "2014": 334940,
+      "2013": 298158,
+      "2012": 258043,
+      "2011": 219183,
+      "2010": 184675,
+      "2009": 157282,
+      "2008": 132218,
+      "2007": 112933,
+      "2006": 100961,
+      "2005": 89090,
+      "2004": 77315,
+      "2003": 65758,
+      "2002": 54512,
+      "2001": 47156,
+      "2000": 45591
+    },
+    "smart city": {
+      "2025": 109757,
+      "2023": 98919,
+      "2024": 98865,
+      "2022": 70651,
+      "2021": 61108,
+      "2020": 53101,
+      "2019": 42930,
+      "2018": 34253,
+      "2026": 28267,
+      "2017": 27088,
+      "2016": 22404,
+      "2015": 18455,
+      "2014": 15225,
+      "2013": 12430,
+      "2012": 10032,
+      "2011": 8068,
+      "2010": 6471,
+      "2009": 5263,
+      "2008": 4378,
+      "2007": 3706,
+      "2006": 3086,
+      "2005": 2689,
+      "2004": 2280,
+      "2003": 1969,
+      "2002": 1658,
+      "2000": 1431,
+      "2001": 1260
+    }
+  }
+}

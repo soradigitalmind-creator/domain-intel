@@ -1,0 +1,1617 @@
+{
+  "slug": "manufacturing",
+  "title": "Manufacturing",
+  "updated_at": "2026-04-22T10:51:17.855324Z",
+  "snapshot": {
+    "papers": 78,
+    "topics": 3,
+    "subtopics": 21,
+    "entities": 304,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 90,
+      "total_papers": 90,
+      "facet_counts": {
+        "none": 90
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning manufacturing engineering, additive manufacturing and 3d printing technology.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 3,
+    "descendant_topics": 21,
+    "max_depth": 2,
+    "leaf_topics": 21
+  },
+  "rising_topics": [
+    {
+      "id": "sg-additive-manufacturing",
+      "label": "Additive manufacturing",
+      "url": "/domains/manufacturing/topics/sg-additive-manufacturing",
+      "trend": "rising",
+      "year_total": 506497
+    },
+    {
+      "id": "sg-advanced-manufacturing",
+      "label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/topics/sg-advanced-manufacturing",
+      "trend": "rising",
+      "year_total": 1160835
+    },
+    {
+      "id": "sg-additive-manufacturing-processes",
+      "label": "Additive manufacturing processes",
+      "url": "/domains/manufacturing/topics/sg-additive-manufacturing-processes",
+      "trend": "rising",
+      "year_total": 433479
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-additive-manufacturing",
+      "label": "Additive manufacturing",
+      "url": "/domains/manufacturing/topics/sg-additive-manufacturing",
+      "paper_count": 55,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "additive manufacturing",
+        "additive manufacturing material and processes",
+        "additive manufacturing of metallic",
+        "design additive manufacturing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-additive-manufacturing-process-management",
+          "label": "Process management",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-process-management",
+          "paper_count": 29
+        },
+        {
+          "id": "sg-additive-manufacturing-international-economics",
+          "label": "International economics",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-international-economics",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-additive-manufacturing-3d-printing",
+          "label": "3D printing",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-3d-printing",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-additive-manufacturing-selective-laser-melting",
+          "label": "Selective laser melting",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-selective-laser-melting",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-additive-manufacturing-aerospace-engineering",
+          "label": "Aerospace engineering",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-aerospace-engineering",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-additive-manufacturing-sustainable-development",
+          "label": "Sustainable development",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-sustainable-development",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-advanced-manufacturing",
+      "label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/topics/sg-advanced-manufacturing",
+      "paper_count": 16,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: manufacturing, in the, in a",
+      "tags": [
+        "advanced manufacturing",
+        "computer-aided manufacturing",
+        "digital manufacturing",
+        "integrated computer-aided manufacturing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-advanced-manufacturing-emerging-technology",
+          "label": "Emerging technology",
+          "url": "/domains/manufacturing/topics/sg-advanced-manufacturing-emerging-technology",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-advanced-manufacturing-manufacturing-firms",
+          "label": "Manufacturing firms",
+          "url": "/domains/manufacturing/topics/sg-advanced-manufacturing-manufacturing-firms",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-advanced-manufacturing-big-data-in-manufacturing",
+          "label": "Big data in manufacturing",
+          "url": "/domains/manufacturing/topics/sg-advanced-manufacturing-big-data-in-manufacturing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-advanced-manufacturing-engineering-drawing-in-manufacturing",
+          "label": "Engineering drawing in manufacturing",
+          "url": "/domains/manufacturing/topics/sg-advanced-manufacturing-engineering-drawing-in-manufacturing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-advanced-manufacturing-open-innovation",
+          "label": "Open innovation",
+          "url": "/domains/manufacturing/topics/sg-advanced-manufacturing-open-innovation",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2029608738",
+          "title": "A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems",
+          "year": "2014",
+          "cited_by_count": 4717,
+          "url": "/domains/manufacturing/papers/W2029608738"
+        },
+        {
+          "source_id": "https://openalex.org/W2087712586",
+          "title": "Open for innovation: the role of openness in explaining innovation performance among U.K. manufacturing firms",
+          "year": "2005",
+          "cited_by_count": 6136,
+          "url": "/domains/manufacturing/papers/W2087712586"
+        },
+        {
+          "source_id": "https://openalex.org/W2908815325",
+          "title": "Industry 4.0 technologies: Implementation patterns in manufacturing companies",
+          "year": "2019",
+          "cited_by_count": 2680,
+          "url": "/domains/manufacturing/papers/W2908815325"
+        }
+      ]
+    },
+    {
+      "id": "sg-additive-manufacturing-processes",
+      "label": "Additive manufacturing processes",
+      "url": "/domains/manufacturing/topics/sg-additive-manufacturing-processes",
+      "paper_count": 7,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: composite material, manufacturing, metallurgy",
+      "tags": [
+        "additive manufacturing material and processes",
+        "additive manufacturing of metallic",
+        "composite material",
+        "design additive manufacturing"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-additive-manufacturing-processes-pem-fuel-cells",
+          "label": "PEM fuel cells",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-processes-pem-fuel-cells",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-additive-manufacturing-processes-manufacturing-techniques",
+          "label": "Manufacturing techniques",
+          "url": "/domains/manufacturing/topics/sg-additive-manufacturing-processes-manufacturing-techniques",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2503161491",
+          "title": "Additive manufacturing of metals",
+          "year": "2016",
+          "cited_by_count": 4465,
+          "url": "/domains/manufacturing/papers/W2503161491"
+        },
+        {
+          "source_id": "https://openalex.org/W2089783281",
+          "title": "Laser additive manufacturing of metallic components: materials, processes and mechanisms",
+          "year": "2012",
+          "cited_by_count": 3124,
+          "url": "/domains/manufacturing/papers/W2089783281"
+        },
+        {
+          "source_id": "https://openalex.org/W2127825367",
+          "title": "Review article: Polymer-matrix Nanocomposites, Processing, Manufacturing, and Application: An Overview",
+          "year": "2006",
+          "cited_by_count": 2189,
+          "url": "/domains/manufacturing/papers/W2127825367"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Additive manufacturing",
+      "paper_count": 26,
+      "papers": [
+        {
+          "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+          "year": "2018",
+          "cited_by_count": 7833,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2793435880.html"
+        },
+        {
+          "title": "Additive manufacturing of metallic components – Process, structure and properties",
+          "year": "2017",
+          "cited_by_count": 7939,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2762367303.html"
+        },
+        {
+          "title": "PRODUCT DESIGN AND DEVELOPMENT",
+          "year": "2018",
+          "cited_by_count": 5552,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w1562578637.html"
+        },
+        {
+          "title": "Metal Additive Manufacturing: A Review",
+          "year": "2014",
+          "cited_by_count": 5691,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2098459033.html"
+        },
+        {
+          "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+          "year": "1977",
+          "cited_by_count": 10795,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w1990631438.html"
+        },
+        {
+          "title": "Polymers for 3D Printing and Customized Additive Manufacturing",
+          "year": "2017",
+          "cited_by_count": 3550,
+          "topic": "Additive manufacturing",
+          "url": "papers/https-openalex-org-w2741181432.html"
+        }
+      ]
+    },
+    {
+      "label": "Advanced manufacturing",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems",
+          "year": "2014",
+          "cited_by_count": 4717,
+          "topic": "Advanced manufacturing",
+          "url": "papers/https-openalex-org-w2029608738.html"
+        },
+        {
+          "title": "Open for innovation: the role of openness in explaining innovation performance among U.K. manufacturing firms",
+          "year": "2005",
+          "cited_by_count": 6136,
+          "topic": "Advanced manufacturing",
+          "url": "papers/https-openalex-org-w2087712586.html"
+        },
+        {
+          "title": "Industry 4.0 technologies: Implementation patterns in manufacturing companies",
+          "year": "2019",
+          "cited_by_count": 2680,
+          "topic": "Advanced manufacturing",
+          "url": "papers/https-openalex-org-w2908815325.html"
+        },
+        {
+          "title": "The International Journal of Advanced Manufacturing Technology",
+          "year": "2013",
+          "cited_by_count": 3447,
+          "topic": "Advanced manufacturing",
+          "url": "papers/https-openalex-org-w4205530313.html"
+        },
+        {
+          "title": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+          "year": "2017",
+          "cited_by_count": 2747,
+          "topic": "Advanced manufacturing",
+          "url": "papers/https-openalex-org-w2767346351.html"
+        },
+        {
+          "title": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing",
+          "year": "2009",
+          "cited_by_count": 3000,
+          "topic": "Advanced manufacturing",
+          "url": "papers/https-openalex-org-w1586219442.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Green innovation and environmental performance: The role of green transformational leadership and green human resource management",
+          "year": "2019",
+          "cited_by_count": 1950,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2988822512.html"
+        },
+        {
+          "title": "Human Resource Bundles and Manufacturing Performance: Organizational Logic and Flexible Production Systems in the World Auto Industry",
+          "year": "1995",
+          "cited_by_count": 3716,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2110162191.html"
+        },
+        {
+          "title": "Lean manufacturing: context, practice bundles, and performance",
+          "year": "2002",
+          "cited_by_count": 2854,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1984103729.html"
+        },
+        {
+          "title": "International Review of Industrial and Organizational Psychology",
+          "year": "2003",
+          "cited_by_count": 2781,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2498779411.html"
+        }
+      ]
+    },
+    {
+      "label": "Additive manufacturing processes",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Additive manufacturing of metals",
+          "year": "2016",
+          "cited_by_count": 4465,
+          "topic": "Additive manufacturing processes",
+          "url": "papers/https-openalex-org-w2503161491.html"
+        },
+        {
+          "title": "Laser additive manufacturing of metallic components: materials, processes and mechanisms",
+          "year": "2012",
+          "cited_by_count": 3124,
+          "topic": "Additive manufacturing processes",
+          "url": "papers/https-openalex-org-w2089783281.html"
+        }
+      ]
+    },
+    {
+      "label": "Metal additive manufacturing",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Manufacturing Consent: The Political Economy of the Mass Media.",
+          "year": "1989",
+          "cited_by_count": 5485,
+          "topic": "Metal additive manufacturing",
+          "url": "papers/https-openalex-org-w2076758314.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2793435880",
+      "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+      "year": 2018,
+      "cited_by_count": 7833,
+      "adjusted_cited_by_count": 2769.38,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2793435880"
+    },
+    {
+      "source_id": "https://openalex.org/W2762367303",
+      "title": "Additive manufacturing of metallic components – Process, structure and properties",
+      "year": 2017,
+      "cited_by_count": 7939,
+      "adjusted_cited_by_count": 2646.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2762367303"
+    },
+    {
+      "source_id": "https://openalex.org/W1562578637",
+      "title": "PRODUCT DESIGN AND DEVELOPMENT",
+      "year": 2018,
+      "cited_by_count": 5552,
+      "adjusted_cited_by_count": 1962.93,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W1562578637"
+    },
+    {
+      "source_id": "https://openalex.org/W2098459033",
+      "title": "Metal Additive Manufacturing: A Review",
+      "year": 2014,
+      "cited_by_count": 5691,
+      "adjusted_cited_by_count": 1642.85,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2098459033"
+    },
+    {
+      "source_id": "https://openalex.org/W1990631438",
+      "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+      "year": 1977,
+      "cited_by_count": 10795,
+      "adjusted_cited_by_count": 1542.14,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W1990631438"
+    },
+    {
+      "source_id": "https://openalex.org/W2503161491",
+      "title": "Additive manufacturing of metals",
+      "year": 2016,
+      "cited_by_count": 4465,
+      "adjusted_cited_by_count": 1411.96,
+      "primary_topic_id": "sg-additive-manufacturing-processes",
+      "primary_topic_label": "Additive manufacturing processes",
+      "url": "/domains/manufacturing/papers/W2503161491"
+    },
+    {
+      "source_id": "https://openalex.org/W2029608738",
+      "title": "A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems",
+      "year": 2014,
+      "cited_by_count": 4717,
+      "adjusted_cited_by_count": 1361.68,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W2029608738"
+    },
+    {
+      "source_id": "https://openalex.org/W2087712586",
+      "title": "Open for innovation: the role of openness in explaining innovation performance among U.K. manufacturing firms",
+      "year": 2005,
+      "cited_by_count": 6136,
+      "adjusted_cited_by_count": 1338.98,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W2087712586"
+    },
+    {
+      "source_id": "https://openalex.org/W2741181432",
+      "title": "Polymers for 3D Printing and Customized Additive Manufacturing",
+      "year": 2017,
+      "cited_by_count": 3550,
+      "adjusted_cited_by_count": 1183.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2741181432"
+    },
+    {
+      "source_id": "https://openalex.org/W2908815325",
+      "title": "Industry 4.0 technologies: Implementation patterns in manufacturing companies",
+      "year": 2019,
+      "cited_by_count": 2680,
+      "adjusted_cited_by_count": 1012.94,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W2908815325"
+    },
+    {
+      "source_id": "https://openalex.org/W4205530313",
+      "title": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2013,
+      "cited_by_count": 3447,
+      "adjusted_cited_by_count": 956.03,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W4205530313"
+    },
+    {
+      "source_id": "https://openalex.org/W2753335427",
+      "title": "Misallocation and Manufacturing TFP in China and India<sup>*</sup>",
+      "year": 2009,
+      "cited_by_count": 3901,
+      "adjusted_cited_by_count": 946.13,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2753335427"
+    },
+    {
+      "source_id": "https://openalex.org/W1622878345",
+      "title": "The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context",
+      "year": 2015,
+      "cited_by_count": 3116,
+      "adjusted_cited_by_count": 939.51,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W1622878345"
+    },
+    {
+      "source_id": "https://openalex.org/W2767346351",
+      "title": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+      "year": 2017,
+      "cited_by_count": 2747,
+      "adjusted_cited_by_count": 915.67,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W2767346351"
+    },
+    {
+      "source_id": "https://openalex.org/W3186352373",
+      "title": "Metal additive manufacturing in aerospace: A review",
+      "year": 2021,
+      "cited_by_count": 2028,
+      "adjusted_cited_by_count": 906.95,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W3186352373"
+    },
+    {
+      "source_id": "https://openalex.org/W2597150627",
+      "title": "Digital twin-driven product design, manufacturing and service with big data",
+      "year": 2017,
+      "cited_by_count": 2708,
+      "adjusted_cited_by_count": 902.67,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2597150627"
+    },
+    {
+      "source_id": "https://openalex.org/W2076758314",
+      "title": "Manufacturing Consent: The Political Economy of the Mass Media.",
+      "year": 1989,
+      "cited_by_count": 5485,
+      "adjusted_cited_by_count": 901.73,
+      "primary_topic_id": "sg-additive-manufacturing-metal-additive-manufacturing",
+      "primary_topic_label": "Metal additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2076758314"
+    },
+    {
+      "source_id": "https://openalex.org/W2418453408",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2014,
+      "cited_by_count": 3019,
+      "adjusted_cited_by_count": 871.51,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2418453408"
+    },
+    {
+      "source_id": "https://openalex.org/W2089783281",
+      "title": "Laser additive manufacturing of metallic components: materials, processes and mechanisms",
+      "year": 2012,
+      "cited_by_count": 3124,
+      "adjusted_cited_by_count": 834.92,
+      "primary_topic_id": "sg-additive-manufacturing-processes",
+      "primary_topic_label": "Additive manufacturing processes",
+      "url": "/domains/manufacturing/papers/W2089783281"
+    },
+    {
+      "source_id": "https://openalex.org/W2904619063",
+      "title": "Additive manufacturing of Ti6Al4V alloy: A review",
+      "year": 2018,
+      "cited_by_count": 2344,
+      "adjusted_cited_by_count": 828.73,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2904619063"
+    },
+    {
+      "source_id": "https://openalex.org/W2279780730",
+      "title": "Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones",
+      "year": 2016,
+      "cited_by_count": 2599,
+      "adjusted_cited_by_count": 821.88,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2279780730"
+    },
+    {
+      "source_id": "https://openalex.org/W2216357226",
+      "title": "Towards circular economy implementation: a comprehensive review in context of manufacturing industry",
+      "year": 2015,
+      "cited_by_count": 2604,
+      "adjusted_cited_by_count": 785.14,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2216357226"
+    },
+    {
+      "source_id": "https://openalex.org/W2324464036",
+      "title": "The metallurgy and processing science of metal additive manufacturing",
+      "year": 2016,
+      "cited_by_count": 2435,
+      "adjusted_cited_by_count": 770.01,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2324464036"
+    },
+    {
+      "source_id": "https://openalex.org/W2080574972",
+      "title": "The status, challenges, and future of additive manufacturing in engineering",
+      "year": 2015,
+      "cited_by_count": 2537,
+      "adjusted_cited_by_count": 764.93,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2080574972"
+    },
+    {
+      "source_id": "https://openalex.org/W2988822512",
+      "title": "Green innovation and environmental performance: The role of green transformational leadership and green human resource management",
+      "year": 2019,
+      "cited_by_count": 1950,
+      "adjusted_cited_by_count": 737.03,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/manufacturing/papers/W2988822512"
+    },
+    {
+      "source_id": "https://openalex.org/W1586219442",
+      "title": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing",
+      "year": 2009,
+      "cited_by_count": 3000,
+      "adjusted_cited_by_count": 727.61,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W1586219442"
+    },
+    {
+      "source_id": "https://openalex.org/W4245952513",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2020,
+      "cited_by_count": 1673,
+      "adjusted_cited_by_count": 683.0,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W4245952513"
+    },
+    {
+      "source_id": "https://openalex.org/W2741574707",
+      "title": "Additive manufacturing: scientific and technological challenges, market uptake and opportunities",
+      "year": 2017,
+      "cited_by_count": 2028,
+      "adjusted_cited_by_count": 676.0,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2741574707"
+    },
+    {
+      "source_id": "https://openalex.org/W2110162191",
+      "title": "Human Resource Bundles and Manufacturing Performance: Organizational Logic and Flexible Production Systems in the World Auto Industry",
+      "year": 1995,
+      "cited_by_count": 3716,
+      "adjusted_cited_by_count": 667.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/manufacturing/papers/W2110162191"
+    },
+    {
+      "source_id": "https://openalex.org/W2025138352",
+      "title": "A Review of Additive Manufacturing",
+      "year": 2012,
+      "cited_by_count": 2496,
+      "adjusted_cited_by_count": 667.08,
+      "primary_topic_id": "sg-advanced-manufacturing",
+      "primary_topic_label": "Advanced manufacturing",
+      "url": "/domains/manufacturing/papers/W2025138352"
+    },
+    {
+      "source_id": "https://openalex.org/W2230487954",
+      "title": "Topological design and additive manufacturing of porous metals for bone scaffolds and orthopaedic implants: A review",
+      "year": 2016,
+      "cited_by_count": 2061,
+      "adjusted_cited_by_count": 651.75,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2230487954"
+    },
+    {
+      "source_id": "https://openalex.org/W3209398723",
+      "title": "DIGITAL TWIN: MANUFACTURING EXCELLENCE THROUGH VIRTUAL FACTORY REPLICATION",
+      "year": 2018,
+      "cited_by_count": 1784,
+      "adjusted_cited_by_count": 630.74,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W3209398723"
+    },
+    {
+      "source_id": "https://openalex.org/W2475009926",
+      "title": "Design for Additive Manufacturing: Trends, opportunities, considerations, and constraints",
+      "year": 2016,
+      "cited_by_count": 1888,
+      "adjusted_cited_by_count": 597.04,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2475009926"
+    },
+    {
+      "source_id": "https://openalex.org/W1999997471",
+      "title": "Functions of innovation systems: A new approach for analysing technological change",
+      "year": 2006,
+      "cited_by_count": 2649,
+      "adjusted_cited_by_count": 592.33,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W1999997471"
+    },
+    {
+      "source_id": "https://openalex.org/W1984103729",
+      "title": "Lean manufacturing: context, practice bundles, and performance",
+      "year": 2002,
+      "cited_by_count": 2854,
+      "adjusted_cited_by_count": 582.57,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/manufacturing/papers/W1984103729"
+    },
+    {
+      "source_id": "https://openalex.org/W2303531378",
+      "title": "Opportunities of Sustainable Manufacturing in Industry 4.0",
+      "year": 2016,
+      "cited_by_count": 1836,
+      "adjusted_cited_by_count": 580.59,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2303531378"
+    },
+    {
+      "source_id": "https://openalex.org/W2067782665",
+      "title": "Creative accounting or creative destruction? Firm-level productivity growth in Chinese manufacturing",
+      "year": 2011,
+      "cited_by_count": 2246,
+      "adjusted_cited_by_count": 579.91,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2067782665"
+    },
+    {
+      "source_id": "https://openalex.org/W2498779411",
+      "title": "International Review of Industrial and Organizational Psychology",
+      "year": 2003,
+      "cited_by_count": 2781,
+      "adjusted_cited_by_count": 579.88,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/manufacturing/papers/W2498779411"
+    },
+    {
+      "source_id": "https://openalex.org/W2724418474",
+      "title": "The rise of 3-D printing: The advantages of additive manufacturing over traditional manufacturing",
+      "year": 2017,
+      "cited_by_count": 1737,
+      "adjusted_cited_by_count": 579.0,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2724418474"
+    },
+    {
+      "source_id": "https://openalex.org/W2388726286",
+      "title": "Additive manufacturing and sustainability: an exploratory study of the advantages and challenges",
+      "year": 2016,
+      "cited_by_count": 1792,
+      "adjusted_cited_by_count": 566.68,
+      "primary_topic_id": "sg-additive-manufacturing",
+      "primary_topic_label": "Additive manufacturing",
+      "url": "/domains/manufacturing/papers/W2388726286"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2793435880",
+      "title": "Additive manufacturing (3D printing): A review of materials, methods, applications and challenges",
+      "year": 2018,
+      "cited_by_count": 7833,
+      "adjusted_cited_by_count": 2769.38,
+      "url": "/domains/manufacturing/papers/W2793435880"
+    },
+    {
+      "source_id": "https://openalex.org/W2762367303",
+      "title": "Additive manufacturing of metallic components – Process, structure and properties",
+      "year": 2017,
+      "cited_by_count": 7939,
+      "adjusted_cited_by_count": 2646.33,
+      "url": "/domains/manufacturing/papers/W2762367303"
+    },
+    {
+      "source_id": "https://openalex.org/W1562578637",
+      "title": "PRODUCT DESIGN AND DEVELOPMENT",
+      "year": 2018,
+      "cited_by_count": 5552,
+      "adjusted_cited_by_count": 1962.93,
+      "url": "/domains/manufacturing/papers/W1562578637"
+    },
+    {
+      "source_id": "https://openalex.org/W2098459033",
+      "title": "Metal Additive Manufacturing: A Review",
+      "year": 2014,
+      "cited_by_count": 5691,
+      "adjusted_cited_by_count": 1642.85,
+      "url": "/domains/manufacturing/papers/W2098459033"
+    },
+    {
+      "source_id": "https://openalex.org/W1990631438",
+      "title": "The Internationalization Process of the Firm—A Model of Knowledge Development and Increasing Foreign Market Commitments",
+      "year": 1977,
+      "cited_by_count": 10795,
+      "adjusted_cited_by_count": 1542.14,
+      "url": "/domains/manufacturing/papers/W1990631438"
+    },
+    {
+      "source_id": "https://openalex.org/W2503161491",
+      "title": "Additive manufacturing of metals",
+      "year": 2016,
+      "cited_by_count": 4465,
+      "adjusted_cited_by_count": 1411.96,
+      "url": "/domains/manufacturing/papers/W2503161491"
+    },
+    {
+      "source_id": "https://openalex.org/W2029608738",
+      "title": "A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems",
+      "year": 2014,
+      "cited_by_count": 4717,
+      "adjusted_cited_by_count": 1361.68,
+      "url": "/domains/manufacturing/papers/W2029608738"
+    },
+    {
+      "source_id": "https://openalex.org/W2087712586",
+      "title": "Open for innovation: the role of openness in explaining innovation performance among U.K. manufacturing firms",
+      "year": 2005,
+      "cited_by_count": 6136,
+      "adjusted_cited_by_count": 1338.98,
+      "url": "/domains/manufacturing/papers/W2087712586"
+    },
+    {
+      "source_id": "https://openalex.org/W2741181432",
+      "title": "Polymers for 3D Printing and Customized Additive Manufacturing",
+      "year": 2017,
+      "cited_by_count": 3550,
+      "adjusted_cited_by_count": 1183.33,
+      "url": "/domains/manufacturing/papers/W2741181432"
+    },
+    {
+      "source_id": "https://openalex.org/W2908815325",
+      "title": "Industry 4.0 technologies: Implementation patterns in manufacturing companies",
+      "year": 2019,
+      "cited_by_count": 2680,
+      "adjusted_cited_by_count": 1012.94,
+      "url": "/domains/manufacturing/papers/W2908815325"
+    },
+    {
+      "source_id": "https://openalex.org/W4205530313",
+      "title": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2013,
+      "cited_by_count": 3447,
+      "adjusted_cited_by_count": 956.03,
+      "url": "/domains/manufacturing/papers/W4205530313"
+    },
+    {
+      "source_id": "https://openalex.org/W2753335427",
+      "title": "Misallocation and Manufacturing TFP in China and India<sup>*</sup>",
+      "year": 2009,
+      "cited_by_count": 3901,
+      "adjusted_cited_by_count": 946.13,
+      "url": "/domains/manufacturing/papers/W2753335427"
+    },
+    {
+      "source_id": "https://openalex.org/W1622878345",
+      "title": "The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context",
+      "year": 2015,
+      "cited_by_count": 3116,
+      "adjusted_cited_by_count": 939.51,
+      "url": "/domains/manufacturing/papers/W1622878345"
+    },
+    {
+      "source_id": "https://openalex.org/W2767346351",
+      "title": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+      "year": 2017,
+      "cited_by_count": 2747,
+      "adjusted_cited_by_count": 915.67,
+      "url": "/domains/manufacturing/papers/W2767346351"
+    },
+    {
+      "source_id": "https://openalex.org/W3186352373",
+      "title": "Metal additive manufacturing in aerospace: A review",
+      "year": 2021,
+      "cited_by_count": 2028,
+      "adjusted_cited_by_count": 906.95,
+      "url": "/domains/manufacturing/papers/W3186352373"
+    },
+    {
+      "source_id": "https://openalex.org/W2597150627",
+      "title": "Digital twin-driven product design, manufacturing and service with big data",
+      "year": 2017,
+      "cited_by_count": 2708,
+      "adjusted_cited_by_count": 902.67,
+      "url": "/domains/manufacturing/papers/W2597150627"
+    },
+    {
+      "source_id": "https://openalex.org/W2076758314",
+      "title": "Manufacturing Consent: The Political Economy of the Mass Media.",
+      "year": 1989,
+      "cited_by_count": 5485,
+      "adjusted_cited_by_count": 901.73,
+      "url": "/domains/manufacturing/papers/W2076758314"
+    },
+    {
+      "source_id": "https://openalex.org/W2418453408",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2014,
+      "cited_by_count": 3019,
+      "adjusted_cited_by_count": 871.51,
+      "url": "/domains/manufacturing/papers/W2418453408"
+    },
+    {
+      "source_id": "https://openalex.org/W2089783281",
+      "title": "Laser additive manufacturing of metallic components: materials, processes and mechanisms",
+      "year": 2012,
+      "cited_by_count": 3124,
+      "adjusted_cited_by_count": 834.92,
+      "url": "/domains/manufacturing/papers/W2089783281"
+    },
+    {
+      "source_id": "https://openalex.org/W2904619063",
+      "title": "Additive manufacturing of Ti6Al4V alloy: A review",
+      "year": 2018,
+      "cited_by_count": 2344,
+      "adjusted_cited_by_count": 828.73,
+      "url": "/domains/manufacturing/papers/W2904619063"
+    },
+    {
+      "source_id": "https://openalex.org/W2279780730",
+      "title": "Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones",
+      "year": 2016,
+      "cited_by_count": 2599,
+      "adjusted_cited_by_count": 821.88,
+      "url": "/domains/manufacturing/papers/W2279780730"
+    },
+    {
+      "source_id": "https://openalex.org/W2216357226",
+      "title": "Towards circular economy implementation: a comprehensive review in context of manufacturing industry",
+      "year": 2015,
+      "cited_by_count": 2604,
+      "adjusted_cited_by_count": 785.14,
+      "url": "/domains/manufacturing/papers/W2216357226"
+    },
+    {
+      "source_id": "https://openalex.org/W2324464036",
+      "title": "The metallurgy and processing science of metal additive manufacturing",
+      "year": 2016,
+      "cited_by_count": 2435,
+      "adjusted_cited_by_count": 770.01,
+      "url": "/domains/manufacturing/papers/W2324464036"
+    },
+    {
+      "source_id": "https://openalex.org/W2080574972",
+      "title": "The status, challenges, and future of additive manufacturing in engineering",
+      "year": 2015,
+      "cited_by_count": 2537,
+      "adjusted_cited_by_count": 764.93,
+      "url": "/domains/manufacturing/papers/W2080574972"
+    },
+    {
+      "source_id": "https://openalex.org/W2988822512",
+      "title": "Green innovation and environmental performance: The role of green transformational leadership and green human resource management",
+      "year": 2019,
+      "cited_by_count": 1950,
+      "adjusted_cited_by_count": 737.03,
+      "url": "/domains/manufacturing/papers/W2988822512"
+    },
+    {
+      "source_id": "https://openalex.org/W1586219442",
+      "title": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing",
+      "year": 2009,
+      "cited_by_count": 3000,
+      "adjusted_cited_by_count": 727.61,
+      "url": "/domains/manufacturing/papers/W1586219442"
+    },
+    {
+      "source_id": "https://openalex.org/W4245952513",
+      "title": "Additive Manufacturing Technologies",
+      "year": 2020,
+      "cited_by_count": 1673,
+      "adjusted_cited_by_count": 683.0,
+      "url": "/domains/manufacturing/papers/W4245952513"
+    },
+    {
+      "source_id": "https://openalex.org/W2741574707",
+      "title": "Additive manufacturing: scientific and technological challenges, market uptake and opportunities",
+      "year": 2017,
+      "cited_by_count": 2028,
+      "adjusted_cited_by_count": 676.0,
+      "url": "/domains/manufacturing/papers/W2741574707"
+    },
+    {
+      "source_id": "https://openalex.org/W2110162191",
+      "title": "Human Resource Bundles and Manufacturing Performance: Organizational Logic and Flexible Production Systems in the World Auto Industry",
+      "year": 1995,
+      "cited_by_count": 3716,
+      "adjusted_cited_by_count": 667.41,
+      "url": "/domains/manufacturing/papers/W2110162191"
+    },
+    {
+      "source_id": "https://openalex.org/W2025138352",
+      "title": "A Review of Additive Manufacturing",
+      "year": 2012,
+      "cited_by_count": 2496,
+      "adjusted_cited_by_count": 667.08,
+      "url": "/domains/manufacturing/papers/W2025138352"
+    },
+    {
+      "source_id": "https://openalex.org/W2230487954",
+      "title": "Topological design and additive manufacturing of porous metals for bone scaffolds and orthopaedic implants: A review",
+      "year": 2016,
+      "cited_by_count": 2061,
+      "adjusted_cited_by_count": 651.75,
+      "url": "/domains/manufacturing/papers/W2230487954"
+    },
+    {
+      "source_id": "https://openalex.org/W3209398723",
+      "title": "DIGITAL TWIN: MANUFACTURING EXCELLENCE THROUGH VIRTUAL FACTORY REPLICATION",
+      "year": 2018,
+      "cited_by_count": 1784,
+      "adjusted_cited_by_count": 630.74,
+      "url": "/domains/manufacturing/papers/W3209398723"
+    },
+    {
+      "source_id": "https://openalex.org/W2475009926",
+      "title": "Design for Additive Manufacturing: Trends, opportunities, considerations, and constraints",
+      "year": 2016,
+      "cited_by_count": 1888,
+      "adjusted_cited_by_count": 597.04,
+      "url": "/domains/manufacturing/papers/W2475009926"
+    },
+    {
+      "source_id": "https://openalex.org/W1999997471",
+      "title": "Functions of innovation systems: A new approach for analysing technological change",
+      "year": 2006,
+      "cited_by_count": 2649,
+      "adjusted_cited_by_count": 592.33,
+      "url": "/domains/manufacturing/papers/W1999997471"
+    },
+    {
+      "source_id": "https://openalex.org/W1984103729",
+      "title": "Lean manufacturing: context, practice bundles, and performance",
+      "year": 2002,
+      "cited_by_count": 2854,
+      "adjusted_cited_by_count": 582.57,
+      "url": "/domains/manufacturing/papers/W1984103729"
+    },
+    {
+      "source_id": "https://openalex.org/W2303531378",
+      "title": "Opportunities of Sustainable Manufacturing in Industry 4.0",
+      "year": 2016,
+      "cited_by_count": 1836,
+      "adjusted_cited_by_count": 580.59,
+      "url": "/domains/manufacturing/papers/W2303531378"
+    },
+    {
+      "source_id": "https://openalex.org/W2067782665",
+      "title": "Creative accounting or creative destruction? Firm-level productivity growth in Chinese manufacturing",
+      "year": 2011,
+      "cited_by_count": 2246,
+      "adjusted_cited_by_count": 579.91,
+      "url": "/domains/manufacturing/papers/W2067782665"
+    },
+    {
+      "source_id": "https://openalex.org/W2498779411",
+      "title": "International Review of Industrial and Organizational Psychology",
+      "year": 2003,
+      "cited_by_count": 2781,
+      "adjusted_cited_by_count": 579.88,
+      "url": "/domains/manufacturing/papers/W2498779411"
+    },
+    {
+      "source_id": "https://openalex.org/W2724418474",
+      "title": "The rise of 3-D printing: The advantages of additive manufacturing over traditional manufacturing",
+      "year": 2017,
+      "cited_by_count": 1737,
+      "adjusted_cited_by_count": 579.0,
+      "url": "/domains/manufacturing/papers/W2724418474"
+    },
+    {
+      "source_id": "https://openalex.org/W2388726286",
+      "title": "Additive manufacturing and sustainability: an exploratory study of the advantages and challenges",
+      "year": 2016,
+      "cited_by_count": 1792,
+      "adjusted_cited_by_count": 566.68,
+      "url": "/domains/manufacturing/papers/W2388726286"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "product",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 30
+    },
+    {
+      "label": "marketing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 28
+    },
+    {
+      "label": "manufacturing engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "industrial organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "additive manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 24
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 22
+    },
+    {
+      "label": "mechanical engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 18
+    },
+    {
+      "label": "production",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 17
+    },
+    {
+      "label": "process management",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 15
+    },
+    {
+      "label": "composite material",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 12
+    },
+    {
+      "label": "advanced manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 11
+    },
+    {
+      "label": "and manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 10
+    },
+    {
+      "label": "knowledge management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 9
+    },
+    {
+      "label": "of manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 9
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 9
+    },
+    {
+      "label": "review of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 8
+    },
+    {
+      "label": "systems engineering",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 8
+    },
+    {
+      "label": "international trade",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9851,
+      "evidence_count": 7
+    },
+    {
+      "label": "operations management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9851,
+      "evidence_count": 7
+    },
+    {
+      "label": "organization",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9843,
+      "evidence_count": 26
+    },
+    {
+      "label": "market economy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9843,
+      "evidence_count": 6
+    },
+    {
+      "label": "process engineering",
+      "semantic_role": "method_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9843,
+      "evidence_count": 6
+    },
+    {
+      "label": "supply chain",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9843,
+      "evidence_count": 6
+    },
+    {
+      "label": "3d printing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "human resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "industry 4.0",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "management science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "new product development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "product design",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "role of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "the role",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "the role of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9836,
+      "evidence_count": 5
+    },
+    {
+      "label": "computer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 55
+    },
+    {
+      "label": "cloud computing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "design and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "engineering drawing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "international business",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "metal additive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "metal additive manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "rapid prototyping",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "risk analysis",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9829,
+      "evidence_count": 4
+    },
+    {
+      "label": "resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9822,
+      "evidence_count": 4
+    },
+    {
+      "label": "automotive industry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9822,
+      "evidence_count": 3
+    },
+    {
+      "label": "big data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9822,
+      "evidence_count": 3
+    },
+    {
+      "label": "cloud manufacturing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9822,
+      "evidence_count": 3
+    }
+  ],
+  "topic_year_counts": {
+    "advanced manufacturing": {
+      "2025": 163652,
+      "2024": 147106,
+      "2023": 135918,
+      "2022": 88965,
+      "2021": 77686,
+      "2020": 69817,
+      "2019": 57374,
+      "2018": 50158,
+      "2026": 45173,
+      "2017": 42748,
+      "2016": 38694,
+      "2015": 35028,
+      "2014": 30439,
+      "2013": 27219,
+      "2012": 23781,
+      "2011": 20771,
+      "2010": 17883,
+      "2009": 14990,
+      "2008": 12496,
+      "2007": 11277,
+      "2006": 10105,
+      "2005": 9328,
+      "2004": 7451,
+      "2003": 6935,
+      "2002": 6129,
+      "2000": 4951,
+      "2001": 4761
+    },
+    "additive manufacturing processes": {
+      "2025": 61292,
+      "2023": 61118,
+      "2024": 60545,
+      "2022": 39408,
+      "2021": 33863,
+      "2020": 28364,
+      "2019": 22841,
+      "2018": 18975,
+      "2026": 17964,
+      "2017": 15032,
+      "2016": 12448,
+      "2015": 10517,
+      "2014": 8629,
+      "2013": 7383,
+      "2012": 6165,
+      "2011": 5144,
+      "2010": 4239,
+      "2009": 3484,
+      "2008": 2937,
+      "2007": 2562,
+      "2006": 2101,
+      "2005": 2040,
+      "2004": 1617,
+      "2002": 1454,
+      "2003": 1307,
+      "2000": 1072,
+      "2001": 978
+    },
+    "additive manufacturing": {
+      "2025": 71834,
+      "2024": 69390,
+      "2023": 69112,
+      "2022": 46380,
+      "2021": 40061,
+      "2020": 33933,
+      "2019": 27798,
+      "2018": 22885,
+      "2026": 21411,
+      "2017": 18179,
+      "2016": 14974,
+      "2015": 12429,
+      "2014": 10029,
+      "2013": 8472,
+      "2012": 6922,
+      "2011": 5783,
+      "2010": 4730,
+      "2009": 3905,
+      "2008": 3296,
+      "2007": 2927,
+      "2006": 2373,
+      "2005": 2297,
+      "2004": 1829,
+      "2002": 1636,
+      "2003": 1551,
+      "2000": 1244,
+      "2001": 1117
+    }
+  }
+}

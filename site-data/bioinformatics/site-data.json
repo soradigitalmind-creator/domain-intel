@@ -1,0 +1,1939 @@
+{
+  "slug": "bioinformatics",
+  "title": "Bioinformatics",
+  "updated_at": "2026-04-22T11:04:24.280361Z",
+  "snapshot": {
+    "papers": 226,
+    "topics": 5,
+    "subtopics": 42,
+    "entities": 580,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 279,
+      "total_papers": 279,
+      "facet_counts": {
+        "none": 279
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning bioinformatics and genomic networks.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 42,
+    "max_depth": 2,
+    "leaf_topics": 42
+  },
+  "rising_topics": [
+    {
+      "id": "sg-bioinformatics-online",
+      "label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/topics/sg-bioinformatics-online",
+      "trend": "rising",
+      "year_total": 293345
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/bioinformatics/topics/sg-gene-expression",
+      "trend": "rising",
+      "year_total": 4756983
+    },
+    {
+      "id": "sg-peptide-sequence",
+      "label": "Peptide sequence",
+      "url": "/domains/bioinformatics/topics/sg-peptide-sequence",
+      "trend": "rising",
+      "year_total": 941194
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-bioinformatics-online",
+      "label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/topics/sg-bioinformatics-online",
+      "paper_count": 84,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "and visualization",
+        "available at bioinformatics",
+        "bioinformatics online",
+        "data mining"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-bioinformatics-online-graphical-user-interface",
+          "label": "Graphical user interface",
+          "url": "/domains/bioinformatics/topics/sg-bioinformatics-online-graphical-user-interface",
+          "paper_count": 35
+        },
+        {
+          "id": "sg-bioinformatics-online-support-vector-machine",
+          "label": "Support vector machine",
+          "url": "/domains/bioinformatics/topics/sg-bioinformatics-online-support-vector-machine",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-bioinformatics-online-protein-structure-prediction",
+          "label": "Protein structure prediction",
+          "url": "/domains/bioinformatics/topics/sg-bioinformatics-online-protein-structure-prediction",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-bioinformatics-online-interactive-visualization",
+          "label": "Interactive visualization",
+          "url": "/domains/bioinformatics/topics/sg-bioinformatics-online-interactive-visualization",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-bioinformatics-online-big-data",
+          "label": "Big data",
+          "url": "/domains/bioinformatics/topics/sg-bioinformatics-online-big-data",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-bioinformatics-online-data-visualization",
+          "label": "Data visualization",
+          "url": "/domains/bioinformatics/topics/sg-bioinformatics-online-data-visualization",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-gene-expression",
+      "label": "Gene expression",
+      "url": "/domains/bioinformatics/topics/sg-gene-expression",
+      "paper_count": 55,
+      "subtopic_count": 15,
+      "trend": "rising",
+      "summary": "entities: gene, genetics, gene expression",
+      "tags": [
+        "expression data",
+        "gene expression",
+        "gene expression data",
+        "gene expression profiling"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gene-expression-expression-datasets",
+          "label": "Expression datasets",
+          "url": "/domains/bioinformatics/topics/sg-gene-expression-expression-datasets",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-gene-expression-human-genetics",
+          "label": "Human genetics",
+          "url": "/domains/bioinformatics/topics/sg-gene-expression-human-genetics",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-gene-expression-dna-methylation",
+          "label": "Dna methylation",
+          "url": "/domains/bioinformatics/topics/sg-gene-expression-dna-methylation",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-gene-expression-gene-ontology",
+          "label": "Gene ontology",
+          "url": "/domains/bioinformatics/topics/sg-gene-expression-gene-ontology",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-gene-expression-at-http",
+          "label": "At http",
+          "url": "/domains/bioinformatics/topics/sg-gene-expression-at-http",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-gene-expression-gene-expression-analysis",
+          "label": "Gene expression analysis",
+          "url": "/domains/bioinformatics/topics/sg-gene-expression-gene-expression-analysis",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2107277218",
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 179449,
+          "url": "/domains/bioinformatics/papers/W2107277218"
+        },
+        {
+          "source_id": "https://openalex.org/W2130410032",
+          "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+          "year": "2005",
+          "cited_by_count": 55829,
+          "url": "/domains/bioinformatics/papers/W2130410032"
+        },
+        {
+          "source_id": "https://openalex.org/W2114104545",
+          "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43970,
+          "url": "/domains/bioinformatics/papers/W2114104545"
+        }
+      ]
+    },
+    {
+      "id": "sg-peptide-sequence",
+      "label": "Peptide sequence",
+      "url": "/domains/bioinformatics/topics/sg-peptide-sequence",
+      "paper_count": 35,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: sequence, gene, genetics",
+      "tags": [
+        "multiple sequence",
+        "multiple sequence alignment",
+        "peptide sequence",
+        "protein sequence"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-peptide-sequence-multiple-sequence-alignment",
+          "label": "Multiple sequence alignment",
+          "url": "/domains/bioinformatics/topics/sg-peptide-sequence-multiple-sequence-alignment",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-peptide-sequence-sequence-database",
+          "label": "Sequence database",
+          "url": "/domains/bioinformatics/topics/sg-peptide-sequence-sequence-database",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-peptide-sequence-phylogenetic-tree",
+          "label": "Phylogenetic tree",
+          "url": "/domains/bioinformatics/topics/sg-peptide-sequence-phylogenetic-tree",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-peptide-sequence-alignment-free-sequence",
+          "label": "Alignment-free sequence",
+          "url": "/domains/bioinformatics/topics/sg-peptide-sequence-alignment-free-sequence",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-peptide-sequence-protein-sequencing",
+          "label": "Protein sequencing",
+          "url": "/domains/bioinformatics/topics/sg-peptide-sequence-protein-sequencing",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-peptide-sequence-hidden-markov-model-for-sequence-analysis",
+          "label": "Hidden markov model for sequence analysis",
+          "url": "/domains/bioinformatics/topics/sg-peptide-sequence-hidden-markov-model-for-sequence-analysis",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2789843538",
+          "title": "Minimap2: pairwise alignment for nucleotide sequences",
+          "year": "2018",
+          "cited_by_count": 16269,
+          "url": "/domains/bioinformatics/papers/W2789843538"
+        },
+        {
+          "source_id": "https://openalex.org/W2127322768",
+          "title": "Fast, scalable generation of high‐quality protein multiple sequence alignments using Clustal Omega",
+          "year": "2011",
+          "cited_by_count": 16081,
+          "url": "/domains/bioinformatics/papers/W2127322768"
+        },
+        {
+          "source_id": "https://openalex.org/W2127774996",
+          "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+          "year": "2002",
+          "cited_by_count": 17477,
+          "url": "/domains/bioinformatics/papers/W2127774996"
+        }
+      ]
+    },
+    {
+      "id": "sg-genome-wide-association",
+      "label": "Genome-wide association",
+      "url": "/domains/bioinformatics/topics/sg-genome-wide-association",
+      "paper_count": 28,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: genetics, gene, single-nucleotide polymorphism",
+      "tags": [
+        "genetic association",
+        "genetic associations and epidemiology",
+        "genome-wide association",
+        "genome-wide association identify"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-genome-wide-association-quantitative-trait-locus",
+          "label": "Quantitative trait locus",
+          "url": "/domains/bioinformatics/topics/sg-genome-wide-association-quantitative-trait-locus",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-genome-wide-association-genetic-variants",
+          "label": "Genetic variants",
+          "url": "/domains/bioinformatics/topics/sg-genome-wide-association-genetic-variants",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-genome-wide-association-linkage-disequilibrium",
+          "label": "Linkage disequilibrium",
+          "url": "/domains/bioinformatics/topics/sg-genome-wide-association-linkage-disequilibrium",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-genome-wide-association-expression-quantitative-trait-loci",
+          "label": "Expression quantitative trait loci",
+          "url": "/domains/bioinformatics/topics/sg-genome-wide-association-expression-quantitative-trait-loci",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-genome-wide-association-missense-mutation",
+          "label": "Missense mutation",
+          "url": "/domains/bioinformatics/topics/sg-genome-wide-association-missense-mutation",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2051978340",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31434,
+          "url": "/domains/bioinformatics/papers/W2051978340"
+        },
+        {
+          "source_id": "https://openalex.org/W2101357408",
+          "title": "Biological insights from 108 schizophrenia-associated genetic loci",
+          "year": "2014",
+          "cited_by_count": 8039,
+          "url": "/domains/bioinformatics/papers/W2101357408"
+        },
+        {
+          "source_id": "https://openalex.org/W2039153962",
+          "title": "Genetic studies of body mass index yield new insights for obesity biology",
+          "year": "2015",
+          "cited_by_count": 4858,
+          "url": "/domains/bioinformatics/papers/W2039153962"
+        }
+      ]
+    },
+    {
+      "id": "sg-human-genome",
+      "label": "Human genome",
+      "url": "/domains/bioinformatics/topics/sg-human-genome",
+      "paper_count": 24,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: gene, genetics, genome",
+      "tags": [
+        "assembly of human genome",
+        "human genetic",
+        "human genome",
+        "human genome massively"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-human-genome-human-genetics",
+          "label": "Human genetics",
+          "url": "/domains/bioinformatics/topics/sg-human-genome-human-genetics",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-human-genome-genome-project",
+          "label": "Genome project",
+          "url": "/domains/bioinformatics/topics/sg-human-genome-genome-project",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-human-genome-whole-genome-sequencing",
+          "label": "Whole genome sequencing",
+          "url": "/domains/bioinformatics/topics/sg-human-genome-whole-genome-sequencing",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-human-genome-genome-assembly",
+          "label": "Genome assembly",
+          "url": "/domains/bioinformatics/topics/sg-human-genome-genome-assembly",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-human-genome-human-genetic-variation",
+          "label": "Human genetic variation",
+          "url": "/domains/bioinformatics/topics/sg-human-genome-human-genetic-variation",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2124985265",
+          "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+          "year": "2009",
+          "cited_by_count": 22834,
+          "url": "/domains/bioinformatics/papers/W2124985265"
+        },
+        {
+          "source_id": "https://openalex.org/W2259938310",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19230,
+          "url": "/domains/bioinformatics/papers/W2259938310"
+        },
+        {
+          "source_id": "https://openalex.org/W2168909179",
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24483,
+          "url": "/domains/bioinformatics/papers/W2168909179"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Bioinformatics tools and resources",
+      "paper_count": 14,
+      "papers": [
+        {
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": "2014",
+          "cited_by_count": 68427,
+          "topic": "Bioinformatics tools and resources",
+          "url": "papers/https-openalex-org-w2131271579.html"
+        },
+        {
+          "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+          "year": "2008",
+          "cited_by_count": 37199,
+          "topic": "Bioinformatics tools and resources",
+          "url": "papers/https-openalex-org-w2158217645.html"
+        },
+        {
+          "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+          "year": "2010",
+          "cited_by_count": 29975,
+          "topic": "Bioinformatics tools and resources",
+          "url": "papers/https-openalex-org-w2102619694.html"
+        },
+        {
+          "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+          "year": "2018",
+          "cited_by_count": 18945,
+          "topic": "Bioinformatics tools and resources",
+          "url": "papers/https-openalex-org-w2900569176.html"
+        },
+        {
+          "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+          "year": "2013",
+          "cited_by_count": 21983,
+          "topic": "Bioinformatics tools and resources",
+          "url": "papers/https-openalex-org-w2056279562.html"
+        },
+        {
+          "title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+          "year": "2015",
+          "cited_by_count": 14273,
+          "topic": "Bioinformatics tools and resources",
+          "url": "papers/https-openalex-org-w2155628349.html"
+        }
+      ]
+    },
+    {
+      "label": "Gene expression",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "year": "2001",
+          "cited_by_count": 179449,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2107277218.html"
+        },
+        {
+          "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+          "year": "2005",
+          "cited_by_count": 55829,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2130410032.html"
+        },
+        {
+          "title": "&lt;tt&gt;edgeR&lt;/tt&gt; : a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": "2009",
+          "cited_by_count": 43970,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2114104545.html"
+        },
+        {
+          "title": "Gene Ontology: tool for the unification of biology",
+          "year": "2000",
+          "cited_by_count": 44189,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2103017472.html"
+        },
+        {
+          "title": "WGCNA: an R package for weighted correlation network analysis",
+          "year": "2008",
+          "cited_by_count": 28560,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w1966327575.html"
+        },
+        {
+          "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+          "year": "2013",
+          "cited_by_count": 16107,
+          "topic": "Gene expression",
+          "url": "papers/https-openalex-org-w2159707944.html"
+        }
+      ]
+    },
+    {
+      "label": "Peptide sequence",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Minimap2: pairwise alignment for nucleotide sequences",
+          "year": "2018",
+          "cited_by_count": 16269,
+          "topic": "Peptide sequence",
+          "url": "papers/https-openalex-org-w2789843538.html"
+        },
+        {
+          "title": "Fast, scalable generation of high‐quality protein multiple sequence alignments using Clustal Omega",
+          "year": "2011",
+          "cited_by_count": 16081,
+          "topic": "Peptide sequence",
+          "url": "papers/https-openalex-org-w2127322768.html"
+        },
+        {
+          "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+          "year": "2002",
+          "cited_by_count": 17477,
+          "topic": "Peptide sequence",
+          "url": "papers/https-openalex-org-w2127774996.html"
+        },
+        {
+          "title": "trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses",
+          "year": "2009",
+          "cited_by_count": 13217,
+          "topic": "Peptide sequence",
+          "url": "papers/https-openalex-org-w2115888213.html"
+        },
+        {
+          "title": "MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization",
+          "year": "2017",
+          "cited_by_count": 8781,
+          "topic": "Peptide sequence",
+          "url": "papers/https-openalex-org-w2751583588.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+          "year": "2013",
+          "cited_by_count": 28391,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2138207763.html"
+        },
+        {
+          "title": "DAVID: a web server for functional enrichment analysis and functional annotation of gene lists (2021 update)",
+          "year": "2022",
+          "cited_by_count": 6003,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4220831425.html"
+        },
+        {
+          "title": "InterProScan 5: genome-scale protein function classification",
+          "year": "2014",
+          "cited_by_count": 9783,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2101291993.html"
+        },
+        {
+          "title": "Mfold web server for nucleic acid folding and hybridization prediction",
+          "year": "2003",
+          "cited_by_count": 13488,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2141157874.html"
+        }
+      ]
+    },
+    {
+      "label": "Human genome",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+          "year": "2009",
+          "cited_by_count": 22834,
+          "topic": "Human genome",
+          "url": "papers/https-openalex-org-w2124985265.html"
+        },
+        {
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "year": "2012",
+          "cited_by_count": 19230,
+          "topic": "Human genome",
+          "url": "papers/https-openalex-org-w2259938310.html"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": "2001",
+          "cited_by_count": 24483,
+          "topic": "Human genome",
+          "url": "papers/https-openalex-org-w2168909179.html"
+        }
+      ]
+    },
+    {
+      "label": "Protein structure prediction",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+          "year": "2011",
+          "cited_by_count": 35077,
+          "topic": "Protein structure prediction",
+          "url": "papers/https-openalex-org-w2036897871.html"
+        },
+        {
+          "title": "The Phyre2 web portal for protein modeling, prediction and analysis",
+          "year": "2015",
+          "cited_by_count": 10185,
+          "topic": "Protein structure prediction",
+          "url": "papers/https-openalex-org-w1803102843.html"
+        }
+      ]
+    },
+    {
+      "label": "Alignment-free sequence",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Twelve years of SAMtools and BCFtools",
+          "year": "2021",
+          "cited_by_count": 15105,
+          "topic": "Alignment-free sequence",
+          "url": "papers/https-openalex-org-w3131055609.html"
+        }
+      ]
+    },
+    {
+      "label": "Genome-wide association",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "year": "2015",
+          "cited_by_count": 31434,
+          "topic": "Genome-wide association",
+          "url": "papers/https-openalex-org-w2051978340.html"
+        }
+      ]
+    },
+    {
+      "label": "Support vector machine",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": "2019",
+          "cited_by_count": 23232,
+          "topic": "Support vector machine",
+          "url": "papers/https-openalex-org-w2963276645.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 179449,
+      "adjusted_cited_by_count": 35889.8,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68427,
+      "adjusted_cited_by_count": 19753.17,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2130410032",
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "year": 2005,
+      "cited_by_count": 55829,
+      "adjusted_cited_by_count": 12182.89,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2130410032"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43970,
+      "adjusted_cited_by_count": 10664.29,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31434,
+      "adjusted_cited_by_count": 9477.71,
+      "primary_topic_id": "sg-genome-wide-association",
+      "primary_topic_label": "Genome-wide association",
+      "url": "/domains/bioinformatics/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W2036897871",
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "year": 2011,
+      "cited_by_count": 35077,
+      "adjusted_cited_by_count": 9056.84,
+      "primary_topic_id": "sg-bioinformatics-online-protein-structure-prediction",
+      "primary_topic_label": "Protein structure prediction",
+      "url": "/domains/bioinformatics/papers/W2036897871"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23232,
+      "adjusted_cited_by_count": 8780.87,
+      "primary_topic_id": "sg-bioinformatics-online-support-vector-machine",
+      "primary_topic_label": "Support vector machine",
+      "url": "/domains/bioinformatics/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2158217645",
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "year": 2008,
+      "cited_by_count": 37199,
+      "adjusted_cited_by_count": 8767.89,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2158217645"
+    },
+    {
+      "source_id": "https://openalex.org/W2103017472",
+      "title": "Gene Ontology: tool for the unification of biology",
+      "year": 2000,
+      "cited_by_count": 44189,
+      "adjusted_cited_by_count": 8666.18,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2103017472"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28391,
+      "adjusted_cited_by_count": 7874.25,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/bioinformatics/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W2102619694",
+      "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+      "year": 2010,
+      "cited_by_count": 29975,
+      "adjusted_cited_by_count": 7493.75,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2102619694"
+    },
+    {
+      "source_id": "https://openalex.org/W3131055609",
+      "title": "Twelve years of SAMtools and BCFtools",
+      "year": 2021,
+      "cited_by_count": 15105,
+      "adjusted_cited_by_count": 6755.16,
+      "primary_topic_id": "sg-peptide-sequence-alignment-free-sequence",
+      "primary_topic_label": "Alignment-free sequence",
+      "url": "/domains/bioinformatics/papers/W3131055609"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28560,
+      "adjusted_cited_by_count": 6731.66,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18945,
+      "adjusted_cited_by_count": 6698.07,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W2056279562",
+      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+      "year": 2013,
+      "cited_by_count": 21983,
+      "adjusted_cited_by_count": 6096.99,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2056279562"
+    },
+    {
+      "source_id": "https://openalex.org/W2789843538",
+      "title": "Minimap2: pairwise alignment for nucleotide sequences",
+      "year": 2018,
+      "cited_by_count": 16269,
+      "adjusted_cited_by_count": 5751.96,
+      "primary_topic_id": "sg-peptide-sequence",
+      "primary_topic_label": "Peptide sequence",
+      "url": "/domains/bioinformatics/papers/W2789843538"
+    },
+    {
+      "source_id": "https://openalex.org/W2124985265",
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "year": 2009,
+      "cited_by_count": 22834,
+      "adjusted_cited_by_count": 5538.06,
+      "primary_topic_id": "sg-human-genome",
+      "primary_topic_label": "Human genome",
+      "url": "/domains/bioinformatics/papers/W2124985265"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19230,
+      "adjusted_cited_by_count": 5139.43,
+      "primary_topic_id": "sg-human-genome",
+      "primary_topic_label": "Human genome",
+      "url": "/domains/bioinformatics/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24483,
+      "adjusted_cited_by_count": 4896.6,
+      "primary_topic_id": "sg-human-genome",
+      "primary_topic_label": "Human genome",
+      "url": "/domains/bioinformatics/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16107,
+      "adjusted_cited_by_count": 4467.28,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2155628349",
+      "title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+      "year": 2015,
+      "cited_by_count": 14273,
+      "adjusted_cited_by_count": 4303.47,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2155628349"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 14076,
+      "adjusted_cited_by_count": 4244.07,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W2127322768",
+      "title": "Fast, scalable generation of high‐quality protein multiple sequence alignments using Clustal Omega",
+      "year": 2011,
+      "cited_by_count": 16081,
+      "adjusted_cited_by_count": 4152.1,
+      "primary_topic_id": "sg-peptide-sequence",
+      "primary_topic_label": "Peptide sequence",
+      "url": "/domains/bioinformatics/papers/W2127322768"
+    },
+    {
+      "source_id": "https://openalex.org/W2136879569",
+      "title": "UCHIME improves sensitivity and speed of chimera detection",
+      "year": 2011,
+      "cited_by_count": 15392,
+      "adjusted_cited_by_count": 3974.2,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2136879569"
+    },
+    {
+      "source_id": "https://openalex.org/W2345356016",
+      "title": "Enrichr: a comprehensive gene set enrichment analysis web server 2016 update",
+      "year": 2016,
+      "cited_by_count": 11453,
+      "adjusted_cited_by_count": 3621.76,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2345356016"
+    },
+    {
+      "source_id": "https://openalex.org/W2127774996",
+      "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+      "year": 2002,
+      "cited_by_count": 17477,
+      "adjusted_cited_by_count": 3567.48,
+      "primary_topic_id": "sg-peptide-sequence",
+      "primary_topic_label": "Peptide sequence",
+      "url": "/domains/bioinformatics/papers/W2127774996"
+    },
+    {
+      "source_id": "https://openalex.org/W2133465414",
+      "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+      "year": 2008,
+      "cited_by_count": 14703,
+      "adjusted_cited_by_count": 3465.53,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2133465414"
+    },
+    {
+      "source_id": "https://openalex.org/W2513506562",
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "year": 2016,
+      "cited_by_count": 10756,
+      "adjusted_cited_by_count": 3401.35,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2513506562"
+    },
+    {
+      "source_id": "https://openalex.org/W2406250479",
+      "title": "Complex heatmaps reveal patterns and correlations in multidimensional genomic data",
+      "year": 2016,
+      "cited_by_count": 10649,
+      "adjusted_cited_by_count": 3367.51,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2406250479"
+    },
+    {
+      "source_id": "https://openalex.org/W2115888213",
+      "title": "trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses",
+      "year": 2009,
+      "cited_by_count": 13217,
+      "adjusted_cited_by_count": 3205.59,
+      "primary_topic_id": "sg-peptide-sequence",
+      "primary_topic_label": "Peptide sequence",
+      "url": "/domains/bioinformatics/papers/W2115888213"
+    },
+    {
+      "source_id": "https://openalex.org/W2800392236",
+      "title": "SCANPY: large-scale single-cell gene expression data analysis",
+      "year": 2018,
+      "cited_by_count": 8975,
+      "adjusted_cited_by_count": 3173.14,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2800392236"
+    },
+    {
+      "source_id": "https://openalex.org/W2157795344",
+      "title": "In silico prediction of protein-protein interactions in human macrophages",
+      "year": 2014,
+      "cited_by_count": 10956,
+      "adjusted_cited_by_count": 3162.72,
+      "primary_topic_id": "sg-gene-expression",
+      "primary_topic_label": "Gene expression",
+      "url": "/domains/bioinformatics/papers/W2157795344"
+    },
+    {
+      "source_id": "https://openalex.org/W2170747616",
+      "title": "CD-HIT: accelerated for clustering the next-generation sequencing data",
+      "year": 2012,
+      "cited_by_count": 11547,
+      "adjusted_cited_by_count": 3086.07,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2170747616"
+    },
+    {
+      "source_id": "https://openalex.org/W2107772251",
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "year": 2013,
+      "cited_by_count": 11099,
+      "adjusted_cited_by_count": 3078.31,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2107772251"
+    },
+    {
+      "source_id": "https://openalex.org/W1803102843",
+      "title": "The Phyre2 web portal for protein modeling, prediction and analysis",
+      "year": 2015,
+      "cited_by_count": 10185,
+      "adjusted_cited_by_count": 3070.89,
+      "primary_topic_id": "sg-bioinformatics-online-protein-structure-prediction",
+      "primary_topic_label": "Protein structure prediction",
+      "url": "/domains/bioinformatics/papers/W1803102843"
+    },
+    {
+      "source_id": "https://openalex.org/W4220831425",
+      "title": "DAVID: a web server for functional enrichment analysis and functional annotation of gene lists (2021 update)",
+      "year": 2022,
+      "cited_by_count": 6003,
+      "adjusted_cited_by_count": 3001.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/bioinformatics/papers/W4220831425"
+    },
+    {
+      "source_id": "https://openalex.org/W2097065948",
+      "title": "TopHat: discovering splice junctions with RNA-Seq",
+      "year": 2009,
+      "cited_by_count": 12107,
+      "adjusted_cited_by_count": 2936.38,
+      "primary_topic_id": "sg-bioinformatics-online",
+      "primary_topic_label": "Bioinformatics tools and resources",
+      "url": "/domains/bioinformatics/papers/W2097065948"
+    },
+    {
+      "source_id": "https://openalex.org/W2751583588",
+      "title": "MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization",
+      "year": 2017,
+      "cited_by_count": 8781,
+      "adjusted_cited_by_count": 2927.0,
+      "primary_topic_id": "sg-peptide-sequence",
+      "primary_topic_label": "Peptide sequence",
+      "url": "/domains/bioinformatics/papers/W2751583588"
+    },
+    {
+      "source_id": "https://openalex.org/W2101291993",
+      "title": "InterProScan 5: genome-scale protein function classification",
+      "year": 2014,
+      "cited_by_count": 9783,
+      "adjusted_cited_by_count": 2824.11,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/bioinformatics/papers/W2101291993"
+    },
+    {
+      "source_id": "https://openalex.org/W2141157874",
+      "title": "Mfold web server for nucleic acid folding and hybridization prediction",
+      "year": 2003,
+      "cited_by_count": 13488,
+      "adjusted_cited_by_count": 2812.44,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/bioinformatics/papers/W2141157874"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2107277218",
+      "title": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+      "year": 2001,
+      "cited_by_count": 179449,
+      "adjusted_cited_by_count": 35889.8,
+      "url": "/domains/bioinformatics/papers/W2107277218"
+    },
+    {
+      "source_id": "https://openalex.org/W2131271579",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "year": 2014,
+      "cited_by_count": 68427,
+      "adjusted_cited_by_count": 19753.17,
+      "url": "/domains/bioinformatics/papers/W2131271579"
+    },
+    {
+      "source_id": "https://openalex.org/W2130410032",
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "year": 2005,
+      "cited_by_count": 55829,
+      "adjusted_cited_by_count": 12182.89,
+      "url": "/domains/bioinformatics/papers/W2130410032"
+    },
+    {
+      "source_id": "https://openalex.org/W2114104545",
+      "title": "<tt>edgeR</tt> : a Bioconductor package for differential expression analysis of digital gene expression data",
+      "year": 2009,
+      "cited_by_count": 43970,
+      "adjusted_cited_by_count": 10664.29,
+      "url": "/domains/bioinformatics/papers/W2114104545"
+    },
+    {
+      "source_id": "https://openalex.org/W2051978340",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+      "year": 2015,
+      "cited_by_count": 31434,
+      "adjusted_cited_by_count": 9477.71,
+      "url": "/domains/bioinformatics/papers/W2051978340"
+    },
+    {
+      "source_id": "https://openalex.org/W2036897871",
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "year": 2011,
+      "cited_by_count": 35077,
+      "adjusted_cited_by_count": 9056.84,
+      "url": "/domains/bioinformatics/papers/W2036897871"
+    },
+    {
+      "source_id": "https://openalex.org/W2963276645",
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "year": 2019,
+      "cited_by_count": 23232,
+      "adjusted_cited_by_count": 8780.87,
+      "url": "/domains/bioinformatics/papers/W2963276645"
+    },
+    {
+      "source_id": "https://openalex.org/W2158217645",
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "year": 2008,
+      "cited_by_count": 37199,
+      "adjusted_cited_by_count": 8767.89,
+      "url": "/domains/bioinformatics/papers/W2158217645"
+    },
+    {
+      "source_id": "https://openalex.org/W2103017472",
+      "title": "Gene Ontology: tool for the unification of biology",
+      "year": 2000,
+      "cited_by_count": 44189,
+      "adjusted_cited_by_count": 8666.18,
+      "url": "/domains/bioinformatics/papers/W2103017472"
+    },
+    {
+      "source_id": "https://openalex.org/W2138207763",
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "year": 2013,
+      "cited_by_count": 28391,
+      "adjusted_cited_by_count": 7874.25,
+      "url": "/domains/bioinformatics/papers/W2138207763"
+    },
+    {
+      "source_id": "https://openalex.org/W2102619694",
+      "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+      "year": 2010,
+      "cited_by_count": 29975,
+      "adjusted_cited_by_count": 7493.75,
+      "url": "/domains/bioinformatics/papers/W2102619694"
+    },
+    {
+      "source_id": "https://openalex.org/W3131055609",
+      "title": "Twelve years of SAMtools and BCFtools",
+      "year": 2021,
+      "cited_by_count": 15105,
+      "adjusted_cited_by_count": 6755.16,
+      "url": "/domains/bioinformatics/papers/W3131055609"
+    },
+    {
+      "source_id": "https://openalex.org/W1966327575",
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "year": 2008,
+      "cited_by_count": 28560,
+      "adjusted_cited_by_count": 6731.66,
+      "url": "/domains/bioinformatics/papers/W1966327575"
+    },
+    {
+      "source_id": "https://openalex.org/W2900569176",
+      "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+      "year": 2018,
+      "cited_by_count": 18945,
+      "adjusted_cited_by_count": 6698.07,
+      "url": "/domains/bioinformatics/papers/W2900569176"
+    },
+    {
+      "source_id": "https://openalex.org/W2056279562",
+      "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+      "year": 2013,
+      "cited_by_count": 21983,
+      "adjusted_cited_by_count": 6096.99,
+      "url": "/domains/bioinformatics/papers/W2056279562"
+    },
+    {
+      "source_id": "https://openalex.org/W2789843538",
+      "title": "Minimap2: pairwise alignment for nucleotide sequences",
+      "year": 2018,
+      "cited_by_count": 16269,
+      "adjusted_cited_by_count": 5751.96,
+      "url": "/domains/bioinformatics/papers/W2789843538"
+    },
+    {
+      "source_id": "https://openalex.org/W2124985265",
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "year": 2009,
+      "cited_by_count": 22834,
+      "adjusted_cited_by_count": 5538.06,
+      "url": "/domains/bioinformatics/papers/W2124985265"
+    },
+    {
+      "source_id": "https://openalex.org/W2259938310",
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "year": 2012,
+      "cited_by_count": 19230,
+      "adjusted_cited_by_count": 5139.43,
+      "url": "/domains/bioinformatics/papers/W2259938310"
+    },
+    {
+      "source_id": "https://openalex.org/W2168909179",
+      "title": "Initial sequencing and analysis of the human genome",
+      "year": 2001,
+      "cited_by_count": 24483,
+      "adjusted_cited_by_count": 4896.6,
+      "url": "/domains/bioinformatics/papers/W2168909179"
+    },
+    {
+      "source_id": "https://openalex.org/W2159707944",
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "year": 2013,
+      "cited_by_count": 16107,
+      "adjusted_cited_by_count": 4467.28,
+      "url": "/domains/bioinformatics/papers/W2159707944"
+    },
+    {
+      "source_id": "https://openalex.org/W2155628349",
+      "title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+      "year": 2015,
+      "cited_by_count": 14273,
+      "adjusted_cited_by_count": 4303.47,
+      "url": "/domains/bioinformatics/papers/W2155628349"
+    },
+    {
+      "source_id": "https://openalex.org/W2214074259",
+      "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+      "year": 2015,
+      "cited_by_count": 14076,
+      "adjusted_cited_by_count": 4244.07,
+      "url": "/domains/bioinformatics/papers/W2214074259"
+    },
+    {
+      "source_id": "https://openalex.org/W2127322768",
+      "title": "Fast, scalable generation of high‐quality protein multiple sequence alignments using Clustal Omega",
+      "year": 2011,
+      "cited_by_count": 16081,
+      "adjusted_cited_by_count": 4152.1,
+      "url": "/domains/bioinformatics/papers/W2127322768"
+    },
+    {
+      "source_id": "https://openalex.org/W2136879569",
+      "title": "UCHIME improves sensitivity and speed of chimera detection",
+      "year": 2011,
+      "cited_by_count": 15392,
+      "adjusted_cited_by_count": 3974.2,
+      "url": "/domains/bioinformatics/papers/W2136879569"
+    },
+    {
+      "source_id": "https://openalex.org/W2345356016",
+      "title": "Enrichr: a comprehensive gene set enrichment analysis web server 2016 update",
+      "year": 2016,
+      "cited_by_count": 11453,
+      "adjusted_cited_by_count": 3621.76,
+      "url": "/domains/bioinformatics/papers/W2345356016"
+    },
+    {
+      "source_id": "https://openalex.org/W2127774996",
+      "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+      "year": 2002,
+      "cited_by_count": 17477,
+      "adjusted_cited_by_count": 3567.48,
+      "url": "/domains/bioinformatics/papers/W2127774996"
+    },
+    {
+      "source_id": "https://openalex.org/W2133465414",
+      "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+      "year": 2008,
+      "cited_by_count": 14703,
+      "adjusted_cited_by_count": 3465.53,
+      "url": "/domains/bioinformatics/papers/W2133465414"
+    },
+    {
+      "source_id": "https://openalex.org/W2513506562",
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "year": 2016,
+      "cited_by_count": 10756,
+      "adjusted_cited_by_count": 3401.35,
+      "url": "/domains/bioinformatics/papers/W2513506562"
+    },
+    {
+      "source_id": "https://openalex.org/W2406250479",
+      "title": "Complex heatmaps reveal patterns and correlations in multidimensional genomic data",
+      "year": 2016,
+      "cited_by_count": 10649,
+      "adjusted_cited_by_count": 3367.51,
+      "url": "/domains/bioinformatics/papers/W2406250479"
+    },
+    {
+      "source_id": "https://openalex.org/W2115888213",
+      "title": "trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses",
+      "year": 2009,
+      "cited_by_count": 13217,
+      "adjusted_cited_by_count": 3205.59,
+      "url": "/domains/bioinformatics/papers/W2115888213"
+    },
+    {
+      "source_id": "https://openalex.org/W2800392236",
+      "title": "SCANPY: large-scale single-cell gene expression data analysis",
+      "year": 2018,
+      "cited_by_count": 8975,
+      "adjusted_cited_by_count": 3173.14,
+      "url": "/domains/bioinformatics/papers/W2800392236"
+    },
+    {
+      "source_id": "https://openalex.org/W2157795344",
+      "title": "In silico prediction of protein-protein interactions in human macrophages",
+      "year": 2014,
+      "cited_by_count": 10956,
+      "adjusted_cited_by_count": 3162.72,
+      "url": "/domains/bioinformatics/papers/W2157795344"
+    },
+    {
+      "source_id": "https://openalex.org/W2170747616",
+      "title": "CD-HIT: accelerated for clustering the next-generation sequencing data",
+      "year": 2012,
+      "cited_by_count": 11547,
+      "adjusted_cited_by_count": 3086.07,
+      "url": "/domains/bioinformatics/papers/W2170747616"
+    },
+    {
+      "source_id": "https://openalex.org/W2107772251",
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "year": 2013,
+      "cited_by_count": 11099,
+      "adjusted_cited_by_count": 3078.31,
+      "url": "/domains/bioinformatics/papers/W2107772251"
+    },
+    {
+      "source_id": "https://openalex.org/W1803102843",
+      "title": "The Phyre2 web portal for protein modeling, prediction and analysis",
+      "year": 2015,
+      "cited_by_count": 10185,
+      "adjusted_cited_by_count": 3070.89,
+      "url": "/domains/bioinformatics/papers/W1803102843"
+    },
+    {
+      "source_id": "https://openalex.org/W4220831425",
+      "title": "DAVID: a web server for functional enrichment analysis and functional annotation of gene lists (2021 update)",
+      "year": 2022,
+      "cited_by_count": 6003,
+      "adjusted_cited_by_count": 3001.5,
+      "url": "/domains/bioinformatics/papers/W4220831425"
+    },
+    {
+      "source_id": "https://openalex.org/W2097065948",
+      "title": "TopHat: discovering splice junctions with RNA-Seq",
+      "year": 2009,
+      "cited_by_count": 12107,
+      "adjusted_cited_by_count": 2936.38,
+      "url": "/domains/bioinformatics/papers/W2097065948"
+    },
+    {
+      "source_id": "https://openalex.org/W2751583588",
+      "title": "MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization",
+      "year": 2017,
+      "cited_by_count": 8781,
+      "adjusted_cited_by_count": 2927.0,
+      "url": "/domains/bioinformatics/papers/W2751583588"
+    },
+    {
+      "source_id": "https://openalex.org/W2101291993",
+      "title": "InterProScan 5: genome-scale protein function classification",
+      "year": 2014,
+      "cited_by_count": 9783,
+      "adjusted_cited_by_count": 2824.11,
+      "url": "/domains/bioinformatics/papers/W2101291993"
+    },
+    {
+      "source_id": "https://openalex.org/W2141157874",
+      "title": "Mfold web server for nucleic acid folding and hybridization prediction",
+      "year": 2003,
+      "cited_by_count": 13488,
+      "adjusted_cited_by_count": 2812.44,
+      "url": "/domains/bioinformatics/papers/W2141157874"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "biology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 246
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 201
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 195
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 184
+    },
+    {
+      "label": "computational biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 175
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 154
+    },
+    {
+      "label": "bioinformatics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 113
+    },
+    {
+      "label": "available",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 111
+    },
+    {
+      "label": "genome",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 106
+    },
+    {
+      "label": "data mining",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "sequence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "tool",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "software",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "available at",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "source",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "programming language",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "protein",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "http",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "online",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "database",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 48
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 48
+    },
+    {
+      "label": "world wide web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 47
+    },
+    {
+      "label": "are available",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 46
+    },
+    {
+      "label": "gene expression",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 44
+    },
+    {
+      "label": "function",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 43
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 42
+    },
+    {
+      "label": "web",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 55
+    },
+    {
+      "label": "annotation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 41
+    },
+    {
+      "label": "data are",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 41
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 41
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 46
+    },
+    {
+      "label": "are available at",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 40
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 40
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 48
+    },
+    {
+      "label": "supplementary",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 39
+    },
+    {
+      "label": "tools",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 39
+    },
+    {
+      "label": "at bioinformatics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 38
+    },
+    {
+      "label": "at bioinformatics online",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 38
+    },
+    {
+      "label": "available at bioinformatics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 38
+    },
+    {
+      "label": "bioinformatics online",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 38
+    },
+    {
+      "label": "data are available",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 37
+    },
+    {
+      "label": "supplementary data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 37
+    },
+    {
+      "label": "supplementary data are",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9875,
+      "evidence_count": 37
+    },
+    {
+      "label": "rna",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 36
+    },
+    {
+      "label": "at http",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 34
+    },
+    {
+      "label": "genomics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 34
+    },
+    {
+      "label": "genetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 39
+    },
+    {
+      "label": "genomic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 33
+    }
+  ],
+  "topic_year_counts": {
+    "gene expression": {
+      "2023": 433933,
+      "2024": 384491,
+      "2025": 359694,
+      "2022": 315564,
+      "2021": 303347,
+      "2020": 289440,
+      "2019": 241316,
+      "2018": 218216,
+      "2017": 209012,
+      "2016": 195224,
+      "2015": 183453,
+      "2014": 175277,
+      "2013": 166622,
+      "2012": 153014,
+      "2011": 139561,
+      "2010": 124136,
+      "2009": 111280,
+      "2026": 102268,
+      "2008": 100032,
+      "2007": 90518,
+      "2006": 85702,
+      "2005": 78639,
+      "2004": 74301,
+      "2003": 64850,
+      "2002": 56929,
+      "2001": 51375,
+      "2000": 48789
+    },
+    "peptide sequence": {
+      "2023": 89745,
+      "2024": 80688,
+      "2025": 65121,
+      "2022": 61657,
+      "2021": 60143,
+      "2020": 57626,
+      "2019": 45934,
+      "2018": 41551,
+      "2017": 40096,
+      "2016": 37019,
+      "2015": 35742,
+      "2014": 34499,
+      "2013": 33443,
+      "2012": 31281,
+      "2011": 27790,
+      "2010": 24259,
+      "2009": 22082,
+      "2008": 19711,
+      "2026": 18793,
+      "2007": 17213,
+      "2006": 16662,
+      "2005": 16118,
+      "2004": 15119,
+      "2003": 13494,
+      "2002": 12154,
+      "2001": 11862,
+      "2000": 11392
+    },
+    "genome-wide association": {
+      "2023": 97222,
+      "2024": 91099,
+      "2025": 77737,
+      "2022": 68820,
+      "2021": 66743,
+      "2020": 61821,
+      "2019": 48848,
+      "2018": 42074,
+      "2017": 39347,
+      "2016": 35079,
+      "2015": 31765,
+      "2014": 29620,
+      "2013": 26867,
+      "2012": 23849,
+      "2026": 22717,
+      "2011": 20168,
+      "2010": 16117,
+      "2009": 12848,
+      "2008": 10431,
+      "2007": 7572,
+      "2006": 6038,
+      "2005": 5550,
+      "2004": 4479,
+      "2003": 3430,
+      "2002": 2707,
+      "2000": 2393,
+      "2001": 2143
+    },
+    "human genome": {
+      "2023": 214775,
+      "2024": 193221,
+      "2025": 159474,
+      "2022": 151458,
+      "2021": 147027,
+      "2020": 138691,
+      "2019": 104724,
+      "2018": 90942,
+      "2017": 84280,
+      "2016": 76390,
+      "2015": 68557,
+      "2014": 63711,
+      "2013": 58290,
+      "2012": 51768,
+      "2026": 45128,
+      "2011": 44787,
+      "2010": 37541,
+      "2009": 31876,
+      "2008": 27804,
+      "2007": 23116,
+      "2006": 21010,
+      "2005": 18770,
+      "2004": 17259,
+      "2003": 14576,
+      "2002": 12323,
+      "2001": 10821,
+      "2000": 9801
+    },
+    "bioinformatics tools and resources": {
+      "2024": 40593,
+      "2023": 40028,
+      "2025": 37042,
+      "2022": 25199,
+      "2021": 23409,
+      "2020": 20687,
+      "2019": 15687,
+      "2018": 12864,
+      "2017": 11125,
+      "2026": 10567,
+      "2016": 9577,
+      "2015": 8361,
+      "2014": 7422,
+      "2013": 6419,
+      "2012": 5564,
+      "2011": 4230,
+      "2010": 3301,
+      "2009": 2641,
+      "2008": 2149,
+      "2007": 1689,
+      "2006": 1390,
+      "2005": 1028,
+      "2004": 869,
+      "2003": 635,
+      "2002": 383,
+      "2001": 264,
+      "2000": 222
+    }
+  }
+}
