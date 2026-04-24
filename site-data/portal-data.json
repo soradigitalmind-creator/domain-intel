@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-19T09:38:41.814891Z",
-  "total_domains": 53,
+  "updated_at": "2026-04-24T22:20:20.485369Z",
+  "total_domains": 54,
   "categories": [
     {
       "label": "Life",
@@ -190,7 +190,7 @@
       "label": "Society",
       "slug": "society",
       "description": "Includes markets, behavior, institutions, and collective life.",
-      "count": 13,
+      "count": 14,
       "domains": [
         {
           "slug": "anthropology",
@@ -243,6 +243,10 @@
         {
           "slug": "sociology",
           "title": "Sociology"
+        },
+        {
+          "slug": "urban-planning",
+          "title": "Urban Planning"
         }
       ]
     }
@@ -1839,6 +1843,31 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
       "updated_at": "2026-04-19T09:38:41.814891Z"
+    },
+    {
+      "slug": "urban-planning",
+      "title": "Urban Planning",
+      "sources": 240,
+      "effective_papers": 83,
+      "subgenres": 24,
+      "parent_subgenres": 4,
+      "child_subgenres": 20,
+      "entities": 745,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 240,
+        "total_papers": 240,
+        "facet_counts": {
+          "none": 240
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning urban planning.",
+      "updated_at": "2026-04-24T22:20:20.485369Z"
     }
   ]
 }

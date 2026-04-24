@@ -1,0 +1,1743 @@
+{
+  "slug": "urban-planning",
+  "title": "Urban Planning",
+  "updated_at": "2026-04-24T22:20:20.413585Z",
+  "snapshot": {
+    "papers": 83,
+    "topics": 4,
+    "subtopics": 20,
+    "entities": 745,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 240,
+      "total_papers": 240,
+      "facet_counts": {
+        "none": 240
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning urban planning.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 20,
+    "max_depth": 2,
+    "leaf_topics": 20
+  },
+  "rising_topics": [
+    {
+      "id": "sg-land-use",
+      "label": "Land use",
+      "url": "/domains/urban-planning/topics/sg-land-use",
+      "trend": "rising",
+      "year_total": 3989283
+    },
+    {
+      "id": "sg-sustainable-development",
+      "label": "Sustainable development",
+      "url": "/domains/urban-planning/topics/sg-sustainable-development",
+      "trend": "rising",
+      "year_total": 6966717
+    },
+    {
+      "id": "sg-urban-heat-island",
+      "label": "Urban heat island",
+      "url": "/domains/urban-planning/topics/sg-urban-heat-island",
+      "trend": "rising",
+      "year_total": 140337
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-land-use",
+      "label": "Land use",
+      "url": "/domains/urban-planning/topics/sg-land-use",
+      "paper_count": 50,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "heat island",
+        "land use",
+        "land use and ecosystem service",
+        "land-use planning"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-land-use-built-environment",
+          "label": "Built environment",
+          "url": "/domains/urban-planning/topics/sg-land-use-built-environment",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-land-use-ecosystem-health",
+          "label": "Ecosystem health",
+          "url": "/domains/urban-planning/topics/sg-land-use-ecosystem-health",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-land-use-context-archaeology",
+          "label": "Context archaeology",
+          "url": "/domains/urban-planning/topics/sg-land-use-context-archaeology",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-land-use-atmospheric-science",
+          "label": "Atmospheric science",
+          "url": "/domains/urban-planning/topics/sg-land-use-atmospheric-science",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-land-use-land-cover",
+          "label": "Land cover",
+          "url": "/domains/urban-planning/topics/sg-land-use-land-cover",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-land-use-human-computer-interaction",
+          "label": "Human-computer interaction",
+          "url": "/domains/urban-planning/topics/sg-land-use-human-computer-interaction",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-sustainable-development",
+      "label": "Sustainable development",
+      "url": "/domains/urban-planning/topics/sg-sustainable-development",
+      "paper_count": 17,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: development goals, sustainable, sustainable development",
+      "tags": [
+        "sustainable development",
+        "sustainable development defining",
+        "sustainable development goals",
+        "urban planning and governance"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-sustainable-development-development-goals",
+          "label": "Development goals",
+          "url": "/domains/urban-planning/topics/sg-sustainable-development-development-goals",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-sustainable-development-global-health",
+          "label": "Global health",
+          "url": "/domains/urban-planning/topics/sg-sustainable-development-global-health",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-sustainable-development-compact-city",
+          "label": "Compact city",
+          "url": "/domains/urban-planning/topics/sg-sustainable-development-compact-city",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-environmental-planning-economic-growth",
+          "label": "Economic growth",
+          "url": "/domains/urban-planning/topics/sg-environmental-planning-economic-growth",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-sustainable-development-human-health",
+          "label": "Human health",
+          "url": "/domains/urban-planning/topics/sg-sustainable-development-human-health",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2891125414",
+          "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+          "year": "2018",
+          "cited_by_count": 3784,
+          "url": "/domains/urban-planning/papers/W2891125414"
+        },
+        {
+          "source_id": "https://openalex.org/W2897623369",
+          "title": "The Lancet Commission on global mental health and sustainable development",
+          "year": "2018",
+          "cited_by_count": 3296,
+          "url": "/domains/urban-planning/papers/W2897623369"
+        },
+        {
+          "source_id": "https://openalex.org/W2143696727",
+          "title": "Correlates of physical activity: why are some people physically active and others not?",
+          "year": "2012",
+          "cited_by_count": 4073,
+          "url": "/domains/urban-planning/papers/W2143696727"
+        }
+      ]
+    },
+    {
+      "id": "sg-urban-green-space-health",
+      "label": "Urban green space health",
+      "url": "/domains/urban-planning/topics/sg-urban-green-space-health",
+      "paper_count": 8,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: urban green space and health, global health, ecology",
+      "tags": [
+        "city urban green",
+        "green space impact",
+        "urban areas",
+        "urban green space and health"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-urban-green-space-health-green-space-impact",
+          "label": "Green space impact",
+          "url": "/domains/urban-planning/topics/sg-urban-green-space-health-green-space-impact",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-urban-green-space-health-environmental-health",
+          "label": "Environmental health",
+          "url": "/domains/urban-planning/topics/sg-urban-green-space-health-environmental-health",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-urban-green-space-health-health-care",
+          "label": "Health care",
+          "url": "/domains/urban-planning/topics/sg-urban-green-space-health-health-care",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2095822147",
+          "title": "Ecosystem services in urban areas",
+          "year": "1999",
+          "cited_by_count": 2869,
+          "url": "/domains/urban-planning/papers/W2095822147"
+        },
+        {
+          "source_id": "https://openalex.org/W2411654968",
+          "title": "Nature-based solutions to climate change mitigation and adaptation in urban areas: perspectives on indicators, knowledge gaps, barriers, and opportunities for action",
+          "year": "2016",
+          "cited_by_count": 1390,
+          "url": "/domains/urban-planning/papers/W2411654968"
+        },
+        {
+          "source_id": "https://openalex.org/W2606481191",
+          "title": "Biodiversity in the city: key challenges for urban green space management",
+          "year": "2017",
+          "cited_by_count": 1240,
+          "url": "/domains/urban-planning/papers/W2606481191"
+        }
+      ]
+    },
+    {
+      "id": "sg-urban-heat-island",
+      "label": "Urban heat island",
+      "url": "/domains/urban-planning/topics/sg-urban-heat-island",
+      "paper_count": 8,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: global health, urban, environmental health",
+      "tags": [
+        "green roof",
+        "mitigate urban heat",
+        "surface urban heat",
+        "urban climate"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-urban-heat-island-effects-of-global-warming",
+          "label": "Effects of global warming",
+          "url": "/domains/urban-planning/topics/sg-urban-heat-island-effects-of-global-warming",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-urban-heat-island-heat-islands",
+          "label": "Heat islands",
+          "url": "/domains/urban-planning/topics/sg-urban-heat-island-heat-islands",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-urban-heat-island-extreme-weather",
+          "label": "Extreme weather",
+          "url": "/domains/urban-planning/topics/sg-urban-heat-island-extreme-weather",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3194171027",
+          "title": "Hot weather and heat extremes: health risks",
+          "year": "2021",
+          "cited_by_count": 1777,
+          "url": "/domains/urban-planning/papers/W3194171027"
+        },
+        {
+          "source_id": "https://openalex.org/W3023698214",
+          "title": "Levels and predictors of anxiety, depression and health anxiety during COVID-19 pandemic in Turkish society: The importance of gender",
+          "year": "2020",
+          "cited_by_count": 1426,
+          "url": "/domains/urban-planning/papers/W3023698214"
+        },
+        {
+          "source_id": "https://openalex.org/W3009280600",
+          "title": "The Impact of Climate Change on Mental Health: A Systematic Descriptive Review",
+          "year": "2020",
+          "cited_by_count": 1195,
+          "url": "/domains/urban-planning/papers/W3009280600"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Others",
+      "paper_count": 24,
+      "papers": [
+        {
+          "title": "Understanding individual human mobility patterns",
+          "year": "2008",
+          "cited_by_count": 6030,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1982300822.html"
+        },
+        {
+          "title": "A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population",
+          "year": "2009",
+          "cited_by_count": 5560,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2119472226.html"
+        },
+        {
+          "title": "Global, Regional, and National Burden of Cardiovascular Diseases for 10 Causes, 1990 to 2015",
+          "year": "2017",
+          "cited_by_count": 3848,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2614578122.html"
+        },
+        {
+          "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+          "year": "2020",
+          "cited_by_count": 2938,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3110220146.html"
+        },
+        {
+          "title": "COVID-19 and Thrombotic or Thromboembolic Disease: Implications for Prevention, Antithrombotic Therapy, and Follow-Up",
+          "year": "2020",
+          "cited_by_count": 2925,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3017326650.html"
+        },
+        {
+          "title": "Global Prevalence of Depressive and Anxiety Symptoms in Children and Adolescents During COVID-19",
+          "year": "2021",
+          "cited_by_count": 2669,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3190876559.html"
+        }
+      ]
+    },
+    {
+      "label": "Economic growth",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The role of hydrogen and fuel cells in the global energy system",
+          "year": "2018",
+          "cited_by_count": 3692,
+          "topic": "Economic growth",
+          "url": "papers/https-openalex-org-w2905218447.html"
+        },
+        {
+          "title": "Global estimates of diabetes prevalence for 2013 and projections for 2035",
+          "year": "2013",
+          "cited_by_count": 4679,
+          "topic": "Economic growth",
+          "url": "papers/https-openalex-org-w2139923324.html"
+        },
+        {
+          "title": "EU 7 FP project Governing urban divercity: Creating social cohesion, social mobility and economic performance in today’s hyper-diversified cities (DIVERCITIES) – The case of Warsaw",
+          "year": "2017",
+          "cited_by_count": 3104,
+          "topic": "Economic growth",
+          "url": "papers/https-openalex-org-w4234078576.html"
+        },
+        {
+          "title": "The pandemic of physical inactivity: global action for public health",
+          "year": "2012",
+          "cited_by_count": 3004,
+          "topic": "Economic growth",
+          "url": "papers/https-openalex-org-w2037427175.html"
+        }
+      ]
+    },
+    {
+      "label": "Land cover",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Global pollinator declines: trends, impacts and drivers",
+          "year": "2010",
+          "cited_by_count": 6219,
+          "topic": "Land cover",
+          "url": "papers/https-openalex-org-w2135011388.html"
+        },
+        {
+          "title": "Impacts of climate change on the future of biodiversity",
+          "year": "2012",
+          "cited_by_count": 4102,
+          "topic": "Land cover",
+          "url": "papers/https-openalex-org-w2154433795.html"
+        },
+        {
+          "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+          "year": "2022",
+          "cited_by_count": 2085,
+          "topic": "Land cover",
+          "url": "papers/https-openalex-org-w4226404192.html"
+        },
+        {
+          "title": "Future climate risk from compound events",
+          "year": "2018",
+          "cited_by_count": 2261,
+          "topic": "Land cover",
+          "url": "papers/https-openalex-org-w2800299140.html"
+        }
+      ]
+    },
+    {
+      "label": "Land use",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The Global Land Data Assimilation System",
+          "year": "2004",
+          "cited_by_count": 5626,
+          "topic": "Land use",
+          "url": "papers/https-openalex-org-w2119132330.html"
+        },
+        {
+          "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+          "year": "2017",
+          "cited_by_count": 3486,
+          "topic": "Land use",
+          "url": "papers/https-openalex-org-w2598701004.html"
+        },
+        {
+          "title": "Correlates of physical activity: why are some people physically active and others not?",
+          "year": "2012",
+          "cited_by_count": 4073,
+          "topic": "Land use",
+          "url": "papers/https-openalex-org-w2143696727.html"
+        }
+      ]
+    },
+    {
+      "label": "Sustainable development",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+          "year": "2018",
+          "cited_by_count": 3784,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2891125414.html"
+        },
+        {
+          "title": "The Lancet Commission on global mental health and sustainable development",
+          "year": "2018",
+          "cited_by_count": 3296,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2897623369.html"
+        },
+        {
+          "title": "Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health",
+          "year": "2015",
+          "cited_by_count": 2784,
+          "topic": "Sustainable development",
+          "url": "papers/https-openalex-org-w2175751433.html"
+        }
+      ]
+    },
+    {
+      "label": "Development goals",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Membrane transporters in drug development",
+          "year": "2010",
+          "cited_by_count": 3304,
+          "topic": "Development goals",
+          "url": "papers/https-openalex-org-w2079197876.html"
+        }
+      ]
+    },
+    {
+      "label": "Urban heat island",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Hot weather and heat extremes: health risks",
+          "year": "2021",
+          "cited_by_count": 1777,
+          "topic": "Urban heat island",
+          "url": "papers/https-openalex-org-w3194171027.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2135011388",
+      "title": "Global pollinator declines: trends, impacts and drivers",
+      "year": 2010,
+      "cited_by_count": 6219,
+      "adjusted_cited_by_count": 1554.75,
+      "primary_topic_id": "sg-land-use-land-cover",
+      "primary_topic_label": "Land cover",
+      "url": "/domains/urban-planning/papers/W2135011388"
+    },
+    {
+      "source_id": "https://openalex.org/W1982300822",
+      "title": "Understanding individual human mobility patterns",
+      "year": 2008,
+      "cited_by_count": 6030,
+      "adjusted_cited_by_count": 1421.28,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W1982300822"
+    },
+    {
+      "source_id": "https://openalex.org/W2119472226",
+      "title": "A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population",
+      "year": 2009,
+      "cited_by_count": 5560,
+      "adjusted_cited_by_count": 1348.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2119472226"
+    },
+    {
+      "source_id": "https://openalex.org/W2891125414",
+      "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+      "year": 2018,
+      "cited_by_count": 3784,
+      "adjusted_cited_by_count": 1337.85,
+      "primary_topic_id": "sg-sustainable-development",
+      "primary_topic_label": "Sustainable development",
+      "url": "/domains/urban-planning/papers/W2891125414"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3692,
+      "adjusted_cited_by_count": 1305.32,
+      "primary_topic_id": "sg-environmental-planning-economic-growth",
+      "primary_topic_label": "Economic growth",
+      "url": "/domains/urban-planning/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2139923324",
+      "title": "Global estimates of diabetes prevalence for 2013 and projections for 2035",
+      "year": 2013,
+      "cited_by_count": 4679,
+      "adjusted_cited_by_count": 1297.72,
+      "primary_topic_id": "sg-environmental-planning-economic-growth",
+      "primary_topic_label": "Economic growth",
+      "url": "/domains/urban-planning/papers/W2139923324"
+    },
+    {
+      "source_id": "https://openalex.org/W2614578122",
+      "title": "Global, Regional, and National Burden of Cardiovascular Diseases for 10 Causes, 1990 to 2015",
+      "year": 2017,
+      "cited_by_count": 3848,
+      "adjusted_cited_by_count": 1282.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2614578122"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5626,
+      "adjusted_cited_by_count": 1199.47,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use",
+      "url": "/domains/urban-planning/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W3110220146",
+      "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+      "year": 2020,
+      "cited_by_count": 2938,
+      "adjusted_cited_by_count": 1199.43,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3110220146"
+    },
+    {
+      "source_id": "https://openalex.org/W3017326650",
+      "title": "COVID-19 and Thrombotic or Thromboembolic Disease: Implications for Prevention, Antithrombotic Therapy, and Follow-Up",
+      "year": 2020,
+      "cited_by_count": 2925,
+      "adjusted_cited_by_count": 1194.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3017326650"
+    },
+    {
+      "source_id": "https://openalex.org/W3190876559",
+      "title": "Global Prevalence of Depressive and Anxiety Symptoms in Children and Adolescents During COVID-19",
+      "year": 2021,
+      "cited_by_count": 2669,
+      "adjusted_cited_by_count": 1193.61,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3190876559"
+    },
+    {
+      "source_id": "https://openalex.org/W2897623369",
+      "title": "The Lancet Commission on global mental health and sustainable development",
+      "year": 2018,
+      "cited_by_count": 3296,
+      "adjusted_cited_by_count": 1165.31,
+      "primary_topic_id": "sg-sustainable-development",
+      "primary_topic_label": "Sustainable development",
+      "url": "/domains/urban-planning/papers/W2897623369"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3486,
+      "adjusted_cited_by_count": 1162.0,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use",
+      "url": "/domains/urban-planning/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2983229458",
+      "title": "Epidemiology of Type 2 Diabetes – Global Burden of Disease and Forecasted Trends",
+      "year": 2019,
+      "cited_by_count": 3054,
+      "adjusted_cited_by_count": 1154.3,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2983229458"
+    },
+    {
+      "source_id": "https://openalex.org/W3049547760",
+      "title": "Effects of COVID-19 on College Students’ Mental Health in the United States: Interview Survey Study",
+      "year": 2020,
+      "cited_by_count": 2769,
+      "adjusted_cited_by_count": 1130.44,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3049547760"
+    },
+    {
+      "source_id": "https://openalex.org/W3044137491",
+      "title": "Mental health before and during the COVID-19 pandemic: a longitudinal probability sample survey of the UK population",
+      "year": 2020,
+      "cited_by_count": 2766,
+      "adjusted_cited_by_count": 1129.21,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3044137491"
+    },
+    {
+      "source_id": "https://openalex.org/W2154433795",
+      "title": "Impacts of climate change on the future of biodiversity",
+      "year": 2012,
+      "cited_by_count": 4102,
+      "adjusted_cited_by_count": 1096.31,
+      "primary_topic_id": "sg-land-use-land-cover",
+      "primary_topic_label": "Land cover",
+      "url": "/domains/urban-planning/papers/W2154433795"
+    },
+    {
+      "source_id": "https://openalex.org/W2043861297",
+      "title": "Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development",
+      "year": 2015,
+      "cited_by_count": 3627,
+      "adjusted_cited_by_count": 1093.58,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2043861297"
+    },
+    {
+      "source_id": "https://openalex.org/W2143696727",
+      "title": "Correlates of physical activity: why are some people physically active and others not?",
+      "year": 2012,
+      "cited_by_count": 4073,
+      "adjusted_cited_by_count": 1088.56,
+      "primary_topic_id": "sg-land-use",
+      "primary_topic_label": "Land use",
+      "url": "/domains/urban-planning/papers/W2143696727"
+    },
+    {
+      "source_id": "https://openalex.org/W4361000000",
+      "title": "Global burden of liver disease: 2023 update",
+      "year": 2023,
+      "cited_by_count": 1858,
+      "adjusted_cited_by_count": 1072.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W4361000000"
+    },
+    {
+      "source_id": "https://openalex.org/W2162049040",
+      "title": "The Social Determinants of Health: It's Time to Consider the Causes of the Causes",
+      "year": 2014,
+      "cited_by_count": 3640,
+      "adjusted_cited_by_count": 1050.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2162049040"
+    },
+    {
+      "source_id": "https://openalex.org/W4226404192",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "year": 2022,
+      "cited_by_count": 2085,
+      "adjusted_cited_by_count": 1042.5,
+      "primary_topic_id": "sg-land-use-land-cover",
+      "primary_topic_label": "Land cover",
+      "url": "/domains/urban-planning/papers/W4226404192"
+    },
+    {
+      "source_id": "https://openalex.org/W4234078576",
+      "title": "EU 7 FP project Governing urban divercity: Creating social cohesion, social mobility and economic performance in today’s hyper-diversified cities (DIVERCITIES) – The case of Warsaw",
+      "year": 2017,
+      "cited_by_count": 3104,
+      "adjusted_cited_by_count": 1034.67,
+      "primary_topic_id": "sg-environmental-planning-economic-growth",
+      "primary_topic_label": "Economic growth",
+      "url": "/domains/urban-planning/papers/W4234078576"
+    },
+    {
+      "source_id": "https://openalex.org/W2115609473",
+      "title": "The World Mental Health (WMH) Survey Initiative version of the World Health Organization (WHO) Composite International Diagnostic Interview (CIDI)",
+      "year": 2004,
+      "cited_by_count": 4800,
+      "adjusted_cited_by_count": 1023.36,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2115609473"
+    },
+    {
+      "source_id": "https://openalex.org/W3012789146",
+      "title": "The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study",
+      "year": 2020,
+      "cited_by_count": 2306,
+      "adjusted_cited_by_count": 941.42,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3012789146"
+    },
+    {
+      "source_id": "https://openalex.org/W2157006832",
+      "title": "Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage",
+      "year": 2012,
+      "cited_by_count": 3485,
+      "adjusted_cited_by_count": 931.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2157006832"
+    },
+    {
+      "source_id": "https://openalex.org/W3026582775",
+      "title": "Temporary reduction in daily global CO2 emissions during the COVID-19 forced confinement",
+      "year": 2020,
+      "cited_by_count": 2271,
+      "adjusted_cited_by_count": 927.13,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3026582775"
+    },
+    {
+      "source_id": "https://openalex.org/W2346275821",
+      "title": "Information bias in health research: definition, pitfalls, and adjustment methods",
+      "year": 2016,
+      "cited_by_count": 2889,
+      "adjusted_cited_by_count": 913.58,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2346275821"
+    },
+    {
+      "source_id": "https://openalex.org/W3023031160",
+      "title": "COVID-19 and Racial/Ethnic Disparities",
+      "year": 2020,
+      "cited_by_count": 2166,
+      "adjusted_cited_by_count": 884.27,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3023031160"
+    },
+    {
+      "source_id": "https://openalex.org/W2746473595",
+      "title": "Global, regional, and national deaths, prevalence, disability-adjusted life years, and years lived with disability for chronic obstructive pulmonary disease and asthma, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2017,
+      "cited_by_count": 2558,
+      "adjusted_cited_by_count": 852.67,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2746473595"
+    },
+    {
+      "source_id": "https://openalex.org/W3016136018",
+      "title": "Worldwide Prevalence and Burden of Functional Gastrointestinal Disorders, Results of Rome Foundation Global Study",
+      "year": 2020,
+      "cited_by_count": 2086,
+      "adjusted_cited_by_count": 851.61,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3016136018"
+    },
+    {
+      "source_id": "https://openalex.org/W3205480029",
+      "title": "Infectious disease in an era of global change",
+      "year": 2021,
+      "cited_by_count": 1901,
+      "adjusted_cited_by_count": 850.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3205480029"
+    },
+    {
+      "source_id": "https://openalex.org/W2162775913",
+      "title": "Mortality risk attributable to high and low ambient temperature: a multicountry observational study",
+      "year": 2015,
+      "cited_by_count": 2795,
+      "adjusted_cited_by_count": 842.72,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2162775913"
+    },
+    {
+      "source_id": "https://openalex.org/W2175751433",
+      "title": "Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health",
+      "year": 2015,
+      "cited_by_count": 2784,
+      "adjusted_cited_by_count": 839.41,
+      "primary_topic_id": "sg-sustainable-development",
+      "primary_topic_label": "Sustainable development",
+      "url": "/domains/urban-planning/papers/W2175751433"
+    },
+    {
+      "source_id": "https://openalex.org/W2079197876",
+      "title": "Membrane transporters in drug development",
+      "year": 2010,
+      "cited_by_count": 3304,
+      "adjusted_cited_by_count": 826.0,
+      "primary_topic_id": "sg-sustainable-development-development-goals",
+      "primary_topic_label": "Development goals",
+      "url": "/domains/urban-planning/papers/W2079197876"
+    },
+    {
+      "source_id": "https://openalex.org/W2122473579",
+      "title": "Guidelines on the management of valvular heart disease: The Task Force on the Management of Valvular Heart Disease of the European Society of Cardiology",
+      "year": 2006,
+      "cited_by_count": 3593,
+      "adjusted_cited_by_count": 803.42,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W2122473579"
+    },
+    {
+      "source_id": "https://openalex.org/W2037427175",
+      "title": "The pandemic of physical inactivity: global action for public health",
+      "year": 2012,
+      "cited_by_count": 3004,
+      "adjusted_cited_by_count": 802.85,
+      "primary_topic_id": "sg-environmental-planning-economic-growth",
+      "primary_topic_label": "Economic growth",
+      "url": "/domains/urban-planning/papers/W2037427175"
+    },
+    {
+      "source_id": "https://openalex.org/W2800299140",
+      "title": "Future climate risk from compound events",
+      "year": 2018,
+      "cited_by_count": 2261,
+      "adjusted_cited_by_count": 799.38,
+      "primary_topic_id": "sg-land-use-land-cover",
+      "primary_topic_label": "Land cover",
+      "url": "/domains/urban-planning/papers/W2800299140"
+    },
+    {
+      "source_id": "https://openalex.org/W3194171027",
+      "title": "Hot weather and heat extremes: health risks",
+      "year": 2021,
+      "cited_by_count": 1777,
+      "adjusted_cited_by_count": 794.7,
+      "primary_topic_id": "sg-urban-heat-island",
+      "primary_topic_label": "Urban heat island",
+      "url": "/domains/urban-planning/papers/W3194171027"
+    },
+    {
+      "source_id": "https://openalex.org/W3057302762",
+      "title": "Sex and gender: modifiers of health, disease, and medicine",
+      "year": 2020,
+      "cited_by_count": 1937,
+      "adjusted_cited_by_count": 790.78,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/urban-planning/papers/W3057302762"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2135011388",
+      "title": "Global pollinator declines: trends, impacts and drivers",
+      "year": 2010,
+      "cited_by_count": 6219,
+      "adjusted_cited_by_count": 1554.75,
+      "url": "/domains/urban-planning/papers/W2135011388"
+    },
+    {
+      "source_id": "https://openalex.org/W1982300822",
+      "title": "Understanding individual human mobility patterns",
+      "year": 2008,
+      "cited_by_count": 6030,
+      "adjusted_cited_by_count": 1421.28,
+      "url": "/domains/urban-planning/papers/W1982300822"
+    },
+    {
+      "source_id": "https://openalex.org/W2119472226",
+      "title": "A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population",
+      "year": 2009,
+      "cited_by_count": 5560,
+      "adjusted_cited_by_count": 1348.5,
+      "url": "/domains/urban-planning/papers/W2119472226"
+    },
+    {
+      "source_id": "https://openalex.org/W2891125414",
+      "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+      "year": 2018,
+      "cited_by_count": 3784,
+      "adjusted_cited_by_count": 1337.85,
+      "url": "/domains/urban-planning/papers/W2891125414"
+    },
+    {
+      "source_id": "https://openalex.org/W2905218447",
+      "title": "The role of hydrogen and fuel cells in the global energy system",
+      "year": 2018,
+      "cited_by_count": 3692,
+      "adjusted_cited_by_count": 1305.32,
+      "url": "/domains/urban-planning/papers/W2905218447"
+    },
+    {
+      "source_id": "https://openalex.org/W2139923324",
+      "title": "Global estimates of diabetes prevalence for 2013 and projections for 2035",
+      "year": 2013,
+      "cited_by_count": 4679,
+      "adjusted_cited_by_count": 1297.72,
+      "url": "/domains/urban-planning/papers/W2139923324"
+    },
+    {
+      "source_id": "https://openalex.org/W2614578122",
+      "title": "Global, Regional, and National Burden of Cardiovascular Diseases for 10 Causes, 1990 to 2015",
+      "year": 2017,
+      "cited_by_count": 3848,
+      "adjusted_cited_by_count": 1282.67,
+      "url": "/domains/urban-planning/papers/W2614578122"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5626,
+      "adjusted_cited_by_count": 1199.47,
+      "url": "/domains/urban-planning/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W3110220146",
+      "title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+      "year": 2020,
+      "cited_by_count": 2938,
+      "adjusted_cited_by_count": 1199.43,
+      "url": "/domains/urban-planning/papers/W3110220146"
+    },
+    {
+      "source_id": "https://openalex.org/W3017326650",
+      "title": "COVID-19 and Thrombotic or Thromboembolic Disease: Implications for Prevention, Antithrombotic Therapy, and Follow-Up",
+      "year": 2020,
+      "cited_by_count": 2925,
+      "adjusted_cited_by_count": 1194.13,
+      "url": "/domains/urban-planning/papers/W3017326650"
+    },
+    {
+      "source_id": "https://openalex.org/W3190876559",
+      "title": "Global Prevalence of Depressive and Anxiety Symptoms in Children and Adolescents During COVID-19",
+      "year": 2021,
+      "cited_by_count": 2669,
+      "adjusted_cited_by_count": 1193.61,
+      "url": "/domains/urban-planning/papers/W3190876559"
+    },
+    {
+      "source_id": "https://openalex.org/W2897623369",
+      "title": "The Lancet Commission on global mental health and sustainable development",
+      "year": 2018,
+      "cited_by_count": 3296,
+      "adjusted_cited_by_count": 1165.31,
+      "url": "/domains/urban-planning/papers/W2897623369"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3486,
+      "adjusted_cited_by_count": 1162.0,
+      "url": "/domains/urban-planning/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2983229458",
+      "title": "Epidemiology of Type 2 Diabetes – Global Burden of Disease and Forecasted Trends",
+      "year": 2019,
+      "cited_by_count": 3054,
+      "adjusted_cited_by_count": 1154.3,
+      "url": "/domains/urban-planning/papers/W2983229458"
+    },
+    {
+      "source_id": "https://openalex.org/W3049547760",
+      "title": "Effects of COVID-19 on College Students’ Mental Health in the United States: Interview Survey Study",
+      "year": 2020,
+      "cited_by_count": 2769,
+      "adjusted_cited_by_count": 1130.44,
+      "url": "/domains/urban-planning/papers/W3049547760"
+    },
+    {
+      "source_id": "https://openalex.org/W3044137491",
+      "title": "Mental health before and during the COVID-19 pandemic: a longitudinal probability sample survey of the UK population",
+      "year": 2020,
+      "cited_by_count": 2766,
+      "adjusted_cited_by_count": 1129.21,
+      "url": "/domains/urban-planning/papers/W3044137491"
+    },
+    {
+      "source_id": "https://openalex.org/W2154433795",
+      "title": "Impacts of climate change on the future of biodiversity",
+      "year": 2012,
+      "cited_by_count": 4102,
+      "adjusted_cited_by_count": 1096.31,
+      "url": "/domains/urban-planning/papers/W2154433795"
+    },
+    {
+      "source_id": "https://openalex.org/W2043861297",
+      "title": "Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development",
+      "year": 2015,
+      "cited_by_count": 3627,
+      "adjusted_cited_by_count": 1093.58,
+      "url": "/domains/urban-planning/papers/W2043861297"
+    },
+    {
+      "source_id": "https://openalex.org/W2143696727",
+      "title": "Correlates of physical activity: why are some people physically active and others not?",
+      "year": 2012,
+      "cited_by_count": 4073,
+      "adjusted_cited_by_count": 1088.56,
+      "url": "/domains/urban-planning/papers/W2143696727"
+    },
+    {
+      "source_id": "https://openalex.org/W4361000000",
+      "title": "Global burden of liver disease: 2023 update",
+      "year": 2023,
+      "cited_by_count": 1858,
+      "adjusted_cited_by_count": 1072.72,
+      "url": "/domains/urban-planning/papers/W4361000000"
+    },
+    {
+      "source_id": "https://openalex.org/W2162049040",
+      "title": "The Social Determinants of Health: It's Time to Consider the Causes of the Causes",
+      "year": 2014,
+      "cited_by_count": 3640,
+      "adjusted_cited_by_count": 1050.78,
+      "url": "/domains/urban-planning/papers/W2162049040"
+    },
+    {
+      "source_id": "https://openalex.org/W4226404192",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "year": 2022,
+      "cited_by_count": 2085,
+      "adjusted_cited_by_count": 1042.5,
+      "url": "/domains/urban-planning/papers/W4226404192"
+    },
+    {
+      "source_id": "https://openalex.org/W4234078576",
+      "title": "EU 7 FP project Governing urban divercity: Creating social cohesion, social mobility and economic performance in today’s hyper-diversified cities (DIVERCITIES) – The case of Warsaw",
+      "year": 2017,
+      "cited_by_count": 3104,
+      "adjusted_cited_by_count": 1034.67,
+      "url": "/domains/urban-planning/papers/W4234078576"
+    },
+    {
+      "source_id": "https://openalex.org/W2115609473",
+      "title": "The World Mental Health (WMH) Survey Initiative version of the World Health Organization (WHO) Composite International Diagnostic Interview (CIDI)",
+      "year": 2004,
+      "cited_by_count": 4800,
+      "adjusted_cited_by_count": 1023.36,
+      "url": "/domains/urban-planning/papers/W2115609473"
+    },
+    {
+      "source_id": "https://openalex.org/W3012789146",
+      "title": "The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study",
+      "year": 2020,
+      "cited_by_count": 2306,
+      "adjusted_cited_by_count": 941.42,
+      "url": "/domains/urban-planning/papers/W3012789146"
+    },
+    {
+      "source_id": "https://openalex.org/W2157006832",
+      "title": "Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage",
+      "year": 2012,
+      "cited_by_count": 3485,
+      "adjusted_cited_by_count": 931.41,
+      "url": "/domains/urban-planning/papers/W2157006832"
+    },
+    {
+      "source_id": "https://openalex.org/W3026582775",
+      "title": "Temporary reduction in daily global CO2 emissions during the COVID-19 forced confinement",
+      "year": 2020,
+      "cited_by_count": 2271,
+      "adjusted_cited_by_count": 927.13,
+      "url": "/domains/urban-planning/papers/W3026582775"
+    },
+    {
+      "source_id": "https://openalex.org/W2346275821",
+      "title": "Information bias in health research: definition, pitfalls, and adjustment methods",
+      "year": 2016,
+      "cited_by_count": 2889,
+      "adjusted_cited_by_count": 913.58,
+      "url": "/domains/urban-planning/papers/W2346275821"
+    },
+    {
+      "source_id": "https://openalex.org/W3023031160",
+      "title": "COVID-19 and Racial/Ethnic Disparities",
+      "year": 2020,
+      "cited_by_count": 2166,
+      "adjusted_cited_by_count": 884.27,
+      "url": "/domains/urban-planning/papers/W3023031160"
+    },
+    {
+      "source_id": "https://openalex.org/W2746473595",
+      "title": "Global, regional, and national deaths, prevalence, disability-adjusted life years, and years lived with disability for chronic obstructive pulmonary disease and asthma, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+      "year": 2017,
+      "cited_by_count": 2558,
+      "adjusted_cited_by_count": 852.67,
+      "url": "/domains/urban-planning/papers/W2746473595"
+    },
+    {
+      "source_id": "https://openalex.org/W3016136018",
+      "title": "Worldwide Prevalence and Burden of Functional Gastrointestinal Disorders, Results of Rome Foundation Global Study",
+      "year": 2020,
+      "cited_by_count": 2086,
+      "adjusted_cited_by_count": 851.61,
+      "url": "/domains/urban-planning/papers/W3016136018"
+    },
+    {
+      "source_id": "https://openalex.org/W3205480029",
+      "title": "Infectious disease in an era of global change",
+      "year": 2021,
+      "cited_by_count": 1901,
+      "adjusted_cited_by_count": 850.15,
+      "url": "/domains/urban-planning/papers/W3205480029"
+    },
+    {
+      "source_id": "https://openalex.org/W2162775913",
+      "title": "Mortality risk attributable to high and low ambient temperature: a multicountry observational study",
+      "year": 2015,
+      "cited_by_count": 2795,
+      "adjusted_cited_by_count": 842.72,
+      "url": "/domains/urban-planning/papers/W2162775913"
+    },
+    {
+      "source_id": "https://openalex.org/W2175751433",
+      "title": "Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health",
+      "year": 2015,
+      "cited_by_count": 2784,
+      "adjusted_cited_by_count": 839.41,
+      "url": "/domains/urban-planning/papers/W2175751433"
+    },
+    {
+      "source_id": "https://openalex.org/W2079197876",
+      "title": "Membrane transporters in drug development",
+      "year": 2010,
+      "cited_by_count": 3304,
+      "adjusted_cited_by_count": 826.0,
+      "url": "/domains/urban-planning/papers/W2079197876"
+    },
+    {
+      "source_id": "https://openalex.org/W2122473579",
+      "title": "Guidelines on the management of valvular heart disease: The Task Force on the Management of Valvular Heart Disease of the European Society of Cardiology",
+      "year": 2006,
+      "cited_by_count": 3593,
+      "adjusted_cited_by_count": 803.42,
+      "url": "/domains/urban-planning/papers/W2122473579"
+    },
+    {
+      "source_id": "https://openalex.org/W2037427175",
+      "title": "The pandemic of physical inactivity: global action for public health",
+      "year": 2012,
+      "cited_by_count": 3004,
+      "adjusted_cited_by_count": 802.85,
+      "url": "/domains/urban-planning/papers/W2037427175"
+    },
+    {
+      "source_id": "https://openalex.org/W2800299140",
+      "title": "Future climate risk from compound events",
+      "year": 2018,
+      "cited_by_count": 2261,
+      "adjusted_cited_by_count": 799.38,
+      "url": "/domains/urban-planning/papers/W2800299140"
+    },
+    {
+      "source_id": "https://openalex.org/W3194171027",
+      "title": "Hot weather and heat extremes: health risks",
+      "year": 2021,
+      "cited_by_count": 1777,
+      "adjusted_cited_by_count": 794.7,
+      "url": "/domains/urban-planning/papers/W3194171027"
+    },
+    {
+      "source_id": "https://openalex.org/W3057302762",
+      "title": "Sex and gender: modifiers of health, disease, and medicine",
+      "year": 2020,
+      "cited_by_count": 1937,
+      "adjusted_cited_by_count": 790.78,
+      "url": "/domains/urban-planning/papers/W3057302762"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "global health",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 122
+    },
+    {
+      "label": "environmental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "urban",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 65
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 64
+    },
+    {
+      "label": "disease burden",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "planning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "rate",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "internal medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "public health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "mental health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 38
+    },
+    {
+      "label": "developing country",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 37
+    },
+    {
+      "label": "demography",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 36
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 36
+    },
+    {
+      "label": "environmental resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "work",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 33
+    },
+    {
+      "label": "development goals",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "economic growth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "environmental planning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "the global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 31
+    },
+    {
+      "label": "global burden of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "urban planning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "national",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 28
+    },
+    {
+      "label": "land use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "public",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 48
+    },
+    {
+      "label": "risk",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 26
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 24
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 24
+    },
+    {
+      "label": "gerontology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 23
+    },
+    {
+      "label": "care medicine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 22
+    },
+    {
+      "label": "economic geography",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 22
+    },
+    {
+      "label": "ecosystem health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 22
+    },
+    {
+      "label": "management of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 22
+    },
+    {
+      "label": "psychiatry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 22
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 28
+    },
+    {
+      "label": "mortality",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 23
+    },
+    {
+      "label": "regional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 23
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 21
+    },
+    {
+      "label": "systematic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 21
+    },
+    {
+      "label": "areas",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 20
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 20
+    }
+  ],
+  "topic_year_counts": {
+    "sustainable development": {
+      "2025": 1062963,
+      "2024": 854873,
+      "2023": 788241,
+      "2022": 529787,
+      "2021": 465443,
+      "2020": 412848,
+      "2019": 336087,
+      "2026": 323249,
+      "2018": 290874,
+      "2017": 251653,
+      "2016": 223339,
+      "2015": 202743,
+      "2014": 183224,
+      "2013": 163235,
+      "2012": 142791,
+      "2011": 123493,
+      "2010": 105742,
+      "2009": 91400,
+      "2008": 75098,
+      "2007": 64950,
+      "2006": 57696,
+      "2005": 50350,
+      "2004": 43427,
+      "2003": 37276,
+      "2002": 31738,
+      "2001": 27302,
+      "2000": 26895
+    },
+    "urban heat island": {
+      "2025": 18785,
+      "2024": 15791,
+      "2023": 15301,
+      "2022": 10612,
+      "2021": 9640,
+      "2020": 8625,
+      "2019": 7472,
+      "2018": 6273,
+      "2017": 5485,
+      "2026": 5116,
+      "2016": 5063,
+      "2015": 4627,
+      "2014": 4090,
+      "2013": 3636,
+      "2012": 3232,
+      "2011": 2864,
+      "2010": 2443,
+      "2009": 2060,
+      "2008": 1637,
+      "2004": 1389,
+      "2006": 1344,
+      "2007": 1340,
+      "2000": 997,
+      "2005": 877,
+      "2003": 651,
+      "2002": 497,
+      "2001": 490
+    },
+    "urban green space health": {
+      "2025": 50204,
+      "2024": 46698,
+      "2023": 45646,
+      "2022": 31821,
+      "2021": 28258,
+      "2020": 23952,
+      "2019": 20213,
+      "2018": 17273,
+      "2017": 14663,
+      "2026": 13469,
+      "2016": 13218,
+      "2015": 11661,
+      "2014": 10341,
+      "2013": 9183,
+      "2012": 7876,
+      "2011": 6431,
+      "2010": 5569,
+      "2009": 4723,
+      "2008": 3612,
+      "2006": 3261,
+      "2007": 2930,
+      "2005": 2468,
+      "2004": 2283,
+      "2000": 1663,
+      "2003": 1445,
+      "2002": 1157,
+      "2001": 986
+    },
+    "land use": {
+      "2023": 383676,
+      "2025": 361955,
+      "2024": 358194,
+      "2022": 284902,
+      "2021": 270788,
+      "2020": 251682,
+      "2019": 218148,
+      "2018": 197880,
+      "2017": 175070,
+      "2016": 165029,
+      "2015": 151447,
+      "2014": 140733,
+      "2013": 129673,
+      "2012": 114701,
+      "2026": 102866,
+      "2011": 101833,
+      "2010": 90184,
+      "2009": 80172,
+      "2008": 69767,
+      "2007": 61562,
+      "2006": 54964,
+      "2005": 48978,
+      "2004": 42938,
+      "2003": 38774,
+      "2002": 34011,
+      "2001": 29786,
+      "2000": 29570
+    }
+  }
+}
