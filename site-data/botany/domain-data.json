@@ -1,0 +1,1685 @@
+{
+  "slug": "botany",
+  "title": "Botany",
+  "updated_at": "2026-04-24T11:22:59.313884Z",
+  "snapshot": {
+    "papers": 101,
+    "topics": 4,
+    "subtopics": 27,
+    "entities": 385,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 135,
+      "total_papers": 135,
+      "facet_counts": {
+        "none": 135
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 4,
+    "descendant_topics": 27,
+    "max_depth": 2,
+    "leaf_topics": 27
+  },
+  "rising_topics": [
+    {
+      "id": "sg-abiotic-stress",
+      "label": "Abiotic stress",
+      "url": "/domains/botany/topics/sg-abiotic-stress",
+      "trend": "rising",
+      "year_total": 376301
+    },
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/botany/topics/sg-evolutionary-biology",
+      "trend": "rising",
+      "year_total": 869074
+    },
+    {
+      "id": "sg-reactive-oxygen-species",
+      "label": "Reactive oxygen species",
+      "url": "/domains/botany/topics/sg-reactive-oxygen-species",
+      "trend": "rising",
+      "year_total": 1237273
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-abiotic-stress",
+      "label": "Abiotic stress",
+      "url": "/domains/botany/topics/sg-abiotic-stress",
+      "paper_count": 58,
+      "subtopic_count": 16,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "abiotic component",
+        "abiotic stress",
+        "abiotic stress tolerance",
+        "biotic stress"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-abiotic-stress-biotic-stress",
+          "label": "Biotic stress",
+          "url": "/domains/botany/topics/sg-abiotic-stress-biotic-stress",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-abiotic-stress-abiotic-component",
+          "label": "Abiotic component",
+          "url": "/domains/botany/topics/sg-abiotic-stress-abiotic-component",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-abiotic-stress-land-use",
+          "label": "Land use",
+          "url": "/domains/botany/topics/sg-abiotic-stress-land-use",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-abiotic-stress-drought-tolerance",
+          "label": "Drought tolerance",
+          "url": "/domains/botany/topics/sg-abiotic-stress-drought-tolerance",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-abiotic-stress-ecosystem-service",
+          "label": "Ecosystem service",
+          "url": "/domains/botany/topics/sg-abiotic-stress-ecosystem-service",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-plant-growth-plant-functional",
+          "label": "Plant functional",
+          "url": "/domains/botany/topics/sg-plant-growth-plant-functional",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/botany/topics/sg-evolutionary-biology",
+      "paper_count": 33,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: ecology, plant, gene",
+      "tags": [
+        "chromosomal and genetic variations",
+        "evolutionary biology",
+        "evolutionary ecology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-evolutionary-biology-plant-diversity-evolution",
+          "label": "Plant diversity evolution",
+          "url": "/domains/botany/topics/sg-evolutionary-biology-plant-diversity-evolution",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-evolutionary-biology-evolution-ecology",
+          "label": "Evolution, ecology",
+          "url": "/domains/botany/topics/sg-evolutionary-biology-evolution-ecology",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-evolutionary-biology-ecosystem-health",
+          "label": "Ecosystem health",
+          "url": "/domains/botany/topics/sg-evolutionary-biology-ecosystem-health",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-evolutionary-biology-chromosomal-genetic-variations",
+          "label": "Chromosomal genetic variations",
+          "url": "/domains/botany/topics/sg-evolutionary-biology-chromosomal-genetic-variations",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-evolutionary-biology-plant-animal-studies",
+          "label": "Plant animal studies",
+          "url": "/domains/botany/topics/sg-evolutionary-biology-plant-animal-studies",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-evolutionary-biology-genomics-phylogenetic-studies",
+          "label": "Genomics phylogenetic studies",
+          "url": "/domains/botany/topics/sg-evolutionary-biology-genomics-phylogenetic-studies",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2125219010",
+          "title": "The Botany of Mangroves",
+          "year": "2016",
+          "cited_by_count": 1907,
+          "url": "/domains/botany/papers/W2125219010"
+        },
+        {
+          "source_id": "https://openalex.org/W2139526205",
+          "title": "A review of earthworm impact on soil function and ecosystem services",
+          "year": "2013",
+          "cited_by_count": 1241,
+          "url": "/domains/botany/papers/W2139526205"
+        },
+        {
+          "source_id": "https://openalex.org/W2741961591",
+          "title": "The evolution of the host microbiome as an ecosystem on a leash",
+          "year": "2017",
+          "cited_by_count": 987,
+          "url": "/domains/botany/papers/W2741961591"
+        }
+      ]
+    },
+    {
+      "id": "sg-reactive-oxygen-species",
+      "label": "Reactive oxygen species",
+      "url": "/domains/botany/topics/sg-reactive-oxygen-species",
+      "paper_count": 5,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: oxygen species, reactive oxygen, reactive oxygen species",
+      "tags": [
+        "hydrogen peroxide",
+        "oxidative stress",
+        "reactive oxygen species",
+        "stress conditions"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-reactive-oxygen-species-hydrogen-peroxide",
+          "label": "Hydrogen peroxide",
+          "url": "/domains/botany/topics/sg-reactive-oxygen-species-hydrogen-peroxide",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2800549213",
+          "title": "A global perspective on carotenoids: Metabolism, biotechnology, and benefits for nutrition and health",
+          "year": "2018",
+          "cited_by_count": 1010,
+          "url": "/domains/botany/papers/W2800549213"
+        },
+        {
+          "source_id": "https://openalex.org/W2999123806",
+          "title": "Chromium Bioaccumulation and Its Impacts on Plants: An Overview",
+          "year": "2020",
+          "cited_by_count": 495,
+          "url": "/domains/botany/papers/W2999123806"
+        },
+        {
+          "source_id": "https://openalex.org/W2106636153",
+          "title": "Isoprene Emission from Plants: Why and How",
+          "year": "2007",
+          "cited_by_count": 686,
+          "url": "/domains/botany/papers/W2106636153"
+        }
+      ]
+    },
+    {
+      "id": "sg-stress-tolerance",
+      "label": "Stress tolerance",
+      "url": "/domains/botany/topics/sg-stress-tolerance",
+      "paper_count": 5,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: plant, under, biochemistry",
+      "tags": [
+        "abiotic stress tolerance",
+        "plant stress responses and tolerance",
+        "salt stress",
+        "stress conditions"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-stress-tolerance-salt-stress",
+          "label": "Salt stress",
+          "url": "/domains/botany/topics/sg-stress-tolerance-salt-stress",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2294508081",
+          "title": "Global Plant Stress Signaling: Reactive Oxygen Species at the Cross-Road",
+          "year": "2016",
+          "cited_by_count": 630,
+          "url": "/domains/botany/papers/W2294508081"
+        },
+        {
+          "source_id": "https://openalex.org/W2751453809",
+          "title": "Plant growth under water/salt stress: ROS production; antioxidants and significance of added potassium under such conditions",
+          "year": "2017",
+          "cited_by_count": 479,
+          "url": "/domains/botany/papers/W2751453809"
+        },
+        {
+          "source_id": "https://openalex.org/W2103708499",
+          "title": "Overexpression of an R1R2R3 MYB Gene, <i>OsMYB3R</i>-<i>2</i>, Increases Tolerance to Freezing, Drought, and Salt Stress in Transgenic Arabidopsis",
+          "year": "2007",
+          "cited_by_count": 619,
+          "url": "/domains/botany/papers/W2103708499"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Abiotic stress",
+      "paper_count": 18,
+      "papers": [
+        {
+          "title": "Global pollinator declines: trends, impacts and drivers",
+          "year": "2010",
+          "cited_by_count": 6219,
+          "topic": "Abiotic stress",
+          "url": "papers/https-openalex-org-w2135011388.html"
+        },
+        {
+          "title": "Arabidopsis mesophyll protoplasts: a versatile cell system for transient gene expression analysis",
+          "year": "2007",
+          "cited_by_count": 5127,
+          "topic": "Abiotic stress",
+          "url": "papers/https-openalex-org-w2052821301.html"
+        },
+        {
+          "title": "Response of Phenylpropanoid Pathway and the Role of Polyphenols in Plants under Abiotic Stress",
+          "year": "2019",
+          "cited_by_count": 1855,
+          "topic": "Abiotic stress",
+          "url": "papers/https-openalex-org-w2953705934.html"
+        },
+        {
+          "title": "Plant hormone-mediated regulation of stress responses",
+          "year": "2016",
+          "cited_by_count": 2195,
+          "topic": "Abiotic stress",
+          "url": "papers/https-openalex-org-w2337706971.html"
+        },
+        {
+          "title": "Responses of Plants to Environmental Stresses",
+          "year": "1973",
+          "cited_by_count": 4789,
+          "topic": "Abiotic stress",
+          "url": "papers/https-openalex-org-w1640080484.html"
+        },
+        {
+          "title": "Soil microbiomes and climate change",
+          "year": "2019",
+          "cited_by_count": 1552,
+          "topic": "Abiotic stress",
+          "url": "papers/https-openalex-org-w2978355872.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 15,
+      "papers": [
+        {
+          "title": "The plant immune system",
+          "year": "2006",
+          "cited_by_count": 12942,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2162515800.html"
+        },
+        {
+          "title": "Pakistan Journal of Botany",
+          "year": "2018",
+          "cited_by_count": 2106,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w4206185067.html"
+        },
+        {
+          "title": "Jasmonates: biosynthesis, perception, signal transduction and action in plant stress response, growth and development. An update to the 2007 review in Annals of Botany",
+          "year": "2013",
+          "cited_by_count": 2523,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2050018481.html"
+        },
+        {
+          "title": "Soil moisture dominates dryness stress on ecosystem production globally",
+          "year": "2020",
+          "cited_by_count": 880,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w3091303025.html"
+        },
+        {
+          "title": "Emerging infectious diseases of plants: pathogen pollution, climate change and agrotechnology drivers",
+          "year": "2004",
+          "cited_by_count": 1660,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2120998920.html"
+        },
+        {
+          "title": "Climate variability and vulnerability to climate change: a review",
+          "year": "2014",
+          "cited_by_count": 1171,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2124354221.html"
+        }
+      ]
+    },
+    {
+      "label": "Evolutionary biology",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "The Botany of Mangroves",
+          "year": "2016",
+          "cited_by_count": 1907,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2125219010.html"
+        },
+        {
+          "title": "A review of earthworm impact on soil function and ecosystem services",
+          "year": "2013",
+          "cited_by_count": 1241,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2139526205.html"
+        },
+        {
+          "title": "The evolution of the host microbiome as an ecosystem on a leash",
+          "year": "2017",
+          "cited_by_count": 987,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2741961591.html"
+        },
+        {
+          "title": "Trade-offs across Space, Time, and Ecosystem Services",
+          "year": "2006",
+          "cited_by_count": 1395,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w1582174288.html"
+        },
+        {
+          "title": "Genomics and the origin of species",
+          "year": "2014",
+          "cited_by_count": 1060,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w1964587468.html"
+        },
+        {
+          "title": "Beyond species loss: the extinction of ecological interactions in a changing world",
+          "year": "2014",
+          "cited_by_count": 932,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2155430569.html"
+        }
+      ]
+    },
+    {
+      "label": "Reactive oxygen species",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "A global perspective on carotenoids: Metabolism, biotechnology, and benefits for nutrition and health",
+          "year": "2018",
+          "cited_by_count": 1010,
+          "topic": "Reactive oxygen species",
+          "url": "papers/https-openalex-org-w2800549213.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2162515800",
+      "title": "The plant immune system",
+      "year": 2006,
+      "cited_by_count": 12942,
+      "adjusted_cited_by_count": 2893.92,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2162515800"
+    },
+    {
+      "source_id": "https://openalex.org/W2135011388",
+      "title": "Global pollinator declines: trends, impacts and drivers",
+      "year": 2010,
+      "cited_by_count": 6219,
+      "adjusted_cited_by_count": 1554.75,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2135011388"
+    },
+    {
+      "source_id": "https://openalex.org/W2052821301",
+      "title": "Arabidopsis mesophyll protoplasts: a versatile cell system for transient gene expression analysis",
+      "year": 2007,
+      "cited_by_count": 5127,
+      "adjusted_cited_by_count": 1176.21,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2052821301"
+    },
+    {
+      "source_id": "https://openalex.org/W4206185067",
+      "title": "Pakistan Journal of Botany",
+      "year": 2018,
+      "cited_by_count": 2106,
+      "adjusted_cited_by_count": 744.58,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W4206185067"
+    },
+    {
+      "source_id": "https://openalex.org/W2953705934",
+      "title": "Response of Phenylpropanoid Pathway and the Role of Polyphenols in Plants under Abiotic Stress",
+      "year": 2019,
+      "cited_by_count": 1855,
+      "adjusted_cited_by_count": 701.12,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2953705934"
+    },
+    {
+      "source_id": "https://openalex.org/W2050018481",
+      "title": "Jasmonates: biosynthesis, perception, signal transduction and action in plant stress response, growth and development. An update to the 2007 review in Annals of Botany",
+      "year": 2013,
+      "cited_by_count": 2523,
+      "adjusted_cited_by_count": 699.75,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2050018481"
+    },
+    {
+      "source_id": "https://openalex.org/W2337706971",
+      "title": "Plant hormone-mediated regulation of stress responses",
+      "year": 2016,
+      "cited_by_count": 2195,
+      "adjusted_cited_by_count": 694.12,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2337706971"
+    },
+    {
+      "source_id": "https://openalex.org/W1640080484",
+      "title": "Responses of Plants to Environmental Stresses",
+      "year": 1973,
+      "cited_by_count": 4789,
+      "adjusted_cited_by_count": 657.82,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W1640080484"
+    },
+    {
+      "source_id": "https://openalex.org/W2125219010",
+      "title": "The Botany of Mangroves",
+      "year": 2016,
+      "cited_by_count": 1907,
+      "adjusted_cited_by_count": 603.05,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/botany/papers/W2125219010"
+    },
+    {
+      "source_id": "https://openalex.org/W2978355872",
+      "title": "Soil microbiomes and climate change",
+      "year": 2019,
+      "cited_by_count": 1552,
+      "adjusted_cited_by_count": 586.6,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2978355872"
+    },
+    {
+      "source_id": "https://openalex.org/W2113263681",
+      "title": "The habitat function of mangroves for terrestrial and marine fauna: A review",
+      "year": 2008,
+      "cited_by_count": 1534,
+      "adjusted_cited_by_count": 361.57,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2113263681"
+    },
+    {
+      "source_id": "https://openalex.org/W3091303025",
+      "title": "Soil moisture dominates dryness stress on ecosystem production globally",
+      "year": 2020,
+      "cited_by_count": 880,
+      "adjusted_cited_by_count": 359.26,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W3091303025"
+    },
+    {
+      "source_id": "https://openalex.org/W2800549213",
+      "title": "A global perspective on carotenoids: Metabolism, biotechnology, and benefits for nutrition and health",
+      "year": 2018,
+      "cited_by_count": 1010,
+      "adjusted_cited_by_count": 357.09,
+      "primary_topic_id": "sg-reactive-oxygen-species",
+      "primary_topic_label": "Reactive oxygen species",
+      "url": "/domains/botany/papers/W2800549213"
+    },
+    {
+      "source_id": "https://openalex.org/W2120998920",
+      "title": "Emerging infectious diseases of plants: pathogen pollution, climate change and agrotechnology drivers",
+      "year": 2004,
+      "cited_by_count": 1660,
+      "adjusted_cited_by_count": 353.91,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2120998920"
+    },
+    {
+      "source_id": "https://openalex.org/W2139526205",
+      "title": "A review of earthworm impact on soil function and ecosystem services",
+      "year": 2013,
+      "cited_by_count": 1241,
+      "adjusted_cited_by_count": 344.19,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/botany/papers/W2139526205"
+    },
+    {
+      "source_id": "https://openalex.org/W2124354221",
+      "title": "Climate variability and vulnerability to climate change: a review",
+      "year": 2014,
+      "cited_by_count": 1171,
+      "adjusted_cited_by_count": 338.04,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2124354221"
+    },
+    {
+      "source_id": "https://openalex.org/W2056554121",
+      "title": "Tolerance to drought and salt stress in plants: Unraveling the signaling networks",
+      "year": 2014,
+      "cited_by_count": 1147,
+      "adjusted_cited_by_count": 331.11,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2056554121"
+    },
+    {
+      "source_id": "https://openalex.org/W2741961591",
+      "title": "The evolution of the host microbiome as an ecosystem on a leash",
+      "year": 2017,
+      "cited_by_count": 987,
+      "adjusted_cited_by_count": 329.0,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/botany/papers/W2741961591"
+    },
+    {
+      "source_id": "https://openalex.org/W1582174288",
+      "title": "Trade-offs across Space, Time, and Ecosystem Services",
+      "year": 2006,
+      "cited_by_count": 1395,
+      "adjusted_cited_by_count": 311.93,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/botany/papers/W1582174288"
+    },
+    {
+      "source_id": "https://openalex.org/W2884059031",
+      "title": "Global assessment of agricultural system redesign for sustainable intensification",
+      "year": 2018,
+      "cited_by_count": 874,
+      "adjusted_cited_by_count": 309.01,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2884059031"
+    },
+    {
+      "source_id": "https://openalex.org/W4252021292",
+      "title": "TURKISH JOURNAL OF BOTANY",
+      "year": 2022,
+      "cited_by_count": 613,
+      "adjusted_cited_by_count": 306.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W4252021292"
+    },
+    {
+      "source_id": "https://openalex.org/W1964587468",
+      "title": "Genomics and the origin of species",
+      "year": 2014,
+      "cited_by_count": 1060,
+      "adjusted_cited_by_count": 306.0,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/botany/papers/W1964587468"
+    },
+    {
+      "source_id": "https://openalex.org/W3093959671",
+      "title": "Root traits as drivers of plant and ecosystem functioning: current understanding, pitfalls and future research needs",
+      "year": 2020,
+      "cited_by_count": 720,
+      "adjusted_cited_by_count": 293.94,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W3093959671"
+    },
+    {
+      "source_id": "https://openalex.org/W2165182802",
+      "title": "Housekeeping gene selection for real-time RT-PCR normalization in potato during biotic and abiotic stress",
+      "year": 2005,
+      "cited_by_count": 1331,
+      "adjusted_cited_by_count": 290.45,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2165182802"
+    },
+    {
+      "source_id": "https://openalex.org/W2608985635",
+      "title": "Ascorbic Acid-A Potential Oxidant Scavenger and Its Role in Plant Development and Abiotic Stress Tolerance",
+      "year": 2017,
+      "cited_by_count": 870,
+      "adjusted_cited_by_count": 290.0,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2608985635"
+    },
+    {
+      "source_id": "https://openalex.org/W2138990027",
+      "title": "Plant nutrition for sustainable development and global health",
+      "year": 2010,
+      "cited_by_count": 1157,
+      "adjusted_cited_by_count": 289.25,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2138990027"
+    },
+    {
+      "source_id": "https://openalex.org/W1998307303",
+      "title": "Root Structure and Functioning for Efficient Acquisition of Phosphorus: Matching Morphological and Physiological Traits",
+      "year": 2006,
+      "cited_by_count": 1285,
+      "adjusted_cited_by_count": 287.33,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W1998307303"
+    },
+    {
+      "source_id": "https://openalex.org/W2883666593",
+      "title": "The tropical forest carbon cycle and climate change",
+      "year": 2018,
+      "cited_by_count": 798,
+      "adjusted_cited_by_count": 282.14,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2883666593"
+    },
+    {
+      "source_id": "https://openalex.org/W2591685010",
+      "title": "Starch as a determinant of plant fitness under abiotic stress",
+      "year": 2017,
+      "cited_by_count": 845,
+      "adjusted_cited_by_count": 281.67,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2591685010"
+    },
+    {
+      "source_id": "https://openalex.org/W2788690958",
+      "title": "Evolutionary history resolves global organization of root functional traits",
+      "year": 2018,
+      "cited_by_count": 785,
+      "adjusted_cited_by_count": 277.54,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2788690958"
+    },
+    {
+      "source_id": "https://openalex.org/W2037090842",
+      "title": "Molecular Mechanism of Heavy Metal Toxicity and Tolerance in Plants: Central Role of Glutathione in Detoxification of Reactive Oxygen Species and Methylglyoxal and in Heavy Metal Chelation",
+      "year": 2012,
+      "cited_by_count": 1028,
+      "adjusted_cited_by_count": 274.74,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2037090842"
+    },
+    {
+      "source_id": "https://openalex.org/W2797182501",
+      "title": "Chilling and Drought Stresses in Crop Plants: Implications, Cross Talk, and Potential Management Opportunities",
+      "year": 2018,
+      "cited_by_count": 774,
+      "adjusted_cited_by_count": 273.65,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2797182501"
+    },
+    {
+      "source_id": "https://openalex.org/W2980746070",
+      "title": "The Crosstalks Between Jasmonic Acid and Other Plant Hormone Signaling Highlight the Involvement of Jasmonic Acid as a Core Component in Plant Response to Biotic and Abiotic Stresses",
+      "year": 2019,
+      "cited_by_count": 722,
+      "adjusted_cited_by_count": 272.89,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2980746070"
+    },
+    {
+      "source_id": "https://openalex.org/W2155430569",
+      "title": "Beyond species loss: the extinction of ecological interactions in a changing world",
+      "year": 2014,
+      "cited_by_count": 932,
+      "adjusted_cited_by_count": 269.05,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/botany/papers/W2155430569"
+    },
+    {
+      "source_id": "https://openalex.org/W3006687580",
+      "title": "Functions of Jasmonic Acid in Plant Regulation and Response to Abiotic Stress",
+      "year": 2020,
+      "cited_by_count": 654,
+      "adjusted_cited_by_count": 266.99,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W3006687580"
+    },
+    {
+      "source_id": "https://openalex.org/W1993138539",
+      "title": "Mycorrhiza-Induced Resistance and Priming of Plant Defenses",
+      "year": 2012,
+      "cited_by_count": 996,
+      "adjusted_cited_by_count": 266.19,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W1993138539"
+    },
+    {
+      "source_id": "https://openalex.org/W2999664260",
+      "title": "Informant Consensus: A New Approach for Identifying Potentially Effective Medicinal Plants",
+      "year": 2019,
+      "cited_by_count": 703,
+      "adjusted_cited_by_count": 265.71,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2999664260"
+    },
+    {
+      "source_id": "https://openalex.org/W1992614791",
+      "title": "Threats to mangroves from climate change and adaptation options: A review",
+      "year": 2008,
+      "cited_by_count": 1111,
+      "adjusted_cited_by_count": 261.87,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W1992614791"
+    },
+    {
+      "source_id": "https://openalex.org/W2155744938",
+      "title": "Regulation and function of ascorbate peroxidase isoenzymes",
+      "year": 2002,
+      "cited_by_count": 1277,
+      "adjusted_cited_by_count": 260.67,
+      "primary_topic_id": "sg-abiotic-stress",
+      "primary_topic_label": "Abiotic stress",
+      "url": "/domains/botany/papers/W2155744938"
+    },
+    {
+      "source_id": "https://openalex.org/W2945362263",
+      "title": "Ecology and Evolution of Plant Microbiomes",
+      "year": 2019,
+      "cited_by_count": 670,
+      "adjusted_cited_by_count": 253.24,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/botany/papers/W2945362263"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2162515800",
+      "title": "The plant immune system",
+      "year": 2006,
+      "cited_by_count": 12942,
+      "adjusted_cited_by_count": 2893.92,
+      "url": "/domains/botany/papers/W2162515800"
+    },
+    {
+      "source_id": "https://openalex.org/W2135011388",
+      "title": "Global pollinator declines: trends, impacts and drivers",
+      "year": 2010,
+      "cited_by_count": 6219,
+      "adjusted_cited_by_count": 1554.75,
+      "url": "/domains/botany/papers/W2135011388"
+    },
+    {
+      "source_id": "https://openalex.org/W2052821301",
+      "title": "Arabidopsis mesophyll protoplasts: a versatile cell system for transient gene expression analysis",
+      "year": 2007,
+      "cited_by_count": 5127,
+      "adjusted_cited_by_count": 1176.21,
+      "url": "/domains/botany/papers/W2052821301"
+    },
+    {
+      "source_id": "https://openalex.org/W4206185067",
+      "title": "Pakistan Journal of Botany",
+      "year": 2018,
+      "cited_by_count": 2106,
+      "adjusted_cited_by_count": 744.58,
+      "url": "/domains/botany/papers/W4206185067"
+    },
+    {
+      "source_id": "https://openalex.org/W2953705934",
+      "title": "Response of Phenylpropanoid Pathway and the Role of Polyphenols in Plants under Abiotic Stress",
+      "year": 2019,
+      "cited_by_count": 1855,
+      "adjusted_cited_by_count": 701.12,
+      "url": "/domains/botany/papers/W2953705934"
+    },
+    {
+      "source_id": "https://openalex.org/W2050018481",
+      "title": "Jasmonates: biosynthesis, perception, signal transduction and action in plant stress response, growth and development. An update to the 2007 review in Annals of Botany",
+      "year": 2013,
+      "cited_by_count": 2523,
+      "adjusted_cited_by_count": 699.75,
+      "url": "/domains/botany/papers/W2050018481"
+    },
+    {
+      "source_id": "https://openalex.org/W2337706971",
+      "title": "Plant hormone-mediated regulation of stress responses",
+      "year": 2016,
+      "cited_by_count": 2195,
+      "adjusted_cited_by_count": 694.12,
+      "url": "/domains/botany/papers/W2337706971"
+    },
+    {
+      "source_id": "https://openalex.org/W1640080484",
+      "title": "Responses of Plants to Environmental Stresses",
+      "year": 1973,
+      "cited_by_count": 4789,
+      "adjusted_cited_by_count": 657.82,
+      "url": "/domains/botany/papers/W1640080484"
+    },
+    {
+      "source_id": "https://openalex.org/W2125219010",
+      "title": "The Botany of Mangroves",
+      "year": 2016,
+      "cited_by_count": 1907,
+      "adjusted_cited_by_count": 603.05,
+      "url": "/domains/botany/papers/W2125219010"
+    },
+    {
+      "source_id": "https://openalex.org/W2978355872",
+      "title": "Soil microbiomes and climate change",
+      "year": 2019,
+      "cited_by_count": 1552,
+      "adjusted_cited_by_count": 586.6,
+      "url": "/domains/botany/papers/W2978355872"
+    },
+    {
+      "source_id": "https://openalex.org/W2113263681",
+      "title": "The habitat function of mangroves for terrestrial and marine fauna: A review",
+      "year": 2008,
+      "cited_by_count": 1534,
+      "adjusted_cited_by_count": 361.57,
+      "url": "/domains/botany/papers/W2113263681"
+    },
+    {
+      "source_id": "https://openalex.org/W3091303025",
+      "title": "Soil moisture dominates dryness stress on ecosystem production globally",
+      "year": 2020,
+      "cited_by_count": 880,
+      "adjusted_cited_by_count": 359.26,
+      "url": "/domains/botany/papers/W3091303025"
+    },
+    {
+      "source_id": "https://openalex.org/W2800549213",
+      "title": "A global perspective on carotenoids: Metabolism, biotechnology, and benefits for nutrition and health",
+      "year": 2018,
+      "cited_by_count": 1010,
+      "adjusted_cited_by_count": 357.09,
+      "url": "/domains/botany/papers/W2800549213"
+    },
+    {
+      "source_id": "https://openalex.org/W2120998920",
+      "title": "Emerging infectious diseases of plants: pathogen pollution, climate change and agrotechnology drivers",
+      "year": 2004,
+      "cited_by_count": 1660,
+      "adjusted_cited_by_count": 353.91,
+      "url": "/domains/botany/papers/W2120998920"
+    },
+    {
+      "source_id": "https://openalex.org/W2139526205",
+      "title": "A review of earthworm impact on soil function and ecosystem services",
+      "year": 2013,
+      "cited_by_count": 1241,
+      "adjusted_cited_by_count": 344.19,
+      "url": "/domains/botany/papers/W2139526205"
+    },
+    {
+      "source_id": "https://openalex.org/W2124354221",
+      "title": "Climate variability and vulnerability to climate change: a review",
+      "year": 2014,
+      "cited_by_count": 1171,
+      "adjusted_cited_by_count": 338.04,
+      "url": "/domains/botany/papers/W2124354221"
+    },
+    {
+      "source_id": "https://openalex.org/W2056554121",
+      "title": "Tolerance to drought and salt stress in plants: Unraveling the signaling networks",
+      "year": 2014,
+      "cited_by_count": 1147,
+      "adjusted_cited_by_count": 331.11,
+      "url": "/domains/botany/papers/W2056554121"
+    },
+    {
+      "source_id": "https://openalex.org/W2741961591",
+      "title": "The evolution of the host microbiome as an ecosystem on a leash",
+      "year": 2017,
+      "cited_by_count": 987,
+      "adjusted_cited_by_count": 329.0,
+      "url": "/domains/botany/papers/W2741961591"
+    },
+    {
+      "source_id": "https://openalex.org/W1582174288",
+      "title": "Trade-offs across Space, Time, and Ecosystem Services",
+      "year": 2006,
+      "cited_by_count": 1395,
+      "adjusted_cited_by_count": 311.93,
+      "url": "/domains/botany/papers/W1582174288"
+    },
+    {
+      "source_id": "https://openalex.org/W2884059031",
+      "title": "Global assessment of agricultural system redesign for sustainable intensification",
+      "year": 2018,
+      "cited_by_count": 874,
+      "adjusted_cited_by_count": 309.01,
+      "url": "/domains/botany/papers/W2884059031"
+    },
+    {
+      "source_id": "https://openalex.org/W4252021292",
+      "title": "TURKISH JOURNAL OF BOTANY",
+      "year": 2022,
+      "cited_by_count": 613,
+      "adjusted_cited_by_count": 306.5,
+      "url": "/domains/botany/papers/W4252021292"
+    },
+    {
+      "source_id": "https://openalex.org/W1964587468",
+      "title": "Genomics and the origin of species",
+      "year": 2014,
+      "cited_by_count": 1060,
+      "adjusted_cited_by_count": 306.0,
+      "url": "/domains/botany/papers/W1964587468"
+    },
+    {
+      "source_id": "https://openalex.org/W3093959671",
+      "title": "Root traits as drivers of plant and ecosystem functioning: current understanding, pitfalls and future research needs",
+      "year": 2020,
+      "cited_by_count": 720,
+      "adjusted_cited_by_count": 293.94,
+      "url": "/domains/botany/papers/W3093959671"
+    },
+    {
+      "source_id": "https://openalex.org/W2165182802",
+      "title": "Housekeeping gene selection for real-time RT-PCR normalization in potato during biotic and abiotic stress",
+      "year": 2005,
+      "cited_by_count": 1331,
+      "adjusted_cited_by_count": 290.45,
+      "url": "/domains/botany/papers/W2165182802"
+    },
+    {
+      "source_id": "https://openalex.org/W2608985635",
+      "title": "Ascorbic Acid-A Potential Oxidant Scavenger and Its Role in Plant Development and Abiotic Stress Tolerance",
+      "year": 2017,
+      "cited_by_count": 870,
+      "adjusted_cited_by_count": 290.0,
+      "url": "/domains/botany/papers/W2608985635"
+    },
+    {
+      "source_id": "https://openalex.org/W2138990027",
+      "title": "Plant nutrition for sustainable development and global health",
+      "year": 2010,
+      "cited_by_count": 1157,
+      "adjusted_cited_by_count": 289.25,
+      "url": "/domains/botany/papers/W2138990027"
+    },
+    {
+      "source_id": "https://openalex.org/W1998307303",
+      "title": "Root Structure and Functioning for Efficient Acquisition of Phosphorus: Matching Morphological and Physiological Traits",
+      "year": 2006,
+      "cited_by_count": 1285,
+      "adjusted_cited_by_count": 287.33,
+      "url": "/domains/botany/papers/W1998307303"
+    },
+    {
+      "source_id": "https://openalex.org/W2883666593",
+      "title": "The tropical forest carbon cycle and climate change",
+      "year": 2018,
+      "cited_by_count": 798,
+      "adjusted_cited_by_count": 282.14,
+      "url": "/domains/botany/papers/W2883666593"
+    },
+    {
+      "source_id": "https://openalex.org/W2591685010",
+      "title": "Starch as a determinant of plant fitness under abiotic stress",
+      "year": 2017,
+      "cited_by_count": 845,
+      "adjusted_cited_by_count": 281.67,
+      "url": "/domains/botany/papers/W2591685010"
+    },
+    {
+      "source_id": "https://openalex.org/W2788690958",
+      "title": "Evolutionary history resolves global organization of root functional traits",
+      "year": 2018,
+      "cited_by_count": 785,
+      "adjusted_cited_by_count": 277.54,
+      "url": "/domains/botany/papers/W2788690958"
+    },
+    {
+      "source_id": "https://openalex.org/W2037090842",
+      "title": "Molecular Mechanism of Heavy Metal Toxicity and Tolerance in Plants: Central Role of Glutathione in Detoxification of Reactive Oxygen Species and Methylglyoxal and in Heavy Metal Chelation",
+      "year": 2012,
+      "cited_by_count": 1028,
+      "adjusted_cited_by_count": 274.74,
+      "url": "/domains/botany/papers/W2037090842"
+    },
+    {
+      "source_id": "https://openalex.org/W2797182501",
+      "title": "Chilling and Drought Stresses in Crop Plants: Implications, Cross Talk, and Potential Management Opportunities",
+      "year": 2018,
+      "cited_by_count": 774,
+      "adjusted_cited_by_count": 273.65,
+      "url": "/domains/botany/papers/W2797182501"
+    },
+    {
+      "source_id": "https://openalex.org/W2980746070",
+      "title": "The Crosstalks Between Jasmonic Acid and Other Plant Hormone Signaling Highlight the Involvement of Jasmonic Acid as a Core Component in Plant Response to Biotic and Abiotic Stresses",
+      "year": 2019,
+      "cited_by_count": 722,
+      "adjusted_cited_by_count": 272.89,
+      "url": "/domains/botany/papers/W2980746070"
+    },
+    {
+      "source_id": "https://openalex.org/W2155430569",
+      "title": "Beyond species loss: the extinction of ecological interactions in a changing world",
+      "year": 2014,
+      "cited_by_count": 932,
+      "adjusted_cited_by_count": 269.05,
+      "url": "/domains/botany/papers/W2155430569"
+    },
+    {
+      "source_id": "https://openalex.org/W3006687580",
+      "title": "Functions of Jasmonic Acid in Plant Regulation and Response to Abiotic Stress",
+      "year": 2020,
+      "cited_by_count": 654,
+      "adjusted_cited_by_count": 266.99,
+      "url": "/domains/botany/papers/W3006687580"
+    },
+    {
+      "source_id": "https://openalex.org/W1993138539",
+      "title": "Mycorrhiza-Induced Resistance and Priming of Plant Defenses",
+      "year": 2012,
+      "cited_by_count": 996,
+      "adjusted_cited_by_count": 266.19,
+      "url": "/domains/botany/papers/W1993138539"
+    },
+    {
+      "source_id": "https://openalex.org/W2999664260",
+      "title": "Informant Consensus: A New Approach for Identifying Potentially Effective Medicinal Plants",
+      "year": 2019,
+      "cited_by_count": 703,
+      "adjusted_cited_by_count": 265.71,
+      "url": "/domains/botany/papers/W2999664260"
+    },
+    {
+      "source_id": "https://openalex.org/W1992614791",
+      "title": "Threats to mangroves from climate change and adaptation options: A review",
+      "year": 2008,
+      "cited_by_count": 1111,
+      "adjusted_cited_by_count": 261.87,
+      "url": "/domains/botany/papers/W1992614791"
+    },
+    {
+      "source_id": "https://openalex.org/W2155744938",
+      "title": "Regulation and function of ascorbate peroxidase isoenzymes",
+      "year": 2002,
+      "cited_by_count": 1277,
+      "adjusted_cited_by_count": 260.67,
+      "url": "/domains/botany/papers/W2155744938"
+    },
+    {
+      "source_id": "https://openalex.org/W2945362263",
+      "title": "Ecology and Evolution of Plant Microbiomes",
+      "year": 2019,
+      "cited_by_count": 670,
+      "adjusted_cited_by_count": 253.24,
+      "url": "/domains/botany/papers/W2945362263"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "biology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 124
+    },
+    {
+      "label": "plant",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 74
+    },
+    {
+      "label": "botany",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "plants",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 47
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "stress",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "under",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "of plant",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 35
+    },
+    {
+      "label": "growth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 33
+    },
+    {
+      "label": "in plant",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 32
+    },
+    {
+      "label": "abiotic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "abiotic stress",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "biochemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "development",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 29
+    },
+    {
+      "label": "biotic stress",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 27
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "such",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 26
+    },
+    {
+      "label": "responses",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "role",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 25
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 24
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 24
+    },
+    {
+      "label": "stresses",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 24
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 24
+    },
+    {
+      "label": "which",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 24
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 23
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 23
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 44
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9889,
+      "evidence_count": 25
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 21
+    },
+    {
+      "label": "plant growth",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 21
+    },
+    {
+      "label": "cell biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 20
+    },
+    {
+      "label": "tolerance",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9881,
+      "evidence_count": 20
+    },
+    {
+      "label": "cell",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 24
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 20
+    },
+    {
+      "label": "abiotic component",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 19
+    },
+    {
+      "label": "effects of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 18
+    },
+    {
+      "label": "growth and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9873,
+      "evidence_count": 18
+    },
+    {
+      "label": "evolution",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9869,
+      "evidence_count": 17
+    },
+    {
+      "label": "in plants",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 16
+    },
+    {
+      "label": "evolutionary biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 15
+    },
+    {
+      "label": "regulation of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 15
+    },
+    {
+      "label": "role of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9856,
+      "evidence_count": 14
+    },
+    {
+      "label": "on plant",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 13
+    },
+    {
+      "label": "oxygen species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9852,
+      "evidence_count": 13
+    }
+  ],
+  "topic_year_counts": {
+    "evolutionary biology": {
+      "2023": 88751,
+      "2024": 81788,
+      "2025": 77203,
+      "2022": 60644,
+      "2021": 58829,
+      "2020": 56651,
+      "2019": 47717,
+      "2018": 43475,
+      "2017": 40935,
+      "2016": 36679,
+      "2015": 34267,
+      "2014": 32427,
+      "2013": 29552,
+      "2012": 26276,
+      "2026": 23685,
+      "2011": 22550,
+      "2010": 19025,
+      "2009": 16595,
+      "2008": 13944,
+      "2007": 11804,
+      "2006": 10050,
+      "2005": 8148,
+      "2004": 7382,
+      "2003": 6096,
+      "2002": 5251,
+      "2001": 4728,
+      "2000": 4622
+    },
+    "reactive oxygen species": {
+      "2023": 135692,
+      "2025": 133315,
+      "2024": 131632,
+      "2022": 96646,
+      "2021": 86488,
+      "2020": 77382,
+      "2019": 63658,
+      "2018": 57069,
+      "2017": 52922,
+      "2016": 47309,
+      "2015": 43018,
+      "2026": 41128,
+      "2014": 40572,
+      "2013": 36380,
+      "2012": 32675,
+      "2011": 27020,
+      "2010": 23019,
+      "2009": 19621,
+      "2008": 16492,
+      "2007": 14254,
+      "2006": 12493,
+      "2005": 11349,
+      "2004": 9931,
+      "2003": 8641,
+      "2002": 6965,
+      "2001": 5989,
+      "2000": 5613
+    },
+    "stress tolerance": {
+      "2025": 138841,
+      "2023": 127307,
+      "2024": 125901,
+      "2022": 89767,
+      "2021": 82760,
+      "2020": 75194,
+      "2019": 62519,
+      "2018": 54788,
+      "2017": 50551,
+      "2026": 46295,
+      "2016": 45929,
+      "2015": 42057,
+      "2014": 38483,
+      "2013": 34827,
+      "2012": 30496,
+      "2011": 25274,
+      "2010": 21401,
+      "2009": 18672,
+      "2008": 15335,
+      "2007": 13021,
+      "2006": 11742,
+      "2005": 10386,
+      "2004": 9201,
+      "2003": 7200,
+      "2000": 6213,
+      "2002": 6014,
+      "2001": 5730
+    },
+    "abiotic stress": {
+      "2025": 45814,
+      "2023": 44889,
+      "2024": 42805,
+      "2022": 32467,
+      "2021": 28996,
+      "2020": 25995,
+      "2019": 21038,
+      "2018": 17375,
+      "2017": 16008,
+      "2016": 14316,
+      "2026": 13061,
+      "2015": 12143,
+      "2014": 10761,
+      "2013": 9546,
+      "2012": 7961,
+      "2011": 6316,
+      "2010": 4937,
+      "2009": 4341,
+      "2008": 3519,
+      "2007": 2897,
+      "2006": 2680,
+      "2005": 2327,
+      "2004": 1635,
+      "2003": 1282,
+      "2000": 1113,
+      "2002": 1098,
+      "2001": 981
+    }
+  }
+}

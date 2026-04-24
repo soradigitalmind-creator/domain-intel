@@ -1,0 +1,2374 @@
+{
+  "slug": "criminology",
+  "title": "Criminology",
+  "updated_at": "2026-04-24T11:36:30.626223Z",
+  "snapshot": {
+    "papers": 197,
+    "topics": 10,
+    "subtopics": 35,
+    "entities": 378,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 232,
+      "total_papers": 232,
+      "facet_counts": {
+        "none": 232
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning cultural criminology, wildlife conservation and criminology analyses.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 10,
+    "descendant_topics": 35,
+    "max_depth": 2,
+    "leaf_topics": 35
+  },
+  "rising_topics": [
+    {
+      "id": "sg-criminal-justice",
+      "label": "Criminal justice",
+      "url": "/domains/criminology/topics/sg-criminal-justice",
+      "trend": "rising",
+      "year_total": 600313
+    },
+    {
+      "id": "sg-green-criminology",
+      "label": "Green criminology",
+      "url": "/domains/criminology/topics/sg-green-criminology",
+      "trend": "rising",
+      "year_total": 29288
+    },
+    {
+      "id": "sg-criminal-behavior",
+      "label": "Criminal behavior",
+      "url": "/domains/criminology/topics/sg-criminal-behavior",
+      "trend": "rising",
+      "year_total": 424697
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-criminal-justice",
+      "label": "Criminal justice",
+      "url": "/domains/criminology/topics/sg-criminal-justice",
+      "paper_count": 59,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: criminology, criminal justice, criminal",
+      "tags": [
+        "criminal justice",
+        "criminology crime",
+        "criminology criminal",
+        "criminology criminal justice"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-criminal-justice-crime-illicit-activity-governance",
+          "label": "Crime, illicit activity, governance",
+          "url": "/domains/criminology/topics/sg-criminal-justice-crime-illicit-activity-governance",
+          "paper_count": 50
+        },
+        {
+          "id": "sg-criminal-justice-homelessness-social-issues",
+          "label": "Homelessness social issues",
+          "url": "/domains/criminology/topics/sg-criminal-justice-homelessness-social-issues",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-criminal-justice-life-course-approach",
+          "label": "Life course approach",
+          "url": "/domains/criminology/topics/sg-criminal-justice-life-course-approach",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-criminal-justice-mass-incarceration",
+          "label": "Mass incarceration",
+          "url": "/domains/criminology/topics/sg-criminal-justice-mass-incarceration",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-criminal-justice-hate-crime",
+          "label": "Hate crime",
+          "url": "/domains/criminology/topics/sg-criminal-justice-hate-crime",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-criminal-justice-public-administration",
+          "label": "Public administration",
+          "url": "/domains/criminology/topics/sg-criminal-justice-public-administration",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2599025709",
+          "title": "Fairness in Criminal Justice Risk Assessments: The State of the Art",
+          "year": "2018",
+          "cited_by_count": 981,
+          "url": "/domains/criminology/papers/W2599025709"
+        },
+        {
+          "source_id": "https://openalex.org/W2096517822",
+          "title": "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
+          "year": "2006",
+          "cited_by_count": 1263,
+          "url": "/domains/criminology/papers/W2096517822"
+        },
+        {
+          "source_id": "https://openalex.org/W2056611729",
+          "title": "Government and Control",
+          "year": "2000",
+          "cited_by_count": 1161,
+          "url": "/domains/criminology/papers/W2056611729"
+        }
+      ]
+    },
+    {
+      "id": "sg-green-criminology",
+      "label": "Green criminology",
+      "url": "/domains/criminology/topics/sg-green-criminology",
+      "paper_count": 31,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: criminology, wildlife conservation and criminology analyses, crime",
+      "tags": [
+        "criminology crime",
+        "criminology criminal",
+        "environmental crime",
+        "environmental criminology crime"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-green-criminology-environmental-crime",
+          "label": "Environmental crime",
+          "url": "/domains/criminology/topics/sg-green-criminology-environmental-crime",
+          "paper_count": 21
+        },
+        {
+          "id": "sg-green-criminology-economic-justice",
+          "label": "Economic justice",
+          "url": "/domains/criminology/topics/sg-green-criminology-economic-justice",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-green-criminology-environmental-ethics",
+          "label": "Environmental ethics",
+          "url": "/domains/criminology/topics/sg-green-criminology-environmental-ethics",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1543166941",
+          "title": "The Oxford Handbook of Criminology",
+          "year": "2017",
+          "cited_by_count": 1344,
+          "url": "/domains/criminology/papers/W1543166941"
+        },
+        {
+          "source_id": "https://openalex.org/W2738319541",
+          "title": "The Oxford Handbook of Criminology",
+          "year": "2023",
+          "cited_by_count": 688,
+          "url": "/domains/criminology/papers/W2738319541"
+        },
+        {
+          "source_id": "https://openalex.org/W2795690649",
+          "title": "Principles of Criminology.",
+          "year": "1947",
+          "cited_by_count": 1898,
+          "url": "/domains/criminology/papers/W2795690649"
+        }
+      ]
+    },
+    {
+      "id": "sg-criminal-behavior",
+      "label": "Criminal behavior",
+      "url": "/domains/criminology/topics/sg-criminal-behavior",
+      "paper_count": 23,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: criminology, behavior, criminal",
+      "tags": [
+        "criminal behavior",
+        "criminal behaviour",
+        "life-course criminology",
+        "psychology of criminal"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-criminal-behavior-criminal-behaviour",
+          "label": "Criminal behaviour",
+          "url": "/domains/criminology/topics/sg-criminal-behavior-criminal-behaviour",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-criminal-behavior-injury-prevention",
+          "label": "Injury prevention",
+          "url": "/domains/criminology/topics/sg-criminal-behavior-injury-prevention",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-criminal-behavior-antisocial-personality-disorder",
+          "label": "Antisocial personality disorder",
+          "url": "/domains/criminology/topics/sg-criminal-behavior-antisocial-personality-disorder",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-criminal-behavior-lead-exposure",
+          "label": "Lead exposure",
+          "url": "/domains/criminology/topics/sg-criminal-behavior-lead-exposure",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-criminal-behavior-criminal-psychology",
+          "label": "Criminal psychology",
+          "url": "/domains/criminology/topics/sg-criminal-behavior-criminal-psychology",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4300568187",
+          "title": "The Psychology of Criminal Conduct",
+          "year": "2016",
+          "cited_by_count": 2094,
+          "url": "/domains/criminology/papers/W4300568187"
+        },
+        {
+          "source_id": "https://openalex.org/W4301323149",
+          "title": "The Psychology of Criminal Conduct",
+          "year": "2014",
+          "cited_by_count": 651,
+          "url": "/domains/criminology/papers/W4301323149"
+        },
+        {
+          "source_id": "https://openalex.org/W2055586316",
+          "title": "Developmental Theories of Crime and Delinquency",
+          "year": "1997",
+          "cited_by_count": 781,
+          "url": "/domains/criminology/papers/W2055586316"
+        }
+      ]
+    },
+    {
+      "id": "sg-criminology-crime",
+      "label": "Criminology crime",
+      "url": "/domains/criminology/topics/sg-criminology-crime",
+      "paper_count": 19,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: criminology, crime patterns and interventions, journal",
+      "tags": [
+        "criminology crime",
+        "environmental criminology crime",
+        "fear of crime"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-criminology-crime-built-environment",
+          "label": "Built environment",
+          "url": "/domains/criminology/topics/sg-criminology-crime-built-environment",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-criminology-crime-negative-binomial-distribution",
+          "label": "Negative binomial distribution",
+          "url": "/domains/criminology/topics/sg-criminology-crime-negative-binomial-distribution",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-criminology-crime-poison-control",
+          "label": "Poison control",
+          "url": "/domains/criminology/topics/sg-criminology-crime-poison-control",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-criminology-crime-risk-perception",
+          "label": "Risk perception",
+          "url": "/domains/criminology/topics/sg-criminology-crime-risk-perception",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2904819910",
+          "title": "The British Journal of Criminology",
+          "year": "2017",
+          "cited_by_count": 1956,
+          "url": "/domains/criminology/papers/W2904819910"
+        },
+        {
+          "source_id": "https://openalex.org/W4250509384",
+          "title": "“Situational” Crime Prevention: Theory and Practice",
+          "year": "2017",
+          "cited_by_count": 459,
+          "url": "/domains/criminology/papers/W4250509384"
+        },
+        {
+          "source_id": "https://openalex.org/W2049649520",
+          "title": "Crime, fear of crime, environment, and mental health and wellbeing: Mapping review of theories and causal pathways",
+          "year": "2012",
+          "cited_by_count": 514,
+          "url": "/domains/criminology/papers/W2049649520"
+        }
+      ]
+    },
+    {
+      "id": "sg-social-control",
+      "label": "Social control",
+      "url": "/domains/criminology/topics/sg-social-control",
+      "paper_count": 18,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: criminology, crime patterns and interventions, social",
+      "tags": [
+        "collective efficacy",
+        "criminology presidential address",
+        "informal social control",
+        "social control"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-social-control-social-capital",
+          "label": "Social capital",
+          "url": "/domains/criminology/topics/sg-social-control-social-capital",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-social-control-spurious-relationship",
+          "label": "Spurious relationship",
+          "url": "/domains/criminology/topics/sg-social-control-spurious-relationship",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-social-control-poison-control",
+          "label": "Poison control",
+          "url": "/domains/criminology/topics/sg-social-control-poison-control",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-social-control-sexual-assault",
+          "label": "Sexual assault",
+          "url": "/domains/criminology/topics/sg-social-control-sexual-assault",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2153492338",
+          "title": "Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods",
+          "year": "1999",
+          "cited_by_count": 2459,
+          "url": "/domains/criminology/papers/W2153492338"
+        },
+        {
+          "source_id": "https://openalex.org/W2899193847",
+          "title": "LOCKING UP OUR OWN: CRIME AND PUNISHMENT IN BLACK AMERICA",
+          "year": "2018",
+          "cited_by_count": 521,
+          "url": "/domains/criminology/papers/W2899193847"
+        },
+        {
+          "source_id": "https://openalex.org/W2143592833",
+          "title": "Social support as an organizing concept for criminology: Presidential address to the academy of criminal justice sciences",
+          "year": "1994",
+          "cited_by_count": 781,
+          "url": "/domains/criminology/papers/W2143592833"
+        }
+      ]
+    },
+    {
+      "id": "sg-criminology-what",
+      "label": "Criminology what",
+      "url": "/domains/criminology/topics/sg-criminology-what",
+      "paper_count": 13,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: crime patterns and interventions, criminology, crime",
+      "tags": [
+        "crime prevention",
+        "criminology crime",
+        "criminology what",
+        "criminology what we"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-criminology-what-situational-ethics",
+          "label": "Situational ethics",
+          "url": "/domains/criminology/topics/sg-criminology-what-situational-ethics",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-criminology-what-randomized-experiment",
+          "label": "Randomized experiment",
+          "url": "/domains/criminology/topics/sg-criminology-what-randomized-experiment",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2160364513",
+          "title": "Crime Prevention Through Environmental Design",
+          "year": "2013",
+          "cited_by_count": 701,
+          "url": "/domains/criminology/papers/W2160364513"
+        },
+        {
+          "source_id": "https://openalex.org/W1495447218",
+          "title": "Legitimacy and Cooperation: Why Do People Help the Police Fight Crime in Their Communities?",
+          "year": "2006",
+          "cited_by_count": 814,
+          "url": "/domains/criminology/papers/W1495447218"
+        },
+        {
+          "source_id": "https://openalex.org/W2109289162",
+          "title": "Is the Magic Still There? The Use of the Heckman Two-Step Correction for Selection Bias in Criminology",
+          "year": "2007",
+          "cited_by_count": 602,
+          "url": "/domains/criminology/papers/W2109289162"
+        }
+      ]
+    },
+    {
+      "id": "sg-juvenile-delinquency",
+      "label": "Juvenile delinquency",
+      "url": "/domains/criminology/topics/sg-juvenile-delinquency",
+      "paper_count": 13,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: criminology, juvenile delinquency, use",
+      "tags": [
+        "criminology what",
+        "criminology what we",
+        "developmental criminology",
+        "differential association"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-juvenile-delinquency-social-learning",
+          "label": "Social learning",
+          "url": "/domains/criminology/topics/sg-juvenile-delinquency-social-learning",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-juvenile-delinquency-criminal-law",
+          "label": "Criminal law",
+          "url": "/domains/criminology/topics/sg-juvenile-delinquency-criminal-law",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-juvenile-delinquency-social-learning-theory",
+          "label": "Social learning theory",
+          "url": "/domains/criminology/topics/sg-juvenile-delinquency-social-learning-theory",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-juvenile-delinquency-differential-association-theory",
+          "label": "Differential association theory",
+          "url": "/domains/criminology/topics/sg-juvenile-delinquency-differential-association-theory",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-juvenile-delinquency-human-service",
+          "label": "Human service",
+          "url": "/domains/criminology/topics/sg-juvenile-delinquency-human-service",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2120588679",
+          "title": "Social learning and social structure: a general theory of crime and deviance",
+          "year": "1998",
+          "cited_by_count": 1655,
+          "url": "/domains/criminology/papers/W2120588679"
+        },
+        {
+          "source_id": "https://openalex.org/W1495509648",
+          "title": "Are There Multiple Paths to Delinquency?",
+          "year": "1991",
+          "cited_by_count": 661,
+          "url": "/domains/criminology/papers/W1495509648"
+        },
+        {
+          "source_id": "https://openalex.org/W1054986484",
+          "title": "Risk factors for persistent delinquent behavior among juveniles: A meta-analytic review",
+          "year": "2015",
+          "cited_by_count": 316,
+          "url": "/domains/criminology/papers/W1054986484"
+        }
+      ]
+    },
+    {
+      "id": "sg-crime-analysis",
+      "label": "Crime analysis",
+      "url": "/domains/criminology/topics/sg-crime-analysis",
+      "paper_count": 10,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: criminology, crime, crime analysis",
+      "tags": [
+        "crime analysis",
+        "crime concentration criminology",
+        "criminology crime",
+        "criminology of place"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-crime-analysis-risk-terrain-modeling",
+          "label": "Risk terrain modeling",
+          "url": "/domains/criminology/topics/sg-crime-analysis-risk-terrain-modeling",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-crime-analysis-point-pattern",
+          "label": "Point pattern",
+          "url": "/domains/criminology/topics/sg-crime-analysis-point-pattern",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2021204860",
+          "title": "HOT SPOTS OF PREDATORY CRIME: ROUTINE ACTIVITIES AND THE CRIMINOLOGY OF PLACE*",
+          "year": "1989",
+          "cited_by_count": 2047,
+          "url": "/domains/criminology/papers/W2021204860"
+        },
+        {
+          "source_id": "https://openalex.org/W1479955723",
+          "title": "THE LAW OF CRIME CONCENTRATION AND THE CRIMINOLOGY OF PLACE*",
+          "year": "2015",
+          "cited_by_count": 957,
+          "url": "/domains/criminology/papers/W1479955723"
+        },
+        {
+          "source_id": "https://openalex.org/W4236085280",
+          "title": "The Criminology of Place",
+          "year": "2012",
+          "cited_by_count": 646,
+          "url": "/domains/criminology/papers/W4236085280"
+        }
+      ]
+    },
+    {
+      "id": "sg-criminology-critique",
+      "label": "Criminology critique",
+      "url": "/domains/criminology/topics/sg-criminology-critique",
+      "paper_count": 7,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: theory, criminological, criminological theory",
+      "tags": [
+        "counter-colonial criminology critique",
+        "criminological theory",
+        "criminology critique"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-criminology-critique-social-support",
+          "label": "Social support",
+          "url": "/domains/criminology/topics/sg-criminology-critique-social-support",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-criminology-critique-rational-choice",
+          "label": "Rational choice",
+          "url": "/domains/criminology/topics/sg-criminology-critique-rational-choice",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2007542374",
+          "title": "Enduring Individual Differences and Rational Choice Theories of Crime",
+          "year": "1993",
+          "cited_by_count": 751,
+          "url": "/domains/criminology/papers/W2007542374"
+        },
+        {
+          "source_id": "https://openalex.org/W2182495886",
+          "title": "Criminological Theory: Past to Present",
+          "year": "2017",
+          "cited_by_count": 314,
+          "url": "/domains/criminology/papers/W2182495886"
+        },
+        {
+          "source_id": "https://openalex.org/W3093764022",
+          "title": "Family violence against children in the wake of COVID-19 pandemic: a review of current perspectives and risk factors",
+          "year": "2020",
+          "cited_by_count": 243,
+          "url": "/domains/criminology/papers/W3093764022"
+        }
+      ]
+    },
+    {
+      "id": "sg-cultural-criminology",
+      "label": "Cultural criminology",
+      "url": "/domains/criminology/topics/sg-cultural-criminology",
+      "paper_count": 4,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: criminology, cultural, cultural criminology",
+      "tags": [
+        "crime concentration criminology",
+        "criminology carnival",
+        "criminology invitation",
+        "criminology of place"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-cultural-criminology-law-in-society-culture",
+          "label": "Law in society culture",
+          "url": "/domains/criminology/topics/sg-cultural-criminology-law-in-society-culture",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4299782905",
+          "title": "Cultural Criminology: An Invitation",
+          "year": "2015",
+          "cited_by_count": 454,
+          "url": "/domains/criminology/papers/W4299782905"
+        },
+        {
+          "source_id": "https://openalex.org/W606298991",
+          "title": "Cultural Criminology and the Carnival of Crime",
+          "year": "2003",
+          "cited_by_count": 489,
+          "url": "/domains/criminology/papers/W606298991"
+        },
+        {
+          "source_id": "https://openalex.org/W1558446426",
+          "title": "Cultural Criminology: An Invitation",
+          "year": "2015",
+          "cited_by_count": 268,
+          "url": "/domains/criminology/papers/W1558446426"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Substance abuse",
+      "paper_count": 9,
+      "papers": [
+        {
+          "title": "Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2018",
+          "cited_by_count": 3529,
+          "topic": "Substance abuse",
+          "url": "papers/https-openalex-org-w2889517514.html"
+        },
+        {
+          "title": "Green space as a buffer between stressful life events and health",
+          "year": "2010",
+          "cited_by_count": 1121,
+          "topic": "Substance abuse",
+          "url": "papers/https-openalex-org-w2166237669.html"
+        },
+        {
+          "title": "Global, regional, and national under-5 mortality, adult mortality, age-specific mortality, and life expectancy, 1970–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "year": "2017",
+          "cited_by_count": 828,
+          "topic": "Substance abuse",
+          "url": "papers/https-openalex-org-w2743318307.html"
+        },
+        {
+          "title": "Five insights from the Global Burden of Disease Study 2019",
+          "year": "2020",
+          "cited_by_count": 675,
+          "topic": "Substance abuse",
+          "url": "papers/https-openalex-org-w3093350281.html"
+        },
+        {
+          "title": "Global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2017, and forecasts to 2030, for 195 countries and territories: a systematic analysis for the Global Burden of Diseases, Injuries, and Risk Factors Study 2017",
+          "year": "2019",
+          "cited_by_count": 583,
+          "topic": "Substance abuse",
+          "url": "papers/https-openalex-org-w2969635519.html"
+        },
+        {
+          "title": "Global, regional, and national progress towards Sustainable Development Goal 3.2 for neonatal and child health: all-cause and cause-specific mortality findings from the Global Burden of Disease Study 2019",
+          "year": "2021",
+          "cited_by_count": 463,
+          "topic": "Substance abuse",
+          "url": "papers/https-openalex-org-w3194309324.html"
+        }
+      ]
+    },
+    {
+      "label": "Criminal justice",
+      "paper_count": 7,
+      "papers": [
+        {
+          "title": "Fairness in Criminal Justice Risk Assessments: The State of the Art",
+          "year": "2018",
+          "cited_by_count": 981,
+          "topic": "Criminal justice",
+          "url": "papers/https-openalex-org-w2599025709.html"
+        },
+        {
+          "title": "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
+          "year": "2006",
+          "cited_by_count": 1263,
+          "topic": "Criminal justice",
+          "url": "papers/https-openalex-org-w2096517822.html"
+        },
+        {
+          "title": "Government and Control",
+          "year": "2000",
+          "cited_by_count": 1161,
+          "topic": "Criminal justice",
+          "url": "papers/https-openalex-org-w2056611729.html"
+        },
+        {
+          "title": "Criminological Theories: Introduction, Evaluation and Application",
+          "year": "2000",
+          "cited_by_count": 1030,
+          "topic": "Criminal justice",
+          "url": "papers/https-openalex-org-w2030538258.html"
+        },
+        {
+          "title": "CONFLICTS AS PROPERTY*",
+          "year": "1977",
+          "cited_by_count": 1055,
+          "topic": "Criminal justice",
+          "url": "papers/https-openalex-org-w2189405970.html"
+        },
+        {
+          "title": "Crime as Social Control",
+          "year": "1983",
+          "cited_by_count": 965,
+          "topic": "Criminal justice",
+          "url": "papers/https-openalex-org-w2580132710.html"
+        }
+      ]
+    },
+    {
+      "label": "Green criminology",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The Oxford Handbook of Criminology",
+          "year": "2017",
+          "cited_by_count": 1344,
+          "topic": "Green criminology",
+          "url": "papers/https-openalex-org-w1543166941.html"
+        },
+        {
+          "title": "The Oxford Handbook of Criminology",
+          "year": "2023",
+          "cited_by_count": 688,
+          "topic": "Green criminology",
+          "url": "papers/https-openalex-org-w2738319541.html"
+        },
+        {
+          "title": "Principles of Criminology.",
+          "year": "1947",
+          "cited_by_count": 1898,
+          "topic": "Green criminology",
+          "url": "papers/https-openalex-org-w2795690649.html"
+        },
+        {
+          "title": "Principles of Criminology",
+          "year": "1955",
+          "cited_by_count": 1328,
+          "topic": "Green criminology",
+          "url": "papers/https-openalex-org-w1980132394.html"
+        }
+      ]
+    },
+    {
+      "label": "Crime analysis",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "HOT SPOTS OF PREDATORY CRIME: ROUTINE ACTIVITIES AND THE CRIMINOLOGY OF PLACE*",
+          "year": "1989",
+          "cited_by_count": 2047,
+          "topic": "Crime analysis",
+          "url": "papers/https-openalex-org-w2021204860.html"
+        },
+        {
+          "title": "THE LAW OF CRIME CONCENTRATION AND THE CRIMINOLOGY OF PLACE*",
+          "year": "2015",
+          "cited_by_count": 957,
+          "topic": "Crime analysis",
+          "url": "papers/https-openalex-org-w1479955723.html"
+        },
+        {
+          "title": "The Criminology of Place",
+          "year": "2012",
+          "cited_by_count": 646,
+          "topic": "Crime analysis",
+          "url": "papers/https-openalex-org-w4236085280.html"
+        }
+      ]
+    },
+    {
+      "label": "Criminal behavior",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "The Psychology of Criminal Conduct",
+          "year": "2016",
+          "cited_by_count": 2094,
+          "topic": "Criminal behavior",
+          "url": "papers/https-openalex-org-w4300568187.html"
+        },
+        {
+          "title": "The Psychology of Criminal Conduct",
+          "year": "2014",
+          "cited_by_count": 651,
+          "topic": "Criminal behavior",
+          "url": "papers/https-openalex-org-w4301323149.html"
+        },
+        {
+          "title": "Developmental Theories of Crime and Delinquency",
+          "year": "1997",
+          "cited_by_count": 781,
+          "topic": "Criminal behavior",
+          "url": "papers/https-openalex-org-w2055586316.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Preventive strategies for mental health",
+          "year": "2018",
+          "cited_by_count": 693,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2803929909.html"
+        },
+        {
+          "title": "Violence a global public health problem",
+          "year": "2006",
+          "cited_by_count": 737,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2129524335.html"
+        },
+        {
+          "title": "Environmental criminology",
+          "year": "1982",
+          "cited_by_count": 975,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w222325065.html"
+        }
+      ]
+    },
+    {
+      "label": "Antisocial personality disorder",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Non-compliance with COVID-19-related public health measures among young adults in Switzerland: Insights from a longitudinal cohort study",
+          "year": "2020",
+          "cited_by_count": 615,
+          "topic": "Antisocial personality disorder",
+          "url": "papers/https-openalex-org-w3086421641.html"
+        },
+        {
+          "title": "Violence against women and mental health",
+          "year": "2016",
+          "cited_by_count": 456,
+          "topic": "Antisocial personality disorder",
+          "url": "papers/https-openalex-org-w2520884179.html"
+        }
+      ]
+    },
+    {
+      "label": "Criminology crime",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The British Journal of Criminology",
+          "year": "2017",
+          "cited_by_count": 1956,
+          "topic": "Criminology crime",
+          "url": "papers/https-openalex-org-w2904819910.html"
+        },
+        {
+          "title": "“Situational” Crime Prevention: Theory and Practice",
+          "year": "2017",
+          "cited_by_count": 459,
+          "topic": "Criminology crime",
+          "url": "papers/https-openalex-org-w4250509384.html"
+        }
+      ]
+    },
+    {
+      "label": "Hate crime",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Anti-Asian Hate Crime During the COVID-19 Pandemic: Exploring the Reproduction of Inequality",
+          "year": "2020",
+          "cited_by_count": 858,
+          "topic": "Hate crime",
+          "url": "papers/https-openalex-org-w3041501620.html"
+        },
+        {
+          "title": "Emotional distress in young adults during the COVID-19 pandemic: evidence of risk and resilience from a longitudinal cohort study",
+          "year": "2020",
+          "cited_by_count": 690,
+          "topic": "Hate crime",
+          "url": "papers/https-openalex-org-w3036964275.html"
+        }
+      ]
+    },
+    {
+      "label": "Social control",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods",
+          "year": "1999",
+          "cited_by_count": 2459,
+          "topic": "Social control",
+          "url": "papers/https-openalex-org-w2153492338.html"
+        },
+        {
+          "title": "LOCKING UP OUR OWN: CRIME AND PUNISHMENT IN BLACK AMERICA",
+          "year": "2018",
+          "cited_by_count": 521,
+          "topic": "Social control",
+          "url": "papers/https-openalex-org-w2899193847.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2889517514",
+      "title": "Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2018,
+      "cited_by_count": 3529,
+      "adjusted_cited_by_count": 1247.69,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2889517514"
+    },
+    {
+      "source_id": "https://openalex.org/W4300568187",
+      "title": "The Psychology of Criminal Conduct",
+      "year": 2016,
+      "cited_by_count": 2094,
+      "adjusted_cited_by_count": 662.18,
+      "primary_topic_id": "sg-criminal-behavior",
+      "primary_topic_label": "Criminal behavior",
+      "url": "/domains/criminology/papers/W4300568187"
+    },
+    {
+      "source_id": "https://openalex.org/W2904819910",
+      "title": "The British Journal of Criminology",
+      "year": 2017,
+      "cited_by_count": 1956,
+      "adjusted_cited_by_count": 652.0,
+      "primary_topic_id": "sg-criminology-crime",
+      "primary_topic_label": "Criminology crime",
+      "url": "/domains/criminology/papers/W2904819910"
+    },
+    {
+      "source_id": "https://openalex.org/W2153492338",
+      "title": "Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods",
+      "year": 1999,
+      "cited_by_count": 2459,
+      "adjusted_cited_by_count": 473.23,
+      "primary_topic_id": "sg-social-control",
+      "primary_topic_label": "Social control",
+      "url": "/domains/criminology/papers/W2153492338"
+    },
+    {
+      "source_id": "https://openalex.org/W1543166941",
+      "title": "The Oxford Handbook of Criminology",
+      "year": 2017,
+      "cited_by_count": 1344,
+      "adjusted_cited_by_count": 448.0,
+      "primary_topic_id": "sg-green-criminology",
+      "primary_topic_label": "Green criminology",
+      "url": "/domains/criminology/papers/W1543166941"
+    },
+    {
+      "source_id": "https://openalex.org/W2738319541",
+      "title": "The Oxford Handbook of Criminology",
+      "year": 2023,
+      "cited_by_count": 688,
+      "adjusted_cited_by_count": 397.22,
+      "primary_topic_id": "sg-green-criminology",
+      "primary_topic_label": "Green criminology",
+      "url": "/domains/criminology/papers/W2738319541"
+    },
+    {
+      "source_id": "https://openalex.org/W3041501620",
+      "title": "Anti-Asian Hate Crime During the COVID-19 Pandemic: Exploring the Reproduction of Inequality",
+      "year": 2020,
+      "cited_by_count": 858,
+      "adjusted_cited_by_count": 350.28,
+      "primary_topic_id": "sg-criminal-justice-hate-crime",
+      "primary_topic_label": "Hate crime",
+      "url": "/domains/criminology/papers/W3041501620"
+    },
+    {
+      "source_id": "https://openalex.org/W2599025709",
+      "title": "Fairness in Criminal Justice Risk Assessments: The State of the Art",
+      "year": 2018,
+      "cited_by_count": 981,
+      "adjusted_cited_by_count": 346.84,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W2599025709"
+    },
+    {
+      "source_id": "https://openalex.org/W2021204860",
+      "title": "HOT SPOTS OF PREDATORY CRIME: ROUTINE ACTIVITIES AND THE CRIMINOLOGY OF PLACE*",
+      "year": 1989,
+      "cited_by_count": 2047,
+      "adjusted_cited_by_count": 336.52,
+      "primary_topic_id": "sg-crime-analysis",
+      "primary_topic_label": "Crime analysis",
+      "url": "/domains/criminology/papers/W2021204860"
+    },
+    {
+      "source_id": "https://openalex.org/W2120588679",
+      "title": "Social learning and social structure: a general theory of crime and deviance",
+      "year": 1998,
+      "cited_by_count": 1655,
+      "adjusted_cited_by_count": 312.77,
+      "primary_topic_id": "sg-juvenile-delinquency",
+      "primary_topic_label": "Juvenile delinquency",
+      "url": "/domains/criminology/papers/W2120588679"
+    },
+    {
+      "source_id": "https://openalex.org/W1479955723",
+      "title": "THE LAW OF CRIME CONCENTRATION AND THE CRIMINOLOGY OF PLACE*",
+      "year": 2015,
+      "cited_by_count": 957,
+      "adjusted_cited_by_count": 288.55,
+      "primary_topic_id": "sg-crime-analysis",
+      "primary_topic_label": "Crime analysis",
+      "url": "/domains/criminology/papers/W1479955723"
+    },
+    {
+      "source_id": "https://openalex.org/W2096517822",
+      "title": "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
+      "year": 2006,
+      "cited_by_count": 1263,
+      "adjusted_cited_by_count": 282.42,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W2096517822"
+    },
+    {
+      "source_id": "https://openalex.org/W3036964275",
+      "title": "Emotional distress in young adults during the COVID-19 pandemic: evidence of risk and resilience from a longitudinal cohort study",
+      "year": 2020,
+      "cited_by_count": 690,
+      "adjusted_cited_by_count": 281.69,
+      "primary_topic_id": "sg-criminal-justice-hate-crime",
+      "primary_topic_label": "Hate crime",
+      "url": "/domains/criminology/papers/W3036964275"
+    },
+    {
+      "source_id": "https://openalex.org/W2166237669",
+      "title": "Green space as a buffer between stressful life events and health",
+      "year": 2010,
+      "cited_by_count": 1121,
+      "adjusted_cited_by_count": 280.25,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2166237669"
+    },
+    {
+      "source_id": "https://openalex.org/W2743318307",
+      "title": "Global, regional, and national under-5 mortality, adult mortality, age-specific mortality, and life expectancy, 1970–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 828,
+      "adjusted_cited_by_count": 276.0,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2743318307"
+    },
+    {
+      "source_id": "https://openalex.org/W3093350281",
+      "title": "Five insights from the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 675,
+      "adjusted_cited_by_count": 275.57,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W3093350281"
+    },
+    {
+      "source_id": "https://openalex.org/W3086421641",
+      "title": "Non-compliance with COVID-19-related public health measures among young adults in Switzerland: Insights from a longitudinal cohort study",
+      "year": 2020,
+      "cited_by_count": 615,
+      "adjusted_cited_by_count": 251.07,
+      "primary_topic_id": "sg-criminal-behavior-antisocial-personality-disorder",
+      "primary_topic_label": "Antisocial personality disorder",
+      "url": "/domains/criminology/papers/W3086421641"
+    },
+    {
+      "source_id": "https://openalex.org/W2803929909",
+      "title": "Preventive strategies for mental health",
+      "year": 2018,
+      "cited_by_count": 693,
+      "adjusted_cited_by_count": 245.01,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/criminology/papers/W2803929909"
+    },
+    {
+      "source_id": "https://openalex.org/W2056611729",
+      "title": "Government and Control",
+      "year": 2000,
+      "cited_by_count": 1161,
+      "adjusted_cited_by_count": 227.69,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W2056611729"
+    },
+    {
+      "source_id": "https://openalex.org/W2969635519",
+      "title": "Global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2017, and forecasts to 2030, for 195 countries and territories: a systematic analysis for the Global Burden of Diseases, Injuries, and Risk Factors Study 2017",
+      "year": 2019,
+      "cited_by_count": 583,
+      "adjusted_cited_by_count": 220.35,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2969635519"
+    },
+    {
+      "source_id": "https://openalex.org/W2795690649",
+      "title": "Principles of Criminology.",
+      "year": 1947,
+      "cited_by_count": 1898,
+      "adjusted_cited_by_count": 213.54,
+      "primary_topic_id": "sg-green-criminology",
+      "primary_topic_label": "Green criminology",
+      "url": "/domains/criminology/papers/W2795690649"
+    },
+    {
+      "source_id": "https://openalex.org/W3194309324",
+      "title": "Global, regional, and national progress towards Sustainable Development Goal 3.2 for neonatal and child health: all-cause and cause-specific mortality findings from the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 463,
+      "adjusted_cited_by_count": 207.06,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W3194309324"
+    },
+    {
+      "source_id": "https://openalex.org/W2030538258",
+      "title": "Criminological Theories: Introduction, Evaluation and Application",
+      "year": 2000,
+      "cited_by_count": 1030,
+      "adjusted_cited_by_count": 202.0,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W2030538258"
+    },
+    {
+      "source_id": "https://openalex.org/W2491572170",
+      "title": "Estimates of global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2015: the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 629,
+      "adjusted_cited_by_count": 198.91,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2491572170"
+    },
+    {
+      "source_id": "https://openalex.org/W2508424442",
+      "title": "Measuring the health-related Sustainable Development Goals in 188 countries: a baseline analysis from the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 621,
+      "adjusted_cited_by_count": 196.38,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2508424442"
+    },
+    {
+      "source_id": "https://openalex.org/W2160364513",
+      "title": "Crime Prevention Through Environmental Design",
+      "year": 2013,
+      "cited_by_count": 701,
+      "adjusted_cited_by_count": 194.42,
+      "primary_topic_id": "sg-criminology-what",
+      "primary_topic_label": "Criminology what",
+      "url": "/domains/criminology/papers/W2160364513"
+    },
+    {
+      "source_id": "https://openalex.org/W4301323149",
+      "title": "The Psychology of Criminal Conduct",
+      "year": 2014,
+      "cited_by_count": 651,
+      "adjusted_cited_by_count": 187.93,
+      "primary_topic_id": "sg-criminal-behavior",
+      "primary_topic_label": "Criminal behavior",
+      "url": "/domains/criminology/papers/W4301323149"
+    },
+    {
+      "source_id": "https://openalex.org/W2899193847",
+      "title": "LOCKING UP OUR OWN: CRIME AND PUNISHMENT IN BLACK AMERICA",
+      "year": 2018,
+      "cited_by_count": 521,
+      "adjusted_cited_by_count": 184.2,
+      "primary_topic_id": "sg-social-control",
+      "primary_topic_label": "Social control",
+      "url": "/domains/criminology/papers/W2899193847"
+    },
+    {
+      "source_id": "https://openalex.org/W1495447218",
+      "title": "Legitimacy and Cooperation: Why Do People Help the Police Fight Crime in Their Communities?",
+      "year": 2006,
+      "cited_by_count": 814,
+      "adjusted_cited_by_count": 182.02,
+      "primary_topic_id": "sg-crime-analysis-risk-terrain-modeling",
+      "primary_topic_label": "Risk terrain modeling",
+      "url": "/domains/criminology/papers/W1495447218"
+    },
+    {
+      "source_id": "https://openalex.org/W2899825622",
+      "title": "Population and fertility by age and sex for 195 countries and territories, 1950–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 489,
+      "adjusted_cited_by_count": 172.89,
+      "primary_topic_id": "sg-criminal-justice-substance-abuse",
+      "primary_topic_label": "Substance abuse",
+      "url": "/domains/criminology/papers/W2899825622"
+    },
+    {
+      "source_id": "https://openalex.org/W4236085280",
+      "title": "The Criminology of Place",
+      "year": 2012,
+      "cited_by_count": 646,
+      "adjusted_cited_by_count": 172.65,
+      "primary_topic_id": "sg-crime-analysis",
+      "primary_topic_label": "Crime analysis",
+      "url": "/domains/criminology/papers/W4236085280"
+    },
+    {
+      "source_id": "https://openalex.org/W2129524335",
+      "title": "Violence a global public health problem",
+      "year": 2006,
+      "cited_by_count": 737,
+      "adjusted_cited_by_count": 164.8,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/criminology/papers/W2129524335"
+    },
+    {
+      "source_id": "https://openalex.org/W1980132394",
+      "title": "Principles of Criminology",
+      "year": 1955,
+      "cited_by_count": 1328,
+      "adjusted_cited_by_count": 157.6,
+      "primary_topic_id": "sg-green-criminology",
+      "primary_topic_label": "Green criminology",
+      "url": "/domains/criminology/papers/W1980132394"
+    },
+    {
+      "source_id": "https://openalex.org/W4250509384",
+      "title": "“Situational” Crime Prevention: Theory and Practice",
+      "year": 2017,
+      "cited_by_count": 459,
+      "adjusted_cited_by_count": 153.0,
+      "primary_topic_id": "sg-criminology-crime",
+      "primary_topic_label": "Criminology crime",
+      "url": "/domains/criminology/papers/W4250509384"
+    },
+    {
+      "source_id": "https://openalex.org/W2189405970",
+      "title": "CONFLICTS AS PROPERTY*",
+      "year": 1977,
+      "cited_by_count": 1055,
+      "adjusted_cited_by_count": 150.71,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W2189405970"
+    },
+    {
+      "source_id": "https://openalex.org/W2580132710",
+      "title": "Crime as Social Control",
+      "year": 1983,
+      "cited_by_count": 965,
+      "adjusted_cited_by_count": 147.16,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W2580132710"
+    },
+    {
+      "source_id": "https://openalex.org/W222325065",
+      "title": "Environmental criminology",
+      "year": 1982,
+      "cited_by_count": 975,
+      "adjusted_cited_by_count": 146.99,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/criminology/papers/W222325065"
+    },
+    {
+      "source_id": "https://openalex.org/W2055586316",
+      "title": "Developmental Theories of Crime and Delinquency",
+      "year": 1997,
+      "cited_by_count": 781,
+      "adjusted_cited_by_count": 145.03,
+      "primary_topic_id": "sg-criminal-behavior",
+      "primary_topic_label": "Criminal behavior",
+      "url": "/domains/criminology/papers/W2055586316"
+    },
+    {
+      "source_id": "https://openalex.org/W2520884179",
+      "title": "Violence against women and mental health",
+      "year": 2016,
+      "cited_by_count": 456,
+      "adjusted_cited_by_count": 144.2,
+      "primary_topic_id": "sg-criminal-behavior-antisocial-personality-disorder",
+      "primary_topic_label": "Antisocial personality disorder",
+      "url": "/domains/criminology/papers/W2520884179"
+    },
+    {
+      "source_id": "https://openalex.org/W4214878371",
+      "title": "Wicked Problems in Public Policy",
+      "year": 2022,
+      "cited_by_count": 288,
+      "adjusted_cited_by_count": 144.0,
+      "primary_topic_id": "sg-criminal-justice",
+      "primary_topic_label": "Criminal justice",
+      "url": "/domains/criminology/papers/W4214878371"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2889517514",
+      "title": "Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2018,
+      "cited_by_count": 3529,
+      "adjusted_cited_by_count": 1247.69,
+      "url": "/domains/criminology/papers/W2889517514"
+    },
+    {
+      "source_id": "https://openalex.org/W4300568187",
+      "title": "The Psychology of Criminal Conduct",
+      "year": 2016,
+      "cited_by_count": 2094,
+      "adjusted_cited_by_count": 662.18,
+      "url": "/domains/criminology/papers/W4300568187"
+    },
+    {
+      "source_id": "https://openalex.org/W2904819910",
+      "title": "The British Journal of Criminology",
+      "year": 2017,
+      "cited_by_count": 1956,
+      "adjusted_cited_by_count": 652.0,
+      "url": "/domains/criminology/papers/W2904819910"
+    },
+    {
+      "source_id": "https://openalex.org/W2153492338",
+      "title": "Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods",
+      "year": 1999,
+      "cited_by_count": 2459,
+      "adjusted_cited_by_count": 473.23,
+      "url": "/domains/criminology/papers/W2153492338"
+    },
+    {
+      "source_id": "https://openalex.org/W1543166941",
+      "title": "The Oxford Handbook of Criminology",
+      "year": 2017,
+      "cited_by_count": 1344,
+      "adjusted_cited_by_count": 448.0,
+      "url": "/domains/criminology/papers/W1543166941"
+    },
+    {
+      "source_id": "https://openalex.org/W2738319541",
+      "title": "The Oxford Handbook of Criminology",
+      "year": 2023,
+      "cited_by_count": 688,
+      "adjusted_cited_by_count": 397.22,
+      "url": "/domains/criminology/papers/W2738319541"
+    },
+    {
+      "source_id": "https://openalex.org/W3041501620",
+      "title": "Anti-Asian Hate Crime During the COVID-19 Pandemic: Exploring the Reproduction of Inequality",
+      "year": 2020,
+      "cited_by_count": 858,
+      "adjusted_cited_by_count": 350.28,
+      "url": "/domains/criminology/papers/W3041501620"
+    },
+    {
+      "source_id": "https://openalex.org/W2599025709",
+      "title": "Fairness in Criminal Justice Risk Assessments: The State of the Art",
+      "year": 2018,
+      "cited_by_count": 981,
+      "adjusted_cited_by_count": 346.84,
+      "url": "/domains/criminology/papers/W2599025709"
+    },
+    {
+      "source_id": "https://openalex.org/W2021204860",
+      "title": "HOT SPOTS OF PREDATORY CRIME: ROUTINE ACTIVITIES AND THE CRIMINOLOGY OF PLACE*",
+      "year": 1989,
+      "cited_by_count": 2047,
+      "adjusted_cited_by_count": 336.52,
+      "url": "/domains/criminology/papers/W2021204860"
+    },
+    {
+      "source_id": "https://openalex.org/W2120588679",
+      "title": "Social learning and social structure: a general theory of crime and deviance",
+      "year": 1998,
+      "cited_by_count": 1655,
+      "adjusted_cited_by_count": 312.77,
+      "url": "/domains/criminology/papers/W2120588679"
+    },
+    {
+      "source_id": "https://openalex.org/W1479955723",
+      "title": "THE LAW OF CRIME CONCENTRATION AND THE CRIMINOLOGY OF PLACE*",
+      "year": 2015,
+      "cited_by_count": 957,
+      "adjusted_cited_by_count": 288.55,
+      "url": "/domains/criminology/papers/W1479955723"
+    },
+    {
+      "source_id": "https://openalex.org/W2096517822",
+      "title": "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
+      "year": 2006,
+      "cited_by_count": 1263,
+      "adjusted_cited_by_count": 282.42,
+      "url": "/domains/criminology/papers/W2096517822"
+    },
+    {
+      "source_id": "https://openalex.org/W3036964275",
+      "title": "Emotional distress in young adults during the COVID-19 pandemic: evidence of risk and resilience from a longitudinal cohort study",
+      "year": 2020,
+      "cited_by_count": 690,
+      "adjusted_cited_by_count": 281.69,
+      "url": "/domains/criminology/papers/W3036964275"
+    },
+    {
+      "source_id": "https://openalex.org/W2166237669",
+      "title": "Green space as a buffer between stressful life events and health",
+      "year": 2010,
+      "cited_by_count": 1121,
+      "adjusted_cited_by_count": 280.25,
+      "url": "/domains/criminology/papers/W2166237669"
+    },
+    {
+      "source_id": "https://openalex.org/W2743318307",
+      "title": "Global, regional, and national under-5 mortality, adult mortality, age-specific mortality, and life expectancy, 1970–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+      "year": 2017,
+      "cited_by_count": 828,
+      "adjusted_cited_by_count": 276.0,
+      "url": "/domains/criminology/papers/W2743318307"
+    },
+    {
+      "source_id": "https://openalex.org/W3093350281",
+      "title": "Five insights from the Global Burden of Disease Study 2019",
+      "year": 2020,
+      "cited_by_count": 675,
+      "adjusted_cited_by_count": 275.57,
+      "url": "/domains/criminology/papers/W3093350281"
+    },
+    {
+      "source_id": "https://openalex.org/W3086421641",
+      "title": "Non-compliance with COVID-19-related public health measures among young adults in Switzerland: Insights from a longitudinal cohort study",
+      "year": 2020,
+      "cited_by_count": 615,
+      "adjusted_cited_by_count": 251.07,
+      "url": "/domains/criminology/papers/W3086421641"
+    },
+    {
+      "source_id": "https://openalex.org/W2803929909",
+      "title": "Preventive strategies for mental health",
+      "year": 2018,
+      "cited_by_count": 693,
+      "adjusted_cited_by_count": 245.01,
+      "url": "/domains/criminology/papers/W2803929909"
+    },
+    {
+      "source_id": "https://openalex.org/W2056611729",
+      "title": "Government and Control",
+      "year": 2000,
+      "cited_by_count": 1161,
+      "adjusted_cited_by_count": 227.69,
+      "url": "/domains/criminology/papers/W2056611729"
+    },
+    {
+      "source_id": "https://openalex.org/W2969635519",
+      "title": "Global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2017, and forecasts to 2030, for 195 countries and territories: a systematic analysis for the Global Burden of Diseases, Injuries, and Risk Factors Study 2017",
+      "year": 2019,
+      "cited_by_count": 583,
+      "adjusted_cited_by_count": 220.35,
+      "url": "/domains/criminology/papers/W2969635519"
+    },
+    {
+      "source_id": "https://openalex.org/W2795690649",
+      "title": "Principles of Criminology.",
+      "year": 1947,
+      "cited_by_count": 1898,
+      "adjusted_cited_by_count": 213.54,
+      "url": "/domains/criminology/papers/W2795690649"
+    },
+    {
+      "source_id": "https://openalex.org/W3194309324",
+      "title": "Global, regional, and national progress towards Sustainable Development Goal 3.2 for neonatal and child health: all-cause and cause-specific mortality findings from the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by_count": 463,
+      "adjusted_cited_by_count": 207.06,
+      "url": "/domains/criminology/papers/W3194309324"
+    },
+    {
+      "source_id": "https://openalex.org/W2030538258",
+      "title": "Criminological Theories: Introduction, Evaluation and Application",
+      "year": 2000,
+      "cited_by_count": 1030,
+      "adjusted_cited_by_count": 202.0,
+      "url": "/domains/criminology/papers/W2030538258"
+    },
+    {
+      "source_id": "https://openalex.org/W2491572170",
+      "title": "Estimates of global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2015: the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 629,
+      "adjusted_cited_by_count": 198.91,
+      "url": "/domains/criminology/papers/W2491572170"
+    },
+    {
+      "source_id": "https://openalex.org/W2508424442",
+      "title": "Measuring the health-related Sustainable Development Goals in 188 countries: a baseline analysis from the Global Burden of Disease Study 2015",
+      "year": 2016,
+      "cited_by_count": 621,
+      "adjusted_cited_by_count": 196.38,
+      "url": "/domains/criminology/papers/W2508424442"
+    },
+    {
+      "source_id": "https://openalex.org/W2160364513",
+      "title": "Crime Prevention Through Environmental Design",
+      "year": 2013,
+      "cited_by_count": 701,
+      "adjusted_cited_by_count": 194.42,
+      "url": "/domains/criminology/papers/W2160364513"
+    },
+    {
+      "source_id": "https://openalex.org/W4301323149",
+      "title": "The Psychology of Criminal Conduct",
+      "year": 2014,
+      "cited_by_count": 651,
+      "adjusted_cited_by_count": 187.93,
+      "url": "/domains/criminology/papers/W4301323149"
+    },
+    {
+      "source_id": "https://openalex.org/W2899193847",
+      "title": "LOCKING UP OUR OWN: CRIME AND PUNISHMENT IN BLACK AMERICA",
+      "year": 2018,
+      "cited_by_count": 521,
+      "adjusted_cited_by_count": 184.2,
+      "url": "/domains/criminology/papers/W2899193847"
+    },
+    {
+      "source_id": "https://openalex.org/W1495447218",
+      "title": "Legitimacy and Cooperation: Why Do People Help the Police Fight Crime in Their Communities?",
+      "year": 2006,
+      "cited_by_count": 814,
+      "adjusted_cited_by_count": 182.02,
+      "url": "/domains/criminology/papers/W1495447218"
+    },
+    {
+      "source_id": "https://openalex.org/W2899825622",
+      "title": "Population and fertility by age and sex for 195 countries and territories, 1950–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by_count": 489,
+      "adjusted_cited_by_count": 172.89,
+      "url": "/domains/criminology/papers/W2899825622"
+    },
+    {
+      "source_id": "https://openalex.org/W4236085280",
+      "title": "The Criminology of Place",
+      "year": 2012,
+      "cited_by_count": 646,
+      "adjusted_cited_by_count": 172.65,
+      "url": "/domains/criminology/papers/W4236085280"
+    },
+    {
+      "source_id": "https://openalex.org/W2129524335",
+      "title": "Violence a global public health problem",
+      "year": 2006,
+      "cited_by_count": 737,
+      "adjusted_cited_by_count": 164.8,
+      "url": "/domains/criminology/papers/W2129524335"
+    },
+    {
+      "source_id": "https://openalex.org/W1980132394",
+      "title": "Principles of Criminology",
+      "year": 1955,
+      "cited_by_count": 1328,
+      "adjusted_cited_by_count": 157.6,
+      "url": "/domains/criminology/papers/W1980132394"
+    },
+    {
+      "source_id": "https://openalex.org/W4250509384",
+      "title": "“Situational” Crime Prevention: Theory and Practice",
+      "year": 2017,
+      "cited_by_count": 459,
+      "adjusted_cited_by_count": 153.0,
+      "url": "/domains/criminology/papers/W4250509384"
+    },
+    {
+      "source_id": "https://openalex.org/W2189405970",
+      "title": "CONFLICTS AS PROPERTY*",
+      "year": 1977,
+      "cited_by_count": 1055,
+      "adjusted_cited_by_count": 150.71,
+      "url": "/domains/criminology/papers/W2189405970"
+    },
+    {
+      "source_id": "https://openalex.org/W2580132710",
+      "title": "Crime as Social Control",
+      "year": 1983,
+      "cited_by_count": 965,
+      "adjusted_cited_by_count": 147.16,
+      "url": "/domains/criminology/papers/W2580132710"
+    },
+    {
+      "source_id": "https://openalex.org/W222325065",
+      "title": "Environmental criminology",
+      "year": 1982,
+      "cited_by_count": 975,
+      "adjusted_cited_by_count": 146.99,
+      "url": "/domains/criminology/papers/W222325065"
+    },
+    {
+      "source_id": "https://openalex.org/W2055586316",
+      "title": "Developmental Theories of Crime and Delinquency",
+      "year": 1997,
+      "cited_by_count": 781,
+      "adjusted_cited_by_count": 145.03,
+      "url": "/domains/criminology/papers/W2055586316"
+    },
+    {
+      "source_id": "https://openalex.org/W2520884179",
+      "title": "Violence against women and mental health",
+      "year": 2016,
+      "cited_by_count": 456,
+      "adjusted_cited_by_count": 144.2,
+      "url": "/domains/criminology/papers/W2520884179"
+    },
+    {
+      "source_id": "https://openalex.org/W4214878371",
+      "title": "Wicked Problems in Public Policy",
+      "year": 2022,
+      "cited_by_count": 288,
+      "adjusted_cited_by_count": 144.0,
+      "url": "/domains/criminology/papers/W4214878371"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "criminology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 188
+    },
+    {
+      "label": "political science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 104
+    },
+    {
+      "label": "our",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 97
+    },
+    {
+      "label": "crime",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 95
+    },
+    {
+      "label": "social",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 90
+    },
+    {
+      "label": "criminal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 84
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "search",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 67
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "justice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 63
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "criminal justice",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "of crime",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 54
+    },
+    {
+      "label": "social psychology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "use",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "of criminology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "article",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "author",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "scholar",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 40
+    },
+    {
+      "label": "mental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 39
+    },
+    {
+      "label": "journal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 37
+    },
+    {
+      "label": "crime and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 35
+    },
+    {
+      "label": "journal of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 35
+    },
+    {
+      "label": "not",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 35
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 35
+    },
+    {
+      "label": "volume",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 35
+    },
+    {
+      "label": "works",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 34
+    },
+    {
+      "label": "criminological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 33
+    },
+    {
+      "label": "get",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 33
+    },
+    {
+      "label": "access",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 32
+    },
+    {
+      "label": "behavior",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 32
+    },
+    {
+      "label": "oxford",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9885,
+      "evidence_count": 32
+    },
+    {
+      "label": "academic",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9882,
+      "evidence_count": 31
+    },
+    {
+      "label": "in criminology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 31
+    },
+    {
+      "label": "control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 47
+    },
+    {
+      "label": "health",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 43
+    },
+    {
+      "label": "of criminal",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 30
+    },
+    {
+      "label": "published",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 30
+    },
+    {
+      "label": "google",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9874,
+      "evidence_count": 28
+    },
+    {
+      "label": "poison control",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 28
+    },
+    {
+      "label": "search for",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 28
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    },
+    {
+      "label": "author on",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    },
+    {
+      "label": "author on oxford",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    },
+    {
+      "label": "british",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    },
+    {
+      "label": "british journal",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    },
+    {
+      "label": "british journal of",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    },
+    {
+      "label": "by this",
+      "semantic_role": "entity_like",
+      "topic_role": "detail_topic",
+      "ui_role": "entity_detail",
+      "confidence": 0.9872,
+      "evidence_count": 27
+    }
+  ],
+  "topic_year_counts": {
+    "criminal justice": {
+      "2025": 54508,
+      "2024": 52047,
+      "2023": 51224,
+      "2020": 37817,
+      "2022": 37769,
+      "2021": 37484,
+      "2019": 33531,
+      "2018": 30767,
+      "2017": 28892,
+      "2016": 26743,
+      "2015": 24264,
+      "2014": 23284,
+      "2013": 20440,
+      "2012": 18514,
+      "2011": 16384,
+      "2010": 15011,
+      "2026": 14371,
+      "2009": 13307,
+      "2008": 11036,
+      "2007": 9696,
+      "2006": 8684,
+      "2005": 7759,
+      "2004": 6798,
+      "2003": 5885,
+      "2002": 5094,
+      "2000": 4565,
+      "2001": 4439
+    },
+    "green criminology": {
+      "2024": 3212,
+      "2025": 3133,
+      "2023": 3018,
+      "2022": 2117,
+      "2021": 2047,
+      "2020": 1983,
+      "2019": 1718,
+      "2018": 1495,
+      "2017": 1417,
+      "2016": 1251,
+      "2015": 1165,
+      "2014": 976,
+      "2013": 915,
+      "2026": 819,
+      "2012": 758,
+      "2011": 607,
+      "2010": 506,
+      "2009": 391,
+      "2008": 357,
+      "2007": 303,
+      "2006": 236,
+      "2005": 205,
+      "2004": 149,
+      "2003": 142,
+      "2001": 136,
+      "2000": 121,
+      "2002": 111
+    },
+    "criminal behavior": {
+      "2024": 44073,
+      "2023": 42918,
+      "2025": 40955,
+      "2022": 30134,
+      "2021": 28072,
+      "2020": 27079,
+      "2019": 24191,
+      "2018": 21628,
+      "2017": 19127,
+      "2016": 17457,
+      "2015": 16303,
+      "2014": 14931,
+      "2013": 12992,
+      "2012": 11501,
+      "2026": 10035,
+      "2011": 9991,
+      "2010": 8761,
+      "2009": 7679,
+      "2008": 6361,
+      "2007": 5731,
+      "2006": 5122,
+      "2005": 4375,
+      "2004": 3861,
+      "2003": 3238,
+      "2000": 2881,
+      "2002": 2797,
+      "2001": 2504
+    },
+    "criminology crime": {
+      "2024": 13063,
+      "2025": 13047,
+      "2023": 12733,
+      "2022": 9419,
+      "2021": 9004,
+      "2020": 8571,
+      "2019": 7328,
+      "2018": 6680,
+      "2017": 6174,
+      "2016": 5447,
+      "2015": 4969,
+      "2014": 4362,
+      "2013": 3886,
+      "2026": 3417,
+      "2012": 3287,
+      "2011": 2650,
+      "2010": 2463,
+      "2009": 2043,
+      "2008": 1746,
+      "2007": 1533,
+      "2006": 1311,
+      "2005": 1095,
+      "2004": 935,
+      "2003": 832,
+      "2002": 686,
+      "2000": 659,
+      "2001": 629
+    },
+    "social control": {
+      "2023": 763716,
+      "2025": 754501,
+      "2024": 722047,
+      "2022": 562364,
+      "2021": 515377,
+      "2020": 472629,
+      "2019": 373085,
+      "2018": 329283,
+      "2017": 293470,
+      "2016": 267063,
+      "2015": 243329,
+      "2014": 218244,
+      "2026": 204097,
+      "2013": 191058,
+      "2012": 163896,
+      "2011": 142485,
+      "2010": 122533,
+      "2009": 106884,
+      "2008": 89036,
+      "2007": 77254,
+      "2006": 68423,
+      "2005": 59256,
+      "2004": 51481,
+      "2003": 43203,
+      "2002": 37280,
+      "2000": 33441,
+      "2001": 32674
+    },
+    "criminology what": {
+      "2023": 12262,
+      "2024": 12169,
+      "2025": 11561,
+      "2022": 8909,
+      "2021": 8340,
+      "2020": 7858,
+      "2019": 6633,
+      "2018": 6089,
+      "2017": 5535,
+      "2016": 4961,
+      "2015": 4558,
+      "2014": 4005,
+      "2013": 3440,
+      "2012": 2901,
+      "2026": 2873,
+      "2011": 2473,
+      "2010": 2138,
+      "2009": 1803,
+      "2008": 1527,
+      "2007": 1325,
+      "2006": 1130,
+      "2005": 873,
+      "2004": 756,
+      "2003": 697,
+      "2000": 550,
+      "2002": 539,
+      "2001": 449
+    },
+    "juvenile delinquency": {
+      "2023": 4236,
+      "2024": 4117,
+      "2025": 3993,
+      "2022": 3300,
+      "2020": 3271,
+      "2021": 3258,
+      "2019": 2944,
+      "2017": 2695,
+      "2018": 2682,
+      "2016": 2553,
+      "2015": 2453,
+      "2014": 2280,
+      "2013": 2129,
+      "2012": 1912,
+      "2011": 1701,
+      "2010": 1632,
+      "2009": 1357,
+      "2008": 1095,
+      "2007": 993,
+      "2006": 964,
+      "2026": 955,
+      "2005": 775,
+      "2004": 650,
+      "2003": 634,
+      "2000": 563,
+      "2002": 507,
+      "2001": 435
+    },
+    "crime analysis": {
+      "2023": 80978,
+      "2024": 79521,
+      "2025": 78213,
+      "2022": 57872,
+      "2021": 54787,
+      "2020": 51833,
+      "2019": 45926,
+      "2018": 40379,
+      "2017": 36724,
+      "2016": 33869,
+      "2015": 30784,
+      "2014": 27917,
+      "2013": 24825,
+      "2012": 21391,
+      "2026": 19326,
+      "2011": 18843,
+      "2010": 16905,
+      "2009": 14951,
+      "2008": 12408,
+      "2007": 10828,
+      "2006": 9487,
+      "2005": 8168,
+      "2004": 7114,
+      "2003": 5999,
+      "2002": 5226,
+      "2000": 4528,
+      "2001": 4299
+    },
+    "criminology critique": {
+      "2025": 3172,
+      "2023": 2724,
+      "2024": 2696,
+      "2020": 2097,
+      "2021": 2044,
+      "2022": 2021,
+      "2019": 1894,
+      "2018": 1735,
+      "2017": 1656,
+      "2016": 1551,
+      "2015": 1408,
+      "2014": 1242,
+      "2013": 1066,
+      "2012": 877,
+      "2026": 826,
+      "2011": 802,
+      "2010": 705,
+      "2009": 587,
+      "2008": 500,
+      "2007": 473,
+      "2006": 391,
+      "2005": 389,
+      "2004": 274,
+      "2003": 229,
+      "2002": 204,
+      "2000": 194,
+      "2001": 192
+    },
+    "cultural criminology": {
+      "2025": 9410,
+      "2024": 8878,
+      "2023": 8264,
+      "2022": 5913,
+      "2021": 5555,
+      "2020": 5111,
+      "2019": 4415,
+      "2018": 4245,
+      "2017": 3611,
+      "2016": 3308,
+      "2015": 2904,
+      "2014": 2590,
+      "2026": 2376,
+      "2013": 2140,
+      "2012": 1875,
+      "2011": 1501,
+      "2010": 1342,
+      "2009": 1133,
+      "2008": 913,
+      "2007": 814,
+      "2006": 676,
+      "2005": 536,
+      "2004": 433,
+      "2003": 418,
+      "2002": 337,
+      "2000": 320,
+      "2001": 235
+    }
+  }
+}

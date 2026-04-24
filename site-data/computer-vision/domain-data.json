@@ -1,0 +1,2184 @@
+{
+  "slug": "computer-vision",
+  "title": "Computer Vision",
+  "updated_at": "2026-04-24T11:32:56.510101Z",
+  "snapshot": {
+    "papers": 335,
+    "topics": 8,
+    "subtopics": 48,
+    "entities": 669,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 364,
+      "total_papers": 364,
+      "facet_counts": {
+        "none": 364
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning computer vision.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 8,
+    "descendant_topics": 48,
+    "max_depth": 2,
+    "leaf_topics": 48
+  },
+  "rising_topics": [
+    {
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/computer-vision/topics/sg-neural-network",
+      "trend": "rising",
+      "year_total": 3571347
+    },
+    {
+      "id": "sg-image-processing",
+      "label": "Image processing",
+      "url": "/domains/computer-vision/topics/sg-image-processing",
+      "trend": "rising",
+      "year_total": 8344291
+    },
+    {
+      "id": "sg-computer-vision-pattern-recognition",
+      "label": "Computer vision pattern recognition",
+      "url": "/domains/computer-vision/topics/sg-computer-vision-pattern-recognition",
+      "trend": "rising",
+      "year_total": 656752
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-neural-network",
+      "label": "Neural network",
+      "url": "/domains/computer-vision/topics/sg-neural-network",
+      "paper_count": 124,
+      "subtopic_count": 14,
+      "trend": "rising",
+      "summary": "entities: network, neural, neural network",
+      "tags": [
+        "artificial neural network",
+        "deep convolutional neural network",
+        "deep neural networks",
+        "neural network"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-neural-network-deep-neural-networks",
+          "label": "Deep neural networks",
+          "url": "/domains/computer-vision/topics/sg-neural-network-deep-neural-networks",
+          "paper_count": 47
+        },
+        {
+          "id": "sg-neural-network-image-processing",
+          "label": "Image processing",
+          "url": "/domains/computer-vision/topics/sg-neural-network-image-processing",
+          "paper_count": 24
+        },
+        {
+          "id": "sg-neural-network-activation-function",
+          "label": "Activation function",
+          "url": "/domains/computer-vision/topics/sg-neural-network-activation-function",
+          "paper_count": 19
+        },
+        {
+          "id": "sg-neural-network-topic-modeling",
+          "label": "Topic modeling",
+          "url": "/domains/computer-vision/topics/sg-neural-network-topic-modeling",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-neural-network-3d-shape-analysis",
+          "label": "3D shape analysis",
+          "url": "/domains/computer-vision/topics/sg-neural-network-3d-shape-analysis",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-neural-network-backbone-network",
+          "label": "Backbone network",
+          "url": "/domains/computer-vision/topics/sg-neural-network-backbone-network",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2194775991",
+          "title": "Deep Residual Learning for Image Recognition",
+          "year": "2016",
+          "cited_by_count": 218563,
+          "url": "/domains/computer-vision/papers/W2194775991"
+        },
+        {
+          "source_id": "https://openalex.org/W2163605009",
+          "title": "ImageNet classification with deep convolutional neural networks",
+          "year": "2017",
+          "cited_by_count": 75671,
+          "url": "/domains/computer-vision/papers/W2163605009"
+        },
+        {
+          "source_id": "https://openalex.org/W2919115771",
+          "title": "Deep learning",
+          "year": "2015",
+          "cited_by_count": 79951,
+          "url": "/domains/computer-vision/papers/W2919115771"
+        }
+      ]
+    },
+    {
+      "id": "sg-image-processing",
+      "label": "Image processing",
+      "url": "/domains/computer-vision/topics/sg-image-processing",
+      "paper_count": 81,
+      "subtopic_count": 13,
+      "trend": "rising",
+      "summary": "entities: image processing, vision, of the",
+      "tags": [
+        "contextual image classification",
+        "curse of dimensionality",
+        "dimensionality reduction",
+        "image classification"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-image-processing-human-computer-interaction",
+          "label": "Human computer interaction",
+          "url": "/domains/computer-vision/topics/sg-image-processing-human-computer-interaction",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-image-processing-digital-medical-image-processing",
+          "label": "Digital medical image processing",
+          "url": "/domains/computer-vision/topics/sg-image-processing-digital-medical-image-processing",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-image-processing-pattern-recognition",
+          "label": "Pattern recognition",
+          "url": "/domains/computer-vision/topics/sg-image-processing-pattern-recognition",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-image-processing-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/computer-vision/topics/sg-image-processing-field-mathematics",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-image-processing-medical-image-segmentation",
+          "label": "Medical image segmentation",
+          "url": "/domains/computer-vision/topics/sg-image-processing-medical-image-segmentation",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-image-processing-data-set-mining",
+          "label": "Data set mining",
+          "url": "/domains/computer-vision/topics/sg-image-processing-data-set-mining",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1901129140",
+          "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "year": "2015",
+          "cited_by_count": 87169,
+          "url": "/domains/computer-vision/papers/W1901129140"
+        },
+        {
+          "source_id": "https://openalex.org/W2099540110",
+          "title": "NIH Image to ImageJ: 25 years of image analysis",
+          "year": "2012",
+          "cited_by_count": 64090,
+          "url": "/domains/computer-vision/papers/W2099540110"
+        },
+        {
+          "source_id": "https://openalex.org/W3138516171",
+          "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "year": "2021",
+          "cited_by_count": 28982,
+          "url": "/domains/computer-vision/papers/W3138516171"
+        }
+      ]
+    },
+    {
+      "id": "sg-computer-vision-pattern-recognition",
+      "label": "Computer vision pattern recognition",
+      "url": "/domains/computer-vision/topics/sg-computer-vision-pattern-recognition",
+      "paper_count": 47,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: vision, computer graphics, industrial vision systems and defect detection",
+      "tags": [
+        "computer graphics",
+        "computer graphics and visualization techniques",
+        "computer vision pattern",
+        "computer vision pattern recognition"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-computer-vision-pattern-recognition-conference-on-computer",
+          "label": "Conference on computer",
+          "url": "/domains/computer-vision/topics/sg-computer-vision-pattern-recognition-conference-on-computer",
+          "paper_count": 27
+        },
+        {
+          "id": "sg-computer-vision-pattern-recognition-image-object-detection-techniques",
+          "label": "Image object detection techniques",
+          "url": "/domains/computer-vision/topics/sg-computer-vision-pattern-recognition-image-object-detection-techniques",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-computer-vision-pattern-recognition-image-processing",
+          "label": "Image processing",
+          "url": "/domains/computer-vision/topics/sg-computer-vision-pattern-recognition-image-processing",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-computer-vision-pattern-recognition-multiple-view-geometry",
+          "label": "Multiple view geometry",
+          "url": "/domains/computer-vision/topics/sg-computer-vision-pattern-recognition-multiple-view-geometry",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2111619626",
+          "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+          "year": "2013",
+          "cited_by_count": 11852,
+          "url": "/domains/computer-vision/papers/W2111619626"
+        },
+        {
+          "source_id": "https://openalex.org/W4236965008",
+          "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+          "year": "1993",
+          "cited_by_count": 17734,
+          "url": "/domains/computer-vision/papers/W4236965008"
+        },
+        {
+          "source_id": "https://openalex.org/W4234552385",
+          "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+          "year": "1993",
+          "cited_by_count": 14334,
+          "url": "/domains/computer-vision/papers/W4234552385"
+        }
+      ]
+    },
+    {
+      "id": "sg-convolutional-neural-networks",
+      "label": "Convolutional neural networks",
+      "url": "/domains/computer-vision/topics/sg-convolutional-neural-networks",
+      "paper_count": 28,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: convolutional neural networks, network, data",
+      "tags": [
+        "convolutional neural network",
+        "convolutional neural networks",
+        "deep convolutional networks",
+        "deep convolutional neural networks"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-convolutional-neural-networks-convolutional-networks",
+          "label": "Convolutional networks",
+          "url": "/domains/computer-vision/topics/sg-convolutional-neural-networks-convolutional-networks",
+          "paper_count": 20
+        },
+        {
+          "id": "sg-convolutional-neural-networks-deep-convolutional",
+          "label": "Deep convolutional",
+          "url": "/domains/computer-vision/topics/sg-convolutional-neural-networks-deep-convolutional",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-convolutional-neural-networks-deep-unsupervised-representation-learning",
+          "label": "Deep unsupervised representation learning",
+          "url": "/domains/computer-vision/topics/sg-convolutional-neural-networks-deep-unsupervised-representation-learning",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-convolutional-neural-networks-graph-neural-networks",
+          "label": "Graph neural networks",
+          "url": "/domains/computer-vision/topics/sg-convolutional-neural-networks-graph-neural-networks",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-convolutional-neural-networks-medical-diagnosis-with-cnns",
+          "label": "Medical diagnosis with CNNs",
+          "url": "/domains/computer-vision/topics/sg-convolutional-neural-networks-medical-diagnosis-with-cnns",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1686810756",
+          "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "year": "2014",
+          "cited_by_count": 75502,
+          "url": "/domains/computer-vision/papers/W1686810756"
+        },
+        {
+          "source_id": "https://openalex.org/W2183341477",
+          "title": "Rethinking the Inception Architecture for Computer Vision",
+          "year": "2016",
+          "cited_by_count": 30575,
+          "url": "/domains/computer-vision/papers/W2183341477"
+        },
+        {
+          "source_id": "https://openalex.org/W2565639579",
+          "title": "Feature Pyramid Networks for Object Detection",
+          "year": "2017",
+          "cited_by_count": 28193,
+          "url": "/domains/computer-vision/papers/W2565639579"
+        }
+      ]
+    },
+    {
+      "id": "sg-object-detection",
+      "label": "Object detection",
+      "url": "/domains/computer-vision/topics/sg-object-detection",
+      "paper_count": 20,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: object, vision, object detection",
+      "tags": [
+        "computer vision yolov1",
+        "networks object detection",
+        "object detection",
+        "object detection in aerial"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-object-detection-remote-sensing-object-detection",
+          "label": "Remote sensing object detection",
+          "url": "/domains/computer-vision/topics/sg-object-detection-remote-sensing-object-detection",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-object-detection-object-recognition",
+          "label": "Object recognition",
+          "url": "/domains/computer-vision/topics/sg-object-detection-object-recognition",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-object-detection-image-processing",
+          "label": "Image processing",
+          "url": "/domains/computer-vision/topics/sg-object-detection-image-processing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-object-detection-aerial-image-object-detection",
+          "label": "Aerial image object detection",
+          "url": "/domains/computer-vision/topics/sg-object-detection-aerial-image-object-detection",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2117539524",
+          "title": "ImageNet Large Scale Visual Recognition Challenge",
+          "year": "2015",
+          "cited_by_count": 39858,
+          "url": "/domains/computer-vision/papers/W2117539524"
+        },
+        {
+          "source_id": "https://openalex.org/W4386076325",
+          "title": "YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors",
+          "year": "2023",
+          "cited_by_count": 10592,
+          "url": "/domains/computer-vision/papers/W4386076325"
+        },
+        {
+          "source_id": "https://openalex.org/W2031489346",
+          "title": "The Pascal Visual Object Classes (VOC) Challenge",
+          "year": "2009",
+          "cited_by_count": 19264,
+          "url": "/domains/computer-vision/papers/W2031489346"
+        }
+      ]
+    },
+    {
+      "id": "sg-feature-extraction",
+      "label": "Feature extraction",
+      "url": "/domains/computer-vision/topics/sg-feature-extraction",
+      "paper_count": 15,
+      "subtopic_count": 4,
+      "trend": "rising",
+      "summary": "entities: over, pattern recognition, feature extraction",
+      "tags": [
+        "contextual image classification",
+        "face recognition grand challenge",
+        "feature extraction",
+        "feature learning"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-feature-extraction-handwritten-text-recognition",
+          "label": "Handwritten text recognition",
+          "url": "/domains/computer-vision/topics/sg-feature-extraction-handwritten-text-recognition",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-feature-extraction-face-recognition",
+          "label": "Face recognition",
+          "url": "/domains/computer-vision/topics/sg-feature-extraction-face-recognition",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-feature-extraction-human-computer-interaction",
+          "label": "Human computer interaction",
+          "url": "/domains/computer-vision/topics/sg-feature-extraction-human-computer-interaction",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-feature-extraction-pattern-recognition",
+          "label": "Pattern recognition",
+          "url": "/domains/computer-vision/topics/sg-feature-extraction-pattern-recognition",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2561675875",
+          "title": "Lecture Notes in Computer Science 1205",
+          "year": "1999",
+          "cited_by_count": 38731,
+          "url": "/domains/computer-vision/papers/W2561675875"
+        },
+        {
+          "source_id": "https://openalex.org/W2335728318",
+          "title": "Reading digits in natural images with unsupervised feature learning",
+          "year": "2024",
+          "cited_by_count": 4556,
+          "url": "/domains/computer-vision/papers/W2335728318"
+        },
+        {
+          "source_id": "https://openalex.org/W2520774990",
+          "title": "A Discriminative Feature Learning Approach for Deep Face Recognition",
+          "year": "2016",
+          "cited_by_count": 3988,
+          "url": "/domains/computer-vision/papers/W2520774990"
+        }
+      ]
+    },
+    {
+      "id": "sg-domain-adaptation",
+      "label": "Domain adaptation",
+      "url": "/domains/computer-vision/topics/sg-domain-adaptation",
+      "paper_count": 14,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: domain adaptation, data, of the",
+      "tags": [
+        "domain adaptation",
+        "domain adaptation ability",
+        "domain adaptation and few-shot learning",
+        "inductive transfer"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-domain-adaptation-domain-adaptation-few-shot-learning",
+          "label": "Domain adaptation few-shot learning",
+          "url": "/domains/computer-vision/topics/sg-domain-adaptation-domain-adaptation-few-shot-learning",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-domain-adaptation-field-mathematics",
+          "label": "Field mathematics",
+          "url": "/domains/computer-vision/topics/sg-domain-adaptation-field-mathematics",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2165698076",
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22818,
+          "url": "/domains/computer-vision/papers/W2165698076"
+        },
+        {
+          "source_id": "https://openalex.org/W2395579298",
+          "title": "A survey of transfer learning",
+          "year": "2016",
+          "cited_by_count": 6059,
+          "url": "/domains/computer-vision/papers/W2395579298"
+        },
+        {
+          "source_id": "https://openalex.org/W2884430236",
+          "title": "Machine learning for molecular and materials science",
+          "year": "2018",
+          "cited_by_count": 4367,
+          "url": "/domains/computer-vision/papers/W2884430236"
+        }
+      ]
+    },
+    {
+      "id": "sg-network-architecture",
+      "label": "Network architecture",
+      "url": "/domains/computer-vision/topics/sg-network-architecture",
+      "paper_count": 6,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: architecture, network, network architecture",
+      "tags": [
+        "5g network architecture",
+        "computer vision yolov1",
+        "deep neural network",
+        "handwriting recognition"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-network-architecture-parallel-computing",
+          "label": "Parallel computing",
+          "url": "/domains/computer-vision/topics/sg-network-architecture-parallel-computing",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-network-architecture-multiple-choice",
+          "label": "Multiple choice",
+          "url": "/domains/computer-vision/topics/sg-network-architecture-multiple-choice",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3034971973",
+          "title": "EfficientDet: Scalable and Efficient Object Detection",
+          "year": "2020",
+          "cited_by_count": 8165,
+          "url": "/domains/computer-vision/papers/W3034971973"
+        },
+        {
+          "source_id": "https://openalex.org/W3110989801",
+          "title": "Towards 6G wireless communication networks: vision, enabling technologies, and new paradigm shifts",
+          "year": "2020",
+          "cited_by_count": 1905,
+          "url": "/domains/computer-vision/papers/W3110989801"
+        },
+        {
+          "source_id": "https://openalex.org/W2128145324",
+          "title": "A Survey of 5G Network: Architecture and Emerging Technologies",
+          "year": "2015",
+          "cited_by_count": 2380,
+          "url": "/domains/computer-vision/papers/W2128145324"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Neural network",
+      "paper_count": 19,
+      "papers": [
+        {
+          "title": "Deep Residual Learning for Image Recognition",
+          "year": "2016",
+          "cited_by_count": 218563,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2194775991.html"
+        },
+        {
+          "title": "ImageNet classification with deep convolutional neural networks",
+          "year": "2017",
+          "cited_by_count": 75671,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2163605009.html"
+        },
+        {
+          "title": "Deep learning",
+          "year": "2015",
+          "cited_by_count": 79951,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2919115771.html"
+        },
+        {
+          "title": "Going deeper with convolutions",
+          "year": "2015",
+          "cited_by_count": 46518,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2097117768.html"
+        },
+        {
+          "title": "Gradient-based learning applied to document recognition",
+          "year": "1998",
+          "cited_by_count": 57423,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2112796928.html"
+        },
+        {
+          "title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "year": "2014",
+          "cited_by_count": 34246,
+          "topic": "Neural network",
+          "url": "papers/https-openalex-org-w2095705004.html"
+        }
+      ]
+    },
+    {
+      "label": "Image processing",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "year": "2015",
+          "cited_by_count": 87169,
+          "topic": "Image processing",
+          "url": "papers/https-openalex-org-w1901129140.html"
+        },
+        {
+          "title": "NIH Image to ImageJ: 25 years of image analysis",
+          "year": "2012",
+          "cited_by_count": 64090,
+          "topic": "Image processing",
+          "url": "papers/https-openalex-org-w2099540110.html"
+        },
+        {
+          "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "year": "2021",
+          "cited_by_count": 28982,
+          "topic": "Image processing",
+          "url": "papers/https-openalex-org-w3138516171.html"
+        },
+        {
+          "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "year": "2020",
+          "cited_by_count": 21438,
+          "topic": "Image processing",
+          "url": "papers/https-openalex-org-w3094502228.html"
+        },
+        {
+          "title": "Multiple View Geometry in Computer Vision",
+          "year": "2004",
+          "cited_by_count": 20688,
+          "topic": "Image processing",
+          "url": "papers/https-openalex-org-w2033819227.html"
+        }
+      ]
+    },
+    {
+      "label": "Object detection",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "ImageNet Large Scale Visual Recognition Challenge",
+          "year": "2015",
+          "cited_by_count": 39858,
+          "topic": "Object detection",
+          "url": "papers/https-openalex-org-w2117539524.html"
+        },
+        {
+          "title": "YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors",
+          "year": "2023",
+          "cited_by_count": 10592,
+          "topic": "Object detection",
+          "url": "papers/https-openalex-org-w4386076325.html"
+        },
+        {
+          "title": "The Pascal Visual Object Classes (VOC) Challenge",
+          "year": "2009",
+          "cited_by_count": 19264,
+          "topic": "Object detection",
+          "url": "papers/https-openalex-org-w2031489346.html"
+        },
+        {
+          "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+          "year": "2012",
+          "cited_by_count": 14179,
+          "topic": "Object detection",
+          "url": "papers/https-openalex-org-w2150066425.html"
+        },
+        {
+          "title": "ORB: An efficient alternative to SIFT or SURF",
+          "year": "2011",
+          "cited_by_count": 10282,
+          "topic": "Object detection",
+          "url": "papers/https-openalex-org-w2117228865.html"
+        }
+      ]
+    },
+    {
+      "label": "Convolutional neural networks",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "year": "2014",
+          "cited_by_count": 75502,
+          "topic": "Convolutional neural networks",
+          "url": "papers/https-openalex-org-w1686810756.html"
+        },
+        {
+          "title": "Rethinking the Inception Architecture for Computer Vision",
+          "year": "2016",
+          "cited_by_count": 30575,
+          "topic": "Convolutional neural networks",
+          "url": "papers/https-openalex-org-w2183341477.html"
+        },
+        {
+          "title": "Feature Pyramid Networks for Object Detection",
+          "year": "2017",
+          "cited_by_count": 28193,
+          "topic": "Convolutional neural networks",
+          "url": "papers/https-openalex-org-w2565639579.html"
+        },
+        {
+          "title": "Deep Learning",
+          "year": "2016",
+          "cited_by_count": 8958,
+          "topic": "Convolutional neural networks",
+          "url": "papers/https-openalex-org-w2557283755.html"
+        }
+      ]
+    },
+    {
+      "label": "Computer vision pattern recognition",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+          "year": "1993",
+          "cited_by_count": 17734,
+          "topic": "Computer vision pattern recognition",
+          "url": "papers/https-openalex-org-w4236965008.html"
+        },
+        {
+          "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+          "year": "1993",
+          "cited_by_count": 14334,
+          "topic": "Computer vision pattern recognition",
+          "url": "papers/https-openalex-org-w4234552385.html"
+        }
+      ]
+    },
+    {
+      "label": "Feature extraction",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Lecture Notes in Computer Science 1205",
+          "year": "1999",
+          "cited_by_count": 38731,
+          "topic": "Feature extraction",
+          "url": "papers/https-openalex-org-w2561675875.html"
+        },
+        {
+          "title": "Reading digits in natural images with unsupervised feature learning",
+          "year": "2024",
+          "cited_by_count": 4556,
+          "topic": "Feature extraction",
+          "url": "papers/https-openalex-org-w2335728318.html"
+        }
+      ]
+    },
+    {
+      "label": "Domain adaptation",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "A Survey on Transfer Learning",
+          "year": "2009",
+          "cited_by_count": 22818,
+          "topic": "Domain adaptation",
+          "url": "papers/https-openalex-org-w2165698076.html"
+        }
+      ]
+    },
+    {
+      "label": "Network architecture",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "EfficientDet: Scalable and Efficient Object Detection",
+          "year": "2020",
+          "cited_by_count": 8165,
+          "topic": "Network architecture",
+          "url": "papers/https-openalex-org-w3034971973.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+          "year": "2013",
+          "cited_by_count": 11852,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2111619626.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2194775991",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2016,
+      "cited_by_count": 218563,
+      "adjusted_cited_by_count": 69115.69,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2194775991"
+    },
+    {
+      "source_id": "https://openalex.org/W1901129140",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "year": 2015,
+      "cited_by_count": 87169,
+      "adjusted_cited_by_count": 26282.44,
+      "primary_topic_id": "sg-image-processing",
+      "primary_topic_label": "Image processing",
+      "url": "/domains/computer-vision/papers/W1901129140"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75671,
+      "adjusted_cited_by_count": 25223.67,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79951,
+      "adjusted_cited_by_count": 24106.13,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2919115771"
+    },
+    {
+      "source_id": "https://openalex.org/W1686810756",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "cited_by_count": 75502,
+      "adjusted_cited_by_count": 21795.55,
+      "primary_topic_id": "sg-convolutional-neural-networks",
+      "primary_topic_label": "Convolutional neural networks",
+      "url": "/domains/computer-vision/papers/W1686810756"
+    },
+    {
+      "source_id": "https://openalex.org/W2099540110",
+      "title": "NIH Image to ImageJ: 25 years of image analysis",
+      "year": 2012,
+      "cited_by_count": 64090,
+      "adjusted_cited_by_count": 17128.77,
+      "primary_topic_id": "sg-image-processing",
+      "primary_topic_label": "Image processing",
+      "url": "/domains/computer-vision/papers/W2099540110"
+    },
+    {
+      "source_id": "https://openalex.org/W2097117768",
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "cited_by_count": 46518,
+      "adjusted_cited_by_count": 14025.7,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2097117768"
+    },
+    {
+      "source_id": "https://openalex.org/W3138516171",
+      "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+      "year": 2021,
+      "cited_by_count": 28982,
+      "adjusted_cited_by_count": 12961.14,
+      "primary_topic_id": "sg-image-processing",
+      "primary_topic_label": "Image processing",
+      "url": "/domains/computer-vision/papers/W3138516171"
+    },
+    {
+      "source_id": "https://openalex.org/W2117539524",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "year": 2015,
+      "cited_by_count": 39858,
+      "adjusted_cited_by_count": 12017.64,
+      "primary_topic_id": "sg-object-detection",
+      "primary_topic_label": "Object detection",
+      "url": "/domains/computer-vision/papers/W2117539524"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57423,
+      "adjusted_cited_by_count": 10851.93,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34246,
+      "adjusted_cited_by_count": 9885.97,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W2183341477",
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2016,
+      "cited_by_count": 30575,
+      "adjusted_cited_by_count": 9668.66,
+      "primary_topic_id": "sg-convolutional-neural-networks",
+      "primary_topic_label": "Convolutional neural networks",
+      "url": "/domains/computer-vision/papers/W2183341477"
+    },
+    {
+      "source_id": "https://openalex.org/W2565639579",
+      "title": "Feature Pyramid Networks for Object Detection",
+      "year": 2017,
+      "cited_by_count": 28193,
+      "adjusted_cited_by_count": 9397.67,
+      "primary_topic_id": "sg-convolutional-neural-networks",
+      "primary_topic_label": "Convolutional neural networks",
+      "url": "/domains/computer-vision/papers/W2565639579"
+    },
+    {
+      "source_id": "https://openalex.org/W2102605133",
+      "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+      "year": 2014,
+      "cited_by_count": 31476,
+      "adjusted_cited_by_count": 9086.34,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2102605133"
+    },
+    {
+      "source_id": "https://openalex.org/W3094502228",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "year": 2020,
+      "cited_by_count": 21438,
+      "adjusted_cited_by_count": 8752.03,
+      "primary_topic_id": "sg-image-processing",
+      "primary_topic_label": "Image processing",
+      "url": "/domains/computer-vision/papers/W3094502228"
+    },
+    {
+      "source_id": "https://openalex.org/W2884585870",
+      "title": "CBAM: Convolutional Block Attention Module",
+      "year": 2018,
+      "cited_by_count": 21650,
+      "adjusted_cited_by_count": 7654.43,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2884585870"
+    },
+    {
+      "source_id": "https://openalex.org/W2561675875",
+      "title": "Lecture Notes in Computer Science 1205",
+      "year": 1999,
+      "cited_by_count": 38731,
+      "adjusted_cited_by_count": 7453.78,
+      "primary_topic_id": "sg-feature-extraction",
+      "primary_topic_label": "Feature extraction",
+      "url": "/domains/computer-vision/papers/W2561675875"
+    },
+    {
+      "source_id": "https://openalex.org/W1836465849",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "year": 2015,
+      "cited_by_count": 24322,
+      "adjusted_cited_by_count": 7333.36,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W1836465849"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40128,
+      "adjusted_cited_by_count": 7207.2,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2531409750",
+      "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+      "year": 2017,
+      "cited_by_count": 18597,
+      "adjusted_cited_by_count": 6199.0,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2531409750"
+    },
+    {
+      "source_id": "https://openalex.org/W4386076325",
+      "title": "YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors",
+      "year": 2023,
+      "cited_by_count": 10592,
+      "adjusted_cited_by_count": 6115.29,
+      "primary_topic_id": "sg-object-detection",
+      "primary_topic_label": "Object detection",
+      "url": "/domains/computer-vision/papers/W4386076325"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32418,
+      "adjusted_cited_by_count": 5822.44,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22818,
+      "adjusted_cited_by_count": 5534.18,
+      "primary_topic_id": "sg-domain-adaptation",
+      "primary_topic_label": "Domain adaptation",
+      "url": "/domains/computer-vision/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W2031489346",
+      "title": "The Pascal Visual Object Classes (VOC) Challenge",
+      "year": 2009,
+      "cited_by_count": 19264,
+      "adjusted_cited_by_count": 4672.21,
+      "primary_topic_id": "sg-object-detection",
+      "primary_topic_label": "Object detection",
+      "url": "/domains/computer-vision/papers/W2031489346"
+    },
+    {
+      "source_id": "https://openalex.org/W2335728318",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "year": 2024,
+      "cited_by_count": 4556,
+      "adjusted_cited_by_count": 4556.0,
+      "primary_topic_id": "sg-feature-extraction",
+      "primary_topic_label": "Feature extraction",
+      "url": "/domains/computer-vision/papers/W2335728318"
+    },
+    {
+      "source_id": "https://openalex.org/W2954996726",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "year": 2019,
+      "cited_by_count": 12005,
+      "adjusted_cited_by_count": 4537.46,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2954996726"
+    },
+    {
+      "source_id": "https://openalex.org/W2033819227",
+      "title": "Multiple View Geometry in Computer Vision",
+      "year": 2004,
+      "cited_by_count": 20688,
+      "adjusted_cited_by_count": 4410.7,
+      "primary_topic_id": "sg-image-processing",
+      "primary_topic_label": "Image processing",
+      "url": "/domains/computer-vision/papers/W2033819227"
+    },
+    {
+      "source_id": "https://openalex.org/W1832693441",
+      "title": "Convolutional Neural Networks for Sentence Classification",
+      "year": 2014,
+      "cited_by_count": 13657,
+      "adjusted_cited_by_count": 3942.44,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W1832693441"
+    },
+    {
+      "source_id": "https://openalex.org/W2963091558",
+      "title": "Non-local Neural Networks",
+      "year": 2018,
+      "cited_by_count": 11085,
+      "adjusted_cited_by_count": 3919.14,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2963091558"
+    },
+    {
+      "source_id": "https://openalex.org/W2150066425",
+      "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+      "year": 2012,
+      "cited_by_count": 14179,
+      "adjusted_cited_by_count": 3789.5,
+      "primary_topic_id": "sg-object-detection",
+      "primary_topic_label": "Object detection",
+      "url": "/domains/computer-vision/papers/W2150066425"
+    },
+    {
+      "source_id": "https://openalex.org/W3034971973",
+      "title": "EfficientDet: Scalable and Efficient Object Detection",
+      "year": 2020,
+      "cited_by_count": 8165,
+      "adjusted_cited_by_count": 3333.35,
+      "primary_topic_id": "sg-network-architecture",
+      "primary_topic_label": "Network architecture",
+      "url": "/domains/computer-vision/papers/W3034971973"
+    },
+    {
+      "source_id": "https://openalex.org/W1554663460",
+      "title": "Neural networks for pattern recognition",
+      "year": 1994,
+      "cited_by_count": 18723,
+      "adjusted_cited_by_count": 3309.79,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W1554663460"
+    },
+    {
+      "source_id": "https://openalex.org/W2111619626",
+      "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+      "year": 2013,
+      "cited_by_count": 11852,
+      "adjusted_cited_by_count": 3287.15,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/computer-vision/papers/W2111619626"
+    },
+    {
+      "source_id": "https://openalex.org/W3140854437",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "year": 2021,
+      "cited_by_count": 7309,
+      "adjusted_cited_by_count": 3268.68,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W3140854437"
+    },
+    {
+      "source_id": "https://openalex.org/W2271840356",
+      "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems",
+      "year": 2016,
+      "cited_by_count": 9765,
+      "adjusted_cited_by_count": 3087.96,
+      "primary_topic_id": "sg-neural-network",
+      "primary_topic_label": "Neural network",
+      "url": "/domains/computer-vision/papers/W2271840356"
+    },
+    {
+      "source_id": "https://openalex.org/W4236965008",
+      "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+      "year": 1993,
+      "cited_by_count": 17734,
+      "adjusted_cited_by_count": 3087.09,
+      "primary_topic_id": "sg-computer-vision-pattern-recognition",
+      "primary_topic_label": "Computer vision pattern recognition",
+      "url": "/domains/computer-vision/papers/W4236965008"
+    },
+    {
+      "source_id": "https://openalex.org/W2557283755",
+      "title": "Deep Learning",
+      "year": 2016,
+      "cited_by_count": 8958,
+      "adjusted_cited_by_count": 2832.77,
+      "primary_topic_id": "sg-convolutional-neural-networks",
+      "primary_topic_label": "Convolutional neural networks",
+      "url": "/domains/computer-vision/papers/W2557283755"
+    },
+    {
+      "source_id": "https://openalex.org/W2117228865",
+      "title": "ORB: An efficient alternative to SIFT or SURF",
+      "year": 2011,
+      "cited_by_count": 10282,
+      "adjusted_cited_by_count": 2654.8,
+      "primary_topic_id": "sg-object-detection",
+      "primary_topic_label": "Object detection",
+      "url": "/domains/computer-vision/papers/W2117228865"
+    },
+    {
+      "source_id": "https://openalex.org/W4234552385",
+      "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+      "year": 1993,
+      "cited_by_count": 14334,
+      "adjusted_cited_by_count": 2495.23,
+      "primary_topic_id": "sg-computer-vision-pattern-recognition",
+      "primary_topic_label": "Computer vision pattern recognition",
+      "url": "/domains/computer-vision/papers/W4234552385"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2194775991",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2016,
+      "cited_by_count": 218563,
+      "adjusted_cited_by_count": 69115.69,
+      "url": "/domains/computer-vision/papers/W2194775991"
+    },
+    {
+      "source_id": "https://openalex.org/W1901129140",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "year": 2015,
+      "cited_by_count": 87169,
+      "adjusted_cited_by_count": 26282.44,
+      "url": "/domains/computer-vision/papers/W1901129140"
+    },
+    {
+      "source_id": "https://openalex.org/W2163605009",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "cited_by_count": 75671,
+      "adjusted_cited_by_count": 25223.67,
+      "url": "/domains/computer-vision/papers/W2163605009"
+    },
+    {
+      "source_id": "https://openalex.org/W2919115771",
+      "title": "Deep learning",
+      "year": 2015,
+      "cited_by_count": 79951,
+      "adjusted_cited_by_count": 24106.13,
+      "url": "/domains/computer-vision/papers/W2919115771"
+    },
+    {
+      "source_id": "https://openalex.org/W1686810756",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "cited_by_count": 75502,
+      "adjusted_cited_by_count": 21795.55,
+      "url": "/domains/computer-vision/papers/W1686810756"
+    },
+    {
+      "source_id": "https://openalex.org/W2099540110",
+      "title": "NIH Image to ImageJ: 25 years of image analysis",
+      "year": 2012,
+      "cited_by_count": 64090,
+      "adjusted_cited_by_count": 17128.77,
+      "url": "/domains/computer-vision/papers/W2099540110"
+    },
+    {
+      "source_id": "https://openalex.org/W2097117768",
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "cited_by_count": 46518,
+      "adjusted_cited_by_count": 14025.7,
+      "url": "/domains/computer-vision/papers/W2097117768"
+    },
+    {
+      "source_id": "https://openalex.org/W3138516171",
+      "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+      "year": 2021,
+      "cited_by_count": 28982,
+      "adjusted_cited_by_count": 12961.14,
+      "url": "/domains/computer-vision/papers/W3138516171"
+    },
+    {
+      "source_id": "https://openalex.org/W2117539524",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "year": 2015,
+      "cited_by_count": 39858,
+      "adjusted_cited_by_count": 12017.64,
+      "url": "/domains/computer-vision/papers/W2117539524"
+    },
+    {
+      "source_id": "https://openalex.org/W2112796928",
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "cited_by_count": 57423,
+      "adjusted_cited_by_count": 10851.93,
+      "url": "/domains/computer-vision/papers/W2112796928"
+    },
+    {
+      "source_id": "https://openalex.org/W2095705004",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "year": 2014,
+      "cited_by_count": 34246,
+      "adjusted_cited_by_count": 9885.97,
+      "url": "/domains/computer-vision/papers/W2095705004"
+    },
+    {
+      "source_id": "https://openalex.org/W2183341477",
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2016,
+      "cited_by_count": 30575,
+      "adjusted_cited_by_count": 9668.66,
+      "url": "/domains/computer-vision/papers/W2183341477"
+    },
+    {
+      "source_id": "https://openalex.org/W2565639579",
+      "title": "Feature Pyramid Networks for Object Detection",
+      "year": 2017,
+      "cited_by_count": 28193,
+      "adjusted_cited_by_count": 9397.67,
+      "url": "/domains/computer-vision/papers/W2565639579"
+    },
+    {
+      "source_id": "https://openalex.org/W2102605133",
+      "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+      "year": 2014,
+      "cited_by_count": 31476,
+      "adjusted_cited_by_count": 9086.34,
+      "url": "/domains/computer-vision/papers/W2102605133"
+    },
+    {
+      "source_id": "https://openalex.org/W3094502228",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "year": 2020,
+      "cited_by_count": 21438,
+      "adjusted_cited_by_count": 8752.03,
+      "url": "/domains/computer-vision/papers/W3094502228"
+    },
+    {
+      "source_id": "https://openalex.org/W2884585870",
+      "title": "CBAM: Convolutional Block Attention Module",
+      "year": 2018,
+      "cited_by_count": 21650,
+      "adjusted_cited_by_count": 7654.43,
+      "url": "/domains/computer-vision/papers/W2884585870"
+    },
+    {
+      "source_id": "https://openalex.org/W2561675875",
+      "title": "Lecture Notes in Computer Science 1205",
+      "year": 1999,
+      "cited_by_count": 38731,
+      "adjusted_cited_by_count": 7453.78,
+      "url": "/domains/computer-vision/papers/W2561675875"
+    },
+    {
+      "source_id": "https://openalex.org/W1836465849",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "year": 2015,
+      "cited_by_count": 24322,
+      "adjusted_cited_by_count": 7333.36,
+      "url": "/domains/computer-vision/papers/W1836465849"
+    },
+    {
+      "source_id": "https://openalex.org/W4239510810",
+      "title": "Support-vector networks",
+      "year": 1995,
+      "cited_by_count": 40128,
+      "adjusted_cited_by_count": 7207.2,
+      "url": "/domains/computer-vision/papers/W4239510810"
+    },
+    {
+      "source_id": "https://openalex.org/W1570448133",
+      "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+      "year": 2011,
+      "cited_by_count": 25709,
+      "adjusted_cited_by_count": 6638.04,
+      "url": "/domains/computer-vision/papers/W1570448133"
+    },
+    {
+      "source_id": "https://openalex.org/W2531409750",
+      "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+      "year": 2017,
+      "cited_by_count": 18597,
+      "adjusted_cited_by_count": 6199.0,
+      "url": "/domains/computer-vision/papers/W2531409750"
+    },
+    {
+      "source_id": "https://openalex.org/W4386076325",
+      "title": "YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors",
+      "year": 2023,
+      "cited_by_count": 10592,
+      "adjusted_cited_by_count": 6115.29,
+      "url": "/domains/computer-vision/papers/W4386076325"
+    },
+    {
+      "source_id": "https://openalex.org/W2119821739",
+      "title": "Support-Vector Networks",
+      "year": 1995,
+      "cited_by_count": 32418,
+      "adjusted_cited_by_count": 5822.44,
+      "url": "/domains/computer-vision/papers/W2119821739"
+    },
+    {
+      "source_id": "https://openalex.org/W2165698076",
+      "title": "A Survey on Transfer Learning",
+      "year": 2009,
+      "cited_by_count": 22818,
+      "adjusted_cited_by_count": 5534.18,
+      "url": "/domains/computer-vision/papers/W2165698076"
+    },
+    {
+      "source_id": "https://openalex.org/W2031489346",
+      "title": "The Pascal Visual Object Classes (VOC) Challenge",
+      "year": 2009,
+      "cited_by_count": 19264,
+      "adjusted_cited_by_count": 4672.21,
+      "url": "/domains/computer-vision/papers/W2031489346"
+    },
+    {
+      "source_id": "https://openalex.org/W2335728318",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "year": 2024,
+      "cited_by_count": 4556,
+      "adjusted_cited_by_count": 4556.0,
+      "url": "/domains/computer-vision/papers/W2335728318"
+    },
+    {
+      "source_id": "https://openalex.org/W2954996726",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "year": 2019,
+      "cited_by_count": 12005,
+      "adjusted_cited_by_count": 4537.46,
+      "url": "/domains/computer-vision/papers/W2954996726"
+    },
+    {
+      "source_id": "https://openalex.org/W2033819227",
+      "title": "Multiple View Geometry in Computer Vision",
+      "year": 2004,
+      "cited_by_count": 20688,
+      "adjusted_cited_by_count": 4410.7,
+      "url": "/domains/computer-vision/papers/W2033819227"
+    },
+    {
+      "source_id": "https://openalex.org/W1832693441",
+      "title": "Convolutional Neural Networks for Sentence Classification",
+      "year": 2014,
+      "cited_by_count": 13657,
+      "adjusted_cited_by_count": 3942.44,
+      "url": "/domains/computer-vision/papers/W1832693441"
+    },
+    {
+      "source_id": "https://openalex.org/W2963091558",
+      "title": "Non-local Neural Networks",
+      "year": 2018,
+      "cited_by_count": 11085,
+      "adjusted_cited_by_count": 3919.14,
+      "url": "/domains/computer-vision/papers/W2963091558"
+    },
+    {
+      "source_id": "https://openalex.org/W2150066425",
+      "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+      "year": 2012,
+      "cited_by_count": 14179,
+      "adjusted_cited_by_count": 3789.5,
+      "url": "/domains/computer-vision/papers/W2150066425"
+    },
+    {
+      "source_id": "https://openalex.org/W3034971973",
+      "title": "EfficientDet: Scalable and Efficient Object Detection",
+      "year": 2020,
+      "cited_by_count": 8165,
+      "adjusted_cited_by_count": 3333.35,
+      "url": "/domains/computer-vision/papers/W3034971973"
+    },
+    {
+      "source_id": "https://openalex.org/W1554663460",
+      "title": "Neural networks for pattern recognition",
+      "year": 1994,
+      "cited_by_count": 18723,
+      "adjusted_cited_by_count": 3309.79,
+      "url": "/domains/computer-vision/papers/W1554663460"
+    },
+    {
+      "source_id": "https://openalex.org/W2111619626",
+      "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+      "year": 2013,
+      "cited_by_count": 11852,
+      "adjusted_cited_by_count": 3287.15,
+      "url": "/domains/computer-vision/papers/W2111619626"
+    },
+    {
+      "source_id": "https://openalex.org/W3140854437",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "year": 2021,
+      "cited_by_count": 7309,
+      "adjusted_cited_by_count": 3268.68,
+      "url": "/domains/computer-vision/papers/W3140854437"
+    },
+    {
+      "source_id": "https://openalex.org/W2271840356",
+      "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems",
+      "year": 2016,
+      "cited_by_count": 9765,
+      "adjusted_cited_by_count": 3087.96,
+      "url": "/domains/computer-vision/papers/W2271840356"
+    },
+    {
+      "source_id": "https://openalex.org/W4236965008",
+      "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+      "year": 1993,
+      "cited_by_count": 17734,
+      "adjusted_cited_by_count": 3087.09,
+      "url": "/domains/computer-vision/papers/W4236965008"
+    },
+    {
+      "source_id": "https://openalex.org/W2557283755",
+      "title": "Deep Learning",
+      "year": 2016,
+      "cited_by_count": 8958,
+      "adjusted_cited_by_count": 2832.77,
+      "url": "/domains/computer-vision/papers/W2557283755"
+    },
+    {
+      "source_id": "https://openalex.org/W2117228865",
+      "title": "ORB: An efficient alternative to SIFT or SURF",
+      "year": 2011,
+      "cited_by_count": 10282,
+      "adjusted_cited_by_count": 2654.8,
+      "url": "/domains/computer-vision/papers/W2117228865"
+    },
+    {
+      "source_id": "https://openalex.org/W4234552385",
+      "title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+      "year": 1993,
+      "cited_by_count": 14334,
+      "adjusted_cited_by_count": 2495.23,
+      "url": "/domains/computer-vision/papers/W4234552385"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 345
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 321
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 216
+    },
+    {
+      "label": "vision",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 195
+    },
+    {
+      "label": "computer vision",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 194
+    },
+    {
+      "label": "recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 162
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 147
+    },
+    {
+      "label": "pattern recognition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 144
+    },
+    {
+      "label": "image processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 143
+    },
+    {
+      "label": "neural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "deep learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 139
+    },
+    {
+      "label": "neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 130
+    },
+    {
+      "label": "networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "models",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 107
+    },
+    {
+      "label": "over",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 105
+    },
+    {
+      "label": "classification",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "task",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "set",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "convolutional neural networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 86
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 85
+    },
+    {
+      "label": "neural networks",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 83
+    },
+    {
+      "label": "algorithms",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "artificial neural network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 80
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 75
+    },
+    {
+      "label": "field mathematics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9897,
+      "evidence_count": 67
+    },
+    {
+      "label": "processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 67
+    },
+    {
+      "label": "object",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9891,
+      "evidence_count": 63
+    },
+    {
+      "label": "architecture",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 61
+    },
+    {
+      "label": "detection",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9887,
+      "evidence_count": 61
+    },
+    {
+      "label": "natural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 55
+    },
+    {
+      "label": "training",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 54
+    },
+    {
+      "label": "visual",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 62
+    },
+    {
+      "label": "survey",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 53
+    },
+    {
+      "label": "techniques",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 53
+    },
+    {
+      "label": "human computer interaction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 50
+    },
+    {
+      "label": "vision and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 50
+    },
+    {
+      "label": "representation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 49
+    },
+    {
+      "label": "natural language processing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9867,
+      "evidence_count": 46
+    },
+    {
+      "label": "benchmark",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 45
+    },
+    {
+      "label": "ratio",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9865,
+      "evidence_count": 45
+    },
+    {
+      "label": "computer graphics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 44
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9864,
+      "evidence_count": 44
+    },
+    {
+      "label": "wide",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9861,
+      "evidence_count": 42
+    },
+    {
+      "label": "pattern",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 145
+    },
+    {
+      "label": "text",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9858,
+      "evidence_count": 40
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.9858,
+      "evidence_count": 40
+    },
+    {
+      "label": "comprehensive",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 38
+    }
+  ],
+  "topic_year_counts": {
+    "neural network": {
+      "2025": 496154,
+      "2024": 489410,
+      "2023": 461822,
+      "2022": 317411,
+      "2021": 275973,
+      "2020": 227879,
+      "2026": 222605,
+      "2019": 180411,
+      "2018": 137526,
+      "2017": 101397,
+      "2016": 80705,
+      "2015": 69568,
+      "2014": 63491,
+      "2013": 58640,
+      "2012": 52255,
+      "2011": 47122,
+      "2010": 41700,
+      "2009": 37770,
+      "2008": 33052,
+      "2007": 29600,
+      "2006": 28925,
+      "2002": 26121,
+      "2005": 25112,
+      "2003": 20978,
+      "2004": 20618,
+      "2001": 12879,
+      "2000": 12223
+    },
+    "image processing": {
+      "2023": 958528,
+      "2024": 934060,
+      "2025": 874323,
+      "2022": 649422,
+      "2021": 588359,
+      "2020": 532603,
+      "2019": 441686,
+      "2018": 386007,
+      "2017": 344635,
+      "2016": 314057,
+      "2015": 284842,
+      "2014": 258273,
+      "2026": 255586,
+      "2013": 233045,
+      "2012": 202609,
+      "2011": 175334,
+      "2010": 152717,
+      "2009": 131295,
+      "2008": 110932,
+      "2007": 97486,
+      "2006": 86163,
+      "2005": 76325,
+      "2004": 65139,
+      "2003": 57490,
+      "2002": 54446,
+      "2001": 39739,
+      "2000": 39190
+    },
+    "computer vision pattern recognition": {
+      "2024": 105188,
+      "2023": 100944,
+      "2025": 88596,
+      "2022": 55434,
+      "2021": 46349,
+      "2020": 38377,
+      "2026": 31298,
+      "2019": 30983,
+      "2018": 23998,
+      "2017": 19051,
+      "2016": 16689,
+      "2015": 14757,
+      "2014": 13452,
+      "2013": 11902,
+      "2012": 9939,
+      "2011": 8594,
+      "2010": 7319,
+      "2009": 6496,
+      "2008": 5218,
+      "2007": 4524,
+      "2006": 3885,
+      "2005": 3529,
+      "2004": 2703,
+      "2003": 2340,
+      "2002": 2012,
+      "2000": 1665,
+      "2001": 1510
+    },
+    "convolutional neural networks": {
+      "2024": 188651,
+      "2025": 182050,
+      "2023": 177795,
+      "2022": 114053,
+      "2021": 93657,
+      "2020": 71363,
+      "2026": 55306,
+      "2019": 52260,
+      "2018": 32385,
+      "2017": 17593,
+      "2016": 8674,
+      "2015": 4338,
+      "2014": 2258,
+      "2013": 1571,
+      "2012": 1275,
+      "2011": 1064,
+      "2010": 916,
+      "2009": 749,
+      "2008": 702,
+      "2007": 589,
+      "2006": 575,
+      "2005": 478,
+      "2004": 361,
+      "2003": 341,
+      "2002": 317,
+      "2000": 264,
+      "2001": 205
+    },
+    "object detection": {
+      "2023": 176265,
+      "2024": 170021,
+      "2025": 152759,
+      "2022": 116672,
+      "2021": 100646,
+      "2020": 86377,
+      "2019": 73273,
+      "2018": 60469,
+      "2017": 50721,
+      "2026": 49193,
+      "2016": 46058,
+      "2015": 41977,
+      "2014": 37184,
+      "2013": 33883,
+      "2012": 29623,
+      "2011": 25105,
+      "2010": 22577,
+      "2009": 19035,
+      "2008": 15844,
+      "2007": 13853,
+      "2006": 12680,
+      "2005": 10549,
+      "2004": 9094,
+      "2003": 7754,
+      "2002": 7166,
+      "2001": 5252,
+      "2000": 4882
+    },
+    "feature extraction": {
+      "2025": 217607,
+      "2024": 199533,
+      "2023": 180108,
+      "2022": 116403,
+      "2021": 98537,
+      "2020": 84011,
+      "2026": 70416,
+      "2019": 69689,
+      "2018": 57297,
+      "2017": 48563,
+      "2016": 43505,
+      "2015": 39553,
+      "2014": 35479,
+      "2013": 31782,
+      "2012": 27491,
+      "2011": 23473,
+      "2010": 20120,
+      "2009": 17537,
+      "2008": 14597,
+      "2007": 12535,
+      "2006": 11029,
+      "2005": 9719,
+      "2004": 7645,
+      "2003": 6866,
+      "2002": 6385,
+      "2000": 4518,
+      "2001": 4423
+    },
+    "domain adaptation": {
+      "2025": 195871,
+      "2024": 165642,
+      "2023": 148500,
+      "2022": 94338,
+      "2021": 85420,
+      "2026": 74479,
+      "2020": 74152,
+      "2019": 57981,
+      "2018": 50031,
+      "2017": 44011,
+      "2016": 40893,
+      "2015": 36642,
+      "2014": 34104,
+      "2013": 29856,
+      "2012": 26579,
+      "2011": 23065,
+      "2010": 19214,
+      "2009": 17104,
+      "2008": 13941,
+      "2007": 11985,
+      "2006": 10436,
+      "2005": 9139,
+      "2004": 7347,
+      "2003": 5868,
+      "2002": 5027,
+      "2000": 3983,
+      "2001": 3957
+    },
+    "network architecture": {
+      "2025": 386329,
+      "2024": 337705,
+      "2023": 327200,
+      "2022": 210183,
+      "2021": 187862,
+      "2020": 163035,
+      "2026": 150630,
+      "2019": 134671,
+      "2018": 109526,
+      "2017": 88949,
+      "2016": 78309,
+      "2015": 69422,
+      "2014": 62927,
+      "2013": 56434,
+      "2012": 50571,
+      "2011": 43306,
+      "2010": 38464,
+      "2009": 32991,
+      "2008": 28848,
+      "2007": 25518,
+      "2006": 23497,
+      "2005": 20152,
+      "2004": 17170,
+      "2002": 16755,
+      "2003": 15599,
+      "2000": 8672,
+      "2001": 8208
+    }
+  }
+}

@@ -1,0 +1,1882 @@
+{
+  "slug": "quantum-computing",
+  "title": "Quantum Computing",
+  "updated_at": "2026-04-24T11:29:24.605540Z",
+  "snapshot": {
+    "papers": 208,
+    "topics": 5,
+    "subtopics": 36,
+    "entities": 647,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 266,
+      "total_papers": 266,
+      "facet_counts": {
+        "none": 266
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning quantum computing algorithms and architecture.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 5,
+    "descendant_topics": 36,
+    "max_depth": 2,
+    "leaf_topics": 37
+  },
+  "rising_topics": [
+    {
+      "id": "sg-quantum-computer",
+      "label": "Quantum computer",
+      "url": "/domains/quantum-computing/topics/sg-quantum-computer",
+      "trend": "rising",
+      "year_total": 385665
+    },
+    {
+      "id": "sg-statistical-physics",
+      "label": "Statistical physics",
+      "url": "/domains/quantum-computing/topics/sg-statistical-physics",
+      "trend": "rising",
+      "year_total": 987394
+    },
+    {
+      "id": "sg-quantum-information",
+      "label": "Quantum information",
+      "url": "/domains/quantum-computing/topics/sg-quantum-information",
+      "trend": "rising",
+      "year_total": 926272
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-quantum-computer",
+      "label": "Quantum computer",
+      "url": "/domains/quantum-computing/topics/sg-quantum-computer",
+      "paper_count": 100,
+      "subtopic_count": 18,
+      "trend": "rising",
+      "summary": "",
+      "tags": [
+        "logarithms on quantum computer",
+        "one-way quantum computer",
+        "quantum algorithm",
+        "quantum computation"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-quantum-computer-quantum-computing-systems",
+          "label": "Quantum computing systems",
+          "url": "/domains/quantum-computing/topics/sg-quantum-computer-quantum-computing-systems",
+          "paper_count": 28
+        },
+        {
+          "id": "sg-quantum-computer-quantum-algorithms",
+          "label": "Quantum algorithms",
+          "url": "/domains/quantum-computing/topics/sg-quantum-computer-quantum-algorithms",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-quantum-computer-turing-machines-in-quantum-computing",
+          "label": "Turing machines in quantum computing",
+          "url": "/domains/quantum-computing/topics/sg-quantum-computer-turing-machines-in-quantum-computing",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-quantum-computer-spin-engineering",
+          "label": "Spin engineering",
+          "url": "/domains/quantum-computing/topics/sg-quantum-computer-spin-engineering",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-quantum-computer-adiabatic-process",
+          "label": "Adiabatic process",
+          "url": "/domains/quantum-computing/topics/sg-quantum-computer-adiabatic-process",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-quantum-computer-mathematical-optimization",
+          "label": "Mathematical optimization",
+          "url": "/domains/quantum-computing/topics/sg-quantum-computer-mathematical-optimization",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": []
+    },
+    {
+      "id": "sg-statistical-physics",
+      "label": "Statistical physics",
+      "url": "/domains/quantum-computing/topics/sg-statistical-physics",
+      "paper_count": 53,
+      "subtopic_count": 9,
+      "trend": "rising",
+      "summary": "entities: quantum, theory, of the",
+      "tags": [
+        "density matrix",
+        "ensemble quantum computing",
+        "quantum chemistry",
+        "quantum dynamics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-statistical-physics-density-matrix",
+          "label": "Density matrix",
+          "url": "/domains/quantum-computing/topics/sg-statistical-physics-density-matrix",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-statistical-physics-monte-carlo",
+          "label": "Monte carlo",
+          "url": "/domains/quantum-computing/topics/sg-statistical-physics-monte-carlo",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-statistical-physics-wave-function",
+          "label": "Wave function",
+          "url": "/domains/quantum-computing/topics/sg-statistical-physics-wave-function",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-statistical-physics-critical-phenomena",
+          "label": "Critical phenomena",
+          "url": "/domains/quantum-computing/topics/sg-statistical-physics-critical-phenomena",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-statistical-physics-degrees-of-freedom",
+          "label": "Degrees of freedom",
+          "url": "/domains/quantum-computing/topics/sg-statistical-physics-degrees-of-freedom",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-statistical-physics-atomic-orbital",
+          "label": "Atomic orbital",
+          "url": "/domains/quantum-computing/topics/sg-statistical-physics-atomic-orbital",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2026172453",
+          "title": "Advances in molecular quantum chemistry contained in the Q-Chem 4 program package",
+          "year": "2014",
+          "cited_by_count": 3131,
+          "url": "/domains/quantum-computing/papers/W2026172453"
+        },
+        {
+          "source_id": "https://openalex.org/W3094812309",
+          "title": "GWTC-2: Compact Binary Coalescences Observed by LIGO and Virgo during the First Half of the Third Observing Run",
+          "year": "2021",
+          "cited_by_count": 1951,
+          "url": "/domains/quantum-computing/papers/W3094812309"
+        },
+        {
+          "source_id": "https://openalex.org/W2989052455",
+          "title": "ff19SB: Amino-Acid-Specific Protein Backbone Parameters Trained against Quantum Mechanics Energy Surfaces in Solution",
+          "year": "2019",
+          "cited_by_count": 2235,
+          "url": "/domains/quantum-computing/papers/W2989052455"
+        }
+      ]
+    },
+    {
+      "id": "sg-quantum-information",
+      "label": "Quantum information",
+      "url": "/domains/quantum-computing/topics/sg-quantum-information",
+      "paper_count": 27,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: quantum, quantum information and cryptography, quantum information",
+      "tags": [
+        "computation quantum information",
+        "experimental quantum cryptography",
+        "quantum cryptography",
+        "quantum imaging"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-quantum-information-quantum-distribution",
+          "label": "Quantum distribution",
+          "url": "/domains/quantum-computing/topics/sg-quantum-information-quantum-distribution",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-quantum-information-quantum-channel",
+          "label": "Quantum channel",
+          "url": "/domains/quantum-computing/topics/sg-quantum-information-quantum-channel",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-quantum-information-supramolecular-chemistry",
+          "label": "Supramolecular chemistry",
+          "url": "/domains/quantum-computing/topics/sg-quantum-information-supramolecular-chemistry",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2987687226",
+          "title": "Quantum cryptography: Public key distribution and coin tossing",
+          "year": "2020",
+          "cited_by_count": 5384,
+          "url": "/domains/quantum-computing/papers/W2987687226"
+        },
+        {
+          "source_id": "https://openalex.org/W2051051926",
+          "title": "Quantum cryptography based on Bell’s theorem",
+          "year": "1991",
+          "cited_by_count": 10631,
+          "url": "/domains/quantum-computing/papers/W2051051926"
+        },
+        {
+          "source_id": "https://openalex.org/W3038067977",
+          "title": "Quantum cryptography",
+          "year": "2002",
+          "cited_by_count": 8277,
+          "url": "/domains/quantum-computing/papers/W3038067977"
+        }
+      ]
+    },
+    {
+      "id": "sg-quantum-entanglement",
+      "label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/topics/sg-quantum-entanglement",
+      "paper_count": 26,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: quantum, quantum entanglement, open quantum system",
+      "tags": [
+        "computation quantum information",
+        "quantum channel",
+        "quantum discord",
+        "quantum entanglement"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-quantum-entanglement-quantum-optics",
+          "label": "Quantum optics",
+          "url": "/domains/quantum-computing/topics/sg-quantum-entanglement-quantum-optics",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-quantum-entanglement-amplitude-damping-channel",
+          "label": "Amplitude damping channel",
+          "url": "/domains/quantum-computing/topics/sg-quantum-entanglement-amplitude-damping-channel",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-quantum-entanglement-continuous-variable",
+          "label": "Continuous variable",
+          "url": "/domains/quantum-computing/topics/sg-quantum-entanglement-continuous-variable",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-quantum-entanglement-superdense-coding",
+          "label": "Superdense coding",
+          "url": "/domains/quantum-computing/topics/sg-quantum-entanglement-superdense-coding",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-quantum-entanglement-entanglement-entropy",
+          "label": "Entanglement entropy",
+          "url": "/domains/quantum-computing/topics/sg-quantum-entanglement-entanglement-entropy",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-quantum-entanglement-entanglement-quantum",
+          "label": "Entanglement quantum",
+          "url": "/domains/quantum-computing/topics/sg-quantum-entanglement-entanglement-quantum",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3037737784",
+          "title": "Quantum entanglement",
+          "year": "2009",
+          "cited_by_count": 9878,
+          "url": "/domains/quantum-computing/papers/W3037737784"
+        },
+        {
+          "source_id": "https://openalex.org/W2990961515",
+          "title": "Quantum Computation and Quantum Information",
+          "year": "2012",
+          "cited_by_count": 8340,
+          "url": "/domains/quantum-computing/papers/W2990961515"
+        },
+        {
+          "source_id": "https://openalex.org/W2132764286",
+          "title": "The quantum internet",
+          "year": "2008",
+          "cited_by_count": 5755,
+          "url": "/domains/quantum-computing/papers/W2132764286"
+        }
+      ]
+    },
+    {
+      "id": "sg-quantum-network",
+      "label": "Quantum network",
+      "url": "/domains/quantum-computing/topics/sg-quantum-network",
+      "paper_count": 2,
+      "subtopic_count": 0,
+      "trend": "rising",
+      "summary": "entities: quantum, quantum network, based on",
+      "tags": [
+        "age of quantum computing",
+        "optical quantum",
+        "optical quantum computing",
+        "quantum channel"
+      ],
+      "subtopics": [],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2047131277",
+          "title": "Optical Quantum Computing",
+          "year": "2007",
+          "cited_by_count": 1155,
+          "url": "/domains/quantum-computing/papers/W2047131277"
+        },
+        {
+          "source_id": "https://openalex.org/W2114190535",
+          "title": "Dephasing-assisted transport: quantum networks and biomolecules",
+          "year": "2008",
+          "cited_by_count": 897,
+          "url": "/domains/quantum-computing/papers/W2114190535"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Quantum computer",
+      "paper_count": 18,
+      "papers": [
+        {
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2020",
+          "cited_by_count": 36578,
+          "topic": "Quantum computer",
+          "url": "papers/https-openalex-org-w3003257820.html"
+        },
+        {
+          "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "year": "2019",
+          "cited_by_count": 11584,
+          "topic": "Quantum computer",
+          "url": "papers/https-openalex-org-w3103145119.html"
+        },
+        {
+          "title": "Quantum Computing in the NISQ era and beyond",
+          "year": "2018",
+          "cited_by_count": 7945,
+          "topic": "Quantum computer",
+          "url": "papers/https-openalex-org-w2781738013.html"
+        },
+        {
+          "title": "Quantum supremacy using a programmable superconducting processor",
+          "year": "2019",
+          "cited_by_count": 6860,
+          "topic": "Quantum computer",
+          "url": "papers/https-openalex-org-w2982169647.html"
+        },
+        {
+          "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
+          "year": "2017",
+          "cited_by_count": 7296,
+          "topic": "Quantum computer",
+          "url": "papers/https-openalex-org-w2757803490.html"
+        },
+        {
+          "title": "Algorithms for quantum computation: discrete logarithms and factoring",
+          "year": "2002",
+          "cited_by_count": 8375,
+          "topic": "Quantum computer",
+          "url": "papers/https-openalex-org-w2168676717.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum entanglement",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Quantum entanglement",
+          "year": "2009",
+          "cited_by_count": 9878,
+          "topic": "Quantum entanglement",
+          "url": "papers/https-openalex-org-w3037737784.html"
+        },
+        {
+          "title": "Quantum Computation and Quantum Information",
+          "year": "2012",
+          "cited_by_count": 8340,
+          "topic": "Quantum entanglement",
+          "url": "papers/https-openalex-org-w2990961515.html"
+        },
+        {
+          "title": "The quantum internet",
+          "year": "2008",
+          "cited_by_count": 5755,
+          "topic": "Quantum entanglement",
+          "url": "papers/https-openalex-org-w2132764286.html"
+        },
+        {
+          "title": "Quantum sensing",
+          "year": "2017",
+          "cited_by_count": 3777,
+          "topic": "Quantum entanglement",
+          "url": "papers/https-openalex-org-w3037447387.html"
+        },
+        {
+          "title": "Mixed-state entanglement and quantum error correction",
+          "year": "1996",
+          "cited_by_count": 5361,
+          "topic": "Quantum entanglement",
+          "url": "papers/https-openalex-org-w2060887031.html"
+        },
+        {
+          "title": "Holographic Derivation of Entanglement Entropy from the anti–de Sitter Space/Conformal Field Theory Correspondence",
+          "year": "2006",
+          "cited_by_count": 4312,
+          "topic": "Quantum entanglement",
+          "url": "papers/https-openalex-org-w2110283120.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum information",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "Quantum cryptography: Public key distribution and coin tossing",
+          "year": "2020",
+          "cited_by_count": 5384,
+          "topic": "Quantum information",
+          "url": "papers/https-openalex-org-w2987687226.html"
+        },
+        {
+          "title": "Quantum cryptography based on Bell’s theorem",
+          "year": "1991",
+          "cited_by_count": 10631,
+          "topic": "Quantum information",
+          "url": "papers/https-openalex-org-w2051051926.html"
+        },
+        {
+          "title": "Quantum cryptography",
+          "year": "2002",
+          "cited_by_count": 8277,
+          "topic": "Quantum information",
+          "url": "papers/https-openalex-org-w3038067977.html"
+        },
+        {
+          "title": "A scheme for efficient quantum computation with linear optics",
+          "year": "2001",
+          "cited_by_count": 5833,
+          "topic": "Quantum information",
+          "url": "papers/https-openalex-org-w2163525631.html"
+        },
+        {
+          "title": "Quantum cryptography: Public key distribution and coin tossing",
+          "year": "2014",
+          "cited_by_count": 3804,
+          "topic": "Quantum information",
+          "url": "papers/https-openalex-org-w2015179126.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "jModelTest 2: more models, new heuristics and parallel computing",
+          "year": "2012",
+          "cited_by_count": 16865,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1969042907.html"
+        },
+        {
+          "title": "Semiconductor Clusters, Nanocrystals, and Quantum Dots",
+          "year": "1996",
+          "cited_by_count": 11368,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2123605247.html"
+        },
+        {
+          "title": "Quantum Dot Bioconjugates for Ultrasensitive Nonisotopic Detection",
+          "year": "1998",
+          "cited_by_count": 7231,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2094437628.html"
+        },
+        {
+          "title": "Quantum dot bioconjugates for imaging, labelling and sensing",
+          "year": "2005",
+          "cited_by_count": 6136,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2148924929.html"
+        }
+      ]
+    },
+    {
+      "label": "Fundamental algorithms scientific",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "R: A Language and Environment for Statistical Computing",
+          "year": "2000",
+          "cited_by_count": 352953,
+          "topic": "Fundamental algorithms scientific",
+          "url": "papers/https-openalex-org-w2582743722.html"
+        },
+        {
+          "title": "Scikit-learn: Machine Learning in Python",
+          "year": "2012",
+          "cited_by_count": 63569,
+          "topic": "Fundamental algorithms scientific",
+          "url": "papers/https-openalex-org-w2101234009.html"
+        },
+        {
+          "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+          "year": "2009",
+          "cited_by_count": 28488,
+          "topic": "Fundamental algorithms scientific",
+          "url": "papers/https-openalex-org-w2120145199.html"
+        }
+      ]
+    },
+    {
+      "label": "Adiabatic process",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "A view of cloud computing",
+          "year": "2010",
+          "cited_by_count": 8927,
+          "topic": "Adiabatic process",
+          "url": "papers/https-openalex-org-w2114296561.html"
+        }
+      ]
+    },
+    {
+      "label": "Hilbert space",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+          "year": "2005",
+          "cited_by_count": 7704,
+          "topic": "Hilbert space",
+          "url": "papers/https-openalex-org-w2154321074.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum algorithms",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Basic concepts and taxonomy of dependable and secure computing",
+          "year": "2004",
+          "cited_by_count": 5099,
+          "topic": "Quantum algorithms",
+          "url": "papers/https-openalex-org-w2145071552.html"
+        }
+      ]
+    },
+    {
+      "label": "Statistical physics",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Advances in molecular quantum chemistry contained in the Q-Chem 4 program package",
+          "year": "2014",
+          "cited_by_count": 3131,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w2026172453.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352953,
+      "adjusted_cited_by_count": 69219.78,
+      "primary_topic_id": "sg-quantum-computer-fundamental-algorithms-scientific",
+      "primary_topic_label": "Fundamental algorithms scientific",
+      "url": "/domains/quantum-computing/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2101234009",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "year": 2012,
+      "cited_by_count": 63569,
+      "adjusted_cited_by_count": 16989.53,
+      "primary_topic_id": "sg-quantum-computer-fundamental-algorithms-scientific",
+      "primary_topic_label": "Fundamental algorithms scientific",
+      "url": "/domains/quantum-computing/papers/W2101234009"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36578,
+      "adjusted_cited_by_count": 14932.91,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2120145199",
+      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+      "year": 2009,
+      "cited_by_count": 28488,
+      "adjusted_cited_by_count": 6909.35,
+      "primary_topic_id": "sg-quantum-computer-fundamental-algorithms-scientific",
+      "primary_topic_label": "Fundamental algorithms scientific",
+      "url": "/domains/quantum-computing/papers/W2120145199"
+    },
+    {
+      "source_id": "https://openalex.org/W1969042907",
+      "title": "jModelTest 2: more models, new heuristics and parallel computing",
+      "year": 2012,
+      "cited_by_count": 16865,
+      "adjusted_cited_by_count": 4507.36,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/quantum-computing/papers/W1969042907"
+    },
+    {
+      "source_id": "https://openalex.org/W3103145119",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2019,
+      "cited_by_count": 11584,
+      "adjusted_cited_by_count": 4378.34,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W3103145119"
+    },
+    {
+      "source_id": "https://openalex.org/W2781738013",
+      "title": "Quantum Computing in the NISQ era and beyond",
+      "year": 2018,
+      "cited_by_count": 7945,
+      "adjusted_cited_by_count": 2808.98,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2781738013"
+    },
+    {
+      "source_id": "https://openalex.org/W2982169647",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "year": 2019,
+      "cited_by_count": 6860,
+      "adjusted_cited_by_count": 2592.84,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2982169647"
+    },
+    {
+      "source_id": "https://openalex.org/W2757803490",
+      "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
+      "year": 2017,
+      "cited_by_count": 7296,
+      "adjusted_cited_by_count": 2432.0,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2757803490"
+    },
+    {
+      "source_id": "https://openalex.org/W3037737784",
+      "title": "Quantum entanglement",
+      "year": 2009,
+      "cited_by_count": 9878,
+      "adjusted_cited_by_count": 2395.77,
+      "primary_topic_id": "sg-quantum-entanglement",
+      "primary_topic_label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/papers/W3037737784"
+    },
+    {
+      "source_id": "https://openalex.org/W2114296561",
+      "title": "A view of cloud computing",
+      "year": 2010,
+      "cited_by_count": 8927,
+      "adjusted_cited_by_count": 2231.75,
+      "primary_topic_id": "sg-quantum-computer-adiabatic-process",
+      "primary_topic_label": "Adiabatic process",
+      "url": "/domains/quantum-computing/papers/W2114296561"
+    },
+    {
+      "source_id": "https://openalex.org/W2990961515",
+      "title": "Quantum Computation and Quantum Information",
+      "year": 2012,
+      "cited_by_count": 8340,
+      "adjusted_cited_by_count": 2228.96,
+      "primary_topic_id": "sg-quantum-entanglement",
+      "primary_topic_label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/papers/W2990961515"
+    },
+    {
+      "source_id": "https://openalex.org/W2987687226",
+      "title": "Quantum cryptography: Public key distribution and coin tossing",
+      "year": 2020,
+      "cited_by_count": 5384,
+      "adjusted_cited_by_count": 2198.01,
+      "primary_topic_id": "sg-quantum-information",
+      "primary_topic_label": "Quantum information",
+      "url": "/domains/quantum-computing/papers/W2987687226"
+    },
+    {
+      "source_id": "https://openalex.org/W2123605247",
+      "title": "Semiconductor Clusters, Nanocrystals, and Quantum Dots",
+      "year": 1996,
+      "cited_by_count": 11368,
+      "adjusted_cited_by_count": 2075.5,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/quantum-computing/papers/W2123605247"
+    },
+    {
+      "source_id": "https://openalex.org/W2051051926",
+      "title": "Quantum cryptography based on Bell’s theorem",
+      "year": 1991,
+      "cited_by_count": 10631,
+      "adjusted_cited_by_count": 1796.97,
+      "primary_topic_id": "sg-quantum-information",
+      "primary_topic_label": "Quantum information",
+      "url": "/domains/quantum-computing/papers/W2051051926"
+    },
+    {
+      "source_id": "https://openalex.org/W2168676717",
+      "title": "Algorithms for quantum computation: discrete logarithms and factoring",
+      "year": 2002,
+      "cited_by_count": 8375,
+      "adjusted_cited_by_count": 1709.54,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2168676717"
+    },
+    {
+      "source_id": "https://openalex.org/W3038067977",
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by_count": 8277,
+      "adjusted_cited_by_count": 1689.54,
+      "primary_topic_id": "sg-quantum-information",
+      "primary_topic_label": "Quantum information",
+      "url": "/domains/quantum-computing/papers/W3038067977"
+    },
+    {
+      "source_id": "https://openalex.org/W2154321074",
+      "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+      "year": 2005,
+      "cited_by_count": 7704,
+      "adjusted_cited_by_count": 1681.15,
+      "primary_topic_id": "sg-quantum-computer-hilbert-space",
+      "primary_topic_label": "Hilbert space",
+      "url": "/domains/quantum-computing/papers/W2154321074"
+    },
+    {
+      "source_id": "https://openalex.org/W2152240519",
+      "title": "Non-Abelian anyons and topological quantum computation",
+      "year": 2008,
+      "cited_by_count": 6850,
+      "adjusted_cited_by_count": 1614.56,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2152240519"
+    },
+    {
+      "source_id": "https://openalex.org/W2084652510",
+      "title": "A fast quantum mechanical algorithm for database search",
+      "year": 1996,
+      "cited_by_count": 8451,
+      "adjusted_cited_by_count": 1542.93,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2084652510"
+    },
+    {
+      "source_id": "https://openalex.org/W2135273380",
+      "title": "Fault-tolerant quantum computation by anyons",
+      "year": 2003,
+      "cited_by_count": 7266,
+      "adjusted_cited_by_count": 1515.07,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2135273380"
+    },
+    {
+      "source_id": "https://openalex.org/W2087064593",
+      "title": "Identification of common molecular subsequences",
+      "year": 1981,
+      "cited_by_count": 10045,
+      "adjusted_cited_by_count": 1497.42,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2087064593"
+    },
+    {
+      "source_id": "https://openalex.org/W2559394418",
+      "title": "Quantum machine learning",
+      "year": 2017,
+      "cited_by_count": 4276,
+      "adjusted_cited_by_count": 1425.33,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2559394418"
+    },
+    {
+      "source_id": "https://openalex.org/W2094437628",
+      "title": "Quantum Dot Bioconjugates for Ultrasensitive Nonisotopic Detection",
+      "year": 1998,
+      "cited_by_count": 7231,
+      "adjusted_cited_by_count": 1366.53,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/quantum-computing/papers/W2094437628"
+    },
+    {
+      "source_id": "https://openalex.org/W2132764286",
+      "title": "The quantum internet",
+      "year": 2008,
+      "cited_by_count": 5755,
+      "adjusted_cited_by_count": 1356.47,
+      "primary_topic_id": "sg-quantum-entanglement",
+      "primary_topic_label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/papers/W2132764286"
+    },
+    {
+      "source_id": "https://openalex.org/W2148924929",
+      "title": "Quantum dot bioconjugates for imaging, labelling and sensing",
+      "year": 2005,
+      "cited_by_count": 6136,
+      "adjusted_cited_by_count": 1338.98,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/quantum-computing/papers/W2148924929"
+    },
+    {
+      "source_id": "https://openalex.org/W2103282498",
+      "title": "Quantum computation with quantum dots",
+      "year": 1998,
+      "cited_by_count": 6796,
+      "adjusted_cited_by_count": 1284.32,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2103282498"
+    },
+    {
+      "source_id": "https://openalex.org/W2161685427",
+      "title": "A variational eigenvalue solver on a photonic quantum processor",
+      "year": 2014,
+      "cited_by_count": 4448,
+      "adjusted_cited_by_count": 1284.03,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2161685427"
+    },
+    {
+      "source_id": "https://openalex.org/W3099200606",
+      "title": "Quantum Chemistry in the Age of Quantum Computing",
+      "year": null,
+      "cited_by_count": 1273,
+      "adjusted_cited_by_count": 1273.0,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W3099200606"
+    },
+    {
+      "source_id": "https://openalex.org/W3037447387",
+      "title": "Quantum sensing",
+      "year": 2017,
+      "cited_by_count": 3777,
+      "adjusted_cited_by_count": 1259.0,
+      "primary_topic_id": "sg-quantum-entanglement",
+      "primary_topic_label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/papers/W3037447387"
+    },
+    {
+      "source_id": "https://openalex.org/W3111162498",
+      "title": "Variational quantum algorithms",
+      "year": 2021,
+      "cited_by_count": 2783,
+      "adjusted_cited_by_count": 1244.6,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W3111162498"
+    },
+    {
+      "source_id": "https://openalex.org/W2163525631",
+      "title": "A scheme for efficient quantum computation with linear optics",
+      "year": 2001,
+      "cited_by_count": 5833,
+      "adjusted_cited_by_count": 1166.6,
+      "primary_topic_id": "sg-quantum-information",
+      "primary_topic_label": "Quantum information",
+      "url": "/domains/quantum-computing/papers/W2163525631"
+    },
+    {
+      "source_id": "https://openalex.org/W2015179126",
+      "title": "Quantum cryptography: Public key distribution and coin tossing",
+      "year": 2014,
+      "cited_by_count": 3804,
+      "adjusted_cited_by_count": 1098.12,
+      "primary_topic_id": "sg-quantum-information",
+      "primary_topic_label": "Quantum information",
+      "url": "/domains/quantum-computing/papers/W2015179126"
+    },
+    {
+      "source_id": "https://openalex.org/W2145071552",
+      "title": "Basic concepts and taxonomy of dependable and secure computing",
+      "year": 2004,
+      "cited_by_count": 5099,
+      "adjusted_cited_by_count": 1087.11,
+      "primary_topic_id": "sg-quantum-computer-quantum-algorithms",
+      "primary_topic_label": "Quantum algorithms",
+      "url": "/domains/quantum-computing/papers/W2145071552"
+    },
+    {
+      "source_id": "https://openalex.org/W3023478445",
+      "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+      "year": 1997,
+      "cited_by_count": 5757,
+      "adjusted_cited_by_count": 1069.05,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W3023478445"
+    },
+    {
+      "source_id": "https://openalex.org/W2755255888",
+      "title": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets",
+      "year": 2017,
+      "cited_by_count": 2972,
+      "adjusted_cited_by_count": 990.67,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2755255888"
+    },
+    {
+      "source_id": "https://openalex.org/W2060887031",
+      "title": "Mixed-state entanglement and quantum error correction",
+      "year": 1996,
+      "cited_by_count": 5361,
+      "adjusted_cited_by_count": 978.78,
+      "primary_topic_id": "sg-quantum-entanglement",
+      "primary_topic_label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/papers/W2060887031"
+    },
+    {
+      "source_id": "https://openalex.org/W2110283120",
+      "title": "Holographic Derivation of Entanglement Entropy from the anti–de Sitter Space/Conformal Field Theory Correspondence",
+      "year": 2006,
+      "cited_by_count": 4312,
+      "adjusted_cited_by_count": 964.19,
+      "primary_topic_id": "sg-quantum-entanglement",
+      "primary_topic_label": "Quantum entanglement",
+      "url": "/domains/quantum-computing/papers/W2110283120"
+    },
+    {
+      "source_id": "https://openalex.org/W2594183968",
+      "title": "MoleculeNet: a benchmark for molecular machine learning",
+      "year": 2017,
+      "cited_by_count": 2851,
+      "adjusted_cited_by_count": 950.33,
+      "primary_topic_id": "sg-quantum-computer",
+      "primary_topic_label": "Quantum computer",
+      "url": "/domains/quantum-computing/papers/W2594183968"
+    },
+    {
+      "source_id": "https://openalex.org/W2026172453",
+      "title": "Advances in molecular quantum chemistry contained in the Q-Chem 4 program package",
+      "year": 2014,
+      "cited_by_count": 3131,
+      "adjusted_cited_by_count": 903.84,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/quantum-computing/papers/W2026172453"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2582743722",
+      "title": "R: A Language and Environment for Statistical Computing",
+      "year": 2000,
+      "cited_by_count": 352953,
+      "adjusted_cited_by_count": 69219.78,
+      "url": "/domains/quantum-computing/papers/W2582743722"
+    },
+    {
+      "source_id": "https://openalex.org/W2101234009",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "year": 2012,
+      "cited_by_count": 63569,
+      "adjusted_cited_by_count": 16989.53,
+      "url": "/domains/quantum-computing/papers/W2101234009"
+    },
+    {
+      "source_id": "https://openalex.org/W3003257820",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by_count": 36578,
+      "adjusted_cited_by_count": 14932.91,
+      "url": "/domains/quantum-computing/papers/W3003257820"
+    },
+    {
+      "source_id": "https://openalex.org/W2120145199",
+      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+      "year": 2009,
+      "cited_by_count": 28488,
+      "adjusted_cited_by_count": 6909.35,
+      "url": "/domains/quantum-computing/papers/W2120145199"
+    },
+    {
+      "source_id": "https://openalex.org/W1969042907",
+      "title": "jModelTest 2: more models, new heuristics and parallel computing",
+      "year": 2012,
+      "cited_by_count": 16865,
+      "adjusted_cited_by_count": 4507.36,
+      "url": "/domains/quantum-computing/papers/W1969042907"
+    },
+    {
+      "source_id": "https://openalex.org/W3103145119",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2019,
+      "cited_by_count": 11584,
+      "adjusted_cited_by_count": 4378.34,
+      "url": "/domains/quantum-computing/papers/W3103145119"
+    },
+    {
+      "source_id": "https://openalex.org/W2781738013",
+      "title": "Quantum Computing in the NISQ era and beyond",
+      "year": 2018,
+      "cited_by_count": 7945,
+      "adjusted_cited_by_count": 2808.98,
+      "url": "/domains/quantum-computing/papers/W2781738013"
+    },
+    {
+      "source_id": "https://openalex.org/W2982169647",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "year": 2019,
+      "cited_by_count": 6860,
+      "adjusted_cited_by_count": 2592.84,
+      "url": "/domains/quantum-computing/papers/W2982169647"
+    },
+    {
+      "source_id": "https://openalex.org/W2757803490",
+      "title": "Advanced capabilities for materials modelling with Quantum ESPRESSO",
+      "year": 2017,
+      "cited_by_count": 7296,
+      "adjusted_cited_by_count": 2432.0,
+      "url": "/domains/quantum-computing/papers/W2757803490"
+    },
+    {
+      "source_id": "https://openalex.org/W3037737784",
+      "title": "Quantum entanglement",
+      "year": 2009,
+      "cited_by_count": 9878,
+      "adjusted_cited_by_count": 2395.77,
+      "url": "/domains/quantum-computing/papers/W3037737784"
+    },
+    {
+      "source_id": "https://openalex.org/W2114296561",
+      "title": "A view of cloud computing",
+      "year": 2010,
+      "cited_by_count": 8927,
+      "adjusted_cited_by_count": 2231.75,
+      "url": "/domains/quantum-computing/papers/W2114296561"
+    },
+    {
+      "source_id": "https://openalex.org/W2990961515",
+      "title": "Quantum Computation and Quantum Information",
+      "year": 2012,
+      "cited_by_count": 8340,
+      "adjusted_cited_by_count": 2228.96,
+      "url": "/domains/quantum-computing/papers/W2990961515"
+    },
+    {
+      "source_id": "https://openalex.org/W2987687226",
+      "title": "Quantum cryptography: Public key distribution and coin tossing",
+      "year": 2020,
+      "cited_by_count": 5384,
+      "adjusted_cited_by_count": 2198.01,
+      "url": "/domains/quantum-computing/papers/W2987687226"
+    },
+    {
+      "source_id": "https://openalex.org/W2123605247",
+      "title": "Semiconductor Clusters, Nanocrystals, and Quantum Dots",
+      "year": 1996,
+      "cited_by_count": 11368,
+      "adjusted_cited_by_count": 2075.5,
+      "url": "/domains/quantum-computing/papers/W2123605247"
+    },
+    {
+      "source_id": "https://openalex.org/W2051051926",
+      "title": "Quantum cryptography based on Bell’s theorem",
+      "year": 1991,
+      "cited_by_count": 10631,
+      "adjusted_cited_by_count": 1796.97,
+      "url": "/domains/quantum-computing/papers/W2051051926"
+    },
+    {
+      "source_id": "https://openalex.org/W2168676717",
+      "title": "Algorithms for quantum computation: discrete logarithms and factoring",
+      "year": 2002,
+      "cited_by_count": 8375,
+      "adjusted_cited_by_count": 1709.54,
+      "url": "/domains/quantum-computing/papers/W2168676717"
+    },
+    {
+      "source_id": "https://openalex.org/W3038067977",
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by_count": 8277,
+      "adjusted_cited_by_count": 1689.54,
+      "url": "/domains/quantum-computing/papers/W3038067977"
+    },
+    {
+      "source_id": "https://openalex.org/W2154321074",
+      "title": "Quantum Dots for Live Cells, in Vivo Imaging, and Diagnostics",
+      "year": 2005,
+      "cited_by_count": 7704,
+      "adjusted_cited_by_count": 1681.15,
+      "url": "/domains/quantum-computing/papers/W2154321074"
+    },
+    {
+      "source_id": "https://openalex.org/W2152240519",
+      "title": "Non-Abelian anyons and topological quantum computation",
+      "year": 2008,
+      "cited_by_count": 6850,
+      "adjusted_cited_by_count": 1614.56,
+      "url": "/domains/quantum-computing/papers/W2152240519"
+    },
+    {
+      "source_id": "https://openalex.org/W2084652510",
+      "title": "A fast quantum mechanical algorithm for database search",
+      "year": 1996,
+      "cited_by_count": 8451,
+      "adjusted_cited_by_count": 1542.93,
+      "url": "/domains/quantum-computing/papers/W2084652510"
+    },
+    {
+      "source_id": "https://openalex.org/W2135273380",
+      "title": "Fault-tolerant quantum computation by anyons",
+      "year": 2003,
+      "cited_by_count": 7266,
+      "adjusted_cited_by_count": 1515.07,
+      "url": "/domains/quantum-computing/papers/W2135273380"
+    },
+    {
+      "source_id": "https://openalex.org/W2087064593",
+      "title": "Identification of common molecular subsequences",
+      "year": 1981,
+      "cited_by_count": 10045,
+      "adjusted_cited_by_count": 1497.42,
+      "url": "/domains/quantum-computing/papers/W2087064593"
+    },
+    {
+      "source_id": "https://openalex.org/W2559394418",
+      "title": "Quantum machine learning",
+      "year": 2017,
+      "cited_by_count": 4276,
+      "adjusted_cited_by_count": 1425.33,
+      "url": "/domains/quantum-computing/papers/W2559394418"
+    },
+    {
+      "source_id": "https://openalex.org/W2094437628",
+      "title": "Quantum Dot Bioconjugates for Ultrasensitive Nonisotopic Detection",
+      "year": 1998,
+      "cited_by_count": 7231,
+      "adjusted_cited_by_count": 1366.53,
+      "url": "/domains/quantum-computing/papers/W2094437628"
+    },
+    {
+      "source_id": "https://openalex.org/W2132764286",
+      "title": "The quantum internet",
+      "year": 2008,
+      "cited_by_count": 5755,
+      "adjusted_cited_by_count": 1356.47,
+      "url": "/domains/quantum-computing/papers/W2132764286"
+    },
+    {
+      "source_id": "https://openalex.org/W2148924929",
+      "title": "Quantum dot bioconjugates for imaging, labelling and sensing",
+      "year": 2005,
+      "cited_by_count": 6136,
+      "adjusted_cited_by_count": 1338.98,
+      "url": "/domains/quantum-computing/papers/W2148924929"
+    },
+    {
+      "source_id": "https://openalex.org/W2103282498",
+      "title": "Quantum computation with quantum dots",
+      "year": 1998,
+      "cited_by_count": 6796,
+      "adjusted_cited_by_count": 1284.32,
+      "url": "/domains/quantum-computing/papers/W2103282498"
+    },
+    {
+      "source_id": "https://openalex.org/W2161685427",
+      "title": "A variational eigenvalue solver on a photonic quantum processor",
+      "year": 2014,
+      "cited_by_count": 4448,
+      "adjusted_cited_by_count": 1284.03,
+      "url": "/domains/quantum-computing/papers/W2161685427"
+    },
+    {
+      "source_id": "https://openalex.org/W3099200606",
+      "title": "Quantum Chemistry in the Age of Quantum Computing",
+      "year": null,
+      "cited_by_count": 1273,
+      "adjusted_cited_by_count": 1273.0,
+      "url": "/domains/quantum-computing/papers/W3099200606"
+    },
+    {
+      "source_id": "https://openalex.org/W3037447387",
+      "title": "Quantum sensing",
+      "year": 2017,
+      "cited_by_count": 3777,
+      "adjusted_cited_by_count": 1259.0,
+      "url": "/domains/quantum-computing/papers/W3037447387"
+    },
+    {
+      "source_id": "https://openalex.org/W3111162498",
+      "title": "Variational quantum algorithms",
+      "year": 2021,
+      "cited_by_count": 2783,
+      "adjusted_cited_by_count": 1244.6,
+      "url": "/domains/quantum-computing/papers/W3111162498"
+    },
+    {
+      "source_id": "https://openalex.org/W2163525631",
+      "title": "A scheme for efficient quantum computation with linear optics",
+      "year": 2001,
+      "cited_by_count": 5833,
+      "adjusted_cited_by_count": 1166.6,
+      "url": "/domains/quantum-computing/papers/W2163525631"
+    },
+    {
+      "source_id": "https://openalex.org/W2015179126",
+      "title": "Quantum cryptography: Public key distribution and coin tossing",
+      "year": 2014,
+      "cited_by_count": 3804,
+      "adjusted_cited_by_count": 1098.12,
+      "url": "/domains/quantum-computing/papers/W2015179126"
+    },
+    {
+      "source_id": "https://openalex.org/W2145071552",
+      "title": "Basic concepts and taxonomy of dependable and secure computing",
+      "year": 2004,
+      "cited_by_count": 5099,
+      "adjusted_cited_by_count": 1087.11,
+      "url": "/domains/quantum-computing/papers/W2145071552"
+    },
+    {
+      "source_id": "https://openalex.org/W3023478445",
+      "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+      "year": 1997,
+      "cited_by_count": 5757,
+      "adjusted_cited_by_count": 1069.05,
+      "url": "/domains/quantum-computing/papers/W3023478445"
+    },
+    {
+      "source_id": "https://openalex.org/W2755255888",
+      "title": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets",
+      "year": 2017,
+      "cited_by_count": 2972,
+      "adjusted_cited_by_count": 990.67,
+      "url": "/domains/quantum-computing/papers/W2755255888"
+    },
+    {
+      "source_id": "https://openalex.org/W2060887031",
+      "title": "Mixed-state entanglement and quantum error correction",
+      "year": 1996,
+      "cited_by_count": 5361,
+      "adjusted_cited_by_count": 978.78,
+      "url": "/domains/quantum-computing/papers/W2060887031"
+    },
+    {
+      "source_id": "https://openalex.org/W2110283120",
+      "title": "Holographic Derivation of Entanglement Entropy from the anti–de Sitter Space/Conformal Field Theory Correspondence",
+      "year": 2006,
+      "cited_by_count": 4312,
+      "adjusted_cited_by_count": 964.19,
+      "url": "/domains/quantum-computing/papers/W2110283120"
+    },
+    {
+      "source_id": "https://openalex.org/W2594183968",
+      "title": "MoleculeNet: a benchmark for molecular machine learning",
+      "year": 2017,
+      "cited_by_count": 2851,
+      "adjusted_cited_by_count": 950.33,
+      "url": "/domains/quantum-computing/papers/W2594183968"
+    },
+    {
+      "source_id": "https://openalex.org/W2026172453",
+      "title": "Advances in molecular quantum chemistry contained in the Q-Chem 4 program package",
+      "year": 2014,
+      "cited_by_count": 3131,
+      "adjusted_cited_by_count": 903.84,
+      "url": "/domains/quantum-computing/papers/W2026172453"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "quantum",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 214
+    },
+    {
+      "label": "physics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 197
+    },
+    {
+      "label": "quantum mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 180
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 166
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 120
+    },
+    {
+      "label": "computing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 103
+    },
+    {
+      "label": "quantum computer",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 95
+    },
+    {
+      "label": "on a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 93
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 91
+    },
+    {
+      "label": "algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 81
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 76
+    },
+    {
+      "label": "classical mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 71
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 69
+    },
+    {
+      "label": "two",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 66
+    },
+    {
+      "label": "open quantum system",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 61
+    },
+    {
+      "label": "over",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "quantum information",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "electronic structure",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "molecular dynamics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "statistical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 46
+    },
+    {
+      "label": "computational science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "qubit",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "time",
+      "semantic_role": "condition_like",
+      "topic_role": "detail_topic",
+      "ui_role": "property_detail",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "quantum algorithm",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "quantum entanglement",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "machine learning",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "theoretical computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 41
+    },
+    {
+      "label": "field theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 40
+    },
+    {
+      "label": "quantum computing",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 39
+    },
+    {
+      "label": "quantum network",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9895,
+      "evidence_count": 39
+    },
+    {
+      "label": "data science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 38
+    },
+    {
+      "label": "quantum technology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 38
+    },
+    {
+      "label": "density functional theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 37
+    },
+    {
+      "label": "information science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 37
+    },
+    {
+      "label": "condensed matter physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 36
+    },
+    {
+      "label": "gate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 36
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 35
+    },
+    {
+      "label": "in this",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 35
+    },
+    {
+      "label": "as a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 34
+    },
+    {
+      "label": "quantum error correction",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9883,
+      "evidence_count": 34
+    },
+    {
+      "label": "computational chemistry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 33
+    },
+    {
+      "label": "molecule",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 33
+    },
+    {
+      "label": "theoretical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 33
+    },
+    {
+      "label": "artificial intelligence",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 32
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 32
+    },
+    {
+      "label": "quantum computation",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9878,
+      "evidence_count": 32
+    }
+  ],
+  "topic_year_counts": {
+    "statistical physics": {
+      "2023": 120342,
+      "2024": 115723,
+      "2025": 104077,
+      "2022": 71661,
+      "2021": 64812,
+      "2020": 58074,
+      "2019": 49352,
+      "2018": 44864,
+      "2026": 43269,
+      "2017": 39674,
+      "2016": 37357,
+      "2015": 33489,
+      "2014": 29990,
+      "2013": 27096,
+      "2012": 23329,
+      "2011": 20647,
+      "2010": 17295,
+      "2009": 14721,
+      "2008": 12661,
+      "2007": 11137,
+      "2006": 10130,
+      "2005": 8526,
+      "2004": 7472,
+      "2003": 6460,
+      "2002": 5635,
+      "2001": 4847,
+      "2000": 4754
+    },
+    "quantum information": {
+      "2023": 118735,
+      "2024": 115581,
+      "2025": 108595,
+      "2022": 66866,
+      "2021": 57358,
+      "2020": 51556,
+      "2026": 50244,
+      "2019": 43554,
+      "2018": 38462,
+      "2017": 35177,
+      "2016": 32281,
+      "2015": 29387,
+      "2014": 25889,
+      "2013": 22584,
+      "2012": 19587,
+      "2011": 17337,
+      "2010": 14833,
+      "2009": 13000,
+      "2008": 10946,
+      "2007": 9953,
+      "2006": 8999,
+      "2005": 8121,
+      "2004": 7049,
+      "2003": 5974,
+      "2002": 5244,
+      "2001": 4506,
+      "2000": 4454
+    },
+    "quantum entanglement": {
+      "2025": 23124,
+      "2024": 21009,
+      "2023": 20326,
+      "2026": 14325,
+      "2022": 11261,
+      "2021": 9574,
+      "2020": 7970,
+      "2019": 6926,
+      "2018": 5817,
+      "2017": 5275,
+      "2016": 4890,
+      "2015": 4346,
+      "2014": 4039,
+      "2013": 3452,
+      "2012": 3056,
+      "2011": 2723,
+      "2010": 2294,
+      "2009": 2021,
+      "2008": 1881,
+      "2007": 1675,
+      "2006": 1495,
+      "2005": 1387,
+      "2004": 1199,
+      "2003": 1049,
+      "2002": 805,
+      "2001": 607,
+      "2000": 497
+    },
+    "quantum network": {
+      "2025": 69978,
+      "2024": 67142,
+      "2023": 64746,
+      "2022": 37522,
+      "2021": 32081,
+      "2026": 28671,
+      "2020": 27130,
+      "2019": 21697,
+      "2018": 18515,
+      "2017": 16124,
+      "2016": 14120,
+      "2015": 12780,
+      "2014": 11443,
+      "2013": 9943,
+      "2012": 8562,
+      "2011": 7456,
+      "2010": 6142,
+      "2009": 5436,
+      "2008": 4410,
+      "2007": 3822,
+      "2006": 3417,
+      "2005": 2968,
+      "2004": 2487,
+      "2003": 2046,
+      "2002": 1720,
+      "2000": 1616,
+      "2001": 1428
+    },
+    "quantum computer": {
+      "2024": 51622,
+      "2023": 50271,
+      "2025": 46018,
+      "2022": 28938,
+      "2021": 24597,
+      "2020": 21127,
+      "2019": 17268,
+      "2026": 16431,
+      "2018": 15062,
+      "2017": 13356,
+      "2016": 12069,
+      "2015": 11303,
+      "2014": 10374,
+      "2013": 9180,
+      "2012": 8287,
+      "2011": 7318,
+      "2010": 6387,
+      "2009": 5539,
+      "2008": 4811,
+      "2007": 4354,
+      "2006": 4106,
+      "2005": 3710,
+      "2004": 3365,
+      "2003": 2983,
+      "2002": 2643,
+      "2000": 2352,
+      "2001": 2194
+    }
+  }
+}
