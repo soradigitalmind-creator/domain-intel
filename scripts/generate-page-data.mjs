@@ -429,8 +429,18 @@ function buildTopicPageData(slug, topic, bundle, domainSummary, maps) {
     .sort((a, b) => b.similarity - a.similarity || b.paperCount - a.paperCount)
     .slice(0, 12);
 
-  // Top papers for this topic
-  const papers = topic.paper_ids
+  // Top papers for this topic — concentrated roots may have 0 direct paper_ids
+  // after demotion to children, so aggregate descendants (children + grandchildren).
+  const directChildren = subgenres.filter((t) => t.parent_id === topic.subgenre_id);
+  const grandKidsAll = directChildren.flatMap((c) =>
+    subgenres.filter((t) => t.parent_id === c.subgenre_id)
+  );
+  const effectivePaperIds = [...new Set([
+    ...topic.paper_ids,
+    ...directChildren.flatMap((c) => c.paper_ids),
+    ...grandKidsAll.flatMap((g) => g.paper_ids),
+  ])];
+  const papers = effectivePaperIds
     .map((id) => mapTopicPaper(id, sourceById, assignmentById))
     .filter(Boolean)
     .sort((a, b) => b.adjusted_cited_by_count - a.adjusted_cited_by_count)
