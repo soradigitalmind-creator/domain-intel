@@ -1,12 +1,12 @@
 {
   "updated_at": "2026-04-24T22:20:20.485369Z",
-  "total_domains": 54,
+  "total_domains": 56,
   "categories": [
     {
       "label": "Life",
       "slug": "life",
       "description": "Includes biology, medicine, care, and living systems.",
-      "count": 13,
+      "count": 14,
       "domains": [
         {
           "slug": "agriculture",
@@ -47,6 +47,10 @@
         {
           "slug": "infectious-diseases",
           "title": "Infectious Diseases"
+        },
+        {
+          "slug": "marine-biology",
+          "title": "Marine Biology"
         },
         {
           "slug": "mental-health",
@@ -110,7 +114,7 @@
       "label": "Engineering",
       "slug": "engineering",
       "description": "Includes systems, models, tools, and technical methods.",
-      "count": 18,
+      "count": 19,
       "domains": [
         {
           "slug": "aerospace-engineering",
@@ -143,6 +147,10 @@
         {
           "slug": "computer-vision",
           "title": "Computer Vision"
+        },
+        {
+          "slug": "condensed-matter-physics",
+          "title": "Condensed Matter Physics"
         },
         {
           "slug": "cybersecurity",
@@ -839,6 +847,31 @@
       "updated_at": "2026-04-24T11:32:56.586225Z"
     },
     {
+      "slug": "condensed-matter-physics",
+      "title": "Condensed Matter Physics",
+      "sources": 300,
+      "effective_papers": 254,
+      "subgenres": 58,
+      "parent_subgenres": 11,
+      "child_subgenres": 47,
+      "entities": 710,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 300,
+        "total_papers": 300,
+        "facet_counts": {
+          "none": 300
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning condensed matter physics.",
+      "updated_at": "2026-04-24T23:24:08.699892Z"
+    },
+    {
       "slug": "criminology",
       "title": "Criminology",
       "sources": 232,
@@ -1212,6 +1245,31 @@
       },
       "abstraction_label": "A taxonomy-style research map spanning manufacturing engineering, additive manufacturing and 3d printing technology.",
       "updated_at": "2026-04-22T10:51:17.895483Z"
+    },
+    {
+      "slug": "marine-biology",
+      "title": "Marine Biology",
+      "sources": 218,
+      "effective_papers": 212,
+      "subgenres": 46,
+      "parent_subgenres": 6,
+      "child_subgenres": 40,
+      "entities": 545,
+      "claims": 0,
+      "overview_source_ids": [],
+      "overview_partition_summary": {
+        "overview_papers": 0,
+        "topical_papers": 218,
+        "total_papers": 218,
+        "facet_counts": {
+          "none": 218
+        },
+        "gemini_validation_enabled": false,
+        "gemini_validation_ready": false,
+        "title_phrase_candidates": 0
+      },
+      "abstraction_label": "A taxonomy-style research map spanning multiple subtopics.",
+      "updated_at": "2026-04-24T23:20:48.317089Z"
     },
     {
       "slug": "marketing",

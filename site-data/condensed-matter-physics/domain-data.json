@@ -1,0 +1,2505 @@
+{
+  "slug": "condensed-matter-physics",
+  "title": "Condensed Matter Physics",
+  "updated_at": "2026-04-24T23:24:08.617008Z",
+  "snapshot": {
+    "papers": 254,
+    "topics": 11,
+    "subtopics": 47,
+    "entities": 710,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 300,
+      "total_papers": 300,
+      "facet_counts": {
+        "none": 300
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning condensed matter physics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 11,
+    "descendant_topics": 47,
+    "max_depth": 2,
+    "leaf_topics": 47
+  },
+  "rising_topics": [
+    {
+      "id": "sg-statistical-physics",
+      "label": "Statistical physics",
+      "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics",
+      "trend": "rising",
+      "year_total": 987407
+    },
+    {
+      "id": "sg-topological-insulator",
+      "label": "Topological insulators",
+      "url": "/domains/condensed-matter-physics/topics/sg-topological-insulator",
+      "trend": "rising",
+      "year_total": 76282
+    },
+    {
+      "id": "sg-hall-effect",
+      "label": "Hall effect",
+      "url": "/domains/condensed-matter-physics/topics/sg-hall-effect",
+      "trend": "rising",
+      "year_total": 2275233
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-statistical-physics",
+      "label": "Statistical physics",
+      "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics",
+      "paper_count": 48,
+      "subtopic_count": 10,
+      "trend": "rising",
+      "summary": "entities: statistical physics, matter, in the",
+      "tags": [
+        "principle of condensed matter",
+        "simulation in statistical",
+        "simulation in statistical physics",
+        "simulations in statistical"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-statistical-physics-nuclear-magnetic-resonance",
+          "label": "Nuclear magnetic resonance",
+          "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics-nuclear-magnetic-resonance",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-statistical-physics-atomic-physics",
+          "label": "Atomic physics",
+          "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics-atomic-physics",
+          "paper_count": 10
+        },
+        {
+          "id": "sg-statistical-physics-interatomic-potential",
+          "label": "Interatomic potential",
+          "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics-interatomic-potential",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-statistical-physics-dark-matter",
+          "label": "Dark matter",
+          "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics-dark-matter",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-statistical-physics-chemistry-physics",
+          "label": "Chemistry physics",
+          "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics-chemistry-physics",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-statistical-physics-monte-carlo",
+          "label": "Monte carlo",
+          "url": "/domains/condensed-matter-physics/topics/sg-statistical-physics-monte-carlo",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2008423326",
+          "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
+          "year": "1999",
+          "cited_by_count": 18572,
+          "url": "/domains/condensed-matter-physics/papers/W2008423326"
+        },
+        {
+          "source_id": "https://openalex.org/W4211101250",
+          "title": "Attosecond physics",
+          "year": "2009",
+          "cited_by_count": 5291,
+          "url": "/domains/condensed-matter-physics/papers/W4211101250"
+        },
+        {
+          "source_id": "https://openalex.org/W2031794121",
+          "title": "A Guide to Monte Carlo Simulations in Statistical Physics",
+          "year": "2014",
+          "cited_by_count": 2276,
+          "url": "/domains/condensed-matter-physics/papers/W2031794121"
+        }
+      ]
+    },
+    {
+      "id": "sg-topological-insulator",
+      "label": "Topological insulators",
+      "url": "/domains/condensed-matter-physics/topics/sg-topological-insulator",
+      "paper_count": 34,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: topological, topology, topological material and phenomena",
+      "tags": [
+        "magnetic topological insulators",
+        "multifunctional topological insulators",
+        "surface state",
+        "topological entropy in physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-topological-insulators-symmetry-protected-topological-order",
+          "label": "Symmetry protected topological order",
+          "url": "/domains/condensed-matter-physics/topics/sg-topological-insulators-symmetry-protected-topological-order",
+          "paper_count": 15
+        },
+        {
+          "id": "sg-topological-insulators-surface-state",
+          "label": "Surface state",
+          "url": "/domains/condensed-matter-physics/topics/sg-topological-insulators-surface-state",
+          "paper_count": 9
+        },
+        {
+          "id": "sg-topological-insulators-topological-insulators-general",
+          "label": "Topological insulators (general)",
+          "url": "/domains/condensed-matter-physics/topics/sg-topological-insulators-topological-insulators-general",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-topological-insulators-topological-quantum-phenomena",
+          "label": "Topological quantum phenomena",
+          "url": "/domains/condensed-matter-physics/topics/sg-topological-insulators-topological-quantum-phenomena",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-topological-insulators-mirror-symmetry",
+          "label": "Mirror symmetry",
+          "url": "/domains/condensed-matter-physics/topics/sg-topological-insulators-mirror-symmetry",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-topological-insulators-topological-crystalline-insulators",
+          "label": "Topological crystalline insulators",
+          "url": "/domains/condensed-matter-physics/topics/sg-topological-insulators-topological-crystalline-insulators",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2795835319",
+          "title": "Topological photonics",
+          "year": "2014",
+          "cited_by_count": 3527,
+          "url": "/domains/condensed-matter-physics/papers/W2795835319"
+        },
+        {
+          "source_id": "https://openalex.org/W1987693322",
+          "title": "Observation of unidirectional backscattering-immune topological electromagnetic states",
+          "year": "2009",
+          "cited_by_count": 3043,
+          "url": "/domains/condensed-matter-physics/papers/W1987693322"
+        },
+        {
+          "source_id": "https://openalex.org/W326669990",
+          "title": "Topological Insulators and Topological Superconductors",
+          "year": "2013",
+          "cited_by_count": 1925,
+          "url": "/domains/condensed-matter-physics/papers/W326669990"
+        }
+      ]
+    },
+    {
+      "id": "sg-hall-effect",
+      "label": "Hall effect",
+      "url": "/domains/condensed-matter-physics/topics/sg-hall-effect",
+      "paper_count": 31,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: electron, quantum, of the",
+      "tags": [
+        "fractional quantum hall effect",
+        "hall effect",
+        "quantum anomalous hall effect",
+        "quantum hall"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-hall-effect-quantum-spin-hall-state",
+          "label": "Quantum spin hall state",
+          "url": "/domains/condensed-matter-physics/topics/sg-hall-effect-quantum-spin-hall-state",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-hall-effect-fractional-quantum-hall-effect",
+          "label": "Fractional quantum hall effect",
+          "url": "/domains/condensed-matter-physics/topics/sg-hall-effect-fractional-quantum-hall-effect",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-hall-effect-quantum-anomalous-hall-state",
+          "label": "Quantum anomalous hall state",
+          "url": "/domains/condensed-matter-physics/topics/sg-hall-effect-quantum-anomalous-hall-state",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-hall-effect-spin-hall-effect",
+          "label": "Spin hall effect",
+          "url": "/domains/condensed-matter-physics/topics/sg-hall-effect-spin-hall-effect",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-hall-effect-landau-quantization",
+          "label": "Landau quantization",
+          "url": "/domains/condensed-matter-physics/topics/sg-hall-effect-landau-quantization",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2118492507",
+          "title": "Experimental observation of the quantum Hall effect and Berry's phase in graphene",
+          "year": "2005",
+          "cited_by_count": 13395,
+          "url": "/domains/condensed-matter-physics/papers/W2118492507"
+        },
+        {
+          "source_id": "https://openalex.org/W2068824512",
+          "title": "Chiral tunnelling and the Klein paradox in graphene",
+          "year": "2006",
+          "cited_by_count": 3872,
+          "url": "/domains/condensed-matter-physics/papers/W2068824512"
+        },
+        {
+          "source_id": "https://openalex.org/W2028948400",
+          "title": "Significance of Electromagnetic Potentials in the Quantum Theory",
+          "year": "1959",
+          "cited_by_count": 6933,
+          "url": "/domains/condensed-matter-physics/papers/W2028948400"
+        }
+      ]
+    },
+    {
+      "id": "sg-field-theory",
+      "label": "Field theory",
+      "url": "/domains/condensed-matter-physics/topics/sg-field-theory",
+      "paper_count": 30,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: quantum, field, theory",
+      "tags": [
+        "field theory",
+        "keldysh field theory driven",
+        "quantum field"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-field-theory-effective-field-theory",
+          "label": "Effective field theory",
+          "url": "/domains/condensed-matter-physics/topics/sg-field-theory-effective-field-theory",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-field-theory-unified-field-theory",
+          "label": "Unified field theory",
+          "url": "/domains/condensed-matter-physics/topics/sg-field-theory-unified-field-theory",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-field-theory-quantum-gravity",
+          "label": "Quantum gravity",
+          "url": "/domains/condensed-matter-physics/topics/sg-field-theory-quantum-gravity",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-field-theory-thermal-quantum-field-theory",
+          "label": "Thermal quantum field theory",
+          "url": "/domains/condensed-matter-physics/topics/sg-field-theory-thermal-quantum-field-theory",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-field-theory-dynamical-mean-field-theory",
+          "label": "Dynamical mean field theory",
+          "url": "/domains/condensed-matter-physics/topics/sg-field-theory-dynamical-mean-field-theory",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-field-theory-conformal-field-theory",
+          "label": "Conformal field theory",
+          "url": "/domains/condensed-matter-physics/topics/sg-field-theory-conformal-field-theory",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W4249956767",
+          "title": "The large $N$ limit of superconformal field theories and supergravity",
+          "year": "1998",
+          "cited_by_count": 14390,
+          "url": "/domains/condensed-matter-physics/papers/W4249956767"
+        },
+        {
+          "source_id": "https://openalex.org/W1625053673",
+          "title": "The Quantum Theory of Fields",
+          "year": "1996",
+          "cited_by_count": 4472,
+          "url": "/domains/condensed-matter-physics/papers/W1625053673"
+        },
+        {
+          "source_id": "https://openalex.org/W2058834119",
+          "title": "Quantum Field Theory",
+          "year": "1980",
+          "cited_by_count": 5381,
+          "url": "/domains/condensed-matter-physics/papers/W2058834119"
+        }
+      ]
+    },
+    {
+      "id": "sg-phase-transition",
+      "label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/topics/sg-phase-transition",
+      "paper_count": 26,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: phase, phase transition, transition",
+      "tags": [
+        "phase transition",
+        "phase transition relaxation",
+        "phase transition superfluid",
+        "phase transitions"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-phase-transition-condensed-matter",
+          "label": "Condensed matter",
+          "url": "/domains/condensed-matter-physics/topics/sg-phase-transition-condensed-matter",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-phase-transition-critical-phenomena",
+          "label": "Critical phenomena",
+          "url": "/domains/condensed-matter-physics/topics/sg-phase-transition-critical-phenomena",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-phase-transitions-quantum-statistical-mechanics",
+          "label": "Quantum statistical mechanics",
+          "url": "/domains/condensed-matter-physics/topics/sg-phase-transitions-quantum-statistical-mechanics",
+          "paper_count": 5
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1540380506",
+          "title": "Phase Transitions and Critical Phenomena",
+          "year": "2016",
+          "cited_by_count": 11280,
+          "url": "/domains/condensed-matter-physics/papers/W1540380506"
+        },
+        {
+          "source_id": "https://openalex.org/W4388395150",
+          "title": "The Physics of Liquid Crystals",
+          "year": "1993",
+          "cited_by_count": 8238,
+          "url": "/domains/condensed-matter-physics/papers/W4388395150"
+        },
+        {
+          "source_id": "https://openalex.org/W2086860422",
+          "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+          "year": "1973",
+          "cited_by_count": 9435,
+          "url": "/domains/condensed-matter-physics/papers/W2086860422"
+        }
+      ]
+    },
+    {
+      "id": "sg-ultracold-atom",
+      "label": "Ultracold atoms",
+      "url": "/domains/condensed-matter-physics/topics/sg-ultracold-atom",
+      "paper_count": 17,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: quantum, cold atom physics and bose-einstein condensate, ultracold atom",
+      "tags": [
+        "atoms in optical lattice",
+        "fermi-hubbard physics atoms",
+        "gases in optical lattice",
+        "matter ultracold gases"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-ultracold-atoms-gases-in-optical-lattices",
+          "label": "Gases in optical lattices",
+          "url": "/domains/condensed-matter-physics/topics/sg-ultracold-atoms-gases-in-optical-lattices",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-ultracold-atom-condensed-matter",
+          "label": "Condensed matter",
+          "url": "/domains/condensed-matter-physics/topics/sg-ultracold-atom-condensed-matter",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-ultracold-atoms-atoms-in-optical-lattices",
+          "label": "Atoms in optical lattices",
+          "url": "/domains/condensed-matter-physics/topics/sg-ultracold-atoms-atoms-in-optical-lattices",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1979308046",
+          "title": "Many-body physics with ultracold gases",
+          "year": "2008",
+          "cited_by_count": 8038,
+          "url": "/domains/condensed-matter-physics/papers/W1979308046"
+        },
+        {
+          "source_id": "https://openalex.org/W2488446542",
+          "title": "Chiral quantum optics",
+          "year": "2017",
+          "cited_by_count": 1568,
+          "url": "/domains/condensed-matter-physics/papers/W2488446542"
+        },
+        {
+          "source_id": "https://openalex.org/W1963988846",
+          "title": "Ultracold atomic gases in optical lattices: mimicking condensed matter physics and beyond",
+          "year": "2007",
+          "cited_by_count": 2108,
+          "url": "/domains/condensed-matter-physics/papers/W1963988846"
+        }
+      ]
+    },
+    {
+      "id": "sg-gauge-theory",
+      "label": "Gauge theory",
+      "url": "/domains/condensed-matter-physics/topics/sg-gauge-theory",
+      "paper_count": 16,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: gauge theory, theory, gauge",
+      "tags": [
+        "black hole and theoretical physics",
+        "gauge theory",
+        "lattice gauge theory within",
+        "lattice model"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-gauge-theory-particle-physics",
+          "label": "Particle physics",
+          "url": "/domains/condensed-matter-physics/topics/sg-gauge-theory-particle-physics",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-gauge-theory-mathematical-physics",
+          "label": "Mathematical physics",
+          "url": "/domains/condensed-matter-physics/topics/sg-gauge-theory-mathematical-physics",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-gauge-theory-lattice-field-theory",
+          "label": "Lattice field theory",
+          "url": "/domains/condensed-matter-physics/topics/sg-gauge-theory-lattice-field-theory",
+          "paper_count": 4
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W3084106382",
+          "title": "Review of Particle Physics",
+          "year": "2016",
+          "cited_by_count": 7394,
+          "url": "/domains/condensed-matter-physics/papers/W3084106382"
+        },
+        {
+          "source_id": "https://openalex.org/W2107240173",
+          "title": "Large N field theories, string theory and gravity",
+          "year": "2000",
+          "cited_by_count": 5558,
+          "url": "/domains/condensed-matter-physics/papers/W2107240173"
+        },
+        {
+          "source_id": "https://openalex.org/W21223778",
+          "title": "Geometry, Topology and Physics",
+          "year": "2018",
+          "cited_by_count": 1517,
+          "url": "/domains/condensed-matter-physics/papers/W21223778"
+        }
+      ]
+    },
+    {
+      "id": "sg-density-functional-theory",
+      "label": "Density functional theory",
+      "url": "/domains/condensed-matter-physics/topics/sg-density-functional-theory",
+      "paper_count": 15,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: density functional, density functional theory, functional",
+      "tags": [
+        "density functional theory",
+        "der waals density",
+        "der waals density functional",
+        "kohn-sham equations machine learning"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-density-functional-theory-hamaker-constant",
+          "label": "Hamaker constant",
+          "url": "/domains/condensed-matter-physics/topics/sg-density-functional-theory-hamaker-constant",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-density-functional-theory-ab-initio-quantum-chemistry",
+          "label": "Ab initio quantum chemistry",
+          "url": "/domains/condensed-matter-physics/topics/sg-density-functional-theory-ab-initio-quantum-chemistry",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-density-functional-theory-kohn-sham-equations",
+          "label": "Kohn-sham equations",
+          "url": "/domains/condensed-matter-physics/topics/sg-density-functional-theory-kohn-sham-equations",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-density-functional-theory-van-der-waals-radius",
+          "label": "Van der Waals radius",
+          "url": "/domains/condensed-matter-physics/topics/sg-density-functional-theory-van-der-waals-radius",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-density-functional-theory-van-der-waals-surface",
+          "label": "Van der waals surface",
+          "url": "/domains/condensed-matter-physics/topics/sg-density-functional-theory-van-der-waals-surface",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1986731219",
+          "title": "Electron-energy-loss spectra and the structural stability of nickel oxide:  An LSDA+U study",
+          "year": "1998",
+          "cited_by_count": 14579,
+          "url": "/domains/condensed-matter-physics/papers/W1986731219"
+        },
+        {
+          "source_id": "https://openalex.org/W1988320534",
+          "title": "Higher-accuracy van der Waals density functional",
+          "year": "2010",
+          "cited_by_count": 2709,
+          "url": "/domains/condensed-matter-physics/papers/W1988320534"
+        },
+        {
+          "source_id": "https://openalex.org/W2463801883",
+          "title": "Covalent organic frameworks based on Schiff-base chemistry: synthesis, properties and potential applications",
+          "year": "2016",
+          "cited_by_count": 1349,
+          "url": "/domains/condensed-matter-physics/papers/W2463801883"
+        }
+      ]
+    },
+    {
+      "id": "sg-magnetic-field",
+      "label": "Magnetic phenomena",
+      "url": "/domains/condensed-matter-physics/topics/sg-magnetic-field",
+      "paper_count": 15,
+      "subtopic_count": 3,
+      "trend": "rising",
+      "summary": "entities: magnetic field, magnetic, field",
+      "tags": [
+        "chiral anomaly",
+        "magnetic field",
+        "magnetic field quantum",
+        "matter physics magnetometry"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-magnetic-field-electric-field",
+          "label": "Electric field",
+          "url": "/domains/condensed-matter-physics/topics/sg-magnetic-field-electric-field",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-magnetic-phenomena-chiral-anomaly",
+          "label": "Chiral anomaly",
+          "url": "/domains/condensed-matter-physics/topics/sg-magnetic-phenomena-chiral-anomaly",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-magnetic-field-dirac-fermion",
+          "label": "Dirac fermion",
+          "url": "/domains/condensed-matter-physics/topics/sg-magnetic-field-dirac-fermion",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2125284466",
+          "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+          "year": "2005",
+          "cited_by_count": 21354,
+          "url": "/domains/condensed-matter-physics/papers/W2125284466"
+        },
+        {
+          "source_id": "https://openalex.org/W2066196783",
+          "title": "<i>The Physics of Liquid Crystals</i>",
+          "year": "1995",
+          "cited_by_count": 9794,
+          "url": "/domains/condensed-matter-physics/papers/W2066196783"
+        },
+        {
+          "source_id": "https://openalex.org/W4211101250",
+          "title": "Attosecond physics",
+          "year": "2009",
+          "cited_by_count": 5291,
+          "url": "/domains/condensed-matter-physics/papers/W4211101250"
+        }
+      ]
+    },
+    {
+      "id": "sg-soft-matter",
+      "label": "Soft matter",
+      "url": "/domains/condensed-matter-physics/topics/sg-soft-matter",
+      "paper_count": 14,
+      "subtopic_count": 2,
+      "trend": "rising",
+      "summary": "entities: nanotechnology, soft matter, matter",
+      "tags": [
+        "length scale",
+        "soft condensed",
+        "soft condensed matter",
+        "soft condensed matter physics"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-soft-matter-length-scale",
+          "label": "Length scale",
+          "url": "/domains/condensed-matter-physics/topics/sg-soft-matter-length-scale",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-soft-matter-condensed-matter",
+          "label": "Condensed matter",
+          "url": "/domains/condensed-matter-physics/topics/sg-soft-matter-condensed-matter",
+          "paper_count": 3
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2014935324",
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39249,
+          "url": "/domains/condensed-matter-physics/papers/W2014935324"
+        },
+        {
+          "source_id": "https://openalex.org/W2097773259",
+          "title": "Roll-to-roll production of 30-inch graphene films for transparent electrodes",
+          "year": "2010",
+          "cited_by_count": 8048,
+          "url": "/domains/condensed-matter-physics/papers/W2097773259"
+        },
+        {
+          "source_id": "https://openalex.org/W2970740744",
+          "title": "Promoting transparency and reproducibility in enhanced molecular simulations",
+          "year": "2019",
+          "cited_by_count": 1258,
+          "url": "/domains/condensed-matter-physics/papers/W2970740744"
+        }
+      ]
+    },
+    {
+      "id": "sg-quantum-phase-transition",
+      "label": "Quantum phase transitions",
+      "url": "/domains/condensed-matter-physics/topics/sg-quantum-phase-transition",
+      "paper_count": 8,
+      "subtopic_count": 1,
+      "trend": "rising",
+      "summary": "entities: quantum, topological material and phenomena, topology",
+      "tags": [
+        "phase transition relaxation",
+        "phase transition superfluid",
+        "phase transitions",
+        "quantum matter"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-quantum-phase-transitions-quantum-critical-point",
+          "label": "Quantum critical point",
+          "url": "/domains/condensed-matter-physics/topics/sg-quantum-phase-transitions-quantum-critical-point",
+          "paper_count": 7
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2293673104",
+          "title": "<i>Colloquium</i>: Topological band theory",
+          "year": "2016",
+          "cited_by_count": 1532,
+          "url": "/domains/condensed-matter-physics/papers/W2293673104"
+        },
+        {
+          "source_id": "https://openalex.org/W2766063749",
+          "title": "Towards properties on demand in quantum materials",
+          "year": "2017",
+          "cited_by_count": 939,
+          "url": "/domains/condensed-matter-physics/papers/W2766063749"
+        },
+        {
+          "source_id": "https://openalex.org/W3109286531",
+          "title": "Moiré heterostructures as a condensed-matter quantum simulator",
+          "year": "2021",
+          "cited_by_count": 558,
+          "url": "/domains/condensed-matter-physics/papers/W3109286531"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Phase transitions",
+      "paper_count": 6,
+      "papers": [
+        {
+          "title": "Phase Transitions and Critical Phenomena",
+          "year": "2016",
+          "cited_by_count": 11280,
+          "topic": "Phase transitions",
+          "url": "papers/https-openalex-org-w1540380506.html"
+        },
+        {
+          "title": "The Physics of Liquid Crystals",
+          "year": "1993",
+          "cited_by_count": 8238,
+          "topic": "Phase transitions",
+          "url": "papers/https-openalex-org-w4388395150.html"
+        },
+        {
+          "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+          "year": "1973",
+          "cited_by_count": 9435,
+          "topic": "Phase transitions",
+          "url": "papers/https-openalex-org-w2086860422.html"
+        },
+        {
+          "title": "Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms",
+          "year": "2002",
+          "cited_by_count": 5855,
+          "topic": "Phase transitions",
+          "url": "papers/https-openalex-org-w2007391198.html"
+        },
+        {
+          "title": "Quantum Phase Transitions",
+          "year": "2011",
+          "cited_by_count": 2787,
+          "topic": "Phase transitions",
+          "url": "papers/https-openalex-org-w382441907.html"
+        },
+        {
+          "title": "Quantum Phase Transitions",
+          "year": "2000",
+          "cited_by_count": 3461,
+          "topic": "Phase transitions",
+          "url": "papers/https-openalex-org-w4308326495.html"
+        }
+      ]
+    },
+    {
+      "label": "Field theory",
+      "paper_count": 5,
+      "papers": [
+        {
+          "title": "The large $N$ limit of superconformal field theories and supergravity",
+          "year": "1998",
+          "cited_by_count": 14390,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w4249956767.html"
+        },
+        {
+          "title": "The Quantum Theory of Fields",
+          "year": "1996",
+          "cited_by_count": 4472,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w1625053673.html"
+        },
+        {
+          "title": "Quantum Field Theory",
+          "year": "1980",
+          "cited_by_count": 5381,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w2058834119.html"
+        },
+        {
+          "title": "",
+          "year": "None",
+          "cited_by_count": 783,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w3103010694.html"
+        },
+        {
+          "title": "Methods of quantum field theory in statistical physics",
+          "year": "1964",
+          "cited_by_count": 5141,
+          "topic": "Field theory",
+          "url": "papers/https-openalex-org-w2072872008.html"
+        }
+      ]
+    },
+    {
+      "label": "Fractional quantum hall effect",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+          "year": "2018",
+          "cited_by_count": 8146,
+          "topic": "Fractional quantum hall effect",
+          "url": "papers/https-openalex-org-w2793369479.html"
+        },
+        {
+          "title": "Fine Structure Constant Defines Visual Transparency of Graphene",
+          "year": "2008",
+          "cited_by_count": 8952,
+          "topic": "Fractional quantum hall effect",
+          "url": "papers/https-openalex-org-w2123510746.html"
+        },
+        {
+          "title": "Fractal Concepts in Surface Growth",
+          "year": "1995",
+          "cited_by_count": 3887,
+          "topic": "Fractional quantum hall effect",
+          "url": "papers/https-openalex-org-w2977474616.html"
+        },
+        {
+          "title": "Ultrathin Two-Dimensional Nanomaterials",
+          "year": "2015",
+          "cited_by_count": 2114,
+          "topic": "Fractional quantum hall effect",
+          "url": "papers/https-openalex-org-w2340744176.html"
+        }
+      ]
+    },
+    {
+      "label": "Length scale",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The rise of graphene",
+          "year": "2007",
+          "cited_by_count": 39249,
+          "topic": "Length scale",
+          "url": "papers/https-openalex-org-w2014935324.html"
+        },
+        {
+          "title": "Van der Waals heterostructures",
+          "year": "2013",
+          "cited_by_count": 10565,
+          "topic": "Length scale",
+          "url": "papers/https-openalex-org-w2096421416.html"
+        },
+        {
+          "title": "Roll-to-roll production of 30-inch graphene films for transparent electrodes",
+          "year": "2010",
+          "cited_by_count": 8048,
+          "topic": "Length scale",
+          "url": "papers/https-openalex-org-w2097773259.html"
+        },
+        {
+          "title": "Layer-dependent ferromagnetism in a van der Waals crystal down to the monolayer limit",
+          "year": "2017",
+          "cited_by_count": 5760,
+          "topic": "Length scale",
+          "url": "papers/https-openalex-org-w2606397457.html"
+        }
+      ]
+    },
+    {
+      "label": "Statistical physics",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
+          "year": "1999",
+          "cited_by_count": 18572,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w2008423326.html"
+        },
+        {
+          "title": "A Guide to Monte Carlo Simulations in Statistical Physics",
+          "year": "2014",
+          "cited_by_count": 2276,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w2031794121.html"
+        },
+        {
+          "title": "Principles of Condensed Matter Physics",
+          "year": "1995",
+          "cited_by_count": 3432,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w2992726982.html"
+        },
+        {
+          "title": "&lt;i&gt;Fractal Concepts in Surface Growth&lt;/i&gt;",
+          "year": "1995",
+          "cited_by_count": 3346,
+          "topic": "Statistical physics",
+          "url": "papers/https-openalex-org-w1975642142.html"
+        }
+      ]
+    },
+    {
+      "label": "Magnetic phenomena",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "&lt;i&gt;The Physics of Liquid Crystals&lt;/i&gt;",
+          "year": "1995",
+          "cited_by_count": 9794,
+          "topic": "Magnetic phenomena",
+          "url": "papers/https-openalex-org-w2066196783.html"
+        },
+        {
+          "title": "Attosecond physics",
+          "year": "2009",
+          "cited_by_count": 5291,
+          "topic": "Magnetic phenomena",
+          "url": "papers/https-openalex-org-w4211101250.html"
+        },
+        {
+          "title": "A review of metasurfaces: physics and applications",
+          "year": "2016",
+          "cited_by_count": 2403,
+          "topic": "Magnetic phenomena",
+          "url": "papers/https-openalex-org-w2401218707.html"
+        }
+      ]
+    },
+    {
+      "label": "Density functional theory",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Electron-energy-loss spectra and the structural stability of nickel oxide:  An LSDA+U study",
+          "year": "1998",
+          "cited_by_count": 14579,
+          "topic": "Density functional theory",
+          "url": "papers/https-openalex-org-w1986731219.html"
+        },
+        {
+          "title": "Higher-accuracy van der Waals density functional",
+          "year": "2010",
+          "cited_by_count": 2709,
+          "topic": "Density functional theory",
+          "url": "papers/https-openalex-org-w1988320534.html"
+        }
+      ]
+    },
+    {
+      "label": "Gauge theory",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Review of Particle Physics",
+          "year": "2016",
+          "cited_by_count": 7394,
+          "topic": "Gauge theory",
+          "url": "papers/https-openalex-org-w3084106382.html"
+        },
+        {
+          "title": "Large N field theories, string theory and gravity",
+          "year": "2000",
+          "cited_by_count": 5558,
+          "topic": "Gauge theory",
+          "url": "papers/https-openalex-org-w2107240173.html"
+        }
+      ]
+    },
+    {
+      "label": "Hall effect",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Experimental observation of the quantum Hall effect and Berry&#x27;s phase in graphene",
+          "year": "2005",
+          "cited_by_count": 13395,
+          "topic": "Hall effect",
+          "url": "papers/https-openalex-org-w2118492507.html"
+        },
+        {
+          "title": "Introduction to Solid State Physics",
+          "year": "2018",
+          "cited_by_count": 1936,
+          "topic": "Hall effect",
+          "url": "papers/https-openalex-org-w2806294570.html"
+        }
+      ]
+    },
+    {
+      "label": "Quantum spin hall state",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Chiral tunnelling and the Klein paradox in graphene",
+          "year": "2006",
+          "cited_by_count": 3872,
+          "topic": "Quantum spin hall state",
+          "url": "papers/https-openalex-org-w2068824512.html"
+        },
+        {
+          "title": "Implementation strategies in phonopy and phono3py",
+          "year": "2023",
+          "cited_by_count": 1134,
+          "topic": "Quantum spin hall state",
+          "url": "papers/https-openalex-org-w4377694431.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39249,
+      "adjusted_cited_by_count": 9004.34,
+      "primary_topic_id": "sg-soft-matter-length-scale",
+      "primary_topic_label": "Length scale",
+      "url": "/domains/condensed-matter-physics/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2125284466",
+      "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+      "year": 2005,
+      "cited_by_count": 21354,
+      "adjusted_cited_by_count": 4659.82,
+      "primary_topic_id": "sg-magnetic-phenomena-chiral-anomaly",
+      "primary_topic_label": "Chiral anomaly",
+      "url": "/domains/condensed-matter-physics/papers/W2125284466"
+    },
+    {
+      "source_id": "https://openalex.org/W2008423326",
+      "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
+      "year": 1999,
+      "cited_by_count": 18572,
+      "adjusted_cited_by_count": 3574.18,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/condensed-matter-physics/papers/W2008423326"
+    },
+    {
+      "source_id": "https://openalex.org/W1540380506",
+      "title": "Phase Transitions and Critical Phenomena",
+      "year": 2016,
+      "cited_by_count": 11280,
+      "adjusted_cited_by_count": 3567.05,
+      "primary_topic_id": "sg-phase-transition",
+      "primary_topic_label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/papers/W1540380506"
+    },
+    {
+      "source_id": "https://openalex.org/W2096421416",
+      "title": "Van der Waals heterostructures",
+      "year": 2013,
+      "cited_by_count": 10565,
+      "adjusted_cited_by_count": 2930.2,
+      "primary_topic_id": "sg-soft-matter-length-scale",
+      "primary_topic_label": "Length scale",
+      "url": "/domains/condensed-matter-physics/papers/W2096421416"
+    },
+    {
+      "source_id": "https://openalex.org/W2118492507",
+      "title": "Experimental observation of the quantum Hall effect and Berry's phase in graphene",
+      "year": 2005,
+      "cited_by_count": 13395,
+      "adjusted_cited_by_count": 2923.03,
+      "primary_topic_id": "sg-hall-effect",
+      "primary_topic_label": "Hall effect",
+      "url": "/domains/condensed-matter-physics/papers/W2118492507"
+    },
+    {
+      "source_id": "https://openalex.org/W2793369479",
+      "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+      "year": 2018,
+      "cited_by_count": 8146,
+      "adjusted_cited_by_count": 2880.05,
+      "primary_topic_id": "sg-hall-effect-fractional-quantum-hall-effect",
+      "primary_topic_label": "Fractional quantum hall effect",
+      "url": "/domains/condensed-matter-physics/papers/W2793369479"
+    },
+    {
+      "source_id": "https://openalex.org/W1986731219",
+      "title": "Electron-energy-loss spectra and the structural stability of nickel oxide:  An LSDA+U study",
+      "year": 1998,
+      "cited_by_count": 14579,
+      "adjusted_cited_by_count": 2755.17,
+      "primary_topic_id": "sg-density-functional-theory",
+      "primary_topic_label": "Density functional theory",
+      "url": "/domains/condensed-matter-physics/papers/W1986731219"
+    },
+    {
+      "source_id": "https://openalex.org/W4249956767",
+      "title": "The large $N$ limit of superconformal field theories and supergravity",
+      "year": 1998,
+      "cited_by_count": 14390,
+      "adjusted_cited_by_count": 2719.45,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/condensed-matter-physics/papers/W4249956767"
+    },
+    {
+      "source_id": "https://openalex.org/W3084106382",
+      "title": "Review of Particle Physics",
+      "year": 2016,
+      "cited_by_count": 7394,
+      "adjusted_cited_by_count": 2338.19,
+      "primary_topic_id": "sg-gauge-theory",
+      "primary_topic_label": "Gauge theory",
+      "url": "/domains/condensed-matter-physics/papers/W3084106382"
+    },
+    {
+      "source_id": "https://openalex.org/W2123510746",
+      "title": "Fine Structure Constant Defines Visual Transparency of Graphene",
+      "year": 2008,
+      "cited_by_count": 8952,
+      "adjusted_cited_by_count": 2110.01,
+      "primary_topic_id": "sg-hall-effect-fractional-quantum-hall-effect",
+      "primary_topic_label": "Fractional quantum hall effect",
+      "url": "/domains/condensed-matter-physics/papers/W2123510746"
+    },
+    {
+      "source_id": "https://openalex.org/W2097773259",
+      "title": "Roll-to-roll production of 30-inch graphene films for transparent electrodes",
+      "year": 2010,
+      "cited_by_count": 8048,
+      "adjusted_cited_by_count": 2012.0,
+      "primary_topic_id": "sg-soft-matter-length-scale",
+      "primary_topic_label": "Length scale",
+      "url": "/domains/condensed-matter-physics/papers/W2097773259"
+    },
+    {
+      "source_id": "https://openalex.org/W2606397457",
+      "title": "Layer-dependent ferromagnetism in a van der Waals crystal down to the monolayer limit",
+      "year": 2017,
+      "cited_by_count": 5760,
+      "adjusted_cited_by_count": 1920.0,
+      "primary_topic_id": "sg-soft-matter-length-scale",
+      "primary_topic_label": "Length scale",
+      "url": "/domains/condensed-matter-physics/papers/W2606397457"
+    },
+    {
+      "source_id": "https://openalex.org/W1979308046",
+      "title": "Many-body physics with ultracold gases",
+      "year": 2008,
+      "cited_by_count": 8038,
+      "adjusted_cited_by_count": 1894.57,
+      "primary_topic_id": "sg-ultracold-atom",
+      "primary_topic_label": "Ultracold atoms",
+      "url": "/domains/condensed-matter-physics/papers/W1979308046"
+    },
+    {
+      "source_id": "https://openalex.org/W2066196783",
+      "title": "<i>The Physics of Liquid Crystals</i>",
+      "year": 1995,
+      "cited_by_count": 9794,
+      "adjusted_cited_by_count": 1759.05,
+      "primary_topic_id": "sg-magnetic-field",
+      "primary_topic_label": "Magnetic phenomena",
+      "url": "/domains/condensed-matter-physics/papers/W2066196783"
+    },
+    {
+      "source_id": "https://openalex.org/W4388395150",
+      "title": "The Physics of Liquid Crystals",
+      "year": 1993,
+      "cited_by_count": 8238,
+      "adjusted_cited_by_count": 1434.05,
+      "primary_topic_id": "sg-phase-transition",
+      "primary_topic_label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/papers/W4388395150"
+    },
+    {
+      "source_id": "https://openalex.org/W2086860422",
+      "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+      "year": 1973,
+      "cited_by_count": 9435,
+      "adjusted_cited_by_count": 1296.0,
+      "primary_topic_id": "sg-phase-transition",
+      "primary_topic_label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/papers/W2086860422"
+    },
+    {
+      "source_id": "https://openalex.org/W4211101250",
+      "title": "Attosecond physics",
+      "year": 2009,
+      "cited_by_count": 5291,
+      "adjusted_cited_by_count": 1283.26,
+      "primary_topic_id": "sg-magnetic-field",
+      "primary_topic_label": "Magnetic phenomena",
+      "url": "/domains/condensed-matter-physics/papers/W4211101250"
+    },
+    {
+      "source_id": "https://openalex.org/W4250716500",
+      "title": "Journal of Physics: Condensed Matter",
+      "year": 2020,
+      "cited_by_count": 2951,
+      "adjusted_cited_by_count": 1204.74,
+      "primary_topic_id": "sg-ultracold-atoms-gases-in-optical-lattices",
+      "primary_topic_label": "Gases in optical lattices",
+      "url": "/domains/condensed-matter-physics/papers/W4250716500"
+    },
+    {
+      "source_id": "https://openalex.org/W2007391198",
+      "title": "Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms",
+      "year": 2002,
+      "cited_by_count": 5855,
+      "adjusted_cited_by_count": 1195.15,
+      "primary_topic_id": "sg-phase-transition",
+      "primary_topic_label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/papers/W2007391198"
+    },
+    {
+      "source_id": "https://openalex.org/W2107240173",
+      "title": "Large N field theories, string theory and gravity",
+      "year": 2000,
+      "cited_by_count": 5558,
+      "adjusted_cited_by_count": 1090.01,
+      "primary_topic_id": "sg-gauge-theory",
+      "primary_topic_label": "Gauge theory",
+      "url": "/domains/condensed-matter-physics/papers/W2107240173"
+    },
+    {
+      "source_id": "https://openalex.org/W2795835319",
+      "title": "Topological photonics",
+      "year": 2014,
+      "cited_by_count": 3527,
+      "adjusted_cited_by_count": 1018.16,
+      "primary_topic_id": "sg-topological-insulator",
+      "primary_topic_label": "Topological insulators",
+      "url": "/domains/condensed-matter-physics/papers/W2795835319"
+    },
+    {
+      "source_id": "https://openalex.org/W2068824512",
+      "title": "Chiral tunnelling and the Klein paradox in graphene",
+      "year": 2006,
+      "cited_by_count": 3872,
+      "adjusted_cited_by_count": 865.81,
+      "primary_topic_id": "sg-hall-effect-quantum-spin-hall-state",
+      "primary_topic_label": "Quantum spin hall state",
+      "url": "/domains/condensed-matter-physics/papers/W2068824512"
+    },
+    {
+      "source_id": "https://openalex.org/W2028948400",
+      "title": "Significance of Electromagnetic Potentials in the Quantum Theory",
+      "year": 1959,
+      "cited_by_count": 6933,
+      "adjusted_cited_by_count": 847.0,
+      "primary_topic_id": "sg-gauge-theory-lattice-field-theory",
+      "primary_topic_label": "Lattice field theory",
+      "url": "/domains/condensed-matter-physics/papers/W2028948400"
+    },
+    {
+      "source_id": "https://openalex.org/W1625053673",
+      "title": "The Quantum Theory of Fields",
+      "year": 1996,
+      "cited_by_count": 4472,
+      "adjusted_cited_by_count": 816.47,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/condensed-matter-physics/papers/W1625053673"
+    },
+    {
+      "source_id": "https://openalex.org/W2058834119",
+      "title": "Quantum Field Theory",
+      "year": 1980,
+      "cited_by_count": 5381,
+      "adjusted_cited_by_count": 793.39,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/condensed-matter-physics/papers/W2058834119"
+    },
+    {
+      "source_id": "https://openalex.org/W3103010694",
+      "title": "https://openalex.org/W3103010694",
+      "year": null,
+      "cited_by_count": 783,
+      "adjusted_cited_by_count": 783.0,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/condensed-matter-physics/papers/W3103010694"
+    },
+    {
+      "source_id": "https://openalex.org/W2401218707",
+      "title": "A review of metasurfaces: physics and applications",
+      "year": 2016,
+      "cited_by_count": 2403,
+      "adjusted_cited_by_count": 759.9,
+      "primary_topic_id": "sg-magnetic-field",
+      "primary_topic_label": "Magnetic phenomena",
+      "url": "/domains/condensed-matter-physics/papers/W2401218707"
+    },
+    {
+      "source_id": "https://openalex.org/W1987693322",
+      "title": "Observation of unidirectional backscattering-immune topological electromagnetic states",
+      "year": 2009,
+      "cited_by_count": 3043,
+      "adjusted_cited_by_count": 738.04,
+      "primary_topic_id": "sg-topological-insulator",
+      "primary_topic_label": "Topological insulators",
+      "url": "/domains/condensed-matter-physics/papers/W1987693322"
+    },
+    {
+      "source_id": "https://openalex.org/W382441907",
+      "title": "Quantum Phase Transitions",
+      "year": 2011,
+      "cited_by_count": 2787,
+      "adjusted_cited_by_count": 719.6,
+      "primary_topic_id": "sg-phase-transition",
+      "primary_topic_label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/papers/W382441907"
+    },
+    {
+      "source_id": "https://openalex.org/W2977474616",
+      "title": "Fractal Concepts in Surface Growth",
+      "year": 1995,
+      "cited_by_count": 3887,
+      "adjusted_cited_by_count": 698.13,
+      "primary_topic_id": "sg-hall-effect-fractional-quantum-hall-effect",
+      "primary_topic_label": "Fractional quantum hall effect",
+      "url": "/domains/condensed-matter-physics/papers/W2977474616"
+    },
+    {
+      "source_id": "https://openalex.org/W2806294570",
+      "title": "Introduction to Solid State Physics",
+      "year": 2018,
+      "cited_by_count": 1936,
+      "adjusted_cited_by_count": 684.48,
+      "primary_topic_id": "sg-hall-effect",
+      "primary_topic_label": "Hall effect",
+      "url": "/domains/condensed-matter-physics/papers/W2806294570"
+    },
+    {
+      "source_id": "https://openalex.org/W4308326495",
+      "title": "Quantum Phase Transitions",
+      "year": 2000,
+      "cited_by_count": 3461,
+      "adjusted_cited_by_count": 678.76,
+      "primary_topic_id": "sg-phase-transition",
+      "primary_topic_label": "Phase transitions",
+      "url": "/domains/condensed-matter-physics/papers/W4308326495"
+    },
+    {
+      "source_id": "https://openalex.org/W1988320534",
+      "title": "Higher-accuracy van der Waals density functional",
+      "year": 2010,
+      "cited_by_count": 2709,
+      "adjusted_cited_by_count": 677.25,
+      "primary_topic_id": "sg-density-functional-theory",
+      "primary_topic_label": "Density functional theory",
+      "url": "/domains/condensed-matter-physics/papers/W1988320534"
+    },
+    {
+      "source_id": "https://openalex.org/W2031794121",
+      "title": "A Guide to Monte Carlo Simulations in Statistical Physics",
+      "year": 2014,
+      "cited_by_count": 2276,
+      "adjusted_cited_by_count": 657.02,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/condensed-matter-physics/papers/W2031794121"
+    },
+    {
+      "source_id": "https://openalex.org/W4377694431",
+      "title": "Implementation strategies in phonopy and phono3py",
+      "year": 2023,
+      "cited_by_count": 1134,
+      "adjusted_cited_by_count": 654.72,
+      "primary_topic_id": "sg-hall-effect-quantum-spin-hall-state",
+      "primary_topic_label": "Quantum spin hall state",
+      "url": "/domains/condensed-matter-physics/papers/W4377694431"
+    },
+    {
+      "source_id": "https://openalex.org/W2072872008",
+      "title": "Methods of quantum field theory in statistical physics",
+      "year": 1964,
+      "cited_by_count": 5141,
+      "adjusted_cited_by_count": 652.91,
+      "primary_topic_id": "sg-field-theory",
+      "primary_topic_label": "Field theory",
+      "url": "/domains/condensed-matter-physics/papers/W2072872008"
+    },
+    {
+      "source_id": "https://openalex.org/W2340744176",
+      "title": "Ultrathin Two-Dimensional Nanomaterials",
+      "year": 2015,
+      "cited_by_count": 2114,
+      "adjusted_cited_by_count": 637.39,
+      "primary_topic_id": "sg-hall-effect-fractional-quantum-hall-effect",
+      "primary_topic_label": "Fractional quantum hall effect",
+      "url": "/domains/condensed-matter-physics/papers/W2340744176"
+    },
+    {
+      "source_id": "https://openalex.org/W2992726982",
+      "title": "Principles of Condensed Matter Physics",
+      "year": 1995,
+      "cited_by_count": 3432,
+      "adjusted_cited_by_count": 616.41,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/condensed-matter-physics/papers/W2992726982"
+    },
+    {
+      "source_id": "https://openalex.org/W1975642142",
+      "title": "<i>Fractal Concepts in Surface Growth</i>",
+      "year": 1995,
+      "cited_by_count": 3346,
+      "adjusted_cited_by_count": 600.96,
+      "primary_topic_id": "sg-statistical-physics",
+      "primary_topic_label": "Statistical physics",
+      "url": "/domains/condensed-matter-physics/papers/W1975642142"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2014935324",
+      "title": "The rise of graphene",
+      "year": 2007,
+      "cited_by_count": 39249,
+      "adjusted_cited_by_count": 9004.34,
+      "url": "/domains/condensed-matter-physics/papers/W2014935324"
+    },
+    {
+      "source_id": "https://openalex.org/W2125284466",
+      "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+      "year": 2005,
+      "cited_by_count": 21354,
+      "adjusted_cited_by_count": 4659.82,
+      "url": "/domains/condensed-matter-physics/papers/W2125284466"
+    },
+    {
+      "source_id": "https://openalex.org/W2008423326",
+      "title": "Toward reliable density functional methods without adjustable parameters: The PBE0 model",
+      "year": 1999,
+      "cited_by_count": 18572,
+      "adjusted_cited_by_count": 3574.18,
+      "url": "/domains/condensed-matter-physics/papers/W2008423326"
+    },
+    {
+      "source_id": "https://openalex.org/W1540380506",
+      "title": "Phase Transitions and Critical Phenomena",
+      "year": 2016,
+      "cited_by_count": 11280,
+      "adjusted_cited_by_count": 3567.05,
+      "url": "/domains/condensed-matter-physics/papers/W1540380506"
+    },
+    {
+      "source_id": "https://openalex.org/W2096421416",
+      "title": "Van der Waals heterostructures",
+      "year": 2013,
+      "cited_by_count": 10565,
+      "adjusted_cited_by_count": 2930.2,
+      "url": "/domains/condensed-matter-physics/papers/W2096421416"
+    },
+    {
+      "source_id": "https://openalex.org/W2118492507",
+      "title": "Experimental observation of the quantum Hall effect and Berry's phase in graphene",
+      "year": 2005,
+      "cited_by_count": 13395,
+      "adjusted_cited_by_count": 2923.03,
+      "url": "/domains/condensed-matter-physics/papers/W2118492507"
+    },
+    {
+      "source_id": "https://openalex.org/W2793369479",
+      "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+      "year": 2018,
+      "cited_by_count": 8146,
+      "adjusted_cited_by_count": 2880.05,
+      "url": "/domains/condensed-matter-physics/papers/W2793369479"
+    },
+    {
+      "source_id": "https://openalex.org/W1986731219",
+      "title": "Electron-energy-loss spectra and the structural stability of nickel oxide:  An LSDA+U study",
+      "year": 1998,
+      "cited_by_count": 14579,
+      "adjusted_cited_by_count": 2755.17,
+      "url": "/domains/condensed-matter-physics/papers/W1986731219"
+    },
+    {
+      "source_id": "https://openalex.org/W4249956767",
+      "title": "The large $N$ limit of superconformal field theories and supergravity",
+      "year": 1998,
+      "cited_by_count": 14390,
+      "adjusted_cited_by_count": 2719.45,
+      "url": "/domains/condensed-matter-physics/papers/W4249956767"
+    },
+    {
+      "source_id": "https://openalex.org/W3084106382",
+      "title": "Review of Particle Physics",
+      "year": 2016,
+      "cited_by_count": 7394,
+      "adjusted_cited_by_count": 2338.19,
+      "url": "/domains/condensed-matter-physics/papers/W3084106382"
+    },
+    {
+      "source_id": "https://openalex.org/W2123510746",
+      "title": "Fine Structure Constant Defines Visual Transparency of Graphene",
+      "year": 2008,
+      "cited_by_count": 8952,
+      "adjusted_cited_by_count": 2110.01,
+      "url": "/domains/condensed-matter-physics/papers/W2123510746"
+    },
+    {
+      "source_id": "https://openalex.org/W2097773259",
+      "title": "Roll-to-roll production of 30-inch graphene films for transparent electrodes",
+      "year": 2010,
+      "cited_by_count": 8048,
+      "adjusted_cited_by_count": 2012.0,
+      "url": "/domains/condensed-matter-physics/papers/W2097773259"
+    },
+    {
+      "source_id": "https://openalex.org/W2606397457",
+      "title": "Layer-dependent ferromagnetism in a van der Waals crystal down to the monolayer limit",
+      "year": 2017,
+      "cited_by_count": 5760,
+      "adjusted_cited_by_count": 1920.0,
+      "url": "/domains/condensed-matter-physics/papers/W2606397457"
+    },
+    {
+      "source_id": "https://openalex.org/W1979308046",
+      "title": "Many-body physics with ultracold gases",
+      "year": 2008,
+      "cited_by_count": 8038,
+      "adjusted_cited_by_count": 1894.57,
+      "url": "/domains/condensed-matter-physics/papers/W1979308046"
+    },
+    {
+      "source_id": "https://openalex.org/W2066196783",
+      "title": "<i>The Physics of Liquid Crystals</i>",
+      "year": 1995,
+      "cited_by_count": 9794,
+      "adjusted_cited_by_count": 1759.05,
+      "url": "/domains/condensed-matter-physics/papers/W2066196783"
+    },
+    {
+      "source_id": "https://openalex.org/W4388395150",
+      "title": "The Physics of Liquid Crystals",
+      "year": 1993,
+      "cited_by_count": 8238,
+      "adjusted_cited_by_count": 1434.05,
+      "url": "/domains/condensed-matter-physics/papers/W4388395150"
+    },
+    {
+      "source_id": "https://openalex.org/W2086860422",
+      "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+      "year": 1973,
+      "cited_by_count": 9435,
+      "adjusted_cited_by_count": 1296.0,
+      "url": "/domains/condensed-matter-physics/papers/W2086860422"
+    },
+    {
+      "source_id": "https://openalex.org/W4211101250",
+      "title": "Attosecond physics",
+      "year": 2009,
+      "cited_by_count": 5291,
+      "adjusted_cited_by_count": 1283.26,
+      "url": "/domains/condensed-matter-physics/papers/W4211101250"
+    },
+    {
+      "source_id": "https://openalex.org/W4250716500",
+      "title": "Journal of Physics: Condensed Matter",
+      "year": 2020,
+      "cited_by_count": 2951,
+      "adjusted_cited_by_count": 1204.74,
+      "url": "/domains/condensed-matter-physics/papers/W4250716500"
+    },
+    {
+      "source_id": "https://openalex.org/W2007391198",
+      "title": "Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms",
+      "year": 2002,
+      "cited_by_count": 5855,
+      "adjusted_cited_by_count": 1195.15,
+      "url": "/domains/condensed-matter-physics/papers/W2007391198"
+    },
+    {
+      "source_id": "https://openalex.org/W2107240173",
+      "title": "Large N field theories, string theory and gravity",
+      "year": 2000,
+      "cited_by_count": 5558,
+      "adjusted_cited_by_count": 1090.01,
+      "url": "/domains/condensed-matter-physics/papers/W2107240173"
+    },
+    {
+      "source_id": "https://openalex.org/W2795835319",
+      "title": "Topological photonics",
+      "year": 2014,
+      "cited_by_count": 3527,
+      "adjusted_cited_by_count": 1018.16,
+      "url": "/domains/condensed-matter-physics/papers/W2795835319"
+    },
+    {
+      "source_id": "https://openalex.org/W2068824512",
+      "title": "Chiral tunnelling and the Klein paradox in graphene",
+      "year": 2006,
+      "cited_by_count": 3872,
+      "adjusted_cited_by_count": 865.81,
+      "url": "/domains/condensed-matter-physics/papers/W2068824512"
+    },
+    {
+      "source_id": "https://openalex.org/W2028948400",
+      "title": "Significance of Electromagnetic Potentials in the Quantum Theory",
+      "year": 1959,
+      "cited_by_count": 6933,
+      "adjusted_cited_by_count": 847.0,
+      "url": "/domains/condensed-matter-physics/papers/W2028948400"
+    },
+    {
+      "source_id": "https://openalex.org/W1625053673",
+      "title": "The Quantum Theory of Fields",
+      "year": 1996,
+      "cited_by_count": 4472,
+      "adjusted_cited_by_count": 816.47,
+      "url": "/domains/condensed-matter-physics/papers/W1625053673"
+    },
+    {
+      "source_id": "https://openalex.org/W2058834119",
+      "title": "Quantum Field Theory",
+      "year": 1980,
+      "cited_by_count": 5381,
+      "adjusted_cited_by_count": 793.39,
+      "url": "/domains/condensed-matter-physics/papers/W2058834119"
+    },
+    {
+      "source_id": "https://openalex.org/W3103010694",
+      "title": "https://openalex.org/W3103010694",
+      "year": null,
+      "cited_by_count": 783,
+      "adjusted_cited_by_count": 783.0,
+      "url": "/domains/condensed-matter-physics/papers/W3103010694"
+    },
+    {
+      "source_id": "https://openalex.org/W2401218707",
+      "title": "A review of metasurfaces: physics and applications",
+      "year": 2016,
+      "cited_by_count": 2403,
+      "adjusted_cited_by_count": 759.9,
+      "url": "/domains/condensed-matter-physics/papers/W2401218707"
+    },
+    {
+      "source_id": "https://openalex.org/W1987693322",
+      "title": "Observation of unidirectional backscattering-immune topological electromagnetic states",
+      "year": 2009,
+      "cited_by_count": 3043,
+      "adjusted_cited_by_count": 738.04,
+      "url": "/domains/condensed-matter-physics/papers/W1987693322"
+    },
+    {
+      "source_id": "https://openalex.org/W382441907",
+      "title": "Quantum Phase Transitions",
+      "year": 2011,
+      "cited_by_count": 2787,
+      "adjusted_cited_by_count": 719.6,
+      "url": "/domains/condensed-matter-physics/papers/W382441907"
+    },
+    {
+      "source_id": "https://openalex.org/W2977474616",
+      "title": "Fractal Concepts in Surface Growth",
+      "year": 1995,
+      "cited_by_count": 3887,
+      "adjusted_cited_by_count": 698.13,
+      "url": "/domains/condensed-matter-physics/papers/W2977474616"
+    },
+    {
+      "source_id": "https://openalex.org/W2806294570",
+      "title": "Introduction to Solid State Physics",
+      "year": 2018,
+      "cited_by_count": 1936,
+      "adjusted_cited_by_count": 684.48,
+      "url": "/domains/condensed-matter-physics/papers/W2806294570"
+    },
+    {
+      "source_id": "https://openalex.org/W4308326495",
+      "title": "Quantum Phase Transitions",
+      "year": 2000,
+      "cited_by_count": 3461,
+      "adjusted_cited_by_count": 678.76,
+      "url": "/domains/condensed-matter-physics/papers/W4308326495"
+    },
+    {
+      "source_id": "https://openalex.org/W1988320534",
+      "title": "Higher-accuracy van der Waals density functional",
+      "year": 2010,
+      "cited_by_count": 2709,
+      "adjusted_cited_by_count": 677.25,
+      "url": "/domains/condensed-matter-physics/papers/W1988320534"
+    },
+    {
+      "source_id": "https://openalex.org/W2031794121",
+      "title": "A Guide to Monte Carlo Simulations in Statistical Physics",
+      "year": 2014,
+      "cited_by_count": 2276,
+      "adjusted_cited_by_count": 657.02,
+      "url": "/domains/condensed-matter-physics/papers/W2031794121"
+    },
+    {
+      "source_id": "https://openalex.org/W4377694431",
+      "title": "Implementation strategies in phonopy and phono3py",
+      "year": 2023,
+      "cited_by_count": 1134,
+      "adjusted_cited_by_count": 654.72,
+      "url": "/domains/condensed-matter-physics/papers/W4377694431"
+    },
+    {
+      "source_id": "https://openalex.org/W2072872008",
+      "title": "Methods of quantum field theory in statistical physics",
+      "year": 1964,
+      "cited_by_count": 5141,
+      "adjusted_cited_by_count": 652.91,
+      "url": "/domains/condensed-matter-physics/papers/W2072872008"
+    },
+    {
+      "source_id": "https://openalex.org/W2340744176",
+      "title": "Ultrathin Two-Dimensional Nanomaterials",
+      "year": 2015,
+      "cited_by_count": 2114,
+      "adjusted_cited_by_count": 637.39,
+      "url": "/domains/condensed-matter-physics/papers/W2340744176"
+    },
+    {
+      "source_id": "https://openalex.org/W2992726982",
+      "title": "Principles of Condensed Matter Physics",
+      "year": 1995,
+      "cited_by_count": 3432,
+      "adjusted_cited_by_count": 616.41,
+      "url": "/domains/condensed-matter-physics/papers/W2992726982"
+    },
+    {
+      "source_id": "https://openalex.org/W1975642142",
+      "title": "<i>Fractal Concepts in Surface Growth</i>",
+      "year": 1995,
+      "cited_by_count": 3346,
+      "adjusted_cited_by_count": 600.96,
+      "url": "/domains/condensed-matter-physics/papers/W1975642142"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "physics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 249
+    },
+    {
+      "label": "quantum",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 205
+    },
+    {
+      "label": "matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 186
+    },
+    {
+      "label": "quantum mechanics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 175
+    },
+    {
+      "label": "condensed",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 163
+    },
+    {
+      "label": "condensed matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 159
+    },
+    {
+      "label": "condensed matter physics",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 155
+    },
+    {
+      "label": "matter physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 142
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 130
+    },
+    {
+      "label": "theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 108
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 101
+    },
+    {
+      "label": "field",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "theoretical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 88
+    },
+    {
+      "label": "electron",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 83
+    },
+    {
+      "label": "material science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 77
+    },
+    {
+      "label": "in a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 70
+    },
+    {
+      "label": "property",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "phase",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 59
+    },
+    {
+      "label": "statistical physics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 57
+    },
+    {
+      "label": "of a",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 56
+    },
+    {
+      "label": "topological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "many",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 52
+    },
+    {
+      "label": "in condensed",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "spin",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "atom",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 49
+    },
+    {
+      "label": "magnetic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 48
+    },
+    {
+      "label": "model",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 48
+    },
+    {
+      "label": "nanotechnology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9896,
+      "evidence_count": 48
+    },
+    {
+      "label": "experimental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9892,
+      "evidence_count": 46
+    },
+    {
+      "label": "in condensed matter",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 45
+    },
+    {
+      "label": "topology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9888,
+      "evidence_count": 51
+    },
+    {
+      "label": "dynamics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 43
+    },
+    {
+      "label": "physics and",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9886,
+      "evidence_count": 43
+    },
+    {
+      "label": "theoretical",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9884,
+      "evidence_count": 105
+    },
+    {
+      "label": "energy",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 40
+    },
+    {
+      "label": "transition",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.988,
+      "evidence_count": 40
+    },
+    {
+      "label": "field theory",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 37
+    },
+    {
+      "label": "surface",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 37
+    },
+    {
+      "label": "in this",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 36
+    },
+    {
+      "label": "property of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9872,
+      "evidence_count": 36
+    },
+    {
+      "label": "electronic",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 35
+    },
+    {
+      "label": "superconductivity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.987,
+      "evidence_count": 35
+    },
+    {
+      "label": "hall",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9868,
+      "evidence_count": 34
+    },
+    {
+      "label": "functional",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 33
+    },
+    {
+      "label": "light",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 33
+    },
+    {
+      "label": "symmetry",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 34
+    },
+    {
+      "label": "between",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9862,
+      "evidence_count": 31
+    }
+  ],
+  "topic_year_counts": {
+    "statistical physics": {
+      "2023": 120336,
+      "2024": 115724,
+      "2025": 104084,
+      "2022": 71651,
+      "2021": 64810,
+      "2020": 58088,
+      "2019": 49355,
+      "2018": 44863,
+      "2026": 43275,
+      "2017": 39674,
+      "2016": 37355,
+      "2015": 33489,
+      "2014": 29990,
+      "2013": 27096,
+      "2012": 23329,
+      "2011": 20648,
+      "2010": 17295,
+      "2009": 14721,
+      "2008": 12661,
+      "2007": 11138,
+      "2006": 10130,
+      "2005": 8526,
+      "2004": 7472,
+      "2003": 6460,
+      "2002": 5635,
+      "2001": 4848,
+      "2000": 4754
+    },
+    "topological insulators": {
+      "2023": 10908,
+      "2024": 9918,
+      "2025": 7322,
+      "2022": 6106,
+      "2021": 5755,
+      "2020": 5311,
+      "2019": 4521,
+      "2018": 3982,
+      "2017": 3777,
+      "2016": 3437,
+      "2026": 3357,
+      "2015": 3004,
+      "2014": 2394,
+      "2013": 1954,
+      "2012": 1582,
+      "2011": 1067,
+      "2010": 655,
+      "2009": 308,
+      "2008": 204,
+      "2007": 152,
+      "2006": 140,
+      "2004": 98,
+      "2005": 94,
+      "2003": 73,
+      "2002": 60,
+      "2001": 52,
+      "2000": 51
+    },
+    "hall effect": {
+      "2023": 219879,
+      "2024": 192143,
+      "2025": 166856,
+      "2022": 156379,
+      "2021": 151868,
+      "2020": 146678,
+      "2019": 127678,
+      "2018": 115095,
+      "2017": 107452,
+      "2016": 100213,
+      "2015": 94138,
+      "2014": 87856,
+      "2013": 79883,
+      "2012": 71684,
+      "2011": 63535,
+      "2010": 55889,
+      "2009": 49498,
+      "2026": 47440,
+      "2008": 41271,
+      "2007": 36612,
+      "2006": 32580,
+      "2005": 29085,
+      "2004": 25798,
+      "2003": 22376,
+      "2002": 19152,
+      "2000": 17799,
+      "2001": 16396
+    },
+    "field theory": {
+      "2023": 656788,
+      "2024": 623485,
+      "2025": 596892,
+      "2022": 439780,
+      "2021": 401722,
+      "2020": 371008,
+      "2019": 323354,
+      "2018": 288622,
+      "2017": 255898,
+      "2016": 238376,
+      "2015": 219469,
+      "2026": 198715,
+      "2014": 197753,
+      "2013": 178355,
+      "2012": 155813,
+      "2011": 137029,
+      "2010": 120458,
+      "2009": 105588,
+      "2008": 90255,
+      "2007": 79804,
+      "2006": 70886,
+      "2005": 62056,
+      "2004": 55094,
+      "2003": 48311,
+      "2002": 43389,
+      "2000": 38402,
+      "2001": 37305
+    },
+    "phase transitions": {
+      "2025": 401855,
+      "2024": 378446,
+      "2023": 369217,
+      "2022": 234311,
+      "2021": 219147,
+      "2020": 204383,
+      "2019": 175649,
+      "2018": 158174,
+      "2026": 156398,
+      "2017": 145522,
+      "2016": 134161,
+      "2015": 123922,
+      "2014": 112626,
+      "2013": 100945,
+      "2012": 90262,
+      "2011": 79851,
+      "2010": 69540,
+      "2009": 61819,
+      "2008": 54551,
+      "2007": 48934,
+      "2006": 44153,
+      "2005": 40376,
+      "2004": 35383,
+      "2003": 31634,
+      "2002": 29296,
+      "2001": 25403,
+      "2000": 25092
+    },
+    "ultracold atoms": {
+      "2023": 3925,
+      "2024": 3677,
+      "2025": 2496,
+      "2022": 2069,
+      "2021": 1788,
+      "2020": 1640,
+      "2019": 1436,
+      "2018": 1274,
+      "2017": 1241,
+      "2016": 1231,
+      "2026": 1206,
+      "2015": 1139,
+      "2014": 960,
+      "2013": 878,
+      "2012": 819,
+      "2011": 762,
+      "2010": 695,
+      "2009": 643,
+      "2008": 507,
+      "2007": 483,
+      "2006": 414,
+      "2005": 335,
+      "2004": 264,
+      "2003": 219,
+      "2002": 168,
+      "2000": 109,
+      "2001": 97
+    },
+    "gauge theory": {
+      "2024": 72835,
+      "2023": 69593,
+      "2025": 58210,
+      "2022": 38072,
+      "2021": 36047,
+      "2020": 35257,
+      "2019": 32528,
+      "2018": 29880,
+      "2017": 27294,
+      "2016": 26773,
+      "2015": 24726,
+      "2026": 23565,
+      "2014": 22766,
+      "2013": 19783,
+      "2012": 18003,
+      "2011": 15933,
+      "2010": 14350,
+      "2009": 12735,
+      "2008": 10938,
+      "2007": 9827,
+      "2006": 8655,
+      "2005": 7971,
+      "2004": 7149,
+      "2003": 6305,
+      "2000": 5748,
+      "2002": 5733,
+      "2001": 5447
+    },
+    "density functional theory": {
+      "2023": 147990,
+      "2024": 146436,
+      "2025": 141029,
+      "2022": 97763,
+      "2021": 90574,
+      "2020": 88369,
+      "2019": 73288,
+      "2018": 64935,
+      "2017": 59306,
+      "2016": 56348,
+      "2026": 50515,
+      "2015": 50211,
+      "2014": 50168,
+      "2013": 41392,
+      "2012": 36891,
+      "2011": 32083,
+      "2010": 27490,
+      "2009": 24339,
+      "2008": 20651,
+      "2007": 17982,
+      "2006": 15586,
+      "2005": 13550,
+      "2004": 11566,
+      "2003": 9517,
+      "2002": 8026,
+      "2001": 6968,
+      "2000": 6784
+    },
+    "magnetic phenomena": {
+      "2023": 45179,
+      "2024": 43757,
+      "2025": 35368,
+      "2022": 26232,
+      "2021": 24996,
+      "2020": 23004,
+      "2019": 20330,
+      "2018": 18553,
+      "2017": 17514,
+      "2016": 16107,
+      "2015": 15024,
+      "2014": 13374,
+      "2026": 12716,
+      "2013": 12032,
+      "2012": 10866,
+      "2011": 9584,
+      "2010": 8106,
+      "2009": 6975,
+      "2008": 6436,
+      "2007": 5427,
+      "2006": 5300,
+      "2005": 4594,
+      "2004": 3991,
+      "2003": 3373,
+      "2002": 3281,
+      "2000": 2773,
+      "2001": 2726
+    },
+    "soft matter": {
+      "2023": 97812,
+      "2024": 89991,
+      "2025": 78219,
+      "2022": 63451,
+      "2021": 60577,
+      "2020": 57005,
+      "2019": 49754,
+      "2018": 44535,
+      "2017": 40868,
+      "2016": 37733,
+      "2015": 34206,
+      "2014": 30523,
+      "2013": 26934,
+      "2026": 24559,
+      "2012": 23446,
+      "2011": 20316,
+      "2010": 17755,
+      "2009": 15840,
+      "2008": 12875,
+      "2007": 11339,
+      "2006": 9673,
+      "2005": 8670,
+      "2004": 7563,
+      "2003": 5977,
+      "2002": 5200,
+      "2000": 5034,
+      "2001": 4521
+    },
+    "quantum phase transitions": {
+      "2023": 65926,
+      "2024": 64438,
+      "2025": 55879,
+      "2022": 34699,
+      "2021": 30797,
+      "2020": 28027,
+      "2026": 26269,
+      "2019": 23628,
+      "2018": 21321,
+      "2017": 19752,
+      "2016": 17739,
+      "2015": 16541,
+      "2014": 14110,
+      "2013": 12035,
+      "2012": 10698,
+      "2011": 9160,
+      "2010": 8164,
+      "2009": 6944,
+      "2008": 6112,
+      "2007": 5228,
+      "2006": 4898,
+      "2005": 4259,
+      "2004": 3560,
+      "2003": 3067,
+      "2002": 2800,
+      "2001": 2416,
+      "2000": 2414
+    }
+  }
+}

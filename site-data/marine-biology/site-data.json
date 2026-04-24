@@ -1,0 +1,2052 @@
+{
+  "slug": "marine-biology",
+  "title": "Marine Biology",
+  "updated_at": "2026-04-24T23:20:48.249254Z",
+  "snapshot": {
+    "papers": 212,
+    "topics": 6,
+    "subtopics": 40,
+    "entities": 545,
+    "claims": 0
+  },
+  "overview": {
+    "source_ids": [],
+    "partition_summary": {
+      "overview_papers": 0,
+      "topical_papers": 218,
+      "total_papers": 218,
+      "facet_counts": {
+        "none": 218
+      },
+      "gemini_validation_enabled": false,
+      "gemini_validation_ready": false,
+      "title_phrase_candidates": 0
+    }
+  },
+  "abstraction": {
+    "label": "A taxonomy-style research map spanning multiple subtopics.",
+    "concept_type": "taxonomy"
+  },
+  "hierarchy": {
+    "root_topics": 6,
+    "descendant_topics": 40,
+    "max_depth": 2,
+    "leaf_topics": 40
+  },
+  "rising_topics": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/marine-biology/topics/sg-climate-change",
+      "trend": "rising",
+      "year_total": 3792746
+    },
+    {
+      "id": "sg-marine-ecosystem",
+      "label": "Marine ecosystem",
+      "url": "/domains/marine-biology/topics/sg-marine-ecosystem",
+      "trend": "rising",
+      "year_total": 562126
+    },
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/marine-biology/topics/sg-evolutionary-biology",
+      "trend": "rising",
+      "year_total": 868919
+    }
+  ],
+  "topic_branches": [
+    {
+      "id": "sg-climate-change",
+      "label": "Climate change",
+      "url": "/domains/marine-biology/topics/sg-climate-change",
+      "paper_count": 44,
+      "subtopic_count": 5,
+      "trend": "rising",
+      "summary": "entities: climate change, ecology, change",
+      "tags": [
+        "climate change",
+        "global change",
+        "global change ecology",
+        "global climate change"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-climate-change-effects-of-climate-change",
+          "label": "Effects of climate change",
+          "url": "/domains/marine-biology/topics/sg-climate-change-effects-of-climate-change",
+          "paper_count": 18
+        },
+        {
+          "id": "sg-climate-change-environmental-resource-management",
+          "label": "Environmental resource management",
+          "url": "/domains/marine-biology/topics/sg-climate-change-environmental-resource-management",
+          "paper_count": 13
+        },
+        {
+          "id": "sg-climate-change-under-climate-change",
+          "label": "Under climate change",
+          "url": "/domains/marine-biology/topics/sg-climate-change-under-climate-change",
+          "paper_count": 11
+        },
+        {
+          "id": "sg-climate-change-global-health",
+          "label": "Global health",
+          "url": "/domains/marine-biology/topics/sg-climate-change-global-health",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-climate-change-human-impact",
+          "label": "Human impact",
+          "url": "/domains/marine-biology/topics/sg-climate-change-human-impact",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2162348455",
+          "title": "Biodiversity hotspots for conservation priorities",
+          "year": "2000",
+          "cited_by_count": 30917,
+          "url": "/domains/marine-biology/papers/W2162348455"
+        },
+        {
+          "source_id": "https://openalex.org/W2939474406",
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "url": "/domains/marine-biology/papers/W2939474406"
+        },
+        {
+          "source_id": "https://openalex.org/W75231382",
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "url": "/domains/marine-biology/papers/W75231382"
+        }
+      ]
+    },
+    {
+      "id": "sg-marine-ecosystem",
+      "label": "Marine ecosystem",
+      "url": "/domains/marine-biology/topics/sg-marine-ecosystem",
+      "paper_count": 44,
+      "subtopic_count": 8,
+      "trend": "rising",
+      "summary": "entities: ecology, marine, ecosystem",
+      "tags": [
+        "marine conservation",
+        "marine ecosystem",
+        "marine ecosystems",
+        "marine fauna ecosystem"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-marine-ecosystem-food-chain",
+          "label": "Food chain",
+          "url": "/domains/marine-biology/topics/sg-marine-ecosystem-food-chain",
+          "paper_count": 23
+        },
+        {
+          "id": "sg-marine-ecosystem-marine-nutrient-dynamics",
+          "label": "Marine nutrient dynamics",
+          "url": "/domains/marine-biology/topics/sg-marine-ecosystem-marine-nutrient-dynamics",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-marine-ecosystem-coral-reef",
+          "label": "Coral reef",
+          "url": "/domains/marine-biology/topics/sg-marine-ecosystem-coral-reef",
+          "paper_count": 5
+        },
+        {
+          "id": "sg-marine-ecosystem-ocean-acidification",
+          "label": "Ocean acidification",
+          "url": "/domains/marine-biology/topics/sg-marine-ecosystem-ocean-acidification",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-marine-ecosystem-ocean-current",
+          "label": "Ocean current",
+          "url": "/domains/marine-biology/topics/sg-marine-ecosystem-ocean-current",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-marine-ecosystem-primary-producers",
+          "label": "Primary producers",
+          "url": "/domains/marine-biology/topics/sg-marine-ecosystem-primary-producers",
+          "paper_count": 2
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2164526292",
+          "title": "Microplastics in the marine environment",
+          "year": "2011",
+          "cited_by_count": 7645,
+          "url": "/domains/marine-biology/papers/W2164526292"
+        },
+        {
+          "source_id": "https://openalex.org/W2130231032",
+          "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6507,
+          "url": "/domains/marine-biology/papers/W2130231032"
+        },
+        {
+          "source_id": "https://openalex.org/W2124565737",
+          "title": "A Global Map of Human Impact on Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6390,
+          "url": "/domains/marine-biology/papers/W2124565737"
+        }
+      ]
+    },
+    {
+      "id": "sg-evolutionary-biology",
+      "label": "Evolutionary biology",
+      "url": "/domains/marine-biology/topics/sg-evolutionary-biology",
+      "paper_count": 41,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: ecology, marine, genetics",
+      "tags": [
+        "evolutionary biology",
+        "functional diversity",
+        "genome biology",
+        "host biology"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-evolutionary-biology-marine-evolutionary-biology",
+          "label": "Marine evolutionary biology",
+          "url": "/domains/marine-biology/topics/sg-evolutionary-biology-marine-evolutionary-biology",
+          "paper_count": 17
+        },
+        {
+          "id": "sg-evolutionary-biology-dna-sequencing",
+          "label": "Dna sequencing",
+          "url": "/domains/marine-biology/topics/sg-evolutionary-biology-dna-sequencing",
+          "paper_count": 12
+        },
+        {
+          "id": "sg-evolutionary-biology-genetic-variation",
+          "label": "Genetic variation",
+          "url": "/domains/marine-biology/topics/sg-evolutionary-biology-genetic-variation",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-evolutionary-biology-gut-microbiota-and-health",
+          "label": "Gut microbiota and health",
+          "url": "/domains/marine-biology/topics/sg-evolutionary-biology-gut-microbiota-and-health",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-evolutionary-biology-human-virome-evolution",
+          "label": "Human virome evolution",
+          "url": "/domains/marine-biology/topics/sg-evolutionary-biology-human-virome-evolution",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-evolutionary-biology-functional-diversity",
+          "label": "Functional diversity",
+          "url": "/domains/marine-biology/topics/sg-evolutionary-biology-functional-diversity",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2170486072",
+          "title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses",
+          "year": "2014",
+          "cited_by_count": 3434,
+          "url": "/domains/marine-biology/papers/W2170486072"
+        },
+        {
+          "source_id": "https://openalex.org/W2088226047",
+          "title": "The re-emergence of natural products for drug discovery in the genomics era",
+          "year": "2015",
+          "cited_by_count": 2489,
+          "url": "/domains/marine-biology/papers/W2088226047"
+        },
+        {
+          "source_id": "https://openalex.org/W2887754912",
+          "title": "Systematic Revision of Symbiodiniaceae Highlights the Antiquity and Diversity of Coral Endosymbionts",
+          "year": "2018",
+          "cited_by_count": 1676,
+          "url": "/domains/marine-biology/papers/W2887754912"
+        }
+      ]
+    },
+    {
+      "id": "sg-ecosystem-service",
+      "label": "Ecosystem service",
+      "url": "/domains/marine-biology/topics/sg-ecosystem-service",
+      "paper_count": 30,
+      "subtopic_count": 6,
+      "trend": "rising",
+      "summary": "entities: ecology, environment, ecosystem",
+      "tags": [
+        "ecosystem health",
+        "ecosystem service",
+        "ecosystem service natural",
+        "ecosystem service natural capital"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-ecosystem-service-environmental-change",
+          "label": "Environmental change",
+          "url": "/domains/marine-biology/topics/sg-ecosystem-service-environmental-change",
+          "paper_count": 14
+        },
+        {
+          "id": "sg-ecosystem-service-natural-capital",
+          "label": "Natural capital",
+          "url": "/domains/marine-biology/topics/sg-ecosystem-service-natural-capital",
+          "paper_count": 8
+        },
+        {
+          "id": "sg-ecosystem-service-habitat-destruction",
+          "label": "Habitat destruction",
+          "url": "/domains/marine-biology/topics/sg-ecosystem-service-habitat-destruction",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-ecosystem-service-ecosystem-health",
+          "label": "Ecosystem health",
+          "url": "/domains/marine-biology/topics/sg-ecosystem-service-ecosystem-health",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-ecosystem-service-ecosystem-valuation",
+          "label": "Ecosystem valuation",
+          "url": "/domains/marine-biology/topics/sg-ecosystem-service-ecosystem-valuation",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-ecosystem-service-goods-service",
+          "label": "Goods service",
+          "url": "/domains/marine-biology/topics/sg-ecosystem-service-goods-service",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2746485780",
+          "title": "The value of the world's ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21763,
+          "url": "/domains/marine-biology/papers/W2746485780"
+        },
+        {
+          "source_id": "https://openalex.org/W2130509491",
+          "title": "Changes in the global value of ecosystem services",
+          "year": "2014",
+          "cited_by_count": 6003,
+          "url": "/domains/marine-biology/papers/W2130509491"
+        },
+        {
+          "source_id": "https://openalex.org/W2135011388",
+          "title": "Global pollinator declines: trends, impacts and drivers",
+          "year": "2010",
+          "cited_by_count": 6219,
+          "url": "/domains/marine-biology/papers/W2135011388"
+        }
+      ]
+    },
+    {
+      "id": "sg-microbial-community",
+      "label": "Microbial community",
+      "url": "/domains/marine-biology/topics/sg-microbial-community",
+      "paper_count": 27,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: ecology, microbial, bacteria",
+      "tags": [
+        "community structure",
+        "exploring microbial community",
+        "marine microbial",
+        "microbial community"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-microbial-community-community-structure",
+          "label": "Community structure",
+          "url": "/domains/marine-biology/topics/sg-microbial-community-community-structure",
+          "paper_count": 16
+        },
+        {
+          "id": "sg-microbial-community-soil-microbial",
+          "label": "Soil microbial",
+          "url": "/domains/marine-biology/topics/sg-microbial-community-soil-microbial",
+          "paper_count": 4
+        },
+        {
+          "id": "sg-microbial-community-phylogenetic-tree",
+          "label": "Phylogenetic tree",
+          "url": "/domains/marine-biology/topics/sg-microbial-community-phylogenetic-tree",
+          "paper_count": 3
+        },
+        {
+          "id": "sg-microbial-community-biochemical-engineering",
+          "label": "Biochemical engineering",
+          "url": "/domains/marine-biology/topics/sg-microbial-community-biochemical-engineering",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-microbial-community-community-function",
+          "label": "Community function",
+          "url": "/domains/marine-biology/topics/sg-microbial-community-community-function",
+          "paper_count": 1
+        },
+        {
+          "id": "sg-microbial-community-resistance-and-resilience",
+          "label": "Resistance and resilience",
+          "url": "/domains/marine-biology/topics/sg-microbial-community-resistance-and-resilience",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W2166171121",
+          "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+          "year": "2012",
+          "cited_by_count": 9006,
+          "url": "/domains/marine-biology/papers/W2166171121"
+        },
+        {
+          "source_id": "https://openalex.org/W1965399445",
+          "title": "Brock Biology of Microorganisms",
+          "year": "1996",
+          "cited_by_count": 5811,
+          "url": "/domains/marine-biology/papers/W1965399445"
+        },
+        {
+          "source_id": "https://openalex.org/W2127175247",
+          "title": "Structure and function of the global ocean microbiome",
+          "year": "2015",
+          "cited_by_count": 3075,
+          "url": "/domains/marine-biology/papers/W2127175247"
+        }
+      ]
+    },
+    {
+      "id": "sg-carbon-cycle",
+      "label": "Carbon cycle",
+      "url": "/domains/marine-biology/topics/sg-carbon-cycle",
+      "paper_count": 26,
+      "subtopic_count": 7,
+      "trend": "rising",
+      "summary": "entities: ecology, ecosystem, geology",
+      "tags": [
+        "atmospheric and environmental gas dynamics",
+        "carbon cycle",
+        "carbon fibers",
+        "feedbacks to climate"
+      ],
+      "subtopics": [
+        {
+          "id": "sg-carbon-cycle-carbon-sink",
+          "label": "Carbon sink",
+          "url": "/domains/marine-biology/topics/sg-carbon-cycle-carbon-sink",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-carbon-cycle-marine-organic-carbon",
+          "label": "Marine organic carbon",
+          "url": "/domains/marine-biology/topics/sg-carbon-cycle-marine-organic-carbon",
+          "paper_count": 7
+        },
+        {
+          "id": "sg-carbon-cycle-marine-nitrogen-cycle",
+          "label": "Marine nitrogen cycle",
+          "url": "/domains/marine-biology/topics/sg-carbon-cycle-marine-nitrogen-cycle",
+          "paper_count": 6
+        },
+        {
+          "id": "sg-carbon-cycle-greenhouse-gas",
+          "label": "Greenhouse gas",
+          "url": "/domains/marine-biology/topics/sg-carbon-cycle-greenhouse-gas",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-carbon-cycle-marine-soil-carbon",
+          "label": "Marine soil carbon",
+          "url": "/domains/marine-biology/topics/sg-carbon-cycle-marine-soil-carbon",
+          "paper_count": 2
+        },
+        {
+          "id": "sg-carbon-cycle-carbon-sequestration",
+          "label": "Carbon sequestration",
+          "url": "/domains/marine-biology/topics/sg-carbon-cycle-carbon-sequestration",
+          "paper_count": 1
+        }
+      ],
+      "featured_papers": [
+        {
+          "source_id": "https://openalex.org/W1522296012",
+          "title": "Climate Change 2001: The Scientific Basis",
+          "year": "2002",
+          "cited_by_count": 12982,
+          "url": "/domains/marine-biology/papers/W1522296012"
+        },
+        {
+          "source_id": "https://openalex.org/W2127435093",
+          "title": "Global trends in emerging infectious diseases",
+          "year": "2008",
+          "cited_by_count": 8180,
+          "url": "/domains/marine-biology/papers/W2127435093"
+        },
+        {
+          "source_id": "https://openalex.org/W2083857556",
+          "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+          "year": "2006",
+          "cited_by_count": 6796,
+          "url": "/domains/marine-biology/papers/W2083857556"
+        }
+      ]
+    }
+  ],
+  "paper_shelves": [
+    {
+      "label": "Climate change",
+      "paper_count": 17,
+      "papers": [
+        {
+          "title": "Biodiversity hotspots for conservation priorities",
+          "year": "2000",
+          "cited_by_count": 30917,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2162348455.html"
+        },
+        {
+          "title": "Climate change 2007: the physical science basis",
+          "year": "2007",
+          "cited_by_count": 23473,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2939474406.html"
+        },
+        {
+          "title": "Climate Change 2007: The Physical Science Basis.",
+          "year": "2007",
+          "cited_by_count": 17139,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w75231382.html"
+        },
+        {
+          "title": "Climate Change 2001: The Scientific Basis",
+          "year": "2002",
+          "cited_by_count": 12982,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w1522296012.html"
+        },
+        {
+          "title": "A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests",
+          "year": "2009",
+          "cited_by_count": 7538,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2140131090.html"
+        },
+        {
+          "title": "Global Change and the Ecology of Cities",
+          "year": "2008",
+          "cited_by_count": 6889,
+          "topic": "Climate change",
+          "url": "papers/https-openalex-org-w2097467169.html"
+        }
+      ]
+    },
+    {
+      "label": "Marine ecosystem",
+      "paper_count": 8,
+      "papers": [
+        {
+          "title": "Microplastics in the marine environment",
+          "year": "2011",
+          "cited_by_count": 7645,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2164526292.html"
+        },
+        {
+          "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6507,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2130231032.html"
+        },
+        {
+          "title": "A Global Map of Human Impact on Marine Ecosystems",
+          "year": "2008",
+          "cited_by_count": 6390,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2124565737.html"
+        },
+        {
+          "title": "Microplastics as contaminants in the marine environment: A review",
+          "year": "2011",
+          "cited_by_count": 5798,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2133892291.html"
+        },
+        {
+          "title": "The physical impacts of microplastics on marine organisms: A review",
+          "year": "2013",
+          "cited_by_count": 4330,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2003022112.html"
+        },
+        {
+          "title": "Global analysis of nitrogen and phosphorus limitation of primary producers in freshwater, marine and terrestrial ecosystems",
+          "year": "2007",
+          "cited_by_count": 4564,
+          "topic": "Marine ecosystem",
+          "url": "papers/https-openalex-org-w2164087962.html"
+        }
+      ]
+    },
+    {
+      "label": "Ecosystem service",
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "The value of the world&#x27;s ecosystem services and natural capital",
+          "year": "1997",
+          "cited_by_count": 21763,
+          "topic": "Ecosystem service",
+          "url": "papers/https-openalex-org-w2746485780.html"
+        },
+        {
+          "title": "Changes in the global value of ecosystem services",
+          "year": "2014",
+          "cited_by_count": 6003,
+          "topic": "Ecosystem service",
+          "url": "papers/https-openalex-org-w2130509491.html"
+        },
+        {
+          "title": "Global pollinator declines: trends, impacts and drivers",
+          "year": "2010",
+          "cited_by_count": 6219,
+          "topic": "Ecosystem service",
+          "url": "papers/https-openalex-org-w2135011388.html"
+        },
+        {
+          "title": "Habitat fragmentation and its lasting impact on Earth’s ecosystems",
+          "year": "2015",
+          "cited_by_count": 4394,
+          "topic": "Ecosystem service",
+          "url": "papers/https-openalex-org-w2127597920.html"
+        }
+      ]
+    },
+    {
+      "label": "Carbon cycle",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Global trends in emerging infectious diseases",
+          "year": "2008",
+          "cited_by_count": 8180,
+          "topic": "Carbon cycle",
+          "url": "papers/https-openalex-org-w2127435093.html"
+        },
+        {
+          "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+          "year": "2006",
+          "cited_by_count": 6796,
+          "topic": "Carbon cycle",
+          "url": "papers/https-openalex-org-w2083857556.html"
+        },
+        {
+          "title": "An Earth-system perspective of the global nitrogen cycle",
+          "year": "2008",
+          "cited_by_count": 3563,
+          "topic": "Carbon cycle",
+          "url": "papers/https-openalex-org-w2018459257.html"
+        }
+      ]
+    },
+    {
+      "label": "Microbial community",
+      "paper_count": 3,
+      "papers": [
+        {
+          "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+          "year": "2012",
+          "cited_by_count": 9006,
+          "topic": "Microbial community",
+          "url": "papers/https-openalex-org-w2166171121.html"
+        },
+        {
+          "title": "Brock Biology of Microorganisms",
+          "year": "1996",
+          "cited_by_count": 5811,
+          "topic": "Microbial community",
+          "url": "papers/https-openalex-org-w1965399445.html"
+        },
+        {
+          "title": "Structure and function of the global ocean microbiome",
+          "year": "2015",
+          "cited_by_count": 3075,
+          "topic": "Microbial community",
+          "url": "papers/https-openalex-org-w2127175247.html"
+        }
+      ]
+    },
+    {
+      "label": "Evolutionary biology",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses",
+          "year": "2014",
+          "cited_by_count": 3434,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2170486072.html"
+        },
+        {
+          "title": "The re-emergence of natural products for drug discovery in the genomics era",
+          "year": "2015",
+          "cited_by_count": 2489,
+          "topic": "Evolutionary biology",
+          "url": "papers/https-openalex-org-w2088226047.html"
+        }
+      ]
+    },
+    {
+      "label": "Others",
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Microplastics in the Marine Environment: A Review of the Methods Used for Identification and Quantification",
+          "year": "2012",
+          "cited_by_count": 5147,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w2005404508.html"
+        },
+        {
+          "title": "Data Analysis in Community and Landscape Ecology",
+          "year": "1995",
+          "cited_by_count": 4579,
+          "topic": "Others",
+          "url": "papers/https-openalex-org-w1563636823.html"
+        }
+      ]
+    },
+    {
+      "label": "Environmental change",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Impact of pesticides use in agriculture: their benefits and hazards",
+          "year": "2009",
+          "cited_by_count": 3465,
+          "topic": "Environmental change",
+          "url": "papers/https-openalex-org-w2158809385.html"
+        }
+      ]
+    }
+  ],
+  "paper_archive": [
+    {
+      "source_id": "https://openalex.org/W2162348455",
+      "title": "Biodiversity hotspots for conservation priorities",
+      "year": 2000,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 6063.32,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2162348455"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21763,
+      "adjusted_cited_by_count": 4041.29,
+      "primary_topic_id": "sg-ecosystem-service",
+      "primary_topic_label": "Ecosystem service",
+      "url": "/domains/marine-biology/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W2166171121",
+      "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+      "year": 2012,
+      "cited_by_count": 9006,
+      "adjusted_cited_by_count": 2406.95,
+      "primary_topic_id": "sg-microbial-community",
+      "primary_topic_label": "Microbial community",
+      "url": "/domains/marine-biology/papers/W2166171121"
+    },
+    {
+      "source_id": "https://openalex.org/W2164526292",
+      "title": "Microplastics in the marine environment",
+      "year": 2011,
+      "cited_by_count": 7645,
+      "adjusted_cited_by_count": 1973.93,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2164526292"
+    },
+    {
+      "source_id": "https://openalex.org/W2127435093",
+      "title": "Global trends in emerging infectious diseases",
+      "year": 2008,
+      "cited_by_count": 8180,
+      "adjusted_cited_by_count": 1928.04,
+      "primary_topic_id": "sg-carbon-cycle",
+      "primary_topic_label": "Carbon cycle",
+      "url": "/domains/marine-biology/papers/W2127435093"
+    },
+    {
+      "source_id": "https://openalex.org/W2140131090",
+      "title": "A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests",
+      "year": 2009,
+      "cited_by_count": 7538,
+      "adjusted_cited_by_count": 1828.23,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2140131090"
+    },
+    {
+      "source_id": "https://openalex.org/W2130509491",
+      "title": "Changes in the global value of ecosystem services",
+      "year": 2014,
+      "cited_by_count": 6003,
+      "adjusted_cited_by_count": 1732.92,
+      "primary_topic_id": "sg-ecosystem-service",
+      "primary_topic_label": "Ecosystem service",
+      "url": "/domains/marine-biology/papers/W2130509491"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6889,
+      "adjusted_cited_by_count": 1623.75,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2513922847",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "year": 2015,
+      "cited_by_count": 5304,
+      "adjusted_cited_by_count": 1599.22,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2513922847"
+    },
+    {
+      "source_id": "https://openalex.org/W2135011388",
+      "title": "Global pollinator declines: trends, impacts and drivers",
+      "year": 2010,
+      "cited_by_count": 6219,
+      "adjusted_cited_by_count": 1554.75,
+      "primary_topic_id": "sg-ecosystem-service",
+      "primary_topic_label": "Ecosystem service",
+      "url": "/domains/marine-biology/papers/W2135011388"
+    },
+    {
+      "source_id": "https://openalex.org/W2130231032",
+      "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6507,
+      "adjusted_cited_by_count": 1533.71,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2130231032"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6796,
+      "adjusted_cited_by_count": 1519.63,
+      "primary_topic_id": "sg-carbon-cycle",
+      "primary_topic_label": "Carbon cycle",
+      "url": "/domains/marine-biology/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2124565737",
+      "title": "A Global Map of Human Impact on Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6390,
+      "adjusted_cited_by_count": 1506.14,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2124565737"
+    },
+    {
+      "source_id": "https://openalex.org/W2133892291",
+      "title": "Microplastics as contaminants in the marine environment: A review",
+      "year": 2011,
+      "cited_by_count": 5798,
+      "adjusted_cited_by_count": 1497.04,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2133892291"
+    },
+    {
+      "source_id": "https://openalex.org/W2005404508",
+      "title": "Microplastics in the Marine Environment: A Review of the Methods Used for Identification and Quantification",
+      "year": 2012,
+      "cited_by_count": 5147,
+      "adjusted_cited_by_count": 1375.59,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/marine-biology/papers/W2005404508"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979033",
+      "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+      "year": 2010,
+      "cited_by_count": 5488,
+      "adjusted_cited_by_count": 1372.0,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2028979033"
+    },
+    {
+      "source_id": "https://openalex.org/W2127597920",
+      "title": "Habitat fragmentation and its lasting impact on Earth’s ecosystems",
+      "year": 2015,
+      "cited_by_count": 4394,
+      "adjusted_cited_by_count": 1324.84,
+      "primary_topic_id": "sg-ecosystem-service",
+      "primary_topic_label": "Ecosystem service",
+      "url": "/domains/marine-biology/papers/W2127597920"
+    },
+    {
+      "source_id": "https://openalex.org/W2003022112",
+      "title": "The physical impacts of microplastics on marine organisms: A review",
+      "year": 2013,
+      "cited_by_count": 4330,
+      "adjusted_cited_by_count": 1200.93,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2003022112"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5626,
+      "adjusted_cited_by_count": 1199.47,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3486,
+      "adjusted_cited_by_count": 1162.0,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2154433795",
+      "title": "Impacts of climate change on the future of biodiversity",
+      "year": 2012,
+      "cited_by_count": 4102,
+      "adjusted_cited_by_count": 1096.31,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2154433795"
+    },
+    {
+      "source_id": "https://openalex.org/W1965399445",
+      "title": "Brock Biology of Microorganisms",
+      "year": 1996,
+      "cited_by_count": 5811,
+      "adjusted_cited_by_count": 1060.94,
+      "primary_topic_id": "sg-microbial-community",
+      "primary_topic_label": "Microbial community",
+      "url": "/domains/marine-biology/papers/W1965399445"
+    },
+    {
+      "source_id": "https://openalex.org/W2164087962",
+      "title": "Global analysis of nitrogen and phosphorus limitation of primary producers in freshwater, marine and terrestrial ecosystems",
+      "year": 2007,
+      "cited_by_count": 4564,
+      "adjusted_cited_by_count": 1047.05,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2164087962"
+    },
+    {
+      "source_id": "https://openalex.org/W4226404192",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "year": 2022,
+      "cited_by_count": 2085,
+      "adjusted_cited_by_count": 1042.5,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W4226404192"
+    },
+    {
+      "source_id": "https://openalex.org/W2113297575",
+      "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+      "year": 2005,
+      "cited_by_count": 4658,
+      "adjusted_cited_by_count": 1016.46,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2113297575"
+    },
+    {
+      "source_id": "https://openalex.org/W2156709416",
+      "title": "Impacts of Biodiversity Loss on Ocean Ecosystem Services",
+      "year": 2006,
+      "cited_by_count": 4437,
+      "adjusted_cited_by_count": 992.14,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2156709416"
+    },
+    {
+      "source_id": "https://openalex.org/W2170486072",
+      "title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses",
+      "year": 2014,
+      "cited_by_count": 3434,
+      "adjusted_cited_by_count": 991.31,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/marine-biology/papers/W2170486072"
+    },
+    {
+      "source_id": "https://openalex.org/W2127175247",
+      "title": "Structure and function of the global ocean microbiome",
+      "year": 2015,
+      "cited_by_count": 3075,
+      "adjusted_cited_by_count": 927.15,
+      "primary_topic_id": "sg-microbial-community",
+      "primary_topic_label": "Microbial community",
+      "url": "/domains/marine-biology/papers/W2127175247"
+    },
+    {
+      "source_id": "https://openalex.org/W3205480029",
+      "title": "Infectious disease in an era of global change",
+      "year": 2021,
+      "cited_by_count": 1901,
+      "adjusted_cited_by_count": 850.15,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W3205480029"
+    },
+    {
+      "source_id": "https://openalex.org/W2158809385",
+      "title": "Impact of pesticides use in agriculture: their benefits and hazards",
+      "year": 2009,
+      "cited_by_count": 3465,
+      "adjusted_cited_by_count": 840.39,
+      "primary_topic_id": "sg-ecosystem-service-environmental-change",
+      "primary_topic_label": "Environmental change",
+      "url": "/domains/marine-biology/papers/W2158809385"
+    },
+    {
+      "source_id": "https://openalex.org/W2018459257",
+      "title": "An Earth-system perspective of the global nitrogen cycle",
+      "year": 2008,
+      "cited_by_count": 3563,
+      "adjusted_cited_by_count": 839.81,
+      "primary_topic_id": "sg-carbon-cycle",
+      "primary_topic_label": "Carbon cycle",
+      "url": "/domains/marine-biology/papers/W2018459257"
+    },
+    {
+      "source_id": "https://openalex.org/W1563636823",
+      "title": "Data Analysis in Community and Landscape Ecology",
+      "year": 1995,
+      "cited_by_count": 4579,
+      "adjusted_cited_by_count": 822.41,
+      "primary_topic_id": "",
+      "primary_topic_label": "",
+      "url": "/domains/marine-biology/papers/W1563636823"
+    },
+    {
+      "source_id": "https://openalex.org/W2148185586",
+      "title": "Forecasting Agriculturally Driven Global Environmental Change",
+      "year": 2001,
+      "cited_by_count": 3942,
+      "adjusted_cited_by_count": 788.4,
+      "primary_topic_id": "sg-marine-ecosystem",
+      "primary_topic_label": "Marine ecosystem",
+      "url": "/domains/marine-biology/papers/W2148185586"
+    },
+    {
+      "source_id": "https://openalex.org/W2060012482",
+      "title": "Anthropogenic carbon and ocean pH",
+      "year": 2003,
+      "cited_by_count": 3635,
+      "adjusted_cited_by_count": 757.95,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2060012482"
+    },
+    {
+      "source_id": "https://openalex.org/W2088226047",
+      "title": "The re-emergence of natural products for drug discovery in the genomics era",
+      "year": 2015,
+      "cited_by_count": 2489,
+      "adjusted_cited_by_count": 750.46,
+      "primary_topic_id": "sg-evolutionary-biology",
+      "primary_topic_label": "Evolutionary biology",
+      "url": "/domains/marine-biology/papers/W2088226047"
+    },
+    {
+      "source_id": "https://openalex.org/W2001092428",
+      "title": "The Impact of Climate Change on the World’s Marine Ecosystems",
+      "year": 2010,
+      "cited_by_count": 2884,
+      "adjusted_cited_by_count": 721.0,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2001092428"
+    },
+    {
+      "source_id": "https://openalex.org/W2797541543",
+      "title": "Longer and more frequent marine heatwaves over the past century",
+      "year": 2018,
+      "cited_by_count": 2027,
+      "adjusted_cited_by_count": 716.65,
+      "primary_topic_id": "sg-climate-change",
+      "primary_topic_label": "Climate change",
+      "url": "/domains/marine-biology/papers/W2797541543"
+    }
+  ],
+  "representative_papers": [
+    {
+      "source_id": "https://openalex.org/W2162348455",
+      "title": "Biodiversity hotspots for conservation priorities",
+      "year": 2000,
+      "cited_by_count": 30917,
+      "adjusted_cited_by_count": 6063.32,
+      "url": "/domains/marine-biology/papers/W2162348455"
+    },
+    {
+      "source_id": "https://openalex.org/W2939474406",
+      "title": "Climate change 2007: the physical science basis",
+      "year": 2007,
+      "cited_by_count": 23473,
+      "adjusted_cited_by_count": 5385.08,
+      "url": "/domains/marine-biology/papers/W2939474406"
+    },
+    {
+      "source_id": "https://openalex.org/W2746485780",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1997,
+      "cited_by_count": 21763,
+      "adjusted_cited_by_count": 4041.29,
+      "url": "/domains/marine-biology/papers/W2746485780"
+    },
+    {
+      "source_id": "https://openalex.org/W75231382",
+      "title": "Climate Change 2007: The Physical Science Basis.",
+      "year": 2007,
+      "cited_by_count": 17139,
+      "adjusted_cited_by_count": 3931.96,
+      "url": "/domains/marine-biology/papers/W75231382"
+    },
+    {
+      "source_id": "https://openalex.org/W1522296012",
+      "title": "Climate Change 2001: The Scientific Basis",
+      "year": 2002,
+      "cited_by_count": 12982,
+      "adjusted_cited_by_count": 2649.94,
+      "url": "/domains/marine-biology/papers/W1522296012"
+    },
+    {
+      "source_id": "https://openalex.org/W2166171121",
+      "title": "Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms",
+      "year": 2012,
+      "cited_by_count": 9006,
+      "adjusted_cited_by_count": 2406.95,
+      "url": "/domains/marine-biology/papers/W2166171121"
+    },
+    {
+      "source_id": "https://openalex.org/W2164526292",
+      "title": "Microplastics in the marine environment",
+      "year": 2011,
+      "cited_by_count": 7645,
+      "adjusted_cited_by_count": 1973.93,
+      "url": "/domains/marine-biology/papers/W2164526292"
+    },
+    {
+      "source_id": "https://openalex.org/W2127435093",
+      "title": "Global trends in emerging infectious diseases",
+      "year": 2008,
+      "cited_by_count": 8180,
+      "adjusted_cited_by_count": 1928.04,
+      "url": "/domains/marine-biology/papers/W2127435093"
+    },
+    {
+      "source_id": "https://openalex.org/W2140131090",
+      "title": "A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests",
+      "year": 2009,
+      "cited_by_count": 7538,
+      "adjusted_cited_by_count": 1828.23,
+      "url": "/domains/marine-biology/papers/W2140131090"
+    },
+    {
+      "source_id": "https://openalex.org/W2130509491",
+      "title": "Changes in the global value of ecosystem services",
+      "year": 2014,
+      "cited_by_count": 6003,
+      "adjusted_cited_by_count": 1732.92,
+      "url": "/domains/marine-biology/papers/W2130509491"
+    },
+    {
+      "source_id": "https://openalex.org/W2097467169",
+      "title": "Global Change and the Ecology of Cities",
+      "year": 2008,
+      "cited_by_count": 6889,
+      "adjusted_cited_by_count": 1623.75,
+      "url": "/domains/marine-biology/papers/W2097467169"
+    },
+    {
+      "source_id": "https://openalex.org/W2513922847",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "year": 2015,
+      "cited_by_count": 5304,
+      "adjusted_cited_by_count": 1599.22,
+      "url": "/domains/marine-biology/papers/W2513922847"
+    },
+    {
+      "source_id": "https://openalex.org/W2135011388",
+      "title": "Global pollinator declines: trends, impacts and drivers",
+      "year": 2010,
+      "cited_by_count": 6219,
+      "adjusted_cited_by_count": 1554.75,
+      "url": "/domains/marine-biology/papers/W2135011388"
+    },
+    {
+      "source_id": "https://openalex.org/W2130231032",
+      "title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6507,
+      "adjusted_cited_by_count": 1533.71,
+      "url": "/domains/marine-biology/papers/W2130231032"
+    },
+    {
+      "source_id": "https://openalex.org/W2083857556",
+      "title": "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change",
+      "year": 2006,
+      "cited_by_count": 6796,
+      "adjusted_cited_by_count": 1519.63,
+      "url": "/domains/marine-biology/papers/W2083857556"
+    },
+    {
+      "source_id": "https://openalex.org/W2124565737",
+      "title": "A Global Map of Human Impact on Marine Ecosystems",
+      "year": 2008,
+      "cited_by_count": 6390,
+      "adjusted_cited_by_count": 1506.14,
+      "url": "/domains/marine-biology/papers/W2124565737"
+    },
+    {
+      "source_id": "https://openalex.org/W2133892291",
+      "title": "Microplastics as contaminants in the marine environment: A review",
+      "year": 2011,
+      "cited_by_count": 5798,
+      "adjusted_cited_by_count": 1497.04,
+      "url": "/domains/marine-biology/papers/W2133892291"
+    },
+    {
+      "source_id": "https://openalex.org/W2005404508",
+      "title": "Microplastics in the Marine Environment: A Review of the Methods Used for Identification and Quantification",
+      "year": 2012,
+      "cited_by_count": 5147,
+      "adjusted_cited_by_count": 1375.59,
+      "url": "/domains/marine-biology/papers/W2005404508"
+    },
+    {
+      "source_id": "https://openalex.org/W2028979033",
+      "title": "Investigating soil moisture–climate interactions in a changing climate: A review",
+      "year": 2010,
+      "cited_by_count": 5488,
+      "adjusted_cited_by_count": 1372.0,
+      "url": "/domains/marine-biology/papers/W2028979033"
+    },
+    {
+      "source_id": "https://openalex.org/W2127597920",
+      "title": "Habitat fragmentation and its lasting impact on Earth’s ecosystems",
+      "year": 2015,
+      "cited_by_count": 4394,
+      "adjusted_cited_by_count": 1324.84,
+      "url": "/domains/marine-biology/papers/W2127597920"
+    },
+    {
+      "source_id": "https://openalex.org/W2003022112",
+      "title": "The physical impacts of microplastics on marine organisms: A review",
+      "year": 2013,
+      "cited_by_count": 4330,
+      "adjusted_cited_by_count": 1200.93,
+      "url": "/domains/marine-biology/papers/W2003022112"
+    },
+    {
+      "source_id": "https://openalex.org/W2119132330",
+      "title": "The Global Land Data Assimilation System",
+      "year": 2004,
+      "cited_by_count": 5626,
+      "adjusted_cited_by_count": 1199.47,
+      "url": "/domains/marine-biology/papers/W2119132330"
+    },
+    {
+      "source_id": "https://openalex.org/W2598701004",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "year": 2017,
+      "cited_by_count": 3486,
+      "adjusted_cited_by_count": 1162.0,
+      "url": "/domains/marine-biology/papers/W2598701004"
+    },
+    {
+      "source_id": "https://openalex.org/W2154433795",
+      "title": "Impacts of climate change on the future of biodiversity",
+      "year": 2012,
+      "cited_by_count": 4102,
+      "adjusted_cited_by_count": 1096.31,
+      "url": "/domains/marine-biology/papers/W2154433795"
+    },
+    {
+      "source_id": "https://openalex.org/W1965399445",
+      "title": "Brock Biology of Microorganisms",
+      "year": 1996,
+      "cited_by_count": 5811,
+      "adjusted_cited_by_count": 1060.94,
+      "url": "/domains/marine-biology/papers/W1965399445"
+    },
+    {
+      "source_id": "https://openalex.org/W2164087962",
+      "title": "Global analysis of nitrogen and phosphorus limitation of primary producers in freshwater, marine and terrestrial ecosystems",
+      "year": 2007,
+      "cited_by_count": 4564,
+      "adjusted_cited_by_count": 1047.05,
+      "url": "/domains/marine-biology/papers/W2164087962"
+    },
+    {
+      "source_id": "https://openalex.org/W4226404192",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "year": 2022,
+      "cited_by_count": 2085,
+      "adjusted_cited_by_count": 1042.5,
+      "url": "/domains/marine-biology/papers/W4226404192"
+    },
+    {
+      "source_id": "https://openalex.org/W2113297575",
+      "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+      "year": 2005,
+      "cited_by_count": 4658,
+      "adjusted_cited_by_count": 1016.46,
+      "url": "/domains/marine-biology/papers/W2113297575"
+    },
+    {
+      "source_id": "https://openalex.org/W2156709416",
+      "title": "Impacts of Biodiversity Loss on Ocean Ecosystem Services",
+      "year": 2006,
+      "cited_by_count": 4437,
+      "adjusted_cited_by_count": 992.14,
+      "url": "/domains/marine-biology/papers/W2156709416"
+    },
+    {
+      "source_id": "https://openalex.org/W2170486072",
+      "title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses",
+      "year": 2014,
+      "cited_by_count": 3434,
+      "adjusted_cited_by_count": 991.31,
+      "url": "/domains/marine-biology/papers/W2170486072"
+    },
+    {
+      "source_id": "https://openalex.org/W2127175247",
+      "title": "Structure and function of the global ocean microbiome",
+      "year": 2015,
+      "cited_by_count": 3075,
+      "adjusted_cited_by_count": 927.15,
+      "url": "/domains/marine-biology/papers/W2127175247"
+    },
+    {
+      "source_id": "https://openalex.org/W3205480029",
+      "title": "Infectious disease in an era of global change",
+      "year": 2021,
+      "cited_by_count": 1901,
+      "adjusted_cited_by_count": 850.15,
+      "url": "/domains/marine-biology/papers/W3205480029"
+    },
+    {
+      "source_id": "https://openalex.org/W2158809385",
+      "title": "Impact of pesticides use in agriculture: their benefits and hazards",
+      "year": 2009,
+      "cited_by_count": 3465,
+      "adjusted_cited_by_count": 840.39,
+      "url": "/domains/marine-biology/papers/W2158809385"
+    },
+    {
+      "source_id": "https://openalex.org/W2018459257",
+      "title": "An Earth-system perspective of the global nitrogen cycle",
+      "year": 2008,
+      "cited_by_count": 3563,
+      "adjusted_cited_by_count": 839.81,
+      "url": "/domains/marine-biology/papers/W2018459257"
+    },
+    {
+      "source_id": "https://openalex.org/W1563636823",
+      "title": "Data Analysis in Community and Landscape Ecology",
+      "year": 1995,
+      "cited_by_count": 4579,
+      "adjusted_cited_by_count": 822.41,
+      "url": "/domains/marine-biology/papers/W1563636823"
+    },
+    {
+      "source_id": "https://openalex.org/W2148185586",
+      "title": "Forecasting Agriculturally Driven Global Environmental Change",
+      "year": 2001,
+      "cited_by_count": 3942,
+      "adjusted_cited_by_count": 788.4,
+      "url": "/domains/marine-biology/papers/W2148185586"
+    },
+    {
+      "source_id": "https://openalex.org/W2060012482",
+      "title": "Anthropogenic carbon and ocean pH",
+      "year": 2003,
+      "cited_by_count": 3635,
+      "adjusted_cited_by_count": 757.95,
+      "url": "/domains/marine-biology/papers/W2060012482"
+    },
+    {
+      "source_id": "https://openalex.org/W2088226047",
+      "title": "The re-emergence of natural products for drug discovery in the genomics era",
+      "year": 2015,
+      "cited_by_count": 2489,
+      "adjusted_cited_by_count": 750.46,
+      "url": "/domains/marine-biology/papers/W2088226047"
+    },
+    {
+      "source_id": "https://openalex.org/W2001092428",
+      "title": "The Impact of Climate Change on the World’s Marine Ecosystems",
+      "year": 2010,
+      "cited_by_count": 2884,
+      "adjusted_cited_by_count": 721.0,
+      "url": "/domains/marine-biology/papers/W2001092428"
+    },
+    {
+      "source_id": "https://openalex.org/W2797541543",
+      "title": "Longer and more frequent marine heatwaves over the past century",
+      "year": 2018,
+      "cited_by_count": 2027,
+      "adjusted_cited_by_count": 716.65,
+      "url": "/domains/marine-biology/papers/W2797541543"
+    }
+  ],
+  "role_profiles": [
+    {
+      "label": "biology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 183
+    },
+    {
+      "label": "ecology",
+      "semantic_role": "entity_like",
+      "topic_role": "domain_topic",
+      "ui_role": "index",
+      "confidence": 0.99,
+      "evidence_count": 159
+    },
+    {
+      "label": "environmental science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 100
+    },
+    {
+      "label": "of the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 87
+    },
+    {
+      "label": "marine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 82
+    },
+    {
+      "label": "ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 78
+    },
+    {
+      "label": "in the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 62
+    },
+    {
+      "label": "change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "geology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 60
+    },
+    {
+      "label": "global",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 55
+    },
+    {
+      "label": "oceanography",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 53
+    },
+    {
+      "label": "climate",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "gene",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 51
+    },
+    {
+      "label": "climate change",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "environment",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 50
+    },
+    {
+      "label": "here",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 49
+    },
+    {
+      "label": "our",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 48
+    },
+    {
+      "label": "diversity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 45
+    },
+    {
+      "label": "species",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 44
+    },
+    {
+      "label": "most",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 43
+    },
+    {
+      "label": "ocean",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.99,
+      "evidence_count": 42
+    },
+    {
+      "label": "genetics",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9898,
+      "evidence_count": 36
+    },
+    {
+      "label": "environmental resource management",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9893,
+      "evidence_count": 34
+    },
+    {
+      "label": "biodiversity",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 34
+    },
+    {
+      "label": "community",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.989,
+      "evidence_count": 33
+    },
+    {
+      "label": "computer science",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 32
+    },
+    {
+      "label": "water",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9885,
+      "evidence_count": 31
+    },
+    {
+      "label": "environmental",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9882,
+      "evidence_count": 125
+    },
+    {
+      "label": "microbial",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9879,
+      "evidence_count": 29
+    },
+    {
+      "label": "data",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 28
+    },
+    {
+      "label": "ecosystems",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 28
+    },
+    {
+      "label": "habitat",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 28
+    },
+    {
+      "label": "impacts",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 28
+    },
+    {
+      "label": "population",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9877,
+      "evidence_count": 28
+    },
+    {
+      "label": "bacteria",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 27
+    },
+    {
+      "label": "human",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 27
+    },
+    {
+      "label": "marine ecosystem",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 27
+    },
+    {
+      "label": "on the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9874,
+      "evidence_count": 27
+    },
+    {
+      "label": "to the",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9871,
+      "evidence_count": 26
+    },
+    {
+      "label": "of marine",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 24
+    },
+    {
+      "label": "world",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9866,
+      "evidence_count": 24
+    },
+    {
+      "label": "evolutionary biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 23
+    },
+    {
+      "label": "fishery",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9863,
+      "evidence_count": 23
+    },
+    {
+      "label": "carbon",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 24
+    },
+    {
+      "label": "change in",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 22
+    },
+    {
+      "label": "ecological",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.986,
+      "evidence_count": 22
+    },
+    {
+      "label": "natural",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 25
+    },
+    {
+      "label": "effects of",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 21
+    },
+    {
+      "label": "computational biology",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 20
+    },
+    {
+      "label": "nutrient",
+      "semantic_role": "entity_like",
+      "topic_role": "bridge_topic",
+      "ui_role": "subgenre",
+      "confidence": 0.9855,
+      "evidence_count": 20
+    }
+  ],
+  "topic_year_counts": {
+    "climate change": {
+      "2025": 470038,
+      "2024": 416155,
+      "2023": 407687,
+      "2022": 293946,
+      "2021": 265668,
+      "2020": 238703,
+      "2019": 196329,
+      "2018": 173349,
+      "2017": 152826,
+      "2016": 141711,
+      "2026": 134892,
+      "2015": 128106,
+      "2014": 116215,
+      "2013": 106869,
+      "2012": 94481,
+      "2011": 81830,
+      "2010": 71829,
+      "2009": 61364,
+      "2008": 48117,
+      "2007": 39413,
+      "2006": 32131,
+      "2005": 27484,
+      "2004": 23700,
+      "2003": 20600,
+      "2002": 17664,
+      "2000": 15941,
+      "2001": 15698
+    },
+    "marine ecosystem": {
+      "2025": 67475,
+      "2023": 59916,
+      "2024": 59516,
+      "2022": 42202,
+      "2021": 38967,
+      "2020": 34245,
+      "2019": 28953,
+      "2018": 26431,
+      "2017": 23705,
+      "2016": 21503,
+      "2015": 19213,
+      "2026": 18615,
+      "2014": 17893,
+      "2013": 16261,
+      "2012": 14447,
+      "2011": 11857,
+      "2010": 10344,
+      "2009": 9320,
+      "2008": 7683,
+      "2007": 6567,
+      "2006": 5776,
+      "2005": 4900,
+      "2004": 4085,
+      "2003": 3734,
+      "2002": 3163,
+      "2001": 2714,
+      "2000": 2641
+    },
+    "evolutionary biology": {
+      "2023": 88715,
+      "2024": 81789,
+      "2025": 77203,
+      "2022": 60606,
+      "2021": 58807,
+      "2020": 56649,
+      "2019": 47701,
+      "2018": 43464,
+      "2017": 40918,
+      "2016": 36671,
+      "2015": 34260,
+      "2014": 32427,
+      "2013": 29552,
+      "2012": 26277,
+      "2026": 23685,
+      "2011": 22550,
+      "2010": 19025,
+      "2009": 16595,
+      "2008": 13944,
+      "2007": 11804,
+      "2006": 10050,
+      "2005": 8148,
+      "2004": 7382,
+      "2003": 6096,
+      "2002": 5251,
+      "2001": 4728,
+      "2000": 4622
+    },
+    "ecosystem service": {
+      "2025": 187909,
+      "2024": 143967,
+      "2023": 135053,
+      "2022": 90790,
+      "2021": 79726,
+      "2020": 67659,
+      "2026": 58160,
+      "2019": 54210,
+      "2018": 46910,
+      "2017": 39370,
+      "2016": 35439,
+      "2015": 30140,
+      "2014": 26962,
+      "2013": 23469,
+      "2012": 19637,
+      "2011": 16007,
+      "2010": 13655,
+      "2009": 11466,
+      "2008": 8992,
+      "2007": 7746,
+      "2006": 6642,
+      "2005": 5935,
+      "2004": 4573,
+      "2003": 3864,
+      "2000": 3268,
+      "2002": 3221,
+      "2001": 2932
+    },
+    "microbial community": {
+      "2025": 101653,
+      "2024": 92077,
+      "2023": 91239,
+      "2022": 65101,
+      "2021": 58476,
+      "2020": 52506,
+      "2019": 41780,
+      "2018": 36024,
+      "2026": 32122,
+      "2017": 31900,
+      "2016": 27623,
+      "2015": 23984,
+      "2014": 21837,
+      "2013": 18749,
+      "2012": 16368,
+      "2011": 13110,
+      "2010": 11053,
+      "2009": 9406,
+      "2008": 8020,
+      "2007": 6719,
+      "2006": 6578,
+      "2005": 5112,
+      "2004": 4140,
+      "2003": 3789,
+      "2000": 3252,
+      "2002": 3081,
+      "2001": 2737
+    },
+    "carbon cycle": {
+      "2025": 213035,
+      "2023": 205435,
+      "2024": 201925,
+      "2022": 138497,
+      "2021": 122817,
+      "2020": 111248,
+      "2019": 93132,
+      "2018": 82929,
+      "2017": 74632,
+      "2016": 67218,
+      "2026": 65527,
+      "2015": 59898,
+      "2014": 54091,
+      "2013": 48388,
+      "2012": 41525,
+      "2011": 35304,
+      "2010": 29874,
+      "2009": 24968,
+      "2008": 20801,
+      "2007": 17508,
+      "2006": 15644,
+      "2005": 13745,
+      "2004": 11774,
+      "2003": 10568,
+      "2002": 8818,
+      "2000": 8150,
+      "2001": 8055
+    }
+  }
+}
